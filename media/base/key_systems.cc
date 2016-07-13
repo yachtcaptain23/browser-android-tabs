@@ -43,13 +43,11 @@ struct NamedCodec {
 static const NamedCodec kMimeTypeToCodecMasks[] = {
     {"audio/webm", EME_CODEC_WEBM_AUDIO_ALL},
     {"video/webm", EME_CODEC_WEBM_VIDEO_ALL},
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
     {"audio/mp4", EME_CODEC_MP4_AUDIO_ALL},
     {"video/mp4", EME_CODEC_MP4_VIDEO_ALL},
 #if BUILDFLAG(ENABLE_MSE_MPEG2TS_STREAM_PARSER)
     {"video/mp2t", EME_CODEC_MP2T_VIDEO_ALL},
 #endif  // BUILDFLAG(ENABLE_MSE_MPEG2TS_STREAM_PARSER)
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 };
 
 // Mapping between codec names and enum values.
@@ -61,7 +59,6 @@ static const NamedCodec kCodecStrings[] = {
     {"vp9", EME_CODEC_WEBM_VP9},        // VP9.
     {"vp9.0", EME_CODEC_WEBM_VP9},      // VP9.
     {"vp09", EME_CODEC_COMMON_VP9},     // New multi-part VP9 for WebM and MP4.
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
     {"mp4a", EME_CODEC_MP4_AAC},  // AAC.
 #if BUILDFLAG(ENABLE_AC3_EAC3_AUDIO_DEMUXING)
     {"ac-3", EME_CODEC_MP4_AC3},   // AC3.
@@ -81,7 +78,6 @@ static const NamedCodec kCodecStrings[] = {
     {"dvhe", EME_CODEC_MP4_DV_HEVC},  // DolbyVision HEVC
 #endif
 #endif
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 };
 
 class ClearKeyProperties : public KeySystemProperties {
@@ -89,10 +85,8 @@ class ClearKeyProperties : public KeySystemProperties {
   std::string GetKeySystemName() const override { return kClearKeyKeySystem; }
 
   bool IsSupportedInitDataType(EmeInitDataType init_data_type) const override {
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
     if (init_data_type == EmeInitDataType::CENC)
       return true;
-#endif
     return init_data_type == EmeInitDataType::WEBM ||
            init_data_type == EmeInitDataType::KEYIDS;
   }
@@ -103,9 +97,7 @@ class ClearKeyProperties : public KeySystemProperties {
     // VP9 support is device dependent.
     SupportedCodecs codecs = EME_CODEC_WEBM_ALL;
 
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
     codecs |= EME_CODEC_MP4_ALL;
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 
     return codecs;
   }
