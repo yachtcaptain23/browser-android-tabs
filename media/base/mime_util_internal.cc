@@ -246,9 +246,7 @@ SupportsType MimeUtil::AreSupportedCodecs(
 }
 
 void MimeUtil::InitializeMimeTypeMaps() {
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   allow_proprietary_codecs_ = true;
-#endif
 
   AddSupportedMediaFormats();
 }
@@ -279,7 +277,6 @@ void MimeUtil::AddSupportedMediaFormats() {
   CodecSet webm_codecs(webm_audio_codecs);
   webm_codecs.insert(webm_video_codecs.begin(), webm_video_codecs.end());
 
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   const CodecSet mp3_codecs{MP3};
   const CodecSet aac{MPEG2_AAC, MPEG4_AAC};
 
@@ -312,7 +309,6 @@ void MimeUtil::AddSupportedMediaFormats() {
 
   CodecSet mp4_codecs(mp4_audio_codecs);
   mp4_codecs.insert(mp4_video_codecs.begin(), mp4_video_codecs.end());
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 
   const CodecSet implicit_codec;
   AddContainerWithCodecs("audio/wav", wav_codecs, false);
@@ -329,7 +325,6 @@ void MimeUtil::AddSupportedMediaFormats() {
   AddContainerWithCodecs("application/ogg", ogg_codecs, false);
   AddContainerWithCodecs("audio/flac", implicit_codec, false);
 
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   AddContainerWithCodecs("audio/mpeg", mp3_codecs, true);  // Allow "mp3".
   AddContainerWithCodecs("audio/mp3", implicit_codec, true);
   AddContainerWithCodecs("audio/x-mp3", implicit_codec, true);
@@ -364,16 +359,11 @@ void MimeUtil::AddSupportedMediaFormats() {
   // https://crbug.com/675552 for details and examples.
   AddContainerWithCodecs("audio/x-mpegurl", hls_codecs, true);
 #endif  // defined(OS_ANDROID)
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 }
 
 void MimeUtil::AddContainerWithCodecs(const std::string& mime_type,
                                       const CodecSet& codecs,
                                       bool is_proprietary_mime_type) {
-#if !BUILDFLAG(USE_PROPRIETARY_CODECS)
-  DCHECK(!is_proprietary_mime_type);
-#endif
-
   media_format_map_[mime_type] = codecs;
 
   if (is_proprietary_mime_type)
