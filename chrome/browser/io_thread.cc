@@ -283,6 +283,8 @@ IOThread::IOThread(
       nullptr,
       nullptr,
       nullptr,
+      nullptr,
+      nullptr,
       local_state);
 
   BrowserThread::SetIOThreadDelegate(this);

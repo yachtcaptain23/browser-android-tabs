@@ -22,6 +22,7 @@
 #include "components/domain_reliability/monitor.h"
 #include "components/prefs/pref_member.h"
 #include "net/base/network_delegate_impl.h"
+#include "chrome/browser/net/blockers/blockers_worker.h"
 
 class ChromeExtensionsNetworkDelegate;
 class PrefService;
@@ -79,6 +80,14 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   // the header file. Here we just forward-declare it.
   void set_cookie_settings(content_settings::CookieSettings* cookie_settings);
 
+  void set_enable_tracking_protection(BooleanPrefMember* enable_tracking_protection) {
+    enable_tracking_protection_ = enable_tracking_protection;
+  }
+
+  void set_enable_ad_block(BooleanPrefMember* enable_ad_block) {
+    enable_ad_block_ = enable_ad_block;
+  }
+
   void set_force_google_safe_search(
       BooleanPrefMember* force_google_safe_search) {
     force_google_safe_search_ = force_google_safe_search;
@@ -117,6 +126,8 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   // All arguments can be nullptr. This method should be called on the UI
   // thread.
   static void InitializePrefsOnUIThread(
+      BooleanPrefMember* enable_tracking_protection,
+      BooleanPrefMember* enable_ad_block,
       BooleanPrefMember* force_google_safe_search,
       IntegerPrefMember* force_youtube_restrict,
       StringPrefMember* allowed_domains_for_apps,
@@ -202,6 +213,8 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   scoped_refptr<content_settings::CookieSettings> cookie_settings_;
 
   // Weak, owned by our owner.
+  BooleanPrefMember* enable_tracking_protection_;
+  BooleanPrefMember* enable_ad_block_;
   BooleanPrefMember* force_google_safe_search_;
   IntegerPrefMember* force_youtube_restrict_;
   StringPrefMember* allowed_domains_for_apps_;
@@ -212,6 +225,9 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   std::unique_ptr<ReportingPermissionsChecker> reporting_permissions_checker_;
 
   bool experimental_web_platform_features_enabled_;
+
+  // Blockers
+  net::blockers::BlockersWorker blockers_worker_;
 
   DISALLOW_COPY_AND_ASSIGN(ChromeNetworkDelegate);
 };
