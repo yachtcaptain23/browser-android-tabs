@@ -512,6 +512,11 @@ void ProfileIOData::InitializeOnUIThread(Profile* profile) {
   allowed_domains_for_apps_.MoveToThread(
       BrowserThread::GetTaskRunnerForThread(BrowserThread::IO));
 
+  ChromeNetworkDelegate::InitializePrefsOnUIThread(
+      &enable_tracking_protection_,
+      &enable_ad_block_
+      pref_service);
+
   scoped_refptr<base::SingleThreadTaskRunner> io_task_runner =
       BrowserThread::GetTaskRunnerForThread(BrowserThread::IO);
 
@@ -1103,6 +1108,8 @@ void ProfileIOData::Init(
     chrome_network_delegate->set_profile_path(profile_params_->path);
     chrome_network_delegate->set_cookie_settings(
         profile_params_->cookie_settings.get());
+    chrome_network_delegate->set_enable_tracking_protection(&enable_tracking_protection_);
+    chrome_network_delegate->set_enable_ad_block(&enable_ad_block_);
 
     chrome_network_delegate_unowned_ = chrome_network_delegate.get();
 
@@ -1334,6 +1341,8 @@ void ProfileIOData::ShutdownOnUIThread(
 #if !defined(OS_CHROMEOS)
   signin_scoped_device_id_.Destroy();
 #endif
+  enable_tracking_protection_.Destroy();
+  enable_ad_block_.Destroy();
   force_google_safesearch_.Destroy();
   force_youtube_restrict_.Destroy();
   allowed_domains_for_apps_.Destroy();

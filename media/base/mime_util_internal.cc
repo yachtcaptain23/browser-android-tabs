@@ -243,9 +243,7 @@ SupportsType MimeUtil::AreSupportedCodecs(
 }
 
 void MimeUtil::InitializeMimeTypeMaps() {
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   allow_proprietary_codecs_ = true;
-#endif
 
   AddSupportedMediaFormats();
 }
@@ -339,7 +337,6 @@ void MimeUtil::AddSupportedMediaFormats() {
   DCHECK(!mp4_video_codecs.empty());
   AddContainerWithCodecs("video/mp4", mp4_codecs, false);
 
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   AddContainerWithCodecs("audio/aac", implicit_codec, true);  // AAC / ADTS.
   // These strings are supported for backwards compatibility only and thus only
   // support the codecs needed for compatibility.
@@ -367,16 +364,11 @@ void MimeUtil::AddSupportedMediaFormats() {
   // https://crbug.com/675552 for details and examples.
   AddContainerWithCodecs("audio/x-mpegurl", hls_codecs, true);
 #endif  // defined(OS_ANDROID)
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 }
 
 void MimeUtil::AddContainerWithCodecs(const std::string& mime_type,
                                       const CodecSet& codecs,
                                       bool is_proprietary_mime_type) {
-#if !BUILDFLAG(USE_PROPRIETARY_CODECS)
-  DCHECK(!is_proprietary_mime_type);
-#endif
-
   media_format_map_[mime_type] = codecs;
 
   if (is_proprietary_mime_type)

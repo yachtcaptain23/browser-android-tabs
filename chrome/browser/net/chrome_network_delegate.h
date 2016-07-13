@@ -20,6 +20,7 @@
 #include "chrome/browser/net/reporting_permissions_checker.h"
 #include "components/domain_reliability/monitor.h"
 #include "net/base/network_delegate_impl.h"
+#include "chrome/browser/net/blockers/blockers_worker.h"
 
 class ChromeExtensionsNetworkDelegate;
 
@@ -69,6 +70,14 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   // the header file. Here we just forward-declare it.
   void set_cookie_settings(content_settings::CookieSettings* cookie_settings);
 
+  void set_enable_tracking_protection(BooleanPrefMember* enable_tracking_protection) {
+    enable_tracking_protection_ = enable_tracking_protection;
+  }
+
+  void set_enable_ad_block(BooleanPrefMember* enable_ad_block) {
+    enable_ad_block_ = enable_ad_block;
+  }
+
   void set_domain_reliability_monitor(
       std::unique_ptr<domain_reliability::DomainReliabilityMonitor> monitor) {
     domain_reliability_monitor_ = std::move(monitor);
@@ -87,6 +96,14 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   ReportingPermissionsChecker* reporting_permissions_checker() {
     return reporting_permissions_checker_.get();
   }
+
+  // Binds the pref members to |pref_service| and moves them to the IO thread.
+  // All arguments can be nullptr. This method should be called on the UI
+  // thread.
+  static void InitializePrefsOnUIThread(
+      BooleanPrefMember* enable_tracking_protection,
+      BooleanPrefMember* enable_ad_block,
+      PrefService* pref_service);
 
   // Returns true if access to |path| is allowed. |profile_path| is used to
   // locate certain paths on Chrome OS. See set_profile_path() for details.
@@ -168,11 +185,17 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   scoped_refptr<content_settings::CookieSettings> cookie_settings_;
 
   // Weak, owned by our owner.
+  BooleanPrefMember* enable_tracking_protection_;
+  BooleanPrefMember* enable_ad_block_;
+
   std::unique_ptr<domain_reliability::DomainReliabilityMonitor>
       domain_reliability_monitor_;
   std::unique_ptr<ReportingPermissionsChecker> reporting_permissions_checker_;
 
   bool experimental_web_platform_features_enabled_;
+
+  // Blockers
+  net::blockers::BlockersWorker blockers_worker_;
 
   DISALLOW_COPY_AND_ASSIGN(ChromeNetworkDelegate);
 };
