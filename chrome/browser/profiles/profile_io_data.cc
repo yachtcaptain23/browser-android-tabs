@@ -513,6 +513,7 @@ void ProfileIOData::InitializeOnUIThread(Profile* profile) {
       BrowserThread::GetTaskRunnerForThread(BrowserThread::IO));
 
   ChromeNetworkDelegate::InitializePrefsOnUIThread(
+      &enable_httpse_,
       &enable_tracking_protection_,
       &enable_ad_block_
       pref_service);
@@ -1108,6 +1109,7 @@ void ProfileIOData::Init(
     chrome_network_delegate->set_profile_path(profile_params_->path);
     chrome_network_delegate->set_cookie_settings(
         profile_params_->cookie_settings.get());
+    chrome_network_delegate->set_enable_httpse(&enable_httpse_);
     chrome_network_delegate->set_enable_tracking_protection(&enable_tracking_protection_);
     chrome_network_delegate->set_enable_ad_block(&enable_ad_block_);
 
@@ -1341,6 +1343,7 @@ void ProfileIOData::ShutdownOnUIThread(
 #if !defined(OS_CHROMEOS)
   signin_scoped_device_id_.Destroy();
 #endif
+  enable_httpse_.Destroy();
   enable_tracking_protection_.Destroy();
   enable_ad_block_.Destroy();
   force_google_safesearch_.Destroy();
