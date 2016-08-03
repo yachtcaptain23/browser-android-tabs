@@ -1757,9 +1757,9 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                 builder.setView(DistilledPagePrefsView.create(this));
                 builder.show();
             }
-        } else if (id == R.id.help_id) {
+        } /*else if (id == R.id.help_id) {
             startHelpAndFeedback(currentTab, "MobileMenuFeedback");
-        } else {
+        }*/ else {
             return false;
         }
         return true;
