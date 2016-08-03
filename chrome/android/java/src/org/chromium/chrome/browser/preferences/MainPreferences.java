@@ -40,7 +40,7 @@ public class MainPreferences extends PreferenceFragment
     public static final String PREF_SAVED_PASSWORDS = "saved_passwords";
     public static final String PREF_HOMEPAGE = "homepage";
     public static final String PREF_SUGGESTIONS = "suggestions";
-    public static final String PREF_DATA_REDUCTION = "data_reduction";
+    //public static final String PREF_DATA_REDUCTION = "data_reduction";
 
     public static final String ACCOUNT_PICKER_DIALOG_TAG = "account_picker_dialog_tag";
     public static final String EXTRA_SHOW_SEARCH_ENGINE_PICKER = "show_search_engine_picker";
@@ -143,7 +143,7 @@ public class MainPreferences extends PreferenceFragment
             getPreferenceScreen().removePreference(homepagePref);
         }
 
-        ChromeBasePreference dataReduction =
+        /*ChromeBasePreference dataReduction =
                 (ChromeBasePreference) findPreference(PREF_DATA_REDUCTION);
         dataReduction.setSummary(DataReductionPreferences.generateSummary(getResources()));
         dataReduction.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
@@ -151,6 +151,7 @@ public class MainPreferences extends PreferenceFragment
         if (!SigninManager.get(getActivity()).isSigninSupported()) {
             getPreferenceScreen().removePreference(findPreference(PREF_SIGN_IN));
         }
+        }*/
     }
 
     @Override
@@ -217,12 +218,12 @@ public class MainPreferences extends PreferenceFragment
                 if (PREF_SAVED_PASSWORDS.equals(preference.getKey())) {
                     return PrefServiceBridge.getInstance().isRememberPasswordsManaged();
                 }
-                if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
+                /*if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
                     return DataReductionProxySettings.getInstance().isDataReductionProxyManaged();
                 }
                 if (PREF_SEARCH_ENGINE.equals(preference.getKey())) {
                     return TemplateUrlService.getInstance().isDefaultSearchManaged();
-                }
+                }*/
                 return false;
             }
 
@@ -237,14 +238,14 @@ public class MainPreferences extends PreferenceFragment
                     return prefs.isRememberPasswordsManaged()
                             && !prefs.isRememberPasswordsEnabled();
                 }
-                if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
+                /*if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
                     DataReductionProxySettings settings = DataReductionProxySettings.getInstance();
                     return settings.isDataReductionProxyManaged()
                             && !settings.isDataReductionProxyEnabled();
                 }
                 if (PREF_SEARCH_ENGINE.equals(preference.getKey())) {
                     return TemplateUrlService.getInstance().isDefaultSearchManaged();
-                }
+                }*/
                 return super.isPreferenceClickDisabledByPolicy(preference);
             }
         };
