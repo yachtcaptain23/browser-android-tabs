@@ -65,11 +65,11 @@
         android:key="languages"
         android:order="11"
         android:title="@string/prefs_languages"/>
-    <org.chromium.chrome.browser.preferences.ChromeBasePreference
+    <!--<org.chromium.chrome.browser.preferences.ChromeBasePreference
         android:fragment="org.chromium.chrome.browser.preferences.datareduction.DataReductionPreferences"
         android:key="data_reduction"
         android:order="12"
-        android:title="@string/data_reduction_title"/>
+        android:title="@string/data_reduction_title"/> -->
     <Preference
         android:fragment="org.chromium.chrome.browser.preferences.AboutChromePreferences"
         android:key="about_chrome"
