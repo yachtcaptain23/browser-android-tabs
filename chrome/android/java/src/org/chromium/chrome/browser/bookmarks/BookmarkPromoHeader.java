@@ -134,7 +134,8 @@ class BookmarkPromoHeader implements AndroidSyncSettingsObserver,
     }
 
     private void updateShouldShow(boolean notifyUI) {
-        boolean oldIsShowing = mShouldShow;
+        mShouldShow = false;
+        /*boolean oldIsShowing = mShouldShow;
         mShouldShow = AndroidSyncSettings.isMasterSyncEnabled(mContext)
                 && mSignInManager.isSignInAllowed()
                 && !wasSigninPromoDeclined()
@@ -142,7 +143,7 @@ class BookmarkPromoHeader implements AndroidSyncSettingsObserver,
                         PREF_SIGNIN_PROMO_SHOW_COUNT, 0) < MAX_SIGNIN_PROMO_SHOW_COUNT;
         if (oldIsShowing != mShouldShow && notifyUI) {
             mShowingChangeListener.onPromoHeaderShowingChanged(mShouldShow);
-        }
+        }*/
     }
 
     // AndroidSyncSettingsObserver implementation
