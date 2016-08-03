@@ -19,7 +19,7 @@
         android:layout_marginStart="24dp"
         android:contentDescription="@null"
         android:scaleType="fitCenter"
-        android:src="@drawable/product_logo_name" />
+        android:src="@drawable/fre_product_logo" />
 
     <org.chromium.ui.widget.TextViewWithClickableSpans
         android:id="@+id/lightweight_fre_tos_and_privacy"
@@ -59,4 +59,5 @@
         android:textAllCaps="true"
         android:textColor="@color/light_active_color"
         android:textSize="@dimen/text_size_medium" />
+
 </RelativeLayout>
