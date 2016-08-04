@@ -1199,7 +1199,7 @@ _add_unwind_tables_in_chrome_public_apk =
 chrome_public_apk_tmpl_shared("chrome_public_apk") {
   android_manifest = chrome_public_android_manifest
   android_manifest_dep = ":chrome_public_android_manifest"
-  apk_name = "ChromePublic"
+  apk_name = "Brave"
   shared_libraries = [ ":libchrome" ]
   add_unwind_tables_in_apk = _add_unwind_tables_in_chrome_public_apk
   if (_add_unwind_tables_in_chrome_public_apk) {
