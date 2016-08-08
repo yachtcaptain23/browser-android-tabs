@@ -588,9 +588,9 @@ public class ChromeTabbedActivity
                     && !isLegacyMultiWindow) {
                 // Data reduction promo should be temporarily suppressed if the sign in promo is
                 // shown to avoid nagging users too much.
-                isShowingPromo = SigninPromoUtil.launchSigninPromoIfNeeded(this)
+                /*isShowingPromo = SigninPromoUtil.launchSigninPromoIfNeeded(this)
                         || DataReductionPromoScreen.launchDataReductionPromo(
-                                   this, mTabModelSelectorImpl.getCurrentModel().isIncognito());
+                                   this, mTabModelSelectorImpl.getCurrentModel().isIncognito());*/
             } else {
                 preferenceManager.setPromosSkippedOnFirstStart(true);
             }
