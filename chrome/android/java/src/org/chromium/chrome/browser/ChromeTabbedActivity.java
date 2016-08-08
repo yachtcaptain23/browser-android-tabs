@@ -481,13 +481,13 @@ public class ChromeTabbedActivity
                 // Data reduction promo should be temporarily suppressed if the sign in promo is
                 // shown to avoid nagging users too much.
                 TabModel currentModel = mTabModelSelectorImpl.getCurrentModel();
-                if (!SigninPromoUtil.launchSigninPromoIfNeeded(this)) {
+                /*if (!SigninPromoUtil.launchSigninPromoIfNeeded(this)) {
                     if (!DataReductionPromoScreen.launchDataReductionPromo(
                                 this, currentModel.isIncognito())
                             && getBottomSheet() != null) {
                         getBottomSheet().showHelpBubbleIfNecessary();
                     }
-                }
+                }*/
             } else {
                 preferenceManager.setPromosSkippedOnFirstStart(true);
             }
