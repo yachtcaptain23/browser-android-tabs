@@ -32,6 +32,9 @@ import org.chromium.build.BuildHooksConfig;
 import org.chromium.chrome.browser.crash.PureJavaExceptionHandler;
 import org.chromium.chrome.browser.crash.PureJavaExceptionReporter;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
+import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
+import org.chromium.chrome.browser.init.ShieldsConfig;
+import org.chromium.chrome.browser.locale.LocaleManager;
 import org.chromium.chrome.browser.metrics.UmaUtils;
 import org.chromium.chrome.browser.preferences.ChromePreferenceManager;
 import org.chromium.chrome.browser.vr.OnExitVrRequestListener;
@@ -46,6 +49,7 @@ public class ChromeApplication extends Application {
     private static final String TAG = "ChromiumApplication";
 
     private DiscardableReferencePool mReferencePool;
+    private ShieldsConfig mShieldsConfig;
 
     // Called by the framework for ALL processes. Runs before ContentProviders are created.
     // Quirk: context.getApplicationContext() returns null during this method.
@@ -134,6 +138,16 @@ public class ChromeApplication extends Application {
                 || level >= TRIM_MEMORY_MODERATE) {
             if (mReferencePool != null) mReferencePool.drain();
         }
+    }
+
+    public void initShieldsConfig() {
+        if (null == mShieldsConfig) {
+            mShieldsConfig = new ShieldsConfig();
+        }
+    }
+
+    public ShieldsConfig getShieldsConfig() {
+        return mShieldsConfig;
     }
 
     /**

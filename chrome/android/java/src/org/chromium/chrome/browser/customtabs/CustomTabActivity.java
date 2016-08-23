@@ -545,6 +545,10 @@ public class CustomTabActivity extends ChromeActivity {
         getToolbarManager().initializeWithNative(getTabModelSelector(),
                 getFullscreenManager().getBrowserVisibilityDelegate(), getFindToolbarManager(),
                 null, layoutDriver, null, null, null, new OnClickListener() {
+        getToolbarManager().initializeWithNative(
+                getTabModelSelector(),
+                getFullscreenManager().getBrowserVisibilityDelegate(),
+                mFindToolbarManager, null, layoutDriver, null, null, null,
                     @Override
                     public void onClick(View v) {
                         RecordUserAction.record("CustomTabs.CloseButtonClicked");
@@ -1032,6 +1036,7 @@ public class CustomTabActivity extends ChromeActivity {
     public void finish() {
         // Prevent the menu window from leaking.
         if (getAppMenuHandler() != null) getAppMenuHandler().hideAppMenu();
+        if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
 
         super.finish();
         if (mIntentDataProvider != null && mIntentDataProvider.shouldAnimateOnFinish()) {
