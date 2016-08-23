@@ -485,6 +485,11 @@ public class ChromeBrowserInitializer {
                 AsyncTask.THREAD_POOL_EXECUTOR.execute(new LogcatExtractionRunnable(minidump));
             }
         });
+
+        ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app) {
+            app.initShieldsConfig();
+        }
     }
 
     private void waitForDebuggerIfNeeded() {
