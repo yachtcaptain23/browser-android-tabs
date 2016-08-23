@@ -21,6 +21,9 @@ import org.chromium.base.library_loader.ProcessInitException;
 import org.chromium.chrome.browser.document.DocumentActivity;
 import org.chromium.chrome.browser.document.IncognitoDocumentActivity;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
+import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
+import org.chromium.chrome.browser.init.ShieldsConfig;
+import org.chromium.chrome.browser.locale.LocaleManager;
 import org.chromium.chrome.browser.metrics.UmaUtils;
 import org.chromium.chrome.browser.tabmodel.document.ActivityDelegateImpl;
 import org.chromium.chrome.browser.tabmodel.document.DocumentTabModelSelector;
@@ -41,6 +44,7 @@ public class ChromeApplication extends ContentApplication {
     private static final long BOOT_TIMESTAMP_MARGIN_MS = 1000;
 
     private static DocumentTabModelSelector sDocumentTabModelSelector;
+    private ShieldsConfig mShieldsConfig;
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -63,6 +67,16 @@ public class ChromeApplication extends ContentApplication {
         super.onCreate();
 
         TraceEvent.end("ChromeApplication.onCreate");
+    }
+
+    public void initShieldsConfig() {
+        if (null == mShieldsConfig) {
+            mShieldsConfig = new ShieldsConfig();
+        }
+    }
+
+    public ShieldsConfig getShieldsConfig() {
+        return mShieldsConfig;
     }
 
     /**
