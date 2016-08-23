@@ -37,6 +37,9 @@ import android.view.WindowManager;
 import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.AccessibilityManager.AccessibilityStateChangeListener;
 import android.view.accessibility.AccessibilityManager.TouchExplorationStateChangeListener;
+import android.widget.ImageButton;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
 
 import org.chromium.base.ActivityState;
 import org.chromium.base.ApiCompatibilityUtils;
@@ -55,7 +58,9 @@ import org.chromium.chrome.browser.IntentHandler.TabOpenType;
 import org.chromium.chrome.browser.appmenu.AppMenu;
 import org.chromium.chrome.browser.appmenu.AppMenuHandler;
 import org.chromium.chrome.browser.appmenu.AppMenuObserver;
+import org.chromium.chrome.browser.appmenu.BraveShieldsMenuObserver;
 import org.chromium.chrome.browser.appmenu.AppMenuPropertiesDelegate;
+import org.chromium.chrome.browser.appmenu.BraveShieldsMenuHandler;
 import org.chromium.chrome.browser.bookmarks.BookmarkModel;
 import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.CompositorViewHolder;
@@ -235,6 +240,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
     private DataReductionPromoSnackbarController mDataReductionPromoSnackbarController;
     private AppMenuPropertiesDelegate mAppMenuPropertiesDelegate;
     private AppMenuHandler mAppMenuHandler;
+    private BraveShieldsMenuHandler mBraveShieldsMenuHandler;
     private ToolbarManager mToolbarManager;
 
     // Time in ms that it took took us to inflate the initial layout
@@ -436,6 +442,28 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         mAppMenuPropertiesDelegate = createAppMenuPropertiesDelegate();
         mAppMenuHandler = sAppMenuHandlerFactory.get(this, mAppMenuPropertiesDelegate,
                 getAppMenuLayoutId());
+        mBraveShieldsMenuHandler = new BraveShieldsMenuHandler(this, R.menu.brave_shields_menu);
+        mBraveShieldsMenuHandler.addObserver(new BraveShieldsMenuObserver() {
+            @Override
+            public void onMenuTopShieldsChanged(boolean isOn) {
+                if (isOn) {
+                    setBraveShieldsColored();
+                } else {
+                    setBraveShieldsBlackAndWhite();
+                }
+                Tab currentTab = getActivityTab();
+                if (currentTab == null) {
+                    return;
+                }
+                if (currentTab.isLoading()) {
+                    currentTab.stopLoading();
+                } else {
+                    currentTab.reload();
+                    RecordUserAction.record("MobileToolbarReload");
+                }
+                if (mBraveShieldsMenuHandler != null) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
+            }
+        });
         mToolbarManager = new ToolbarManager(this, toolbarContainer, mAppMenuHandler,
                 mAppMenuPropertiesDelegate, getCompositorViewHolder().getInvalidator());
         mAppMenuHandler.addObserver(new AppMenuObserver() {
@@ -458,6 +486,19 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                 }
             }
         });
+        setBraveShieldsBlackAndWhite();
+    }
+
+    protected void setBraveShieldsBlackAndWhite() {
+        ColorMatrix matrix = new ColorMatrix();
+        matrix.setSaturation(0);
+
+        ColorMatrixColorFilter filter = new ColorMatrixColorFilter(matrix);
+        ((ImageButton)findViewById(R.id.brave_shields_button)).setColorFilter(filter);
+    }
+
+    protected void setBraveShieldsColored() {
+        ((ImageButton)findViewById(R.id.brave_shields_button)).clearColorFilter();
     }
 
     /**
@@ -775,7 +816,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         Tab tab = getActivityTab();
         if (tab != null && !hasWindowFocus()) tab.onActivityHidden();
         if (mAppMenuHandler != null) mAppMenuHandler.hideAppMenu();
-
+        if (null != mBraveShieldsMenuHandler) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
         if (GSAState.getInstance(this).isGsaAvailable()) {
             GSAAccountChangeListener.getInstance().disconnect();
             if (mSyncStateChangedListener != null) {
@@ -1537,6 +1578,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         if (mAppMenuHandler != null) mAppMenuHandler.hideAppMenu();
+        if (null != mBraveShieldsMenuHandler) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
         super.onConfigurationChanged(newConfig);
 
         if (newConfig.screenWidthDp != mScreenWidthDp) {
@@ -1639,6 +1681,14 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         tabCreator.createNewTab(
                 new LoadUrlParams(searchUrl, PageTransition.LINK),
                 TabModel.TabLaunchType.FROM_LINK, getActivityTab());
+    }
+
+    /**
+     * @return The {@link AppMenuHandler} associated with this activity.
+     */
+    @VisibleForTesting
+    public BraveShieldsMenuHandler getBraveShieldsMenuHandler() {
+        return mBraveShieldsMenuHandler;
     }
 
     /**
