@@ -21,6 +21,9 @@ import org.chromium.build.BuildHooksAndroid;
 import org.chromium.chrome.browser.document.DocumentActivity;
 import org.chromium.chrome.browser.document.IncognitoDocumentActivity;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
+import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
+import org.chromium.chrome.browser.init.ShieldsConfig;
+import org.chromium.chrome.browser.locale.LocaleManager;
 import org.chromium.chrome.browser.metrics.UmaUtils;
 import org.chromium.chrome.browser.tabmodel.document.ActivityDelegateImpl;
 import org.chromium.chrome.browser.tabmodel.document.DocumentTabModelSelector;
@@ -39,6 +42,7 @@ public class ChromeApplication extends ContentApplication {
 
     private static DocumentTabModelSelector sDocumentTabModelSelector;
     private DiscardableReferencePool mReferencePool;
+    private ShieldsConfig mShieldsConfig;
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -73,6 +77,16 @@ public class ChromeApplication extends ContentApplication {
                 || level >= TRIM_MEMORY_MODERATE) {
             if (mReferencePool != null) mReferencePool.drain();
         }
+    }
+
+    public void initShieldsConfig() {
+        if (null == mShieldsConfig) {
+            mShieldsConfig = new ShieldsConfig();
+        }
+    }
+
+    public ShieldsConfig getShieldsConfig() {
+        return mShieldsConfig;
     }
 
     /**
