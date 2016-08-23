@@ -32,6 +32,7 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 
 import org.chromium.base.ActivityState;
+import org.chromium.base.ContextUtils;
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.base.ApplicationStatus;
 import org.chromium.base.BuildInfo;
@@ -105,6 +106,8 @@ import org.chromium.chrome.browser.tabmodel.TabModel;
 import org.chromium.chrome.browser.tabmodel.TabModel.TabLaunchType;
 import org.chromium.chrome.browser.tabmodel.TabModel.TabSelectionType;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
+import org.chromium.chrome.browser.tabmodel.TabModel.TabSelectionType;
+import org.chromium.chrome.browser.tabmodel.TabModelObserver;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorImpl;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabModelObserver;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabObserver;
@@ -136,6 +139,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.net.URL;
 
 /**
  * This is the main activity for ChromeMobile when not running in document mode.  All the tabs
@@ -327,6 +331,17 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
             mTabModelSelectorImpl.onNativeLibraryReady(getTabContentManager());
 
             mTabModelObserver = new TabModelSelectorTabModelObserver(mTabModelSelectorImpl) {
+                @Override
+                public void didSelectTab(Tab tab, TabSelectionType type, int lastId) {
+                    try {
+                        URL url = new URL(tab.getUrl());
+
+                        setBraveShieldsColor(url.getHost());
+                    } catch (Exception e) {
+                        setBraveShieldsBlackAndWhite();
+                    }
+                }
+
                 @Override
                 public void didCloseTab(int tabId, boolean incognito) {
                     closeIfNoTabsAndHomepageEnabled(false);
@@ -675,6 +690,26 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                     toggleOverview();
                 }
             };
+            OnClickListener braveShieldsClickHandler = new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (getFullscreenManager() != null
+                            && getFullscreenManager().getPersistentFullscreenMode()) {
+                        return;
+                    }
+                    Tab currentTab = getActivityTab();
+                    if (currentTab != null) {
+                        try {
+                            URL url = new URL(currentTab.getUrl());
+
+                            setBraveShieldsColor(url.getHost());
+                            getBraveShieldsMenuHandler().show((View)findViewById(R.id.brave_shields_button), url.getHost());
+                        } catch (Exception e) {
+                            setBraveShieldsBlackAndWhite();
+                        }
+                    }
+                }
+            };
             OnClickListener newTabClickHandler = new OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -695,7 +730,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
             getToolbarManager().initializeWithNative(mTabModelSelectorImpl,
                     getFullscreenManager().getBrowserVisibilityDelegate(),
                     mFindToolbarManager, mLayoutManager, mLayoutManager,
-                    tabSwitcherClickHandler, newTabClickHandler, bookmarkClickHandler, null);
+                    tabSwitcherClickHandler, newTabClickHandler, bookmarkClickHandler,
+                    braveShieldsClickHandler, null);
 
             if (isTablet()) {
                 EmptyBackgroundViewWrapper bgViewWrapper = new EmptyBackgroundViewWrapper(
@@ -1248,6 +1284,33 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                 } else {
                     mIsFirstPageLoadStart = false;
                 }
+
+                ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+                if ((null != app) && (null != app.getShieldsConfig())) {
+                    app.getShieldsConfig().setTabModelSelectorTabObserver(mTabModelSelectorTabObserver);
+                }
+                if (getActivityTab() == tab) {
+                    try {
+                        URL urlCheck = new URL(url);
+                        setBraveShieldsColor(urlCheck.getHost());
+                    } catch (Exception e) {
+                        setBraveShieldsBlackAndWhite();
+                    }
+                }
+                tab.clearBraveShieldsCount();
+            }
+
+            @Override
+            public void onPageLoadFinished(Tab tab) {
+                String url = tab.getUrl();
+                if (getActivityTab() == tab) {
+                    try {
+                        URL urlCheck = new URL(url);
+                        setBraveShieldsColor(urlCheck.getHost());
+                    } catch (Exception e) {
+                        setBraveShieldsBlackAndWhite();
+                    }
+                }
             }
 
             @Override
@@ -1323,6 +1386,18 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                 AutocompleteController.nativePrefetchZeroSuggestResults();
             }
         });
+    }
+
+    private void setBraveShieldsColor(String url) {
+        ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app) {
+            if (app.getShieldsConfig().isTopShieldsEnabled(url)) {
+                // Set Brave Shields button in color if we have a valid URL
+                setBraveShieldsColored();
+            } else {
+                setBraveShieldsBlackAndWhite();
+            }
+        }
     }
 
     @Override
@@ -1802,6 +1877,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
         if (mFindToolbarManager != null) mFindToolbarManager.hideToolbar();
         if (getAssistStatusHandler() != null) getAssistStatusHandler().updateAssistState();
         if (getAppMenuHandler() != null) getAppMenuHandler().hideAppMenu();
+        if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
         ApiCompatibilityUtils.setStatusBarColor(getWindow(), Color.BLACK);
         StartupMetrics.getInstance().recordOpenedTabSwitcher();
     }
@@ -1812,6 +1888,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
     @Override
     public void onOverviewModeStartedHiding(boolean showToolbar, boolean delayAnimation) {
         if (getAppMenuHandler() != null) getAppMenuHandler().hideAppMenu();
+        if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
     }
 
     @Override
