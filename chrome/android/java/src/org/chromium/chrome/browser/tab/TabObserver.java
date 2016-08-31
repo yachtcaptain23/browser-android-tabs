@@ -297,4 +297,12 @@ public interface TabObserver {
      * @param isInteractable Whether or not the tab is interactable.
      */
     public void onInteractabilityChanged(boolean isInteractable);
+
+    /**
+     * Called when the Brave Shields counts changed.
+     * @param url The notifying Tab with url.
+     * @param adsAndTrackers The adsAndTrackers count.
+     * @param httpsUpgrades The httpsUpgrades count.
+     */
+    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades);
 }
