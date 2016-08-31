@@ -406,6 +406,8 @@ public class Tab
     private int mTopControlsHeight;
     private int mBottomControlsHeight;
     private boolean mControlsResizeView;
+    private int mAdsAndTrackers;
+    private int mHttpsUpgrades;
 
     /**
      * The publisher URL for pages hosted on a trusted CDN, or null otherwise.
@@ -645,6 +647,8 @@ public class Tab
         };
 
         mDisplayCutoutController = new DisplayCutoutController(this);
+        mAdsAndTrackers = 0;
+        mHttpsUpgrades = 0;
     }
 
     private int calculateDefaultThemeColor() {
@@ -3449,6 +3453,23 @@ public class Tab
         Tracker tracker = TrackerFactory.getTrackerForProfile(Profile.getLastUsedProfile());
         tracker.dismissed(FeatureConstants.MEDIA_DOWNLOAD_FEATURE);
         nativeMediaDownloadInProductHelpDismissed(mNativeTabAndroid);
+
+    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades) {
+        mAdsAndTrackers += adsAndTrackers;
+        mHttpsUpgrades += httpsUpgrades;
+    }
+
+    public int getAdsAndTrackers() {
+        return mAdsAndTrackers;
+    }
+
+    public int getHttpsUpgrades() {
+        return mHttpsUpgrades;
+    }
+
+    public void clearBraveShieldsCount() {
+        mAdsAndTrackers = 0;
+        mHttpsUpgrades = 0;
     }
 
     /**

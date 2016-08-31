@@ -132,4 +132,7 @@ public class EmptyTabObserver implements TabObserver {
     @Override
     public void onBrowserControlsConstraintsUpdated(
             Tab tab, @BrowserControlsState int constraints) {}
+
+    @Override
+    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades) { }
 }

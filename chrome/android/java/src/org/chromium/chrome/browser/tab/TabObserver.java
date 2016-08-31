@@ -317,4 +317,12 @@ public interface TabObserver {
      * @param constraints The updated browser controls constraints.
      */
     public void onBrowserControlsConstraintsUpdated(Tab tab, @BrowserControlsState int constraints);
+
+    /**
+     * Called when the Brave Shields counts changed.
+     * @param url The notifying Tab with url.
+     * @param adsAndTrackers The adsAndTrackers count.
+     * @param httpsUpgrades The httpsUpgrades count.
+     */
+    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades);
 }
