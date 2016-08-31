@@ -498,10 +498,11 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                 }
                 if (currentTab.isLoading()) {
                     currentTab.stopLoading();
-                } else {
-                    currentTab.reload();
-                    RecordUserAction.record("MobileToolbarReload");
                 }
+
+                currentTab.reloadIgnoringCache();
+                RecordUserAction.record("MobileToolbarReload");
+
                 if (mBraveShieldsMenuHandler != null) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
             }
         });
@@ -2197,4 +2198,11 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
      * in this call, including showing 2D UI that was hidden.
      */
     public void onExitVR() {}
+
+    /**
+     * Updates Bravery Panel counts
+     */
+    public void updateBraveryPanelCounts(int adsAndTrackers, int httpsUpgrades) {
+        mBraveShieldsMenuHandler.updateValues(adsAndTrackers, httpsUpgrades);
+    }
 }
