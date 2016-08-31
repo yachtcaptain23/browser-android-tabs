@@ -563,10 +563,9 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                     }
                     if (currentTab.isLoading()) {
                         currentTab.stopLoading();
-                    } else {
-                        currentTab.reload();
-                        RecordUserAction.record("MobileToolbarReload");
                     }
+                    currentTab.reloadIgnoringCache();
+                    RecordUserAction.record("MobileToolbarReload");
                     if (mBraveShieldsMenuHandler != null) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
                 }
             });
@@ -2467,6 +2466,12 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
     @Deprecated
     public DiscardableReferencePool getReferencePool() {
         return mReferencePool;
+
+    /**
+     * Updates Bravery Panel counts
+     */
+    public void updateBraveryPanelCounts(int adsAndTrackers, int httpsUpgrades) {
+        mBraveShieldsMenuHandler.updateValues(adsAndTrackers, httpsUpgrades);
     }
 
     private void clearToolbarResourceCache() {
