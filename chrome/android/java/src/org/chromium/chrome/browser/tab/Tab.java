@@ -408,6 +408,9 @@ public class Tab
     /** Whether or not the tab closing the tab can send the user back to the app that opened it. */
     private boolean mIsAllowedToReturnToExternalApp;
 
+    private int mAdsAndTrackers;
+    private int mHttpsUpgrades;
+
     private GestureStateListener createGestureStateListener() {
         return new GestureStateListener() {
             @Override
@@ -545,6 +548,8 @@ public class Tab
                         && creationState == TabCreationState.FROZEN_ON_RESTORE;
             }
         }
+        mAdsAndTrackers = 0;
+        mHttpsUpgrades = 0;
     }
 
     private int calculateDefaultThemeColor() {
@@ -3268,6 +3273,23 @@ public class Tab
         Tracker tracker = TrackerFactory.getTrackerForProfile(Profile.getLastUsedProfile());
         tracker.dismissed(FeatureConstants.MEDIA_DOWNLOAD_FEATURE);
         nativeMediaDownloadInProductHelpDismissed(mNativeTabAndroid);
+
+    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades) {
+        mAdsAndTrackers += adsAndTrackers;
+        mHttpsUpgrades += httpsUpgrades;
+    }
+
+    public int getAdsAndTrackers() {
+        return mAdsAndTrackers;
+    }
+
+    public int getHttpsUpgrades() {
+        return mHttpsUpgrades;
+    }
+
+    public void clearBraveShieldsCount() {
+        mAdsAndTrackers = 0;
+        mHttpsUpgrades = 0;
     }
 
     private native void nativeInit();

@@ -120,4 +120,7 @@ public class EmptyTabObserver implements TabObserver {
 
     @Override
     public void onActivityAttachmentChanged(Tab tab, boolean isAttached) {}
+
+    @Override
+    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades) { }
 }
