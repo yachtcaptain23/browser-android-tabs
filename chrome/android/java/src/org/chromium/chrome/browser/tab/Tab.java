@@ -371,6 +371,9 @@ public class Tab
     /** Whether or not the tab closing the tab can send the user back to the app that opened it. */
     private boolean mIsAllowedToReturnToExternalApp;
 
+    private int mAdsAndTrackers;
+    private int mHttpsUpgrades;
+
     private class TabContentViewClient extends ContentViewClient {
         @Override
         public void onImeEvent() {
@@ -543,6 +546,8 @@ public class Tab
                         && creationState == TabCreationState.FROZEN_ON_RESTORE;
             }
         }
+        mAdsAndTrackers = 0;
+        mHttpsUpgrades = 0;
     }
 
     /**
@@ -3098,6 +3103,24 @@ public class Tab
     public void enableEmbeddedMediaExperience(boolean enabled) {
         if (mNativeTabAndroid == 0) return;
         nativeEnableEmbeddedMediaExperience(mNativeTabAndroid, enabled);
+    }
+
+    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades) {
+        mAdsAndTrackers += adsAndTrackers;
+        mHttpsUpgrades += httpsUpgrades;
+    }
+
+    public int getAdsAndTrackers() {
+        return mAdsAndTrackers;
+    }
+
+    public int getHttpsUpgrades() {
+        return mHttpsUpgrades;
+    }
+
+    public void clearBraveShieldsCount() {
+        mAdsAndTrackers = 0;
+        mHttpsUpgrades = 0;
     }
 
     private native void nativeInit();
