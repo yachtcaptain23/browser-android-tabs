@@ -370,6 +370,7 @@ public class Tab
 
     private int mAdsAndTrackers;
     private int mHttpsUpgrades;
+    private int mScriptsBlocked;
 
     private GestureStateListener createGestureStateListener() {
         return new GestureStateListener() {
@@ -519,6 +520,7 @@ public class Tab
         }
         mAdsAndTrackers = 0;
         mHttpsUpgrades = 0;
+        mScriptsBlocked = 0;
     }
 
     /**
@@ -3045,9 +3047,11 @@ public class Tab
         nativeEnableEmbeddedMediaExperience(mNativeTabAndroid, enabled);
     }
 
-    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades) {
+    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades
+            , int scriptsBlocked) {
         mAdsAndTrackers += adsAndTrackers;
         mHttpsUpgrades += httpsUpgrades;
+        mScriptsBlocked += scriptsBlocked;
     }
 
     public int getAdsAndTrackers() {
@@ -3058,9 +3062,14 @@ public class Tab
         return mHttpsUpgrades;
     }
 
+    public int getScriptsBlocked() {
+        return mScriptsBlocked;
+    }
+
     public void clearBraveShieldsCount() {
         mAdsAndTrackers = 0;
         mHttpsUpgrades = 0;
+        mScriptsBlocked = 0;
     }
 
     private native void nativeInit();
