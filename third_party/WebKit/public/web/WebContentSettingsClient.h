@@ -102,6 +102,9 @@ class WebContentSettingsClient {
   // were enabled.
   virtual void didNotAllowScript() {}
 
+  // Notifies the client that the frame denied script because script were disabled.
+  virtual void deniedScript() { }
+
   virtual ~WebContentSettingsClient() {}
 };
 
