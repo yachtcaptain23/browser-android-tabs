@@ -121,4 +121,19 @@ void ContentSettingsClient::DidNotAllowPlugins() {
     client_->DidNotAllowPlugins();
 }
 
+void ContentSettingsClient::DeniedScript() {
+  if (client_)
+    client_->DeniedScript();
+}
+
+bool ContentSettingsClient::AllowFingerprinting() {
+  if (client_)
+    client_->AllowFingerprinting();
+}
+
+void ContentSettingsClient::DeniedFingerprinting() {
+  if (client_)
+    client_->DeniedFingerprinting();
+}
+
 }  // namespace blink
