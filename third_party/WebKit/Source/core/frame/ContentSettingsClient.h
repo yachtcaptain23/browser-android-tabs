@@ -93,6 +93,15 @@ class CORE_EXPORT ContentSettingsClient {
   // This callback is similar, but for plugins.
   void DidNotAllowPlugins();
 
+  // Notifies the client that the frame denied scripts because script were disabled.
+  void DeniedScript();
+
+  // Controls whether Fingerprinting is allowed for this frame.
+  bool AllowFingerprinting();
+
+  // Notifies the client that the frame denied fingerprinting because it was disabled.
+  void DeniedFingerprinting();
+
  private:
   WebContentSettingsClient* client_ = nullptr;
 };

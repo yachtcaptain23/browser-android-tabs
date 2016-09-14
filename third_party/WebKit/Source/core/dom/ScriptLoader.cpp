@@ -45,6 +45,7 @@
 #include "core/html/CrossOriginAttribute.h"
 #include "core/html/imports/HTMLImport.h"
 #include "core/html/parser/HTMLParserIdioms.h"
+#include "core/loader/FrameLoaderClient.h"
 #include "platform/WebFrameScheduler.h"
 #include "platform/loader/fetch/AccessControlStatus.h"
 #include "platform/loader/fetch/FetchParameters.h"
@@ -261,8 +262,16 @@ bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
 
   // 10. "If scripting is disabled for the script element, then abort these
   //      steps at this point. The script is not executed."
-  if (!context_document->CanExecuteScripts(kAboutToExecuteScript))
+  if (!context_document->CanExecuteScripts(kAboutToExecuteScript)) {
+    if (0 != ScriptContent().length()) {
+        LocalFrame* frame = element_->document().frame();
+        if (frame) {
+            frame->loader().client()->DeniedScript();
+        }
+    }
+
     return false;
+  }
 
   // 13.
   if (!IsScriptForEventSupported())

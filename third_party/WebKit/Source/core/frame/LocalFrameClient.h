@@ -235,6 +235,8 @@ class CORE_EXPORT LocalFrameClient : public FrameClient {
 
   virtual void DidChangeScrollOffset() {}
   virtual void DidUpdateCurrentHistoryItem() {}
+  // This callback notifies the client that script was blocked
+  virtual void DeniedScript() { }
 
   virtual WebCookieJar* CookieJar() const = 0;
 
