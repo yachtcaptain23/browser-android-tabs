@@ -122,5 +122,6 @@ public class EmptyTabObserver implements TabObserver {
     public void onInteractabilityChanged(boolean isInteractable) {}
 
     @Override
-    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades) { }
+    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades,
+            int scriptsBlocked) { }
 }
