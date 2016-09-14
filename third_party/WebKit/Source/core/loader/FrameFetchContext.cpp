@@ -759,6 +759,8 @@ ResourceRequestBlockedReason FrameFetchContext::canRequestInternal(
             !frame()->settings() || frame()->settings()->getScriptEnabled(),
             url)) {
       localFrameClient()->didNotAllowScript();
+      // We can pass an url in the future to get an exact URL of blocked script
+      localFrameClient()->deniedScript();
       // TODO(estark): Use a different ResourceRequestBlockedReason here, since
       // this check has nothing to do with CSP. https://crbug.com/600795
       return ResourceRequestBlockedReason::CSP;

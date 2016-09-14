@@ -45,6 +45,7 @@
 #include "core/html/imports/HTMLImport.h"
 #include "core/html/parser/HTMLParserIdioms.h"
 #include "core/inspector/ConsoleMessage.h"
+#include "core/loader/FrameLoaderClient.h"
 #include "core/svg/SVGScriptElement.h"
 #include "platform/WebFrameScheduler.h"
 #include "platform/loader/fetch/AccessControlStatus.h"
@@ -288,8 +289,16 @@ bool ScriptLoader::prepareScript(const TextPosition& scriptStartPosition,
 
   // 10. "If scripting is disabled for the script element, then abort these
   //      steps at this point. The script is not executed."
-  if (!contextDocument->allowExecutingScripts(m_element))
-    return false;
+  if (!contextDocument->allowExecutingScripts(m_element)) {
+      if (0 != scriptContent().length()) {
+          LocalFrame* frame = m_element->document().frame();
+          if (frame) {
+              frame->loader().client()->deniedScript();
+          }
+      }
+
+      return false;
+  }
 
   // 13.
   if (!isScriptForEventSupported())
