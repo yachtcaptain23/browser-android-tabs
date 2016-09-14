@@ -52,6 +52,7 @@
 #include "core/loader/SubresourceIntegrityHelper.h"
 #include "core/loader/modulescript/ModuleScriptFetchRequest.h"
 #include "core/loader/resource/ScriptResource.h"
+#include "core/loader/FrameLoaderClient.h"
 #include "platform/WebFrameScheduler.h"
 #include "platform/loader/SubresourceIntegrity.h"
 #include "platform/loader/fetch/AccessControlStatus.h"
@@ -310,8 +311,16 @@ bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
 
   // 10. "If scripting is disabled for the script element, then abort these
   //      steps at this point. The script is not executed."
-  if (!context_document->CanExecuteScripts(kAboutToExecuteScript))
+  if (!context_document->CanExecuteScripts(kAboutToExecuteScript)) {
+    if (0 != ScriptContent().length()) {
+        LocalFrame* frame = element_->document().frame();
+        if (frame) {
+            frame->loader().client()->DeniedScript();
+        }
+    }
+
     return false;
+  }
 
   // 11. "If the script element has a nomodule content attribute
   //      and the script's type is "classic", then abort these steps.
