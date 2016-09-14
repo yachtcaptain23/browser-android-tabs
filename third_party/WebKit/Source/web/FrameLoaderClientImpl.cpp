@@ -283,6 +283,12 @@ void FrameLoaderClientImpl::didNotAllowPlugins() {
     m_webFrame->contentSettingsClient()->didNotAllowPlugins();
 }
 
+void FrameLoaderClientImpl::deniedScript()
+{
+    if (m_webFrame->contentSettingsClient())
+        m_webFrame->contentSettingsClient()->deniedScript();
+}
+
 bool FrameLoaderClientImpl::hasWebView() const {
   return m_webFrame->viewImpl();
 }
