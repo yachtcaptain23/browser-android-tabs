@@ -408,6 +408,7 @@ public class Tab
     private boolean mControlsResizeView;
     private int mAdsAndTrackers;
     private int mHttpsUpgrades;
+    private int mScriptsBlocked;
 
     /**
      * The publisher URL for pages hosted on a trusted CDN, or null otherwise.
@@ -649,6 +650,7 @@ public class Tab
         mDisplayCutoutController = new DisplayCutoutController(this);
         mAdsAndTrackers = 0;
         mHttpsUpgrades = 0;
+        mScriptsBlocked = 0;
     }
 
     private int calculateDefaultThemeColor() {
@@ -3454,9 +3456,11 @@ public class Tab
         tracker.dismissed(FeatureConstants.MEDIA_DOWNLOAD_FEATURE);
         nativeMediaDownloadInProductHelpDismissed(mNativeTabAndroid);
 
-    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades) {
+    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades
+            , int scriptsBlocked) {
         mAdsAndTrackers += adsAndTrackers;
         mHttpsUpgrades += httpsUpgrades;
+        mScriptsBlocked += scriptsBlocked;
     }
 
     public int getAdsAndTrackers() {
@@ -3467,9 +3471,14 @@ public class Tab
         return mHttpsUpgrades;
     }
 
+    public int getScriptsBlocked() {
+        return mScriptsBlocked;
+    }
+
     public void clearBraveShieldsCount() {
         mAdsAndTrackers = 0;
         mHttpsUpgrades = 0;
+        mScriptsBlocked = 0;
     }
 
     /**

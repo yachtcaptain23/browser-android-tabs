@@ -309,8 +309,15 @@ bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
 
   // <spec step="11">If scripting is disabled for the script element, then
   // return. The script is not executed.</spec>
-  if (!context_document->CanExecuteScripts(kAboutToExecuteScript))
-    return false;
+  if (!context_document->CanExecuteScripts(kAboutToExecuteScript)) {
+    if (0 != ScriptContent().length()) {
+        LocalFrame* frame = element_->document().frame();
+        if (frame) {
+            frame->loader().client()->DeniedScript();
+        }
+    }
+   return false;
+  }
 
   // <spec step="12">If the script element has a nomodule content attribute and
   // the script's type is "classic", then return. The script is not
