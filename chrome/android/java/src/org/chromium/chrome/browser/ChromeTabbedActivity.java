@@ -1292,6 +1292,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                 if ((null != app) && (null != app.getShieldsConfig())) {
                     app.getShieldsConfig().setTabModelSelectorTabObserver(mTabModelSelectorTabObserver);
                 }
+
                 if (getActivityTab() == tab) {
                     try {
                         URL urlCheck = new URL(url);
