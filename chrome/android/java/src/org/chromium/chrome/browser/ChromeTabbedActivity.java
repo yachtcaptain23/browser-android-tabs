@@ -1626,6 +1626,7 @@ public class ChromeTabbedActivity
                 if ((null != app) && (null != app.getShieldsConfig())) {
                     app.getShieldsConfig().setTabModelSelectorTabObserver(mTabModelSelectorTabObserver);
                 }
+
                 if (getActivityTab() == tab) {
                     try {
                         URL urlCheck = new URL(url);
