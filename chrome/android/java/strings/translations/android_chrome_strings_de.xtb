@@ -5,7 +5,7 @@
 <translation id="1049743911850919806">Inkognito</translation>
 <translation id="10614374240317010">Nie speichern für…</translation>
 <translation id="1068672505746868501">Seiten auf <ph name="SOURCE_LANGUAGE" /> nie übersetzen</translation>
-<translation id="1080790410959514870">Sie melden sich von einem Konto ab, das von <ph name="DOMAIN_NAME" /> verwaltet wird. Dadurch werden die auf diesem Gerät gespeicherten Chrome-Daten gelöscht. Die Daten verbleiben jedoch weiterhin in Ihrem Google-Konto.</translation>
+<translation id="1080790410959514870">Sie melden sich von einem Konto ab, das von <ph name="DOMAIN_NAME" /> verwaltet wird. Dadurch werden die auf diesem Gerät gespeicherten Brave-Daten gelöscht. Die Daten verbleiben jedoch weiterhin in Ihrem Google-Konto.</translation>
 <translation id="1111673857033749125">Hier werden die Lesezeichen angezeigt, die auf Ihren anderen Geräten gespeichert sind.</translation>
 <translation id="1121094540300013208">Nutzungs- und Absturzberichte</translation>
 <translation id="1137305377394488060">für die letzte Stunde</translation>
@@ -22,7 +22,7 @@
 <translation id="1209206284964581585">Vorerst ausblenden</translation>
 <translation id="1211530540767271776">Kein USB-Gerät vorhanden</translation>
 <translation id="123724288017357924">Aktuelle Seite neu laden, Cache-Inhalte ignorieren</translation>
-<translation id="1240668123557180468">Entdecken Sie Webseiten, die von Objekten in Ihrer Nähe übermittelt werden. Chrome trägt Webseiten zusammen, die sich auf Objekte in Ihrer Nähe beziehen, und schickt diese anonym an einen Google-Dienst. Die Webseiten, die für Sie besonders nützlich sind, werden Ihnen dann angezeigt.
+<translation id="7577473598688168582">Entdecken Sie Webseiten, die von Objekten in Ihrer Nähe übermittelt werden. Brave trägt Webseiten zusammen, die sich auf Objekte in Ihrer Nähe beziehen, und schickt diese anonym an einen Google-Dienst. Die Webseiten, die für Sie besonders nützlich sind, werden Ihnen dann angezeigt.
 
 Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktiviert sein.</translation>
 <translation id="124116460088058876">Weitere Sprachen</translation>
@@ -34,9 +34,9 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="1291207594882862231">Verlauf, Cookies, Websitedaten, Cache leeren…</translation>
 <translation id="129553762522093515">Kürzlich geschlossen</translation>
 <translation id="1303671224831497365">Keine Bluetooth-Geräte gefunden</translation>
-<translation id="1326317727527857210">Melden Sie sich in Chrome an, um Tabs von Ihren anderen Geräten abzurufen.</translation>
-<translation id="1332501820983677155">Tastenkombinationen für Google Chrome-Funktionen</translation>
 <translation id="1339917386316755344">Sie werden von den meisten Websites, aber nicht aus Ihrem Google-Konto abgemeldet.</translation>
+<translation id="1332501820983677155">Tastenkombinationen für Brave-Funktionen</translation>
+<translation id="1326317727527857210">Melden Sie sich in Brave an, um Tabs von Ihren anderen Geräten abzurufen.</translation>
 <translation id="1369915414381695676">Website "<ph name="SITE_NAME" />" hinzugefügt</translation>
 <translation id="1373696734384179344">Der Speicher reicht nicht aus, um den ausgewählten Inhalt herunterzuladen.</translation>
 <translation id="1376578503827013741">Berechnung läuft...</translation>
@@ -53,7 +53,7 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="1416550906796893042">Anwendungsversion</translation>
 <translation id="1423209968422390786">Der Standortzugriff ist <ph name="BEGIN_LINK" />für dieses Gerät deaktiviert<ph name="END_LINK" />.</translation>
 <translation id="1430915738399379752">Drucken</translation>
-<translation id="1445680696957526815">Die Chrome-Komponenten sind nicht miteinander kompatibel. Möglicherweise wird Chrome gerade aktualisiert. Bitte versuchen Sie es in einigen Minuten erneut. Sollte das Problem weiterhin bestehen, versuchen Sie, Chrome zu deinstallieren und erneut zu installieren.</translation>
+<translation id="5041585746936913628">Die Brave-Komponenten sind nicht miteinander kompatibel. Möglicherweise wird Brave gerade aktualisiert. Bitte versuchen Sie es in einigen Minuten erneut. Sollte das Problem weiterhin bestehen, versuchen Sie, Brave zu deinstallieren und erneut zu installieren.</translation>
 <translation id="1446450296470737166">Volle Kontr. über MIDI-Ger. erl.</translation>
 <translation id="145097072038377568">In den Android-Einstellungen deaktiviert</translation>
 <translation id="1455941322673536744">AutoFill und Zahlungen</translation>
@@ -63,7 +63,6 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="1513352483775369820">Lesezeichen und Webprotokoll</translation>
 <translation id="1513858653616922153">Passwort löschen</translation>
 <translation id="1549000191223877751">Zu anderem Fenster wechseln</translation>
-<translation id="1553358976309200471">Chrome aktualisieren</translation>
 <translation id="1569387923882100876">Verbundenes Gerät</translation>
 <translation id="1571304935088121812">Nutzernamen kopieren</translation>
 <translation id="1612196535745283361">Chrome benötigt Zugriff auf den Standort, um nach Geräten suchen zu können. Der Standortzugriff ist <ph name="BEGIN_LINK" />für dieses Gerät deaktiviert<ph name="END_LINK" />.</translation>
@@ -95,7 +94,7 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="1897409700584096124">Website überträgt</translation>
 <translation id="1933845786846280168">Ausgewählter Tab</translation>
 <translation id="1938981467853765413">Feedback geben</translation>
-<translation id="194341124344773587">Berechtigung für Chrome in den <ph name="BEGIN_LINK" />Android-Einstellungen<ph name="END_LINK" /> aktivieren</translation>
+<translation id="6665548517310046133">Berechtigung für Brave in den <ph name="BEGIN_LINK" />Android-Einstellungen<ph name="END_LINK" /> aktivieren</translation>
 <translation id="1943432128510653496">Passwörter speichern</translation>
 <translation id="1944384637046898011">Ab <ph name="TIME" /> alle Daten mit Google-Passwort verschlüsseln</translation>
 <translation id="1946005195648379376">Legen Sie fest, wie Google anhand des Browserverlaufs die Suche und andere Google-Dienste für Sie personalisieren soll.</translation>
@@ -112,12 +111,12 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="2073732792864401646">Statistiken zurücksetzen</translation>
 <translation id="2079545284768500474">Rückgängig machen</translation>
 <translation id="2082238445998314030">Ergebnis <ph name="RESULT_NUMBER" /> von <ph name="TOTAL_RESULTS" /></translation>
-<translation id="2095887075102408547">Wenn diese Funktion aktiviert ist, nutzt Chrome Google-Server, um besuchte Seiten vor dem Download zu komprimieren. Über private Verbindungen (HTTPS) oder in Inkognito-Tabs aufgerufene Seiten werden von Google nicht optimiert oder protokolliert.</translation>
+<translation id="2095887075102408547">Wenn diese Funktion aktiviert ist, nutzt Brave Google-Server, um besuchte Seiten vor dem Download zu komprimieren. Über private Verbindungen (HTTPS) oder in Inkognito-Tabs aufgerufene Seiten werden von Google nicht optimiert oder protokolliert.</translation>
 <translation id="2096396629993765042">Sie werden nicht von Ihrem Google-Konto abgemeldet. Eventuell finden Sie unter <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" /> weitere Arten von Browserverlaufsdaten für Ihr Google-Konto.</translation>
 <translation id="2100273922101894616">Automatisch anmelden</translation>
 <translation id="2111511281910874386">Seite aufrufen</translation>
-<translation id="2126426811489709554">Powered by Chrome</translation>
 <translation id="2131665479022868825"><ph name="DATA" /> eingespart</translation>
+<translation id="796823723482603597">Powered by Brave</translation>
 <translation id="213279576345780926"><ph name="TAB_TITLE" /> geschlossen</translation>
 <translation id="2139186145475833000">Zum Startbildschirm zufügen</translation>
 <translation id="2146738493024040262">Instant-App öffnen</translation>
@@ -134,7 +133,7 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="2323763861024343754">Websitespeicher</translation>
 <translation id="2343328333327081434">Wird installiert…</translation>
 <translation id="2346253980530904022">Google-Server optimieren die Seiten, die Sie besuchen, außer für HTTPS und Seiten im Inkognitomodus.</translation>
-<translation id="2349710944427398404">Gesamtdaten, die von Chrome verwendet werden, wie Konten, Lesezeichen und gespeicherte Einstellungen</translation>
+<translation id="3587672679800759167">Gesamtdaten, die von Brave verwendet werden, wie Konten, Lesezeichen und gespeicherte Einstellungen</translation>
 <translation id="2351097562818989364">Übersetzungseinstellungen zurückgesetzt</translation>
 <translation id="2359808026110333948">Weiter</translation>
 <translation id="2369533728426058518">Tabs öffnen</translation>
@@ -158,7 +157,7 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="2546283357679194313">Cookies und Websitedaten</translation>
 <translation id="2567385386134582609">BILD</translation>
 <translation id="257931822824936280">Maximiert – zum Minimieren klicken</translation>
-<translation id="2581165646603367611">Alle Cookies, der Cache und andere Daten von Websites, die Chrome nicht für wichtig hält, werden gelöscht.</translation>
+<translation id="2324920234469020158">Alle Cookies, der Cache und andere Daten von Websites, die Brave nicht für wichtig hält, werden gelöscht.</translation>
 <translation id="2587052924345400782">Neuere Version verfügbar</translation>
 <translation id="2593272815202181319">Monospace</translation>
 <translation id="2621115761605608342">JavaScript für eine bestimmte Website zulassen.</translation>
@@ -176,18 +175,17 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="2842985007712546952">Übergeordneter Ordner</translation>
 <translation id="2870560284913253234">Website</translation>
 <translation id="2874939134665556319">Vorheriger Titel</translation>
-<translation id="2876764156902388290">Chrome nutzt weniger Daten zum Anzeigen dieser Seite</translation>
-<translation id="2888126860611144412">Info zu Chrome</translation>
+<translation id="2876764156902388290">Brave nutzt weniger Daten zum Anzeigen dieser Seite</translation>
+<translation id="8541922081612557424">Info zu Brave</translation>
 <translation id="2891154217021530873">Laden der Seite anhalten</translation>
-<translation id="2900528713135656174">Termin erstellen</translation>
-<translation id="2902702728133930130">Während des Startvorgangs ist in Chrome ein unerwarteter Fehler aufgetreten.</translation>
+<translation id="1325620727886562640">Während des Startvorgangs ist in Brave ein unerwarteter Fehler aufgetreten.</translation>
 <translation id="2903493209154104877">Adressen</translation>
 <translation id="290376772003165898">Ist diese Seite nicht auf <ph name="LANGUAGE" />?</translation>
 <translation id="2913331724188855103">Websites dürfen Cookiedaten speichern und lesen (empfohlen).</translation>
 <translation id="2932150158123903946">Google <ph name="APP_NAME" />-Speicher</translation>
 <translation id="2956410042958133412">Dieses Konto wird von <ph name="PARENT_NAME_1" /> und <ph name="PARENT_NAME_2" /> verwaltet.</translation>
-<translation id="2960796085439532066">Copyright <ph name="YEAR" /> Google Inc. Alle Rechte vorbehalten.</translation>
 <translation id="2962095958535813455">Zu Inkognito-Tabs gewechselt</translation>
+<translation id="9075245678647084484">Copyright <ph name="YEAR" /> Google Inc. Alle Rechte vorbehalten.</translation>
 <translation id="2968755619301702150">Zertifikats-Viewer</translation>
 <translation id="2979025552038692506">Ausgewählter Inkognito-Tab</translation>
 <translation id="2989523299700148168">Kürzlich besucht</translation>
@@ -204,7 +202,7 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="3148434565183091099">Melden Sie sich in Chrome an, um Ihre Lesezeichen auf allen Ihren Geräten zu haben.</translation>
 <translation id="3166827708714933426">Tastenkombinationen für Tabs und Fenster</translation>
 <translation id="3177909033752230686">Sprache der Seite:</translation>
-<translation id="3190152372525844641">Berechtigungen für Chrome in den <ph name="BEGIN_LINK" />Android-Einstellungen<ph name="END_LINK" /> aktivieren</translation>
+<translation id="2023546461831060654">Berechtigungen für Brave in den <ph name="BEGIN_LINK" />Android-Einstellungen<ph name="END_LINK" /> aktivieren</translation>
 <translation id="3198916472715691905"><ph name="STORAGE_AMOUNT" /> gespeicherte Daten</translation>
 <translation id="3207960819495026254">Mit einem Lesezeichen versehen</translation>
 <translation id="321773570071367578">Wenn Sie Ihre Passphrase vergessen oder diese Einstellung ändern möchten, <ph name="BEGIN_LINK" />setzen Sie die Synchronisierung zurück<ph name="END_LINK" /></translation>
@@ -216,14 +214,15 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="3259831549858767975">Gesamten Seiteninhalt verkleinern</translation>
 <translation id="3269093882174072735">Bild laden</translation>
 <translation id="3269956123044984603">Aktivieren Sie "Daten automatisch synchronisieren" in den Android-Kontoeinstellungen, um Tabs von Ihren anderen Geräten abzurufen.</translation>
-<translation id="3282568296779691940">In Chrome anmelden</translation>
 <translation id="3295602654194328831">Informationen ausblenden</translation>
+<translation id="3282568296779691940">In Brave anmelden</translation>
 <translation id="3303414029551471755">Inhalt herunterladen?</translation>
 <translation id="3321222012623826478">Dieser Dienst muss die Adresse dieser Website zur Überprüfung anonym an Google-Server senden.</translation>
 <translation id="3328801116991980348">Websiteinformationen</translation>
 <translation id="3350687908700087792">Alle Inkognitotabs schließen</translation>
 <translation id="3365671512111106261">Nicht verfügbar, wenn der Datensparmodus aktiviert ist</translation>
 <translation id="3367813778245106622">Melden Sie sich nochmals an, um die Synchronisierung zu starten</translation>
+<translation id="3365671512111106261">Nicht verfügbar, wenn die Datenkomprimierung aktiviert ist</translation>
 <translation id="3384347053049321195">Bild teilen</translation>
 <translation id="3386292677130313581">Nachfragen, bevor Websites Ihr Standort angezeigt wird (empfohlen)</translation>
 <translation id="3387650086002190359"><ph name="FILE_NAME" /> konnte aufgrund von Dateisystemfehlern nicht heruntergeladen werden.</translation>
@@ -245,9 +244,9 @@ Zur Verwendung von Physical Web müssen Bluetooth und der Standortdienst aktivie
 <translation id="3557336313807607643">Zu Kontakten hinzufügen</translation>
 <translation id="3583454905526475291">App wurde nicht gestartet</translation>
 <translation id="3587482841069643663">Alle</translation>
-<translation id="3590487821116122040">Websitespeicher, den Chrome nicht für wichtig hält, wie etwa Websites ohne gespeicherte Einstellungen oder solche, die nicht oft besucht werden</translation>
 <translation id="3599863153486145794">Löscht den Verlauf bei allen angemeldeten Geräten. Möglicherweise verfügt Ihr Google-Konto unter <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> über andere Browserverläufe.</translation>
-<translation id="360207483134687714">Unterstütze uns dabei, VR in Chrome zu verbessern</translation>
+<translation id="360207483134687714">Unterstütze uns dabei, VR in Brave zu verbessern</translation>
+<translation id="9205995714227143200">Websitespeicher, den Brave nicht für wichtig hält, wie etwa Websites ohne gespeicherte Einstellungen oder solche, die nicht oft besucht werden</translation>
 <translation id="360480449234699036">Erfahren Sie mehr über Themen auf einer Website, ohne die Seite verlassen zu müssen. Mit der Option "Zum Suchen tippen" werden ein Wort sowie dessen Kontext an die Google-Suche gesendet. Daraufhin erhalten Sie Definitionen, Bilder, Suchergebnisse und andere Details.
 
 Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entsprechenden Begriff. Sie können Ihre Suche auch verfeinern, indem Sie das Feld ganz nach oben schieben und auf das Suchfeld tippen.</translation>
@@ -301,7 +300,7 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="4084836577264234537"><ph name="MEGABYTES" /> MB heruntergeladen</translation>
 <translation id="4089831646916293264">Diese Funktion beeinträchtigt möglicherweise den Zugang zu Premium-Datendiensten, die von Ihrem Mobilfunkanbieter bereitgestellt werden.</translation>
 <translation id="4095146165863963773">App-Daten löschen?</translation>
-<translation id="4099578267706723511">Nutzungsstatistiken und Absturzberichte zur Verbesserung von Chrome an Google senden</translation>
+<translation id="4099578267706723511">Nutzungsstatistiken und Absturzberichte zur Verbesserung von Brave an Google senden</translation>
 <translation id="410351446219883937">Autoplay</translation>
 <translation id="4113030288477039509">Von Ihrem Administrator verwaltet</translation>
 <translation id="4116038641877404294">Seiten zur Offline-Ansicht herunterladen</translation>
@@ -310,7 +309,7 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="4195643157523330669">In neuem Tab öffnen</translation>
 <translation id="4226663524361240545">Bei Benachrichtigungen kann das Gerät vibrieren</translation>
 <translation id="4242533952199664413">Einstellungen öffnen</translation>
-<translation id="424864128008805179">Von Chrome abmelden?</translation>
+<translation id="424864128008805179">Von Brave abmelden?</translation>
 <translation id="4254813446494774748">Zielsprache:</translation>
 <translation id="4256782883801055595">Open Source-Lizenzen</translation>
 <translation id="4259722352634471385">Die Navigation zu <ph name="URL" /> ist blockiert.</translation>
@@ -351,11 +350,11 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="4684427112815847243">Alles synchronisieren</translation>
 <translation id="4686372254213217147">Originalgröße</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW" />\u2026 und <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> weitere}other{<ph name="SHIPPING_OPTION_PREVIEW" />\u2026 und <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> weitere}}</translation>
-<translation id="4698413471314543145">Es fehlen wichtige Funktionen zur Ausführung von Chrome. Ihre Chrome-Installation ist entweder unvollständig oder nicht mit dieser Android-Version kompatibel.</translation>
+<translation id="6759555357467337575">Es fehlen wichtige Funktionen zur Ausführung von Brave. Ihre Brave-Installation ist entweder unvollständig oder nicht mit dieser Android-Version kompatibel.</translation>
 <translation id="4699172675775169585">Bilder und Dateien im Cache</translation>
 <translation id="4714588616299687897">Reduzieren Sie Ihre Daten um bis zu 60 %</translation>
 <translation id="4720023427747327413">In <ph name="PRODUCT_NAME" /> öffnen</translation>
-<translation id="4730876730346568982">Sie wechseln das Synchronisierungskonto von <ph name="ACCOUNT_EMAIL_OLD" /> zu <ph name="ACCOUNT_EMAIL_NEW" />. Ihre vorhandenen Chrome-Daten werden von <ph name="MANAGED_DOMAIN" /> verwaltet. Dadurch werden Ihre Daten von diesem Gerät gelöscht, aber Ihre Daten verbleiben in <ph name="ACCOUNT_EMAIL_OLD" />.</translation>
+<translation id="4730876730346568982">Sie wechseln das Synchronisierungskonto von <ph name="ACCOUNT_EMAIL_OLD" /> zu <ph name="ACCOUNT_EMAIL_NEW" />. Ihre vorhandenen Brave-Daten werden von <ph name="MANAGED_DOMAIN" /> verwaltet. Dadurch werden Ihre Daten von diesem Gerät gelöscht, aber Ihre Daten verbleiben in <ph name="ACCOUNT_EMAIL_OLD" />.</translation>
 <translation id="473775607612524610">Aktualisieren</translation>
 <translation id="4738836084190194332">Letzte Synchronisierung: <ph name="WHEN" /></translation>
 <translation id="4749960740855309258">Neuen Tab öffnen</translation>
@@ -371,12 +370,12 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="4850886885716139402">Anzeigen</translation>
 <translation id="4860895144060829044">Anrufen</translation>
 <translation id="4881695831933465202">Öffnen</translation>
-<translation id="4885273946141277891">Nicht unterstützte Anzahl von Chrome-Instanzen</translation>
 <translation id="4910889077668685004">Zahlungs-Apps</translation>
 <translation id="4915549754973153784"><ph name="BEGIN_LINK" />Hilfe aufrufen<ph name="END_LINK" />, während nach Geräten gesucht wird…</translation>
+<translation id="1248710015876067820">Nicht unterstützte Anzahl von Brave-Instanzen</translation>
 <translation id="4943872375798546930">Keine Ergebnisse</translation>
 <translation id="4958708863221495346"><ph name="URL_OF_THE_CURRENT_TAB" /> hat Ihren Bildschirm freigegeben</translation>
-<translation id="4961700429721424617">Sie melden sich von einem Konto ab, das von <ph name="MANAGED_DOMAIN" /> verwaltet wird. Dadurch werden Ihre Chrome-Daten von diesem Gerät gelöscht, bleiben jedoch in Ihrem Google-Konto erhalten.</translation>
+<translation id="4961700429721424617">Sie melden sich von einem Konto ab, das von <ph name="MANAGED_DOMAIN" /> verwaltet wird. Dadurch werden Ihre Brave-Daten von diesem Gerät gelöscht, bleiben jedoch in Ihrem Google-Konto erhalten.</translation>
 <translation id="497421865427891073">Weiter</translation>
 <translation id="4988526792673242964">Seiten</translation>
 <translation id="4996978546172906250">Teilen über</translation>
@@ -397,10 +396,10 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="515227803646670480">Gespeich. Daten löschen</translation>
 <translation id="5152843274749979095">Keine unterstützten Apps installiert</translation>
 <translation id="5161254044473106830">Titel erforderlich</translation>
-<translation id="5164482624172255778">Soll Google Chrome ab dem nächsten Aufruf eine Übersetzung von Seiten dieser Website anbieten, die auf <ph name="LANGUAGE" /> sind?</translation>
+<translation id="7435349661593331474">Soll Brave ab dem nächsten Aufruf eine Übersetzung von Seiten dieser Website anbieten, die auf <ph name="LANGUAGE" /> sind?</translation>
 <translation id="5168917394043976756">Navigationsleiste öffnen</translation>
 <translation id="5171045022955879922">Suchen oder URL eingeben</translation>
-<translation id="5184329579814168207">In Chrome öffnen</translation>
+<translation id="8445059357334030806">In Brave öffnen</translation>
 <translation id="5199929503336119739">Arbeitsprofil</translation>
 <translation id="5209320130288484488">Keine Geräte gefunden</translation>
 <translation id="5210286577605176222">Zum vorherigen Tab wechseln</translation>
@@ -424,8 +423,8 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="5349103022427743704">Test für verbesserte Option "Zum Startbildschirm hinzufügen"</translation>
 <translation id="5372829067651257087">URL kopiert.</translation>
 <translation id="5384883051496921101">Diese Website ist im Begriff, Informationen mit einer App außerhalb des Inkognitomodus zu teilen.</translation>
-<translation id="5400569084694353794">Durch die Verwendung dieser App stimmen Sie den <ph name="BEGIN_LINK1" />Nutzungsbedingungen<ph name="END_LINK1" /> und <ph name="BEGIN_LINK2" />Datenschutzhinweisen<ph name="END_LINK2" /> von Chrome zu.</translation>
 <translation id="5403644198645076998">Nur bestimmte Websites zulassen</translation>
+<translation id="6053648442013540294">Durch die Verwendung dieser App stimmen Sie den <ph name="BEGIN_LINK1" />Nutzungsbedingungen<ph name="END_LINK1" /> und <ph name="BEGIN_LINK2" />Datenschutzhinweisen<ph name="END_LINK2" /> von Brave zu.</translation>
 <translation id="5414836363063783498">Überprüfung...</translation>
 <translation id="5423934151118863508">Hier werden Ihre am meisten aufgerufenen Seiten angezeigt.</translation>
 <translation id="5424588387303617268"><ph name="GIGABYTES" /> GB verfügbar</translation>
@@ -436,8 +435,8 @@ Zur Anpassung des Suchbegriffs drücken Sie einige Sekunden lang auf den entspre
 <translation id="5456381639095306749">Seite herunterladen</translation>
 <translation id="548278423535722844">In einer Karten-App öffnen</translation>
 <translation id="5487521232677179737">Daten löschen</translation>
-<translation id="5487729733663684359">Chrome-Updates werden für diese Version von Android nicht mehr unterstützt.</translation>
 <translation id="5490801865084500306">Tab "Lesezeichen" ausgewählt</translation>
+<translation id="5819262777401918504">Brave-Updates werden für diese Version von Android nicht mehr unterstützt.</translation>
 <translation id="5512137114520586844">Dieses Konto wird von <ph name="PARENT_NAME" /> verwaltet.</translation>
 <translation id="5514904542973294328">Vom Administrator dieses Geräts deaktiviert</translation>
 <translation id="5517095782334947753">Sie haben Lesezeichen, den Verlauf, Passwörter und andere Einstellungen von <ph name="FROM_ACCOUNT" /> übernommen.</translation>
@@ -472,7 +471,7 @@ Sie sind jedoch nicht unsichtbar. Der Inkognitomodus verhindert nicht, dass Info
 <translation id="5726692708398506830">Gesamten Seiteninhalt vergrößern</translation>
 <translation id="5738816946784116349">Chrome-Downloads</translation>
 <translation id="5748802427693696783">Zu Standard-Tabs gewechselt</translation>
-<translation id="5749068826913805084">Chrome benötigt Speicherzugriff, um Dateien herunterladen zu können.</translation>
+<translation id="3088191967551450609">Brave benötigt Speicherzugriff, um Dateien herunterladen zu können.</translation>
 <translation id="5763382633136178763">Inkognito-Tabs</translation>
 <translation id="5765780083710877561">Beschreibung:</translation>
 <translation id="5777170031995031090">Sie können festlegen, wie Google Ihren Browserverlauf nutzt, um die Suche, Werbung und andere Google-Dienste zu personalisieren.</translation>
@@ -481,8 +480,8 @@ Sie sind jedoch nicht unsichtbar. Der Inkognitomodus verhindert nicht, dass Info
 <translation id="5817918615728894473">Koppeln</translation>
 <translation id="583281660410589416">Unbekannt</translation>
 <translation id="5832934273103296195">Maximiert – zum Minimieren klicken</translation>
-<translation id="583891442612896534">Chrome kann die Google-Server für die Datenkomprimierung nicht erreichen. Ihre Einsparungen bei der Datennutzung können begrenzt sein.</translation>
-<translation id="5858741533101922242">Chrome kann den Bluetooth-Adapter nicht aktivieren</translation>
+<translation id="5858741533101922242">Brave kann den Bluetooth-Adapter nicht aktivieren</translation>
+<translation id="583891442612896534">Brave kann die Google-Server für die Datenkomprimierung nicht erreichen. Ihre Einsparungen bei der Datennutzung können begrenzt sein.</translation>
 <translation id="5860033963881614850">Aus</translation>
 <translation id="5869522115854928033">Gespeicherte Passwörter</translation>
 <translation id="5902828464777634901">Alle von dieser Website gespeicherten lokalen Daten, einschließlich Cookies, werden gelöscht.</translation>
@@ -555,22 +554,22 @@ Einige Websites schalten möglicherweise Werbeanzeigen, deren Auswahl nicht dara
 <translation id="6566259936974865419">Dank Chrome haben Sie <ph name="GIGABYTES" /> GB eingespart</translation>
 <translation id="656628257199996201"><ph name="SOURCE_LANGUAGE" /> immer übersetzen</translation>
 <translation id="6571070086367343653">Kreditkarte bearbeiten</translation>
-<translation id="6573431926118603307">Hier werden Tabs angezeigt, die Sie auf Ihren anderen Geräten in Chrome geöffnet haben.</translation>
+<translation id="6573431926118603307">Hier werden Tabs angezeigt, die Sie auf Ihren anderen Geräten in Brave geöffnet haben.</translation>
 <translation id="6575643671698722332">Fehler beim Zurücksetzen, da das Gerät nicht online ist. Versuchen Sie es erneut.</translation>
 <translation id="6583199322650523874">Aktuelle Seite als Lesezeichen speichern</translation>
-<translation id="6600954340915313787">In Chrome kopiert</translation>
+<translation id="663059986967017181">In Brave kopiert</translation>
 <translation id="6612358246767739896">Geschützte Inhalte</translation>
 <translation id="662080504995468778">Bleiben</translation>
 <translation id="6627583120233659107">Ordner bearbeiten</translation>
 <translation id="6643016212128521049">Löschen</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW" />\u2026 und <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" /> weitere}other{<ph name="CONTACT_PREVIEW" />\u2026 und <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" /> weitere}}</translation>
-<translation id="6656545060687952787">Chrome benötigt Zugriff auf den Standort, um nach Geräten suchen zu können. <ph name="BEGIN_LINK" />Berechtigungen aktualisieren<ph name="END_LINK" /></translation>
 <translation id="6657585470893396449">Passwort</translation>
+<translation id="6656545060687952787">Brave benötigt Zugriff auf den Standort, um nach Geräten suchen zu können. <ph name="BEGIN_LINK" />Berechtigungen aktualisieren<ph name="END_LINK" /></translation>
 <translation id="6659594942844771486">Tab</translation>
 <translation id="666268767214822976">Während der Eingabe in die Adressleiste mithilfe einer Vervollständigungsfunktion ähnliche Suchanfragen und beliebte Websites einblenden</translation>
 <translation id="666731172850799929">In <ph name="APP_NAME" /> öffnen</translation>
-<translation id="666981079809192359">Chrome-Datenschutzhinweise</translation>
-<translation id="6697947395630195233">Chrome benötigt Zugriff auf Ihren Standort, um ihn mit dieser Website zu teilen.</translation>
+<translation id="6697947395630195233">Brave benötigt Zugriff auf Ihren Standort, um ihn mit dieser Website zu teilen.</translation>
+<translation id="7392539049993970338">Brave-Datenschutzhinweise</translation>
 <translation id="6698801883190606802">Synchronisierte Daten verwalten</translation>
 <translation id="6701279291835318271">Sicherheitsberichte</translation>
 <translation id="6710213216561001401">Zurück</translation>
@@ -578,7 +577,7 @@ Einige Websites schalten möglicherweise Werbeanzeigen, deren Auswahl nicht dara
 <translation id="6738867403308150051">Wird heruntergeladen...</translation>
 <translation id="6762156594045689028">Wenn Sie diese Einstellung ändern möchten, <ph name="BEGIN_LINK" />setzen Sie die Synchronisierung zurück<ph name="END_LINK" /></translation>
 <translation id="6764789522080107716">Datei kann nicht geöffnet werden</translation>
-<translation id="6770414673596662518">Das Safe Browsing-System von Chrome erkennt außerdem schädliche Seiten und schützt Sie vor Phishing, Malware und schädlichen Downloads.</translation>
+<translation id="2636787575578909138">Das Safe Browsing-System von Brave erkennt außerdem schädliche Seiten und schützt Sie vor Phishing, Malware und schädlichen Downloads.</translation>
 <translation id="6790428901817661496">Wiedergabe</translation>
 <translation id="679325081238418596">Rufen Sie Ihre Lesezeichen, Ihren Verlauf, Ihre Passwörter und andere Einstellungen auf allen Ihren Geräten ab</translation>
 <translation id="6820607729870073286">Sie haben keine Website-Einstellungen gespeichert.</translation>
@@ -638,14 +637,14 @@ Einige Websites schalten möglicherweise Werbeanzeigen, deren Auswahl nicht dara
 <translation id="7378627244592794276">Nein</translation>
 <translation id="7400418766976504921">URL</translation>
 <translation id="7423098979219808738">Zuerst fragen</translation>
-<translation id="7437998757836447326">Von Chrome abmelden</translation>
+<translation id="7437998757836447326">Von Brave abmelden</translation>
 <translation id="7445411102860286510">Automatische Wiedergabe stummgeschalteter Videos auf Websites zulassen (empfohlen)</translation>
 <translation id="7464701184726199289">Dadurch werden synchronisierte Daten von allen Geräten gelöscht. Gespeicherte Website-Einstellungen werden nicht gelöscht und können möglicherweise Ihre Surfgewohnheiten wiedergeben. <ph name="BEGIN_LINK" />Weitere Informationen<ph name="END_LINK" /></translation>
 <translation id="7473891865547856676">Nein danke</translation>
 <translation id="7475192538862203634">Sollten Sie diese Meldung häufiger erhalten, sehen Sie sich unsere <ph name="BEGIN_LINK" />Empfehlungen<ph name="END_LINK" /> an.</translation>
 <translation id="748127970106343339">Löschen der Anmeldedaten des Geräts bestätigen</translation>
 <translation id="7481312909269577407">Vorwärts</translation>
-<translation id="7487352416683556407">Die ausgewählten Daten wurden aus Chrome und von allen Ihren synchronisierten Geräten entfernt.
+<translation id="3689342442852563375">Die ausgewählten Daten wurden aus Brave und von allen Ihren synchronisierten Geräten entfernt.
 
 Eventuell finden Sie unter <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" /> weitere Arten von Browserverlaufsdaten wie Suchanfragen oder Aktivitäten anderer Google-Dienste für Ihr Google-Konto.</translation>
 <translation id="7493994139787901920"><ph name="VERSION" /> (aktualisiert <ph name="TIME_SINCE_UPDATE" />)</translation>
@@ -653,7 +652,7 @@ Eventuell finden Sie unter <ph name="BEGIN_LINK" />history.google.com<ph name="E
 <translation id="7514365320538308">Herunterladen</translation>
 <translation id="7521387064766892559">JavaScript</translation>
 <translation id="7562080006725997899">Browserdaten werden gelöscht</translation>
-<translation id="756809126120519699">Gelöschte Chrome-Daten</translation>
+<translation id="7814200940910057384">Gelöschte Brave-Daten</translation>
 <translation id="7588950540487816470">Physical Web</translation>
 <translation id="7589445247086920869">Für aktuelle Suchmaschine blockieren</translation>
 <translation id="7593557518625677601">Einstellungen öffnen und Systemsynchr. aktivieren, um Chrome-Synchr. zu starten</translation>
@@ -663,7 +662,7 @@ Eventuell finden Sie unter <ph name="BEGIN_LINK" />history.google.com<ph name="E
 <translation id="7612619742409846846">Bei Google angemeldet als</translation>
 <translation id="7619072057915878432"><ph name="FILE_NAME" /> konnte aufgrund von Netzwerkfehlern nicht heruntergeladen werden.</translation>
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1" />Hilfe aufrufen<ph name="END_LINK1" /> oder <ph name="BEGIN_LINK2" />noch einmal suchen<ph name="END_LINK2" /></translation>
-<translation id="7626032353295482388">Willkommen bei Chrome</translation>
+<translation id="7207456302801184289">Willkommen bei Brave</translation>
 <translation id="7638584964844754484">Falsche Passphrase</translation>
 <translation id="7641339528570811325">Browserdaten löschen…</translation>
 <translation id="7648422057306047504">Passwörter mit Google-Anmeldedaten verschlüsseln</translation>
@@ -693,7 +692,7 @@ Eventuell finden Sie unter <ph name="BEGIN_LINK" />history.google.com<ph name="E
 <translation id="7947953824732555851">Akzeptieren und anmelden</translation>
 <translation id="7949961459945740081">Neue Funktionen herunterladen</translation>
 <translation id="7963646190083259054">Anbieter:</translation>
-<translation id="7987073022710626672">Chrome-Nutzungsbedingungen</translation>
+<translation id="1138681184697033370">Brave-Nutzungsbedingungen</translation>
 <translation id="7998918019931843664">Geschlossenen Tab wieder öffnen</translation>
 <translation id="7999064672810608036">Möchten Sie wirklich alle lokalen Daten einschließlich Cookies löschen und alle Berechtigungen für diese Website zurücksetzen?</translation>
 <translation id="8004582292198964060">Browser</translation>
@@ -751,6 +750,7 @@ Eventuell finden Sie unter <ph name="BEGIN_LINK" />history.google.com<ph name="E
 <translation id="8514577642972634246">Inkognitomodus aktivieren</translation>
 <translation id="8523928698583292556">Gespeichertes Passwort löschen</translation>
 <translation id="854522910157234410">Diese Seite öffnen</translation>
+<translation id="3660495151160135897">Später in Brave lesen</translation>
 <translation id="8562452229998620586">Gespeicherte Passwörter erscheinen hier.</translation>
 <translation id="856481929701340285">Desktopversion anfordern</translation>
 <translation id="8569404424186215731">seit <ph name="DATE" /></translation>
@@ -797,7 +797,7 @@ Um neue Lizenzen zu erwerben, stellen Sie eine Internetverbindung her und spiele
 <translation id="8981454092730389528">Google-Aktivitätseinstellungen</translation>
 <translation id="8986494364107987395">Nutzungsstatistiken und Absturzberichte automatisch an Google senden</translation>
 <translation id="8993760627012879038">Neuen Tab im Inkognitomodus öffnen</translation>
-<translation id="8998729206196772491">Sie melden sich mit einem von <ph name="MANAGED_DOMAIN" /> verwalteten Konto an und geben dem Administrator der Domain Kontrolle über Ihre Chrome-Daten. Die Daten werden diesem Konto dauerhaft zugeordnet. Wenn Sie sich von Chrome abmelden, werden Ihre Daten auf dem Gerät gelöscht, bleiben jedoch in Ihrem Google-Konto erhalten.</translation>
+<translation id="8998729206196772491">Sie melden sich mit einem von <ph name="MANAGED_DOMAIN" /> verwalteten Konto an und geben dem Administrator der Domain Kontrolle über Ihre Brave-Daten. Die Daten werden diesem Konto dauerhaft zugeordnet. Wenn Sie sich von Brave abmelden, werden Ihre Daten auf dem Gerät gelöscht, bleiben jedoch in Ihrem Google-Konto erhalten.</translation>
 <translation id="9019902583201351841">Von deinen Eltern verwaltet</translation>
 <translation id="9038649477754266430">Vervollständigungsfunktion zum schnelleren Laden von Seiten verwenden</translation>
 <translation id="9050666287014529139">Passphrase</translation>
