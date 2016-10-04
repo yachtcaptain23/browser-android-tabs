@@ -51,7 +51,7 @@ DiceResponseParams::SignoutInfo::~SignoutInfo() {}
 DiceResponseParams::SignoutInfo::SignoutInfo(const SignoutInfo&) = default;
 
 bool SettingsAllowSigninCookies(
-    const content_settings::CookieSettings* cookie_settings) {
+    content_settings::CookieSettings* cookie_settings) {
   GURL gaia_url = GaiaUrls::GetInstance()->gaia_url();
   GURL google_url = GaiaUrls::GetInstance()->google_url();
   return cookie_settings &&
@@ -62,7 +62,7 @@ bool SettingsAllowSigninCookies(
 std::string BuildMirrorRequestCookieIfPossible(
     const GURL& url,
     const std::string& account_id,
-    const content_settings::CookieSettings* cookie_settings,
+    content_settings::CookieSettings* cookie_settings,
     int profile_mode_mask) {
   return signin::ChromeConnectedHeaderHelper::BuildRequestCookieIfPossible(
       url, account_id, cookie_settings, profile_mode_mask);
@@ -114,7 +114,7 @@ SigninHeaderHelper::ParseAccountConsistencyResponseHeader(
 
 bool SigninHeaderHelper::ShouldBuildRequestHeader(
     const GURL& url,
-    const content_settings::CookieSettings* cookie_settings) {
+    content_settings::CookieSettings* cookie_settings) {
   // If signin cookies are not allowed, don't add the header.
   if (!SettingsAllowSigninCookies(cookie_settings))
     return false;
@@ -130,7 +130,7 @@ void AppendOrRemoveMirrorRequestHeader(
     net::URLRequest* request,
     const GURL& redirect_url,
     const std::string& account_id,
-    const content_settings::CookieSettings* cookie_settings,
+    content_settings::CookieSettings* cookie_settings,
     int profile_mode_mask) {
   const GURL& url = redirect_url.is_empty() ? request->url() : redirect_url;
   ChromeConnectedHeaderHelper chrome_connected_helper;
