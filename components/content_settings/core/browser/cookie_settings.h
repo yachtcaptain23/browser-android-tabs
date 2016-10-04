@@ -49,22 +49,23 @@ class CookieSettings : public RefcountedKeyedService {
   // allowed to access (i.e., read or write) cookies.
   //
   // This may be called on any thread.
+<<<<<<< HEAD
   bool IsCookieAccessAllowed(const GURL& url,
-                             const GURL& first_party_url) const;
+                             const GURL& first_party_url);
 
   // Returns true if the cookie set by a page identified by |url| should be
   // session only. Querying this only makes sense if |IsCookieAccessAllowed|
   // has returned true.
   //
   // This may be called on any thread.
-  bool IsCookieSessionOnly(const GURL& url) const;
+  bool IsCookieSessionOnly(const GURL& url);
 
   // Returns all patterns with a non-default cookie setting, mapped to their
   // actual settings, in the precedence order of the setting rules. |settings|
   // must be a non-nullptr outparam.
   //
   // This may be called on any thread.
-  void GetCookieSettings(ContentSettingsForOneType* settings) const;
+  void GetCookieSettings(ContentSettingsForOneType* settings);
 
   // Sets the default content setting (CONTENT_SETTING_ALLOW,
   // CONTENT_SETTING_BLOCK, or CONTENT_SETTING_SESSION_ONLY) for cookies.
@@ -105,7 +106,7 @@ class CookieSettings : public RefcountedKeyedService {
   // Returns true if the "block third party cookies" preference is set.
   //
   // This method may be called on any thread.
-  bool ShouldBlockThirdPartyCookies() const;
+  bool ShouldBlockThirdPartyCookies(const GURL& first_party_url);
 
   base::ThreadChecker thread_checker_;
   scoped_refptr<HostContentSettingsMap> host_content_settings_map_;
@@ -117,6 +118,8 @@ class CookieSettings : public RefcountedKeyedService {
   mutable base::Lock lock_;
 
   bool block_third_party_cookies_;
+
+  std::string previous_first_party_host_;
 
   DISALLOW_COPY_AND_ASSIGN(CookieSettings);
 };
