@@ -126,7 +126,7 @@ class SigninHeaderHelper {
   // request.
   bool ShouldBuildRequestHeader(
       const GURL& url,
-      const content_settings::CookieSettings* cookie_settings);
+      content_settings::CookieSettings* cookie_settings);
 
  protected:
   SigninHeaderHelper() {}
@@ -147,14 +147,14 @@ class SigninHeaderHelper {
 
 // Returns true if signin cookies are allowed.
 bool SettingsAllowSigninCookies(
-    const content_settings::CookieSettings* cookie_settings);
+    content_settings::CookieSettings* cookie_settings);
 
 // Returns the CHROME_CONNECTED cookie, or an empty string if it should not be
 // added to the request to |url|.
 std::string BuildMirrorRequestCookieIfPossible(
     const GURL& url,
     const std::string& account_id,
-    const content_settings::CookieSettings* cookie_settings,
+    content_settings::CookieSettings* cookie_settings,
     int profile_mode_mask);
 
 // Adds account consistency header to all Gaia requests from a connected
@@ -166,7 +166,7 @@ void AppendOrRemoveAccountConsistencyRequestHeader(
     const std::string& account_id,
     bool sync_enabled,
     bool sync_has_auth_error,
-    const content_settings::CookieSettings* cookie_settings,
+    content_settings::CookieSettings* cookie_settings,
     int profile_mode_mask);
 
 // Returns the parameters contained in the X-Chrome-Manage-Accounts response
