@@ -63,7 +63,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/learn_more"
-                android:textColor="@color/incognito_ntp_learn_more_link" />
+                android:textColor="@color/incognito_ntp_learn_more_link"
+                android:visibility = "gone" />
 
         </LinearLayout>
 
