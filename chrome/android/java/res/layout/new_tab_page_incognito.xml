@@ -65,7 +65,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/learn_more"
-                android:textColor="#03a9f4" />
+                android:textColor="#03a9f4"
+                android:visibility = "gone" />
 
         </LinearLayout>
 
