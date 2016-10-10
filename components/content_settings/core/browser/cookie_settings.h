@@ -49,7 +49,6 @@ class CookieSettings : public RefcountedKeyedService {
   // allowed to access (i.e., read or write) cookies.
   //
   // This may be called on any thread.
-<<<<<<< HEAD
   bool IsCookieAccessAllowed(const GURL& url,
                              const GURL& first_party_url);
 
