@@ -116,7 +116,10 @@ public class ChromeBrowserInitializer {
     }
 
     private void InitAdBlock() {
+      Log.i(TAG, "Init AdBlock");
       if (mAdBlockInitCalled) {
+          Log.i(TAG, "Init AdBlock was already called");
+
           return;
       }
       mAdBlockInitCalled = true;
@@ -126,6 +129,7 @@ public class ChromeBrowserInitializer {
       new DownloadAdBlockDataAsyncTask().execute();
       new DownloadHTTPSDataAsyncTask().execute();
       PrefServiceBridge.getInstance().setBlockThirdPartyCookiesEnabled(true);
+      Log.i(TAG, "Started AdBlock async tasks");
     }
 
     // Tracking ptotection data download
