@@ -91,7 +91,7 @@ public class NewTabPageLayout extends LinearLayout {
         mBottomSpacer = findViewById(R.id.ntp_bottom_spacer);
         mLogoSpacer = findViewById(R.id.search_provider_logo_spacer);
         mSearchBoxSpacer = findViewById(R.id.search_box_spacer);
-        mSearchProviderLogoView = findViewById(R.id.search_provider_logo);
+        //mSearchProviderLogoView = (LogoView) findViewById(R.id.search_provider_logo);
         mSearchBoxView = findViewById(R.id.search_box);
         insertSiteSectionView();
     }
@@ -240,8 +240,8 @@ public class NewTabPageLayout extends LinearLayout {
             final int width = mSiteSectionView.getMeasuredWidth() - mTileGridLayoutBleed;
             measureExactly(mSearchBoxView,
                     width + mSearchboxShadowWidth, mSearchBoxView.getMeasuredHeight());
-            measureExactly(mSearchProviderLogoView,
-                    width, mSearchProviderLogoView.getMeasuredHeight());
+            /*measureExactly(mSearchProviderLogoView,
+                    width, mSearchProviderLogoView.getMeasuredHeight());*/
         }
     }
 
