@@ -83,7 +83,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
     private NewTabPageRecyclerView mRecyclerView;
 
     private NewTabPageLayout mNewTabPageLayout;
-    private LogoView mSearchProviderLogoView;
+    //private LogoView mSearchProviderLogoView;
     private View mSearchBoxView;
     private ImageView mVoiceSearchButton;
     private TileGridLayout mTileGridLayout;
@@ -242,9 +242,9 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
         mTileGroup = new TileGroup(mActivity, mManager, mContextMenuManager, mTileGroupDelegate,
                 /* observer = */ this, offlinePageBridge, getTileTitleLines());
 
-        mSearchProviderLogoView =
+        /*mSearchProviderLogoView =
                 (LogoView) mNewTabPageLayout.findViewById(R.id.search_provider_logo);
-        mLogoDelegate = new LogoDelegateImpl(tab, mSearchProviderLogoView);
+        mLogoDelegate = new LogoDelegateImpl(tab, mSearchProviderLogoView);*/
         mSearchBoxView = mNewTabPageLayout.findViewById(R.id.search_box);
         mNoSearchLogoSpacer = mNewTabPageLayout.findViewById(R.id.no_search_logo_spacer);
 
@@ -544,9 +544,9 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
             @Override
             public void onLogoAvailable(Logo logo, boolean fromCache) {
                 if (logo == null && fromCache) return;
-                mSearchProviderLogoView.setDelegate(mLogoDelegate);
-                mSearchProviderLogoView.updateLogo(logo);
-                mSnapshotTileGridChanged = true;
+                //mSearchProviderLogoView.setDelegate(mLogoDelegate);
+                //mSearchProviderLogoView.updateLogo(logo);
+                mSnapshotMostVisitedChanged = true;
             }
         });
     }
@@ -666,7 +666,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
      * @param alpha opacity (alpha) value to use.
      */
     public void setSearchProviderLogoAlpha(float alpha) {
-        mSearchProviderLogoView.setAlpha(alpha);
+        //mSearchProviderLogoView.setAlpha(alpha);
     }
 
     /**
@@ -771,7 +771,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
      *         InvalidationAwareThumbnailProvider#captureThumbnail(Canvas)
      */
     void captureThumbnail(Canvas canvas) {
-        mSearchProviderLogoView.endFadeAnimation();
+        //mSearchProviderLogoView.endFadeAnimation();
         ViewUtils.captureBitmap(this, canvas);
         mSnapshotWidth = getWidth();
         mSnapshotHeight = getHeight();
