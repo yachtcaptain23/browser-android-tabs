@@ -245,6 +245,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
         };
         mContextMenuManager = new ContextMenuManager(
                 mActivity, mManager.getNavigationDelegate(), touchEnabledDelegate);
+
         mActivity.getWindowAndroid().addContextMenuCloseListener(mContextMenuManager);
         manager.addDestructionObserver(new DestructionObserver() {
             @Override
