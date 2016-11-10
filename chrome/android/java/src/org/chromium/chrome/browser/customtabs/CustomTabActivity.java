@@ -378,8 +378,8 @@ public class CustomTabActivity extends ChromeActivity {
 
             @Override
             public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades,
-                    int scriptsBlocked) {
-                braveShieldsCountUpdate(url, adsAndTrackers, httpsUpgrades, scriptsBlocked);
+                    int scriptsBlocked, int fingerprintsBlocked) {
+                braveShieldsCountUpdate(url, adsAndTrackers, httpsUpgrades, scriptsBlocked, fingerprintsBlocked);
             }
         };
 
@@ -497,7 +497,8 @@ public class CustomTabActivity extends ChromeActivity {
                           , url.getHost()
                           , currentTab.getAdsAndTrackers()
                           , currentTab.getHttpsUpgrades()
-                          , currentTab.getScriptsBlocked());
+                          , currentTab.getScriptsBlocked()
+                          , currentTab.getFingerprintsBlocked());
                     } catch (Exception e) {
                         setBraveShieldsBlackAndWhite();
                     }
