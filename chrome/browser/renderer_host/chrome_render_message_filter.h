@@ -7,6 +7,7 @@
 
 #include <string>
 #include <vector>
+#include <mutex>
 
 #include "base/callback.h"
 #include "base/macros.h"
@@ -14,6 +15,7 @@
 #include "content/public/browser/browser_message_filter.h"
 #include "extensions/features/features.h"
 #include "ppapi/features/features.h"
+#include "components/prefs/pref_member.h"
 
 class GURL;
 class Profile;
@@ -46,13 +48,21 @@ class ChromeRenderMessageFilter : public content::BrowserMessageFilter {
                                 content::BrowserThread::ID* thread) override;
 
  private:
+  static BooleanPrefMember* enable_fingerprinting_protection_;
+
   friend class content::BrowserThread;
   friend class base::DeleteHelper<ChromeRenderMessageFilter>;
+
+  std::mutex enable_fingerprinting_protection_init_mutex_;
 
   ~ChromeRenderMessageFilter() override;
 
   void OnDnsPrefetch(const network_hints::LookupRequest& request);
   void OnPreconnect(const GURL& url, bool allow_credentials, int count);
+
+  void OnContentAllowFingerprinting(int render_frame_id,
+                                    const std::string& original_host,
+                                    IPC::Message* message);
 
   void OnAllowDatabase(int render_frame_id,
                        const GURL& origin_url,
