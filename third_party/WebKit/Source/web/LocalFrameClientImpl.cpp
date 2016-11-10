@@ -317,6 +317,16 @@ bool LocalFrameClientImpl::InShadowTree() const {
   return web_frame_->InShadowTree();
 }
 
+bool LocalFrameClientImpl::AllowFingerprinting()
+{
+    return GetContentSettingsClient()->allowFingerprinting();
+}
+
+void LocalFrameClientImpl::DeniedFingerprinting()
+{
+    GetContentSettingsClient->DeniedFingerprinting();
+}
+
 Frame* LocalFrameClientImpl::Opener() const {
   return ToCoreFrame(web_frame_->Opener());
 }
