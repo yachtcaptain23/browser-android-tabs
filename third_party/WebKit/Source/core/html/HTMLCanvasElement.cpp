@@ -46,6 +46,7 @@
 #include "core/frame/LocalFrameClient.h"
 #include "core/frame/Settings.h"
 #include "core/frame/UseCounter.h"
+#include "core/loader/FrameLoaderClient.h"
 #include "core/html/HTMLImageElement.h"
 #include "core/html/ImageData.h"
 #include "core/html/canvas/CanvasAsyncBlobCreator.h"
@@ -938,6 +939,18 @@ void HTMLCanvasElement::RemoveListener(CanvasDrawListener* listener) {
 }
 
 bool HTMLCanvasElement::OriginClean() const {
+  LocalFrame* frame = GetDocument().frame();
+  bool allowed = true;
+  if (frame) {
+      allowed = frame->loader().client()->allowFingerprinting();
+  }
+  if (!allowed) {
+      if (frame) {
+        frame->loader().client()->deniedFingerprinting();
+      }
+
+      return false;
+  }
   if (GetDocument().GetSettings() &&
       GetDocument().GetSettings()->GetDisableReadingFromCanvas())
     return false;
