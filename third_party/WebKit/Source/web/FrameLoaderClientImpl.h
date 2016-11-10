@@ -176,6 +176,9 @@ class FrameLoaderClientImpl final : public FrameLoaderClient {
   void deniedScript() override;
   void didNotAllowPlugins() override;
 
+  bool allowFingerprinting() override;
+  void deniedFingerprinting() override;
+
   WebCookieJar* cookieJar() const override;
   void frameFocused() const override;
   void didChangeName(const String& name, const String& uniqueName) override;

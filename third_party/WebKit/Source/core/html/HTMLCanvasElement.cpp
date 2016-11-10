@@ -42,6 +42,7 @@
 #include "core/frame/LocalFrame.h"
 #include "core/frame/Settings.h"
 #include "core/frame/UseCounter.h"
+#include "core/loader/FrameLoaderClient.h"
 #include "core/html/HTMLImageElement.h"
 #include "core/html/HTMLInputElement.h"
 #include "core/html/HTMLSelectElement.h"
@@ -784,13 +785,27 @@ SecurityOrigin* HTMLCanvasElement::getSecurityOrigin() const {
   return document().getSecurityOrigin();
 }
 
-bool HTMLCanvasElement::originClean() const {
-  if (document().settings() &&
-      document().settings()->getDisableReadingFromCanvas())
-    return false;
-  if (placeholderFrame())
-    return placeholderFrame()->originClean();
-  return m_originClean;
+bool HTMLCanvasElement::originClean() const
+{
+    LocalFrame* frame = document().frame();
+    bool allowed = true;
+    if (frame) {
+        allowed = frame->loader().client()->allowFingerprinting();
+    }
+    if (!allowed) {
+        if (frame) {
+          frame->loader().client()->deniedFingerprinting();
+        }
+
+        return false;
+    }
+
+    if (document().settings() &&
+        document().settings()->getDisableReadingFromCanvas())
+      return false;
+    if (placeholderFrame())
+      return placeholderFrame()->originClean();
+    return m_originClean;
 }
 
 bool HTMLCanvasElement::shouldAccelerate(AccelerationCriteria criteria) const {
