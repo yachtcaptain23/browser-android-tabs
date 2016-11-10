@@ -760,6 +760,10 @@ bool GetDataSaverEnabledPref(const PrefService* prefs) {
              .compare("Disabled");
 }
 
+bool GetFingerprintingProtectionEnabledPref(const PrefService* prefs) {
+  return prefs->GetBoolean(prefs::kFingerprintingProtectionEnabled);
+}
+
 WebContents* GetWebContents(int render_process_id, int render_frame_id) {
   RenderFrameHost* rfh =
       RenderFrameHost::FromID(render_process_id, render_frame_id);
@@ -2500,6 +2504,7 @@ void ChromeContentBrowserClient::OverrideWebkitPrefs(
     web_prefs->strict_powerful_feature_restrictions = true;
   }
 
+  web_prefs->disable_reading_from_canvas = GetFingerprintingProtectionEnabledPref(prefs);
   web_prefs->data_saver_enabled = GetDataSaverEnabledPref(prefs);
 
 #if defined(OS_ANDROID)
