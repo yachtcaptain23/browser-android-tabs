@@ -708,7 +708,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                               , url.getHost()
                               , currentTab.getAdsAndTrackers()
                               , currentTab.getHttpsUpgrades()
-                              , currentTab.getScriptsBlocked());
+                              , currentTab.getScriptsBlocked()
+                              , currentTab.getFingerprintsBlocked());
                         } catch (Exception e) {
                             setBraveShieldsBlackAndWhite();
                         }
@@ -1333,7 +1334,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
 
             @Override
             public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades,
-                    int scriptsBlocked) {
+                    int scriptsBlocked, int fingerprintsBlocked) {
                 List<Tab> tabsList = new ArrayList<>();
                 for (int i = 0; i < getCurrentTabModel().getCount(); i++) {
                     Tab tab = getCurrentTabModel().getTabAt(i);
@@ -1362,13 +1363,21 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                         if (tabToUpdate.getHttpsUpgrades() > currentTab.getHttpsUpgrades()) {
                             tabToUpdate = currentTab;
                         }
+                    } else if (0 != scriptsBlocked) {
+                      if (tabToUpdate.getScriptsBlocked() > currentTab.getScriptsBlocked()) {
+                          tabToUpdate = currentTab;
+                      }
+                    } else if (0 != fingerprintsBlocked) {
+                      if (tabToUpdate.getFingerprintsBlocked() > currentTab.getFingerprintsBlocked()) {
+                          tabToUpdate = currentTab;
+                      }
                     }
                 }
                 if (null != tabToUpdate) {
-                    tabToUpdate.braveShieldsCountUpdate(adsAndTrackers, httpsUpgrades, scriptsBlocked);
+                    tabToUpdate.braveShieldsCountUpdate(adsAndTrackers, httpsUpgrades, scriptsBlocked, fingerprintsBlocked);
                     if (getActivityTab() == tabToUpdate) {
                         updateBraveryPanelCounts(tabToUpdate.getAdsAndTrackers(), tabToUpdate.getHttpsUpgrades(),
-                                tabToUpdate.getScriptsBlocked());
+                                tabToUpdate.getScriptsBlocked(), tabToUpdate.getFingerprintsBlocked());
                     }
                 }
             }

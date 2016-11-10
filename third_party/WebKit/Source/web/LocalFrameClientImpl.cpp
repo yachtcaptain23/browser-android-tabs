@@ -297,6 +297,20 @@ void FrameLoaderClientImpl::deniedScript()
         m_webFrame->contentSettingsClient()->deniedScript();
 }
 
+bool FrameLoaderClientImpl::allowFingerprinting()
+{
+    if (m_webFrame->contentSettingsClient())
+        return m_webFrame->contentSettingsClient()->allowFingerprinting();
+
+    return true;
+}
+
+void FrameLoaderClientImpl::deniedFingerprinting()
+{
+    if (m_webFrame->contentSettingsClient())
+        m_webFrame->contentSettingsClient()->deniedFingerprinting();
+}
+
 bool LocalFrameClientImpl::hasWebView() const {
   return m_webFrame->viewImpl();
 }
