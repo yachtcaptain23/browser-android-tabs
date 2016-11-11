@@ -74,6 +74,8 @@ public class ChromeBrowserInitializer {
 
     private Context mContext;
     private boolean mAdBlockInitCalled = false;
+    private boolean mUpdateStatsCalled = false;
+
     // Public to allow use in ChromeBackupAgent
     public static final String PRIVATE_DATA_DIRECTORY_SUFFIX = "chrome";
 
@@ -122,6 +124,28 @@ public class ChromeBrowserInitializer {
       new DownloadHTTPSDataAsyncTask().execute();
       PrefServiceBridge.getInstance().setBlockThirdPartyCookiesEnabled(true);
       Log.i(TAG, "Started AdBlock async tasks");
+    }
+
+    private void UpdateStats() {
+      if (mUpdateStatsCalled) {
+          return;
+      }
+      mUpdateStatsCalled = true;
+      new UpdateStatsAsyncTask().execute();
+    }
+
+    // Stats update
+    class UpdateStatsAsyncTask extends AsyncTask<Void,Void,Long> {
+        protected Long doInBackground(Void... params) {
+            try {
+                StatsUpdater.UpdateStats(mContext);
+            }
+            catch(Exception exc) {
+                // Just ignore it if we cannot update
+            }
+
+            return null;
+        }
     }
 
     // Tracking ptotection data download
@@ -329,6 +353,7 @@ public class ChromeBrowserInitializer {
             public void run() {
                 ProcessInitializationHandler.getInstance().initializePostNative();
                 InitAdBlock();
+                UpdateStats();
             }
         });
 
