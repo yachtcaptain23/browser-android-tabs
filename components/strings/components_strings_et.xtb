@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">Registreerimisdomeen:</translation>
 <translation id="1340482604681802745">Kättesaamise aadress</translation>
 <translation id="1344211575059133124">Näib, et vajate saidi külastamiseks luba</translation>
-<translation id="1344588688991793829">Chromiumi automaattäite seaded ...</translation>
 <translation id="1348198688976932919">Sait, mille soovite avada, sisaldab ohtlikke rakendusi</translation>
+<translation id="5699636340916456594">Bravei automaattäite seaded ...</translation>
 <translation id="1374468813861204354">soovitused</translation>
 <translation id="1375198122581997741">Teave versiooni kohta</translation>
 <translation id="1377321085342047638">Kaardinr</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">Märguanded</translation>
 <translation id="2491120439723279231">Serveri sertifikaat sisaldab vigu.</translation>
 <translation id="2495083838625180221">JSON-i parser</translation>
-<translation id="2495093607237746763">Kui see on märgitud, salvestab Chromium teie kaardi koopia vormide kiiremaks täitmiseks sellesse seadmesse.</translation>
+<translation id="5047769237368272183">Kui see on märgitud, salvestab Brave teie kaardi koopia vormide kiiremaks täitmiseks sellesse seadmesse.</translation>
 <translation id="2498091847651709837">Uue kaardi skannimine</translation>
 <translation id="2501278716633472235">Mine tagasi</translation>
 <translation id="2515629240566999685">Kontrollige oma piirkonna signaali</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">Lahku</translation>
 <translation id="2702801445560668637">Lugemisloend</translation>
 <translation id="2704283930420550640">Väärtus ei vasta vormingule.</translation>
-<translation id="2704951214193499422">Chromium ei saanud praegu teie kaarti kinnitada. Proovige hiljem uuesti.</translation>
+<translation id="6031131842426638868">Brave ei saanud praegu teie kaarti kinnitada. Proovige hiljem uuesti.</translation>
 <translation id="2705137772291741111">Selle saidi (vahemällu) salvestatud koopia oli loetamatu.</translation>
 <translation id="2709516037105925701">Automaatne täitmine</translation>
 <translation id="2712173769900027643">Küsi luba</translation>
@@ -249,9 +249,9 @@
 <translation id="2966678944701946121">Aegub: <ph name="EXPIRATION_DATE_ABBR" />. Lisati kuupäeval <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">Turvalise ühenduse loomiseks peab kell olema õigesti seadistatud, kuna sertifikaadid, mida veebisaidid kasutavad enda tuvastamiseks, kehtivad ainult teatud perioodi jooksul. Kuna teie seadme kell on vale, ei saa Chrome neid sertifikaate kinnitada.</translation>
 <translation id="2972581237482394796">&amp;Tee uuesti</translation>
-<translation id="2985306909656435243">Kui see on lubatud, salvestab Chromium teie kaardi koopia vormide kiiremaks täitmiseks sellesse seadmesse.</translation>
 <translation id="2985398929374701810">Sisestage kehtiv aadress</translation>
 <translation id="2986368408720340940">See kättesaamisviis pole saadaval. Proovige mõnda teist kättesaamisviisi.</translation>
+<translation id="3676215163710610678">Kui see on lubatud, salvestab Brave teie kaardi koopia vormide kiiremaks täitmiseks sellesse seadmesse.</translation>
 <translation id="2991174974383378012">Veebisaitidega jagamine</translation>
 <translation id="2991571918955627853">Te ei saa saiti <ph name="SITE" /> praegu külastada, sest veebisait kasutab HSTS-i. Võrguvead ja -rünnakud on tavaliselt ajutised, nii et leht tõenäoliselt hiljem töötab.</translation>
 <translation id="3005723025932146533">Kuva salvestatud koopia</translation>
@@ -413,7 +413,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">Kasuta üldist vaikevalikut (tuvasta)</translation>
 <translation id="4165986682804962316">Saidi seaded</translation>
-<translation id="4169947484918424451">Kas soovite, et Chromium salvestaks selle kaardi?</translation>
+<translation id="3531566063171612283">Kas soovite, et Brave salvestaks selle kaardi?</translation>
 <translation id="4171400957073367226">Sobimatu kinnitusallkiri</translation>
 <translation id="4196861286325780578">&amp;Teisalda uuesti</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />Kontrollige tulemüüri ja viirusetõrje seadistusi<ph name="END_LINK" /></translation>
@@ -624,11 +624,12 @@
 <translation id="6177128806592000436">Teie ühendus selle saidiga pole turvaline</translation>
 <translation id="6184817833369986695">(rühm: <ph name="UPDATE_COHORT_NAME" />)</translation>
 <translation id="6203231073485539293">Kontrollige Interneti-ühendust</translation>
-<translation id="6218753634732582820">Kas eemaldada Chromiumist aadress?</translation>
+<translation id="6218753634732582820">Kas eemaldada Braveist aadress?</translation>
 <translation id="6221345481584921695">Google'i ohutu sirvimise teenus <ph name="BEGIN_LINK" />tuvastas hiljuti pahavara<ph name="END_LINK" /> saidil <ph name="SITE" />. Tavaliselt turvalisi veebisaite võidakse mõnikord nakatada pahavaraga. Pahatahtlik sisu pärineb hostilt <ph name="SUBRESOURCE_HOST" />, mis on tuntud pahavara levitaja.</translation>
 <translation id="6251924700383757765">Privaatsuseeskirjad</translation>
 <translation id="6254436959401408446">Selle lehe avamiseks pole piisavalt mälu</translation>
 <translation id="625755898061068298">Otsustasite turvahoiatused selle saidi puhul keelata.</translation>
+<translation id="8385639954311581596">Kas eemaldada Braveist aadress?</translation>
 <translation id="6259156558325130047">&amp;Korrasta uuesti</translation>
 <translation id="6263376278284652872">Domeeni <ph name="DOMAIN" /> järjehoidjad</translation>
 <translation id="6264485186158353794">Tagasi turvalisusse</translation>
@@ -647,7 +648,7 @@
 <translation id="6358450015545214790">Mida need tähendavad?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{veel 1 soovitus}other{veel # soovitust}}</translation>
 <translation id="6387478394221739770">Kas olete huvitatud Chrome'i uutest lahedatest funktsioonidest? Proovige meie beetakanalit aadressil chrome.com/beta.</translation>
-<translation id="6389758589412724634">Chromiumil pole selle veebilehe kuvamiseks piisavalt mälu.</translation>
+<translation id="6389758589412724634">Braveil pole selle veebilehe kuvamiseks piisavalt mälu.</translation>
 <translation id="6404511346730675251">Muuda järjehoidjat</translation>
 <translation id="6410264514553301377">Sisestage krediitkaardi <ph name="CREDIT_CARD" /> aegumiskuupäev ja CVC</translation>
 <translation id="6414888972213066896">Küsisite vanemalt, kas võite seda saiti külastada</translation>
@@ -677,7 +678,7 @@
 <translation id="6628463337424475685"><ph name="ENGINE" />'i otsing</translation>
 <translation id="6630809736994426279">Saidil <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> olevad ründajad võivad proovida installida teie Maci ohtlikke programme, mis varastavad teie teavet või kustutavad selle (nt fotod, paroolid, sõnumid ja krediitkaarditeave). <ph name="BEGIN_LEARN_MORE_LINK" />Lisateave<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">See reegel on aegunud.</translation>
-<translation id="6671697161687535275">Kas eemaldada Chromiumist vormi soovitus?</translation>
+<translation id="4670564340385807132">Kas eemaldada Braveist vormi soovitus?</translation>
 <translation id="6685834062052613830">Logige välja ja viige seadistus lõpule</translation>
 <translation id="6710213216561001401">Eelmine</translation>
 <translation id="6710594484020273272">&lt;Sisestage otsingutermin&gt;</translation>
@@ -785,7 +786,7 @@
 <translation id="7610193165460212391">Väärtus on vahemikust (<ph name="VALUE" />) väljaspool.</translation>
 <translation id="7613889955535752492">Aegub: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Teil on juba andmed, mis on krüpteeritud Google'i konto parooli teise versiooniga. Sisestage see allpool.</translation>
-<translation id="7637571805876720304">Kas eemaldada Chromiumist krediitkaart?</translation>
+<translation id="6386821459680628976">Kas eemaldada Braveist krediitkaart?</translation>
 <translation id="765676359832457558">Peida täpsemad seaded ...</translation>
 <translation id="7658239707568436148">Tühista</translation>
 <translation id="7662298039739062396">Seadet juhib laiendus</translation>
@@ -891,7 +892,7 @@
 <translation id="8725066075913043281">Proovi uuesti</translation>
 <translation id="8728672262656704056">Olete inkognito režiimis</translation>
 <translation id="8730621377337864115">Valmis</translation>
-<translation id="8738058698779197622">Turvalise ühenduse loomiseks peab kell olema õigesti seadistatud. See on nii, kuna sertifikaadid, mida veebisaidid kasutavad enda tuvastamiseks, kehtivad ainult teatud perioodi jooksul. Kuna teie seadme kell on vale, ei saa Chromium neid sertifikaate kinnitada.</translation>
+<translation id="8738058698779197622">Turvalise ühenduse loomiseks peab kell olema õigesti seadistatud. See on nii, kuna sertifikaadid, mida veebisaidid kasutavad enda tuvastamiseks, kehtivad ainult teatud perioodi jooksul. Kuna teie seadme kell on vale, ei saa Brave neid sertifikaate kinnitada.</translation>
 <translation id="8740359287975076522">Hosti <ph name="HOST_NAME" /> &lt;abbr id="dnsDefinition"&gt;DNS-aadressi&lt;/abbr&gt; ei leitud. Probleemi diagnoositakse.</translation>
 <translation id="8759274551635299824">See kaart on aegunud</translation>
 <translation id="8761567432415473239">Google'i ohutu sirvimine <ph name="BEGIN_LINK" />tuvastas hiljuti kahjulikud programmid<ph name="END_LINK" /> saidil <ph name="SITE" />.</translation>
@@ -933,7 +934,7 @@
 <translation id="9069693763241529744">Blokeeris laiendus</translation>
 <translation id="9076283476770535406">See võib sisaldada täiskasvanutele mõeldud sisu</translation>
 <translation id="9078964945751709336">Vaja on rohkem teavet</translation>
-<translation id="9103872766612412690">Sait <ph name="SITE" /> kasutab teie teabe kaitsmiseks tavaliselt krüpteerimist. Kui Chromium püüdis seekord saidiga <ph name="SITE" /> ühendust luua, tagastas veebisait ebatavalised ja valed mandaadid. See võib juhtuda siis, kui ründaja proovib teeselda, et on sait <ph name="SITE" />, või WiFi sisselogimisekraan on ühenduse katkestanud. Teie teave on endiselt kaitstud, sest Chromium peatas ühenduse enne andmevahetust.</translation>
+<translation id="9103872766612412690">Sait <ph name="SITE" /> kasutab teie teabe kaitsmiseks tavaliselt krüpteerimist. Kui Brave püüdis seekord saidiga <ph name="SITE" /> ühendust luua, tagastas veebisait ebatavalised ja valed mandaadid. See võib juhtuda siis, kui ründaja proovib teeselda, et on sait <ph name="SITE" />, või WiFi sisselogimisekraan on ühenduse katkestanud. Teie teave on endiselt kaitstud, sest Brave peatas ühenduse enne andmevahetust.</translation>
 <translation id="9137013805542155359">Kuva originaal</translation>
 <translation id="9137248913990643158">Enne selle rakenduse kasutamist alustage ja logige Chrome'i sisse.</translation>
 <translation id="9148507642005240123">&amp;Võta muudatus tagasi</translation>

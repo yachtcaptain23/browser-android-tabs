@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">دامنه ثبت‌نام:</translation>
 <translation id="1340482604681802745">نشانی تحویل گرفتن کالا</translation>
 <translation id="1344211575059133124">گویا برای بازدید این سایت به اجازه نیاز دارید</translation>
-<translation id="1344588688991793829">‏تنظیمات تکمیل خودکار Chromium...</translation>
 <translation id="1348198688976932919">سایت پیش‌رو حاوی برنامه‌های خطرناک است</translation>
+<translation id="5699636340916456594">‏تنظیمات تکمیل خودکار Brave...</translation>
 <translation id="1374468813861204354">پیشنهادات</translation>
 <translation id="1375198122581997741">درباره نسخه</translation>
 <translation id="1377321085342047638">شماره کارت</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">اعلان‌ها</translation>
 <translation id="2491120439723279231">گواهی سرور دارای چندین خطاست.</translation>
 <translation id="2495083838625180221">‏تجزیه‌کننده JSON</translation>
-<translation id="2495093607237746763">‏اگر علامت زده شود، Chromium برای پر کردن سریع‌تر فرم، یک کپی از کارت شما در این دستگاه ذخیره می‌کند.</translation>
+<translation id="5047769237368272183">‏اگر علامت زده شود، Brave برای پر کردن سریع‌تر فرم، یک کپی از کارت شما در این دستگاه ذخیره می‌کند.</translation>
 <translation id="2498091847651709837">اسکن کارت جدید</translation>
 <translation id="2501278716633472235">بازگشت</translation>
 <translation id="2515629240566999685">بررسی سیگنال در منطقه‌تان</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">خروج</translation>
 <translation id="2702801445560668637">فهرست خواندن</translation>
 <translation id="2704283930420550640">مقدار با فرمت مطابقت ندارد.</translation>
-<translation id="2704951214193499422">‏Chromium درحال حاضر نمی‌تواند کارت شما را تأیید کند. لطفاً بعداً دوباره امتحان کنید.</translation>
+<translation id="6031131842426638868">‏Brave درحال حاضر نمی‌تواند کارت شما را تأیید کند. لطفاً بعداً دوباره امتحان کنید.</translation>
 <translation id="2705137772291741111">کپی ذخیره‌شده (ذخیره موقت‌شده) این سایت قابل خواندن نبود.</translation>
 <translation id="2709516037105925701">تکمیل خودکار</translation>
 <translation id="2712173769900027643">درخواست اجازه</translation>
@@ -249,9 +249,9 @@
 <translation id="2966678944701946121">تاریخ انقضا: <ph name="EXPIRATION_DATE_ABBR" />، تاریخ اضافه شدن: <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">‏برای برقراری یک اتصال امن، لازم است ساعت شما درست تنظیم شده باشد. زیرا گواهی‌هایی که وب‌سایت‌ها برای شناسایی خودشان استفاده می‌کنند، تنها برای دوره‌های زمانی خاصی معتبرند. از آنجا که ساعت دستگاه شما نادرست است، Google Chrome نمی‌تواند این گواهی‌ها را تأیید کند.</translation>
 <translation id="2972581237482394796">انجام مجدد</translation>
-<translation id="2985306909656435243">‏اگر فعال شود، Chromium برای پر کردن سریع‌تر فرم، یک کپی از کارت شما در این دستگاه ذخیره می‌کند.</translation>
 <translation id="2985398929374701810">نشانی معتبری وارد کنید</translation>
 <translation id="2986368408720340940">این روش تحویل گرفتن در دسترس نیست. روش دیگری را امتحان کنید.</translation>
+<translation id="3676215163710610678">‏اگر فعال شود، Brave برای پر کردن سریع‌تر فرم، یک کپی از کارت شما در این دستگاه ذخیره می‌کند.</translation>
 <translation id="2991174974383378012">اشتراک‌گذاری با وب‌سایت‌ها</translation>
 <translation id="2991571918955627853">‏درحال‌حاضر نمی‌توانید از <ph name="SITE" /> دیدن کنید، زیرا این وب‌سایت از HSTS استفاده می‌کند. خطاهای شبکه و حمله‌ها معمولاً موقتی هستند، بنابراین احتمالاً این صفحه بعداً کار خواهد کرد.</translation>
 <translation id="3005723025932146533">نمایش کپی ذخیره شده</translation>
@@ -413,7 +413,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">استفاده از پیش‌فرض کلی (تشخیص)</translation>
 <translation id="4165986682804962316">تنظیمات سایت</translation>
-<translation id="4169947484918424451">‏می‌خواهید Chromium این کارت را ذخیره کند؟</translation>
+<translation id="3531566063171612283">‏می‌خواهید Brave این کارت را ذخیره کند؟</translation>
 <translation id="4171400957073367226">امضای تأیید نامناسب</translation>
 <translation id="4196861286325780578">&amp;انجام مجدد انتقال</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />بررسی پیکربندی آنتی‌ویروس و دیوار آتش<ph name="END_LINK" /></translation>
@@ -624,11 +624,12 @@
 <translation id="6177128806592000436">اتصال شما به این سایت امن نیست</translation>
 <translation id="6184817833369986695">(هم‌گروه: <ph name="UPDATE_COHORT_NAME" />)</translation>
 <translation id="6203231073485539293">اتصال اینترنتتان را بررسی کنید</translation>
-<translation id="6218753634732582820">‏آدرس از Chromium پاک شود؟</translation>
+<translation id="6218753634732582820">‏آدرس از Brave پاک شود؟</translation>
 <translation id="6221345481584921695">‏Google Safe Browsing به تازگی در <ph name="SITE" />، ‏<ph name="BEGIN_LINK" />بدافزار شناسایی کرده است<ph name="END_LINK" />. گاهی اوقات وب‌سایت‌هایی که معمولاً امن هستند، با بدافزار آلوده می‌شوند. منبع محتوای مخرب <ph name="SUBRESOURCE_HOST" /> است که یک توزیع‌کننده بدافزار شناخته شده، می‌باشد.</translation>
 <translation id="6251924700383757765">خط‌مشی رازداری</translation>
 <translation id="6254436959401408446">حافظه کافی برای باز کردن این صفحه وجود ندارد</translation>
 <translation id="625755898061068298">انتخاب کردید اخطارهای امنیتی برای این سایت غیرفعال شود.</translation>
+<translation id="8385639954311581596">‏آدرس از Brave پاک شود؟</translation>
 <translation id="6259156558325130047">&amp;انجام مجدد ترتیب‌بندی مجدد</translation>
 <translation id="6263376278284652872">نشانک‌های <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">بازگشت به ایمنی</translation>
@@ -647,7 +648,7 @@
 <translation id="6358450015545214790">معنی این‌ها چیست؟</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{۱ پیشنهاد دیگر}one{# پیشنهاد دیگر}other{# پیشنهاد دیگر}}</translation>
 <translation id="6387478394221739770">‏علاقه‌مند به قابلیت‌های جدید و جالب Chrome هستید؟ کانال بتای ما را در chrome.com/beta امتحان کنید.</translation>
-<translation id="6389758589412724634">‏Chromium هنگام تلاش برای نمایش این صفحه با کمبود حافظه روبرو شد.</translation>
+<translation id="6389758589412724634">Brave هنگام تلاش برای نمایش این صفحه با کمبود حافظه روبرو شد.</translation>
 <translation id="6404511346730675251">ویرایش نشانک</translation>
 <translation id="6410264514553301377">‏CVC‏ و تاریخ انقضای <ph name="CREDIT_CARD" /> را وارد کنید</translation>
 <translation id="6414888972213066896">از والدینتان پرسیدید آیا اجازه بازدید از این سایت را دارید</translation>
@@ -677,7 +678,7 @@
 <translation id="6628463337424475685">جستجوی <ph name="ENGINE" /></translation>
 <translation id="6630809736994426279">‏شاید درحال‌حاضر مهاجم‌ها در <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> در تلاش باشند برنامه‌های خطرناکی در Mac شما نصب کنند که اطلاعاتتان (مانند عکس‌ها، گذرواژه‌ها، پیام‌ها و کارت‌های اعتباری) را به سرقت می‌برند یا حذف می‌کنند. <ph name="BEGIN_LEARN_MORE_LINK" />بیشتر بدانید<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">این قانون قدیمی شده است.</translation>
-<translation id="6671697161687535275">‏پیشنهاد فرم از Chromium پاک شود؟</translation>
+<translation id="4670564340385807132">‏پیشنهاد فرم از Brave پاک شود؟</translation>
 <translation id="6685834062052613830">خروج از سیستم و تکمیل راه‌اندازی</translation>
 <translation id="6710213216561001401">قبلی</translation>
 <translation id="6710594484020273272">&lt;عبارت جستجو را تایپ کنید&gt;</translation>
@@ -785,7 +786,7 @@
 <translation id="7610193165460212391">مقدار خارج از محدوده <ph name="VALUE" /> است.</translation>
 <translation id="7613889955535752492">انقضا: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">‏شما در حال حاضر داده‌هایی دارید که با استفاده از نسخه دیگری از گذرواژه حساب Google شما رمزگذاری شده‌اند. لطفاً آن را در زیر وارد کنید.</translation>
-<translation id="7637571805876720304">‏کارت اعتباری از Chromium پاک شود؟</translation>
+<translation id="6386821459680628976">‏کارت اعتباری از Brave پاک شود؟</translation>
 <translation id="765676359832457558">پنهان کردن تنظیمات پیشرفته…</translation>
 <translation id="7658239707568436148">لغو</translation>
 <translation id="7662298039739062396">تنظیم توسط افزونه کنترل می‌شود</translation>
@@ -891,7 +892,7 @@
 <translation id="8725066075913043281">سعی مجدد</translation>
 <translation id="8728672262656704056">اکنون در حالت ناشناس هستید</translation>
 <translation id="8730621377337864115">تمام</translation>
-<translation id="8738058698779197622">‏به منظور برقراری یک اتصال امن، لازم است که ساعت شما به درستی تنظیم شود. زیرا گواهینامه‌هایی که وب‌سایت‌ها برای شناسایی خودشان استفاده می‌کنند تنها برای دوره‌های زمانی خاصی معتبر هستند. از آنجایی که ساعت دستگاه نادرست است، Chromium نمی‌تواند این گواهینامه‌ها را تأیید کند.</translation>
+<translation id="8738058698779197622">‏به منظور برقراری یک اتصال امن، لازم است که ساعت شما به درستی تنظیم شود. زیرا گواهینامه‌هایی که وب‌سایت‌ها برای شناسایی خودشان استفاده می‌کنند تنها برای دوره‌های زمانی خاصی معتبر هستند. از آنجایی که ساعت دستگاه نادرست است، Brave نمی‌تواند این گواهینامه‌ها را تأیید کند.</translation>
 <translation id="8740359287975076522">‏<ph name="HOST_NAME" />’s &lt;abbr id="dnsDefinition"&gt;آدرس DNS&lt;/abbr&gt; پیدا نشد. درحال بررسی برای تشخیص مشکل.</translation>
 <translation id="8759274551635299824">کارت منقضی شده است</translation>
 <translation id="8761567432415473239">‏مرور ایمن Google اخیراً <ph name="BEGIN_LINK" />برنامه‌های خطرناک<ph name="END_LINK" /> را در <ph name="SITE" /> پیدا کرده است.</translation>
@@ -933,7 +934,7 @@
 <translation id="9069693763241529744">توسط افزونه مسدود شده است</translation>
 <translation id="9076283476770535406">این سایت ممکن است شامل محتوای مخصوص بزرگسالان باشد</translation>
 <translation id="9078964945751709336">اطلاعات بیشتری نیاز است</translation>
-<translation id="9103872766612412690">‏<ph name="SITE" /> معمولاً برای محافظت از اطلاعات شما از رمزگذاری استفاده می‌کند. اما این بار که Chromium تلاش کرد به <ph name="SITE" /> متصل شود، وب‌سایت اعتبارنامه‌ای نامعمول و نادرست را برگرداند. ممکن است مهاجمی در تلاش باشد خود را به‌جای <ph name="SITE" /> معرفی کند یا یک صفحه ورود به سیستم Wi-Fi در ارتباط اختلال ایجاد کرده باشد. اطلاعات شما همچنان ایمن است، زیرا Chromium قبل از هرگونه تبادل داده، اتصال را متوقف کرد.</translation>
+<translation id="9103872766612412690">‏<ph name="SITE" /> معمولاً برای محافظت از اطلاعات شما از رمزگذاری استفاده می‌کند. اما این بار که Brave تلاش کرد به <ph name="SITE" /> متصل شود، وب‌سایت اعتبارنامه‌ای نامعمول و نادرست را برگرداند. ممکن است مهاجمی در تلاش باشد خود را به‌جای <ph name="SITE" /> معرفی کند یا یک صفحه ورود به سیستم Wi-Fi در ارتباط اختلال ایجاد کرده باشد. اطلاعات شما همچنان ایمن است، زیرا Brave قبل از هرگونه تبادل داده، اتصال را متوقف کرد.</translation>
 <translation id="9137013805542155359">نمایش مورد اصلی</translation>
 <translation id="9137248913990643158">‏لطفاً پیش از استفاده از این برنامه، Chrome را باز کنید و به سیستم آن وارد شوید.</translation>
 <translation id="9148507642005240123">&amp;واگرد ویرایش</translation>

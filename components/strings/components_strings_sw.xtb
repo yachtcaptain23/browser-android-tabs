@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">Kikoa cha kujiandikisha:</translation>
 <translation id="1340482604681802745">Anwani ya eneo la kuchukulia</translation>
 <translation id="1344211575059133124">Inaonekana unahitaji ruhusa ili uweze kutembelea tovuti hii</translation>
-<translation id="1344588688991793829">Mipangilio ya Chromium ya kujaza kiotomatiki...</translation>
 <translation id="1348198688976932919">Kuna programu hasidi kwenye tovuti unayotaka kuifungua</translation>
+<translation id="5699636340916456594">Mipangilio ya Kujaza otomatiki ya Brave...</translation>
 <translation id="1374468813861204354">mapendekezo</translation>
 <translation id="1375198122581997741">Kuhusu Toleo</translation>
 <translation id="1377321085342047638">Nambari ya Kadi</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">Arifa</translation>
 <translation id="2491120439723279231">Cheti cha seva kina hitilafu.</translation>
 <translation id="2495083838625180221">Kichanganuzi cha JSON</translation>
-<translation id="2495093607237746763">Ikitiwa tiki, Chromium itahifadhi nakala ya kadi yako kwenye kifaa hiki kwa ajili ya kujaza fomu haraka zaidi.</translation>
+<translation id="5047769237368272183">Ikitiwa tiki, Brave itahifadhi nakala ya kadi yako kwenye kifaa hiki kwa ajili ya kujaza fomu haraka zaidi.</translation>
 <translation id="2498091847651709837">Changanua kadi mpya</translation>
 <translation id="2501278716633472235">Rudi nyuma</translation>
 <translation id="2515629240566999685">Kuangalia uthabiti wa mawimbi katika eneo lako</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">Ondoka</translation>
 <translation id="2702801445560668637">Orodha ya Kusoma</translation>
 <translation id="2704283930420550640">Thamani haioani na umbizo.</translation>
-<translation id="2704951214193499422">Chromium haikuweza kuthibitisha kadi yako wakati huu. Tafadhali jaribu tena baadaye.</translation>
+<translation id="6031131842426638868">Brave haikuweza kuthibitisha kadi yako wakati huu. Tafadhali jaribu tena baadaye.</translation>
 <translation id="2705137772291741111">Nakala iliyohifadhiwa (iliyowekwa katika akiba) ya tovuti hii haikusomeka.</translation>
 <translation id="2709516037105925701">Kujaza Kiotomatiki</translation>
 <translation id="2712173769900027643">Omba ruhusa</translation>
@@ -249,9 +249,9 @@
 <translation id="2966678944701946121">Muda wa kutumika utakwisha: <ph name="EXPIRATION_DATE_ABBR" />, iliongezwa <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">Ili kutambua muunganisho salama, saa yako inahitaji kusahihishwa. Hii ni kwa sababu vyeti ambavyo tovuti hutumia kujitambua ni sahihi kwa vipindi mahususi pekee. Kwa kuwa saa ya kifaa chako si sahihi, Google Chrome haiwezi kuthibitisha vyeti hivi.</translation>
 <translation id="2972581237482394796">&amp;Rudia</translation>
-<translation id="2985306909656435243">Ikiwashwa, Chromium itahifadhi nakala ya kadi yako kwenye kifaa hiki kwa ajili ya kujaza fomu haraka zaidi.</translation>
 <translation id="2985398929374701810">Andika anwani sahihi</translation>
 <translation id="2986368408720340940">Mbinu hii ya kuchukua haipatikani. Jaribu mbinu tofauti.</translation>
+<translation id="3676215163710610678">Ikiwashwa, Brave itahifadhi nakala ya kadi yako kwenye kifaa hiki kwa ajili ya kujaza fomu haraka zaidi.</translation>
 <translation id="2991174974383378012">Kushiriki kwenye Tovuti</translation>
 <translation id="2991571918955627853">Huwezi kutembelea <ph name="SITE" /> sasa hivi kwa sababu tovuti inatumia HSTS. Hitilafu na uvamizi wa mtandao kwa kawaida huwa vya muda, kwa hivyo huenda ukurasa huu ukafanya kazi baadaye.</translation>
 <translation id="3005723025932146533">Onyesha nakala iliyohifadhiwa</translation>
@@ -413,7 +413,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">Tumia chaguo-msingi la kimataifa (Gundua)</translation>
 <translation id="4165986682804962316">Mipangilio ya tovuti</translation>
-<translation id="4169947484918424451">Je, unataka Chromium ihifadhi kadi hii?</translation>
+<translation id="3531566063171612283">Je, unataka Brave ihifadhi kadi hii?</translation>
 <translation id="4171400957073367226">Sahihi mbaya ya uthibitishaji</translation>
 <translation id="4196861286325780578">Rudia hatua</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />Kuangalia mipangilio ya kinga-mtandao na kinga-virusi<ph name="END_LINK" /></translation>
@@ -624,11 +624,12 @@
 <translation id="6177128806592000436">Muunganisho wako kwenye tovuti hii si salama</translation>
 <translation id="6184817833369986695">(kundi: <ph name="UPDATE_COHORT_NAME" />)</translation>
 <translation id="6203231073485539293">Angalia muunganisho wako wa Intaneti</translation>
-<translation id="6218753634732582820">Je, ungependa kuondoa anwani kwenye Chromium?</translation>
+<translation id="6218753634732582820">Je, ungependa kuondoa anwani kwenye Brave?</translation>
 <translation id="6221345481584921695">Mfumo wa Google wa Kuvinjari kwa Usalama <ph name="BEGIN_LINK" />uligundua programu hasidi<ph name="END_LINK" /> kwenye <ph name="SITE" /> hivi karibuni. Tovuti ambazo kwa kawaida huwa salama wakati mwingine huathiriwa na programu hasidi. Maudhui hasidi hutoka kwa <ph name="SUBRESOURCE_HOST" />, msambazaji wa programu hasidi anayejulikana.</translation>
 <translation id="6251924700383757765">Sera ya faragha</translation>
 <translation id="6254436959401408446">Hakuna hifadhi ya kutosha kufungua ukurasa huu</translation>
 <translation id="625755898061068298">Umechagua kuzima maonyo ya usalama ya tovuti hii.</translation>
+<translation id="8385639954311581596">Je, ungependa kuondoa anwani kwenye Brave?</translation>
 <translation id="6259156558325130047">Rudia Kupanga Upya</translation>
 <translation id="6263376278284652872">Alamisho za <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">Rejea kwenye usalama</translation>
@@ -647,7 +648,7 @@
 <translation id="6358450015545214790">Je, hii inamaanisha nini?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{Pendekezo jingine 1}other{Mapendekezo mengine #}}</translation>
 <translation id="6387478394221739770">Unavutiwa na vipengee vipya vizuri vya Chrome? Jaribu kituo chetu cha beta katika chrome.com/beta.</translation>
-<translation id="6389758589412724634">Nafasi ya kuhifadhi kwenye Chromium iliisha ilipokuwa ikijaribu kuonyesha ukurasa huu wa wavuti.</translation>
+<translation id="6389758589412724634">Nafasi ya kuhifadhi kwenye Brave iliisha ilipokuwa ikijaribu kuonyesha ukurasa huu wa wavuti.</translation>
 <translation id="6404511346730675251">Badilisha alamisho</translation>
 <translation id="6410264514553301377">Weka tarehe ya mwisho wa matumizi na CVC ya <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Umewaomba wazazi wako ruhusa ya kuitembelea tovuti hii</translation>
@@ -677,7 +678,7 @@
 <translation id="6628463337424475685">Utafutaji wa <ph name="ENGINE" /></translation>
 <translation id="6630809736994426279">Wavamizi ambao sasa wako kwenye <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> huenda wakajaribu kusakinisha programu hatari kwenye Mac yako ambazo zinaiba au kufuta maelezo yako (kwa mfano, picha, manenosiri, ujumbe na kadi za mikopo). <ph name="BEGIN_LEARN_MORE_LINK" />Pata maelezo zaidi<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">Sera hii imepingwa.</translation>
-<translation id="6671697161687535275">Je, ungependa kuondoa pendekezo la fomu kwenye Chromium?</translation>
+<translation id="4670564340385807132">Je, ungependa kuondoa pendekezo la fomu kwenye Brave?</translation>
 <translation id="6685834062052613830">Ondoka na ukamilishe kuweka mipangilio</translation>
 <translation id="6710213216561001401">Iliyotangulia</translation>
 <translation id="6710594484020273272">&lt;Andika neno unalotaka kutafuta&gt;</translation>
@@ -785,7 +786,7 @@
 <translation id="7610193165460212391">Thamani imezidi masafa<ph name="VALUE" />.</translation>
 <translation id="7613889955535752492">Muda wa matumizi utakwisha: <ph name="EXPIRATION_MONTH" /> / <ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Tayari una data ambayo imesimbwa kwa fiche kwa kutumia toleo tofauti la nenosiri lako la  Akaunti ya Google. Tafadhali liingize hapo chini.</translation>
-<translation id="7637571805876720304">Je, ungependa kuondoa kadi ya mikopo kwenye Chromium?</translation>
+<translation id="6386821459680628976">Je, ungependa kuondoa kadi ya mikopo kwenye Brave?</translation>
 <translation id="765676359832457558">Ficha mipangilio ya kina...</translation>
 <translation id="7658239707568436148">Ghairi</translation>
 <translation id="7662298039739062396">Mipangilio inadhibitiwa na kiendelezi</translation>
@@ -892,7 +893,7 @@
 <translation id="8725066075913043281">Jaribu tena</translation>
 <translation id="8728672262656704056">Unavinjari katika hali fiche</translation>
 <translation id="8730621377337864115">Nimemaliza</translation>
-<translation id="8738058698779197622">Ili kutambua muunganisho salama, saa yako inahitaji kuwekwa sahihi. Hii ni kwa sababu vyeti ambavyo tovuti hutumia kujitambua ni sahihi kwa vipindi mahususi pekee. Kwa kuwa saa ya kifaa chako si sahihi, Chromium haiwezi kuthibitisha vyeti hivi.</translation>
+<translation id="8738058698779197622">Ili kutambua muunganisho salama, saa yako inahitaji kuwekwa sahihi. Hii ni kwa sababu vyeti ambavyo tovuti hutumia kujitambua ni sahihi kwa vipindi mahususi pekee. Kwa kuwa saa ya kifaa chako si sahihi, Brave haiwezi kuthibitisha vyeti hivi.</translation>
 <translation id="8740359287975076522"><ph name="HOST_NAME" /> &lt;abbr id="dnsDefinition"&gt;anwani ya DNS&lt;/abbr&gt; haikupatikana. Tatizo linachunguzwa.</translation>
 <translation id="8759274551635299824">Muda wa matumizi wa kadi hii umekwisha</translation>
 <translation id="8761567432415473239">Kuvinjari Salama kwa Google <ph name="BEGIN_LINK" />kulipata programu zinazodhuru<ph name="END_LINK" /> kwenye <ph name="SITE" /> hivi karibuni.</translation>
@@ -934,7 +935,7 @@
 <translation id="9069693763241529744">Imezuiwa na kiendelezi</translation>
 <translation id="9076283476770535406">Huenda ina maudhui ya ngono</translation>
 <translation id="9078964945751709336">Maelezo zaidi yanahitajika</translation>
-<translation id="9103872766612412690">Kwa kawaida <ph name="SITE" /> hutumia usimbaji fiche ili kulinda maelezo yako. Chromium ilipojaribu kuunganisha kwenye <ph name="SITE" /> wakati huu, tovuti ilituma kitambulisho kisicho cha kawaida na kisicho sahihi. Hili linaweza kutokea mvamizi anapojaribu kujifanya kuwa <ph name="SITE" />, au uchanganuzi wa kuingia katika Wi-Fi umeingilia muunganisho. Maelezo yako yangali salama kwa sababu Chromium ilisimamisha muunganisho kabla data yoyote itumwe.</translation>
+<translation id="9103872766612412690">Kwa kawaida <ph name="SITE" /> hutumia usimbaji fiche ili kulinda maelezo yako. Brave ilipojaribu kuunganisha kwenye <ph name="SITE" /> wakati huu, tovuti ilituma kitambulisho kisicho cha kawaida na kisicho sahihi. Hili linaweza kutokea mvamizi anapojaribu kujifanya kuwa <ph name="SITE" />, au uchanganuzi wa kuingia katika Wi-Fi umeingilia muunganisho. Maelezo yako yangali salama kwa sababu Brave ilisimamisha muunganisho kabla data yoyote itumwe.</translation>
 <translation id="9137013805542155359">Onyesha asili</translation>
 <translation id="9137248913990643158">Tafadhali anza na uingie katika Chrome kabla ya kutumia programu hii.</translation>
 <translation id="9148507642005240123">Tendua kuhariri</translation>

@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">登録ドメイン:</translation>
 <translation id="1340482604681802745">引取先住所</translation>
 <translation id="1344211575059133124">このサイトにアクセスするには許可が必要です</translation>
-<translation id="1344588688991793829">Chromium の自動入力設定...</translation>
 <translation id="1348198688976932919">アクセス先のサイトには危険なアプリがあります</translation>
+<translation id="5699636340916456594">Brave の自動入力設定...</translation>
 <translation id="1374468813861204354">ヒント</translation>
 <translation id="1375198122581997741">バージョン情報</translation>
 <translation id="1377321085342047638">カード番号</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">通知</translation>
 <translation id="2491120439723279231">サーバーの証明書にエラーがあります。</translation>
 <translation id="2495083838625180221">JSON パーサー</translation>
-<translation id="2495093607237746763">チェックボックスをオンにすると、Chromium がカード情報をこの端末に保存するためフォームにすばやく入力できるようになります。</translation>
+<translation id="5047769237368272183">チェックボックスをオンにすると、Brave がカード情報をこの端末に保存するためフォームにすばやく入力できるようになります。</translation>
 <translation id="2498091847651709837">新しいカードをスキャン</translation>
 <translation id="2501278716633472235">戻る</translation>
 <translation id="2515629240566999685">電波状況を確認する</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">このページを離れる</translation>
 <translation id="2702801445560668637">リーディング リスト</translation>
 <translation id="2704283930420550640">値が有効な形式ではありません。</translation>
-<translation id="2704951214193499422">Chromium でカードを確認できませんでした。しばらくしてからもう一度お試しください。</translation>
+<translation id="6031131842426638868">Brave でカードを確認できませんでした。しばらくしてからもう一度お試しください。</translation>
 <translation id="2705137772291741111">このサイトの保存（キャッシュ）されたコピーを読み取れませんでした。</translation>
 <translation id="2709516037105925701">自動入力</translation>
 <translation id="2712173769900027643">権限をリクエスト</translation>
@@ -249,9 +249,9 @@
 <translation id="2966678944701946121">有効期限: <ph name="EXPIRATION_DATE_ABBR" />、追加日: <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">安全な接続を確立するには、時計が正しく設定されている必要があります。これは、ウェブサイトが自身を証明するために使用する証明書には有効期限があるためです。デバイスの時計が正しくないため、Google Chrome でこれらの証明書を確認することができません。</translation>
 <translation id="2972581237482394796">やり直し(&amp;R)</translation>
-<translation id="2985306909656435243">有効にすると、Chromium がカード情報をこの端末に保存するためフォームにすばやく入力できるようになります。</translation>
 <translation id="2985398929374701810">有効な住所を入力してください</translation>
 <translation id="2986368408720340940">この受け取り方法はご利用いただけません。別の方法を選択してください。</translation>
+<translation id="3676215163710610678">有効にすると、Brave がカード情報をこの端末に保存するためフォームにすばやく入力できるようになります。</translation>
 <translation id="2991174974383378012">ウェブサイトとの共有</translation>
 <translation id="2991571918955627853"><ph name="SITE" /> では HSTS が使用されているため、現在アクセスできません。通常、ネットワーク エラーやネットワークへの攻撃は一時的なものです。しばらくするとページにアクセスできるようになります。</translation>
 <translation id="3005723025932146533">保存済みのコピーを表示</translation>
@@ -413,7 +413,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">全体の既定値を使用（検出）</translation>
 <translation id="4165986682804962316">サイトの設定</translation>
-<translation id="4169947484918424451">Chromium にこのカードを保存しますか？</translation>
+<translation id="3531566063171612283">Brave にこのカードを保存しますか？</translation>
 <translation id="4171400957073367226">確認用の署名に問題があります</translation>
 <translation id="4196861286325780578">移動のやり直し（&amp;R）</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />ファイアウォールとウイルス対策の設定を確認する<ph name="END_LINK" /></translation>
@@ -624,11 +624,12 @@
 <translation id="6177128806592000436">このサイトへの接続は保護されていません</translation>
 <translation id="6184817833369986695">（コホート: <ph name="UPDATE_COHORT_NAME" />）</translation>
 <translation id="6203231073485539293">インターネット接続を確認してください</translation>
-<translation id="6218753634732582820">Chromium からアドレスを削除してもよろしいですか？</translation>
+<translation id="6218753634732582820">Brave からアドレスを削除してもよろしいですか？</translation>
 <translation id="6221345481584921695"><ph name="BEGIN_LINK" /> では最近、Google セーフ ブラウジングにより、<ph name="END_LINK" />不正なソフトウェアが検出されました<ph name="SITE" />。通常は安全なウェブサイトであっても、不正なソフトウェアに感染している場合があります。今回の悪意のあるコンテンツは、不正なソフトウェアの既知の配布元である「<ph name="SUBRESOURCE_HOST" />」からもたらされました。</translation>
 <translation id="6251924700383757765">プライバシー ポリシー</translation>
 <translation id="6254436959401408446">メモリが不足しているため、このページを開けません</translation>
 <translation id="625755898061068298">このサイトに関するセキュリティ警告を無効にするように指定されています。</translation>
+<translation id="8385639954311581596">Brave からアドレスを削除してもよろしいですか？</translation>
 <translation id="6259156558325130047">順序変更のやり直し（&amp;R）</translation>
 <translation id="6263376278284652872"><ph name="DOMAIN" /> のブックマーク</translation>
 <translation id="6264485186158353794">セキュリティで保護されたページに戻る</translation>
@@ -647,7 +648,7 @@
 <translation id="6358450015545214790">ヘルプ</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{他 1 件の候補}other{他 # 件の候補}}</translation>
 <translation id="6387478394221739770">Chrome の新しい機能に関心をお持ちでしたら、chrome.com/beta から Beta チャンネルをお試しください。</translation>
-<translation id="6389758589412724634">このウェブページを表示しようとしましたが、Chromium のメモリが不足しています。</translation>
+<translation id="6389758589412724634">このウェブページを表示しようとしましたが、Brave のメモリが不足しています。</translation>
 <translation id="6404511346730675251">ブックマークを編集</translation>
 <translation id="6410264514553301377"><ph name="CREDIT_CARD" /> の有効期限と CVC を入力</translation>
 <translation id="6414888972213066896">このサイトを開いてもよいかの問い合わせを保護者に送信しました</translation>
@@ -677,7 +678,7 @@
 <translation id="6628463337424475685"><ph name="ENGINE" /> 検索</translation>
 <translation id="6630809736994426279"><ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> では現在、悪意のあるユーザーによって、お使いの Mac 上に危険なプログラム（写真、パスワード、メッセージ、クレジット カードなどの情報を盗んだり削除したりするプログラム）がインストールされる可能性があります。<ph name="BEGIN_LEARN_MORE_LINK" />詳細<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">このポリシーは廃止されました。</translation>
-<translation id="6671697161687535275">Chromium から候補を削除してもよろしいですか？</translation>
+<translation id="4670564340385807132">Brave から候補を削除してもよろしいですか？</translation>
 <translation id="6685834062052613830">ログアウトして設定を完了してください</translation>
 <translation id="6710213216561001401">前へ</translation>
 <translation id="6710594484020273272">&lt;検索キーワードを入力&gt;</translation>
@@ -785,7 +786,7 @@
 <translation id="7610193165460212391">値（<ph name="VALUE" />）が範囲外です。</translation>
 <translation id="7613889955535752492">有効期限: <ph name="EXPIRATION_MONTH" /> / <ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">別の Google アカウント パスワードを使って暗号化したデータが既にあります。パスワードを以下に入力してください。</translation>
-<translation id="7637571805876720304">Chromium からクレジット カードを削除してもよろしいですか？</translation>
+<translation id="6386821459680628976">Brave からクレジット カードを削除してもよろしいですか？</translation>
 <translation id="765676359832457558">詳細設定を表示しない...</translation>
 <translation id="7658239707568436148">キャンセル</translation>
 <translation id="7662298039739062396">拡張機能によって指定される設定</translation>
@@ -892,7 +893,7 @@
 <translation id="8725066075913043281">やり直し</translation>
 <translation id="8728672262656704056">シークレット モードです</translation>
 <translation id="8730621377337864115">完了</translation>
-<translation id="8738058698779197622">安全な接続を確立するには時計が正しく設定されている必要があります。この理由は、本物のウェブサイトであることを示すためにウェブサイトで使用される証明書には、有効期間（発効日時と失効日時）が設定されているためです。デバイスの時計が正しくないため、Chromium ではこれらの証明書を確認できません。</translation>
+<translation id="8738058698779197622">安全な接続を確立するには時計が正しく設定されている必要があります。この理由は、本物のウェブサイトであることを示すためにウェブサイトで使用される証明書には、有効期間（発効日時と失効日時）が設定されているためです。デバイスの時計が正しくないため、Brave ではこれらの証明書を確認できません。</translation>
 <translation id="8740359287975076522"><ph name="HOST_NAME" /> の &lt;abbr id="dnsDefinition"&gt;DNS アドレス&lt;/abbr&gt;が見つかりませんでした。問題を診断しています。</translation>
 <translation id="8759274551635299824">このカードは有効期限が切れています</translation>
 <translation id="8761567432415473239"><ph name="SITE" /> では最近、Google セーフ ブラウジングにより<ph name="BEGIN_LINK" />有害なプログラムが検出<ph name="END_LINK" />されました。</translation>
@@ -934,7 +935,7 @@
 <translation id="9069693763241529744">拡張機能によってブロック</translation>
 <translation id="9076283476770535406">成人向けコンテンツが含まれている可能性があります</translation>
 <translation id="9078964945751709336">その他の情報が必要です</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> では通常、暗号化して情報を保護しています。今回、Chromium から <ph name="SITE" /> への接続試行時に、このウェブサイトからいつもとは異なる誤った認証情報が返されました。悪意のあるユーザーが <ph name="SITE" /> になりすまそうとしているか、Wi-Fi ログイン画面で接続が中断された可能性があります。データのやり取りが行われる前に Chromium によって接続が停止されたため、情報は引き続き保護されています。</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> では通常、暗号化して情報を保護しています。今回、Brave から <ph name="SITE" /> への接続試行時に、このウェブサイトからいつもとは異なる誤った認証情報が返されました。悪意のあるユーザーが <ph name="SITE" /> になりすまそうとしているか、Wi-Fi ログイン画面で接続が中断された可能性があります。データのやり取りが行われる前に Brave によって接続が停止されたため、情報は引き続き保護されています。</translation>
 <translation id="9137013805542155359">原文のページを表示</translation>
 <translation id="9137248913990643158">このアプリを使用するには、Chrome を起動してログインしてください。</translation>
 <translation id="9148507642005240123">編集の取り消し（&amp;U）</translation>
