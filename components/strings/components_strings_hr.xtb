@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">Domena upisa:</translation>
 <translation id="1340482604681802745">Adresa preuzimanja</translation>
 <translation id="1344211575059133124">Izgleda da ti je za posjet toj web-lokaciji potrebno dopuštenje</translation>
-<translation id="1344588688991793829">Postavke automatskog popunjavanja u Chromiumu...</translation>
 <translation id="1348198688976932919">Sljedeća web-lokacija sadrži opasne aplikacije</translation>
+<translation id="5699636340916456594">Postavke automatskog popunjavanja u Braveu...</translation>
 <translation id="1374468813861204354">prijedlozi</translation>
 <translation id="1375198122581997741">O verziji</translation>
 <translation id="1377321085342047638">Broj kartice</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">Obavijesti</translation>
 <translation id="2491120439723279231">Certifikat poslužitelja sadrži pogreške.</translation>
 <translation id="2495083838625180221">Raščlanjivanje JSON datoteka</translation>
-<translation id="2495093607237746763">Ako je potvrđen taj okvir, Chromium će pohraniti kopiju vaše kartice na uređaj radi bržeg ispunjavanja obrazaca.</translation>
+<translation id="5047769237368272183">Ako je potvrđen taj okvir, Brave će pohraniti kopiju vaše kartice na uređaj radi bržeg ispunjavanja obrazaca.</translation>
 <translation id="2498091847651709837">Skeniraj novu karticu</translation>
 <translation id="2501278716633472235">Natrag</translation>
 <translation id="2515629240566999685">provjerite jačinu signala na svom području</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">Napusti</translation>
 <translation id="2702801445560668637">Popis za čitanje</translation>
 <translation id="2704283930420550640">Vrijednost ne odgovara formatu.</translation>
-<translation id="2704951214193499422">Chromium nije uspio potvrditi vašu karticu. Pokušajte ponovo kasnije.</translation>
+<translation id="6031131842426638868">Brave nije uspio potvrditi vašu karticu. Pokušajte ponovo kasnije.</translation>
 <translation id="2705137772291741111">Spremljena (predmemorirana) kopija web-lokacije nije čitljiva.</translation>
 <translation id="2709516037105925701">Automatsko popunjavanje</translation>
 <translation id="2712173769900027643">Traži dopuštenje</translation>
@@ -249,9 +249,9 @@
 <translation id="2966678944701946121">Istek: <ph name="EXPIRATION_DATE_ABBR" />, dodano <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">Za uspostavu sigurne veze sat mora biti točno postavljen jer certifikati pomoću kojih se web-lokacije međusobno identificiraju vrijede samo određeno vrijeme. Budući da vaš sat nije točan, Chrome ne može potvrditi te certifikate.</translation>
 <translation id="2972581237482394796">&amp;Vrati poništeno</translation>
-<translation id="2985306909656435243">Ako je to omogućeno, Chromium će pohraniti kopiju vaše kartice na uređaj radi bržeg ispunjavanja obrazaca.</translation>
 <translation id="2985398929374701810">Unesite važeću adresu</translation>
 <translation id="2986368408720340940">Taj način preuzimanja nije dostupan. Pokušajte s nekim drugim načinom.</translation>
+<translation id="3676215163710610678">Ako je to omogućeno, Brave će pohraniti kopiju vaše kartice na uređaj radi bržeg ispunjavanja obrazaca.</translation>
 <translation id="2991174974383378012">Dijeljenje s web-lokacijama</translation>
 <translation id="2991571918955627853">Trenutačno ne možete otvoriti <ph name="SITE" /> jer web-lokacija upotrebljava HSTS. Mrežne pogreške i napadi obično su privremeni, tako da će stranica kasnije vjerojatno funkcionirati.</translation>
 <translation id="3005723025932146533">Prikaži spremljenu kopiju</translation>
@@ -412,7 +412,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">Upotrijebi globalnu zadanu postavku (Otkrij)</translation>
 <translation id="4165986682804962316">Postavke web-lokacije</translation>
-<translation id="4169947484918424451">Želite li da Chromium spremi tu karticu?</translation>
+<translation id="3531566063171612283">Želite li da Brave spremi tu karticu?</translation>
 <translation id="4171400957073367226">Potpis za potvrdu nije ispravan.</translation>
 <translation id="4196861286325780578">&amp;Ponovi premještanje</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />provjerite vatrozid i konfiguraciju antivirusnog programa<ph name="END_LINK" /></translation>
@@ -623,11 +623,12 @@
 <translation id="6177128806592000436">Veza s web-lokacijom nije sigurna</translation>
 <translation id="6184817833369986695">(skupina: <ph name="UPDATE_COHORT_NAME" />)</translation>
 <translation id="6203231073485539293">Provjerite internetsku vezu</translation>
-<translation id="6218753634732582820">Želite li ukloniti adresu iz Chromiuma?</translation>
+<translation id="6218753634732582820">Želite li ukloniti adresu iz Bravea?</translation>
 <translation id="6221345481584921695">Google sigurno pregledavanje nedavno je <ph name="BEGIN_LINK" />otkrilo zlonamjerni sadržaj<ph name="END_LINK" /> na <ph name="SITE" />. Web-lokacije koje su inače sigurne ponekad mogu biti zaražene zlonamjernim softverom. Zlonamjerni sadržaj potječe s hosta <ph name="SUBRESOURCE_HOST" /> koji je poznat po distribuciji zlonamjernog softvera.</translation>
 <translation id="6251924700383757765">Pravila o privatnosti</translation>
 <translation id="6254436959401408446">Nema dovoljno memorije za otvaranje ove stranice</translation>
 <translation id="625755898061068298">Onemogućili ste sigurnosna upozorenja za tu web-lokaciju.</translation>
+<translation id="8385639954311581596">Želite li ukloniti adresu iz Bravea?</translation>
 <translation id="6259156558325130047">&amp;Ponovi promjenu rasporeda</translation>
 <translation id="6263376278284652872">Oznake domene <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">Natrag u sigurnost</translation>
@@ -646,7 +647,7 @@
 <translation id="6358450015545214790">Što to znači?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{1 drugi prijedlog}one{# drugi prijedlog}few{# druga prijedloga}other{# drugih prijedloga}}</translation>
 <translation id="6387478394221739770">Zanimaju li vas nove, kul značajke preglednika Chrome? Isprobajte naš beta kanal na stranici chrome.com/beta.</translation>
-<translation id="6389758589412724634">Chromium je ostao bez memorije dok je pokušavao prikazati ovu web-stranicu.</translation>
+<translation id="6389758589412724634">Brave je ostao bez memorije dok je pokušavao prikazati ovu web-stranicu.</translation>
 <translation id="6404511346730675251">Uredi oznaku</translation>
 <translation id="6410264514553301377">Unesite datum isteka i CVC za karticu <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Pitao si roditelja smiješ li otvoriti tu web-lokaciju</translation>
@@ -676,7 +677,7 @@
 <translation id="6628463337424475685"><ph name="ENGINE" /> Pretraživanje</translation>
 <translation id="6630809736994426279">Napadači koji su trenutačno na web-lokaciji <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> mogu pokušati instalirati opasne programe na vaš Mac radi krađe ili brisanja vaših podataka (na primjer fotografija, zaporki, poruka i brojeva kreditnih kartica). <ph name="BEGIN_LEARN_MORE_LINK" />Saznajte više<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">Ovo je pravilo zastarjelo.</translation>
-<translation id="6671697161687535275">Želite li ukloniti prijedlog iz Chromiuma?</translation>
+<translation id="4670564340385807132">Želite li ukloniti prijedlog iz Bravea?</translation>
 <translation id="6685834062052613830">Odjavite se i dovršite postavljanje</translation>
 <translation id="6710213216561001401">Prethodno</translation>
 <translation id="6710594484020273272">&lt;Upišite pojam za pretraživanje&gt;</translation>
@@ -784,7 +785,7 @@
 <translation id="7610193165460212391">Vrijednost je izvan raspona <ph name="VALUE" />.</translation>
 <translation id="7613889955535752492">Istječe: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Već imate podatke koji su kriptirani pomoću druge verzije zaporke vašeg Google računa. Unesite je u nastavku.</translation>
-<translation id="7637571805876720304">Želite li ukloniti kreditnu karticu iz Chromiuma?</translation>
+<translation id="6386821459680628976">Želite li ukloniti kreditnu karticu iz Bravea?</translation>
 <translation id="765676359832457558">Skrivanje naprednih postavki...</translation>
 <translation id="7658239707568436148">Odustani</translation>
 <translation id="7662298039739062396">Postavkom upravlja proširenje</translation>
@@ -891,7 +892,7 @@
 <translation id="8725066075913043281">Pokušajte ponovo</translation>
 <translation id="8728672262656704056">Radite u anonimnom načinu</translation>
 <translation id="8730621377337864115">Gotovo</translation>
-<translation id="8738058698779197622">Za uspostavu sigurne veze sat mora biti točno postavljen. To je zato što certifikati koje web-lokacije upotrebljavaju za međusobnu identifikaciju vrijede samo određeno vrijeme. Budući da sat na vašem uređaju nije točan, Chromium ne može potvrditi te certifikate.</translation>
+<translation id="8738058698779197622">Za uspostavu sigurne veze sat mora biti točno postavljen. To je zato što certifikati koje web-lokacije upotrebljavaju za međusobnu identifikaciju vrijede samo određeno vrijeme. Budući da sat na vašem uređaju nije točan, Brave ne može potvrditi te certifikate.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;DNS adresa&lt;/abbr&gt; hosta <ph name="HOST_NAME" /> nije pronađena. U tijeku je dijagnosticiranje problema.</translation>
 <translation id="8759274551635299824">Ta je kartica istekla</translation>
 <translation id="8761567432415473239">Googleovo Sigurno pregledavanje nedavno je <ph name="BEGIN_LINK" />pronašlo štetne programe<ph name="END_LINK" /> na web-lokaciji <ph name="SITE" />.</translation>
@@ -933,8 +934,8 @@
 <translation id="9069693763241529744">Blokiralo proširenje</translation>
 <translation id="9076283476770535406">Možda ima sadržaj za odrasle</translation>
 <translation id="9078964945751709336">Potrebno je više podataka</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> obično upotrebljava enkripciju radi zaštite vaših podataka. Prilikom ovog pokušaja povezivanja Chromiuma s web-lokacijom <ph name="SITE" /> ta je web-lokacija vratila neuobičajene
-i netočne vjerodajnice. To može značiti da se neki napadač pokušava predstaviti kao <ph name="SITE" /> ili je zaslon za prijavu na Wi-Fi prekinuo vezu. Vaši su podaci još uvijek sigurni jer je Chromium zaustavio povezivanje prije razmjene podataka.</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> obično upotrebljava enkripciju radi zaštite vaših podataka. Prilikom ovog pokušaja povezivanja Bravea s web-lokacijom <ph name="SITE" /> ta je web-lokacija vratila neuobičajene
+i netočne vjerodajnice. To može značiti da se neki napadač pokušava predstaviti kao <ph name="SITE" /> ili je zaslon za prijavu na Wi-Fi prekinuo vezu. Vaši su podaci još uvijek sigurni jer je Brave zaustavio povezivanje prije razmjene podataka.</translation>
 <translation id="9137013805542155359">Prikaži original</translation>
 <translation id="9137248913990643158">Pokrenite Chrome i prijavite se na njega da biste mogli upotrebljavati tu aplikaciju.</translation>
 <translation id="9148507642005240123">&amp;Poništi uređivanje</translation>

@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">Domínio de inscrição:</translation>
 <translation id="1340482604681802745">Endereço de recolha</translation>
 <translation id="1344211575059133124">Parece que precisas de autorização para visitar este site</translation>
-<translation id="1344588688991793829">Definições de preenchimento automático do Chromium…</translation>
 <translation id="1348198688976932919">O site que pretende visitar contém aplicações perigosas</translation>
+<translation id="5699636340916456594">Definições de preenchimento automático do Brave…</translation>
 <translation id="1374468813861204354">sugestões</translation>
 <translation id="1375198122581997741">Acerca da versão</translation>
 <translation id="1377321085342047638">N.º cartão</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">Notificações</translation>
 <translation id="2491120439723279231">O certificado do servidor contém erros.</translation>
 <translation id="2495083838625180221">Analisador JSON</translation>
-<translation id="2495093607237746763">Se marcada, o Chromium armazena uma cópia do seu cartão neste dispositivo para preencher formulários mais rapidamente.</translation>
+<translation id="5047769237368272183">Se marcada, o Brave armazena uma cópia do seu cartão neste dispositivo para preencher formulários mais rapidamente.</translation>
 <translation id="2498091847651709837">Digitalizar novo cartão</translation>
 <translation id="2501278716633472235">Retroceder</translation>
 <translation id="2515629240566999685">Verificar o sinal na área</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">Sair</translation>
 <translation id="2702801445560668637">Lista de leitura</translation>
 <translation id="2704283930420550640">O valor não corresponde ao formato.</translation>
-<translation id="2704951214193499422">O Chromium não conseguiu confirmar o seu cartão neste momento. Tente novamente mais tarde.</translation>
+<translation id="6031131842426638868">O Brave não conseguiu confirmar o seu cartão neste momento. Tente novamente mais tarde.</translation>
 <translation id="2705137772291741111">A cópia guardada (em cache) deste site era ilegível.</translation>
 <translation id="2709516037105925701">Preenchimento automático</translation>
 <translation id="2712173769900027643">Pedir autorização</translation>
@@ -249,11 +249,10 @@
 <translation id="2966678944701946121">Exp.: <ph name="EXPIRATION_DATE_ABBR" />, adicionado a <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">Para estabelecer uma ligação segura, o relógio tem de ser definido corretamente. Isto deve-se ao facto de os certificados que os Sites utilizam para se identificarem serem apenas válidos para períodos de tempo específicos. Uma vez que o relógio do seu dispositivo está incorreto, o Google Chrome não consegue validar estes certificados.</translation>
 <translation id="2972581237482394796">&amp;Repetir</translation>
-<translation id="2985306909656435243">Se ativada, o Chromium armazena uma cópia do seu cartão neste dispositivo para preencher formulários mais rapidamente.</translation>
 <translation id="2985398929374701810">Introduza um endereço válido</translation>
 <translation id="2986368408720340940">Este método de recolha não está disponível. Experimente um método diferente.</translation>
 <translation id="2991174974383378012">Partilha com Sites</translation>
-<translation id="2991571918955627853">Não pode visitar <ph name="SITE" /> neste momento, porque o Website utiliza HSTS. Os erros de rede e os ataques são geralmente temporários, pelo que esta página deverá funcionar mais tarde.</translation>
+<translation id="3676215163710610678">Se ativada, o Brave armazena uma cópia do seu cartão neste dispositivo para preencher formulários mais rapidamente.</translation>
 <translation id="3005723025932146533">Mostrar cópia guardada</translation>
 <translation id="3008447029300691911">Introduza o Código de Segurança/CVC de <ph name="CREDIT_CARD" />. Ao confirmar, os detalhes do cartão são partilhados com este site.</translation>
 <translation id="3010559122411665027">Entrada da lista "<ph name="ENTRY_INDEX" />": <ph name="ERROR" /></translation>
@@ -408,12 +407,13 @@
 <translation id="4116663294526079822">Permitir sempre neste Website</translation>
 <translation id="4117700440116928470">O âmbito da política não é suportado.</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{1 outro}one{# others}other{# outros}}</translation>
+<translation id="4118212371799607889">Este servidor não conseguiu provar que é <ph name="DOMAIN" />; o Brave não confia no respetivo certificado de segurança. Isto pode ser o resultado de uma configuração incorreta ou de um utilizador mal-intencionado que intercetou a sua ligação. <ph name="BEGIN_LEARN_MORE_LINK" />Saiba mais<ph name="END_LEARN_MORE_LINK" />.</translation>
 <translation id="4130226655945681476">Verificar os cabos de rede, o modem e o router</translation>
 <translation id="413544239732274901">Saiba mais</translation>
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">Utilizar predefinição global (Detetar)</translation>
 <translation id="4165986682804962316">Definições de sites</translation>
-<translation id="4169947484918424451">Pretende que o Chromium guarde este cartão?</translation>
+<translation id="3531566063171612283">Pretende que o Brave guarde este cartão?</translation>
 <translation id="4171400957073367226">Assinatura de verificação incorreta</translation>
 <translation id="4196861286325780578">&amp;Refazer movimentação</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />Verificar as configurações da firewall e de antivírus<ph name="END_LINK" /></translation>
@@ -624,11 +624,12 @@
 <translation id="6177128806592000436">A sua ligação a este site não é segura</translation>
 <translation id="6184817833369986695">(grupo com caraterísticas em comum: <ph name="UPDATE_COHORT_NAME" />)</translation>
 <translation id="6203231073485539293">Verificar a ligação à Internet</translation>
-<translation id="6218753634732582820">Pretende remover o endereço do Chromium?</translation>
+<translation id="6218753634732582820">Pretende remover o endereço do Brave?</translation>
 <translation id="6221345481584921695">A Navegação Segura do Google <ph name="BEGIN_LINK" />detetou software malicioso<ph name="END_LINK" /> recentemente em <ph name="SITE" />. Os Sites que normalmente são seguros por vezes são infetados com software malicioso. O conteúdo malicioso provém de <ph name="SUBRESOURCE_HOST" />, um distribuidor de software malicioso conhecido.</translation>
 <translation id="6251924700383757765">Política de privacidade</translation>
 <translation id="6254436959401408446">Não existe memória suficiente para abrir esta página</translation>
 <translation id="625755898061068298">Optou por desativar os avisos de segurança para este site.</translation>
+<translation id="8385639954311581596">Pretende remover o endereço do Brave?</translation>
 <translation id="6259156558325130047">&amp;Refazer reordenação</translation>
 <translation id="6263376278284652872">Marcadores do <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">Retroceder para segurança</translation>
@@ -647,7 +648,7 @@
 <translation id="6358450015545214790">O que significam?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{1 outra sugestão}one{# other suggestions}other{# outras sugestões}}</translation>
 <translation id="6387478394221739770">Está interessado nas novas e fantásticas funcionalidades do Chrome? Experimente o nosso canal beta em chrome.com/beta.</translation>
-<translation id="6389758589412724634">O Chromium ficou sem memória ao tentar apresentar esta página Web.</translation>
+<translation id="6389758589412724634">O Brave ficou sem memória ao tentar apresentar esta página Web.</translation>
 <translation id="6404511346730675251">Editar marcador</translation>
 <translation id="6410264514553301377">Introduza a data de validade e o Código de Segurança/CVC de <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Perguntaste ao teu pai/à tua mãe se podes aceder a este site.</translation>
@@ -677,7 +678,7 @@
 <translation id="6628463337424475685"><ph name="ENGINE" /> Pesquisar</translation>
 <translation id="6630809736994426279">Os atacantes atualmente em <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> podem tentar instalar programas perigosos no seu Mac que roubam ou eliminam as suas informações (por exemplo, fotos, palavras-passe, mensagens e cartões de crédito). <ph name="BEGIN_LEARN_MORE_LINK" />Saiba mais<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">Esta política está obsoleta.</translation>
-<translation id="6671697161687535275">Pretende remover a sugestão do formulário do Chromium?</translation>
+<translation id="4670564340385807132">Pretende remover a sugestão do formulário do Brave?</translation>
 <translation id="6685834062052613830">Termine sessão e conclua a configuração</translation>
 <translation id="6710213216561001401">Anterior</translation>
 <translation id="6710594484020273272">&lt;Introduzir termo de pesquisa&gt;</translation>
@@ -785,7 +786,7 @@
 <translation id="7610193165460212391">O valor está fora do intervalo <ph name="VALUE" /> .</translation>
 <translation id="7613889955535752492">Exp.: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Já tem dados encriptados usando uma versão diferente da palavra-passe da sua Conta Google. Introduza-a abaixo.</translation>
-<translation id="7637571805876720304">Pretende remover o cartão de crédito do Chromium?</translation>
+<translation id="6386821459680628976">Pretende remover o cartão de crédito do Brave?</translation>
 <translation id="765676359832457558">Ocultar definições avançadas...</translation>
 <translation id="7658239707568436148">Cancelar</translation>
 <translation id="7662298039739062396">Definição controlada por uma extensão</translation>
@@ -892,7 +893,7 @@
 <translation id="8725066075913043281">Tentar novamente</translation>
 <translation id="8728672262656704056">Está anónimo</translation>
 <translation id="8730621377337864115">Concluído</translation>
-<translation id="8738058698779197622">Para estabelecer uma ligação segura, o relógio tem de ser definido corretamente. Isto deve-se ao facto de os certificados que os Sites utilizam para se identificarem serem apenas válidos para períodos de tempo específicos. Uma vez que o relógio do seu dispositivo está incorreto, o Chromium não consegue validar estes certificados.</translation>
+<translation id="8738058698779197622">Para estabelecer uma ligação segura, o relógio tem de ser definido corretamente. Isto deve-se ao facto de os certificados que os Websites utilizam para se identificarem serem apenas válidos para períodos de tempo específicos. Uma vez que o relógio do seu dispositivo está incorreto, o Brave não consegue validar estes certificados.</translation>
 <translation id="8740359287975076522">Não foi possível encontrar o &lt;abbr id="dnsDefinition"&gt;endereço DNS&lt;/abbr&gt; de <ph name="HOST_NAME" />. Estamos a diagnosticar o problema.</translation>
 <translation id="8759274551635299824">Este cartão expirou</translation>
 <translation id="8761567432415473239">A Navegação Segura do Google <ph name="BEGIN_LINK" />encontrou programas prejudiciais<ph name="END_LINK" /> recentemente em <ph name="SITE" />.</translation>
@@ -934,7 +935,7 @@
 <translation id="9069693763241529744">Bloqueada por uma extensão</translation>
 <translation id="9076283476770535406">Pode ter conteúdo para adultos</translation>
 <translation id="9078964945751709336">São necessárias mais informações</translation>
-<translation id="9103872766612412690">Normalmente, o site <ph name="SITE" /> utiliza a encriptação para proteger as suas informações. Quando o Chromium tentou estabelecer ligação a <ph name="SITE" /> desta vez, o Website devolveu credenciais invulgares e incorretas. Isto pode acontecer quando um utilizador mal intencionado tenta simular ser <ph name="SITE" /> ou quando um ecrã de início de sessão Wi-Fi interrompe a ligação. As suas informações continuam seguras porque o Chromium interrompeu a ligação antes de qualquer troca de dados.</translation>
+<translation id="9103872766612412690">Normalmente, o site <ph name="SITE" /> utiliza a encriptação para proteger as suas informações. Quando o Brave tentou estabelecer ligação a <ph name="SITE" /> desta vez, o Website devolveu credenciais invulgares e incorretas. Isto pode acontecer quando um utilizador mal intencionado tenta simular ser <ph name="SITE" /> ou quando um ecrã de início de sessão Wi-Fi interrompe a ligação. As suas informações continuam seguras porque o Brave interrompeu a ligação antes de qualquer troca de dados.</translation>
 <translation id="9137013805542155359">Mostrar original</translation>
 <translation id="9137248913990643158">Comece e inicie sessão no Chrome antes de utilizar esta aplicação.</translation>
 <translation id="9148507642005240123">&amp;Anular edição</translation>
