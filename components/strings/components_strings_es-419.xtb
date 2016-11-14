@@ -56,8 +56,8 @@
 <translation id="1339601241726513588">Inscripción de dominio:</translation>
 <translation id="1340482604681802745">Dirección de retiro</translation>
 <translation id="1344211575059133124">Al parecer, necesitas permiso para visitar este sitio</translation>
-<translation id="1344588688991793829">Configuración de la función Autocompletar de Chromium…</translation>
 <translation id="1348198688976932919">El siguiente sitio incluye apps peligrosas</translation>
+<translation id="5699636340916456594">Configuración de la función Autocompletar de Brave…</translation>
 <translation id="1374468813861204354">sugerencias</translation>
 <translation id="1375198122581997741">Acerca de la versión</translation>
 <translation id="1377321085342047638">N. tarjeta</translation>
@@ -191,7 +191,7 @@
 <translation id="2482878487686419369">Notificaciones</translation>
 <translation id="2491120439723279231">El certificado del servidor contiene errores.</translation>
 <translation id="2495083838625180221">Analizador de JSON</translation>
-<translation id="2495093607237746763">Si marcas esta opción, Chromium almacenará una copia de la tarjeta en el dispositivo para completar más rápidamente los formularios.</translation>
+<translation id="5047769237368272183">Si marcas esta opción, Brave almacenará una copia de la tarjeta en el dispositivo para completar más rápidamente los formularios.</translation>
 <translation id="2498091847651709837">Escanear tarjeta nueva</translation>
 <translation id="2501278716633472235">Ir atrás</translation>
 <translation id="2515629240566999685">Verificar la señal en tu área.</translation>
@@ -215,7 +215,7 @@
 <translation id="2677748264148917807">Abandonar</translation>
 <translation id="2702801445560668637">Lista de lectura</translation>
 <translation id="2704283930420550640">El valor no coincide con el formato.</translation>
-<translation id="2704951214193499422">Chrome no pudo confirmar tu tarjeta. Vuelve a intentarlo más tarde.</translation>
+<translation id="6031131842426638868">Chrome no pudo confirmar tu tarjeta. Vuelve a intentarlo más tarde.</translation>
 <translation id="2705137772291741111">La copia guardada (en caché) de este sitio es ilegible.</translation>
 <translation id="2709516037105925701">Autocompletar</translation>
 <translation id="2712173769900027643">Solicitar permiso</translation>
@@ -249,9 +249,9 @@
 <translation id="2966678944701946121">Venc.: <ph name="EXPIRATION_DATE_ABBR" />, agregada: <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
 <translation id="2969319727213777354">Para establecer una conexión segura, el reloj se debe configurar correctamente. Esto se debe a que los certificados que usan los sitios web para su identificación solo son válidos por períodos de tiempo específicos. Debido a que la configuración del reloj del dispositivo es incorrecta, Google Chrome no puede verificar estos certificados.</translation>
 <translation id="2972581237482394796">&amp;Rehacer</translation>
-<translation id="2985306909656435243">Si se habilita esta opción, Chromium almacenará una copia de la tarjeta en el dispositivo para completar más rápidamente los formularios.</translation>
 <translation id="2985398929374701810">Ingresa una dirección válida</translation>
 <translation id="2986368408720340940">El método de retiro no está disponible. Prueba otro método.</translation>
+<translation id="3676215163710610678">Si se habilita esta opción, Brave almacenará una copia de la tarjeta en el dispositivo para completar más rápidamente los formularios.</translation>
 <translation id="2991174974383378012">Compartir con los sitios web</translation>
 <translation id="2991571918955627853">No puedes visitar <ph name="SITE" /> ahora porque el sitio web usa HSTS. Los ataques y errores de red suelen ser temporales, por lo que es posible que esta página funcione más tarde.</translation>
 <translation id="3005723025932146533">Mostrar copia guardada</translation>
@@ -279,7 +279,7 @@
 <translation id="3174168572213147020">Isla</translation>
 <translation id="317583078218509884">La nueva configuración de permisos del sitio se aplicará al volver a cargar la página.</translation>
 <translation id="3176929007561373547">Comprueba la configuración del proxy o comunícate con tu
-          administrador de red para asegurarte de que el 
+          administrador de red para asegurarte de que el
           servidor proxy esté funcionando. Si consideras
           que no necesitas usar un servidor proxy:
           <ph name="PLATFORM_TEXT" /></translation>
@@ -414,7 +414,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">Utilizar opción predeterminada global (detectar)</translation>
 <translation id="4165986682804962316">Configuración del sitio</translation>
-<translation id="4169947484918424451">¿Quieres que Chromium guarde esta tarjeta?</translation>
+<translation id="3531566063171612283">¿Quieres que Brave guarde esta tarjeta?</translation>
 <translation id="4171400957073367226">La firma de verificación no es válida.</translation>
 <translation id="4196861286325780578">&amp;Rehacer Mover</translation>
 <translation id="4203896806696719780"><ph name="BEGIN_LINK" />Comprobar las configuraciones de firewall y antivirus<ph name="END_LINK" />.</translation>
@@ -625,11 +625,12 @@
 <translation id="6177128806592000436">Tu conexión con este sitio no es segura</translation>
 <translation id="6184817833369986695">(cohorte: <ph name="UPDATE_COHORT_NAME" />)</translation>
 <translation id="6203231073485539293">Comprueba tu conexión a Internet.</translation>
-<translation id="6218753634732582820">¿Confirmas que quieres quitar la dirección de Chromium?</translation>
+<translation id="6218753634732582820">¿Confirmas que quieres quitar la dirección de Brave?</translation>
 <translation id="6221345481584921695">La Navegación segura de Google <ph name="BEGIN_LINK" />detectó software malicioso<ph name="END_LINK" /> en <ph name="SITE" /> recientemente. A veces, los sitios web que suelen ser seguros contienen software malicioso. El contenido malicioso proviene de <ph name="SUBRESOURCE_HOST" />, un conocido distribuidor de software malicioso.</translation>
 <translation id="6251924700383757765">Política de privacidad</translation>
 <translation id="6254436959401408446">Tu dispositivo no tiene suficiente memoria para abrir esta página</translation>
 <translation id="625755898061068298">Decidiste inhabilitar las advertencias de seguridad para este sitio.</translation>
+<translation id="8385639954311581596">¿Confirmas que quieres quitar la dirección de Brave?</translation>
 <translation id="6259156558325130047">&amp;Rehacer Reorganizar</translation>
 <translation id="6263376278284652872">Favoritos de <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">Volver a seguridad</translation>
@@ -648,7 +649,7 @@
 <translation id="6358450015545214790">¿Qué significa esto?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{1 sugerencia más}other{# sugerencias más}}</translation>
 <translation id="6387478394221739770">Si estás interesado en probar nuevas e interesantes funciones de Chrome, visita nuestro canal beta en chrome.com/beta.</translation>
-<translation id="6389758589412724634">Chromium se quedó sin memoria cuando intentaba mostrar esta página web.</translation>
+<translation id="6389758589412724634">Brave se quedó sin memoria cuando intentaba mostrar esta página web.</translation>
 <translation id="6404511346730675251">Editar marcador</translation>
 <translation id="6410264514553301377">Ingresar la fecha de vencimiento y el CVC para <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Les preguntaste a tus padres si puedes visitar este sitio</translation>
@@ -678,7 +679,7 @@
 <translation id="6628463337424475685"><ph name="ENGINE" /> Búsqueda</translation>
 <translation id="6630809736994426279">Es posible que los atacantes que actualmente se encuentran en <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> intenten instalar programas peligrosos en tu Mac para robar o borrar información (p. ej., fotos, contraseñas, mensajes y tarjetas de crédito). <ph name="BEGIN_LEARN_MORE_LINK" />Más información<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">Esta política no ha sido aprobada.</translation>
-<translation id="6671697161687535275">¿Confirmas que quieres quitar la sugerencia de formulario de Chromium?</translation>
+<translation id="4670564340385807132">¿Confirmas que quieres quitar la sugerencia de formulario de Brave?</translation>
 <translation id="6685834062052613830">Salir y completar la configuración</translation>
 <translation id="6710213216561001401">Anterior</translation>
 <translation id="6710594484020273272">&lt;Escribe el término de búsqueda&gt;</translation>
@@ -786,7 +787,7 @@
 <translation id="7610193165460212391">El valor <ph name="VALUE" /> está fuera del rango.</translation>
 <translation id="7613889955535752492">Vencimiento: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Ya has utilizado otra versión de la contraseña de tu cuenta de Google para encriptar contenido. Ingrésala a continuación.</translation>
-<translation id="7637571805876720304">¿Confirmas que quieres quitar la tarjeta de crédito de Chromium?</translation>
+<translation id="6386821459680628976">¿Confirmas que quieres quitar la tarjeta de crédito de Brave?</translation>
 <translation id="765676359832457558">Ocultar configuración avanzada...</translation>
 <translation id="7658239707568436148">Cancelar</translation>
 <translation id="7662298039739062396">Configuración controlada por una extensión</translation>
@@ -893,7 +894,7 @@
 <translation id="8725066075913043281">Intentar nuevamente</translation>
 <translation id="8728672262656704056">Estás en modo incógnito</translation>
 <translation id="8730621377337864115">Listo</translation>
-<translation id="8738058698779197622">Para establecer una conexión segura, el reloj debe estar configurado correctamente. Esto se debe a que los certificados que usan los sitios web para su identificación solo son válidos por períodos de tiempo específicos. Debido a que la configuración del reloj del dispositivo es incorrecta, Chromium no puede verificar estos certificados.</translation>
+<translation id="8738058698779197622">Para establecer una conexión segura, el reloj debe estar configurado correctamente. Esto se debe a que los certificados que usan los sitios web para su identificación solo son válidos por períodos de tiempo específicos. Debido a que la configuración del reloj del dispositivo es incorrecta, Brave no puede verificar estos certificados.</translation>
 <translation id="8740359287975076522">No se encontró <ph name="HOST_NAME" />’s &lt;abbr id="dnsDefinition"&gt;DNS address&lt;/abbr&gt;. Se está diagnosticando el problema.</translation>
 <translation id="8759274551635299824">La tarjeta está vencida</translation>
 <translation id="8761567432415473239">La navegación segura de Google <ph name="BEGIN_LINK" />encontró programas peligrosos<ph name="END_LINK" /> recientemente en <ph name="SITE" />.</translation>
@@ -935,7 +936,7 @@
 <translation id="9069693763241529744">Bloqueado por una extensión</translation>
 <translation id="9076283476770535406">Es posible que incluya contenido para adultos</translation>
 <translation id="9078964945751709336">Se requiere más información</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> suele utilizar la encriptación para proteger la información. Cuando Chromium intentó conectarse a <ph name="SITE" />, el sitio web devolvió credenciales incorrectas y poco comunes. Es posible que un atacante quiera suplantar a <ph name="SITE" /> o que una pantalla de acceso Wi-Fi haya interrumpido la conexión. Tu información permanece segura porque Chromium detuvo la conexión para evitar el intercambio de datos.</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> suele utilizar la encriptación para proteger la información. Cuando Brave intentó conectarse a <ph name="SITE" />, el sitio web devolvió credenciales incorrectas y poco comunes. Es posible que un atacante quiera suplantar a <ph name="SITE" /> o que una pantalla de acceso Wi-Fi haya interrumpido la conexión. Tu información permanece segura porque Brave detuvo la conexión para evitar el intercambio de datos.</translation>
 <translation id="9137013805542155359">Mostrar original</translation>
 <translation id="9137248913990643158">Abre Chrome y accede a tu cuenta antes de usar esta app.</translation>
 <translation id="9148507642005240123">&amp;Deshacer Editar</translation>
