@@ -314,6 +314,9 @@ class CORE_EXPORT HTMLCanvasElement final
 
   int m_numFramesSinceLastRenderingModeSwitch;
   bool m_pendingRenderingModeSwitch;
+
+  // It prevents from twice fingerprints block calculation
+  mutable bool m_wasBlockedByFingerprinting;
 };
 
 }  // namespace blink
