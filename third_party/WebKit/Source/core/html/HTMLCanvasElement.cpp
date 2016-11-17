@@ -144,7 +144,8 @@ inline HTMLCanvasElement::HTMLCanvasElement(Document& document)
       m_didFailToCreateImageBuffer(false),
       m_imageBufferIsClear(false),
       m_numFramesSinceLastRenderingModeSwitch(0),
-      m_pendingRenderingModeSwitch(false) {
+      m_pendingRenderingModeSwitch(false),
+      m_wasBlockedByFingerprinting(false) {
   CanvasMetrics::countCanvasContextUsage(CanvasMetrics::CanvasCreated);
   UseCounter::count(document, UseCounter::HTMLCanvasElement);
 }
@@ -729,7 +730,9 @@ String HTMLCanvasElement::toDataURL(const String& mimeType,
                                     const ScriptValue& qualityArgument,
                                     ExceptionState& exceptionState) const {
   if (!originClean()) {
-    exceptionState.throwSecurityError("Tainted canvases may not be exported.");
+    if (!m_originClean) {
+        exceptionState.throwSecurityError("Tainted canvases may not be exported.");
+    }
     return String();
   }
 
@@ -811,7 +814,8 @@ bool HTMLCanvasElement::originClean() const
         allowed = frame->loader().client()->allowFingerprinting();
     }
     if (!allowed) {
-        if (frame) {
+        if (frame && !m_wasBlockedByFingerprinting) {
+          m_wasBlockedByFingerprinting = true;
           frame->loader().client()->deniedFingerprinting();
         }
 
