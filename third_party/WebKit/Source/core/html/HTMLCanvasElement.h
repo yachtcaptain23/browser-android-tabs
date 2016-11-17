@@ -325,6 +325,8 @@ class CORE_EXPORT HTMLCanvasElement final
   int num_frames_since_last_rendering_mode_switch_;
   bool pending_rendering_mode_switch_;
   bool did_notify_listeners_for_current_frame_ = false;
+  // It prevents from twice fingerprints block calculation
+  mutable bool wasBlockedByFingerprinting_;
 };
 
 }  // namespace blink
