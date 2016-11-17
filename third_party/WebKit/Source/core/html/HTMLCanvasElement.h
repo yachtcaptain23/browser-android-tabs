@@ -336,6 +336,8 @@ class CORE_EXPORT HTMLCanvasElement final
   std::unique_ptr<CanvasSurfaceLayerBridge> surface_layer_bridge_;
 
   bool did_notify_listeners_for_current_frame_ = false;
+  // It prevents from twice fingerprints block calculation
+  mutable bool wasBlockedByFingerprinting_;
 };
 
 }  // namespace blink
