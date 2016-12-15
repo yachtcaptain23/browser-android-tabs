@@ -51,10 +51,6 @@
         android:title="@string/network_predictions_title"
         android:summary="@string/network_predictions_summary"
         android:persistent="false" />
-    <Preference
-        android:key="usage_and_crash_reports"
-        android:title="@string/usage_and_crash_reports_title"
-        android:fragment="org.chromium.chrome.browser.preferences.privacy.UsageAndCrashReportsPreferenceFragment" />
 
     <!-- Only one of these "Usage and crash reports" preferences will be shown, depending on whether
          the device has cellular support. -->
