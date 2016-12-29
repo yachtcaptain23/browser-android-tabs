@@ -222,6 +222,8 @@ public class ChromeBrowserInitializer {
         BrowserParts parts = new EmptyBrowserParts();
         handlePreNativeStartup(parts);
         handlePostNativeStartup(false, parts);
+        InitAdBlock();
+        UpdateStats();
     }
 
     /**
@@ -352,8 +354,6 @@ public class ChromeBrowserInitializer {
             @Override
             public void initFunction() {
                 ProcessInitializationHandler.getInstance().initializePostNative();
-                InitAdBlock();
-                UpdateStats();
             }
         });
 
