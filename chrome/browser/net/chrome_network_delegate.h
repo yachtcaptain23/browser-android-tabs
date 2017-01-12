@@ -82,6 +82,10 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
     enable_ad_block_ = enable_ad_block;
   }
 
+  void set_enable_ad_block_regional(BooleanPrefMember* enable_ad_block_regional) {
+    enable_ad_block_regional_ = enable_ad_block_regional;
+  }
+
   void set_domain_reliability_monitor(
       std::unique_ptr<domain_reliability::DomainReliabilityMonitor> monitor) {
     domain_reliability_monitor_ = std::move(monitor);
@@ -108,6 +112,7 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
       BooleanPrefMember* enable_httpse,
       BooleanPrefMember* enable_tracking_protection,
       BooleanPrefMember* enable_ad_block,
+      BooleanPrefMember* enable_ad_block_regional,
       PrefService* pref_service);
 
   // Returns true if access to |path| is allowed. |profile_path| is used to
@@ -193,6 +198,7 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   BooleanPrefMember* enable_httpse_;
   BooleanPrefMember* enable_tracking_protection_;
   BooleanPrefMember* enable_ad_block_;
+  BooleanPrefMember* enable_ad_block_regional_;
 
   std::unique_ptr<domain_reliability::DomainReliabilityMonitor>
       domain_reliability_monitor_;
