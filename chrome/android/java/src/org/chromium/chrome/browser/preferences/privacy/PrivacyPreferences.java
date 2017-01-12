@@ -41,6 +41,7 @@ public class PrivacyPreferences extends PreferenceFragment
     private static final String PREF_HTTPSE = "httpse";
     private static final String PREF_TRACKING_PROTECTION = "tracking_protection";
     private static final String PREF_AD_BLOCK = "ad_block";
+    private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
     private static final String PREF_CONTEXTUAL_SEARCH = "contextual_search";
     private static final String PREF_NETWORK_PREDICTIONS = "network_predictions";
     private static final String PREF_CLEAR_BROWSING_DATA = "clear_browsing_data";
@@ -128,6 +129,11 @@ public class PrivacyPreferences extends PreferenceFragment
         adBlockPref.setOnPreferenceChangeListener(this);
         adBlockPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        ChromeBaseCheckBoxPreference adBlockRegionalPref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK_REGIONAL);
+        adBlockRegionalPref.setOnPreferenceChangeListener(this);
+        adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         /*if (!PhysicalWeb.featureIsEnabled()) {
             preferenceScreen.removePreference(findPreference(PREF_PHYSICAL_WEB));
         }*/
@@ -155,6 +161,8 @@ public class PrivacyPreferences extends PreferenceFragment
             PrefServiceBridge.getInstance().setTrackingProtectionEnabled((boolean) newValue);
         } else if (PREF_AD_BLOCK.equals(key)) {
             PrefServiceBridge.getInstance().setAdBlockEnabled((boolean) newValue);
+        } else if (PREF_AD_BLOCK_REGIONAL.equals(key)) {
+            PrefServiceBridge.getInstance().setAdBlockRegionalEnabled((boolean) newValue);
         } /*else if (PREF_SAFE_BROWSING_EXTENDED_REPORTING.equals(key)
                    || PREF_SAFE_BROWSING_SCOUT_REPORTING.equals(key)) {
             PrefServiceBridge.getInstance().setSafeBrowsingExtendedReportingEnabled(
