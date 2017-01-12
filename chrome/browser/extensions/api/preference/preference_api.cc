@@ -122,6 +122,8 @@ PrefMappingEntry kPrefMapping[] = {
      APIPermission::kPrivacy, APIPermission::kPrivacy},
     {"adBlockEnabled", prefs::kAdBlockEnabled,
      APIPermission::kPrivacy, APIPermission::kPrivacy},
+    {"adBlockRegionalEnabled", prefs::kAdBlockRegionalEnabled,
+     APIPermission::kPrivacy, APIPermission::kPrivacy},
     {"safeBrowsingExtendedReportingEnabled",
      prefs::kSafeBrowsingExtendedReportingEnabled, APIPermission::kPrivacy,
      APIPermission::kPrivacy},
