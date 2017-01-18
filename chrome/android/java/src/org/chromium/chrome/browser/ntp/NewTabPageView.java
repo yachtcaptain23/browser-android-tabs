@@ -94,7 +94,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
 
     private NewTabPageLayout mNewTabPageLayout;
     //private LogoView mSearchProviderLogoView;
-    private View mSearchBoxView;
+    private ViewGroup mSearchBoxView;
     private ImageView mVoiceSearchButton;
     private SiteSectionViewHolder mSiteSectionViewHolder;
     private View mTileGridPlaceholder;
