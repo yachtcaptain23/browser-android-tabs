@@ -49,7 +49,7 @@ public class NewTabPageLayout extends LinearLayout {
     private View mMiddleSpacer; // Spacer between toolbar and Most Likely.
     private View mBottomSpacer; // Spacer below Most Likely.
 
-    private View mLogoSpacer; // Spacer above the logo.
+    //private View mLogoSpacer; // Spacer above the logo.
     private View mSearchBoxSpacer; // Spacer above the search box.
 
     private LogoView mSearchProviderLogoView;
@@ -85,7 +85,7 @@ public class NewTabPageLayout extends LinearLayout {
         mTopSpacer = findViewById(R.id.ntp_top_spacer);
         mMiddleSpacer = findViewById(R.id.ntp_middle_spacer);
         mBottomSpacer = findViewById(R.id.ntp_bottom_spacer);
-        mLogoSpacer = findViewById(R.id.search_provider_logo_spacer);
+        //mLogoSpacer = findViewById(R.id.search_provider_logo_spacer);
         mSearchBoxSpacer = findViewById(R.id.search_box_spacer);
         //mSearchProviderLogoView = (LogoView) findViewById(R.id.search_provider_logo);
         mSearchBoxView = findViewById(R.id.search_box);
@@ -118,7 +118,7 @@ public class NewTabPageLayout extends LinearLayout {
      *   for the CardsUI Peeking card).
      */
     private void calculateVerticalSpacing(int widthMeasureSpec, int heightMeasureSpec) {
-        mLogoSpacer.setVisibility(View.GONE);
+        //mLogoSpacer.setVisibility(View.GONE);
         mSearchBoxSpacer.setVisibility(View.GONE);
 
         // Remove the extra spacing before measuring because it might not be needed anymore.
@@ -145,8 +145,8 @@ public class NewTabPageLayout extends LinearLayout {
                 int minimumBleed = (int) (mTileGridLayout.getChildAt(0).getMeasuredHeight() * 0.44);
                 if (currentBleed < minimumBleed) {
                     int extraBleed = minimumBleed - currentBleed;
-                    mLogoSpacer.getLayoutParams().height = (int) (extraBleed * 0.25);
-                    mLogoSpacer.setVisibility(View.INVISIBLE);
+                    //mLogoSpacer.getLayoutParams().height = (int) (extraBleed * 0.25);
+                    //mLogoSpacer.setVisibility(View.INVISIBLE);
                     mSearchBoxSpacer.getLayoutParams().height = (int) (extraBleed * 0.25);
                     mSearchBoxSpacer.setVisibility(View.INVISIBLE);
                     mTileGridLayout.setExtraVerticalSpacing((int) (extraBleed * 0.5));
