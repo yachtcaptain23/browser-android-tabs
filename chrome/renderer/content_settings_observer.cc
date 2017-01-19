@@ -4,8 +4,6 @@
 
 #include "chrome/renderer/content_settings_observer.h"
 #include "chrome/common/render_messages.h"
-
-#include "chrome/common/render_messages.h"
 #include "chrome/common/ssl_insecure_content.h"
 #include "components/content_settings/core/common/content_settings.h"
 #include "content/public/common/url_constants.h"
