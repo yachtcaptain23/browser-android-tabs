@@ -249,6 +249,7 @@ class CORE_EXPORT HTMLCanvasElement final
   void DetachContext() { context_ = nullptr; }
 
   void WillDrawImageTo2DContext(CanvasImageSource*);
+  bool wasBlockedByFingerprinting() { return wasBlockedByFingerprinting_; }
 
  protected:
   void DidMoveToNewDocument(Document& old_document) override;
