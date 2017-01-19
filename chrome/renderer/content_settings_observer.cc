@@ -3,8 +3,6 @@
 // found in the LICENSE file.
 
 #include "chrome/renderer/content_settings_observer.h"
-#include "chrome/common/render_messages.h"
-
 #include "base/metrics/histogram_macros.h"
 #include "base/strings/string_number_conversions.h"
 #include "chrome/common/client_hints.mojom.h"
