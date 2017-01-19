@@ -250,6 +250,7 @@ class CORE_EXPORT HTMLCanvasElement final : public HTMLElement,
   void DetachContext() override { context_ = nullptr; }
 
   void WillDrawImageTo2DContext(CanvasImageSource*);
+  bool wasBlockedByFingerprinting() { return wasBlockedByFingerprinting_; }
 
   ExecutionContext* GetTopExecutionContext() const override {
     return GetDocument().GetExecutionContext();
