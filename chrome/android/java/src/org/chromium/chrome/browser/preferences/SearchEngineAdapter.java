@@ -138,8 +138,25 @@ public class SearchEngineAdapter extends BaseAdapter
             return;  // Flow continues in onTemplateUrlServiceLoaded below.
         }
 
-        List<TemplateUrl> templateUrls = templateUrlService.getSearchEngines();
-        if (!didSearchEnginesChange(templateUrls)) return;
+        List<TemplateUrl> templateUrls = new ArrayList<TemplateUrl>();
+        List<TemplateUrl> templateUrlsUnsorted = templateUrlService.getSearchEngines();
+        if (!didSearchEnginesChange(templateUrlsUnsorted)) return;
+        for (int i = 0; i < templateUrlsUnsorted.size(); ++i) {
+            boolean added = false;
+            String currentShortName = templateUrlsUnsorted.get(i).getShortName();
+            for (int j = 0; j < templateUrls.size(); ++j) {
+                String shortName = templateUrls.get(j).getShortName();
+                if (shortName.compareTo(currentShortName) > 0) {
+                    templateUrls.add(j, templateUrlsUnsorted.get(i));
+                    added = true;
+                    break;
+                }
+            }
+            if (!added) {
+                templateUrls.add(templateUrlsUnsorted.get(i));
+            }
+        }
+
         mPrepopulatedSearchEngines = new ArrayList<>();
         mRecentSearchEngines = new ArrayList<>();
 
