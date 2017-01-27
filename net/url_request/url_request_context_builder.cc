@@ -218,7 +218,7 @@ void URLRequestContextBuilder::HttpNetworkSessionParams::ConfigureSessionParams(
 
   network_session_params->enable_http2 = enable_http2;
 
-  network_session_params->enable_quic = enable_quic;
+  network_session_params->enable_quic = false;//enable_quic;
   network_session_params->quic_user_agent_id = quic_user_agent_id;
   network_session_params->quic_max_server_configs_stored_in_properties =
       quic_max_server_configs_stored_in_properties;
@@ -287,7 +287,7 @@ void URLRequestContextBuilder::DisableHttpCache() {
 void URLRequestContextBuilder::SetSpdyAndQuicEnabled(bool spdy_enabled,
                                                      bool quic_enabled) {
   http_network_session_params_.enable_http2 = spdy_enabled;
-  http_network_session_params_.enable_quic = quic_enabled;
+  http_network_session_params_.enable_quic = false;//quic_enabled;
 }
 
 void URLRequestContextBuilder::set_ct_verifier(
