@@ -2029,7 +2029,9 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             }
         } /*else if (id == R.id.help_id) {
             startHelpAndFeedback(currentTab, "MobileMenuFeedback");
-        }*/ else {
+        }*/ else if (id == R.id.exit_id) {
+            ApplicationLifetime.terminate(false);
+        } else {
             return false;
         }
         return true;
