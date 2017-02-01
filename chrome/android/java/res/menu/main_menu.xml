@@ -70,6 +70,10 @@
             android:title="@string/enter_vr" />
         <item android:id="@+id/content_suggestions_standalone_ui"
             android:title="@null" />
+        <item android:id="@+id/exit_id"
+            android:title="@string/menu_exit" />
+        <!--<item android:id="@+id/help_id"
+            android:title="@string/menu_help" />-->
     </group>
 
     <!-- Items shown only in the tab switcher -->
