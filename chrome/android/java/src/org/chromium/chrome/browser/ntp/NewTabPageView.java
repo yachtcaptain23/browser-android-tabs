@@ -246,7 +246,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer {
         /*mSearchProviderLogoView =
                 (LogoView) mNewTabPageLayout.findViewById(R.id.search_provider_logo);
         mLogoDelegate = new LogoDelegateImpl(tab, mSearchProviderLogoView);*/
-        mSearchBoxView = mNewTabPageLayout.findViewById(R.id.search_box);
+        mSearchBoxView = (ViewGroup)mNewTabPageLayout.findViewById(R.id.search_box);
         mNoSearchLogoSpacer = mNewTabPageLayout.findViewById(R.id.no_search_logo_spacer);
 
         mSnapScrollRunnable = new SnapScrollRunnable();
