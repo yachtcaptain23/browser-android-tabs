@@ -18,6 +18,7 @@ import org.chromium.base.TraceEvent;
 import org.chromium.base.annotations.MainDex;
 import org.chromium.base.annotations.SuppressFBWarnings;
 import org.chromium.base.library_loader.ProcessInitException;
+import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.document.DocumentActivity;
 import org.chromium.chrome.browser.document.IncognitoDocumentActivity;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
@@ -45,6 +46,8 @@ public class ChromeApplication extends ContentApplication {
 
     private static DocumentTabModelSelector sDocumentTabModelSelector;
     private ShieldsConfig mShieldsConfig;
+    // Sync worker
+    public BraveSyncWorker mBraveSyncWorker = null;
 
     @Override
     protected void attachBaseContext(Context base) {
