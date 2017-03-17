@@ -537,6 +537,8 @@ android_assets("chrome_public_pak_assets") {
     "$root_out_dir/chrome_100_percent.pak",
     "$root_out_dir/resources.pak",
     "//chrome/browser/net/blockers/data/regions.json",
+    "//braveSync/bundles/bundle.js",
+    "//sync/android_sync.js",
   ]
   disable_compression = true
 
