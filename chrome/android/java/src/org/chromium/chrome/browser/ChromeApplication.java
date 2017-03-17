@@ -21,6 +21,7 @@ import org.chromium.build.BuildHooksAndroid;
 import org.chromium.build.BuildHooksConfig;
 import org.chromium.chrome.browser.crash.PureJavaExceptionHandler;
 import org.chromium.chrome.browser.crash.PureJavaExceptionReporter;
+import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.document.DocumentActivity;
 import org.chromium.chrome.browser.document.IncognitoDocumentActivity;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
@@ -46,6 +47,8 @@ public class ChromeApplication extends ContentApplication {
     private static DocumentTabModelSelector sDocumentTabModelSelector;
     private DiscardableReferencePool mReferencePool;
     private ShieldsConfig mShieldsConfig;
+    // Sync worker
+    public BraveSyncWorker mBraveSyncWorker = null;
 
     @Override
     protected void attachBaseContext(Context base) {
