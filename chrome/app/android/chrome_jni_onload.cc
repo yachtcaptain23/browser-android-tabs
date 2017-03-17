@@ -11,6 +11,7 @@
 #include "content/public/app/content_jni_onload.h"
 #include "device/vr/features/features.h"
 #include "chrome/browser/net/blockers/shields_config.h"
+#include "chrome/browser/brave_sync_worker.h"
 #if BUILDFLAG(ENABLE_VR)
 #include "third_party/gvr-android-sdk/display_synchronizer_jni.h"
 #include "third_party/gvr-android-sdk/gvr_api_jni.h"
@@ -23,6 +24,7 @@ namespace android {
 // they are manually registered here.
 static base::android::RegistrationMethod kChromeRegisteredMethods[] = {
     {"ShieldsConfig", net::blockers::ShieldsConfig::RegisterShieldsConfig},
+    {"BraveSyncWorker", brave_sync_storage::BraveSyncWorker::RegisterBraveSyncStorage},
 #if BUILDFLAG(ENABLE_VR)
     {"DisplaySynchronizer",
      DisplaySynchronizer::RegisterDisplaySynchronizerNatives},
