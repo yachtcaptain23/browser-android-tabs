@@ -31,6 +31,7 @@ import org.chromium.build.BuildHooksAndroid;
 import org.chromium.build.BuildHooksConfig;
 import org.chromium.chrome.browser.crash.PureJavaExceptionHandler;
 import org.chromium.chrome.browser.crash.PureJavaExceptionReporter;
+import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
 import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
 import org.chromium.chrome.browser.init.ShieldsConfig;
@@ -50,6 +51,8 @@ public class ChromeApplication extends Application {
 
     private DiscardableReferencePool mReferencePool;
     private ShieldsConfig mShieldsConfig;
+    // Sync worker
+    public BraveSyncWorker mBraveSyncWorker = null;
 
     // Called by the framework for ALL processes. Runs before ContentProviders are created.
     // Quirk: context.getApplicationContext() returns null during this method.
