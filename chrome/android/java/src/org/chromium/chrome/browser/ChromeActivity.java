@@ -56,6 +56,7 @@ import org.chromium.base.VisibleForTesting;
 import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.IntentHandler.IntentHandlerDelegate;
 import org.chromium.chrome.browser.IntentHandler.TabOpenType;
 import org.chromium.chrome.browser.appmenu.AppMenu;
@@ -392,6 +393,12 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                     mBottomSheet, controlContainerHeight, mTabModelSelector, this);
         }
         ((BottomContainer) findViewById(R.id.bottom_container)).initialize(mFullscreenManager);
+
+        // Comment sync temporary
+        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app) {
+            app.mBraveSyncWorker = new BraveSyncWorker(this);
+        }*/
     }
 
     @Override
@@ -1210,6 +1217,13 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             if (selector != null) selector.destroy();
         }
 
+        // Stop SyncWorker
+        ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app && null != app.mBraveSyncWorker) {
+            app.mBraveSyncWorker.Stop();
+            app.mBraveSyncWorker = null;
+        }
+
         CombinedPolicyProvider.get().removePolicyChangeListener(this);
 
         if (mTabContentManager != null) {
@@ -1509,6 +1523,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         // INVALID_BOOKMARK_ID, so the code below will fall back on adding a new bookmark instead.
         // TODO(bauerb): This does not take partner bookmarks into account.
         final long bookmarkId = tabToBookmark.getUserBookmarkId();
+        final boolean bCreateBookmark = (Tab.INVALID_BOOKMARK_ID == bookmarkId);
 
         final BookmarkModel bookmarkModel = new BookmarkModel();
         bookmarkModel.runAfterBookmarkModelLoaded(new Runnable() {
@@ -1524,6 +1539,16 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                     // If a new bookmark was created, try to save an offline page for it.
                     if (newBookmarkId != null && newBookmarkId.getId() != bookmarkId) {
                         OfflinePageUtils.saveBookmarkOffline(newBookmarkId, tabToBookmark);
+                    }
+
+                    BookmarkModel newBookmarkModel = new BookmarkModel();
+                    ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+                    if (null != app && null != app.mBraveSyncWorker && null != newBookmarkId && null != newBookmarkModel) {
+                        app.mBraveSyncWorker.CreateUpdateBookmark(bCreateBookmark, newBookmarkModel.getBookmarkById(newBookmarkId));
+                        newBookmarkModel.destroy();
+                    }
+                    if (null != newBookmarkModel) {
+                        newBookmarkModel.destroy();
                     }
                 } else {
                     bookmarkModel.destroy();
