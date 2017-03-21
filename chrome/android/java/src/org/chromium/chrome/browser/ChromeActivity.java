@@ -19,6 +19,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Handler;
 import android.os.StrictMode;
@@ -98,6 +99,7 @@ import org.chromium.chrome.browser.init.AsyncInitializationActivity;
 import org.chromium.chrome.browser.init.ProcessInitializationHandler;
 import org.chromium.chrome.browser.locale.LocaleManager;
 import org.chromium.chrome.browser.media.VideoPersister;
+import org.chromium.chrome.browser.init.StatsUpdater;
 import org.chromium.chrome.browser.metrics.LaunchMetrics;
 import org.chromium.chrome.browser.metrics.StartupMetrics;
 import org.chromium.chrome.browser.metrics.UmaSessionStats;
@@ -189,6 +191,32 @@ import javax.annotation.Nullable;
 public abstract class ChromeActivity extends AsyncInitializationActivity
         implements TabCreatorManager, AccessibilityStateChangeListener, PolicyChangeListener,
         ContextualSearchTabPromotionDelegate, SnackbarManageable, SceneChangeObserver {
+
+    // Stats update
+    class UpdateStatsAsyncTask extends AsyncTask<Void,Void,Long> {
+
+        private Context mContext = null;
+
+        public UpdateStatsAsyncTask(Context context) {
+            mContext = context;
+        }
+
+        protected Long doInBackground(Void... params) {
+            if (null == mContext) {
+                return null;
+            }
+            try {
+                StatsUpdater.UpdateStats(mContext);
+            }
+            catch(Exception exc) {
+                // Just ignore it if we cannot update
+            }
+
+            return null;
+        }
+    }
+
+
     /**
      * Factory which creates the AppMenuHandler.
      */
@@ -982,6 +1010,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
     @Override
     public void onResumeWithNative() {
         super.onResumeWithNative();
+        new UpdateStatsAsyncTask(this).execute();
         markSessionResume();
         RecordUserAction.record("MobileComeToForeground");
 
