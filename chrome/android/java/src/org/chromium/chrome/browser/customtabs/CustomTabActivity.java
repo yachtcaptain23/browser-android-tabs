@@ -474,14 +474,8 @@ public class CustomTabActivity extends ChromeActivity {
         mBottomBarDelegate = new CustomTabBottomBarDelegate(this, mIntentDataProvider,
                 getFullscreenManager());
         mBottomBarDelegate.showBottomBarIfNecessary();
-    }
 
-    @Override
-    protected TabModelSelector createTabModelSelector() {
-        mTabPersistencePolicy = new CustomTabTabPersistencePolicy(
-                getTaskId(), getSavedInstanceState() != null);
-
-        return new TabModelSelectorImpl(this, this, mTabPersistencePolicy, false, false);
+        return  tabModelSelectorImpl;
     }
 
     @Override
@@ -806,7 +800,9 @@ public class CustomTabActivity extends ChromeActivity {
         setActiveContentHandler(null);
         if (mIsClosing) {
             getTabModelSelector().closeAllTabs(true);
-            mTabPersistencePolicy.deleteMetadataStateFileAsync();
+            if (null != mTabPersistencePolicy) {
+                mTabPersistencePolicy.deleteMetadataStateFileAsync();
+            }
         } else {
             getTabModelSelector().saveState();
         }
