@@ -58,7 +58,7 @@ ContentSetting CookieSettings::GetDefaultCookieSetting(
 }
 
 bool CookieSettings::IsReadingCookieAllowed(const GURL& url,
-                                            const GURL& first_party_url) const {
+                                            const GURL& first_party_url) {
   ContentSetting reading_setting;
   GetCookieSetting(url, first_party_url, nullptr, &reading_setting,
                    nullptr /* setting_cookie */);
@@ -66,7 +66,7 @@ bool CookieSettings::IsReadingCookieAllowed(const GURL& url,
 }
 
 bool CookieSettings::IsSettingCookieAllowed(const GURL& url,
-                                            const GURL& first_party_url) const {
+                                            const GURL& first_party_url) {
   ContentSetting setting_setting;
   GetCookieSetting(url, first_party_url, nullptr, nullptr /* reading_cookie */,
                    &setting_setting);
@@ -77,7 +77,7 @@ void CookieSettings::GetReadingAndSettingCookieAllowed(
     const GURL& url,
     const GURL& first_party_url,
     bool* reading_cookie_allowed,
-    bool* setting_cookie_allowed) const {
+    bool* setting_cookie_allowed) {
   ContentSetting reading_setting;
   ContentSetting setting_setting;
   GetCookieSetting(url, first_party_url, nullptr, &reading_setting,
@@ -86,7 +86,7 @@ void CookieSettings::GetReadingAndSettingCookieAllowed(
   *setting_cookie_allowed = IsAllowed(setting_setting);
 }
 
-bool CookieSettings::IsCookieSessionOnly(const GURL& origin) const {
+bool CookieSettings::IsCookieSessionOnly(const GURL& origin) {
   ContentSetting setting;
   GetCookieSetting(origin, origin, nullptr, nullptr, &setting);
   DCHECK(IsValidSetting(setting));
@@ -145,7 +145,7 @@ void CookieSettings::GetCookieSetting(const GURL& url,
                                       const GURL& first_party_url,
                                       content_settings::SettingSource* source,
                                       ContentSetting* reading_cookie,
-                                      ContentSetting* setting_cookie) const {
+                                      ContentSetting* setting_cookie) {
   // Auto-allow in extensions or for WebUI embedded in a secure origin.
   if (first_party_url.SchemeIs(kChromeUIScheme) &&
       url.SchemeIsCryptographic()) {

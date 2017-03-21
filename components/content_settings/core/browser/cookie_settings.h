@@ -63,7 +63,7 @@ class CookieSettings : public RefcountedKeyedService {
   void GetReadingAndSettingCookieAllowed(const GURL& url,
                                          const GURL& first_party_url,
                                          bool* reading_cookie_allowed,
-                                         bool* setting_cookie_allowed) const;
+                                         bool* setting_cookie_allowed);
 
   // Returns true if the cookie set by a page identified by |url| should be
   // session only. Querying this only makes sense if |IsSettingCookieAllowed|
@@ -107,7 +107,7 @@ class CookieSettings : public RefcountedKeyedService {
                         const GURL& first_party_url,
                         content_settings::SettingSource* source,
                         ContentSetting* reading_cookie,
-                        ContentSetting* setting_cookie) const;
+                        ContentSetting* setting_cookie);
 
   static void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);
 
