@@ -90,7 +90,7 @@ class CookieSettings : public RefcountedKeyedService {
   void GetCookieSetting(const GURL& url,
                         const GURL& first_party_url,
                         content_settings::SettingSource* source,
-                        ContentSetting* cookie_setting) const;
+                        ContentSetting* cookie_setting);
 
   static void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);
 
