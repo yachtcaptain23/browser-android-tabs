@@ -65,7 +65,7 @@ bool CookieSettings::IsCookieAccessAllowed(const GURL& url,
   return IsAllowed(setting);
 }
 
-bool CookieSettings::IsCookieSessionOnly(const GURL& origin) const {
+bool CookieSettings::IsCookieSessionOnly(const GURL& origin) {
   ContentSetting setting;
   GetCookieSetting(origin, origin, nullptr, &setting);
   DCHECK(IsValidSetting(setting));
