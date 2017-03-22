@@ -382,6 +382,13 @@ public class CustomTabActivity extends ChromeActivity {
                     ColorUtils.getDarkenedColorForStatusBar(toolbarColor));
         }
 
+        // Properly attach tab's infobar to the view hierarchy, as the main tab might have been
+        // initialized prior to inflation.
+        if (mMainTab != null) {
+            ViewGroup bottomContainer = (ViewGroup) findViewById(R.id.bottom_container);
+            mMainTab.getInfoBarContainer().setParentView(bottomContainer);
+        }
+
         // Setting task title and icon to be null will preserve the client app's title and icon.
         ApiCompatibilityUtils.setTaskDescription(this, null, null, toolbarColor);
         showCustomButtonOnToolbar();
@@ -391,10 +398,10 @@ public class CustomTabActivity extends ChromeActivity {
 
     @Override
     protected TabModelSelector createTabModelSelector() {
-        TabPersistencePolicy persistencePolicy = new CustomTabTabPersistencePolicy(
+        mTabPersistencePolicy = new CustomTabTabPersistencePolicy(
                 getTaskId(), getSavedInstanceState() != null);
 
-        TabModelSelectorImpl tabModelSelectorImpl = new TabModelSelectorImpl(this, this, persistencePolicy, false, false);
+        TabModelSelectorImpl tabModelSelectorImpl = new TabModelSelectorImpl(this, this, mTabPersistencePolicy, false, false);
 
         mTabModelSelectorTabObserver = new TabModelSelectorTabObserver(tabModelSelectorImpl) {
 
@@ -404,7 +411,6 @@ public class CustomTabActivity extends ChromeActivity {
             public void onPageLoadStarted(Tab tab, String url) {
                 // Discard startup navigation measurements when the user interfered and started the
                 // 2nd navigation (in activity lifetime) in parallel.
-                Log.i("TAG", "!!!here0");
                 if (mIsFirstPageLoadStart) {
                     mIsFirstPageLoadStart = false;
                 }
@@ -425,7 +431,6 @@ public class CustomTabActivity extends ChromeActivity {
 
             @Override
             public void onPageLoadFinished(Tab tab) {
-              Log.i("TAG", "!!!here00");
                 String url = tab.getUrl();
                 if (getActivityTab() == tab) {
                     try {
@@ -442,7 +447,7 @@ public class CustomTabActivity extends ChromeActivity {
                     int scriptsBlocked, int fingerprintsBlocked) {
                 braveShieldsCountUpdate(url, adsAndTrackers, httpsUpgrades, scriptsBlocked, fingerprintsBlocked);
             }
-        };
+        }
 
         getToolbarManager().setCloseButtonDrawable(mIntentDataProvider.getCloseButtonDrawable());
         getToolbarManager().setShowTitle(mIntentDataProvider.getTitleVisibilityState()
