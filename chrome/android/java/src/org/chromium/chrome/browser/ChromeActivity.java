@@ -374,12 +374,6 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                     getTabModelSelector(),
                     getControlContainerHeightResource());
         }
-
-        // Comment sync temporary
-        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
-        if (null != app) {
-            app.mBraveSyncWorker = new BraveSyncWorker(this);
-        }*/
     }
 
     @Override
@@ -1250,6 +1244,12 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                 getApplicationContext()).onActivityLaunched();
 
         super.finishNativeInitialization();
+
+        // Starting Brave Sync
+        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app) {
+            app.mBraveSyncWorker = new BraveSyncWorker(this);
+        }*/
     }
 
     /**
