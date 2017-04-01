@@ -1634,6 +1634,12 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 
             mContextualSuggestionsCoordinator = mComponent.getContextualSuggestionsCoordinator();
         }
+
+        // Starting Brave Sync
+        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app) {
+            app.mBraveSyncWorker = new BraveSyncWorker(this);
+        }*/
     }
 
     /**
