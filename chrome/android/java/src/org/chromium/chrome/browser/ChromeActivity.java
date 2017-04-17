@@ -1413,10 +1413,10 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         super.finishNativeInitialization();
 
         // Starting Brave Sync
-        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
         if (null != app) {
             app.mBraveSyncWorker = new BraveSyncWorker(this);
-        }*/
+        }
     }
 
     /**
