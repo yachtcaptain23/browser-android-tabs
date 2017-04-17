@@ -576,6 +576,8 @@ android_assets("chrome_public_pak_assets") {
     "//chrome/browser/net/blockers/data/regions.json",
     "//braveSync/bundles/bundle.js",
     "//sync/android_sync.js",
+    "//sync/android_sync_words.js",
+    "//niceware/browser/niceware.js",
   ]
   disable_compression = true
 
