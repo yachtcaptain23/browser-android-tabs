@@ -44,9 +44,9 @@ bool ShouldShowPopularSites() {
 #endif
 
   // Until any configuration is fetched, the default is to enable popular sites.
-  if (group_name.empty()) {
+  /*if (group_name.empty()) {
     return true;
-  }
+  }*/
 
 return true;
 
