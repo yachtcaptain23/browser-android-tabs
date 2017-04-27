@@ -291,13 +291,13 @@ void LocalFrameClientImpl::didNotAllowPlugins() {
     m_webFrame->contentSettingsClient()->didNotAllowPlugins();
 }
 
-void FrameLoaderClientImpl::deniedScript()
+void LocalFrameClientImpl::deniedScript()
 {
     if (m_webFrame->contentSettingsClient())
         m_webFrame->contentSettingsClient()->deniedScript();
 }
 
-bool FrameLoaderClientImpl::allowFingerprinting()
+bool LocalFrameClientImpl::allowFingerprinting()
 {
     if (m_webFrame->contentSettingsClient())
         return m_webFrame->contentSettingsClient()->allowFingerprinting();
@@ -305,7 +305,7 @@ bool FrameLoaderClientImpl::allowFingerprinting()
     return true;
 }
 
-void FrameLoaderClientImpl::deniedFingerprinting()
+void LocalFrameClientImpl::deniedFingerprinting()
 {
     if (m_webFrame->contentSettingsClient())
         m_webFrame->contentSettingsClient()->deniedFingerprinting();
