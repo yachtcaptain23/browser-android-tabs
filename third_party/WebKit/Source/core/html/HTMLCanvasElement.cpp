@@ -47,7 +47,7 @@
 #include "core/frame/LocalFrameClient.h"
 #include "core/frame/Settings.h"
 #include "core/frame/UseCounter.h"
-#include "core/loader/FrameLoaderClient.h"
+#include "core/frame/LocalFrameClient.h"
 #include "core/html/HTMLImageElement.h"
 #include "core/html/HTMLInputElement.h"
 #include "core/html/HTMLSelectElement.h"

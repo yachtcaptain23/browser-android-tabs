@@ -107,8 +107,66 @@ public class NewTabPageLayout extends LinearLayout {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        calculateVerticalSpacing(widthMeasureSpec, heightMeasureSpec);
+        //calculateVerticalSpacing(widthMeasureSpec, heightMeasureSpec);
+        measureWithCardsUiDisabled(widthMeasureSpec, heightMeasureSpec);
         unifyElementWidths();
+    }
+
+    /**
+     * Performs layout measurements for when the cards ui is disabled.
+     */
+    private void measureWithCardsUiDisabled(int widthMeasureSpec, int heightMeasureSpec) {
+        // Remove the scroll spacer from the layout so the weighted children can be measured
+        // correctly.
+        //mScrollCompensationSpacer.setVisibility(View.GONE);
+
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
+        if (getMeasuredHeight() > mParentViewportHeight) {
+            // This layout is bigger than its parent's viewport, so the user will need to scroll
+            // to see all of it. Extra spacing should be added at the bottom so the user can
+            // scroll until Most Visited is at the top.
+
+            // The top, middle, and bottom spacers should have a measured height of 0 at this
+            // point since they use weights to set height, and there was no extra space.
+            assert mTopSpacer.getMeasuredHeight() == 0;
+            assert mMiddleSpacer.getMeasuredHeight() == 0;
+            assert mBottomSpacer.getMeasuredHeight() == 0;
+
+            final int topOfMostVisited = calculateTopOfMostVisited();
+            final int belowTheFoldHeight = getMeasuredHeight() - mParentViewportHeight;
+            if (belowTheFoldHeight < topOfMostVisited) {
+                // Include the scroll spacer in the layout and call super.onMeasure again so it
+                // is measured.
+                /*mScrollCompensationSpacer.getLayoutParams().height =
+                        topOfMostVisited - belowTheFoldHeight;
+
+                mScrollCompensationSpacer.setVisibility(View.INVISIBLE);*/
+                super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+            }
+        } else {
+            distributeExtraSpace(mTopSpacer.getMeasuredHeight());
+        }
+    }
+
+    /**
+     * Calculate the vertical position of Most Visited.
+     * This method does not use mMostVisitedLayout.getTop(), so can be called in onMeasure.
+     */
+    private int calculateTopOfMostVisited() {
+        // Manually add the heights (and margins) of all children above Most Visited.
+        int top = 0;
+        int mostVisitedIndex = indexOfChild(mTileGridLayout);
+        for (int i = 0; i < mostVisitedIndex; i++) {
+            View child = getChildAt(i);
+
+            if (child.getVisibility() == View.GONE) continue;
+
+            MarginLayoutParams params = (MarginLayoutParams) child.getLayoutParams();
+            top += params.topMargin + child.getMeasuredHeight() + params.bottomMargin;
+        }
+        top += ((MarginLayoutParams) mTileGridLayout.getLayoutParams()).topMargin;
+        return top;
     }
 
     /**
