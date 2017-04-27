@@ -424,6 +424,7 @@ void MostVisitedSites::OnPopularSitesDownloaded(bool success) {
     // Ignore callback; these icons will be seen on the *next* NTP.
     icon_cacher_->StartFetch(popular_site, base::Closure(), base::Closure());
   }
+  BuildCurrentTiles();
 }
 
 void MostVisitedSites::OnIconMadeAvailable(const GURL& site_url) {
