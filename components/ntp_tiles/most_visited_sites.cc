@@ -602,6 +602,7 @@ void MostVisitedSites::OnPopularSitesDownloaded(bool success) {
                                            base::Closure());
     }
   }
+  BuildCurrentTiles();
 }
 
 void MostVisitedSites::OnIconMadeAvailable(const GURL& site_url) {
