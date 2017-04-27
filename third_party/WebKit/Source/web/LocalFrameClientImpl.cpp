@@ -250,7 +250,7 @@ bool LocalFrameClientImpl::AllowFingerprinting()
 
 void LocalFrameClientImpl::DeniedFingerprinting()
 {
-    GetContentSettingsClient->DeniedFingerprinting();
+    GetContentSettingsClient()->DeniedFingerprinting();
 }
 
 Frame* LocalFrameClientImpl::Opener() const {
