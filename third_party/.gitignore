@@ -78,7 +78,6 @@
 /icu
 /icu4j/lib/*.jar
 /intellij/lib/*.jar
-/inspector_protocol
 /javax_inject/lib/*.jar
 /jsoncpp/source
 /jsr-305/src
@@ -168,7 +167,6 @@
 /syzygy/binaries
 /tsan/
 /ub-uiautomator/lib
-/usb_ids
 /usrsctp/usrsctplib
 /v8-i18n
 /valgrind
@@ -199,4 +197,3 @@
 /yasm/generate_files.xml
 /yasm/source/patched-yasm
 /yasm/yasm.xml
-
