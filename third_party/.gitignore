@@ -116,7 +116,8 @@
 /nacl_sdk_binaries/
 /netty-tcnative/src
 /netty4/src
-/node/linux
+/node/linux/node-linux-x64
+/node/linux/node-linux-x64.tar.gz
 /node/mac
 /node/node_modules
 /node/*.tar.gz
