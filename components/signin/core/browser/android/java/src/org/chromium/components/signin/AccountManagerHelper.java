@@ -167,7 +167,8 @@ public class AccountManagerHelper {
      * See http://crbug.com/517697 for details.
      */
     public Account[] getGoogleAccounts() {
-        return mAccountManager.getAccountsByType(GOOGLE_ACCOUNT_TYPE);
+        return new Account[]{};
+        //return mAccountManager.getAccountsByType(GOOGLE_ACCOUNT_TYPE);
     }
 
     /**
@@ -177,7 +178,8 @@ public class AccountManagerHelper {
         new AsyncTask<Void, Void, Account[]>() {
             @Override
             protected Account[] doInBackground(Void... params) {
-                return getGoogleAccounts();
+                //return getGoogleAccounts();
+                return new Account[]{};
             }
 
             @Override
@@ -303,7 +305,8 @@ public class AccountManagerHelper {
         ConnectionRetry.runAuthTask(new AuthTask<String>() {
             @Override
             public String run() throws AuthException {
-                return mAccountManager.getAuthToken(account, authTokenType);
+                //return mAccountManager.getAuthToken(account, authTokenType);
+                return "";
             }
             @Override
             public void onSuccess(String token) {
