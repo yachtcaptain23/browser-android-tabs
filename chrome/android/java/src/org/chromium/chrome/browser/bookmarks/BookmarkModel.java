@@ -4,12 +4,16 @@
 
 package org.chromium.chrome.browser.bookmarks;
 
+import org.chromium.base.ContextUtils;
 import org.chromium.base.ObserverList;
 import org.chromium.base.VisibleForTesting;
+import org.chromium.chrome.browser.BraveSyncWorker;
+import org.chromium.chrome.browser.ChromeApplication;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.components.bookmarks.BookmarkId;
 import org.chromium.components.bookmarks.BookmarkType;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -32,7 +36,7 @@ public class BookmarkModel extends BookmarkBridge {
          * @param titles All titles of the bookmarks to be deleted.
          * @param isUndoable Whether the deletion is undoable.
          */
-        void onDeleteBookmarks(String[] titles, BookmarkItem[] bookmarks, boolean isUndoable);
+        void onDeleteBookmarks(String[] titles, List<BookmarkItem> bookmarks, boolean isUndoable);
     }
 
     private ObserverList<BookmarkDeleteObserver> mDeleteObservers = new ObserverList<>();
@@ -78,6 +82,24 @@ public class BookmarkModel extends BookmarkBridge {
         mDeleteObservers.removeObserver(observer);
     }
 
+    private List<BookmarkItem> GetChildren(BookmarkItem parent) {
+        List<BookmarkItem> res = new ArrayList<BookmarkItem>();
+        if (!parent.isFolder()) {
+            return res;
+        }
+        res = getBookmarksForFolder(parent.getId());
+        List<BookmarkItem> newList = new ArrayList<BookmarkItem>();
+        for (BookmarkItem item : res) {
+            if (!item.isFolder()) {
+                continue;
+            }
+            newList.addAll(getBookmarksForFolder(item.getId()));
+        }
+        res.addAll(newList);
+
+        return res;
+    }
+
     /**
      * Delete one or multiple bookmarks from model. If more than one bookmarks are passed here, this
      * method will group these delete operations into one undo bundle so that later if the user
@@ -89,12 +111,14 @@ public class BookmarkModel extends BookmarkBridge {
     public void deleteBookmarks(BookmarkId... bookmarks) {
         assert bookmarks != null && bookmarks.length > 0;
         // Store all titles of bookmarks.
-        BookmarkItem[] bookmarksItems = new BookmarkItem[bookmarks.length];
+        List<BookmarkItem> bookmarksItems = new ArrayList<BookmarkItem>();
         String[] titles = new String[bookmarks.length];
         boolean isUndoable = true;
         for (int i = 0; i < bookmarks.length; i++) {
             titles[i] = getBookmarkTitle(bookmarks[i]);
-            bookmarksItems[i] = getBookmarkById(bookmarks[i]);
+            BookmarkItem item = getBookmarkById(bookmarks[i]);
+            bookmarksItems.add(item);
+            bookmarksItems.addAll(GetChildren(item));
             isUndoable &= (bookmarks[i].getType() == BookmarkType.NORMAL);
         }
 
@@ -113,15 +137,35 @@ public class BookmarkModel extends BookmarkBridge {
         }
     }
 
+    public void deleteBookmarkSilently(BookmarkId bookmark) {
+        assert null != bookmark;
+        deleteBookmark(bookmark);
+    }
+
     /**
      * Calls {@link BookmarkBridge#moveBookmark(BookmarkId, BookmarkId, int)} for the given
      * bookmark list. The bookmarks are appended at the end.
      */
     public void moveBookmarks(List<BookmarkId> bookmarkIds, BookmarkId newParentId) {
         int appenedIndex = getChildCount(newParentId);
+        BookmarkItem[] bookmarksToMove = new BookmarkItem[bookmarkIds.size()];
         for (int i = 0; i < bookmarkIds.size(); ++i) {
             moveBookmark(bookmarkIds.get(i), newParentId, appenedIndex + i);
+            bookmarksToMove[i] = getBookmarkById(bookmarkIds.get(i));
         }
+        ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        if (null != app && null != app.mBraveSyncWorker && null != newParentId) {
+            app.mBraveSyncWorker.CreateUpdateDeleteBookmarks(BraveSyncWorker.UPDATE_RECORD, bookmarksToMove, true, false);
+        }
+    }
+
+    /**
+     * Calls {@link BookmarkBridge#moveBookmark(BookmarkId, BookmarkId, int)} for the given
+     * bookmark. The bookmark is appended at the end. Call that method from Brave's sync only
+     */
+    public void moveBookmark(BookmarkId bookmarkId, BookmarkId newParentId) {
+        int appendedIndex = getChildCount(newParentId);
+        moveBookmark(bookmarkId, newParentId, appendedIndex);
     }
 
     /**
