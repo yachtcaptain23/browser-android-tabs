@@ -78,9 +78,9 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
 
     @Override
     public Account[] getAccountsSync() throws AccountManagerDelegateException {
-        if (!hasGetAccountsPermission()) {
+        //if (!hasGetAccountsPermission()) {
             return new Account[] {};
-        }
+        /*}
         long now = SystemClock.elapsedRealtime();
         Account[] accounts = mAccountManager.getAccountsByType(GoogleAuthUtil.GOOGLE_ACCOUNT_TYPE);
         long elapsed = SystemClock.elapsedRealtime() - now;
@@ -89,7 +89,7 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
             recordElapsedTimeHistogram(
                     "Signin.AndroidGetAccountsTimeUiThread_AccountManager", elapsed);
         }
-        return accounts;
+        return accounts;*/
     }
 
     @Override
@@ -129,7 +129,7 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
 
     @Override
     public boolean hasFeatures(Account account, String[] features) {
-        if (!hasGetAccountsPermission()) {
+        /*if (!hasGetAccountsPermission()) {
             return false;
         }
         try {
@@ -138,7 +138,7 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
             Log.e(TAG, "Error while checking features: ", e);
         } catch (OperationCanceledException e) {
             Log.e(TAG, "Checking features was cancelled. This should not happen.");
-        }
+        }*/
         return false;
     }
 
@@ -159,7 +159,15 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
     public void updateCredentials(
             Account account, Activity activity, final Callback<Boolean> callback) {
         ThreadUtils.assertOnUiThread();
-        if (!hasManageAccountsPermission()) {
+        if (callback != null) {
+            ThreadUtils.postOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    callback.onResult(false);
+                }
+            });
+        }
+        /*if (!hasManageAccountsPermission()) {
             if (callback != null) {
                 ThreadUtils.postOnUiThread(new Runnable() {
                     @Override
@@ -192,7 +200,7 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
         // Android 4.4 throws NullPointerException if null is passed
         Bundle emptyOptions = new Bundle();
         mAccountManager.updateCredentials(
-                account, "android", emptyOptions, activity, realCallback, null);
+                account, "android", emptyOptions, activity, realCallback, null);*/
     }
 
     protected boolean hasGetAccountsPermission() {
