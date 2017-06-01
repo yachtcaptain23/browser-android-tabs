@@ -438,12 +438,6 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             mBottomSheetContentController.init(mBottomSheet, mTabModelSelector, this);
         }
         ((BottomContainer) findViewById(R.id.bottom_container)).initialize(mFullscreenManager);
-
-        // Comment sync temporary
-        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
-        if (null != app) {
-            app.mBraveSyncWorker = new BraveSyncWorker(this);
-        }*/
     }
 
     @Override
@@ -1394,10 +1388,10 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         super.finishNativeInitialization();
 
         // Starting Brave Sync
-        /*ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+        ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
         if (null != app) {
             app.mBraveSyncWorker = new BraveSyncWorker(this);
-        }*/
+        }
     }
 
     /**
