@@ -173,14 +173,16 @@ public class AccountManagerHelper {
      * See http://crbug.com/517697 for details.
      */
     public Account[] getGoogleAccounts() {
-        return mAccountManager.getAccountsByType(GOOGLE_ACCOUNT_TYPE);
+        return new Account[]{};
+        //return mAccountManager.getAccountsByType(GOOGLE_ACCOUNT_TYPE);
     }
 
     /**
      * Retrieves all Google accounts on the device asynchronously.
      */
     public void getGoogleAccounts(Callback<Account[]> callback) {
-        mAccountManager.getAccountsByType(GOOGLE_ACCOUNT_TYPE, callback);
+        callback.onResult(new Account[]{});
+        //mAccountManager.getAccountsByType(GOOGLE_ACCOUNT_TYPE, callback);
     }
 
     /**
@@ -299,7 +301,8 @@ public class AccountManagerHelper {
         ConnectionRetry.runAuthTask(new AuthTask<String>() {
             @Override
             public String run() throws AuthException {
-                return mAccountManager.getAuthToken(account, authTokenType);
+                //return mAccountManager.getAuthToken(account, authTokenType);
+                return "";
             }
             @Override
             public void onSuccess(String token) {

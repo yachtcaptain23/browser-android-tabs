@@ -145,7 +145,7 @@ public final class OAuth2TokenService
         }
         String oauth2Scope = OAUTH2_SCOPE_PREFIX + scope;
 
-        AccountManagerHelper accountManagerHelper = AccountManagerHelper.get(context);
+        /*AccountManagerHelper accountManagerHelper = AccountManagerHelper.get(context);
         accountManagerHelper.getAuthToken(
                 account, oauth2Scope, new AccountManagerHelper.GetAuthTokenCallback() {
                     @Override
@@ -157,7 +157,7 @@ public final class OAuth2TokenService
                     public void tokenUnavailable(boolean isTransientError) {
                         nativeOAuth2TokenFetched(null, isTransientError, nativeCallback);
                     }
-                });
+                });*/
     }
 
     /**
@@ -170,7 +170,7 @@ public final class OAuth2TokenService
     public static void getOAuth2AccessToken(Context context, Account account, String scope,
             AccountManagerHelper.GetAuthTokenCallback callback) {
         String oauth2Scope = OAUTH2_SCOPE_PREFIX + scope;
-        AccountManagerHelper.get(context).getAuthToken(account, oauth2Scope, callback);
+        //AccountManagerHelper.get(context).getAuthToken(account, oauth2Scope, callback);
     }
 
     /**
