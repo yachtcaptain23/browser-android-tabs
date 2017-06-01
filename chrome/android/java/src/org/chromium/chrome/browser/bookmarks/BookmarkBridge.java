@@ -7,6 +7,7 @@ package org.chromium.chrome.browser.bookmarks;
 import android.text.TextUtils;
 import android.util.Pair;
 
+import org.chromium.base.Log;
 import org.chromium.base.ObserverList;
 import org.chromium.base.VisibleForTesting;
 import org.chromium.base.annotations.CalledByNative;
@@ -146,6 +147,15 @@ public class BookmarkBridge {
          */
         public void editBookmarksEnabledChanged() {
             bookmarkModelChanged();
+        }
+
+        public void braveExtensiveBookmarkChangesBeginning() {
+        }
+
+        public void braveExtensiveBookmarkChangesEnded() {
+        }
+
+        public void braveBookmarkModelLoaded(BookmarkBridge bridge) {
         }
 
         /**
@@ -765,12 +775,12 @@ public class BookmarkBridge {
     }
 
     @CalledByNative
-    private void extensiveBookmarkChangesBeginning() {
+    public void extensiveBookmarkChangesBeginning() {
         mIsDoingExtensiveChanges = true;
     }
 
     @CalledByNative
-    private void extensiveBookmarkChangesEnded() {
+    public void extensiveBookmarkChangesEnded() {
         mIsDoingExtensiveChanges = false;
         bookmarkModelChanged();
     }
@@ -792,7 +802,7 @@ public class BookmarkBridge {
     }
 
     @CalledByNative
-    private static BookmarkItem createBookmarkItem(long id, int type, String title, String url,
+    public static BookmarkItem createBookmarkItem(long id, int type, String title, String url,
             boolean isFolder, long parentId, int parentIdType, boolean isEditable,
             boolean isManaged) {
         return new BookmarkItem(new BookmarkId(id, type), title, url, isFolder,
