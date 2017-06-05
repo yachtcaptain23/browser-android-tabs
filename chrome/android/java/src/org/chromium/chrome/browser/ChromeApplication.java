@@ -17,6 +17,7 @@ import org.chromium.base.annotations.MainDex;
 import org.chromium.base.annotations.SuppressFBWarnings;
 import org.chromium.base.library_loader.ProcessInitException;
 import org.chromium.chrome.browser.BraveSyncWorker;
+import org.chromium.chrome.browser.StatsUpdaterWorker;
 import org.chromium.chrome.browser.document.DocumentActivity;
 import org.chromium.chrome.browser.document.IncognitoDocumentActivity;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
@@ -46,6 +47,8 @@ public class ChromeApplication extends ContentApplication {
     private ShieldsConfig mShieldsConfig;
     // Sync worker
     public BraveSyncWorker mBraveSyncWorker = null;
+    // Stats updater
+    public StatsUpdaterWorker mStatsUpdaterWorker = null;
 
     @Override
     protected void attachBaseContext(Context base) {
