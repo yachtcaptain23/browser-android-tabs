@@ -59,6 +59,7 @@ import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.BraveSyncWorker;
+import org.chromium.chrome.browser.StatsUpdaterWorker;
 import org.chromium.chrome.browser.IntentHandler.IntentHandlerDelegate;
 import org.chromium.chrome.browser.IntentHandler.TabOpenType;
 import org.chromium.chrome.browser.appmenu.AppMenu;
@@ -1308,6 +1309,10 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             app.mBraveSyncWorker.Stop();
             app.mBraveSyncWorker = null;
         }
+        if (null != app && null != app.mStatsUpdaterWorker) {
+            app.mStatsUpdaterWorker.Stop();
+            app.mStatsUpdaterWorker = null;
+        }
 
 
         if (mTabContentManager != null) {
@@ -1391,6 +1396,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
         if (null != app) {
             app.mBraveSyncWorker = new BraveSyncWorker(this);
+            app.mStatsUpdaterWorker = new StatsUpdaterWorker(this);
         }
     }
 
