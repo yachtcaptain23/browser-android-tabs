@@ -11,6 +11,7 @@ import android.content.SyncStatusObserver;
 import android.os.Bundle;
 import android.os.StrictMode;
 
+import org.chromium.base.Log;
 import org.chromium.base.Callback;
 import org.chromium.base.ObserverList;
 import org.chromium.base.VisibleForTesting;
@@ -197,13 +198,14 @@ public class AndroidSyncSettings {
 
     private void setChromeSyncEnabled(boolean value) {
         synchronized (mLock) {
-            updateSyncability();
-            if (value == mChromeSyncEnabled || mAccount == null) return;
-            mChromeSyncEnabled = value;
+            mChromeSyncEnabled = false;
+            //updateSyncability();
+            //if (value == mChromeSyncEnabled || mAccount == null) return;
+            //mChromeSyncEnabled = value;
 
-            StrictMode.ThreadPolicy oldPolicy = StrictMode.allowThreadDiskWrites();
-            mSyncContentResolverDelegate.setSyncAutomatically(mAccount, mContractAuthority, value);
-            StrictMode.setThreadPolicy(oldPolicy);
+            //StrictMode.ThreadPolicy oldPolicy = StrictMode.allowThreadDiskWrites();
+            //mSyncContentResolverDelegate.setSyncAutomatically(mAccount, mContractAuthority, value);
+            //StrictMode.setThreadPolicy(oldPolicy);
         }
         notifyObservers();
     }
@@ -276,19 +278,20 @@ public class AndroidSyncSettings {
             boolean oldChromeSyncEnabled = mChromeSyncEnabled;
             boolean oldMasterSyncEnabled = mMasterSyncEnabled;
 
-            StrictMode.ThreadPolicy oldPolicy = StrictMode.allowThreadDiskWrites();
-            if (mAccount != null) {
+            //StrictMode.ThreadPolicy oldPolicy = StrictMode.allowThreadDiskWrites();
+            /*if (mAccount != null) {
                 mIsSyncable =
                         mSyncContentResolverDelegate.getIsSyncable(mAccount, mContractAuthority)
                         == 1;
                 mChromeSyncEnabled = mSyncContentResolverDelegate.getSyncAutomatically(
                         mAccount, mContractAuthority);
-            } else {
+            } else {*/
                 mIsSyncable = false;
                 mChromeSyncEnabled = false;
-            }
-            mMasterSyncEnabled = mSyncContentResolverDelegate.getMasterSyncAutomatically();
-            StrictMode.setThreadPolicy(oldPolicy);
+            //}
+            //mMasterSyncEnabled = mSyncContentResolverDelegate.getMasterSyncAutomatically();
+            mMasterSyncEnabled = false;
+            //StrictMode.setThreadPolicy(oldPolicy);
 
             return oldChromeSyncEnabled != mChromeSyncEnabled
                     || oldMasterSyncEnabled != mMasterSyncEnabled;
