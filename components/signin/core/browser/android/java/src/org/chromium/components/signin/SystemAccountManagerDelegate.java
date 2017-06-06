@@ -96,7 +96,8 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
     public String getAuthToken(Account account, String authTokenScope) throws AuthException {
         assert !ThreadUtils.runningOnUiThread();
         assert AccountManagerFacade.GOOGLE_ACCOUNT_TYPE.equals(account.type);
-        try {
+        /*try {
+            return "";
             return GoogleAuthUtil.getTokenWithNotification(
                     ContextUtils.getApplicationContext(), account, authTokenScope, null);
         } catch (GoogleAuthException ex) {
@@ -106,7 +107,8 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
                     "Error while getting token for scope '" + authTokenScope + "'", ex);
         } catch (IOException ex) {
             throw new AuthException(AuthException.TRANSIENT, ex);
-        }
+        }*/
+        return "";
     }
 
     @Override
