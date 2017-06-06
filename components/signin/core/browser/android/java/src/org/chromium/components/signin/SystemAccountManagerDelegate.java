@@ -64,17 +64,19 @@ public class SystemAccountManagerDelegate implements AccountManagerDelegate {
     public String getAuthToken(Account account, String authTokenScope) throws AuthException {
         assert !ThreadUtils.runningOnUiThread();
         assert AccountManagerHelper.GOOGLE_ACCOUNT_TYPE.equals(account.type);
-        try {
+        /*try {
+            return "";
             return GoogleAuthUtil.getTokenWithNotification(
                     ContextUtils.getApplicationContext(), account, authTokenScope, null);
         } catch (GoogleAuthException ex) {
             // This case includes a UserRecoverableNotifiedException, but most clients will have
             // their own retry mechanism anyway.
             // TODO(bauerb): Investigate integrating the callback with ConnectionRetry.
-            throw new AuthException(false /* isTransientError */, ex);
-        } catch (IOException ex) {
-            throw new AuthException(true /* isTransientError */, ex);
-        }
+            throw new AuthException(false /* isTransientError *///, ex);
+        /*} catch (IOException ex) {
+            throw new AuthException(true /* isTransientError *///, ex);
+        //}
+        return "";
     }
 
     @Override
