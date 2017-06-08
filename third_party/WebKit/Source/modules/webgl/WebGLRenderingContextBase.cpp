@@ -3358,12 +3358,12 @@ Nullable<Vector<String>> WebGLRenderingContextBase::getSupportedExtensions() {
   if (isContextLost())
     return nullptr;
 
-    LocalFrame* frame = canvas()->document().frame();
+    LocalFrame* frame = canvas()->GetDocument().GetFrame();
     bool allowed = true;
     if (frame) {
-        allowed = frame->loader().client()->allowFingerprinting();
+        allowed = frame->Loader().Client()->AllowFingerprinting();
         if (!allowed && !canvas()->wasBlockedByFingerprinting()) {
-            frame->loader().client()->deniedFingerprinting();;
+            frame->Loader().Client()->DeniedFingerprinting();;
         }
     }
     if (!allowed)
