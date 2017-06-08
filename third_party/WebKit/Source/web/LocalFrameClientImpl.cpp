@@ -236,7 +236,7 @@ bool LocalFrameClientImpl::HasWebView() const {
 
 void LocalFrameClientImpl::DeniedScript()
 {
-    GetContentSettingsClient()->DeniedScript();
+    GetContentSettingsClient().DeniedScript();
 }
 
 bool LocalFrameClientImpl::InShadowTree() const {
@@ -245,12 +245,12 @@ bool LocalFrameClientImpl::InShadowTree() const {
 
 bool LocalFrameClientImpl::AllowFingerprinting()
 {
-    return GetContentSettingsClient()->allowFingerprinting();
+    return GetContentSettingsClient().AllowFingerprinting();
 }
 
 void LocalFrameClientImpl::DeniedFingerprinting()
 {
-    GetContentSettingsClient()->DeniedFingerprinting();
+    GetContentSettingsClient().DeniedFingerprinting();
 }
 
 Frame* LocalFrameClientImpl::Opener() const {
