@@ -45,7 +45,6 @@
 #include "core/html/CrossOriginAttribute.h"
 #include "core/html/imports/HTMLImport.h"
 #include "core/html/parser/HTMLParserIdioms.h"
-#include "core/loader/FrameLoaderClient.h"
 #include "core/frame/LocalFrameClient.h"
 #include "platform/WebFrameScheduler.h"
 #include "platform/loader/fetch/AccessControlStatus.h"
@@ -265,9 +264,9 @@ bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
   //      steps at this point. The script is not executed."
   if (!context_document->CanExecuteScripts(kAboutToExecuteScript)) {
     if (0 != ScriptContent().length()) {
-        LocalFrame* frame = element_->document().frame();
+        LocalFrame* frame = context_document->GetFrame();;
         if (frame) {
-            frame->loader().client()->DeniedScript();
+            frame->Loader().Client()->DeniedScript();
         }
     }
 
