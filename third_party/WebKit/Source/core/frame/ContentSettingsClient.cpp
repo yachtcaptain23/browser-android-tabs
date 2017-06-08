@@ -134,7 +134,9 @@ void ContentSettingsClient::DeniedScript() {
 
 bool ContentSettingsClient::AllowFingerprinting() {
   if (client_)
-    client_->AllowFingerprinting();
+    return client_->AllowFingerprinting();
+
+  return true;
 }
 
 void ContentSettingsClient::DeniedFingerprinting() {
