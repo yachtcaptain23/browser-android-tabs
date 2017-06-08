@@ -1645,10 +1645,6 @@ public class ChromeTabbedActivity
                         setBraveShieldsBlackAndWhite();
                     }
                 }
-            }
-
-            @Override
-            public void onPageLoadFinished(final Tab tab) {
                 mAppIndexingUtil.extractCopylessPasteMetadata(tab);
             }
 
