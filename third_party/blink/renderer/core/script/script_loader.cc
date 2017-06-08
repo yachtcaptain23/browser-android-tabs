@@ -312,9 +312,9 @@ bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
   // return. The script is not executed.</spec>
   if (!context_document->CanExecuteScripts(kAboutToExecuteScript)) {
     if (0 != ScriptContent().length()) {
-        LocalFrame* frame = element_->document().frame();
+        LocalFrame* frame = context_document->GetFrame();
         if (frame) {
-            frame->loader().client()->DeniedScript();
+            frame->Loader().Client()->DeniedScript();
         }
     }
    return false;
