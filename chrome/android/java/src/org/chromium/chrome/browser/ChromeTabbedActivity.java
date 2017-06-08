@@ -1457,10 +1457,6 @@ public class ChromeTabbedActivity extends ChromeActivity implements OverviewMode
                         setBraveShieldsBlackAndWhite();
                     }
                 }
-            }
-
-            @Override
-            public void onPageLoadFinished(final Tab tab) {
                 mAppIndexingUtil.extractCopylessPasteMetadata(tab);
             }
 
