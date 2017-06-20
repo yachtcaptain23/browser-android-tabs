@@ -79,8 +79,9 @@ public class HomepageManager {
      * @return Whether or not homepage is enabled.
      */
     public static boolean isHomepageEnabled() {
-        return PartnerBrowserCustomizations.isHomepageProviderAvailableAndEnabled()
-                && getInstance().getPrefHomepageEnabled();
+        return false;
+        /*return PartnerBrowserCustomizations.isHomepageProviderAvailableAndEnabled()
+                && getInstance().getPrefHomepageEnabled();*/
     }
 
     /**
