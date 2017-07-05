@@ -38,7 +38,15 @@ public abstract class WebContentsFactory {
      */
     public static WebContents createWebContentsWithWarmRenderer(
             boolean incognito, boolean initiallyHidden) {
-        return nativeCreateWebContents(incognito, initiallyHidden, true);
+        WebContents webContents = null;
+
+        try {
+            webContents = nativeCreateWebContents(incognito, initiallyHidden, true);
+        } catch (UnsatisfiedLinkError err) {
+            // Just return a null object in that case
+        }
+
+        return webContents;
     }
 
     private static native WebContents nativeCreateWebContents(
