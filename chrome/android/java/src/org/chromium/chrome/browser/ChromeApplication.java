@@ -33,6 +33,8 @@ import org.chromium.chrome.browser.tabmodel.document.StorageDelegate;
 import org.chromium.chrome.browser.tabmodel.document.TabDelegate;
 import org.chromium.content.app.ContentApplication;
 
+import com.mixpanel.android.mpmetrics.MixpanelAPI;
+
 /**
  * Basic application functionality that should be shared among all browser applications that use
  * chrome layer.
@@ -49,6 +51,8 @@ public class ChromeApplication extends ContentApplication {
     public BraveSyncWorker mBraveSyncWorker = null;
     // Stats updater
     public StatsUpdaterWorker mStatsUpdaterWorker = null;
+    // Mixpanel global object
+    public MixpanelAPI mMixpanelInstance = null;
 
     @Override
     protected void attachBaseContext(Context base) {
