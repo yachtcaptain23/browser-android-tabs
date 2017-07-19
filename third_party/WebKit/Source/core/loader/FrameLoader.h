@@ -134,7 +134,7 @@ class CORE_EXPORT FrameLoader final {
 
   void DidExplicitOpen();
 
-  String UserAgent() const;
+  String UserAgent(const std::string& strHost = "") const;
 
   void DispatchDidClearWindowObjectInMainWorld();
   void DispatchDidClearDocumentOfWindowObject();

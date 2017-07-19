@@ -629,7 +629,7 @@ void IOThread::Init() {
   globals_->host_mapping_rules.reset(new net::HostMappingRules());
   params_.host_mapping_rules = globals_->host_mapping_rules.get();
   globals_->http_user_agent_settings.reset(
-      new net::StaticHttpUserAgentSettings(std::string(), GetUserAgent()));
+      new net::StaticHttpUserAgentSettings(std::string(), GetUserAgent("")));
   if (command_line.HasSwitch(switches::kHostRules)) {
     TRACE_EVENT_BEGIN0("startup", "IOThread::InitAsync:SetRulesFromString");
     globals_->host_mapping_rules->SetRulesFromString(

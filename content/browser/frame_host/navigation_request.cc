@@ -147,20 +147,6 @@ void AddAdditionalRequestHeaders(net::HttpRequestHeaders* headers,
   if (GetContentClient()->browser()->IsDataSaverEnabled(browser_context))
     headers->SetHeaderIfMissing("Save-Data", "on");
 
-  headers->SetHeaderIfMissing(net::HttpRequestHeaders::kUserAgent,
-                              user_agent_override.empty()
-                                  ? GetContentClient()->GetUserAgent()
-                                  : user_agent_override);
-
-  // Check whether DevTools wants to override user agent for this request
-  // after setting the default user agent.
-  std::string devtools_user_agent =
-      RenderFrameDevToolsAgentHost::UserAgentOverride(frame_tree_node);
-  if (!devtools_user_agent.empty()) {
-    headers->SetHeader(net::HttpRequestHeaders::kUserAgent,
-                       devtools_user_agent);
-  }
-
   // Tack an 'Upgrade-Insecure-Requests' header to outgoing navigational
   // requests, as described in
   // https://w3c.github.io/webappsec/specs/upgrade/#feature-detect
@@ -181,6 +167,20 @@ void AddAdditionalRequestHeaders(net::HttpRequestHeaders* headers,
     // The origin should be the origin of the root, except for sandboxed
     // frames which have a unique origin.
     origin = frame_tree_node->frame_tree()->root()->current_origin();
+  }
+
+  headers->SetHeaderIfMissing(net::HttpRequestHeaders::kUserAgent,
+                              user_agent_override.empty()
+                                  ? GetContentClient()->GetUserAgent(origin.Serialize())
+                                  : user_agent_override);
+
+  // Check whether DevTools wants to override user agent for this request
+  // after setting the default user agent.
+  std::string devtools_user_agent =
+      RenderFrameDevToolsAgentHost::UserAgentOverride(frame_tree_node);
+  if (!devtools_user_agent.empty()) {
+    headers->SetHeader(net::HttpRequestHeaders::kUserAgent,
+                       devtools_user_agent);
   }
 
   headers->SetHeader(net::HttpRequestHeaders::kOrigin, origin.Serialize());

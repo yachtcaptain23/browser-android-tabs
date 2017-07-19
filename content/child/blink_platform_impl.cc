@@ -393,8 +393,8 @@ void BlinkPlatformImpl::UpdateWebThreadTLS(blink::WebThread* thread,
 BlinkPlatformImpl::~BlinkPlatformImpl() {
 }
 
-WebString BlinkPlatformImpl::UserAgent() {
-  return blink::WebString::FromUTF8(GetContentClient()->GetUserAgent());
+WebString BlinkPlatformImpl::UserAgent(const std::string& strHost) {
+  return blink::WebString::FromUTF8(GetContentClient()->GetUserAgent(strHost));
 }
 
 WebURLError BlinkPlatformImpl::CancelledError(

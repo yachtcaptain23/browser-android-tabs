@@ -75,7 +75,7 @@ void MediaPlayerRenderer::CreateMediaPlayer(
     const media::PipelineStatusCB& init_cb) {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
 
-  const std::string user_agent = GetContentClient()->GetUserAgent();
+  const std::string user_agent = GetContentClient()->GetUserAgent(url_params.first_party_for_cookies.host());
 
   media_player_.reset(new media::MediaPlayerBridge(
       kUnusedAndIrrelevantPlayerId, url_params.media_url,

@@ -142,7 +142,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
                                        const ResourceRequest&,
                                        const SubstituteData&,
                                        ClientRedirectPolicy) override;
-  WTF::String UserAgent() override;
+  WTF::String UserAgent(const std::string& strUrl) override;
   WTF::String DoNotTrackValue() override;
   void TransitionToCommittedForNewPage() override;
   LocalFrame* CreateFrame(const FrameLoadRequest&,
@@ -232,6 +232,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
   Member<WebLocalFrameImpl> web_frame_;
 
   String user_agent_;
+  std::string previous_url_;
 };
 
 DEFINE_TYPE_CASTS(LocalFrameClientImpl,

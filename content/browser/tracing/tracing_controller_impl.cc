@@ -834,7 +834,7 @@ TracingControllerImpl::GenerateTracingMetadataDict() const {
   metadata_dict->SetString("network-type", GetNetworkTypeString());
   metadata_dict->SetString("product-version", GetContentClient()->GetProduct());
   metadata_dict->SetString("v8-version", V8_VERSION_STRING);
-  metadata_dict->SetString("user-agent", GetContentClient()->GetUserAgent());
+  metadata_dict->SetString("user-agent", GetContentClient()->GetUserAgent(""));
 
   // OS
   metadata_dict->SetString("os-name", base::SysInfo::OperatingSystemName());
