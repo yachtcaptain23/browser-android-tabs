@@ -22,19 +22,22 @@ CONTENT_EXPORT std::string BuildOSCpuInfo();
 // Helper function to generate a full user agent string from a short
 // product name.
 CONTENT_EXPORT std::string BuildUserAgentFromProduct(
-    const std::string& product);
+    const std::string& product,
+    const std::string& strHost);
 
 // Helper function to generate a full user agent string given a short
 // product name and some extra text to be added to the OS info.
 CONTENT_EXPORT std::string BuildUserAgentFromProductAndExtraOSInfo(
         const std::string& product,
-        const std::string& extra_os_info);
+        const std::string& extra_os_info,
+        const std::string& strHost);
 
 // Builds a full user agent string given a string describing the OS and a
 // product name.
 CONTENT_EXPORT std::string BuildUserAgentFromOSAndProduct(
     const std::string& os_info,
-    const std::string& product);
+    const std::string& product,
+    const std::string& strHost);
 
 }  // namespace content
 

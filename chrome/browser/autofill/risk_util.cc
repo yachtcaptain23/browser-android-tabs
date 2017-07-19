@@ -87,7 +87,7 @@ void LoadRiskData(uint64_t obfuscated_gaia_id,
                        version_info::GetVersionNumber(), charset,
                        accept_languages, install_time,
                        g_browser_process->GetApplicationLocale(),
-                       GetUserAgent(), base::Bind(PassRiskData, callback));
+                       GetUserAgent(""), base::Bind(PassRiskData, callback));
 }
 
 }  // namespace autofill

@@ -42,7 +42,7 @@ void SetContentClient(ContentClient* client) {
   // TODO(jam): find out which static on Windows is causing this to have to be
   // called on startup.
   if (client)
-    client->GetUserAgent();
+    client->GetUserAgent("");
 }
 
 ContentClient* GetContentClient() {
@@ -81,7 +81,7 @@ std::string ContentClient::GetProduct() const {
   return std::string();
 }
 
-std::string ContentClient::GetUserAgent() const {
+std::string ContentClient::GetUserAgent(const std::string&) const {
   return std::string();
 }
 
