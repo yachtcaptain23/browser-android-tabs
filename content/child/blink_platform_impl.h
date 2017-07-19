@@ -78,7 +78,7 @@ class CONTENT_EXPORT BlinkPlatformImpl
 
   size_t MaxDecodedImageBytes() override;
   uint32_t GetUniqueIdForProcess() override;
-  blink::WebString UserAgent() override;
+  blink::WebString UserAgent(const std::string& strHost) override;
   blink::WebURLError CancelledError(const blink::WebURL& url) const override;
   std::unique_ptr<blink::WebThread> CreateThread(const char* name) override;
   blink::WebThread* CurrentThread() override;
