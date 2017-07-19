@@ -41,8 +41,7 @@ std::string ChromeHttpUserAgentSettings::GetAcceptLanguage() const {
   return last_http_accept_language_;
 }
 
-std::string ChromeHttpUserAgentSettings::GetUserAgent() const {
+std::string ChromeHttpUserAgentSettings::GetUserAgent(const std::string& strHost) const {
   DCHECK_CURRENTLY_ON(content::BrowserThread::IO);
-  return ::GetUserAgent();
+  return ::GetUserAgent(strHost);
 }
-

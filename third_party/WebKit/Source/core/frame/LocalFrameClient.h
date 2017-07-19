@@ -187,7 +187,7 @@ class CORE_EXPORT LocalFrameClient : public FrameClient {
                                                const SubstituteData&,
                                                ClientRedirectPolicy) = 0;
 
-  virtual String UserAgent() = 0;
+  virtual String UserAgent(const std::string& strUrl) = 0;
 
   virtual String DoNotTrackValue() = 0;
 
