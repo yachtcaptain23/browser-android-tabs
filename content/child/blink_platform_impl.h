@@ -77,7 +77,7 @@ class CONTENT_EXPORT BlinkPlatformImpl : public blink::Platform {
   size_t MaxDecodedImageBytes() override;
   bool IsLowEndDevice() override;
   uint32_t GetUniqueIdForProcess() override;
-  blink::WebString UserAgent() override;
+  blink::WebString UserAgent(const std::string& strHost) override;
   std::unique_ptr<blink::WebThread> CreateThread(const char* name) override;
   std::unique_ptr<blink::WebThread> CreateWebAudioThread() override;
   blink::WebThread* CurrentThread() override;

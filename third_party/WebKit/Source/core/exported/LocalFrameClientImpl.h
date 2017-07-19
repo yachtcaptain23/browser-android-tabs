@@ -156,7 +156,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
       const SubstituteData&,
       ClientRedirectPolicy,
       const base::UnguessableToken& devtools_navigation_token) override;
-  WTF::String UserAgent() override;
+  WTF::String UserAgent(const std::string& strUrl) override;
   WTF::String DoNotTrackValue() override;
   void TransitionToCommittedForNewPage() override;
   LocalFrame* CreateFrame(const WTF::AtomicString& name,

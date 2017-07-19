@@ -301,7 +301,7 @@ class CORE_EXPORT EmptyLocalFrameClient : public LocalFrameClient {
       ClientRedirectPolicy,
       const base::UnguessableToken& devtools_navigation_token) override;
 
-  String UserAgent() override { return ""; }
+  String UserAgent(const std::string&) override { return ""; }
 
   String DoNotTrackValue() override { return String(); }
 
