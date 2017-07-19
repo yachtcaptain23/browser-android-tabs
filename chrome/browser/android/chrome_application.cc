@@ -70,7 +70,7 @@ void RemoveSessionCookiesForProfile(Profile* profile) {
 static ScopedJavaLocalRef<jstring> GetBrowserUserAgent(
     JNIEnv* env,
     const JavaParamRef<jclass>& clazz) {
-  return ConvertUTF8ToJavaString(env, GetUserAgent());
+  return ConvertUTF8ToJavaString(env, GetUserAgent(""));
 }
 
 static void FlushPersistentData(JNIEnv* env, const JavaParamRef<jclass>& obj) {

@@ -59,7 +59,7 @@ std::unique_ptr<net::URLRequestContext> MakeURLRequestContext() {
     builder.set_host_resolver(std::move(remapped_host_resolver));
   }
   builder.set_accept_language("en-us,en");
-  builder.set_user_agent(GetContentClient()->GetUserAgent());
+  builder.set_user_agent(GetContentClient()->GetUserAgent(""));
   net::URLRequestContextBuilder::HttpCacheParams cache_params;
 
   // We store the cache in memory so we can run many shells in parallel when
