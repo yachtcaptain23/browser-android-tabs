@@ -157,7 +157,7 @@ void DevToolsServer::Start(bool allow_debug_permission) {
       std::move(factory),
       base::StringPrintf(kFrontEndURL, content::GetWebKitRevision().c_str()),
       base::FilePath(), base::FilePath(),
-      version_info::GetProductNameAndVersionForUserAgent(), ::GetUserAgent());
+      version_info::GetProductNameAndVersionForUserAgent(), ::GetUserAgent(""));
   is_started_ = true;
 }
 

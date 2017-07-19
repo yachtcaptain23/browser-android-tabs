@@ -302,7 +302,7 @@ class CORE_EXPORT EmptyLocalFrameClient : public LocalFrameClient {
                                        const SubstituteData&,
                                        ClientRedirectPolicy) override;
 
-  String UserAgent() override { return ""; }
+  String UserAgent(const std::string&) override { return ""; }
 
   String DoNotTrackValue() override { return String(); }
 
