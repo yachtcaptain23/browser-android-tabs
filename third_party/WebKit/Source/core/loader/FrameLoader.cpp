@@ -1143,8 +1143,8 @@ void FrameLoader::RestoreScrollPositionAndViewStateForLoadType(
   GetDocumentLoader()->GetInitialScrollState().did_restore_from_history = true;
 }
 
-String FrameLoader::UserAgent() const {
-  String user_agent = Client()->UserAgent();
+String FrameLoader::UserAgent(const std::string& strHost) const {
+  String user_agent = Client()->UserAgent(strHost);
   probe::applyUserAgentOverride(frame_, &user_agent);
   return user_agent;
 }
@@ -1485,7 +1485,9 @@ void FrameLoader::StartLoad(FrameLoadRequest& frame_load_request,
 }
 
 void FrameLoader::ApplyUserAgent(ResourceRequest& request) {
-  String user_agent = this->UserAgent();
+  String firstParty = request.FirstPartyForCookies().Host();
+  String url = request.Url().Host();
+  String user_agent = this->UserAgent(!firstParty.IsEmpty() ? firstParty.Utf8().Data() : url.Utf8().Data());
   DCHECK(!user_agent.IsNull());
   request.SetHTTPUserAgent(AtomicString(user_agent));
 }
