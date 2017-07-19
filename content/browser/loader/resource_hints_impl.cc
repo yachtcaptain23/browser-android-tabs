@@ -66,7 +66,7 @@ void PreconnectUrl(net::URLRequestContextGetter* getter,
 
   std::string user_agent;
   if (request_context->http_user_agent_settings())
-    user_agent = request_context->http_user_agent_settings()->GetUserAgent();
+    user_agent = request_context->http_user_agent_settings()->GetUserAgent(first_party_for_cookies.host());
   net::HttpRequestInfo request_info;
   request_info.url = url;
   request_info.method = "GET";
