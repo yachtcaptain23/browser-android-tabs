@@ -27,7 +27,7 @@ class ChromeHttpUserAgentSettings : public net::HttpUserAgentSettings {
 
   // net::HttpUserAgentSettings implementation
   std::string GetAcceptLanguage() const override;
-  std::string GetUserAgent() const override;
+  std::string GetUserAgent(const std::string& strHost) const override;
 
  private:
   StringPrefMember pref_accept_language_;
@@ -41,4 +41,3 @@ class ChromeHttpUserAgentSettings : public net::HttpUserAgentSettings {
 };
 
 #endif  // CHROME_BROWSER_NET_CHROME_HTTP_USER_AGENT_SETTINGS_H_
-
