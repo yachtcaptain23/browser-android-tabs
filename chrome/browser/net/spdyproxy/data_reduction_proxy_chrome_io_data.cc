@@ -103,7 +103,7 @@ CreateDataReductionProxyChromeIOData(
           new data_reduction_proxy::DataReductionProxyIOData(
               DataReductionProxyChromeSettings::GetClient(), prefs, net_log,
               content::GetNetworkConnectionTracker(), io_task_runner,
-              ui_task_runner, enabled, GetUserAgent(),
+              ui_task_runner, enabled, GetUserAgent(""),
               version_info::GetChannelString(chrome::GetChannel())));
 
   data_reduction_proxy_io_data->set_lofi_decider(

@@ -25,7 +25,8 @@ CONTENT_EXPORT std::string BuildOSCpuInfo(bool include_android_build_number);
 // Helper function to generate a full user agent string from a short
 // product name.
 CONTENT_EXPORT std::string BuildUserAgentFromProduct(
-    const std::string& product);
+    const std::string& product,
+    const std::string& strHost);
 
 #if defined(OS_ANDROID)
 // Helper function to generate a full user agent string given a short
@@ -34,14 +35,16 @@ CONTENT_EXPORT std::string BuildUserAgentFromProduct(
 CONTENT_EXPORT std::string BuildUserAgentFromProductAndExtraOSInfo(
     const std::string& product,
     const std::string& extra_os_info,
-    const bool include_android_build_number);
+    const bool include_android_build_number,
+    const std::string& strHost);
 #endif
 
 // Builds a full user agent string given a string describing the OS and a
 // product name.
 CONTENT_EXPORT std::string BuildUserAgentFromOSAndProduct(
     const std::string& os_info,
-    const std::string& product);
+    const std::string& product,
+    const std::string& strHost);
 
 }  // namespace content
 
