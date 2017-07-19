@@ -360,7 +360,7 @@ ChromeContentRendererClient::ChromeContentRendererClient()
     allowed_compositor_origins_.insert(kPredefinedAllowedCompositorOrigins[i]);
 #endif
 #if BUILDFLAG(ENABLE_PRINTING)
-  printing::SetAgent(GetUserAgent());
+  printing::SetAgent(GetUserAgent(""));
 #endif
 }
 
