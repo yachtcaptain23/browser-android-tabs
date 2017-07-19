@@ -95,7 +95,7 @@ std::unique_ptr<net::URLRequestContext> MakeURLRequestContext(
     builder.set_host_resolver(std::move(remapped_host_resolver));
   }
   builder.set_accept_language("en-us,en");
-  builder.set_user_agent(GetContentClient()->GetUserAgent());
+  builder.set_user_agent(GetContentClient()->GetUserAgent(""));
 
   if (command_line->HasSwitch(switches::kProxyServer)) {
     net::ProxyConfig config;
