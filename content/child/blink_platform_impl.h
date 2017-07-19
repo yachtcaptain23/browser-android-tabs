@@ -80,7 +80,7 @@ class CONTENT_EXPORT BlinkPlatformImpl : public blink::Platform {
   uint32_t GetUniqueIdForProcess() override;
   std::unique_ptr<blink::WebDataConsumerHandle> CreateDataConsumerHandle(
       mojo::ScopedDataPipeConsumerHandle handle) override;
-  blink::WebString UserAgent() override;
+  blink::WebString UserAgent(const std::string& strHost) override;
   std::unique_ptr<blink::WebThread> CreateThread(const char* name) override;
   std::unique_ptr<blink::WebThread> CreateWebAudioThread() override;
   blink::WebThread* CurrentThread() override;
