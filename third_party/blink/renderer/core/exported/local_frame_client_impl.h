@@ -163,7 +163,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
       const base::UnguessableToken& devtools_navigation_token,
       std::unique_ptr<WebDocumentLoader::ExtraData> extra_data,
       const WebNavigationTimings& navigation_timings) override;
-  WTF::String UserAgent() override;
+  WTF::String UserAgent(const std::string& strUrl) override;
   WTF::String DoNotTrackValue() override;
   void TransitionToCommittedForNewPage() override;
   LocalFrame* CreateFrame(const WTF::AtomicString& name,

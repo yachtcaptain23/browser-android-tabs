@@ -240,7 +240,7 @@ class CORE_EXPORT LocalFrameClient : public FrameClient {
       std::unique_ptr<WebDocumentLoader::ExtraData> extra_data,
       const WebNavigationTimings& navigation_timings) = 0;
 
-  virtual String UserAgent() = 0;
+  virtual String UserAgent(const std::string& strUrl) = 0;
 
   virtual String DoNotTrackValue() = 0;
 

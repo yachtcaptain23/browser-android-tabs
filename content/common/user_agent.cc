@@ -19,6 +19,10 @@
 #include <sys/utsname.h>
 #endif
 
+#define DUCK_DUCK_GO "duckduckgo.com"
+#define CHROME_UA "Chrome"
+#define BRAVE_UA "Brave Chrome"
+
 namespace content {
 
 std::string GetWebKitVersion() {
@@ -143,19 +147,21 @@ std::string getUserAgentPlatform() {
 #endif
 }
 
-std::string BuildUserAgentFromProduct(const std::string& product) {
+std::string BuildUserAgentFromProduct(const std::string& product, const std::string& strHost) {
   std::string os_info;
   base::StringAppendF(
       &os_info,
       "%s%s",
       getUserAgentPlatform().c_str(),
       BuildOSCpuInfo().c_str());
-  return BuildUserAgentFromOSAndProduct(os_info, product);
+
+  return BuildUserAgentFromOSAndProduct(os_info, product, strHost);
 }
 
 std::string BuildUserAgentFromProductAndExtraOSInfo(
     const std::string& product,
-    const std::string& extra_os_info) {
+    const std::string& extra_os_info,
+    const std::string& strHost) {
   std::string os_info;
   base::StringAppendF(
       &os_info,
@@ -163,11 +169,20 @@ std::string BuildUserAgentFromProductAndExtraOSInfo(
       getUserAgentPlatform().c_str(),
       BuildOSCpuInfo().c_str(),
       extra_os_info.c_str());
-  return BuildUserAgentFromOSAndProduct(os_info, product);
+  return BuildUserAgentFromOSAndProduct(os_info, product, strHost);
 }
 
 std::string BuildUserAgentFromOSAndProduct(const std::string& os_info,
-                                           const std::string& product) {
+                                           const std::string& product,
+                                           const std::string& strHost) {
+
+  std::string productToPass = product;
+  if (strHost == DUCK_DUCK_GO) {
+     int iPos = productToPass.find(CHROME_UA);
+     if (iPos != -1) {
+         productToPass.replace(iPos, strlen(CHROME_UA), BRAVE_UA);
+     }
+  }
   // Derived from Safari's UA string.
   // This is done to expose our product name in a manner that is maximally
   // compatible with Safari, we hope!!
@@ -178,9 +193,10 @@ std::string BuildUserAgentFromOSAndProduct(const std::string& os_info,
       os_info.c_str(),
       WEBKIT_VERSION_MAJOR,
       WEBKIT_VERSION_MINOR,
-      product.c_str(),
+      productToPass.c_str(),
       WEBKIT_VERSION_MAJOR,
       WEBKIT_VERSION_MINOR);
+
   return user_agent;
 }
 

@@ -301,7 +301,7 @@ class CORE_EXPORT EmptyLocalFrameClient : public LocalFrameClient {
       std::unique_ptr<WebDocumentLoader::ExtraData> extra_data,
       const WebNavigationTimings& navigation_timings) override;
 
-  String UserAgent() override { return ""; }
+  String UserAgent(const std::string&) override { return ""; }
 
   String DoNotTrackValue() override { return String(); }
 
