@@ -48,6 +48,7 @@
 #include "core/exported/WebPluginContainerImpl.h"
 #include "core/exported/WebViewImpl.h"
 #include "core/frame/LocalFrameView.h"
+#include "core/frame/ContentSettingsClient.h"
 #include "core/frame/Settings.h"
 #include "core/frame/WebLocalFrameImpl.h"
 #include "core/fullscreen/Fullscreen.h"
@@ -286,17 +287,17 @@ bool LocalFrameClientImpl::HasWebView() const {
 
 void LocalFrameClientImpl::DeniedScript()
 {
-  GetContentSettingsClient()->DeniedScript();
+  GetContentSettingsClient().DeniedScript();
 }
 
 bool LocalFrameClientImpl::AllowFingerprinting()
 {
-  return GetContentSettingsClient()->allowFingerprinting();
+  return GetContentSettingsClient().AllowFingerprinting();
 }
 
 void LocalFrameClientImpl::DeniedFingerprinting()
 {
-  GetContentSettingsClient()->DeniedFingerprinting();
+  GetContentSettingsClient().DeniedFingerprinting();
 }
 
 bool LocalFrameClientImpl::InShadowTree() const {
