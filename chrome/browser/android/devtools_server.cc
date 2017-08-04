@@ -154,9 +154,10 @@ void DevToolsServer::Start(bool allow_debug_permission) {
           base::Bind(&content::CanUserConnectToDevTools);
   std::unique_ptr<content::DevToolsSocketFactory> factory(
       new UnixDomainServerSocketFactory(socket_name_, auth_callback));
+  // Hardcode the correct revision to allow developer tools to work. Remove the hardcode on next rebase.
   DevToolsAgentHost::StartRemoteDebuggingServer(
       std::move(factory),
-      base::StringPrintf(kFrontEndURL, content::GetWebKitRevision().c_str()),
+      base::StringPrintf(kFrontEndURL, "@f901216ec1e383df23283fec9bc8f4e8b67aa0fb"),
       base::FilePath(), base::FilePath(),
       version_info::GetProductNameAndVersionForUserAgent(), ::GetUserAgent(""));
   is_started_ = true;
