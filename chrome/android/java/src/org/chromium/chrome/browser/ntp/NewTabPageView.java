@@ -5,6 +5,7 @@
 package org.chromium.chrome.browser.ntp;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
@@ -16,6 +17,7 @@ import android.widget.FrameLayout;
 
 import org.chromium.base.TraceEvent;
 import org.chromium.base.VisibleForTesting;
+import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.compositor.layouts.content.InvalidationAwareThumbnailProvider;
@@ -41,9 +43,45 @@ import org.chromium.chrome.browser.widget.displaystyle.UiConfig;
 public class NewTabPageView extends FrameLayout {
     private static final String TAG = "NewTabPageView";
 
+<<<<<<< HEAD
     private NewTabPageRecyclerView mRecyclerView;
 
     private NewTabPageLayout mNewTabPageLayout;
+=======
+    private static final long SNAP_SCROLL_DELAY_MS = 30;
+
+    /**
+     * Parameter for the simplified NTP ablation experiment arm which removes the additional
+     * suggestions sections without replacing them with shortcut buttons.
+     */
+    private static final String PARAM_SIMPLIFIED_NTP_ABLATION = "simplified_ntp_ablation";
+
+    private static final int SHADOW_COLOR = 0x11000000;
+
+    /*
+    * For Brave stats
+    */
+    private static final String PREF_TRACKERS_BLOCKED_COUNT = "trackers_blocked_count";
+    private static final String PREF_ADS_BLOCKED_COUNT = "ads_blocked_count";
+    private static final String PREF_HTTPS_UPGRADES_COUNT = "https_upgrades_count";
+    private static final short MILLISECONDS_PER_ITEM = 50;
+
+    //private NewTabPageRecyclerView mRecyclerView;
+    private NewTabPageScrollView mScrollView;
+
+    private NewTabPageLayout mNewTabPageLayout;
+    private ViewGroup mBraveStatsView;
+    private ImageView mBraveStatsShadow;
+    //private LogoView mSearchProviderLogoView;
+    private ViewGroup mSearchBoxView;
+    private ImageView mVoiceSearchButton;
+    private SiteSectionViewHolder mSiteSectionViewHolder;
+    private View mTileGridPlaceholder;
+    private View mNoSearchLogoSpacer;
+    private ViewGroup mShortcutsView;
+
+    private OnSearchBoxScrollListener mSearchBoxScrollListener;
+>>>>>>> ab7d51e1925... New Tab Page with Brave stats
 
     private NewTabPageManager mManager;
     private Tab mTab;
@@ -56,6 +94,7 @@ public class NewTabPageView extends FrameLayout {
     private int mSnapshotHeight;
     private int mSnapshotScrollY;
     private ContextMenuManager mContextMenuManager;
+    private SharedPreferences mSharedPreferences;
 
     /**
      * Manages the view interaction with the rest of the system.
@@ -115,6 +154,7 @@ public class NewTabPageView extends FrameLayout {
             boolean searchProviderHasLogo, boolean searchProviderIsGoogle, int scrollPosition) {
         TraceEvent.begin(TAG + ".initialize()");
         mTab = tab;
+        mSharedPreferences = ContextUtils.getAppSharedPreferences();
         mManager = manager;
         mUiConfig = new UiConfig(this);
 
@@ -173,6 +213,9 @@ public class NewTabPageView extends FrameLayout {
         OfflinePageBridge offlinePageBridge =
                 SuggestionsDependencyFactory.getInstance().getOfflinePageBridge(profile);
 
+        mBraveStatsView = (ViewGroup)mNewTabPageLayout.findViewById(R.id.brave_stats);
+        mBraveStatsShadow = (ImageView)mNewTabPageLayout.findViewById(R.id.brave_stats_shadow);
+
         mUpdateSearchBoxOnScrollRunnable = mNewTabPageLayout::updateSearchBoxOnScroll;
 
         initializeLayoutChangeListener();
@@ -219,6 +262,7 @@ public class NewTabPageView extends FrameLayout {
         });
 
         manager.addDestructionObserver(NewTabPageView.this::onDestroy);
+        initializeBraveStats();
 
         TraceEvent.end(TAG + ".initialize()");
     }
@@ -248,6 +292,85 @@ public class NewTabPageView extends FrameLayout {
         addOnLayoutChangeListener((v, left, top, right, bottom, oldLeft, oldTop, oldRight,
                                           oldBottom) -> { mSnapScrollHelper.handleScroll(); });
         TraceEvent.end(TAG + ".initializeLayoutChangeListener()");
+    }
+
+    /**
+     * Sets up Brave stats.
+     */
+    private void initializeBraveStats() {
+        TraceEvent.begin(TAG + ".initializeBraveStats()");
+        long trackersBlockedCount = mSharedPreferences.getLong(PREF_TRACKERS_BLOCKED_COUNT, 0);
+        long adsBlockedCount = mSharedPreferences.getLong(PREF_ADS_BLOCKED_COUNT, 0);
+        long httpsUpgradesCount = mSharedPreferences.getLong(PREF_HTTPS_UPGRADES_COUNT, 0);
+        long estimatedMillisecondsSaved = (trackersBlockedCount + adsBlockedCount) * MILLISECONDS_PER_ITEM;
+        TextView trackersBlockedCountTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_trackers_count);
+        TextView adsBlockedCountTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_ads_count);
+        TextView httpsUpgradesCountTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_https_count);
+        TextView estTimeSavedTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_time_count);
+        trackersBlockedCountTextView.setText(getBraveStatsStringFormNumber(trackersBlockedCount));
+        adsBlockedCountTextView.setText(getBraveStatsStringFormNumber(adsBlockedCount));
+        httpsUpgradesCountTextView.setText(getBraveStatsStringFormNumber(httpsUpgradesCount));
+        estTimeSavedTextView.setText(getBraveStatsStringFromTime(estimatedMillisecondsSaved / 1000));
+        TraceEvent.end(TAG + ".initializeBraveStats()");
+    }
+
+    /*
+    * Gets string view of specific number for Brave stats
+    */
+    private String getBraveStatsStringFormNumber(long number) {
+        String result = "";
+        String suffix = "";
+        if (number >= 1000 * 1000 * 1000) {
+            result = result + (number / (1000 * 1000 * 1000));
+            number = number % (1000 * 1000 * 1000);
+            result = result + "." + (number / (10 * 1000 * 1000));
+            suffix = "B";
+        }
+        else if (number >= (10 * 1000 * 1000) && number < (1000 * 1000 * 1000)) {
+            result = result + (number / (1000 * 1000));
+            suffix = "M";
+        }
+        else if (number >= (1000 * 1000) && number < (10 * 1000 * 1000)) {
+            result = result + (number / (1000 * 1000));
+            number = number % (1000 * 1000);
+            result = result + "." + (number / (100 * 1000));
+            suffix = "M";
+        }
+        else if (number >= (10 * 1000) && number < (1000 * 1000)) {
+            result = result + (number / 1000);
+            suffix = "K";
+        }
+        else if (number >= 1000 && number < (10* 1000)) {
+            result = result + (number / 1000);
+            number = number % 1000;
+            result = result + "." + (number / 100);
+            suffix = "K";
+        }
+        else {
+            result = result + number;
+        }
+        result = result + suffix;
+        return result;
+    }
+
+    /*
+    * Gets string view of specific time in seconds for Brave stats
+    */
+    private String getBraveStatsStringFromTime(long seconds) {
+        String result = "";
+        if (seconds > 24 * 60 * 60) {
+            result = result + (seconds / (24 * 60 * 60)) + "d";
+        }
+        else if (seconds > 60 * 60) {
+            result = result + (seconds / (60 * 60)) + "h";
+        }
+        else if (seconds > 60) {
+            result = result + (seconds / 60) + "m";
+        }
+        else {
+            result = result + seconds + "s";
+        }
+        return result;
     }
 
     @VisibleForTesting
