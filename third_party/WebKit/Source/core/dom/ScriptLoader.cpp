@@ -50,7 +50,6 @@
 #include "core/loader/SubresourceIntegrityHelper.h"
 #include "core/loader/modulescript/ModuleScriptFetchRequest.h"
 #include "core/svg_names.h"
-#include "core/loader/FrameLoaderClient.h"
 #include "core/frame/LocalFrameClient.h"
 #include "platform/WebFrameScheduler.h"
 #include "platform/loader/SubresourceIntegrity.h"
