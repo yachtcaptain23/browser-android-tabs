@@ -47,6 +47,7 @@
 #include "core/exported/WebPluginContainerImpl.h"
 #include "core/exported/WebViewBase.h"
 #include "core/frame/LocalFrameView.h"
+#include "core/frame/ContentSettingsClient.h"
 #include "core/frame/Settings.h"
 #include "core/frame/WebLocalFrameBase.h"
 #include "core/fullscreen/Fullscreen.h"
