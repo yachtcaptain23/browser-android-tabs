@@ -207,7 +207,7 @@ void ChromeContentUtilityClient::RegisterServices(
 #if BUILDFLAG(ENABLE_PRINTING)
   service_manager::EmbeddedServiceInfo pdf_compositor_info;
   pdf_compositor_info.factory = base::BindRepeating(
-      &printing::CreatePdfCompositorService, GetUserAgent());
+      &printing::CreatePdfCompositorService, GetUserAgent(""));
   services->emplace(printing::mojom::kServiceName, pdf_compositor_info);
 #endif
 
