@@ -2465,6 +2465,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
     @Deprecated
     public DiscardableReferencePool getReferencePool() {
         return mReferencePool;
+    }
 
     /**
      * Updates Bravery Panel counts
