@@ -3255,6 +3255,22 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       </message>
       <message name="IDS_BOTTOM_SHEET_HOME_TAB" desc="Accessibility string read when the home tab is selected.">
         Home tab selected
+      <!-- Brave stats -->
+      <message name="IDS_BRAVE_STATS_TEXT_TRACKERS" desc="Text for blocked trackers stats on new tab page.">
+        Trackers
+Blocked
+      </message>
+      <message name="IDS_BRAVE_STATS_TEXT_ADS" desc="Text for blocked ads stats on new tab page.">
+        Ads
+Blocked
+      </message>
+      <message name="IDS_BRAVE_STATS_TEXT_HTTPS" desc="Text for upgraded HTTPS stats on new tab page.">
+        HTTPS
+Upgrades
+      </message>
+      <message name="IDS_BRAVE_STATS_TEXT_TIME" desc="Text for extimated saved time stats on new tab page.">
+        Est. Time
+Saved
       </message>
     </messages>
   </release>
