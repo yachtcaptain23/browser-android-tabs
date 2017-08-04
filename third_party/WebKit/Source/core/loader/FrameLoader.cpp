@@ -1487,7 +1487,7 @@ void FrameLoader::StartLoad(FrameLoadRequest& frame_load_request,
 void FrameLoader::ApplyUserAgent(ResourceRequest& request) {
   String firstParty = request.FirstPartyForCookies().Host();
   String url = request.Url().Host();
-  String user_agent = this->UserAgent(!firstParty.IsEmpty() ? firstParty.Utf8().Data() : url.Utf8().Data());
+  String user_agent = this->UserAgent(!firstParty.IsEmpty() ? firstParty.Utf8().data() : url.Utf8().data());
   DCHECK(!user_agent.IsNull());
   request.SetHTTPUserAgent(AtomicString(user_agent));
 }
