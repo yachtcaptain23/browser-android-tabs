@@ -368,7 +368,8 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
   if (enable_tracking_protection_ && !shieldsSetExplicitly) {
     isTPEnabled = enable_tracking_protection_->GetValue();
   }
-  int adsAndTrackersBlocked = 0;
+  int adsBlocked = 0;
+  int trackersBlocked = 0;
   int httpsUpgrades = 0;
 	if (request
       && !firstPartyUrl
@@ -381,7 +382,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
 					request->url().host())
 				) {
 		block = true;
-    adsAndTrackersBlocked++;
+    trackersBlocked++;
 	}
   bool isAdBlockEnabled = true;
   if (enable_ad_block_ && !shieldsSetExplicitly) {
@@ -407,7 +408,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
 					(unsigned int)info->GetResourceType(),
           isAdBlockRegionalEnabled)) {
 		block = true;
-    adsAndTrackersBlocked++;
+    adsBlocked++;
 	}
   bool check_httpse_redirect = true;
   if (block && info && content::RESOURCE_TYPE_IMAGE == info->GetResourceType()) {
@@ -433,9 +434,10 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
     }
   }
   //
-  if (nullptr != shieldsConfig && (0 != adsAndTrackersBlocked || 0 != httpsUpgrades)) {
+  if (nullptr != shieldsConfig && (0 != trackersBlocked || 0 != adsBlocked || 0 != httpsUpgrades)) {
     shieldsConfig->setBlockedCountInfo(last_first_party_url_.spec()
-        , adsAndTrackersBlocked
+        , trackersBlocked
+        , adsBlocked
         , httpsUpgrades
         , 0
         , 0);
