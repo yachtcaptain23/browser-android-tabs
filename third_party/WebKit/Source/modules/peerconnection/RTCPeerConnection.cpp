@@ -507,7 +507,20 @@ RTCPeerConnection::RTCPeerConnection(ExecutionContext* context,
     return;
   }
 
-  peer_handler_ = Platform::Current()->CreateRTCPeerConnectionHandler(this);
+  LocalFrame* frame = document->GetFrame();
+  bool webRTCAllowed = true;
+  if (frame) {
+      webRTCAllowed = frame->Loader().Client()->AllowFingerprinting();
+      if (!webRTCAllowed) {
+          frame->Loader().Client()->DeniedFingerprinting();
+      }
+  }
+
+  if (!webRTCAllowed) {
+    LOG(WARNING) << "WebRTC is blocked";
+  }
+
+  peer_handler_ = webRTCAllowed ? Platform::Current()->CreateRTCPeerConnectionHandler(this) : nullptr;
   if (!peer_handler_) {
     closed_ = true;
     stopped_ = true;
