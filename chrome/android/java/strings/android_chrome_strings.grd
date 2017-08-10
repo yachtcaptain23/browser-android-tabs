@@ -538,36 +538,6 @@ CHAR-LIMIT guidelines:
       <message name="IDS_HTTPSE_TITLE" desc="Title for HTTPS Everywhere.">
         HTTPS Everywhere
       </message>
-      <message name="IDS_HTTPSE_SUMMARY" desc="Summary for HTTPS Everywhere.">
-        Opens supported sites using HTTPS instead of HTTP when possible
-      </message>
-      <message name="IDS_TRACKING_PROTECTION_TITLE" desc="Title for tracking protection.">
-        Tracking Protection Mode
-      </message>
-      <message name="IDS_TRACKING_PROTECTION_SUMMARY" desc="Summary for tracking protection.">
-        Prevents resources that track you from loading
-      </message>
-      <message name="IDS_AD_BLOCK_TITLE" desc="Title for ad block.">
-        Ad Block
-      </message>
-      <message name="IDS_AD_BLOCK_SUMMARY" desc="Summary for ad block.">
-        Prevents ads from loading
-      </message>
-      <message name="IDS_AD_BLOCK_REGIONAL_TITLE" desc="Title for regional ad block.">
-        Regional Ad Block
-      </message>
-      <message name="IDS_AD_BLOCK_REGIONAL_SUMMARY" desc="Summary for regional ad block.">
-        Prevents regional ads from loading
-      </message>
-      <message name="IDS_AD_BLOCK_REGIONAL_SUMMARY_NO_LIST" desc="Summary for regional ad block when no lists available.">
-        No additional lists available for your locale
-      </message>
-      <message name="IDS_FINGERPRINTING_PROTECTION_TITLE" desc="Title for fingerprinting protection.">
-        Fingerprinting Protection
-      </message>
-      <message name="IDS_FINGERPRINTING_PROTECTION_SUMMARY" desc="Summary for fingerprinting protection.">
-        Prevents browser from fingerprinting
-      </message>
       <message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
         Safe Browsing
       </message>
@@ -868,24 +838,6 @@ Your Google account may have other forms of browsing history like searches and a
       </message>
       <message name="IDS_WEBSITE_SETTINGS_ADD_SITE_SITE_URL" desc="The label for the input field where the user can type a website URL.">
         Site URL
-      </message>
-      <message name="IDS_SYNC_SETTINGS_ADD_DEVICE_NAME_LABEL" desc="The label for the input field where the user can type a sync device name.">
-        Enter an optional name for this device
-      </message>
-      <message name="IDS_SYNC_SETTINGS_ADD_DEVICE_NAME_TITLE" desc="The title for the dialog where the user can type a sync device name.">
-        Add device name
-      </message>
-      <message name="IDS_SYNC_EXAMPLE_DEVICE_NAME" desc="The hint for a sync device name field, showing an example device name.">
-        Android device
-      </message>
-      <message name="IDS_SYNC_DEVICE" desc="The title for the dialog where the user notified about sync setup result.">
-        Sync device
-      </message>
-      <message name="IDS_SYNC_DEVICE_SUCCESS" desc="The message for the dialog where the user notified about sync setup success.">
-        The sync setup has completed successfully
-      </message>
-      <message name="IDS_SYNC_DEVICE_FAILURE" desc="The message for the dialog where the user notified about sync setup failure.">
-        Sync could not be setup
       </message>
       <message name="IDS_EXAMPLE_URL" desc="The hint for a website url field, showing an example url.">
         www.example.com
@@ -1425,40 +1377,8 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_SYNC_BOOKMARKS" desc="Title for preference which enables sync'ing of bookmarks. [CHAR-LIMT=32]">
         Bookmarks
       </message>
-      <message name="IDS_BRAVE_SYNC" desc="Brave sync main screen message title.">
-        Brave Sync
-      </message>
-      <message name="IDS_BRAVE_SYNC_MESSAGE" desc="Brave sync main screen message.">
-        Sync browser data between your devices
-securely using Brave Sync, no account
-creation required. Tap below to get started.
-      </message>
-      <message name="IDS_BRAVE_SYNC_QRCODE" desc="Brave sync main screen QRCode message title.">
-        Sync to device
-      </message>
-      <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE" desc="Brave sync main screen QRCode message.">
-        Using existing synced device open Brave
-Settings and navigate to "Device &amp;
-Settings", tap `+` to add a new device and
-reveal sync code.
-      </message>
-      <message name="IDS_RESET_SYNC" desc="Button for reset sync. [CHAR-LIMT=32]">
-        Reset Sync...
-      </message>
-      <message name="IDS_RESETTING_SYNC" desc="Question about restting sync.">
-        Are you sure you want to reset this device Sync settings?
-      </message>
       <message name="IDS_NEW_TO_SYNC" desc="Button for new to sync button. [CHAR-LIMT=32]">
         I am new to sync
-      </message>
-      <message name="IDS_HAVE_EXISTING_SYNC_CODE" desc="Button for have existing sync code button. [CHAR-LIMT=32]">
-        I have an existing sync code
-      </message>
-      <message name="IDS_ENTER_CODE_WORDS_SYNC" desc="Button for enter code words. [CHAR-LIMT=32]">
-        Enter code words
-      </message>
-      <message name="IDS_ENTER_CODE_WORDS_BELOW_SYNC" desc="Message for enter code words. [CHAR-LIMT=32]">
-        Enter code words below.
       </message>
       <message name="IDS_SYNC_HISTORY" desc="Title for preference which enables sync'ing of history data. [CHAR-LIMT=32]">
         History
@@ -1793,44 +1713,6 @@ reveal sync code.
       </message>
       <message name="IDS_ACCESSIBILITY_CONTENT_VIEW" desc="Content description for the content view that holds the web contents [CHAR-LIMIT=30]">
         Web View
-      </message>
-
-      <!-- Brave panel strings -->
-      <message name="IDS_BRAVE_SETTINGS_TITLE" desc="Title for Brave's settings.">
-        Brave site shield settings for
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_DOWN" desc="Down Brave Shields.">
-        Down
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_UP" desc="Up Brave Shields.">
-        Up
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_ADS_TRACKERS" desc="Ads and Trackers blocked count.">
-        Ads and Trackers Blocked
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_HTTPS_UPGRADES" desc="HTTPS Upgrades.">
-        HTTPS Upgrades
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_SCRIPTS_BLOCKED" desc="Scripts Blocked.">
-        Scripts Blocked
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_FINGERPRINTS_BLOCKED" desc="Fingerprints Blocked.">
-        Fingerprinting Methods Blocked
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_ADS_TRACKING_SWITCH" desc="Switch for Block Ads and Tracking.">
-        Block Ads and Tracking
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_SWITCH" desc="Switch for HTTPS Everywhere.">
-        HTTPS Everywhere
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_BLOCK_SCRIPTS_SWITCH" desc="Switch for Block Scripts.">
-        Block Scripts
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
-        Block 3rd party cookies
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_BLOCK_FINGERPRINTS_SWITCH" desc="Switch for Block Fingerprints.">
-        Fingerprinting Protection
       </message>
 
       <!-- Runtime permission strings -->
@@ -2625,9 +2507,6 @@ reveal sync code.
       <message name="IDS_MENU_PREFERENCES" desc="Menu item for opening browser preferences. [CHAR-LIMIT=27]">
         Settings
       </message>
-      <message name="IDS_MENU_EXIT" desc="Menu item for exit browser. [CHAR-LIMIT=27]">
-        Exit
-      </message>
       <message name="IDS_MENU_CLOSE_ALL_TABS" desc="Menu item for closing all open tabs. [CHAR-LIMIT=27]">
         Close all tabs
       </message>
@@ -3334,6 +3213,135 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_BOTTOM_SHEET_HOME_TAB" desc="Accessibility string read when the home tab is selected.">
         Home tab selected
       </message>
+
+      <!-- Add Brave strings below -->
+      <!-- Brave panel strings -->
+      <message name="IDS_BRAVE_SETTINGS_TITLE" desc="Title for Brave's settings.">
+        Brave site shield settings for
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_DOWN" desc="Down Brave Shields.">
+        Down
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_UP" desc="Up Brave Shields.">
+        Up
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_ADS_TRACKERS" desc="Ads and Trackers blocked count.">
+        Ads and Trackers Blocked
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_HTTPS_UPGRADES" desc="HTTPS Upgrades.">
+        HTTPS Upgrades
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_SCRIPTS_BLOCKED" desc="Scripts Blocked.">
+        Scripts Blocked
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_ADS_TRACKING_SWITCH" desc="Switch for Block Ads and Tracking.">
+        Block Ads and Tracking
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_SWITCH" desc="Switch for HTTPS Everywhere.">
+        HTTPS Everywhere
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_BLOCKS_SCRIPTS_SWITCH" desc="Switch for Block Scripts.">
+        Block Scripts
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
+        Block 3rd party cookies
+      </message>
+
+      <message name="IDS_HTTPSE_SUMMARY" desc="Summary for HTTPS Everywhere.">
+        Opens supported sites using HTTPS instead of HTTP when possible
+      </message>
+      <message name="IDS_TRACKING_PROTECTION_TITLE" desc="Title for tracking protection.">
+        Tracking Protection Mode
+      </message>
+      <message name="IDS_TRACKING_PROTECTION_SUMMARY" desc="Summary for tracking protection.">
+        Prevents resources that track you from loading
+      </message>
+      <message name="IDS_AD_BLOCK_TITLE" desc="Title for ad block.">
+        Ad Block
+      </message>
+      <message name="IDS_AD_BLOCK_SUMMARY" desc="Summary for ad block.">
+        Prevents ads from loading
+      </message>
+
+      <message name="IDS_FINGERPRINTING_PROTECTION_TITLE" desc="Title for fingerprinting protection.">
+        Fingerprinting Protection
+      </message>
+      <message name="IDS_FINGERPRINTING_PROTECTION_SUMMARY" desc="Summary for fingerprinting protection.">
+        Prevents browser from fingerprinting
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_FINGERPRINTS_BLOCKED" desc="Fingerprints Blocked.">
+        Fingerprinting Methods Blocked
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_BLOCK_FINGERPRINTS_SWITCH" desc="Switch for Block Fingerprints.">
+        Fingerprinting Protection
+      </message>
+
+      <message name="IDS_AD_BLOCK_REGIONAL_TITLE" desc="Title for regional ad block.">
+        Regional Ad Block
+      </message>
+      <message name="IDS_AD_BLOCK_REGIONAL_SUMMARY" desc="Summary for regional ad block.">
+        Prevents regional ads from loading
+      </message>
+
+      <message name="IDS_AD_BLOCK_REGIONAL_SUMMARY_NO_LIST" desc="Summary for regional ad block when no lists available.">
+        No additional lists available for your locale
+      </message>
+
+      <message name="IDS_MENU_EXIT" desc="Menu item for exit browser. [CHAR-LIMIT=27]">
+        Exit
+      </message>
+
+      <message name="IDS_BRAVE_SYNC" desc="Brave sync main screen message title.">
+        Brave Sync
+      </message>
+      <message name="IDS_BRAVE_SYNC_DESCRIPTION" desc="Brave sync main screen message.">
+        Sync browser data between your devices
+securely using Brave Sync, no account
+creation required. Tap below to get started.
+      </message>
+      <message name="IDS_BRAVE_SYNC_HAVE_EXISTING_CODE" desc="Button for have existing sync code button. [CHAR-LIMT=32]">
+        I have an existing sync code
+      </message>
+      <message name="IDS_SYNC_SETTINGS_ADD_DEVICE_NAME_TITLE" desc="The title for the dialog where the user can type a sync device name.">
+        Add device name
+      </message>
+      <message name="IDS_SYNC_SETTINGS_ADD_DEVICE_NAME_LABEL" desc="The label for the input field where the user can type a sync device name.">
+        Enter an optional name for this device
+      </message>
+      <message name="IDS_SYNC_EXAMPLE_DEVICE_NAME" desc="The hint for a sync device name field, showing an example device name.">
+        Android device
+      </message>
+      <message name="IDS_BRAVE_SYNC_QRCODE" desc="Brave sync main screen QRCode message title.">
+        Sync to device
+      </message>
+      <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE" desc="Brave sync main screen QRCode message.">
+        Using existing synced device open Brave
+Settings and navigate to "Device &amp;
+Settings", tap `+` to add a new device and
+reveal sync code.
+      </message>
+      <message name="IDS_ENTER_CODE_WORDS_SYNC" desc="Button for enter code words. [CHAR-LIMT=32]">
+        Enter code words
+      </message>
+      <message name="IDS_ENTER_CODE_WORDS_BELOW_SYNC" desc="Message for enter code words. [CHAR-LIMT=32]">
+        Enter code words below.
+      </message>
+      <message name="IDS_SYNC_DEVICE" desc="The title for the dialog where the user notified about sync setup result.">
+        Sync device
+      </message>
+      <message name="IDS_SYNC_DEVICE_FAILURE" desc="The message for the dialog where the user notified about sync setup failure.">
+        Sync could not be setup
+      </message>
+      <message name="IDS_SYNC_DEVICE_SUCCESS" desc="The message for the dialog where the user notified about sync setup success.">
+        The sync setup has completed successfully
+      </message>
+      <message name="IDS_RESET_SYNC" desc="Button for reset sync. [CHAR-LIMT=32]">
+        Reset Sync...
+      </message>
+      <message name="IDS_RESETTING_SYNC" desc="Question about restting sync.">
+        Are you sure you want to reset this device Sync settings?
+      </message>
+
       <!-- Brave stats -->
       <message name="IDS_BRAVE_STATS_TEXT_TRACKERS" desc="Text for blocked trackers stats on new tab page.">
         Trackers
