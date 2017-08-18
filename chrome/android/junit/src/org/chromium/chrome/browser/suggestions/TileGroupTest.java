@@ -56,7 +56,8 @@ import java.util.List;
  * Unit tests for {@link TileGroup}.
  */
 @RunWith(LocalRobolectricTestRunner.class)
-@Config(manifest = Config.NONE)
+// Set packageName to get resources from it (org.chromium.chrome.R)
+@Config(manifest = Config.NONE, packageName = "org.chromium.chrome")
 @Features({@Features.Register(ChromeFeatureList.NTP_OFFLINE_PAGES_FEATURE_NAME),
         @Features.Register(ChromeFeatureList.SUGGESTIONS_HOME_MODERN_LAYOUT)})
 public class TileGroupTest {
