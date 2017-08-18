@@ -56,7 +56,7 @@ TestContentClient::TestContentClient() {
 TestContentClient::~TestContentClient() {
 }
 
-std::string TestContentClient::GetUserAgent() const {
+std::string TestContentClient::GetUserAgent(const std::string& strHost) const {
   return std::string("TestContentClient");
 }
 
