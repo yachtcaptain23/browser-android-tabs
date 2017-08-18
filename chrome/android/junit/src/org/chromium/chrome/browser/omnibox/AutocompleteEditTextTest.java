@@ -36,7 +36,8 @@ import org.chromium.testing.local.LocalRobolectricTestRunner;
  * TODO(changwan): switch to ParameterizedRobolectricTest once crbug.com/733324 is fixed.
  */
 @RunWith(LocalRobolectricTestRunner.class)
-@Config(manifest = Config.NONE)
+//samartnik: set packageName to get resources from it (org.chromium.chrome.R)
+@Config(manifest = Config.NONE, packageName = "org.chromium.chrome")
 public class AutocompleteEditTextTest {
     private static final String TAG = "cr_AutocompleteTest";
 
