@@ -32,6 +32,7 @@ import org.chromium.base.test.util.Feature;
 import org.chromium.base.test.util.RetryOnFailure;
 import org.chromium.base.test.util.UrlUtils;
 import org.chromium.base.test.util.parameter.CommandLineParameter;
+import org.chromium.base.test.util.DisabledTest;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
@@ -124,6 +125,7 @@ public class ArticleSnippetsTest {
     private MockThumbnailProvider mThumbnailProvider;
 
     @Test
+    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @DisabledTest(message = "crbug.com/757735")
     @Feature({"ArticleSnippets", "RenderTest"})
