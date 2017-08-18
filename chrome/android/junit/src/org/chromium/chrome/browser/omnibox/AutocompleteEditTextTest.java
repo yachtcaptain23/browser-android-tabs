@@ -32,7 +32,8 @@ import org.chromium.testing.local.LocalRobolectricTestRunner;
  * A robolectric test for {@link AutocompleteEditText} class.
  */
 @RunWith(LocalRobolectricTestRunner.class)
-@Config(manifest = Config.NONE)
+//samartnik: set packageName to get resources from it (org.chromium.chrome.R)
+@Config(manifest = Config.NONE, packageName = "org.chromium.chrome")
 public class AutocompleteEditTextTest {
     private static final String TAG = "cr_AutocompleteEdit";
     private static final boolean DEBUG = false;
