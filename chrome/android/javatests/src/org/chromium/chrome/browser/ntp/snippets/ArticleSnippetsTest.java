@@ -23,6 +23,7 @@ import org.chromium.base.ThreadUtils;
 import org.chromium.base.test.util.CommandLineFlags;
 import org.chromium.base.test.util.Feature;
 import org.chromium.base.test.util.RetryOnFailure;
+import org.chromium.base.test.util.DisabledTest;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeSwitches;
@@ -74,6 +75,7 @@ public class ArticleSnippetsTest {
     private UiConfig mUiConfig;
 
     @Test
+    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @Feature({"ArticleSnippets", "RenderTest"})
     @RetryOnFailure

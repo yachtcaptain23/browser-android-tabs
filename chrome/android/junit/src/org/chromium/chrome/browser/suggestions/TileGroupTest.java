@@ -49,7 +49,8 @@ import org.chromium.testing.local.LocalRobolectricTestRunner;
  * Unit tests for {@link TileGroup}.
  */
 @RunWith(LocalRobolectricTestRunner.class)
-@Config(manifest = Config.NONE)
+//samartnik: set packageName to get resources from it (org.chromium.chrome.R)
+@Config(manifest = Config.NONE, packageName = "org.chromium.chrome")
 @Features(@Features.Register(ChromeFeatureList.NTP_OFFLINE_PAGES_FEATURE_NAME))
 public class TileGroupTest {
     private static final int MAX_TILES_TO_FETCH = 4;

@@ -196,7 +196,7 @@ TestBlinkWebUnitTestSupport::CreateURLLoader() {
   return url_loader_factory_->CreateURLLoader(std::move(default_loader));
 }
 
-blink::WebString TestBlinkWebUnitTestSupport::UserAgent() {
+blink::WebString TestBlinkWebUnitTestSupport::UserAgent(const std::string& strHost) {
   return blink::WebString::FromUTF8("test_runner/0.0.0.0");
 }
 

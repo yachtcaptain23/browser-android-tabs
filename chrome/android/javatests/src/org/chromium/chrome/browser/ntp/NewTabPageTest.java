@@ -116,10 +116,11 @@ public class NewTabPageTest {
     }
 
     @Test
+    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @Feature({"NewTabPage", "RenderTest"})
     public void testRender() throws IOException {
-        ViewRenderer viewRenderer = new ViewRenderer(mActivityTestRule.getActivity(),
+        /*ViewRenderer viewRenderer = new ViewRenderer(mActivityTestRule.getActivity(),
                 "chrome/test/data/android/render_tests", "NewTabPageTest");
         viewRenderer.renderAndCompare(mTileGridLayout, "most_visited");
         viewRenderer.renderAndCompare(mFakebox, "fakebox");
@@ -142,14 +143,15 @@ public class NewTabPageTest {
             }
         });
 
-        viewRenderer.renderAndCompare(mNtp.getView().getRootView(), "new_tab_page_scrolled");
+        viewRenderer.renderAndCompare(mNtp.getView().getRootView(), "new_tab_page_scrolled");*/
     }
 
     @Test
+    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @Feature({"NewTabPage"})
     public void testThumbnailInvalidations() throws Throwable {
-        mActivityTestRule.runOnUiThread(new Runnable() {
+        /*mActivityTestRule.runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 captureThumbnail();
@@ -182,7 +184,7 @@ public class NewTabPageTest {
                 recyclerView.getAdapter().notifyItemRemoved(0);
                 assertThumbnailInvalidAndRecapture();
             }
-        });
+        });*/
     }
 
     /**
