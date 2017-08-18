@@ -130,11 +130,12 @@ public class NewTabPageTest {
     }
 
     @Test
+    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @Feature({"NewTabPage", "RenderTest"})
     @CommandLineFlags.Add("disable-features=NTPCondensedLayout")
     public void testRender() throws IOException {
-        mActivityTestRule.getInstrumentation().waitForIdleSync();
+        /*mActivityTestRule.getInstrumentation().waitForIdleSync();
         mRenderTestRule.render(mTileGridLayout, "most_visited");
         mRenderTestRule.render(mFakebox, "fakebox");
         mRenderTestRule.render(mNtp.getView().getRootView(), "new_tab_page");
@@ -156,14 +157,15 @@ public class NewTabPageTest {
             }
         });
 
-        mRenderTestRule.render(mNtp.getView().getRootView(), "new_tab_page_scrolled");
+        mRenderTestRule.render(mNtp.getView().getRootView(), "new_tab_page_scrolled");*/
     }
 
     @Test
+    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @Feature({"NewTabPage"})
     public void testThumbnailInvalidations() throws Throwable {
-        mActivityTestRule.runOnUiThread(new Runnable() {
+        /*mActivityTestRule.runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 captureThumbnail();
@@ -196,7 +198,7 @@ public class NewTabPageTest {
                 recyclerView.getAdapter().notifyItemRemoved(0);
                 assertThumbnailInvalidAndRecapture();
             }
-        });
+        });*/
     }
 
     /**
