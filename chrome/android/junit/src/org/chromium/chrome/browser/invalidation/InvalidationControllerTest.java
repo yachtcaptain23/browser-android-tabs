@@ -395,6 +395,10 @@ public class InvalidationControllerTest {
     @Test
     @Feature({"Sync"})
     public void testDisableSessionInvalidationsOnResume() {
+        //skip this test if sync is disabled
+        if (!AndroidSyncSettings.isSyncEnabled(mContext)) {
+          return;
+        }
         InvalidationController controller = new InvalidationController(mActivity, true);
         controller.ensureStartedAndUpdateRegisteredTypes();
         Assert.assertEquals(mNonSessionTypes, getRegisterIntentRegisterTypes(getOnlyIntent()));
@@ -420,6 +424,10 @@ public class InvalidationControllerTest {
     @Test
     @Feature({"Sync"})
     public void testPauseAndResumeMainActivity() throws Exception {
+        //skip this test if sync is disabled
+        if (!AndroidSyncSettings.isSyncEnabled(mContext)) {
+          return;
+        }
         InvalidationController controller = new InvalidationController(mActivity, true);
         controller.ensureStartedAndUpdateRegisteredTypes();
         Assert.assertEquals(mNonSessionTypes, getRegisterIntentRegisterTypes(getOnlyIntent()));
