@@ -93,7 +93,7 @@ entries = {
   'src/tools/gyp': 'https://chromium.googlesource.com/external/gyp.git@eb296f67da078ec01f5e3a9ea9cdc6d26d680161',
   'src/tools/page_cycler/acid3': 'https://chromium.googlesource.com/chromium/deps/acid3.git@6be0a66a1ebd7ebc5abc1b2f405a945f6d871521',
   'src/tools/swarming_client': 'https://chromium.googlesource.com/external/swarming.client.git@a941a089ff1000403078b74cb628eb430f07d271',
-  'src/v8': 'https://chromium.googlesource.com/v8/v8.git@1afc2928674b408d7811b067a229c8331edea745',
+  'src/v8': 'https://chromium.googlesource.com/v8/v8.git@b4ae43007d5bac713b0326cc4c5d33844ebc390f',
   'src/buildtools/clang_format/script': 'https://chromium.googlesource.com/chromium/llvm-project/cfe/tools/clang-format.git@c09c8deeac31f05bd801995c475e7c8070f9ecda',
   'src/buildtools/third_party/libc++/trunk': 'https://chromium.googlesource.com/chromium/llvm-project/libcxx.git@3a07dd740be63878167a0ea19fe81869954badd7',
   'src/buildtools/third_party/libc++abi/trunk': 'https://chromium.googlesource.com/chromium/llvm-project/libcxxabi.git@4072e8fd76febee37f60aeda76d6d9f5e3791daa',
