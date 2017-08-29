@@ -1397,12 +1397,14 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         if (null != app) {
             //app.mBraveSyncWorker = new BraveSyncWorker(this);
             app.mStatsUpdaterWorker = new StatsUpdaterWorker(this);
-            /*if (!ConfigAPIs.MIXPANEL_TOKEN.isEmpty()) {
+            if (!ConfigAPIs.MIXPANEL_TOKEN.isEmpty()) {
                 app.mMixpanelInstance = MixpanelAPI.getInstance(getApplicationContext(), ConfigAPIs.MIXPANEL_TOKEN);
             } else {
                 Log.i("ChromeActivity", "MixPanel is not activated");
-            }*/
-            //MixPanelWorker.SendEvent("MainActivity - onCreate called", "start", "open");
+            }
+            MixPanelWorker.SendBraveAppStartEvent(PrefServiceBridge.getInstance().isHTTPSEEnabled(), PrefServiceBridge.getInstance().isTrackingProtectionEnabled(),
+            PrefServiceBridge.getInstance().isAdBlockEnabled(), PrefServiceBridge.getInstance().isAdBlockRegionalEnabled(),
+            PrefServiceBridge.getInstance().isFingerprintingProtectionEnabled());
         }
     }
 
@@ -2134,6 +2136,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             RecordUserAction.record("MobileMenuHistory");
             HistoryManagerUtils.showHistoryManager(this, currentTab);
             StartupMetrics.getInstance().recordOpenedHistory();
+            MixPanelWorker.SendEvent("History Opened");
         } else if (id == R.id.share_menu_id || id == R.id.direct_share_menu_id) {
             onShareMenuItemSelected(id == R.id.direct_share_menu_id,
                     getCurrentTabModel().isIncognito());
