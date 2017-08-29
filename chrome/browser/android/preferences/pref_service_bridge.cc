@@ -361,10 +361,20 @@ static void SetFingerprintingProtectionEnabled(JNIEnv* env,
   GetPrefService()->SetBoolean(prefs::kFingerprintingProtectionEnabled, enabled);
 }
 
+static jboolean GetFingerprintingProtectionEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kFingerprintingProtectionEnabled);
+}
+
 static void SetHTTPSEEnabled(JNIEnv* env,
                                    const JavaParamRef<jobject>& obj,
                                    jboolean enabled) {
    GetPrefService()->SetBoolean(prefs::kHTTPSEEnabled, enabled);
+}
+
+static jboolean GetHTTPSEEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kHTTPSEEnabled);
 }
 
 static void SetAdBlockEnabled(JNIEnv* env,
@@ -373,16 +383,31 @@ static void SetAdBlockEnabled(JNIEnv* env,
    GetPrefService()->SetBoolean(prefs::kAdBlockEnabled, enabled);
 }
 
+static jboolean GetAdBlockEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kAdBlockEnabled);
+}
+
 static void SetAdBlockRegionalEnabled(JNIEnv* env,
                                    const JavaParamRef<jobject>& obj,
                                    jboolean enabled) {
    GetPrefService()->SetBoolean(prefs::kAdBlockRegionalEnabled, enabled);
 }
 
+static jboolean GetAdBlockRegionalEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kAdBlockRegionalEnabled);
+}
+
 static void SetTrackingProtectionEnabled(JNIEnv* env,
                                    const JavaParamRef<jobject>& obj,
                                    jboolean enabled) {
    GetPrefService()->SetBoolean(prefs::kTrackingProtectionEnabled, enabled);
+}
+
+static jboolean GetTrackingProtectionEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kTrackingProtectionEnabled);
 }
 
 static jboolean GetSafeBrowsingManaged(JNIEnv* env,
