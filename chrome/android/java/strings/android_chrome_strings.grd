@@ -3284,6 +3284,9 @@ Upgrades
         Est. Time
 Saved
       </message>
+      <message name="IDS_SEND_METRICS_TITLE" desc="Text for 'Send metrics' menu item.">
+        Send metrics
+      </message>
     </messages>
   </release>
 </grit>
