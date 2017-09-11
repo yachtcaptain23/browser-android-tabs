@@ -31,7 +31,7 @@ class EmbeddedSharedWorkerContentSettingsClientProxy
   bool RequestFileSystemAccessSync() override;
   bool AllowIndexedDB(const blink::WebString& name,
                       const blink::WebSecurityOrigin&) override;
-
+  bool AllowFingerprinting() override;
  private:
   const GURL origin_url_;
   const bool is_unique_origin_;

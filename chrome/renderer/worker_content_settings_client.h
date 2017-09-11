@@ -33,7 +33,7 @@ class WorkerContentSettingsClient : public blink::WebContentSettingsClient {
   bool RequestFileSystemAccessSync() override;
   bool AllowIndexedDB(const blink::WebString& name,
                       const blink::WebSecurityOrigin&) override;
-
+  bool AllowFingerprinting() override;
  private:
   // Loading document context for this worker.
   const int routing_id_;

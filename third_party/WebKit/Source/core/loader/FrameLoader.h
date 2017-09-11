@@ -214,6 +214,9 @@ class CORE_EXPORT FrameLoader final {
 
   void DetachProvisionalDocumentLoader(DocumentLoader*);
 
+  // We need it public for fingerprinting protection
+  LocalFrameClient* Client() const;
+
   DECLARE_TRACE();
 
   static void SetReferrerForFrameRequest(FrameLoadRequest&);
@@ -263,8 +266,6 @@ class CORE_EXPORT FrameLoader final {
                                        const FrameLoadRequest&,
                                        FrameLoadType,
                                        NavigationType);
-
-  LocalFrameClient* Client() const;
 
   Member<LocalFrame> frame_;
   AtomicString required_csp_;
