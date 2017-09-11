@@ -37,6 +37,7 @@ class WorkerContentSettingsClient : public blink::WebContentSettingsClient {
                                    const blink::WebSecurityOrigin& context,
                                    const blink::WebURL& url) override;
 
+  bool AllowFingerprinting() override;
  private:
   // Loading document context for this worker.
   const int routing_id_;
