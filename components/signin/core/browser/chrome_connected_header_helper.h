@@ -24,7 +24,7 @@ class ChromeConnectedHeaderHelper : public SigninHeaderHelper {
   static std::string BuildRequestCookieIfPossible(
       const GURL& url,
       const std::string& account_id,
-      const content_settings::CookieSettings* cookie_settings,
+      content_settings::CookieSettings* cookie_settings,
       int profile_mode_mask);
 
   // Returns the parameters contained in the X-Chrome-Manage-Accounts response

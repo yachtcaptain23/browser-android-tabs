@@ -68,3 +68,7 @@ bool WorkerContentSettingsClient::AllowRunningInsecureContent(
 
   return true;
 }
+
+bool WorkerContentSettingsClient::AllowFingerprinting() {
+    return true;
+};
