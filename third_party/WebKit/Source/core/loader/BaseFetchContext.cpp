@@ -226,8 +226,6 @@ ResourceRequestBlockedReason BaseFetchContext::CanRequestInternal(
 
   if (type == Resource::kScript || type == Resource::kImportResource) {
     if (!AllowScriptFromSource(url)) {
-      // We can pass an url in the future to get an exact URL of blocked script
-      GetContentSettingsClient()->DeniedScript();
       // TODO(estark): Use a different ResourceRequestBlockedReason here, since
       // this check has nothing to do with CSP. https://crbug.com/600795
       return ResourceRequestBlockedReason::kCSP;
