@@ -757,7 +757,7 @@ void IOThread::ConstructSystemRequestContext() {
   builder->set_network_quality_estimator(
       globals_->network_quality_estimator.get());
 
-  builder->set_user_agent(GetUserAgent());
+  builder->set_user_agent(GetUserAgent(""));
   std::unique_ptr<ChromeNetworkDelegate> chrome_network_delegate(
       new ChromeNetworkDelegate(extension_event_router_forwarder(),
                                 &system_enable_referrers_));

@@ -69,7 +69,7 @@ KeyedService* PrefetchServiceFactory::BuildServiceInstanceFor(
 
   auto prefetch_network_request_factory =
       base::MakeUnique<PrefetchNetworkRequestFactoryImpl>(
-          profile->GetRequestContext(), chrome::GetChannel(), GetUserAgent());
+          profile->GetRequestContext(), chrome::GetChannel(), GetUserAgent(""));
 
   scoped_refptr<base::SequencedTaskRunner> background_task_runner =
       base::CreateSequencedTaskRunnerWithTraits({base::MayBlock()});
