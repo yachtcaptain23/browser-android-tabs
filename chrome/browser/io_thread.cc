@@ -781,7 +781,7 @@ void IOThread::ConstructSystemRequestContext() {
   builder->set_network_quality_estimator(
       globals_->network_quality_estimator.get());
 
-  builder->set_user_agent(GetUserAgent());
+  builder->set_user_agent(GetUserAgent(""));
   auto chrome_network_delegate = std::make_unique<ChromeNetworkDelegate>(
       extension_event_router_forwarder(), &system_enable_referrers_);
   // By default, data usage is considered off the record.

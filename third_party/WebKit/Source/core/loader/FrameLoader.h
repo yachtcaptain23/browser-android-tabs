@@ -219,6 +219,8 @@ class CORE_EXPORT FrameLoader final {
   void DetachProvisionalDocumentLoader(DocumentLoader*);
 
   void Trace(blink::Visitor*);
+  // We need it public for fingerprinting protection
+  LocalFrameClient* Client() const;
 
   static void SetReferrerForFrameRequest(FrameLoadRequest&);
 
@@ -271,8 +273,6 @@ class CORE_EXPORT FrameLoader final {
       FrameLoadType,
       NavigationType,
       const base::UnguessableToken& devtools_navigation_token);
-
-  LocalFrameClient* Client() const;
 
   Member<LocalFrame> frame_;
   AtomicString required_csp_;
