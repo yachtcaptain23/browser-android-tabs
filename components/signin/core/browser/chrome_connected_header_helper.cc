@@ -53,7 +53,7 @@ GAIAServiceType GetGAIAServiceTypeFromHeader(const std::string& header_value) {
 std::string ChromeConnectedHeaderHelper::BuildRequestCookieIfPossible(
     const GURL& url,
     const std::string& account_id,
-    const content_settings::CookieSettings* cookie_settings,
+    content_settings::CookieSettings* cookie_settings,
     int profile_mode_mask) {
   ChromeConnectedHeaderHelper chrome_connected_helper;
   if (!chrome_connected_helper.ShouldBuildRequestHeader(url, cookie_settings))
