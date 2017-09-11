@@ -331,7 +331,7 @@ void OfflineInternalsUIMessageHandler::HandleGeneratePageBundle(
 
   generate_page_bundle_request_.reset(
       new offline_pages::GeneratePageBundleRequest(
-          GetUserAgent(), "GCM ID", 1000000, page_urls, chrome::GetChannel(),
+          GetUserAgent(""), "GCM ID", 1000000, page_urls, chrome::GetChannel(),
           Profile::FromWebUI(web_ui())->GetRequestContext(),
           base::Bind(
               &OfflineInternalsUIMessageHandler::HandlePrefetchRequestCallback,

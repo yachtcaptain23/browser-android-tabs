@@ -2082,7 +2082,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
 
         final Tab currentTab = getActivityTab();
 
-        if (id == R.id.help_id) {
+        /*if (id == R.id.help_id) {
             String url = currentTab != null
                     ? currentTab.getUrl()
                     : getBottomSheet() != null && mBottomSheet.isShowingNewTab()
@@ -2093,7 +2093,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                     : Profile.getLastUsedProfile().getOriginalProfile();
             startHelpAndFeedback(url, "MobileMenuFeedback", profile);
             return true;
-        }
+        }*/
 
         // All the code below assumes currentTab is not null, so return early if it is null.
         if (currentTab == null) {

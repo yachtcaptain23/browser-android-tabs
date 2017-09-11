@@ -367,8 +367,8 @@ BlinkPlatformImpl::CreateDataConsumerHandle(
   return base::MakeUnique<WebDataConsumerHandleImpl>(std::move(handle));
 }
 
-WebString BlinkPlatformImpl::UserAgent() {
-  return blink::WebString::FromUTF8(GetContentClient()->GetUserAgent());
+WebString BlinkPlatformImpl::UserAgent(const std::string& strHost) {
+  return blink::WebString::FromUTF8(GetContentClient()->GetUserAgent(strHost));
 }
 
 std::unique_ptr<blink::WebThread> BlinkPlatformImpl::CreateThread(

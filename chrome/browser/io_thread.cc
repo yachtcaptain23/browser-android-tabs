@@ -772,7 +772,7 @@ void IOThread::ConstructSystemRequestContext() {
   builder->set_enable_brotli(globals_->enable_brotli);
   builder->set_name("system");
 
-  builder->set_user_agent(GetUserAgent());
+  builder->set_user_agent(GetUserAgent(""));
   std::unique_ptr<ChromeNetworkDelegate> chrome_network_delegate(
       new ChromeNetworkDelegate(extension_event_router_forwarder(),
                                 &system_enable_referrers_));
