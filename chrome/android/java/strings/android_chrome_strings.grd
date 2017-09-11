@@ -3234,6 +3234,18 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       </message>
 
       <!-- Add Brave strings below -->
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_SHIELDS" desc="Content description for the button that is enable, disable Brave Shields.">
+        Enable/Disable Brave Shields
+      </message>
+      <message name="IDS_HTTPSE_TITLE" desc="Title for HTTPS Everywhere.">
+        HTTPS Everywhere
+      </message>
+      <message name="IDS_NEW_TO_SYNC" desc="Button for new to sync button. [CHAR-LIMT=32]">
+        I am new to sync
+      </message>
+      <message name="IDS_BRAVE_VERSION_NUMBER" desc="Message showing Brave's version and chromium version">
+        Brave <ph name="VERSION">%1$s<ex>1.0.0</ex></ph>, Chromium <ph name="VERSION_CHROMIUM">%2$s<ex>40.0.2214.67</ex></ph>
+      </message>
       <!-- Brave panel strings -->
       <message name="IDS_BRAVE_SETTINGS_TITLE" desc="Title for Brave's settings.">
         Brave site shield settings for
