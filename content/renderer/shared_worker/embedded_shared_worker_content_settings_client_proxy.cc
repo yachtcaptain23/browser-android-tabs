@@ -49,4 +49,8 @@ bool EmbeddedSharedWorkerContentSettingsClientProxy::AllowIndexedDB(
   return result;
 }
 
+bool EmbeddedSharedWorkerContentSettingsClientProxy::AllowFingerprinting() {
+    return true;
+};
+
 }  // namespace content

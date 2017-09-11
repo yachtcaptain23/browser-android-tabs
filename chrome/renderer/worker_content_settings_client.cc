@@ -52,3 +52,7 @@ bool WorkerContentSettingsClient::AllowIndexedDB(
       &result));
   return result;
 }
+
+bool WorkerContentSettingsClient::AllowFingerprinting() {
+    return true;
+};

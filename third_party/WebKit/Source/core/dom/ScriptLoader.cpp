@@ -313,7 +313,7 @@ bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
   // 10. "If scripting is disabled for the script element, then abort these
   //      steps at this point. The script is not executed."
   if (!context_document->CanExecuteScripts(kAboutToExecuteScript)) {
-    if (0 != ScriptContent().length()) {
+    if (0 != element_->TextFromChildren().length()) {
         LocalFrame* frame = context_document->GetFrame();;
         if (frame) {
             frame->Loader().Client()->DeniedScript();
