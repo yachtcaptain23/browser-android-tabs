@@ -2211,7 +2211,7 @@ void HostResolverImpl::SetDnsClientEnabled(bool enabled) {
 //  } else if (!enabled && dns_client_) {
 //    SetDnsClient(std::unique_ptr<DnsClient>());
 //  }
-#endif
+//#endif
 }
 
 HostCache* HostResolverImpl::GetHostCache() {

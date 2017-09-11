@@ -43,45 +43,11 @@ import org.chromium.chrome.browser.widget.displaystyle.UiConfig;
 public class NewTabPageView extends FrameLayout {
     private static final String TAG = "NewTabPageView";
 
-<<<<<<< HEAD
     private NewTabPageRecyclerView mRecyclerView;
-
-    private NewTabPageLayout mNewTabPageLayout;
-=======
-    private static final long SNAP_SCROLL_DELAY_MS = 30;
-
-    /**
-     * Parameter for the simplified NTP ablation experiment arm which removes the additional
-     * suggestions sections without replacing them with shortcut buttons.
-     */
-    private static final String PARAM_SIMPLIFIED_NTP_ABLATION = "simplified_ntp_ablation";
-
-    private static final int SHADOW_COLOR = 0x11000000;
-
-    /*
-    * For Brave stats
-    */
-    private static final String PREF_TRACKERS_BLOCKED_COUNT = "trackers_blocked_count";
-    private static final String PREF_ADS_BLOCKED_COUNT = "ads_blocked_count";
-    private static final String PREF_HTTPS_UPGRADES_COUNT = "https_upgrades_count";
-    private static final short MILLISECONDS_PER_ITEM = 50;
-
-    //private NewTabPageRecyclerView mRecyclerView;
-    private NewTabPageScrollView mScrollView;
 
     private NewTabPageLayout mNewTabPageLayout;
     private ViewGroup mBraveStatsView;
     private ImageView mBraveStatsShadow;
-    //private LogoView mSearchProviderLogoView;
-    private ViewGroup mSearchBoxView;
-    private ImageView mVoiceSearchButton;
-    private SiteSectionViewHolder mSiteSectionViewHolder;
-    private View mTileGridPlaceholder;
-    private View mNoSearchLogoSpacer;
-    private ViewGroup mShortcutsView;
-
-    private OnSearchBoxScrollListener mSearchBoxScrollListener;
->>>>>>> ab7d51e1925... New Tab Page with Brave stats
 
     private NewTabPageManager mManager;
     private Tab mTab;
