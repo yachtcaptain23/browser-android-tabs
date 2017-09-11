@@ -108,3 +108,7 @@ bool WorkerContentSettingsClient::AllowScriptFromSource(
 
   return true;
 }
+
+bool WorkerContentSettingsClient::AllowFingerprinting() {
+    return true;
+};
