@@ -34,13 +34,11 @@ static base::android::RegistrationMethod kChromeRegisteredMethods[] = {
 };
 
 bool OnJNIOnLoadRegisterJNI(JNIEnv* env) {
-#if BUILDFLAG(ENABLE_VR)
   // Register manually when on the browser process.
   if (!base::android::IsSelectiveJniRegistrationEnabled(env)) {
     return RegisterNativeMethods(env, kChromeRegisteredMethods,
                                  arraysize(kChromeRegisteredMethods));
   }
-#endif
   return true;
 }
 
