@@ -135,15 +135,8 @@ public class SiteSettingsPreferences extends PreferenceFragment
         PrefServiceBridge prefServiceBridge = PrefServiceBridge.getInstance();
 
         // Translate preference.
-<<<<<<< HEAD
         Preference translatePref = findPreference(TRANSLATE_KEY);
         if (translatePref != null) setTranslateStateSummary(translatePref);
-=======
-        /*Preference translatePref = findPreference(TRANSLATE_KEY);
-        if (translatePref != null) {
-            setTranslateStateSummary(translatePref);
-        }*/
->>>>>>> 7598bcac613... Removed Sync and Translate menu
 
         // Preferences that navigate to Website Settings.
         List<Integer> websitePrefs = new ArrayList<Integer>();
@@ -156,17 +149,11 @@ public class SiteSettingsPreferences extends PreferenceFragment
             }
             // When showing the main menu, if Protected Content is not available, only Autoplay
             // will be visible.
-<<<<<<< HEAD
             if (!mProtectedContentMenuAvailable) {
                 websitePrefs.add(SiteSettingsCategory.Type.AUTOPLAY);
             }
             websitePrefs.add(SiteSettingsCategory.Type.BACKGROUND_SYNC);
             websitePrefs.add(SiteSettingsCategory.Type.CAMERA);
-=======
-            if (!mProtectedContentMenuAvailable) websitePrefs.add(AUTOPLAY_KEY);
-            //websitePrefs.add(BACKGROUND_SYNC_KEY);
-            websitePrefs.add(CAMERA_KEY);
->>>>>>> 7598bcac613... Removed Sync and Translate menu
             if (ChromeFeatureList.isEnabled(ChromeFeatureList.CLIPBOARD_CONTENT_SETTING)) {
                 websitePrefs.add(SiteSettingsCategory.Type.CLIPBOARD);
             }
@@ -179,6 +166,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
             if (ChromeFeatureList.isEnabled(ChromeFeatureList.GENERIC_SENSOR_EXTRA_CLASSES)) {
                 websitePrefs.add(SiteSettingsCategory.Type.SENSORS);
             }
+            websitePrefs.add(DESKTOP_VIEW_SETTINGS_KEY);
             if (ChromeFeatureList.isEnabled(ChromeFeatureList.SOUND_CONTENT_SETTING)) {
                 websitePrefs.add(SiteSettingsCategory.Type.SOUND);
             }
@@ -187,7 +175,6 @@ public class SiteSettingsPreferences extends PreferenceFragment
 
         // Initialize the summary and icon for all preferences that have an
         // associated content settings entry.
-<<<<<<< HEAD
         for (@SiteSettingsCategory.Type int prefCategory : websitePrefs) {
             Preference p = findPreference(prefCategory);
             int contentType = SiteSettingsCategory.contentSettingsType(prefCategory);
@@ -198,26 +185,6 @@ public class SiteSettingsPreferences extends PreferenceFragment
             ContentSetting setting = ContentSetting.DEFAULT;
 
             if (prefCategory == SiteSettingsCategory.Type.DEVICE_LOCATION) {
-=======
-        for (String prefName : websitePrefs) {
-            Preference p = findPreference(prefName);
-            boolean checked = false;
-            if (ADS_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().adsEnabled();
-            } else if (AUTOPLAY_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().isAutoplayEnabled();
-            /*} else if (BACKGROUND_SYNC_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().isBackgroundSyncAllowed();*/
-            } else if (CAMERA_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().isCameraEnabled();
-            } else if (CLIPBOARD_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().isClipboardEnabled();
-            } else if (COOKIES_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().isAcceptCookiesEnabled();
-            } else if (JAVASCRIPT_KEY.equals(prefName)) {
-                checked = PrefServiceBridge.getInstance().javaScriptEnabled();
-            } else if (LOCATION_KEY.equals(prefName)) {
->>>>>>> 7598bcac613... Removed Sync and Translate menu
                 checked = LocationSettings.getInstance().areAllLocationSettingsEnabled();
             } else if (requiresTriStateSetting) {
                 setting = ContentSetting.fromInt(prefServiceBridge.getContentSetting(contentType));
@@ -247,6 +214,8 @@ public class SiteSettingsPreferences extends PreferenceFragment
                 p.setSummary(ContentSettingsResources.getSoundBlockedListSummary());
             } else if (requiresTriStateSetting) {
                 p.setSummary(ContentSettingsResources.getCategorySummary(setting));
+            } else if (SiteSettingsCategory.Type.DESKTOP_VIEW_SETTINGS == prefCategory) {
+                p.setSummary( checked ? ContentSettingsResources.getDesktopViewEnabledSummary() : ContentSettingsResources.getDesktopViewDisabledSummary());
             } else {
                 p.setSummary(ContentSettingsResources.getCategorySummary(contentType, checked));
             }
