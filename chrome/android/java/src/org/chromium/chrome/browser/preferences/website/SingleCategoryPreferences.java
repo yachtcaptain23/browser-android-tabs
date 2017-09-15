@@ -522,6 +522,8 @@ public class SingleCategoryPreferences extends PreferenceFragment
                         (boolean) newValue);
             } else if (mCategory.showSoundSites()) {
                 PrefServiceBridge.getInstance().setSoundEnabled((boolean) newValue);
+            } else if (mCategory.showDesktopViewSites()) {
+                PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
             }
 
             // Categories that support adding exceptions also manage the 'Add site' preference.
@@ -770,6 +772,8 @@ public class SingleCategoryPreferences extends PreferenceFragment
                             PrefServiceBridge.getInstance().isProtectedMediaIdentifierEnabled());
                 } else if (mCategory.showSoundSites()) {
                     globalToggle.setChecked(PrefServiceBridge.getInstance().isSoundEnabled());
+                } else if (mCategory.showDesktopViewSites()) {
+                    globalToggle.setChecked(PrefServiceBridge.getInstance().desktopViewEnabled());
                 }
             }
         }
