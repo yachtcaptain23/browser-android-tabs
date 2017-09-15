@@ -122,6 +122,9 @@ enum ContentSettingsType {
   // is ascertained.
   CONTENT_SETTINGS_TYPE_BACKGROUND_FETCH,
 
+  // This content setting type is for displaying desktop version of the website
+  CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
+
   CONTENT_SETTINGS_NUM_TYPES,
 };
 
