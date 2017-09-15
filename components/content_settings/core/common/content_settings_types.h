@@ -102,6 +102,9 @@ enum ContentSettingsType {
   // such doesn't have associated prefs data.
   CONTENT_SETTINGS_TYPE_CLIPBOARD_WRITE,
 
+  // This content setting type is for displaying desktop version of the website
+  CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
+
   CONTENT_SETTINGS_NUM_TYPES,
 };
 
