@@ -419,6 +419,9 @@ public class Tab
     /** The current browser controls constraints. -1 if not set. */
     private @BrowserControlsState int mBrowserConstrolsConstraints = -1;
 
+    /** Whether or not the tab Desktop Mode option has been set/unset in tab menu. */
+    private boolean mDesktopModeOverridenByTab;
+
     private GestureStateListener createGestureStateListener() {
         return new GestureStateListener() {
             @Override
@@ -749,6 +752,10 @@ public class Tab
             //                the android view has entirely rendered.
             if (!mIsNativePageCommitPending) {
                 mIsNativePageCommitPending = maybeShowNativePage(params.getUrl(), false);
+            }
+
+            for (TabObserver observer : mObservers) {
+                observer.onPreLoadUrl(this, params);
             }
 
             removeSadTabIfPresent();
@@ -1138,6 +1145,14 @@ public class Tab
 
     public boolean isIncognito() {
         return mIncognito;
+    }
+
+    public boolean isDesktopModeOverridenByTab() {
+        return mDesktopModeOverridenByTab;
+    }
+
+    public void setDesktopModeOverridenByTab(boolean overridenByTab) {
+        mDesktopModeOverridenByTab = overridenByTab;
     }
 
     /**

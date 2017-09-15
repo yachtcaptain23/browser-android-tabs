@@ -117,6 +117,9 @@ enum ContentSettingsType {
   // stored under CONTENT_SETTINGS_TYPE_USB_CHOOSER_DATA.
   CONTENT_SETTINGS_TYPE_USB_GUARD,
 
+  // This content setting type is for displaying desktop version of the website
+  CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
+
   CONTENT_SETTINGS_NUM_TYPES,
 };
 
