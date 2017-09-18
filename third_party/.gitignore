@@ -84,7 +84,6 @@
 /icu
 /icu4j/lib/*.jar
 /intellij/lib/*.jar
-/inspector_protocol
 /instrumented_libraries/scripts/*.tgz
 /instrumented_libraries/scripts/out/*
 /javax_inject/lib/*.jar
@@ -129,7 +128,8 @@
 /nacl_sdk_binaries/
 /netty-tcnative/src
 /netty4/src
-/node/linux
+/node/linux/node-linux-x64
+/node/linux/node-linux-x64.tar.gz
 /node/mac
 /node/node_modules
 /node/*.tar.gz
@@ -182,7 +182,6 @@
 /syzygy/binaries
 /tsan/
 /ub-uiautomator/lib
-/usb_ids
 /usrsctp/usrsctplib
 /v8-i18n
 /valgrind
