@@ -69,6 +69,7 @@ constexpr HistogramValue kHistogramValue[kNumHistogramValues] = {
     {CONTENT_SETTINGS_TYPE_PLUGINS_DATA, 42},
     {CONTENT_SETTINGS_TYPE_PAYMENT_HANDLER, 43},
     {CONTENT_SETTINGS_TYPE_USB_GUARD, 44},
+    {CONTENT_SETTINGS_TYPE_DESKTOP_VIEW, 45},
 };
 
 }  // namespace
