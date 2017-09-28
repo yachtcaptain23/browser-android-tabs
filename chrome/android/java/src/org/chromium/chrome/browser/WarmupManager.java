@@ -291,6 +291,7 @@ public final class WarmupManager {
         if (!LibraryLoader.isInitialized()) return;
         if (mSpareWebContents != null || SysUtils.isLowEndDevice()) return;
         mSpareWebContents = WebContentsFactory.createWebContentsWithWarmRenderer(false, false);
+        if (mSpareWebContents == null) return;
         mObserver = new RenderProcessGoneObserver();
         mSpareWebContents.addObserver(mObserver);
         mWebContentsCreationTimeMs = SystemClock.elapsedRealtime();
