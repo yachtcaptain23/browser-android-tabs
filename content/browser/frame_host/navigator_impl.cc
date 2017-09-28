@@ -1306,6 +1306,11 @@ void NavigatorImpl::DidStartMainFrameNavigation(
       entry->SetRedirectChain(pending_entry->GetRedirectChain());
     }
 
+    if (controller_->GetLastCommittedEntry()) {
+      NavigationEntryImpl* last_committed_entry = controller_->GetLastCommittedEntry();
+      entry->SetIsOverridingUserAgent(last_committed_entry->GetIsOverridingUserAgent());
+    }
+
     // If there's a current NavigationHandle, update its pending NavEntry ID.
     // This is necessary for transfer navigations.  The handle may be null in
     // PlzNavigate.
