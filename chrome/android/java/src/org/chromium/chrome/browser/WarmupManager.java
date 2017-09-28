@@ -288,6 +288,7 @@ public final class WarmupManager {
         ThreadUtils.assertOnUiThread();
         if (mSpareWebContents != null || SysUtils.isLowEndDevice()) return;
         mSpareWebContents = WebContentsFactory.createWebContentsWithWarmRenderer(false, false);
+        if (mSpareWebContents == null) return;
         mObserver = new RenderProcessGoneObserver();
         mSpareWebContents.addObserver(mObserver);
         mWebContentsCreationTimeMs = SystemClock.elapsedRealtime();
