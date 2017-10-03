@@ -57,7 +57,7 @@ public class DataReductionPromoUtilsTest {
     @SmallTest
     @UiThreadTest
     @CommandLineFlags.Add("force-fieldtrials=DataCompressionProxyPromoVisibility/Enabled")
-    @Feature({"DataReduction"})
+    @Feature({"DataReduction", "ApplyLater"})
     public void testCanShowPromos() throws Throwable {
         if (DataReductionProxySettings.getInstance().isDataReductionProxyManaged()) return;
         Assert.assertFalse(DataReductionProxySettings.getInstance().isDataReductionProxyEnabled());
