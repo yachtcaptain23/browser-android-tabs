@@ -85,7 +85,7 @@ public class CastPositionTransferTest {
 
     /** Test for crbug.com/428409 */
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE) // crbug.com/652872
     public void testLocalToRemotePositionTransfer() throws InterruptedException, TimeoutException {
@@ -116,7 +116,7 @@ public class CastPositionTransferTest {
 
     /** Test for crbug.com/428409 */
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE) // crbug.com/652872
     public void testRemoteToLocalPositionTransfer() throws InterruptedException, TimeoutException {
