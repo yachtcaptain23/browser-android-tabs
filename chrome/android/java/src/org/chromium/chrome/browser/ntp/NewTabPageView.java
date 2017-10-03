@@ -1019,10 +1019,9 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer, O
         // UiConfig will have the wrong orientation. https://crbug.com/683886.
         mUiConfig.updateDisplayStyle();
 
-        updateBraveStats();
-
         if (visibility == VISIBLE) {
             updateVoiceSearchButtonVisibility();
+            updateBraveStats();
         }
     }
 
