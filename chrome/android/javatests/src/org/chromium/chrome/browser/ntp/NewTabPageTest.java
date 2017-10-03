@@ -347,7 +347,7 @@ public class NewTabPageTest {
      */
     @Test
     @SmallTest
-    @Feature({"NewTabPage"})
+    @Feature({"NewTabPage", "ApplyLater"})
     public void testFocusFakebox() {
         int initialFakeboxTop = getFakeboxTop(mNtp);
 
@@ -549,8 +549,10 @@ public class NewTabPageTest {
 
     /**
      * Tests setting whether the search provider has a logo.
+     * Disabled as there is no R.id.search_provider_logo.
      */
     @Test
+    @DisabledTest
     @SmallTest
     @Feature({"NewTabPage", "FeedNewTabPage"})
     @ParameterAnnotations.UseMethodParameter(InterestFeedParams.class)
@@ -572,8 +574,10 @@ public class NewTabPageTest {
     /**
      * Verifies that the placeholder is only shown when there are no tile suggestions and the search
      * provider has no logo.
+     * Disabled as there is no R.id.search_provider_logo.
      */
     @Test
+    @DisabledTest
     @SmallTest
     @Feature({"NewTabPage", "FeedNewTabPage"})
     @ParameterAnnotations.UseMethodParameter(InterestFeedParams.class)

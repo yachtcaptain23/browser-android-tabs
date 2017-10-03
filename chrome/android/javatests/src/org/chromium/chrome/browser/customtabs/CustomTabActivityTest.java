@@ -1696,6 +1696,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testPostMessageThroughHiddenTabWithRequestBeforeMayLaunchUrl() throws Exception {
@@ -1708,6 +1709,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testPostMessageThroughHiddenTabWithRequestBeforeIntent() throws Exception {
@@ -1720,6 +1722,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testPostMessageThroughHiddenTabWithRequestAfterIntent() throws Exception {
@@ -1924,6 +1927,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @RetryOnFailure
     public void testHiddenTabAndChangingFragmentIgnoreFragments() throws Exception {
@@ -1933,6 +1937,7 @@ public class CustomTabActivityTest {
     /** Same as above, but the hidden tab matching should not ignore the fragment. */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @RetryOnFailure
     public void testHiddenTabAndChangingFragmentDontIgnoreFragments() throws Exception {
@@ -2059,6 +2064,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @RetryOnFailure
     public void testHiddenTabCorrectUrl() throws Exception {
@@ -2222,6 +2228,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @RetryOnFailure
     public void testHiddenTabWithReferrer() throws Exception {
@@ -2244,6 +2251,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @RetryOnFailure
     public void testHiddenTabWithMismatchedReferrers() throws Exception {
@@ -2495,6 +2503,7 @@ public class CustomTabActivityTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testHistoryAfterHiddenTabHit() throws Exception {
         verifyHistoryAfterHiddenTab(true);
@@ -2502,6 +2511,7 @@ public class CustomTabActivityTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testHistoryAfterHiddenTabMiss() throws Exception {
         verifyHistoryAfterHiddenTab(false);
