@@ -15,6 +15,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import org.chromium.base.test.BaseJUnit4ClassRunner;
+import org.chromium.base.test.util.Feature;
 import org.chromium.chrome.browser.tabmodel.TestTabModelDirectory;
 import org.chromium.chrome.browser.test.ChromeBrowserTestRule;
 
@@ -65,6 +66,7 @@ public class TabStateTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     public void testLoadV1Tabs() throws Exception {
         TabState.setChannelNameOverrideForTest(null);
         loadAndCheckTabState(TestTabModelDirectory.M26_GOOGLE_COM);

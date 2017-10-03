@@ -304,7 +304,7 @@ public class TabsTest extends ChromeTabbedActivityTestBase {
      * Verify that opening a new window hides keyboard.
      */
     @MediumTest
-    @Feature({"Android-TabSwitcher"})
+    @Feature({"Android-TabSwitcher", "ApplyLater"})
     @RetryOnFailure
     public void testHideKeyboardWhenOpeningWindow() throws Exception {
         mTestServer = EmbeddedTestServer.createAndStartServer(getInstrumentation().getContext());

@@ -191,6 +191,8 @@ _ANDROID_NEGATIVE_FILTER['chromium'] = (
         'ChromeDriverTest.testShouldHandleNewWindowLoadingProperly',
     ]
 )
+_ANDROID_NEGATIVE_FILTER['brave'] = (
+    _ANDROID_NEGATIVE_FILTER['chromium'])
 _ANDROID_NEGATIVE_FILTER['chromedriver_webview_shell'] = (
     _ANDROID_NEGATIVE_FILTER['chrome'] + [
         'ChromeLoggingCapabilityTest.testPerformanceLogger',
