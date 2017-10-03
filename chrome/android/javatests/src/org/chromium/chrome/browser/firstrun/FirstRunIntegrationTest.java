@@ -26,6 +26,7 @@ import org.junit.runner.RunWith;
 
 import org.chromium.base.ThreadUtils;
 import org.chromium.base.annotations.SuppressFBWarnings;
+import org.chromium.base.test.util.Feature;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.customtabs.CustomTabActivity;
@@ -244,6 +245,7 @@ public class FirstRunIntegrationTest {
 
     @Test
     @MediumTest
+    @Feature({"ApplyLater"})
     public void testDefaultSearchEngine_ShowExisting() throws Exception {
         runSearchEnginePromptTest(LocaleManager.SEARCH_ENGINE_PROMO_SHOW_EXISTING);
     }
