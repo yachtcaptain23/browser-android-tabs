@@ -142,7 +142,7 @@ public class PasswordViewingTypeTest {
     @Test
     @SmallTest
     @CommandLineFlags.Add("enable-features=" + MainPreferences.VIEW_PASSWORDS)
-    @Feature({"Sync"})
+    @Feature({"Sync", "ApplyLater"})
     public void testUserRedirectSyncSettings() throws InterruptedException {
         setSyncability(true);
         overrideProfileSyncService(false);

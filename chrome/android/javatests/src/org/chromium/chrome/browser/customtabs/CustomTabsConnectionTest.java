@@ -26,6 +26,7 @@ import org.chromium.base.ThreadUtils;
 import org.chromium.base.library_loader.LibraryLoader;
 import org.chromium.base.library_loader.LibraryProcessType;
 import org.chromium.base.test.util.CommandLineFlags;
+import org.chromium.base.test.util.Feature;
 import org.chromium.base.test.util.Restriction;
 import org.chromium.base.test.util.RetryOnFailure;
 import org.chromium.chrome.browser.ChromeFeatureList;
@@ -152,6 +153,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testPrerenderDestroysSpareRenderer() {
         CustomTabsConnection.getInstance().setForcePrerender(true);
@@ -219,6 +221,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     public void testMayLaunchUrlNullOrEmptyUrl() {
         assertWarmupAndMayLaunchUrl(null, null, true);
         CustomTabsTestUtils.cleanupSessions(mCustomTabsConnection); // Resets throttling.
@@ -230,6 +233,7 @@ public class CustomTabsConnectionTest {
      */
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @CommandLineFlags.Add({ChromeSwitches.DISABLE_FIRST_RUN_EXPERIENCE,
             "enable-features=" + ChromeFeatureList.CCT_BACKGROUND_TAB})
@@ -360,6 +364,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testStillHighConfidenceMayLaunchUrlWithSeveralUrls() {
         CustomTabsConnection.getInstance().setForcePrerender(true);
@@ -406,6 +411,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     @RetryOnFailure
     public void testCanCancelPrerender() {
@@ -613,6 +619,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testBanningWorks() {
         mCustomTabsConnection.ban(Process.myUid());
@@ -633,6 +640,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testBanningDisabledForCellular() {
         mCustomTabsConnection.ban(Process.myUid());
@@ -696,6 +704,7 @@ public class CustomTabsConnectionTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE)
     public void testCellularPrerenderingDoesntKillSpareRenderer() throws Exception {
         final CustomTabsSessionToken token =
