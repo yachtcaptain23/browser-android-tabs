@@ -131,7 +131,7 @@ public class PrerenderTest {
     @Test
     @LargeTest
     @Restriction({RESTRICTION_TYPE_NON_LOW_END_DEVICE})
-    @Feature({"TabContents"})
+    @Feature({"TabContents", "ApplyLater"})
     @RetryOnFailure
     public void testPageLoadFinishNotification() throws InterruptedException {
         String url = mTestServer.getURL("/chrome/test/data/android/prerender/google.html");
