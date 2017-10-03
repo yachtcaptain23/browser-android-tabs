@@ -205,7 +205,7 @@ public class NewTabPageTest {
      */
     @Test
     @SmallTest
-    @Feature({"NewTabPage"})
+    @Feature({"NewTabPage", "ApplyLater"})
     public void testFocusFakebox() {
         int initialFakeboxTop = getFakeboxTop(mNtp);
 
@@ -336,7 +336,7 @@ public class NewTabPageTest {
 
     @Test
     @LargeTest
-    @Feature({"NewTabPage"})
+    @Feature({"NewTabPage", "ApplyLater"})
     public void testUrlFocusAnimationsEnabledOnFailedLoad() throws Exception {
         // TODO(jbudorick): switch this to EmbeddedTestServer.
         TestWebServer webServer = TestWebServer.start();
@@ -400,104 +400,110 @@ public class NewTabPageTest {
 
     /**
      * Tests setting whether the search provider has a logo.
+     * Disabled as there is no R.id.search_provider_logo.
      */
     @Test
+    @DisabledTest
     @SmallTest
     @Feature({"NewTabPage"})
     public void testSetSearchProviderInfo() throws Throwable {
-        mActivityTestRule.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                NewTabPageView ntpView = mNtp.getNewTabPageView();
-                View logoView = ntpView.findViewById(R.id.search_provider_logo);
-                Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
-                ntpView.setSearchProviderInfo(/* hasLogo = */ false, /* isGoogle */ true);
-                Assert.assertEquals(View.GONE, logoView.getVisibility());
-                ntpView.setSearchProviderInfo(/* hasLogo = */ true, /* isGoogle */ true);
-                Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
-            }
-        });
+        // mActivityTestRule.runOnUiThread(new Runnable() {
+        //     @Override
+        //     public void run() {
+        //         NewTabPageView ntpView = mNtp.getNewTabPageView();
+        //         View logoView = ntpView.findViewById(R.id.search_provider_logo);
+        //         Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
+        //         ntpView.setSearchProviderInfo(/* hasLogo = */ false, /* isGoogle */ true);
+        //         Assert.assertEquals(View.GONE, logoView.getVisibility());
+        //         ntpView.setSearchProviderInfo(/* hasLogo = */ true, /* isGoogle */ true);
+        //         Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
+        //     }
+        // });
     }
 
     /**
      * Tests setting whether the search provider has a logo when the condensed UI is enabled.
+     * Disabled as there is no R.id.search_provider_logo.
      */
     @Test
+    @DisabledTest
     @SmallTest
     @Feature({"NewTabPage"})
     @CommandLineFlags.Add("enable-features=NTPCondensedLayout")
     public void testSetSearchProviderInfoCondensedUi() throws Throwable {
-        mActivityTestRule.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                NewTabPageView ntpView = mNtp.getNewTabPageView();
-                View logoView = ntpView.findViewById(R.id.search_provider_logo);
-                Assert.assertEquals(View.GONE, logoView.getVisibility());
-                ntpView.setSearchProviderInfo(/* hasLogo = */ false, /* isGoogle */ true);
-                Assert.assertEquals(View.GONE, logoView.getVisibility());
-                ntpView.setSearchProviderInfo(/* hasLogo = */ true, /* isGoogle */ true);
-                Assert.assertEquals(View.GONE, logoView.getVisibility());
-            }
-        });
+        // mActivityTestRule.runOnUiThread(new Runnable() {
+        //     @Override
+        //     public void run() {
+        //         NewTabPageView ntpView = mNtp.getNewTabPageView();
+        //         View logoView = ntpView.findViewById(R.id.search_provider_logo);
+        //         Assert.assertEquals(View.GONE, logoView.getVisibility());
+        //         ntpView.setSearchProviderInfo(/* hasLogo = */ false, /* isGoogle */ true);
+        //         Assert.assertEquals(View.GONE, logoView.getVisibility());
+        //         ntpView.setSearchProviderInfo(/* hasLogo = */ true, /* isGoogle */ true);
+        //         Assert.assertEquals(View.GONE, logoView.getVisibility());
+        //     }
+        // });
     }
 
     /**
      * Verifies that the placeholder is only shown when there are no tile suggestions and the search
      * provider has no logo.
+     * Disabled as there is no R.id.search_provider_logo.
      */
     @Test
+    @DisabledTest
     @SmallTest
     @Feature({"NewTabPage"})
     public void testPlaceholder() {
-        final NewTabPageView ntpView = mNtp.getNewTabPageView();
-        final View logoView = ntpView.findViewById(R.id.search_provider_logo);
-        final View searchBoxView = ntpView.findViewById(R.id.search_box);
-
-        // Initially, the logo is visible, the search box is visible, there is one tile suggestion,
-        // and the placeholder has not been inflated yet.
-        Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
-        Assert.assertEquals(View.VISIBLE, searchBoxView.getVisibility());
-        Assert.assertEquals(2, mTileGridLayout.getChildCount());
-        Assert.assertNull(ntpView.getPlaceholder());
-
-        // When the search provider has no logo and there are no tile suggestions, the placeholder
-        // is shown.
-        ThreadUtils.runOnUiThreadBlocking(new Runnable() {
-            @Override
-            public void run() {
-                ntpView.setSearchProviderInfo(/* hasLogo = */ false, /* isGoogle */ true);
-                Assert.assertEquals(View.GONE, logoView.getVisibility());
-                Assert.assertEquals(View.GONE, searchBoxView.getVisibility());
-            }
-        });
-        mMostVisitedSites.setTileSuggestions(
-                new String[] {}, new String[] {}, new String[] {}, new int[] {});
-        ThreadUtils.runOnUiThreadBlocking(new Runnable() {
-            @Override
-            public void run() {
-                ntpView.getTileGroup().onSwitchToForeground(false); // Force tile refresh.
-            }
-        });
-        CriteriaHelper.pollUiThread(new Criteria("The tile grid was not updated.") {
-            @Override
-            public boolean isSatisfied() {
-                return mTileGridLayout.getChildCount() == 0;
-            }
-        });
-        Assert.assertNotNull(ntpView.getPlaceholder());
-        Assert.assertEquals(View.VISIBLE, ntpView.getPlaceholder().getVisibility());
-
-        // Once the search provider has a logo again, the logo and search box are shown again and
-        // the placeholder is hidden.
-        ThreadUtils.runOnUiThreadBlocking(new Runnable() {
-            @Override
-            public void run() {
-                ntpView.setSearchProviderInfo(/* hasLogo = */ true, /* isGoogle */ true);
-                Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
-                Assert.assertEquals(View.VISIBLE, searchBoxView.getVisibility());
-                Assert.assertEquals(View.GONE, ntpView.getPlaceholder().getVisibility());
-            }
-        });
+        // final NewTabPageView ntpView = mNtp.getNewTabPageView();
+        // final View logoView = ntpView.findViewById(R.id.search_provider_logo);
+        // final View searchBoxView = ntpView.findViewById(R.id.search_box);
+        //
+        // // Initially, the logo is visible, the search box is visible, there is one tile suggestion,
+        // // and the placeholder has not been inflated yet.
+        // Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
+        // Assert.assertEquals(View.VISIBLE, searchBoxView.getVisibility());
+        // Assert.assertEquals(2, mTileGridLayout.getChildCount());
+        // Assert.assertNull(ntpView.getPlaceholder());
+        //
+        // // When the search provider has no logo and there are no tile suggestions, the placeholder
+        // // is shown.
+        // ThreadUtils.runOnUiThreadBlocking(new Runnable() {
+        //     @Override
+        //     public void run() {
+        //         ntpView.setSearchProviderInfo(/* hasLogo = */ false, /* isGoogle */ true);
+        //         Assert.assertEquals(View.GONE, logoView.getVisibility());
+        //         Assert.assertEquals(View.GONE, searchBoxView.getVisibility());
+        //     }
+        // });
+        // mMostVisitedSites.setTileSuggestions(
+        //         new String[] {}, new String[] {}, new String[] {}, new int[] {});
+        // ThreadUtils.runOnUiThreadBlocking(new Runnable() {
+        //     @Override
+        //     public void run() {
+        //         ntpView.getTileGroup().onSwitchToForeground(false); // Force tile refresh.
+        //     }
+        // });
+        // CriteriaHelper.pollUiThread(new Criteria("The tile grid was not updated.") {
+        //     @Override
+        //     public boolean isSatisfied() {
+        //         return mTileGridLayout.getChildCount() == 0;
+        //     }
+        // });
+        // Assert.assertNotNull(ntpView.getPlaceholder());
+        // Assert.assertEquals(View.VISIBLE, ntpView.getPlaceholder().getVisibility());
+        //
+        // // Once the search provider has a logo again, the logo and search box are shown again and
+        // // the placeholder is hidden.
+        // ThreadUtils.runOnUiThreadBlocking(new Runnable() {
+        //     @Override
+        //     public void run() {
+        //         ntpView.setSearchProviderInfo(/* hasLogo = */ true, /* isGoogle */ true);
+        //         Assert.assertEquals(View.VISIBLE, logoView.getVisibility());
+        //         Assert.assertEquals(View.VISIBLE, searchBoxView.getVisibility());
+        //         Assert.assertEquals(View.GONE, ntpView.getPlaceholder().getVisibility());
+        //     }
+        // });
     }
 
     @Test

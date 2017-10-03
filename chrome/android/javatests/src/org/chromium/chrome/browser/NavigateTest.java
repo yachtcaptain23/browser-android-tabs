@@ -257,7 +257,7 @@ public class NavigateTest {
      */
     @Test
     @MediumTest
-    @Feature({"Navigation"})
+    @Feature({"Navigation", "ApplyLater"})
     @RetryOnFailure
     public void testRequestDesktopSiteSettingPers() throws Exception {
         String url1 = mTestServer.getURL("/chrome/test/data/android/google.html");
