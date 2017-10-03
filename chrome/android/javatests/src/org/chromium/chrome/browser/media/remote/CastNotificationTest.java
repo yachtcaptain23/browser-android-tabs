@@ -46,7 +46,7 @@ public class CastNotificationTest {
      * Test the pause button on the notification.
      */
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE) // crbug.com/652872

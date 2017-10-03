@@ -46,7 +46,7 @@ public class CastSwitchVideoTest {
     private static final String VIDEO_ELEMENT_2 = "video2";
 
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure // crbug.com/623526
     public void testPlayNewVideoInNewTab() throws InterruptedException, TimeoutException {
@@ -65,7 +65,7 @@ public class CastSwitchVideoTest {
     }
 
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure // crbug.com/623526
     public void testPlayNewVideoNewPageSameTab() throws InterruptedException, TimeoutException {
@@ -83,7 +83,7 @@ public class CastSwitchVideoTest {
     }
 
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure // crbug.com/623526
     public void testPlayTwoVideosSamePage() throws InterruptedException, TimeoutException {
@@ -100,7 +100,7 @@ public class CastSwitchVideoTest {
     }
 
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure // crbug.com/623526
     public void testCastNewVideoInNewTab() throws InterruptedException, TimeoutException {
@@ -119,7 +119,7 @@ public class CastSwitchVideoTest {
     }
 
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure // crbug.com/623526
     public void testCastNewVideoNewPageSameTab() throws InterruptedException, TimeoutException {
@@ -137,7 +137,7 @@ public class CastSwitchVideoTest {
     }
 
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure // crbug.com/623526
     public void testCastTwoVideosSamePage() throws InterruptedException, TimeoutException {

@@ -47,7 +47,7 @@ public class CastStartStopTest {
      * Test that we can cast a video, and that we get the ExpandedControllerActivity when we do.
      */
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE) // crbug.com/652872
@@ -60,7 +60,7 @@ public class CastStartStopTest {
      * Test that we can disconnect a cast session from the expanded controller activity overlay.
      */
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE) // crbug.com/652872
@@ -78,7 +78,7 @@ public class CastStartStopTest {
      * Test that we can stop a cast session from the notification.
      */
     @Test
-    @Feature({"VideoFling"})
+    @Feature({"VideoFling", "ApplyLater"})
     @LargeTest
     @RetryOnFailure
     @Restriction(RESTRICTION_TYPE_NON_LOW_END_DEVICE) // crbug.com/652872
