@@ -21,6 +21,7 @@ import org.junit.runner.RunWith;
 
 import org.chromium.base.ThreadUtils;
 import org.chromium.base.test.util.CommandLineFlags;
+import org.chromium.base.test.util.Feature;
 import org.chromium.base.test.util.Restriction;
 import org.chromium.chrome.browser.ChromeSwitches;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
@@ -169,6 +170,7 @@ public class BottomSheetBackBehaviorTest {
 
     @Test
     @SmallTest
+    @Feature({"ApplyLater"})
     public void testBackButton_backButtonOpensSheetAndShowsToolbar()
             throws ExecutionException, InterruptedException, TimeoutException {
         final Tab tab = launchNewTabFromChrome("about:blank");
