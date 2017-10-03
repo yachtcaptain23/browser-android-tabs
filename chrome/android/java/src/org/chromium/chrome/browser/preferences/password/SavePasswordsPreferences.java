@@ -293,12 +293,12 @@ public class SavePasswordsPreferences extends PreferenceFragment
             if (mLinkPref == null) {
                 ForegroundColorSpan colorSpan = new ForegroundColorSpan(
                         ApiCompatibilityUtils.getColor(getResources(), R.color.google_blue_700));
-                SpannableString title = SpanApplier.applySpans(
-                        getString(R.string.manage_passwords_text),
-                        new SpanApplier.SpanInfo("<link>", "</link>", colorSpan));
+                //SpannableString title = SpanApplier.applySpans(
+                //        getString(R.string.manage_passwords_text),
+                //        new SpanApplier.SpanInfo("<link>", "</link>", colorSpan));
                 mLinkPref = new ChromeBasePreference(getActivity());
                 mLinkPref.setKey(PREF_MANAGE_ACCOUNT_LINK);
-                mLinkPref.setTitle(title);
+                // mLinkPref.setTitle(title);
                 mLinkPref.setOnPreferenceClickListener(this);
                 mLinkPref.setOrder(ORDER_MANAGE_ACCOUNT_LINK);
             }
