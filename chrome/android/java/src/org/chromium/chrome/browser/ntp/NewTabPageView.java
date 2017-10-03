@@ -228,7 +228,6 @@ public class NewTabPageView extends FrameLayout {
         });
 
         manager.addDestructionObserver(NewTabPageView.this::onDestroy);
-        initializeBraveStats();
 
         TraceEvent.end(TAG + ".initialize()");
     }
@@ -263,8 +262,8 @@ public class NewTabPageView extends FrameLayout {
     /**
      * Sets up Brave stats.
      */
-    private void initializeBraveStats() {
-        TraceEvent.begin(TAG + ".initializeBraveStats()");
+    private void updateBraveStats() {
+        TraceEvent.begin(TAG + ".updateBraveStats()");
         long trackersBlockedCount = mSharedPreferences.getLong(PREF_TRACKERS_BLOCKED_COUNT, 0);
         long adsBlockedCount = mSharedPreferences.getLong(PREF_ADS_BLOCKED_COUNT, 0);
         long httpsUpgradesCount = mSharedPreferences.getLong(PREF_HTTPS_UPGRADES_COUNT, 0);
@@ -277,7 +276,7 @@ public class NewTabPageView extends FrameLayout {
         adsBlockedCountTextView.setText(getBraveStatsStringFormNumber(adsBlockedCount));
         httpsUpgradesCountTextView.setText(getBraveStatsStringFormNumber(httpsUpgradesCount));
         estTimeSavedTextView.setText(getBraveStatsStringFromTime(estimatedMillisecondsSaved / 1000));
-        TraceEvent.end(TAG + ".initializeBraveStats()");
+        TraceEvent.end(TAG + ".updateBraveStats()");
     }
 
     /*
@@ -375,6 +374,12 @@ public class NewTabPageView extends FrameLayout {
             ((MarginLayoutParams) getLayoutParams()).bottomMargin =
                     getResources().getDimensionPixelSize(R.dimen.bottom_toolbar_height);
         }
+    }
+
+    @Override
+    protected void onWindowVisibilityChanged(int visibility) {
+        super.onWindowVisibilityChanged(visibility);
+        updateBraveStats();
     }
 
     /**
