@@ -47,7 +47,7 @@
 <translation id="1064912851688322329">Disconnect your Google Account</translation>
 <translation id="1067048845568873861">Created</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">Another program on your computer added an extension that may change the way Chrome works.
+<translation id="1070377999570795893">Another program on your computer added an extension that may change the way Brave works.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1071917609930274619">Data Encipherment</translation>
@@ -55,7 +55,7 @@
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1077946062898560804">Set Up Automatic Updates for All Users</translation>
 <translation id="1079766198702302550">Always block camera access</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> wants to restore your Chrome settings to their original defaults. This will reset your homepage, new tab page and search engine, disable your extensions and unpin all tabs. It will also clear other temporary and cached data, such as cookies, content and site data.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> wants to restore your Brave settings to their original defaults. This will reset your homepage, new tab page and search engine, disable your extensions and unpin all tabs. It will also clear other temporary and cached data, such as cookies, content and site data.</translation>
 <translation id="1082725763867769612">Offline files</translation>
 <translation id="1084824384139382525">Copy link addr&amp;ess</translation>
 <translation id="1090126737595388931">No Background Apps Running</translation>
@@ -207,11 +207,11 @@
 <translation id="131461803491198646">Home network, not roaming</translation>
 <translation id="1316136264406804862">Searching...</translation>
 <translation id="1317502925920562130">Is This the Home Page That You Were Expecting?</translation>
-<translation id="1319979322914001937">An app that shows a filtered list of extensions from Chrome Web Store. Extensions in the list can be installed directly from the app.</translation>
+<translation id="1319979322914001937">An app that shows a filtered list of extensions from Brave Web Store. Extensions in the list can be installed directly from the app.</translation>
 <translation id="132090119144658135">Subject Match:</translation>
 <translation id="132101382710394432">Preferred networks ...</translation>
 <translation id="1325040735987616223">System Update</translation>
-<translation id="1326317727527857210">To get your tabs from your other devices, sign in to Chrome.</translation>
+<translation id="7253276740368043692">To get your tabs from your other devices, sign in to Brave.</translation>
 <translation id="1327074568633507428">Printer on Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Updated just now</translation>
@@ -399,7 +399,7 @@
 <translation id="1580652505892042215">Context:</translation>
 <translation id="1581962803218266616">Show in Finder</translation>
 <translation id="1584990664401018068">The Wi-Fi network that you are using (<ph name="NETWORK_ID" />) may require authentication.</translation>
-<translation id="1585717515139318619">Another program on your computer added a theme that may change the way Chrome works.
+<translation id="1585717515139318619">Another program on your computer added a theme that may change the way Brave works.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">&amp;JavaScript console</translation>
@@ -453,7 +453,7 @@
     <ph name="BEGIN_BOLD" />manage<ph name="END_BOLD" /> other settings.</translation>
 <translation id="1648797160541174252">Network proxy for <ph name="NETWORK_NAME" /></translation>
 <translation id="1648943974594387137">Sign-in details are out of date</translation>
-<translation id="164969095109328410">Chrome device</translation>
+<translation id="164969095109328410">Brave device</translation>
 <translation id="1650371550981945235">Show input options</translation>
 <translation id="1650709179466243265">Add www. and .com, and open address</translation>
 <translation id="1651008383952180276">You must enter the same passphrase twice</translation>
@@ -552,7 +552,7 @@
 <translation id="1788636309517085411">Use default</translation>
 <translation id="1789575671122666129">Popups</translation>
 <translation id="1792619191750875668">Extended display</translation>
-<translation id="1793119619663054394">Are you sure that you want to remove "<ph name="PROFILE_NAME" />" and all associated Chrome data from this computer? This cannot be undone.</translation>
+<translation id="1793119619663054394">Are you sure that you want to remove "<ph name="PROFILE_NAME" />" and all associated Brave data from this computer? This cannot be undone.</translation>
 <translation id="1794791083288629568">Send feedback to help us fix this issue.</translation>
 <translation id="1795214765651529549">Use Classic</translation>
 <translation id="179767530217573436">the last 4 weeks</translation>
@@ -699,7 +699,7 @@
 <translation id="2043818754674261542">Distance needed for phone to unlock this <ph name="DEVICE_TYPE" /></translation>
 <translation id="204497730941176055">Microsoft Certificate Template Name</translation>
 <translation id="2045969484888636535">Continue blocking cookies</translation>
-<translation id="204622017488417136">Your device will be returned to the previously installed version of Chrome. All user accounts and local data will be removed. This cannot be undone.</translation>
+<translation id="204622017488417136">Your device will be returned to the previously installed version of Brave. All user accounts and local data will be removed. This cannot be undone.</translation>
 <translation id="2048182445208425546">Access your network traffic</translation>
 <translation id="2049137146490122801">Access to local files on your machine is disabled by your administrator.</translation>
 <translation id="204914487372604757">Create shortcut</translation>
@@ -707,7 +707,7 @@
 <translation id="2053312383184521053">Idle State Data</translation>
 <translation id="205560151218727633">Google assistant logo</translation>
 <translation id="2058632120927660550">An error has occurred. Please check your printer and try again.</translation>
-<translation id="2065405795449409761">Chrome is being controlled by automated test software.</translation>
+<translation id="2065405795449409761">Brave is being controlled by automated test software.</translation>
 <translation id="2068054174185416762">Frame Rate</translation>
 <translation id="2070909990982335904">Names starting with dot are reserved for the system. Please choose another name.</translation>
 <translation id="2071393345806050157">No local log file.</translation>
@@ -723,10 +723,10 @@
 <translation id="2080070583977670716">More settings</translation>
 <translation id="2085470240340828803">A file named "<ph name="FILENAME" />" already exists. What do you want to do?</translation>
 <translation id="2087822576218954668">Print: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">Browse safely with Google Chrome</translation>
+<translation id="2089566709556890888">Browse safely with Brave</translation>
 <translation id="2090165459409185032">To recover your account information, go to: google.com/accounts/recovery</translation>
 <translation id="2090876986345970080">System security setting</translation>
-<translation id="2097372108957554726">You need to sign in to Chrome to register new devices</translation>
+<translation id="2097372108957554726">You need to sign in to Brave to register new devices</translation>
 <translation id="2098305189700762159">Not Found</translation>
 <translation id="2099172618127234427">You are enabling Chrome OS debugging features which will set up sshd daemon and enable booting from USB drives.</translation>
 <translation id="2099686503067610784">Delete server certificate "<ph name="CERTIFICATE_NAME" />"?</translation>
@@ -846,13 +846,13 @@
 <translation id="2242687258748107519">File Info</translation>
 <translation id="2245240762616536227">Control how your browsing history personalises Search, ads and other Google services</translation>
 <translation id="2246340272688122454">Downloading recovery image...</translation>
-<translation id="2249499294612408921">A supervised user can explore the web with your guidance. As the manager of a supervised user in Chrome, you can:-
+<translation id="2249499294612408921">A supervised user can explore the web with your guidance. As the manager of a supervised user in Brave, you can:-
 
  • allow or prohibit certain websites,
  • review websites that the supervised user has visited, and
  • manage other settings.
 
-Creating a supervised user does not create a Google account, and their bookmarks, browsing history and other preferences will not follow them to other devices with Chrome Sync.
+Creating a supervised user does not create a Google account, and their bookmarks, browsing history and other preferences will not follow them to other devices with Brave Sync.
 
 After you create a new supervised user, you can manage their settings at any time, from any device, at <ph name="DISPLAY_LINK" />. <ph name="BEGIN_LINK" />Find out more about supervised users<ph name="END_LINK" /></translation>
 <translation id="2249605167705922988">e.g. 1-5, 8, 11-13</translation>
@@ -905,7 +905,7 @@ After you create a new supervised user, you can manage their settings at any tim
 <translation id="2318817390901984578">To use Android apps, charge &amp; update your <ph name="DEVICE_TYPE" />.</translation>
 <translation id="2318923050469484167">Current incognito session (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">Headers and footers</translation>
-<translation id="2325650632570794183">This file type is not supported. Please visit the Chrome Web Store to find an app that can open this type of file.</translation>
+<translation id="2325650632570794183">This file type is not supported. Please visit the Brave Web Store to find an app that can open this type of file.</translation>
 <translation id="2326606747676847821">Go incognito</translation>
 <translation id="2326931316514688470">&amp;Reload app</translation>
 <translation id="2327492829706409234">Enable app</translation>
@@ -930,7 +930,7 @@ After you create a new supervised user, you can manage their settings at any tim
 <translation id="2352467521400612932">Stylus settings</translation>
 <translation id="2352662711729498748">&lt; 1 MB</translation>
 <translation id="2356070529366658676">Ask</translation>
-<translation id="2357949918965361754">You can use this feature to display content from Chrome on your TV or other devices.</translation>
+<translation id="2357949918965361754">You can use this feature to display content from Brave on your TV or other devices.</translation>
 <translation id="2359345697448000899">Manage your extensions by clicking Extensions in the Tools menu.</translation>
 <translation id="2359808026110333948">Continue</translation>
 <translation id="236141728043665931">Always block microphone access</translation>
@@ -1090,11 +1090,11 @@ I don't think this site should be blocked!</translation>
 <translation id="2585116156172706706">This extension may have been added without your knowledge.</translation>
 <translation id="2585300050980572691">Default search settings</translation>
 <translation id="2587203970400270934">Operator code:</translation>
-<translation id="2587922270115112871">Creating a supervised user does not create a Google account, and their settings and data will not follow them to other devices with Chrome Sync. A supervised user applies only to this device.</translation>
+<translation id="2587922270115112871">Creating a supervised user does not create a Google account, and their settings and data will not follow them to other devices with Brave Sync. A supervised user applies only to this device.</translation>
 <translation id="258932246702879617">Select <ph name="BEGIN_BOLD" />Pin to taskbar<ph name="END_BOLD" /></translation>
 <translation id="259421303766146093">Demagnify</translation>
 <translation id="2594999711683503743">Search Google or type URL</translation>
-<translation id="2597852038534460976">Chrome cannot access wallpapers. Please connect to a network.</translation>
+<translation id="2597852038534460976">Brave cannot access wallpapers. Please connect to a network.</translation>
 <translation id="2603463522847370204">Open in &amp;Incognito window</translation>
 <translation id="2607101320794533334">Subject Public Key Info</translation>
 <translation id="2607459012323956820">Settings and browsing history for this supervised user may still be visible by the manager at <ph name="BEGIN_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_LINK" />.</translation>
@@ -1119,7 +1119,7 @@ I don't think this site should be blocked!</translation>
 <translation id="2633212996805280240">Remove "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="263325223718984101"><ph name="PRODUCT_NAME" /> couldn't complete installation, but will continue to run from its disk image.</translation>
 <translation id="2635276683026132559">Signing</translation>
-<translation id="2636625531157955190">Chrome cannot access the image.</translation>
+<translation id="2636625531157955190">Brave cannot access the image.</translation>
 <translation id="2638087589890736295">Passphrase required to start sync</translation>
 <translation id="2638286699381354126">Update...</translation>
 <translation id="2638942478653899953">Google Drive could not be reached. Please <ph name="BEGIN_LINK" />log out<ph name="END_LINK" /> and log back in.</translation>
@@ -1137,13 +1137,13 @@ I don't think this site should be blocked!</translation>
 <translation id="2655386581175833247">User certificate:</translation>
 <translation id="2660779039299703961">Event</translation>
 <translation id="2661146741306740526">16 x 9</translation>
-<translation id="2662876636500006917">Chrome Web Store</translation>
+<translation id="2662876636500006917">Brave Web Store</translation>
 <translation id="2663302507110284145">Language</translation>
 <translation id="2665394472441560184">Add a new word</translation>
 <translation id="2665717534925640469">This page is now full screen and has disabled your mouse cursor.</translation>
 <translation id="2665919335226618153">Oh no! There was an error during formatting.</translation>
 <translation id="2667463864537187133">Manage spell check</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> is sharing a Chrome tab.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> is sharing a Brave tab.</translation>
 <translation id="2670531586141364277">Activation of '<ph name="NAME" />' requires a network connection.</translation>
 <translation id="2671451824761031126">Your bookmarks and settings are ready</translation>
 <translation id="2672142220933875349">Bad crx file, unpacking failed.</translation>
@@ -1306,7 +1306,7 @@ I don't think this site should be blocked!</translation>
 <translation id="2872353916818027657">Swap primary monitor</translation>
 <translation id="287286579981869940">Add <ph name="PROVIDER_NAME" />...</translation>
 <translation id="2872961005593481000">Shut down</translation>
-<translation id="2875698561019555027">(Chrome error pages)</translation>
+<translation id="2875698561019555027">(Brave error pages)</translation>
 <translation id="288042212351694283">Access your Universal 2nd Factor devices</translation>
 <translation id="2881966438216424900">Last accessed:</translation>
 <translation id="2882943222317434580"><ph name="IDS_SHORT_PRODUCT_NAME" /> will restart and reset momentarily</translation>
@@ -1411,13 +1411,13 @@ I don't think this site should be blocked!</translation>
 <translation id="3021678814754966447">&amp;View Frame Source</translation>
 <translation id="3024374909719388945">Use 24-hour clock</translation>
 <translation id="302781076327338683">Reload bypassing cache</translation>
-<translation id="3030243755303701754">A supervised user can explore the web with your guidance. As the manager of a supervised user in Chrome, you can:
+<translation id="3030243755303701754">A supervised user can explore the web with your guidance. As the manager of a supervised user in Brave, you can:
 
  • allow or prohibit certain websites,
  • review websites the supervised user has visited, and
  • manage other settings.
 
-Creating a supervised user does not create a Google account, and their bookmarks, browsing history and other preferences will not follow them to other devices with Chrome Sync. After you create a new supervised user, you can manage their settings at any time, from any device, at <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
+Creating a supervised user does not create a Google account, and their bookmarks, browsing history and other preferences will not follow them to other devices with Brave Sync. After you create a new supervised user, you can manage their settings at any time, from any device, at <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
 
 For more information, visit our <ph name="BEGIN_LINK" />Help Centre<ph name="END_LINK" />.</translation>
 <translation id="3031417829280473749">Agent X</translation>
@@ -1443,7 +1443,7 @@ For more information, visit our <ph name="BEGIN_LINK" />Help Centre<ph name="END
 <translation id="3067198360141518313">Run this plug-in</translation>
 <translation id="3074037959626057712">You've signed in and turned on Sync</translation>
 <translation id="3075874217500066906">A restart is required to begin the Powerwash process. After restart you will be asked to confirm that you want to proceed.</translation>
-<translation id="3076677906922146425">Let anyone add a person to Chrome</translation>
+<translation id="3076677906922146425">Let anyone add a person to Brave</translation>
 <translation id="3076909148546628648"><ph name="DOWNLOAD_RECEIVED" />/<ph name="DOWNLOAD_TOTAL" /></translation>
 <translation id="3077734595579995578">shift</translation>
 <translation id="3078461028045006476">Share with <ph name="EXTENSION_NAME" /></translation>
@@ -1455,7 +1455,7 @@ For more information, visit our <ph name="BEGIN_LINK" />Help Centre<ph name="END
 <translation id="3082780749197361769">This tab is using your camera or microphone.</translation>
 <translation id="308330327687243295">https://mail.google.com/mail/?extsrc=mailto&amp;url=%s</translation>
 <translation id="3084548735795614657">Drop to install</translation>
-<translation id="3084771660770137092">Either Chrome ran out of memory or the process for the web page was terminated for some other reason. To continue, reload or go to another page.</translation>
+<translation id="3084771660770137092">Either Brave ran out of memory or the process for the web page was terminated for some other reason. To continue, reload or go to another page.</translation>
 <translation id="3085752524577180175">SOCKS Host</translation>
 <translation id="3088325635286126843">&amp;Rename...</translation>
 <translation id="308903551226753393">Configure automatically</translation>
@@ -1497,7 +1497,7 @@ Please check your email at <ph name="ACCOUNT_EMAIL" /> for these and further ins
 <translation id="3144126448740580210">DONE</translation>
 <translation id="3144135466825225871">Failed to replace crx file. Check to see if the file is in use.</translation>
 <translation id="3144647712221361880">Open link as</translation>
-<translation id="3149510190863420837">Chrome Apps</translation>
+<translation id="300669147395456190">Brave Apps</translation>
 <translation id="3150927491400159470">Hard Reload</translation>
 <translation id="315116470104423982">Mobile data</translation>
 <translation id="3151539355209957474">Start Time</translation>
@@ -1579,9 +1579,9 @@ Please check your email at <ph name="ACCOUNT_EMAIL" /> for these and further ins
 <translation id="3274763671541996799">You have gone full screen.</translation>
 <translation id="3275778913554317645">Open as window</translation>
 <translation id="3280237271814976245">Save &amp;as...</translation>
-<translation id="3280243678470289153">Stay in Chrome</translation>
+<translation id="3280243678470289153">Stay in Brave</translation>
 <translation id="3280431534455935878">Preparing</translation>
-<translation id="3282568296779691940">Sign in to Chrome</translation>
+<translation id="82609232232243542">Sign in to Brave</translation>
 <translation id="3285322247471302225">New &amp;Tab</translation>
 <translation id="3288047731229977326">Extensions running in developer mode can harm your computer. If you're not a developer, you should disable these extensions running in developer mode to stay safe.</translation>
 <translation id="3289856944988573801">To check for updates, please use Ethernet or Wi-Fi.</translation>
@@ -1626,7 +1626,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3326821416087822643">Zipping <ph name="FILE_NAME" />...</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">App info</translation>
-<translation id="3335561837873115802">Get the Chrome Clean-Up Tool</translation>
+<translation id="3335561837873115802">Get the Brave Clean-Up Tool</translation>
 <translation id="3335947283844343239">Re-open Closed Tab</translation>
 <translation id="3337069537196930048"><ph name="PLUGIN_NAME" /> was blocked because it is out of date.</translation>
 <translation id="3340978935015468852">settings</translation>
@@ -1647,7 +1647,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="335985608243443814">Browse...</translation>
 <translation id="3360297538363969800">Printing failed. Please check your printer and try again.</translation>
 <translation id="3364721542077212959">Stylus tools</translation>
-<translation id="336497260564123876">Password saved. To get your passwords on all your devices, sign in to Chrome.</translation>
+<translation id="336497260564123876">Password saved. To get your passwords on all your devices, sign in to Brave.</translation>
 <translation id="3367813778245106622">Sign in again to start sync</translation>
 <translation id="3368922792935385530">Connected</translation>
 <translation id="3369624026883419694">Resolving host...</translation>
@@ -1771,7 +1771,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3547495624659668105">PRL Version</translation>
 <translation id="3547954654003013442">Proxy settings</translation>
 <translation id="3549797760399244642">Go to drive.google.com...</translation>
-<translation id="3550915441744863158">Chrome updates automatically so you always have the freshest version</translation>
+<translation id="3550915441744863158">Brave updates automatically so you always have the freshest version</translation>
 <translation id="3551117997325569860">To change proxy, enable "<ph name="USE_SHARED_PROXIES" />" setting.</translation>
 <translation id="3551320343578183772">Close Tab</translation>
 <translation id="3555812735919707620">Remove extension</translation>
@@ -1851,7 +1851,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
     <ph name="BEGIN_PARAGRAPH2" />Backup data will not count towards your Drive storage quota. Large files, or files developers have chosen to exclude from the service, will not be backed up.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="3660234220361471169">Untrusted</translation>
 <translation id="3661054927247347545">Sign in certification is not valid, window closing in <ph name="MINUTES" /> : <ph name="SECONDS" /></translation>
-<translation id="3665589677786828986">Chrome detected that some of your settings were corrupted by another program and reset them to their original defaults.</translation>
+<translation id="3665589677786828986">Brave detected that some of your settings were corrupted by another program and reset them to their original defaults.</translation>
 <translation id="3665842570601375360">Security:</translation>
 <translation id="3668570675727296296">Language settings</translation>
 <translation id="3668823961463113931">Handlers</translation>
@@ -1871,7 +1871,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3693415264595406141">Password:</translation>
 <translation id="3694027410380121301">Select Previous Tab</translation>
 <translation id="3695919544155087829">Please enter the password that was used to encrypt this certificate file.</translation>
-<translation id="3697100740575341996">Your IT administrator has disabled Chrome Goodies for your device. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="3697100740575341996">Your IT administrator has disabled Brave Goodies for your device. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="3699624789011381381">Email address</translation>
 <translation id="3702500414347826004">Your start-up pages were changed to include <ph name="URL" />.</translation>
 <translation id="3704162925118123524">The network that you are using may require you to visit its log-in page.</translation>
@@ -1890,7 +1890,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3718288130002896473">Behaviour</translation>
 <translation id="3719826155360621982">Homepage</translation>
 <translation id="3722396466546931176">Add languages and drag to order them, based on your preference.</translation>
-<translation id="3723158278575423087">Welcome to the Cast experience in Chromium!</translation>
+<translation id="3723158278575423087">Welcome to the Cast experience in Brave!</translation>
 <translation id="3725367690636977613">pages</translation>
 <translation id="3726463242007121105">This device cannot be opened because its file system is not supported.</translation>
 <translation id="3726527440140411893">The following cookies were set when you viewed this page:</translation>
@@ -1927,7 +1927,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3768037234834996183">Syncing your preferences...</translation>
 <translation id="3771294271822695279">Video Files</translation>
 <translation id="3775432569830822555">SSL Server Certificate</translation>
-<translation id="3776796446459804932">This extension violates the Chrome Web Store policy.</translation>
+<translation id="3776796446459804932">This extension violates the Brave Web Store policy.</translation>
 <translation id="3778152852029592020">Download was cancelled.</translation>
 <translation id="3778740492972734840">&amp;Developer tools</translation>
 <translation id="3778868487658107119">Ask it questions. Tell it to do things. It's your personal Google, always ready to help.</translation>
@@ -1962,7 +1962,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="381202950560906753">Add another</translation>
 <translation id="3812034401428455285"><ph name="UWS_NAME" /> and <ph name="UWS_NAME" /></translation>
 <translation id="3812525830114410218">Bad certificate</translation>
-<translation id="3813296892522778813">Go to <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome help<ph name="END_LINK_CHROMIUM" /> if you can't find what you're looking for</translation>
+<translation id="3813296892522778813">Go to <ph name="BEGIN_LINK_CHROMIUM" />Brave help<ph name="END_LINK_CHROMIUM" /> if you can't find what you're looking for</translation>
 <translation id="3813984289128269159">Ok Google</translation>
 <translation id="3815571115159309122"><ph name="FILE_COUNT" /> new photos found
     <ph name="LINE_BREAK1" />
@@ -2002,7 +2002,7 @@ From <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3857773447683694438">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</translation>
 <translation id="3859360505208332355">Always allow these plug-ins on <ph name="HOST" /></translation>
 <translation id="3860381078714302691">Welcome to Hangouts Meet</translation>
-<translation id="3862134173397075045">Welcome to the Cast experience in Chrome!</translation>
+<translation id="3862134173397075045">Welcome to the Cast experience in Brave!</translation>
 <translation id="3865414814144988605">Resolution</translation>
 <translation id="386548886866354912">Pack with <ph name="EXTENSION_NAME" /></translation>
 <translation id="3866249974567520381">Description</translation>
@@ -2187,7 +2187,7 @@ All users must sign out to continue.</translation>
 <translation id="4158739975813877944">Open play list</translation>
 <translation id="4159681666905192102">This is an account for kids managed by <ph name="CUSTODIAN_EMAIL" /> and <ph name="SECOND_CUSTODIAN_EMAIL" />.</translation>
 <translation id="4163560723127662357">Unknown keyboard</translation>
-<translation id="4166210099837486476">Monitor when you take actions in Chrome</translation>
+<translation id="4166210099837486476">Monitor when you take actions in Brave</translation>
 <translation id="4168015872538332605">Some settings belonging to <ph name="PRIMARY_EMAIL" /> are being shared with you. These settings only affect your account when using multiple sign-in.</translation>
 <translation id="4172051516777682613">Always show</translation>
 <translation id="4175737294868205930">Persistent storage</translation>
@@ -2367,7 +2367,7 @@ Press any key to continue exploring.</translation>
 <translation id="445891990714234385">ChromeVox Settings</translation>
 <translation id="445923051607553918">Join Wi-Fi network</translation>
 <translation id="4462159676511157176">Custom name servers</translation>
-<translation id="4467100756425880649">Chrome Web Store Gallery</translation>
+<translation id="4467100756425880649">Brave Web Store Gallery</translation>
 <translation id="4474155171896946103">Bookmark all tabs...</translation>
 <translation id="4475552974751346499">Search downloads</translation>
 <translation id="4476590490540813026">Athlete</translation>
@@ -2388,7 +2388,7 @@ Press any key to continue exploring.</translation>
 <translation id="451407183922382411">Powered by <ph name="COMPANY_NAME" /></translation>
 <translation id="4514542542275172126">Set up new supervised user</translation>
 <translation id="451515744433878153">Remove</translation>
-<translation id="4518677423782794009">Is Chrome crashing, showing unusual start-up pages, toolbars or unexpected ads you can't get rid of, or otherwise changing your browsing experience? You may be able to fix the problem by running the Chrome Clean-Up Tool.</translation>
+<translation id="4518677423782794009">Is Brave crashing, showing unusual start-up pages, toolbars or unexpected ads you can't get rid of, or otherwise changing your browsing experience? You may be able to fix the problem by running the Brave Clean-Up Tool.</translation>
 <translation id="452039078290142656">unknown devices from <ph name="VENDOR_NAME" /></translation>
 <translation id="4522570452068850558">Details</translation>
 <translation id="4530494379350999373">Origin</translation>
@@ -2406,10 +2406,10 @@ Press any key to continue exploring.</translation>
 <translation id="4544174279960331769">Default blue avatar</translation>
 <translation id="4545028762441890696">To re-enable it, accept the new permissions:</translation>
 <translation id="4545759655004063573">Cannot save due to insufficient permissions. Please save to another location.</translation>
-<translation id="4546308221697447294">Browse fast with Google Chrome</translation>
+<translation id="4546308221697447294">Browse fast with Brave</translation>
 <translation id="4547659257713117923">No Tabs From Other Devices</translation>
 <translation id="4547992677060857254">The folder that you selected contains sensitive files. Are you sure that you want to grant "$1" permanent write access to this folder?</translation>
-<translation id="4552031286893852992">Chrome blocked ads on this site because this site tends to show intrusive ads.</translation>
+<translation id="4552031286893852992">Brave blocked ads on this site because this site tends to show intrusive ads.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552495056028768700">Page Access</translation>
 <translation id="4552678318981539154">Buy more storage</translation>
@@ -2467,7 +2467,7 @@ Press any key to continue exploring.</translation>
 <translation id="4634771451598206121">Sign in again...</translation>
 <translation id="4636315944522859212">Printer found</translation>
 <translation id="4640525840053037973">Sign in with your Google Account</translation>
-<translation id="4641539339823703554">Chrome was unable to set the system time. Please check the time below and correct it if needed.</translation>
+<translation id="4641539339823703554">Brave was unable to set the system time. Please check the time below and correct it if needed.</translation>
 <translation id="4643612240819915418">&amp;Open Video in New Tab</translation>
 <translation id="4645676300727003670">&amp;Keep</translation>
 <translation id="4647090755847581616">&amp;Close Tab</translation>
@@ -2476,7 +2476,7 @@ Press any key to continue exploring.</translation>
 <translation id="4648499713050786492">Please unlock your profile before adding a person.</translation>
 <translation id="4653235815000740718">There was a problem while creating OS recovery media. Used storage device could not be found.</translation>
 <translation id="4654488276758583406">Very Small</translation>
-<translation id="465499440663162826">Could not connect to the Chrome Web Store.</translation>
+<translation id="465499440663162826">Could not connect to the Brave Web Store.</translation>
 <translation id="4656293982926141856">This computer</translation>
 <translation id="4657031070957997341">Always allow plug-ins on <ph name="HOST" /></translation>
 <translation id="4658312088164718891">Enter your password to turn on Smart Lock. Next time, your phone will unlock your <ph name="DEVICE_TYPE" />. Turn off Smart Lock in Settings.</translation>
@@ -2514,7 +2514,7 @@ Press any key to continue exploring.</translation>
 <translation id="4708849949179781599">Quit <ph name="PRODUCT_NAME" /></translation>
 <translation id="4709423352780499397">Locally Stored Data</translation>
 <translation id="4711638718396952945">Restore settings</translation>
-<translation id="4713544552769165154">This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /> for a suitable replacement app.<ph name="BEGIN_LINK_HELP" />Learn More<ph name="END_LINK_HELP" /></translation>
+<translation id="4713544552769165154">This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /> for a suitable replacement app.<ph name="BEGIN_LINK_HELP" />Learn More<ph name="END_LINK_HELP" /></translation>
 <translation id="4714531393479055912"><ph name="PRODUCT_NAME" /> can now sync your passwords.</translation>
 <translation id="4715553623069266137">very short (0.8s)</translation>
 <translation id="471800408830181311">Failed to output private key.</translation>
@@ -2529,7 +2529,7 @@ Press any key to continue exploring.</translation>
 <translation id="4731422630970790516">Shelf item 3</translation>
 <translation id="473221644739519769">Adding your printers to Google Cloud Print allows you to print from
           anywhere, to anywhere. Share your printers with whoever you choose and
-          print to them from Chrome, your phone, tablet, PC or any other
+          print to them from Brave, your phone, tablet, PC or any other
           web-connected device.</translation>
 <translation id="4732760563705710320">Sorry, this video is not supported by your cast device.</translation>
 <translation id="4734518477988699048">Input value is invalid.</translation>
@@ -2540,7 +2540,7 @@ Press any key to continue exploring.</translation>
 <translation id="4742746985488890273">Pin to Shelf</translation>
 <translation id="4744574733485822359">Your download has completed</translation>
 <translation id="4746971725921104503">Looks like you're already managing a user by that name. Did you want to <ph name="LINK_START" />import <ph name="USER_DISPLAY_NAME" /> to this device<ph name="LINK_END" />?</translation>
-<translation id="4748762018725435655">Requires extension from the Chrome Web Store</translation>
+<translation id="4748762018725435655">Requires extension from the Brave Web Store</translation>
 <translation id="4750394297954878236">Suggestions</translation>
 <translation id="475088594373173692">First user</translation>
 <translation id="4755351698505571593">These settings may only be modified by the owner:</translation>
@@ -2591,7 +2591,7 @@ Press any key to continue exploring.</translation>
 <translation id="4829768588131278040">Set up PIN</translation>
 <translation id="4830502475412647084">Installing OS update</translation>
 <translation id="4830573902900904548">Your <ph name="DEVICE_TYPE" /> is unable to connect to the Internet using <ph name="NETWORK_NAME" />. Please choose another network. <ph name="LEARN_MORE_LINK_START" />Find out more<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4835385943915508971">Chrome does not have access to the requested resource.</translation>
+<translation id="4835385943915508971">Brave does not have access to the requested resource.</translation>
 <translation id="4835836146030131423">Error signing in.</translation>
 <translation id="4837926214103741331">You are not authorised to use this device. Please contact the device owner for sign-in permission.</translation>
 <translation id="4837952862063191349">To unlock and restore your local data, please enter your old <ph name="DEVICE_TYPE" /> password.</translation>
@@ -2624,7 +2624,7 @@ Press any key to continue exploring.</translation>
 <translation id="48704129375571883">Add additional features</translation>
 <translation id="4870903493621965035">No paired devices</translation>
 <translation id="4871210892959306034">$1 KB</translation>
-<translation id="4871308555310586478">Not from Chrome Web Store.</translation>
+<translation id="4871308555310586478">Not from Brave Web Store.</translation>
 <translation id="4871370605780490696">Add bookmark</translation>
 <translation id="4871833665870725367">Do you want <ph name="PASSWORD_MANAGER_BRAND" /> to update your password for <ph name="ORIGIN" />?</translation>
 <translation id="4873312501243535625">Media File Checker</translation>
@@ -2654,7 +2654,7 @@ Press any key to continue exploring.</translation>
 <translation id="4900392736118574277">Your start-up page was changed to <ph name="URL" />.</translation>
 <translation id="490074449735753175">Use a web service to help resolve spelling errors</translation>
 <translation id="49027928311173603">The policy downloaded from the server is invalid: <ph name="VALIDATION_ERROR" />.</translation>
-<translation id="4903369323166982260">Run Chrome Clean-Up Tool</translation>
+<translation id="4903369323166982260">Run Brave Clean-Up Tool</translation>
 <translation id="4907161631261076876">This file is not commonly downloaded and may be dangerous.</translation>
 <translation id="4907306957610201395">Permission Category</translation>
 <translation id="4909038193460299775">Because this account is managed by <ph name="DOMAIN" />, your bookmarks, history, passwords and other settings will be cleared from this device. However, your data will remain stored in your Google account and can be managed on <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" />.</translation>
@@ -2688,7 +2688,7 @@ Press any key to continue exploring.</translation>
 <translation id="4950138595962845479">Options...</translation>
 <translation id="4953808748584563296">Default orange avatar</translation>
 <translation id="4955814292505481804">Annual</translation>
-<translation id="495931528404527476">In Chrome</translation>
+<translation id="6078442581074612226">In Brave</translation>
 <translation id="496226124210045887">The folder that you selected contains sensitive files. Are you sure that you want to grant "$1" permanent read access to this folder?</translation>
 <translation id="4964455510556214366">Arrangement</translation>
 <translation id="4964673849688379040">Checking...</translation>
@@ -2709,7 +2709,7 @@ Press any key to continue exploring.</translation>
 <translation id="4988792151665380515">Failed to export public key.</translation>
 <translation id="49896407730300355">Rotate a&amp;nti-clockwise</translation>
 <translation id="4989966318180235467">Inspect &amp;background page</translation>
-<translation id="4990343175649730969">Download Chrome Clean-Up Tool</translation>
+<translation id="4990343175649730969">Download Brave Clean-Up Tool</translation>
 <translation id="4991420928586866460">Treat top-row keys as function keys</translation>
 <translation id="499165176004408815">Use high contrast mode</translation>
 <translation id="4992066212339426712">Unmute</translation>
@@ -2930,7 +2930,7 @@ Press any key to continue exploring.</translation>
 <translation id="5316588172263354223">Voice search at any time</translation>
 <translation id="5316716239522500219">Mirror monitors</translation>
 <translation id="5317780077021120954">Save</translation>
-<translation id="5319359161174645648">Google recommends Chrome</translation>
+<translation id="5319359161174645648">Google recommends Brave</translation>
 <translation id="532247166573571973">The server may be unreachable. Try again later.</translation>
 <translation id="532360961509278431">Unable to open "$1": $2</translation>
 <translation id="5324780743567488672">Set time zone automatically using your location</translation>
@@ -2954,7 +2954,7 @@ Press any key to continue exploring.</translation>
 <translation id="534916491091036097">Left paren</translation>
 <translation id="5350965906220856151">Uh-oh!</translation>
 <translation id="5352033265844765294">Time Stamping</translation>
-<translation id="5353252989841766347">Export Passwords From Chrome</translation>
+<translation id="5353252989841766347">Export Passwords From Brave</translation>
 <translation id="5355097969896547230">Find again</translation>
 <translation id="5355926466126177564">The extension "<ph name="EXTENSION_NAME" />" has changed the page that is shown when you search from the Omnibox.</translation>
 <translation id="5360150013186312835">Show in Toolbar</translation>
@@ -2965,7 +2965,7 @@ Press any key to continue exploring.</translation>
 <translation id="5368720394188453070">Your phone is locked. Unlock it to enter.</translation>
 <translation id="5368779022775404937">Sign in to <ph name="REALM" /></translation>
 <translation id="5369733589844510457">This action will permanently delete this user’s downloads, offline files, browsing data and Android storage. This cannot be undone.</translation>
-<translation id="5369927996833026114">Discover the Chrome App Launcher</translation>
+<translation id="5369927996833026114">Discover the Brave App Launcher</translation>
 <translation id="5370819323174483825">&amp;Reload</translation>
 <translation id="5372529912055771682">The supplied enrolment mode is not supported by this version of the operating system. Please make sure you are running the newest version and try again.</translation>
 <translation id="5374359983950678924">Change picture</translation>
@@ -3068,7 +3068,7 @@ Press any key to continue exploring.</translation>
 <translation id="5511823366942919280">Are you sure that you want to set up this device as a "Shark"?</translation>
 <translation id="5512653252560939721">User certificate must be hardware-backed.</translation>
 <translation id="5513242761114685513">Context menu</translation>
-<translation id="5516183516694518900">Sign in to Chrome with your Google Account to get your bookmarks, history, passwords and other settings on all your devices.</translation>
+<translation id="5516183516694518900">Sign in to Brave with your Google Account to get your bookmarks, history, passwords and other settings on all your devices.</translation>
 <translation id="551752069230578406">Adding the printer to your account - this may take a moment...</translation>
 <translation id="5518584115117143805">Email Encryption Certificate</translation>
 <translation id="5521010850848859697">Server 2</translation>
@@ -3152,7 +3152,7 @@ Press any key to continue exploring.</translation>
 <translation id="5624120631404540903">Manage passwords</translation>
 <translation id="5626134646977739690">Name:</translation>
 <translation id="5627086634964711283">It also controls what page is shown when you click the Home button.</translation>
-<translation id="5627676517703583263">Browse smart with Chrome</translation>
+<translation id="5627676517703583263">Browse smart with Brave</translation>
 <translation id="562935524653278697">Your administrator has disabled syncing of your bookmarks, history, passwords and other settings.</translation>
 <translation id="563535393368633106">Ask before accessing (recommended)</translation>
 <translation id="5636996382092289526">To use <ph name="NETWORK_ID" /> you may first need to <ph name="LINK_START" />visit the network's sign-in page<ph name="LINK_END" />, which will open automatically in a few seconds. If it doesn't happen, the network can't be used.</translation>
@@ -3239,7 +3239,7 @@ Press any key to continue exploring.</translation>
 <translation id="5774295353725270860">Open Files app</translation>
 <translation id="5774515636230743468">Manifest:</translation>
 <translation id="577624874850706961">Search cookies</translation>
-<translation id="5777468213129569553">Open Chrome</translation>
+<translation id="5777468213129569553">Open Brave</translation>
 <translation id="5778550464785688721">MIDI devices full control</translation>
 <translation id="5778747455497889540">Below is the randomly generated secure module password that has been assigned to your computer:</translation>
 <translation id="5780066559993805332">(Best)</translation>
@@ -3252,7 +3252,7 @@ Press any key to continue exploring.</translation>
 <translation id="5788367137662787332">Sorry, at least one partition on the device <ph name="DEVICE_LABEL" /> could not be mounted.</translation>
 <translation id="5790085346892983794">Success</translation>
 <translation id="5794414402486823030">Always open with system viewer</translation>
-<translation id="5794786537412027208">Quit all Chrome Apps</translation>
+<translation id="5794786537412027208">Quit all Brave Apps</translation>
 <translation id="5800020978570554460">Destination file was truncated or removed since last download.</translation>
 <translation id="5801379388827258083">Downloading spell check dictionary...</translation>
 <translation id="5801568494490449797">Preferences</translation>
@@ -3288,7 +3288,7 @@ Press any key to continue exploring.</translation>
 <translation id="5848934677402291689">Saving to PDF in progress</translation>
 <translation id="5849570051105887917">Home provider code</translation>
 <translation id="5849869942539715694">Pack extension...</translation>
-<translation id="5850516540536751549">This file type is not supported. Please visit the <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /> to find an app that can open this type of file.
+<translation id="5850516540536751549">This file type is not supported. Please visit the <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /> to find an app that can open this type of file.
     <ph name="BEGIN_LINK_HELP" />Learn More<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">Nothing to see here...</translation>
 <translation id="5851868085455377790">Issuer</translation>
@@ -3346,7 +3346,7 @@ Press any key to continue exploring.</translation>
 <translation id="5921745308587794300">Rotate window</translation>
 <translation id="5924047253200400718">Get help<ph name="SCANNING_STATUS" /></translation>
 <translation id="5925147183566400388">Certification Practice Statement Pointer</translation>
-<translation id="592880897588170157">Download PDF files instead of automatically opening them in Chrome</translation>
+<translation id="592880897588170157">Download PDF files instead of automatically opening them in Brave</translation>
 <translation id="5931146425219109062">Read and change all your data on the websites that you visit</translation>
 <translation id="5932881020239635062">Serial</translation>
 <translation id="5933376509899483611">Time Zone</translation>
@@ -3360,7 +3360,7 @@ Press any key to continue exploring.</translation>
 <translation id="5948205789991352045">Don't open</translation>
 <translation id="5948544841277865110">Add private network</translation>
 <translation id="5949544233750246342">Unable to parse file</translation>
-<translation id="5950993829859400777">If you turn off Smart Lock, you won’t be able to unlock your Chrome devices using your phone. You'll need to type your password.</translation>
+<translation id="5950993829859400777">If you turn off Smart Lock, you won’t be able to unlock your Brave devices using your phone. You'll need to type your password.</translation>
 <translation id="5951823343679007761">No battery</translation>
 <translation id="5955282598396714173">Your password has expired. Please sign out then sign in again to change it.</translation>
 <translation id="5956585768868398362">Is this the search page that you were expecting?</translation>
@@ -3417,8 +3417,8 @@ Press any key to continue exploring.</translation>
 <translation id="604124094241169006">Automatic</translation>
 <translation id="6042169520002885235">Select a printer manufacturer and model</translation>
 <translation id="6042308850641462728">More</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> is sharing a Chrome tab with <ph name="TAB_NAME" />.</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> is sharing a Chrome tab and audio with <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> is sharing a Brave tab with <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> is sharing a Brave tab and audio with <ph name="TAB_NAME" />.</translation>
 <translation id="6049065490165456785">Photo from internal camera</translation>
 <translation id="6051354611314852653">Oops!  The system failed to authorise API access for this device.</translation>
 <translation id="6052976518993719690">SSL Certification Authority</translation>
@@ -3493,7 +3493,7 @@ Press any key to continue exploring.</translation>
 <translation id="6163522313638838258">Expand all...</translation>
 <translation id="6164005077879661055">All files and local data associated with the supervised user will be permanently deleted once this supervised user is removed. Visited websites and settings for this supervised user may still be visible by the manager at <ph name="MANAGEMENT_URL" />.</translation>
 <translation id="6165508094623778733">Learn more</translation>
-<translation id="6166185671393271715">Import Passwords To Chrome</translation>
+<translation id="6166185671393271715">Import Passwords To Brave</translation>
 <translation id="6169666352732958425">Unable to cast desktop.</translation>
 <translation id="6171948306033499786">Pause printing</translation>
 <translation id="6175314957787328458">Microsoft Domain GUID</translation>
@@ -3522,7 +3522,7 @@ Press any key to continue exploring.</translation>
 <translation id="6220413761270491930">Error Loading Extension</translation>
 <translation id="6223447490656896591">Custom Image:</translation>
 <translation id="6223747324484398595">To use Instant Tethering, turn on Bluetooth</translation>
-<translation id="62243461820985415">Chrome cannot download this wallpaper.</translation>
+<translation id="62243461820985415">Brave cannot download this wallpaper.</translation>
 <translation id="6224481128663248237">Formatting finished successfully!</translation>
 <translation id="6225378837831321064"><ph name="DEVICE_NAME" />: Connecting...</translation>
 <translation id="6225475702458870625">Data connection available from your <ph name="PHONE_NAME" /></translation>
@@ -3561,7 +3561,7 @@ Press any key to continue exploring.</translation>
 <translation id="6270770586500173387">Send <ph name="BEGIN_LINK1" />system and app information<ph name="END_LINK1" />, and <ph name="BEGIN_LINK2" />metrics<ph name="END_LINK2" /></translation>
 <translation id="6272643420381259437">There was an error (<ph name="ERROR" />) while downloading the plug-in</translation>
 <translation id="6273677812470008672">Quality</translation>
-<translation id="6274087148640822908">Find extensions and apps in the <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /></translation>
+<translation id="6274087148640822908">Find extensions and apps in the <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /></translation>
 <translation id="62751439899495218">Change photo</translation>
 <translation id="6276301056778294989">Make sure that the device is showing the same code.</translation>
 <translation id="6277105963844135994">Network timeout</translation>
@@ -3575,7 +3575,7 @@ Press any key to continue exploring.</translation>
 <translation id="6286684120317096255">Data use is being measured</translation>
 <translation id="6286708577777130801">Saved password details</translation>
 <translation id="6287852322318138013">Select an app to open this file</translation>
-<translation id="6290556621549272952">You can use this feature to display content from Chromium on your TV or other devices.</translation>
+<translation id="6290556621549272952">You can use this feature to display content from Brave on your TV or other devices.</translation>
 <translation id="6291953229176937411">&amp;Show in Finder</translation>
 <translation id="6295158916970320988">All sites</translation>
 <translation id="6295855836753816081">Saving...</translation>
@@ -3586,7 +3586,7 @@ Press any key to continue exploring.</translation>
 <translation id="6307722552931206656">Google name servers - <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
 <translation id="6307990684951724544">System busy</translation>
 <translation id="6308937455967653460">Save lin&amp;k as...</translation>
-<translation id="6311220991371174222">Cannot start Chrome because something went wrong when opening your profile. Try to restart Chrome.</translation>
+<translation id="6311220991371174222">Cannot start Brave because something went wrong when opening your profile. Try to restart Brave.</translation>
 <translation id="6312403991423642364">Unknown network error</translation>
 <translation id="6313641880021325787">EXIT VR</translation>
 <translation id="6314335155547195432">Generate Password</translation>
@@ -3598,7 +3598,7 @@ Press any key to continue exploring.</translation>
 <translation id="6317369057005134371">Waiting for application window...</translation>
 <translation id="6322279351188361895">Failed to read private key.</translation>
 <translation id="6325191661371220117">Disable auto-launch</translation>
-<translation id="6326175484149238433">Remove from Chrome</translation>
+<translation id="6326175484149238433">Remove from Brave</translation>
 <translation id="6326855256003666642">Keepalive Count</translation>
 <translation id="632744581670418035">Keyboard overlay</translation>
 <translation id="6327785803543103246">Web proxy auto-discovery</translation>
@@ -3738,7 +3738,7 @@ Press any key to continue exploring.</translation>
 <translation id="6509136331261459454">Manage other users...</translation>
 <translation id="6509207748479174212">Media licence</translation>
 <translation id="6510568984200103950">Fewer settings</translation>
-<translation id="6513247462497316522">Google Chrome will use mobile data if you're not connected to another network.</translation>
+<translation id="6513247462497316522">Brave will use mobile data if you're not connected to another network.</translation>
 <translation id="6514010653036109809">Available device:</translation>
 <translation id="6514565641373682518">This page has disabled your mouse cursor.</translation>
 <translation id="6518014396551869914">Cop&amp;y image</translation>
@@ -3751,14 +3751,14 @@ Press any key to continue exploring.</translation>
 <translation id="6527303717912515753">Share</translation>
 <translation id="6528513914570774834">Allow other users of this device to use this network</translation>
 <translation id="6528546217685656218">The private key for this client certificate is missing or invalid.</translation>
-<translation id="652948702951888897">Chrome history</translation>
+<translation id="652948702951888897">Brave history</translation>
 <translation id="653019979737152879">Syncing <ph name="FILE_NAME" />...</translation>
 <translation id="6531282281159901044">Keep dangerous file</translation>
 <translation id="6534583978616527129">Initialise the connection</translation>
 <translation id="654039047105555694"><ph name="BEGIN_BOLD" />Note:<ph name="END_BOLD" /> Only enable if you know what you are doing or if you have been asked to do so, as collection of data may reduce performance.</translation>
 <translation id="654233263479157500">Use a web service to help resolve navigation errors</translation>
 <translation id="6544215763872433504">The web browser by Google, for you</translation>
-<translation id="6545325945815270297">Manage your synced data and devices on <ph name="BEGIN_LINK" />Chrome Dashboard<ph name="END_LINK" />.</translation>
+<translation id="6545325945815270297">Manage your synced data and devices on <ph name="BEGIN_LINK" />Brave Dashboard<ph name="END_LINK" />.</translation>
 <translation id="6545665334409411530">Repeat rate</translation>
 <translation id="6545834809683560467">Use a prediction service to help complete searches and URLs typed in the address bar or the app launcher search box</translation>
 <translation id="6546686722964485737">Join WiMAX network</translation>
@@ -3938,12 +3938,12 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="6817358880000653228">Saved passwords for this site:</translation>
 <translation id="6820687829547641339">Gzip compressed tar archive</translation>
 <translation id="682123305478866682">Cast desktop</translation>
-<translation id="6823506025919456619">You need to sign in to Chrome to see your devices</translation>
+<translation id="6823506025919456619">You need to sign in to Brave to see your devices</translation>
 <translation id="6824564591481349393">Copy &amp;Email Address</translation>
 <translation id="6824725898506587159">Manage languages</translation>
 <translation id="6827236167376090743">This video will keep playing until the cows come home.</translation>
 <translation id="6828153365543658583">Restrict sign-in to the following users:</translation>
-<translation id="6828434191343384461">The selected data has been removed from Chrome and synced devices. Your Google Account may have other forms of browsing history like searches and activity from other Google services at <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />.</translation>
+<translation id="6828434191343384461">The selected data has been removed from Brave and synced devices. Your Google Account may have other forms of browsing history like searches and activity from other Google services at <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />.</translation>
 <translation id="6828860976882136098">Failed to set up automatic updates for all users (preflight execution error: <ph name="ERROR_NUMBER" />)</translation>
 <translation id="6829250331733125857">Get help with your <ph name="DEVICE_TYPE" />.</translation>
 <translation id="6829270497922309893">Enrol in your organisation</translation>
@@ -3974,7 +3974,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="6870888490422746447">Choose an app to share to:</translation>
 <translation id="6871644448911473373">OCSP Responder: <ph name="LOCATION" /></translation>
 <translation id="6874681241562738119">Sign-in Error</translation>
-<translation id="687588960939994211">Also clear your history, bookmarks, settings and other Chrome data stored on this device.</translation>
+<translation id="687588960939994211">Also clear your history, bookmarks, settings and other Brave data stored on this device.</translation>
 <translation id="6880587130513028875">Images were blocked on this page.</translation>
 <translation id="6883209331334683549"><ph name="PRODUCT_NAME" /> help</translation>
 <translation id="6883319974225028188">Oops!  The system failed to save device configuration.</translation>
@@ -4028,7 +4028,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="6976108581241006975">JavaScript console</translation>
 <translation id="6977381486153291903">Firmware revision</translation>
 <translation id="6978121630131642226">Search Engines</translation>
-<translation id="6978611942794658017">This file is designed for a PC using Windows software. This is not compatible with your device running Chrome OS. Please search the Chrome Web Store for a suitable replacement app.</translation>
+<translation id="6978611942794658017">This file is designed for a PC using Windows software. This is not compatible with your device running Chrome OS. Please search the Brave Web Store for a suitable replacement app.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6980462514016882061">Google may use your browsing history to personalise Search, ads and other Google services</translation>
 <translation id="6980956047710795611">Migrate all Chrome OS data to the new password
@@ -4156,7 +4156,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="715118844758971915">Classic printers</translation>
 <translation id="7154130902455071009">Change your start page to: <ph name="START_PAGE" /></translation>
 <translation id="7155171745945906037">Existing photo from camera or file</translation>
-<translation id="7156235233373189579">This file is designed for a PC using Windows software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /> for a suitable replacement app.<ph name="BEGIN_LINK_HELP" />Learn More<ph name="END_LINK_HELP" /></translation>
+<translation id="7156235233373189579">This file is designed for a PC using Windows software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /> for a suitable replacement app.<ph name="BEGIN_LINK_HELP" />Learn More<ph name="END_LINK_HELP" /></translation>
 <translation id="7158238151765743968">Connection to "<ph name="DEVICE_NAME" />" still in progress.</translation>
 <translation id="7165320105431587207">Failed to configure network</translation>
 <translation id="716640248772308851">"<ph name="EXTENSION" />" can read images, video and sound files in the ticked locations.</translation>
@@ -4287,16 +4287,16 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7376553024552204454">Highlight the mouse cursor when it's moving</translation>
 <translation id="7377169924702866686">Caps Lock is on.</translation>
 <translation id="7378627244592794276">Nope</translation>
-<translation id="73786666777299047">Open Chrome Web Store</translation>
+<translation id="73786666777299047">Open Brave Web Store</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7378812711085314936">Get data connection</translation>
 <translation id="7382160026931194400">Saved |content settings| and #search engines# will not be cleared and may reflect your browsing habits.</translation>
 <translation id="7384292194278095697">This device is no longer supported</translation>
 <translation id="7385854874724088939">Something went wrong when trying to print.  Please check your printer and try again.</translation>
-<translation id="7386824183915085801">Your Chrome and operating system version will be submitted in addition
+<translation id="7386824183915085801">Your Brave and operating system version will be submitted in addition
           to any information that you choose to include above. If you include your email
           address, Google may contact you regarding your feedback report. This feedback
-          is used to diagnose problems and help improve Chrome. Any personal information
+          is used to diagnose problems and help improve Brave. Any personal information
           that you submit, whether explicitly or incidentally will be protected in
           accordance with our privacy policies.<ph name="BEGIN_BOLD" /> By submitting this feedback, you agree that Google may use feedback
           that you provide to improve any Google product or service.
@@ -4425,7 +4425,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7564847347806291057">End process</translation>
 <translation id="7565291891798266313">Your search engine was changed to <ph name="URL" />. To disable extensions that change your search engine, click Restore.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Cleared Chrome data</translation>
+<translation id="7814200940910057384">Cleared Brave data</translation>
 <translation id="7568790562536448087">Updating</translation>
 <translation id="7571643774869182231">Not enough storage for update</translation>
 <translation id="7573172247376861652">Battery Charge</translation>
@@ -4437,7 +4437,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7582582252461552277">Prefer this network</translation>
 <translation id="7584802760054545466">Connecting to <ph name="NETWORK_ID" /></translation>
 <translation id="7586312264284919041">Would you like to translate this page?</translation>
-<translation id="7586498138629385861">Chrome will keep running while Chrome Apps are open.</translation>
+<translation id="7586498138629385861">Brave will keep running while Brave Apps are open.</translation>
 <translation id="7589461650300748890">Whoa, there. Be careful.</translation>
 <translation id="7589661784326793847">Wait just a sec</translation>
 <translation id="7591957897535945411">This Page Has Been Translated.</translation>
@@ -4502,7 +4502,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7704521324619958564">Open Play Store</translation>
 <translation id="7705276765467986571">Could not load bookmark model.</translation>
 <translation id="7705524343798198388">VPN</translation>
-<translation id="7705600705238488017">Want to <ph name="BEGIN_LINK" />browse the Chrome Web Store<ph name="END_LINK" /> instead?</translation>
+<translation id="7705600705238488017">Want to <ph name="BEGIN_LINK" />browse the Brave Web Store<ph name="END_LINK" /> instead?</translation>
 <translation id="7705990546212675384">Add a contact</translation>
 <translation id="7707922173985738739">Use mobile data</translation>
 <translation id="7709152031285164251">Failed - <ph name="INTERRUPT_REASON" /></translation>
@@ -4517,7 +4517,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7719367874908701697">Page zoom</translation>
 <translation id="7719421816612904796">Training timed out</translation>
 <translation id="771953673318695590">QA</translation>
-<translation id="7720375555307821262">To supervise this person, <ph name="BEGIN_LINK" />sign in to Chrome<ph name="END_LINK" />.</translation>
+<translation id="7720375555307821262">To supervise this person, <ph name="BEGIN_LINK" />sign in to Brave<ph name="END_LINK" />.</translation>
 <translation id="7721179060400456005">Allow windows to span displays</translation>
 <translation id="7722040605881499779">Needed to update: <ph name="NECESSARY_SPACE" /></translation>
 <translation id="7724603315864178912">Cut</translation>
@@ -4559,7 +4559,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7788080748068240085">To save "<ph name="FILE_NAME" />" offline you must free up an additional <ph name="TOTAL_FILE_SIZE" /> of space:<ph name="MARKUP_1" />
     <ph name="MARKUP_2" />unpin files that you no longer need to access offline<ph name="MARKUP_3" />
     <ph name="MARKUP_4" />delete files from your Downloads folder<ph name="MARKUP_5" /></translation>
-<translation id="7788298548579301890">Another program on your computer added an app that may change the way Chrome works.
+<translation id="7788298548579301890">Another program on your computer added an app that may change the way Brave works.
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -4587,7 +4587,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="782590969421016895">Use current pages</translation>
 <translation id="782886543891417279">The Wi-Fi that you are using (<ph name="WIFI_NAME" />) may require you to visit its login page.</translation>
 <translation id="7829298379596169484">Accessing audio input</translation>
-<translation id="7831368056091621108">to get this extension, your history, and other Chrome settings on all your devices.</translation>
+<translation id="7831368056091621108">to get this extension, your history, and other Brave settings on all your devices.</translation>
 <translation id="7831493768366098287">Google Print</translation>
 <translation id="7831754656372780761"><ph name="TAB_TITLE" /> <ph name="EMOJI_MUTING" /></translation>
 <translation id="7832084384634357321">End time</translation>
@@ -4697,7 +4697,7 @@ Only use this feature with accounts that you trust.</translation>
 <translation id="7994370417837006925">Multiple sign-in</translation>
 <translation id="7994702968232966508">EAP method</translation>
 <translation id="799547531016638432">Remove shortcut</translation>
-<translation id="7997089631332811254">(requires Chrome |restart|)</translation>
+<translation id="7997089631332811254">(requires Brave |restart|)</translation>
 <translation id="7997479212858899587">Identity:</translation>
 <translation id="7997826902155442747">Process Priority</translation>
 <translation id="7999229196265990314">Created the following files:
@@ -4847,7 +4847,7 @@ Calculating remaining time</translation>
 <translation id="8202160505685531999">Please re-enter your password to update your <ph name="DEVICE_TYPE" /> profile.</translation>
 <translation id="8206354486702514201">This setting is enforced by your administrator.</translation>
 <translation id="8206745257863499010">Bluesy</translation>
-<translation id="8209677645716428427">A supervised user can explore the web with your guidance. As the manager of a supervised user in Chrome, you can:</translation>
+<translation id="8209677645716428427">A supervised user can explore the web with your guidance. As the manager of a supervised user in Brave, you can:</translation>
 <translation id="8213577208796878755">One other available device.</translation>
 <translation id="8214489666383623925">Open File...</translation>
 <translation id="8214962590150211830">Remove This Person</translation>
@@ -5000,7 +5000,7 @@ Calculating time until full</translation>
 <translation id="8454288007744638700">Or, select a new network:</translation>
 <translation id="845627346958584683">Expiry Time</translation>
 <translation id="8456681095658380701">Invalid name</translation>
-<translation id="8460336040822756677">If you turn off Smart Lock for <ph name="DEVICE_TYPE" />, you won’t be able to unlock your Chrome devices using your phone. You'll need to type your password.</translation>
+<translation id="8460336040822756677">If you turn off Smart Lock for <ph name="DEVICE_TYPE" />, you won’t be able to unlock your Brave devices using your phone. You'll need to type your password.</translation>
 <translation id="8461329675984532579">Home provider name</translation>
 <translation id="84613761564611563">Network configure UI requested, please wait...</translation>
 <translation id="8461914792118322307">Proxy</translation>
@@ -5012,7 +5012,7 @@ Calculating time until full</translation>
 <translation id="8466234950814670489">Tar archive</translation>
 <translation id="8468750959626135884">Unlock your <ph name="DEVICE_TYPE" /> with your Android phone.</translation>
 <translation id="8472623782143987204">hardware-backed</translation>
-<translation id="8475313423285172237">Another programme on your computer added an extension that may change the way Chrome works.</translation>
+<translation id="8475313423285172237">Another programme on your computer added an extension that may change the way Brave works.</translation>
 <translation id="8475647382427415476">Google Drive was unable to sync "<ph name="FILENAME" />" right now. Google Drive will try again later.</translation>
 <translation id="8477241577829954800">Superseded</translation>
 <translation id="8477384620836102176">&amp;General</translation>
@@ -5027,7 +5027,7 @@ Calculating time until full</translation>
 <translation id="8493236660459102203">Microphone:</translation>
 <translation id="8495193314787127784">Enable 'Ok Google'</translation>
 <translation id="8496717697661868878">Run This Plug-in</translation>
-<translation id="8497392509610708671">You can change this at any time in <ph name="BEGIN_LINK" />Chrome Settings<ph name="END_LINK" />.</translation>
+<translation id="8497392509610708671">You can change this at any time in <ph name="BEGIN_LINK" />Brave Settings<ph name="END_LINK" />.</translation>
 <translation id="8498214519255567734">Make it easier to look at your screen or read in dim light</translation>
 <translation id="8498716162437226120">Add a Bluetooth device</translation>
 <translation id="8503813439785031346">Username</translation>
@@ -5073,7 +5073,7 @@ Calculating time until full</translation>
 <translation id="8569002732135253578">Now printing <ph name="DOCUMENT_NAME" /></translation>
 <translation id="8569682776816196752">No destinations found</translation>
 <translation id="8569764466147087991">Select a file to open</translation>
-<translation id="8571032220281885258">When you say 'Ok Google', Chrome will search for what you say next.</translation>
+<translation id="8571032220281885258">When you say 'Ok Google', Brave will search for what you say next.</translation>
 <translation id="8571108619753148184">Server 4</translation>
 <translation id="8579285237314169903">Syncing <ph name="NUMBER_OF_FILES" /> items...</translation>
 <translation id="857943718398505171">Allowed (recommended)</translation>
@@ -5087,7 +5087,7 @@ Calculating time until full</translation>
 <translation id="8597845839771543242">Property format:</translation>
 <translation id="8598687241883907630">Disconnect your Google Account...</translation>
 <translation id="8601206103050338563">TLS WWW Client Authentication</translation>
-<translation id="8602851771975208551">Another programme on your computer added an app that may change the way Chrome works.</translation>
+<translation id="8602851771975208551">Another programme on your computer added an app that may change the way Brave works.</translation>
 <translation id="8605428685123651449">SQLite Memory</translation>
 <translation id="8605503133013456784">Failed to disconnect and unpair from "<ph name="DEVICE_NAME" />".</translation>
 <translation id="8606726445206553943">Use your MIDI devices</translation>
@@ -5131,7 +5131,7 @@ Calculating time until full</translation>
 <translation id="8661290697478713397">Open Link in Inco&amp;gnito Window</translation>
 <translation id="8662795692588422978">People</translation>
 <translation id="8662911384982557515">Change your home page to: <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Chrome cannot set wallpaper.</translation>
+<translation id="8662978096466608964">Brave cannot set wallpaper.</translation>
 <translation id="8663099077749055505">Always block multiple automatic downloads on <ph name="HOST" /></translation>
 <translation id="8664389313780386848">&amp;View page source</translation>
 <translation id="866611985033792019">Trust this certificate for identifying email users</translation>
@@ -5204,7 +5204,7 @@ Calculating time until full</translation>
 <translation id="8759753423332885148">Learn more.</translation>
 <translation id="8765985713192161328">Manage handlers...</translation>
 <translation id="8767072502252310690">Users</translation>
-<translation id="8767621466733104912">Automatically update Chrome for all users</translation>
+<translation id="8767621466733104912">Automatically update Brave for all users</translation>
 <translation id="8770406935328356739">Extension root directory</translation>
 <translation id="8770507190024617908">Manage People</translation>
 <translation id="8773975913699077944">Choose a mobile data network</translation>
@@ -5295,7 +5295,7 @@ Subsequent notifications, windows and dialogues may be split between desktops.</
 <translation id="8899851313684471736">Open link in new &amp;window</translation>
 <translation id="8902667442496790482">Open select-to-speak settings</translation>
 <translation id="8903921497873541725">Zoom in</translation>
-<translation id="8904976895050290827">Chrome Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8908902564709148335">Warning: You've enabled the -scripts-require-action flag on this computer, which limits the capabilities of this extension. However, other devices may not support this flag or have it enabled. On these devices, this extension can also:</translation>
 <translation id="8910146161325739742">Share your screen</translation>
 <translation id="8910222113987937043">Changes to your bookmarks, history, passwords and other settings will no longer be synced to your Google account. However, your existing data will remain stored in your Google account and can be managed on <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" />.</translation>
@@ -5439,7 +5439,7 @@ Subsequent notifications, windows and dialogues may be split between desktops.</
 <translation id="9106577689055281370">Battery
 <ph name="HOUR" />:<ph name="MINUTE" /> remaining</translation>
 <translation id="9109122242323516435">To free up space, delete files from device storage.</translation>
-<translation id="9110990317705400362">We're constantly looking for ways to make your browsing safer. Previously, any website could prompt you to add an extension into your browser. In the latest versions of Google Chrome, you must explicitly tell Chrome that you want to install these extensions by adding them through the Extensions page. <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">We're constantly looking for ways to make your browsing safer. Previously, any website could prompt you to add an extension into your browser. In the latest versions of Brave, you must explicitly tell Brave that you want to install these extensions by adding them through the Extensions page. <ph name="BEGIN_LINK" />Learn more<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">Unlock</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112614144067920641">Please choose a new PIN.</translation>
@@ -5463,7 +5463,7 @@ Subsequent notifications, windows and dialogues may be split between desktops.</
 <translation id="9131598836763251128">Select one or more files</translation>
 <translation id="9132971099789715557">Hold the Search key to switch the behaviour of the top-row keys.</translation>
 <translation id="9133055936679483811">Zipping failed. <ph name="ERROR_MESSAGE" /></translation>
-<translation id="9134524245363717059">This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the Chrome Web Store for a suitable replacement app.</translation>
+<translation id="9134524245363717059">This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the Brave Web Store for a suitable replacement app.</translation>
 <translation id="9137013805542155359">Show original</translation>
 <translation id="9137916601698928395">Open link as <ph name="USER" /></translation>
 <translation id="9138978632494473300">Add shortcuts to the following places:</translation>
@@ -5484,7 +5484,7 @@ Subsequent notifications, windows and dialogues may be split between desktops.</
 <translation id="9169496697824289689">View keyboard shortcuts</translation>
 <translation id="9170397650136757332">Now move your finger slightly to capture all the different parts of your fingerprint</translation>
 <translation id="9170848237812810038">&amp;Undo</translation>
-<translation id="9170884462774788842">Another programme on your computer added a theme that may change the way Chrome works.</translation>
+<translation id="9170884462774788842">Another programme on your computer added a theme that may change the way Brave works.</translation>
 <translation id="9174212595744391062">This will clear cookies and cache for all sites, including</translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> – Bluetooth device connected</translation>
 <translation id="9177499212658576372">You are currently connected to the <ph name="NETWORK_TYPE" /> network.</translation>
@@ -5496,7 +5496,7 @@ Subsequent notifications, windows and dialogues may be split between desktops.</
 <translation id="9190063653747922532">L2TP/IPSec + Preshared key</translation>
 <translation id="920045321358709304">Search <ph name="SEARCH_ENGINE" /></translation>
 <translation id="9201220332032049474">Screen lock options</translation>
-<translation id="9201305942933582053">Google Now for Chrome!</translation>
+<translation id="9201305942933582053">Google Now for Brave!</translation>
 <translation id="9203398526606335860">&amp;Profiling enabled</translation>
 <translation id="9203478404496196495">Unmute tab</translation>
 <translation id="9203962528777363226">The administrator of this device has disabled new users from being added</translation>
@@ -5522,7 +5522,7 @@ Subsequent notifications, windows and dialogues may be split between desktops.</
 <translation id="939736085109172342">New folder</translation>
 <translation id="940425055435005472">Font size:</translation>
 <translation id="941543339607623937">Invalid private key.</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> is sharing a Chrome tab and audio.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> is sharing a Brave tab and audio.</translation>
 <translation id="942954117721265519">No images in this directory.</translation>
 <translation id="945522503751344254">Send feedback</translation>
 <translation id="946810925362320585">Follow recommendation</translation>
