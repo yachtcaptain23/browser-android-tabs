@@ -281,15 +281,16 @@ public class ActivityWindowAndroid
                 return false;
             }
 
+            // Check whether we have ever asked for this permission by checking whether we saved
+            // a preference associated with it before.
+            // Don't show dialog if we already asked for this permission.
+            String permissionQueriedKey = getHasRequestedPermissionKey(permission);
+            SharedPreferences prefs = ContextUtils.getAppSharedPreferences();
+            if (prefs.getBoolean(permissionQueriedKey, false)) return false;
+
             if (activity.shouldShowRequestPermissionRationale(permission)) {
                 return true;
             }
-
-            // Check whether we have ever asked for this permission by checking whether we saved
-            // a preference associated with it before.
-            String permissionQueriedKey = getHasRequestedPermissionKey(permission);
-            SharedPreferences prefs = ContextUtils.getAppSharedPreferences();
-            if (!prefs.getBoolean(permissionQueriedKey, false)) return true;
 
             return false;
         }
