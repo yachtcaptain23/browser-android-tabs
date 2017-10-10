@@ -1090,6 +1090,7 @@ void ProfileIOData::Init(
           &force_youtube_restrict_);
       chrome_network_delegate->set_allowed_domains_for_apps(
           &allowed_domains_for_apps_);
+      chrome_network_delegate->set_blockers_worker(io_thread_globals->blockers_worker_);
 
       chrome_network_delegate_unowned = chrome_network_delegate.get();
 
