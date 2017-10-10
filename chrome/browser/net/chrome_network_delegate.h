@@ -21,7 +21,6 @@
 #include "components/domain_reliability/monitor.h"
 #include "components/prefs/pref_member.h"
 #include "net/base/network_delegate_impl.h"
-#include "chrome/browser/net/blockers/blockers_worker.h"
 
 class ChromeExtensionsNetworkDelegate;
 
@@ -40,7 +39,13 @@ class InfoMap;
 
 namespace net {
 class URLRequest;
+namespace blockers {
+class BlockersWorker;
 }
+}
+
+struct OnBeforeURLRequestContext;
+class PendingRequests;
 
 // ChromeNetworkDelegate is the central point from within the chrome code to
 // add hooks into the network stack.
@@ -110,6 +115,9 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   ReportingPermissionsChecker* reporting_permissions_checker() {
     return reporting_permissions_checker_.get();
   }
+
+  void set_blockers_worker(
+        std::shared_ptr<net::blockers::BlockersWorker> blockers_worker);
 
   // Binds the pref members to |pref_service| and moves them to the IO thread.
   // All arguments can be nullptr. This method should be called on the UI
@@ -193,6 +201,56 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   bool OnCanUseReportingClient(const url::Origin& origin,
                                const GURL& endpoint) const override;
 
+  // Separate IO and FILE thread workers for blocker
+  int OnBeforeURLRequest_PreBlockersWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_TpBlockPreFileWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  void OnBeforeURLRequest_TpBlockFileWork();
+  int OnBeforeURLRequest_TpBlockPostFileWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_AdBlockPreFileWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  void OnBeforeURLRequest_AdBlockFileWork(std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_AdBlockPostFileWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_HttpsePreFileWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  void OnBeforeURLRequest_HttpseFileWork(
+            net::URLRequest* request,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_HttpsePostFileWork(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_PostBlockers(
+            net::URLRequest* request,
+            const net::CompletionCallback& callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  bool PendedRequestIsDestroyedOrCancelled(
+            OnBeforeURLRequestContext* ctx,
+            net::URLRequest* request);
+
   std::unique_ptr<ChromeExtensionsNetworkDelegate> extensions_delegate_;
 
   void* profile_;
@@ -213,10 +271,12 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   bool experimental_web_platform_features_enabled_;
 
   // Blockers
-  net::blockers::BlockersWorker blockers_worker_;
+  std::shared_ptr<net::blockers::BlockersWorker> blockers_worker_;
 
   // (TODO)find a better way to handle last first party
   GURL last_first_party_url_;
+
+  std::auto_ptr<PendingRequests> pending_requests_;
 
   DISALLOW_COPY_AND_ASSIGN(ChromeNetworkDelegate);
 };
