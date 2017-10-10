@@ -1059,6 +1059,7 @@ void ProfileIOData::Init(
       &allowed_domains_for_apps_);
   chrome_network_delegate->set_data_use_aggregator(
       io_thread_globals->data_use_aggregator.get(), IsOffTheRecord());
+  chrome_network_delegate->set_blockers_worker(io_thread_globals->blockers_worker_);
 
   ChromeNetworkDelegate* chrome_network_delegate_unowned =
       chrome_network_delegate.get();
