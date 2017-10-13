@@ -30,13 +30,13 @@
                     android:id="@+id/filename_completed_view"
                     style="@style/DownloadTitleStyle"
                     android:layout_alignParentEnd="true" />
-    
+
             <TextView
                     android:id="@+id/hostname_view"
                     style="@style/DownloadDescriptionStyle"
                     android:layout_toStartOf="@+id/filesize_view"
                     android:layout_below="@+id/filename_completed_view" />
-    
+
             <TextView
                     android:id="@+id/filesize_view"
                     style="@style/DownloadFileSizeStyle"
