@@ -23,7 +23,7 @@
         <item name="android:textColorHighlight">@color/text_highlight_color</item>
         <item name="android:textColorLink">@color/light_active_color</item>
         <item name="colorPrimaryDark">@android:color/black</item>
-        <item name="android:colorAccent">@color/google_blue_500</item>
+        <item name="android:colorAccent">@color/light_active_color</item>
         <item name="android:statusBarColor" tools:targetApi="21">@android:color/black</item>
 
         <!--  Overriding AppCompat values -->
@@ -209,7 +209,7 @@
         <!-- Status bar color -->
         <item name="colorPrimaryDark">#161e21</item>
         <!-- Color of checkboxes, switches, buttons, etc. -->
-        <item name="colorAccent">@color/pref_accent_color</item>
+        <item name="colorAccent">@color/brave_theme_color</item>
     </style>
 
     <style name="FlushFooterButton">
@@ -258,7 +258,7 @@
     <style name="OverflowMenuTheme" parent="Theme.AppCompat.Light">
         <item name="android:popupBackground">@null</item>
         <item name="android:listDivider">@null</item>
-        <item name="android:listPreferredItemHeightSmall">48dp</item>
+        <item name="android:listPreferredItemHeightSmall">46dp</item>
         <item name="android:textSize">16sp</item>
     </style>
     <style name="OverflowMenuButton">
@@ -786,5 +786,10 @@
     <style name="PasswordEntryName" parent="BlueButtonText2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Switch theme -->
+    <style name="SwitchTheme">
+        <item name="colorControlActivated">@color/brave_theme_color</item>
     </style>
 </resources>
