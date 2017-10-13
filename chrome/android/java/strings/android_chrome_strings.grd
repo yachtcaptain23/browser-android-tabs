@@ -3474,6 +3474,24 @@ Saved
       <message name="IDS_WEBSITE_SETTINGS_CATEGORY_DESKTOP_VIEW_DISABLED" desc="Summary text explaining that browser  will use mobile version of sites and that it is the recommended setting.">
         Use mobile versions of sites for new tabs (recommended)
       </message>
+      <message name="IDS_BRAVE_SHIELDS_FIRST_GROUP_TITLE" desc="Title for the first group of Brave's shields panel.">
+        Blocking Monitor
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_SECOND_GROUP_TITLE" desc="Title for the second group of Brave's shields panel.">
+        Individual Controls
+      </message>
+      <message name="IDS_BRAVE_SHIELDS" desc="Brave Shields title.">
+        Shields
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_ADS_AND_TRACKERS" desc="Ads and Trackers blocked.">
+        Ads and Trackers
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_FINGERPRINT_METHODS" desc="Fingerprint methods blocked.">
+        Fingerprint Methods
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_BLOCK_PHISHING_SWITCH" desc="Switch for Block Scripts.">
+        Block Phishing
+      </message>
     </messages>
   </release>
 </grit>
