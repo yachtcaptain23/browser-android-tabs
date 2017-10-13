@@ -243,7 +243,7 @@
         <!-- Status bar color -->
         <item name="colorPrimaryDark">@android:color/black</item>
         <!-- Color of checkboxes, switches, buttons, etc. -->
-        <item name="colorAccent">@color/pref_accent_color</item>
+        <item name="colorAccent">@color/brave_theme_color</item>
         <!-- Button style -->
         <item name="buttonStyle">@style/MainButtonStyle</item>
     </style>
@@ -310,7 +310,7 @@
     <style name="OverflowMenuTheme" parent="Theme.AppCompat.Light">
         <item name="android:popupBackground">@null</item>
         <item name="android:listDivider">@null</item>
-        <item name="android:listPreferredItemHeightSmall">48dp</item>
+        <item name="android:listPreferredItemHeightSmall">46dp</item>
         <item name="android:textAppearance">@style/BlackTitle1</item>
     </style>
     <style name="OverflowMenuButton">
@@ -851,5 +851,10 @@
     <!-- Omnibox -->
     <style name="TextAppearance.OmniboxVerboseStatus" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">@dimen/location_bar_url_text_size</item>
+    </style>
+
+    <!-- Switch theme -->
+    <style name="SwitchTheme">
+        <item name="colorControlActivated">@color/brave_theme_color</item>
     </style>
 </resources>
