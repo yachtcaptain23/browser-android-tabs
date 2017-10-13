@@ -8,7 +8,7 @@
     <color name="default_text_color">@color/black_alpha_87</color>
     <color name="default_primary_color">#f2f2f2</color>
     <color name="light_normal_color">#5A5A5A</color>
-    <color name="light_active_color">#4285F4</color>
+    <color name="light_active_color">#5CACF2</color>
     <color name="input_underline_error_color">#d32f2f</color>
     <color name="explanation_text_color">#909090</color>
     <color name="text_highlight_color">#C6DAFC</color>
@@ -41,8 +41,8 @@
     <color name="black_alpha_40">#66000000</color>
 
     <!-- Infobar colors -->
-    <color name="infobar_accent_blue">#4285f4</color>
-    <color name="infobar_descriptive_text_color">@color/black_alpha_54</color>
+    <color name="infobar_accent_blue">#5CACF2</color>
+    <color name="infobar_descriptive_text_color">@color/black_alpha_54</color>    
 
     <!-- Snackbar colors -->
     <color name="snackbar_background_color">#282C32</color>
@@ -63,7 +63,7 @@
 
     <!-- Page Info Popup colors -->
     <color name="page_info_popup_text">@color/black_alpha_87</color>
-    <color name="page_info_popup_text_link">@color/google_blue_700</color>
+    <color name="page_info_popup_text_link">#5CACF2</color>
 
     <!-- URL Emphasizer colors -->
     <color name="url_emphasis_non_emphasized_text">#80333333</color>
@@ -136,7 +136,7 @@
 
     <!-- Site suggestion tile colors. -->
     <color name="tile_view_text">@color/black_alpha_54</color>
-    <color name="tile_view_offline_badge_tint">#4285f4</color>
+    <color name="tile_view_offline_badge_tint">#5CACF2</color>
 
     <!-- Contextual Search colors -->
     <color name="contextual_search_promo_text_color">#333333</color>
@@ -144,7 +144,7 @@
     <color name="contextual_search_promo_border_color">#C2C2C2</color>
 
     <!-- Progress Bar colors -->
-    <color name="progress_bar_foreground">@color/light_active_color</color>
+    <color name="progress_bar_foreground">@color/brave_theme_color</color>
     <color name="progress_bar_foreground_white">@android:color/white</color>
     <color name="progress_bar_secondary">@color/google_grey_600</color>
     <color name="progress_bar_background">#3d4386f7</color>
@@ -215,5 +215,8 @@
     <color name="media_viewer_bg">#000000</color>
     <color name="image_viewer_bg">#0e0e0e</color>
     <color name="modern_toolbar_bg">#E6FFFFFF</color>
+
+    <!-- Brave colors -->
+    <color name="brave_theme_color">#ff4600</color>
 
 </resources>
