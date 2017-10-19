@@ -23,7 +23,7 @@
         <item name="android:textColorHighlight">@color/text_highlight_color</item>
         <item name="android:textColorLink">@color/light_active_color</item>
         <item name="colorPrimaryDark">@android:color/black</item>
-        <item name="android:colorAccent">@color/google_blue_500</item>
+        <item name="android:colorAccent">@color/light_active_color</item>
         <item name="android:statusBarColor" tools:targetApi="21">@android:color/black</item>
 
         <!--  Overriding AppCompat values -->
@@ -190,7 +190,7 @@
         <!-- Status bar color -->
         <item name="colorPrimaryDark">#161e21</item>
         <!-- Color of checkboxes, switches, buttons, etc. -->
-        <item name="colorAccent">@color/pref_accent_color</item>
+        <item name="colorAccent">@color/brave_theme_color</item>
     </style>
 
     <style name="FlushFooterButton">
@@ -755,5 +755,10 @@
     <style name="VrEntryAnimation">
         <item name="android:windowEnterAnimation">@anim/stay_hidden</item>
         <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <!-- Switch theme -->
+    <style name="SwitchTheme">
+        <item name="colorControlActivated">@color/brave_theme_color</item>
     </style>
 </resources>
