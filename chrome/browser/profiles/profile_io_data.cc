@@ -1060,6 +1060,7 @@ void ProfileIOData::Init(
   chrome_network_delegate->set_data_use_aggregator(
       io_thread_globals->data_use_aggregator.get(), IsOffTheRecord());
   chrome_network_delegate->set_blockers_worker(io_thread_globals->blockers_worker_);
+  chrome_network_delegate->set_incognito(profile_type() == Profile::INCOGNITO_PROFILE);
 
   ChromeNetworkDelegate* chrome_network_delegate_unowned =
       chrome_network_delegate.get();
