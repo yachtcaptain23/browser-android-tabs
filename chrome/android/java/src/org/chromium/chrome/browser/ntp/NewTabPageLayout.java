@@ -179,7 +179,7 @@ public class NewTabPageLayout extends LinearLayout {
     private int calculateTopOfMostVisited() {
         // Manually add the heights (and margins) of all children above Most Visited.
         int top = 0;
-        int mostVisitedIndex = indexOfChild(mTileGridLayout);
+        int mostVisitedIndex = indexOfChild(mSiteSectionView);
         for (int i = 0; i < mostVisitedIndex; i++) {
             View child = getChildAt(i);
 
@@ -188,7 +188,7 @@ public class NewTabPageLayout extends LinearLayout {
             MarginLayoutParams params = (MarginLayoutParams) child.getLayoutParams();
             top += params.topMargin + child.getMeasuredHeight() + params.bottomMargin;
         }
-        top += ((MarginLayoutParams) mTileGridLayout.getLayoutParams()).topMargin;
+        top += ((MarginLayoutParams) mSiteSectionView.getLayoutParams()).topMargin;
         return top;
     }
 

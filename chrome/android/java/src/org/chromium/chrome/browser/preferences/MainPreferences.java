@@ -40,7 +40,7 @@ public class MainPreferences extends PreferenceFragment
 
     private final ManagedPreferenceDelegate mManagedPreferenceDelegate;
     private final Map<String, Preference> mAllPreferences = new HashMap<>();
-    private SignInPreference mSignInPreference;
+    //private SignInPreference mSignInPreference;
 
     public MainPreferences() {
         setHasOptionsMenu(true);
@@ -57,19 +57,19 @@ public class MainPreferences extends PreferenceFragment
     public void onResume() {
         super.onResume();
         updatePreferences();
-        if (SigninManager.get(getActivity()).isSigninSupported()) {
+        /*if (SigninManager.get(getActivity()).isSigninSupported()) {
             SigninManager.get(getActivity()).addSignInStateObserver(this);
             mSignInPreference.registerForUpdates();
-        }
+        }*/
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        if (SigninManager.get(getActivity()).isSigninSupported()) {
+        /*if (SigninManager.get(getActivity()).isSigninSupported()) {
             SigninManager.get(getActivity()).removeSignInStateObserver(this);
             mSignInPreference.unregisterForUpdates();
-        }
+        }*/
     }
 
     private void createPreferences() {
@@ -79,7 +79,7 @@ public class MainPreferences extends PreferenceFragment
         setManagedPreferenceDelegateForPreference(PREF_SEARCH_ENGINE);
         setManagedPreferenceDelegateForPreference(PREF_AUTOFILL_SETTINGS);
         setManagedPreferenceDelegateForPreference(PREF_SAVED_PASSWORDS);
-        setManagedPreferenceDelegateForPreference(PREF_DATA_REDUCTION);
+        //setManagedPreferenceDelegateForPreference(PREF_DATA_REDUCTION);
 
         if (BuildInfo.isAtLeastO()) {
             // If we are on Android O+ the Notifications preference should lead to the Android
@@ -124,7 +124,7 @@ public class MainPreferences extends PreferenceFragment
             Preference preference = getPreferenceScreen().getPreference(index);
             mAllPreferences.put(preference.getKey(), preference);
         }
-        mSignInPreference = (SignInPreference) mAllPreferences.get(PREF_SIGN_IN);
+        //mSignInPreference = (SignInPreference) mAllPreferences.get(PREF_SIGN_IN);
     }
 
     private void setManagedPreferenceDelegateForPreference(String key) {
@@ -133,11 +133,11 @@ public class MainPreferences extends PreferenceFragment
     }
 
     private void updatePreferences() {
-        if (SigninManager.get(getActivity()).isSigninSupported()) {
+        /*if (SigninManager.get(getActivity()).isSigninSupported()) {
             addPreferenceIfAbsent(PREF_SIGN_IN);
         } else {
             removePreferenceIfPresent(PREF_SIGN_IN);
-        }
+        }*/
 
         updateSearchEnginePreference();
 
@@ -262,7 +262,7 @@ public class MainPreferences extends PreferenceFragment
 
     @Override
     public void onDestroy() {
-        mSignInPreference.onPreferenceFragmentDestroyed();
+        //mSignInPreference.onPreferenceFragmentDestroyed();
         super.onDestroy();
     }
 }
