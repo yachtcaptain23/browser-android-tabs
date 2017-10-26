@@ -265,6 +265,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
   uint32_t num_certificate_warning_messages_;
   // The hosts for which a legacy certificate warning has been printed.
   HashSet<String> certificate_warning_hosts_;
+  std::string previous_url_;
 };
 
 DEFINE_TYPE_CASTS(LocalFrameClientImpl,

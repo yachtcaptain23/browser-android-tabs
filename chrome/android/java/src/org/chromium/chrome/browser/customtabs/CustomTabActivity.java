@@ -504,7 +504,7 @@ public class CustomTabActivity extends ChromeActivity {
             }
         };
         getToolbarManager().initializeWithNative(getTabModelSelector(), getFullscreenManager().getBrowserVisibilityDelegate(),
-                mFindToolbarManager, null, layoutDriver, null, null, null, braveShieldsClickHandler,
+                getFindToolbarManager(), null, layoutDriver, null, null, null, braveShieldsClickHandler,
                 new OnClickListener() {
                     @Override
                     public void onClick(View v) {
