@@ -336,12 +336,12 @@
     <dimen name="tile_view_title_margin_top">66dp</dimen>
     <dimen name="tile_view_title_margin_top_condensed">62dp</dimen>
     <dimen name="tile_view_title_margin_top_modern">61dp</dimen>
-    <dimen name="ntp_logo_height">100dp</dimen>
+    <!--<dimen name="ntp_logo_height">100dp</dimen>-->
     <dimen name="duet_ntp_logo_top_margin">-16dp</dimen>
     <dimen name="ntp_search_box_height">62dp</dimen>
     <dimen name="ntp_search_box_height_modern">48dp</dimen>
     <dimen name="ntp_search_box_shadow_width">4dp</dimen>
-    <dimen name="ntp_search_box_material_margin_left">10dp</dimen>
+    <!--<dimen name="ntp_search_box_material_margin_left">10dp</dimen>
     <dimen name="ntp_search_box_material_margin_right">10dp</dimen>
     <dimen name="ntp_search_box_material_margin_top">0dp</dimen>
     <dimen name="ntp_search_box_material_margin_bottom">1dp</dimen>
@@ -350,7 +350,7 @@
     <dimen name="ntp_search_box_material_padding_top">3dp</dimen>
     <dimen name="ntp_search_box_material_padding_bottom">3dp</dimen>
     <dimen name="ntp_search_box_material_padding_left">2dp</dimen>
-    <dimen name="ntp_search_box_material_padding_right">2dp</dimen>
+    <dimen name="ntp_search_box_material_padding_right">2dp</dimen>-->
     <dimen name="ntp_search_box_transition_length">16dp</dimen>
     <dimen name="ntp_search_box_voice_search_margin_end_modern">6dp</dimen>
     <dimen name="explore_sites_radius">8dp</dimen>
