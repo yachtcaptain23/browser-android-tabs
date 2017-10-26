@@ -3292,6 +3292,7 @@ public class Tab
         Tracker tracker = TrackerFactory.getTrackerForProfile(Profile.getLastUsedProfile());
         tracker.dismissed(FeatureConstants.MEDIA_DOWNLOAD_FEATURE);
         nativeMediaDownloadInProductHelpDismissed(mNativeTabAndroid);
+    }
 
     public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades
             , int scriptsBlocked, int fingerprintsBlocked) {

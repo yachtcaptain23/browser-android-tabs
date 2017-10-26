@@ -188,6 +188,7 @@ android_library("chrome_java") {
     "$google_play_services_package:google_play_services_iid_java",
     "$google_play_services_package:google_play_services_nearby_java",
     "$google_play_services_package:google_play_services_tasks_java",
+    "$google_play_services_package:google_play_services_vision_java",
     "//base:base_java",
     "//chrome/android/third_party/widget_bottomsheet_base:widget_bottomsheet_base_java",
     "//chrome/android/webapk/libs/client:client_java",
@@ -695,7 +696,7 @@ jinja_template_resources("chrome_public_apk_template_resources") {
   resources = [
     "java/res_template/xml/launchershortcuts.xml",
     "java/res_template/xml/searchable.xml",
-    "java/res_template/xml/syncadapter.xml",
+#    "java/res_template/xml/syncadapter.xml",
   ]
   res_dir = "java/res_template"
   variables = chrome_public_jinja_variables
@@ -705,7 +706,7 @@ jinja_template_resources("chrome_sync_shell_apk_template_resources") {
   resources = [
     "java/res_template/xml/launchershortcuts.xml",
     "java/res_template/xml/searchable.xml",
-    "java/res_template/xml/syncadapter.xml",
+#    "java/res_template/xml/syncadapter.xml",
   ]
   res_dir = "java/res_template"
   variables = chrome_sync_shell_jinja_variables
