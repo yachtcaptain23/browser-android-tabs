@@ -523,18 +523,18 @@ CHAR-LIMIT guidelines:
       <message name="IDS_SEARCH_SITE_SUGGESTIONS_SUMMARY" desc="Summary for search and site suggestions.">
         Use prediction services to suggest search terms and websites
       </message>
-      <message name="IDS_SAFE_BROWSING_EXTENDED_REPORTING_TITLE" desc="Title for checkbox that controls whether details of possible security incidents will be sent to Google.">
+      <!--<message name="IDS_SAFE_BROWSING_EXTENDED_REPORTING_TITLE" desc="Title for checkbox that controls whether details of possible security incidents will be sent to Google.">
         Security incidents
-      </message>
+    </message>
       <message name="IDS_SAFE_BROWSING_EXTENDED_REPORTING_SUMMARY" desc="Summary for report security incidents.">
         Automatically report details of possible security incidents to Google
-      </message>
+    </message>
       <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_TITLE" desc="Title for checkbox that controls reporting data to detect bad apps/sites.">
         Security reports
-      </message>
+    </message>
       <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_SUMMARY" desc="Summary for reporting data to detect bad apps/sites.">
         Automatically send some system information and page content to Google to help detect dangerous apps and sites
-      </message>
+    </message>-->
       <message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
         Safe Browsing
       </message>
@@ -742,9 +742,9 @@ Your Google account may have other forms of browsing history like searches and a
       </message>
 
       <!-- Sync preferences -->
-      <message name="IDS_PREFS_SYNC" desc="Title for the Sync preferences. [CHAR-LIMIT=32]">
+      <!--<message name="IDS_PREFS_SYNC" desc="Title for the Sync preferences. [CHAR-LIMIT=32]">
         Sync
-      </message>
+    </message>-->
 
       <!-- Accessibility preferences -->
       <message name="IDS_PREFS_ACCESSIBILITY" desc="Title of Accessibility settings, which allows the user to change webpage font sizes. [CHAR-LIMIT=32]">
@@ -1710,9 +1710,9 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Chrome is missing the Android camera permission.">
         Brave needs permission to access your camera for this site.
       </message>
-      <message name="IDS_NO_CAMERA_PERMISSION" desc="Text shown when Brave cannot get camera permissions.">
+      <!--<message name="IDS_NO_CAMERA_PERMISSION" desc="Text shown when Brave cannot get camera permissions.">
         Brave sync cannot get camera access permissions.
-      </message>
+    </message>-->
       <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Chrome is missing the Android microphone permission.">
         Brave needs permission to access your microphone for this site.
       </message>
@@ -2234,12 +2234,12 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_FRE_SKIP_TEXT" desc="Text for second page skip button">
         No thanks
       </message>
-      <message name="IDS_FRE_DONE" desc="Button to dismiss the sign-in screen once the user is done">
+      <!--<message name="IDS_FRE_DONE" desc="Button to dismiss the sign-in screen once the user is done">
         Done
-      </message>
+    </message>
       <message name="IDS_FRE_SETTINGS" desc="Button that opens Chrome settings">
         Settings
-      </message>
+    </message>-->
       <message name="IDS_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice.">
         By using this application, you agree to Brave's <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
       </message>
@@ -3235,18 +3235,18 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
         Brave <ph name="VERSION">%1$s<ex>1.0.0</ex></ph>, Chromium <ph name="VERSION_CHROMIUM">%2$s<ex>40.0.2214.67</ex></ph>
       </message>
       <!-- Brave panel strings -->
-      <message name="IDS_BRAVE_SETTINGS_TITLE" desc="Title for Brave's settings.">
+      <!--<message name="IDS_BRAVE_SETTINGS_TITLE" desc="Title for Brave's settings.">
         Brave site shield settings for
-      </message>
+    </message>
       <message name="IDS_BRAVE_SHIELDS_DOWN" desc="Down Brave Shields.">
         Down
-      </message>
+    </message>
       <message name="IDS_BRAVE_SHIELDS_UP" desc="Up Brave Shields.">
         Up
-      </message>
+    </message>
       <message name="IDS_BRAVE_SHIELDS_ADS_TRACKERS" desc="Ads and Trackers blocked count.">
         Ads and Trackers Blocked
-      </message>
+    </message>-->
       <message name="IDS_BRAVE_SHIELDS_HTTPS_UPGRADES" desc="HTTPS Upgrades.">
         HTTPS Upgrades
       </message>
@@ -3262,9 +3262,9 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_BRAVE_SHIELDS_BLOCKS_SCRIPTS_SWITCH" desc="Switch for Block Scripts.">
         Block Scripts
       </message>
-      <message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
+      <!--<message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
         Block 3rd party cookies
-      </message>
+    </message>-->
 
       <message name="IDS_HTTPSE_SUMMARY" desc="Summary for HTTPS Everywhere.">
         Opens supported sites using HTTPS instead of HTTP when possible
@@ -3288,9 +3288,9 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_FINGERPRINTING_PROTECTION_SUMMARY" desc="Summary for fingerprinting protection.">
         Prevents browser from fingerprinting
       </message>
-      <message name="IDS_BRAVE_SHIELDS_FINGERPRINTS_BLOCKED" desc="Fingerprints Blocked.">
+      <!--<message name="IDS_BRAVE_SHIELDS_FINGERPRINTS_BLOCKED" desc="Fingerprints Blocked.">
         Fingerprinting Methods Blocked
-      </message>
+    </message>-->
       <message name="IDS_BRAVE_SHIELDS_BLOCK_FINGERPRINTS_SWITCH" desc="Switch for Block Fingerprints.">
         Fingerprinting Protection
       </message>

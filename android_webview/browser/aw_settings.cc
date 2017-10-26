@@ -484,7 +484,7 @@ static jlong Init(JNIEnv* env,
 static ScopedJavaLocalRef<jstring> GetDefaultUserAgent(
     JNIEnv* env,
     const JavaParamRef<jclass>& clazz) {
-  return base::android::ConvertUTF8ToJavaString(env, GetUserAgent());
+  return base::android::ConvertUTF8ToJavaString(env, GetUserAgent(""));
 }
 
 }  // namespace android_webview
