@@ -11,5 +11,5 @@
 static base::android::ScopedJavaLocalRef<jstring> GetBrowserUserAgent(
     JNIEnv* env,
     const base::android::JavaParamRef<jclass>& clazz) {
-  return base::android::ConvertUTF8ToJavaString(env, GetUserAgent());
+  return base::android::ConvertUTF8ToJavaString(env, GetUserAgent(""));
 }

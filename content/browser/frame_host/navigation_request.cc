@@ -155,7 +155,7 @@ void AddAdditionalRequestHeaders(net::HttpRequestHeaders* headers,
 
   headers->SetHeaderIfMissing(net::HttpRequestHeaders::kUserAgent,
                               user_agent_override.empty()
-                                  ? GetContentClient()->GetUserAgent()
+                                  ? GetContentClient()->GetUserAgent("")
                                   : user_agent_override);
 
   // Check whether DevTools wants to override user agent for this request
@@ -190,13 +190,8 @@ void AddAdditionalRequestHeaders(net::HttpRequestHeaders* headers,
                                   : user_agent_override);
 
   // Check whether DevTools wants to override user agent for this request
-  // after setting the default user agent.
-  std::string devtools_user_agent =
-      RenderFrameDevToolsAgentHost::UserAgentOverride(frame_tree_node);
-  if (!devtools_user_agent.empty()) {
-    headers->SetHeader(net::HttpRequestHeaders::kUserAgent,
-                       devtools_user_agent);
-  }
+  // after setting the default user agent, or append throttling control header.
+  RenderFrameDevToolsAgentHost::AppendDevToolsHeaders(frame_tree_node, headers);
 
   headers->SetHeader(net::HttpRequestHeaders::kOrigin, origin.Serialize());
 }
