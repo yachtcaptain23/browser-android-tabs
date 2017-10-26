@@ -299,6 +299,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
   String user_agent_;
 
   mutable WebScopedVirtualTimePauser virtual_time_pauser_;
+  std::string previous_url_;
 };
 
 DEFINE_TYPE_CASTS(LocalFrameClientImpl,
