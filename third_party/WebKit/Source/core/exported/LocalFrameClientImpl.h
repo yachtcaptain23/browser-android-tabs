@@ -280,6 +280,7 @@ class LocalFrameClientImpl final : public LocalFrameClient {
   HashSet<String> certificate_warning_hosts_;
 
   mutable WebScopedVirtualTimePauser virtual_time_pauser_;
+  std::string previous_url_;
 };
 
 DEFINE_TYPE_CASTS(LocalFrameClientImpl,
