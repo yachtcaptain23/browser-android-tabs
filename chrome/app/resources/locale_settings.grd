@@ -202,7 +202,7 @@
         50
       </message>
 
-      <!-- The URL for the the Welcome to Chrome page shown on first run. -->
+      <!-- The URL for the the Welcome to Brave page shown on first run. -->
       <message name="IDS_WELCOME_PAGE_URL" translateable="false">
         https://www.google.com/intl/[GRITLANGCODE]/chrome/browser/welcome.html
       </message>
@@ -222,7 +222,7 @@
         https://chrome.google.com/webstore?hl=[GRITLANGCODE]
       </message>
 
-      <!-- The URL for Google Chrome welcome page. This is used for the pre -->
+      <!-- The URL for Brave welcome page. This is used for the pre -->
       <!-- populated thumbnails. -->
       <message name="IDS_CHROME_WELCOME_URL" translateable="false">
         http://www.google.com/chrome/intl/[GRITLANGCODE]/welcome.html
