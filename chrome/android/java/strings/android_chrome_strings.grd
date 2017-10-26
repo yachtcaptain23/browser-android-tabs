@@ -541,9 +541,6 @@ CHAR-LIMIT guidelines:
       <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_SUMMARY" desc="Summary for reporting data to detect bad apps/sites.">
         Automatically send some system information and page content to Google to help detect dangerous apps and sites
       </message>
-      <message name="IDS_HTTPSE_TITLE" desc="Title for HTTPS Everywhere.">
-        HTTPS Everywhere
-      </message>
       <message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
         Safe Browsing
       </message>
@@ -1184,9 +1181,6 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_VERSION_WITH_UPDATE_TIME" desc="Message showing Chrome's version and the time it was last updated">
         <ph name="VERSION">%1$s<ex>Brave 40.0.2214.67</ex></ph> (Updated <ph name="TIME_SINCE_UPDATE">%2$s<ex>5 minutes ago</ex></ph>)
       </message>
-      <message name="IDS_BRAVE_VERSION_NUMBER" desc="Message showing Brave's version and chromium version">
-        Brave <ph name="VERSION">%1$s<ex>1.0.0</ex></ph>, Chromium <ph name="VERSION_CHROMIUM">%2$s<ex>40.0.2214.67</ex></ph>
-      </message>
       <message name="IDS_OS_VERSION_TITLE" desc="Title for operating system version">
         Operating system
       </message>
@@ -1391,9 +1385,6 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
       <message name="IDS_SYNC_BOOKMARKS" desc="Title for preference which enables sync'ing of bookmarks. [CHAR-LIMT=32]">
         Bookmarks
-      </message>
-      <message name="IDS_NEW_TO_SYNC" desc="Button for new to sync button. [CHAR-LIMT=32]">
-        I am new to sync
       </message>
       <message name="IDS_SYNC_HISTORY" desc="Title for preference which enables sync'ing of history data. [CHAR-LIMT=32]">
         History
@@ -2743,9 +2734,6 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_TABSWITCHER_TOGGLE_DEFAULT" desc="Placeholder content description for the button that enters or leaves the tab switcher.">
         open tabs
-      </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_SHIELDS" desc="Content description for the button that is enable, disable Brave Shields.">
-        Enable/Disable Brave Shields
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_HOME" desc="Content description for the home button.">
         Home
