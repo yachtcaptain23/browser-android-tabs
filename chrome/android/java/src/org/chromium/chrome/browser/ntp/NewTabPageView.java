@@ -334,7 +334,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer, O
 
         mTileGroup.startObserving(getMaxTileRows(searchProviderHasLogo) * getMaxTileColumns());
 
-        mRecyclerView.init(mUiConfig, mContextMenuManager);
+        //mRecyclerView.init(mUiConfig, mContextMenuManager);
 
         // Set up snippets
         //NewTabPageAdapter newTabPageAdapter = new NewTabPageAdapter(mManager, mNewTabPageLayout,
@@ -404,7 +404,7 @@ public class NewTabPageView extends FrameLayout implements TileGroup.Observer, O
             public void run() {
                 if (!mPendingSnapScroll) return;
                 int scrollY = mScrollView.getScrollY();
-                int dividerTop = mTileGridLayout.getTop() - mNewTabPageLayout.getPaddingTop();
+                int dividerTop = mSiteSectionViewHolder.itemView.getTop() - mNewTabPageLayout.getPaddingTop();
                 if (scrollY > 0 && scrollY < dividerTop) {
                     mScrollView.smoothScrollTo(0, scrollY < (dividerTop / 2) ? 0 : dividerTop);
                 }

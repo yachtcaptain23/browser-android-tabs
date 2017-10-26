@@ -497,7 +497,7 @@ ProfilingProcessHost::GetMetadataJSONForTrace() {
   metadata_dict->SetKey(
       "product-version",
       base::Value(version_info::GetProductNameAndVersionForUserAgent()));
-  metadata_dict->SetKey("user-agent", base::Value(GetUserAgent()));
+  metadata_dict->SetKey("user-agent", base::Value(GetUserAgent("")));
   metadata_dict->SetKey("os-name",
                         base::Value(base::SysInfo::OperatingSystemName()));
   metadata_dict->SetKey(
