@@ -45,7 +45,7 @@
 <translation id="1064912851688322329">‏נתק את חשבון Google שלך</translation>
 <translation id="1067048845568873861">נוצר</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">‏תכנית אחרת במחשב הוסיפה תוסף שעשוי לשנות את אופן הפעולה של Chrome.
+<translation id="1070377999570795893">‏תכנית אחרת במחשב הוסיפה תוסף שעשוי לשנות את אופן הפעולה של Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1071917609930274619">קידוד נתונים</translation>
@@ -53,7 +53,7 @@
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1077946062898560804">הגדר עדכונים אוטומטיים לכל המשתמשים</translation>
 <translation id="1079766198702302550">חסום תמיד גישה למצלמה</translation>
-<translation id="1082398631555931481">‏<ph name="THIRD_PARTY_TOOL_NAME" /> רוצה לשחזר את הגדרות Chrome לברירת המחדל המקורית שלהן. הפעולה הזו תגרום לאיפוס דף הבית, דף הכרטיסייה החדשה ומנוע החיפוש, תשבית את התוספים, ותבטל את ההצמדה של כל הכרטיסיות. כתוצאה מכך יימחקו גם נתונים אחרים מאחסון זמני ומהקובץ השמור, כמו נתונים של קובצי cookie, תוכן ואתרים.</translation>
+<translation id="1082398631555931481">‏<ph name="THIRD_PARTY_TOOL_NAME" /> רוצה לשחזר את הגדרות Brave לברירת המחדל המקורית שלהן. הפעולה הזו תגרום לאיפוס דף הבית, דף הכרטיסייה החדשה ומנוע החיפוש, תשבית את התוספים, ותבטל את ההצמדה של כל הכרטיסיות. כתוצאה מכך יימחקו גם נתונים אחרים מאחסון זמני ומהקובץ השמור, כמו נתונים של קובצי cookie, תוכן ואתרים.</translation>
 <translation id="1082725763867769612">קבצים לא מקוונים</translation>
 <translation id="1084824384139382525">העתק כתו&amp;בת קישור</translation>
 <translation id="1089439967362294234">שינוי סיסמה</translation>
@@ -70,10 +70,10 @@
 <translation id="1110772031432362678">לא נמצאו רשתות.</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">יהלום</translation>
-<translation id="1114335938027186412">‏המחשב שלך מכיל התקן אבטחה מסוג Trusted Platform Module‏ (TPM), המשמש ליישם תכונות אבטחה קריטיות רבות במערכת ההפעלה של Chrome. היכנס למרכז העזרה של Chromebook כדי לקבל מידע נוסף: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">‏המחשב שלך מכיל התקן אבטחה מסוג Trusted Platform Module‏ (TPM), המשמש ליישם תכונות אבטחה קריטיות רבות במערכת ההפעלה של Brave. היכנס למרכז העזרה של Bravebook כדי לקבל מידע נוסף: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114525161406758033">מצב שינה מופעל כשהמכסה סגור</translation>
 <translation id="1114901192629963971">לא ניתן לאמת את הסיסמה ברשת הזו. בחר רשת אחרת.</translation>
-<translation id="1115018219887494029">‏Smart Lock for Chromebook (ביטא)</translation>
+<translation id="1115018219887494029">‏Smart Lock for Bravebook (ביטא)</translation>
 <translation id="1116694919640316211">מידע כללי</translation>
 <translation id="1119069657431255176">‏ארכיון TAR מכווץ של Bzip2</translation>
 <translation id="1119447706177454957">שגיאה פנימית</translation>
@@ -134,7 +134,7 @@
 <translation id="1202596434010270079">אפליקצית הקיוסק עודכנה. הסר את הדיסק און קי.</translation>
 <translation id="120368089816228251">תו מוזיקלי</translation>
 <translation id="1205489148908752564">קריאה ושינוי של משתמשים ברשימת היתרים</translation>
-<translation id="1206407435587370571">‏סיור ב-Chromebook</translation>
+<translation id="1206407435587370571">‏סיור ב-Bravebook</translation>
 <translation id="1211364473545090084">חלון גלישה בסתר מאפשר לגלוש בלי לשמור את היסטוריית הגלישה</translation>
 <translation id="1213037489357051291"><ph name="NUM_FINGERPRINTS" /> טביעות אצבעות הוגדרו</translation>
 <translation id="1215411991991485844">נוסף יישום רקע חדש</translation>
@@ -201,14 +201,14 @@
 <translation id="1313405956111467313">‏תצורה אוטומטית של שרת proxy</translation>
 <translation id="131364520783682672">Caps Lock</translation>
 <translation id="1313705515580255288">‏הסימניות, ההיסטוריה והגדרות נוספות יסונכרנו עם חשבון Google שלך.</translation>
-<translation id="1313832887664610176">‏החיבור ל-Chromebox אבד</translation>
+<translation id="1313832887664610176">‏החיבור ל-Bravebox אבד</translation>
 <translation id="131461803491198646">רשת ביתית, לא בנדידה</translation>
 <translation id="1316136264406804862">מחפש...</translation>
 <translation id="1317502925920562130">האם זהו דף הבית שציפית לראות?</translation>
-<translation id="1319979322914001937">‏יישום שמציג רשימה מסוננת של תוספים מחנות האינטרנט של Chrome. ניתן להתקין את התוספים שברשימה ישירות מתוך היישום.</translation>
+<translation id="1319979322914001937">‏יישום שמציג רשימה מסוננת של תוספים מחנות האינטרנט של Brave. ניתן להתקין את התוספים שברשימה ישירות מתוך היישום.</translation>
 <translation id="132090119144658135">התאמת נושא:</translation>
 <translation id="1325040735987616223">עדכון מערכת</translation>
-<translation id="1326317727527857210">‏כדי לקבל את הכרטיסיות מהמכשירים האחרים שלך, היכנס ל-Chrome.</translation>
+<translation id="1326317727527857210">‏כדי לקבל את הכרטיסיות מהמכשירים האחרים שלך, היכנס ל-Brave.</translation>
 <translation id="1327074568633507428">‏מדפסת ב-Google Cloud Print</translation>
 <translation id="1327977588028644528">שער</translation>
 <translation id="1329584516321524826">עודכן עכשיו</translation>
@@ -378,7 +378,7 @@
 <translation id="1580652505892042215">הקשר:</translation>
 <translation id="1581962803218266616">‏הצג ב-Finder</translation>
 <translation id="1584990664401018068">‏ייתכן שיהיה צורך באימות בשביל רשת ה-Wi-Fi שבה אתה משתמש (<ph name="NETWORK_ID" />).</translation>
-<translation id="1585717515139318619">‏תכנית אחרת במחשב הוסיפה עיצוב שעשוי לשנות את אופן הפעולה של Chrome.
+<translation id="1585717515139318619">‏תכנית אחרת במחשב הוסיפה עיצוב שעשוי לשנות את אופן הפעולה של Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">‏קונסולת JavaScript&amp;</translation>
@@ -429,7 +429,7 @@
     <ph name="BEGIN_BOLD" />לסקור<ph name="END_BOLD" /> אתרים שהמשתמש המנוהל ביקר בהם, וכן
     <ph name="BEGIN_BOLD" />לנהל<ph name="END_BOLD" /> הגדרות נוספות.</translation>
 <translation id="1648943974594387137">פרטי הכניסה אינם מעודכנים</translation>
-<translation id="164969095109328410">‏מכשיר Chrome</translation>
+<translation id="164969095109328410">‏מכשיר Brave</translation>
 <translation id="1650371550981945235">הצג אפשרויות קלט</translation>
 <translation id="1650709179466243265">‏הוסף www. ו-‎.com וכתובת פתוחה</translation>
 <translation id="1651008383952180276">עליך להזין אותו ביטוי סיסמה פעמיים</translation>
@@ -521,7 +521,7 @@
 <translation id="1786636458339910689">אחסון שיתופי</translation>
 <translation id="1789575671122666129">חלונות קופצים</translation>
 <translation id="1792619191750875668">תצוגה מורחבת</translation>
-<translation id="1793119619663054394">‏האם אתה בטוח שברצונך להסיר את "<ph name="PROFILE_NAME" />" ואת כל הנתונים הקשורים ל-Chrome ממחשב זה? לא ניתן לבטל פעולה זו.</translation>
+<translation id="1793119619663054394">‏האם אתה בטוח שברצונך להסיר את "<ph name="PROFILE_NAME" />" ואת כל הנתונים הקשורים ל-Brave ממחשב זה? לא ניתן לבטל פעולה זו.</translation>
 <translation id="1794791083288629568">שלח משוב כדי לעזור לנו לפתור את הבעיה.</translation>
 <translation id="1795214765651529549">השתמש בעיצוב קלאסי</translation>
 <translation id="179767530217573436">מ-4 השבועות האחרונים</translation>
@@ -659,14 +659,14 @@
 <translation id="2043818754674261542">המרחק הדרוש לביטול הנעילה של <ph name="DEVICE_TYPE" /> באמצעות הטלפון</translation>
 <translation id="204497730941176055">‏שם תבנית אישור של Microsoft</translation>
 <translation id="2045969484888636535">‏המשך לחסום קובצי Cookie</translation>
-<translation id="204622017488417136">‏המכשיר שלך יוחזר לגרסה הקודמת המותקנת של Chrome. כל חשבונות המשתמשים והנתונים המקומיים יוסרו. לא ניתן לבטל פעולה זו.</translation>
+<translation id="204622017488417136">‏המכשיר שלך יוחזר לגרסה הקודמת המותקנת של Brave. כל חשבונות המשתמשים והנתונים המקומיים יוסרו. לא ניתן לבטל פעולה זו.</translation>
 <translation id="2048182445208425546">גישה לתנועת הרשת שלך</translation>
 <translation id="2049137146490122801">הגישה לקבצים מקומיים במחשב שלך מושבתת על ידי מנהל המערכת.</translation>
 <translation id="204914487372604757">צור קיצור דרך</translation>
 <translation id="2050339315714019657">לאורך</translation>
 <translation id="2053312383184521053">נתוני מצב של חוסר פעילות</translation>
 <translation id="205560151218727633">‏הלוגו של Google Assistant</translation>
-<translation id="2065405795449409761">‏Chrome נשלט על-ידי תוכנת בדיקה אוטומטית.</translation>
+<translation id="2065405795449409761">‏Brave נשלט על-ידי תוכנת בדיקה אוטומטית.</translation>
 <translation id="2068054174185416762">קצב פריימים</translation>
 <translation id="2070909990982335904">שמות המתחילים בנקודה שמורים עבור המערכת. בחר שם אחר.</translation>
 <translation id="2071393345806050157">אין קובץ יומן מקומי.</translation>
@@ -682,13 +682,13 @@
 <translation id="2080070583977670716">הגדרות נוספות</translation>
 <translation id="2085470240340828803">כבר קיים קובץ בשם "<ph name="FILENAME" />". מה ברצונך לעשות?</translation>
 <translation id="2087822576218954668">הדפס: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">‏גלישה בטוחה עם Google Chrome</translation>
+<translation id="2089566709556890888">‏גלישה בטוחה עם Brave</translation>
 <translation id="2090165459409185032">‏כדי לשחזר את המידע מהחשבון, עבור אל: google.com/accounts/recovery</translation>
 <translation id="2090876986345970080">הגדרה של אבטחת מערכת</translation>
 <translation id="2091887806945687916">צליל</translation>
-<translation id="2097372108957554726">‏עליך להיכנס מחדש ל-Chrome כדי לרשום מכשירים חדשים</translation>
+<translation id="2097372108957554726">‏עליך להיכנס מחדש ל-Brave כדי לרשום מכשירים חדשים</translation>
 <translation id="2098305189700762159">לא נמצא</translation>
-<translation id="2099172618127234427">‏אתה מאפשר תכונות ניפוי באגים במערכת ההפעלה של Chrome שיגדירו sshd daemon ויאפשרו אתחול מכונני USB.</translation>
+<translation id="2099172618127234427">‏אתה מאפשר תכונות ניפוי באגים במערכת ההפעלה של Brave שיגדירו sshd daemon ויאפשרו אתחול מכונני USB.</translation>
 <translation id="2099686503067610784">למחוק את אישור השרת "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="2100273922101894616">כניסה אוטומטית</translation>
 <translation id="2101225219012730419">גרסה:</translation>
@@ -710,7 +710,7 @@
 <translation id="2116673936380190819">מהשעה האחרונה</translation>
 <translation id="2121825465123208577">שנה גודל</translation>
 <translation id="2126167708562367080">מנהל המערכת שלך השבית את הסינכרון.</translation>
-<translation id="2126426811489709554">‏מבוסס על Chrome</translation>
+<translation id="2126426811489709554">‏מבוסס על Brave</translation>
 <translation id="2127372758936585790">מטען בעל מתח נמוך</translation>
 <translation id="212862741129535676">אחוז תפוסה במצב תדירות</translation>
 <translation id="2128691215891724419">שגיאת סנכרון: עדכן משפט-סיסמה של סנכרון...</translation>
@@ -803,13 +803,13 @@
 <translation id="2242687258748107519">פרטי קובץ</translation>
 <translation id="2245240762616536227">‏קביעת ההתאמה האישית של היסטוריית הגלישה לגבי חיפוש, מודעות ושירותים אחרים של Google</translation>
 <translation id="2246340272688122454">מוריד תמונת שחזור...</translation>
-<translation id="2249499294612408921">‏משתמש בפיקוח יכול לגלוש באינטרנט בהדרכתך. בתור המנהל של משתמש בפיקוח ב-Chrome, באפשרותך
+<translation id="2249499294612408921">‏משתמש בפיקוח יכול לגלוש באינטרנט בהדרכתך. בתור המנהל של משתמש בפיקוח ב-Brave, באפשרותך
 
 • להתיר או לאסור אתרים מסוימים,
 • לבדוק באילו אתרים ביקר המשתמש בפיקוח
 • לנהל הגדרות אחרות.
 
-יצירת משתמש בפיקוח אינה יוצרת חשבון Google והסימניות, היסטוריית הגלישה שלו והעדפות אחרות לא יעברו אתו למכשירים אחרים עם סנכרון Chrome.
+יצירת משתמש בפיקוח אינה יוצרת חשבון Google והסימניות, היסטוריית הגלישה שלו והעדפות אחרות לא יעברו אתו למכשירים אחרים עם סנכרון Brave.
 
 לאחר שיצרת משתמש בפיקוח חדש תוכל לנהל את ההגדרות שלו בכל עת, מכל מכשיר ב-<ph name="DISPLAY_LINK" />. <ph name="BEGIN_LINK" />למידע נוסף על משתמשים בפיקוח<ph name="END_LINK" /></translation>
 <translation id="2249605167705922988">למשל 1-5, 8, 11-13</translation>
@@ -859,7 +859,7 @@
 <translation id="2318817390901984578">‏כדי להשתמש באפליקציות Android עליך לטעון את ה-<ph name="DEVICE_TYPE" /> ולעדכן אותו.</translation>
 <translation id="2318923050469484167">הפעלה נוכחית במצב גלישה בסתר (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">כותרות עליונות ותחתונות</translation>
-<translation id="2325650632570794183">‏סוג קובץ זה אינו נתמך. בקר בחנות האינטרנט של Chrome כדי למצוא יישום שיכול לפתוח קובץ מסוג זה.</translation>
+<translation id="2325650632570794183">‏סוג קובץ זה אינו נתמך. בקר בחנות האינטרנט של Brave כדי למצוא יישום שיכול לפתוח קובץ מסוג זה.</translation>
 <translation id="2326606747676847821">עבור למצב גלישה בסתר</translation>
 <translation id="2326931316514688470">&amp;טען אפליקציה מחדש</translation>
 <translation id="2327492829706409234">הפעל יישום</translation>
@@ -881,7 +881,7 @@
 <translation id="2351266942280602854">שפה וקלט</translation>
 <translation id="2352662711729498748">‏&lt; MB‏ 1</translation>
 <translation id="2356070529366658676">שאל</translation>
-<translation id="2357949918965361754">‏אפשר להשתמש בתכונה זו להצגת תוכן מ-Chrome בטלוויזיה או במכשירים אחרים.</translation>
+<translation id="2357949918965361754">‏אפשר להשתמש בתכונה זו להצגת תוכן מ-Brave בטלוויזיה או במכשירים אחרים.</translation>
 <translation id="2359345697448000899">נהל את התוספים שלך באמצעות לחיצה על 'תוספים' בתפריט כלים.</translation>
 <translation id="2359808026110333948">המשך</translation>
 <translation id="236141728043665931">חסום תמיד גישה למיקרופון</translation>
@@ -1024,7 +1024,7 @@
 <translation id="2575247648642144396">סמל זה יוצג כאשר התוסף יכול לפעול בדף הנוכחי. השתמש בתוסף זה על ידי לחיצה על הסמל או על ידי הקשה על <ph name="EXTENSION_SHORTCUT" />.</translation>
 <translation id="2575268751393592580">‏לא ניתן למצוא את הטלפון שלך. יש לוודא שה-<ph name="DEVICE_TYPE" /> מחובר לרשת Wi-Fi או לרשת סלולרית. &lt;a&gt;מידע נוסף&lt;/a&gt;</translation>
 <translation id="2576842806987913196">‏כבר קיים קובץ CRX בשם זה.</translation>
-<translation id="257779572837908839">‏הגדרה כ-Chromebox לניהול פגישות</translation>
+<translation id="257779572837908839">‏הגדרה כ-Bravebox לניהול פגישות</translation>
 <translation id="2579575372772932244">יוצר מחדש את הפרופיל. המתן...</translation>
 <translation id="2580889980133367162">תמיד אפשר ל-<ph name="HOST" /> להוריד קבצים מרובים</translation>
 <translation id="2580924999637585241">סך הכל: <ph name="NUMBER_OF_SHEETS" /> <ph name="SHEETS_LABEL" /></translation>
@@ -1033,11 +1033,11 @@
 <translation id="2582253231918033891"><ph name="PRODUCT_NAME" /> <ph name="PRODUCT_VERSION" /> (פלטפורמה <ph name="PLATFORM_VERSION" />‏) <ph name="DEVICE_SERIAL_NUMBER" /></translation>
 <translation id="2585300050980572691">הגדרות ברירת מחדל של חיפוש</translation>
 <translation id="2587922270115112871">‏יצירת משתמש בפיקוח אינה גורמת ליצירת חשבון Google, וההגדרות
-    והנתונים של המשתמש בפיקוח לא יעברו איתו למכשירים אחרים באמצעות סנכרון Chrome. הגדרת משתמש בפיקוח חלה על מכשיר זה בלבד.</translation>
+    והנתונים של המשתמש בפיקוח לא יעברו איתו למכשירים אחרים באמצעות סנכרון Brave. הגדרת משתמש בפיקוח חלה על מכשיר זה בלבד.</translation>
 <translation id="258932246702879617">בחר באפשרות <ph name="BEGIN_BOLD" />הצמד לשורת המשימות<ph name="END_BOLD" /></translation>
 <translation id="259421303766146093">בטל הגדלה</translation>
 <translation id="2594999711683503743">‏חפש ב-Google או הקלד כתובת אתר</translation>
-<translation id="2597852038534460976">‏Chrome לא יכול לגשת לטפטים. התחבר לרשת.</translation>
+<translation id="2597852038534460976">‏Brave לא יכול לגשת לטפטים. התחבר לרשת.</translation>
 <translation id="2603463522847370204">פתח בחלון &amp;גלישה בסתר</translation>
 <translation id="2607101320794533334">פרטי מפתח ציבורי של נושא</translation>
 <translation id="2607459012323956820">המנהל עדיין יכול להציג את ההגדרות ואת היסטוריית הגלישה של משתמש מבוקר זה בכתובת <ph name="BEGIN_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_LINK" />.</translation>
@@ -1062,7 +1062,7 @@
 <translation id="2633212996805280240">להסיר את "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="263325223718984101"><ph name="PRODUCT_NAME" /> לא הצליח להשלים את ההתקנה, אך ימשיך לפעול מתמונת הדיסק שלו.</translation>
 <translation id="2635276683026132559">חתימה</translation>
-<translation id="2636625531157955190">‏ל-Chrome אין אפשרות לגשת לתמונה.</translation>
+<translation id="2636625531157955190">‏ל-Brave אין אפשרות לגשת לתמונה.</translation>
 <translation id="2638087589890736295">יש להזין את ביטוי הסיסמה כדי להתחיל את הסנכרון</translation>
 <translation id="2638286699381354126">עדכן...</translation>
 <translation id="2638942478653899953">‏לא ניתן היה להגיע אל Google Drive‏. <ph name="BEGIN_LINK" />צא<ph name="END_LINK" /> ואז התחבר שוב.</translation>
@@ -1078,13 +1078,13 @@
 <translation id="2655386581175833247">אישור משתמש:</translation>
 <translation id="2660779039299703961">אירוע</translation>
 <translation id="2661146741306740526">16x9</translation>
-<translation id="2662876636500006917">Chrome Web Store</translation>
+<translation id="2662876636500006917">Brave Web Store</translation>
 <translation id="2663302507110284145">שפה</translation>
 <translation id="2665394472441560184">הוסף מילה חדשה</translation>
 <translation id="2665717534925640469">דף זה מוצג כעת במסך מלא והשבית את סמן העכבר שלך.</translation>
 <translation id="2665919335226618153">אוי, לא! היתה שגיאה במהלך הפרמוט.</translation>
 <translation id="2667463864537187133">ניהול בדיקת איות</translation>
-<translation id="2670102641511624474">‏<ph name="APP_NAME" /> משתף כרטיסיית Chrome.</translation>
+<translation id="2670102641511624474">‏<ph name="APP_NAME" /> משתף כרטיסיית Brave.</translation>
 <translation id="2670531586141364277">הפעלה של '<ph name="NAME" />' מצריכה חיבור לרשת.</translation>
 <translation id="2671451824761031126">הסימניות וההגדרות שלך מוכנות</translation>
 <translation id="2672142220933875349">‏קובץ crx פגום, פירוק האריזה נכשל.</translation>
@@ -1173,7 +1173,7 @@
 <translation id="2803375539583399270">‏הזן PIN</translation>
 <translation id="2803887722080936828">‏<ph name="BEGIN_H3" />תכונות של ניפוי באגים<ph name="END_H3" />
 <ph name="BR" />
-אפשר להפעיל את תכונות ניפוי הבאגים במכשיר ה-Chrome כדי לבצע במכשיר התקנה ובדיקה של קוד בהתאמה אישית. כך תוכל:<ph name="BR" />
+אפשר להפעיל את תכונות ניפוי הבאגים במכשיר ה-Brave כדי לבצע במכשיר התקנה ובדיקה של קוד בהתאמה אישית. כך תוכל:<ph name="BR" />
 <ph name="BEGIN_LIST" />
 <ph name="LIST_ITEM" />להסיר אימות rootfs כדי לשנות קבצים במערכת ההפעלה
 <ph name="LIST_ITEM" />להפעיל גישת SSH אל המכשיר באמצעות מקשי הבדיקה הרגילים, כדי שתוכל להשתמש בכלים כמו <ph name="BEGIN_CODE" />'cros flash'<ph name="END_CODE" /> על מנת לגשת למכשיר
@@ -1181,7 +1181,7 @@
 <ph name="LIST_ITEM" />להגדיר ערך מותאם אישית עבור סיסמת ההתחברות לשורש המערכת ולערוץ הפיתוח על מנת לגשת אל המכשיר באופן ידני באמצעות SSH
 <ph name="END_LIST" />
 <ph name="BR" />
-לאחר ההפעלה, רוב התכונות של ניפוי הבאגים יישארו פעילות, גם לאחר ביצוע Powerwash או מחיקה של הנתונים במכשיר ארגוני מנוהל. כדי להשבית באופן מלא את כל תכונות ניפוי הבאגים, בצע את תהליך השחזור של מערכת ההפעלה של Chrome‏ (https://support.google.com/chromebook/answer/1080595).
+לאחר ההפעלה, רוב התכונות של ניפוי הבאגים יישארו פעילות, גם לאחר ביצוע Powerwash או מחיקה של הנתונים במכשיר ארגוני מנוהל. כדי להשבית באופן מלא את כל תכונות ניפוי הבאגים, בצע את תהליך השחזור של מערכת ההפעלה של Brave‏ (https://support.google.com/chromebook/answer/1080595).
 <ph name="BR" />
 <ph name="BR" />
 למידע נוסף על תכונות ניפוי הבאגים, היכנס לכתובת:<ph name="BR" />
@@ -1238,7 +1238,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="2872353916818027657">החלפת הצג הראשי</translation>
 <translation id="287286579981869940">הוסף את <ph name="PROVIDER_NAME" />...</translation>
 <translation id="2872961005593481000">כיבוי</translation>
-<translation id="2875698561019555027">‏(דפי שגיאה ב-Chrome)</translation>
+<translation id="2875698561019555027">‏(דפי שגיאה ב-Brave)</translation>
 <translation id="288042212351694283">‏גישה למכשירי Universal 2nd Factor שלך</translation>
 <translation id="2881966438216424900">גישה אחרונה:</translation>
 <translation id="2882943222317434580"><ph name="IDS_SHORT_PRODUCT_NAME" /> יבצע אתחול ואיפוס בעוד מספר רגעים</translation>
@@ -1334,7 +1334,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3012917896646559015">צור קשר עם יצרן החומרה באופן מיידי כדי לשלוח את המחשב לתיקון.</translation>
 <translation id="3013291976881901233">‏התקני MIDI</translation>
 <translation id="3014095112974898292">ממתין להשלמת הבקשות האחרות...</translation>
-<translation id="3015992588037997514">‏האם קוד זה מופיע במסך ה-Chromebox שלך?</translation>
+<translation id="3015992588037997514">‏האם קוד זה מופיע במסך ה-Bravebox שלך?</translation>
 <translation id="3016641847947582299">הרכיב עודכן</translation>
 <translation id="3016780570757425217">לדעת מה המיקום שלך</translation>
 <translation id="3018346972744622514">הוסף עוד רשת סלולרית</translation>
@@ -1344,13 +1344,13 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3022978424994383087">ההודעה שלך לא ברורה.</translation>
 <translation id="3024374909719388945">השתמש בשעון של 24 שעות</translation>
 <translation id="302781076327338683">טען מחדש מטמון עוקף</translation>
-<translation id="3030243755303701754">‏משתמש בפיקוח יכול לגלוש באינטרנט בהשגחתך. כמנהל של משתמש בפיקוח ב-Chrome תוכל:
+<translation id="3030243755303701754">‏משתמש בפיקוח יכול לגלוש באינטרנט בהשגחתך. כמנהל של משתמש בפיקוח ב-Brave תוכל:
 
  • להתיר או לחסום אתרים
  • להציג את האתרים שבהם ביקר המשתמש בפיקוח
  • לנהל הגדרות נוספות
 
-יצירה של משתמש בפיקוח אינה יוצרת חשבון Google, והסימניות, היסטוריית הגלישה וההעדפות האחרות שלו לא יהיו זמינות לו במכשירים אחרים בעזרת סינכרון Chrome. לאחר שתיצור משתמש חדש בפיקוח, תוכל לנהל את ההגדרות שלו תמיד ומכל מכשיר בכתובת <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
+יצירה של משתמש בפיקוח אינה יוצרת חשבון Google, והסימניות, היסטוריית הגלישה וההעדפות האחרות שלו לא יהיו זמינות לו במכשירים אחרים בעזרת סינכרון Brave. לאחר שתיצור משתמש חדש בפיקוח, תוכל לנהל את ההגדרות שלו תמיד ומכל מכשיר בכתובת <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
 
 תוכל למצוא מידע נוסף <ph name="BEGIN_LINK" />במרכז העזרה<ph name="END_LINK" /> שלנו.</translation>
 <translation id="3031417829280473749">‏סוכנת X</translation>
@@ -1376,7 +1376,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3071624960923923138">אפשר ללחוץ כאן כדי לפתוח כרטיסייה חדשה</translation>
 <translation id="3074037959626057712">נכנסת לחשבונך והפעלת את הסנכרון</translation>
 <translation id="3075874217500066906">‏נדרשת הפעלה מחדש על מנת להתחיל את תהליך ה-Powerwash. לאחר ההפעלה מחדש תתבקש לאשר שברצונך להמשיך.</translation>
-<translation id="3076677906922146425">‏אפשר לכולם להוסיף אדם ב-Chrome</translation>
+<translation id="3076677906922146425">‏אפשר לכולם להוסיף אדם ב-Brave</translation>
 <translation id="3076909148546628648"><ph name="DOWNLOAD_RECEIVED" />/<ph name="DOWNLOAD_TOTAL" /></translation>
 <translation id="3077734595579995578">shift</translation>
 <translation id="3078461028045006476">שתף באמצעות <ph name="EXTENSION_NAME" /></translation>
@@ -1387,7 +1387,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3083193146044397360">האתר נחסם זמנית כדי להגן על האבטחה שלך</translation>
 <translation id="308330327687243295">https://mail.google.com/mail/?extsrc=mailto&amp;url=%s</translation>
 <translation id="3084548735795614657">שחרר כדי להתקין</translation>
-<translation id="3084771660770137092">‏ייתכן שהזיכרון של Chrome אזל או שתהליך שפעל על דף האינטרנט הופסק מסיבה כלשהי. כדי להמשיך, טען מחדש או עבור לדף אחר.</translation>
+<translation id="3084771660770137092">‏ייתכן שהזיכרון של Brave אזל או שתהליך שפעל על דף האינטרנט הופסק מסיבה כלשהי. כדי להמשיך, טען מחדש או עבור לדף אחר.</translation>
 <translation id="3085752524577180175">‏מארח SOCKS</translation>
 <translation id="3088325635286126843">&amp;שנה שם...</translation>
 <translation id="3089231390674410424">נראה שישנה בעיה עם פרטי הכניסה שלך. ודא שאתה מחובר למערכת כהלכה ונסה שוב.</translation>
@@ -1428,7 +1428,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3144126448740580210">בוצע</translation>
 <translation id="3144135466825225871">‏הנסיון להחליף קובץ crx נכשל. בדוק אם הקובץ נמצא בשימוש.</translation>
 <translation id="3144647712221361880">פתח קישור בתור</translation>
-<translation id="3149510190863420837">‏יישומי Chrome</translation>
+<translation id="3149510190863420837">‏יישומי Brave</translation>
 <translation id="3150927491400159470">טעינה מחדש קשיחה</translation>
 <translation id="315116470104423982">נתוני נייד</translation>
 <translation id="3151539355209957474">שעת התחלה</translation>
@@ -1490,7 +1490,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3254434849914415189">בחר את יישום ברירת המחדל עבור קובצי <ph name="FILE_TYPE" />:</translation>
 <translation id="3255228561559750854">‏חפש, או אמור "Ok Google"</translation>
 <translation id="3264544094376351444">‏גופן Sans-Serif</translation>
-<translation id="3264547943200567728">‏נכשל הניסיון להגדיר את הרשת של ה-Chromebox</translation>
+<translation id="3264547943200567728">‏נכשל הניסיון להגדיר את הרשת של ה-Bravebox</translation>
 <translation id="3265459715026181080">סגור חלון</translation>
 <translation id="3267726687589094446">המשך לאפשר הורדות אוטומטיות של קבצים מרובים</translation>
 <translation id="3267998849713137817">זמן השינוי</translation>
@@ -1507,9 +1507,9 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3274763671541996799">עברת למסך מלא.</translation>
 <translation id="3275778913554317645">פתח כחלון</translation>
 <translation id="3280237271814976245">שמור &amp;בשם...</translation>
-<translation id="3280243678470289153">‏להישאר ב-Chrome</translation>
+<translation id="3280243678470289153">‏להישאר ב-Brave</translation>
 <translation id="3280431534455935878">מכין</translation>
-<translation id="3282568296779691940">‏כניסה ל-Chrome</translation>
+<translation id="3282568296779691940">‏כניסה ל-Brave</translation>
 <translation id="3285322247471302225">כרטיסייה &amp;חדשה</translation>
 <translation id="3288047731229977326">תוספים הרצים במצב מפתח יכולים להזיק למחשב שלך. אם אינך מפתח, עליך להשבית את התוספים הרצים במצב מפתח כדי לשמור על ביטחונך.</translation>
 <translation id="3289856944988573801">‏כדי לבדוק אם יש עדכונים, השתמש ב-Ethernet או ב-Wi-Fi.</translation>
@@ -1553,7 +1553,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3326821416087822643">מכווץ את <ph name="FILE_NAME" />...</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">פרטי יישום</translation>
-<translation id="3335561837873115802">‏הורד את Chrome Cleanup Tool</translation>
+<translation id="3335561837873115802">‏הורד את Brave Cleanup Tool</translation>
 <translation id="3335947283844343239">פתח מחדש כרטיסייה שנסגרה</translation>
 <translation id="3337069537196930048">הפלאגין <ph name="PLUGIN_NAME" /> נחסם משום שאינו מעודכן.</translation>
 <translation id="3340978935015468852">הגדרות</translation>
@@ -1573,7 +1573,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="335985608243443814">דפדף...</translation>
 <translation id="3360297538363969800">ההדפסה נכשלה. בדוק את המדפסת ונסה שוב.</translation>
 <translation id="3364721542077212959">כלי סטיילוס</translation>
-<translation id="336497260564123876">‏הסיסמה נשמרה. כדי לקבל את הסיסמאות שלך בכל המכשירים, היכנס ל-Chrome.</translation>
+<translation id="336497260564123876">‏הסיסמה נשמרה. כדי לקבל את הסיסמאות שלך בכל המכשירים, היכנס ל-Brave.</translation>
 <translation id="3367813778245106622">היכנס שוב כדי להתחיל בסנכרון</translation>
 <translation id="3368922792935385530">מחובר</translation>
 <translation id="3369624026883419694">מברר כתובת שרת מארח...</translation>
@@ -1695,7 +1695,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3547495624659668105">‏גרסת PRL</translation>
 <translation id="3547954654003013442">‏הגדרות Proxy</translation>
 <translation id="3549797760399244642">‏עבור אל drive.google.com...</translation>
-<translation id="3550915441744863158">‏Chrome מתעדכן באופן אוטומטי כך שתשתמש תמיד בגרסה העדכנית ביותר</translation>
+<translation id="3550915441744863158">‏Brave מתעדכן באופן אוטומטי כך שתשתמש תמיד בגרסה העדכנית ביותר</translation>
 <translation id="3551320343578183772">סגור כרטיסייה</translation>
 <translation id="355298399003313926"><ph name="URL" /> מבקש להגיב לאירועי נגישות.</translation>
 <translation id="3555812735919707620">הסר תוסף</translation>
@@ -1774,7 +1774,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
     <ph name="BEGIN_PARAGRAPH2" />נתונים מגובים לא ייחשבו כחלק ממכסת האחסון ב-Drive. קבצים גדולים או קבצים שמפתחים בחרו שלא לכלול בשירות לא יגובו.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="3660234220361471169">לא אמין</translation>
 <translation id="3661054927247347545">אישור הכניסה אינו חוקי. החלון ייסגר בעוד <ph name="MINUTES" /> : <ph name="SECONDS" /></translation>
-<translation id="3665589677786828986">‏Chrome זיהה שחלק מההגדרות שלך נפגמו על ידי תכנית אחרת ואיפס אותן לברירות המחדל המקוריות.</translation>
+<translation id="3665589677786828986">‏Brave זיהה שחלק מההגדרות שלך נפגמו על ידי תכנית אחרת ואיפס אותן לברירות המחדל המקוריות.</translation>
 <translation id="3665842570601375360">אבטחה:</translation>
 <translation id="3668570675727296296">הגדרות שפה</translation>
 <translation id="3668823961463113931">מטפלים</translation>
@@ -1794,7 +1794,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3693415264595406141">סיסמה:</translation>
 <translation id="3694027410380121301">בחר כרטיסייה קודמת</translation>
 <translation id="3695919544155087829">הזן את הסיסמה שבה השתמשת כדי להצפין קובץ אישור זה.</translation>
-<translation id="3697100740575341996">‏מנהל ה-IT שלך השבית את התוספות ל-Chrome עבור המכשיר שלך. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="3697100740575341996">‏מנהל ה-IT שלך השבית את התוספות ל-Brave עבור המכשיר שלך. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="3699624789011381381">כתובת אימייל</translation>
 <translation id="3702500414347826004">דפי הפתיחה שלך השתנו והם כוללים עכשיו את <ph name="URL" />.</translation>
 <translation id="3704331259350077894">הפסקת פעולה</translation>
@@ -1809,7 +1809,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3714633008798122362">יומן אינטרנט</translation>
 <translation id="3718288130002896473">אופן פעולה</translation>
 <translation id="3719826155360621982">דף הבית</translation>
-<translation id="3723158278575423087">‏ברוכים הבאים לחוויה של Cast ב-Chromium.</translation>
+<translation id="3723158278575423087">‏ברוכים הבאים לחוויה של Cast ב-Brave.</translation>
 <translation id="3725367690636977613">דפים</translation>
 <translation id="3726463242007121105">לא ניתן לפתוח מכשיר זה מאחר שמערכת הקבצים שלו אינה נתמכת.</translation>
 <translation id="3726527440140411893">‏קובצי ה-Cookie הבאים הוגדרו בעת הצגת דף זה:</translation>
@@ -1844,7 +1844,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3768037234834996183">מסנכרן את ההעדפות שלך...</translation>
 <translation id="3771294271822695279">קובצי וידאו</translation>
 <translation id="3775432569830822555">‏אישור שרת SSL</translation>
-<translation id="3776796446459804932">‏התוסף מפר את המדיניות בחנות האינטרנט של Chrome.</translation>
+<translation id="3776796446459804932">‏התוסף מפר את המדיניות בחנות האינטרנט של Brave.</translation>
 <translation id="3778152852029592020">ההורדה בוטלה.</translation>
 <translation id="3778740492972734840">&amp;כלים עבור מפתחים</translation>
 <translation id="3778868487658107119">‏אפשר לשאול אותו שאלות ולומר לו לבצע פעולות. העוזר הפרטי של Google מוכן תמיד לסייע לך.</translation>
@@ -1878,7 +1878,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="381202950560906753">להמשך הוספה</translation>
 <translation id="3812034401428455285"><ph name="UWS_NAME" /> ו-<ph name="UWS_NAME" /></translation>
 <translation id="3812525830114410218">אישור פגום</translation>
-<translation id="3813296892522778813">‏אם אתה לא מוצא את מה שחיפשת, עבור אל <ph name="BEGIN_LINK_CHROMIUM" />מרכז העזרה של Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">‏אם אתה לא מוצא את מה שחיפשת, עבור אל <ph name="BEGIN_LINK_CHROMIUM" />מרכז העזרה של Brave<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813984289128269159">Ok Google</translation>
 <translation id="3815571115159309122">‏נמצאו <ph name="FILE_COUNT" /> תמונות חדשות
     <ph name="LINE_BREAK1" />
@@ -1905,7 +1905,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3838486795898716504"><ph name="PAGE_TITLE" /> נוספים</translation>
 <translation id="3838543471119263078">‏קובצי cookie ונתוני אתר ופלאגין נוספים</translation>
 <translation id="383891835335927981">באף אתר לא השתנה המרחק מהתצוגה</translation>
-<translation id="3840053866656739575">‏אבד החיבור ל-Chromebox שלך. התקרב עוד או בדוק את מכשירך בזמן שאנחנו מנסים להתחבר שוב.</translation>
+<translation id="3840053866656739575">‏אבד החיבור ל-Bravebox שלך. התקרב עוד או בדוק את מכשירך בזמן שאנחנו מנסים להתחבר שוב.</translation>
 <translation id="3842552989725514455">‏גופן Serif</translation>
 <translation id="385051799172605136">חזור</translation>
 <translation id="3851428669031642514">טען סקריפטים לא בטוחים</translation>
@@ -1917,7 +1917,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3857773447683694438">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</translation>
 <translation id="3859360505208332355">התר תמיד את יישומי הפלאגין האלה ב-<ph name="HOST" /></translation>
 <translation id="3860381078714302691">‏ברכות על הצטרפותך אל Hangouts Meet</translation>
-<translation id="3862134173397075045">‏ברוכים הבאים לחוויה של Cast ב-Chrome!</translation>
+<translation id="3862134173397075045">‏ברוכים הבאים לחוויה של Cast ב-Brave!</translation>
 <translation id="3865414814144988605">רזולוציה</translation>
 <translation id="386548886866354912">הוסף לחבילה יחד עם <ph name="EXTENSION_NAME" /></translation>
 <translation id="3866249974567520381">תיאור</translation>
@@ -1931,7 +1931,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="388485010393668001">השלמה זמינה: <ph name="COMPLETION_TEXT" /></translation>
 <translation id="3892414795099177503">‏הוסף OpenVPN / L2TP...</translation>
 <translation id="3893536212201235195">קרא ושנה את הגדרות הנגישות שלך</translation>
-<translation id="3893630138897523026">‏ChromeVox (משוב קולי)</translation>
+<translation id="3893630138897523026">‏BraveVox (משוב קולי)</translation>
 <translation id="3894427358181296146">הוספת תיקייה</translation>
 <translation id="389589731200570180">שיתוף עם אורחים</translation>
 <translation id="3897092660631435901">תפריט</translation>
@@ -1950,7 +1950,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3916445069167113093">סוג קובץ זה עלול לגרום נזק למחשב שלך. האם ברצונך לשמור את <ph name="FILE_NAME" /> בכל מקרה?</translation>
 <translation id="3918972485393593704">‏שליחת הפרטים אל Google</translation>
 <translation id="3920504717067627103">מדיניות אישורים </translation>
-<translation id="392089482157167418">‏הפעל את ChromeVox (משוב קולי)</translation>
+<translation id="392089482157167418">‏הפעל את BraveVox (משוב קולי)</translation>
 <translation id="3924145049010392604">Meta</translation>
 <translation id="3925247638945319984">‏אין לך יומני WebRTC שתועדו לאחרונה.</translation>
 <translation id="3925573269917483990">מצלמה:</translation>
@@ -2054,7 +2054,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4087089424473531098">יצר את ההרחבה:
 
 <ph name="EXTENSION_FILE" /></translation>
-<translation id="4087470595660267445">‏התקן במכשיר ה-Chromebook שלך אפליקציות ומשחקים מ-Google Play. &lt;a target="_blank" href="<ph name="URL" />"&gt;מידע נוסף&lt;/a&gt;</translation>
+<translation id="4087470595660267445">‏התקן במכשיר ה-Bravebook שלך אפליקציות ומשחקים מ-Google Play. &lt;a target="_blank" href="<ph name="URL" />"&gt;מידע נוסף&lt;/a&gt;</translation>
 <translation id="4088095054444612037">אשר עבור הקבוצה</translation>
 <translation id="4089521618207933045">יש תפריט משנה</translation>
 <translation id="4090103403438682346">הפעל גישה מאומתת</translation>
@@ -2090,7 +2090,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4138267921960073861">הצג שמות משתמשים ותמונות במסך הכניסה</translation>
 <translation id="4140559601186535628">הודעות בדחיפה</translation>
 <translation id="4146026355784316281">פתח תמיד באמצעות מציג המערכת</translation>
-<translation id="4146175323503586871">‏<ph name="SERVICE_NAME" /> רוצה לבדוק אם המכשיר שלך המשתמש במערכת ההפעלה של Chrome זכאי למבצע. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="4146175323503586871">‏<ph name="SERVICE_NAME" /> רוצה לבדוק אם המכשיר שלך המשתמש במערכת ההפעלה של Brave זכאי למבצע. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="4150201353443180367">תצוגה</translation>
 <translation id="4152670763139331043">{NUM_TABS,plural, =1{כרטיסייה אחת}two{# כרטיסיות}many{# כרטיסיות}other{# כרטיסיות}}</translation>
 <translation id="4154664944169082762">טביעות אצבע</translation>
@@ -2098,7 +2098,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4158739975813877944">פתח פלייליסט</translation>
 <translation id="4159681666905192102">זהו חשבון לילדים המנוהל על-ידי <ph name="CUSTODIAN_EMAIL" /> ועל-ידי <ph name="SECOND_CUSTODIAN_EMAIL" />.</translation>
 <translation id="4163560723127662357">מקלדת לא ידועה</translation>
-<translation id="4166210099837486476">‏מעקב אחר נקיטת הפעולות שלך ב-Chrome</translation>
+<translation id="4166210099837486476">‏מעקב אחר נקיטת הפעולות שלך ב-Brave</translation>
 <translation id="4168015872538332605">חלק מההגדרות השייכות ל-<ph name="PRIMARY_EMAIL" /> משותפות איתך. ההגדרות האלה משפיעות על החשבון שלך רק בעת שימוש בכניסה עם מספר חשבונות.</translation>
 <translation id="4172051516777682613">הצג תמיד</translation>
 <translation id="4175737294868205930">אחסון קבוע</translation>
@@ -2267,7 +2267,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4452426408005428395">לא חשוב</translation>
 <translation id="4454939697743986778">אישור זה הותקן על ידי מנהל המערכת שלך.</translation>
 <translation id="445923051607553918">‏הצטרף לרשת Wi-Fi</translation>
-<translation id="4467100756425880649">‏הגלריה של חנות האינטרנט של Chrome</translation>
+<translation id="4467100756425880649">‏הגלריה של חנות האינטרנט של Brave</translation>
 <translation id="4474155171896946103">צור סימניה לכל הכרטיסיות...</translation>
 <translation id="4475552974751346499">חפש בהורדות</translation>
 <translation id="4476590490540813026">ספורטאית</translation>
@@ -2289,7 +2289,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="451407183922382411">מופעל על-ידי <ph name="COMPANY_NAME" /></translation>
 <translation id="4514542542275172126">הגדר משתמש חדש בפיקוח</translation>
 <translation id="451515744433878153">הסר</translation>
-<translation id="4518677423782794009">‏האם Chrome קורס, מציג דפי פתיחה חריגים, מודעות לא צפויות או סרגלי כלים שאי אפשר להיפטר מהם או שמשנים באופן כלשהו את חוויית הגלישה? ייתכן שתוכל לפתור את הבעיה באמצעות הפעלה של Chrome Cleanup Tool.</translation>
+<translation id="4518677423782794009">‏האם Brave קורס, מציג דפי פתיחה חריגים, מודעות לא צפויות או סרגלי כלים שאי אפשר להיפטר מהם או שמשנים באופן כלשהו את חוויית הגלישה? ייתכן שתוכל לפתור את הבעיה באמצעות הפעלה של Brave Cleanup Tool.</translation>
 <translation id="452039078290142656">מכשירים בלתי ידועים של <ph name="VENDOR_NAME" /></translation>
 <translation id="4522570452068850558">פרטים</translation>
 <translation id="4530494379350999373">מקור</translation>
@@ -2306,16 +2306,16 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4544174279960331769">דמות ברירת מחדל כחולה</translation>
 <translation id="4545028762441890696">כדי להפעיל את התוסף מחדש, אשר את ההרשאות החדשות:</translation>
 <translation id="4545759655004063573">לא ניתן לשמור עקב הרשאות לא מספיקות. שמור במיקום אחר.</translation>
-<translation id="4546308221697447294">‏גלישה מהירה עם Google Chrome</translation>
+<translation id="4546308221697447294">‏גלישה מהירה עם Brave</translation>
 <translation id="4547659257713117923">אין כרטיסיות ממכשירים אחרים</translation>
 <translation id="4547992677060857254">התיקיה שבחרת מכילה קבצים רגישים. האם אתה בטוח שברצונך להעניק ל-"$1" גישה קבועה לכתיבה בתיקיה זו?</translation>
-<translation id="4552031286893852992">‏Chrome חסם מודעות באתר הזה כי הוא נוטה להציג מודעות שמפריעות.</translation>
+<translation id="4552031286893852992">‏Brave חסם מודעות באתר הזה כי הוא נוטה להציג מודעות שמפריעות.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552495056028768700">גישה לדף</translation>
 <translation id="4552678318981539154">קנה עוד שטח אחסון</translation>
 <translation id="4554591392113183336">התוסף החיצוני הוא מגרסה זהה או קודמת לזו של התוסף הקיים.</translation>
 <translation id="4555769855065597957">צל</translation>
-<translation id="4555979468244469039">‏שם מכשיר ה-Chromebook</translation>
+<translation id="4555979468244469039">‏שם מכשיר ה-Bravebook</translation>
 <translation id="4556110439722119938">‏הסימניות, ההיסטוריה, הסיסמאות והגדרות נוספות יסונכרנו עם חשבון Google, כך שתוכל להשתמש בהם בכל המכשירים שלך.</translation>
 <translation id="4557136421275541763">אזהרה:</translation>
 <translation id="4558426062282641716">התבקשה הרשאה להפעלה אוטומטית</translation>
@@ -2366,7 +2366,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4634771451598206121">היכנס שוב...</translation>
 <translation id="4636315944522859212">נמצאה מדפסת</translation>
 <translation id="4640525840053037973">‏היכנס עם חשבון Google</translation>
-<translation id="4641539339823703554">‏Chrome לא הצליח להגדיר את שעת המערכת. בדוק את השעה המצוינת בהמשך ותקן אותה במקרה הצורך.</translation>
+<translation id="4641539339823703554">‏Brave לא הצליח להגדיר את שעת המערכת. בדוק את השעה המצוינת בהמשך ותקן אותה במקרה הצורך.</translation>
 <translation id="4643612240819915418">&amp;פתח סרטון וידאו בכרטיסייה חדשה</translation>
 <translation id="4645676300727003670">&amp;שמור</translation>
 <translation id="4647090755847581616">&amp;סגור כרטיסייה</translation>
@@ -2374,7 +2374,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4648491805942548247">הרשאות לא מספיקות</translation>
 <translation id="4648499713050786492">בטל את נעילת הפרופיל שלך לפני הוספה של אדם מסוים.</translation>
 <translation id="4653235815000740718">אירעה בעיה במהלך היצירה של מדיית השחזור של מערכת ההפעלה. מכשיר האחסון שבו נעשה שימוש לא נמצא.</translation>
-<translation id="465499440663162826">‏לא ניתן היה להתחבר לחנות האינטרנט של Chrome.</translation>
+<translation id="465499440663162826">‏לא ניתן היה להתחבר לחנות האינטרנט של Brave.</translation>
 <translation id="4656293982926141856">במחשב הזה</translation>
 <translation id="4657031070957997341">התר תמיד יישומי פלאגין ב-<ph name="HOST" /></translation>
 <translation id="4658312088164718891">‏כדי להפעיל את Smart Lock עליך להזין סיסמה. בפעם הבאה, הטלפון יבטל את הנעילה של <ph name="DEVICE_TYPE" />. בהגדרות אפשר להשבית את Smart Lock.</translation>
@@ -2382,7 +2382,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4664482161435122549">‏שגיאת ייצוא של PKCS #12</translation>
 <translation id="466481852929361583">המערכת מכינה את המודול המאובטח. אנא המתן; הפעולה עשויה להימשך מספר דקות.</translation>
 <translation id="4665014895760275686">יצרן</translation>
-<translation id="466506872045057845">‏Chrome יאפס את ההרשאות להגדרות ברירת המחדל שלהן</translation>
+<translation id="466506872045057845">‏Brave יאפס את ההרשאות להגדרות ברירת המחדל שלהן</translation>
 <translation id="4667176955651319626">‏חסום נתוני אתר וקובצי Cookie של צד שלישי</translation>
 <translation id="4668721319092543482">לחץ כדי להפעיל את <ph name="PLUGIN_NAME" /></translation>
 <translation id="4668954208278016290">אירעה בעיה בחילוץ התמונה למחשב.</translation>
@@ -2413,7 +2413,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4708849949179781599">צא מ-<ph name="PRODUCT_NAME" /></translation>
 <translation id="4709423352780499397">נתונים המאוחסנים באופן מקומי</translation>
 <translation id="4711638718396952945">שחזר הגדרות</translation>
-<translation id="4713544552769165154">‏קובץ זה מיועד למחשב עם תוכנת Macintosh. הוא אינו תואם למכשיר שלך שבו פועלת מערכת ההפעלה של Chrome. חפש ב<ph name="BEGIN_LINK" />חנות האינטרנט של Chrome<ph name="END_LINK" /> כדי לאתר יישום חלופי מתאים.<ph name="BEGIN_LINK_HELP" />למידע נוסף<ph name="END_LINK_HELP" /></translation>
+<translation id="4713544552769165154">‏קובץ זה מיועד למחשב עם תוכנת Macintosh. הוא אינו תואם למכשיר שלך שבו פועלת מערכת ההפעלה של Brave. חפש ב<ph name="BEGIN_LINK" />חנות האינטרנט של Brave<ph name="END_LINK" /> כדי לאתר יישום חלופי מתאים.<ph name="BEGIN_LINK_HELP" />למידע נוסף<ph name="END_LINK_HELP" /></translation>
 <translation id="4714531393479055912"><ph name="PRODUCT_NAME" /> יכול עכשיו לסנכרן את הסיסמאות שלך.</translation>
 <translation id="4715553623069266137">קצרה מאוד (0.8 שניות)</translation>
 <translation id="471800408830181311">נכשל בפלט מפתח פרטי.</translation>
@@ -2434,7 +2434,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4742746985488890273">הצמד למדף</translation>
 <translation id="4744574733485822359">ההורדה הסתיימה</translation>
 <translation id="4746971725921104503">נראה שאתה כבר מנהל משתמש בשם הזה. האם רצית <ph name="LINK_START" />לייבא את <ph name="USER_DISPLAY_NAME" /> אל המכשיר הזה<ph name="LINK_END" />?</translation>
-<translation id="4748762018725435655">‏דרוש תוסף מחנות האינטרנט של Chrome</translation>
+<translation id="4748762018725435655">‏דרוש תוסף מחנות האינטרנט של Brave</translation>
 <translation id="4750394297954878236">הצעות</translation>
 <translation id="475088594373173692">משתמש ראשון</translation>
 <translation id="4756378406049221019">עצור/טען מחדש</translation>
@@ -2483,7 +2483,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4829768588131278040">‏הגדר PIN</translation>
 <translation id="4830502475412647084">‏מתקין עדכון OS</translation>
 <translation id="4830573902900904548">ה-<ph name="DEVICE_TYPE" /> לא מצליח להתחבר אל האינטרנט באמצעות <ph name="NETWORK_NAME" />. בחר רשת אחרת. <ph name="LEARN_MORE_LINK_START" />למידע נוסף<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4835385943915508971">‏ל-Chrome אין גישה למשאב המבוקש.</translation>
+<translation id="4835385943915508971">‏ל-Brave אין גישה למשאב המבוקש.</translation>
 <translation id="4835836146030131423">שגיאת כניסה.</translation>
 <translation id="4837926214103741331">אין לך אישור להשתמש במכשיר הזה. צור קשר עם בעל המכשיר כדי לקבל הרשאת כניסה.</translation>
 <translation id="4837952862063191349">כדי לבטל את הנעילה של הנתונים המקומיים ולשחזר אותם, הזן את הסיסמה הקודמת שלך עבור <ph name="DEVICE_TYPE" />.</translation>
@@ -2513,7 +2513,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="48704129375571883">הוסף תכונות נוספות</translation>
 <translation id="4870903493621965035">אין מכשירים מותאמים</translation>
 <translation id="4871210892959306034">$1 KB</translation>
-<translation id="4871308555310586478">‏לא מחנות האינטרנט של Chrome.</translation>
+<translation id="4871308555310586478">‏לא מחנות האינטרנט של Brave.</translation>
 <translation id="4871370605780490696">הוסף סימניה</translation>
 <translation id="4871833665870725367">האם ברצונך לעדכן את הסיסמה של <ph name="ORIGIN" /> שנשמרה על-ידי <ph name="PASSWORD_MANAGER_BRAND" />?</translation>
 <translation id="4873312501243535625">בודק קובצי המדיה</translation>
@@ -2521,7 +2521,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4875622588773761625">האם תרצה ש-<ph name="PASSWORD_MANAGER_BRAND" /> יעדכן את הסיסמה שלך בשביל האתר הזה?</translation>
 <translation id="4876273079589074638">עזור למהנדסים שלנו לחקור את הקריסה הזו ולתקן אותה. מומלץ לרשום את השלבים בצורה כמה שיותר מדויקת, גם הפרטים הקטנים ביותר יכולים לעזור.</translation>
 <translation id="4876895919560854374">נעילה ושחרור של המסך</translation>
-<translation id="4877017884043316611">‏התאם ל-Chromebox</translation>
+<translation id="4877017884043316611">‏התאם ל-Bravebox</translation>
 <translation id="4880214202172289027">מחוון עוצמת קול</translation>
 <translation id="4880328057631981605">‏שם נקודת גישה (APN)</translation>
 <translation id="4880520557730313061">תיקון אוטומטי</translation>
@@ -2543,7 +2543,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4900392736118574277">דף הפתיחה השתנה ל-<ph name="URL" />.</translation>
 <translation id="490074449735753175">השתמש בשירות אינטרנט כדי לסייע בפתרון שגיאות איות</translation>
 <translation id="49027928311173603">המדיניות שהורדה מהשרת אינה חוקית: <ph name="VALIDATION_ERROR" />.</translation>
-<translation id="4903369323166982260">‏הפעל את Chrome Cleanup Tool</translation>
+<translation id="4903369323166982260">‏הפעל את Brave Cleanup Tool</translation>
 <translation id="4907161631261076876">הורדת הקובץ הזה אינה נפוצה והקובץ עלול להיות מסוכן.</translation>
 <translation id="4907306957610201395">קטגוריית הרשאה</translation>
 <translation id="4908811072292128752">פתח כרטיסייה חדשה כדי לגלוש בשני אתרים בו-זמנית</translation>
@@ -2575,13 +2575,13 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4953689047182316270">להגיב לאירועי נגישות</translation>
 <translation id="4953808748584563296">דמות ברירת מחדל כתומה</translation>
 <translation id="4955814292505481804">שנתי</translation>
-<translation id="495931528404527476">‏ב-Chrome</translation>
+<translation id="495931528404527476">‏ב-Brave</translation>
 <translation id="496226124210045887">התיקיה שבחרת מכילה קבצים רגישים. האם אתה בטוח שברצונך להעניק ל-"$1" גישה קבועה לקריאה בתיקיה זו?</translation>
 <translation id="4964455510556214366">סידור</translation>
 <translation id="4964673849688379040">בודק...</translation>
 <translation id="4965808351167763748">‏בחרת להגדיר שהמכשיר הזה יפעיל את Hangouts Meet. להמשיך?</translation>
 <translation id="4967749818080339523">בחר חשבון</translation>
-<translation id="496888482094675990">‏היישום 'קבצים' מספק גישה מהירה לקבצים ששמרת ב-Google Drive, באחסון חיצוני או במכשיר שלך עם מערכת הפעלה של Chrome.</translation>
+<translation id="496888482094675990">‏היישום 'קבצים' מספק גישה מהירה לקבצים ששמרת ב-Google Drive, באחסון חיצוני או במכשיר שלך עם מערכת הפעלה של Brave.</translation>
 <translation id="4969785127455456148">אלבום</translation>
 <translation id="4971078675931090428">תהליך שינוי השם יימשך מספר שניות. כבר מסיימים...</translation>
 <translation id="4971412780836297815">פתח בסיום</translation>
@@ -2597,7 +2597,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4988792151665380515">נכשל ייצוא מפתח ציבורי.</translation>
 <translation id="49896407730300355">סובב נ&amp;גד כיוון השעון</translation>
 <translation id="4989966318180235467">בדוק את דף ה&amp;רקע</translation>
-<translation id="4990343175649730969">‏הורד את Chrome Cleanup Tool</translation>
+<translation id="4990343175649730969">‏הורד את Brave Cleanup Tool</translation>
 <translation id="4991420928586866460">התייחס למקשים בשורה העליונה כאל מקשי פונקציה</translation>
 <translation id="499165176004408815">השתמש במצב ניגודיות גבוהה</translation>
 <translation id="4992066212339426712">בטל השתקה</translation>
@@ -2653,7 +2653,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5087249366037322692">נוסף על ידי צד שלישי</translation>
 <translation id="5087580092889165836">הוסף כרטיס</translation>
 <translation id="5087864757604726239">הקודם</translation>
-<translation id="5087926280563932024">‏לא ניתן היה לאמת את החשבון שלך. יש לנסות שוב או להפעיל מחדש את ה-Chromebook.</translation>
+<translation id="5087926280563932024">‏לא ניתן היה לאמת את החשבון שלך. יש לנסות שוב או להפעיל מחדש את ה-Bravebook.</translation>
 <translation id="508794495705880051">הוסף כרטיס אשראי חדש...</translation>
 <translation id="5088534251099454936">‏PKCS #1 SHA-512 עם הצפנת RSA</translation>
 <translation id="509429900233858213">אירעה שגיאה.</translation>
@@ -2661,7 +2661,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5097002363526479830">ההתחברות לרשת נכשלה '<ph name="NAME" />': <ph name="DETAILS" /></translation>
 <translation id="5098647635849512368">לא ניתן למצוא את הנתיב המוחלט לספריה לאריזה.</translation>
 <translation id="5099354524039520280">למעלה</translation>
-<translation id="5100114659116077956">‏על מנת שתקבל את התכונות החדשות ביותר, על ה-Chromebox שלך לעבור עדכון.</translation>
+<translation id="5100114659116077956">‏על מנת שתקבל את התכונות החדשות ביותר, על ה-Bravebox שלך לעבור עדכון.</translation>
 <translation id="5101042277149003567">פתח את כל הסימניות</translation>
 <translation id="5105855035535475848">הצמד כרטיסיות</translation>
 <translation id="5108967062857032718">‏הגדרות - הסר אפליקציות Android</translation>
@@ -2812,7 +2812,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5316588172263354223">חיפוש קולי בכל עת</translation>
 <translation id="5316716239522500219">שיקוף צגים</translation>
 <translation id="5317780077021120954">שמור</translation>
-<translation id="5319359161174645648">‏Google ממליצה על Chrome</translation>
+<translation id="5319359161174645648">‏Google ממליצה על Brave</translation>
 <translation id="532247166573571973">ייתכן שהשרת אינו נגיש. נסה שוב מאוחר יותר.</translation>
 <translation id="532360961509278431">לא ניתן לפתוח את "$1" : $2</translation>
 <translation id="5324780743567488672">היעזר במיקום להגדרה אוטומטית של אזור הזמן</translation>
@@ -2835,7 +2835,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="534916491091036097">צד שמאל של הסוגריים</translation>
 <translation id="5350965906220856151">אוי לא!</translation>
 <translation id="5352033265844765294">הטבעת חותמת זמן</translation>
-<translation id="5353252989841766347">‏ייצוא סיסמאות מ-Chrome</translation>
+<translation id="5353252989841766347">‏ייצוא סיסמאות מ-Brave</translation>
 <translation id="5355097969896547230">מצא שוב</translation>
 <translation id="5355926466126177564">התוסף "<ph name="EXTENSION_NAME" />" שינה את הדף שמוצג כשאתה מבצע חיפוש מסרגל הכתובות.</translation>
 <translation id="5360150013186312835">הצג בסרגל הכלים</translation>
@@ -2845,7 +2845,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5367116720986018215">הוגבל</translation>
 <translation id="5368720394188453070">הטלפון שלך נעול. בטל את הנעילה כדי להיכנס.</translation>
 <translation id="5368779022775404937">כניסה אל <ph name="REALM" /></translation>
-<translation id="5369927996833026114">‏גלה את מפעיל היישומים של Chrome</translation>
+<translation id="5369927996833026114">‏גלה את מפעיל היישומים של Brave</translation>
 <translation id="5370819323174483825">&amp;טען מחדש</translation>
 <translation id="5372529912055771682">מצב ההרשמה שסופק אינו נתמך על ידי גרסה זו של מערכת ההפעלה. ודא שאתה מפעיל את הגרסה החדשה ביותר ונסה שוב.</translation>
 <translation id="5374359983950678924">שנה תמונה</translation>
@@ -2944,7 +2944,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5511823366942919280">האם אתה בטוח שברצונך להגדיר מכשיר זה כ'כריש'?</translation>
 <translation id="5512653252560939721">חובה לבצע גיבוי-חומרה לאישור המשתמש.</translation>
 <translation id="5513242761114685513">תפריט הקשר</translation>
-<translation id="5516183516694518900">‏היכנס אל Chrome עם חשבון Google שלך כדי להפעיל את הסימניות, ההיסטוריה, הסיסמאות והגדרות אחרות בכל המכשירים שלך.</translation>
+<translation id="5516183516694518900">‏היכנס אל Brave עם חשבון Google שלך כדי להפעיל את הסימניות, ההיסטוריה, הסיסמאות והגדרות אחרות בכל המכשירים שלך.</translation>
 <translation id="551752069230578406">מוסיף את המדפסת לחשבון שלך - התהליך עשוי להימשך מספר רגעים...</translation>
 <translation id="5518584115117143805">אישור הצפנת אימייל</translation>
 <translation id="5521078259930077036">האם זהו דף הבית שציפית לראות?</translation>
@@ -3024,21 +3024,21 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5624120631404540903">נהל סיסמאות</translation>
 <translation id="5626134646977739690">שם:</translation>
 <translation id="5627086634964711283">הגדרה זו גם קובעת איזה דף מוצג כשאתה לוחץ על הלחצן 'דף הבית'.</translation>
-<translation id="5627676517703583263">‏גלישה חכמה עם Chrome</translation>
+<translation id="5627676517703583263">‏גלישה חכמה עם Brave</translation>
 <translation id="562935524653278697">מנהל המערכת השבית את הסנכרון של סימניות, היסטוריה, סיסמאות והגדרות אחרות שלך.</translation>
 <translation id="563535393368633106">שאל לפני גישה (מומלץ)</translation>
 <translation id="5636996382092289526">כדי להשתמש ב-<ph name="NETWORK_ID" /> ייתכן שראשית יהיה עליך <ph name="LINK_START" />להיכנס לדף הכניסה של הרשת<ph name="LINK_END" />, שייפתח אוטומטית בעוד כמה שניות. אם הוא לא נפתח, לא ניתן יהיה להשתמש ברשת.</translation>
 <translation id="5637476008227280525">הפעלת נתונים סלולריים</translation>
 <translation id="5638497698949808140">עודכנה לפני <ph name="HOURS" /> שעות</translation>
 <translation id="5639549361331209298">טען מחדש את הדף, לחץ לחיצה ארוכה כדי להציג אפשרויות נוספות</translation>
-<translation id="5641461229021317093">‏קבל התראות לגבי הודעות טקסט חדשות ב-Chromebook</translation>
+<translation id="5641461229021317093">‏קבל התראות לגבי הודעות טקסט חדשות ב-Bravebook</translation>
 <translation id="5642508497713047">‏חותם CRL</translation>
 <translation id="5646376287012673985">מיקום</translation>
 <translation id="5646558797914161501">איש עסקים</translation>
 <translation id="5649053991847567735">הורדות אוטומטיות</translation>
 <translation id="5649768706273821470">האזן</translation>
 <translation id="5653140146600257126">כבר קיימת תיקיה בשם "$1". בחר שם אחר.</translation>
-<translation id="5657667036353380798">‏על מנת להתקין את התוסף החיצוני, על Chrome להיות מגרסה <ph name="MINIMUM_CHROME_VERSION" /> ומעלה.</translation>
+<translation id="5657667036353380798">‏על מנת להתקין את התוסף החיצוני, על Brave להיות מגרסה <ph name="MINIMUM_CHROME_VERSION" /> ומעלה.</translation>
 <translation id="5658415415603568799">‏לשיפור האבטחה, אחרי 20 שעות תוצג לך בקשה מ-Smart Lock להזין את הסיסמה שלך.</translation>
 <translation id="5659593005791499971">אימייל</translation>
 <translation id="5661272705528507004">‏כרטיס ה-SIM מושבת ולא ניתן להשתמש בו. פנה לספק השירות שלך לקבלת כרטיס חלופי.</translation>
@@ -3091,7 +3091,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5750324801516359607">רחוק</translation>
 <translation id="5751545372099101699">פריט מדף 4</translation>
 <translation id="5752162773804266219">‏כדי לעזור ל-<ph name="DEVICE_TYPE" /> להגיב אליך וכדי לקבל גישה מהימנה וקלה לחיפוש קולי, עליך ללמד את Google כיצד נשמע קולך.</translation>
-<translation id="5752453871435543420">‏גיבוי בענן של מערכת ההפעלה של Chrome</translation>
+<translation id="5752453871435543420">‏גיבוי בענן של מערכת ההפעלה של Brave</translation>
 <translation id="5754903485544371559">הוסף ליישומים...</translation>
 <translation id="5756163054456765343">מרכז עזרה</translation>
 <translation id="5759728514498647443">תוכל להשתמש ב-<ph name="APP_NAME" /> כדי לקרוא מסמכים שתשלח להדפסה באמצעות <ph name="APP_NAME" />.</translation>
@@ -3108,7 +3108,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5774295353725270860">פתח את יישום הקבצים</translation>
 <translation id="5774515636230743468">מניפסט:</translation>
 <translation id="577624874850706961">‏חפש קובצי Cookie</translation>
-<translation id="5777468213129569553">‏פתח את Chrome</translation>
+<translation id="5777468213129569553">‏פתח את Brave</translation>
 <translation id="5778550464785688721">‏שליטה מלאה במכשירי MIDI</translation>
 <translation id="5778747455497889540">סיסמת המודול המאובטח שנוצרה באופן אקראי והוקצתה למחשב שלך:</translation>
 <translation id="5780973441651030252">עדיפות תהליך</translation>
@@ -3120,7 +3120,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5788367137662787332">מצטערים, לא ניתן להעלות לפחות מחיצה אחת במכשיר <ph name="DEVICE_LABEL" />.</translation>
 <translation id="5790085346892983794">הצלחה</translation>
 <translation id="5794414402486823030">פתח תמיד באמצעות מציג המערכת</translation>
-<translation id="5794786537412027208">‏בצע יציאה מכל יישומי Chrome</translation>
+<translation id="5794786537412027208">‏בצע יציאה מכל יישומי Brave</translation>
 <translation id="5800020978570554460">קובץ היעד נקטע או הוסר מאז ההורדה האחרונה.</translation>
 <translation id="5801568494490449797">העדפות</translation>
 <translation id="5804241973901381774">הרשאות</translation>
@@ -3154,7 +3154,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5848934677402291689">‏מתבצעת שמירה לקובץ PDF‏</translation>
 <translation id="5849570051105887917">קוד ספק ביתי</translation>
 <translation id="5849869942539715694">ארוז תוסף...</translation>
-<translation id="5850516540536751549">‏סוג קובץ זה אינו נתמך. בקר ב<ph name="BEGIN_LINK" />חנות האינטרנט של Chrome‏<ph name="END_LINK" /> כדי למצוא יישום שבאמצעותו ניתן לפתוח קובץ מסוג זה.
+<translation id="5850516540536751549">‏סוג קובץ זה אינו נתמך. בקר ב<ph name="BEGIN_LINK" />חנות האינטרנט של Brave‏<ph name="END_LINK" /> כדי למצוא יישום שבאמצעותו ניתן לפתוח קובץ מסוג זה.
 	      <ph name="BEGIN_LINK_HELP" />למידע נוסף<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">אין מה לראות כאן...</translation>
 <translation id="5851868085455377790">מנפיק</translation>
@@ -3211,7 +3211,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5924047253200400718">קבל עזרה<ph name="SCANNING_STATUS" /></translation>
 <translation id="5925147183566400388">מצביע על הצהרת הליכי אישור</translation>
 <translation id="5927692884057333064">מתבצע שינוי שם...</translation>
-<translation id="592880897588170157">‏הורד קובצי PDF במקום לפתוח אותם ב-Chrome באופן אוטומטי</translation>
+<translation id="592880897588170157">‏הורד קובצי PDF במקום לפתוח אותם ב-Brave באופן אוטומטי</translation>
 <translation id="5931146425219109062">לקרוא ולשנות את כל הנתונים שלך באתרים שבהם אתה מבקר</translation>
 <translation id="5932881020239635062">סידורי</translation>
 <translation id="5933376509899483611">אזור זמן</translation>
@@ -3280,8 +3280,8 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="604124094241169006">אוטומטי</translation>
 <translation id="6042169520002885235">בחר את היצרן והדגם של המדפסת</translation>
 <translation id="6042308850641462728">עוד</translation>
-<translation id="6043317578411397101">‏<ph name="APP_NAME" /> משתף כרטיסיית Chrome עם <ph name="TAB_NAME" />.</translation>
-<translation id="6044805581023976844">‏<ph name="APP_NAME" /> משתף כרטיסייה ואודיו של Chrome עם <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101">‏<ph name="APP_NAME" /> משתף כרטיסיית Brave עם <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844">‏<ph name="APP_NAME" /> משתף כרטיסייה ואודיו של Brave עם <ph name="TAB_NAME" />.</translation>
 <translation id="6049004884579590341">לחץ לחיצה ארוכה על |<ph name="ACCELERATOR" />| כדי לצאת ממסך מלא</translation>
 <translation id="6049065490165456785">תמונה מהמצלמה הפנימית</translation>
 <translation id="6051354611314852653">‏אופס!  המערכת לא הצליחה לאמת את הגישה של מכשיר זה לממשק ה-API.</translation>
@@ -3356,7 +3356,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6163522313638838258">הרחב את הכל...</translation>
 <translation id="6164005077879661055">כל הקבצים והנתונים המקומיים המשויכים למשתמש בפיקוח יימחקו לצמיתות לאחר שמשתמש בפיקוח זה יוסר. המנהל עדיין יוכל לראות את האתרים שבהם משתמש בפיקוח זה ביקר, ואת ההגדרות שלו, בכתובת <ph name="MANAGEMENT_URL" />.</translation>
 <translation id="6165508094623778733">למידע נוסף</translation>
-<translation id="6166185671393271715">‏ייבוא סיסמאות אל Chrome</translation>
+<translation id="6166185671393271715">‏ייבוא סיסמאות אל Brave</translation>
 <translation id="6169040057125497443">יש לבדוק את המיקרופון.</translation>
 <translation id="6169666352732958425">לא ניתן להעביר מהמחשב השולחני.</translation>
 <translation id="6171948306033499786">השהה הדפסה</translation>
@@ -3384,7 +3384,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6220413761270491930">אירעה שגיאה בטעינת תוסף</translation>
 <translation id="6223447490656896591">תמונה מותאמת אישית:</translation>
 <translation id="6223747324484398595">‏יש להפעיל את Bluetooth כדי להשתמש בשיתוף אינטרנט מיידי בין ניידים</translation>
-<translation id="62243461820985415">‏Chrome לא יכול להוריד טפט זה.</translation>
+<translation id="62243461820985415">‏Brave לא יכול להוריד טפט זה.</translation>
 <translation id="6224481128663248237">הפרמוט הסתיים בהצלחה!</translation>
 <translation id="6225475702458870625">יש חיבור נתונים זמין ב-<ph name="PHONE_NAME" /></translation>
 <translation id="6226777517901268232">קובץ מפתח פרטי (אופציונלי)</translation>
@@ -3422,7 +3422,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6270770586500173387">שלח <ph name="BEGIN_LINK1" />פרטי מערכת ויישומים<ph name="END_LINK1" />, כמו גם <ph name="BEGIN_LINK2" />מדדים<ph name="END_LINK2" /></translation>
 <translation id="6272643420381259437">אירעה שגיאה (<ph name="ERROR" />) במהלך הורדת הפלאגין</translation>
 <translation id="6273677812470008672">איכות</translation>
-<translation id="6274087148640822908">‏חפש תוספים ואפליקציות ב<ph name="BEGIN_LINK" />חנות האינטרנט של Chrome<ph name="END_LINK" /></translation>
+<translation id="6274087148640822908">‏חפש תוספים ואפליקציות ב<ph name="BEGIN_LINK" />חנות האינטרנט של Brave<ph name="END_LINK" /></translation>
 <translation id="62751439899495218">שינוי תמונה</translation>
 <translation id="6276301056778294989">ודא שבמכשיר מופיע קוד זהה.</translation>
 <translation id="6277105963844135994">תם הזמן הקצוב לתפוגה של הרשת</translation>
@@ -3436,7 +3436,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6286684120317096255">השימוש בנתונים נמדד כעת</translation>
 <translation id="6286708577777130801">פרטי סיסמה שמורה</translation>
 <translation id="6287852322318138013">בחירת יישום לפתיחת הקובץ</translation>
-<translation id="6290556621549272952">‏ניתן להשתמש בתכונה זו להצגת תוכן מ-Chromium בטלוויזיה או במכשירים אחרים.</translation>
+<translation id="6290556621549272952">‏ניתן להשתמש בתכונה זו להצגת תוכן מ-Brave בטלוויזיה או במכשירים אחרים.</translation>
 <translation id="6291953229176937411">‏&amp;הצג ב-Finder</translation>
 <translation id="6295158916970320988">כל האתרים</translation>
 <translation id="6295855836753816081">שומר...</translation>
@@ -3445,7 +3445,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6305607932814307878">מדיניות גלובלית:</translation>
 <translation id="6307990684951724544">המערכת עמוסה</translation>
 <translation id="6308937455967653460">שמור קישור&amp; בשם...</translation>
-<translation id="6311220991371174222">‏לא ניתן להפעיל את Chrome מכיוון שמשהו השתבש בפתיחת הפרופיל שלך. נסה להפעיל מחדש את Chrome.</translation>
+<translation id="6311220991371174222">‏לא ניתן להפעיל את Brave מכיוון שמשהו השתבש בפתיחת הפרופיל שלך. נסה להפעיל מחדש את Brave.</translation>
 <translation id="6312403991423642364">שגיאת רשת לא ידועה</translation>
 <translation id="6313641880021325787">‏יציאה מ-VR</translation>
 <translation id="6314335155547195432">צור סיסמה</translation>
@@ -3456,7 +3456,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6317369057005134371">ממתין לחלון היישום...</translation>
 <translation id="6322279351188361895">נכשל בקריאת מפתח פרטי.</translation>
 <translation id="6325191661371220117">השבת הפעלה אוטומטית</translation>
-<translation id="6326175484149238433">‏הסר מ-Chrome</translation>
+<translation id="6326175484149238433">‏הסר מ-Brave</translation>
 <translation id="6326855256003666642">‏ספירת Keepalive</translation>
 <translation id="632744581670418035">שכבת-על של מקלדת</translation>
 <translation id="6327785803543103246">‏גילוי אוטומטי של שרת proxy באינטרנט</translation>
@@ -3464,7 +3464,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6333064448949140209">‏הקובץ יישלח אל Google לניפוי באגים</translation>
 <translation id="6333834492048057036">מיקוד בסרגל כתובות לחיפוש</translation>
 <translation id="6339668969738228384">צור פרופיל חדש בשביל <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="6340017061976355871">‏לא ניתן היה להתחבר אל השרת. יש לבדוק את חיבור הרשת ולנסות שוב. אם הבעיה ממשיכה, יש להפעיל מחדש את ה-Chromebook.</translation>
+<translation id="6340017061976355871">‏לא ניתן היה להתחבר אל השרת. יש לבדוק את חיבור הרשת ולנסות שוב. אם הבעיה ממשיכה, יש להפעיל מחדש את ה-Bravebook.</translation>
 <translation id="6340071272923955280">‏פרוטוקול הדפסה באינטרנט (IPPS)</translation>
 <translation id="6341850831632289108">לזהות את המיקום הפיזי שלך</translation>
 <translation id="634208815998129842">מנהל המשימות</translation>
@@ -3526,7 +3526,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6422329785618833949">התמונה סובבה</translation>
 <translation id="642282551015776456">ייתכן שלא ניתן להשתמש בשם זה כשם קובץ או תיקייה</translation>
 <translation id="6423239382391657905">OpenVPN</translation>
-<translation id="6426200009596957090">‏פתח את הגדרות ChromeVox</translation>
+<translation id="6426200009596957090">‏פתח את הגדרות BraveVox</translation>
 <translation id="642870617012116879">אתר זה ניסה להוריד קבצים מרובים באופן אוטומטי.</translation>
 <translation id="6430814529589430811">‏ASCII בקידוד Base64, אישור יחיד</translation>
 <translation id="6431217872648827691">‏כל הנתונים הוצפנו באמצעות סיסמת Google שלך החל מ-
@@ -3577,7 +3577,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6492313032770352219">גודל בדיסק:</translation>
 <translation id="6494445798847293442">לא רשות אישורים</translation>
 <translation id="6498249116389603658">&amp;כל השפות שלך</translation>
-<translation id="6498792256302744870">‏אפליקציות שהורדת מ-Google Play יימחקו מה-Chromebook הזה.
+<translation id="6498792256302744870">‏אפליקציות שהורדת מ-Google Play יימחקו מה-Bravebook הזה.
 
     ייתכן גם שיימחק תוכן שרכשת, כמו סרטים, תוכניות טלוויזיה, מוזיקה, ספרים או רכישות אחרות מתוך אפליקציות.
 
@@ -3590,7 +3590,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6508261954199872201">יישום: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">רישיון מדיה</translation>
 <translation id="6510568984200103950">פחות אפשרויות הגדרה</translation>
-<translation id="6513247462497316522">‏Google Chrome ישתמש בנתונים לנייד אם אתה לא מחובר לרשת אחרת.</translation>
+<translation id="6513247462497316522">‏Brave ישתמש בנתונים לנייד אם אתה לא מחובר לרשת אחרת.</translation>
 <translation id="6514010653036109809">מכשיר זמין:</translation>
 <translation id="6514565641373682518">דף זה השבית את סמן העכבר שלך.</translation>
 <translation id="6518014396551869914">הע&amp;תק תמונה</translation>
@@ -3603,14 +3603,14 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6527303717912515753">שתף</translation>
 <translation id="6528513914570774834">אפשר למשתמשים האחרים במכשיר הזה להשתמש ברשת הזו</translation>
 <translation id="6528546217685656218">המפתח הפרטי לאישור לקוח זה חסר או אינו חוקי.</translation>
-<translation id="652948702951888897">‏היסטוריה של Chrome</translation>
+<translation id="652948702951888897">‏היסטוריה של Brave</translation>
 <translation id="653019979737152879">מסנכרן את <ph name="FILE_NAME" />...</translation>
 <translation id="6531282281159901044">השאר את הקובץ המסוכן</translation>
 <translation id="6534583978616527129">אתחול החיבור</translation>
 <translation id="654039047105555694"><ph name="BEGIN_BOLD" />הערה:<ph name="END_BOLD" /> הפעל אפשרות זו רק אם אתה בטוח בכך, או אם התבקשת לעשות זאת, משום שאיסוף נתונים עלול לפגוע בביצועים.</translation>
 <translation id="654233263479157500">השתמש בשירות אינטרנט כדי לפתור שגיאות ניווט</translation>
 <translation id="6544215763872433504">‏דפדפן האינטרנט של Google, במיוחד בשבילך</translation>
-<translation id="6545325945815270297">‏נהל את הנתונים והמכשירים המסונכרנים ב<ph name="BEGIN_LINK" />מרכז השליטה של Chrome<ph name="END_LINK" />.</translation>
+<translation id="6545325945815270297">‏נהל את הנתונים והמכשירים המסונכרנים ב<ph name="BEGIN_LINK" />מרכז השליטה של Brave<ph name="END_LINK" />.</translation>
 <translation id="6545665334409411530">שיעור חזרה</translation>
 <translation id="6545834809683560467">השתמש בשירות חיזויים כדי להשלים חיפושים וכתובות אתרים שאתה מזין בסרגל הכתובות או בתיבת החיפוש של מפעיל היישומים</translation>
 <translation id="6546686722964485737">‏הצטרפות לרשת WiMAX</translation>
@@ -3693,7 +3693,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6659213950629089752">בדף זה בוצע שינוי במרחק התצוגה באמצעות התוסף "<ph name="NAME" />"</translation>
 <translation id="6659594942844771486">Tab</translation>
 <translation id="6663792236418322902">הסיסמה שבחרת תידרש כדי לשחזר את הקובץ מאוחר יותר. תעד אותה במקום בטוח.</translation>
-<translation id="6664237456442406323">‏לצערנו, המחשב שלך מוגדר עם זיהוי חומרה פגום. המצב הזה מונע ממערכת ההפעלה של Chrome להתקין את עדכוני האבטחה האחרונים, וייתכן שהמחשב שלך יהיה <ph name="BEGIN_BOLD" />חשוף להתקפות זדוניות<ph name="END_BOLD" />.</translation>
+<translation id="6664237456442406323">‏לצערנו, המחשב שלך מוגדר עם זיהוי חומרה פגום. המצב הזה מונע ממערכת ההפעלה של Brave להתקין את עדכוני האבטחה האחרונים, וייתכן שהמחשב שלך יהיה <ph name="BEGIN_BOLD" />חשוף להתקפות זדוניות<ph name="END_BOLD" />.</translation>
 <translation id="6664774537677393800">משהו השתבש בפתיחת הפרופיל שלך. צא ולאחר מכן היכנס מחדש.</translation>
 <translation id="6666647326143344290">‏עם חשבון Google שלך</translation>
 <translation id="6673391612973410118"><ph name="PRINTER_MAKE_OR_MODEL" /> (USB)</translation>
@@ -3759,7 +3759,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6759193508432371551">איפוס להגדרות היצרן</translation>
 <translation id="6766101255664245434">‏צלם תמונה חדשה או בחר תמונה או סמל קיימים.
           <ph name="LINE_BREAK" />
-          התמונה הזו תופיע במסך הכניסה לחשבון ובמסך הנעילה ב-Chromebook.</translation>
+          התמונה הזו תופיע במסך הכניסה לחשבון ובמסך הנעילה ב-Bravebook.</translation>
 <translation id="6769712124046837540">הוספת מדפסת...</translation>
 <translation id="6771503742377376720">הוא רשות אישורים</translation>
 <translation id="6773575010135450071">פעולות נוספות...</translation>
@@ -3792,12 +3792,12 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6817358880000653228">סיסמאות שמורות עבור האתר הזה:</translation>
 <translation id="6820687829547641339">‏ארכיון Gzip מכווץ של Bzip2</translation>
 <translation id="682123305478866682">העבר את שולחן העבודה</translation>
-<translation id="6823506025919456619">‏עליך להיכנס ל-Chrome כדי לראות את המכשירים שלך</translation>
+<translation id="6823506025919456619">‏עליך להיכנס ל-Brave כדי לראות את המכשירים שלך</translation>
 <translation id="6824564591481349393">העתק כתובת &amp;אימייל</translation>
 <translation id="6825184156888454064">מיון לפי שם</translation>
 <translation id="6827236167376090743">סרטון זה ימשיך לפעול ללא הפסקה.</translation>
 <translation id="6828153365543658583">הגבל כניסה של המשתמשים הבאים:</translation>
-<translation id="6828434191343384461">‏הנתונים שבחרת הוסרו מ-Chrome ומהמכשירים המסונכרנים. ייתכן שעדיין תוכל לגשת לסוגים אחרים של היסטוריית גלישה בחשבון Google שלך בכתובת <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />, כמו חיפושים ופעילות משירותי Google אחרים.</translation>
+<translation id="6828434191343384461">‏הנתונים שבחרת הוסרו מ-Brave ומהמכשירים המסונכרנים. ייתכן שעדיין תוכל לגשת לסוגים אחרים של היסטוריית גלישה בחשבון Google שלך בכתובת <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />, כמו חיפושים ופעילות משירותי Google אחרים.</translation>
 <translation id="6828860976882136098">הגדרת עדכונים אוטומטיים לכל המשתמשים נכשלה (שגיאת קדם-הפעלה: <ph name="ERROR_NUMBER" />)</translation>
 <translation id="6829250331733125857">קבל עזרה בשביל ה-<ph name="DEVICE_TYPE" />.</translation>
 <translation id="6829270497922309893">הירשם לארגון שלך</translation>
@@ -3828,7 +3828,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6871644448911473373">‏מגיב OCSP: <ph name="LOCATION" /></translation>
 <translation id="6872781471649843364">השרת דחה את הסיסמה שהזנת.</translation>
 <translation id="6874681241562738119">שגיאת כניסה</translation>
-<translation id="687588960939994211">‏נקה גם את ההיסטוריה, הסימניות, ההגדרות ונתוני Chrome אחרים המאוחסנים במכשיר הזה.</translation>
+<translation id="687588960939994211">‏נקה גם את ההיסטוריה, הסימניות, ההגדרות ונתוני Brave אחרים המאוחסנים במכשיר הזה.</translation>
 <translation id="6880587130513028875">תמונות נחסמו בדף זה</translation>
 <translation id="6883319974225028188">אופס! המערכת לא הצליחה לשמור את תצורת המכשיר.</translation>
 <translation id="6885771755599377173">תצוגה מקדימה של מידע מערכת</translation>
@@ -3880,10 +3880,10 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6976108581241006975">‏לוח JavaScript</translation>
 <translation id="6977381486153291903">שכתוב קושחה</translation>
 <translation id="6978121630131642226">מנועי חיפוש</translation>
-<translation id="6978611942794658017">‏קובץ זה מיועד עבור מחשב אישי המשתמש בתוכנת Windows. הוא אינו מתאים למכשירך שעובד עם מערכת הפעלה של Chrome. חפש יישום חלופי מתאים בחנות האינטרנט של Chrome.</translation>
+<translation id="6978611942794658017">‏קובץ זה מיועד עבור מחשב אישי המשתמש בתוכנת Windows. הוא אינו מתאים למכשירך שעובד עם מערכת הפעלה של Brave. חפש יישום חלופי מתאים בחנות האינטרנט של Brave.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6980462514016882061">‏חברת Google עשויה להשתמש בהיסטוריית הגלישה שלך לצורך התאמה אישית של חיפוש Google, מודעות Google ושירותי Google אחרים</translation>
-<translation id="6980956047710795611">‏העבר את כל הנתונים של מערכת ההפעלה Chrome אל הסיסמה החדשה (נדרשת הסיסמה הקודמת)</translation>
+<translation id="6980956047710795611">‏העבר את כל הנתונים של מערכת ההפעלה Brave אל הסיסמה החדשה (נדרשת הסיסמה הקודמת)</translation>
 <translation id="6981982820502123353">נגישות</translation>
 <translation id="6982896539684144327">אותרה מדפסת מ-<ph name="VENDOR_NAME" /></translation>
 <translation id="6983201004195852174">הקש והחזק את מקש החיפוש ולאחר מכן לחץ או גרור כדי לבחור תוכן להקראה בקול</translation>
@@ -3901,7 +3901,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6996946928646015361">המודול המאובטח מושבת או חסר.</translation>
 <translation id="6998711733709403587"><ph name="SELCTED_FOLDERS_COUNT" /> תיקיות נבחרו</translation>
 <translation id="6998793565256476099">רישום של מכשיר לשיחות ועידה בטלפון</translation>
-<translation id="7002055706763150362">‏כדי להגדיר את ‏Smart Lock for Chromebook‏, Google צריכה לאמת את הזהות שלך - כדי להתחיל הזן את הסיסמה.</translation>
+<translation id="7002055706763150362">‏כדי להגדיר את ‏Smart Lock for Bravebook‏, Google צריכה לאמת את הזהות שלך - כדי להתחיל הזן את הסיסמה.</translation>
 <translation id="7002454948392136538">בחר את המנהל עבור משתמש בפיקוח זה</translation>
 <translation id="7003339318920871147">מסדי נתונים באינטרנט</translation>
 <translation id="7003723821785740825">הגדרת דרך מהירה יותר לביטול נעילת המכשיר</translation>
@@ -4002,7 +4002,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="715118844758971915">מדפסות קלאסיות</translation>
 <translation id="7154130902455071009">שנה את דף הפתיחה ל: <ph name="START_PAGE" /></translation>
 <translation id="7155171745945906037">תמונה קיימת ממצלמה או מקובץ</translation>
-<translation id="7156235233373189579">‏קובץ זה מיועד למחשב עם תוכנת Windows. הוא אינו תואם למכשיר שלך שבו פועלת מערכת ההפעלה של Chrome. חפש ב<ph name="BEGIN_LINK" />חנות האינטרנט של Chrome<ph name="END_LINK" /> כדי לאתר יישום חלופי מתאים.<ph name="BEGIN_LINK_HELP" />למידע נוסף<ph name="END_LINK_HELP" /></translation>
+<translation id="7156235233373189579">‏קובץ זה מיועד למחשב עם תוכנת Windows. הוא אינו תואם למכשיר שלך שבו פועלת מערכת ההפעלה של Brave. חפש ב<ph name="BEGIN_LINK" />חנות האינטרנט של Brave<ph name="END_LINK" /> כדי לאתר יישום חלופי מתאים.<ph name="BEGIN_LINK_HELP" />למידע נוסף<ph name="END_LINK_HELP" /></translation>
 <translation id="7165320105431587207">כשל בהגדרת התצורה של הרשת</translation>
 <translation id="716640248772308851">"<ph name="EXTENSION" />" יכול לקרוא קובצי תמונות, וידאו ואודיו במיקומים המסומנים.</translation>
 <translation id="7167486101654761064">&amp;פתח תמיד קבצים מסוג זה</translation>
@@ -4016,7 +4016,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7186088072322679094">השאר בסרגל הכלים</translation>
 <translation id="7191159667348037">‏מדפסת לא ידועה (USB)</translation>
 <translation id="7191454237977785534">שמירה בשם</translation>
-<translation id="7196835305346730603">‏מחפש מכשירי Chromebox בסביבה...</translation>
+<translation id="7196835305346730603">‏מחפש מכשירי Bravebox בסביבה...</translation>
 <translation id="7199158086730159431">קבל עזרה</translation>
 <translation id="7201118060536064622">הפריט '<ph name="DELETED_ITEM_NAME" />' נמחק</translation>
 <translation id="7201354769043018523">צד ימין של הסוגריים</translation>
@@ -4128,13 +4128,13 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7376553024552204454">הדגש את סמן העכבר כשהסמן בתנועה</translation>
 <translation id="7377169924702866686">‏Caps Lock מופעל.</translation>
 <translation id="7378627244592794276">לא</translation>
-<translation id="73786666777299047">‏פתח את חנות האינטרנט של Chrome</translation>
+<translation id="73786666777299047">‏פתח את חנות האינטרנט של Brave</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7378812711085314936">קבל חיבור נתונים</translation>
 <translation id="7382160026931194400">|הגדרות תוכן| ו#מנועי חיפוש# שנשמרו לא ינוקו וייתכן שישקפו את הרגלי הגלישה שלך.</translation>
 <translation id="7384292194278095697">מכשיר זה כבר אינו נתמך</translation>
 <translation id="7385854874724088939">משהו השתבש בעת ניסיון הדפסה. בדוק את המדפסת ונסה שוב.</translation>
-<translation id="7386824183915085801">‏פרטי גרסת Chrome ומערכת ההפעלה יישלחו ביחד עם כל פריט מידע שתבחר לכלול בקטע שלמעלה. אם תכלול את כתובת האימייל שלך, Google עשויה ליצור איתך קשר בנוגע לדוח המשוב שלך. המשוב הזה משמש לאבחון בעיות ועל מנת לעזור בשיפור Chrome. מידע פרטי שתשלח, בין באופן מפורש ובין שלא במתכוון, יהיה מוגן בהתאם למדיניות הפרטיות שלנו.<ph name="BEGIN_BOLD" /> בשליחת המשוב הזה, אתה מביע הסכמה ש-Google תוכל להשתמש במשוב שסיפקת כדי לשפר כל מוצר או שירות של Google.
+<translation id="7386824183915085801">‏פרטי גרסת Brave ומערכת ההפעלה יישלחו ביחד עם כל פריט מידע שתבחר לכלול בקטע שלמעלה. אם תכלול את כתובת האימייל שלך, Google עשויה ליצור איתך קשר בנוגע לדוח המשוב שלך. המשוב הזה משמש לאבחון בעיות ועל מנת לעזור בשיפור Brave. מידע פרטי שתשלח, בין באופן מפורש ובין שלא במתכוון, יהיה מוגן בהתאם למדיניות הפרטיות שלנו.<ph name="BEGIN_BOLD" /> בשליחת המשוב הזה, אתה מביע הסכמה ש-Google תוכל להשתמש במשוב שסיפקת כדי לשפר כל מוצר או שירות של Google.
         <ph name="END_BOLD" /></translation>
 <translation id="7387829944233909572">תיבת הדו-שיח 'ניקוי נתוני גלישה'</translation>
 <translation id="7388044238629873883">כמעט סיימת!</translation>
@@ -4142,7 +4142,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7392915005464253525">פ&amp;תח מחדש חלון סגור</translation>
 <translation id="7396845648024431313"><ph name="APP_NAME" /> יופעל עם אתחול המערכת וימשיך לפעול ברקע גם כאשר תסגור את כל החלונות האחרים של <ph name="PRODUCT_NAME" />.</translation>
 <translation id="7400418766976504921">כתובת אתר</translation>
-<translation id="740083207982962331">‏המתן בזמן שה-Chromebox שלך מופעל מחדש...</translation>
+<translation id="740083207982962331">‏המתן בזמן שה-Bravebox שלך מופעל מחדש...</translation>
 <translation id="7400839060291901923">הגדר את החיבור בטלפון <ph name="PHONE_NAME" /></translation>
 <translation id="7401543881546089382">מחק קיצור דרך</translation>
 <translation id="740624631517654988">חלונות קופצים חסומים</translation>
@@ -4255,7 +4255,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7564847347806291057">סיים תהליך</translation>
 <translation id="7565291891798266313">מנוע החיפוש השתנה ל-<ph name="URL" />. בלחיצה על 'שחזר' ניתן להשבית תוספים שמשנים את מנוע החיפוש.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">‏נתוני Chrome נוקו</translation>
+<translation id="756809126120519699">‏נתוני Brave נוקו</translation>
 <translation id="7568790562536448087">מעדכן</translation>
 <translation id="7571643774869182231">אין מספיק שטח אחסון לעדכון</translation>
 <translation id="7573172247376861652">טעינת סוללה</translation>
@@ -4268,7 +4268,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7582582252461552277">העדף רשת זו</translation>
 <translation id="7584802760054545466">מתחבר אל <ph name="NETWORK_ID" /></translation>
 <translation id="7586312264284919041">האם ברצונך לתרגם את הדף הזה?</translation>
-<translation id="7586498138629385861">‏Chrome ימשיך לפעול כל עוד יש יישומי Chrome פתוחים.</translation>
+<translation id="7586498138629385861">‏Brave ימשיך לפעול כל עוד יש יישומי Brave פתוחים.</translation>
 <translation id="7589461650300748890">היי! תיזהר.</translation>
 <translation id="7589661784326793847">המתן מספר רגעים</translation>
 <translation id="7591957897535945411">הדף הזה תורגם.</translation>
@@ -4328,7 +4328,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7704521324619958564">‏פתח את Play Store</translation>
 <translation id="7705276765467986571">לא ניתן להעלות דגם סימניה.</translation>
 <translation id="7705524343798198388">VPN</translation>
-<translation id="7705600705238488017">‏האם אתה רוצה במקום זאת <ph name="BEGIN_LINK" />לעיין בחנות האינטרנט של Chrome<ph name="END_LINK" />?</translation>
+<translation id="7705600705238488017">‏האם אתה רוצה במקום זאת <ph name="BEGIN_LINK" />לעיין בחנות האינטרנט של Brave<ph name="END_LINK" />?</translation>
 <translation id="7705990546212675384">הוספה של איש קשר</translation>
 <translation id="7707922173985738739">השתמש בחבילת גלישה</translation>
 <translation id="7709152031285164251">נכשל - <ph name="INTERRUPT_REASON" /></translation>
@@ -4343,7 +4343,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7719367874908701697">מרחק מתצוגה בדף</translation>
 <translation id="7719421816612904796">תם הזמן הקצוב לאימון</translation>
 <translation id="771953673318695590">QA</translation>
-<translation id="7720375555307821262">‏כדי לפקח על אדם זה, <ph name="BEGIN_LINK" />היכנס ל-Chrome<ph name="END_LINK" />.</translation>
+<translation id="7720375555307821262">‏כדי לפקח על אדם זה, <ph name="BEGIN_LINK" />היכנס ל-Brave<ph name="END_LINK" />.</translation>
 <translation id="7721179060400456005">חלונות יכולים לסובב את התצוגות</translation>
 <translation id="7722040605881499779">השטח שנדרש כדי לעדכן: <ph name="NECESSARY_SPACE" /></translation>
 <translation id="7724603315864178912">חתוך</translation>
@@ -4369,7 +4369,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7771452384635174008">פריסה</translation>
 <translation id="7772032839648071052">אשר משפט-סיסמה</translation>
 <translation id="7772127298218883077">מידע על <ph name="PRODUCT_NAME" /></translation>
-<translation id="7772773261844472235">‏בדיקת הסטטוס של ה-Chromebook</translation>
+<translation id="7772773261844472235">‏בדיקת הסטטוס של ה-Bravebook</translation>
 <translation id="7773726648746946405">אחסון הפעלה</translation>
 <translation id="7781335840981796660">תתבצע הסרה של כל חשבונות המשתמש והנתונים השמורים במכשיר.</translation>
 <translation id="7782102568078991263">‏אין יותר הצעות מ-Google</translation>
@@ -4383,7 +4383,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7788080748068240085">כדי לשמור את "<ph name="FILE_NAME" />" באופן לא מקוון, עליך לפנות נפח נוסף של <ph name="TOTAL_FILE_SIZE" /> :<ph name="MARKUP_1" />
         <ph name="MARKUP_2" />בטל הצמדה של קבצים שאינך צריך לגשת אליהם יותר במצב לא מקוון<ph name="MARKUP_3" />
         <ph name="MARKUP_4" />מחק קבצים מהתיקיה 'הורדות'<ph name="MARKUP_5" /></translation>
-<translation id="7788298548579301890">‏תוכנית אחרת במחשב הוסיפה יישום שעשוי לשנות את אופן הפעולה של Chrome.
+<translation id="7788298548579301890">‏תוכנית אחרת במחשב הוסיפה יישום שעשוי לשנות את אופן הפעולה של Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="7788383851298063850">ספר לנו מה קורה</translation>
@@ -4408,7 +4408,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="782057141565633384">העתק כתובת &amp;וידאו</translation>
 <translation id="782590969421016895">השתמש בדפים הנוכחיים</translation>
 <translation id="7829298379596169484">גישה לקלט אודיו</translation>
-<translation id="7831368056091621108">‏כדי שהתוסף הזה, ההיסטוריה שלך והגדרות Chrome אחרות יהיו זמינים בכל המכשירים שלך.</translation>
+<translation id="7831368056091621108">‏כדי שהתוסף הזה, ההיסטוריה שלך והגדרות Brave אחרות יהיו זמינים בכל המכשירים שלך.</translation>
 <translation id="7831493768366098287">‏הדפסה ב-Google</translation>
 <translation id="7831754656372780761"><ph name="TAB_TITLE" /> <ph name="EMOJI_MUTING" /></translation>
 <translation id="7832084384634357321">שעת סיום</translation>
@@ -4501,7 +4501,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7973962044839454485">‏אימות PPP נכשל בשל שם משתמש או סיסמה שגויים</translation>
 <translation id="7974566588408714340">נסה שוב באמצעות <ph name="EXTENSIONNAME" /></translation>
 <translation id="7974936243149753750">סריקת יתר</translation>
-<translation id="7977551819349545646">‏מעדכן את Chromebox...</translation>
+<translation id="7977551819349545646">‏מעדכן את Bravebox...</translation>
 <translation id="7978412674231730200">מפתח פרטי</translation>
 <translation id="7979036127916589816">שגיאת סנכרון</translation>
 <translation id="7980084013673500153">מזהה נכס: <ph name="ASSET_ID" /></translation>
@@ -4538,7 +4538,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8018313076035239964">ההגדרות מאפשרות לך לבחור את המידע שאתרים יכולים להשתמש בו ואת התוכן שהם יכולים להציג לך</translation>
 <translation id="8022523925619404071">הפעל עדכון אוטומטי</translation>
 <translation id="8023801379949507775">עדכן תוספים כעת</translation>
-<translation id="8024483450737722621">‏אפליקציות שהורדת מ-Google Play יימחקו ממכשיר ה-Chromebook הזה.
+<translation id="8024483450737722621">‏אפליקציות שהורדת מ-Google Play יימחקו ממכשיר ה-Bravebook הזה.
       <ph name="LINE_BREAKS1" />
       עשוי להימחק גם תוכן שרכשת, כמו סרטים, תוכניות טלוויזיה, מוזיקה וספרים או רכישות אחרות שביצעת בתוך האפליקציה.
       <ph name="LINE_BREAKS2" />
@@ -4605,7 +4605,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8116190140324504026">עוד מידע...</translation>
 <translation id="8116483400482790018">מילון איות מותאם אישית</translation>
 <translation id="8116972784401310538">&amp;מנהל הסימניות</translation>
-<translation id="8118362518458010043">‏הושבת על-ידי Chrome. ייתכן שהתוסף הזה לא בטוח.</translation>
+<translation id="8118362518458010043">‏הושבת על-ידי Brave. ייתכן שהתוסף הזה לא בטוח.</translation>
 <translation id="8118860139461251237">לנהל את ההורדות שלך</translation>
 <translation id="8119631488458759651">הסר אתר זה</translation>
 <translation id="81238879832906896">פרח צהוב ולבן</translation>
@@ -4662,7 +4662,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8202160505685531999">הזן שוב את הסיסמה כדי לעדכן את פרופיל <ph name="DEVICE_TYPE" />.</translation>
 <translation id="8206354486702514201">הגדרה זו נאכפת על ידי מנהל המערכת שלך.</translation>
 <translation id="8206745257863499010">בלוז</translation>
-<translation id="8209677645716428427">‏משתמש בפיקוח יכול לסייר באינטרנט בהדרכתך. כמנהל של משתמש בפיקוח ב-Chrome, אתה יכול:</translation>
+<translation id="8209677645716428427">‏משתמש בפיקוח יכול לסייר באינטרנט בהדרכתך. כמנהל של משתמש בפיקוח ב-Brave, אתה יכול:</translation>
 <translation id="8213577208796878755">מכשיר זמין נוסף אחד.</translation>
 <translation id="8214489666383623925">פתח קובץ...</translation>
 <translation id="8214962590150211830">הסר משתמש זה</translation>
@@ -4809,7 +4809,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8454288007744638700">לחלופין, בחר רשת חדשה:</translation>
 <translation id="845627346958584683">מועד תפוגה</translation>
 <translation id="8456681095658380701">שם לא חוקי</translation>
-<translation id="8460336040822756677">‏אם תשבית את Smart Lock‏ ב-<ph name="DEVICE_TYPE" />, לא תוכל לבטל את נעילת מכשירי ה-Chrome שלך באמצעות הטלפון, ותצטרך להזין את הסיסמה.</translation>
+<translation id="8460336040822756677">‏אם תשבית את Smart Lock‏ ב-<ph name="DEVICE_TYPE" />, לא תוכל לבטל את נעילת מכשירי ה-Brave שלך באמצעות הטלפון, ותצטרך להזין את הסיסמה.</translation>
 <translation id="8461329675984532579">שם ספק ביתי</translation>
 <translation id="84613761564611563">נוצרה בקשה עבור ממשק משתמש להגדרות הרשת, נא להמתין...</translation>
 <translation id="8461914792118322307">‏שרת proxy</translation>
@@ -4821,7 +4821,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8466234950814670489">‏ארכיון TAR</translation>
 <translation id="8468750959626135884">‏בטל את הנעילה של <ph name="DEVICE_TYPE" /> באמצעות טלפון ה-Android שלך.</translation>
 <translation id="8472623782143987204">גיבוי חומרה</translation>
-<translation id="8475313423285172237">‏תכנית אחרת במחשב שלך הוסיפה תוסף שעשוי לשנות את אופן הפעולה של Chrome.</translation>
+<translation id="8475313423285172237">‏תכנית אחרת במחשב שלך הוסיפה תוסף שעשוי לשנות את אופן הפעולה של Brave.</translation>
 <translation id="8475647382427415476">‏ל-Google Drive אין כרגע אפשרות לסנכרן את "<ph name="FILENAME" />". מערכת Google Drive תנסה זאת שוב מאוחר יותר.</translation>
 <translation id="8477241577829954800">הוחלף</translation>
 <translation id="8477384620836102176">&amp;כללי</translation>
@@ -4835,14 +4835,14 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8493236660459102203">מיקרופון:</translation>
 <translation id="8495193314787127784">‏הפעל את "Ok Google"</translation>
 <translation id="8496717697661868878">הרץ פלאגין זה</translation>
-<translation id="8497392509610708671">‏תוכל לשנות זאת בכל עת ב<ph name="BEGIN_LINK" />הגדרות Chrome<ph name="END_LINK" />.</translation>
+<translation id="8497392509610708671">‏תוכל לשנות זאת בכל עת ב<ph name="BEGIN_LINK" />הגדרות Brave<ph name="END_LINK" />.</translation>
 <translation id="8498214519255567734">מקל עליך להביט במסך או לקרוא באור מעומעם</translation>
 <translation id="8503813439785031346">שם משתמש</translation>
 <translation id="8508332354695141900">מפעיל האפליקציות, הצעות לאפליקציות</translation>
 <translation id="8512476990829870887">סיים תהליך</translation>
 <translation id="851263357009351303">אפשר ל-<ph name="HOST" /> להציג תמונות תמיד</translation>
 <translation id="8513191386157529469">"<ph name="CLIENT_NAME" />" מנפה את הבאגים בדפדפן זה.</translation>
-<translation id="8513974249124254369">‏ChromeVox (משוב קולי) מופעל. הקש על Ctrl+Alt+Z כדי להשבית אותו.</translation>
+<translation id="8513974249124254369">‏BraveVox (משוב קולי) מופעל. הקש על Ctrl+Alt+Z כדי להשבית אותו.</translation>
 <translation id="8521475323816527629">גישה מהירה לאפליקציות</translation>
 <translation id="852269967951527627">אל תתיר הצגה של הודעות מאף אתר</translation>
 <translation id="8523493869875972733">שמור את השינויים</translation>
@@ -4877,7 +4877,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8569002732135253578">המסמך <ph name="DOCUMENT_NAME" /> מודפס עכשיו</translation>
 <translation id="8569682776816196752">לא נמצאו יעדים</translation>
 <translation id="8569764466147087991">בחר קובץ לפתיחה</translation>
-<translation id="8571032220281885258">‏כשתאמר ",Ok Google" דפדפן Chrome יחפש את מה שתאמר לאחר מכן.</translation>
+<translation id="8571032220281885258">‏כשתאמר ",Ok Google" דפדפן Brave יחפש את מה שתאמר לאחר מכן.</translation>
 <translation id="8579285237314169903">מבצע סנכרון ל-<ph name="NUMBER_OF_FILES" /> פריטים...</translation>
 <translation id="857943718398505171">מותרת (מומלץ)</translation>
 <translation id="8581809080475256101">לחץ כדי להתקדם, תפריט הקשר כדי לראות את ההיסטוריה</translation>
@@ -4890,7 +4890,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8597845839771543242">פורמט מאפיין:</translation>
 <translation id="8598687241883907630">‏נתק את חשבון Google שלך​​...</translation>
 <translation id="8601206103050338563">‏אימות לקוח TLS WWW</translation>
-<translation id="8602851771975208551">‏תכנית אחרת במחשב שלך הוסיפה יישום שעשוי לשנות את אופן הפעולה של Chrome.</translation>
+<translation id="8602851771975208551">‏תכנית אחרת במחשב שלך הוסיפה יישום שעשוי לשנות את אופן הפעולה של Brave.</translation>
 <translation id="8605428685123651449">‏זיכרון SQLite</translation>
 <translation id="8606726445206553943">‏להשתמש במכשירי ה-MIDI שלך</translation>
 <translation id="8609465669617005112">הזז למעלה</translation>
@@ -4899,7 +4899,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8619892228487928601"><ph name="CERTIFICATE_NAME" />: <ph name="ERROR" /></translation>
 <translation id="8620617069779373398">סטטוס נדידה</translation>
 <translation id="8620765578342452535">הגדרת חיבורי רשת</translation>
-<translation id="8623004009673949077">‏יש להתקין יישומים עם מאפיין המניפסט 'kiosk_only' במצב קיוסק של מערכת ההפעלה של Chrome.</translation>
+<translation id="8623004009673949077">‏יש להתקין יישומים עם מאפיין המניפסט 'kiosk_only' במצב קיוסק של מערכת ההפעלה של Brave.</translation>
 <translation id="862542460444371744">&amp;תוספים</translation>
 <translation id="8627151598708688654">בחירת מקור</translation>
 <translation id="862727964348362408">מושעה</translation>
@@ -4909,7 +4909,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8630903300770275248">יבא משתמש בפיקוח</translation>
 <translation id="8631032106121706562">עלי כותרת</translation>
 <translation id="8631271110654520730">מעתיק תמונת שחזור...</translation>
-<translation id="8637542770513281060">‏המחשב שלך מכיל מודול מאובטח המשמש ליישום תכונות אבטחה קריטיות רבות ב-Chrome OS. היכנס למרכז העזרה של Chromebook כדי לקבל מידע נוסף: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">‏המחשב שלך מכיל מודול מאובטח המשמש ליישום תכונות אבטחה קריטיות רבות ב-Chrome OS. היכנס למרכז העזרה של Bravebook כדי לקבל מידע נוסף: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">עדכון מערכת זמין. מתכונן להוריד…</translation>
 <translation id="8639963783467694461">הגדרות מילוי אוטומטי</translation>
 <translation id="8642171459927087831">אסימון גישה</translation>
@@ -4931,7 +4931,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8661290697478713397">פתח קישור בחלון &amp;נסתר</translation>
 <translation id="8662795692588422978">אנשים</translation>
 <translation id="8662911384982557515">שינוי של דף הבית ל: <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">‏Chrome אינו יכול להגדיר טפט.</translation>
+<translation id="8662978096466608964">‏Brave אינו יכול להגדיר טפט.</translation>
 <translation id="8663099077749055505">תמיד חסום הורדות מרובות אוטומטיות ב-<ph name="HOST" /></translation>
 <translation id="8664389313780386848">&amp;צפה במקור הדף</translation>
 <translation id="866611985033792019">תן אמון באישור זה לזיהוי משתמשי אימייל</translation>
@@ -4997,12 +4997,12 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8755376271068075440">&amp;גדול יותר</translation>
 <translation id="8757090071857742562">לא ניתן להעביר את שולחן העבודה. בדוק אם אישרת את הבקשה להתחיל בשיתוף המסך.</translation>
 <translation id="8757640015637159332">היכנס לפעילות ציבורית באתר</translation>
-<translation id="8757742102600829832">‏מחר Chromebox שאליו ברצונך להתחבר</translation>
+<translation id="8757742102600829832">‏מחר Bravebox שאליו ברצונך להתחבר</translation>
 <translation id="8757803915342932642">‏מכשיר ב-Google Cloud Devices</translation>
 <translation id="8759408218731716181">לא ניתן להגדיר כניסה עם מספר חשבונות</translation>
 <translation id="8759753423332885148">למידע נוסף</translation>
 <translation id="8765985713192161328">נהל מטפלים...</translation>
-<translation id="8767621466733104912">‏עדכון אוטומטי של Chrome אצל כל המשתמשים</translation>
+<translation id="8767621466733104912">‏עדכון אוטומטי של Brave אצל כל המשתמשים</translation>
 <translation id="8770406935328356739">ספריית הבסיס של תוסף</translation>
 <translation id="8770507190024617908">נהל אנשים</translation>
 <translation id="8773975913699077944">יש לבחור רשת של חבילת גלישה</translation>
@@ -5092,7 +5092,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8899851313684471736">פתח קישור &amp;בחלון חדש</translation>
 <translation id="8902667442496790482">פתח את ההגדרות של בחירת טקסט להקראה בקול</translation>
 <translation id="8903921497873541725">התקרב</translation>
-<translation id="8904976895050290827">Chrome Sync</translation>
+<translation id="8904976895050290827">Brave Sync</translation>
 <translation id="8908902564709148335">אזהרה: הפעלת את סימן הסקריפטים-דורשים-פעולה במחשב זה, אשר מגביל את יכולותיו של תוסף זה. עם זאת, ייתכן שמכשירים אחרים אינם תומכים בסמל זה או שהוא כבר מופעל בהם. במכשירים אלו, תוסף זה יכול גם:</translation>
 <translation id="8910146161325739742">שיתוף המסך שלך</translation>
 <translation id="8910222113987937043">‏שינויים בסימניות, בהיסטוריה, בסיסמאות ובהגדרות אחרות לא יסונכרנו עוד עם חשבון Google שלך. עם זאת, הנתונים הקיימים עדיין יישארו בחשבון Google ותוכל לנהל אותם ב<ph name="BEGIN_LINK" />מרכז השליטה של Google<ph name="END_LINK" />.</translation>
@@ -5192,7 +5192,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9050666287014529139">משפט-סיסמה</translation>
 <translation id="9052208328806230490">רשמת את המדפסות שלך ב-<ph name="CLOUD_PRINT_NAME" /> באמצעות החשבון <ph name="EMAIL" /></translation>
 <translation id="9053893665344928494">זכור את הבחירה שלי</translation>
-<translation id="9056034633062863292">‏עדכון Chromebox</translation>
+<translation id="9056034633062863292">‏עדכון Bravebox</translation>
 <translation id="9056810968620647706">לא נמצאו התאמות.</translation>
 <translation id="9057119625587205566">אין מדפסות בקרבת מקום</translation>
 <translation id="9059868303873565140">תפריט מצב</translation>
@@ -5226,7 +5226,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9105212490906037469">F2</translation>
 <translation id="9106577689055281370">נותרו <ph name="HOUR" />:<ph name="MINUTE" /> לסוללה</translation>
 <translation id="9109122242323516435">כדי לפנות שטח, מחק קבצים מאחסון המכשיר.</translation>
-<translation id="9110990317705400362">‏אנחנו מחפשים כל הזמן דרכים לגלישה בטוחה יותר. בעבר, כל אתר יכול היה להציע לך להוסיף תוסף לדפדפן. בגרסאות האחרונות של Google Chrome, עליך לציין באופן מפורש ל-Chrome שברצונך להתקין תוספים אלה על-ידי הוספתם דרך הדף 'תוספים'. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">‏אנחנו מחפשים כל הזמן דרכים לגלישה בטוחה יותר. בעבר, כל אתר יכול היה להציע לך להוסיף תוסף לדפדפן. בגרסאות האחרונות של Brave, עליך לציין באופן מפורש ל-Brave שברצונך להתקין תוספים אלה על-ידי הוספתם דרך הדף 'תוספים'. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">בטל נעילה</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112614144067920641">‏בחר PIN חדש.</translation>
@@ -5249,7 +5249,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9131487537093447019">‏שלח הודעות למכשירי Bluetooth וקבל מהם הודעות.</translation>
 <translation id="9131598836763251128">בחר קובץ אחד או יותר</translation>
 <translation id="9133055936679483811">הכיווץ נכשל. <ph name="ERROR_MESSAGE" /></translation>
-<translation id="9134524245363717059">‏קובץ זה מיועד למחשב המשתמש בתוכנה של Macintosh. הוא אינו מתאים למכשירך שעובד עם מערכת הפעלה של Chrome. חפש יישום חלופי בחנות האינטרנט של Chrome.</translation>
+<translation id="9134524245363717059">‏קובץ זה מיועד למחשב המשתמש בתוכנה של Macintosh. הוא אינו מתאים למכשירך שעובד עם מערכת הפעלה של Brave. חפש יישום חלופי בחנות האינטרנט של Brave.</translation>
 <translation id="9137013805542155359">הצג מקור</translation>
 <translation id="9137916601698928395">פתח קישור בתור <ph name="USER" /></translation>
 <translation id="9138978632494473300">הוסף קיצורי דרך במקומות הבאים:</translation>
@@ -5270,7 +5270,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9169496697824289689">הצג מקשי קיצור</translation>
 <translation id="9170397650136757332">עכשיו הזז מעט את האצבע כדי שהחיישן יזהה את כל חלקי טביעת האצבע</translation>
 <translation id="9170848237812810038">&amp;ביטול</translation>
-<translation id="9170884462774788842">‏תכנית אחרת במחשב שלך הוסיפה עיצוב שעשוי לשנות את אופן הפעולה של Chrome.</translation>
+<translation id="9170884462774788842">‏תכנית אחרת במחשב שלך הוסיפה עיצוב שעשוי לשנות את אופן הפעולה של Brave.</translation>
 <translation id="9174212595744391062">‏הפעולה הזו תמחק קובצי Cookie ומטמון לכל האתרים, כולל</translation>
 <translation id="9176611096776448349">‏<ph name="WINDOW_TITLE" /> - מכשיר Bluetooth מחובר</translation>
 <translation id="9177499212658576372">אתה מחובר כעת לרשת <ph name="NETWORK_TYPE" />.</translation>
@@ -5282,7 +5282,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9190063653747922532">‏L2TP/‏IPSec + מפתח משותף מראש</translation>
 <translation id="920045321358709304">חפש ב-<ph name="SEARCH_ENGINE" /></translation>
 <translation id="9201220332032049474">אפשרויות נעילת מסך</translation>
-<translation id="9201305942933582053">‏Google Now עבור Chrome!</translation>
+<translation id="9201305942933582053">‏Google Now עבור Brave!</translation>
 <translation id="9203398526606335860">&amp;יצירת פרופילים מופעלת</translation>
 <translation id="9203478404496196495">בטל השתקת כרטיסייה</translation>
 <translation id="9203962528777363226">מנהל המערכת של מכשיר זה השבית את ההוספה של משתמשים חדשים</translation>
@@ -5307,7 +5307,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="939598580284253335">הזן משפט-סיסמה</translation>
 <translation id="939736085109172342">תיקייה חדשה</translation>
 <translation id="941543339607623937">מפתח פרטי לא חוקי.</translation>
-<translation id="942532530371314860">‏<ph name="APP_NAME" /> משתף כרטיסייה ואודיו של Chrome.</translation>
+<translation id="942532530371314860">‏<ph name="APP_NAME" /> משתף כרטיסייה ואודיו של Brave.</translation>
 <translation id="942954117721265519">אין תמונות בספריה הזו.</translation>
 <translation id="945522503751344254">שלח משוב</translation>
 <translation id="951981865514037445"><ph name="URL" />‏ רוצה להשתמש במיקום המכשיר שלך.</translation>
@@ -5327,7 +5327,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="98515147261107953">לרוחב</translation>
 <translation id="988978206646512040">השדה של ביטוי הסיסמה לא יכול להישאר ריק</translation>
 <translation id="992032470292211616">תוספים, אפליקציות ועיצובים יכולים לפגוע במכשיר שלך. האם אתה בטוח שברצונך להמשיך?</translation>
-<translation id="992592832486024913">‏השבת את ChromeVox (משוב קולי)</translation>
+<translation id="992592832486024913">‏השבת את BraveVox (משוב קולי)</translation>
 <translation id="994289308992179865">הפעל ב&amp;רצף</translation>
 <translation id="996250603853062861">יוצר חיבור מאובטח...</translation>
 <translation id="998747458861718449">&amp;בדוק</translation>
