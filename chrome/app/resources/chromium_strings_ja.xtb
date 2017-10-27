@@ -6,7 +6,7 @@
 <translation id="113122355610423240">既定のブラウザは Brave です</translation>
 <translation id="1170115874949214249">Brave をスマートフォンにインストールしませんか。お客様のアカウント再設定用の電話番号に、Google より SMS をお送りします。</translation>
 <translation id="1174473354587728743">共有パソコンにするなど、Brave をお好みの方法で設定できるようになりました。</translation>
-<translation id="1185134272377778587">Brave について</translation>
+<translation id="8541922081612557424">Brave について</translation>
 <translation id="1298199220304005244">Chromium OS の使用に関するアドバイス</translation>
 <translation id="1396446129537741364">Brave はパスワードを表示しようとしています。</translation>
 <translation id="1403254041219632970">Brave の今後のバージョンでは Mac OS X 10.6、10.7、10.8 はサポートされなくなります。</translation>
@@ -64,7 +64,7 @@
 <translation id="3130323860337406239">Brave がマイクを使用しています。</translation>
 <translation id="3155163173539279776">Brave を再起動します</translation>
 <translation id="3190315855212034486">エラー: Brave で問題が発生しました。今すぐ再起動しますか？</translation>
-<translation id="3256316712990552818">Brave にコピー済み</translation>
+<translation id="663059986967017181">Brave にコピー済み</translation>
 <translation id="3258596308407688501">Brave はこのデータ ディレクトリへの読み書きを実行できません:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
@@ -76,7 +76,7 @@
 <translation id="3509308970982693815">すべての Brave ウィンドウを閉じてからもう一度お試しください。</translation>
 <translation id="352783484088404971">Brave から削除...</translation>
 <translation id="3549345495227188780">Chromium OS のスタート ガイド</translation>
-<translation id="3582788516608077514">Brave を更新しています...</translation>
+<translation id="5047208012586153436">Brave を更新しています...</translation>
 <translation id="358997566136285270">Brave ロゴ</translation>
 <translation id="3738139272394829648">タップして検索</translation>
 <translation id="3762167353400286894">Chromium OS はこの言語で表示されています</translation>
@@ -107,14 +107,14 @@
 <translation id="4549794359424059447">Brave の今後のバージョンでは Windows XP と Windows Vista はサポートされなくなります。</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> としてログインしています。ログインしているすべてのデバイスで、ブックマーク、履歴、その他の設定にアクセスできます。</translation>
 <translation id="459535195905078186">Brave アプリ</translation>
-<translation id="4611246891205775468">このサイトを利用するには、Brave でマイクの使用を許可する必要があります。</translation>
+<translation id="320189792589364011">このサイトを利用するには、Brave でマイクの使用を許可する必要があります。</translation>
 <translation id="4621240073146040695">Brave を再起動して更新を完了してください。</translation>
 <translation id="4677944499843243528">プロフィールは、別のコンピュータ（<ph name="HOST_NAME" />）の別の Brave プロセス（<ph name="PROCESS_ID" />）で使用されているようです。Brave はプロフィールが破損しないようにプロフィールをロックしています。他のプロセスがこのプロフィールを使用していないことが確実であれば、プロフィールのロックを解除して Brave を再起動できます。</translation>
 <translation id="469338717132742108">Chromium OS のヘルプを見る</translation>
 <translation id="4708774505295300557">前回このパソコンで別のユーザー（<ph name="ACCOUNT_EMAIL_LAST" />）が Brave にログインしました。情報を個別に保持するには、新しい Brave ユーザーを作成してください。</translation>
 <translation id="4714956846925717402">Brave をより迅速に起動</translation>
 <translation id="4743926867934016338">承諾して検索</translation>
-<translation id="4825874709045178029">このサイトを利用するには、Brave でカメラの使用を許可する必要があります。</translation>
+<translation id="8285489906452138776">このサイトを利用するには、Brave でカメラの使用を許可する必要があります。</translation>
 <translation id="4888717733111232871">mDNS トラフィックを許可する Brave のインバウンド ルールです。</translation>
 <translation id="4943838377383847465">Brave はバックグラウンド モードです。</translation>
 <translation id="4987820182225656817">ゲスト ユーザーは、記録を残さずに Brave を使用できます。</translation>
@@ -122,7 +122,7 @@
 <translation id="5032989939245619637">Brave で詳細を保存する</translation>
 <translation id="5045248521775609809">どの端末でも同じ Brave を使用できます</translation>
 <translation id="5116586539350239523">Brave でユーザーの情報が安全に保存されるので、再度入力する必要がなくなります。</translation>
-<translation id="5231355151045086930">Brave からのログアウト</translation>
+<translation id="6234515504547364178">Brave からのログアウト</translation>
 <translation id="5358375970380395591">現在、管理対象アカウントでログインしており、あなたの Brave プロフィールを管理者が制御できる状態になっています。あなたの Brave データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは Google アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。<ph name="LEARN_MORE" /></translation>
 <translation id="5386450000063123300">Brave を更新しています（<ph name="PROGRESS_PERCENT" />）</translation>
 <translation id="5398878173008909840">Brave の最新バージョンをぜひお試しください。</translation>
@@ -142,7 +142,7 @@
 <translation id="5820394555380036790">Chromium OS</translation>
 <translation id="5823381412099532241">Brave を最新バージョンに自動更新できませんでした。新機能とセキュリティの修正が適用されていません。Brave を更新する必要があります。</translation>
 <translation id="5859963531214966875">Brave の今後のバージョンではこの Linux システムはサポートされなくなります。</translation>
-<translation id="5862307444128926510">Brave へようこそ</translation>
+<translation id="7207456302801184289">Brave へようこそ</translation>
 <translation id="5877064549588274448">チャンネルが変更されました。変更を適用するには、デバイスを再起動してください。</translation>
 <translation id="5895138241574237353">再起動</translation>
 <translation id="5902536751647951209">認証証明書でエラーが発生しました。Brave にログインし直すか、管理者に詳細をお問い合わせください。<ph name="ADDITIONAL_EXPLANATION" /></translation>
@@ -164,9 +164,9 @@
 <translation id="6403826409255603130">Brave は、ウェブページやアプリケーションを高速に実行できるスピードと、高い安定性を兼ね備えた非常に使いやすいウェブブラウザです。不正なソフトウェアやフィッシングに対する保護機能が組み込まれており、ウェブを安全にブラウジングできます。</translation>
 <translation id="6475912303565314141">この拡張機能では、Brave の起動時に表示されるページも制御されます。</translation>
 <translation id="6485906693002546646">Brave データの同期に <ph name="PROFILE_EMAIL" /> を使用しています。同期設定を更新する、または Google アカウントなしで Brave を使用するには、<ph name="SETTINGS_LINK" /> にアクセスしてください。</translation>
-<translation id="6505742536731484931">このサイトで現在地を共有するには、Brave で位置情報の使用を許可する必要があります。</translation>
+<translation id="4931190655840828017">このサイトで現在地を共有するには、Brave で位置情報の使用を許可する必要があります。</translation>
 <translation id="6510925080656968729">Brave をアンインストール</translation>
-<translation id="6526111688217511984">Brave でファイルをダウンロードするにはストレージへのアクセス権が必要です。</translation>
+<translation id="3088191967551450609">Brave でファイルをダウンロードするにはストレージへのアクセス権が必要です。</translation>
 <translation id="6584627348340620412">32 ビットの Brave の今後のバージョンではこの Linux システムはサポートされなくなります。64 ビットの Brave にアップグレードしてください。</translation>
 <translation id="6593914713218535185">この Linux システムはサポートされなくなったため、Brave は正常に機能しない可能性があります。</translation>
 <translation id="6638567566961868659">ブックマークは Brave メニューやブックマーク バーに表示されます。</translation>
@@ -183,7 +183,7 @@
 <translation id="6944967875980567883">Brave に読み込まれているモジュール</translation>
 <translation id="6970811910055250180">お使いの端末を更新しています...</translation>
 <translation id="7027298027173928763">Brave を最新バージョンに自動更新できませんでした。新機能とセキュリティの修正が適用されていません。Brave を手動で再インストールする必要があります。</translation>
-<translation id="705851970750939768">Brave を更新</translation>
+<translation id="1705567146636171298">Brave を更新</translation>
 <translation id="7066436765290594559">Chromium OS はデータを同期できませんでした。同期パスフレーズを更新してください。</translation>
 <translation id="707471633328071618">Google ペイメント（Brave にコピー）</translation>
 <translation id="7138853919861947730">Brave は、より快適なブラウジングを提供する目的でウェブ サービスを使用することがあります。</translation>
@@ -230,7 +230,7 @@
 <translation id="8222496066431494154">Brave をスマートフォンにインストールしませんか。お客様のアカウント再設定用の電話番号（<ph name="PHONE_NUMBER" />）に、Google より SMS をお送りします。</translation>
 <translation id="8269379391216269538">Brave の品質向上にご協力ください</translation>
 <translation id="8290862415967981663">このファイルは危険なファイルの可能性があるため、Brave でブロックしました。</translation>
-<translation id="8328596990138326317">このサイトを利用するには、Brave でカメラとマイクの使用を許可する必要があります。</translation>
+<translation id="7988136689212463100">このサイトを利用するには、Brave でカメラとマイクの使用を許可する必要があります。</translation>
 <translation id="8340674089072921962">Brave の前回の使用者は <ph name="USER_EMAIL_ADDRESS" /> です</translation>
 <translation id="8453117565092476964">インストーラ アーカイブが壊れているか無効です。Brave をダウンロードし直してください。</translation>
 <translation id="8493179195440786826">Brave は古いバージョンです</translation>
@@ -258,7 +258,7 @@
 このままログインすると、ブックマーク、履歴、その他の設定などの Brave データが <ph name="ACCOUNT_EMAIL_NEW" /> と統合されます。</translation>
 <translation id="9013087743919948559">Brave に追加</translation>
 <translation id="9019929317751753759">Brave をより安全にご利用いただくために、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない次の拡張機能を無効にしました。これは知らないうちに追加された可能性があります。</translation>
-<translation id="9022552996538154597">Brave にログイン</translation>
+<translation id="82609232232243542">Brave にログイン</translation>
 <translation id="9036189287518468038">Brave アプリ ランチャー</translation>
 <translation id="9089354809943900324">Brave は古いバージョンです</translation>
 <translation id="911206726377975832">閲覧データも削除しますか？</translation>

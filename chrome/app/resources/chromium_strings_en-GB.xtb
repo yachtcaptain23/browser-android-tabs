@@ -8,7 +8,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="113122355610423240">Brave is your default browser</translation>
 <translation id="1170115874949214249">Install Brave on your phone. We’ll send an SMS to your account recovery phone number.</translation>
 <translation id="1174473354587728743">Share a computer? Now you can set up Brave just the way you like it.</translation>
-<translation id="1185134272377778587">About Brave</translation>
+<translation id="8541922081612557424">About Brave</translation>
 <translation id="1298199220304005244">Get help with using Chromium OS</translation>
 <translation id="1396446129537741364">Brave is trying to show passwords.</translation>
 <translation id="1403254041219632970">Future versions of Brave will no longer support Mac OS X 10.6, 10.7 or 10.8.</translation>
@@ -66,7 +66,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="3130323860337406239">Brave is using your microphone.</translation>
 <translation id="3155163173539279776">Relaunch Brave</translation>
 <translation id="3190315855212034486">Whoa! Brave has crashed. Relaunch now?</translation>
-<translation id="3256316712990552818">Copied to Brave</translation>
+<translation id="663059986967017181">Copied to Brave</translation>
 <translation id="3258596308407688501">Brave cannot read and write to its data directory:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
@@ -78,7 +78,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="3509308970982693815">Please close all Brave windows and try again.</translation>
 <translation id="352783484088404971">Remove From Brave...</translation>
 <translation id="3549345495227188780">Get Started with Chromium OS</translation>
-<translation id="3582788516608077514">Updating Brave ...</translation>
+<translation id="5047208012586153436">Updating Brave ...</translation>
 <translation id="358997566136285270">Brave logo</translation>
 <translation id="3738139272394829648">Touch to Search</translation>
 <translation id="3762167353400286894">Chromium OS is displayed in this language</translation>
@@ -109,14 +109,14 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="4549794359424059447">Future versions of Brave will no longer support Windows XP or Windows Vista.</translation>
 <translation id="4567424176335768812">You're signed in as <ph name="USER_EMAIL_ADDRESS" />. Now you can access your bookmarks, history and other settings on all your signed in devices.</translation>
 <translation id="459535195905078186">Brave Apps</translation>
-<translation id="4611246891205775468">Brave needs permission to access your microphone for this site.</translation>
+<translation id="320189792589364011">Brave needs permission to access your microphone for this site.</translation>
 <translation id="4621240073146040695">Nearly up to date! Relaunch Brave to finish updating.</translation>
 <translation id="4677944499843243528">The profile appears to be in use by another Brave process (<ph name="PROCESS_ID" />) on another computer (<ph name="HOST_NAME" />). Brave has locked the profile so that it doesn't get corrupted. If you are sure that no other processes are using this profile, you can unlock the profile and relaunch Brave.</translation>
 <translation id="469338717132742108">Get help with Chromium OS</translation>
 <translation id="4708774505295300557">Someone previously signed in to Brave on this computer as <ph name="ACCOUNT_EMAIL_LAST" />. Please create a new Brave user to keep your information separate.</translation>
 <translation id="4714956846925717402">Get to Brave faster</translation>
 <translation id="4743926867934016338">Accept &amp; Search</translation>
-<translation id="4825874709045178029">Brave needs permission to access your camera for this site.</translation>
+<translation id="8285489906452138776">Brave needs permission to access your camera for this site.</translation>
 <translation id="4888717733111232871">Inbound rule for Brave to allow mDNS traffic.</translation>
 <translation id="4943838377383847465">Brave is in background mode.</translation>
 <translation id="4987820182225656817">Guests can use Brave without leaving anything behind.</translation>
@@ -124,7 +124,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="5032989939245619637">Save details in Brave</translation>
 <translation id="5045248521775609809">Take Brave everywhere</translation>
 <translation id="5116586539350239523">Brave will securely store your personal details so that you don't need to type them in again.</translation>
-<translation id="5231355151045086930">Sign out of Brave</translation>
+<translation id="6234515504547364178">Sign out of Brave</translation>
 <translation id="5358375970380395591">You are signing in with a managed account and giving its administrator control over your Brave profile. Your Brave data, such as your apps, bookmarks, history, passwords and other settings will become permanently tied to <ph name="USER_NAME" />. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE" /></translation>
 <translation id="5386450000063123300">Updating Brave (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="5398878173008909840">There is a new version of Brave available.</translation>
@@ -144,7 +144,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="5820394555380036790">Chromium OS</translation>
 <translation id="5823381412099532241">Brave could not update itself to the latest version, so you are missing out on amazing new features and security fixes. You need to update Brave.</translation>
 <translation id="5859963531214966875">Future versions of Brave will no longer support this Linux system.</translation>
-<translation id="5862307444128926510">Welcome to Brave</translation>
+<translation id="7207456302801184289">Welcome to Brave</translation>
 <translation id="5877064549588274448">Channel changed. Restart your device to apply changes.</translation>
 <translation id="5895138241574237353">Restart</translation>
 <translation id="5902536751647951209">Authentication certificate failed. Please sign in to Brave again or contact your administrator for more information. <ph name="ADDITIONAL_EXPLANATION" /></translation>
@@ -166,9 +166,9 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="6403826409255603130">Brave is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Brave.</translation>
 <translation id="6475912303565314141">It also controls what page is shown when you start Brave.</translation>
 <translation id="6485906693002546646">You're using <ph name="PROFILE_EMAIL" /> to sync your Brave stuff. To update your sync preference or to use Brave without a Google account, visit <ph name="SETTINGS_LINK" />.</translation>
-<translation id="6505742536731484931">Brave needs access to your location to share your location with this site.</translation>
+<translation id="4931190655840828017">Brave needs access to your location to share your location with this site.</translation>
 <translation id="6510925080656968729">Uninstall Brave</translation>
-<translation id="6526111688217511984">Brave needs storage access to download files.</translation>
+<translation id="3088191967551450609">Brave needs storage access to download files.</translation>
 <translation id="6584627348340620412">Future versions of 32-bit Brave will no longer support this Linux system, please upgrade to 64-bit Brave.</translation>
 <translation id="6593914713218535185">Brave may not function correctly because it is no longer supported on this Linux system.</translation>
 <translation id="6638567566961868659">Find your bookmarks in the Brave menu or on the bookmarks bar.</translation>
@@ -185,7 +185,7 @@ Some features may be unavailable. Please specify a different profile directory o
 <translation id="6944967875980567883">Modules loaded into Brave</translation>
 <translation id="6970811910055250180">Updating your device...</translation>
 <translation id="7027298027173928763">Brave could not update itself to the latest version, so you are missing out on amazing new features and security fixes. You need to manually reinstall Brave.</translation>
-<translation id="705851970750939768">Update Brave</translation>
+<translation id="1705567146636171298">Update Brave</translation>
 <translation id="7066436765290594559">Chromium OS could not sync your data. Please update your Sync passphrase.</translation>
 <translation id="707471633328071618">Google Payments (copied to Brave)</translation>
 <translation id="7138853919861947730">Brave may use web services to improve your browsing experience.</translation>
@@ -232,7 +232,7 @@ Please check your email at <ph name="ACCOUNT_EMAIL" /> for further instructions.
 <translation id="8222496066431494154">Install Brave on your phone. We’ll send an SMS to your account recovery phone number: <ph name="PHONE_NUMBER" /></translation>
 <translation id="8269379391216269538">Help make Brave better</translation>
 <translation id="8290862415967981663">This file may be dangerous, so Brave has blocked it.</translation>
-<translation id="8328596990138326317">Brave needs permission to access your camera and microphone for this site.</translation>
+<translation id="7988136689212463100">Brave needs permission to access your camera and microphone for this site.</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> was previously using Brave</translation>
 <translation id="8453117565092476964">The installer archive is corrupted or invalid. Please download Brave again.</translation>
 <translation id="8493179195440786826">Brave is Out of Date</translation>
@@ -260,7 +260,7 @@ Please check your email at <ph name="ACCOUNT_EMAIL" /> for further instructions.
 Signing in anyway will merge Brave information like bookmarks, history, and other settings to <ph name="ACCOUNT_EMAIL_NEW" />.</translation>
 <translation id="9013087743919948559">Add to Brave</translation>
 <translation id="9019929317751753759">To make Brave safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> and may have been added without your knowledge.</translation>
-<translation id="9022552996538154597">Sign in to Brave</translation>
+<translation id="82609232232243542">Sign in to Brave</translation>
 <translation id="9036189287518468038">Brave App Launcher</translation>
 <translation id="9089354809943900324">Brave is out of date</translation>
 <translation id="911206726377975832">Also delete your browsing data?</translation>

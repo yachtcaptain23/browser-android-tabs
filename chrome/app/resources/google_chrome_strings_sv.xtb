@@ -17,9 +17,9 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="1393853151966637042">Få hjälp med att använda Brave</translation>
 <translation id="1399397803214730675">Det finns redan en senare version av Brave på den här datorn. Om programmet inte fungerar avinstallerar du Brave och försöker igen.</translation>
 <translation id="1434626383986940139">Brave Canary-appar</translation>
-<translation id="1457721931618994305">Uppdaterar Brave ...</translation>
+<translation id="5047208012586153436">Uppdaterar Brave ...</translation>
 <translation id="1469002951682717133">Startprogrammet för appar i Brave</translation>
-<translation id="1553358976309200471">Uppdatera Brave</translation>
+<translation id="1705567146636171298">Uppdatera Brave</translation>
 <translation id="1587223624401073077">Brave använder din kamera.</translation>
 <translation id="1587325591171447154"><ph name="FILE_NAME" /> är skadlig och har blockerats av Brave.</translation>
 <translation id="1619887657840448962">Vi har gjort Brave säkrare genom att inaktivera följande tillägg som inte anges i <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> och som kan ha lagts till utan att du vet om det.</translation>
@@ -52,12 +52,12 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="2290095356545025170">Är du säker på att du vill avinstallera Brave?</translation>
 <translation id="2309047409763057870">Det här är en sekundär installation av Brave. Det går inte att göra den till standardwebbläsare.</translation>
 <translation id="2316129865977710310">Nej tack</translation>
-<translation id="2334084861041072223">Upphovsrätt <ph name="YEAR" /> Brave Software Inc. Med ensamrätt.</translation>
+<translation id="4651430425715739110">Upphovsrätt <ph name="YEAR" /> Brave Software Inc. Med ensamrätt.</translation>
 <translation id="2346876346033403680">Någon har tidigare loggat in i Brave på den här datorn som <ph name="ACCOUNT_EMAIL_LAST" />. Om det inte är ditt konto skapar du en ny Brave-användare för att hålla din information privat för dig.
 
 Om du loggar in ändå synkroniseras din information i Brave, till exempel bokmärken, historik och andra inställningar, med <ph name="ACCOUNT_EMAIL_NEW" />.</translation>
 <translation id="2397416548179033562">Visa Brave-menyn</translation>
-<translation id="2416359993254398973">Du behöver ge Brave behörighet att använda kameran på den här webbplatsen.</translation>
+<translation id="8285489906452138776">Du behöver ge Brave behörighet att använda kameran på den här webbplatsen.</translation>
 <translation id="2429317896000329049">Brave kunde inte synkronisera data eftersom synkronisering inte är tillgängligt för din domän.</translation>
 <translation id="2446511512801740068">Brave är inaktuellt eftersom det inte har startats om på ett tag. Det finns en uppdatering tillgänglig som tillämpas så snart du startar om.</translation>
 <translation id="2485422356828889247">Avinstallera</translation>
@@ -73,7 +73,7 @@ Om du loggar in ändå synkroniseras din information i Brave, till exempel bokm�
 <translation id="2799223571221894425">Starta om</translation>
 <translation id="2847461019998147611">Visa Brave på det här språket</translation>
 <translation id="2871893339301912279">Du är inloggad i Brave.</translation>
-<translation id="2888126860611144412">Om Brave</translation>
+<translation id="8541922081612557424">Om Brave</translation>
 <translation id="3037838751736561277">Brave körs i bakgrundsläge.</translation>
 <translation id="3047079729301751317">Om du kopplar från <ph name="USERNAME" /> rensas din historik, dina bokmärken, dina inställningar och annan Brave-data som du har lagrat på enheten. Data som lagras i Google-kontot rensas inte utan kan hanteras via <ph name="GOOGLE_DASHBOARD_LINK" />Google Översikt<ph name="END_GOOGLE_DASHBOARD_LINK" />.</translation>
 <translation id="3065168410429928842">Brave-flik</translation>
@@ -87,7 +87,7 @@ Kom ihåg att låsa din profil när du inte använder Brave om <ph name="NEW_PRO
 <ph name="BEGIN_LINK_2" />Läs mer<ph name="END_LINK_2" />
 
 Ytterligare anvisningar har skickats med e-post till dig på <ph name="ACCOUNT_EMAIL" />.</translation>
-<translation id="3282568296779691940">Logga in i Brave</translation>
+<translation id="82609232232243542">Logga in i Brave</translation>
 <translation id="3311976847535831054">Den här datorn får inte längre uppdateringar för 32-bitarsversionen av Brave. Uppgradera till Brave med 64 bitar.</translation>
 <translation id="3360895254066713204">Brave Helper</translation>
 <translation id="3395323229510056640">Få hjälp med Chrome OS</translation>
@@ -166,12 +166,12 @@ Brave kan inte återställa dina inställningar.</translation>
 <translation id="556024056938947818">Brave försöker visa lösenord.</translation>
 <translation id="5563479599352954471">Sök med en tryckning</translation>
 <translation id="5566025111015594046">Brave (mDNS-In)</translation>
-<translation id="557283862590186398">Du behöver ge Brave behörighet att använda mikrofonen på den här webbplatsen.</translation>
+<translation id="320189792589364011">Du behöver ge Brave behörighet att använda mikrofonen på den här webbplatsen.</translation>
 <translation id="5620765574781326016">Läs mer om vilka ämnen som webbplatser handlar om utan att lämna sidan.</translation>
 <translation id="565744775970812598"><ph name="FILE_NAME" /> kan vara skadlig och har blockerats av Brave.</translation>
 <translation id="568643307450491754">Hitta dina bokmärken på Brave-menyn eller i bokmärkesfältet.</translation>
 <translation id="573759479754913123">Om Chrome OS</translation>
-<translation id="5749068826913805084">Brave måste ha åtkomst till lagringsutrymmet om det ska gå att ladda ned filer.</translation>
+<translation id="3088191967551450609">Brave måste ha åtkomst till lagringsutrymmet om det ska gå att ladda ned filer.</translation>
 <translation id="5774845247549698882">Chrome OS visas på det här språket</translation>
 <translation id="5855036575689098185">Programmet som körs på datorn är inte kompatibelt med Brave.</translation>
 <translation id="5877064549588274448">Kanalen har ändrats. Starta om enheten om du vill tillämpa ändringarna.</translation>
@@ -191,18 +191,18 @@ Brave kan inte återställa dina inställningar.</translation>
 <translation id="6291549208091401781">Brave har redan installerats för alla användare på datorn.</translation>
 <translation id="6338556085225130112">Uppdatera Brave</translation>
 <translation id="6368958679917195344">Chrome OS fungerar tack vare <ph name="BEGIN_LINK_CROS_OSS" />öppen källkod<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="6393863479814692971">Du behöver ge Brave behörighet att använda kameran och mikrofonen på den här webbplatsen.</translation>
+<translation id="7988136689212463100">Du behöver ge Brave behörighet att använda kameran och mikrofonen på den här webbplatsen.</translation>
 <translation id="6400076122676892962">Den här datorn slutar snart ta emot uppdateringar för Brave eftersom stödet för Mac OS X 10.6, 10.7 och 10.8 kommer att upphöra.</translation>
 <translation id="6410540444482791104">Du kan bidra till att göra Brave säkrare och enklare att använda genom att låta viss systeminformation och visst sidinnehåll skickas automatiskt till Google i syfte att identifiera skadliga appar och webbplatser.</translation>
 <translation id="6470176598693778404">Den här datorn får inte längre uppdateringar för Brave eftersom Mac OS X 10.6, 10.7 och 10.8 inte längre stöds.</translation>
 <translation id="6477562832195530369">{NUM_DOWNLOAD,plural, =1{En nedladdning pågår för närvarande. Vill du avbryta nedladdningen och avsluta Brave?}other{# nedladdningar pågår för närvarande. Vill du avbryta nedladdningarna och avsluta Brave?}}</translation>
 <translation id="6566149418543181476">Brave uppdateras (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="6598387184982954187">Du använder <ph name="PROFILE_EMAIL" /> för att synkronisera dina grejer i Brave. Om du vill uppdatera synkroniseringsinställningen eller använda Brave utan ett Google-konto besöker du <ph name="SETTINGS_LINK" />.</translation>
-<translation id="6600954340915313787">Kopierat till Brave</translation>
+<translation id="663059986967017181">Kopierat till Brave</translation>
 <translation id="6626317981028933585">Inställningarna för Mozilla Firefox är tyvärr inte tillgängliga medan webbläsaren körs. Om du vill importera dessa inställningar till Brave måste du spara ditt arbete och stänga alla Firefox-fönster. Klicka sedan på Fortsätt.</translation>
 <translation id="6634887557811630702">Brave behöver inte uppdateras.</translation>
 <translation id="6676384891291319759">Gå ut på Internet</translation>
-<translation id="6697947395630195233">Du behöver ge Brave åtkomstbehörighet till din plats om den ska kunna delas med webbplatsen.</translation>
+<translation id="4931190655840828017">Du behöver ge Brave åtkomstbehörighet till din plats om den ska kunna delas med webbplatsen.</translation>
 <translation id="683440813066116847">Regel som tillåter inkommande mDNS-trafik för Brave Canary.</translation>
 <translation id="686561893457936865">Ta med dig Brave överallt</translation>
 <translation id="6883876366448858277">skickar ett ord med omgivande sammanhang till Google Sök och returnerar definitioner, bilder och andra sökresultat.</translation>
@@ -214,7 +214,7 @@ Brave kan inte återställa dina inställningar.</translation>
 <translation id="7098166902387133879">Brave använder din mikrofon.</translation>
 <translation id="7106741999175697885">Aktivitetshanteraren - Brave</translation>
 <translation id="7125719106133729027">Brave kunde inte uppdateras till den senaste versionen automatiskt. Därför missar du de senaste nya funktionerna och säkerhetsuppdateringarna. Du måste installera om Brave manuellt.</translation>
-<translation id="7161904924553537242">Välkommen till Brave</translation>
+<translation id="7207456302801184289">Välkommen till Brave</translation>
 <translation id="7164397146364144019">Du kan bidra till att göra Brave säkrare och enklare att använda genom att rapportera uppgifter om möjliga säkerhetsincidenter till Google automatiskt.</translation>
 <translation id="7185038942300673794"><ph name="EXTENSION_NAME" /> har lagts till i Brave.</translation>
 <translation id="7242029209006116544">Du loggar in med ett hanterat konto och ger dess administratör kontroll över din Brave-profil. Dina Brave-uppgifter, t.ex. dina appar, bokmärken, din historik, dina lösenord och andra inställningar, knyts permanent till <ph name="USER_NAME" />. Du kommer att kunna ta bort dessa uppgifter via instrumentpanelen i Google Konton, men du kommer inte att kunna koppla dessa uppgifter till ett annat konto. Du kan skapa en ny profil om du vill hålla dina befintliga Brave-uppgifter separata. <ph name="LEARN_MORE" /></translation>
@@ -223,10 +223,10 @@ Brave kan inte återställa dina inställningar.</translation>
 <translation id="7339898014177206373">Nytt fönster</translation>
 <translation id="7369650938475876456">Använd ett starkt lösenord som genererats av Brave</translation>
 <translation id="7398801000654795464">Du var inloggad i Brave som <ph name="USER_EMAIL_ADDRESS" />. Använd samma konto när du loggar in igen.</translation>
-<translation id="7400722733683201933">Om Brave</translation>
+<translation id="8541922081612557424">Om Brave</translation>
 <translation id="7408085963519505752">Villkor för Chrome OS</translation>
 <translation id="7419046106786626209">Det gick inte att synkronisera data med Chrome OS eftersom synkronisering inte är tillgängligt för din domän.</translation>
-<translation id="7437998757836447326">Logga ut från Brave</translation>
+<translation id="6234515504547364178">Logga ut från Brave</translation>
 <translation id="7459554271817304652">Ställ in synkronisering och spara dina anpassade webbläsarfunktioner på Internet så att du kan använda dem i Brave på vilken dator som helst.</translation>
 <translation id="7473136999113284234">Brave uppdateras automatiskt så att du alltid har den senaste versionen.</translation>
 <translation id="7473891865547856676">Nej tack</translation>
@@ -234,7 +234,7 @@ Brave kan inte återställa dina inställningar.</translation>
 <translation id="7535429826459677826">Brave Dev</translation>
 <translation id="7552219221109926349">Visa Chrome OS på det här språket.</translation>
 <translation id="7592736734348559088">Brave kunde inte synkronisera data eftersom inloggningsuppgifterna för kontot är inaktuella.</translation>
-<translation id="7626032353295482388">Välkommen till Brave</translation>
+<translation id="7207456302801184289">Välkommen till Brave</translation>
 <translation id="7747138024166251722">Det gick inte att skapa en tillfällig katalog för installationsfilen. Kontrollera diskutrymmet och att du har behörighet att installera program.</translation>
 <translation id="7756122083761163394">Den här personens webbinformation raderas från enheten. Om du vill återställa informationen loggar du in i Brave som $2.</translation>
 <translation id="7761834446675418963">Öppna Brave genom att klicka på ditt namn och börja surfa.</translation>

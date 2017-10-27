@@ -208,7 +208,7 @@
 <translation id="1319979322914001937">Una aplicació que mostra un llista filtrada de les extensions de Brave Web Store. Les extensions de la llista es poden instal·lar directament des de l'aplicació.</translation>
 <translation id="132090119144658135">Coincidència d'assumpte:</translation>
 <translation id="1325040735987616223">Actualització del sistema</translation>
-<translation id="1326317727527857210">Inicieu la sessió a Brave per accedir a les vostres pestanyes des dels altres dispositius que tingueu.</translation>
+<translation id="7253276740368043692">Inicieu la sessió a Brave per accedir a les vostres pestanyes des dels altres dispositius que tingueu.</translation>
 <translation id="1327074568633507428">Impressora a Google Cloud Print</translation>
 <translation id="1327977588028644528">Passarel·la</translation>
 <translation id="1329584516321524826">S'acaba d'actualitzar</translation>
@@ -713,7 +713,7 @@
 <translation id="2116673936380190819">fa una hora</translation>
 <translation id="2121825465123208577">Canvia la mida</translation>
 <translation id="2126167708562367080">L'administrador ha desactivat la sincronització.</translation>
-<translation id="2126426811489709554">Amb tecnologia de Brave</translation>
+<translation id="796823723482603597">Amb tecnologia de Brave</translation>
 <translation id="2127372758936585790">Carregador de baix consum</translation>
 <translation id="212862741129535676">Percentatge d'ocupació de l'estat de freqüència</translation>
 <translation id="2128691215891724419">Error de sincronització: actualitzeu la frase de contrasenya de sincronització...</translation>
@@ -1512,7 +1512,7 @@ Consulteu el vostre correu electrònic (<ph name="ACCOUNT_EMAIL" />) per obtenir
 <translation id="3280237271814976245">Desa &amp;com a...</translation>
 <translation id="3280243678470289153">Continua a Brave</translation>
 <translation id="3280431534455935878">S'està preparant</translation>
-<translation id="3282568296779691940">Inicia la sessió a Brave</translation>
+<translation id="82609232232243542">Inicia la sessió a Brave</translation>
 <translation id="3285322247471302225">Pes&amp;tanya nova</translation>
 <translation id="3288047731229977326">Les extensions que funcionen amb el mode de desenvolupador poden malmetre el vostre ordinador. Si no sou desenvolupador, hauríeu de desactivar aquestes extensions per continuar protegit.</translation>
 <translation id="3289856944988573801">Per comprovar si hi ha actualitzacions, feu servir Ethernet o Wi-Fi.</translation>
@@ -4258,7 +4258,7 @@ Utilitza aquesta funció només amb comptes de confiança.</translation>
 <translation id="7564847347806291057">Finalitza el procés</translation>
 <translation id="7565291891798266313">El motor de cerca ha canviat a <ph name="URL" />. Per desactivar les extensions que canvien el motor de cerca, fes clic a Restaura.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">S'han esborrat les dades de Brave</translation>
+<translation id="7814200940910057384">S'han esborrat les dades de Brave</translation>
 <translation id="7568790562536448087">Actualització</translation>
 <translation id="7571643774869182231">No hi ha prou espai d'emmagatzematge per fer l'actualització</translation>
 <translation id="7573172247376861652">Càrrega de la bateria</translation>
@@ -5096,7 +5096,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8899851313684471736">Obre l'enllaç en una &amp;finestra nova</translation>
 <translation id="8902667442496790482">Obre la configuració d'Escolta la selecció</translation>
 <translation id="8903921497873541725">Amplia</translation>
-<translation id="8904976895050290827">Sincronització de Brave</translation>
+<translation id="3149880132460839085">Sincronització de Brave</translation>
 <translation id="8908902564709148335">Advertiment: heu activat la marca --scripts-require-action en aquest ordinador, fet que limita les capacitats d'aquesta extensió. Tot i així, és possible que els altres dispositius no admetin aquesta marca o que la tinguin activada. En aquests dispositius, aquesta extensió també pot fer el següent:</translation>
 <translation id="8910146161325739742">Compartiu la pantalla</translation>
 <translation id="8910222113987937043">Els canvis que es facin a les adreces d'interès, l'historial, les contrasenyes i altres opcions de configuració es deixaran de sincronitzar amb el compte de Google. No obstant això, les dades existents continuaran emmagatzemades al teu compte de Google i es podran gestionar al <ph name="BEGIN_LINK" />Tauler de control de Google<ph name="END_LINK" />.</translation>
