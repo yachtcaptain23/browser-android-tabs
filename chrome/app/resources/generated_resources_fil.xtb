@@ -208,7 +208,7 @@
 <translation id="1319979322914001937">Isang app na nagpapakita ng naka-filter na listahan ng mga extension mula sa Brave Web Store. Maaaring i-install nang direkta ang mga extension mula sa app.</translation>
 <translation id="132090119144658135">Pagtugma ng Paksa:</translation>
 <translation id="1325040735987616223">Pag-update ng System</translation>
-<translation id="1326317727527857210">Upang makuha ang iyong mga tab mula sa iba mo pang mga device, mag-sign in sa Brave.</translation>
+<translation id="7253276740368043692">Upang makuha ang iyong mga tab mula sa iba mo pang mga device, mag-sign in sa Brave.</translation>
 <translation id="1327074568633507428">Printer sa Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Na-update ngayon lang</translation>
@@ -713,7 +713,7 @@
 <translation id="2116673936380190819">ang nakalipas na oras</translation>
 <translation id="2121825465123208577">Baguhin ang laki</translation>
 <translation id="2126167708562367080">Na-disable ng iyong administrator ang pag-sync.</translation>
-<translation id="2126426811489709554">Pinapagana ng Brave</translation>
+<translation id="796823723482603597">Pinapagana ng Brave</translation>
 <translation id="2127372758936585790">Low-power charger</translation>
 <translation id="212862741129535676">Porsyento ng Ginagamit sa Estado ng Dalas</translation>
 <translation id="2128691215891724419">Error sa Pag-sync: I-update ang Passphrase ng Pag-sync...</translation>
@@ -1515,7 +1515,7 @@ Pakitingnan ang iyong email sa <ph name="ACCOUNT_EMAIL" /> para sa mga ito at hi
 <translation id="3280237271814976245">I-save &amp;bilang...</translation>
 <translation id="3280243678470289153">Manatili sa Brave</translation>
 <translation id="3280431534455935878">Ihinahanda</translation>
-<translation id="3282568296779691940">Mag-sign in sa Brave</translation>
+<translation id="82609232232243542">Mag-sign in sa Brave</translation>
 <translation id="3285322247471302225">Bagong &amp;Tab</translation>
 <translation id="3288047731229977326">Ang mga extension na tumatakbo sa developer mode ay maaaring makapinsala sa iyong computer. Kung hindi ka isang developer, dapat mong i-disable ang mga extension na tumatakbo sa developer mode upang manatiling ligtas.</translation>
 <translation id="3289856944988573801">Upang tumingin ng mga update, mangyaring gumamit ng Ethernet o Wi-Fi.</translation>
@@ -4270,7 +4270,7 @@ Gamitin lang ang feature na ito sa mga account na iyong pinagkakatiwalaan.</tran
 <translation id="7564847347806291057">Tapusin ang proseso</translation>
 <translation id="7565291891798266313">Ginawang <ph name="URL" /> ang iyong search engine. Upang i-disable ang mga extension na binabago ang search engine mo, i-click ang I-restore.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Na-clear ang data ng Brave</translation>
+<translation id="7814200940910057384">Na-clear ang data ng Brave</translation>
 <translation id="7568790562536448087">Ina-update</translation>
 <translation id="7571643774869182231">Hindi sapat ang storage para sa update</translation>
 <translation id="7573172247376861652">Charge ng Baterya</translation>
@@ -5113,7 +5113,7 @@ Maaaring hatiin ang mga kasunod na notification, window at dialog sa pagitan ng 
 <translation id="8899851313684471736">Buksan ang link sa bagong &amp;window</translation>
 <translation id="8902667442496790482">Buksan ang mga setting ng select-to-speak</translation>
 <translation id="8903921497873541725">Mag-zoom in</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8908902564709148335">Babala: Na-enable mo ang flag na --scripts-require-action sa computer na ito, na naglilimita sa mga kakayahan ng extension na ito. Gayunpaman, maaaring hindi suportahan o hindi i-enable ng ibang mga device ang flag na ito. Sa mga device na ito, maaari ding gawin ng extension na ito ang mga sumusunod:</translation>
 <translation id="8910146161325739742">Ibahagi ang iyong screen</translation>
 <translation id="8910222113987937043">Hindi na isi-sync sa Google Account mo ang mga pagbabago sa iyong mga bookmark, history, password at iba pang mga setting. Gayunpaman, mananatiling nakaimbak sa Google Account mo ang iyong kasalukuyang data at mapamamahalaan ito sa <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" />.</translation>

@@ -208,7 +208,7 @@
 <translation id="1319979322914001937">Rakendus, mis näitab laienduste filtreeritud loendit Brave'i veebipoest. Selles loendis olevad laiendused saab installida otse rakendusest.</translation>
 <translation id="132090119144658135">Teema vaste:</translation>
 <translation id="1325040735987616223">Süsteemivärskendus</translation>
-<translation id="1326317727527857210">Vahelehtede hankimiseks oma teistest seadmetest logige Brave'i sisse.</translation>
+<translation id="7253276740368043692">Vahelehtede hankimiseks oma teistest seadmetest logige Brave'i sisse.</translation>
 <translation id="1327074568633507428">Printer Google'i pilvprintimises</translation>
 <translation id="1327977588028644528">Lüüs</translation>
 <translation id="1329584516321524826">Just värskendatud</translation>
@@ -713,7 +713,7 @@
 <translation id="2116673936380190819">viimasel tunnil</translation>
 <translation id="2121825465123208577">Muuda suurust</translation>
 <translation id="2126167708562367080">Administraator on sünkroonimise keelanud.</translation>
-<translation id="2126426811489709554">Brave'i toega</translation>
+<translation id="796823723482603597">Brave'i toega</translation>
 <translation id="2127372758936585790">Väikese energiakuluga laadija</translation>
 <translation id="212862741129535676">Sageduse oleku protsent</translation>
 <translation id="2128691215891724419">Sünkroonimisviga: värskendage sünkroonimisparooli ...</translation>
@@ -1514,7 +1514,7 @@ Nende ja edasiste juhiste nägemiseks vaadake meile aadressil <ph name="ACCOUNT_
 <translation id="3280237271814976245">Salvesta &amp;nimega...</translation>
 <translation id="3280243678470289153">Jää Brave'i</translation>
 <translation id="3280431534455935878">Ettevalmistamine</translation>
-<translation id="3282568296779691940">Brave'i sisselogimine</translation>
+<translation id="82609232232243542">Brave'i sisselogimine</translation>
 <translation id="3285322247471302225">Uus &amp;vaheleht</translation>
 <translation id="3288047731229977326">Arendaja režiimis töötavad laiendused võivad teie arvutit kahjustada. Kui te pole arendaja, peaksite turvalisuse säilitamiseks nende laienduste käitamise arendaja režiimis keelama.</translation>
 <translation id="3289856944988573801">Kasutage värskenduste otsimiseks Etherneti või WiFi-ühendust.</translation>
@@ -4266,7 +4266,7 @@ Kasutage seda funktsiooni vaid kontode puhul, mida usaldate.</translation>
 <translation id="7564847347806291057">Lõpeta toiming</translation>
 <translation id="7565291891798266313">Otsingumootoriks määrati <ph name="URL" />. Kui soovite keelata laiendused, mis muudavad otsingumootorit, klõpsake nupul Taasta.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Brave'i andmed kustutati</translation>
+<translation id="7814200940910057384">Brave'i andmed kustutati</translation>
 <translation id="7568790562536448087">Värskendamine</translation>
 <translation id="7571643774869182231">Värskendamiseks pole piisavalt salvestusruumi</translation>
 <translation id="7573172247376861652">Aku laadimine</translation>
@@ -5105,7 +5105,7 @@ Järgmised märguanded, aknad ja dialoogid võivad jaguneda eri töölaudade vah
 <translation id="8899851313684471736">Ava link uues &amp;aknas</translation>
 <translation id="8902667442496790482">Ava funktsiooni Vali ja kuula seaded</translation>
 <translation id="8903921497873541725">Suurendab</translation>
-<translation id="8904976895050290827">Brave'i sünkroonimine</translation>
+<translation id="3149880132460839085">Brave'i sünkroonimine</translation>
 <translation id="8908902564709148335">Hoiatus. Olete lubanud selles arvutis toimingut nõudvate skriptide lipu, mis piirab selle laienduse võimalusi. Siiski ei pruugi muud seadmed seda lippu toetada või lubada. Neis seadmetes saab see laiendus teha ka järgmist.</translation>
 <translation id="8910146161325739742">Oma ekraani jagamine</translation>
 <translation id="8910222113987937043">Teie järjehoidjate, ajaloo, paroolide ja muude seadete muudatusi ei sünkroonita enam teie Google'i kontoga. Teie olemasolevad andmed jäävad aga teie Google'i kontole alles ja neid saab hallata <ph name="BEGIN_LINK" />Google'i juhtpaneelil<ph name="END_LINK" />.</translation>

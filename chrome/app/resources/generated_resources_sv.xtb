@@ -208,7 +208,7 @@
 <translation id="1319979322914001937">En app som visar en filtrerad lista över tillägg från Brave Web Store. Tillägg på listan kan installeras direkt från appen.</translation>
 <translation id="132090119144658135">Ämnesmatchning:</translation>
 <translation id="1325040735987616223">Systemuppdatering</translation>
-<translation id="1326317727527857210">Logga in i Brave om du vill ha samma flikar tillgängliga på alla enheter.</translation>
+<translation id="7253276740368043692">Logga in i Brave om du vill ha samma flikar tillgängliga på alla enheter.</translation>
 <translation id="1327074568633507428">Skrivare på Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Uppdaterades alldeles nyss</translation>
@@ -712,7 +712,7 @@
 <translation id="2116673936380190819">senaste timmen</translation>
 <translation id="2121825465123208577">Ändra storlek</translation>
 <translation id="2126167708562367080">Synkronisering har inaktiverats av administratören.</translation>
-<translation id="2126426811489709554">Drivs av Brave</translation>
+<translation id="796823723482603597">Drivs av Brave</translation>
 <translation id="2127372758936585790">Laddning med låg effekt</translation>
 <translation id="212862741129535676">Kapacitetsprocentsats för frekvens</translation>
 <translation id="2128691215891724419">Synkroniseringsfel. Uppdatera lösenfrasen för synkronisering ...</translation>
@@ -1513,7 +1513,7 @@ Läs din e-post på <ph name="ACCOUNT_EMAIL" />. Där finns dessa och andra anvi
 <translation id="3280237271814976245">Spara so&amp;m...</translation>
 <translation id="3280243678470289153">Fortsätt i Brave</translation>
 <translation id="3280431534455935878">Förbereder</translation>
-<translation id="3282568296779691940">Logga in i Brave</translation>
+<translation id="82609232232243542">Logga in i Brave</translation>
 <translation id="3285322247471302225">Ny &amp;flik</translation>
 <translation id="3288047731229977326">Tillägg som körs i utvecklarläge kan skada datorn. Om du inte är en utvecklare bör du inaktivera tillägg som körs i utvecklarläge för att skydda dig.</translation>
 <translation id="3289856944988573801">Använd Ethernet eller Wi-Fi om du vill söka efter uppdateringar.</translation>
@@ -4265,7 +4265,7 @@ Använd bara den här funktionen med konton som du litar på.</translation>
 <translation id="7564847347806291057">Avsluta process</translation>
 <translation id="7565291891798266313">Sökmotorn har ändrats till <ph name="URL" />. Inaktivera tillägg som ändrar sökmotorn genom att trycka på Återställ.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Data i Brave har rensats</translation>
+<translation id="7814200940910057384">Data i Brave har rensats</translation>
 <translation id="7568790562536448087">Uppdaterar</translation>
 <translation id="7571643774869182231">Det finns inte tillräckligt med lagringsutrymme för uppdateringen.</translation>
 <translation id="7573172247376861652">Batteriladdning</translation>
@@ -5103,7 +5103,7 @@ Efterföljande meddelanden, fönster och dialogrutor kan delas upp mellan skrivb
 <translation id="8899851313684471736">Öppna länk i nytt f&amp;önster</translation>
 <translation id="8902667442496790482">Öppna inställningarna för uppläsning av markerad text</translation>
 <translation id="8903921497873541725">Zooma in</translation>
-<translation id="8904976895050290827">Synkronisera med Brave</translation>
+<translation id="3149880132460839085">Synkronisera med Brave</translation>
 <translation id="8908902564709148335">Varning! Du har aktiverat flaggan --scripts-require-action på den här datorn, vilket begränsar det här tilläggets funktioner. I andra enheter finns det kanske inte stöd för flaggan, eller så kan den vara inaktiverad. I sådana enheter kan tillägget även:</translation>
 <translation id="8910146161325739742">Dela skärmen</translation>
 <translation id="8910222113987937043">När bokmärken, historik, lösenord och andra inställningar ändras kommer dessa ändringar inte längre att synkroniseras med Google-kontot. Uppgifter som redan har sparats i Google-kontot finns däremot kvar och kan hanteras via <ph name="BEGIN_LINK" />Google Översikt<ph name="END_LINK" />.</translation>

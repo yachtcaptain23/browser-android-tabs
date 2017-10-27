@@ -208,7 +208,7 @@
 <translation id="1319979322914001937">O aplicație care afișează o listă filtrată de extensii din Magazinul web Brave. Extensiile din listă pot fi instalate direct din aplicație.</translation>
 <translation id="132090119144658135">Potrivirea subiectului:</translation>
 <translation id="1325040735987616223">Actualizare de sistem</translation>
-<translation id="1326317727527857210">Pentru a accesa filele de pe alte dispozitive, conectează-te la Brave.</translation>
+<translation id="7253276740368043692">Pentru a accesa filele de pe alte dispozitive, conectează-te la Brave.</translation>
 <translation id="1327074568633507428">Imprimantă în Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Actualizată chiar acum</translation>
@@ -713,7 +713,7 @@
 <translation id="2116673936380190819">ultima oră</translation>
 <translation id="2121825465123208577">Redimensionează</translation>
 <translation id="2126167708562367080">Sincronizarea este dezactivată de administrator.</translation>
-<translation id="2126426811489709554">Afișată de Brave</translation>
+<translation id="796823723482603597">Afișată de Brave</translation>
 <translation id="2127372758936585790">Încărcător de putere joasă</translation>
 <translation id="212862741129535676">Procentaj de ocupare în starea activă</translation>
 <translation id="2128691215891724419">Eroare de sincronizare: actualizați expresia de acces pentru sincronizare...</translation>
@@ -1513,7 +1513,7 @@ Pentru instrucțiuni suplimentare, verifică e-mailurile la adresa <ph name="ACC
 <translation id="3280237271814976245">Salvează c&amp;a...</translation>
 <translation id="3280243678470289153">Rămâi în Brave</translation>
 <translation id="3280431534455935878">Se pregătește</translation>
-<translation id="3282568296779691940">Conectați-vă la Brave</translation>
+<translation id="82609232232243542">Conectați-vă la Brave</translation>
 <translation id="3285322247471302225">Filă &amp;nouă</translation>
 <translation id="3288047731229977326">Extensiile care rulează în modul pentru dezvoltatori pot afecta computerul. Dacă nu sunteți dezvoltator, se recomandă să dezactivați aceste extensii, pentru siguranță.</translation>
 <translation id="3289856944988573801">Pentru a verifica dacă există actualizări, utilizați Ethernet sau Wi-Fi.</translation>
@@ -4265,7 +4265,7 @@ Folosește funcția numai pentru conturile în care ai încredere.</translation>
 <translation id="7564847347806291057">Oprește procesul</translation>
 <translation id="7565291891798266313">Motorul de căutare a fost înlocuit cu <ph name="URL" />. Pentru a dezactiva extensiile care îți modifică motorul de căutare, dă clic pe Restabilește.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Datele Brave au fost șterse</translation>
+<translation id="7814200940910057384">Datele Brave au fost șterse</translation>
 <translation id="7568790562536448087">Se actualizează</translation>
 <translation id="7571643774869182231">Nu există suficient spațiu de stocare pentru actualizare</translation>
 <translation id="7573172247376861652">Încărcarea bateriei</translation>
@@ -5103,7 +5103,7 @@ Notificările, ferestrele și casetele de dialog ulterioare ar putea fi împăr�
 <translation id="8899851313684471736">Deschide linkul într-o &amp;fereastră nouă</translation>
 <translation id="8902667442496790482">Deschide setările Selectează pentru a se rosti</translation>
 <translation id="8903921497873541725">Mărește</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8908902564709148335">Avertisment: ai activat marcajul scripts-require-action pe acest computer, care limitează capacitățile acestei extensii. Totuși, este posibil ca alte dispozitive să nu accepte acest marcaj sau să îl aibă activat. Pe aceste dispozitive, această extensie poate să:</translation>
 <translation id="8910146161325739742">Permite accesul la ecran</translation>
 <translation id="8910222113987937043">Modificările marcajelor, istoricului, parolelor sau ale altor setări nu vor mai fi sincronizate cu Contul Google. Totuși, datele existente vor rămâne stocate în Contul Google și pot fi gestionate din <ph name="BEGIN_LINK" />Tabloul de bord Google<ph name="END_LINK" />.</translation>

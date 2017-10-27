@@ -15,9 +15,9 @@
 <translation id="1393853151966637042">‏الحصول على مساعدة بشأن استخدام Brave</translation>
 <translation id="1399397803214730675">‏يحتوي جهاز الكمبيوتر هذا على نسخة أحدث من Brave. إذا كان برنامج Brave لا يعمل، فالرجاء إزالة Brave وإعادة المحاولة.</translation>
 <translation id="1434626383986940139">‏تطبيقات Brave Canary</translation>
-<translation id="1457721931618994305">‏جارٍ تحديث Brave...</translation>
+<translation id="5047208012586153436">‏جارٍ تحديث Brave...</translation>
 <translation id="1469002951682717133">‏مشغل تطبيقات Brave</translation>
-<translation id="1553358976309200471">‏تحديث Brave‏</translation>
+<translation id="1705567146636171298">‏تحديث Brave‏</translation>
 <translation id="1587223624401073077">‏يستخدم Brave الكاميرا.</translation>
 <translation id="1587325591171447154">‏ملف <ph name="FILE_NAME" /> ضار، لذلك فقد حظره Brave.</translation>
 <translation id="1619887657840448962">‏لجعل Brave أكثر أمنًا، عطلنا الإضافة التالية التي لم تُدرج في <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> وربما تكون قد أضيفت دون علمك.</translation>
@@ -50,12 +50,12 @@
 <translation id="2290095356545025170">‏هل تريد فعلًا إزالة Brave؟</translation>
 <translation id="2309047409763057870">‏هذا تثبيت ثانوي من Brave، ولا يمكن جعله متصفحك الافتراضي.</translation>
 <translation id="2316129865977710310">لا، شكرًا</translation>
-<translation id="2334084861041072223">‏حقوق الطبع والنشر لعام <ph name="YEAR" /> لصالح شركة .Brave Software Inc. جميع الحقوق محفوظة.</translation>
+<translation id="4651430425715739110">‏حقوق الطبع والنشر لعام <ph name="YEAR" /> لصالح شركة .Brave Software Inc. جميع الحقوق محفوظة.</translation>
 <translation id="2346876346033403680">‏سجّل شخص ما الدخول من قبل إلى Brave على هذا الكمبيوتر باعتباره <ph name="ACCOUNT_EMAIL_LAST" />. فإذا لم يكن هذا هو حسابك، فأنشئ حساب مستخدم Brave جديدًا للإبقاء على معلوماتك بشكل منفصل.
 
 سيؤدي تسجيل الدخول على أيّ حال إلى دمج معلومات Brave مثل الإشارات المرجعية والسجل والإعدادات الأخرى مع <ph name="ACCOUNT_EMAIL_NEW" />.</translation>
 <translation id="2397416548179033562">‏لإظهار قائمة Brave</translation>
-<translation id="2416359993254398973">‏يحتاج Brave إلى إذن لاستخدام الكاميرا لموقع الويب هذا.</translation>
+<translation id="8285489906452138776">‏يحتاج Brave إلى إذن لاستخدام الكاميرا لموقع الويب هذا.</translation>
 <translation id="2429317896000329049">‏تعذر على Brave مزامنة البيانات نظرًا لأن المزامنة غير متاحة في نطاقك.</translation>
 <translation id="2446511512801740068">‏Brave غير محدّث لأنه لم تتم إعادة تشغيله منذ فترة. هناك تحديث متوفر وسيتم تطبيقه بمجرد إعادة تشغيله.</translation>
 <translation id="2485422356828889247">إزالة التثبيت</translation>
@@ -71,7 +71,7 @@
 <translation id="2799223571221894425">إعادة تشغيل</translation>
 <translation id="2847461019998147611">‏عرض Brave بهذه اللغة</translation>
 <translation id="2871893339301912279">‏تم تسجيل دخولك إلى Brave!</translation>
-<translation id="2888126860611144412">‏حول Brave</translation>
+<translation id="8541922081612557424">‏حول Brave</translation>
 <translation id="3037838751736561277">‏Brave في وضع الخلفية.</translation>
 <translation id="3047079729301751317">‏سيؤدي قطع اتصال <ph name="USERNAME" /> إلى مسح السجّل والإشارات المرجعية والإعدادات وبيانات Brave الأخرى المخزنة على هذا الجهاز. لن يتم مسح البيانات المخزنة في حساب Google ويمكن إدارتها على <ph name="GOOGLE_DASHBOARD_LINK" />لوحة تحكم Google<ph name="END_GOOGLE_DASHBOARD_LINK" />.</translation>
 <translation id="3065168410429928842">‏علامة تبويب Brave</translation>
@@ -85,7 +85,7 @@
 <ph name="BEGIN_LINK_2" />مزيد من المعلومات<ph name="END_LINK_2" />
 
 يُرجى التحقق من بريدك الإلكتروني على <ph name="ACCOUNT_EMAIL" /> للحصول على مزيد من التعليمات.</translation>
-<translation id="3282568296779691940">‏تسجيل الدخول إلى Brave</translation>
+<translation id="82609232232243542">‏تسجيل الدخول إلى Brave</translation>
 <translation id="3311976847535831054">‏لن يتلقى هذا الكمبيوتر تحديثات Brave إصدار 32 بت بعد الآن. يُرجى الترقية إلى Brave إصدار 64 بت.</translation>
 <translation id="3360895254066713204">‏مساعد Brave</translation>
 <translation id="3395323229510056640">‏الحصول على مساعدة في نظام التشغيل Brave</translation>
@@ -162,12 +162,12 @@
 <translation id="556024056938947818">‏يحاول Brave إظهار كلمات المرور.</translation>
 <translation id="5563479599352954471">للبحث بلمسة واحدة</translation>
 <translation id="5566025111015594046">Brave (mDNS-In)</translation>
-<translation id="557283862590186398">‏يحتاج Brave إلى إذن لاستخدام الميكروفون لموقع الويب هذا.</translation>
+<translation id="320189792589364011">‏يحتاج Brave إلى إذن لاستخدام الميكروفون لموقع الويب هذا.</translation>
 <translation id="5620765574781326016">تعرّف على مواضيع على مواقع الويب دون مغادرة الصفحة.</translation>
 <translation id="565744775970812598">‏قد يكون ملف <ph name="FILE_NAME" /> ضارًا، لذلك فقد حظره Brave.</translation>
 <translation id="568643307450491754">‏ابحث عن الإشارات المرجعية في قائمة Brave أو على شريط الإشارات المرجعية.</translation>
 <translation id="573759479754913123">‏حول نظام التشغيل Brave</translation>
-<translation id="5749068826913805084">‏يحتاج Brave الوصول إلى سعة التخزين لتنزيل الملفات.</translation>
+<translation id="3088191967551450609">‏يحتاج Brave الوصول إلى سعة التخزين لتنزيل الملفات.</translation>
 <translation id="5774845247549698882">‏يتم عرض نظام التشغيل Brave بهذه اللغة</translation>
 <translation id="5855036575689098185">‏البرامج التي تعمل على جهاز الكمبيوتر لا تتوافق مع Brave.</translation>
 <translation id="5877064549588274448">تم تغيير القناة. يمكنك إعادة تشغيل الجهاز لتدخل التغييرات حيز التنفيذ.</translation>
@@ -187,18 +187,18 @@
 <translation id="6291549208091401781">‏تم تثبيت Brave من قبل لجميع المستخدمين على الكمبيوتر.</translation>
 <translation id="6338556085225130112">‏تحديث Brave</translation>
 <translation id="6368958679917195344">‏أصبح نظام التشغيل Brave متاحًا من خلال <ph name="BEGIN_LINK_CROS_OSS" />برنامج مفتوح المصدر<ph name="END_LINK_CROS_OSS" /> إضافي.</translation>
-<translation id="6393863479814692971">‏يحتاج Brave إلى إذن لاستخدام الكاميرا والميكروفون لموقع الويب هذا.</translation>
+<translation id="7988136689212463100">‏يحتاج Brave إلى إذن لاستخدام الكاميرا والميكروفون لموقع الويب هذا.</translation>
 <translation id="6400076122676892962">‏سيتوقف هذا الكمبيوتر قريبًا عن استلام تحديثات Brave لأن أنظمة Mac OS X 10.6 و10.7 و10.8 ستصبح غير مدعومة.</translation>
 <translation id="6410540444482791104">‏يمكنك المساعدة في جعل Brave أكثر أمانًا وأسهل استخدامًا عن طريق إرسال بعض معلومات النظام ومحتوى الصفحة تلقائيًا إلى Google للمساعدة في اكتشاف المواقع والتطبيقات الضارة.</translation>
 <translation id="6470176598693778404">‏لن يستلم هذا الكمبيوتر تحديثات Brave لأن أنظمة Mac OS X 10.6 و10.7 و10.8 أصبحت غير مدعومة.</translation>
 <translation id="6477562832195530369">{NUM_DOWNLOAD,plural, =1{‏هناك تنزيل قيد التقدم حاليًا. هل تريد إلغاء التنزيل والخروج من Brave؟}zero{‏هناك # من التنزيلات قيد التقدم حاليًا. هل تريد إلغاء التنزيلات والخروج من Brave؟}two{‏هناك تنزيلان (#) قيد التقدم حاليًا. هل تريد إلغاء التنزيلين والخروج من Brave؟}few{‏هناك # تنزيلات قيد التقدم حاليًا. هل تريد إلغاء التنزيلات والخروج من Brave؟}many{‏هناك # تنزيلاً قيد التقدم حاليًا. هل تريد إلغاء التنزيلات والخروج من Brave؟}other{‏هناك # من التنزيلات قيد التقدم حاليًا. هل تريد إلغاء التنزيلات والخروج من Brave؟}}</translation>
 <translation id="6566149418543181476">‏جارٍ تحديث Brave (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="6598387184982954187">‏أنت تستخدم <ph name="PROFILE_EMAIL" /> لمزامنة عناصرك في Brave. لتحديث تفضيل المزامنة أو استخدام Brave بدون حساب Google، يمكنك الانتقال إلى <ph name="SETTINGS_LINK" />.</translation>
-<translation id="6600954340915313787">‏تم النسخ إلى Brave</translation>
+<translation id="663059986967017181">‏تم النسخ إلى Brave</translation>
 <translation id="6626317981028933585">‏لا يمكن استيراد إعدادات موزيلا فايرفوكس أثناء تشغيل المتصفّح. لاستيراد الإعدادات إلى متصفّح Brave، احفظ عملك وأغلق جميع نوافذ فايرفوكس، ثمّ انقر على زرّ المتابعة.</translation>
 <translation id="6634887557811630702">‏Brave محدّث.</translation>
 <translation id="6676384891291319759">الدخول إلى الإنترنت</translation>
-<translation id="6697947395630195233">‏يحتاج Brave إلى الوصول إلى موقعك الجغرافي لمشاركة موقعك الجغرافي مع موقع الويب هذا.</translation>
+<translation id="4931190655840828017">‏يحتاج Brave إلى الوصول إلى موقعك الجغرافي لمشاركة موقعك الجغرافي مع موقع الويب هذا.</translation>
 <translation id="683440813066116847">‏قاعدة الوارد إلى Brave Canary للسماح بحركة مرور mDNS.</translation>
 <translation id="686561893457936865">‏إمكانية استخدام Brave في كل مكان</translation>
 <translation id="6883876366448858277">‏إرسال الكلمة والسياق المحيط بها إلى بحث Google وعرض التعريفات والصور ونتائج البحث الأخرى.</translation>
@@ -210,7 +210,7 @@
 <translation id="7098166902387133879">‏يستخدم Brave الميكروفون.</translation>
 <translation id="7106741999175697885">‏مدير المهام - Brave</translation>
 <translation id="7125719106133729027">‏تعذر تحديث Brave إلى أحدث إصدار، وبالتالي تفوتك ميزات جديدة رائعة وإصلاحات للأمان. يلزمك إعادة تثبيت Brave يدويًا.</translation>
-<translation id="7161904924553537242">‏مرحبًا بك في Brave</translation>
+<translation id="7207456302801184289">‏مرحبًا بك في Brave</translation>
 <translation id="7164397146364144019">‏يمكنك المساعدة في جعل Brave أكثر أمانًا وأسهل استخدامًا بإبلاغ Google تلقائيًا بتفاصيل أي مخاطر أمنية محتملة.</translation>
 <translation id="7185038942300673794">‏تمت إضافة <ph name="EXTENSION_NAME" /> إلى Brave.</translation>
 <translation id="7242029209006116544">‏إنك تسجل الدخول باستخدام حساب مُدار وتمنح المشرف إمكانية التحكم في ملفك الشخصي في Brave. وسيتم ربط بيانات Brave التابعة لك، مثل التطبيقات والإشارات المرجعية والسجلّ وكلمات المرور والإعدادات الأخرى بالمستخدم <ph name="USER_NAME" />. وستتمكن من حذف هذه البيانات عبر لوحة تحكم حسابات Google، ولكنك لن تتمكن من إقران هذه البيانات بحساب آخر. ويُمكنك اختيار إنشاء ملف شخصي جديد للإبقاء على بياناتك الحالية في Brave بشكل مستقل. <ph name="LEARN_MORE" /></translation>
@@ -219,10 +219,10 @@
 <translation id="7339898014177206373">نافذة جديدة</translation>
 <translation id="7369650938475876456">‏استخدام كلمة مرور قوية تم إنشاؤها بواسطة Brave</translation>
 <translation id="7398801000654795464">‏تم تسجيل دخولك إلى Brave باعتبارك <ph name="USER_EMAIL_ADDRESS" />. يُرجى استخدام الحساب نفسه لتسجيل الدخول مرة أخرى.</translation>
-<translation id="7400722733683201933">‏معلومات عن Brave</translation>
+<translation id="8541922081612557424">‏معلومات عن Brave</translation>
 <translation id="7408085963519505752">‏بنود نظام التشغيل Brave</translation>
 <translation id="7419046106786626209">‏تعذر على نظام التشغيل Brave مزامنة البيانات نظرًا لأن المزامنة غير متاحة في نطاقك.</translation>
-<translation id="7437998757836447326">‏الخروج من Brave</translation>
+<translation id="6234515504547364178">‏الخروج من Brave</translation>
 <translation id="7459554271817304652">‏يمكنك إعداد المزامنة لحفظ ميزات المتصفح المخصصة على الويب والدخول إليها من Brave على أي كمبيوتر.</translation>
 <translation id="7473136999113284234">‏يجري تحديث Brave تلقائيًا بحيث يكون لديك أحدث إصدار.</translation>
 <translation id="7473891865547856676">لا، شكرًا</translation>
@@ -230,7 +230,7 @@
 <translation id="7535429826459677826">‏إصدار مطوري البرامج من Brave</translation>
 <translation id="7552219221109926349">‏عرض نظام تشغيل Brave بهذه اللغة</translation>
 <translation id="7592736734348559088">‏تعذر على Brave مزامنة البيانات نظرًا لأن تفاصيل تسجيل الدخول إلى حسابك قديمة.</translation>
-<translation id="7626032353295482388">‏مرحبًا بك في Brave‏</translation>
+<translation id="7207456302801184289">‏مرحبًا بك في Brave‏</translation>
 <translation id="7747138024166251722">تعذر على أداة المثبِّت إنشاء دليل مؤقت. يُرجى التحقق من وجود مساحة خالية على القرص وتوفر الإذن اللازم لتثبيت البرنامج.</translation>
 <translation id="7756122083761163394">‏سيتم حذف بيانات تصفح هذا الشخص من هذا الجهاز. ولاسترداد البيانات، سجّل الدخول إلى Brave باعتبارك $2.</translation>
 <translation id="7761834446675418963">‏انقر على اسمك لفتح Brave وبدء التصفح.</translation>
