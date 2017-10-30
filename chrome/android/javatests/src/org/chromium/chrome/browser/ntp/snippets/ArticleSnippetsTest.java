@@ -125,7 +125,6 @@ public class ArticleSnippetsTest {
     private MockThumbnailProvider mThumbnailProvider;
 
     @Test
-    @DisabledTest // there is no NTP Recycler View in Brave
     @MediumTest
     @DisabledTest(message = "crbug.com/757735")
     @Feature({"ArticleSnippets", "RenderTest"})
