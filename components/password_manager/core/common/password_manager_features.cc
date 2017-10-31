@@ -23,7 +23,7 @@ const base::Feature kDropSyncCredential = {"drop-sync-credential",
 // Enable additional elements in the form popup UI, which will allow the user to
 // view all saved passwords.
 const base::Feature kEnableManualFallbacksFilling = {
-    "EnableManualFallbacksFilling", base::FEATURE_ENABLED_BY_DEFAULT};
+    "EnableManualFallbacksFilling", base::FEATURE_DISABLED_BY_DEFAULT};
 
 // Enable that an omnibox icon is shown when the user types into a password
 // field. When the user clicks on the icon, a password save/update bubble is
