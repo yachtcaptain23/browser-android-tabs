@@ -2499,12 +2499,20 @@ void RenderProcessHostImpl::AppendRendererCommandLine(
       base::NumberToString(display::win::GetDPIScale()));
 #endif
 
+  if (NeedPlayVideoInBackground()) {
+    command_line->AppendSwitch(switches::kDisableMediaSuspend);
+  }
+
   AppendCompositorCommandLineFlags(command_line);
 
   command_line->AppendSwitchASCII(switches::kServiceRequestChannelToken,
                                   child_connection_->service_token());
   command_line->AppendSwitchASCII(switches::kRendererClientId,
                                   std::to_string(GetID()));
+}
+
+bool RenderProcessHostImpl::NeedPlayVideoInBackground() const {
+  return true;
 }
 
 void RenderProcessHostImpl::PropagateBrowserCommandLineToRenderer(
