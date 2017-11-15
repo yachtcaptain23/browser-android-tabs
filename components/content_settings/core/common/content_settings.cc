@@ -71,6 +71,7 @@ constexpr HistogramValue kHistogramValue[kNumHistogramValues] = {
     {CONTENT_SETTINGS_TYPE_USB_GUARD, 44},
     {CONTENT_SETTINGS_TYPE_BACKGROUND_FETCH, 45},
     {CONTENT_SETTINGS_TYPE_DESKTOP_VIEW, 46},
+    {CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND, 47},
 };
 
 }  // namespace
