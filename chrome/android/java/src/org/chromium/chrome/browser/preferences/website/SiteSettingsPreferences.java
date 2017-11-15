@@ -54,6 +54,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
     //static final String TRANSLATE_KEY = "translate";
     static final String USB_KEY = "usb";
     static final String DESKTOP_VIEW_SETTINGS_KEY = "desktop_view";
+    static final String PLAY_VIDEO_IN_BACKGROUND_KEY = "play_video_in_background";
 
     // Whether the Protected Content menu is available for display.
     boolean mProtectedContentMenuAvailable;
@@ -109,6 +110,8 @@ public class SiteSettingsPreferences extends PreferenceFragment
             return ContentSettingsType.CONTENT_SETTINGS_TYPE_PROTECTED_MEDIA_IDENTIFIER;
         } else if (SOUND_KEY.equals(key)) {
             return ContentSettingsType.CONTENT_SETTINGS_TYPE_SOUND;
+        } else if (PLAY_VIDEO_IN_BACKGROUND_KEY.equals(key)) {
+            return ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND;
         }
         return -1;
     }
@@ -144,6 +147,9 @@ public class SiteSettingsPreferences extends PreferenceFragment
                 getPreferenceScreen().removePreference(findPreference(AUTOPLAY_KEY));
                 getPreferenceScreen().removePreference(findPreference(PROTECTED_CONTENT_KEY));
             }
+            getPreferenceScreen().removePreference(findPreference(PLAY_VIDEO_IN_BACKGROUND_KEY));
+
+
             // TODO(csharrison): Remove this condition once the experimental UI lands. It is not
             // great to dynamically remove the preference in this way.
             if (!SiteSettingsCategory.adsCategoryEnabled()) {
@@ -169,6 +175,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
         if (mMediaSubMenu) {
             websitePrefs.add(PROTECTED_CONTENT_KEY);
             websitePrefs.add(AUTOPLAY_KEY);
+            websitePrefs.add(PLAY_VIDEO_IN_BACKGROUND_KEY);
         } else {
             if (SiteSettingsCategory.adsCategoryEnabled()) {
                 websitePrefs.add(ADS_KEY);
@@ -221,6 +228,8 @@ public class SiteSettingsPreferences extends PreferenceFragment
                 checked = PrefServiceBridge.getInstance().isProtectedMediaIdentifierEnabled();
             } else if (SOUND_KEY.equals(prefName)) {
                 checked = PrefServiceBridge.getInstance().isSoundEnabled();
+            } else if (PLAY_VIDEO_IN_BACKGROUND_KEY.equals(prefName)) {
+                checked = PrefServiceBridge.getInstance().playVideoInBackgroundEnabled();
             }
 
             int contentType = keyToContentSettingsType(prefName);
@@ -244,7 +253,9 @@ public class SiteSettingsPreferences extends PreferenceFragment
                 p.setSummary(ContentSettingsResources.getSoundBlockedListSummary());
             } else if (DESKTOP_VIEW_SETTINGS_KEY.equals(prefName)) {
                 p.setSummary( checked ? ContentSettingsResources.getDesktopViewEnabledSummary() : ContentSettingsResources.getDesktopViewDisabledSummary());
-            } else {
+            } else if (PLAY_VIDEO_IN_BACKGROUND_KEY.equals(prefName)) {
+                p.setSummary( checked ? ContentSettingsResources.getPlayVideoInBackgroundEnabledSummary() : ContentSettingsResources.getPlayVideoInBackgroundDisabledSummary());
+            }else {
                 p.setSummary(ContentSettingsResources.getCategorySummary(contentType, checked));
             }
 

@@ -370,6 +370,20 @@ public final class PrefServiceBridge {
         return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
     }
 
+    /**
+     * @return true if 'Play video in background' is enabled.
+     * The default is false.
+     */
+    public boolean playVideoInBackgroundEnabled() {
+        return nativeGetPlayVideoInBackgroundEnabled();
+    }
+
+    /**
+     * @return Whether 'Play video in background' is managed by policy.
+     */
+    public boolean playVideoInBackgroundManaged() {
+        return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
+    }
 
     /**
      * @return true if background sync is managed by policy.
@@ -432,6 +446,13 @@ public final class PrefServiceBridge {
      */
     public void setDesktopViewEnabled(boolean enabled) {
         nativeSetDesktopViewEnabled(enabled);
+    }
+
+    /**
+     * Enable or disable 'Play video in background' option
+     */
+    public void setPlayVideoInBackgroundEnabled(boolean enabled) {
+        nativeSetPlayVideoInBackgroundEnabled(enabled);
     }
 
     /**
@@ -1085,6 +1106,7 @@ public final class PrefServiceBridge {
     private native boolean nativeGetAutoplayEnabled();
     private native boolean nativeGetBackgroundSyncEnabled();
     private native boolean nativeGetDesktopViewEnabled();
+    private native boolean nativeGetPlayVideoInBackgroundEnabled();
     private native boolean nativeGetBlockThirdPartyCookiesEnabled();
     private native boolean nativeGetBlockThirdPartyCookiesManaged();
     private native boolean nativeGetRememberPasswordsEnabled();
@@ -1132,6 +1154,7 @@ public final class PrefServiceBridge {
     private native void nativeSetAllowCookiesEnabled(boolean allow);
     private native void nativeSetBackgroundSyncEnabled(boolean allow);
     private native void nativeSetDesktopViewEnabled(boolean enabled);
+    private native void nativeSetPlayVideoInBackgroundEnabled(boolean enabled);
     private native void nativeSetBlockThirdPartyCookiesEnabled(boolean enabled);
     private native void nativeSetDoNotTrackEnabled(boolean enabled);
     private native void nativeSetRememberPasswordsEnabled(boolean allow);

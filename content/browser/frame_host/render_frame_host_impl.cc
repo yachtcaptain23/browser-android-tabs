@@ -163,6 +163,10 @@
 #include "media/base/audio_renderer_sink.h"
 #include "media/base/video_renderer_sink.h"
 #include "media/mojo/services/mojo_renderer_service.h"  // nogncheck
+#include "components/content_settings/core/browser/host_content_settings_map.h"
+#include "chrome/browser/content_settings/host_content_settings_map_factory.h"
+#include "chrome/browser/profiles/profile.h"
+#include "chrome/browser/profiles/profile_manager.h"
 #endif
 
 #if defined(OS_MACOSX)
@@ -574,6 +578,12 @@ RenderFrameHostImpl::RenderFrameHostImpl(SiteInstance* site_instance,
 
   ax_tree_id_ = ui::AXTreeIDRegistry::GetInstance()->GetOrCreateAXTreeID(
       GetProcess()->GetID(), routing_id_);
+
+#if defined(OS_ANDROID)
+  if (NeedPlayVideoInBackground()) {
+    AllowInjectingJavaScriptForAndroidWebView();
+  }
+#endif
 }
 
 RenderFrameHostImpl::~RenderFrameHostImpl() {
@@ -4565,4 +4575,10 @@ mojom::FrameNavigationControl* RenderFrameHostImpl::GetNavigationControl() {
   return navigation_control_.get();
 }
 
+bool RenderFrameHostImpl::NeedPlayVideoInBackground() const {
+  bool play_video_in_background_enabled = HostContentSettingsMapFactory::GetForProfile(
+      ProfileManager::GetActiveUserProfile()->GetOriginalProfile())->
+      GetDefaultContentSetting(CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND, NULL) == CONTENT_SETTING_ALLOW;
+  return play_video_in_background_enabled;
+}
 }  // namespace content
