@@ -119,6 +119,7 @@ public class SiteSettingsCategory {
             ContentSettingsType.CONTENT_SETTINGS_TYPE_USB_GUARD, // Type.USB
     };
     public static final String CATEGORY_DESKTOP_VIEW = "desktop_view";
+    public static final String CATEGORY_PLAY_VIDEO_IN_BACKGROUND = "play_video_in_background";
 
     // The id of this category.
     private @Type int mCategory;
@@ -144,7 +145,6 @@ public class SiteSettingsCategory {
     /**
      * Construct a SiteSettingsCategory from a type.
      */
-<<<<<<< HEAD
     public static SiteSettingsCategory createFromType(@Type int type) {
         if (type == Type.DEVICE_LOCATION) return new LocationCategory();
         if (type == Type.NOTIFICATIONS) return new NotificationCategory();
@@ -174,6 +174,9 @@ public class SiteSettingsCategory {
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW) {
             return fromString(CATEGORY_DESKTOP_VIEW);
         }
+        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND) {
+            return fromString(CATEGORY_PLAY_VIDEO_IN_BACKGROUND);
+        }
         return null;
     }
 
@@ -183,13 +186,6 @@ public class SiteSettingsCategory {
             if (PREFERENCE_KEYS[i].equals(preferenceKey)) return createFromType(i);
         }
         return null;
-    }
-
-    /**
-     * Returns whether this category is the Desktop View category.
-     */
-    public boolean showDesktopViewSites() {
-        return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW;
     }
 
     /**
