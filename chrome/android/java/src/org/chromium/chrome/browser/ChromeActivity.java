@@ -83,6 +83,7 @@ import org.chromium.chrome.browser.contextualsearch.ContextualSearchManager
         .ContextualSearchTabPromotionDelegate;
 import org.chromium.chrome.browser.datausage.DataUseTabUIManager;
 import org.chromium.chrome.browser.device.DeviceClassManager;
+import org.chromium.chrome.browser.DisableVideoPauseOnBackground;
 import org.chromium.chrome.browser.dom_distiller.DistilledPagePrefsView;
 import org.chromium.chrome.browser.dom_distiller.ReaderModeManager;
 import org.chromium.chrome.browser.download.DownloadManagerService;
@@ -758,6 +759,11 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             public void onPageLoadFinished(Tab tab) {
                 postDeferredStartupIfNeeded();
                 OfflinePageUtils.showOfflineSnackbarIfNecessary(tab);
+            }
+
+            @Override
+            public void onUrlUpdated(Tab tab){
+              DisableVideoPauseOnBackground.Execute(tab);
             }
 
             @Override
@@ -1638,7 +1644,7 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
                         isCustomTab());
                 // If a new bookmark was created, try to save an offline page for it.
                 if (newBookmarkId != null && newBookmarkId.getId() != bookmarkId) {
-                    OfflinePageUtils.saveBookmarkOffline(newBookmarkId, tabToBookmark);                 
+                    OfflinePageUtils.saveBookmarkOffline(newBookmarkId, tabToBookmark);
                 }
                 BookmarkModel newBookmarkModel = new BookmarkModel();
                 ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
