@@ -15,6 +15,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
+import android.os.FileUriExposedException;
 import android.os.StrictMode;
 import android.provider.Browser;
 import android.support.annotation.IntDef;
@@ -637,6 +638,8 @@ public class DownloadUtils {
             Log.d(TAG, "Activity not found for " + intent.getType() + " over "
                     + intent.getData().getScheme(), ex);
         } catch (SecurityException ex) {
+            Log.d(TAG, "cannot open intent: " + intent, ex);
+        } catch (FileUriExposedException ex) {
             Log.d(TAG, "cannot open intent: " + intent, ex);
         }
 
