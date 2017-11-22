@@ -107,7 +107,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
             getPreferenceScreen().removePreference(
                     findPreference(SiteSettingsCategory.Type.PROTECTED_MEDIA));
 
-            getPreferenceScreen().removePreference(SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND_KEY);
+            getPreferenceScreen().removePreference(SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND);
 
             // TODO(csharrison): Remove this condition once the experimental UI lands. It is not
             // great to dynamically remove the preference in this way.
@@ -145,19 +145,16 @@ public class SiteSettingsPreferences extends PreferenceFragment
         // Preferences that navigate to Website Settings.
         List<Integer> websitePrefs = new ArrayList<Integer>();
         if (mMediaSubMenu) {
-            websitePrefs.add(SiteSettingsCategory.Type.PROTECTED_MEDIA);
+            if (mProtectedContentMenuAvailable) {websitePrefs.add(SiteSettingsCategory.Type.PROTECTED_MEDIA);}
             websitePrefs.add(SiteSettingsCategory.Type.AUTOPLAY);
             websitePrefs.add(SiteSettingsCategory.PLAY_VIDEO_IN_BACKGROUND);
         } else {
             if (SiteSettingsCategory.adsCategoryEnabled()) {
                 websitePrefs.add(SiteSettingsCategory.Type.ADS);
             }
-            // When showing the main menu, if Protected Content is not available, only Autoplay
-            // will be visible.
-            if (!mProtectedContentMenuAvailable) {
-                websitePrefs.add(SiteSettingsCategory.Type.AUTOPLAY);
-            }
-            websitePrefs.add(SiteSettingsCategory.Type.BACKGROUND_SYNC);
+            // Now even if Protected Content is not available,
+            // there are two items at least. Media item will be shown.
+            //websitePrefs.add(SiteSettingsCategory.Type.BACKGROUND_SYNC);
             websitePrefs.add(SiteSettingsCategory.Type.CAMERA);
             if (ChromeFeatureList.isEnabled(ChromeFeatureList.CLIPBOARD_CONTENT_SETTING)) {
                 websitePrefs.add(SiteSettingsCategory.Type.CLIPBOARD);
