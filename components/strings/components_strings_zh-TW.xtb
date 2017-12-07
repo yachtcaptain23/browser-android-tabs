@@ -15,13 +15,13 @@
 <translation id="1080116354587839789">符合視窗寬度</translation>
 <translation id="1088860948719068836">新增持卡人姓名</translation>
 <translation id="1103523840287552314">一律翻譯<ph name="LANGUAGE" /></translation>
-<translation id="1107591249535594099">勾選後，Chrome 會在這個裝置上儲存您的信用卡複本，以便更快填寫資訊。</translation>
+<translation id="1107591249535594099">勾選後，Brave 會在這個裝置上儲存您的信用卡複本，以便更快填寫資訊。</translation>
 <translation id="1111153019813902504">最近使用過的書籤</translation>
 <translation id="1113869188872983271">復原重新排序(&amp;U)</translation>
 <translation id="1126551341858583091">佔用的本機儲存空間大小：<ph name="CRASH_SIZE" />。</translation>
 <translation id="112840717907525620">政策快取正確</translation>
 <translation id="113188000913989374"><ph name="SITE" /> 顯示：</translation>
-<translation id="1132774398110320017">Chrome 自動填入設定...</translation>
+<translation id="1132774398110320017">Brave 自動填入設定...</translation>
 <translation id="1150979032973867961">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得你電腦作業系統的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="1151972924205500581">請輸入密碼</translation>
 <translation id="1152921474424827756">存取 <ph name="URL" /> 的<ph name="BEGIN_LINK" />頁庫存檔副本<ph name="END_LINK" /></translation>
@@ -57,7 +57,7 @@
         <ph name="END_LIST" /></translation>
 <translation id="1339601241726513588">註冊網域：</translation>
 <translation id="1340482604681802745">取件地址</translation>
-<translation id="1344588688991793829">Chromium 自動填入設定...</translation>
+<translation id="1344588688991793829">Brave 自動填入設定...</translation>
 <translation id="1348198688976932919">你要造訪的網站含有不安全的應用程式</translation>
 <translation id="1374468813861204354">建議</translation>
 <translation id="1375198122581997741">關於版本</translation>
@@ -81,7 +81,7 @@
 <translation id="1592005682883173041">本機資料存取權</translation>
 <translation id="1594030484168838125">選擇</translation>
 <translation id="1620510694547887537">攝影機</translation>
-<translation id="1629803312968146339">您希望 Chrome 儲存這張信用卡嗎？</translation>
+<translation id="1629803312968146339">您希望 Brave 儲存這張信用卡嗎？</translation>
 <translation id="1639239467298939599">載入中</translation>
 <translation id="1640180200866533862">使用者政策</translation>
 <translation id="1640244768702815859">請嘗試<ph name="BEGIN_LINK" />造訪網站首頁<ph name="END_LINK" />。</translation>
@@ -90,8 +90,8 @@
 <translation id="1645368109819982629">不支援的通訊協定</translation>
 <translation id="1655462015569774233">{1,plural, =1{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證已在昨天過期。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。您電腦的時鐘目前設為 <ph name="CURRENT_DATE" />，這是正確的時間嗎？如果不是的話，請更新系統時鐘，然後重新整理這個網頁。}other{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證已在 # 天前過期。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。您電腦的時鐘目前設為 <ph name="CURRENT_DATE" />，這是正確的時間嗎？如果不是的話，請更新系統時鐘，然後重新整理這個網頁。}}</translation>
 <translation id="1656489000284462475">取件</translation>
-<translation id="1663943134801823270">信用卡和地址資訊皆來自 Chrome。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
-<translation id="1676269943528358898"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Google Chrome 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Google Chrome 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
+<translation id="1663943134801823270">信用卡和地址資訊皆來自 Brave。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
+<translation id="1676269943528358898"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Brave 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Brave 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
 <translation id="168841957122794586">伺服器憑證含有防護力薄弱的加密編譯金鑰。</translation>
 <translation id="1706954506755087368">{1,plural, =1{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證預定明天才生效。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。}other{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證預定 # 天後才生效。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。}}</translation>
 <translation id="1710259589646384581">作業系統</translation>
@@ -143,7 +143,7 @@
 <translation id="2065985942032347596">需要驗證</translation>
 <translation id="2079545284768500474">復原</translation>
 <translation id="20817612488360358">雖然系統 Proxy 設定已設為使用，不過也指定了明確 Proxy 設定。</translation>
-<translation id="2086652334978798447">如要取得個人化的 Google 推薦內容，請登入 Chrome。</translation>
+<translation id="2086652334978798447">如要取得個人化的 Google 推薦內容，請登入 Brave。</translation>
 <translation id="2091887806945687916">音訊</translation>
 <translation id="2094505752054353250">網域不符</translation>
 <translation id="2096368010154057602">省</translation>
@@ -199,7 +199,7 @@
 <translation id="2482878487686419369">通知</translation>
 <translation id="2491120439723279231">伺服器憑證含有錯誤。</translation>
 <translation id="2495083838625180221">JSON 剖析器</translation>
-<translation id="2495093607237746763">勾選後，Chromium 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="2495093607237746763">勾選後，Brave 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="2498091847651709837">掃描新信用卡</translation>
 <translation id="2501278716633472235">返回</translation>
 <translation id="2503184589641749290">接受的簽帳金融卡和預付卡</translation>
@@ -227,10 +227,10 @@
 <translation id="2699302886720511147">接受的卡片</translation>
 <translation id="2702801445560668637">閱讀清單</translation>
 <translation id="2704283930420550640">政策值格式不符。</translation>
-<translation id="2704951214193499422">Chromium 目前無法驗證您的信用卡，請稍後再試。</translation>
+<translation id="2704951214193499422">Brave 目前無法驗證您的信用卡，請稍後再試。</translation>
 <translation id="2705137772291741111">已儲存 (快取) 這個網站的複本，但無法讀取。</translation>
 <translation id="2709516037105925701">自動填入</translation>
-<translation id="2710942282213947212">你的電腦上有軟體在阻止 Chromium 建立安全的網路連線</translation>
+<translation id="2710942282213947212">你的電腦上有軟體在阻止 Brave 建立安全的網路連線</translation>
 <translation id="2712173769900027643">要求權限</translation>
 <translation id="2720342946869265578">鄰近網頁</translation>
 <translation id="2721148159707890343">要求成功</translation>
@@ -262,10 +262,10 @@
 <translation id="2955913368246107853">關閉搜尋列</translation>
 <translation id="2958431318199492670">網路設定未遵循 ONC 標準，系統可能無法匯入部分設定。</translation>
 <translation id="2966678944701946121">到期日：<ph name="EXPIRATION_DATE_ABBR" />，新增日期：<ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
-<translation id="2969319727213777354">您必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於您裝置的時鐘不正確，因此 Google Chrome 無法驗證這些憑證。</translation>
+<translation id="2969319727213777354">您必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於您裝置的時鐘不正確，因此 Brave 無法驗證這些憑證。</translation>
 <translation id="2972581237482394796">重做(&amp;R)</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />，目前已選取。<ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">啟用後，Chromium 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="2985306909656435243">啟用後，Brave 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="2985398929374701810">請輸入有效的地址</translation>
 <translation id="2986368408720340940">不支援所選的取件方式，請改選其他方式。</translation>
 <translation id="2991174974383378012">與網站分享</translation>
@@ -279,7 +279,7 @@
 <translation id="3037605927509011580">糟糕！</translation>
 <translation id="3039538478787849737">要將卡片資訊儲存到 Google 嗎？</translation>
 <translation id="3041612393474885105">憑證資訊</translation>
-<translation id="3063697135517575841">Chrome 目前無法驗證您的信用卡，請稍後再試。</translation>
+<translation id="3063697135517575841">Brave 目前無法驗證您的信用卡，請稍後再試。</translation>
 <translation id="3064966200440839136">即將離開無痕模式，改為使用外部應用程式付款，要繼續嗎？</translation>
 <translation id="3083099961703215236">{COUNT,plural, =0{無}=1{1 組密碼}other{# 組密碼}}</translation>
 <translation id="3093245981617870298">你處於離線狀態。</translation>
@@ -323,7 +323,7 @@
 <translation id="3340978935015468852">設定</translation>
 <translation id="3345135638360864351">無法將您的網站存取要求傳送給<ph name="NAME" />，請再試一次。</translation>
 <translation id="3355823806454867987">變更 Proxy 設定...</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />不會儲存<ph name="END_EMPHASIS" />下列資訊：
+<translation id="3361596688432910856">Brave <ph name="BEGIN_EMPHASIS" />不會儲存<ph name="END_EMPHASIS" />下列資訊：
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />你的瀏覽紀錄
           <ph name="LIST_ITEM" />Cookie 和網站資料
@@ -392,7 +392,7 @@
 <translation id="372429172604983730">可能造成這個錯誤的應用程式包括防毒軟體、防火牆、網路篩選或 Proxy 軟體。</translation>
 <translation id="3736520371357197498">如果你瞭解安全性風險，也可以選擇在危險程式尚未遭到移除的狀態下<ph name="BEGIN_LINK" />造訪這個不安全的網站<ph name="END_LINK" />。</translation>
 <translation id="3739623965217189342">您複製的連結</translation>
-<translation id="3744899669254331632"><ph name="SITE" /> 傳送的憑證受到干擾，造成 Chromium 無法處理，因此你目前無法造訪該網站。網路錯誤和攻擊通常是暫時性狀態，因此這個網頁可能稍後就會恢復正常運作。</translation>
+<translation id="3744899669254331632"><ph name="SITE" /> 傳送的憑證受到干擾，造成 Brave 無法處理，因此你目前無法造訪該網站。網路錯誤和攻擊通常是暫時性狀態，因此這個網頁可能稍後就會恢復正常運作。</translation>
 <translation id="3748148204939282805">攻擊者可能會試圖透過 <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> 誘使你做一些危險行為，例如安裝軟體或提供個人資訊 (包括密碼、電話號碼或信用卡資料)。<ph name="BEGIN_LEARN_MORE_LINK" />瞭解詳情<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="375403751935624634">伺服器錯誤，翻譯作業失敗。</translation>
 <translation id="3759461132968374835">最近沒有收到當機資訊。當機回報功能停用時發生的當機不會列在這裡。</translation>
@@ -438,7 +438,7 @@
 <translation id="4148925816941278100">American Express</translation>
 <translation id="4151403195736952345">使用全域預設設定 (偵測)</translation>
 <translation id="4165986682804962316">網站設定</translation>
-<translation id="4169947484918424451">您希望 Chromium 儲存這張信用卡嗎？</translation>
+<translation id="4169947484918424451">您希望 Brave 儲存這張信用卡嗎？</translation>
 <translation id="4171400957073367226">驗證簽名無效</translation>
 <translation id="4173827307318847180">{MORE_ITEMS,plural, =1{還有另外 <ph name="ITEM_COUNT" /> 個項目}other{還有另外 <ph name="ITEM_COUNT" /> 個項目}}</translation>
 <translation id="4179515394835346607"><ph name="ROW_NAME" /> <ph name="ROW_CONTENT" /></translation>
@@ -469,20 +469,20 @@
 <translation id="4394049700291259645">停用</translation>
 <translation id="4406896451731180161">搜尋結果</translation>
 <translation id="4415426530740016218">取件地址</translation>
-<translation id="4424024547088906515">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Chrome 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
+<translation id="4424024547088906515">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Brave 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> 不接受你的登入憑證，或是你可能未提供登入憑證。</translation>
 <translation id="443673843213245140">雖然已停用 Proxy，不過已指定明確 Proxy 設定。</translation>
 <translation id="445100540951337728">接受的簽帳金融卡</translation>
 <translation id="4506176782989081258">驗證錯誤：<ph name="VALIDATION_ERROR" /></translation>
 <translation id="4506599922270137252">與系統管理員聯絡</translation>
 <translation id="450710068430902550">與管理員分享</translation>
-<translation id="4515275063822566619">信用卡和地址資訊皆來自 Chrome 和你的 Google 帳戶 (<ph name="ACCOUNT_EMAIL" />)。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
+<translation id="4515275063822566619">信用卡和地址資訊皆來自 Brave 和你的 Google 帳戶 (<ph name="ACCOUNT_EMAIL" />)。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
 <translation id="4522570452068850558">詳細資訊</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4558551763791394412">試試看停用擴充功能。</translation>
 <translation id="457875822857220463">快遞</translation>
-<translation id="4582800630050655161">你可能失去了 Google 帳戶存取權，或身分遭到冒用。Chromium 建議你立即變更密碼。</translation>
-<translation id="4587425331216688090">要從 Chrome 中移除地址嗎？</translation>
+<translation id="4582800630050655161">你可能失去了 Google 帳戶存取權，或身分遭到冒用。Brave 建議你立即變更密碼。</translation>
+<translation id="4587425331216688090">要從 Brave 中移除地址嗎？</translation>
 <translation id="4592951414987517459">您的 <ph name="DOMAIN" /> 連線使用新型加密套件進行加密。</translation>
 <translation id="4594403342090139922">復原刪除(&amp;U)</translation>
 <translation id="4611292653554630842">登入</translation>
@@ -490,7 +490,7 @@
 <translation id="4668929960204016307">，</translation>
 <translation id="467662567472608290">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證含有錯誤。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="4690462567478992370">停止使用無效的憑證</translation>
-<translation id="4690954380545377795">你可能失去了 Google 帳戶存取權，或身分遭到冒用。Chrome 建議你立即變更密碼。</translation>
+<translation id="4690954380545377795">你可能失去了 Google 帳戶存取權，或身分遭到冒用。Brave 建議你立即變更密碼。</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1" /> <ph name="SENTENCE2" /></translation>
 <translation id="4708268264240856090">您的連線已中斷</translation>
 <translation id="471880041731876836">你沒有這個網站的瀏覽權限</translation>
@@ -498,7 +498,7 @@
 <translation id="472349245089439925">你的付款</translation>
 <translation id="4726672564094551039">重新載入政策</translation>
 <translation id="4728558894243024398">平台</translation>
-<translation id="4736825316280949806">重新啟動 Chromium</translation>
+<translation id="4736825316280949806">重新啟動 Brave</translation>
 <translation id="4744603770635761495">可執行檔的路徑</translation>
 <translation id="4749685221585524849">上次使用日期：<ph name="LAST_USED_MONTH" /></translation>
 <translation id="4750917950439032686">你傳送給這個網站的資訊 (例如密碼或信用卡號碼) 不會外洩。</translation>
@@ -510,7 +510,7 @@
 <translation id="4792143361752574037">存取工作階段檔案時發生問題，目前無法將檔案儲存到磁碟。請重新載入網頁，然後再試一次。</translation>
 <translation id="4800132727771399293">請檢查您的有效期限和信用卡安全碼，然後再試一次</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">您目前無法造訪 <ph name="SITE" />，因為這個網站傳送的憑證是亂碼，Google Chrome 無法處理。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會正常運作。</translation>
+<translation id="4807049035289105102">您目前無法造訪 <ph name="SITE" />，因為這個網站傳送的憑證是亂碼，Brave 無法處理。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會正常運作。</translation>
 <translation id="4813512666221746211">網路錯誤</translation>
 <translation id="4816492930507672669">依頁面大小自動調整</translation>
 <translation id="483020001682031208">沒有可顯示的實體化網路頁面</translation>
@@ -531,7 +531,7 @@
 <translation id="4974590756084640048">重新啟用警告功能</translation>
 <translation id="4989542687859782284">尚未支援</translation>
 <translation id="4989809363548539747">這是不支援的外掛程式</translation>
-<translation id="5002932099480077015">啟用後，Chrome 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="5002932099480077015">啟用後，Brave 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="5018422839182700155">無法開啟這個網頁</translation>
 <translation id="5019198164206649151">備份儲存狀態不佳</translation>
 <translation id="5023310440958281426">請查看你的管理員政策</translation>
@@ -547,7 +547,7 @@
 <translation id="5087286274860437796">伺服器憑證目前無效。</translation>
 <translation id="5087580092889165836">新增信用卡</translation>
 <translation id="5089810972385038852">州</translation>
-<translation id="5094747076828555589">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Chromium 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
+<translation id="5094747076828555589">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Brave 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="5095208057601539847">省</translation>
 <translation id="5115563688576182185">(64 位元)</translation>
 <translation id="5141240743006678641">使用你的 Google 憑證對已同步處理的密碼進行加密</translation>
@@ -563,7 +563,7 @@
 <translation id="522700295135997067">這個網站剛剛可能竊取了你的密碼</translation>
 <translation id="5230733896359313003">運送地址</translation>
 <translation id="5251803541071282808">雲端</translation>
-<translation id="5277279256032773186">在工作環境使用 Chrome 嗎？企業可以管理員工的 Chrome 設定。瞭解詳情</translation>
+<translation id="5277279256032773186">在工作環境使用 Brave 嗎？企業可以管理員工的 Brave 設定。瞭解詳情</translation>
 <translation id="5281113152797308730"><ph name="BEGIN_PARAGRAPH" />請按照以下步驟暫時停用該軟體，以便順利連上網路。你需要管理員權限。<ph name="END_PARAGRAPH" />
 
     <ph name="BEGIN_LIST" />
@@ -572,7 +572,7 @@
     <ph name="LIST_ITEM" />在「啟動類型」<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />之下，選取 [已停用]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />
     <ph name="LIST_ITEM" />在「服務狀態」<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />之下，按一下 [停止]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />
     <ph name="LIST_ITEM" />依序按一下 [套用]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" /> 和 [確定]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />
-    <ph name="LIST_ITEM" />前往 <ph name="BEGIN_LEARN_MORE_LINK" />Chrome 說明中心<ph name="END_LEARN_MORE_LINK" />瞭解如何將該軟體從你的電腦上永久移除
+    <ph name="LIST_ITEM" />前往 <ph name="BEGIN_LEARN_MORE_LINK" />Brave 說明中心<ph name="END_LEARN_MORE_LINK" />瞭解如何將該軟體從你的電腦上永久移除
     <ph name="END_LIST" /></translation>
 <translation id="5285570108065881030">顯示所有已儲存的密碼</translation>
 <translation id="5299298092464848405">解析政策時發生錯誤</translation>
@@ -614,7 +614,7 @@
 <translation id="5560088892362098740">到期日</translation>
 <translation id="5565735124758917034">管理中</translation>
 <translation id="5571083550517324815">無法在這個地址取件，請改用其他地址。</translation>
-<translation id="5572851009514199876">請啟動 Chrome 並登入帳戶，Chrome 將確認你是否可存取這個網站。</translation>
+<translation id="5572851009514199876">請啟動 Brave 並登入帳戶，Brave 將確認你是否可存取這個網站。</translation>
 <translation id="5580958916614886209">請檢查信用卡到期月份，然後再試一次</translation>
 <translation id="5586446728396275693">沒有已儲存的地址</translation>
 <translation id="5595485650161345191">編輯地址</translation>
@@ -685,7 +685,7 @@
 <translation id="6169916984152623906">現在，你可以進行私密瀏覽了。共用這部裝置的其他使用者不會看到你的活動，不過，你下載的內容和新增的書籤仍會保留在裝置上。</translation>
 <translation id="6177128806592000436">你與這個網站的連線不安全</translation>
 <translation id="6203231073485539293">檢查網際網路連線</translation>
-<translation id="6218753634732582820">要從 Chromium 中移除地址嗎？</translation>
+<translation id="6218753634732582820">要從 Brave 中移除地址嗎？</translation>
 <translation id="6221345481584921695">Google 安全瀏覽功能最近在 <ph name="SITE" /> 上<ph name="BEGIN_LINK" />偵測到惡意軟體<ph name="END_LINK" />。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。這些惡意內容來自已知的惡意軟體散佈網站 <ph name="SUBRESOURCE_HOST" />。</translation>
 <translation id="6251924700383757765">隱私權政策</translation>
 <translation id="6254436959401408446">記憶體不足，無法開啟這個網頁</translation>
@@ -700,7 +700,7 @@
 <translation id="6305205051461490394">無法連上 <ph name="URL" />。</translation>
 <translation id="6319915415804115995">距離上次使用已超過 1 年</translation>
 <translation id="6321917430147971392">檢查 DNS 設定</translation>
-<translation id="6325286409953503969">想搶先試用酷炫的 Chrome 新功能嗎？請安裝<ph name="BEGIN_LINK" />開發人員版<ph name="END_LINK" />。</translation>
+<translation id="6325286409953503969">想搶先試用酷炫的 Brave 新功能嗎？請安裝<ph name="BEGIN_LINK" />開發人員版<ph name="END_LINK" />。</translation>
 <translation id="6328639280570009161">建議停用網路預測功能</translation>
 <translation id="6328786501058569169">這是詐欺網站</translation>
 <translation id="6337133576188860026">釋出不到 <ph name="SIZE" />。下次造訪部分網站時，載入速度可能會變慢。</translation>
@@ -709,7 +709,7 @@
 <translation id="6355080345576803305">公開工作階段覆寫</translation>
 <translation id="6358450015545214790">我需要進一步資訊</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{以及另外 1 個建議項目}other{以及另外 # 個建議項目}}</translation>
-<translation id="6397451950548600259">你的電腦上有軟體阻止 Chrome 建立安全的網路連線</translation>
+<translation id="6397451950548600259">你的電腦上有軟體阻止 Brave 建立安全的網路連線</translation>
 <translation id="6404511346730675251">編輯書籤</translation>
 <translation id="6410264514553301377">輸入 <ph name="CREDIT_CARD" /> 的到期日和信用卡安全碼</translation>
 <translation id="6414888972213066896">你已詢問家長是否同意你造訪這個網站</translation>
@@ -722,10 +722,10 @@
 <translation id="6456339708790392414">你的付款</translation>
 <translation id="6458467102616083041">由於政策停用了預設搜尋，因此遭到略過。</translation>
 <translation id="647261751007945333">裝置政策</translation>
-<translation id="6477321094435799029">Chrome 在這個網頁上偵測到異常代碼。為了保護你的個人資訊 (包括密碼、電話號碼或信用卡資料)，Chrome 已封鎖這個網頁。</translation>
+<translation id="6477321094435799029">Brave 在這個網頁上偵測到異常代碼。為了保護你的個人資訊 (包括密碼、電話號碼或信用卡資料)，Brave 已封鎖這個網頁。</translation>
 <translation id="6489534406876378309">開始上傳當機報告</translation>
 <translation id="6507833130742554667">接受信用卡和簽帳金融卡。</translation>
-<translation id="6508722015517270189">重新啟動 Chrome</translation>
+<translation id="6508722015517270189">重新啟動 Brave</translation>
 <translation id="6529602333819889595">重做刪除(&amp;R)</translation>
 <translation id="6534179046333460208">實體化網路建議</translation>
 <translation id="6550675742724504774">選項</translation>
@@ -741,7 +741,7 @@
 <translation id="6630809736994426279">攻擊者目前可能會試圖透過 <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> 在你的 Mac 上安裝危險程式，藉此竊取或刪除你的資訊 (例如相片、密碼、郵件和信用卡資料)。<ph name="BEGIN_LEARN_MORE_LINK" />瞭解詳情<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="6644283850729428850">這項政策已遭取代。</translation>
 <translation id="6657585470893396449">密碼</translation>
-<translation id="6671697161687535275">要從 Chromium 中移除表單填寫建議嗎？</translation>
+<translation id="6671697161687535275">要從 Brave 中移除表單填寫建議嗎？</translation>
 <translation id="6685834062052613830">請登出並完成設定程序</translation>
 <translation id="6710213216561001401">返回</translation>
 <translation id="6710594484020273272">&lt;輸入搜尋字詞&gt;</translation>
@@ -842,7 +842,7 @@
 <translation id="7554791636758816595">新增分頁</translation>
 <translation id="7567204685887185387">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證是以欺詐方式發行。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="7568593326407688803">此網頁為<ph name="ORIGINAL_LANGUAGE" />你要翻譯網頁內容嗎？</translation>
-<translation id="7569952961197462199">要從 Chrome 中移除信用卡嗎？</translation>
+<translation id="7569952961197462199">要從 Brave 中移除信用卡嗎？</translation>
 <translation id="7578104083680115302">在不同的裝置上透過各個網站和應用程式消費時，使用您讓 Google 儲存的信用卡資料即可快速付款。</translation>
 <translation id="7588950540487816470">實體化網路</translation>
 <translation id="7592362899630581445">伺服器憑證的名稱不符合限制。</translation>
@@ -852,7 +852,7 @@
 <translation id="7610193165460212391">值超出 <ph name="VALUE" /> 的範圍。</translation>
 <translation id="7613889955535752492">有效期限：<ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">你已經使用其他版本的「Google 帳戶」密碼對資料進行加密，請在下方輸入密碼。</translation>
-<translation id="7637571805876720304">要從 Chromium 中移除信用卡嗎？</translation>
+<translation id="7637571805876720304">要從 Brave 中移除信用卡嗎？</translation>
 <translation id="765676359832457558">隱藏進階設定...</translation>
 <translation id="7658239707568436148">取消</translation>
 <translation id="7662298039739062396">由擴充功能控制的設定</translation>
@@ -860,7 +860,7 @@
 <translation id="7668654391829183341">不明的裝置</translation>
 <translation id="7669271284792375604">攻擊者可能會試圖透過這個網站誘使你安裝對瀏覽體驗有害 (例如變更你的首頁，或是在你造訪的網站上顯示多餘的廣告) 的程式。</translation>
 <translation id="7682287625158474539">寄送地址</translation>
-<translation id="7695552107151968219">想搶先試用酷炫的 Chrome 新功能嗎？請安裝<ph name="BEGIN_LINK" />測試版<ph name="END_LINK" />。</translation>
+<translation id="7695552107151968219">想搶先試用酷炫的 Brave 新功能嗎？請安裝<ph name="BEGIN_LINK" />測試版<ph name="END_LINK" />。</translation>
 <translation id="7699293099605015246">目前無法顯示文章</translation>
 <translation id="7701040980221191251">無</translation>
 <translation id="7704050614460855821"><ph name="BEGIN_LINK" />繼續前往 <ph name="SITE" /> 網站 (不安全)<ph name="END_LINK" /></translation>
@@ -885,7 +885,7 @@
 <translation id="780301667611848630">不用了，謝謝</translation>
 <translation id="7805768142964895445">狀態</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">要從 Chrome 中移除建議嗎？</translation>
+<translation id="7813600968533626083">要從 Brave 中移除建議嗎？</translation>
 <translation id="7815407501681723534">找到 <ph name="NUMBER_OF_RESULTS" /> 個與「<ph name="SEARCH_STRING" />」相符的<ph name="SEARCH_RESULTS" /></translation>
 <translation id="7818867226424560206">政策管理</translation>
 <translation id="782886543891417279">目前使用的 Wi-Fi 網路 (<ph name="WIFI_NAME" />) 可能會要求您造訪登入網頁。</translation>
@@ -961,7 +961,7 @@
 <translation id="8433057134996913067">您會因此登出大多數網站。</translation>
 <translation id="8437238597147034694">復原移動(&amp;U)</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 張信用卡}other{# 張信用卡}}</translation>
-<translation id="8483780878231876732">如要使用您的 Google 帳戶中的信用卡，請登入 Chrome</translation>
+<translation id="8483780878231876732">如要使用您的 Google 帳戶中的信用卡，請登入 Brave</translation>
 <translation id="8488350697529856933">適用對象</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> 的回應時間過長。</translation>
 <translation id="8503813439785031346">使用者名稱</translation>
@@ -981,7 +981,7 @@
 <translation id="8725066075913043281">再試一次</translation>
 <translation id="8728672262656704056">你已進入無痕模式</translation>
 <translation id="8730621377337864115">完成</translation>
-<translation id="8738058698779197622">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Chromium 無法驗證這些憑證。</translation>
+<translation id="8738058698779197622">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Brave 無法驗證這些憑證。</translation>
 <translation id="8740359287975076522">找不到 <ph name="HOST_NAME" /> 的 &lt;abbr id="dnsDefinition"&gt;DNS 位址&lt;/abbr&gt;，正在診斷問題。</translation>
 <translation id="874846938927089722">接受的信用卡和預付卡</translation>
 <translation id="8759274551635299824">這張信用卡已過期</translation>
@@ -1025,12 +1025,12 @@
 <translation id="9076283476770535406">這個網站可能含有成人內容</translation>
 <translation id="9078964945751709336">請提供詳細資訊</translation>
 <translation id="9080712759204168376">訂單摘要</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Chromium 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Chromium 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Brave 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Brave 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
 <translation id="9106062320799175032">新增帳單地址</translation>
 <translation id="910908805481542201">請協助我解決這個問題</translation>
 <translation id="9128870381267983090">連線至網路</translation>
 <translation id="9137013805542155359">顯示原文</translation>
-<translation id="9137248913990643158">使用這個應用程式前，請先啟動 Chrome 並登入帳戶。</translation>
+<translation id="9137248913990643158">使用這個應用程式前，請先啟動 Brave 並登入帳戶。</translation>
 <translation id="9148507642005240123">復原編輯(&amp;U)</translation>
 <translation id="9154194610265714752">已更新</translation>
 <translation id="9157595877708044936">設定中...</translation>
@@ -1040,7 +1040,7 @@
 <translation id="9183425211371246419"><ph name="HOST_NAME" /> 使用了不支援的通訊協定。</translation>
 <translation id="9205078245616868884">您已使用同步通關密語對資料進行加密，請輸入通關密語開始進行同步。</translation>
 <translation id="9207861905230894330">無法新增文章。</translation>
-<translation id="9215416866750762878">有應用程式阻止 Chrome 建立這個網站的安全連線</translation>
+<translation id="9215416866750762878">有應用程式阻止 Brave 建立這個網站的安全連線</translation>
 <translation id="9219103736887031265">圖片</translation>
 <translation id="933612690413056017">無法連上網際網路</translation>
 <translation id="933712198907837967">Diners Club</translation>
