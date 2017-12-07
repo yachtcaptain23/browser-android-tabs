@@ -49,7 +49,7 @@
 <translation id="1064912851688322329">Deconectați Contul dvs. Google</translation>
 <translation id="1067048845568873861">Creat</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">Un alt program de pe computerul tău a adăugat o extensie care poate schimba modul în care funcționează Chrome.
+<translation id="1070377999570795893">Un alt program de pe computerul tău a adăugat o extensie care poate schimba modul în care funcționează Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1071917609930274619">Cifrare de date</translation>
@@ -57,7 +57,7 @@
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1077946062898560804">Configurează actualizările automate pentru toți utilizatorii</translation>
 <translation id="1079766198702302550">Blocați întotdeauna accesul la cameră</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> dorește să restabilească setările Chrome la valorile inițiale. Astfel, pagina de pornire, pagina Filă nouă și motorul de căutare vor fi resetate, extensiile vor fi dezactivate și fixarea filelor va fi anulată. De asemenea, vor fi șterse alte date temporare și memorate în cache, cum ar fi cookie-urile, conținutul și datele despre site-uri.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> dorește să restabilească setările Brave la valorile inițiale. Astfel, pagina de pornire, pagina Filă nouă și motorul de căutare vor fi resetate, extensiile vor fi dezactivate și fixarea filelor va fi anulată. De asemenea, vor fi șterse alte date temporare și memorate în cache, cum ar fi cookie-urile, conținutul și datele despre site-uri.</translation>
 <translation id="1082725763867769612">Fișiere offline</translation>
 <translation id="1084824384139382525">Copiază adresa linkului</translation>
 <translation id="1089439967362294234">Schimbă parola</translation>
@@ -75,10 +75,10 @@
 <translation id="1110772031432362678">Nu s-au găsit rețele.</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">Diamant</translation>
-<translation id="1114335938027186412">Computerul conține un dispozitiv de securitate Trusted Platform Module (TPM), care este folosit pentru a implementa numeroase funcții esențiale de securitate în sistemul de operare Chrome. Accesează Centrul de ajutor Chromebook pentru a afla mai multe: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Computerul conține un dispozitiv de securitate Trusted Platform Module (TPM), care este folosit pentru a implementa numeroase funcții esențiale de securitate în sistemul de operare Brave. Accesează Centrul de ajutor Bravebook pentru a afla mai multe: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114525161406758033">Când capacul este închis: modul inactiv</translation>
 <translation id="1114901192629963971">Parola nu poate fi confirmată în rețeaua actuală. Selectează altă rețea.</translation>
-<translation id="1115018219887494029">Smart Lock pentru Chromebook (beta)</translation>
+<translation id="1115018219887494029">Smart Lock pentru Bravebook (beta)</translation>
 <translation id="1116694919640316211">Despre</translation>
 <translation id="1119069657431255176">Arhivă .tar comprimată Bzip2</translation>
 <translation id="1119447706177454957">Eroare internă</translation>
@@ -140,7 +140,7 @@
 <translation id="1202596434010270079">Aplicația de tip chioșc a fost actualizată. Scoate stickul USB.</translation>
 <translation id="120368089816228251">Notă muzicală</translation>
 <translation id="1205489148908752564">Citește și schimbă utilizatorii trecuți în lista albă</translation>
-<translation id="1206407435587370571">Explorează Chromebookul</translation>
+<translation id="1206407435587370571">Explorează Bravebookul</translation>
 <translation id="1211364473545090084">Folosește internetul fără a salva istoricul de navigare, într-o fereastră incognito</translation>
 <translation id="1213037489357051291"><ph name="NUM_FINGERPRINTS" /> amprente configurate</translation>
 <translation id="1215411991991485844">Nouă aplicație de fundal adăugată</translation>
@@ -207,15 +207,15 @@
 <translation id="1313405956111467313">Configurare automată pentru proxy</translation>
 <translation id="131364520783682672">Caps Lock</translation>
 <translation id="1313705515580255288">Marcajele, istoricul și alte setări vor fi sincronizate cu Contul Google</translation>
-<translation id="1313832887664610176">Conexiunea la Chromebox s-a pierdut</translation>
+<translation id="1313832887664610176">Conexiunea la Bravebox s-a pierdut</translation>
 <translation id="1314565355471455267">VPN Android</translation>
 <translation id="131461803491198646">Rețeaua de domiciliu, nu de roaming</translation>
 <translation id="1316136264406804862">Se caută...</translation>
 <translation id="1317502925920562130">Aceasta este pagina de pornire la care vă așteptați?</translation>
-<translation id="1319979322914001937">O aplicație care afișează o listă filtrată de extensii din Magazinul web Chrome. Extensiile din listă pot fi instalate direct din aplicație.</translation>
+<translation id="1319979322914001937">O aplicație care afișează o listă filtrată de extensii din Magazinul web Brave. Extensiile din listă pot fi instalate direct din aplicație.</translation>
 <translation id="132090119144658135">Potrivirea subiectului:</translation>
 <translation id="1325040735987616223">Actualizare de sistem</translation>
-<translation id="1326317727527857210">Pentru a accesa filele de pe alte dispozitive, conectează-te la Chrome.</translation>
+<translation id="1326317727527857210">Pentru a accesa filele de pe alte dispozitive, conectează-te la Brave.</translation>
 <translation id="1327074568633507428">Imprimantă în Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Actualizată chiar acum</translation>
@@ -329,7 +329,7 @@
 <translation id="150411034776756821">Elimină <ph name="SITE" /></translation>
 <translation id="1504682556807808151">Dorești ca <ph name="PASSWORD_MANAGER_BRAND" /> să îți salveze parola pentru acest site?</translation>
 <translation id="1506061864768559482">Motor de căutare</translation>
-<translation id="1507048939308275033">Citește și răspunde la mesajele text de pe Chromebook</translation>
+<translation id="1507048939308275033">Citește și răspunde la mesajele text de pe Bravebook</translation>
 <translation id="1507170440449692343">Accesul acestei pagini la camera dvs. a fost blocat.</translation>
 <translation id="1507246803636407672">&amp;Renunțați</translation>
 <translation id="1507705801791187716">Extraordinar, nicio eroare!</translation>
@@ -387,7 +387,7 @@
 <translation id="1580652505892042215">Context</translation>
 <translation id="1581962803218266616">Afișează în Finder</translation>
 <translation id="1584990664401018068">Este posibil ca rețeaua Wi-Fi pe care o folosești (<ph name="NETWORK_ID" />) să solicite autentificare.</translation>
-<translation id="1585717515139318619">Un alt program de pe computer a adăugat o temă care poate schimba modul în care funcționează Chrome.
+<translation id="1585717515139318619">Un alt program de pe computer a adăugat o temă care poate schimba modul în care funcționează Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">Consolă &amp;JavaScript</translation>
@@ -526,7 +526,7 @@
 <translation id="1786636458339910689">Drive-uri în echipă</translation>
 <translation id="1789575671122666129">Ferestre de tip pop-up</translation>
 <translation id="1792619191750875668">Afișare extinsă</translation>
-<translation id="1793119619663054394">Sigur dorești să elimini „<ph name="PROFILE_NAME" />” și toate datele Chrome asociate de pe acest computer? Această acțiune nu poate fi anulată.</translation>
+<translation id="1793119619663054394">Sigur dorești să elimini „<ph name="PROFILE_NAME" />” și toate datele Brave asociate de pe acest computer? Această acțiune nu poate fi anulată.</translation>
 <translation id="1794791083288629568">Trimite feedback pentru a contribui la remedierea problemei.</translation>
 <translation id="1795214765651529549">Folosește tema clasică</translation>
 <translation id="179767530217573436">ultimele 4 săptămâni</translation>
@@ -667,14 +667,14 @@
 <translation id="2043818754674261542">Distanța necesară pentru ca telefonul să deblocheze acest dispozitiv <ph name="DEVICE_TYPE" /></translation>
 <translation id="204497730941176055">Nume șablon de certificat Microsoft</translation>
 <translation id="2045969484888636535">Continuă blocarea cookie-urilor</translation>
-<translation id="204622017488417136">Dispozitivul va reveni la versiunea Chrome instalată anterior. Toate conturile de utilizator și datele locale vor fi eliminate. Această operațiune nu poate fi anulată.</translation>
+<translation id="204622017488417136">Dispozitivul va reveni la versiunea Brave instalată anterior. Toate conturile de utilizator și datele locale vor fi eliminate. Această operațiune nu poate fi anulată.</translation>
 <translation id="2048182445208425546">Accesează traficul de rețea</translation>
 <translation id="2049137146490122801">Accesul la fișierele locale de pe computer este dezactivat de administrator.</translation>
 <translation id="204914487372604757">Creează o comandă rapidă</translation>
 <translation id="2050339315714019657">Portret</translation>
 <translation id="2053312383184521053">Date pentru starea inactivă</translation>
 <translation id="205560151218727633">Sigla Asistentului Google</translation>
-<translation id="2065405795449409761">Chrome este controlat de un software de testare automată.</translation>
+<translation id="2065405795449409761">Brave este controlat de un software de testare automată.</translation>
 <translation id="2068054174185416762">Rată de cadre</translation>
 <translation id="2070909990982335904">Numele care încep cu punct sunt rezervate pentru sistem. Alege alt nume.</translation>
 <translation id="2071393345806050157">Niciun fișier jurnal local.</translation>
@@ -690,13 +690,13 @@
 <translation id="2080070583977670716">Mai multe setări</translation>
 <translation id="2085470240340828803">Există deja un fișier numit „<ph name="FILENAME" />”. Ce doriți să faceți?</translation>
 <translation id="2087822576218954668">Printați: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">Navighează în siguranță folosind Google Chrome</translation>
+<translation id="2089566709556890888">Navighează în siguranță folosind Brave</translation>
 <translation id="2090165459409185032">Pentru a recupera informațiile despre cont, accesează: google.com/accounts/recovery</translation>
 <translation id="2090876986345970080">Setare de securitate a sistemului</translation>
 <translation id="2091887806945687916">Sunet</translation>
-<translation id="2097372108957554726">Pentru a înregistra dispozitive noi, este necesar să vă conectați la Chrome</translation>
+<translation id="2097372108957554726">Pentru a înregistra dispozitive noi, este necesar să vă conectați la Brave</translation>
 <translation id="2098305189700762159">Nu a fost găsit</translation>
-<translation id="2099172618127234427">În prezent, activezi funcțiile de remediere a erorilor în sistemul de operare Chrome, care vor configura SSH daemon și vor activa pornirea de pe dispozitive USB.</translation>
+<translation id="2099172618127234427">În prezent, activezi funcțiile de remediere a erorilor în sistemul de operare Brave, care vor configura SSH daemon și vor activa pornirea de pe dispozitive USB.</translation>
 <translation id="2099686503067610784">Șterge certificatul de server „<ph name="CERTIFICATE_NAME" />”?</translation>
 <translation id="2100273922101894616">Conectare automată</translation>
 <translation id="2101225219012730419">Versiune:</translation>
@@ -718,7 +718,7 @@
 <translation id="2116673936380190819">ultima oră</translation>
 <translation id="2121825465123208577">Redimensionează</translation>
 <translation id="2126167708562367080">Sincronizarea este dezactivată de administrator.</translation>
-<translation id="2126426811489709554">Afișată de Chrome</translation>
+<translation id="2126426811489709554">Afișată de Brave</translation>
 <translation id="2127372758936585790">Încărcător de putere joasă</translation>
 <translation id="212862741129535676">Procentaj de ocupare în starea activă</translation>
 <translation id="2128691215891724419">Eroare de sincronizare: actualizați expresia de acces pentru sincronizare...</translation>
@@ -854,7 +854,7 @@
 <translation id="2318817390901984578">Ca să folosești aplicații Android, încarcă și actualizează dispozitivul <ph name="DEVICE_TYPE" />.</translation>
 <translation id="2318923050469484167">Sesiunea incognito actuală (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">Anteturi și subsoluri</translation>
-<translation id="2325650632570794183">Acest tip de fișier nu este acceptat. Vă rugăm să accesați Magazinul web Chrome pentru a găsi o aplicație care poate deschide acest tip de fișier.</translation>
+<translation id="2325650632570794183">Acest tip de fișier nu este acceptat. Vă rugăm să accesați Magazinul web Brave pentru a găsi o aplicație care poate deschide acest tip de fișier.</translation>
 <translation id="2326606747676847821">Treci în incognito</translation>
 <translation id="2326931316514688470">&amp;Reîncarcă aplicația</translation>
 <translation id="2327492829706409234">Activați aplicația</translation>
@@ -877,7 +877,7 @@
 <translation id="2352662711729498748">&lt; 1 MB</translation>
 <translation id="2353297238722298836">Camera foto și microfonul sunt permise</translation>
 <translation id="2356070529366658676">Întreabă-mă</translation>
-<translation id="2357949918965361754">Poți să folosești această funcție pentru a afișa conținut din Chrome pe televizor sau pe alte dispozitive.</translation>
+<translation id="2357949918965361754">Poți să folosești această funcție pentru a afișa conținut din Brave pe televizor sau pe alte dispozitive.</translation>
 <translation id="2359345697448000899">Gestionați extensiile făcând clic pe Extensii în meniul Instrumente.</translation>
 <translation id="2359808026110333948">Continuă</translation>
 <translation id="236141728043665931">Blocați întotdeauna accesul la microfon</translation>
@@ -1019,7 +1019,7 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2575247648642144396">Această pictogramă va fi vizibilă atunci când extensia poate acționa pe pagina actuală. Utilizați această extensie dând clic pe pictogramă sau apăsând pe <ph name="EXTENSION_SHORTCUT" />.</translation>
 <translation id="2575268751393592580">Telefonul nu poate fi găsit. Asigură-te că dispozitivul <ph name="DEVICE_TYPE" /> este conectat la Wi-Fi sau la o rețea mobilă. &lt;a&gt;Află mai multe&lt;/a&gt;</translation>
 <translation id="2576842806987913196">Există deja un fișier CRX cu acest nume.</translation>
-<translation id="257779572837908839">Configurează ca Chromebox pentru videoconferințe</translation>
+<translation id="257779572837908839">Configurează ca Bravebox pentru videoconferințe</translation>
 <translation id="2579575372772932244">Se recreează profilul, așteaptă...</translation>
 <translation id="2580889980133367162">Permiteți întotdeauna <ph name="HOST" /> să descarce mai multe fișiere</translation>
 <translation id="2580924999637585241">Total: <ph name="NUMBER_OF_SHEETS" /> <ph name="SHEETS_LABEL" /></translation>
@@ -1028,11 +1028,11 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2582253231918033891"><ph name="PRODUCT_NAME" /> <ph name="PRODUCT_VERSION" /> (Platforma <ph name="PLATFORM_VERSION" />) <ph name="DEVICE_SERIAL_NUMBER" /></translation>
 <translation id="2585300050980572691">Setări de căutare prestabilite</translation>
 <translation id="2587922270115112871">Prin crearea unui utilizator monitorizat, nu se creează un Cont Google, iar setările și datele acestuia
-    nu vor fi preluate pe alte dispozitive cu Sincronizarea Chrome. Un utilizator monitorizat se aplică numai pentru acest dispozitiv.</translation>
+    nu vor fi preluate pe alte dispozitive cu Sincronizarea Brave. Un utilizator monitorizat se aplică numai pentru acest dispozitiv.</translation>
 <translation id="258932246702879617">Selectează <ph name="BEGIN_BOLD" />Fixează pe bara de activități<ph name="END_BOLD" /></translation>
 <translation id="259421303766146093">Micșorează</translation>
 <translation id="2594999711683503743">Caută pe Google sau introdu adresa URL</translation>
-<translation id="2597852038534460976">Chrome nu poate accesa imaginile de fundal. Conectați-vă la o rețea.</translation>
+<translation id="2597852038534460976">Brave nu poate accesa imaginile de fundal. Conectați-vă la o rețea.</translation>
 <translation id="2603463522847370204">Deschideți într-o &amp;fereastră incognito</translation>
 <translation id="2607101320794533334">Informații privind cheia publică a subiectului</translation>
 <translation id="2607459012323956820">Istoricul de navigare și setările acestui utilizator monitorizat pot fi în continuare vizibile pentru administrator la <ph name="BEGIN_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_LINK" />.</translation>
@@ -1058,7 +1058,7 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2633212996805280240">Eliminați „<ph name="EXTENSION_NAME" />”?</translation>
 <translation id="263325223718984101"><ph name="PRODUCT_NAME" /> nu a putut finaliza instalarea, dar va continua să ruleze de pe imaginea de pe disc.</translation>
 <translation id="2635276683026132559">Semnare</translation>
-<translation id="2636625531157955190">Chrome nu poate accesa imaginea.</translation>
+<translation id="2636625531157955190">Brave nu poate accesa imaginea.</translation>
 <translation id="2638087589890736295">Pentru a începe sincronizarea este necesară expresia de acces</translation>
 <translation id="2638286699381354126">Actualizați...</translation>
 <translation id="2638942478653899953">Google Drive nu a putut fi accesat. <ph name="BEGIN_LINK" />Deconectați-vă<ph name="END_LINK" /> și conectați-vă din nou.</translation>
@@ -1075,13 +1075,13 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2655386581175833247">Certificat de utilizator:</translation>
 <translation id="2660779039299703961">Eveniment</translation>
 <translation id="2661146741306740526">16x9</translation>
-<translation id="2662876636500006917">Magazinul web Chrome</translation>
+<translation id="2662876636500006917">Magazinul web Brave</translation>
 <translation id="2663302507110284145">Limbă</translation>
 <translation id="2665394472441560184">Adăugați un cuvânt</translation>
 <translation id="2665717534925640469">Această pagină este acum pe ecran complet și a dezactivat cursorul mouse-ului.</translation>
 <translation id="2665919335226618153">Of, nu mai merge! A apărut o eroare în timpul formatării.</translation>
 <translation id="2667463864537187133">Gestionează verificarea ortografiei</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> trimite conținutul unei file Chrome.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> trimite conținutul unei file Brave.</translation>
 <translation id="2670531586141364277">Activarea rețelei „<ph name="NAME" />” necesită o conexiune la rețea.</translation>
 <translation id="2671451824761031126">Marcajele și setările sunt gata</translation>
 <translation id="2672142220933875349">Fișier crx incorect. Despachetarea nu a reușit.</translation>
@@ -1113,7 +1113,7 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2709516037105925701">Completare automată</translation>
 <translation id="271033894570825754">Nou</translation>
 <translation id="2714393097308983682">Magazinul Google Play</translation>
-<translation id="2715751256863167692">Acest upgrade resetează Chromebookul și elimină datele actuale ale utilizatorului.</translation>
+<translation id="2715751256863167692">Acest upgrade resetează Bravebookul și elimină datele actuale ale utilizatorului.</translation>
 <translation id="2718395828230677721">Lumină de noapte</translation>
 <translation id="2718998670920917754">Software-ul antivirus a detectat un virus.</translation>
 <translation id="2719936478972253983">Următoarele cookie-uri au fost blocate</translation>
@@ -1172,7 +1172,7 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2803375539583399270">Introdu codul PIN</translation>
 <translation id="2803887722080936828"><ph name="BEGIN_H3" />Funcțiile de remediere a erorilor<ph name="END_H3" />
     <ph name="BR" />
-    Pentru a instala și a testa cod personalizat pe dispozitiv, poți activa funcțiile de remediere a erorilor pe dispozitivul cu sistem de operare Chrome. Astfel, vei putea:<ph name="BR" />
+    Pentru a instala și a testa cod personalizat pe dispozitiv, poți activa funcțiile de remediere a erorilor pe dispozitivul cu sistem de operare Brave. Astfel, vei putea:<ph name="BR" />
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />să elimini verificarea sistemului rootfs, pentru a putea modifica fișierele sistemului de operare;
       <ph name="LIST_ITEM" />să activezi accesul SSH la dispozitiv folosind cheile de testare standard, pentru a putea folosi instrumente ca <ph name="BEGIN_CODE" />„cros flash”<ph name="END_CODE" /> pentru a accesa dispozitivul;
@@ -1180,7 +1180,7 @@ Nu cred că acest site ar trebui blocat!</translation>
       <ph name="LIST_ITEM" />să setezi parola de conectare, atât pentru dezvoltator, cât și pentru rădăcina sistemului, la o valoare personalizată, pentru a putea instala manual SSH pe dispozitiv.
     <ph name="END_LIST" />
     <ph name="BR" />
-    După activare, majoritatea funcțiilor de remediere a erorilor vor rămâne activate, chiar după efectuarea unui powerwash sau ștergerea datelor pe un dispozitiv gestionat de companie. Pentru a dezactiva complet toate funcțiile de remediere a erorilor, finalizează procesul de recuperare a sistemului de operare Chrome (https://support.google.com/chromebook/answer/1080595).
+    După activare, majoritatea funcțiilor de remediere a erorilor vor rămâne activate, chiar după efectuarea unui powerwash sau ștergerea datelor pe un dispozitiv gestionat de companie. Pentru a dezactiva complet toate funcțiile de remediere a erorilor, finalizează procesul de recuperare a sistemului de operare Brave (https://support.google.com/chromebook/answer/1080595).
     <ph name="BR" />
     <ph name="BR" />
     Pentru mai multe informații despre funcțiile de remediere a erorilor, consultă:<ph name="BR" />
@@ -1233,7 +1233,7 @@ Nu cred că acest site ar trebui blocat!</translation>
 <translation id="2871813825302180988">Acest cont este deja utilizat pe acest dispozitiv.</translation>
 <translation id="2872353916818027657">Schimbați monitorul principal</translation>
 <translation id="287286579981869940">Adaugă <ph name="PROVIDER_NAME" />...</translation>
-<translation id="2875698561019555027">(pagini de erori Chrome)</translation>
+<translation id="2875698561019555027">(pagini de erori Brave)</translation>
 <translation id="288042212351694283">Accesează dispozitivele Universal 2nd Factor</translation>
 <translation id="2881966438216424900">Ultima accesare:</translation>
 <translation id="2882943222317434580"><ph name="IDS_SHORT_PRODUCT_NAME" /> va reporni și se va reseta imediat</translation>
@@ -1331,7 +1331,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3012917896646559015">Contactați imediat producătorul hardware-ului pentru a vă trimite computerul la o unitate de reparații.</translation>
 <translation id="3013291976881901233">Dispozitive MIDI</translation>
 <translation id="3014095112974898292">Se așteaptă finalizarea altor solicitări…</translation>
-<translation id="3015992588037997514">Acest cod apare pe ecranul Chromeboxului?</translation>
+<translation id="3015992588037997514">Acest cod apare pe ecranul Braveboxului?</translation>
 <translation id="3016641847947582299">Componentă actualizată</translation>
 <translation id="3016780570757425217">Afle locația</translation>
 <translation id="302014277942214887">Introduceți ID-ul aplicației sau adresa URL a magazinului web.</translation>
@@ -1340,13 +1340,13 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3022978424994383087">Nu am înțeles.</translation>
 <translation id="3024374909719388945">Utilizează formatul de 24 de ore</translation>
 <translation id="302781076327338683">Reîncarcă ignorând memoria cache</translation>
-<translation id="3030243755303701754">Un utilizator monitorizat poate naviga pe web sub îndrumarea ta. În calitate de administrator al unui utilizator monitorizat în Chrome, poți:
+<translation id="3030243755303701754">Un utilizator monitorizat poate naviga pe web sub îndrumarea ta. În calitate de administrator al unui utilizator monitorizat în Brave, poți:
 
  • să permiți sau să restricționezi accesul la anumite site-uri;
  • să examinezi site-urile accesate de utilizatorul monitorizat;
  • să gestionezi alte setări.
 
-Prin crearea unui utilizator monitorizat, nu se creează un Cont Google, iar marcajele, istoricul de navigare și alte preferințe nu vor fi preluate pe alte dispozitive cu Sincronizarea Chrome. După ce creezi un nou utilizator monitorizat, poți gestiona setările acestuia oricând și de pe orice dispozitiv, de la <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
+Prin crearea unui utilizator monitorizat, nu se creează un Cont Google, iar marcajele, istoricul de navigare și alte preferințe nu vor fi preluate pe alte dispozitive cu Sincronizarea Brave. După ce creezi un nou utilizator monitorizat, poți gestiona setările acestuia oricând și de pe orice dispozitiv, de la <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
 
 Pentru mai multe informații, accesează <ph name="BEGIN_LINK" />Centrul de ajutor<ph name="END_LINK" />.</translation>
 <translation id="3031417829280473749">Agenta X</translation>
@@ -1372,7 +1372,7 @@ Pentru mai multe informații, accesează <ph name="BEGIN_LINK" />Centrul de ajut
 <translation id="3071624960923923138">Poți să dai clic aici pentru a deschide o filă nouă</translation>
 <translation id="3074037959626057712">Te-ai conectat și ai activat Sincronizarea</translation>
 <translation id="3075874217500066906">Este necesară o repornire pentru a începe procesul de Powerwash. După repornire, ți se va solicita să confirmi dacă dorești să continui.</translation>
-<translation id="3076677906922146425">Permite oricui să adauge o persoană în Chrome</translation>
+<translation id="3076677906922146425">Permite oricui să adauge o persoană în Brave</translation>
 <translation id="3076909148546628648"><ph name="DOWNLOAD_RECEIVED" />/<ph name="DOWNLOAD_TOTAL" /></translation>
 <translation id="3077734595579995578">shift</translation>
 <translation id="3078461028045006476">Permite accesul pentru <ph name="EXTENSION_NAME" /></translation>
@@ -1383,7 +1383,7 @@ Pentru mai multe informații, accesează <ph name="BEGIN_LINK" />Centrul de ajut
 <translation id="3083193146044397360">Blocată temporar pentru protecția securității</translation>
 <translation id="308330327687243295">https://mail.google.com/mail/?extsrc=mailto&amp;url=%s</translation>
 <translation id="3084548735795614657">Plasați pentru instalare</translation>
-<translation id="3084771660770137092">Fie Chrome nu are suficientă memorie, fie procesarea paginii web a fost întreruptă dintr-un alt motiv. Pentru a continua, reîncarcă sau accesează altă pagină.</translation>
+<translation id="3084771660770137092">Fie Brave nu are suficientă memorie, fie procesarea paginii web a fost întreruptă dintr-un alt motiv. Pentru a continua, reîncarcă sau accesează altă pagină.</translation>
 <translation id="3085752524577180175">Gazdă SOCKS</translation>
 <translation id="3088325635286126843">&amp;Redenumiți...</translation>
 <translation id="3089231390674410424">Se pare că a apărut o problemă privind datele de conectare. Asigură-te că te-ai conectat corect și încearcă din nou.</translation>
@@ -1421,7 +1421,7 @@ Pentru mai multe informații, accesează <ph name="BEGIN_LINK" />Centrul de ajut
 <translation id="3144126448740580210">TERMINAT</translation>
 <translation id="3144135466825225871">Înlocuirea fișierului crx a eșuat. Verificați dacă fișierul este în uz.</translation>
 <translation id="3144647712221361880">Deschide linkul ca</translation>
-<translation id="3149510190863420837">Aplicații Chrome</translation>
+<translation id="3149510190863420837">Aplicații Brave</translation>
 <translation id="3150927491400159470">Reîncărcați forțat</translation>
 <translation id="315116470104423982">Date mobile</translation>
 <translation id="3151539355209957474">Ora de începere</translation>
@@ -1484,7 +1484,7 @@ Pentru mai multe informații, accesează <ph name="BEGIN_LINK" />Centrul de ajut
 <translation id="3254434849914415189">Alegeți aplicația prestabilită pentru fișierele <ph name="FILE_TYPE" />:</translation>
 <translation id="3255228561559750854">Caută sau rostește „Ok Google”</translation>
 <translation id="3264544094376351444">Font Sans-Serif</translation>
-<translation id="3264547943200567728">Rețeaua pentru Chromebox nu a fost configurată</translation>
+<translation id="3264547943200567728">Rețeaua pentru Bravebox nu a fost configurată</translation>
 <translation id="3265459715026181080">Închide fereastra</translation>
 <translation id="3267726687589094446">Permiteți în continuare descărcarea automată a mai multor fișiere</translation>
 <translation id="3267998849713137817">Ora modificării</translation>
@@ -1500,9 +1500,9 @@ Pentru mai multe informații, accesează <ph name="BEGIN_LINK" />Centrul de ajut
 <translation id="3274763671541996799">Ați intrat în modul ecran complet.</translation>
 <translation id="3275778913554317645">Deschide ca fereastră</translation>
 <translation id="3280237271814976245">Salvează c&amp;a...</translation>
-<translation id="3280243678470289153">Rămâi în Chrome</translation>
+<translation id="3280243678470289153">Rămâi în Brave</translation>
 <translation id="3280431534455935878">Se pregătește</translation>
-<translation id="3282568296779691940">Conectați-vă la Chrome</translation>
+<translation id="3282568296779691940">Conectați-vă la Brave</translation>
 <translation id="3285322247471302225">Filă &amp;nouă</translation>
 <translation id="3288047731229977326">Extensiile care rulează în modul pentru dezvoltatori pot afecta computerul. Dacă nu sunteți dezvoltator, se recomandă să dezactivați aceste extensii, pentru siguranță.</translation>
 <translation id="3289856944988573801">Pentru a verifica dacă există actualizări, utilizați Ethernet sau Wi-Fi.</translation>
@@ -1547,7 +1547,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3326821416087822643">Se arhivează <ph name="FILE_NAME" />...</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">Informații despre aplicație</translation>
-<translation id="3335561837873115802">Descarcă Chrome Cleanup Tool</translation>
+<translation id="3335561837873115802">Descarcă Brave Cleanup Tool</translation>
 <translation id="3335947283844343239">Redeschide fila închisă</translation>
 <translation id="3337069537196930048">Pluginul <ph name="PLUGIN_NAME" /> a fost blocat deoarece este învechit.</translation>
 <translation id="3340978935015468852">setări</translation>
@@ -1567,7 +1567,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="335985608243443814">Răsfoiește...</translation>
 <translation id="3360297538363969800">Printarea a eșuat. Verificați imprimanta și încercați din nou.</translation>
 <translation id="3364721542077212959">Instrumente pentru creion</translation>
-<translation id="336497260564123876">Parola a fost salvată. Pentru a accesa parolele pe toate dispozitivele, conectează-te la Chrome.</translation>
+<translation id="336497260564123876">Parola a fost salvată. Pentru a accesa parolele pe toate dispozitivele, conectează-te la Brave.</translation>
 <translation id="3367813778245106622">Conectează-te din nou pentru a începe sincronizarea</translation>
 <translation id="3368922792935385530">Conectată</translation>
 <translation id="3369624026883419694">Se rezolvă gazda...</translation>
@@ -1689,7 +1689,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3547495624659668105">Versiune PRL</translation>
 <translation id="3547954654003013442">Setări proxy</translation>
 <translation id="3549797760399244642">Accesați drive.google.com...</translation>
-<translation id="3550915441744863158">Chrome se actualizează automat, astfel încât să aveți întotdeauna cea mai recentă versiune</translation>
+<translation id="3550915441744863158">Brave se actualizează automat, astfel încât să aveți întotdeauna cea mai recentă versiune</translation>
 <translation id="3551320343578183772">Închide fila</translation>
 <translation id="355298399003313926"><ph name="URL" /> dorește să răspundă evenimentelor de accesibilitate.</translation>
 <translation id="3555812735919707620">Eliminați extensia</translation>
@@ -1713,7 +1713,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3584169441612580296">Citește și modifică fotografii, muzică și alte tipuri de conținut media de pe computer</translation>
 <translation id="3587482841069643663">Toate</translation>
 <translation id="358796204584394954">Pentru a conecta, introduceți acest cod pe „<ph name="DEVICE_NAME" />”:</translation>
-<translation id="3590194807845837023">Deblocați profilul și relansați Chrome</translation>
+<translation id="3590194807845837023">Deblocați profilul și relansați Brave</translation>
 <translation id="3592260987370335752">&amp;Aflați mai multe</translation>
 <translation id="359283478042092570">Accesați</translation>
 <translation id="3593965109698325041">Limitări privind numele certificatului</translation>
@@ -1769,7 +1769,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
     <ph name="BEGIN_PARAGRAPH2" />Backupul datelor nu se ia în considerare la calcularea cotei de stocare Drive. Fișierelor mari sau fișierelor pe care dezvoltatorii au ales să le excludă din serviciu nu li se va face backup.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="3660234220361471169">Nu prezintă încredere</translation>
 <translation id="3661054927247347545">Certificatul de conectare nu este valid; fereastra se închide în <ph name="MINUTES" />:<ph name="SECONDS" /></translation>
-<translation id="3665589677786828986">Chrome a detectat că unele dintre setări au fost deteriorate de alt program și le-a resetat la valorile inițiale.</translation>
+<translation id="3665589677786828986">Brave a detectat că unele dintre setări au fost deteriorate de alt program și le-a resetat la valorile inițiale.</translation>
 <translation id="3665842570601375360">Securitate:</translation>
 <translation id="3668570675727296296">Setări de limbă</translation>
 <translation id="3668823961463113931">Handlere</translation>
@@ -1788,7 +1788,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3688578402379768763">Actualizat</translation>
 <translation id="3693415264595406141">Parolă:</translation>
 <translation id="3694027410380121301">Selectează fila anterioară</translation>
-<translation id="3697100740575341996">Administratorul IT a dezactivat accesoriile Chrome pentru dispozitivul dvs. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="3697100740575341996">Administratorul IT a dezactivat accesoriile Brave pentru dispozitivul dvs. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="3699624789011381381">Adresă de e-mail</translation>
 <translation id="3702500414347826004">Paginile de pornire au fost modificate pentru a include <ph name="URL" />.</translation>
 <translation id="3704331259350077894">Încetarea operării</translation>
@@ -1801,7 +1801,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="371300529209814631">Înapoi/Înainte</translation>
 <translation id="3714633008798122362">calendar web</translation>
 <translation id="3719826155360621982">Pagina de pornire</translation>
-<translation id="3723158278575423087">Bun venit la experiența Cast în Chromium!</translation>
+<translation id="3723158278575423087">Bun venit la experiența Cast în Brave!</translation>
 <translation id="3725367690636977613">pagini</translation>
 <translation id="3726463242007121105">Acest dispozitiv nu poate fi deschis, deoarece sistemul său de fișiere nu este acceptat.</translation>
 <translation id="3727148787322499904">Modificarea acestei setări se va aplica tuturor rețelelor folosite în comun</translation>
@@ -1836,7 +1836,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3768037234834996183">Se sincronizează preferințele...</translation>
 <translation id="3771294271822695279">Fișiere video</translation>
 <translation id="3775432569830822555">Certificat de server SSL</translation>
-<translation id="3776796446459804932">Această extensie încalcă politica Magazinului web Chrome.</translation>
+<translation id="3776796446459804932">Această extensie încalcă politica Magazinului web Brave.</translation>
 <translation id="3778152852029592020">Descărcarea a fost anulată.</translation>
 <translation id="3778740492972734840">Instrumente pentru &amp;dezvoltatori</translation>
 <translation id="3778868487658107119">Pune-i întrebări. Spune-i să facă diverse lucruri. Este serviciul tău Google personal, gata oricând să te ajute.</translation>
@@ -1870,7 +1870,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="381202950560906753">Adaugă alta</translation>
 <translation id="3812034401428455285"><ph name="UWS_NAME" /> și <ph name="UWS_NAME" /></translation>
 <translation id="3812525830114410218">Certificat nevalid</translation>
-<translation id="3813296892522778813">Accesează <ph name="BEGIN_LINK_CHROMIUM" />Ajutor Google Chrome<ph name="END_LINK_CHROMIUM" /> dacă nu găsești ceea ce cauți</translation>
+<translation id="3813296892522778813">Accesează <ph name="BEGIN_LINK_CHROMIUM" />Ajutor Brave<ph name="END_LINK_CHROMIUM" /> dacă nu găsești ceea ce cauți</translation>
 <translation id="3815571115159309122">S-au găsit <ph name="FILE_COUNT" /> fotografii noi
     <ph name="LINE_BREAK1" />
     Gata pentru backup pe <ph name="BEGIN_LINK" />Google Drive<ph name="END_LINK" /></translation>
@@ -1895,7 +1895,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3838486795898716504">Mai multe <ph name="PAGE_TITLE" /></translation>
 <translation id="3838543471119263078">Cookie-urile și alte date privind site-ul și pluginul</translation>
 <translation id="383891835335927981">Nu s-a mărit sau micșorat niciun site</translation>
-<translation id="3840053866656739575">S-a pierdut conexiunea la Chromebox. Apropie-te sau verifică dispozitivul în timp ce se încearcă reconectarea.</translation>
+<translation id="3840053866656739575">S-a pierdut conexiunea la Bravebox. Apropie-te sau verifică dispozitivul în timp ce se încearcă reconectarea.</translation>
 <translation id="3842552989725514455">Font Serif</translation>
 <translation id="385051799172605136">Înapoi</translation>
 <translation id="3851428669031642514">Încarcă scripturi nesigure</translation>
@@ -1906,7 +1906,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3857228364945137633">Încearcă Smart Lock pentru a debloca dispozitivul <ph name="DEVICE_TYPE" /> fără o parolă când telefonul tău este în apropiere.</translation>
 <translation id="3857773447683694438">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</translation>
 <translation id="3860381078714302691">Bun venit la Hangouts Meet</translation>
-<translation id="3862134173397075045">Bun venit la experiența Cast în Chrome!</translation>
+<translation id="3862134173397075045">Bun venit la experiența Cast în Brave!</translation>
 <translation id="3865414814144988605">Rezoluție</translation>
 <translation id="386548886866354912">Arhivează cu <ph name="EXTENSION_NAME" /></translation>
 <translation id="3866249974567520381">Descriere</translation>
@@ -1920,7 +1920,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="388485010393668001">Finalizare disponibilă: <ph name="COMPLETION_TEXT" /></translation>
 <translation id="3892414795099177503">Adaugă OpenVPN/L2TP…</translation>
 <translation id="3893536212201235195">Citește și modifică setările de accesibilitate</translation>
-<translation id="3893630138897523026">ChromeVox (feedback rostit)</translation>
+<translation id="3893630138897523026">BraveVox (feedback rostit)</translation>
 <translation id="3894427358181296146">Adaugă un dosar</translation>
 <translation id="389589731200570180">Permiteți accesul invitaților</translation>
 <translation id="3897092660631435901">Meniu</translation>
@@ -1939,7 +1939,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3916445069167113093">Acest tip de fișier poate dăuna computerului. Vrei să păstrezi <ph name="FILE_NAME" /> totuși?</translation>
 <translation id="3918972485393593704">Raportează detaliile la Google</translation>
 <translation id="3920504717067627103">Politici de certificat</translation>
-<translation id="392089482157167418">Activați ChromeVox (feedback rostit)</translation>
+<translation id="392089482157167418">Activați BraveVox (feedback rostit)</translation>
 <translation id="3924145049010392604">Meta</translation>
 <translation id="3925247638945319984">Nu aveți jurnale WebRTC înregistrate recent.</translation>
 <translation id="3925573269917483990">Cameră foto:</translation>
@@ -2040,7 +2040,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4087089424473531098">A fost creată extensia:
 
 <ph name="EXTENSION_FILE" /></translation>
-<translation id="4087470595660267445">Instalează aplicații și jocuri din Google Play pe Chromebook. &lt;a target="_blank" href="<ph name="URL" />"&gt;Află mai multe&lt;/a&gt;</translation>
+<translation id="4087470595660267445">Instalează aplicații și jocuri din Google Play pe Bravebook. &lt;a target="_blank" href="<ph name="URL" />"&gt;Află mai multe&lt;/a&gt;</translation>
 <translation id="4088095054444612037">Acceptă pentru grup</translation>
 <translation id="4089521618207933045">Are submeniu</translation>
 <translation id="4090103403438682346">Activați Acces verificat</translation>
@@ -2081,7 +2081,7 @@ De la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4158739975813877944">Deschide playlistul</translation>
 <translation id="4159681666905192102">Acesta este un cont pentru copii gestionat de <ph name="CUSTODIAN_EMAIL" /> și de <ph name="SECOND_CUSTODIAN_EMAIL" />.</translation>
 <translation id="4163560723127662357">Tastatură necunoscută</translation>
-<translation id="4166210099837486476">Monitorizează când acționezi în Chrome</translation>
+<translation id="4166210099837486476">Monitorizează când acționezi în Brave</translation>
 <translation id="4168015872538332605">Aveți acces la anumite setări care aparțin utilizatorului <ph name="PRIMARY_EMAIL" />. Aceste setări vă afectează contul numai când folosiți conectarea multiplă.</translation>
 <translation id="4170314459383239649">Șterge la ieșire</translation>
 <translation id="4172051516777682613">Afișați întotdeauna</translation>
@@ -2242,7 +2242,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4450974146388585462">Diagnosticați</translation>
 <translation id="4452426408005428395">M-am răzgândit</translation>
 <translation id="445923051607553918">Conectează-te la rețeaua Wi-Fi</translation>
-<translation id="4467100756425880649">Galeria Magazinului web Chrome</translation>
+<translation id="4467100756425880649">Galeria Magazinului web Brave</translation>
 <translation id="4467101674048705704">Extinde <ph name="FOLDER_NAME" /></translation>
 <translation id="4474155171896946103">Marchează toate filele...</translation>
 <translation id="4475552974751346499">Caută în descărcări</translation>
@@ -2255,7 +2255,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4482194545587547824">Google poate folosi istoricul de navigare pentru a personaliza Căutarea și alte servicii Google</translation>
 <translation id="4492190037599258964">Rezultatele căutării pentru „<ph name="SEARCH_STRING" />”</translation>
 <translation id="4495419450179050807">Nu afișa pe această pagină</translation>
-<translation id="4499108478945817980">Administratorul solicită să te conectezi la Chrome.</translation>
+<translation id="4499108478945817980">Administratorul solicită să te conectezi la Brave.</translation>
 <translation id="450099669180426158">Pictogramă semn de exclamare</translation>
 <translation id="4501530680793980440">Confirmați eliminarea</translation>
 <translation id="4504940961672722399">Utilizați această extensie dând clic pe pictogramă sau apăsând pe <ph name="EXTENSION_SHORTCUT" />.</translation>
@@ -2267,7 +2267,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="451407183922382411">Cu tehnologia <ph name="COMPANY_NAME" /></translation>
 <translation id="4514542542275172126">Configurați un utilizator monitorizat nou</translation>
 <translation id="451515744433878153">Elimină</translation>
-<translation id="4518677423782794009">Chrome se blochează, afișează pagini de pornire neobișnuite, bare de instrumente sau anunțuri neașteptate pe care nu le poți închide sau îți modifică experiența de navigare în altă manieră? Poți încerca să remediezi problema folosind Chrome Cleanup Tool.</translation>
+<translation id="4518677423782794009">Brave se blochează, afișează pagini de pornire neobișnuite, bare de instrumente sau anunțuri neașteptate pe care nu le poți închide sau îți modifică experiența de navigare în altă manieră? Poți încerca să remediezi problema folosind Brave Cleanup Tool.</translation>
 <translation id="4520385623207007473">Cookie-uri utilizate</translation>
 <translation id="452039078290142656">dispozitive necunoscute de la <ph name="VENDOR_NAME" /></translation>
 <translation id="4522570452068850558">Detalii</translation>
@@ -2285,16 +2285,16 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4544174279960331769">Avatar albastru prestabilit</translation>
 <translation id="4545028762441890696">Pentru a o reactiva, acceptă permisiunile noi:</translation>
 <translation id="4545759655004063573">Nu se poate salva din cauza permisiunilor insuficiente. Salvați în altă locație.</translation>
-<translation id="4546308221697447294">Navighează rapid folosind Google Chrome</translation>
+<translation id="4546308221697447294">Navighează rapid folosind Brave</translation>
 <translation id="4547659257713117923">Nu există file de pe alte dispozitive</translation>
 <translation id="4547992677060857254">Dosarul pe care l-ați selectat conține fișiere cu informații delicate. Sigur doriți să permiteți accesul de scriere permanent pentru „$1” la acest dosar?</translation>
-<translation id="4552031286893852992">Chrome a blocat anunțurile pe acest site, deoarece site-ul tinde să afișeze anunțuri deranjante.</translation>
+<translation id="4552031286893852992">Brave a blocat anunțurile pe acest site, deoarece site-ul tinde să afișeze anunțuri deranjante.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552495056028768700">Acces la pagină</translation>
 <translation id="4552678318981539154">Cumpărați mai mult spațiu de stocare</translation>
 <translation id="4554591392113183336">Extensia externă este în aceeași versiune sau într-o versiune inferioară celei existente.</translation>
 <translation id="4555769855065597957">Umbră</translation>
-<translation id="4555979468244469039">Numele dispozitivului Chromebook</translation>
+<translation id="4555979468244469039">Numele dispozitivului Bravebook</translation>
 <translation id="4556110439722119938">Marcajele, istoricul, parolele și alte setări vor fi sincronizate cu Contul Google, pentru a le putea folosi pe toate dispozitivele</translation>
 <translation id="4557136421275541763">Avertisment:</translation>
 <translation id="4558426062282641716">S-a solicitat permisiunea de lansare automată</translation>
@@ -2345,7 +2345,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4634771451598206121">Conectați-vă din nou...</translation>
 <translation id="4636315944522859212">Imprimanta a fost găsită</translation>
 <translation id="4640525840053037973">Conectează-te folosind Contul Google</translation>
-<translation id="4641539339823703554">Chrome nu a reușit să seteze ora sistemului. Verificați ora de mai jos și corectați-o dacă este necesar.</translation>
+<translation id="4641539339823703554">Brave nu a reușit să seteze ora sistemului. Verificați ora de mai jos și corectați-o dacă este necesar.</translation>
 <translation id="4643612240819915418">&amp;Deschide videoclipul într-o filă nouă</translation>
 <translation id="4645676300727003670">&amp;Păstrați</translation>
 <translation id="4647090755847581616">&amp;Închide fila</translation>
@@ -2353,7 +2353,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4648491805942548247">Permisiuni insuficiente</translation>
 <translation id="4648499713050786492">Deblochează profilul înainte de a adăuga o persoană.</translation>
 <translation id="4653235815000740718">A apărut o problemă la crearea suportului de recuperare a sistemului de operare. Nu s-a găsit dispozitivul de stocare utilizat.</translation>
-<translation id="465499440663162826">Nu s-a putut stabili conexiunea la Magazinul web Chrome.</translation>
+<translation id="465499440663162826">Nu s-a putut stabili conexiunea la Magazinul web Brave.</translation>
 <translation id="4656293982926141856">Acest computer</translation>
 <translation id="4658312088164718891">Introdu parola pentru a activa Smart Lock. Data viitoare, telefonul tău va debloca dispozitivul <ph name="DEVICE_TYPE" />. Dezactivează Smart Lock din Setări.</translation>
 <translation id="4662788913887017617">Trimite marcajul pe iPhone</translation>
@@ -2361,7 +2361,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4664482161435122549">PKCS # 12 Eroare de export</translation>
 <translation id="466481852929361583">Se configurează modulul securizat. Ai răbdare; procesul poate dura câteva minute.</translation>
 <translation id="4665014895760275686">Producător</translation>
-<translation id="466506872045057845">Chrome va reseta permisiunile la valorile prestabilite</translation>
+<translation id="466506872045057845">Brave va reseta permisiunile la valorile prestabilite</translation>
 <translation id="4667176955651319626">Blochează cookie-urile și datele privind site-urile terță parte</translation>
 <translation id="4668721319092543482">Dă clic pentru a activa <ph name="PLUGIN_NAME" /></translation>
 <translation id="4668954208278016290">A apărut o problemă la extragerea imaginii pe computer.</translation>
@@ -2391,7 +2391,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4708794300267213770">Afișează blocarea ecranului când dispozitivul este activat</translation>
 <translation id="4708849949179781599">Închide <ph name="PRODUCT_NAME" /></translation>
 <translation id="4711638718396952945">Restabiliți setările</translation>
-<translation id="4713544552769165154">Acest fișier este creat pentru un computer care folosește software Macintosh. Nu este compatibil cu dispozitivul tău, care rulează sistemul de operare Chrome. Caută o aplicație adecvată similară în <ph name="BEGIN_LINK" />Magazinul web Chrome<ph name="END_LINK" />.<ph name="BEGIN_LINK_HELP" />Află mai multe<ph name="END_LINK_HELP" /></translation>
+<translation id="4713544552769165154">Acest fișier este creat pentru un computer care folosește software Macintosh. Nu este compatibil cu dispozitivul tău, care rulează sistemul de operare Brave. Caută o aplicație adecvată similară în <ph name="BEGIN_LINK" />Magazinul web Brave<ph name="END_LINK" />.<ph name="BEGIN_LINK_HELP" />Află mai multe<ph name="END_LINK_HELP" /></translation>
 <translation id="4714531393479055912"><ph name="PRODUCT_NAME" /> îți poate sincroniza parolele acum.</translation>
 <translation id="4715553623069266137">foarte scurtă (0,8 sec.)</translation>
 <translation id="4716483597559580346">Powerwash pentru securitate suplimentară</translation>
@@ -2414,7 +2414,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4742746985488890273">Fixați în raft</translation>
 <translation id="4744574733485822359">Descărcarea s-a finalizat</translation>
 <translation id="4746971725921104503">Se pare că gestionați deja un utilizator cu acest nume. Doreați să îl <ph name="LINK_START" />importați <ph name="USER_DISPLAY_NAME" /> pe acest dispozitiv<ph name="LINK_END" />?</translation>
-<translation id="4748762018725435655">Necesită o extensie din Magazinul web Chrome</translation>
+<translation id="4748762018725435655">Necesită o extensie din Magazinul web Brave</translation>
 <translation id="4750394297954878236">Sugestii</translation>
 <translation id="475088594373173692">Primul utilizator</translation>
 <translation id="4756378406049221019">Oprește/Reîncarcă</translation>
@@ -2461,7 +2461,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4829768588131278040">Configurează codul PIN</translation>
 <translation id="4830502475412647084">Se instalează actualizarea sistemului de operare</translation>
 <translation id="4830573902900904548">Dispozitivul <ph name="DEVICE_TYPE" /> nu se poate conecta la internet folosind <ph name="NETWORK_NAME" />. Alege altă rețea. <ph name="LEARN_MORE_LINK_START" />Află mai multe<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4835385943915508971">Chrome nu are acces la resursa solicitată.</translation>
+<translation id="4835385943915508971">Brave nu are acces la resursa solicitată.</translation>
 <translation id="4835836146030131423">Eroare la accesarea contului.</translation>
 <translation id="4837926214103741331">Nu ești autorizat(ă) să folosești acest dispozitiv. Contactează proprietarul dispozitivului pentru permisiunea de conectare.</translation>
 <translation id="4837952862063191349">Pentru a debloca și a restabili datele locale, introdu parola anterioară pentru <ph name="DEVICE_TYPE" />.</translation>
@@ -2490,7 +2490,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="48704129375571883">Adaugă funcții suplimentare</translation>
 <translation id="4870903493621965035">Nu există dispozitive asociate</translation>
 <translation id="4871210892959306034">$1 KB</translation>
-<translation id="4871308555310586478">Nu este din Magazinul web Chrome.</translation>
+<translation id="4871308555310586478">Nu este din Magazinul web Brave.</translation>
 <translation id="4871370605780490696">Adaugă un marcaj</translation>
 <translation id="4871833665870725367">Dorești ca <ph name="PASSWORD_MANAGER_BRAND" /> să actualizeze parola pentru <ph name="ORIGIN" />?</translation>
 <translation id="4873312501243535625">Verificator de fișiere media</translation>
@@ -2498,7 +2498,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4875622588773761625">Dorești ca <ph name="PASSWORD_MANAGER_BRAND" /> să îți actualizeze parola pentru acest site?</translation>
 <translation id="4876273079589074638">Ajută-i pe inginerii noștri să investigheze și să remedieze această blocare. Dacă poți, indică pașii exacți. Orice detaliu este important!</translation>
 <translation id="4876895919560854374">Blochează și deblochează ecranul</translation>
-<translation id="4877017884043316611">Conectează cu Chromeboxul</translation>
+<translation id="4877017884043316611">Conectează cu Braveboxul</translation>
 <translation id="4880214202172289027">Glisor de volum</translation>
 <translation id="4880328057631981605">Nume punct de acces</translation>
 <translation id="4880520557730313061">Remediere automată</translation>
@@ -2520,7 +2520,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4900392736118574277">Pagina de pornire a fost înlocuită cu <ph name="URL" />.</translation>
 <translation id="490074449735753175">Folosește un serviciu web pentru a corecta greșelile de scriere</translation>
 <translation id="49027928311173603">Politica descărcată de pe server este nevalidă: <ph name="VALIDATION_ERROR" />.</translation>
-<translation id="4903369323166982260">Rulează Chrome Cleanup Tool</translation>
+<translation id="4903369323166982260">Rulează Brave Cleanup Tool</translation>
 <translation id="4907161631261076876">Acest fișier nu este descărcat de obicei și ar putea fi periculos.</translation>
 <translation id="4907306957610201395">Categoria de permisiuni</translation>
 <translation id="4908811072292128752">Deschide o filă nouă pentru a naviga pe două site-uri simultan</translation>
@@ -2552,13 +2552,13 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4953689047182316270">să răspundă evenimentelor de accesibilitate</translation>
 <translation id="4953808748584563296">Avatar portocaliu prestabilit</translation>
 <translation id="4955814292505481804">Anuală</translation>
-<translation id="495931528404527476">În Chrome</translation>
+<translation id="495931528404527476">În Brave</translation>
 <translation id="496226124210045887">Dosarul pe care l-ați selectat conține fișiere cu informații delicate. Sigur doriți să permiteți accesul de citire permanent pentru „$1” la acest dosar?</translation>
 <translation id="4964455510556214366">Aranjare</translation>
 <translation id="4964673849688379040">Se verifică...</translation>
 <translation id="4965808351167763748">Sigur dorești să configurezi acest dispozitiv pentru a rula Hangouts Meet?</translation>
 <translation id="4967749818080339523">Selectează un cont</translation>
-<translation id="496888482094675990">Aplicația Fișiere oferă acces rapid la fișierele pe care le-ai salvat în Google Drive, în spațiul de stocare extern sau pe dispozitivul cu sistem de operare Chrome.</translation>
+<translation id="496888482094675990">Aplicația Fișiere oferă acces rapid la fișierele pe care le-ai salvat în Google Drive, în spațiul de stocare extern sau pe dispozitivul cu sistem de operare Brave.</translation>
 <translation id="4969785127455456148">Album</translation>
 <translation id="4971078675931090428">Procesul de redenumire poate dura câteva secunde. Așteaptă.</translation>
 <translation id="4971412780836297815">Deschide când s-a finalizat</translation>
@@ -2574,7 +2574,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="4988792151665380515">Exportul cheii publice nu a reușit.</translation>
 <translation id="49896407730300355">Rotiți în sens &amp;invers acelor de ceasornic</translation>
 <translation id="4989966318180235467">Inspectați pagina de fun&amp;dal</translation>
-<translation id="4990343175649730969">Descarcă Chrome Cleanup Tool</translation>
+<translation id="4990343175649730969">Descarcă Brave Cleanup Tool</translation>
 <translation id="4991420928586866460">Tastele din rândul de sus sunt considerate taste pentru funcții</translation>
 <translation id="499165176004408815">Utilizați modul de contrast ridicat</translation>
 <translation id="4992066212339426712">Activează sunetul</translation>
@@ -2630,7 +2630,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5087249366037322692">Adăugată de o terță parte</translation>
 <translation id="5087580092889165836">Adaugă un card</translation>
 <translation id="5087864757604726239">înapoi</translation>
-<translation id="5087926280563932024">Contul nu a putut fi verificat. Încearcă din nou sau repornește Chromebookul.</translation>
+<translation id="5087926280563932024">Contul nu a putut fi verificat. Încearcă din nou sau repornește Bravebookul.</translation>
 <translation id="5088172560898466307">Nume de gazdă server</translation>
 <translation id="5088534251099454936">PKCS #1 SHA-512 cu criptare RSA</translation>
 <translation id="509429900233858213">A apărut o eroare.</translation>
@@ -2638,7 +2638,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5097002363526479830">A eșuat conectarea la rețeaua „<ph name="NAME" />”: <ph name="DETAILS" /></translation>
 <translation id="5098647635849512368">Nu se poate găsi calea completă către directorul de împachetat.</translation>
 <translation id="5099354524039520280">sus</translation>
-<translation id="5100114659116077956">Pentru a vă oferi cele mai recente funcții, Chromebox trebuie actualizat.</translation>
+<translation id="5100114659116077956">Pentru a vă oferi cele mai recente funcții, Bravebox trebuie actualizat.</translation>
 <translation id="5101042277149003567">Deschide toate marcajele</translation>
 <translation id="5105855035535475848">Fixează file</translation>
 <translation id="5108967062857032718">Setări – Elimină aplicațiile Android</translation>
@@ -2782,7 +2782,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5316588172263354223">Căutare vocală, oricând</translation>
 <translation id="5316716239522500219">Oglindiți monitoarele</translation>
 <translation id="5317780077021120954">Salvează</translation>
-<translation id="5319359161174645648">Google recomandă Chrome</translation>
+<translation id="5319359161174645648">Google recomandă Brave</translation>
 <translation id="532247166573571973">Este posibil ca serverul să nu poată fi accesat. Încearcă din nou mai târziu.</translation>
 <translation id="532360961509278431">Nu se poate deschide „$1”: $2</translation>
 <translation id="5324780743567488672">Setează automat fusul orar folosind locația</translation>
@@ -2807,7 +2807,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="534916491091036097">Parant. desch.</translation>
 <translation id="5350965906220856151">Hopa!</translation>
 <translation id="5352033265844765294">Marcare temporală</translation>
-<translation id="5353252989841766347">Exportă parolele din Chrome</translation>
+<translation id="5353252989841766347">Exportă parolele din Brave</translation>
 <translation id="5355097969896547230">Găsește din nou</translation>
 <translation id="5355926466126177564">Extensia „<ph name="EXTENSION_NAME" />” a modificat ce pagină se afișează când cauți din caseta polivalentă.</translation>
 <translation id="5360150013186312835">Afișează în bara de instrumente</translation>
@@ -2817,7 +2817,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5367116720986018215">Limitat</translation>
 <translation id="5368720394188453070">Telefonul este blocat. Pentru acces, deblochează-l.</translation>
 <translation id="5368779022775404937">Conectează-te la <ph name="REALM" /></translation>
-<translation id="5369927996833026114">Descoperiți Lansatorul de aplicații Chrome</translation>
+<translation id="5369927996833026114">Descoperiți Lansatorul de aplicații Brave</translation>
 <translation id="5370819323174483825">&amp;Reîncarcă</translation>
 <translation id="5372529912055771682">Modul de înscriere furnizat nu este acceptat de această versiune a sistemului de operare. Asigurați-vă că rulați cea mai recentă versiune și încercați din nou.</translation>
 <translation id="5374359983950678924">Schimbă imaginea</translation>
@@ -2920,7 +2920,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5511823366942919280">Sigur dorești să configurezi acest dispozitiv drept „Rechin”?</translation>
 <translation id="5512653252560939721">Certificatul de utilizator trebuie să fie susținut de hardware.</translation>
 <translation id="5513242761114685513">Meniu contextual</translation>
-<translation id="5516183516694518900">Conectează-te la Chrome cu Contul Google pentru a accesa marcajele, istoricul, parolele și alte setări pe toate dispozitivele.</translation>
+<translation id="5516183516694518900">Conectează-te la Brave cu Contul Google pentru a accesa marcajele, istoricul, parolele și alte setări pe toate dispozitivele.</translation>
 <translation id="551752069230578406">Imprimanta se adaugă la cont – poate dura un timp...</translation>
 <translation id="5518584115117143805">Certificat de criptare a e-mailurilor</translation>
 <translation id="5521078259930077036">Aceasta este pagina de pornire la care vă așteptați?</translation>
@@ -2998,7 +2998,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5624120631404540903">Gestionați parolele</translation>
 <translation id="5626134646977739690">Nume:</translation>
 <translation id="5627086634964711283">Stabilește și ce pagină se afișează când dați clic pe butonul Pagină de pornire.</translation>
-<translation id="5627676517703583263">Navighează inteligent folosind Chrome</translation>
+<translation id="5627676517703583263">Navighează inteligent folosind Brave</translation>
 <translation id="562935524653278697">Administratorul a dezactivat sincronizarea marcajelor, istoricului, parolelor și a altor setări.</translation>
 <translation id="563535393368633106">Solicită permisiunea înainte de accesare (recomandat)</translation>
 <translation id="5636996382092289526">Pentru a utiliza <ph name="NETWORK_ID" /> ar putea fi necesar să <ph name="LINK_START" />accesați mai întâi pagina de conectare a rețelei<ph name="LINK_END" />, care se va deschide automat în câteva secunde. Dacă acest lucru nu se întâmplă, rețeaua nu poate fi utilizată.</translation>
@@ -3011,7 +3011,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5649053991847567735">Descărcări automate</translation>
 <translation id="5649768706273821470">Ascultați</translation>
 <translation id="5653140146600257126">Dosarul numit „$1” există deja. Alegeți un alt nume.</translation>
-<translation id="5657667036353380798">Extensia externă necesită instalarea versiunii Chrome <ph name="MINIMUM_CHROME_VERSION" /> sau a unei versiuni superioare.</translation>
+<translation id="5657667036353380798">Extensia externă necesită instalarea versiunii Brave <ph name="MINIMUM_CHROME_VERSION" /> sau a unei versiuni superioare.</translation>
 <translation id="5658415415603568799">Pentru mai multă siguranță, Smart Lock îți solicită să introduci parola după 20 de ore.</translation>
 <translation id="5659593005791499971">Adresă de e-mail</translation>
 <translation id="5661272705528507004">Cardul SIM este dezactivat și nu poate fi utilizat. Contactează furnizorul de servicii pentru o înlocuire.</translation>
@@ -3064,7 +3064,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5750324801516359607">Departe</translation>
 <translation id="5751545372099101699">Elementul 4 din raft</translation>
 <translation id="5752162773804266219">Pentru a ajuta <ph name="DEVICE_TYPE" /> să reacționeze când îți aude și pentru a accesa căutarea vocală în mod simplu și fiabil, mai întâi Google trebuie să îți învețe vocea.</translation>
-<translation id="5752453871435543420">Backup în cloud pentru sistemul de operare Chrome</translation>
+<translation id="5752453871435543420">Backup în cloud pentru sistemul de operare Brave</translation>
 <translation id="5754903485544371559">Adaugă în Aplicații...</translation>
 <translation id="5756163054456765343">C&amp;entrul de ajutor</translation>
 <translation id="5759728514498647443">Documentele pe care le trimiți prin <ph name="APP_NAME" /> pentru a fi printate pot fi citite de <ph name="APP_NAME" />.</translation>
@@ -3081,7 +3081,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5774295353725270860">Deschideți aplicația Fișiere</translation>
 <translation id="5774515636230743468">Manifest:</translation>
 <translation id="577624874850706961">Caută cookie-uri</translation>
-<translation id="5777468213129569553">Deschide Chrome</translation>
+<translation id="5777468213129569553">Deschide Brave</translation>
 <translation id="5778747455497889540">Mai jos se află parola generată aleatoriu pentru modulul securizat, care a fost atribuită computerului tău.</translation>
 <translation id="5780973441651030252">Prioritatea procesului</translation>
 <translation id="5781865261247219930">Trimite comenzile la <ph name="EXTENSION_NAME" /></translation>
@@ -3092,7 +3092,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5788367137662787332">Ne pare rău, cel puțin o partiție de pe dispozitivul <ph name="DEVICE_LABEL" /> nu a putut fi montată.</translation>
 <translation id="5790085346892983794">Ai reușit</translation>
 <translation id="5794414402486823030">Deschide întotdeauna cu Utilitarul de vizualizare al sistemului</translation>
-<translation id="5794786537412027208">Ieși din toate aplicațiile Chrome</translation>
+<translation id="5794786537412027208">Ieși din toate aplicațiile Brave</translation>
 <translation id="5800020978570554460">Fișierul de destinație a fost trunchiat sau eliminat de la ultima descărcare.</translation>
 <translation id="5801568494490449797">Preferințe</translation>
 <translation id="5804241973901381774">Permisiuni</translation>
@@ -3124,7 +3124,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5848924408752252705">Atinge pentru a naviga înapoi.</translation>
 <translation id="5849570051105887917">Codul furnizorului local</translation>
 <translation id="5849869942539715694">Împachetează extensia...</translation>
-<translation id="5850516540536751549">Acest tip de fișier nu este acceptat. Accesați <ph name="BEGIN_LINK" />Magazinul web Chrome<ph name="END_LINK" /> pentru a găsi o aplicație care poate deschide acest tip de fișier.
+<translation id="5850516540536751549">Acest tip de fișier nu este acceptat. Accesați <ph name="BEGIN_LINK" />Magazinul web Brave<ph name="END_LINK" /> pentru a găsi o aplicație care poate deschide acest tip de fișier.
     <ph name="BEGIN_LINK_HELP" />Aflați mai multe<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">Nimic de văzut aici...</translation>
 <translation id="5851868085455377790">Emitent</translation>
@@ -3176,12 +3176,12 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5916664084637901428">Activat</translation>
 <translation id="59174027418879706">Activat</translation>
 <translation id="5920543303088087579">Conectarea la această rețea este dezactivată de administrator</translation>
-<translation id="5920835625712313205">Instrument de scriere a imaginilor de sistem pentru sistemul de operare Chrome</translation>
+<translation id="5920835625712313205">Instrument de scriere a imaginilor de sistem pentru sistemul de operare Brave</translation>
 <translation id="5921745308587794300">Rotește fereastra</translation>
 <translation id="5924047253200400718">Obține ajutor <ph name="SCANNING_STATUS" /></translation>
 <translation id="5925147183566400388">Adresa URI a declarației de certificare a practicii</translation>
 <translation id="5927692884057333064">Se redenumește...</translation>
-<translation id="592880897588170157">Descarcă fișierele PDF în loc să le deschizi automat în Chrome</translation>
+<translation id="592880897588170157">Descarcă fișierele PDF în loc să le deschizi automat în Brave</translation>
 <translation id="5931146425219109062">Citește și modifică toate datele de pe site-urile pe care le accesezi</translation>
 <translation id="5932881020239635062">Număr de serie</translation>
 <translation id="5933376509899483611">Fus orar</translation>
@@ -3208,7 +3208,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="5972708806901999743">Mută în partea de sus</translation>
 <translation id="5972826969634861500">Pornește <ph name="PRODUCT_NAME" /></translation>
 <translation id="5975083100439434680">Micșorează</translation>
-<translation id="5975730206036440725">Nu se poate găsi fișierul PPD. Asigură-te că Chromebookul este online și încearcă din nou.</translation>
+<translation id="5975730206036440725">Nu se poate găsi fișierul PPD. Asigură-te că Bravebookul este online și încearcă din nou.</translation>
 <translation id="5975792506968920132">Procent de încărcare a bateriei</translation>
 <translation id="5976160379964388480">Altele</translation>
 <translation id="5978264784700053212">Centru de mesaje</translation>
@@ -3248,8 +3248,8 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="604124094241169006">Automat</translation>
 <translation id="6042169520002885235">Selectează o marcă și un model de imprimantă</translation>
 <translation id="6042308850641462728">Mai multe</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> trimite conținutul unei file Chrome către <ph name="TAB_NAME" />.</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> trimite conținutul unei file Chrome și conținutul audio către <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> trimite conținutul unei file Brave către <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> trimite conținutul unei file Brave și conținutul audio către <ph name="TAB_NAME" />.</translation>
 <translation id="6049004884579590341">Pentru a ieși din ecranul complet, apasă lung |<ph name="ACCELERATOR" />|</translation>
 <translation id="6049065490165456785">Fotografii de pe camera foto internă</translation>
 <translation id="6051354611314852653">Hopa! Sistemul nu a putut să autorizeze accesul la API pentru acest dispozitiv.</translation>
@@ -3309,7 +3309,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6137767437444130246">Certificat de utilizator</translation>
 <translation id="6138680304137685902">Semnătură X9.62 ECDSA cu SHA-384</translation>
 <translation id="6143186082490678276">Primiți ajutor</translation>
-<translation id="6144938890088808325">Ajută-ne să îmbunătățim Chromebookurile</translation>
+<translation id="6144938890088808325">Ajută-ne să îmbunătățim Bravebookurile</translation>
 <translation id="6146563240635539929">Videoclipuri</translation>
 <translation id="6147020289383635445">Previzualizarea înainte de printare nu a reușit.</translation>
 <translation id="6150853954427645995">Pentru a salva acest fișier pentru utilizare offline, revino online, dă clic dreapta pe fișier și selectează opțiunea <ph name="OFFLINE_CHECKBOX_NAME" />.</translation>
@@ -3325,7 +3325,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6163522313638838258">Extinde-le pe toate...</translation>
 <translation id="6164005077879661055">Toate fișierele și datele locale asociate acestui utilizator monitorizat vor fi șterse definitiv după eliminarea acestui utilizator monitorizat. Site-urile web accesate și setările acestui utilizator monitorizat pot fi în continuare vizibile pentru manager la <ph name="MANAGEMENT_URL" />.</translation>
 <translation id="6165508094623778733">Află mai multe</translation>
-<translation id="6166185671393271715">Importă parolele în Chrome</translation>
+<translation id="6166185671393271715">Importă parolele în Brave</translation>
 <translation id="6169040057125497443">Verifică microfonul.</translation>
 <translation id="6169666352732958425">Nu se poate proiecta desktopul.</translation>
 <translation id="6171948306033499786">Întrerupe printarea</translation>
@@ -3353,7 +3353,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6220413761270491930">Eroare la încărcarea extensiei</translation>
 <translation id="6223447490656896591">Imagine personalizată:</translation>
 <translation id="6223747324484398595">Pentru a folosi Tetheringul instantaneu, activează Bluetooth</translation>
-<translation id="62243461820985415">Chrome nu poate descărca această imagine de fundal.</translation>
+<translation id="62243461820985415">Brave nu poate descărca această imagine de fundal.</translation>
 <translation id="6224481128663248237">Formatarea a fost finalizată!</translation>
 <translation id="6225475702458870625">Conexiune de date disponibilă de pe <ph name="PHONE_NAME" /></translation>
 <translation id="6226777517901268232">Fișierul cu cheia privată (opțional)</translation>
@@ -3389,7 +3389,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6270770586500173387">Trimite <ph name="BEGIN_LINK1" />informații despre sistem și aplicații<ph name="END_LINK1" /> și <ph name="BEGIN_LINK2" />valori<ph name="END_LINK2" /></translation>
 <translation id="6272643420381259437">A apărut o eroare (<ph name="ERROR" />) la descărcarea pluginului</translation>
 <translation id="6273677812470008672">Calitate</translation>
-<translation id="6274087148640822908">Găsește extensii și aplicații în <ph name="BEGIN_LINK" />Magazinul web Chrome<ph name="END_LINK" /></translation>
+<translation id="6274087148640822908">Găsește extensii și aplicații în <ph name="BEGIN_LINK" />Magazinul web Brave<ph name="END_LINK" /></translation>
 <translation id="62751439899495218">Schimbă fotografia</translation>
 <translation id="6276301056778294989">Asigură-te că telefonul afișează același cod.</translation>
 <translation id="6277105963844135994">Conectarea la rețea a expirat</translation>
@@ -3403,7 +3403,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6286684120317096255">Utilizarea datelor este măsurată</translation>
 <translation id="6286708577777130801">Detalii privind parolele salvate</translation>
 <translation id="6287852322318138013">Selectați o aplicație pentru deschiderea acestui fișier</translation>
-<translation id="6290556621549272952">Poți să folosești această funcție pentru a afișa conținut din Chromium pe televizor sau pe alte dispozitive.</translation>
+<translation id="6290556621549272952">Poți să folosești această funcție pentru a afișa conținut din Brave pe televizor sau pe alte dispozitive.</translation>
 <translation id="6291953229176937411">&amp;Afișează în Finder</translation>
 <translation id="6295158916970320988">Toate site-urile</translation>
 <translation id="6295855836753816081">Se salvează...</translation>
@@ -3412,7 +3412,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6305607932814307878">Politică globală:</translation>
 <translation id="6307990684951724544">Sistem ocupat</translation>
 <translation id="6308937455967653460">Salvează lin&amp;kul ca...</translation>
-<translation id="6311220991371174222">Nu se poate porni Chrome, deoarece a apărut o eroare la deschiderea profilului. Repornește Chrome.</translation>
+<translation id="6311220991371174222">Nu se poate porni Brave, deoarece a apărut o eroare la deschiderea profilului. Repornește Brave.</translation>
 <translation id="6312403991423642364">Eroare de rețea necunoscută</translation>
 <translation id="6313641880021325787">IEȘI DIN RV</translation>
 <translation id="6314335155547195432">Generează o parolă</translation>
@@ -3423,7 +3423,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6317369057005134371">Se așteaptă fereastra aplicației...</translation>
 <translation id="6322279351188361895">Cheia privată nu a fost citită.</translation>
 <translation id="6325191661371220117">Dezactivați lansarea automată</translation>
-<translation id="6326175484149238433">Eliminați din Chrome</translation>
+<translation id="6326175484149238433">Eliminați din Brave</translation>
 <translation id="6326855256003666642">Număr necesar pentru stare activă</translation>
 <translation id="632744581670418035">Suprapunere a tastaturii</translation>
 <translation id="6327785803543103246">Web Proxy Auto-Discovery</translation>
@@ -3431,7 +3431,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6333064448949140209">Fișierul va fi trimis la Google pentru remedierea erorilor</translation>
 <translation id="6333834492048057036">Focalizează pe bara de adrese pentru căutare</translation>
 <translation id="6339668969738228384">Creează un profil nou pentru <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="6340017061976355871">Nu s-a putut conecta la server. Verifică conexiunea la rețea și încearcă din nou. Dacă problema persistă, repornește Chromebookul.</translation>
+<translation id="6340017061976355871">Nu s-a putut conecta la server. Verifică conexiunea la rețea și încearcă din nou. Dacă problema persistă, repornește Bravebookul.</translation>
 <translation id="6340071272923955280">Internet Printing Protocol (IPPS)</translation>
 <translation id="6341850831632289108">Detectează locația dvs. fizică</translation>
 <translation id="634208815998129842">Manager de activități</translation>
@@ -3454,7 +3454,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374108032506706911">Configurează Smart Lock pentru Android</translation>
 <translation id="6374469231428023295">Încearcă din nou</translation>
-<translation id="6377158645544167202">Nu se poate conecta imprimanta. Asigură-te că este pornită și conectată la Chromebook prin Wi-Fi sau USB.</translation>
+<translation id="6377158645544167202">Nu se poate conecta imprimanta. Asigură-te că este pornită și conectată la Bravebook prin Wi-Fi sau USB.</translation>
 <translation id="6380143666419481200">Acceptați și continuați</translation>
 <translation id="6383051423892982287">Criptează datele sincronizate folosind propria <ph name="BEGIN_LINK" />expresie de acces<ph name="END_LINK" /></translation>
 <translation id="6384275966486438344">Schimbați setările de căutare la: <ph name="SEARCH_HOST" /></translation>
@@ -3491,7 +3491,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6419546358665792306">Încarcă extensia neîmpachetată</translation>
 <translation id="642282551015776456">Acest nume nu poate fi folosit ca nume de fișier sau de dosar</translation>
 <translation id="6423239382391657905">OpenVPN</translation>
-<translation id="6426200009596957090">Deschide setările ChromeVox</translation>
+<translation id="6426200009596957090">Deschide setările BraveVox</translation>
 <translation id="642870617012116879">Acest site a încercat să descarce automat mai multe fișiere.</translation>
 <translation id="6430814529589430811">ASCII codificat Base64, certificat unic</translation>
 <translation id="6431217872648827691">Toate datele au fost criptate cu parola Google începând cu
@@ -3500,7 +3500,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6433870913154270462">Informații despre fișierul imagine</translation>
 <translation id="6434309073475700221">Renunță</translation>
 <translation id="6435285122322546452">Gestionați aplicațiile de tip chioșc...</translation>
-<translation id="6436164536244065364">Vizualizați în Magazinul web Chrome</translation>
+<translation id="6436164536244065364">Vizualizați în Magazinul web Brave</translation>
 <translation id="6437213622978068772">Reîncărcați (Ctrl + R)</translation>
 <translation id="6438234780621650381">Restabilește setările</translation>
 <translation id="6438992844451964465"><ph name="WINDOW_TITLE" /> – se redă sunet</translation>
@@ -3532,7 +3532,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6473842110411557830">Ilustrație pentru Powerwash</translation>
 <translation id="6474706907372204693">Metoda de introducere anterioară</translation>
 <translation id="6474884162850599008">Deconectează contul Google Drive</translation>
-<translation id="6475079491906995455"><ph name="SERVICE_NAME" /> dorește să verifice dacă folosești un dispozitiv cu sistem de operare Chrome eligibil. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="6475079491906995455"><ph name="SERVICE_NAME" /> dorește să verifice dacă folosești un dispozitiv cu sistem de operare Brave eligibil. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="6475697075626596525"><ph name="APP_NAME" /> încearcă să trimită conținut de pe ecran. Alege ce dorești să trimiți.</translation>
 <translation id="6478248366783946499">Păstrezi fișierul periculos?</translation>
 <translation id="6483805311199035658">Se deschide <ph name="FILE" />...</translation>
@@ -3544,7 +3544,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6492313032770352219">Dimensiune pe disc:</translation>
 <translation id="6494445798847293442">Nu este o Autoritate de certificare</translation>
 <translation id="6498249116389603658">&amp;Toate limbile tale</translation>
-<translation id="6498792256302744870">Aplicațiile pe care le-ai descărcat de pe Google Play vor fi șterse de pe acest Chromebook.
+<translation id="6498792256302744870">Aplicațiile pe care le-ai descărcat de pe Google Play vor fi șterse de pe acest Bravebook.
 
     Este posibil să se șteargă și conținutul achiziționat, cum ar fi filmele, emisiunile TV, cântecele, cărțile sau alte achiziții în aplicație.
 
@@ -3558,7 +3558,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6508261954199872201">Aplicație: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licență media</translation>
 <translation id="6510568984200103950">Mai puține setări</translation>
-<translation id="6513247462497316522">Google Chrome va utiliza date mobile dacă nu ești conectat(ă) la altă rețea.</translation>
+<translation id="6513247462497316522">Brave va utiliza date mobile dacă nu ești conectat(ă) la altă rețea.</translation>
 <translation id="6514010653036109809">Dispozitiv disponibil:</translation>
 <translation id="6514565641373682518">Această pagină a dezactivat cursorul mouse-ului dvs.</translation>
 <translation id="6518014396551869914">Cop&amp;iază imaginea</translation>
@@ -3570,14 +3570,14 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6522797484310591766">Conectați-vă acum</translation>
 <translation id="6527303717912515753">Trimite</translation>
 <translation id="6528513914570774834">Permite altor utilizatori ai dispozitivului să folosească această rețea</translation>
-<translation id="652948702951888897">Istoricul Chrome</translation>
+<translation id="652948702951888897">Istoricul Brave</translation>
 <translation id="653019979737152879">Se sincronizează <ph name="FILE_NAME" />...</translation>
 <translation id="6531282281159901044">Păstrează fișierul periculos</translation>
 <translation id="6534583978616527129">Inițializează conexiunea</translation>
 <translation id="654039047105555694"><ph name="BEGIN_BOLD" />Notă:<ph name="END_BOLD" /> activați culegerea datelor numai dacă înțelegeți consecințele acțiunii sau dacă vi s-a solicitat să o activați, deoarece aceasta ar putea reduce performanța.</translation>
 <translation id="654233263479157500">Folosește un serviciu web pentru a soluționa erorile de navigare</translation>
 <translation id="6544215763872433504">Browserul web de la Google, pentru tine</translation>
-<translation id="6545325945815270297">Gestionează datele și dispozitivele sincronizate în <ph name="BEGIN_LINK" />Tabloul de bord Chrome<ph name="END_LINK" />.</translation>
+<translation id="6545325945815270297">Gestionează datele și dispozitivele sincronizate în <ph name="BEGIN_LINK" />Tabloul de bord Brave<ph name="END_LINK" />.</translation>
 <translation id="6545665334409411530">Frecvența de repetare</translation>
 <translation id="6545834809683560467">Folosește un serviciu de predicții pentru a completa căutările și adresele URL introduse în bara de adrese sau în caseta de căutare a lansatorului de aplicații</translation>
 <translation id="6546686722964485737">Conectați-vă la rețeaua WiMAX</translation>
@@ -3655,14 +3655,14 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6657585470893396449">Parolă</translation>
 <translation id="6659213950629089752">Această pagină a fost mărită sau micșorată de extensia „<ph name="NAME" />”</translation>
 <translation id="6659594942844771486">Filă</translation>
-<translation id="6664237456442406323">Din păcate, computerul dvs. este configurat cu un ID de hardware incorect. Acest lucru împiedică actualizarea sistemului de operare Chrome cu cele mai recente remedieri de securitate. În plus, computerul <ph name="BEGIN_BOLD" />ar putea fi vulnerabil la atacuri ale site-urilor web rău intenționate<ph name="END_BOLD" />.</translation>
+<translation id="6664237456442406323">Din păcate, computerul dvs. este configurat cu un ID de hardware incorect. Acest lucru împiedică actualizarea sistemului de operare Brave cu cele mai recente remedieri de securitate. În plus, computerul <ph name="BEGIN_BOLD" />ar putea fi vulnerabil la atacuri ale site-urilor web rău intenționate<ph name="END_BOLD" />.</translation>
 <translation id="6664774537677393800">A apărut o eroare la deschiderea profilului. Deconectează-te și conectează-te din nou.</translation>
 <translation id="6666647326143344290">folosind Contul Google</translation>
 <translation id="6673391612973410118"><ph name="PRINTER_MAKE_OR_MODEL" /> (USB)</translation>
 <translation id="667517062706956822">Dorești ca Google să traducă această pagină din <ph name="SOURCE_LANGUAGE" /> în <ph name="TARGET_LANGUAGE" />?</translation>
 <translation id="6675665718701918026">Dispozitivul de indicat este conectat</translation>
 <translation id="6677037229676347494">ID-ul așteptat era „<ph name="EXPECTED_ID" />”, dar ID-ul a fost „<ph name="NEW_ID" />”.</translation>
-<translation id="6678312694238602710">Căutarea vocală „Ok Google” a fost eliminată din sistemul de operare Chrome</translation>
+<translation id="6678312694238602710">Căutarea vocală „Ok Google” a fost eliminată din sistemul de operare Brave</translation>
 <translation id="6678717876183468697">Adresa URL a interogării</translation>
 <translation id="6680028776254050810">Comutați la alt utilizator</translation>
 <translation id="6680442031740878064">Spațiu disponibil: <ph name="AVAILABLE_SPACE" /></translation>
@@ -3721,7 +3721,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6759193508432371551">Resetare la setările din fabrică</translation>
 <translation id="6766101255664245434">Fotografiază sau alege o fotografie ori o pictogramă existentă.
           <ph name="LINE_BREAK" />
-          Această fotografie se va afișa pe ecranul de conectare și de blocare al Chromebookului.</translation>
+          Această fotografie se va afișa pe ecranul de conectare și de blocare al Bravebookului.</translation>
 <translation id="6769712124046837540">Se adaugă imprimanta...</translation>
 <translation id="6771503742377376720">Este o Autoritate de certificare</translation>
 <translation id="6773575010135450071">Mai multe acțiuni...</translation>
@@ -3754,12 +3754,12 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6817358880000653228">Parolele salvate pentru acest site:</translation>
 <translation id="6820687829547641339">Arhivă .tar comprimată Gzip</translation>
 <translation id="682123305478866682">Proiectează desktopul</translation>
-<translation id="6823506025919456619">Pentru a vedea dispozitivele, este necesar să vă conectați la Chrome</translation>
+<translation id="6823506025919456619">Pentru a vedea dispozitivele, este necesar să vă conectați la Brave</translation>
 <translation id="6824564591481349393">Copiază adresa de &amp;e-mail</translation>
 <translation id="6825184156888454064">Sortează după nume</translation>
 <translation id="6827236167376090743">Videoclipul va fi redat în continuu.</translation>
 <translation id="6828153365543658583">Restricționează conectarea la următorii utilizatori:</translation>
-<translation id="6828434191343384461">Datele selectate au fost eliminate din Chrome și de pe dispozitivele sincronizate. Contul Google poate să ofere alte forme ale istoricului de navigare, cum ar fi căutările și activitatea din alte servicii Google, la <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />.</translation>
+<translation id="6828434191343384461">Datele selectate au fost eliminate din Brave și de pe dispozitivele sincronizate. Contul Google poate să ofere alte forme ale istoricului de navigare, cum ar fi căutările și activitatea din alte servicii Google, la <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />.</translation>
 <translation id="6828860976882136098">Actualizările automate nu au putut fi configurate pentru toți utilizatorii (eroare la executarea testării pe dispozitiv: <ph name="ERROR_NUMBER" />)</translation>
 <translation id="6829250331733125857">Primește ajutor în privința <ph name="DEVICE_TYPE" />.</translation>
 <translation id="6829270497922309893">Înscrie-te în organizație</translation>
@@ -3789,7 +3789,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6871644448911473373">Respondent OCSP: <ph name="LOCATION" /></translation>
 <translation id="6872781471649843364">Parola pe care ai introdus-o a fost respinsă de server.</translation>
 <translation id="6874681241562738119">Eroare de conectare</translation>
-<translation id="687588960939994211">Ștergeți și istoricul, marcajele, setările și alte date Chrome salvate pe acest dispozitiv.</translation>
+<translation id="687588960939994211">Ștergeți și istoricul, marcajele, setările și alte date Brave salvate pe acest dispozitiv.</translation>
 <translation id="6880587130513028875">Imaginile au fost blocate pe această pagină.</translation>
 <translation id="6883319974225028188">Hopa! Sistemul nu a putut salva configurarea dispozitivului.</translation>
 <translation id="6885771755599377173">Previzualizarea informațiilor de sistem</translation>
@@ -3840,11 +3840,11 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6976108581241006975">Consolă pentru JavaScript</translation>
 <translation id="6977381486153291903">Versiune firmware</translation>
 <translation id="6978121630131642226">Motoarele de căutare</translation>
-<translation id="6978611942794658017">Acest fișier este destinat pentru un PC ce utilizează software-ul Windows. Acesta nu este compatibil cu dispozitivul tău care rulează sistemul de operare Chrome. Caută o aplicație de înlocuire potrivită în Magazinul web Chrome.</translation>
+<translation id="6978611942794658017">Acest fișier este destinat pentru un PC ce utilizează software-ul Windows. Acesta nu este compatibil cu dispozitivul tău care rulează sistemul de operare Brave. Caută o aplicație de înlocuire potrivită în Magazinul web Brave.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979737339423435258">Dintotdeauna</translation>
 <translation id="6980462514016882061">Google poate folosi istoricul de navigare pentru a personaliza Căutarea, anunțurile și alte servicii Google</translation>
-<translation id="6980956047710795611">Efectuați migrarea tuturor datelor din sistemul de operare Chrome la noua parolă (este necesară parola anterioară)</translation>
+<translation id="6980956047710795611">Efectuați migrarea tuturor datelor din sistemul de operare Brave la noua parolă (este necesară parola anterioară)</translation>
 <translation id="6981982820502123353">Accesibilitate</translation>
 <translation id="6982896539684144327">A fost detectată o imprimantă de la <ph name="VENDOR_NAME" /></translation>
 <translation id="6983201004195852174">Apasă lung tasta de căutare, apoi dă clic sau trage pentru a selecta conținutul care trebuie citit cu voce tare</translation>
@@ -3861,7 +3861,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="6996946928646015361">Modulul securizat este dezactivat sau absent.</translation>
 <translation id="6998711733709403587"><ph name="SELCTED_FOLDERS_COUNT" /> (de) dosare selectate</translation>
 <translation id="6998793565256476099">Înscrie dispozitivul pentru conferințe video</translation>
-<translation id="7002055706763150362">Pentru a configura Smart Lock pentru Chromebook, Google trebuie să se asigure că ești tu: introdu parola pentru a începe.</translation>
+<translation id="7002055706763150362">Pentru a configura Smart Lock pentru Bravebook, Google trebuie să se asigure că ești tu: introdu parola pentru a începe.</translation>
 <translation id="7002454948392136538">Alegeți administratorul pentru acest utilizator monitorizat</translation>
 <translation id="7003339318920871147">Baze de date web</translation>
 <translation id="7003723821785740825">Configurează o modalitate mai rapidă de a debloca dispozitivul</translation>
@@ -3964,7 +3964,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="715118844758971915">Imprimante clasice</translation>
 <translation id="7154130902455071009">Schimbați pagina de start la: <ph name="START_PAGE" /></translation>
 <translation id="7155171745945906037">Fotografie existentă din camera foto sau din fișier</translation>
-<translation id="7156235233373189579">Acest fișier este creat pentru un computer care folosește software Windows. Nu este compatibil cu dispozitivul tău, care rulează sistemul de operare Chrome. Caută o aplicație adecvată similară în <ph name="BEGIN_LINK" />Magazinul web Chrome<ph name="END_LINK" />. <ph name="BEGIN_LINK_HELP" />Află mai multe<ph name="END_LINK_HELP" /></translation>
+<translation id="7156235233373189579">Acest fișier este creat pentru un computer care folosește software Windows. Nu este compatibil cu dispozitivul tău, care rulează sistemul de operare Brave. Caută o aplicație adecvată similară în <ph name="BEGIN_LINK" />Magazinul web Brave<ph name="END_LINK" />. <ph name="BEGIN_LINK_HELP" />Află mai multe<ph name="END_LINK_HELP" /></translation>
 <translation id="7165320105431587207">Rețeaua nu a putut fi configurată</translation>
 <translation id="716640248772308851">Extensia „<ph name="EXTENSION" />” poate citi imagini, videoclipuri și fișiere audio în locațiile indicate.</translation>
 <translation id="7167486101654761064">&amp;Deschide întotdeauna fișierele de acest tip</translation>
@@ -3978,7 +3978,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7186088072322679094">Păstrează în bara de instrumente</translation>
 <translation id="7191159667348037">Imprimantă necunoscută (USB)</translation>
 <translation id="7191454237977785534">Salvează fișierul ca</translation>
-<translation id="7196835305346730603">Se caută Chromeboxurile din apropiere...</translation>
+<translation id="7196835305346730603">Se caută Braveboxurile din apropiere...</translation>
 <translation id="7199158086730159431">Obțineți a&amp;jutor</translation>
 <translation id="720110658997053098">Menține permanent acest dispozitiv în modul chioșc</translation>
 <translation id="7201118060536064622">„<ph name="DELETED_ITEM_NAME" />” a fost șters</translation>
@@ -4086,15 +4086,15 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7376553024552204454">Evidențiază cursorul mouse-ului când se mișcă</translation>
 <translation id="7377169924702866686">Tasta Caps Lock este activată.</translation>
 <translation id="7378627244592794276">Nu</translation>
-<translation id="73786666777299047">Deschide Magazinul web Chrome</translation>
+<translation id="73786666777299047">Deschide Magazinul web Brave</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7378812711085314936">Obține o conexiune de date</translation>
 <translation id="7384292194278095697">Acest dispozitiv nu mai este acceptat</translation>
 <translation id="7385854874724088939">A apărut o eroare la printare. Verifică imprimanta și încearcă din nou.</translation>
 <translation id="7386824183915085801">În plus față de informațiile pe care alegeți să le includeți mai sus, vor fi trimise și
-        versiunea de Chrome și versiunea sistemului dvs. de operare. Dacă includeți adresa de e-mail,
+        versiunea de Brave și versiunea sistemului dvs. de operare. Dacă includeți adresa de e-mail,
         Google vă poate contacta în legătură cu raportul dvs. de feedback. Acest feedback
-        este utilizat pentru diagnosticarea problemelor și este util pentru a îmbunătăți Chrome. Toate
+        este utilizat pentru diagnosticarea problemelor și este util pentru a îmbunătăți Brave. Toate
         informațiile personale pe care le trimiteți, fie în mod explicit, fie accidental,
         vor fi protejate în conformitate cu politicile de confidențialitate Google.<ph name="BEGIN_BOLD" /> Dacă trimiteți acest feedback, sunteți de acord că Google îl poate utiliza
         pentru îmbunătățirea produselor și a serviciilor sale.
@@ -4105,7 +4105,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7392915005464253525">R&amp;edeschide fereastra închisă</translation>
 <translation id="7396845648024431313"><ph name="APP_NAME" /> se va lansa la pornirea sistemului și va continua să ruleze în fundal, chiar după ce ai închis toate celelalte ferestre ale <ph name="PRODUCT_NAME" />.</translation>
 <translation id="7400418766976504921">Adresă URL</translation>
-<translation id="740083207982962331">Așteaptă până când Chromebox repornește...</translation>
+<translation id="740083207982962331">Așteaptă până când Bravebox repornește...</translation>
 <translation id="7400839060291901923">Configurează conexiunea pe <ph name="PHONE_NAME" /></translation>
 <translation id="7401543881546089382">Ștergeți comanda rapidă</translation>
 <translation id="740624631517654988">Fereastră pop-up blocată</translation>
@@ -4213,7 +4213,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7564847347806291057">Oprește procesul</translation>
 <translation id="7565291891798266313">Motorul de căutare a fost înlocuit cu <ph name="URL" />. Pentru a dezactiva extensiile care îți modifică motorul de căutare, dă clic pe Restabilește.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Datele Chrome au fost șterse</translation>
+<translation id="756809126120519699">Datele Brave au fost șterse</translation>
 <translation id="7568790562536448087">Se actualizează</translation>
 <translation id="7571643774869182231">Nu există suficient spațiu de stocare pentru actualizare</translation>
 <translation id="7573172247376861652">Încărcarea bateriei</translation>
@@ -4226,7 +4226,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7582582252461552277">Prefer această rețea</translation>
 <translation id="7584802760054545466">Se conectează la <ph name="NETWORK_ID" /></translation>
 <translation id="7586312264284919041">Dorești traducerea acestei pagini?</translation>
-<translation id="7586498138629385861">Chrome va rula în continuare când sunt deschise aplicații Chrome.</translation>
+<translation id="7586498138629385861">Brave va rula în continuare când sunt deschise aplicații Brave.</translation>
 <translation id="7589461650300748890">Ușurel. Fiți atent(ă).</translation>
 <translation id="7589661784326793847">Așteptați puțin</translation>
 <translation id="7591957897535945411">Pagina a fost tradusă.</translation>
@@ -4285,7 +4285,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7704521324619958564">Deschide Magazinul Play</translation>
 <translation id="7705276765467986571">Nu se poate încărca modelul de marcaj.</translation>
 <translation id="7705524343798198388">VPN</translation>
-<translation id="7705600705238488017">Dorești să <ph name="BEGIN_LINK" />cauți în Magazinul web Chrome<ph name="END_LINK" />?</translation>
+<translation id="7705600705238488017">Dorești să <ph name="BEGIN_LINK" />cauți în Magazinul web Brave<ph name="END_LINK" />?</translation>
 <translation id="7705990546212675384">Adaugă o persoană de contact</translation>
 <translation id="7707922173985738739">va folosi datele mobile;</translation>
 <translation id="7709152031285164251">Nu a reușit – <ph name="INTERRUPT_REASON" /></translation>
@@ -4298,7 +4298,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7719367874908701697">Zoom pe pagină</translation>
 <translation id="7719421816612904796">Sesiunea de configurare a expirat</translation>
 <translation id="771953673318695590">QA</translation>
-<translation id="7720375555307821262">Pentru a monitoriza această persoană, <ph name="BEGIN_LINK" />conectează-te la Chrome<ph name="END_LINK" />.</translation>
+<translation id="7720375555307821262">Pentru a monitoriza această persoană, <ph name="BEGIN_LINK" />conectează-te la Brave<ph name="END_LINK" />.</translation>
 <translation id="7721179060400456005">Permite ca ferestrele să se afișeze pe mai multe ecrane</translation>
 <translation id="7722040605881499779">Spațiul necesar pentru actualizare: <ph name="NECESSARY_SPACE" /></translation>
 <translation id="7724603315864178912">Decupează</translation>
@@ -4323,7 +4323,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7771452384635174008">Aspect</translation>
 <translation id="7772032839648071052">Confirmă expresia de acces</translation>
 <translation id="7772127298218883077">Despre <ph name="PRODUCT_NAME" /></translation>
-<translation id="7772773261844472235">Verifică starea Chromebookului</translation>
+<translation id="7772773261844472235">Verifică starea Bravebookului</translation>
 <translation id="7773726648746946405">Stocare sesiune</translation>
 <translation id="7781335840981796660">Toate conturile de utilizator și datele locale vor fi eliminate.</translation>
 <translation id="7782102568078991263">Nu mai există sugestii de la Google</translation>
@@ -4337,7 +4337,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7788080748068240085">Pentru a salva fișierul „<ph name="FILE_NAME" />” offline, trebuie să eliberați un spațiu suplimentar de <ph name="TOTAL_FILE_SIZE" />:<ph name="MARKUP_1" />
     <ph name="MARKUP_2" />anulați fixarea fișierelor de care nu mai aveți nevoie offline;<ph name="MARKUP_3" />
     <ph name="MARKUP_4" />ștergeți fișierele din dosarul Descărcări.<ph name="MARKUP_5" /></translation>
-<translation id="7788298548579301890">Un alt program de pe computerul tău a adăugat o aplicație care poate schimba modul în care funcționează Chrome.
+<translation id="7788298548579301890">Un alt program de pe computerul tău a adăugat o aplicație care poate schimba modul în care funcționează Brave.
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -4364,7 +4364,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="782057141565633384">C&amp;opiază adresa videoclipului</translation>
 <translation id="782590969421016895">Utilizează paginile actuale</translation>
 <translation id="7829298379596169484">Se accesează intrarea audio</translation>
-<translation id="7831368056091621108">pentru ca această extensie, istoricul și alte setări Chrome să fie disponibile pe toate dispozitivele pe care le utilizați.</translation>
+<translation id="7831368056091621108">pentru ca această extensie, istoricul și alte setări Brave să fie disponibile pe toate dispozitivele pe care le utilizați.</translation>
 <translation id="7831754656372780761"><ph name="TAB_TITLE" /> <ph name="EMOJI_MUTING" /></translation>
 <translation id="7832084384634357321">Ora de încheiere</translation>
 <translation id="7833720883933317473">Cuvintele personalizate salvate vor fi afișate aici</translation>
@@ -4458,7 +4458,7 @@ Apăsați pe orice tastă pentru a continua explorarea.</translation>
 <translation id="7973962044839454485">Autentificarea PPP nu a reușit, din cauza unui nume de utilizator sau a unei parole greșite</translation>
 <translation id="7974566588408714340">Reîncearcă folosind <ph name="EXTENSIONNAME" /></translation>
 <translation id="7974936243149753750">Suprascanare</translation>
-<translation id="7977551819349545646">Se actualizează Chromeboxul...</translation>
+<translation id="7977551819349545646">Se actualizează Braveboxul...</translation>
 <translation id="7978412674231730200">Cheie privată</translation>
 <translation id="7979036127916589816">Eroare de sincronizare</translation>
 <translation id="7980084013673500153">ID articol: <ph name="ASSET_ID" /></translation>
@@ -4493,7 +4493,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8017335670460187064"><ph name="LABEL" /></translation>
 <translation id="8018313076035239964">Stabilește ce informații pot să folosească site-urile și ce conținut pot afișa</translation>
 <translation id="8023801379949507775">Actualizează extensiile acum</translation>
-<translation id="8024483450737722621">Aplicațiile pe care le-ai descărcat de pe Google Play vor fi șterse de pe acest Chromebook.
+<translation id="8024483450737722621">Aplicațiile pe care le-ai descărcat de pe Google Play vor fi șterse de pe acest Bravebook.
       <ph name="LINE_BREAKS1" />
       Este posibil să se șteargă și conținutul achiziționat, cum ar fi filmele, emisiunile TV, cântecele, cărțile sau alte achiziții în aplicație.
       <ph name="LINE_BREAKS2" />
@@ -4560,7 +4560,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8116925261070264013">Cu sunetul dezactivat</translation>
 <translation id="8116972784401310538">&amp;Manager de marcaje</translation>
 <translation id="8117620576188476503">Gestionează conexiunile, actualizările și setările din bara de stare. Pentru a le accesa folosind tastatura, apasă Alt + Shift + S.</translation>
-<translation id="8118362518458010043">Dezactivată de Chrome. Această extensie ar putea fi nesigură.</translation>
+<translation id="8118362518458010043">Dezactivată de Brave. Această extensie ar putea fi nesigură.</translation>
 <translation id="8118860139461251237">Gestionează descărcările</translation>
 <translation id="81238879832906896">Floare galbenă și albă</translation>
 <translation id="8124313775439841391">Proprietăți ONC gestionate</translation>
@@ -4614,7 +4614,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8202160505685531999">Reintrodu parola pentru a actualiza profilul <ph name="DEVICE_TYPE" />.</translation>
 <translation id="8206354486702514201">Această setare este impusă de administratorul dvs.</translation>
 <translation id="8206745257863499010">Albăstrel</translation>
-<translation id="8209677645716428427">Un utilizator monitorizat poate naviga pe web sub îndrumarea dvs. În calitate de manager al unui utilizator monitorizat în Chrome, puteți să:</translation>
+<translation id="8209677645716428427">Un utilizator monitorizat poate naviga pe web sub îndrumarea dvs. În calitate de manager al unui utilizator monitorizat în Brave, puteți să:</translation>
 <translation id="8213449224684199188">Modul foto a fost activat</translation>
 <translation id="8213577208796878755">Încă un dispozitiv disponibil.</translation>
 <translation id="8214489666383623925">Deschide fișierul...</translation>
@@ -4758,7 +4758,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8454288007744638700">Sau selectează o rețea nouă:</translation>
 <translation id="845627346958584683">Ora expirării</translation>
 <translation id="8456681095658380701">Nume nevalid</translation>
-<translation id="8460336040822756677">Dacă dezactivezi Smart Lock pentru <ph name="DEVICE_TYPE" />, nu vei putea debloca dispozitivele Chrome folosind telefonul. Va fi necesar să introduci parola.</translation>
+<translation id="8460336040822756677">Dacă dezactivezi Smart Lock pentru <ph name="DEVICE_TYPE" />, nu vei putea debloca dispozitivele Brave folosind telefonul. Va fi necesar să introduci parola.</translation>
 <translation id="8461329675984532579">Numele furnizorului local</translation>
 <translation id="84613761564611563">S-a solicitat interfața de utilizare pentru configurarea rețelei, așteaptă...</translation>
 <translation id="8461914792118322307">Proxy</translation>
@@ -4770,7 +4770,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8466234950814670489">Arhivă .tar</translation>
 <translation id="8468750959626135884">Deblochează dispozitivul <ph name="DEVICE_TYPE" /> folosind telefonul Android.</translation>
 <translation id="8472623782143987204">susținut de hardware</translation>
-<translation id="8475313423285172237">Un alt program de pe computerul dvs. a adăugat o extensie care poate schimba modul în care funcționează Chrome.</translation>
+<translation id="8475313423285172237">Un alt program de pe computerul dvs. a adăugat o extensie care poate schimba modul în care funcționează Brave.</translation>
 <translation id="8475647382427415476">Momentan, Google Drive nu a putut sincroniza „<ph name="FILENAME" />”. Google Drive va încerca din nou mai târziu.</translation>
 <translation id="8477241577829954800">Depășit</translation>
 <translation id="8477384620836102176">&amp;General</translation>
@@ -4784,14 +4784,14 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8493236660459102203">Microfon:</translation>
 <translation id="8495193314787127784">Activează „Ok Google”</translation>
 <translation id="8496717697661868878">Rulează acest plugin</translation>
-<translation id="8497392509610708671">Poți schimba oricând setarea din <ph name="BEGIN_LINK" />Setările Chrome<ph name="END_LINK" />.</translation>
+<translation id="8497392509610708671">Poți schimba oricând setarea din <ph name="BEGIN_LINK" />Setările Brave<ph name="END_LINK" />.</translation>
 <translation id="8498214519255567734">Mai multă comoditate când privești ecranul sau citești într-o lumină slabă</translation>
 <translation id="8503813439785031346">Nume utilizator</translation>
 <translation id="8508332354695141900">Lansator, aplicații sugerate</translation>
 <translation id="8512476990829870887">Opriți procesul</translation>
 <translation id="851263357009351303">Permite întotdeauna afișarea de imagini de la <ph name="HOST" /></translation>
 <translation id="8513191386157529469">„<ph name="CLIENT_NAME" />” remediază erorile din acest browser.</translation>
-<translation id="8513974249124254369">ChromeVox (feedbackul rostit) este activat. Apăsați pe Ctrl+Alt+Z pentru dezactivare.</translation>
+<translation id="8513974249124254369">BraveVox (feedbackul rostit) este activat. Apăsați pe Ctrl+Alt+Z pentru dezactivare.</translation>
 <translation id="8521475323816527629">Accesează rapid aplicațiile</translation>
 <translation id="8523493869875972733">Păstrează modificările</translation>
 <translation id="8523849605371521713">Adăugată de politică</translation>
@@ -4836,7 +4836,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8597845839771543242">Formatul proprietății:</translation>
 <translation id="8598687241883907630">Deconectați Contul dvs. Google...</translation>
 <translation id="8601206103050338563">Autentificare client TLS WWW</translation>
-<translation id="8602851771975208551">Un alt program de pe computerul dvs. a adăugat o aplicație care poate schimba modul în care funcționează Chrome.</translation>
+<translation id="8602851771975208551">Un alt program de pe computerul dvs. a adăugat o aplicație care poate schimba modul în care funcționează Brave.</translation>
 <translation id="8605428685123651449">Memorie SQLite</translation>
 <translation id="8606726445206553943">Folosească dispozitive MIDI</translation>
 <translation id="8609465669617005112">Mutați mai sus</translation>
@@ -4844,7 +4844,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8619892228487928601"><ph name="CERTIFICATE_NAME" />: <ph name="ERROR" /></translation>
 <translation id="8620617069779373398">Stare roaming</translation>
 <translation id="8620765578342452535">Configurează conexiunile la rețea</translation>
-<translation id="8623004009673949077">Aplicația cu atributul „kiosk_only” din manifest trebuie să fie instalată în modul chioșc pentru sistemul de operare Chrome.</translation>
+<translation id="8623004009673949077">Aplicația cu atributul „kiosk_only” din manifest trebuie să fie instalată în modul chioșc pentru sistemul de operare Brave.</translation>
 <translation id="8624205858755890468">Permite Asistentului să afișeze informații, aplicații și acțiuni conexe.</translation>
 <translation id="862542460444371744">&amp;Extensii</translation>
 <translation id="8627151598708688654">Selectează sursa</translation>
@@ -4855,7 +4855,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8630903300770275248">Importați un utilizator monitorizat</translation>
 <translation id="8631032106121706562">Petale</translation>
 <translation id="8631271110654520730">Se copiază imaginea de recuperare...</translation>
-<translation id="8637542770513281060">Computerul conține un modul securizat, care este folosit pentru a implementa numeroase funcții esențiale de securitate în sistemul de operare Chrome. Accesează Centrul de ajutor Chromebook pentru a afla mai multe: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Computerul conține un modul securizat, care este folosit pentru a implementa numeroase funcții esențiale de securitate în sistemul de operare Brave. Accesează Centrul de ajutor Bravebook pentru a afla mai multe: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">Este disponibilă o actualizare de sistem. Se pregătește descărcarea...</translation>
 <translation id="8639963783467694461">Setări pentru Completare automată</translation>
 <translation id="8642171459927087831">Indicativ de acces</translation>
@@ -4878,7 +4878,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8662795692588422978">Persoane</translation>
 <translation id="8662811608048051533">Te deconectează de pe majoritatea site-urilor.</translation>
 <translation id="8662911384982557515">Schimbă pagina de pornire la: <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Chrome nu poate seta imaginea de fundal.</translation>
+<translation id="8662978096466608964">Brave nu poate seta imaginea de fundal.</translation>
 <translation id="8663099077749055505">Blocați întotdeauna descărcarea automată a mai multor fișiere pentru <ph name="HOST" /></translation>
 <translation id="8664389313780386848">&amp;Afișează sursa paginii</translation>
 <translation id="866611985033792019">Ai încredere în acest certificat pentru a identifica utilizatorii de e-mail</translation>
@@ -4943,11 +4943,11 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8755376271068075440">&amp;Mai mare</translation>
 <translation id="8757090071857742562">Desktopul nu poate fi proiectat. Verifică dacă ai confirmat solicitarea de a începe permiterea accesului la ecran.</translation>
 <translation id="8757640015637159332">Accesați sesiunea publică</translation>
-<translation id="8757742102600829832">Alege un Chromebox la care să te conectezi</translation>
+<translation id="8757742102600829832">Alege un Bravebox la care să te conectezi</translation>
 <translation id="8757803915342932642">Dispozitiv pe Google Cloud Devices</translation>
 <translation id="8759408218731716181">Nu se poate configura conectarea multiplă</translation>
 <translation id="8759753423332885148">Aflați mai multe.</translation>
-<translation id="8767621466733104912">Actualizează automat Chrome pentru toți utilizatorii</translation>
+<translation id="8767621466733104912">Actualizează automat Brave pentru toți utilizatorii</translation>
 <translation id="8770406935328356739">Director rădăcină pentru extensie</translation>
 <translation id="8770507190024617908">Gestionează persoanele</translation>
 <translation id="8774934320277480003">Margine sus</translation>
@@ -5034,7 +5034,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8899851313684471736">Deschide linkul într-o &amp;fereastră nouă</translation>
 <translation id="8902667442496790482">Deschide setările Selectează pentru a se rosti</translation>
 <translation id="8903921497873541725">Mărește</translation>
-<translation id="8904976895050290827">Chrome Sync</translation>
+<translation id="8904976895050290827">Brave Sync</translation>
 <translation id="8908902564709148335">Avertisment: ai activat marcajul scripts-require-action pe acest computer, care limitează capacitățile acestei extensii. Totuși, este posibil ca alte dispozitive să nu accepte acest marcaj sau să îl aibă activat. Pe aceste dispozitive, această extensie poate să:</translation>
 <translation id="8910146161325739742">Permite accesul la ecran</translation>
 <translation id="8910222113987937043">Modificările marcajelor, istoricului, parolelor sau ale altor setări nu vor mai fi sincronizate cu Contul Google. Totuși, datele existente vor rămâne stocate în Contul Google și pot fi gestionate din <ph name="BEGIN_LINK" />Tabloul de bord Google<ph name="END_LINK" />.</translation>
@@ -5134,7 +5134,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="9050666287014529139">Expresie de acces</translation>
 <translation id="9052208328806230490">Ai înregistrat imprimantele la <ph name="CLOUD_PRINT_NAME" /> utilizând contul <ph name="EMAIL" /></translation>
 <translation id="9053893665344928494">Reține alegerea mea</translation>
-<translation id="9056034633062863292">Actualizarea Chromeboxului</translation>
+<translation id="9056034633062863292">Actualizarea Braveboxului</translation>
 <translation id="9056810968620647706">Nu s-a găsit nicio potrivire.</translation>
 <translation id="9057119625587205566">Nu există imprimante în apropiere</translation>
 <translation id="9059868303873565140">Meniu stare</translation>
@@ -5167,7 +5167,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="9105212490906037469">F2</translation>
 <translation id="9106577689055281370">Până la golirea bateriei mai sunt <ph name="HOUR" />:<ph name="MINUTE" /></translation>
 <translation id="9109122242323516435">Pentru a elibera spațiu, șterge fișiere din stocarea dispozitivului.</translation>
-<translation id="9110990317705400362">Google caută mereu modalități de a face navigarea mai sigură. Înainte, orice site îți putea solicita să adaugi o extensie în browser. În ultimele versiuni Google Chrome, trebuie să indici explicit că dorești să instalezi aceste extensii, adăugându-le în pagina Extensii. <ph name="BEGIN_LINK" />Află mai multe<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">Google caută mereu modalități de a face navigarea mai sigură. Înainte, orice site îți putea solicita să adaugi o extensie în browser. În ultimele versiuni Brave, trebuie să indici explicit că dorești să instalezi aceste extensii, adăugându-le în pagina Extensii. <ph name="BEGIN_LINK" />Află mai multe<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">Deblochează</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112614144067920641">Alege un cod PIN nou.</translation>
@@ -5189,7 +5189,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="9131487537093447019">Trimite mesaje către dispozitivele Bluetooth și primește mesaje de la acestea.</translation>
 <translation id="9131598836763251128">Selectează un fișier sau mai multe</translation>
 <translation id="9133055936679483811">Arhivarea nu a reușit. <ph name="ERROR_MESSAGE" /></translation>
-<translation id="9134524245363717059">Acest fișier este destinat unui computer ce utilizează software-ul Macintosh. Acesta nu este compatibil cu dispozitivul ce rulează sistemul de operare Chrome. Caută o aplicație de înlocuire potrivită în Magazinul web Chrome.</translation>
+<translation id="9134524245363717059">Acest fișier este destinat unui computer ce utilizează software-ul Macintosh. Acesta nu este compatibil cu dispozitivul ce rulează sistemul de operare Brave. Caută o aplicație de înlocuire potrivită în Magazinul web Brave.</translation>
 <translation id="9137013805542155359">Afișează originalul</translation>
 <translation id="9137916601698928395">Deschide linkul ca <ph name="USER" /></translation>
 <translation id="9138978632494473300">Adaugă comenzi rapide către următoarele locații:</translation>
@@ -5210,7 +5210,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="9169496697824289689">Vedeți comenzile rapide de la tastatură</translation>
 <translation id="9170397650136757332">Acum mișcă ușor degetul pentru a captura toate porțiunile amprentei</translation>
 <translation id="9170848237812810038">&amp;Anulează</translation>
-<translation id="9170884462774788842">Un alt program de pe computerul dvs. a adăugat o temă care poate schimba modul în care funcționează Chrome.</translation>
+<translation id="9170884462774788842">Un alt program de pe computerul dvs. a adăugat o temă care poate schimba modul în care funcționează Brave.</translation>
 <translation id="9174212595744391062">Astfel, se vor șterge cookie-urile și memoria cache pentru toate site-urile, inclusiv</translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> – dispozitivul Bluetooth a fost conectat</translation>
 <translation id="9177499212658576372">În prezent, sunteți conectat la rețeaua <ph name="NETWORK_TYPE" />.</translation>
@@ -5245,7 +5245,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="939598580284253335">Introdu expresia de acces</translation>
 <translation id="939736085109172342">Dosar nou</translation>
 <translation id="941543339607623937">Cheie privată nevalidă.</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> trimite conținutul unei file Chrome și conținutul audio.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> trimite conținutul unei file Brave și conținutul audio.</translation>
 <translation id="942954117721265519">Nu există imagini în acest director.</translation>
 <translation id="945522503751344254">Trimite feedback</translation>
 <translation id="951981865514037445"><ph name="URL" /> dorește să utilizeze locația dispozitivului dvs.</translation>
@@ -5266,7 +5266,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="98515147261107953">Peisaj</translation>
 <translation id="988978206646512040">Trebuie să fie introdusă expresia de acces</translation>
 <translation id="992032470292211616">Extensiile, aplicațiile și temele pot dăuna dispozitivului. Sigur doriți să continuați?</translation>
-<translation id="992592832486024913">Dezactivați ChromeVox (feedback rostit)</translation>
+<translation id="992592832486024913">Dezactivați BraveVox (feedback rostit)</translation>
 <translation id="994289308992179865">&amp;Redă în buclă</translation>
 <translation id="996250603853062861">Se stabilește conexiunea securizată...</translation>
 <translation id="998747458861718449">I&amp;nspectează</translation>

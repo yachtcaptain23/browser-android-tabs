@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- android_chrome_strings.grd contains strings for Chrome for Android.
+<!-- android_chrome_strings.grd contains strings for Brave for Android.
 
 FAQ:
   - How do I add, change, or remove a string?
@@ -226,7 +226,7 @@ CHAR-LIMIT guidelines:
       </message>
 
       <!-- Main Preferences -->
-      <message name="IDS_PREFERENCES" desc="Title for Chrome's Settings.">
+      <message name="IDS_PREFERENCES" desc="Title for Brave's Settings.">
         Settings
       </message>
       <message name="IDS_MENU_HELP" desc="Menu item for opening the help page. [CHAR-LIMIT=27]">
@@ -279,13 +279,13 @@ CHAR-LIMIT guidelines:
       </message>
 
       <!-- Sign-in preference -->
-      <message name="IDS_SIGN_IN_TO_CHROME" desc="Title for the button to sign in to Chrome using one's Google account. [CHAR-LIMIT=27]">
-        Sign in to Chrome
+      <message name="IDS_SIGN_IN_TO_CHROME" desc="Title for the button to sign in to Brave using one's Google account. [CHAR-LIMIT=27]">
+        Sign in to Brave
       </message>
-      <message name="IDS_SIGN_IN_TO_CHROME_SUMMARY" desc="Summary for the button to sign in to Chrome, explaining benefits of signing in.">
+      <message name="IDS_SIGN_IN_TO_CHROME_SUMMARY" desc="Summary for the button to sign in to Brave, explaining benefits of signing in.">
         Sign in to get your bookmarks, history, passwords, and other settings on all your devices
       </message>
-      <message name="IDS_SIGN_IN_TO_CHROME_DISABLED_SUMMARY" desc="A descriptive line of text that appears under the 'Sign in to Chrome' option, in Chrome Settings on Android. The text explains why 'Sign in to Chrome' is disabled. 'Administrator' refers to the IT administrator of the company/organization that owns the user’s device.">
+      <message name="IDS_SIGN_IN_TO_CHROME_DISABLED_SUMMARY" desc="A descriptive line of text that appears under the 'Sign in to Brave' option, in Brave Settings on Android. The text explains why 'Sign in to Brave' is disabled. 'Administrator' refers to the IT administrator of the company/organization that owns the user’s device.">
           Disabled by the administrator of this device
       </message>
       <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS" desc="Title of Google activity controls preference in signed in accounts settings screen">
@@ -379,18 +379,18 @@ CHAR-LIMIT guidelines:
       <message name="IDS_AUTOFILL_CREDIT_CARD_EDITOR_BILLING_ADDRESS" desc="Label for a spinner input field containing a list of billing addresses for a credit card. [CHAR-LIMIT=32]">
         Billing address
       </message>
-      <message name="IDS_AUTOFILL_DESCRIBE_LOCAL_COPY" desc="Text label that describes a Wallet credit card which has been copied to the local Chrome instance.">
-         Copied to Chrome
+      <message name="IDS_AUTOFILL_DESCRIBE_LOCAL_COPY" desc="Text label that describes a Wallet credit card which has been copied to the local Brave instance.">
+         Copied to Brave
        </message>
 
        <!-- Payment Request section preview strings -->
-       <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to Chrome, plus an indication of the number of additional payment methods the user has saved.
+       <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to Brave, plus an indication of the number of additional payment methods the user has saved.
         Its function is to show the user has payment methods that can be used to complete a payment, and thus doesn't have to type the entire payment method. [ICU Syntax]">
         {PAYMENT_METHOD, plural,
           =1 {<ph name="PAYMENT_METHOD_PREVIEW">%1$s<ex>VISA ....1234</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS">%2$s<ex>1</ex></ph> more}
           other {<ph name="PAYMENT_METHOD_PREVIEW">%1$s<ex>VISA ....1234</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS">%2$s<ex>2</ex></ph> more}}
       </message>
-      <message name="IDS_PAYMENT_REQUEST_SHIPPING_ADDRESSES_PREVIEW" desc="This is a snippet of a shipping address a user has saved to Chrome, plus an indication of the number of additional shipping addresses the user has saved. Its function is to show the user has shipping addresses that can be used to complete a purchase, and thus doesn't have to type the entire address. [ICU Syntax]">
+      <message name="IDS_PAYMENT_REQUEST_SHIPPING_ADDRESSES_PREVIEW" desc="This is a snippet of a shipping address a user has saved to Brave, plus an indication of the number of additional shipping addresses the user has saved. Its function is to show the user has shipping addresses that can be used to complete a purchase, and thus doesn't have to type the entire address. [ICU Syntax]">
       {SHIPPING_ADDRESS, plural,
         =1 {<ph name="SHIPPING_ADDRESS_PREVIEW">%1$s<ex>Jerry, 1253 Mcgill college</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES">%2$s<ex>1</ex></ph> more}
         other {<ph name="SHIPPING_ADDRESS_PREVIEW">%1$s<ex>Jerry, 1253 Mcgill college</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES">%2$s<ex>2</ex></ph> more}}
@@ -400,7 +400,7 @@ CHAR-LIMIT guidelines:
         =1 {<ph name="SHIPPING_OPTION_PREVIEW">%1$s<ex>standard shipping</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS">%2$s<ex>1</ex></ph> more}
         other {<ph name="SHIPPING_OPTION_PREVIEW">%1$s<ex>standard shipping</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS">%2$s<ex>2</ex></ph> more}}
       </message>
-      <message name="IDS_PAYMENT_REQUEST_CONTACTS_PREVIEW" desc="This is a snippet of a contact a user has saved to Chrome, plus an indication of the number of additional contacts the user has saved. Its function is to show the user has contacts that can be used to complete a purchase, and thus doesn't have to type the entire contact info. [ICU Syntax]">
+      <message name="IDS_PAYMENT_REQUEST_CONTACTS_PREVIEW" desc="This is a snippet of a contact a user has saved to Brave, plus an indication of the number of additional contacts the user has saved. Its function is to show the user has contacts that can be used to complete a purchase, and thus doesn't have to type the entire contact info. [ICU Syntax]">
         {CONTACT, plural,
           =1 {<ph name="CONTACT_PREVIEW">%1$s<ex>Jerry, 438-123-1922</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS">%2$s<ex>1</ex></ph> more}
           other {<ph name="CONTACT_PREVIEW">%1$s<ex>Jerry, 438-123-1922</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS">%2$s<ex>2</ex></ph> more}}
@@ -416,7 +416,7 @@ CHAR-LIMIT guidelines:
       <message name="IDS_PASSWORDS_AUTO_SIGNIN_DESCRIPTION" desc="Text under 'Auto sign-in' checkbox">
         Automatically sign in to websites using stored credentials. When the feature is off, you’ll be asked for verification every time before signing in to a website.
       </message>
-      <message name="IDS_SECTION_SAVED_PASSWORDS" desc="Header for the list of passwords that have been saved in Chrome. [CHAR-LIMIT=32]">
+      <message name="IDS_SECTION_SAVED_PASSWORDS" desc="Header for the list of passwords that have been saved in Brave. [CHAR-LIMIT=32]">
         Passwords
       </message>
       <message name="IDS_SECTION_SAVED_PASSWORDS_EXCEPTIONS" desc="Header for the list of websites for which user selected to never save passwords. [CHAR-LIMIT=32]">
@@ -571,10 +571,10 @@ CHAR-LIMIT guidelines:
       <message name="IDS_NTP_SITES_EXPLORATION_CATEGORY_OTHER_TITLE" desc="In the Sites Explore UI, title of the Unknown category.">
         Other
       </message>
-      <message name="IDS_NETWORK_PREDICTIONS_TITLE" desc="Title of a setting in Chrome settings. Followed by a body that describes what pages are downloaded. If setting is turned on, Chrome will download certain pages to the user’s phone automatically for offline reading. “Download” is a verb, imperative. ">
+      <message name="IDS_NETWORK_PREDICTIONS_TITLE" desc="Title of a setting in Brave settings. Followed by a body that describes what pages are downloaded. If setting is turned on, Brave will download certain pages to the user’s phone automatically for offline reading. “Download” is a verb, imperative. ">
         Automatically download pages
       </message>
-      <message name="IDS_NETWORK_PREDICTIONS_SUMMARY" desc="Body text for the “Automatically download pages” setting in Chrome settings. Describes what happens if the setting is turned on. Load pages refers to how quickly website pages load. Offline reading refers to the ability to access the pages without a network connection.">
+      <message name="IDS_NETWORK_PREDICTIONS_SUMMARY" desc="Body text for the “Automatically download pages” setting in Brave settings. Describes what happens if the setting is turned on. Load pages refers to how quickly website pages load. Offline reading refers to the ability to access the pages without a network connection.">
         Load pages more quickly and save popular pages for offline reading
       </message>
       <message name="IDS_CONTEXTUAL_SEARCH_TITLE" desc="Name for the Contextual Search feature, which allows users to search for a term in a web page by tapping on it.">
@@ -627,10 +627,10 @@ For example, some websites may respond to this request by showing you ads that a
         You won’t be signed out of your Google account. Your Google account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>history.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_DIALOG_TITLE" desc="Title of a dialog that is shown after the deletion of browsing history finished.">
-        Cleared Chrome data
+        Cleared Brave data
       </message>
       <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_DIALOG_DATA_TEXT" desc="Text of the dialog that is shown after the deletion of browsing history items finished, indicating that the selected data has been removed, but there may be other forms of browsing history still present in user's Google account.">
-        The selected data has been removed from Chrome and your synced devices.
+        The selected data has been removed from Brave and your synced devices.
 
 Your Google account may have other forms of browsing history like searches and activity from other Google services at <ph name="BEGIN_LINK">&lt;link&gt;</ph>history.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
@@ -727,10 +727,10 @@ Your Google account may have other forms of browsing history like searches and a
       <message name="IDS_CLEAR_BROWSING_DATA_BASIC_TAB_TITLE" desc="The title of the tab showing the basic clear browsing data options.">
         Basic
       </message>
-      <message name="IDS_ANDROID_HISTORY_OTHER_FORMS_OF_HISTORY" desc="The notification at the top of the history page indicating that deleting Chrome browsing history will not delete other forms of history stored at Google My Activity.">
+      <message name="IDS_ANDROID_HISTORY_OTHER_FORMS_OF_HISTORY" desc="The notification at the top of the history page indicating that deleting Brave browsing history will not delete other forms of history stored at Google My Activity.">
         Your Google Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>history.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_HISTORY_OTHER_FORMS_OF_HISTORY_NEW" desc="The notification at the top of the history page indicating that deleting Chrome browsing history will not delete other forms of history stored at Google My Activity.">
+      <message name="IDS_ANDROID_HISTORY_OTHER_FORMS_OF_HISTORY_NEW" desc="The notification at the top of the history page indicating that deleting Brave browsing history will not delete other forms of history stored at Google My Activity.">
         Your Google Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_HISTORY_BLOCKED_SITE" desc="The text displayed in the history page indicating that a visit to a web site was blocked due to an administrator policy.">
@@ -867,7 +867,7 @@ Your Google account may have other forms of browsing history like searches and a
       <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ALLOWED_EXCEPT_THIRD_PARTY" desc="Summary text for when only third-party cookies are blocked.">
         Allowed, except third-party
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ASK" desc="Summary text explaining that Chrome will ask the user before allowing a site to use a certain permission, e.g. JavaScript: ask first.">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ASK" desc="Summary text explaining that Brave will ask the user before allowing a site to use a certain permission, e.g. JavaScript: ask first.">
         Ask first
       </message>
       <message name="IDS_WEBSITE_SETTINGS_BLOCKED_GROUP_HEADING" desc="The heading for a list of websites that have been blocked from using a particular permission, e.g. blocked from accessing the user's location.">
@@ -927,16 +927,16 @@ Your Google account may have other forms of browsing history like searches and a
       <message name="IDS_WEBSITE_SETTINGS_CATEGORY_MIC_ASK" desc="Summary text explaining that sites need to ask for permission before accessing the microphone and that it is the recommended setting.">
         Ask first before allowing sites to use your microphone (recommended)
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW" desc="Summary text explaining that Chrome will allow a website to access some permission, e.g. JavaScript: allow.">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW" desc="Summary text explaining that Brave will allow a website to access some permission, e.g. JavaScript: allow.">
         Allow
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK" desc="Summary text explaining that Chrome will block a website from accessing some permission, e.g. JavaScript: block.">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK" desc="Summary text explaining that Brave will block a website from accessing some permission, e.g. JavaScript: block.">
         Block
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW_DSE" desc="Summary text explaining that Chrome will allow the default search engine to access the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Allow for current search engine">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW_DSE" desc="Summary text explaining that Brave will allow the default search engine to access the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Allow for current search engine">
         Allow for current search engine
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK_DSE" desc="Summary text explaining that Chrome will block the default search engine from accessing the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Block for current search engine">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK_DSE" desc="Summary text explaining that Brave will block the default search engine from accessing the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Block for current search engine">
         Block for current search engine
       </message>
       <message name="IDS_WEBSITE_RESET" desc="The label for the button allowing users to clear all data and reset the permissions for a website.">
@@ -974,15 +974,15 @@ Your Google account may have other forms of browsing history like searches and a
         Turn on location in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_PERMISSION_OFF_PLURAL" desc="Text at the top of the Website list, explaining to the user that multiple permissions, such as the location service, are turned off. Contains a link to the settings menu to change it.">
-        Turn on permissions for Chrome in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Turn on permissions for Brave in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_PERMISSION_OFF" desc="Text at the top of the Website list, explaining to the user that a permission, such as the location service, is turned off. Contains a link to the settings menu to change it.">
-        Turn on permission for Chrome in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Turn on permission for Brave in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_LOCATION_OFF_GLOBALLY" desc="The message to show when Location has been turned off globally in Android. Contains a link to the settings menu to enable location.">
         Location access is <ph name="BEGIN_LINK">&lt;link&gt;</ph>turned off for this device<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_LOCATION_ALSO_OFF_GLOBALLY" desc="The additional message to show when Location has not just been turned off for Chrome but also globally in Android. Contains a link to the settings menu to enable location.">
+      <message name="IDS_ANDROID_LOCATION_ALSO_OFF_GLOBALLY" desc="The additional message to show when Location has not just been turned off for Brave but also globally in Android. Contains a link to the settings menu to enable location.">
         Location access is also <ph name="BEGIN_LINK">&lt;link&gt;</ph>turned off for this device<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
 
@@ -1024,7 +1024,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Google Translate
       </message>
       <message name="IDS_TRANSLATE_PREFS_DESCRIPTION" desc="Translate preference description">
-        When this feature is turned on, Chrome will offer to translate pages written in other languages using Google Translate.
+        When this feature is turned on, Brave will offer to translate pages written in other languages using Google Translate.
       </message>
       <message name="IDS_TRANSLATE_PREFS_TOAST_DESCRIPTION" desc="Translate settings reset toast when resetting defaults">
         Your translate settings have been reset.
@@ -1063,7 +1063,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         since <ph name="date">%1$s<ex>Feb 28</ex></ph>
       </message>
       <message name="IDS_DATA_REDUCTION_DESCRIPTION" desc="Description text for the Data Saver feature.">
-        When this feature is turned on, Chrome will use Google servers to compress pages you visit before downloading them. Pages accessed using private connections (HTTPS) or in Incognito tabs will not be optimized or seen by Google.
+        When this feature is turned on, Brave will use Google servers to compress pages you visit before downloading them. Pages accessed using private connections (HTTPS) or in Incognito tabs will not be optimized or seen by Google.
       </message>
       <message name="IDS_DATA_REDUCTION_MENU_ITEM_SUMMARY" desc="Summary text for data reduction menu item.">
         <ph name="PERCENT">%1$s<ex>49%</ex></ph> data savings
@@ -1071,11 +1071,11 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_DATA_REDUCTION_SAVINGS_LABEL" desc="Data Reduction statistics label that states the amount of mobile data that was saved by Data Saver. Data Saver allows users to to reduce their mobile data usage by compressing network traffic.">
         Data saved:
       </message>
-      <message name="IDS_DATA_REDUCTION_USAGE_LABEL" desc="Data Reduction statistics label that states the amount of data that was used by Chrome when Data Saver is enabled.">
+      <message name="IDS_DATA_REDUCTION_USAGE_LABEL" desc="Data Reduction statistics label that states the amount of data that was used by Brave when Data Saver is enabled.">
         Data used:
       </message>
       <message name="IDS_DATA_REDUCTION_PROXY_UNREACHABLE_WARN" desc="Warning message shown when Google data reduction proxy servers are not reachable.">
-        Chrome is unable to reach Google servers for data compression. Your data savings may be limited.
+        Brave is unable to reach Google servers for data compression. Your data savings may be limited.
       </message>
       <message name="IDS_DATA_REDUCTION_DATA_USAGE_BREAKDOWN_TITLE" desc="Title for the data usage breakdown on the Data Reduction statistics page. The breakdown lists the top ten sites with the greatest amount of data usage or mobile data that was saved.">
         Data usage breakdown
@@ -1108,7 +1108,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Reset
       </message>
       <message name="IDS_SAFE_BROWSING_DESCRIPTION" desc="Description text for safe browsing">
-        Chrome’s Safe Browsing system will also be used to detect malicious pages and protect you from phishing, malware, and harmful downloads.
+        Brave’s Safe Browsing system will also be used to detect malicious pages and protect you from phishing, malware, and harmful downloads.
       </message>
       <message name="IDS_DATA_REDUCTION_CAVEATS_DESCRIPTION" desc="Description text for usage caveats">
         This feature may interfere with access to premium data services provided by your carrier.
@@ -1154,33 +1154,33 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Turn on Data Saver
       </message>
       <message name="IDS_DATA_REDUCTION_PROMO_SNACKBAR_TEXT_MB" desc="Text to be displayed in the data reduction promo snackbar that lets the user know they saved a certain amount of data in MB">
-        Chrome has saved you <ph name="megabytes">%1$d<ex>100</ex></ph> MB
+        Brave has saved you <ph name="megabytes">%1$d<ex>100</ex></ph> MB
       </message>
       <message name="IDS_DATA_REDUCTION_PROMO_SNACKBAR_TEXT_GB" desc="Text to be displayed in the data reduction promo snackbar that lets the user know they saved a certain amount of data in GB">
-        Chrome has saved you <ph name="gigabytes">%1$d<ex>10</ex></ph> GB
+        Brave has saved you <ph name="gigabytes">%1$d<ex>10</ex></ph> GB
       </message>
       <message name="IDS_DATA_REDUCTION_PROMO_SNACKBAR_BUTTON" desc="Text to be displayed in the data reduction promo snackbar view button that takes the user to the data reduction settings page">
         View
       </message>
 
-      <!-- About Chrome preferences -->
-      <message name="IDS_PREFS_ABOUT_CHROME" desc="Title for the About Chrome page. [CHAR-LIMIT=32]">
-        About Chrome
+      <!-- About Brave preferences -->
+      <message name="IDS_PREFS_ABOUT_CHROME" desc="Title for the About Brave page. [CHAR-LIMIT=32]">
+        About Brave
       </message>
       <message name="IDS_LEGAL_INFORMATION_SUMMARY" desc="Summary for legal information" meaning="Android">
-        Copyright <ph name="year">%1$d<ex>2014</ex></ph> Google Inc. All rights reserved.
+        Copyright <ph name="year">%1$d<ex>2014</ex></ph> Brave Software Inc. All rights reserved.
       </message>
       <message name="IDS_APPLICATION_VERSION_TITLE" desc="Title for application version">
         Application version
       </message>
-      <message name="IDS_VERSION_WITH_UPDATE_TIME" desc="Message showing Chrome's version and the time it was last updated">
-        <ph name="VERSION">%1$s<ex>Chrome 40.0.2214.67</ex></ph> (Updated <ph name="TIME_SINCE_UPDATE">%2$s<ex>5 minutes ago</ex></ph>)
+      <message name="IDS_VERSION_WITH_UPDATE_TIME" desc="Message showing Brave's version and the time it was last updated">
+        <ph name="VERSION">%1$s<ex>Brave 40.0.2214.67</ex></ph> (Updated <ph name="TIME_SINCE_UPDATE">%2$s<ex>5 minutes ago</ex></ph>)
       </message>
       <message name="IDS_OS_VERSION_TITLE" desc="Title for operating system version">
         Operating system
       </message>
-      <message name="IDS_DEPRECATION_WARNING" desc="Warning about Chrome updates no longer being supported">
-        Chrome updates are no longer supported for this version of Android.
+      <message name="IDS_DEPRECATION_WARNING" desc="Warning about Brave updates no longer being supported">
+        Brave updates are no longer supported for this version of Android.
       </message>
 
       <!-- Account management UI strings. -->
@@ -1193,8 +1193,8 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_ACCOUNT_MANAGEMENT_SYNC_SUMMARY" desc="Description for which account the data is being synced to">
         Syncing to <ph name="SYNC_ACCOUNT_USER_NAME">%1$s<ex>johndoe@gmail.com</ex></ph>
       </message>
-      <message name="IDS_ACCOUNT_MANAGEMENT_SIGN_OUT" desc="Button text for signing out of Chrome">
-        Sign out of Chrome
+      <message name="IDS_ACCOUNT_MANAGEMENT_SIGN_OUT" desc="Button text for signing out of Brave">
+        Sign out of Brave
       </message>
 
       <!-- Child accounts -->
@@ -1223,15 +1223,15 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Allow all sites
       </message>
 
-      <message name="IDS_POWERED_BY_CHROME_MESSAGE" desc="A message indicating that the current page is running in Chrome.">
-        Powered by Chrome
+      <message name="IDS_POWERED_BY_CHROME_MESSAGE" desc="A message indicating that the current page is running in Brave.">
+        Powered by Brave
       </message>
 
       <!-- Sync strings in account management dialog -->
       <message name="IDS_SYNC_ANDROID_MASTER_SYNC_DISABLED" desc="Message to show when Android master sync flag is disabled">
         Android system sync disabled
       </message>
-      <message name="IDS_SYNC_IS_DISABLED" desc="Message to show when Chrome sync is disabled">
+      <message name="IDS_SYNC_IS_DISABLED" desc="Message to show when Brave sync is disabled">
         Sync is off
       </message>
       <message name="IDS_SYNC_NEED_PASSPHRASE" desc="Error message when a passphrase is needed for decrypting sync data.">
@@ -1252,16 +1252,16 @@ To obtain new licenses, connect to the internet and play your downloaded content
         chrome://credits
       </message>
       <message name="IDS_TERMS_OF_SERVICE_TITLE" desc="Title for terms of service">
-        Chrome Terms of Service
+        Brave Terms of Service
       </message>
-      <message name="IDS_PRIVACY_NOTICE_TITLE" desc="Title for the Chrome privacy notice">
-        Chrome Privacy Notice
+      <message name="IDS_PRIVACY_NOTICE_TITLE" desc="Title for the Brave privacy notice">
+        Brave Privacy Notice
       </message>
-      <message name="IDS_CHROME_PRIVACY_NOTICE_URL" desc="URL for the Chrome privacy notice" translateable="false">
-        https://www.google.com/intl/$LOCALE/chrome/browser/privacy/
+      <message name="IDS_CHROME_PRIVACY_NOTICE_URL" desc="URL for the Brave privacy notice" translateable="false">
+        https://brave.com/privacy_android
       </message>
-      <message name="IDS_CHROME_TERMS_OF_SERVICE_URL" desc="URL for Google Chrome Terms of Service" translateable="false">
-        https://www.google.com/intl/$LOCALE/chrome/browser/privacy/eula_text.html
+      <message name="IDS_CHROME_TERMS_OF_SERVICE_URL" desc="URL for Brave Terms of Service" translateable="false">
+        https://brave.com/terms_of_use
       </message>
       <message name="IDS_FAMILY_LINK_PRIVACY_POLICY_URL" desc="URL for the Family Link privacy policy" translateable="false">
         https://families.google.com/intl/$LOCALE/familylink/privacy/child-policy/
@@ -1284,16 +1284,16 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
 
       <!-- Sign-in strings -->
-      <message name="IDS_SIGNOUT_TITLE" desc="Title for sign out of Chrome dialog [CHAR-LIMIT=40]">
-        Sign out of Chrome?
+      <message name="IDS_SIGNOUT_TITLE" desc="Title for sign out of Brave dialog [CHAR-LIMIT=40]">
+        Sign out of Brave?
       </message>
-      <message name="IDS_SIGNOUT_MESSAGE" desc="Message to display for sign out of Chrome dialog">
+      <message name="IDS_SIGNOUT_MESSAGE" desc="Message to display for sign out of Brave dialog">
         Changes to your bookmarks, history, passwords, and other settings will no longer be synced to your Google Account. However, your existing data will remain stored in your Google account.
       </message>
-      <message name="IDS_SIGNOUT_MANAGED_ACCOUNT_MESSAGE" desc="Message to display for sign out of Chrome dialog when the account has enterprise management, and all user data will be erased">
-        You are signing out of an account managed by <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>. This will delete the Chrome data stored on this device, but the data will remain in your Google Account.
+      <message name="IDS_SIGNOUT_MANAGED_ACCOUNT_MESSAGE" desc="Message to display for sign out of Brave dialog when the account has enterprise management, and all user data will be erased">
+        You are signing out of an account managed by <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>. This will delete the Brave data stored on this device, but the data will remain in your Google Account.
       </message>
-      <message name="IDS_SIGNOUT_DIALOG_POSITIVE_BUTTON" desc="Button to sign out of Chrome">
+      <message name="IDS_SIGNOUT_DIALOG_POSITIVE_BUTTON" desc="Button to sign out of Brave">
         Sign out
       </message>
       <message name="IDS_SIGN_IN_BUTTON" desc="Label for a button to sign in">
@@ -1317,13 +1317,13 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Sign in to managed account
       </message>
       <message name="IDS_SIGN_IN_MANAGED_ACCOUNT_DESCRIPTION" desc="Description for signing in to managed accounts">
-        You are signing in with an account managed by <ph name="MANAGED_DOMAIN">%1$s<ex>Google</ex></ph> and giving its administrator control over your Chrome data. Your data will become permanently tied to this account. Signing out of Chrome will delete your data from this device, but it will remain stored in your Google Account.
+        You are signing in with an account managed by <ph name="MANAGED_DOMAIN">%1$s<ex>Google</ex></ph> and giving its administrator control over your Brave data. Your data will become permanently tied to this account. Signing out of Brave will delete your data from this device, but it will remain stored in your Google Account.
       </message>
       <message name="IDS_SIGN_OUT_MANAGED_ACCOUNT_DESCRIPTION" desc="Description for signing out of a managed account">
-        You are signing out of an account managed by <ph name="MANAGED_DOMAIN">%1$s<ex>Google</ex></ph>. This will delete your Chrome data from this device, but your data will remain in your Google Account.
+        You are signing out of an account managed by <ph name="MANAGED_DOMAIN">%1$s<ex>Google</ex></ph>. This will delete your Brave data from this device, but your data will remain in your Google Account.
       </message>
       <message name="IDS_SWITCH_FROM_MANAGED_ACCOUNT_DESCRIPTION" desc="Description for switching from a managed account">
-        You are switching sync accounts from <ph name="ACCOUNT_EMAIL_OLD">%1$s<ex>user@example.com</ex></ph> to <ph name="ACCOUNT_EMAIL_NEW">%2$s<ex>user@example.com</ex></ph>. Your existing Chrome data is managed by <ph name="MANAGED_DOMAIN">%3$s<ex>Google</ex></ph>. This will delete your data from this device, but your data will remain in <ph name="ACCOUNT_EMAIL_OLD">%1$s<ex>user@example.com</ex></ph>.
+        You are switching sync accounts from <ph name="ACCOUNT_EMAIL_OLD">%1$s<ex>user@example.com</ex></ph> to <ph name="ACCOUNT_EMAIL_NEW">%2$s<ex>user@example.com</ex></ph>. Your existing Brave data is managed by <ph name="MANAGED_DOMAIN">%3$s<ex>Google</ex></ph>. This will delete your data from this device, but your data will remain in <ph name="ACCOUNT_EMAIL_OLD">%1$s<ex>user@example.com</ex></ph>.
       </message>
       <message name="IDS_ACCEPT_AND_SIGN_OUT" desc="Button displayed for user to confirm and sign out of a managed account">
         Accept and sign out
@@ -1336,12 +1336,12 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
       <!-- TODO(crbug.com/737743): Remove the old promo strings after the new signin promos roll out to 100%. -->
       <message name="IDS_BOOKMARK_SIGN_IN_PROMO_DESCRIPTION" desc="Description for bookmark UI sign-in promotion.">
-        To get your bookmarks on all your devices, sign in to Chrome.
+        To get your bookmarks on all your devices, sign in to Brave.
       </message>
       <message name="IDS_RECENT_TABS_SIGN_IN_PROMO_DESCRIPTION" desc="Description for recent tabs UI sign-in promotion.">
-        To get your tabs from your other devices, sign in to Chrome.
+        To get your tabs from your other devices, sign in to Brave.
       </message>
-      <message name="IDS_ENABLE_SYNC_BUTTON" desc="Text that displayed or button that allows the user to open Chrome settings to enable sync.">
+      <message name="IDS_ENABLE_SYNC_BUTTON" desc="Text that displayed or button that allows the user to open Brave settings to enable sync.">
         Open settings
       </message>
       <message name="IDS_OPEN_SETTINGS_BUTTON" desc="Text that displayed or button that allows the open Android settings to enable sync.">
@@ -1357,7 +1357,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         To get your tabs from your other devices, turn on “Auto-sync data” in Android account settings.
       </message>
       <message name="IDS_NTP_RECENT_TABS_SYNC_PROMO_INSTRUCTIONS" desc="Information about sync displayed on the NTP when the user has signed in on mobile but not on desktop">
-        Tabs that you've opened in Chrome on your other devices will appear here.
+        Tabs that you've opened in Brave on your other devices will appear here.
       </message>
 
       <message name="IDS_SIGN_IN_SYNC" desc="Sync preference title in signed-in prefs and prefix for notification related to sync [CHAR-LIMIT=32]">
@@ -1487,22 +1487,22 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_BLUETOOTH_ADAPTER_OFF" desc="The message to show when scanning cannot start because the bluetooth adapter is turned off.">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Turn on Bluetooth<ph name="END_LINK">&lt;/link&gt;</ph> to allow pairing
       </message>
-      <message name="IDS_BLUETOOTH_UNABLE_TO_TURN_ON_ADAPTER" desc="The message to show when Chrome is unable to turn on the Bluetooth adapter.">
-          Chrome is unable to turn on Bluetooth adapter
+      <message name="IDS_BLUETOOTH_UNABLE_TO_TURN_ON_ADAPTER" desc="The message to show when Brave is unable to turn on the Bluetooth adapter.">
+          Brave is unable to turn on Bluetooth adapter
       </message>
       <message name="IDS_BLUETOOTH_ADAPTER_OFF_HELP" desc="The status message to show along with the message when the bluetooth adapter is turned off (to get Help).">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Get help<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
-      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION" desc="The message to show when scanning cannot start because Chrome needs the Location permission in order for Android to return any Bluetooth devices from a scan.">
-        Chrome needs location access to scan for devices. <ph name="BEGIN_LINK">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK">&lt;/permission_link&gt;</ph>
+      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION" desc="The message to show when scanning cannot start because Brave needs the Location permission in order for Android to return any Bluetooth devices from a scan.">
+        Brave needs location access to scan for devices. <ph name="BEGIN_LINK">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK">&lt;/permission_link&gt;</ph>
       </message>
       <message name="IDS_BLUETOOTH_NEED_LOCATION_SERVICES_ON" desc="The message to show when scanning cannot start because Android location services are off, but they must be turned on for Android to return any Bluetooth devices from a scan.">
-        Chrome needs location access to scan for devices. Location access is <ph name="BEGIN_LINK">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK">&lt;/services_link&gt;</ph>.
+        Brave needs location access to scan for devices. Location access is <ph name="BEGIN_LINK">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK">&lt;/services_link&gt;</ph>.
       </message>
-      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_AND_SERVICES_ON" desc="The message to show when scanning cannot start because Chrome doesn't have the Location permission and the device's location services are turned off, and both must be enabled in order for Android to return any Bluetooth devices from a scan.">
-        Chrome needs location access to scan for devices. <ph name="BEGIN_LINK1">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK1">&lt;/permission_link&gt;</ph>. Location access is also <ph name="BEGIN_LINK2">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK2">&lt;/services_link&gt;</ph>.
+      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_AND_SERVICES_ON" desc="The message to show when scanning cannot start because Brave doesn't have the Location permission and the device's location services are turned off, and both must be enabled in order for Android to return any Bluetooth devices from a scan.">
+        Brave needs location access to scan for devices. <ph name="BEGIN_LINK1">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK1">&lt;/permission_link&gt;</ph>. Location access is also <ph name="BEGIN_LINK2">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK2">&lt;/services_link&gt;</ph>.
       </message>
-      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_HELP" desc="The status message to get more information about why Chrome needs the Location permission in order to scan for Bluetooth devices.">
+      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_HELP" desc="The status message to get more information about why Brave needs the Location permission in order to scan for Bluetooth devices.">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Get help<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_BLUETOOTH_DEVICE_CONNECTED" desc="Content description for the connected icon next to connected Bluetooth devices.">
@@ -1519,7 +1519,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Sync isn't working
       </message>
       <message name="IDS_HINT_ANDROID_SYNC_DISABLED" desc="Hint message to resolve Android system sync is disabled error.">
-        Open Android settings and re-enable Android system sync to start Chrome sync
+        Open Android settings and re-enable Android system sync to start Brave sync
       </message>
       <message name="IDS_HINT_SYNC_AUTH_ERROR" desc="Hint message to resolve sync auth error.">
         Sign in again to start sync
@@ -1531,7 +1531,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Try signing in again
       </message>
       <message name="IDS_HINT_CLIENT_OUT_OF_DATE" desc="Hint message to resolve sync protocol error for out-of-date client.">
-        Update <ph name="PRODUCT_NAME">%1$s<ex>Chrome</ex></ph> to start sync
+        Update <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph> to start sync
       </message>
 
       <!-- Sync error strings -->
@@ -1545,7 +1545,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Could not connect to the sync server.
       </message>
       <message name="IDS_SYNC_ERROR_UPGRADE_CLIENT" desc="Sync error string for out-of-date client. [CHAR-LIMIT=80]">
-        <ph name="PRODUCT_NAME">%1$s<ex>Chrome</ex></ph> is out of date.
+        <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph> is out of date.
       </message>
       <message name="IDS_SYNC_ERROR_SERVICE_UNAVAILABLE" desc="Sync error string for service unavailable. [CHAR-LIMIT=80]">
         The service is not available; try again later.
@@ -1633,7 +1633,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Always translate <ph name="SOURCE_LANGUAGE">%1$s<ex>French</ex></ph>
       </message>
       <message name="IDS_TRANSLATE_NEVER_TRANSLATE_MESSAGE_TEXT">
-        Would you like Google Chrome to offer to translate <ph name="LANGUAGE">%1$s<ex>French</ex></ph> pages from this site next time?
+        Would you like Brave to offer to translate <ph name="LANGUAGE">%1$s<ex>French</ex></ph> pages from this site next time?
       </message>
       <message name="IDS_TRANSLATE_BUTTON" desc="Possible texts to display on the translate infobar buttons. [CHAR-LIMIT=24]">
         Translate
@@ -1659,20 +1659,20 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_TRANSLATE_NEVER_TRANSLATE_SITE" desc="Text to display on the never translate site (like www.google.com) button. [CHAR-LIMIT=64]">
         Never translate this site
       </message>
-      <message name="IDS_TRANSLATE_NEVER_TRANSLATE_LANGUAGE" desc="Text that appears on a button. Chrome asks the user if they want to translate a page from the source language into another, target language that the user may have shown interest in before. User can click the 'Never Translate' button to indicate that they never want Chrome to translate pages in this language. Imperative. [CHAR-LIMIT=64]">
+      <message name="IDS_TRANSLATE_NEVER_TRANSLATE_LANGUAGE" desc="Text that appears on a button. Brave asks the user if they want to translate a page from the source language into another, target language that the user may have shown interest in before. User can click the 'Never Translate' button to indicate that they never want Brave to translate pages in this language. Imperative. [CHAR-LIMIT=64]">
         Never translate <ph name="LANGUAGE">%1$s<ex>French</ex></ph>
       </message>
 
-      <message name="IDS_TRANSLATE_OPTION_ALWAYS_TRANSLATE" desc="Option in the Chrome menu. User can click the 'Always Translate' option to indicate that they want Chrome to translate pages in this language automatically. Imperative.">
+      <message name="IDS_TRANSLATE_OPTION_ALWAYS_TRANSLATE" desc="Option in the Brave menu. User can click the 'Always Translate' option to indicate that they want Brave to translate pages in this language automatically. Imperative.">
         Always translate pages in <ph name="SOURCE_LANGUAGE">%1$s<ex>French</ex></ph>
       </message>
-      <message name="IDS_TRANSLATE_OPTION_NEVER_TRANSLATE" desc="Option in the Chrome menu. User can click the 'Never Translate' option to indicate that they never want Chrome to translate pages in this language. The variable SOURCE_LANGUAGE could be any of 50+ languages supported by Google Translate, like French, Spanish, German, Italian, Japanese, Korean, etc. Imperative.">
+      <message name="IDS_TRANSLATE_OPTION_NEVER_TRANSLATE" desc="Option in the Brave menu. User can click the 'Never Translate' option to indicate that they never want Brave to translate pages in this language. The variable SOURCE_LANGUAGE could be any of 50+ languages supported by Google Translate, like French, Spanish, German, Italian, Japanese, Korean, etc. Imperative.">
         Never translate pages in <ph name="SOURCE_LANGUAGE">%1$s<ex>French</ex></ph>
       </message>
-      <message name="IDS_TRANSLATE_OPTION_MORE_LANGUAGE" desc="Option in the Chrome menu. Lets the user open a dialog to choose other target languages for translation, from a list of available languages. [CHAR-LIMIT=64]">
+      <message name="IDS_TRANSLATE_OPTION_MORE_LANGUAGE" desc="Option in the Brave menu. Lets the user open a dialog to choose other target languages for translation, from a list of available languages. [CHAR-LIMIT=64]">
         More languages
       </message>
-      <message name="IDS_TRANSLATE_OPTION_NOT_SOURCE_LANGUAGE" desc="Option in the Chrome menu. Sometimes a web page's source language is not correctly identified by Google Translate, and this menu option lets the user open a submenu to select another language as the source language to translate. Phrased as a question as if to query the user, 'Is this page not in [source language identified]? If so, click here.' [CHAR-LIMIT=64]">
+      <message name="IDS_TRANSLATE_OPTION_NOT_SOURCE_LANGUAGE" desc="Option in the Brave menu. Sometimes a web page's source language is not correctly identified by Google Translate, and this menu option lets the user open a submenu to select another language as the source language to translate. Phrased as a question as if to query the user, 'Is this page not in [source language identified]? If so, click here.' [CHAR-LIMIT=64]">
         Page is not in <ph name="LANGUAGE">%1$s<ex>French</ex></ph>?
       </message>
       <message name="IDS_TRANSLATE_SNACKBAR_ALWAYS_TRANSLATE" desc="After the user selects 'Always translate pages in [LANGUAGE]', this text confirms the user's choice and lets them know that pages in [LANGUAGE] will be translated to their chosen target language automatically. Imperative. [CHAR-LIMIT=64]">
@@ -1700,7 +1700,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_ACCESSIBILITY_MENU_SHARE_VIA" desc="Content description share current page via the most recently used application menu item">
         Share via <ph name="APPLICATION">%s<ex>Gmail</ex></ph>
       </message>
-      <message name="IDS_ERROR_PRINTING_FAILED" desc="Generic error message shown when Chrome fails to print the current page for some reason.">
+      <message name="IDS_ERROR_PRINTING_FAILED" desc="Generic error message shown when Brave fails to print the current page for some reason.">
         There was a problem printing the page. Please try again.
       </message>
       <message name="IDS_ACCESSIBILITY_MENU_BOOKMARK" desc="Content description for the bookmark button when the page is not currently bookmarked.">
@@ -1717,20 +1717,20 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
 
       <!-- Runtime permission strings -->
-      <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Chrome is missing the Android camera permission.">
-        Chrome needs permission to access your camera for this site.
+      <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Brave is missing the Android camera permission.">
+        Brave needs permission to access your camera for this site.
       </message>
-      <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Chrome is missing the Android microphone permission.">
-        Chrome needs permission to access your microphone for this site.
+      <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Brave is missing the Android microphone permission.">
+        Brave needs permission to access your microphone for this site.
       </message>
-      <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Chrome is missing the Android microphone and camera permissions.">
-        Chrome needs permission to access your camera and microphone for this site.
+      <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Brave is missing the Android microphone and camera permissions.">
+        Brave needs permission to access your camera and microphone for this site.
       </message>
-      <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Chrome is missing the Android location permission.">
-        Chrome needs access to your location to share your location with this site.
+      <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Brave is missing the Android location permission.">
+        Brave needs access to your location to share your location with this site.
       </message>
-      <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Chrome is missing the Android storage permission, which is required to download files.">
-        Chrome needs storage access to download files.
+      <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Brave is missing the Android storage permission, which is required to download files.">
+        Brave needs storage access to download files.
       </message>
 
       <!-- ContextMenu -->
@@ -1788,10 +1788,10 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_CONTEXTMENU_SAVE_VIDEO" desc="Context sensitive menu item for saving the selected video. [CHAR-LIMIT=30]">
         Download video
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Chrome tab from Chrome Custom Tab. [CHAR-LIMIT=30]">
-        Open in new Chrome tab
+      <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Brave tab from Brave Custom Tab. [CHAR-LIMIT=30]">
+        Open in new Brave tab
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Chrome incognito tab from Chrome Custom Tab. [CHAR-LIMIT=30]">
+      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave incognito tab from Brave Custom Tab. [CHAR-LIMIT=30]">
         Open in incognito tab
       </message>
       <!-- Swipe refresh -->
@@ -1800,10 +1800,10 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
 
       <!-- Browser Action strings -->
-      <message name="IDS_BROWSER_ACTIONS_OPEN_IN_BACKGROUND" desc="Browser Actions menu item to open the selected link in a Chrome tab in the background. [CHAR-LIMIT=30]">
-        Open in new Chrome tab
+      <message name="IDS_BROWSER_ACTIONS_OPEN_IN_BACKGROUND" desc="Browser Actions menu item to open the selected link in a Brave tab in the background. [CHAR-LIMIT=30]">
+        Open in new Brave tab
       </message>
-      <message name="IDS_BROWSER_ACTIONS_OPEN_IN_INCOGNITO_TAB" desc="Browser Actions menu item to open the selected link in a Chrome incognito tab. [CHAR-LIMIT=30]">
+      <message name="IDS_BROWSER_ACTIONS_OPEN_IN_INCOGNITO_TAB" desc="Browser Actions menu item to open the selected link in a Brave incognito tab. [CHAR-LIMIT=30]">
         Open in incognito tab
       </message>
       <message name="IDS_BROWSER_ACTIONS_SAVE_LINK_AS" desc="Browser Actions menu item to download the page of the selected link. [CHAR-LIMIT=30]">
@@ -1815,14 +1815,14 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_BROWSER_ACTIONS_SHARE" desc="Browser Actions menu item to share the url address of the selected link. [CHAR-LIMIT=30]">
         Share...
       </message>
-      <message name="IDS_BROWSER_ACTIONS_OPEN_IN_BACKGROUND_TOAST_MESSAGE" desc="Browser Actions toast message when to open a link in new Chrome tab in the backgoround. [CHAR-LIMIT=30]">
-        Link opened in Chrome
+      <message name="IDS_BROWSER_ACTIONS_OPEN_IN_BACKGROUND_TOAST_MESSAGE" desc="Browser Actions toast message when to open a link in new Brave tab in the backgoround. [CHAR-LIMIT=30]">
+        Link opened in Brave
       </message>
       <message name="IDS_BROWSER_ACTIONS_SINGLE_LINK_OPEN_NOTIFICATION_TITLE" desc="Content title displayed in the notification when one link is opened in the background from Browser Actions. [CHAR-LIMIT=30]">
-        Link opened in Chrome
+        Link opened in Brave
       </message>
       <message name="IDS_BROWSER_ACTIONS_MULTI_LINKS_OPEN_NOTIFICATION_TITLE" desc="Content title displayed in the notification when multiple links are opened in the background from Browser Actions. [CHAR-LIMIT=41]">
-        Multiple links opened in Chrome
+        Multiple links opened in Brave
       </message>
       <message name="IDS_BROWSER_ACTIONS_NOTIFICATION_TEXT" desc="Context text displayed in the notification when links are opened in the background from Browser Actions. [CHAR-LIMIT=30]">
         Tap to view
@@ -1987,7 +1987,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
 
       <!-- Download UI -->
       <message name="IDS_DOWNLOAD_NOTIFICATION_SUMMARY_TITLE" desc="Text that shows up for a summary notification for all downloads.">
-        Chrome Downloads
+        Brave Downloads
       </message>
       <message name="IDS_DOWNLOAD_NOTIFICATION_CANCEL_BUTTON" desc="Text on the button that cancels a download.">
         Cancel
@@ -2038,7 +2038,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Downloading…
       </message>
       <message name="IDS_DOWNLOAD_SUCCEEDED_MESSAGE" desc="App-based transient message shown when a file download has succeeded." meaning="Android">
-        <ph name="FILE_NAME">%1$s<ex>http://abc.com/test.pdf</ex></ph> downloaded in <ph name="PRODUCT_NAME">%2$s<ex>Chrome</ex></ph>
+        <ph name="FILE_NAME">%1$s<ex>http://abc.com/test.pdf</ex></ph> downloaded in <ph name="PRODUCT_NAME">%2$s<ex>Brave</ex></ph>
       </message>
       <message name="IDS_DOWNLOAD_SUCCEEDED_MESSAGE_DEFAULT" desc="Transient message shown when a file download has succeeded." meaning="Android">
         <ph name="FILE_NAME">%1$s<ex>http://abc.com/test.pdf</ex></ph> downloaded
@@ -2182,7 +2182,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         No downloads found
       </message>
       <message name="IDS_DOWNLOAD_MANAGER_OFFLINE_HEADER_TITLE" desc="The title for suggested offline pages header.">
-        Popular pages from Chrome
+        Popular pages from Brave
       </message>
       <message name="IDS_DOWNLOAD_MANAGER_OFFLINE_HEADER_DESCRIPTION" desc="Text containing the offline pages description.">
         Pages updated regularly
@@ -2222,40 +2222,40 @@ To obtain new licenses, connect to the internet and play your downloaded content
       </message>
 
       <!-- Startup errors -->
-      <message name="IDS_OS_VERSION_MISSING_FEATURES" desc="Error message shown when Chrome fails to run due to an incomplete version of Android.">
-        Critical functionality required to run Chrome is missing; either your Chrome installation is incomplete, or not compatible with this version of Android.
+      <message name="IDS_OS_VERSION_MISSING_FEATURES" desc="Error message shown when Brave fails to run due to an incomplete version of Android.">
+        Critical functionality required to run Brave is missing; either your Brave installation is incomplete, or not compatible with this version of Android.
       </message>
-      <message name="IDS_INCOMPATIBLE_LIBRARIES" desc="Error message shown when Chrome fails to start due to having the wrong version of the native library">
-        Chrome’s components are incompatible with one another. Chrome may be upgrading, please try again in a few minutes. If the problem continues, try uninstalling and re-installing Chrome.
+      <message name="IDS_INCOMPATIBLE_LIBRARIES" desc="Error message shown when Brave fails to start due to having the wrong version of the native library">
+        Brave’s components are incompatible with one another. Brave may be upgrading, please try again in a few minutes. If the problem continues, try uninstalling and re-installing Brave.
       </message>
-      <message name="IDS_NATIVE_STARTUP_FAILED" desc="Error message shown when Chrome fails to start for other (unknown) reasons">
-        Chrome failed during startup with an unexpected error.
+      <message name="IDS_NATIVE_STARTUP_FAILED" desc="Error message shown when Brave fails to start for other (unknown) reasons">
+        Brave failed during startup with an unexpected error.
       </message>
 
       <!-- First Run strings -->
       <message name="IDS_FRE_SKIP_TEXT" desc="Text for second page skip button">
         No thanks
       </message>
-      <message name="IDS_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Chrome is governed by Chrome's terms of service and privacy notice.">
-        By using this application, you agree to Chrome’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
+      <message name="IDS_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice.">
+        By using this application, you agree to Brave’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
       </message>
-      <message name="IDS_FRE_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Chrome is governed by Chrome's terms of service and privacy notice, and Family Link's privacy notice for children.">
-        By using this application, you agree to Chrome’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Google Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
+      <message name="IDS_FRE_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice, and Family Link's privacy notice for children.">
+        By using this application, you agree to Brave’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Google Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
       </message>
-      <message name="IDS_LIGHTWEIGHT_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Chrome is governed by Chrome's terms of service and privacy notice.">
-        By continuing, you agree to Chrome’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
+      <message name="IDS_LIGHTWEIGHT_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice.">
+        By continuing, you agree to Brave’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
       </message>
-      <message name="IDS_LIGHTWEIGHT_FRE_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Chrome is governed by Chrome's terms of service and privacy notice, and Family Link's privacy notice for children.">
-        By continuing, you agree to Chrome's <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Google Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
+      <message name="IDS_LIGHTWEIGHT_FRE_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice, and Family Link's privacy notice for children.">
+        By continuing, you agree to Brave's <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Google Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
       </message>
       <message name="IDS_FRE_SEND_REPORT_CHECK" desc="Text for asking the user to allow sending stats and crash reports">
-        Help make Chrome better by sending usage statistics and crash reports to Google.
+        Help make Brave better by sending usage statistics and crash reports to Google.
       </message>
       <message name="IDS_FRE_ACCEPT_CONTINUE" desc="Text for first page accept and continue button [CHAR-LIMIT=20]">
         Accept &amp; continue
       </message>
-      <message name="IDS_FRE_WELCOME" desc="Text for greeting the user on Chrome First Run">
-        Welcome to Chrome
+      <message name="IDS_FRE_WELCOME" desc="Text for greeting the user on Brave First Run">
+        Welcome to Brave
       </message>
 
       <!-- Account Signin Strings -->
@@ -2284,10 +2284,10 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Hi, <ph name="FULL_NAME">%1$s<ex>John Smith</ex></ph>
       </message>
       <message name="IDS_SIGNIN_SIGNED_IN_SETTINGS_DESCRIPTION_CHILD_ACCOUNT" desc="Label of the section containing the link to go to the settings page, when signing in to a child account.">
-        You and your parents can manage Chrome Sync and personalization in <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Settings<ph name="END_LINK1">&lt;/LINK1&gt;</ph>
+        You and your parents can manage Brave Sync and personalization in <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Settings<ph name="END_LINK1">&lt;/LINK1&gt;</ph>
       </message>
       <message name="IDS_SIGNIN_SIGNED_IN_SETTINGS_DESCRIPTION" desc="Label of the section containing the link to go to the settings page.">
-        Manage Chrome Sync and personalization in <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Settings<ph name="END_LINK1">&lt;/LINK1&gt;</ph>
+        Manage Brave Sync and personalization in <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Settings<ph name="END_LINK1">&lt;/LINK1&gt;</ph>
       </message>
       <message name="IDS_SIGNIN_GMS_UPDATING" desc="Message notifying user that Google Play Services is still updating.">
         Waiting for Google Play Services to finish updating
@@ -2295,21 +2295,21 @@ To obtain new licenses, connect to the internet and play your downloaded content
 
       <!-- New Signin Promos Strings -->
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS" desc="Description string for 'Continue as' signin promo shown in Bookmarks screen.">
-        To get your bookmarks on all your devices, sign in to Chrome.
+        To get your bookmarks on all your devices, sign in to Brave.
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_CONTENT_SUGGESTIONS" desc="Description string for 'Continue as' signin promo shown in NTP content suggestions screen.">
-        To get personalized content suggested by Google, sign in to Chrome.
+        To get personalized content suggested by Google, sign in to Brave.
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS" desc="Description string for 'Continue as' signin promo shown in Recent Tabs screen.">
-        To get your tabs from your other devices, sign in to Chrome.
+        To get your tabs from your other devices, sign in to Brave.
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_SETTINGS" desc="Description string for 'Continue as' signin promo shown in Settings screen.">
-        Sign in to Chrome to get your bookmarks, passwords, and more on all your devices.
+        Sign in to Brave to get your bookmarks, passwords, and more on all your devices.
       </message>
-      <message name="IDS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Chrome with this acccount.">
+      <message name="IDS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Brave with this acccount.">
         Continue as <ph name="USER_FULL_NAME">%1$s<ex>John Doe</ex></ph>
       </message>
-      <message name="IDS_SIGNIN_PROMO_CHOOSE_ACCOUNT" desc="Button that the user can press if they are not the profile that Chrome found (opposite of 'Continue as Joe Doe').">
+      <message name="IDS_SIGNIN_PROMO_CHOOSE_ACCOUNT" desc="Button that the user can press if they are not the profile that Brave found (opposite of 'Continue as Joe Doe').">
         Not <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>?
       </message>
 
@@ -2317,7 +2317,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_CAST_CASTING_VIDEO" desc="AtHome text to tell user which screen casting is happening. [CHAR LIMIT=40]">
         Casting to <ph name="SCREEN_NAME">%1$s<ex>Living Room TV</ex></ph>
       </message>
-      <message name="IDS_CAST_ERROR_PLAYING_VIDEO" desc="The message shown to the user when playing a video to the Chromecast fails.">
+      <message name="IDS_CAST_ERROR_PLAYING_VIDEO" desc="The message shown to the user when playing a video to the Bravecast fails.">
         Cannot play video on <ph name="SCREEN_NAME">%1$s<ex>Living Room TV</ex></ph>.
       </message>
       <message name="IDS_ACCESSIBILITY_PLAY" desc="The play button that starts playing the media.">
@@ -2406,7 +2406,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_ACCESSIBILITY_SUGGESTION_WITH_VIDEO_BADGE" desc="Content description for the badge that indicates a content suggestion on the new tab page has a video.">
         With video
       </message>
-      <message name="IDS_NTP_CHROME_HOME_PROMO" desc="Tappable line of text that appears when a user opens a new tab in Chrome. This text is promotional and is intended to suggest that users try the new Chrome, which has new features. When tapped, a dialog explaining the feature opens. “Try” is imperative. “To browse” (infinitive) means to browse the web.">
+      <message name="IDS_NTP_CHROME_HOME_PROMO" desc="Tappable line of text that appears when a user opens a new tab in Brave. This text is promotional and is intended to suggest that users try the new Brave, which has new features. When tapped, a dialog explaining the feature opens. “Try” is imperative. “To browse” (infinitive) means to browse the web.">
         Try an <ph name="BEGIN_LINK">&lt;link&gt;</ph>easier way to browse<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_NTP_LEARN_MORE_ABOUT_SUGGESTED_CONTENT" desc="Text in the footer of the New Tab Page. Part of the text is a link to a help center page where the user can learn more about suggested content.">
@@ -2444,9 +2444,9 @@ To obtain new licenses, connect to the internet and play your downloaded content
 
       <!-- Main menu items -->
       <message name="IDS_MENU_UPDATE" desc="Menu item for updating chrome. [CHAR-LIMIT=24]">
-        Update Chrome
+        Update Brave
       </message>
-      <message name="IDS_MENU_UPDATE_SUMMARY_DEFAULT" desc="Summary string for update menu item explaining that a newer version of Chrome is available. [CHAR-LIMIT=30]">
+      <message name="IDS_MENU_UPDATE_SUMMARY_DEFAULT" desc="Summary string for update menu item explaining that a newer version of Brave is available. [CHAR-LIMIT=30]">
         Newer version is available
       </message>
       <message name="IDS_MENU_MOVE_TO_OTHER_WINDOW" desc="Menu item for moving the current tab into the other window. [CHAR-LIMIT=27]">
@@ -2491,7 +2491,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_MENU_FIND_IN_PAGE" desc="Menu item allowing users to find text within the current page. [CHAR-LIMIT=27]">
         Find in page
       </message>
-      <message name="IDS_MENU_REQUEST_DESKTOP_SITE" desc="Menu item in Chrome's overflow/options menu. By default, when a user navigates to a web page, Chrome shows the mobile site, that is, the version of the site designed for mobile phones. If this menu item is selected, however, Chrome will try to load the 'desktop' site instead, i.e. the site designed for desktop computers or laptop computers, which have larger screens. [CHAR-LIMIT=24]">
+      <message name="IDS_MENU_REQUEST_DESKTOP_SITE" desc="Menu item in Brave's overflow/options menu. By default, when a user navigates to a web page, Brave shows the mobile site, that is, the version of the site designed for mobile phones. If this menu item is selected, however, Brave will try to load the 'desktop' site instead, i.e. the site designed for desktop computers or laptop computers, which have larger screens. [CHAR-LIMIT=24]">
         Desktop site
       </message>
       <message name="IDS_MENU_REQUEST_DESKTOP_SITE_ON" desc="Accessibility description for when Request Desktop Site is enabled.">
@@ -2527,7 +2527,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
         {BOOKMARKS_COUNT, plural, =1 {%1$d bookmark} other {%1$d bookmarks}}
       </message>
       <message name="IDS_BOOKMARK_PAGE_SAVED" desc="App-based message shown after user adds a new bookmark. [CHAR-LIMIT=32]">
-        Bookmarked in <ph name="PRODUCT_NAME">%1$s<ex>Chrome</ex></ph>
+        Bookmarked in <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph>
       </message>
       <message name="IDS_BOOKMARK_PAGE_SAVED_DEFAULT" desc="Default message shown after user adds a new bookmark. [CHAR-LIMIT=32]">
         Bookmarked
@@ -2607,8 +2607,8 @@ To obtain new licenses, connect to the internet and play your downloaded content
         Viewing an offline copy of this page
       </message>
 
-      <message name="IDS_OFFLINE_PAGES_PREFETCH_NOTIFICATION_TITLE" desc="Title text of a notification that informs the user that there is web content available to view in Chrome even while offline">
-        View offline in <ph name="APP_NAME">%1$s<ex>Chrome</ex></ph>
+      <message name="IDS_OFFLINE_PAGES_PREFETCH_NOTIFICATION_TITLE" desc="Title text of a notification that informs the user that there is web content available to view in Brave even while offline">
+        View offline in <ph name="APP_NAME">%1$s<ex>Brave</ex></ph>
       </message>
 
       <message name="IDS_OFFLINE_PAGES_PREFETCH_NOTIFICATION_TEXT" desc="Text inside a notification explaining the sites that fresh offline web pages originate from.">
@@ -2653,11 +2653,11 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_OPEN_IN_NEW_TAB_TOAST" desc="Toast displayed after a tab is opened in the background on a low end device.">
         Tab opened in background.
       </message>
-      <message name="IDS_MENU_OPEN_IN_CHROME" desc="Context sensitive menu item for opening a link in Chrome. [CHAR-LIMIT=30]">
-        Open in Chrome
+      <message name="IDS_MENU_OPEN_IN_CHROME" desc="Context sensitive menu item for opening a link in Brave. [CHAR-LIMIT=30]">
+        Open in Brave
       </message>
       <message name="IDS_MENU_OPEN_IN_PRODUCT" desc="App menu item for opening link in the browser. [CHAR-LIMIT=30]">
-        Open in <ph name="PRODUCT_NAME">%1$s<ex>Chrome</ex></ph>
+        Open in <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph>
       </message>
       <message name="IDS_MENU_OPEN_IN_PRODUCT_DEFAULT" desc="Default title for menu item for opening link in browser. [CHAR-LIMIT=30]">
         Open in browser
@@ -2668,14 +2668,14 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_READER_VIEW_TEXT_ALT" desc='Message shown on the reader mode button bar, to invite the user to tap to open a reader mode. Reader mode extracts content and removes clutter from a web page and puts the result in a panel making it easier to read. This is used when "Reader Mode for Accessibility" is available.'>
         Simplify page
       </message>
-      <message name="IDS_CONTENT_PROVIDER_SEARCH_DESCRIPTION" desc="Description for Chrome's entry in QSB's list of search suggestion providers [CHAR-LIMIT=32]">
+      <message name="IDS_CONTENT_PROVIDER_SEARCH_DESCRIPTION" desc="Description for Brave's entry in QSB's list of search suggestion providers [CHAR-LIMIT=32]">
         Bookmarks and web history
       </message>
       <message name="IDS_URL_COPIED" desc="Notification telling the user that the url has been copied to clipboard. [CHAR-LIMIT=32]">
         URL copied.
       </message>
-      <message name="IDS_SURVEY_PROMPT" desc="Message shown that invites the user to take a survey about Chrome. 'Help' and 'improve' are imperative verbs. 'Take survey' is a tappable link. When tapped, a survey about Chrome opens.">
-        Help improve Chrome. <ph name="BEGIN_LINK">&lt;LINK&gt;</ph>Take survey.<ph name="END_LINK">&lt;/LINK&gt;</ph>
+      <message name="IDS_SURVEY_PROMPT" desc="Message shown that invites the user to take a survey about Brave. 'Help' and 'improve' are imperative verbs. 'Take survey' is a tappable link. When tapped, a survey about Brave opens.">
+        Help improve Brave. <ph name="BEGIN_LINK">&lt;LINK&gt;</ph>Take survey.<ph name="END_LINK">&lt;/LINK&gt;</ph>
       </message>
 
       <!-- Accessibility -->
@@ -2688,7 +2688,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU" desc="Content description for the settings menu button.">
         More options
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU_UPDATE" desc="Content description for the menu button when it is covered by the update icon that is displayed when a newer version of Chrome is available.">
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU_UPDATE" desc="Content description for the menu button when it is covered by the update icon that is displayed when a newer version of Brave is available.">
         Update available. More options
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_SITE_INFO" desc="Content description for the page icon that gives more site information when clicked.  The icon can be a lock for secure pages, a magnifier for search result pages, or other icons representing the page state.">
@@ -2721,7 +2721,7 @@ To obtain new licenses, connect to the internet and play your downloaded content
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_HOME" desc="Content description for the home button.">
         Home
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_EXPAND" desc="Content description for the Chrome Home sheet expand button. Tapping the button expands a panel that displays content suggestions, downloads, bookmarks, and history.">
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_EXPAND" desc="Content description for the Brave Home sheet expand button. Tapping the button expands a panel that displays content suggestions, downloads, bookmarks, and history.">
         Expand navigation panel
       </message>
       <message name="IDS_ACCESSIBILITY_BTN_REFRESH" desc="Content description for the refresh page button.">
@@ -2872,8 +2872,8 @@ However, you aren’t invisible. Going incognito doesn’t hide your browsing fr
       </message>
 
       <!-- MultiWindow -->
-      <message name="IDS_UNSUPPORTED_NUMBER_OF_WINDOWS" desc="Popup message for when the user has tried to start too many concurrent versions of Chrome.">
-        Unsupported number of Chrome instances.
+      <message name="IDS_UNSUPPORTED_NUMBER_OF_WINDOWS" desc="Popup message for when the user has tried to start too many concurrent versions of Brave.">
+        Unsupported number of Brave instances.
       </message>
 
       <!-- Override URL -->
@@ -2889,23 +2889,23 @@ However, you aren’t invisible. Going incognito doesn’t hide your browsing fr
       </message>
 
       <!-- Storage Preference UI strings for clearing storage. -->
-      <message name="IDS_STORAGE_MANAGEMENT_ACTIVITY_LABEL" desc="Title for Chrome's Manage Space Activity.">
-         Google <ph name="APP_NAME">%1$s<ex>Chrome</ex></ph> storage
+      <message name="IDS_STORAGE_MANAGEMENT_ACTIVITY_LABEL" desc="Title for Brave's Manage Space Activity.">
+         Google <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> storage
       </message>
       <message name="IDS_STORAGE_CLEAR_SITE_STORAGE_TITLE" desc="Title of clear storage dialogs used in a couple different places to confirm clearing site storage data. [CHAR-LIMIT=24]">
         Clear site storage?
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_UNIMPORTANT_SITE_DATA_DESCRIPTION" desc="Text to describe the data stored by unimportant or infrequent sites.">
-        Site storage Chrome doesn't think is important (e.g. sites with no saved settings or that you don't visit often)
+        Site storage Brave doesn't think is important (e.g. sites with no saved settings or that you don't visit often)
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_UNIMPORTANT_SITE_DATA_SIZE_LABEL" desc="Label for the data usage of site data for unimportant sites (followed by a number of megabytes). [CHAR-LIMIT=30]">
         Unimportant storage
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_UNIMPORTANT_SITE_DATA_BUTTON" desc="Text on the button to clear all Chrome data. [CHAR LIMIT=30]">
+      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_UNIMPORTANT_SITE_DATA_BUTTON" desc="Text on the button to clear all Brave data. [CHAR LIMIT=30]">
         Free up space
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_CLEAR_UNIMPORTANT_DIALOG_TEXT" desc="Text of the clear unimportant site data dialog in the storage UI.">
-        This will clear cookies, cache, and other data of sites Chrome doesn't think is important.
+        This will clear cookies, cache, and other data of sites Brave doesn't think is important.
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_SITE_DATA_DESCRIPTION" desc="Text to describe the data stored on the device by websites.">
         All site storage, including cookies and other locally stored data
@@ -2922,17 +2922,17 @@ However, you aren’t invisible. Going incognito doesn’t hide your browsing fr
       <message name="IDS_STORAGE_MANAGEMENT_MANAGE_SITE_DATA_BUTTON" desc="Text on the button allowing users to manage the space used by websites. [CHAR LIMIT=30]">
         Manage
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_ALL_STORAGE_DESCRIPTION" desc="Text used to describe all storage space used by Chrome.">
-        Total data used by Chrome, including accounts, bookmarks, and saved settings
+      <message name="IDS_STORAGE_MANAGEMENT_ALL_STORAGE_DESCRIPTION" desc="Text used to describe all storage space used by Brave.">
+        Total data used by Brave, including accounts, bookmarks, and saved settings
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_ALL_DATA_BUTTON" desc="Text on the button to clear all Chrome data. [CHAR LIMIT=30]">
+      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_ALL_DATA_BUTTON" desc="Text on the button to clear all Brave data. [CHAR LIMIT=30]">
         Clear All Data
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TITLE" desc="Title of the reset app dialog in the storage UI used to reset the app.">
         Delete app data?
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TEXT" desc="Text of the reset app dialoag in the storage UI.">
-        All Chrome’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.
+        All Brave’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.
       </message>
 
       <message name="IDS_STORAGE_CLEAR_BUTTON_TITLE" desc="Title of a button in the storage UI used to clear all storage data. [CHAR-LIMIT=24]">
@@ -2958,7 +2958,7 @@ However, you aren’t invisible. Going incognito doesn’t hide your browsing fr
         Physical Web
       </message>
       <message name="IDS_PHYSICAL_WEB_PREF_DESCRIPTION" desc="Description for Physical Web preference">
-        Discover web pages sent by nearby objects. Chrome gathers web pages associated with objects around you, sends them anonymously to a Google service to find the ones most useful to you, then displays them.
+        Discover web pages sent by nearby objects. Brave gathers web pages associated with objects around you, sends them anonymously to a Google service to find the ones most useful to you, then displays them.
 
 You must have Bluetooth and Location turned on in order to use the Physical Web.
       </message>
@@ -3010,7 +3010,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
         Search with Sogou
       </message>
       <message name="IDS_SOGOU_EXPLANATION" desc="Text explaining why Sogou should be used as default search engine.">
-        Chrome can use <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Sogou<ph name="END_BOLD">&lt;/b&gt;</ph> for search in China. You can change this in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Brave can use <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Sogou<ph name="END_BOLD">&lt;/b&gt;</ph> for search in China. You can change this in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_KEEP_GOOGLE" desc="Text representing the option that the user wants to keep Google as the default search engine.">
         Keep Google
@@ -3028,11 +3028,11 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       </message>
 
       <!-- WebAPK related strings -->
-      <message name="IDS_WEBAPK_RUNNING_IN_CHROME_DISCLOSURE" desc="Message on the notification that indicates a WebApk may use Chrome data.">
-        This app is running in Chrome.
+      <message name="IDS_WEBAPK_RUNNING_IN_CHROME_DISCLOSURE" desc="Message on the notification that indicates a WebApk may use Brave data.">
+        This app is running in Brave.
       </message>
-      <message name="IDS_WEBAPP_RUNS_IN_CHROME_DISCLOSURE" desc="Message on the notification that indicates a Web App is run by Chrome.">
-        <ph name="WEB_APP_NAME">%1$s<ex>Twitter</ex></ph> runs in Chrome
+      <message name="IDS_WEBAPP_RUNS_IN_CHROME_DISCLOSURE" desc="Message on the notification that indicates a Web App is run by Brave.">
+        <ph name="WEB_APP_NAME">%1$s<ex>Twitter</ex></ph> runs in Brave
       </message>
       <message name="IDS_WEBAPK_OFFLINE_DIALOG" desc="The message on the dialog shown when launching a WebAPK needs network connection.">
         To use <ph name="APP_NAME">%1$s<ex>PWA List</ex></ph> for the first time, please connect to the internet.
@@ -3042,25 +3042,25 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       </message>
 
       <!-- Keyboard shortcuts in Android N-->
-      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_NEW_TAB" desc="A text label that appears next to the keyboard shortcut to open a new tab in Chrome. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_NEW_TAB" desc="A text label that appears next to the keyboard shortcut to open a new tab in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open a new tab
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_REOPEN_NEW_TAB" desc="A text label that appears next to the keyboard shortcut for reopening the last tab in the chrome app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Reopen the last closed tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_NEW_INCOGNITO_TAB" desc="A text label that appears next to a keyboard shortcut to open a new tab in incognito mode in Chrome. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_NEW_INCOGNITO_TAB" desc="A text label that appears next to a keyboard shortcut to open a new tab in incognito mode in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open a new tab in Incognito mode
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_MENU" desc="A text label that appears next to a keyboard shortcut that opens the overflow menu in Chrome. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_MENU" desc="A text label that appears next to a keyboard shortcut that opens the overflow menu in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open the menu
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_NEXT_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the next tab in the Chrome app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_NEXT_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the next tab in the Brave app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Jump to the next tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_PREV_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the previous tab in the Chrome app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_PREV_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the previous tab in the Brave app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Jump to the previous tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_CLOSE_TAB" desc="A text label that appears next to the keyboard shortcut that will close the current tab in Chrome. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_CLOSE_TAB" desc="A text label that appears next to the keyboard shortcut that will close the current tab in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Close current tab
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_FIND_BAR" desc="A text label that appears next to the keyboard shortcut that will open the find bar that searches what is on the screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
@@ -3069,7 +3069,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_KEYBOARD_SHORTCUT_ADDRESS_BAR" desc="A text label that appears next to the keyboard that will let you focus on the address bar on the screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Jump to the address bar
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_MANAGER" desc="A text label that appears next to the keyboard shortcut that will open the bookmarks manager in Chrome. On a tablet this is a new tab, on the phone this is a new activity. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_MANAGER" desc="A text label that appears next to the keyboard shortcut that will open the bookmarks manager in Brave. On a tablet this is a new tab, on the phone this is a new activity. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open the bookmarks manager
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_PAGE" desc="A text label that appears next to the keyboard shortcut that will bookmark the page that is currently on screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
@@ -3096,22 +3096,22 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_KEYBOARD_SHORTCUT_RELOAD_NO_CACHE" desc="A text label that appears next to the keyboard shortcut that will reload the current page without a cache. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Reload the current page, ignoring cached content
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_HELP_CENTER" desc="A text label that appears next to the keyboard shortcut that will open the Google Chrome Help Center in a new tab. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
-        Open the Chrome Help Center in a new tab
+      <message name="IDS_KEYBOARD_SHORTCUT_HELP_CENTER" desc="A text label that appears next to the keyboard shortcut that will open the Brave Help Center in a new tab. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+        Open the Brave Help Center in a new tab
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_TAB_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to the tab window. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
         Tab and window shortcuts
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_CHROME_FEATURE_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to the Chrome app features. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
-        Google Chrome feature shortcuts
+      <message name="IDS_KEYBOARD_SHORTCUT_CHROME_FEATURE_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to the Brave app features. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
+        Brave feature shortcuts
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_WEBPAGE_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to manipulation of the current tab window. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
         Webpage shortcuts
       </message>
 
-       <!-- Chrome VR feedback infobar -->
+       <!-- Brave VR feedback infobar -->
       <message name="IDS_VR_SHELL_FEEDBACK_INFOBAR_DESCRIPTION" desc="Description for infobar prompting the user for feedback on their VR browsing experience.">
-        Help improve the VR experience in Chrome
+        Help improve the VR experience in Brave
       </message>
       <message name="IDS_VR_SHELL_FEEDBACK_INFOBAR_FEEDBACK_BUTTON" desc="Brief button text asking the user to provide feedback in the VR feedback infobar.">
         Provide feedback
@@ -3162,7 +3162,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
         Double tap the expand button to find your files and pages in downloads
       </message>
       <message name="IDS_IPH_DATA_SAVER_PREVIEW_TEXT" desc="In-product help for when a data saver preview page and infobar are shown.">
-          Chrome is using less data to show you this page
+          Brave is using less data to show you this page
       </message>
       <message name="IDS_IPH_DATA_SAVER_DETAIL_TEXT" desc="The in-product-help message to open data saver.">
         See how much data you've saved
@@ -3189,7 +3189,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
         Remove and recreate this shortcut
       </message>
 
-      <!-- Chrome Home -->
+      <!-- Brave Home -->
       <message name="IDS_BOTTOM_SHEET_HELP_BUBBLE_MESSAGE" desc="Text displayed in a help bubble above the bottom navigation sheet prompting users to pull the sheet up to see their bookmarks and other content.">
         Pull up to see bookmarks and more
       </message>
@@ -3199,7 +3199,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_BOTTOM_SHEET_ACCESSIBILITY_EXPAND_BUTTON_HELP_BUBBLE_MESSAGE" desc="Text displayed in a help bubble above the toolbar expand button prompting users to tap the button to see their bookmarks and other content when accessibility is enabled.">
         Tap to see downloads, bookmarks, and history
       </message>
-      <message name="IDS_BOTTOM_SHEET_EXPAND_BUTTON_ACCESSIBILITY" desc="Part of the accessibility string read when the expand button is tapped informing users that tapping button will show downloads, bookmarks, and history. 'access' is a verb. 'Downloads', 'Bookmarks', and 'History' should use the same translations as in Chrome settings and menu items. TalkBack will read 'Expand navigation panel button. Double tap to access downloads, bookmarks, and history'.">
+      <message name="IDS_BOTTOM_SHEET_EXPAND_BUTTON_ACCESSIBILITY" desc="Part of the accessibility string read when the expand button is tapped informing users that tapping button will show downloads, bookmarks, and history. 'access' is a verb. 'Downloads', 'Bookmarks', and 'History' should use the same translations as in Brave settings and menu items. TalkBack will read 'Expand navigation panel button. Double tap to access downloads, bookmarks, and history'.">
         access downloads, bookmarks, and history.
       </message>
      <message name="IDS_BOTTOM_SHEET_ACCESSIBILITY_DESCRIPTION" desc="Accessibility string read when the navigation panel is focused informing the user that the panel can be closed by swiping down.">
@@ -3226,34 +3226,34 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_BOTTOM_SHEET_HOME_TAB" desc="Accessibility string read when the home tab is selected.">
         Home tab selected
       </message>
-      <message name="IDS_BOTTOM_SHEET_APP_MENU_IPH" desc="Label for in-product help that appears in the Chrome three-dot menu (navigation menu). In previous versions of Chrome, the menu contained Downloads, Bookmarks, and History. In this version of Chrome, these three items have been moved out of the menu. Tapping this help text will show the user where they can find these three items. 'Downloads', 'Bookmarks', and 'History' should use the same translations as in Chrome settings and menu items. The tone of this string is that of the user asking Chrome, 'where are these 3 things?'">
+      <message name="IDS_BOTTOM_SHEET_APP_MENU_IPH" desc="Label for in-product help that appears in the Brave three-dot menu (navigation menu). In previous versions of Brave, the menu contained Downloads, Bookmarks, and History. In this version of Brave, these three items have been moved out of the menu. Tapping this help text will show the user where they can find these three items. 'Downloads', 'Bookmarks', and 'History' should use the same translations as in Brave settings and menu items. The tone of this string is that of the user asking Brave, 'where are these 3 things?'">
         Where are downloads, bookmarks, and history?
       </message>
-      <message name="IDS_CHROME_HOME_PROMO_DIALOG_MESSAGE" desc="Dialog body text. Describes the new features available in the new Chrome. “Swipe up” (imperative) refers to the gesture on a mobile phone. “access” is a noun. “Popular” modifies both “sites and articles.” “Downloads” refers to items the user has downloaded in Chrome.">
+      <message name="IDS_CHROME_HOME_PROMO_DIALOG_MESSAGE" desc="Dialog body text. Describes the new features available in the new Brave. “Swipe up” (imperative) refers to the gesture on a mobile phone. “access” is a noun. “Popular” modifies both “sites and articles.” “Downloads” refers to items the user has downloaded in Brave.">
         Swipe up for easy access to popular sites and articles, downloads, and more
       </message>
-      <message name="IDS_CHROME_HOME_PROMO_DIALOG_MESSAGE_ACCESSIBILITY" desc="Dialog body text when accessibility is enabled. Dialog describes a new feature called “Chrome Home” (which is a placeholder name, official naming is underway; for now, do not translate the feature name). “Swipe up” (imperative) refers to the gesture on a mobile phone. “access” is a noun. “Popular” modifies both “sites and articles.” “Downloads” refers to items the user has downloaded in Chrome.">
+      <message name="IDS_CHROME_HOME_PROMO_DIALOG_MESSAGE_ACCESSIBILITY" desc="Dialog body text when accessibility is enabled. Dialog describes a new feature called “Brave Home” (which is a placeholder name, official naming is underway; for now, do not translate the feature name). “Swipe up” (imperative) refers to the gesture on a mobile phone. “access” is a noun. “Popular” modifies both “sites and articles.” “Downloads” refers to items the user has downloaded in Brave.">
         Swipe up from the bottom of the screen or tap the expand button for easy access to popular sites and articles, downloads, and more
       </message>
-      <message name="IDS_CHROME_HOME_PROMO_DIALOG_NOT_NOW" desc="Dialog button text that is visible if the new Chrome is disabled and will dismiss the dialog when pressed without changing the state of Chrome.">
+      <message name="IDS_CHROME_HOME_PROMO_DIALOG_NOT_NOW" desc="Dialog button text that is visible if the new Brave is disabled and will dismiss the dialog when pressed without changing the state of Brave.">
         Not now
       </message>
-      <message name="IDS_CHROME_HOME_PROMO_DIALOG_TITLE" desc="Dialog title text. Dialog describes the new Chrome. Object is omitted; intended meaning is that we wish to introduce you, the user, to a new version of Chrome. Infinitive or other verb form may be used if the gerund is not appropriate in your language.">
-        Introducing the new Chrome
+      <message name="IDS_CHROME_HOME_PROMO_DIALOG_TITLE" desc="Dialog title text. Dialog describes the new Brave. Object is omitted; intended meaning is that we wish to introduce you, the user, to a new version of Brave. Infinitive or other verb form may be used if the gerund is not appropriate in your language.">
+        Introducing the new Brave
       </message>
-      <message name="IDS_CHROME_HOME_PROMO_DIALOG_TRY_IT" desc="Dialog button text that is visible if the new Chrome is disabled and will dismiss the dialog and enable the new Chrome when pressed.">
+      <message name="IDS_CHROME_HOME_PROMO_DIALOG_TRY_IT" desc="Dialog button text that is visible if the new Brave is disabled and will dismiss the dialog and enable the new Brave when pressed.">
         Try it
       </message>
-      <message name="IDS_CHROME_HOME_PROMO_DIALOG_TURN_OFF" desc="Dialog button text that is visible if the new Chrome is enabled and will dismiss the dialog and disable the new Chrome when pressed.">
+      <message name="IDS_CHROME_HOME_PROMO_DIALOG_TURN_OFF" desc="Dialog button text that is visible if the new Brave is enabled and will dismiss the dialog and disable the new Brave when pressed.">
         Turn off
       </message>
-      <message name="IDS_CHROME_HOME_OPT_OUT_MENU_ITEM" desc="Item that appears at the top of the Chrome options menu on mobile. Gerund is used to indicate the current state, e.g. you are now using the new Chrome. Tapping this item opens a dialog that allows the user to turn off the new Chrome and revert to an older version.">
-        You’re using the new Chrome
+      <message name="IDS_CHROME_HOME_OPT_OUT_MENU_ITEM" desc="Item that appears at the top of the Brave options menu on mobile. Gerund is used to indicate the current state, e.g. you are now using the new Brave. Tapping this item opens a dialog that allows the user to turn off the new Brave and revert to an older version.">
+        You’re using the new Brave
       </message>
-       <message name="IDS_CHROME_HOME_OPT_OUT_SNACKBAR_TEXT" desc="Message in that appears after the user has turned off the new Chrome and reverted to using an older version. Message requests that the user provide feedback via a survey. “Us” refers to the Chrome team.">
-        Tell us why you turned off the new Chrome
+       <message name="IDS_CHROME_HOME_OPT_OUT_SNACKBAR_TEXT" desc="Message in that appears after the user has turned off the new Brave and reverted to using an older version. Message requests that the user provide feedback via a survey. “Us” refers to the Brave team.">
+        Tell us why you turned off the new Brave
       </message>
-      <message name="IDS_CHROME_HOME_OPT_OUT_SNACKBAR_ACTION" desc="Action button that appears on a snackbar after the user has turned off the new Chrome.">
+      <message name="IDS_CHROME_HOME_OPT_OUT_SNACKBAR_ACTION" desc="Action button that appears on a snackbar after the user has turned off the new Brave.">
         Take survey
       </message>
 
@@ -3269,8 +3269,8 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       </message>
 
       <!-- Migration strings -->
-      <message name="IDS_UPDATING_CHROME" desc="String that indicates that Chrome is updating">
-        Updating Chrome...
+      <message name="IDS_UPDATING_CHROME" desc="String that indicates that Brave is updating">
+        Updating Brave...
       </message>
 
       <!-- Add Brave strings below -->

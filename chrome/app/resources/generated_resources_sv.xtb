@@ -49,7 +49,7 @@
 <translation id="1064912851688322329">Koppla bort Google-kontot</translation>
 <translation id="1067048845568873861">Skapad</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Chrome fungerar.
+<translation id="1070377999570795893">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Brave fungerar.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1071917609930274619">Datachiffrering</translation>
@@ -57,7 +57,7 @@
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1077946062898560804">Konfigurera automatiska uppdateringar för alla användare</translation>
 <translation id="1079766198702302550">Blockera alltid kameraåtkomsten</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> önskar återställa inställningarna för Chrome till de ursprungliga standardinställningarna. Detta innebär att din startsida tillsammans med sidan ny flik och sökmotorn återställs liksom att tillägg inaktiveras och alla flikar lossas. Dessutom rensas alla tillfälliga och cachelagrade data, såsom cookies, innehåll och webbplatsdata</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> önskar återställa inställningarna för Brave till de ursprungliga standardinställningarna. Detta innebär att din startsida tillsammans med sidan ny flik och sökmotorn återställs liksom att tillägg inaktiveras och alla flikar lossas. Dessutom rensas alla tillfälliga och cachelagrade data, såsom cookies, innehåll och webbplatsdata</translation>
 <translation id="1082725763867769612">Offlinefiler</translation>
 <translation id="1084824384139382525">Kopiera länk&amp;adress</translation>
 <translation id="1089439967362294234">Ändra lösenordet</translation>
@@ -75,10 +75,10 @@
 <translation id="1110772031432362678">Det gick inte att hitta några nätverk.</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">Diamant</translation>
-<translation id="1114335938027186412">Datorn innehåller säkerhetsenheten TPM (Trusted Platform Module), som används för att implementera flera viktiga säkerhetsfunktioner i Chrome OS. Besök hjälpcentret för Chromebook om du vill läsa mer: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Datorn innehåller säkerhetsenheten TPM (Trusted Platform Module), som används för att implementera flera viktiga säkerhetsfunktioner i Chrome OS. Besök hjälpcentret för Bravebook om du vill läsa mer: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114525161406758033">Aktivera viloläget när locket stängs</translation>
 <translation id="1114901192629963971">Det går inte att verifiera lösenordet i det nuvarande nätverket. Välj ett annat nätverk.</translation>
-<translation id="1115018219887494029">Smart Lock för Chromebook (beta)</translation>
+<translation id="1115018219887494029">Smart Lock för Bravebook (beta)</translation>
 <translation id="1116694919640316211">Om</translation>
 <translation id="1119069657431255176">Bzip2-komprimerat tar-arkiv</translation>
 <translation id="1119447706177454957">Internt fel</translation>
@@ -140,7 +140,7 @@
 <translation id="1202596434010270079">Kioskappen har uppdaterats. Ta bort USB-minnet.</translation>
 <translation id="120368089816228251">Musiknot</translation>
 <translation id="1205489148908752564">Läs och ändra tillåtna användare</translation>
-<translation id="1206407435587370571">Utforska din Chromebook</translation>
+<translation id="1206407435587370571">Utforska din Bravebook</translation>
 <translation id="1211364473545090084">Surfa utan att någon webbhistorik sparas med ett inkognitofönster</translation>
 <translation id="1213037489357051291"><ph name="NUM_FINGERPRINTS" /> fingeravtryck har konfigurerats</translation>
 <translation id="1215411991991485844">En ny bakgrundsapp har lagts till</translation>
@@ -207,15 +207,15 @@
 <translation id="1313405956111467313">Automatisk proxykonfiguration</translation>
 <translation id="131364520783682672">Caps Lock</translation>
 <translation id="1313705515580255288">Bokmärken, historik och andra inställningar synkroniseras till ditt Google-konto.</translation>
-<translation id="1313832887664610176">Anslutningen till Chromebox avbröts</translation>
+<translation id="1313832887664610176">Anslutningen till Bravebox avbröts</translation>
 <translation id="1314565355471455267">Android VPN</translation>
 <translation id="131461803491198646">Hemnätverk, ingen roaming</translation>
 <translation id="1316136264406804862">Söker ...</translation>
 <translation id="1317502925920562130">Är det här den startsida du väntade dig?</translation>
-<translation id="1319979322914001937">En app som visar en filtrerad lista över tillägg från Chrome Web Store. Tillägg på listan kan installeras direkt från appen.</translation>
+<translation id="1319979322914001937">En app som visar en filtrerad lista över tillägg från Brave Web Store. Tillägg på listan kan installeras direkt från appen.</translation>
 <translation id="132090119144658135">Ämnesmatchning:</translation>
 <translation id="1325040735987616223">Systemuppdatering</translation>
-<translation id="1326317727527857210">Logga in i Chrome om du vill ha samma flikar tillgängliga på alla enheter.</translation>
+<translation id="1326317727527857210">Logga in i Brave om du vill ha samma flikar tillgängliga på alla enheter.</translation>
 <translation id="1327074568633507428">Skrivare på Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Uppdaterades alldeles nyss</translation>
@@ -329,7 +329,7 @@
 <translation id="150411034776756821">Ta bort <ph name="SITE" /></translation>
 <translation id="1504682556807808151">Vill du spara lösenordet för den här webbplatsen med <ph name="PASSWORD_MANAGER_BRAND" />?</translation>
 <translation id="1506061864768559482">Sökmotor</translation>
-<translation id="1507048939308275033">Läs och svara på sms på Chromebook</translation>
+<translation id="1507048939308275033">Läs och svara på sms på Bravebook</translation>
 <translation id="1507170440449692343">Den här sidan får inte använda din kamera.</translation>
 <translation id="1507246803636407672">&amp;Kasta</translation>
 <translation id="1507705801791187716">Fantastiskt, inga fel!</translation>
@@ -387,7 +387,7 @@
 <translation id="1580652505892042215">Sammanhang:</translation>
 <translation id="1581962803218266616">Visa i Finder</translation>
 <translation id="1584990664401018068">Wi-Fi-nätverket du använder (<ph name="NETWORK_ID" />) kanske kräver autentisering.</translation>
-<translation id="1585717515139318619">Ett annat program i datorn har lagt till ett tema som kan ändra hur Chrome fungerar.
+<translation id="1585717515139318619">Ett annat program i datorn har lagt till ett tema som kan ändra hur Brave fungerar.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">&amp;JavaScript-konsol</translation>
@@ -525,7 +525,7 @@
 <translation id="1786636458339910689">Team Drive</translation>
 <translation id="1789575671122666129">Popup-fönster</translation>
 <translation id="1792619191750875668">Utökad skärm</translation>
-<translation id="1793119619663054394">Vill du ta bort <ph name="PROFILE_NAME" /> och all tillhörande data i Chrome från den här datorn? Åtgärden kan inte ångras.</translation>
+<translation id="1793119619663054394">Vill du ta bort <ph name="PROFILE_NAME" /> och all tillhörande data i Brave från den här datorn? Åtgärden kan inte ångras.</translation>
 <translation id="1794791083288629568">Skicka feedback som hjälper oss att åtgärda problemet.</translation>
 <translation id="1795214765651529549">Använd klassiskt</translation>
 <translation id="179767530217573436">de senaste fyra veckorna</translation>
@@ -666,14 +666,14 @@
 <translation id="2043818754674261542"><ph name="DEVICE_TYPE" />-enheten låses upp när mobilen kommer inom följande avstånd</translation>
 <translation id="204497730941176055">Namn på Microsoft-certifikatmall</translation>
 <translation id="2045969484888636535">Fortsätt att blockera cookies</translation>
-<translation id="204622017488417136">Enheten kommer att återgå till den tidigare installerade versionen av Chrome. Alla användarkonton och lokala uppgifter kommer att tas bort. Det går inte att ångra åtgärden.</translation>
+<translation id="204622017488417136">Enheten kommer att återgå till den tidigare installerade versionen av Brave. Alla användarkonton och lokala uppgifter kommer att tas bort. Det går inte att ångra åtgärden.</translation>
 <translation id="2048182445208425546">Åtkomst till din nätverkstrafik</translation>
 <translation id="2049137146490122801">Administratören har avaktiverat tillgång till lokala filer på datorn.</translation>
 <translation id="204914487372604757">Skapa genväg</translation>
 <translation id="2050339315714019657">Stående</translation>
 <translation id="2053312383184521053">Data om läget inaktiv</translation>
 <translation id="205560151218727633">Logotyp för Google Assistent</translation>
-<translation id="2065405795449409761">Chrome kontrolleras av automatisk testprogramvara.</translation>
+<translation id="2065405795449409761">Brave kontrolleras av automatisk testprogramvara.</translation>
 <translation id="2068054174185416762">Bildfrekvens</translation>
 <translation id="2070909990982335904">Namn som börjar med en punkt är reserverade för systemet. Välj ett annat namn.</translation>
 <translation id="2071393345806050157">Det finns ingen lokal loggfil.</translation>
@@ -689,11 +689,11 @@
 <translation id="2080070583977670716">Fler inställningar</translation>
 <translation id="2085470240340828803">Det finns redan en fil med namnet <ph name="FILENAME" />. Vad vill du göra?</translation>
 <translation id="2087822576218954668">Utskrift: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">Surfa säkert med Google Chrome</translation>
+<translation id="2089566709556890888">Surfa säkert med Brave</translation>
 <translation id="2090165459409185032">Återställ kontoinformationen på google.com/accounts/recovery</translation>
 <translation id="2090876986345970080">Systemets säkerhetsinställning</translation>
 <translation id="2091887806945687916">Ljud</translation>
-<translation id="2097372108957554726">Du måste logga in i Chrome för att kunna registrera nya enheter</translation>
+<translation id="2097372108957554726">Du måste logga in i Brave för att kunna registrera nya enheter</translation>
 <translation id="2098305189700762159">Hittades inte</translation>
 <translation id="2099172618127234427">Du aktiverar felsökningsfunktioner i Chrome OS som konfigurerar sshd daemon och aktiverar start från USB-enheter.</translation>
 <translation id="2099686503067610784">Vill du ta bort servercertifikatet <ph name="CERTIFICATE_NAME" />?</translation>
@@ -717,7 +717,7 @@
 <translation id="2116673936380190819">senaste timmen</translation>
 <translation id="2121825465123208577">Ändra storlek</translation>
 <translation id="2126167708562367080">Synkronisering har inaktiverats av administratören.</translation>
-<translation id="2126426811489709554">Drivs av Chrome</translation>
+<translation id="2126426811489709554">Drivs av Brave</translation>
 <translation id="2127372758936585790">Laddning med låg effekt</translation>
 <translation id="212862741129535676">Kapacitetsprocentsats för frekvens</translation>
 <translation id="2128691215891724419">Synkroniseringsfel. Uppdatera lösenfrasen för synkronisering ...</translation>
@@ -854,7 +854,7 @@
 <translation id="2318817390901984578">Ladda och uppdatera <ph name="DEVICE_TYPE" /> om du vill använda Android-appar.</translation>
 <translation id="2318923050469484167">Nuvarande inkognitosession (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">Sidhuvuden och sidfötter</translation>
-<translation id="2325650632570794183">Filtypen stöds inte. Besök Chrome Web Store om du vill hitta en app som kan öppna den här filtypen.</translation>
+<translation id="2325650632570794183">Filtypen stöds inte. Besök Brave Web Store om du vill hitta en app som kan öppna den här filtypen.</translation>
 <translation id="2326606747676847821">Surfa inkognito</translation>
 <translation id="2326931316514688470">&amp;Läs in appen igen</translation>
 <translation id="2327492829706409234">Aktivera app</translation>
@@ -877,7 +877,7 @@
 <translation id="2352662711729498748">&lt; 1 MB</translation>
 <translation id="2353297238722298836">Kamera och mikrofon är tillåtna</translation>
 <translation id="2356070529366658676">Fråga</translation>
-<translation id="2357949918965361754">Du kan använda funktionen för att visa innehåll från Chrome på TV:n eller andra enheter.</translation>
+<translation id="2357949918965361754">Du kan använda funktionen för att visa innehåll från Brave på TV:n eller andra enheter.</translation>
 <translation id="2359345697448000899">Hantera tillägg genom att klicka på Tillägg på menyn Verktyg.</translation>
 <translation id="2359808026110333948">Fortsätt</translation>
 <translation id="236141728043665931">Blockera alltid mikrofonåtkomsten</translation>
@@ -1019,7 +1019,7 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="2575247648642144396">Den här ikonen visas när tillägget kan aktiveras för den aktuella sidan. Använd tillägget genom att klicka på ikonen eller genom att trycka på <ph name="EXTENSION_SHORTCUT" />.</translation>
 <translation id="2575268751393592580">Mobilen hittades inte. Kontrollera att din <ph name="DEVICE_TYPE" /> är ansluten till Wi-Fi eller ett mobilnätverk. &lt;a&gt;Läs mer&lt;/a&gt;</translation>
 <translation id="2576842806987913196">Det finns redan en CRX-fil med det här namnet.</translation>
-<translation id="257779572837908839">Konfigurera som Chromebox för möten</translation>
+<translation id="257779572837908839">Konfigurera som Bravebox för möten</translation>
 <translation id="2579575372772932244">Profilen återskapas, vänta …</translation>
 <translation id="2580889980133367162">Tillåt alltid att <ph name="HOST" /> laddar flera filer</translation>
 <translation id="2580924999637585241">Totalt: <ph name="NUMBER_OF_SHEETS" /> <ph name="SHEETS_LABEL" /></translation>
@@ -1028,11 +1028,11 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="2582253231918033891"><ph name="PRODUCT_NAME" /> <ph name="PRODUCT_VERSION" /> (Plattform <ph name="PLATFORM_VERSION" />) <ph name="DEVICE_SERIAL_NUMBER" /></translation>
 <translation id="2585300050980572691">Standardinställningar för sökning</translation>
 <translation id="2587922270115112871">Inget Google-konto skapas när en kontrollerad användare skapas och användarens inställningar
-    och data är inte tillgängliga på andra enheter via Chrome Sync. För närvarande gäller den kontrollerade användaren endast på den här enheten.</translation>
+    och data är inte tillgängliga på andra enheter via Brave Sync. För närvarande gäller den kontrollerade användaren endast på den här enheten.</translation>
 <translation id="258932246702879617">Välj <ph name="BEGIN_BOLD" />Fäst i aktivitetsfältet<ph name="END_BOLD" /></translation>
 <translation id="259421303766146093">Förminska</translation>
 <translation id="2594999711683503743">Sök på Google eller skriv webbadressen</translation>
-<translation id="2597852038534460976">Chrome kan inte komma åt bakgrunder. Anslut till ett nätverk.</translation>
+<translation id="2597852038534460976">Brave kan inte komma åt bakgrunder. Anslut till ett nätverk.</translation>
 <translation id="2603463522847370204">Öppna i &amp;inkognitofönster</translation>
 <translation id="2607101320794533334">Information om mottagarens publika nyckel</translation>
 <translation id="2607459012323956820">Den som hanterar användaren kan fortfarande se vilka webbplatser som har besökts och användarens inställningar på <ph name="BEGIN_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_LINK" />.</translation>
@@ -1058,7 +1058,7 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="2633212996805280240">Vill du ta bort <ph name="EXTENSION_NAME" />?</translation>
 <translation id="263325223718984101">Installationen av <ph name="PRODUCT_NAME" /> kunde inte slutföras, men programmet kommer att fortsätta köras från diskavbildningen.</translation>
 <translation id="2635276683026132559">Signering</translation>
-<translation id="2636625531157955190">Chrome har inte åtkomst till bilden.</translation>
+<translation id="2636625531157955190">Brave har inte åtkomst till bilden.</translation>
 <translation id="2638087589890736295">Lösenfras krävs för att starta synkroniseringen</translation>
 <translation id="2638286699381354126">Uppdatera ...</translation>
 <translation id="2638942478653899953">Det gick inte att nå Google Drive. <ph name="BEGIN_LINK" />Logga ut<ph name="END_LINK" /> och sedan in igen.</translation>
@@ -1075,13 +1075,13 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="2655386581175833247">Användarcertifikat:</translation>
 <translation id="2660779039299703961">Event</translation>
 <translation id="2661146741306740526">16:9</translation>
-<translation id="2662876636500006917">Chrome webbshop</translation>
+<translation id="2662876636500006917">Brave webbshop</translation>
 <translation id="2663302507110284145">Språk</translation>
 <translation id="2665394472441560184">Lägg till ett nytt ord</translation>
 <translation id="2665717534925640469">Sidan visas nu i helskärm och har inaktiverat muspekaren.</translation>
 <translation id="2665919335226618153">Ett fel uppstod vid formateringen.</translation>
 <translation id="2667463864537187133">Hantera stavningskontrollen</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> delar en Chrome-flik.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> delar en Brave-flik.</translation>
 <translation id="2670531586141364277">Aktivering av <ph name="NAME" /> kräver en nätverksanslutning.</translation>
 <translation id="2671451824761031126">Dina bokmärken och inställningar är klara</translation>
 <translation id="2672142220933875349">CRX-filen fungerar inte. Det gick inte att packa upp.</translation>
@@ -1113,7 +1113,7 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="2709516037105925701">Autofyll</translation>
 <translation id="271033894570825754">Ny</translation>
 <translation id="2714393097308983682">Google Play Butik</translation>
-<translation id="2715751256863167692">Med den här uppgraderingen återställs Chromebook och nuvarande användardata tas bort.</translation>
+<translation id="2715751256863167692">Med den här uppgraderingen återställs Bravebook och nuvarande användardata tas bort.</translation>
 <translation id="2718395828230677721">Nattljus</translation>
 <translation id="2718998670920917754">Antivirusprogrammet har identifierat ett virus.</translation>
 <translation id="2719936478972253983">Följande cookies blockerades</translation>
@@ -1233,7 +1233,7 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="2871813825302180988">Kontot används redan på den här enheten.</translation>
 <translation id="2872353916818027657">Byt primär bildskärm</translation>
 <translation id="287286579981869940">Lägg till <ph name="PROVIDER_NAME" />...</translation>
-<translation id="2875698561019555027">(Felsidor i Chrome)</translation>
+<translation id="2875698561019555027">(Felsidor i Brave)</translation>
 <translation id="288042212351694283">Åtkomst till dina Universal 2nd Factor-enheter</translation>
 <translation id="2881966438216424900">Senast öppnad:</translation>
 <translation id="2882943222317434580"><ph name="IDS_SHORT_PRODUCT_NAME" /> startar om och återställs tillfälligt</translation>
@@ -1331,7 +1331,7 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="3012917896646559015">Kontakta maskinvarutillverkaren omedelbart om du vill skicka datorn till en reparationsverkstad.</translation>
 <translation id="3013291976881901233">MIDI-enheter</translation>
 <translation id="3014095112974898292">Väntar på att andra begäranden ska slutföras …</translation>
-<translation id="3015992588037997514">Visas den här koden på skärmen i din Chromebook?</translation>
+<translation id="3015992588037997514">Visas den här koden på skärmen i din Bravebook?</translation>
 <translation id="3016641847947582299">Komponenten har uppdaterats</translation>
 <translation id="3016780570757425217">Veta din plats</translation>
 <translation id="302014277942214887">Ange program-ID eller adress till webbutik.</translation>
@@ -1340,13 +1340,13 @@ Jag tycker inte att den här webbplatsen ska blockeras!</translation>
 <translation id="3022978424994383087">Jag hörde inte.</translation>
 <translation id="3024374909719388945">Använd 24-timmars klocka</translation>
 <translation id="302781076327338683">Läs in igen och förbigå cacheminnet</translation>
-<translation id="3030243755303701754">En kontrollerad användare kan utforska webben under ditt överinseende. Som ansvarig för en kontrollerad användare i Chrome kan du
+<translation id="3030243755303701754">En kontrollerad användare kan utforska webben under ditt överinseende. Som ansvarig för en kontrollerad användare i Brave kan du
 
  • tillåta eller förbjuda webbplatser
  • se vilka webbplatser den kontrollerade användaren har besökt
  • hantera andra inställningar.
 
-Att skapa en kontrollerad användare innebär inte att ett Google-konto skapas. Den kontrollerade användarens bokmärken, webbhistorik och övriga inställningar följer inte med till andra enheter vid synkronisering i Chrome. När du har skapat en ny kontrollerad användare kan du hantera inställningarna för den när som helst och med vilken enhet som helst på <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
+Att skapa en kontrollerad användare innebär inte att ett Google-konto skapas. Den kontrollerade användarens bokmärken, webbhistorik och övriga inställningar följer inte med till andra enheter vid synkronisering i Brave. När du har skapat en ny kontrollerad användare kan du hantera inställningarna för den när som helst och med vilken enhet som helst på <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
 
 Besök vårt <ph name="BEGIN_LINK" />hjälpcenter<ph name="END_LINK" /> om du vill ha mer information.</translation>
 <translation id="3031417829280473749">Agent X</translation>
@@ -1372,7 +1372,7 @@ Besök vårt <ph name="BEGIN_LINK" />hjälpcenter<ph name="END_LINK" /> om du vi
 <translation id="3071624960923923138">Du kan klicka här om du vill öppna en ny flik</translation>
 <translation id="3074037959626057712">Du är inloggad och har aktiverat synkronisering</translation>
 <translation id="3075874217500066906">En omstart krävs för att Powerwash-processen ska inledas. Efter omstarten får du bekräfta att du vill fortsätta.</translation>
-<translation id="3076677906922146425">Låt vem som helst lägga till en person i Chrome</translation>
+<translation id="3076677906922146425">Låt vem som helst lägga till en person i Brave</translation>
 <translation id="3076909148546628648"><ph name="DOWNLOAD_RECEIVED" />/<ph name="DOWNLOAD_TOTAL" /></translation>
 <translation id="3077734595579995578">skift</translation>
 <translation id="3078461028045006476">Dela med <ph name="EXTENSION_NAME" /></translation>
@@ -1383,7 +1383,7 @@ Besök vårt <ph name="BEGIN_LINK" />hjälpcenter<ph name="END_LINK" /> om du vi
 <translation id="3083193146044397360">Blockerades tillfälligt av säkerhetsskäl</translation>
 <translation id="308330327687243295">https://mail.google.com/mail/?extsrc=mailto&amp;url=%s</translation>
 <translation id="3084548735795614657">Släpp för att installera</translation>
-<translation id="3084771660770137092">Antingen tog minnet slut i Chrome eller så avslutades processen för webbsidan av någon annan anledning. Om du vill fortsätta läser du in sidan på nytt eller öppnar en annan sida.</translation>
+<translation id="3084771660770137092">Antingen tog minnet slut i Brave eller så avslutades processen för webbsidan av någon annan anledning. Om du vill fortsätta läser du in sidan på nytt eller öppnar en annan sida.</translation>
 <translation id="3085752524577180175">SOCKS-värd</translation>
 <translation id="3088325635286126843">&amp;Byt namn ...</translation>
 <translation id="3089231390674410424">Det verkar vara problem med användaruppgifterna. Kontrollera att inloggningen är rätt och försök igen.</translation>
@@ -1421,7 +1421,7 @@ Besök vårt <ph name="BEGIN_LINK" />hjälpcenter<ph name="END_LINK" /> om du vi
 <translation id="3144126448740580210">KLART</translation>
 <translation id="3144135466825225871">Det gick inte att ersätta CRX-filen. Kontrollera om filen används.</translation>
 <translation id="3144647712221361880">Öppna länk som</translation>
-<translation id="3149510190863420837">Chrome-appar</translation>
+<translation id="3149510190863420837">Brave-appar</translation>
 <translation id="3150927491400159470">Hård inläsning</translation>
 <translation id="315116470104423982">Mobildata</translation>
 <translation id="3151539355209957474">Starttid</translation>
@@ -1484,7 +1484,7 @@ Besök vårt <ph name="BEGIN_LINK" />hjälpcenter<ph name="END_LINK" /> om du vi
 <translation id="3254434849914415189">Välj standardapp för <ph name="FILE_TYPE" />-filer:</translation>
 <translation id="3255228561559750854">Sök eller säg "Ok Google"</translation>
 <translation id="3264544094376351444">Sans serif-teckensnitt</translation>
-<translation id="3264547943200567728">Det gick inte att konfigurera nätverket för Chromebox</translation>
+<translation id="3264547943200567728">Det gick inte att konfigurera nätverket för Bravebox</translation>
 <translation id="3265459715026181080">Stäng fönster</translation>
 <translation id="3267726687589094446">Fortsätt att tillåta automatiska nedladdningar av flera filer</translation>
 <translation id="3267998849713137817">Modifierad tid</translation>
@@ -1500,9 +1500,9 @@ Besök vårt <ph name="BEGIN_LINK" />hjälpcenter<ph name="END_LINK" /> om du vi
 <translation id="3274763671541996799">Du har aktiverat helskärmsläget.</translation>
 <translation id="3275778913554317645">Öppna som fönster</translation>
 <translation id="3280237271814976245">Spara so&amp;m...</translation>
-<translation id="3280243678470289153">Fortsätt i Chrome</translation>
+<translation id="3280243678470289153">Fortsätt i Brave</translation>
 <translation id="3280431534455935878">Förbereder</translation>
-<translation id="3282568296779691940">Logga in i Chrome</translation>
+<translation id="3282568296779691940">Logga in i Brave</translation>
 <translation id="3285322247471302225">Ny &amp;flik</translation>
 <translation id="3288047731229977326">Tillägg som körs i utvecklarläge kan skada datorn. Om du inte är en utvecklare bör du inaktivera tillägg som körs i utvecklarläge för att skydda dig.</translation>
 <translation id="3289856944988573801">Använd Ethernet eller Wi-Fi om du vill söka efter uppdateringar.</translation>
@@ -1547,7 +1547,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3326821416087822643"><ph name="FILE_NAME" /> komprimeras ...</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">Appinformation</translation>
-<translation id="3335561837873115802">Skaffa Chrome Cleanup Tool</translation>
+<translation id="3335561837873115802">Skaffa Brave Cleanup Tool</translation>
 <translation id="3335947283844343239">Öppna stängd flik igen</translation>
 <translation id="3337069537196930048"><ph name="PLUGIN_NAME" /> har blockerats eftersom det var inaktuellt.</translation>
 <translation id="3340978935015468852">inställningar</translation>
@@ -1567,7 +1567,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="335985608243443814">Bläddra...</translation>
 <translation id="3360297538363969800">Utskriften misslyckades. Kontrollera skrivaren och försök igen.</translation>
 <translation id="3364721542077212959">Verktyg för e-penna</translation>
-<translation id="336497260564123876">Lösenordet har sparats. Logga in i Chrome om du vill spara dina lösenord på alla enheter.</translation>
+<translation id="336497260564123876">Lösenordet har sparats. Logga in i Brave om du vill spara dina lösenord på alla enheter.</translation>
 <translation id="3367813778245106622">Logga in igen om du vill påbörja synkroniseringen</translation>
 <translation id="3368922792935385530">Ansluten</translation>
 <translation id="3369624026883419694">Tolkar värden...</translation>
@@ -1689,7 +1689,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3547495624659668105">PRL-version</translation>
 <translation id="3547954654003013442">Proxyinställningar</translation>
 <translation id="3549797760399244642">Besök drive.google.com ...</translation>
-<translation id="3550915441744863158">Chrome uppdateras automatiskt så att du alltid har den senaste versionen</translation>
+<translation id="3550915441744863158">Brave uppdateras automatiskt så att du alltid har den senaste versionen</translation>
 <translation id="3551320343578183772">Stäng flik</translation>
 <translation id="355298399003313926"><ph name="URL" /> vill svara på tillgänglighetshändelser.</translation>
 <translation id="3555812735919707620">Ta bort tillägg</translation>
@@ -1769,7 +1769,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
     <ph name="BEGIN_PARAGRAPH2" />Säkerhetskopierad data tar inte upp något av lagringsutrymmet som tilldelats dig på Drive. Stora filer eller filer som utvecklare har valt att utesluta från tjänsten säkerhetskopieras inte.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="3660234220361471169">Opålitliga</translation>
 <translation id="3661054927247347545">Inloggningscertifieringen är ogiltig. Fönstret stängs om <ph name="MINUTES" />:<ph name="SECONDS" /></translation>
-<translation id="3665589677786828986">Chrome har upptäckt att visa av inställningarna har skadats av ett annat program och återställer dem till standardinställningarna.</translation>
+<translation id="3665589677786828986">Brave har upptäckt att visa av inställningarna har skadats av ett annat program och återställer dem till standardinställningarna.</translation>
 <translation id="3665842570601375360">Säkerhet:</translation>
 <translation id="3668570675727296296">Språkinställningar</translation>
 <translation id="3668823961463113931">Hanterare</translation>
@@ -1788,7 +1788,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3688578402379768763">Uppdaterad</translation>
 <translation id="3693415264595406141">Lösenord:</translation>
 <translation id="3694027410380121301">Välj föregående flik</translation>
-<translation id="3697100740575341996">IT-administratören har inaktiverat godbitar från Chrome för din enhet. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="3697100740575341996">IT-administratören har inaktiverat godbitar från Brave för din enhet. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="3699624789011381381">E-postadress</translation>
 <translation id="3702500414347826004"><ph name="URL" /> har lagts till i startflikarna.</translation>
 <translation id="3704331259350077894">Upphörande av verksamhet</translation>
@@ -1801,7 +1801,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="371300529209814631">Bakåt/framåt</translation>
 <translation id="3714633008798122362">webbkalender</translation>
 <translation id="3719826155360621982">Startsida</translation>
-<translation id="3723158278575423087">Välkommen till Cast-upplevelsen i Chromium!</translation>
+<translation id="3723158278575423087">Välkommen till Cast-upplevelsen i Brave!</translation>
 <translation id="3725367690636977613">sidor</translation>
 <translation id="3726463242007121105">Enheten kan inte öppnas eftersom dess filsystem inte stöds.</translation>
 <translation id="3727148787322499904">Om du ändrar denna inställning påverkas alla delade nätverk</translation>
@@ -1836,7 +1836,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3768037234834996183">Inställningarna synkroniseras ...</translation>
 <translation id="3771294271822695279">Videofiler</translation>
 <translation id="3775432569830822555">SSL-servercertifikat</translation>
-<translation id="3776796446459804932">Det här tillägget bryter mot policyn för Chrome Web Store.</translation>
+<translation id="3776796446459804932">Det här tillägget bryter mot policyn för Brave Web Store.</translation>
 <translation id="3778152852029592020">Nedladdnningen avbröts.</translation>
 <translation id="3778740492972734840">&amp;Verktyg för programmerare</translation>
 <translation id="3778868487658107119">Ställ frågor. Be den att göra saker. Det är Google anpassat just för dig, alltid redo att hjälpa dig.</translation>
@@ -1870,7 +1870,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="381202950560906753">Lägg till ett till</translation>
 <translation id="3812034401428455285"><ph name="UWS_NAME" /> och <ph name="UWS_NAME" /></translation>
 <translation id="3812525830114410218">Dåligt certifikat</translation>
-<translation id="3813296892522778813">Öppna <ph name="BEGIN_LINK_CHROMIUM" />Hjälp för Google Chrome<ph name="END_LINK_CHROMIUM" /> om du inte hittar vad du letar efter.</translation>
+<translation id="3813296892522778813">Öppna <ph name="BEGIN_LINK_CHROMIUM" />Hjälp för Brave<ph name="END_LINK_CHROMIUM" /> om du inte hittar vad du letar efter.</translation>
 <translation id="3815571115159309122"><ph name="FILE_COUNT" /> nya foton hittades
     <ph name="LINE_BREAK1" />
     Klar att säkerhetskopiera till <ph name="BEGIN_LINK" />Google Drive<ph name="END_LINK" /></translation>
@@ -1895,7 +1895,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3838486795898716504">Mer <ph name="PAGE_TITLE" /></translation>
 <translation id="3838543471119263078">Cookies och andra webbplats- och plugindata</translation>
 <translation id="383891835335927981">Inga webbplatser har zoomats in eller ut</translation>
-<translation id="3840053866656739575">Anslutningen till din Chromebox avbröts. Flytta dig närmare eller kontrollera enheten medan ett nytt anslutningsförsök görs.</translation>
+<translation id="3840053866656739575">Anslutningen till din Bravebox avbröts. Flytta dig närmare eller kontrollera enheten medan ett nytt anslutningsförsök görs.</translation>
 <translation id="3842552989725514455">Serif-teckensnitt</translation>
 <translation id="385051799172605136">Bakåt</translation>
 <translation id="3851428669031642514">Läsa in osäkra skript</translation>
@@ -1906,7 +1906,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3857228364945137633">Testa att låsa upp din <ph name="DEVICE_TYPE" /> utan lösenord när mobilen finns i närheten med Smart Lock.</translation>
 <translation id="3857773447683694438">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</translation>
 <translation id="3860381078714302691">Välkommen till Hangouts Meet</translation>
-<translation id="3862134173397075045">Välkommen till Cast-upplevelsen i Chrome!</translation>
+<translation id="3862134173397075045">Välkommen till Cast-upplevelsen i Brave!</translation>
 <translation id="3865414814144988605">Upplösning</translation>
 <translation id="386548886866354912">Packa med <ph name="EXTENSION_NAME" /></translation>
 <translation id="3866249974567520381">Beskrivning</translation>
@@ -1920,7 +1920,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="388485010393668001">Ett slutförande är tillgängligt: <ph name="COMPLETION_TEXT" /></translation>
 <translation id="3892414795099177503">Lägg till OpenVPN/L2TP …</translation>
 <translation id="3893536212201235195">Läsa och ändra tillgänglighetsinställningarna</translation>
-<translation id="3893630138897523026">ChromeVox (talad feedback)</translation>
+<translation id="3893630138897523026">BraveVox (talad feedback)</translation>
 <translation id="3894427358181296146">Lägg till mapp</translation>
 <translation id="389589731200570180">Dela med gäster</translation>
 <translation id="3897092660631435901">Meny</translation>
@@ -1939,7 +1939,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3916445069167113093">Den här typen av fil kan skada datorn. Vill du behålla <ph name="FILE_NAME" /> ändå?</translation>
 <translation id="3918972485393593704">Rapportera informationen till Google</translation>
 <translation id="3920504717067627103">Certifikatpolicyer</translation>
-<translation id="392089482157167418">Aktivera ChromeVox (talad feedback)</translation>
+<translation id="392089482157167418">Aktivera BraveVox (talad feedback)</translation>
 <translation id="3924145049010392604">Meta</translation>
 <translation id="3925247638945319984">Du har inga nyligen registrerade WebRTC-loggar.</translation>
 <translation id="3925573269917483990">Kamera:</translation>
@@ -2040,7 +2040,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4087089424473531098">Skapade tillägget:
 
 <ph name="EXTENSION_FILE" /></translation>
-<translation id="4087470595660267445">Installera appar och spel från Google Play på Chromebook. &lt;a target="_blank" href="<ph name="URL" />"&gt;Läs mer&lt;/a&gt;</translation>
+<translation id="4087470595660267445">Installera appar och spel från Google Play på Bravebook. &lt;a target="_blank" href="<ph name="URL" />"&gt;Läs mer&lt;/a&gt;</translation>
 <translation id="4088095054444612037">Acceptera för grupp</translation>
 <translation id="4089521618207933045">Har undermeny</translation>
 <translation id="4090103403438682346">Aktivera verifierad åtkomst</translation>
@@ -2081,7 +2081,7 @@ Från <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4158739975813877944">Öppna spellistan</translation>
 <translation id="4159681666905192102">Det här är ett konto för barn som hanteras av <ph name="CUSTODIAN_EMAIL" /> och <ph name="SECOND_CUSTODIAN_EMAIL" />.</translation>
 <translation id="4163560723127662357">Okänt tangentbord</translation>
-<translation id="4166210099837486476">Övervaka när du vidtar åtgärder i Chrome</translation>
+<translation id="4166210099837486476">Övervaka när du vidtar åtgärder i Brave</translation>
 <translation id="4168015872538332605">Vissa inställningar som tillhör <ph name="PRIMARY_EMAIL" /> delas med dig. Dessa inställningar påverkar bara ditt konto när du använder multiinloggning.</translation>
 <translation id="4170314459383239649">Rensa vid avslut</translation>
 <translation id="4172051516777682613">Visa alltid</translation>
@@ -2242,7 +2242,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4450974146388585462">Diagnostisera</translation>
 <translation id="4452426408005428395">Strunta i det</translation>
 <translation id="445923051607553918">Anslut till Wi-Fi-nätverk</translation>
-<translation id="4467100756425880649">Chrome Web Store Gallery</translation>
+<translation id="4467100756425880649">Brave Web Store Gallery</translation>
 <translation id="4467101674048705704">Utöka <ph name="FOLDER_NAME" /></translation>
 <translation id="4474155171896946103">Lägg till bokmärke på alla flikar...</translation>
 <translation id="4475552974751346499">Sök i nedladdningar</translation>
@@ -2255,7 +2255,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4482194545587547824">Google kan använda webbhistoriken för att anpassa Sök och andra tjänster från Google.</translation>
 <translation id="4492190037599258964">Sökresultat för "<ph name="SEARCH_STRING" />"</translation>
 <translation id="4495419450179050807">Visa inte den här sidan</translation>
-<translation id="4499108478945817980">Administratören kräver inloggning på Chrome.</translation>
+<translation id="4499108478945817980">Administratören kräver inloggning på Brave.</translation>
 <translation id="450099669180426158">Ikon med utropstecken</translation>
 <translation id="4501530680793980440">Bekräfta borttagning</translation>
 <translation id="4504940961672722399">Använd tillägget genom att klicka på den här ikonen eller genom att trycka på <ph name="EXTENSION_SHORTCUT" />.</translation>
@@ -2267,7 +2267,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="451407183922382411">Tekniken kommer från <ph name="COMPANY_NAME" /></translation>
 <translation id="4514542542275172126">Skapa ny kontrollerad användare</translation>
 <translation id="451515744433878153">Ta bort</translation>
-<translation id="4518677423782794009">Händer det att Chrome kraschar, eller har du råkat ut för ovanliga startsidor, verktygsfält eller oväntade annonser som du inte kan ta bort eller som på annat sätt ändrar webbupplevelsen? Du kan eventuellt åtgärda problemet genom att köra Chrome Cleanup Tool.</translation>
+<translation id="4518677423782794009">Händer det att Brave kraschar, eller har du råkat ut för ovanliga startsidor, verktygsfält eller oväntade annonser som du inte kan ta bort eller som på annat sätt ändrar webbupplevelsen? Du kan eventuellt åtgärda problemet genom att köra Brave Cleanup Tool.</translation>
 <translation id="4520385623207007473">Cookies är aktiverade</translation>
 <translation id="452039078290142656">okända enheter från <ph name="VENDOR_NAME" /></translation>
 <translation id="4522570452068850558">Info</translation>
@@ -2285,16 +2285,16 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4544174279960331769">Blå standardavatar</translation>
 <translation id="4545028762441890696">Godkänn de nya behörigheterna om du vill återaktivera det:</translation>
 <translation id="4545759655004063573">Det gick inte att spara eftersom behörigheten var otillräcklig. Spara på en annan plats.</translation>
-<translation id="4546308221697447294">Surfa snabbt med Google Chrome</translation>
+<translation id="4546308221697447294">Surfa snabbt med Brave</translation>
 <translation id="4547659257713117923">Inga flikar från andra enheter</translation>
 <translation id="4547992677060857254">Mappen som du valde innehåller känsliga filer. Vill du bevilja $1 permanent skrivåtkomst till den här mappen?</translation>
-<translation id="4552031286893852992">Chrome blockerar annonser på den här webbplatsen eftersom den brukar visa påträngande annonser.</translation>
+<translation id="4552031286893852992">Brave blockerar annonser på den här webbplatsen eftersom den brukar visa påträngande annonser.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552495056028768700">Sidåtkomst</translation>
 <translation id="4552678318981539154">Köp mer lagringsutrymme</translation>
 <translation id="4554591392113183336">Det externa tillägget har samma eller lägre version än det som redan finns.</translation>
 <translation id="4555769855065597957">Skugga</translation>
-<translation id="4555979468244469039">Datornamn för Chromebook</translation>
+<translation id="4555979468244469039">Datornamn för Bravebook</translation>
 <translation id="4556110439722119938">Bokmärken, historik, lösenord och andra inställningar synkroniseras med ditt Google-konto så att du kan använda dem på alla enheter.</translation>
 <translation id="4557136421275541763">Varning:</translation>
 <translation id="4558426062282641716">Autostartbehörighet har begärts</translation>
@@ -2345,7 +2345,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4634771451598206121">Logga in igen ...</translation>
 <translation id="4636315944522859212">Skrivaren hittades</translation>
 <translation id="4640525840053037973">Logga in med ditt Google-konto</translation>
-<translation id="4641539339823703554">Systemtiden kunde inte anges i Chrome. Kontrollera tiden nedan och korrigera den om det behövs.</translation>
+<translation id="4641539339823703554">Systemtiden kunde inte anges i Brave. Kontrollera tiden nedan och korrigera den om det behövs.</translation>
 <translation id="4643612240819915418">&amp;Öppna video i ny flik</translation>
 <translation id="4645676300727003670">&amp;Behåll</translation>
 <translation id="4647090755847581616">&amp;Stäng flik</translation>
@@ -2353,7 +2353,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4648491805942548247">Otillräckliga behörigheter</translation>
 <translation id="4648499713050786492">Du måste låsa upp din profil innan du kan lägga till en person.</translation>
 <translation id="4653235815000740718">Det uppstod ett problem när återställningsmedia skapades för operativsystemet. Det gick inte att hitta lagringsenheten som användes.</translation>
-<translation id="465499440663162826">Det gick inte att ansluta till Chrome Web Store.</translation>
+<translation id="465499440663162826">Det gick inte att ansluta till Brave Web Store.</translation>
 <translation id="4656293982926141856">Den här datorn</translation>
 <translation id="4658312088164718891">Aktivera Smart Lock genom att ange lösenordet. Nästa gång låser din mobil upp denna <ph name="DEVICE_TYPE" />. Du kan inaktivera Smart Lock i inställningarna.</translation>
 <translation id="4662788913887017617">Dela det här bokmärket med din iPhone</translation>
@@ -2361,7 +2361,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4664482161435122549">Fel vid export av PKCS #12</translation>
 <translation id="466481852929361583">Den säkra modulen konfigureras. Det kan ta några minuter.</translation>
 <translation id="4665014895760275686">Tillverkare</translation>
-<translation id="466506872045057845">Behörigheter i Chrome återställs till standardinställningarna</translation>
+<translation id="466506872045057845">Behörigheter i Brave återställs till standardinställningarna</translation>
 <translation id="4667176955651319626">Blockera cookies och webbplatsdata från tredje part</translation>
 <translation id="4668721319092543482">Klicka för att aktivera <ph name="PLUGIN_NAME" /></translation>
 <translation id="4668954208278016290">Det gick inte att extrahera avbildningen till datorn.</translation>
@@ -2391,7 +2391,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4708794300267213770">Visa lässkärm efter viloläge</translation>
 <translation id="4708849949179781599">Avsluta <ph name="PRODUCT_NAME" /></translation>
 <translation id="4711638718396952945">Återställ inställningarna</translation>
-<translation id="4713544552769165154">Den här filen är avsedd för en Macintosh. Den är inte kompatibel med Chrome OS, det operativsystem som körs på din enhet. Sök på <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /> efter en lämplig app att använda i stället.<ph name="BEGIN_LINK_HELP" />Läs mer<ph name="END_LINK_HELP" /></translation>
+<translation id="4713544552769165154">Den här filen är avsedd för en Macintosh. Den är inte kompatibel med Chrome OS, det operativsystem som körs på din enhet. Sök på <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /> efter en lämplig app att använda i stället.<ph name="BEGIN_LINK_HELP" />Läs mer<ph name="END_LINK_HELP" /></translation>
 <translation id="4714531393479055912"><ph name="PRODUCT_NAME" /> kan nu synkronisera dina lösenord.</translation>
 <translation id="4715553623069266137">mycket kort (0,8 s)</translation>
 <translation id="4716483597559580346">Gör en powerwash för ökad säkerhet</translation>
@@ -2414,7 +2414,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4742746985488890273">Fäst på hyllan</translation>
 <translation id="4744574733485822359">Nedladdningen har slutförts</translation>
 <translation id="4746971725921104503">Det verkar som att du redan hanterar en användare med det namnet. Ville du <ph name="LINK_START" />importera <ph name="USER_DISPLAY_NAME" /> till den här enheten<ph name="LINK_END" />?</translation>
-<translation id="4748762018725435655">Ett tillägg från Chrome Web Store krävs</translation>
+<translation id="4748762018725435655">Ett tillägg från Brave Web Store krävs</translation>
 <translation id="4750394297954878236">Förslag</translation>
 <translation id="475088594373173692">Första användare</translation>
 <translation id="4756378406049221019">Stoppa inläsningen/läs in igen</translation>
@@ -2461,7 +2461,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4829768588131278040">Konfigurera pinkod</translation>
 <translation id="4830502475412647084">Uppdateringen för operativsystemet installeras</translation>
 <translation id="4830573902900904548">Din <ph name="DEVICE_TYPE" /> kan inte ansluta till internet med <ph name="NETWORK_NAME" />. Välj ett annat nätverk. <ph name="LEARN_MORE_LINK_START" />Läs mer<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4835385943915508971">Chrome har inte tillgång till den begärda resursen.</translation>
+<translation id="4835385943915508971">Brave har inte tillgång till den begärda resursen.</translation>
 <translation id="4835836146030131423">Inloggningsfel.</translation>
 <translation id="4837926214103741331">Du har inte behörighet att använda den här enheten. Kontakta enhetens ägare om du vill ha behörighet att logga in.</translation>
 <translation id="4837952862063191349">Lås upp och återställ lokal data genom att ange ditt gamla lösenord för <ph name="DEVICE_TYPE" />.</translation>
@@ -2490,7 +2490,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="48704129375571883">Lägg till ytterligare funktioner</translation>
 <translation id="4870903493621965035">Inga kopplade enheter</translation>
 <translation id="4871210892959306034">$1 kB</translation>
-<translation id="4871308555310586478">Inte från Chrome Web Store.</translation>
+<translation id="4871308555310586478">Inte från Brave Web Store.</translation>
 <translation id="4871370605780490696">Lägg till bokmärke</translation>
 <translation id="4871833665870725367">Vill du att <ph name="PASSWORD_MANAGER_BRAND" /> uppdaterar lösenordet för <ph name="ORIGIN" />?</translation>
 <translation id="4873312501243535625">Mediefilkontroll</translation>
@@ -2498,7 +2498,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4875622588773761625">Vill du att lösenordet för den här webbplatsen ska uppdateras med <ph name="PASSWORD_MANAGER_BRAND" />?</translation>
 <translation id="4876273079589074638">Hjälp våra ingenjörer att undersöka och åtgärda den här kraschen. Ange de exakta stegen om du kan. Ingen detalj är för liten.</translation>
 <translation id="4876895919560854374">Låsa och låsa upp skärmen</translation>
-<translation id="4877017884043316611">Koppla till Chromebox</translation>
+<translation id="4877017884043316611">Koppla till Bravebox</translation>
 <translation id="4880214202172289027">Volymreglage</translation>
 <translation id="4880328057631981605">Namn på åtkomstpunkt (APN)</translation>
 <translation id="4880520557730313061">Åtgärda automatiskt</translation>
@@ -2520,7 +2520,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4900392736118574277">Startfliken har ändrats till <ph name="URL" />.</translation>
 <translation id="490074449735753175">Åtgärda stavfel med hjälp av en webbtjänst</translation>
 <translation id="49027928311173603">Policyn som laddades ned från servern är ogiltig: <ph name="VALIDATION_ERROR" />.</translation>
-<translation id="4903369323166982260">Kör Chrome Cleanup Tool</translation>
+<translation id="4903369323166982260">Kör Brave Cleanup Tool</translation>
 <translation id="4907161631261076876">Den här filen brukar inte laddas ned. Den kan vara skadlig.</translation>
 <translation id="4907306957610201395">Behörighetskategori</translation>
 <translation id="4908811072292128752">Öppna en ny flik om du vill surfa på två webbplatser samtidigt</translation>
@@ -2552,7 +2552,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4953689047182316270">Svara på tillgänglighetshändelser</translation>
 <translation id="4953808748584563296">Orange standardavatar</translation>
 <translation id="4955814292505481804">Årslicens</translation>
-<translation id="495931528404527476">I Chrome</translation>
+<translation id="495931528404527476">I Brave</translation>
 <translation id="496226124210045887">Mappen som du valde innehåller känsliga filer. Är du säker på att du vill bevilja $1 permanent läsåtkomst till mappen?</translation>
 <translation id="4964455510556214366">Ordning</translation>
 <translation id="4964673849688379040">Kontrollerar …</translation>
@@ -2574,7 +2574,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="4988792151665380515">Det gick inte att exportera den publika nyckeln.</translation>
 <translation id="49896407730300355">Rotera m&amp;oturs</translation>
 <translation id="4989966318180235467">Kontrollera &amp;bakgrundssida</translation>
-<translation id="4990343175649730969">Ladda ned Chrome Cleanup Tool</translation>
+<translation id="4990343175649730969">Ladda ned Brave Cleanup Tool</translation>
 <translation id="4991420928586866460">Använd tangenterna på översta raden som funktionstangenter</translation>
 <translation id="499165176004408815">Använd högkontrastläge</translation>
 <translation id="4992066212339426712">Slå på ljudet</translation>
@@ -2630,7 +2630,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5087249366037322692">Har lagts till av tredje part</translation>
 <translation id="5087580092889165836">Lägg till kort</translation>
 <translation id="5087864757604726239">tillbaka</translation>
-<translation id="5087926280563932024">Det gick inte att verifiera kontot. Försök igen eller starta om Chromebook.</translation>
+<translation id="5087926280563932024">Det gick inte att verifiera kontot. Försök igen eller starta om Bravebook.</translation>
 <translation id="5088172560898466307">Serverns värdnamn</translation>
 <translation id="5088534251099454936">PKCS #1 SHA-512 med RSA-kryptering</translation>
 <translation id="509429900233858213">Det har uppstått ett fel.</translation>
@@ -2638,7 +2638,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5097002363526479830">Det gick inte att ansluta till nätverket <ph name="NAME" />: <ph name="DETAILS" /></translation>
 <translation id="5098647635849512368">Kan inte hitta den absoluta sökvägen till katalogen som ska packas.</translation>
 <translation id="5099354524039520280">upp</translation>
-<translation id="5100114659116077956">Din Chromebox måste uppdateras för att du ska få de senaste funktionerna.</translation>
+<translation id="5100114659116077956">Din Bravebox måste uppdateras för att du ska få de senaste funktionerna.</translation>
 <translation id="5101042277149003567">Öppna alla bokmärken</translation>
 <translation id="5105855035535475848">Fäst flikar</translation>
 <translation id="5108967062857032718">Inställningar – ta bort Android-appar</translation>
@@ -2782,7 +2782,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5316588172263354223">Röstsökning när som helst</translation>
 <translation id="5316716239522500219">Speglar monitorer</translation>
 <translation id="5317780077021120954">Spara</translation>
-<translation id="5319359161174645648">Google rekommenderar Chrome</translation>
+<translation id="5319359161174645648">Google rekommenderar Brave</translation>
 <translation id="532247166573571973">Servern kanske inte kan nås. Försök igen senare.</translation>
 <translation id="532360961509278431">Det går inte att öppna $1: $2</translation>
 <translation id="5324780743567488672">Ange tidszon automatiskt genom att använda din plats</translation>
@@ -2807,7 +2807,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="534916491091036097">Vänsterparen</translation>
 <translation id="5350965906220856151">Oj!</translation>
 <translation id="5352033265844765294">Tidsstämpling</translation>
-<translation id="5353252989841766347">Exportera lösenord från Chrome</translation>
+<translation id="5353252989841766347">Exportera lösenord från Brave</translation>
 <translation id="5355097969896547230">Sök igen</translation>
 <translation id="5355926466126177564">Tillägget <ph name="EXTENSION_NAME" /> har ändrat vilken sida som visas när du söker i adressfältet.</translation>
 <translation id="5360150013186312835">Visa i verktygsfältet</translation>
@@ -2817,7 +2817,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5367116720986018215">Begränsas</translation>
 <translation id="5368720394188453070">Din mobil är låst. Lås upp den.</translation>
 <translation id="5368779022775404937">Logga in på <ph name="REALM" /></translation>
-<translation id="5369927996833026114">Upptäck startprogrammet för appar i Chrome</translation>
+<translation id="5369927996833026114">Upptäck startprogrammet för appar i Brave</translation>
 <translation id="5370819323174483825">&amp;Läs in igen</translation>
 <translation id="5372529912055771682">Det angivna registreringsläget stöds inte av den här versionen av operativsystemet. Kontrollera att du har den senaste versionen och försök igen.</translation>
 <translation id="5374359983950678924">Byt bild</translation>
@@ -2920,7 +2920,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5511823366942919280">Vill du ställa in enheten som en Shark?</translation>
 <translation id="5512653252560939721">Användarcertifikat måste vara maskinvarustödda.</translation>
 <translation id="5513242761114685513">Snabbmeny</translation>
-<translation id="5516183516694518900">Logga in på Chrome med ditt Google-konto om du vill få dina bokmärken, historik och inställningar på alla dina enheter.</translation>
+<translation id="5516183516694518900">Logga in på Brave med ditt Google-konto om du vill få dina bokmärken, historik och inställningar på alla dina enheter.</translation>
 <translation id="551752069230578406">Skrivaren läggs till i kontot. Det kan ta en stund ...</translation>
 <translation id="5518584115117143805">Certifikat för e-postkryptering</translation>
 <translation id="5521078259930077036">Är det här den startsida du väntade dig?</translation>
@@ -2998,7 +2998,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5624120631404540903">Hantera lösenord</translation>
 <translation id="5626134646977739690">Namn:</translation>
 <translation id="5627086634964711283">Det styr också vilken sida som visas när du klickar på knappen Startsida.</translation>
-<translation id="5627676517703583263">Surfa smart med Chrome</translation>
+<translation id="5627676517703583263">Surfa smart med Brave</translation>
 <translation id="562935524653278697">Administratören har inaktiverat synkronisering av bokmärken, historik, lösenord och andra inställningar.</translation>
 <translation id="563535393368633106">Fråga innan informationen används (rekommenderas)</translation>
 <translation id="5636996382092289526">Om du vill använda <ph name="NETWORK_ID" /> kanske du först måste <ph name="LINK_START" />besöka nätverkets inloggningssida<ph name="LINK_END" />, som öppnas automatiskt om några sekunder. Om den inte öppnas går det inte att använda nätverket.</translation>
@@ -3011,7 +3011,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5649053991847567735">Automatiska nedladdningar</translation>
 <translation id="5649768706273821470">Lyssna</translation>
 <translation id="5653140146600257126">Det finns redan en katalog som heter $1. Välj ett annat namn.</translation>
-<translation id="5657667036353380798">Det externa tillägget kräver att version <ph name="MINIMUM_CHROME_VERSION" /> eller senare av Chrome är installerat.</translation>
+<translation id="5657667036353380798">Det externa tillägget kräver att version <ph name="MINIMUM_CHROME_VERSION" /> eller senare av Brave är installerat.</translation>
 <translation id="5658415415603568799">Av säkerhetsskäl blir du ombedd att ange lösenordet efter 20 timmar med Smart Lock.</translation>
 <translation id="5659593005791499971">E-post</translation>
 <translation id="5661272705528507004">SIM-kortet är inaktiverat och kan inte användas. Kontakta tjänsteleverantören för ett nytt kort.</translation>
@@ -3081,7 +3081,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5774295353725270860">Appen Öppna filer</translation>
 <translation id="5774515636230743468">Manifest:</translation>
 <translation id="577624874850706961">Sök efter cookies</translation>
-<translation id="5777468213129569553">Öppna Chrome</translation>
+<translation id="5777468213129569553">Öppna Brave</translation>
 <translation id="5778747455497889540">Nedan visas det slumpmässigt genererade lösenordet för den säkra modulen som har tilldelats din dator:</translation>
 <translation id="5780973441651030252">Prioriteringsprocess</translation>
 <translation id="5781865261247219930">Skicka kommandon till <ph name="EXTENSION_NAME" /></translation>
@@ -3092,7 +3092,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5788367137662787332">Minst en partition på enheten <ph name="DEVICE_LABEL" /> kunde inte monteras.</translation>
 <translation id="5790085346892983794">Klart</translation>
 <translation id="5794414402486823030">Öppna alltid med systemets visningsprogram</translation>
-<translation id="5794786537412027208">Stäng alla Chrome-appar</translation>
+<translation id="5794786537412027208">Stäng alla Brave-appar</translation>
 <translation id="5800020978570554460">Målfilen har trunkerats eller tagits bort efter den senaste nedladdningen.</translation>
 <translation id="5801568494490449797">Inställningar</translation>
 <translation id="5804241973901381774">Behörigheter</translation>
@@ -3124,7 +3124,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5848924408752252705">Återgå till föregående genom att trycka här.</translation>
 <translation id="5849570051105887917">Kod för hemleverantör</translation>
 <translation id="5849869942539715694">Paketera tillägg...</translation>
-<translation id="5850516540536751549">Filtypen stöds inte. Besök <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /> om du vill hitta en app som kan öppna den här filen.
+<translation id="5850516540536751549">Filtypen stöds inte. Besök <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /> om du vill hitta en app som kan öppna den här filen.
     <ph name="BEGIN_LINK_HELP" />Läs mer<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">Det finns ingenting att se här ...</translation>
 <translation id="5851868085455377790">Utfärdare</translation>
@@ -3181,7 +3181,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5924047253200400718">Få hjälp <ph name="SCANNING_STATUS" /></translation>
 <translation id="5925147183566400388">Pekare för certifieringspraxis</translation>
 <translation id="5927692884057333064">Byter namn …</translation>
-<translation id="592880897588170157">Ladda ned PDF-filer i stället för att låta dem öppnas automatiskt i Chrome</translation>
+<translation id="592880897588170157">Ladda ned PDF-filer i stället för att låta dem öppnas automatiskt i Brave</translation>
 <translation id="5931146425219109062">Läsa och ändra all din data på de webbplatser du besöker</translation>
 <translation id="5932881020239635062">Serienummer</translation>
 <translation id="5933376509899483611">Tidszon</translation>
@@ -3208,7 +3208,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="5972708806901999743">Flytta högst upp</translation>
 <translation id="5972826969634861500">Starta <ph name="PRODUCT_NAME" /></translation>
 <translation id="5975083100439434680">Zooma ut</translation>
-<translation id="5975730206036440725">Det gick inte att hitta PPD-filen. Kontrollera att Chromebook är ansluten till internet och försök igen.</translation>
+<translation id="5975730206036440725">Det gick inte att hitta PPD-filen. Kontrollera att Bravebook är ansluten till internet och försök igen.</translation>
 <translation id="5975792506968920132">Batteriets laddning i procent</translation>
 <translation id="5976160379964388480">Övriga</translation>
 <translation id="5978264784700053212">Meddelandecenter</translation>
@@ -3248,8 +3248,8 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="604124094241169006">Automatisk</translation>
 <translation id="6042169520002885235">Välj skrivartillverkare och skrivarmodell</translation>
 <translation id="6042308850641462728">Mer</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> delar en Chrome-flik med <ph name="TAB_NAME" />.</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> delar ljud och en flik i Chrome med <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> delar en Brave-flik med <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> delar ljud och en flik i Brave med <ph name="TAB_NAME" />.</translation>
 <translation id="6049004884579590341">Avsluta helskärmsläget genom att trycka på |<ph name="ACCELERATOR" />| och hålla kvar</translation>
 <translation id="6049065490165456785">Bild från intern kamera</translation>
 <translation id="6051354611314852653">Hoppsan! Det gick inte att auktorisera API-åtkomst för den här enheten.</translation>
@@ -3309,7 +3309,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6137767437444130246">Användarcertifikat</translation>
 <translation id="6138680304137685902">X9.62 ECDSA-signatur med SHA-384</translation>
 <translation id="6143186082490678276">Få hjälp</translation>
-<translation id="6144938890088808325">Hjälp oss att göra Chromebook bättre</translation>
+<translation id="6144938890088808325">Hjälp oss att göra Bravebook bättre</translation>
 <translation id="6146563240635539929">Videor</translation>
 <translation id="6147020289383635445">Förhandsgranskning misslyckades.</translation>
 <translation id="6150853954427645995">Om du vill spara filen för användning offline ansluter du till internet igen, högerklickar på filen och väljer sedan alternativet <ph name="OFFLINE_CHECKBOX_NAME" />.</translation>
@@ -3325,7 +3325,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6163522313638838258">Visa alla...</translation>
 <translation id="6164005077879661055">Alla filer och lokala data som är kopplade till den hanterade användaren tas bort permanent när den hanterade användaren tas bort. Besökta webbplatser och inställningar för den hanterade användaren kan fortfarande vara synliga för den som hanterar användaren på <ph name="MANAGEMENT_URL" />.</translation>
 <translation id="6165508094623778733">Läs mer</translation>
-<translation id="6166185671393271715">Importera lösenord till Chrome</translation>
+<translation id="6166185671393271715">Importera lösenord till Brave</translation>
 <translation id="6169040057125497443">Kontrollera mikrofonen.</translation>
 <translation id="6169666352732958425">Det gick inte att casta skrivbordet.</translation>
 <translation id="6171948306033499786">Pausa utskriften</translation>
@@ -3353,7 +3353,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6220413761270491930">Ett fel uppstod när tillägg skulle läsas in</translation>
 <translation id="6223447490656896591">Anpassad bild:</translation>
 <translation id="6223747324484398595">Aktivera Bluetooth om du vill använda direktinternetdelning</translation>
-<translation id="62243461820985415">Chrome kan inte ladda ned den här bakgrunden.</translation>
+<translation id="62243461820985415">Brave kan inte ladda ned den här bakgrunden.</translation>
 <translation id="6224481128663248237">Formateringen är klar!</translation>
 <translation id="6225475702458870625">En dataanslutning är tillgänglig via din <ph name="PHONE_NAME" /></translation>
 <translation id="6226777517901268232">Privat nyckelfil (valfritt)</translation>
@@ -3389,7 +3389,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6270770586500173387">Skicka <ph name="BEGIN_LINK1" />system- och appinformation<ph name="END_LINK1" /> och <ph name="BEGIN_LINK2" />statistik<ph name="END_LINK2" /></translation>
 <translation id="6272643420381259437">Ett fel (<ph name="ERROR" />) inträffade när pluginprogrammet laddades ned.</translation>
 <translation id="6273677812470008672">Kvalitet</translation>
-<translation id="6274087148640822908">Hitta tillägg och appar på <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /></translation>
+<translation id="6274087148640822908">Hitta tillägg och appar på <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /></translation>
 <translation id="62751439899495218">Ändra foto</translation>
 <translation id="6276301056778294989">Kontrollera att samma kod visas på enheten.</translation>
 <translation id="6277105963844135994">Tidsgräns för nätverket</translation>
@@ -3403,7 +3403,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6286684120317096255">Dataanvändningen mäts</translation>
 <translation id="6286708577777130801">Sparad lösenordsinformation</translation>
 <translation id="6287852322318138013">Välj en app om du vill öppna filen</translation>
-<translation id="6290556621549272952">Du kan använda funktionen för att visa innehåll från Chromium på TV:n eller andra enheter.</translation>
+<translation id="6290556621549272952">Du kan använda funktionen för att visa innehåll från Brave på TV:n eller andra enheter.</translation>
 <translation id="6291953229176937411">&amp;Visa i Finder</translation>
 <translation id="6295158916970320988">Alla webbplatser</translation>
 <translation id="6295855836753816081">Sparar ...</translation>
@@ -3412,7 +3412,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6305607932814307878">Global policy:</translation>
 <translation id="6307990684951724544">Systemet är upptaget</translation>
 <translation id="6308937455967653460">Spara l&amp;änk som...</translation>
-<translation id="6311220991371174222">Det gick inte att starta Chrome eftersom något gick snett när profilen skulle öppnas. Testa att starta om Chrome.</translation>
+<translation id="6311220991371174222">Det gick inte att starta Brave eftersom något gick snett när profilen skulle öppnas. Testa att starta om Brave.</translation>
 <translation id="6312403991423642364">Okänt nätverksfel</translation>
 <translation id="6313641880021325787">AVSLUTA VR-LÄGET</translation>
 <translation id="6314335155547195432">Generera lösenord</translation>
@@ -3423,7 +3423,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6317369057005134371">Väntar på appfönstret ...</translation>
 <translation id="6322279351188361895">Det gick inte att läsa den privata nyckeln.</translation>
 <translation id="6325191661371220117">Inaktivera automatisk start</translation>
-<translation id="6326175484149238433">Ta bort från Chrome</translation>
+<translation id="6326175484149238433">Ta bort från Brave</translation>
 <translation id="6326855256003666642">Antal keepalive</translation>
 <translation id="632744581670418035">Tangentbordsöverlägg</translation>
 <translation id="6327785803543103246">Automatisk identifiering av webbproxy</translation>
@@ -3431,7 +3431,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6333064448949140209">Filen skickas till Google för felsökning</translation>
 <translation id="6333834492048057036">Fokusera på adressfältet för sökning</translation>
 <translation id="6339668969738228384">Skapa en ny profil för <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="6340017061976355871">Det gick inte att ansluta till servern. Kontrollera nätverksanslutningen och försök igen. Starta om Chromebook om problemet kvarstår.</translation>
+<translation id="6340017061976355871">Det gick inte att ansluta till servern. Kontrollera nätverksanslutningen och försök igen. Starta om Bravebook om problemet kvarstår.</translation>
 <translation id="6340071272923955280">Protokoll för internetutskrift (IPPS)</translation>
 <translation id="6341850831632289108">Identifiera din fysiska plats</translation>
 <translation id="634208815998129842">Aktivitetshanteraren</translation>
@@ -3454,7 +3454,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374108032506706911">Konfigurera Smart Lock för Android</translation>
 <translation id="6374469231428023295">Försök igen</translation>
-<translation id="6377158645544167202">Det gick inte att ansluta skrivaren. Kontrollera att skrivaren är påslagen och ansluten till Chromebook via Wi-Fi eller USB.</translation>
+<translation id="6377158645544167202">Det gick inte att ansluta skrivaren. Kontrollera att skrivaren är påslagen och ansluten till Bravebook via Wi-Fi eller USB.</translation>
 <translation id="6380143666419481200">Godkänn och fortsätt</translation>
 <translation id="6383051423892982287">Kryptera synkroniserad data med en egen <ph name="BEGIN_LINK" />lösenfras för synkronisering<ph name="END_LINK" /></translation>
 <translation id="6384275966486438344">Ändra sökinställningarna till: <ph name="SEARCH_HOST" /></translation>
@@ -3491,7 +3491,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6419546358665792306">Läser in okomprimerat tillägg</translation>
 <translation id="642282551015776456">Det här namnet får inte användas som namn på en fil eller mapp</translation>
 <translation id="6423239382391657905">Öppen VPN</translation>
-<translation id="6426200009596957090">Öppna ChromeVox-inställningarna</translation>
+<translation id="6426200009596957090">Öppna BraveVox-inställningarna</translation>
 <translation id="642870617012116879">Den här webbplatsen försökte ladda ned flera filer automatiskt.</translation>
 <translation id="6430814529589430811">Base64-kodad ASCII, enstaka certifikat</translation>
 <translation id="6431217872648827691">Alla data krypterades med ditt Google-lösenord den
@@ -3544,7 +3544,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6492313032770352219">Storlek på disk:</translation>
 <translation id="6494445798847293442">Inte från certifikatutfärdare</translation>
 <translation id="6498249116389603658">&amp;Alla dina språk</translation>
-<translation id="6498792256302744870">Appar som du har hämtat på Google Play tas bort från Chromebook.
+<translation id="6498792256302744870">Appar som du har hämtat på Google Play tas bort från Bravebook.
 
     Innehåll du har köpt, t.ex. filmer, TV-program, musik, böcker eller andra köp i appen, kan också tas bort.
 
@@ -3558,7 +3558,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6508261954199872201">App: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medielicens</translation>
 <translation id="6510568984200103950">Färre inställningar</translation>
-<translation id="6513247462497316522">Google Chrome kommer att använda mobila data om du inte är ansluten till ett annat nätverk.</translation>
+<translation id="6513247462497316522">Brave kommer att använda mobila data om du inte är ansluten till ett annat nätverk.</translation>
 <translation id="6514010653036109809">Tillgänglig enhet:</translation>
 <translation id="6514565641373682518">Muspekaren har inaktiverats av sidan.</translation>
 <translation id="6518014396551869914">Kopiera &amp;bild</translation>
@@ -3570,7 +3570,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6522797484310591766">Logga in nu</translation>
 <translation id="6527303717912515753">Dela</translation>
 <translation id="6528513914570774834">Tillåt att andra användare på den här enheten kan använda det här nätverket</translation>
-<translation id="652948702951888897">Chrome-historik</translation>
+<translation id="652948702951888897">Brave-historik</translation>
 <translation id="653019979737152879">Synkroniserar <ph name="FILE_NAME" /> ...</translation>
 <translation id="6531282281159901044">Behåll den farliga filen</translation>
 <translation id="6534583978616527129">Initiera anslutningen</translation>
@@ -3721,7 +3721,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6759193508432371551">Återställ standardinställningar</translation>
 <translation id="6766101255664245434">Ta ett nytt foto eller välj ett foto eller en ikon som redan finns.
           <ph name="LINE_BREAK" />
-          Den här bilden visas på inloggnings- och låsskärmen på Chromebook.</translation>
+          Den här bilden visas på inloggnings- och låsskärmen på Bravebook.</translation>
 <translation id="6769712124046837540">Lägger till skrivare ...</translation>
 <translation id="6771503742377376720">Är en certifikatutfärdare</translation>
 <translation id="6773575010135450071">Fler åtgärder ...</translation>
@@ -3754,12 +3754,12 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6817358880000653228">Lösenord som har sparats för den här webbplatsen:</translation>
 <translation id="6820687829547641339">Gzip-komprimerat tar-arkiv</translation>
 <translation id="682123305478866682">Casta skrivbordet</translation>
-<translation id="6823506025919456619">Du måste logga in i Chrome för att kunna visa dina enheter</translation>
+<translation id="6823506025919456619">Du måste logga in i Brave för att kunna visa dina enheter</translation>
 <translation id="6824564591481349393">Kopiera &amp;e-postadress</translation>
 <translation id="6825184156888454064">Sortera efter namn</translation>
 <translation id="6827236167376090743">Denna video spelas upp för evigt.</translation>
 <translation id="6828153365543658583">Begränsa inloggning till följande användare:</translation>
-<translation id="6828434191343384461">Den data som markerades har tagits bort från Chrome och från synkroniserade enheter. Det kan finnas webbhistorik av annat slag i Google-kontot på <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />, t.ex. sökningar och aktivitet på andra tjänster från Google.</translation>
+<translation id="6828434191343384461">Den data som markerades har tagits bort från Brave och från synkroniserade enheter. Det kan finnas webbhistorik av annat slag i Google-kontot på <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />, t.ex. sökningar och aktivitet på andra tjänster från Google.</translation>
 <translation id="6828860976882136098">Det gick inte att konfigurera automatiska uppdateringar för alla användare (preliminärt körningsfel: <ph name="ERROR_NUMBER" />)</translation>
 <translation id="6829250331733125857">Få hjälp med din <ph name="DEVICE_TYPE" />.</translation>
 <translation id="6829270497922309893">Registrera dig i din organisation</translation>
@@ -3789,7 +3789,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6871644448911473373">OCSP-svarare: <ph name="LOCATION" /></translation>
 <translation id="6872781471649843364">Det angivna lösenordet avvisades av servern.</translation>
 <translation id="6874681241562738119">Inloggningsfel</translation>
-<translation id="687588960939994211">Rensa även historik, bokmärken, inställningar och annan data i Chrome som har lagrats på den här enheten.</translation>
+<translation id="687588960939994211">Rensa även historik, bokmärken, inställningar och annan data i Brave som har lagrats på den här enheten.</translation>
 <translation id="6880587130513028875">Bilder är blockerade på den här sidan.</translation>
 <translation id="6883319974225028188">Det gick inte att spara enhetskonfigurationen.</translation>
 <translation id="6885771755599377173">Förhandsgranska systeminformation</translation>
@@ -3840,7 +3840,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6976108581241006975">JavaScript-konsol</translation>
 <translation id="6977381486153291903">Revision av firmware</translation>
 <translation id="6978121630131642226">Sökmotorer</translation>
-<translation id="6978611942794658017">Den här filen är avsedd för en dator med Windows-programvara. Den är inte kompatibel med din enhet, som har Chrome OS. Sök efter en lämplig ersättningsapp i Chrome Web Store.</translation>
+<translation id="6978611942794658017">Den här filen är avsedd för en dator med Windows-programvara. Den är inte kompatibel med din enhet, som har Chrome OS. Sök efter en lämplig ersättningsapp i Brave Web Store.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979737339423435258">Genom tiderna</translation>
 <translation id="6980462514016882061">Google kan anpassa Sök, annonser och andra Google-tjänster utifrån webbhistoriken.</translation>
@@ -3861,7 +3861,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="6996946928646015361">Den säkra modulen har inaktiverats eller tagits bort.</translation>
 <translation id="6998711733709403587"><ph name="SELCTED_FOLDERS_COUNT" /> mappar har valts</translation>
 <translation id="6998793565256476099">Registrera enheten för videokonferenser</translation>
-<translation id="7002055706763150362">Om du vill konfigurera Smart Lock för Chrome måste Google vara säker på att det är du som gör ändringen, så du måste först ange ditt lösenord.</translation>
+<translation id="7002055706763150362">Om du vill konfigurera Smart Lock för Brave måste Google vara säker på att det är du som gör ändringen, så du måste först ange ditt lösenord.</translation>
 <translation id="7002454948392136538">Välj ansvarig för den här kontrollerade användaren</translation>
 <translation id="7003339318920871147">Webbdatabaser</translation>
 <translation id="7003723821785740825">Konfigurera ett snabbare sätt för att låsa upp enheten</translation>
@@ -3964,7 +3964,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="715118844758971915">Vanliga skrivare</translation>
 <translation id="7154130902455071009">Ändra startsida till: <ph name="START_PAGE" /></translation>
 <translation id="7155171745945906037">Befintligt foto från kamera eller fil</translation>
-<translation id="7156235233373189579">Den här filen är avsedd för en PC med Windows. Den är inte kompatibel med Chrome OS, det operativsystem som körs på din enhet. Sök på <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /> efter en lämplig app att använda i stället.<ph name="BEGIN_LINK_HELP" />Läs mer<ph name="END_LINK_HELP" /></translation>
+<translation id="7156235233373189579">Den här filen är avsedd för en PC med Windows. Den är inte kompatibel med Chrome OS, det operativsystem som körs på din enhet. Sök på <ph name="BEGIN_LINK" />Brave Web Store<ph name="END_LINK" /> efter en lämplig app att använda i stället.<ph name="BEGIN_LINK_HELP" />Läs mer<ph name="END_LINK_HELP" /></translation>
 <translation id="7165320105431587207">Det gick inte att konfigurera nätverket</translation>
 <translation id="716640248772308851"><ph name="EXTENSION" /> kan läsa bilder, video och ljudfiler på de markerade platserna.</translation>
 <translation id="7167486101654761064">Öppna &amp;alltid filer av denna typ</translation>
@@ -3978,7 +3978,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7186088072322679094">Spara i verktygsfältet</translation>
 <translation id="7191159667348037">Okänd skrivare (USB)</translation>
 <translation id="7191454237977785534">Spara filen som</translation>
-<translation id="7196835305346730603">Söker efter Chromeboxes i närheten ...</translation>
+<translation id="7196835305346730603">Söker efter Braveboxes i närheten ...</translation>
 <translation id="7199158086730159431">Få h&amp;jälp</translation>
 <translation id="720110658997053098">Behåll enheten permanent i kioskläge</translation>
 <translation id="7201118060536064622"><ph name="DELETED_ITEM_NAME" /> har raderats</translation>
@@ -4086,15 +4086,15 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7376553024552204454">Markera muspekaren när den är i rörelse</translation>
 <translation id="7377169924702866686">Caps Lock är på.</translation>
 <translation id="7378627244592794276">Nej</translation>
-<translation id="73786666777299047">Öppna Chrome Web Store</translation>
+<translation id="73786666777299047">Öppna Brave Web Store</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7378812711085314936">Dela dataanslutning</translation>
 <translation id="7384292194278095697">Enheten stöds inte längre</translation>
 <translation id="7385854874724088939">Det uppstod ett problem vid utskriften.  Se över skrivaren och försök igen.</translation>
-<translation id="7386824183915085801">Versionen av Chrome och operativsystemet du använder läggs till, liksom 
+<translation id="7386824183915085801">Versionen av Brave och operativsystemet du använder läggs till, liksom 
         de uppgifter du väljer att ange ovan. Om du inkluderar din e-postadress
         kan Google kontakta dig angående feedbackrapportering. Din feedback
-        används för att diagnostisera problem och förbättra Chrome. Alla personliga
+        används för att diagnostisera problem och förbättra Brave. Alla personliga
         uppgifter du anger, oavsett om det är avsiktligt eller av misstag, skyddas i
         enlighet med vår sekretesspolicy.<ph name="BEGIN_BOLD" /> Genom att skicka in feedback godkänner du att Google får använda den för att förbättra produkter och tjänster från Google.
         <ph name="END_BOLD" /></translation>
@@ -4104,7 +4104,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7392915005464253525">Ö&amp;ppna ett stängt fönster igen</translation>
 <translation id="7396845648024431313"><ph name="APP_NAME" /> startas när systemet startas och fortsätter att köras i bakgrunden även när du har stängt alla andra fönster i <ph name="PRODUCT_NAME" />.</translation>
 <translation id="7400418766976504921">Webbadress</translation>
-<translation id="740083207982962331">Vänta medan Chromebox startas om ...</translation>
+<translation id="740083207982962331">Vänta medan Bravebox startas om ...</translation>
 <translation id="7400839060291901923">Konfigurera anslutningen på din <ph name="PHONE_NAME" /></translation>
 <translation id="7401543881546089382">Ta bort genväg</translation>
 <translation id="740624631517654988">Blockering av popup-fönster</translation>
@@ -4212,7 +4212,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7564847347806291057">Avsluta process</translation>
 <translation id="7565291891798266313">Sökmotorn har ändrats till <ph name="URL" />. Inaktivera tillägg som ändrar sökmotorn genom att trycka på Återställ.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Data i Chrome har rensats</translation>
+<translation id="756809126120519699">Data i Brave har rensats</translation>
 <translation id="7568790562536448087">Uppdaterar</translation>
 <translation id="7571643774869182231">Det finns inte tillräckligt med lagringsutrymme för uppdateringen.</translation>
 <translation id="7573172247376861652">Batteriladdning</translation>
@@ -4225,7 +4225,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7582582252461552277">Föredra det här nätverket</translation>
 <translation id="7584802760054545466">Ansluter till <ph name="NETWORK_ID" /></translation>
 <translation id="7586312264284919041">Vill du översätta sidan?</translation>
-<translation id="7586498138629385861">Chrome fortsätter köras när Chrome-appar är öppna.</translation>
+<translation id="7586498138629385861">Brave fortsätter köras när Brave-appar är öppna.</translation>
 <translation id="7589461650300748890">Ta det försiktigt.</translation>
 <translation id="7589661784326793847">Ett ögonblick</translation>
 <translation id="7591957897535945411">Sidan har översatts.</translation>
@@ -4284,7 +4284,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7704521324619958564">Öppna Play Butik</translation>
 <translation id="7705276765467986571">Det gick inte att läsa in bokmärkesmodellen.</translation>
 <translation id="7705524343798198388">VPN</translation>
-<translation id="7705600705238488017">Vill du <ph name="BEGIN_LINK" />titta i Chrome Web Store<ph name="END_LINK" /> i stället?</translation>
+<translation id="7705600705238488017">Vill du <ph name="BEGIN_LINK" />titta i Brave Web Store<ph name="END_LINK" /> i stället?</translation>
 <translation id="7705990546212675384">Lägg till en kontakt</translation>
 <translation id="7707922173985738739">Använd mobildata</translation>
 <translation id="7709152031285164251">Misslyckades – <ph name="INTERRUPT_REASON" /></translation>
@@ -4297,7 +4297,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7719367874908701697">Sidzoom</translation>
 <translation id="7719421816612904796">Tidsgräns för utbildning uppnådd</translation>
 <translation id="771953673318695590">Kvalitetssäkring</translation>
-<translation id="7720375555307821262">Om du vill bevaka personen <ph name="BEGIN_LINK" />loggar du in i Chrome<ph name="END_LINK" />.</translation>
+<translation id="7720375555307821262">Om du vill bevaka personen <ph name="BEGIN_LINK" />loggar du in i Brave<ph name="END_LINK" />.</translation>
 <translation id="7721179060400456005">Tillåt att fönster visas över flera skärmar.</translation>
 <translation id="7722040605881499779">Uppdateringen kräver: <ph name="NECESSARY_SPACE" /></translation>
 <translation id="7724603315864178912">Klipp ut</translation>
@@ -4322,7 +4322,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7771452384635174008">Layout</translation>
 <translation id="7772032839648071052">Bekräfta lösenfras</translation>
 <translation id="7772127298218883077">Om <ph name="PRODUCT_NAME" /></translation>
-<translation id="7772773261844472235">Kontrollera Chromebooks status</translation>
+<translation id="7772773261844472235">Kontrollera Bravebooks status</translation>
 <translation id="7773726648746946405">Sessionslagring</translation>
 <translation id="7781335840981796660">Alla användarkonton och all lokal data tas bort.</translation>
 <translation id="7782102568078991263">Inga fler förslag från Google</translation>
@@ -4336,7 +4336,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7788080748068240085">För att kunna spara<ph name="FILE_NAME" /> offline måste du frigöra ytterligare <ph name="TOTAL_FILE_SIZE" /> utrymme:<ph name="MARKUP_1" />
     <ph name="MARKUP_2" />ta bort filer som du inte längre behöver kunna använda offline<ph name="MARKUP_3" />
     <ph name="MARKUP_4" />ta bort filer från mappen Nedladdningar<ph name="MARKUP_5" /></translation>
-<translation id="7788298548579301890">Ett annat program i datorn har lagt till en app som kan ändra hur Chrome fungerar.
+<translation id="7788298548579301890">Ett annat program i datorn har lagt till en app som kan ändra hur Brave fungerar.
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -4363,7 +4363,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="782057141565633384">K&amp;opiera videoadress</translation>
 <translation id="782590969421016895">Använd aktuella sidor</translation>
 <translation id="7829298379596169484">Får åtkomst till ljudindata</translation>
-<translation id="7831368056091621108">om du vill ha det här tillägget, din historik och andra Chrome-inställningar på alla dina enheter.</translation>
+<translation id="7831368056091621108">om du vill ha det här tillägget, din historik och andra Brave-inställningar på alla dina enheter.</translation>
 <translation id="7831754656372780761"><ph name="TAB_TITLE" /> <ph name="EMOJI_MUTING" /></translation>
 <translation id="7832084384634357321">Sluttid</translation>
 <translation id="7833720883933317473">Sparade anpassade ord visas här</translation>
@@ -4457,7 +4457,7 @@ Tryck på någon tangent om du vill fortsätta utforska.</translation>
 <translation id="7973962044839454485">PPP-autentisering misslyckades på grund av felaktigt användarnamn eller lösenord</translation>
 <translation id="7974566588408714340">Försök igen med <ph name="EXTENSIONNAME" /></translation>
 <translation id="7974936243149753750">Överskanning</translation>
-<translation id="7977551819349545646">Uppdaterar Chromebox ...</translation>
+<translation id="7977551819349545646">Uppdaterar Bravebox ...</translation>
 <translation id="7978412674231730200">Privat nyckel</translation>
 <translation id="7979036127916589816">Synkroniseringsfel</translation>
 <translation id="7980084013673500153">Tillgångs-id: <ph name="ASSET_ID" /></translation>
@@ -4492,7 +4492,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8017335670460187064"><ph name="LABEL" /></translation>
 <translation id="8018313076035239964">Styr vilket slags innehåll som får visas på webbplatser och vilken information webbplatserna får ta del av</translation>
 <translation id="8023801379949507775">Uppdatera tillägg nu</translation>
-<translation id="8024483450737722621">Appar som du har laddat ned på Google Play tas bort från Chromebook.
+<translation id="8024483450737722621">Appar som du har laddat ned på Google Play tas bort från Bravebook.
       <ph name="LINE_BREAKS1" />
       Innehåll du har köpt, t.ex. filmer, TV-program, musik, böcker eller andra köp i appar, kan också tas bort.
       <ph name="LINE_BREAKS2" />
@@ -4613,7 +4613,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8202160505685531999">Ange lösenordet på nytt om du vill uppdatera din profil på <ph name="DEVICE_TYPE" />.</translation>
 <translation id="8206354486702514201">Administratören har gjort den här inställningen obligatorisk.</translation>
 <translation id="8206745257863499010">Bluesig</translation>
-<translation id="8209677645716428427">En kontrollerad användare kan utforska webben med dig som guide. Du som hanterar en kontrollerad användare i Chrome kan:</translation>
+<translation id="8209677645716428427">En kontrollerad användare kan utforska webben med dig som guide. Du som hanterar en kontrollerad användare i Brave kan:</translation>
 <translation id="8213449224684199188">Fotoläget har aktiverats</translation>
 <translation id="8213577208796878755">En till tillgänglig enhet.</translation>
 <translation id="8214489666383623925">Öppna fil...</translation>
@@ -4757,7 +4757,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8454288007744638700">Du kan även välja ett nytt nätverk:</translation>
 <translation id="845627346958584683">Giltig till</translation>
 <translation id="8456681095658380701">Ogiltigt namn</translation>
-<translation id="8460336040822756677">Om du inaktiverar Smart Lock för <ph name="DEVICE_TYPE" /> kan du inte låsa upp dina Chrome-enheter med mobilen. Du måste ange ditt lösenord.</translation>
+<translation id="8460336040822756677">Om du inaktiverar Smart Lock för <ph name="DEVICE_TYPE" /> kan du inte låsa upp dina Brave-enheter med mobilen. Du måste ange ditt lösenord.</translation>
 <translation id="8461329675984532579">Hemleverantörens namn</translation>
 <translation id="84613761564611563">Nätverkskonfigurering av användargränssnitt har begärts. Vänta en stund …</translation>
 <translation id="8461914792118322307">Proxy</translation>
@@ -4769,7 +4769,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8466234950814670489">Tar-arkiv</translation>
 <translation id="8468750959626135884">Lås upp <ph name="DEVICE_TYPE" /> med Android-mobilen.</translation>
 <translation id="8472623782143987204">maskinvarustödd</translation>
-<translation id="8475313423285172237">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Chrome fungerar.</translation>
+<translation id="8475313423285172237">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Brave fungerar.</translation>
 <translation id="8475647382427415476">Det gick inte att synkronisera <ph name="FILENAME" /> med Google Drive just nu. Ett nytt försök görs senare.</translation>
 <translation id="8477241577829954800">Ersatt</translation>
 <translation id="8477384620836102176">&amp;Allmänt</translation>
@@ -4783,14 +4783,14 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="8495193314787127784">Aktivera "Ok Google"</translation>
 <translation id="8496717697661868878">Kör det här plugin-programmet</translation>
-<translation id="8497392509610708671">Du kan ändra detta när du vill i <ph name="BEGIN_LINK" />inställningarna för Chrome<ph name="END_LINK" />.</translation>
+<translation id="8497392509610708671">Du kan ändra detta när du vill i <ph name="BEGIN_LINK" />inställningarna för Brave<ph name="END_LINK" />.</translation>
 <translation id="8498214519255567734">Gör det behagligare för ögonen att titta på skärmen eller läsa i svag belysning</translation>
 <translation id="8503813439785031346">Användarnamn</translation>
 <translation id="8508332354695141900">Startprogram, förslag på appar</translation>
 <translation id="8512476990829870887">Avsluta process</translation>
 <translation id="851263357009351303">Tillåt alltid att <ph name="HOST" /> visar bilder</translation>
 <translation id="8513191386157529469"><ph name="CLIENT_NAME" /> felsöker den här webbläsaren.</translation>
-<translation id="8513974249124254369">ChromeVox (talad feedback) har aktiverats. Inaktivera funktionen genom att trycka på Ctrl+Alt+Z.</translation>
+<translation id="8513974249124254369">BraveVox (talad feedback) har aktiverats. Inaktivera funktionen genom att trycka på Ctrl+Alt+Z.</translation>
 <translation id="8521475323816527629">Öppna appar snabbt</translation>
 <translation id="8523493869875972733">Behåll ändringarna</translation>
 <translation id="8523849605371521713">Har lagts till av en policy</translation>
@@ -4835,7 +4835,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8597845839771543242">Format på egenskap:</translation>
 <translation id="8598687241883907630">Koppla bort Google-kontot ...</translation>
 <translation id="8601206103050338563">TLS WWW-klientautentisering</translation>
-<translation id="8602851771975208551">Ett annat program i datorn har lagt till en app som kan ändra hur Chrome fungerar.</translation>
+<translation id="8602851771975208551">Ett annat program i datorn har lagt till en app som kan ändra hur Brave fungerar.</translation>
 <translation id="8605428685123651449">SQLite-minne</translation>
 <translation id="8606726445206553943">Använda MIDI-enheter</translation>
 <translation id="8609465669617005112">Flytta upp</translation>
@@ -4854,7 +4854,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8630903300770275248">Importera hanterad användare</translation>
 <translation id="8631032106121706562">Blomster</translation>
 <translation id="8631271110654520730">Återställningsavbildningen kopieras...</translation>
-<translation id="8637542770513281060">Datorn innehåller en säker modul som används för att implementera flera viktiga säkerhetsfunktioner i Chrome OS. Besök hjälpcentret för Chromebook om du vill läsa mer: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Datorn innehåller en säker modul som används för att implementera flera viktiga säkerhetsfunktioner i Chrome OS. Besök hjälpcentret för Bravebook om du vill läsa mer: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">Systemuppdatering tillgänglig. Förbereder nedladdning...</translation>
 <translation id="8639963783467694461">Inställningar för Autofyll</translation>
 <translation id="8642171459927087831">Åtkomsttoken</translation>
@@ -4877,7 +4877,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8662795692588422978">Personer</translation>
 <translation id="8662811608048051533">Du loggas ut från de flesta webbplatser.</translation>
 <translation id="8662911384982557515">Ändra startsida till: <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Bakgrundsbilden kan inte anges i Chrome.</translation>
+<translation id="8662978096466608964">Bakgrundsbilden kan inte anges i Brave.</translation>
 <translation id="8663099077749055505">Blockera alltid flera automatiska nedladdningar på <ph name="HOST" /></translation>
 <translation id="8664389313780386848">Visa &amp;sidkälla</translation>
 <translation id="866611985033792019">Lita på detta certifikat för identifiering av e-postanvändare</translation>
@@ -4942,11 +4942,11 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8755376271068075440">&amp;Större</translation>
 <translation id="8757090071857742562">Det gick inte att casta skrivbordet. Kontrollera att du har svarat på frågan om att dela skärmen.</translation>
 <translation id="8757640015637159332">Välj offentlig session</translation>
-<translation id="8757742102600829832">Välj en Chromebox att ansluta till</translation>
+<translation id="8757742102600829832">Välj en Bravebox att ansluta till</translation>
 <translation id="8757803915342932642">Enhet på Google Cloud Devices</translation>
 <translation id="8759408218731716181">Det går inte att starta multiinloggning</translation>
 <translation id="8759753423332885148">Läs mer.</translation>
-<translation id="8767621466733104912">Uppdatera Chrome automatiskt för alla användare</translation>
+<translation id="8767621466733104912">Uppdatera Brave automatiskt för alla användare</translation>
 <translation id="8770406935328356739">Tilläggets rotkatalog</translation>
 <translation id="8770507190024617908">Hantera personer</translation>
 <translation id="8774934320277480003">Övre marginal</translation>
@@ -5033,7 +5033,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8899851313684471736">Öppna länk i nytt f&amp;önster</translation>
 <translation id="8902667442496790482">Öppna inställningarna för uppläsning av markerad text</translation>
 <translation id="8903921497873541725">Zooma in</translation>
-<translation id="8904976895050290827">Synkronisera med Chrome</translation>
+<translation id="8904976895050290827">Synkronisera med Brave</translation>
 <translation id="8908902564709148335">Varning! Du har aktiverat flaggan --scripts-require-action på den här datorn, vilket begränsar det här tilläggets funktioner. I andra enheter finns det kanske inte stöd för flaggan, eller så kan den vara inaktiverad. I sådana enheter kan tillägget även:</translation>
 <translation id="8910146161325739742">Dela skärmen</translation>
 <translation id="8910222113987937043">När bokmärken, historik, lösenord och andra inställningar ändras kommer dessa ändringar inte längre att synkroniseras med Google-kontot. Uppgifter som redan har sparats i Google-kontot finns däremot kvar och kan hanteras via <ph name="BEGIN_LINK" />Google Översikt<ph name="END_LINK" />.</translation>
@@ -5133,7 +5133,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="9050666287014529139">Lösenfras</translation>
 <translation id="9052208328806230490">Du har registrerat dina skrivare med <ph name="CLOUD_PRINT_NAME" /> och du använde kontot <ph name="EMAIL" /></translation>
 <translation id="9053893665344928494">Kom ihåg mitt val</translation>
-<translation id="9056034633062863292">Uppdaterar Chromebox</translation>
+<translation id="9056034633062863292">Uppdaterar Bravebox</translation>
 <translation id="9056810968620647706">Inga träffar hittades.</translation>
 <translation id="9057119625587205566">Det finns inga skrivare i närheten</translation>
 <translation id="9059868303873565140">Statusmeny</translation>
@@ -5167,7 +5167,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="9106577689055281370">Batteri
 <ph name="HOUR" />.<ph name="MINUTE" /> återstår</translation>
 <translation id="9109122242323516435">Frigör utrymme genom att ta bort filer från lagringsutrymmet på enheten.</translation>
-<translation id="9110990317705400362">Vi strävar hela tiden efter att göra det säkrare för dig att surfa. Tidigare kunde du uppmanas att lägga till ett tillägg i webbläsaren på vilken webbplats som helst. I de senaste versionerna av Google Chrome måste du uttryckligen tala om för Chrome att du vill installera dessa tillägg genom att lägga till dem via sidan Tillägg. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">Vi strävar hela tiden efter att göra det säkrare för dig att surfa. Tidigare kunde du uppmanas att lägga till ett tillägg i webbläsaren på vilken webbplats som helst. I de senaste versionerna av Brave måste du uttryckligen tala om för Brave att du vill installera dessa tillägg genom att lägga till dem via sidan Tillägg. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">Lås upp</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112614144067920641">Välj ny PIN.</translation>
@@ -5189,7 +5189,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="9131487537093447019">Skicka och ta emot meddelanden från Bluetooth-enheter.</translation>
 <translation id="9131598836763251128">Välj en eller flera filer</translation>
 <translation id="9133055936679483811">Komprimeringen misslyckades. <ph name="ERROR_MESSAGE" /></translation>
-<translation id="9134524245363717059">Den här filen är avsedd för en dator med programvara från Macintosh. Den är inte kompatibel med din enhet, som har Chrome OS. Sök efter en lämplig ersättningsapp i Chrome Web Store.</translation>
+<translation id="9134524245363717059">Den här filen är avsedd för en dator med programvara från Macintosh. Den är inte kompatibel med din enhet, som har Chrome OS. Sök efter en lämplig ersättningsapp i Brave Web Store.</translation>
 <translation id="9137013805542155359">Visa original</translation>
 <translation id="9137916601698928395">Öppna länk som <ph name="USER" /></translation>
 <translation id="9138978632494473300">Lägg till genvägar till följande platser:</translation>
@@ -5210,7 +5210,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="9169496697824289689">Visa kortkommandon</translation>
 <translation id="9170397650136757332">Flytta nu fingret något så att hela fingeravtrycket läggs till</translation>
 <translation id="9170848237812810038">&amp;Ångra</translation>
-<translation id="9170884462774788842">Ett annat program i datorn har lagt till ett tema som kan ändra hur Chrome fungerar.</translation>
+<translation id="9170884462774788842">Ett annat program i datorn har lagt till ett tema som kan ändra hur Brave fungerar.</translation>
 <translation id="9174212595744391062">Cookies och cacheminne för alla webbplatser tas bort, inklusive</translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> – Bluetooth-enhet ansluten</translation>
 <translation id="9177499212658576372">Du är ansluten till nätverket <ph name="NETWORK_TYPE" />.</translation>
@@ -5245,7 +5245,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="939598580284253335">Ange lösenfras</translation>
 <translation id="939736085109172342">Ny mapp</translation>
 <translation id="941543339607623937">Ogiltig privat nyckel.</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> delar ljud och en flik från Chrome.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> delar ljud och en flik från Brave.</translation>
 <translation id="942954117721265519">Inga bilder i den här katalogen.</translation>
 <translation id="945522503751344254">Skicka synpunkter</translation>
 <translation id="951981865514037445"><ph name="URL" /> vill använda enhetens platsinfo.</translation>
@@ -5266,7 +5266,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="98515147261107953">Liggande</translation>
 <translation id="988978206646512040">Lösenfrasen får inte vara tom</translation>
 <translation id="992032470292211616">Tillägg, appar och teman kan skada enheten. Vill du fortsätta?</translation>
-<translation id="992592832486024913">Inaktivera ChromeVox (talad feedback)</translation>
+<translation id="992592832486024913">Inaktivera BraveVox (talad feedback)</translation>
 <translation id="994289308992179865">&amp;Repetera</translation>
 <translation id="996250603853062861">Upprättar en säker anslutning...</translation>
 <translation id="998747458861718449">I&amp;nspektera</translation>
