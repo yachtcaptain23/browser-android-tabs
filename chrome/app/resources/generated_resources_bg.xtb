@@ -49,7 +49,7 @@
 <translation id="1064912851688322329">Прекъсване на връзката с профила ви в Google...</translation>
 <translation id="1067048845568873861">Дата на създаване</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Chrome.
+<translation id="1070377999570795893">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1071917609930274619">Шифроване на данни</translation>
@@ -57,7 +57,7 @@
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1077946062898560804">Настройка за автоматични актуализации за всички потребители</translation>
 <translation id="1079766198702302550">Достъпът до камерата да се блокира винаги</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> иска да възстанови настройките ви на Chrome към първоначалните им стандартни стойности. Това ще нулира началната ви страница, новия раздел в браузъра и търсещата машина, ще деактивира разширенията ви и ще освободи всички раздели. Също така ще се изчистят други временни и кеширани данни, като „бисквитки“, съдържание и информация за сайтове.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> иска да възстанови настройките ви на Brave към първоначалните им стандартни стойности. Това ще нулира началната ви страница, новия раздел в браузъра и търсещата машина, ще деактивира разширенията ви и ще освободи всички раздели. Също така ще се изчистят други временни и кеширани данни, като „бисквитки“, съдържание и информация за сайтове.</translation>
 <translation id="1082725763867769612">Офлайн файлове</translation>
 <translation id="1084824384139382525">Копиране на адреса на вр&amp;ъзката</translation>
 <translation id="1089439967362294234">Промяна на паролата</translation>
@@ -75,10 +75,10 @@
 <translation id="1110772031432362678">Няма намерени мрежи.</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MODEL" /> от <ph name="PRINTER_MANUFACTURER" /> (USB)</translation>
 <translation id="1114202307280046356">Ромб</translation>
-<translation id="1114335938027186412">Компютърът ви съдържа устройство за сигурност от типа „модул за надеждна платформа (TPM)“, което служи за реализиране на множество критични защитни функции в Chrome OS. За да научите повече, посетете Помощния център на Chromebook: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Компютърът ви съдържа устройство за сигурност от типа „модул за надеждна платформа (TPM)“, което служи за реализиране на множество критични защитни функции в Chrome OS. За да научите повече, посетете Помощния център на Bravebook: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114525161406758033">Преминаване в спящ режим при затваряне на капака</translation>
 <translation id="1114901192629963971">Паролата ви не може да бъде потвърдена в текущата мрежа. Моля, изберете друга мрежа.</translation>
-<translation id="1115018219887494029">Smart Lock за Chromebook (бета)</translation>
+<translation id="1115018219887494029">Smart Lock за Bravebook (бета)</translation>
 <translation id="1116694919640316211">Информация</translation>
 <translation id="1119069657431255176">Tar архив, компресиран във формат Bzip2</translation>
 <translation id="1119447706177454957">Вътрешна грешка</translation>
@@ -140,7 +140,7 @@
 <translation id="1202596434010270079">Павилионното приложение е актуализирано. Моля, извадете USB паметта.</translation>
 <translation id="120368089816228251">Нота</translation>
 <translation id="1205489148908752564">Четене и промяна на потребителите в белия списък</translation>
-<translation id="1206407435587370571">Запознайте се със своя Chromebook</translation>
+<translation id="1206407435587370571">Запознайте се със своя Bravebook</translation>
 <translation id="1211364473545090084">Отворете прозорец в режим „инкогнито“, за да използвате мрежата, без да се запазва история на сърфирането ви</translation>
 <translation id="1213037489357051291">Настроени са <ph name="NUM_FINGERPRINTS" /> отпечатъка</translation>
 <translation id="1215411991991485844">Добавено е ново приложение на заден план</translation>
@@ -207,15 +207,15 @@
 <translation id="1313405956111467313">Автоматична конфигурация на прокси сървър</translation>
 <translation id="131364520783682672">Caps Lock</translation>
 <translation id="1313705515580255288">Вашите отметки, история и други настройки ще се синхронизират с профила ви в Google.</translation>
-<translation id="1313832887664610176">Връзката с Chromebox прекъсна</translation>
+<translation id="1313832887664610176">Връзката с Bravebox прекъсна</translation>
 <translation id="1314565355471455267">VPN за Android</translation>
 <translation id="131461803491198646">Собствената мрежа, не роуминг</translation>
 <translation id="1316136264406804862">Търси се...</translation>
 <translation id="1317502925920562130">Това ли е очакваната от вас начална страница?</translation>
-<translation id="1319979322914001937">Приложение, което показва филтриран списък с разширения от уеб магазина на Chrome. Те могат да бъдат инсталирани направо от приложението.</translation>
+<translation id="1319979322914001937">Приложение, което показва филтриран списък с разширения от уеб магазина на Brave. Те могат да бъдат инсталирани направо от приложението.</translation>
 <translation id="132090119144658135">Съвпадение на субекта:</translation>
 <translation id="1325040735987616223">Системна актуализация</translation>
-<translation id="1326317727527857210">Влезте в Chrome, за да получите разделите си от другите си устройства.</translation>
+<translation id="1326317727527857210">Влезте в Brave, за да получите разделите си от другите си устройства.</translation>
 <translation id="1327074568633507428">Принтер в Google Отпечатване в облак</translation>
 <translation id="1327977588028644528">Шлюз</translation>
 <translation id="1329584516321524826">Актуализирано току-що</translation>
@@ -329,7 +329,7 @@
 <translation id="150411034776756821">Премахване на <ph name="SITE" /></translation>
 <translation id="1504682556807808151">Искате ли <ph name="PASSWORD_MANAGER_BRAND" /> да запази паролата ви за този сайт?</translation>
 <translation id="1506061864768559482">Търсеща машина</translation>
-<translation id="1507048939308275033">Четете и отговаряйте на SMS съобщения на своя Chromebook</translation>
+<translation id="1507048939308275033">Четете и отговаряйте на SMS съобщения на своя Bravebook</translation>
 <translation id="1507170440449692343">Достъпът на тази страница до камерата ви е блокиран.</translation>
 <translation id="1507246803636407672">&amp;Отхвърляне</translation>
 <translation id="1507705801791187716">Страхотно, няма грешки!</translation>
@@ -384,7 +384,7 @@
 <translation id="1580652505892042215">Контекст:</translation>
 <translation id="1581962803218266616">Показване във Finder</translation>
 <translation id="1584990664401018068">Използваната от вас Wi-Fi мрежа (<ph name="NETWORK_ID" />) може да изисква удостоверяване.</translation>
-<translation id="1585717515139318619">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Chrome.
+<translation id="1585717515139318619">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Brave.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">&amp;Конзола на JavaScript</translation>
@@ -523,7 +523,7 @@
 <translation id="1786636458339910689">Екипни дискове</translation>
 <translation id="1789575671122666129">Изскачащи прозорци</translation>
 <translation id="1792619191750875668">Разширен екран</translation>
-<translation id="1793119619663054394">Наистина ли искате да премахнете <ph name="PROFILE_NAME" /> и всички свързани данни в Chrome от този компютър? Действието не може да бъде отменено.</translation>
+<translation id="1793119619663054394">Наистина ли искате да премахнете <ph name="PROFILE_NAME" /> и всички свързани данни в Brave от този компютър? Действието не може да бъде отменено.</translation>
 <translation id="1794791083288629568">Изпращане на отзиви, за да ни помогнете да отстраним този проблем.</translation>
 <translation id="1795214765651529549">Използване на класическата тема</translation>
 <translation id="179767530217573436">последните 4 седмици</translation>
@@ -664,14 +664,14 @@
 <translation id="2043818754674261542">Разстояние, от което телефонът може да отключи този <ph name="DEVICE_TYPE" /></translation>
 <translation id="204497730941176055">Име на шаблон за сертификат от Microsoft</translation>
 <translation id="2045969484888636535">Блокирането на „бисквитките“ да продължи</translation>
-<translation id="204622017488417136">Устройството ви ще се върне към предишната инсталирана версия на Chrome. Всички профили на потребители и локални данни ще бъдат премахнати. Това действие не може да се отмени.</translation>
+<translation id="204622017488417136">Устройството ви ще се върне към предишната инсталирана версия на Brave. Всички профили на потребители и локални данни ще бъдат премахнати. Това действие не може да се отмени.</translation>
 <translation id="2048182445208425546">Достъп до трафика ви в мрежата</translation>
 <translation id="2049137146490122801">Достъпът до локални файлове на компютъра е деактивиран от администратора ви.</translation>
 <translation id="204914487372604757">Създаване на пряк път</translation>
 <translation id="2050339315714019657">Вертикално</translation>
 <translation id="2053312383184521053">Данни за състоянието на неактивност</translation>
 <translation id="205560151218727633">Лого на Google Асистент</translation>
-<translation id="2065405795449409761">Chrome се контролира от автоматизиран софтуер за тестване.</translation>
+<translation id="2065405795449409761">Brave се контролира от автоматизиран софтуер за тестване.</translation>
 <translation id="2068054174185416762">Скорост на кадрите</translation>
 <translation id="2070909990982335904">Имената, започващи с точка, са запазени за системата. Моля, изберете друго име.</translation>
 <translation id="2071393345806050157">Няма локален регистрационен файл.</translation>
@@ -687,11 +687,11 @@
 <translation id="2080070583977670716">Още настройки</translation>
 <translation id="2085470240340828803">Вече съществува файл с име „<ph name="FILENAME" />“. Какво искате да направите?</translation>
 <translation id="2087822576218954668">Отпечатване: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">Сърфирайте безопасно с Google Chrome</translation>
+<translation id="2089566709556890888">Сърфирайте безопасно с Brave</translation>
 <translation id="2090165459409185032">За да възстановите информацията за профила си, отворете google.bg/accounts/recovery</translation>
 <translation id="2090876986345970080">Системни защитни настройки</translation>
 <translation id="2091887806945687916">Звук</translation>
-<translation id="2097372108957554726">За да регистрирате нови устройства, трябва да влезете в Chrome</translation>
+<translation id="2097372108957554726">За да регистрирате нови устройства, трябва да влезете в Brave</translation>
 <translation id="2098305189700762159">Не е намерен</translation>
 <translation id="2099172618127234427">Активирате функциите за отстраняване на грешки в Chrome OS, които ще настроят демон sshd и ще позволят стартирането от USB дискове.</translation>
 <translation id="2099686503067610784">Да се изтрие ли сертификатът на сървър „<ph name="CERTIFICATE_NAME" />“?</translation>
@@ -715,7 +715,7 @@
 <translation id="2116673936380190819">последния час</translation>
 <translation id="2121825465123208577">Преоразмеряване</translation>
 <translation id="2126167708562367080">Синхронизирането е деактивирано от администратора ви.</translation>
-<translation id="2126426811489709554">Предоставено от Chrome</translation>
+<translation id="2126426811489709554">Предоставено от Brave</translation>
 <translation id="2127372758936585790">Зарядно устройство с малка мощност</translation>
 <translation id="212862741129535676">Процент на използване в състояние на активност</translation>
 <translation id="2128691215891724419">Грешка при синхронизирането: Актуализирайте пропуска за синхронизиране...</translation>
@@ -851,7 +851,7 @@
 <translation id="2318817390901984578">За да използвате приложения за Android, заредете и актуализирайте своя <ph name="DEVICE_TYPE" />.</translation>
 <translation id="2318923050469484167">Текущата сесия в режим „инкогнито“ (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">Горен и долен колонтитул</translation>
-<translation id="2325650632570794183">Този файлов тип не се поддържа. Моля, посетете уеб магазина на Chrome, за да намерите приложение, което може да отвори съответния тип.</translation>
+<translation id="2325650632570794183">Този файлов тип не се поддържа. Моля, посетете уеб магазина на Brave, за да намерите приложение, което може да отвори съответния тип.</translation>
 <translation id="2326606747676847821">„Инкогнито“</translation>
 <translation id="2326931316514688470">&amp;Презареждане на приложението</translation>
 <translation id="2327492829706409234">Активиране на приложението</translation>
@@ -874,7 +874,7 @@
 <translation id="2352662711729498748">&lt; 1 МБ</translation>
 <translation id="2353297238722298836">Достъпът до камерата и микрофона е разрешен</translation>
 <translation id="2356070529366658676">Попитайте ме</translation>
-<translation id="2357949918965361754">С помощта на тази функция съдържанието от Chrome може да се показва на телевизора и другите ви устройства.</translation>
+<translation id="2357949918965361754">С помощта на тази функция съдържанието от Brave може да се показва на телевизора и другите ви устройства.</translation>
 <translation id="2359345697448000899">Управлявайте разширенията си, като кликнете върху „Разширения“ в менюто „Инструменти“.</translation>
 <translation id="2359808026110333948">Напред</translation>
 <translation id="236141728043665931">Достъпът до микрофона да се блокира винаги</translation>
@@ -1016,7 +1016,7 @@
 <translation id="2575247648642144396">Тази икона ще бъде видима, когато разширението може да изпълнява действия върху текущата страница. Използвайте го, като кликнете върху иконата или натиснете „<ph name="EXTENSION_SHORTCUT" />“.</translation>
 <translation id="2575268751393592580">Телефонът ви не може да бъде намерен. Уверете се, че вашият <ph name="DEVICE_TYPE" /> е свързан с Wi-Fi или мобилна мрежа. &lt;a&gt;Научете повече&lt;/a&gt;</translation>
 <translation id="2576842806987913196">Вече присъства CRX файл с това име.</translation>
-<translation id="257779572837908839">Настройване като Chromebox за срещи</translation>
+<translation id="257779572837908839">Настройване като Bravebox за срещи</translation>
 <translation id="2579575372772932244">Потребителският профил се създава отново. Моля, изчакайте...</translation>
 <translation id="2580889980133367162">Винаги да е разрешено на <ph name="HOST" /> да изтегля няколко файла</translation>
 <translation id="2580924999637585241">Общо: <ph name="NUMBER_OF_SHEETS" /> <ph name="SHEETS_LABEL" /></translation>
@@ -1025,11 +1025,11 @@
 <translation id="2582253231918033891"><ph name="PRODUCT_NAME" /> <ph name="PRODUCT_VERSION" /> (платформа <ph name="PLATFORM_VERSION" />) <ph name="DEVICE_SERIAL_NUMBER" /></translation>
 <translation id="2585300050980572691">Настройки за търсене по подразбиране</translation>
 <translation id="2587922270115112871">Създаването на контролиран потребител не създава профил в Google и настройките
-и данните му няма да бъдат налични за него на други устройства чрез синхронизирането в Chrome. Контролираният потребител е валиден само за това устройство.</translation>
+и данните му няма да бъдат налични за него на други устройства чрез синхронизирането в Brave. Контролираният потребител е валиден само за това устройство.</translation>
 <translation id="258932246702879617">Изберете <ph name="BEGIN_BOLD" />Закачи към лентата на задачите<ph name="END_BOLD" /></translation>
 <translation id="259421303766146093">Намаляване</translation>
 <translation id="2594999711683503743">Потърсете с Google или въведете URL адрес</translation>
-<translation id="2597852038534460976">Chrome няма достъп до тапетите. Моля, свържете се с мрежа.</translation>
+<translation id="2597852038534460976">Brave няма достъп до тапетите. Моля, свържете се с мрежа.</translation>
 <translation id="2603463522847370204">Отваряне на прозорец в режим „&amp;инкогнито“</translation>
 <translation id="2607101320794533334">Информация за публичен ключ на субект</translation>
 <translation id="2607459012323956820">Настройките и историята на сърфирането за този контролиран потребител пак може да се виждат от мениджъра на адрес <ph name="BEGIN_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_LINK" />.</translation>
@@ -1055,7 +1055,7 @@
 <translation id="2633212996805280240">Да се премахне ли „<ph name="EXTENSION_NAME" />“?</translation>
 <translation id="263325223718984101"><ph name="PRODUCT_NAME" /> не успя да завърши инсталацията, но ще продължи да работи от образа си на диска.</translation>
 <translation id="2635276683026132559">Подписване</translation>
-<translation id="2636625531157955190">Chrome няма достъп до изображението.</translation>
+<translation id="2636625531157955190">Brave няма достъп до изображението.</translation>
 <translation id="2638087589890736295">За стартиране на синхронизирането е необходим пропуск</translation>
 <translation id="2638286699381354126">Актуализиране...</translation>
 <translation id="2638942478653899953">Не можа да се установи връзка с Google Диск. Моля, <ph name="BEGIN_LINK" />излезте от профила си<ph name="END_LINK" /> и влезте отново.</translation>
@@ -1072,13 +1072,13 @@
 <translation id="2655386581175833247">Потребителски сертификат:</translation>
 <translation id="2660779039299703961">Събитие</translation>
 <translation id="2661146741306740526">16 x 9</translation>
-<translation id="2662876636500006917">Chrome Web Store</translation>
+<translation id="2662876636500006917">Brave Web Store</translation>
 <translation id="2663302507110284145">Език</translation>
 <translation id="2665394472441560184">Добавяне на нова дума</translation>
 <translation id="2665717534925640469">Тази страница сега е на цял екран и е деактивирала курсора на мишката ви.</translation>
 <translation id="2665919335226618153">Ужас! При форматирането възникна грешка.</translation>
 <translation id="2667463864537187133">Управление на проверката на правописа</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> споделя раздел в Chrome.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> споделя раздел в Brave.</translation>
 <translation id="2670531586141364277">За активирането на „<ph name="NAME" />“ се изисква връзка с мрежата.</translation>
 <translation id="2671451824761031126">Отметките и настройките ви са готови</translation>
 <translation id="2672142220933875349">Невалиден crx файл. Разпакетирането не бе успешно.</translation>
@@ -1110,7 +1110,7 @@
 <translation id="2709516037105925701">Автоматично попълване</translation>
 <translation id="271033894570825754">Създаване</translation>
 <translation id="2714393097308983682">Google Play Магазин</translation>
-<translation id="2715751256863167692">С тази надстройка ще нулирате настройките на своя Chromebook и ще премахнете текущите потребителски данни.</translation>
+<translation id="2715751256863167692">С тази надстройка ще нулирате настройките на своя Bravebook и ще премахнете текущите потребителски данни.</translation>
 <translation id="2718395828230677721">Нощно осветление</translation>
 <translation id="2718998670920917754">Антивирусният софтуер откри вирус.</translation>
 <translation id="2719936478972253983">Следните „бисквитки“ бяха блокирани</translation>
@@ -1230,7 +1230,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="2871813825302180988">Профилът вече се използва на това устройство.</translation>
 <translation id="2872353916818027657">Размяна на основния монитор</translation>
 <translation id="287286579981869940">Добавяне на <ph name="PROVIDER_NAME" />...</translation>
-<translation id="2875698561019555027">(Страници с грешки в Chrome)</translation>
+<translation id="2875698561019555027">(Страници с грешки в Brave)</translation>
 <translation id="288042212351694283">Да осъществява достъп до устройствата ви, използвани като универсален втори фактор за удостоверяване.</translation>
 <translation id="2881966438216424900">Последен достъп:</translation>
 <translation id="2882943222317434580"><ph name="IDS_SHORT_PRODUCT_NAME" /> незабавно ще се рестартира и настройките му ще се нулират</translation>
@@ -1328,7 +1328,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3012917896646559015">Моля, незабавно се свържете с производителя на хардуера си, за да изпратите компютъра си на поправка.</translation>
 <translation id="3013291976881901233">MIDI устройства</translation>
 <translation id="3014095112974898292">Изчаква се завършването на други заявки...</translation>
-<translation id="3015992588037997514">Този код показва ли се на екрана на вашия Chromebox?</translation>
+<translation id="3015992588037997514">Този код показва ли се на екрана на вашия Bravebox?</translation>
 <translation id="3016641847947582299">Компонентът е актуализиран</translation>
 <translation id="3016780570757425217">Достъп до местоположението ви.</translation>
 <translation id="302014277942214887">Въведете идентификационен номер на приложение или URL адрес на уеб магазин.</translation>
@@ -1337,13 +1337,13 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3022978424994383087">Не разбрахме това.</translation>
 <translation id="3024374909719388945">Използване на 24-часов часовник</translation>
 <translation id="302781076327338683">Презареждане със заобикаляне на кеша</translation>
-<translation id="3030243755303701754">Контролираният потребител може да изследва мрежата с ваше напътствие. Като негов мениджър в Chrome сте в състояние:
+<translation id="3030243755303701754">Контролираният потребител може да изследва мрежата с ваше напътствие. Като негов мениджър в Brave сте в състояние:
 
  • да разрешавате или забранявате определени уебсайтове;
  • да преглеждате посетените от контролирания потребител уебсайтове;
  • да управлявате други настройки.
 
-Създаването на контролиран потребител не създава профил в Google. Отметките, историята на сърфиране и останалите предпочитания на съответния човек няма да бъдат налични за него на други устройства чрез синхронизирането в Chrome. След като създадете нов контролиран потребител, можете по всяко време и от всяко устройство да управлявате настройките му на адрес <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
+Създаването на контролиран потребител не създава профил в Google. Отметките, историята на сърфиране и останалите предпочитания на съответния човек няма да бъдат налични за него на други устройства чрез синхронизирането в Brave. След като създадете нов контролиран потребител, можете по всяко време и от всяко устройство да управлявате настройките му на адрес <ph name="BEGIN_MANAGE_LINK" /><ph name="DISPLAY_LINK" /><ph name="END_MANAGE_LINK" />.
 
 За повече информация посетете <ph name="BEGIN_LINK" />Помощния ни център<ph name="END_LINK" />.</translation>
 <translation id="3031417829280473749">Агент „X“</translation>
@@ -1369,7 +1369,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3071624960923923138">Можете да кликнете тук, за да отворите нов раздел</translation>
 <translation id="3074037959626057712">Влязохте в профила си и включихте синхронизирането</translation>
 <translation id="3075874217500066906">За започването на Powerwash се изисква рестартиране. След това ще бъдете помолени да потвърдите, че искате да продължите.</translation>
-<translation id="3076677906922146425">Разрешаване на всички да добавят хора към Chrome</translation>
+<translation id="3076677906922146425">Разрешаване на всички да добавят хора към Brave</translation>
 <translation id="3076909148546628648"><ph name="DOWNLOAD_RECEIVED" />/<ph name="DOWNLOAD_TOTAL" /></translation>
 <translation id="3077734595579995578">shift</translation>
 <translation id="3078461028045006476">Споделяне с/ъс <ph name="EXTENSION_NAME" /></translation>
@@ -1380,7 +1380,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3083193146044397360">Временно блокирано от съображения за сигурност</translation>
 <translation id="308330327687243295">https://mail.google.com/mail/?extsrc=mailto&amp;url=%s</translation>
 <translation id="3084548735795614657">Освободете, за да инсталирате</translation>
-<translation id="3084771660770137092">Или Chrome няма достатъчно памет, или процесът за уеб страницата бе прекратен по друга причина. За да продължите, презаредете или отворете друга страница.</translation>
+<translation id="3084771660770137092">Или Brave няма достатъчно памет, или процесът за уеб страницата бе прекратен по друга причина. За да продължите, презаредете или отворете друга страница.</translation>
 <translation id="3085752524577180175">SOCKS хост</translation>
 <translation id="3088325635286126843">&amp;Преименуване...</translation>
 <translation id="3089231390674410424">Изглежда, че има проблем с идентификационните ви данни. Моля, уверете се, че сте влезли правилно, и опитайте отново.</translation>
@@ -1418,7 +1418,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3144126448740580210">ГОТОВО</translation>
 <translation id="3144135466825225871">Замяната на crx файла не бе успешна. Проверете дали не се използва.</translation>
 <translation id="3144647712221361880">Отваряне на връзката като</translation>
-<translation id="3149510190863420837">Приложения в Chrome</translation>
+<translation id="3149510190863420837">Приложения в Brave</translation>
 <translation id="3150927491400159470">Твърдо презареждане</translation>
 <translation id="315116470104423982">Мобилни данни</translation>
 <translation id="3151539355209957474">Начален час</translation>
@@ -1481,7 +1481,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3254434849914415189">Избиране на приложението по подразбиране за файлове от тип <ph name="FILE_TYPE" />:</translation>
 <translation id="3255228561559750854">Потърсете нещо или кажете „Ok Google“</translation>
 <translation id="3264544094376351444">Безсерифен шрифт</translation>
-<translation id="3264547943200567728">Настройването на мрежата на вашия Chromebox не бе успешно</translation>
+<translation id="3264547943200567728">Настройването на мрежата на вашия Bravebox не бе успешно</translation>
 <translation id="3265459715026181080">Затваряне на прозореца</translation>
 <translation id="3267726687589094446">Автоматичното изтегляне на няколко файла да остане разрешено</translation>
 <translation id="3267998849713137817">Час на промяна</translation>
@@ -1497,9 +1497,9 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3274763671541996799">Използвате цял екран.</translation>
 <translation id="3275778913554317645">Отваряне като прозорец</translation>
 <translation id="3280237271814976245">&amp;Запазване като...</translation>
-<translation id="3280243678470289153">Оставане в Chrome</translation>
+<translation id="3280243678470289153">Оставане в Brave</translation>
 <translation id="3280431534455935878">Подготвя се</translation>
-<translation id="3282568296779691940">Вход в Chrome</translation>
+<translation id="3282568296779691940">Вход в Brave</translation>
 <translation id="3285322247471302225">Нов &amp;раздел</translation>
 <translation id="3288047731229977326">Разширенията, които се изпълняват в режим за програмисти, могат да навредят на компютъра ви. Ако не сте програмист, за по-голяма безопасност трябва да деактивирате изпълнението им в този режим.</translation>
 <translation id="3289856944988573801">За да проверите за актуализации, моля, използвайте Ethernet или Wi-Fi.</translation>
@@ -1544,7 +1544,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3326821416087822643">„<ph name="FILE_NAME" />“ се компресира...</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">Информация за приложението</translation>
-<translation id="3335561837873115802">Изтегляне на инструмента за почистване на Chrome</translation>
+<translation id="3335561837873115802">Изтегляне на инструмента за почистване на Brave</translation>
 <translation id="3335947283844343239">Повторно отваряне на затворения раздел</translation>
 <translation id="3337069537196930048">Приставката <ph name="PLUGIN_NAME" /> бе блокирана, защото не е актуална.</translation>
 <translation id="3340978935015468852">настройки</translation>
@@ -1564,7 +1564,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="335985608243443814">Преглед...</translation>
 <translation id="3360297538363969800">Отпечатването не бе успешно. Моля, проверете принтера си и опитайте отново.</translation>
 <translation id="3364721542077212959">Инструменти за писане</translation>
-<translation id="336497260564123876">Паролата е запазена. Влезте в Chrome, за да получите паролите си на всичките си устройства.</translation>
+<translation id="336497260564123876">Паролата е запазена. Влезте в Brave, за да получите паролите си на всичките си устройства.</translation>
 <translation id="3367813778245106622">Влезте в профила си отново, за да започне синхронизирането</translation>
 <translation id="3368922792935385530">Установена е връзка</translation>
 <translation id="3369624026883419694">Получава се разрешение от хоста...</translation>
@@ -1686,7 +1686,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3547495624659668105">Версия на списъка с предпочитания за роуминг</translation>
 <translation id="3547954654003013442">Настройки за прокси сървър</translation>
 <translation id="3549797760399244642">Към drive.google.com...</translation>
-<translation id="3550915441744863158">Chrome се актуализира автоматично, така че винаги имате най-новата версия</translation>
+<translation id="3550915441744863158">Brave се актуализира автоматично, така че винаги имате най-новата версия</translation>
 <translation id="3551320343578183772">Затваряне на раздела</translation>
 <translation id="355298399003313926"><ph name="URL" /> иска да реагира на събития за достъпност.</translation>
 <translation id="3555812735919707620">Премахване на разширението</translation>
@@ -1766,7 +1766,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="365793796291733849"><ph name="BEGIN_PARAGRAPH1" />Когато включите автоматичното създаване на резервно копие, данните на устройството и на приложенията периодично се запазват в частна папка в Google Диск. Данните на приложенията могат да бъдат всяка запазена от тях информация (въз основа на настройките на програмиста), включително потенциално поверителната, като например контакти, съобщения и снимки.<ph name="END_PARAGRAPH1" /><ph name="BEGIN_PARAGRAPH2" />Данните в резервното копие няма да заемат от квотата на хранилището ви в Диск. Няма да се създава резервно копие на големите файлове, нито на тези, които програмистите са избрали да не включат в услугата.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="3660234220361471169">Ненадеждни</translation>
 <translation id="3661054927247347545">Данните за вход не са валидни. Прозорецът ще се затвори след <ph name="MINUTES" />:<ph name="SECONDS" /></translation>
-<translation id="3665589677786828986">Chrome установи, че някои от настройките ви са повредени от друга програма, и възстанови първоначалните им стандартни стойности.</translation>
+<translation id="3665589677786828986">Brave установи, че някои от настройките ви са повредени от друга програма, и възстанови първоначалните им стандартни стойности.</translation>
 <translation id="3665842570601375360">Сигурност:</translation>
 <translation id="3668570675727296296">Езикови настройки</translation>
 <translation id="3668823961463113931">Манипулатори</translation>
@@ -1785,7 +1785,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3688578402379768763">Актуално</translation>
 <translation id="3693415264595406141">Парола:</translation>
 <translation id="3694027410380121301">Избор на предишния раздел</translation>
-<translation id="3697100740575341996">Системният ви администратор е деактивирал екстрите за Chrome за устройството ви. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="3697100740575341996">Системният ви администратор е деактивирал екстрите за Brave за устройството ви. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="3699624789011381381">Имейл адрес</translation>
 <translation id="3702500414347826004">Страниците ви при стартиране бяха променени така, че да включват <ph name="URL" />.</translation>
 <translation id="3704331259350077894">Прекратяване на действието</translation>
@@ -1798,7 +1798,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="371300529209814631">Назад/напред</translation>
 <translation id="3714633008798122362">уеб календар</translation>
 <translation id="3719826155360621982">Начална страница</translation>
-<translation id="3723158278575423087">Представяме ви функцията за предаване в Chromium!</translation>
+<translation id="3723158278575423087">Представяме ви функцията за предаване в Brave!</translation>
 <translation id="3725367690636977613">страници</translation>
 <translation id="3726463242007121105">Това устройство не може да бъде отворено, защото файловата му система не се поддържа.</translation>
 <translation id="3727148787322499904">Промяната на тази настройка ще засегне всички споделени мрежи</translation>
@@ -1833,7 +1833,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3768037234834996183">Предпочитанията ви се синхронизират...</translation>
 <translation id="3771294271822695279">Видеофайлове</translation>
 <translation id="3775432569830822555">Сертификат на SSL сървър</translation>
-<translation id="3776796446459804932">Това разширение нарушава правилата на уеб магазина на Chrome.</translation>
+<translation id="3776796446459804932">Това разширение нарушава правилата на уеб магазина на Brave.</translation>
 <translation id="3778152852029592020">Изтеглянето бе анулирано.</translation>
 <translation id="3778740492972734840">&amp;Инструменти за програмисти</translation>
 <translation id="3778868487658107119">Вашият личен помощник от Google – винаги на разположение, за да отговаря на въпросите ви и да изпълнява желанията ви.</translation>
@@ -1867,7 +1867,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="381202950560906753">Добавяне на друг</translation>
 <translation id="3812034401428455285"><ph name="UWS_NAME" /> и <ph name="UWS_NAME" /></translation>
 <translation id="3812525830114410218">Невалиден сертификат</translation>
-<translation id="3813296892522778813">Прегледайте <ph name="BEGIN_LINK_CHROMIUM" />помощното съдържание за Google Chrome<ph name="END_LINK_CHROMIUM" />, ако не можете да намерите търсеното</translation>
+<translation id="3813296892522778813">Прегледайте <ph name="BEGIN_LINK_CHROMIUM" />помощното съдържание за Brave<ph name="END_LINK_CHROMIUM" />, ако не можете да намерите търсеното</translation>
 <translation id="3815571115159309122">Намерени са <ph name="FILE_COUNT" /> нови снимки
 <ph name="LINE_BREAK1" />
 Готовност за създаване на резервно копие в <ph name="BEGIN_LINK" />Google Диск<ph name="END_LINK" /></translation>
@@ -1892,7 +1892,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3838486795898716504">Още от „<ph name="PAGE_TITLE" />“</translation>
 <translation id="3838543471119263078">„Бисквитки“ и други данни за сайтове и приставки</translation>
 <translation id="383891835335927981">Няма сайтове с увеличен или намален мащаб</translation>
-<translation id="3840053866656739575">Връзката с вашия Chromebox прекъсна. Моля, приближете се или проверете устройството си, докато опитваме да я възстановим.</translation>
+<translation id="3840053866656739575">Връзката с вашия Bravebox прекъсна. Моля, приближете се или проверете устройството си, докато опитваме да я възстановим.</translation>
 <translation id="3842552989725514455">Серифен шрифт</translation>
 <translation id="385051799172605136">Назад</translation>
 <translation id="3851428669031642514">Зареждане на опасните скриптове</translation>
@@ -1903,7 +1903,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3857228364945137633">Изпробвайте Smart Lock, за да отключвате своя <ph name="DEVICE_TYPE" /> без парола, когато телефонът ви е наблизо.</translation>
 <translation id="3857773447683694438">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</translation>
 <translation id="3860381078714302691">Добре дошли в Hangouts Meet</translation>
-<translation id="3862134173397075045">Представяме ви функцията за предаване в Chrome!</translation>
+<translation id="3862134173397075045">Представяме ви функцията за предаване в Brave!</translation>
 <translation id="3865414814144988605">Разделителна способност</translation>
 <translation id="386548886866354912">Пакетиране с/ъс <ph name="EXTENSION_NAME" /></translation>
 <translation id="3866249974567520381">Описание</translation>
@@ -1917,7 +1917,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="388485010393668001">Налице е довършване: <ph name="COMPLETION_TEXT" /></translation>
 <translation id="3892414795099177503">Добавяне на OpenVPN/L2TP...</translation>
 <translation id="3893536212201235195">Да чете и променя настройките ви за достъпност</translation>
-<translation id="3893630138897523026">ChromeVox (обратна връзка с говор)</translation>
+<translation id="3893630138897523026">BraveVox (обратна връзка с говор)</translation>
 <translation id="3894427358181296146">Добавяне на папка</translation>
 <translation id="389589731200570180">Споделяне с гости</translation>
 <translation id="3897092660631435901">Меню</translation>
@@ -1936,7 +1936,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3916445069167113093">Този тип файл може да навреди на компютъра ви. Искате ли да запазите „<ph name="FILE_NAME" />“ въпреки това?</translation>
 <translation id="3918972485393593704">Изпращане на подробностите до Google</translation>
 <translation id="3920504717067627103">Правила за сертификата</translation>
-<translation id="392089482157167418">Активиране на ChromeVox (обратна връзка с говор)</translation>
+<translation id="392089482157167418">Активиране на BraveVox (обратна връзка с говор)</translation>
 <translation id="3924145049010392604">Meta</translation>
 <translation id="3925247638945319984">Нямате наскоро записани регистрационни файлове за WebRTC.</translation>
 <translation id="3925573269917483990">Камера:</translation>
@@ -2037,7 +2037,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4087089424473531098">Създадено бе разширението:
 
 <ph name="EXTENSION_FILE" /></translation>
-<translation id="4087470595660267445">Инсталирайте приложения и игри от Google Play на своя Chromebook. &lt;a target="_blank" href="<ph name="URL" />"&gt;Научете повече&lt;/a&gt;</translation>
+<translation id="4087470595660267445">Инсталирайте приложения и игри от Google Play на своя Bravebook. &lt;a target="_blank" href="<ph name="URL" />"&gt;Научете повече&lt;/a&gt;</translation>
 <translation id="4088095054444612037">Приемам за групата</translation>
 <translation id="4089521618207933045">Има подменю</translation>
 <translation id="4090103403438682346">Активиране на удостоверения достъп</translation>
@@ -2078,7 +2078,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4158739975813877944">Отваряне на плейлиста</translation>
 <translation id="4159681666905192102">Това е профил за деца, управляван от <ph name="CUSTODIAN_EMAIL" /> и <ph name="SECOND_CUSTODIAN_EMAIL" />.</translation>
 <translation id="4163560723127662357">Неизвестна клавиатура</translation>
-<translation id="4166210099837486476">Наблюдаване на случаите, когато извършвате действия в Chrome</translation>
+<translation id="4166210099837486476">Наблюдаване на случаите, когато извършвате действия в Brave</translation>
 <translation id="4168015872538332605">Някои от настройките на <ph name="PRIMARY_EMAIL" /> се споделят с вас. Те засягат профила ви само когато използвате централизиран вход.</translation>
 <translation id="4170314459383239649">Изчистване при изход</translation>
 <translation id="4172051516777682613">Показване винаги</translation>
@@ -2239,7 +2239,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4450974146388585462">Диагностициране</translation>
 <translation id="4452426408005428395">Няма значение</translation>
 <translation id="445923051607553918">Присъединяване към Wi-Fi мрежа</translation>
-<translation id="4467100756425880649">Галерия на уеб магазина на Chrome</translation>
+<translation id="4467100756425880649">Галерия на уеб магазина на Brave</translation>
 <translation id="4467101674048705704">Разгъване на „<ph name="FOLDER_NAME" />“</translation>
 <translation id="4474155171896946103">Запазване на отметки към всички раздели…</translation>
 <translation id="4475552974751346499">Търсене във файловете за изтегляне</translation>
@@ -2252,7 +2252,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4482194545587547824">Възможно е да използваме историята ви на сърфиране, за да персонализираме търсенето и други услуги на Google</translation>
 <translation id="4492190037599258964">Резултати от търсенето на „<ph name="SEARCH_STRING" />“</translation>
 <translation id="4495419450179050807">Да не се показва на тази страница</translation>
-<translation id="4499108478945817980">Администраторът ви изисква да влезете в Chrome.</translation>
+<translation id="4499108478945817980">Администраторът ви изисква да влезете в Brave.</translation>
 <translation id="450099669180426158">Икона на удивителен знак</translation>
 <translation id="4501530680793980440">Потвърждаване на премахването</translation>
 <translation id="4504940961672722399">Използвайте това разширение, като кликнете върху съответната икона или натиснете „<ph name="EXTENSION_SHORTCUT" />“.</translation>
@@ -2264,7 +2264,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="451407183922382411">Предоставено от <ph name="COMPANY_NAME" /></translation>
 <translation id="4514542542275172126">Настройване на нов контролиран потребител</translation>
 <translation id="451515744433878153">Премахване</translation>
-<translation id="4518677423782794009">Възникват ли сривове в Chrome, показват ли се необичайни страници при стартиране или ленти с инструменти, виждате ли неочаквани реклами, които не можете да премахнете, или друга промяна в практическата си работа при сърфиране? Възможно е да решите проблема, като стартирате инструмента за почистване на Chrome.</translation>
+<translation id="4518677423782794009">Възникват ли сривове в Brave, показват ли се необичайни страници при стартиране или ленти с инструменти, виждате ли неочаквани реклами, които не можете да премахнете, или друга промяна в практическата си работа при сърфиране? Възможно е да решите проблема, като стартирате инструмента за почистване на Brave.</translation>
 <translation id="4520385623207007473">„Бисквитки“, които се използват</translation>
 <translation id="452039078290142656">неизвестни устройства от <ph name="VENDOR_NAME" /></translation>
 <translation id="4522570452068850558">Подробности</translation>
@@ -2282,16 +2282,16 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4544174279960331769">Стандартен син аватар</translation>
 <translation id="4545028762441890696">За да го активирате, приемете новите разрешения:</translation>
 <translation id="4545759655004063573">Не може да се запази поради недостатъчни разрешения. Моля, запазете на друго място.</translation>
-<translation id="4546308221697447294">Сърфирайте бързо с Google Chrome</translation>
+<translation id="4546308221697447294">Сърфирайте бързо с Brave</translation>
 <translation id="4547659257713117923">Няма раздели от други устройства</translation>
 <translation id="4547992677060857254">Избраната от вас папка съдържа деликатни файлове. Наистина ли искате да предоставите на „$1“ постоянен достъп за запис в тази папка?</translation>
-<translation id="4552031286893852992">Chrome блокира показването на реклами на този сайт, тъй като те обикновено са натрапчиви.</translation>
+<translation id="4552031286893852992">Brave блокира показването на реклами на този сайт, тъй като те обикновено са натрапчиви.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552495056028768700">Достъп до страницата</translation>
 <translation id="4552678318981539154">Купуване на още хранилище</translation>
 <translation id="4554591392113183336">Версията на външното разширение е същата или по-стара в сравнение със съществуващата.</translation>
 <translation id="4555769855065597957">Сянка</translation>
-<translation id="4555979468244469039">Име на машината Chromebook</translation>
+<translation id="4555979468244469039">Име на машината Bravebook</translation>
 <translation id="4556110439722119938">Вашите отметки, история, пароли и други настройки ще се синхронизират с профила ви в Google, за да можете да ги използвате на всичките си устройства</translation>
 <translation id="4557136421275541763">Предупреждение:</translation>
 <translation id="4558426062282641716">Изисква се разрешение за автоматично стартиране</translation>
@@ -2342,7 +2342,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4634771451598206121">Влизане отново...</translation>
 <translation id="4636315944522859212">Принтерът бе намерен</translation>
 <translation id="4640525840053037973">Влезте с профила си в Google</translation>
-<translation id="4641539339823703554">Chrome не успя да зададе системния час. Моля, проверете го по-долу и го коригирайте при нужда.</translation>
+<translation id="4641539339823703554">Brave не успя да зададе системния час. Моля, проверете го по-долу и го коригирайте при нужда.</translation>
 <translation id="4643612240819915418">&amp;Отваряне на видеоклипа в нов раздел</translation>
 <translation id="4645676300727003670">&amp;Запазване</translation>
 <translation id="4647090755847581616">&amp;Затваряне на раздела</translation>
@@ -2350,7 +2350,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4648491805942548247">Недостатъчни разрешения</translation>
 <translation id="4648499713050786492">Моля, отключете потребителския си профил, преди да добавите човек.</translation>
 <translation id="4653235815000740718">Възникна проблем при създаването на носителя за възстановяване на операционната система. Използваното устройство за съхранение не бе намерено.</translation>
-<translation id="465499440663162826">Не можа да се установи връзка с уеб магазина на Chrome.</translation>
+<translation id="465499440663162826">Не можа да се установи връзка с уеб магазина на Brave.</translation>
 <translation id="4656293982926141856">Този компютър</translation>
 <translation id="4658312088164718891">Въведете паролата си, за да включите Smart Lock. Следващия път телефонът ви ще отключи вашия <ph name="DEVICE_TYPE" />. Можете да изключите Smart Lock от настройките.</translation>
 <translation id="4662788913887017617">Споделете тази отметка със своя iPhone</translation>
@@ -2358,7 +2358,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4664482161435122549">Грешка при експортиране на PKCS #12</translation>
 <translation id="466481852929361583">Модулът за сигурност се настройва. Моля, имайте търпение – това може да отнеме няколко минути.</translation>
 <translation id="4665014895760275686">Производител</translation>
-<translation id="466506872045057845">Chrome ще възстанови стандартните настройки за разрешенията</translation>
+<translation id="466506872045057845">Brave ще възстанови стандартните настройки за разрешенията</translation>
 <translation id="4667176955651319626">Да се блокират „бисквитките“ и данните за сайтове на трети страни</translation>
 <translation id="4668721319092543482">Кликнете, за да активирате <ph name="PLUGIN_NAME" /></translation>
 <translation id="4668954208278016290">Възникна проблем при извличането на образа на компютъра.</translation>
@@ -2388,7 +2388,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4708794300267213770">Показване на заключения екран при излизане от спящ режим</translation>
 <translation id="4708849949179781599">Изход от <ph name="PRODUCT_NAME" /></translation>
 <translation id="4711638718396952945">Възстановяване на настройките</translation>
-<translation id="4713544552769165154">Този файл е предназначен за компютри със софтуер Macintosh и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в <ph name="BEGIN_LINK" />уеб магазина на Chrome<ph name="END_LINK" /> подходящо приложение със същата функционалност. <ph name="BEGIN_LINK_HELP" />Научете повече<ph name="END_LINK_HELP" /></translation>
+<translation id="4713544552769165154">Този файл е предназначен за компютри със софтуер Macintosh и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в <ph name="BEGIN_LINK" />уеб магазина на Brave<ph name="END_LINK" /> подходящо приложение със същата функционалност. <ph name="BEGIN_LINK_HELP" />Научете повече<ph name="END_LINK_HELP" /></translation>
 <translation id="4714531393479055912"><ph name="PRODUCT_NAME" /> вече може да синхронизира паролите ви.</translation>
 <translation id="4715553623069266137">много кратко (0,8 сек)</translation>
 <translation id="4716483597559580346">Powerwash за повишаване на сигурността</translation>
@@ -2411,7 +2411,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4742746985488890273">Фиксиране в лавицата</translation>
 <translation id="4744574733485822359">Изтеглянето ви завърши</translation>
 <translation id="4746971725921104503">Изглежда, че вече управлявате потребител с това име. Искате ли <ph name="LINK_START" />да импортирате <ph name="USER_DISPLAY_NAME" /> на устройството<ph name="LINK_END" />?</translation>
-<translation id="4748762018725435655">Изисква се разширение от уеб магазина на Chrome</translation>
+<translation id="4748762018725435655">Изисква се разширение от уеб магазина на Brave</translation>
 <translation id="4750394297954878236">Предложения</translation>
 <translation id="475088594373173692">Първи потребител</translation>
 <translation id="4756378406049221019">Спиране/презареждане</translation>
@@ -2458,7 +2458,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4829768588131278040">Настройване на ПИН</translation>
 <translation id="4830502475412647084">Актуализацията на операционната система се инсталира</translation>
 <translation id="4830573902900904548">Устройството ви <ph name="DEVICE_TYPE" /> не може да се свърже с интернет през „<ph name="NETWORK_NAME" />“. Моля, изберете друга мрежа. <ph name="LEARN_MORE_LINK_START" />Научете повече<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4835385943915508971">Chrome няма достъп до заявения ресурс.</translation>
+<translation id="4835385943915508971">Brave няма достъп до заявения ресурс.</translation>
 <translation id="4835836146030131423">Грешка при влизането.</translation>
 <translation id="4837926214103741331">Не сте упълномощени да използвате това устройство. За разрешение за вход се свържете със собственика му.</translation>
 <translation id="4837952862063191349">За отключване и възстановяване на локалните си данни, моля, въведете старата си парола за <ph name="DEVICE_TYPE" />.</translation>
@@ -2487,7 +2487,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="48704129375571883">Добавяне на допълнителни функции</translation>
 <translation id="4870903493621965035">Няма сдвоени устройства</translation>
 <translation id="4871210892959306034">$1 КБ</translation>
-<translation id="4871308555310586478">Извън уеб магазина на Chrome.</translation>
+<translation id="4871308555310586478">Извън уеб магазина на Brave.</translation>
 <translation id="4871370605780490696">Добавяне на отметка</translation>
 <translation id="4871833665870725367">Искате ли <ph name="PASSWORD_MANAGER_BRAND" /> да актуализира паролата ви за <ph name="ORIGIN" />?</translation>
 <translation id="4873312501243535625">Проверка на медийни файлове</translation>
@@ -2495,7 +2495,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4875622588773761625">Искате ли <ph name="PASSWORD_MANAGER_BRAND" /> да актуализира паролата ви за този сайт?</translation>
 <translation id="4876273079589074638">Помогнете на инженерите ни да открият и отстранят причината за този срив. Ако е възможно, посочете точните стъпки. Всяка подробност е важна!</translation>
 <translation id="4876895919560854374">Заключване и отключване на екрана</translation>
-<translation id="4877017884043316611">Сдвояване с Chromebox</translation>
+<translation id="4877017884043316611">Сдвояване с Bravebox</translation>
 <translation id="4880214202172289027">Плъзгач за силата на звука</translation>
 <translation id="4880328057631981605">Име на точката за достъп</translation>
 <translation id="4880520557730313061">Автокоригиране</translation>
@@ -2517,7 +2517,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4900392736118574277">Страницата ви при стартиране бе променена на <ph name="URL" />.</translation>
 <translation id="490074449735753175">Използване на услуга в мрежата за помощ при поправянето на правописни грешки</translation>
 <translation id="49027928311173603">Изтегленото от сървъра правило е невалидно: <ph name="VALIDATION_ERROR" />.</translation>
-<translation id="4903369323166982260">Стартиране на инструмента за почистване на Chrome</translation>
+<translation id="4903369323166982260">Стартиране на инструмента за почистване на Brave</translation>
 <translation id="4907161631261076876">Този файл обикновено не се изтегля и може да е опасен.</translation>
 <translation id="4907306957610201395">Категория за разрешения</translation>
 <translation id="4908811072292128752">Отворете нов раздел, за да сърфирате в два сайта едновременно</translation>
@@ -2549,7 +2549,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4953689047182316270">Реагиране на събития за достъпност</translation>
 <translation id="4953808748584563296">Стандартен оранжев аватар</translation>
 <translation id="4955814292505481804">Годишен</translation>
-<translation id="495931528404527476">В Chrome</translation>
+<translation id="495931528404527476">В Brave</translation>
 <translation id="496226124210045887">Избраната от вас папка съдържа деликатни файлове. Наистина ли искате да предоставите на „$1“ постоянен достъп за четене от тази папка?</translation>
 <translation id="4964455510556214366">Подредба</translation>
 <translation id="4964673849688379040">Проверява се...</translation>
@@ -2571,7 +2571,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="4988792151665380515">Експортирането на публичен ключ не бе успешно.</translation>
 <translation id="49896407730300355">Завъртане о&amp;братно на часовниковата стрелка</translation>
 <translation id="4989966318180235467">Инспектиране на &amp;фоновата страница</translation>
-<translation id="4990343175649730969">Изтегляне на инструмента за почистване на Chrome</translation>
+<translation id="4990343175649730969">Изтегляне на инструмента за почистване на Brave</translation>
 <translation id="4991420928586866460">Третиране на клавишите от най-горния ред като функционални</translation>
 <translation id="499165176004408815">Използване на режима на висок контраст</translation>
 <translation id="4992066212339426712">Включване на звука</translation>
@@ -2627,7 +2627,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5087249366037322692">Добавено от трета страна</translation>
 <translation id="5087580092889165836">Добавяне на карта</translation>
 <translation id="5087864757604726239">назад</translation>
-<translation id="5087926280563932024">Профилът ви не можа да бъде потвърден. Моля, опитайте отново или рестартирайте своя Chromebook.</translation>
+<translation id="5087926280563932024">Профилът ви не можа да бъде потвърден. Моля, опитайте отново или рестартирайте своя Bravebook.</translation>
 <translation id="5088172560898466307">Име на хоста за сървъра</translation>
 <translation id="5088534251099454936">PKCS 1 SHA-512 с RSA шифроване</translation>
 <translation id="509429900233858213">Възникна грешка.</translation>
@@ -2635,7 +2635,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5097002363526479830">Свързването с мрежата „<ph name="NAME" />“ не бе успешно: <ph name="DETAILS" /></translation>
 <translation id="5098647635849512368">Абсолютният път към директорията за пакетиране не може да бъде намерен.</translation>
 <translation id="5099354524039520280">нагоре</translation>
-<translation id="5100114659116077956">За да получите най-новите функции, вашият Chromebox трябва да се актуализира.</translation>
+<translation id="5100114659116077956">За да получите най-новите функции, вашият Bravebox трябва да се актуализира.</translation>
 <translation id="5101042277149003567">Отваряне на всички отметки</translation>
 <translation id="5105855035535475848">Фиксиране на разделите</translation>
 <translation id="5108967062857032718">Настройки – Премахване на приложенията за Android</translation>
@@ -2779,7 +2779,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5316588172263354223">Гласово търсене по всяко време</translation>
 <translation id="5316716239522500219">Дублиране на мониторите</translation>
 <translation id="5317780077021120954">Запазване</translation>
-<translation id="5319359161174645648">Google препоръчва Chrome</translation>
+<translation id="5319359161174645648">Google препоръчва Brave</translation>
 <translation id="532247166573571973">Възможно е да няма достъп до сървъра. Опитайте отново по-късно.</translation>
 <translation id="532360961509278431">Не може да се отвори „$1“: $2</translation>
 <translation id="5324780743567488672">Автоматично задаване на часовата зона въз основа на местоположението ви</translation>
@@ -2804,7 +2804,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="534916491091036097">Лява скоба</translation>
 <translation id="5350965906220856151">Ами сега!</translation>
 <translation id="5352033265844765294">Поставяне на времево клеймо</translation>
-<translation id="5353252989841766347">Експортиране на пароли от Chrome</translation>
+<translation id="5353252989841766347">Експортиране на пароли от Brave</translation>
 <translation id="5355097969896547230">Търсене отново</translation>
 <translation id="5355926466126177564">Разширението „<ph name="EXTENSION_NAME" />“ промени страницата, която се показва при търсене от полето за всичко.</translation>
 <translation id="5360150013186312835">Показване в лентата с инструменти</translation>
@@ -2814,7 +2814,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5367116720986018215">Ограничено</translation>
 <translation id="5368720394188453070">Телефонът ви е заключен. Отключете го, за да влезете.</translation>
 <translation id="5368779022775404937">Влизане в домейна <ph name="REALM" /></translation>
-<translation id="5369927996833026114">Запознайте се със стартовия панел за приложения в Chrome</translation>
+<translation id="5369927996833026114">Запознайте се със стартовия панел за приложения в Brave</translation>
 <translation id="5370819323174483825">&amp;Презареждане</translation>
 <translation id="5372529912055771682">Предоставеният режим за записване не се поддържа от тази версия на операционната система.  Моля, уверете се, че използвате най-новата версия и опитайте отново.</translation>
 <translation id="5374359983950678924">Промяна на снимката</translation>
@@ -2917,7 +2917,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5511823366942919280">Наистина ли искате да настроите това устройство като Shark?</translation>
 <translation id="5512653252560939721">Потребителският сертификат трябва да бъде с хардуерна поддръжка.</translation>
 <translation id="5513242761114685513">Контекстно меню</translation>
-<translation id="5516183516694518900">Влезте в Chrome с профила си в Google, за да получите своите отметки, история, пароли и други настройки на всичките си устройства.</translation>
+<translation id="5516183516694518900">Влезте в Brave с профила си в Google, за да получите своите отметки, история, пароли и други настройки на всичките си устройства.</translation>
 <translation id="551752069230578406">Принтерът се добавя в профила ви. Това може да отнеме известно време...</translation>
 <translation id="5518584115117143805">Сертификат за шифроване на имейли</translation>
 <translation id="5521078259930077036">Това ли е очакваната от вас начална страница?</translation>
@@ -2996,7 +2996,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5624120631404540903">Управление на паролите</translation>
 <translation id="5626134646977739690">Име:</translation>
 <translation id="5627086634964711283">То също контролира коя страница се показва при кликване върху бутона „Начална страница“.</translation>
-<translation id="5627676517703583263">Сърфирайте интелигентно с Chrome</translation>
+<translation id="5627676517703583263">Сърфирайте интелигентно с Brave</translation>
 <translation id="562935524653278697">Администраторът ви е деактивирал синхронизирането на вашите отметки, история, пароли и други настройки.</translation>
 <translation id="563535393368633106">Извеждане на запитване преди осъществяване на достъп (препоръчително)</translation>
 <translation id="5636996382092289526">За да използвате „<ph name="NETWORK_ID" />“, може да се наложи първо <ph name="LINK_START" />да посетите страницата за вход в мрежата<ph name="LINK_END" />, която ще се отвори автоматично след няколко секунди. Ако това не се случи, мрежата не може да се ползва.</translation>
@@ -3009,7 +3009,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5649053991847567735">Автоматични изтегляния</translation>
 <translation id="5649768706273821470">Слушане</translation>
 <translation id="5653140146600257126">Папката „$1“ вече съществува. Моля, изберете друго име.</translation>
-<translation id="5657667036353380798">За външното разширение се изисква да е инсталирана версия <ph name="MINIMUM_CHROME_VERSION" /> на Chrome или по-нова.</translation>
+<translation id="5657667036353380798">За външното разширение се изисква да е инсталирана версия <ph name="MINIMUM_CHROME_VERSION" /> на Brave или по-нова.</translation>
 <translation id="5658415415603568799">За допълнителна сигурност Smart Lock ще ви помоли да въведете паролата си след 20 часа.</translation>
 <translation id="5659593005791499971">Имейл</translation>
 <translation id="5661272705528507004">Тази SIM карта е деактивирана и не може да се използва. Моля, свържете се с доставчика на услугата си за замяна.</translation>
@@ -3079,7 +3079,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5774295353725270860">Отваряне на приложението за файлове</translation>
 <translation id="5774515636230743468">Манифест:</translation>
 <translation id="577624874850706961">Търсене</translation>
-<translation id="5777468213129569553">Отваряне на Chrome</translation>
+<translation id="5777468213129569553">Отваряне на Brave</translation>
 <translation id="5778747455497889540">По-долу е произволно генерираната чрез модула за сигурност парола, която е присвоена на компютъра ви:</translation>
 <translation id="5780973441651030252">Приоритет на процесите</translation>
 <translation id="5781865261247219930">Изпращане на команди до <ph name="EXTENSION_NAME" /></translation>
@@ -3090,7 +3090,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5788367137662787332">За съжаление поне един дял на устройството <ph name="DEVICE_LABEL" /> не можа да бъде свързан.</translation>
 <translation id="5790085346892983794">Успех</translation>
 <translation id="5794414402486823030">Отваряне винаги със системния визуализатор</translation>
-<translation id="5794786537412027208">Затваряне на всички приложения в Chrome</translation>
+<translation id="5794786537412027208">Затваряне на всички приложения в Brave</translation>
 <translation id="5800020978570554460">Целевият файл е бил скъсен или премахнат след последното изтегляне.</translation>
 <translation id="5801568494490449797">Предпочитания</translation>
 <translation id="5804241973901381774">Разрешения</translation>
@@ -3122,7 +3122,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5848924408752252705">Докоснете, за да се върнете назад.</translation>
 <translation id="5849570051105887917">Код на собствения доставчик</translation>
 <translation id="5849869942539715694">Пакетиране на разширение...</translation>
-<translation id="5850516540536751549">Този файлов тип не се поддържа. Моля, посетете <ph name="BEGIN_LINK" />уеб магазина на Chrome<ph name="END_LINK" />, за да намерите приложение, което може да го отвори.
+<translation id="5850516540536751549">Този файлов тип не се поддържа. Моля, посетете <ph name="BEGIN_LINK" />уеб магазина на Brave<ph name="END_LINK" />, за да намерите приложение, което може да го отвори.
    <ph name="BEGIN_LINK_HELP" />Научете повече<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">Тук няма нищо...</translation>
 <translation id="5851868085455377790">Издател</translation>
@@ -3179,7 +3179,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5924047253200400718">Получете помощ<ph name="SCANNING_STATUS" /></translation>
 <translation id="5925147183566400388">Показалец на Практиката при предоставяне на удостоверителни услуги</translation>
 <translation id="5927692884057333064">Преименува се...</translation>
-<translation id="592880897588170157">PDF файловете да се изтеглят, вместо да се отварят автоматично в Chrome</translation>
+<translation id="592880897588170157">PDF файловете да се изтеглят, вместо да се отварят автоматично в Brave</translation>
 <translation id="5931146425219109062">Четене и промяна на всичките ви данни в посещаваните от вас уебсайтове</translation>
 <translation id="5932881020239635062">Сериен №</translation>
 <translation id="5933376509899483611">Часова зона</translation>
@@ -3206,7 +3206,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="5972708806901999743">Преместване най-горе</translation>
 <translation id="5972826969634861500">Стартиране на <ph name="PRODUCT_NAME" /></translation>
 <translation id="5975083100439434680">Намаляване на мащаба</translation>
-<translation id="5975730206036440725">PPD файлът не може да бъде намерен. Уверете се, че вашият Chromebook е онлайн, и опитайте отново.</translation>
+<translation id="5975730206036440725">PPD файлът не може да бъде намерен. Уверете се, че вашият Bravebook е онлайн, и опитайте отново.</translation>
 <translation id="5975792506968920132">Процент на зареждане на батерията</translation>
 <translation id="5976160379964388480">Други</translation>
 <translation id="5978264784700053212">Център за съобщения</translation>
@@ -3246,8 +3246,8 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="604124094241169006">Автоматично</translation>
 <translation id="6042169520002885235">Избиране на производител и модел на принтера</translation>
 <translation id="6042308850641462728">Още</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> споделя раздел в Chrome с/ъс „<ph name="TAB_NAME" />“.</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> споделя раздел в Chrome и звук с/ъс „<ph name="TAB_NAME" />“.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> споделя раздел в Brave с/ъс „<ph name="TAB_NAME" />“.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> споделя раздел в Brave и звук с/ъс „<ph name="TAB_NAME" />“.</translation>
 <translation id="6049004884579590341">Натиснете и задръжте |<ph name="ACCELERATOR" />| за изход от режима на цял екран</translation>
 <translation id="6049065490165456785">Снимка от вътрешната камера</translation>
 <translation id="6051354611314852653">Ами сега!  Системата не успя да удостовери достъпа на това устройство до приложния програмен интерфейс (API).</translation>
@@ -3307,7 +3307,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6137767437444130246">Потребителски сертификат</translation>
 <translation id="6138680304137685902">Подпис по X9.62 ECDSA с SHA-384</translation>
 <translation id="6143186082490678276">Получаване на помощ</translation>
-<translation id="6144938890088808325">Помогнете ни да подобрим Chromebook</translation>
+<translation id="6144938890088808325">Помогнете ни да подобрим Bravebook</translation>
 <translation id="6146563240635539929">Видеоклипове</translation>
 <translation id="6147020289383635445">Визуализацията за печат не бе успешна.</translation>
 <translation id="6150853954427645995">За да запазите този файл за използване офлайн, върнете се онлайн, кликнете с десния бутон на мишката върху него и изберете опцията „<ph name="OFFLINE_CHECKBOX_NAME" />“.</translation>
@@ -3323,7 +3323,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6163522313638838258">Разгъване на всички...</translation>
 <translation id="6164005077879661055">Всички файлове и локални данни, свързани с контролирания потребител, ще бъдат изтрити за постоянно, щом той бъде премахнат. Посетените уебсайтове и настройките за него може все още да се виждат от мениджъра на адрес <ph name="MANAGEMENT_URL" />.</translation>
 <translation id="6165508094623778733">Научете повече</translation>
-<translation id="6166185671393271715">Импортиране на пароли в Chrome</translation>
+<translation id="6166185671393271715">Импортиране на пароли в Brave</translation>
 <translation id="6169040057125497443">Моля, проверете микрофона си.</translation>
 <translation id="6169666352732958425">Предаването на работния плот не е възможно.</translation>
 <translation id="6171948306033499786">Поставяне на отпечатването на пауза</translation>
@@ -3351,7 +3351,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6220413761270491930">Грешка при зареждането на разширението</translation>
 <translation id="6223447490656896591">Персонализирано изображение:</translation>
 <translation id="6223747324484398595">За да използвате незабавен тетъринг, включете Bluetooth</translation>
-<translation id="62243461820985415">Chrome не може да изтегли този тапет.</translation>
+<translation id="62243461820985415">Brave не може да изтегли този тапет.</translation>
 <translation id="6224481128663248237">Форматирането завърши успешно!</translation>
 <translation id="6225475702458870625">От устройството ви <ph name="PHONE_NAME" /> е налице връзка за пренос на данни</translation>
 <translation id="6226777517901268232">Файл с частен ключ (незадължително)</translation>
@@ -3387,7 +3387,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6270770586500173387">Изпращане на <ph name="BEGIN_LINK1" />информация за системата и приложенията<ph name="END_LINK1" />, както и за <ph name="BEGIN_LINK2" />показателите<ph name="END_LINK2" /></translation>
 <translation id="6272643420381259437">При изтеглянето на приставката възникна грешка (<ph name="ERROR" />)</translation>
 <translation id="6273677812470008672">Качество</translation>
-<translation id="6274087148640822908">Намерете разширения и приложения в <ph name="BEGIN_LINK" />уеб магазина на Chrome<ph name="END_LINK" /></translation>
+<translation id="6274087148640822908">Намерете разширения и приложения в <ph name="BEGIN_LINK" />уеб магазина на Brave<ph name="END_LINK" /></translation>
 <translation id="62751439899495218">Промяна на снимката</translation>
 <translation id="6276301056778294989">Уверете се, че същият код се показва на устройството.</translation>
 <translation id="6277105963844135994">Времето за изчакване на мрежата изтече</translation>
@@ -3401,7 +3401,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6286684120317096255">Преносът на данни се измерва</translation>
 <translation id="6286708577777130801">Подробности за запазената парола</translation>
 <translation id="6287852322318138013">Изберете приложение за отваряне на този файл</translation>
-<translation id="6290556621549272952">С помощта на тази функция съдържанието от Chromium може да се показва на телевизора и другите ви устройства.</translation>
+<translation id="6290556621549272952">С помощта на тази функция съдържанието от Brave може да се показва на телевизора и другите ви устройства.</translation>
 <translation id="6291953229176937411">&amp;Показване във Finder</translation>
 <translation id="6295158916970320988">Всички сайтове</translation>
 <translation id="6295855836753816081">Запазва се...</translation>
@@ -3410,7 +3410,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6305607932814307878">Глобално правило:</translation>
 <translation id="6307990684951724544">Системата е заета</translation>
 <translation id="6308937455967653460">З&amp;апазване на връзката като...</translation>
-<translation id="6311220991371174222">Chrome не може да се стартира, защото нещо се обърка при отварянето на потребителския ви профил. Опитайте да рестартирате браузъра.</translation>
+<translation id="6311220991371174222">Brave не може да се стартира, защото нещо се обърка при отварянето на потребителския ви профил. Опитайте да рестартирате браузъра.</translation>
 <translation id="6312403991423642364">Неизвестна мрежова грешка</translation>
 <translation id="6313641880021325787">ИЗХОД ОТ VR</translation>
 <translation id="6314335155547195432">Генериране на парола</translation>
@@ -3421,7 +3421,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6317369057005134371">Прозорецът на приложението се изчаква...</translation>
 <translation id="6322279351188361895">Прочитът на личния ключ не бе успешен.</translation>
 <translation id="6325191661371220117">Деактивиране на автоматичното стартиране</translation>
-<translation id="6326175484149238433">Премахване от Chrome</translation>
+<translation id="6326175484149238433">Премахване от Brave</translation>
 <translation id="6326855256003666642">Брой на активно използващите</translation>
 <translation id="632744581670418035">Наслагване върху клавиатурата</translation>
 <translation id="6327785803543103246">Автоматично откриване на уеб прокси сървъра</translation>
@@ -3429,7 +3429,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6333064448949140209">Файлът ще бъде изпратен до Google за отстраняване на грешки</translation>
 <translation id="6333834492048057036">Преместване на фокуса върху адресната лента за търсене</translation>
 <translation id="6339668969738228384">Създаване на нов потребителски профил за <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="6340017061976355871">Не можа да се установи връзка със сървъра. Моля, проверете мрежовата си връзка и опитайте отново. Ако проблемът продължи, рестартирайте своя Chromebook.</translation>
+<translation id="6340017061976355871">Не можа да се установи връзка със сървъра. Моля, проверете мрежовата си връзка и опитайте отново. Ако проблемът продължи, рестартирайте своя Bravebook.</translation>
 <translation id="6340071272923955280">Internet Printing Protocol (IPPS)</translation>
 <translation id="6341850831632289108">Откриване на физическото ви местоположение</translation>
 <translation id="634208815998129842">Диспечер на задачите</translation>
@@ -3452,7 +3452,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6374077068638737855">Iceweasel</translation>
 <translation id="6374108032506706911">Настройване на Smart Lock за Android</translation>
 <translation id="6374469231428023295">Нов опит</translation>
-<translation id="6377158645544167202">Не може да се установи връзка с принтера. Уверете се, че е включен и е свързан с вашия Chromebook чрез Wi-Fi или USB.</translation>
+<translation id="6377158645544167202">Не може да се установи връзка с принтера. Уверете се, че е включен и е свързан с вашия Bravebook чрез Wi-Fi или USB.</translation>
 <translation id="6380143666419481200">Приемам и продължавам</translation>
 <translation id="6383051423892982287">Шифроване на синхронизираните данни със собствения ви <ph name="BEGIN_LINK" />пропуск за синхронизиране<ph name="END_LINK" /></translation>
 <translation id="6384275966486438344">Променете настройките си за търсене на: <ph name="SEARCH_HOST" /></translation>
@@ -3489,7 +3489,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6419546358665792306">Зареждане на разпакетираното</translation>
 <translation id="642282551015776456">Това име не може да се използва като име на файл или на папка</translation>
 <translation id="6423239382391657905">OpenVPN</translation>
-<translation id="6426200009596957090">Отваряне на настройките на ChromeVox</translation>
+<translation id="6426200009596957090">Отваряне на настройките на BraveVox</translation>
 <translation id="642870617012116879">Този сайт опита да изтегли автоматично няколко файла.</translation>
 <translation id="6430814529589430811">ASCII с кодиране Base64, единичен сертификат</translation>
 <translation id="6431217872648827691">Всички данни бяха шифровани с паролата ви за Google на
@@ -3542,7 +3542,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6492313032770352219">Размер на диска:</translation>
 <translation id="6494445798847293442">Не е сертифициращ орган</translation>
 <translation id="6498249116389603658">&amp;Всичките ви езици</translation>
-<translation id="6498792256302744870">Приложенията, които сте изтеглили от Google Play, ще бъдат изтрити от този Chromebook.
+<translation id="6498792256302744870">Приложенията, които сте изтеглили от Google Play, ще бъдат изтрити от този Bravebook.
 
     Купеното от вас съдържание, като филми, телевизионни предавания, музика, книги или покупки в приложения, може също да бъде изтрито.
 
@@ -3556,7 +3556,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6508261954199872201">Приложение: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Лиценз за мултимедия</translation>
 <translation id="6510568984200103950">По-малко настройки</translation>
-<translation id="6513247462497316522">Google Chrome ще използва мобилни данни, ако не сте свързани с друга мрежа.</translation>
+<translation id="6513247462497316522">Brave ще използва мобилни данни, ако не сте свързани с друга мрежа.</translation>
 <translation id="6514010653036109809">Налично устройство:</translation>
 <translation id="6514565641373682518">Тази страница е деактивирала курсора на мишката ви.</translation>
 <translation id="6518014396551869914">Копиране на изобра&amp;жението</translation>
@@ -3568,14 +3568,14 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6522797484310591766">Влезте в профила си сега</translation>
 <translation id="6527303717912515753">Споделяне</translation>
 <translation id="6528513914570774834">Разрешаване на другите потребители на устройството да използват тази мрежа</translation>
-<translation id="652948702951888897">История в Chrome</translation>
+<translation id="652948702951888897">История в Brave</translation>
 <translation id="653019979737152879">„<ph name="FILE_NAME" />“ се синхронизира...</translation>
 <translation id="6531282281159901044">Запазване на опасния файл</translation>
 <translation id="6534583978616527129">Подготвяне на връзката</translation>
 <translation id="654039047105555694"><ph name="BEGIN_BOLD" />Забележка<ph name="END_BOLD" />: Активирайте само ако знаете какви ще са последствията или сте помолени да го направите, тъй като събирането на данни може да намали ефективността.</translation>
 <translation id="654233263479157500">Използване на уеб услуга за помощ при отстраняването на грешки при навигация</translation>
 <translation id="6544215763872433504">Уеб браузърът, създаден за вас от Google</translation>
-<translation id="6545325945815270297">Управлявайте синхронизираните си данни и устройства от <ph name="BEGIN_LINK" />таблото за управление на Chrome<ph name="END_LINK" />.</translation>
+<translation id="6545325945815270297">Управлявайте синхронизираните си данни и устройства от <ph name="BEGIN_LINK" />таблото за управление на Brave<ph name="END_LINK" />.</translation>
 <translation id="6545665334409411530">Честота на повтаряне</translation>
 <translation id="6545834809683560467">Използване на услуга за предвиждания за помощ при завършването на заявките за търсене и URL адресите, въвеждани в адресната лента или в полето за търсене в стартовия панел за приложения</translation>
 <translation id="6546686722964485737">Присъединяване към WiMAX мрежа</translation>
@@ -3719,7 +3719,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6759193508432371551">Възстановяване на фабричните настройки</translation>
 <translation id="6766101255664245434">Направете нова снимка или изберете съществуващо изображение или икона.
 <ph name="LINE_BREAK" />
-Снимката ще се показва на заключения екран и на този за вход в Chromebook.</translation>
+Снимката ще се показва на заключения екран и на този за вход в Bravebook.</translation>
 <translation id="6769712124046837540">Добавяне на принтер...</translation>
 <translation id="6771503742377376720">Е сертифициращ орган</translation>
 <translation id="6773575010135450071">Още действия...</translation>
@@ -3752,12 +3752,12 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6817358880000653228">Запазени пароли за този сайт:</translation>
 <translation id="6820687829547641339">Tar архив, компресиран във формат Gzip</translation>
 <translation id="682123305478866682">Предаване на работния плот</translation>
-<translation id="6823506025919456619">За да видите устройствата си, трябва да влезете в Chrome</translation>
+<translation id="6823506025919456619">За да видите устройствата си, трябва да влезете в Brave</translation>
 <translation id="6824564591481349393">Копиране на име&amp;йл адреса</translation>
 <translation id="6825184156888454064">Сортиране по име</translation>
 <translation id="6827236167376090743">Видеоклипът ще продължи да се възпроизвежда до края на света.</translation>
 <translation id="6828153365543658583">Влизането да се ограничи до следните потребители:</translation>
-<translation id="6828434191343384461">Избраните данни са премахнати от Chrome и синхронизираните устройства. Възможно е в профила ви в Google да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" /> – например търсения и активност от други наши услуги.</translation>
+<translation id="6828434191343384461">Избраните данни са премахнати от Brave и синхронизираните устройства. Възможно е в профила ви в Google да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" /> – например търсения и активност от други наши услуги.</translation>
 <translation id="6828860976882136098">Настройването на автоматични актуализации за всички потребители не бе успешно (грешка при изпълнението на предстартовия процес: <ph name="ERROR_NUMBER" />)</translation>
 <translation id="6829250331733125857">Получете помощ за устройството си <ph name="DEVICE_TYPE" />.</translation>
 <translation id="6829270497922309893">Записване в организацията ви</translation>
@@ -3787,7 +3787,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6871644448911473373">OCSP респондер: <ph name="LOCATION" /></translation>
 <translation id="6872781471649843364">Въведената от вас парола бе отхвърлена от сървъра.</translation>
 <translation id="6874681241562738119">Грешка при влизане в профила</translation>
-<translation id="687588960939994211">Също така изчистване на историята, отметките, настройките и други данни на Chrome, съхранени на това устройство.</translation>
+<translation id="687588960939994211">Също така изчистване на историята, отметките, настройките и други данни на Brave, съхранени на това устройство.</translation>
 <translation id="6880587130513028875">Изображенията са блокирани на тази страница.</translation>
 <translation id="6883319974225028188">Ами сега! Системата не успя да запази конфигурацията на устройството.</translation>
 <translation id="6885771755599377173">Преглед на системната информация</translation>
@@ -3838,7 +3838,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6976108581241006975">Конзола на JavaScript</translation>
 <translation id="6977381486153291903">Версия на фърмуера</translation>
 <translation id="6978121630131642226">Търсещи машини</translation>
-<translation id="6978611942794658017">Този файл е предназначен за компютри със софтуер Windows и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в уеб магазина на Chrome подходящо приложение със същата функционалност.</translation>
+<translation id="6978611942794658017">Този файл е предназначен за компютри със софтуер Windows и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в уеб магазина на Brave подходящо приложение със същата функционалност.</translation>
 <translation id="6979158407327259162">Google Диск</translation>
 <translation id="6979737339423435258">За цялото време</translation>
 <translation id="6980462514016882061">Възможно е да използваме историята ви на сърфиране, за да персонализираме търсенето, рекламите и други услуги на Google</translation>
@@ -3859,7 +3859,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="6996946928646015361">Модулът за сигурност е деактивиран или липсва.</translation>
 <translation id="6998711733709403587"><ph name="SELCTED_FOLDERS_COUNT" /> избрани папки</translation>
 <translation id="6998793565256476099">Регистриране на устройството за видеоконференции</translation>
-<translation id="7002055706763150362">Преди да настроите Smart Lock за Chromebook, Google трябва да се увери, че това сте вие. Въведете паролата си, за да започнете.</translation>
+<translation id="7002055706763150362">Преди да настроите Smart Lock за Bravebook, Google трябва да се увери, че това сте вие. Въведете паролата си, за да започнете.</translation>
 <translation id="7002454948392136538">Избиране на мениджъра за този контролиран потребител</translation>
 <translation id="7003339318920871147">Уеб бази от данни</translation>
 <translation id="7003723821785740825">Настройте по-бърз начин да отключвате устройството си</translation>
@@ -3962,7 +3962,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="715118844758971915">Традиционни принтери</translation>
 <translation id="7154130902455071009">Промяна на началната ви страница на <ph name="START_PAGE" /></translation>
 <translation id="7155171745945906037">Съществуваща снимка от камерата или от файл</translation>
-<translation id="7156235233373189579">Този файл е предназначен за компютри със софтуер Windows и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в <ph name="BEGIN_LINK" />уеб магазина на Chrome<ph name="END_LINK" /> подходящо приложение със същата функционалност. <ph name="BEGIN_LINK_HELP" />Научете повече<ph name="END_LINK_HELP" /></translation>
+<translation id="7156235233373189579">Този файл е предназначен за компютри със софтуер Windows и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в <ph name="BEGIN_LINK" />уеб магазина на Brave<ph name="END_LINK" /> подходящо приложение със същата функционалност. <ph name="BEGIN_LINK_HELP" />Научете повече<ph name="END_LINK_HELP" /></translation>
 <translation id="7165320105431587207">Конфигурирането на мрежата не бе успешно</translation>
 <translation id="716640248772308851"><ph name="EXTENSION" /> може да чете изображения, видео- и звукови файлове в местоположенията с отметка.</translation>
 <translation id="7167486101654761064">&amp;Файловете от този тип да се отварят винаги</translation>
@@ -3976,7 +3976,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7186088072322679094">Запазване в лентата с инструменти</translation>
 <translation id="7191159667348037">Неизвестен принтер (USB)</translation>
 <translation id="7191454237977785534">Запазване на файла като</translation>
-<translation id="7196835305346730603">Търсят се устройства Chromebox, които са наблизо...</translation>
+<translation id="7196835305346730603">Търсят се устройства Bravebox, които са наблизо...</translation>
 <translation id="7199158086730159431">Получаване на помощ</translation>
 <translation id="720110658997053098">Това устройство да е постоянно в павилионен режим</translation>
 <translation id="7201118060536064622">Изтрихте „<ph name="DELETED_ITEM_NAME" />“</translation>
@@ -4084,15 +4084,15 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7376553024552204454">Открояване на курсора на мишката, когато се движи</translation>
 <translation id="7377169924702866686">„Caps Lock“ е включен.</translation>
 <translation id="7378627244592794276">Не</translation>
-<translation id="73786666777299047">Отваряне на уеб магазина на Chrome</translation>
+<translation id="73786666777299047">Отваряне на уеб магазина на Brave</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7378812711085314936">Получаване на връзка за пренос на данни</translation>
 <translation id="7384292194278095697">Това устройство вече не се поддържа</translation>
 <translation id="7385854874724088939">При опита за печат нещо се обърка.  Моля, проверете принтера си и опитайте отново.</translation>
-<translation id="7386824183915085801">Версията на Chrome и на операционната ви система ще се изпращат в допълнение
+<translation id="7386824183915085801">Версията на Brave и на операционната ви система ще се изпращат в допълнение
           към информацията, която изберете да включите по-горе. Ако посочите имейл адреса си,
           Google може да се свърже с вас относно сигнала ви с отзиви.
-          Те се използват за диагностициране на проблеми и помагат за подобряването на Chrome. Всяка лична информация,
+          Те се използват за диагностициране на проблеми и помагат за подобряването на Brave. Всяка лична информация,
           която изпратите изрично или случайно, ще бъде защитена
           в съответствие с Декларациите ни за поверителност.<ph name="BEGIN_BOLD" /> С изпращането на тези отзиви приемате, че Google може да ги използва
           за подобряването на всеки свой продукт или услуга.
@@ -4103,7 +4103,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7392915005464253525">По&amp;вторно отваряне на затворен прозорец</translation>
 <translation id="7396845648024431313"><ph name="APP_NAME" /> ще се изпълнява при стартиране на системата и ще продължи да работи на заден план дори след като затворите всички други прозорци на <ph name="PRODUCT_NAME" />.</translation>
 <translation id="7400418766976504921">URL адрес</translation>
-<translation id="740083207982962331">Моля, изчакайте, докато вашият Chromebox се рестартира...</translation>
+<translation id="740083207982962331">Моля, изчакайте, докато вашият Bravebox се рестартира...</translation>
 <translation id="7400839060291901923">Настройте връзката на телефона си <ph name="PHONE_NAME" /></translation>
 <translation id="7401543881546089382">Изтриване на прекия път</translation>
 <translation id="740624631517654988">Блокиран бе изскачащ прозорец</translation>
@@ -4211,7 +4211,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7564847347806291057">Прекратяване на процеса</translation>
 <translation id="7565291891798266313">Търсещата ви машина бе променена на <ph name="URL" />. За да деактивирате разширенията, които я променят, кликнете върху „Възстановяване“.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Данните в Chrome са изчистени</translation>
+<translation id="756809126120519699">Данните в Brave са изчистени</translation>
 <translation id="7568790562536448087">Актуализира се</translation>
 <translation id="7571643774869182231">Мястото в хранилището не е достатъчно за актуализацията</translation>
 <translation id="7573172247376861652">Заряд на батерията</translation>
@@ -4224,7 +4224,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7582582252461552277">Да се предпочита тази мрежа</translation>
 <translation id="7584802760054545466">Свързване с: <ph name="NETWORK_ID" /></translation>
 <translation id="7586312264284919041">Искате ли да преведете тази страница?</translation>
-<translation id="7586498138629385861">Браузърът ще продължи да работи, докато приложенията в Chrome са отворени.</translation>
+<translation id="7586498138629385861">Браузърът ще продължи да работи, докато приложенията в Brave са отворени.</translation>
 <translation id="7589461650300748890">Не бързайте! Внимавайте.</translation>
 <translation id="7589661784326793847">Изчакайте само секунда</translation>
 <translation id="7591957897535945411">Тази страница е преведена.</translation>
@@ -4283,7 +4283,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7704521324619958564">Отваряне на Google Play Магазин</translation>
 <translation id="7705276765467986571">Моделът за отметки не можа да се зареди.</translation>
 <translation id="7705524343798198388">VPN</translation>
-<translation id="7705600705238488017">Искате ли вместо това <ph name="BEGIN_LINK" />да сърфирате в уеб магазина на Chrome<ph name="END_LINK" />?</translation>
+<translation id="7705600705238488017">Искате ли вместо това <ph name="BEGIN_LINK" />да сърфирате в уеб магазина на Brave<ph name="END_LINK" />?</translation>
 <translation id="7705990546212675384">Добавяне на контакт</translation>
 <translation id="7707922173985738739">Използване на мобилни данни</translation>
 <translation id="7709152031285164251">Не бе успешно – <ph name="INTERRUPT_REASON" /></translation>
@@ -4296,7 +4296,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7719367874908701697">Промяна на мащаба на страницата</translation>
 <translation id="7719421816612904796">Времето за изчакване на обучението изтече</translation>
 <translation id="771953673318695590">КК</translation>
-<translation id="7720375555307821262"><ph name="BEGIN_LINK" />Влезте в Chrome<ph name="END_LINK" />, за да контролирате сърфирането на този човек.</translation>
+<translation id="7720375555307821262"><ph name="BEGIN_LINK" />Влезте в Brave<ph name="END_LINK" />, за да контролирате сърфирането на този човек.</translation>
 <translation id="7721179060400456005">Разрешаване на прозорците да се простират на няколко екрана</translation>
 <translation id="7722040605881499779">Необходимо място за актуализацията: <ph name="NECESSARY_SPACE" /></translation>
 <translation id="7724603315864178912">Изрязване</translation>
@@ -4321,7 +4321,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7771452384635174008">Ориентация</translation>
 <translation id="7772032839648071052">Потвърдете пропуска</translation>
 <translation id="7772127298218883077">Всичко за <ph name="PRODUCT_NAME" /></translation>
-<translation id="7772773261844472235">Проверка на състоянието на вашия Chromebook</translation>
+<translation id="7772773261844472235">Проверка на състоянието на вашия Bravebook</translation>
 <translation id="7773726648746946405">Хранилище за сесията</translation>
 <translation id="7781335840981796660">Всички профили на потребители и локални данни ще бъдат премахнати.</translation>
 <translation id="7782102568078991263">Няма повече предложения от Google</translation>
@@ -4335,7 +4335,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7788080748068240085">За да запазите „<ph name="FILE_NAME" />“ офлайн, трябва да освободите допълнително място в размер на <ph name="TOTAL_FILE_SIZE" />:<ph name="MARKUP_1" />
     <ph name="MARKUP_2" />освободете файлове, до които вече не ви е нужен достъп офлайн;<ph name="MARKUP_3" />
     <ph name="MARKUP_4" />изтрийте файлове от папката си за изтегляния.<ph name="MARKUP_5" /></translation>
-<translation id="7788298548579301890">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Chrome.
+<translation id="7788298548579301890">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Brave.
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -4362,7 +4362,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="782057141565633384">К&amp;опиране на адреса на видеоклипа</translation>
 <translation id="782590969421016895">Използване на текущите страници</translation>
 <translation id="7829298379596169484">Осъществява се достъп до аудиовхода</translation>
-<translation id="7831368056091621108">, за да получите това разширение, историята си и други настройки за Chrome на всичките си устройства.</translation>
+<translation id="7831368056091621108">, за да получите това разширение, историята си и други настройки за Brave на всичките си устройства.</translation>
 <translation id="7831754656372780761"><ph name="TAB_TITLE" /> <ph name="EMOJI_MUTING" /></translation>
 <translation id="7832084384634357321">Краен час</translation>
 <translation id="7833720883933317473">Тук ще се покажат запазените персонализирани думи</translation>
@@ -4456,7 +4456,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7973962044839454485">Удостоверяването през PPP не бе успешно поради неправилно потребителско име или парола</translation>
 <translation id="7974566588408714340">Нов опит посредством <ph name="EXTENSIONNAME" /></translation>
 <translation id="7974936243149753750">Допълнителна област</translation>
-<translation id="7977551819349545646">Chromebox се актуализира...</translation>
+<translation id="7977551819349545646">Bravebox се актуализира...</translation>
 <translation id="7978412674231730200">Личен ключ</translation>
 <translation id="7979036127916589816">Грешка при синхронизирането</translation>
 <translation id="7980084013673500153">Идент. № на актива: <ph name="ASSET_ID" /></translation>
@@ -4491,7 +4491,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8017335670460187064"><ph name="LABEL" /></translation>
 <translation id="8018313076035239964">Управлявайте каква информация могат да използват уебсайтовете и какво съдържание могат да ви показват</translation>
 <translation id="8023801379949507775">Актуализирайте разширенията сега</translation>
-<translation id="8024483450737722621">Приложенията, които сте изтеглили от Google Play, ще бъдат изтрити от този Chromebook.
+<translation id="8024483450737722621">Приложенията, които сте изтеглили от Google Play, ще бъдат изтрити от този Bravebook.
 <ph name="LINE_BREAKS1" />
 Купеното от вас съдържание, като например филми, телевизионни предавания, музика, книги или други покупки в приложения, може също да бъде изтрито.
 <ph name="LINE_BREAKS2" />
@@ -4558,7 +4558,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8116925261070264013">Заглушени</translation>
 <translation id="8116972784401310538">&amp;Диспечер на отметките</translation>
 <translation id="8117620576188476503">Управлявайте връзките, актуализациите и настройките от лентата на състоянието. За да я отворите от клавиатурата, натиснете Alt + Shift + S.</translation>
-<translation id="8118362518458010043">Деактивирано от Chrome. Това разширение може да е опасно.</translation>
+<translation id="8118362518458010043">Деактивирано от Brave. Това разширение може да е опасно.</translation>
 <translation id="8118860139461251237">Управление на изтеглянията ви</translation>
 <translation id="81238879832906896">Жълто-бяло цвете</translation>
 <translation id="8124313775439841391">Управлявано ONC</translation>
@@ -4612,7 +4612,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8202160505685531999">Моля, въведете отново паролата си, за да актуализирате потребителския си профил за <ph name="DEVICE_TYPE" />.</translation>
 <translation id="8206354486702514201">Тази настройка е наложена от администратора ви.</translation>
 <translation id="8206745257863499010">Музикант</translation>
-<translation id="8209677645716428427">Контролираният потребител може да изследва мрежата с ваше напътствие. Като негов мениджър в Chrome можете:</translation>
+<translation id="8209677645716428427">Контролираният потребител може да изследва мрежата с ваше напътствие. Като негов мениджър в Brave можете:</translation>
 <translation id="8213449224684199188">Преминахте в режим за снимки</translation>
 <translation id="8213577208796878755">Още едно налично устройство.</translation>
 <translation id="8214489666383623925">Отваряне на файл...</translation>
@@ -4757,7 +4757,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8454288007744638700">Или изберете нова мрежа:</translation>
 <translation id="845627346958584683">Час на изтичане</translation>
 <translation id="8456681095658380701">Невалидно име</translation>
-<translation id="8460336040822756677">Ако изключите Smart Lock за <ph name="DEVICE_TYPE" />, няма да можете да отключвате устройствата си с Chrome чрез телефона си. Ще трябва да въвеждате паролата си.</translation>
+<translation id="8460336040822756677">Ако изключите Smart Lock за <ph name="DEVICE_TYPE" />, няма да можете да отключвате устройствата си с Brave чрез телефона си. Ще трябва да въвеждате паролата си.</translation>
 <translation id="8461329675984532579">Име на собствения доставчик</translation>
 <translation id="84613761564611563">Заявен е ПИ за конфигуриране на мрежата. Моля, изчакайте...</translation>
 <translation id="8461914792118322307">Прокси сървър</translation>
@@ -4769,7 +4769,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8466234950814670489">Tar архив</translation>
 <translation id="8468750959626135884">Отключвайте устройството си <ph name="DEVICE_TYPE" /> с телефона си с Android.</translation>
 <translation id="8472623782143987204">с хардуерна поддръжка</translation>
-<translation id="8475313423285172237">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Chrome.</translation>
+<translation id="8475313423285172237">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Brave.</translation>
 <translation id="8475647382427415476">Google Диск не можа да синхронизира „<ph name="FILENAME" />“. По-късно ще се извърши повторен опит.</translation>
 <translation id="8477241577829954800">Заменен</translation>
 <translation id="8477384620836102176">&amp;Общи</translation>
@@ -4783,14 +4783,14 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8493236660459102203">Микрофон:</translation>
 <translation id="8495193314787127784">Активиране на „Ok Google“</translation>
 <translation id="8496717697661868878">Стартиране на тази приставка</translation>
-<translation id="8497392509610708671">Можете да промените това по всяко време от <ph name="BEGIN_LINK" />настройките на Chrome<ph name="END_LINK" />.</translation>
+<translation id="8497392509610708671">Можете да промените това по всяко време от <ph name="BEGIN_LINK" />настройките на Brave<ph name="END_LINK" />.</translation>
 <translation id="8498214519255567734">Подобряване на видимостта на екрана и улесняване на четенето при слаба светлина</translation>
 <translation id="8503813439785031346">Потребителско име</translation>
 <translation id="8508332354695141900">Стартов панел, предложени приложения</translation>
 <translation id="8512476990829870887">Прекратяване на процеса</translation>
 <translation id="851263357009351303">Да се разреши на <ph name="HOST" /> винаги да показва изображения</translation>
 <translation id="8513191386157529469"><ph name="CLIENT_NAME" /> отстранява грешките в този браузър.</translation>
-<translation id="8513974249124254369">Функцията ChromeVox (обратна връзка с говор) е активирана. Натиснете „Ctrl+Alt+Z“, за да я деактивирате.</translation>
+<translation id="8513974249124254369">Функцията BraveVox (обратна връзка с говор) е активирана. Натиснете „Ctrl+Alt+Z“, за да я деактивирате.</translation>
 <translation id="8521475323816527629">Бърз достъп до приложенията ви</translation>
 <translation id="8523493869875972733">Запазване на промените</translation>
 <translation id="8523849605371521713">Добавено от правило</translation>
@@ -4835,7 +4835,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8597845839771543242">Формат на свойството:</translation>
 <translation id="8598687241883907630">Прекъсване на връзката с профила ви в Google...</translation>
 <translation id="8601206103050338563">Удостоверяване на TLS WWW клиент</translation>
-<translation id="8602851771975208551">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Chrome.</translation>
+<translation id="8602851771975208551">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Brave.</translation>
 <translation id="8605428685123651449">Памет за SQLite</translation>
 <translation id="8606726445206553943">Да използва MIDI устройствата ви.</translation>
 <translation id="8609465669617005112">Придвижване нагоре</translation>
@@ -4854,7 +4854,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8630903300770275248">Импортиране на контролиран потребител</translation>
 <translation id="8631032106121706562">Цвете</translation>
 <translation id="8631271110654520730">Образът за възстановяване се копира...</translation>
-<translation id="8637542770513281060">Компютърът ви съдържа модул за сигурност, който служи за реализиране на множество критични защитни функции в Chrome OS. За да научите повече, посетете Помощния център на Chromebook: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Компютърът ви съдържа модул за сигурност, който служи за реализиране на множество критични защитни функции в Chrome OS. За да научите повече, посетете Помощния център на Bravebook: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">Налице е системна актуализация. Подготвя се за изтегляне...</translation>
 <translation id="8639963783467694461">Настройки за автоматично попълване</translation>
 <translation id="8642171459927087831">Означение за достъп</translation>
@@ -4877,7 +4877,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8662795692588422978">Хора</translation>
 <translation id="8662811608048051533">Ще излезете от повечето сайтове.</translation>
 <translation id="8662911384982557515">Промяна на началната ви страница на <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Chrome не може да зададе тапета.</translation>
+<translation id="8662978096466608964">Brave не може да зададе тапета.</translation>
 <translation id="8663099077749055505">Автоматичното изтегляне на няколко файла да се блокира винаги за <ph name="HOST" /></translation>
 <translation id="8664389313780386848">&amp;Преглед на изходния код на страницата</translation>
 <translation id="866611985033792019">Да се има доверие на този сертификат за идентифициране на потребители на имейл</translation>
@@ -4942,11 +4942,11 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8755376271068075440">&amp;По-голям</translation>
 <translation id="8757090071857742562">Предаването на работния плот не е възможно. Проверете дали сте потвърдили подканата за стартиране на споделянето на екрана.</translation>
 <translation id="8757640015637159332">Вход в обществена сесия</translation>
-<translation id="8757742102600829832">Изберете Chromebox, с който да се извърши свързването</translation>
+<translation id="8757742102600829832">Изберете Bravebox, с който да се извърши свързването</translation>
 <translation id="8757803915342932642">Устройство в Google Cloud Devices</translation>
 <translation id="8759408218731716181">Централизираният вход не може да се настрои</translation>
 <translation id="8759753423332885148">Научете повече.</translation>
-<translation id="8767621466733104912">Автоматично актуализиране на Chrome за всички потребители</translation>
+<translation id="8767621466733104912">Автоматично актуализиране на Brave за всички потребители</translation>
 <translation id="8770406935328356739">Основна директория на разширението</translation>
 <translation id="8770507190024617908">Управление на хората</translation>
 <translation id="8774934320277480003">Горно поле</translation>
@@ -5033,7 +5033,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8899851313684471736">Отваряне на връзк&amp;ата в нов прозорец</translation>
 <translation id="8902667442496790482">Отваряне на настройките на Прочитане на глас</translation>
 <translation id="8903921497873541725">Увеличаване на мащаба</translation>
-<translation id="8904976895050290827">Синхронизиране в Chrome</translation>
+<translation id="8904976895050290827">Синхронизиране в Brave</translation>
 <translation id="8908902564709148335">Предупреждение: Активирахте флага --scripts-require-action на този компютър, при което се ограничават възможностите на това разширение. На други устройства обаче е възможно флагът да не се поддържа или да не е активиран. На тях разширението също така може:</translation>
 <translation id="8910146161325739742">Споделяне на екрана ви</translation>
 <translation id="8910222113987937043">Промените във вашите отметки, история, пароли и други настройки повече няма да се синхронизират с профила ви в Google. Съществуващите ви данни обаче ще продължат да се съхраняват в него. Можете да ги управлявате от <ph name="BEGIN_LINK" />Google Табло за управление<ph name="END_LINK" />.</translation>
@@ -5086,7 +5086,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8978526688207379569">Този сайт е изтеглил автоматично няколко файла.</translation>
 <translation id="8980951173413349704"><ph name="WINDOW_TITLE" /> – възникна срив</translation>
 <translation id="8986362086234534611">Забравяне</translation>
-<translation id="8986494364107987395">Автоматично изпращане до Google на статистически данни за използването на Chrome и сигнали за сривове</translation>
+<translation id="8986494364107987395">Автоматично изпращане до Google на статистически данни за използването на Brave и сигнали за сривове</translation>
 <translation id="8987927404178983737">Месец</translation>
 <translation id="8989308628569556420">За съжаление, понастоящем Google Асистент не работи с профила ви.</translation>
 <translation id="899403249577094719">Основен URL адрес на сертификат на Netscape</translation>
@@ -5133,7 +5133,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9050666287014529139">Парола</translation>
 <translation id="9052208328806230490">Регистрирахте принтерите си в <ph name="CLOUD_PRINT_NAME" />, използвайки профила <ph name="EMAIL" /></translation>
 <translation id="9053893665344928494">Запомняне на избора ми</translation>
-<translation id="9056034633062863292">Актуализиране на Chromebox</translation>
+<translation id="9056034633062863292">Актуализиране на Bravebox</translation>
 <translation id="9056810968620647706">Няма намерени съответствия.</translation>
 <translation id="9057119625587205566">Няма принтери в близост</translation>
 <translation id="9059868303873565140">Меню за състоянието</translation>
@@ -5167,7 +5167,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9106577689055281370">Батерия: 
 Остават <ph name="HOUR" />:<ph name="MINUTE" /></translation>
 <translation id="9109122242323516435">За да освободите място, изтрийте файлове от хранилището на устройството.</translation>
-<translation id="9110990317705400362">Непрекъснато търсим начини да правим сърфирането ви по-безопасно. По-рано всеки уебсайт можеше да ви подкани да добавите разширение в браузъра си. В най-новите версии на Google Chrome трябва изрично да укажете на браузъра, че искате да инсталирате съответния софтуер, като го добавите чрез страницата „Разширения“. <ph name="BEGIN_LINK" />Научете повече<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">Непрекъснато търсим начини да правим сърфирането ви по-безопасно. По-рано всеки уебсайт можеше да ви подкани да добавите разширение в браузъра си. В най-новите версии на Brave трябва изрично да укажете на браузъра, че искате да инсталирате съответния софтуер, като го добавите чрез страницата „Разширения“. <ph name="BEGIN_LINK" />Научете повече<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">Отключване</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112614144067920641">Моля, изберете нов ПИН.</translation>
@@ -5189,7 +5189,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9131487537093447019">Да обменя съобщения с устройства с Bluetooth.</translation>
 <translation id="9131598836763251128">Изберете един или повече файлове</translation>
 <translation id="9133055936679483811">Компресирането не бе успешно. <ph name="ERROR_MESSAGE" /></translation>
-<translation id="9134524245363717059">Този файл е предназначен за компютри със софтуер за Macintosh и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в уеб магазина на Chrome подходящо приложение със същата функционалност.</translation>
+<translation id="9134524245363717059">Този файл е предназначен за компютри със софтуер за Macintosh и не е съвместим с устройството ви с Chrome OS. Моля, потърсете в уеб магазина на Brave подходящо приложение със същата функционалност.</translation>
 <translation id="9137013805542155359">Показване на оригинала</translation>
 <translation id="9137916601698928395">Отваряне на връзката като <ph name="USER" /></translation>
 <translation id="9138978632494473300">Добавяне на преки пътища към следните места:</translation>
@@ -5210,7 +5210,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="9169496697824289689">Преглед на клавишните комбинации</translation>
 <translation id="9170397650136757332">Сега преместете малко пръста си, за да бъдат заснети всички части от отпечатъка ви</translation>
 <translation id="9170848237812810038">&amp;Отмяна</translation>
-<translation id="9170884462774788842">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Chrome.</translation>
+<translation id="9170884462774788842">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Brave.</translation>
 <translation id="9174212595744391062">Така ще се изчистят „бисквитките“ и кешът за всички сайтове, включително</translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> – установена е връзка с устройство с Bluetooth</translation>
 <translation id="9177499212658576372">Понастоящем сте свързани с <ph name="NETWORK_TYPE" /> мрежа.</translation>
@@ -5245,7 +5245,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="939598580284253335">Въведете пропуск</translation>
 <translation id="939736085109172342">Нова папка</translation>
 <translation id="941543339607623937">Невалиден личен ключ.</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> споделя раздел в Chrome и звук.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> споделя раздел в Brave и звук.</translation>
 <translation id="942954117721265519">Няма изображения в тази директория.</translation>
 <translation id="945522503751344254">Изпращане на отзиви</translation>
 <translation id="951981865514037445"><ph name="URL" /> иска да използва местоположението на устройството ви.</translation>
@@ -5266,7 +5266,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="98515147261107953">Хоризонтално</translation>
 <translation id="988978206646512040">Трябва да се въведе пропуск</translation>
 <translation id="992032470292211616">Разширенията, приложенията и темите могат да навредят на устройството ви. Наистина ли искате да продължите?</translation>
-<translation id="992592832486024913">Деактивиране на ChromeVox (обратна връзка с говор)</translation>
+<translation id="992592832486024913">Деактивиране на BraveVox (обратна връзка с говор)</translation>
 <translation id="994289308992179865">Цикъ&amp;л</translation>
 <translation id="996250603853062861">Установява се защитена връзка...</translation>
 <translation id="998747458861718449">И&amp;нспектиране</translation>
