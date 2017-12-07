@@ -3769,9 +3769,9 @@ However, you aren’t invisible. Going incognito doesn’t hide your browsing fr
       <message name="IDS_BRAVE_SHIELDS_FINGERPRINT_METHODS" desc="Fingerprint methods blocked.">
         Fingerprint Methods
       </message>
-      <message name="IDS_BRAVE_SHIELDS_BLOCK_PHISHING_SWITCH" desc="Switch for Block Scripts.">
+      <!--<message name="IDS_BRAVE_SHIELDS_BLOCK_PHISHING_SWITCH" desc="Switch for Block Scripts.">
         Block Phishing
-      </message>
+      </message>-->
 
       <message name="IDS_PLAY_VIDEO_IN_BACKGROUND_TITLE" desc="Title of the setting for enabling play video in background [CHAR-LIMIT=32]">
         Video in background
