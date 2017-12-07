@@ -3314,9 +3314,9 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
       <message name="IDS_BRAVE_SHIELDS_BLOCKS_SCRIPTS_SWITCH" desc="Switch for Block Scripts.">
         Block Scripts
       </message>
-      <!--<message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
+      <message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
         Block 3rd party cookies
-    </message>-->
+      </message>
 
       <message name="IDS_HTTPSE_SUMMARY" desc="Summary for HTTPS Everywhere.">
         Opens supported sites using HTTPS instead of HTTP when possible
@@ -3463,9 +3463,9 @@ Saved
       <message name="IDS_BRAVE_SHIELDS_FINGERPRINT_METHODS" desc="Fingerprint methods blocked.">
         Fingerprint Methods
       </message>
-      <message name="IDS_BRAVE_SHIELDS_BLOCK_PHISHING_SWITCH" desc="Switch for Block Scripts.">
+      <!--<message name="IDS_BRAVE_SHIELDS_BLOCK_PHISHING_SWITCH" desc="Switch for Block Scripts.">
         Block Phishing
-      </message>
+      </message>-->
 
       <message name="IDS_PLAY_VIDEO_IN_BACKGROUND_TITLE" desc="Title of the setting for enabling play video in background [CHAR-LIMIT=32]">
         Video in background
