@@ -36,7 +36,7 @@ class CookieSettings : public RefcountedKeyedService {
   CookieSettings(HostContentSettingsMap* host_content_settings_map,
                  PrefService* prefs,
                  const char* extension_scheme = kDummyExtensionScheme,
-                 const bool &incognito);
+                 const bool &incognito = false);
 
   // Returns the default content setting (CONTENT_SETTING_ALLOW,
   // CONTENT_SETTING_BLOCK, or CONTENT_SETTING_SESSION_ONLY) for cookies. If

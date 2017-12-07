@@ -56,7 +56,7 @@ public class MainPreferences extends PreferenceFragment
     @Override
     public void onDestroy() {
         super.onDestroy();
-        mSignInPreference.onPreferenceFragmentDestroyed();
+        //mSignInPreference.onPreferenceFragmentDestroyed();
     }
 
     @Override
