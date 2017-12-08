@@ -215,7 +215,7 @@
 <translation id="1319979322914001937">Application qui présente une liste filtrée d'extensions du Brave Web Store. Les extensions figurant sur cette liste peuvent être installées directement depuis l'application.</translation>
 <translation id="132090119144658135">Correspondance d'objet :</translation>
 <translation id="1325040735987616223">Mise à jour du système</translation>
-<translation id="1326317727527857210">Connectez-vous à Brave pour accéder à vos onglets sur vos autres appareils.</translation>
+<translation id="7253276740368043692">Connectez-vous à Brave pour accéder à vos onglets sur vos autres appareils.</translation>
 <translation id="1327074568633507428">Imprimante connectée à Google Cloud Print</translation>
 <translation id="1327977588028644528">Passerelle</translation>
 <translation id="1329584516321524826">Mise à jour à l'instant</translation>
@@ -718,7 +718,7 @@
 <translation id="2116673936380190819">de moins d'une heure</translation>
 <translation id="2121825465123208577">Redimensionner</translation>
 <translation id="2126167708562367080">Votre administrateur a désactivé la synchronisation.</translation>
-<translation id="2126426811489709554">Proposé par Brave</translation>
+<translation id="796823723482603597">Proposé par Brave</translation>
 <translation id="2127372758936585790">Chargeur de faible puissance</translation>
 <translation id="212862741129535676">Taux d'occupation des bandes de fréquence</translation>
 <translation id="2128691215891724419">Erreur de synchronisation. Veuillez mettre à jour la phrase secrète de synchronisation...</translation>
@@ -1502,7 +1502,7 @@ Pour en savoir plus, consultez notre <ph name="BEGIN_LINK" />Centre d'aide<ph na
 <translation id="3280237271814976245">Enregistrer &amp;sous...</translation>
 <translation id="3280243678470289153">Rester dans Brave</translation>
 <translation id="3280431534455935878">Préparation en cours</translation>
-<translation id="3282568296779691940">Connectez-vous à Brave</translation>
+<translation id="82609232232243542">Connectez-vous à Brave</translation>
 <translation id="3285322247471302225">Nouvel ongle&amp;t</translation>
 <translation id="3288047731229977326">Les extensions exécutées en mode développeur peuvent nuire à votre ordinateur. Si vous n'êtes pas un développeur, nous vous recommandons de désactiver celles-ci afin d'assurer la sécurité de votre ordinateur.</translation>
 <translation id="3289856944988573801">Pour rechercher des mises à jour, veuillez utiliser une connexion Ethernet ou Wi-Fi.</translation>
@@ -4214,7 +4214,7 @@ Assurez-vous de ne pas dévoiler d'informations sensibles.</translation>
 <translation id="7564847347806291057">Arrêter le processus</translation>
 <translation id="7565291891798266313">Votre moteur de recherche a été remplacé par <ph name="URL" />. Pour désactiver les extensions qui changent le moteur de recherche, cliquez sur "Restaurer".</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Données de Brave effacées</translation>
+<translation id="7814200940910057384">Données de Brave effacées</translation>
 <translation id="7568790562536448087">Mise à jour en cours</translation>
 <translation id="7571643774869182231">Espace de stockage insuffisant pour la mise à jour</translation>
 <translation id="7573172247376861652">Charge de la batterie</translation>
@@ -5036,7 +5036,7 @@ Calcul de la durée restante</translation>
 <translation id="8899851313684471736">Ouvrir le lien dans une nouvelle &amp;fenêtre</translation>
 <translation id="8902667442496790482">Ouvrir les paramètres "Sélectionner pour prononcer"</translation>
 <translation id="8903921497873541725">Zoom avant</translation>
-<translation id="8904976895050290827">Synchronisation Google Brave</translation>
+<translation id="3149880132460839085">Synchronisation Google Brave</translation>
 <translation id="8908902564709148335">Avertissement : Vous avez activé l'indicateur --scripts-require-action sur cet ordinateur, ce qui limite les fonctionnalités de cette extension. Cependant, sur d'autres appareils, cet indicateur n'est pas compatible ou n'est pas activé. Sur ces appareils, cette extension peut également :</translation>
 <translation id="8910146161325739742">Partager votre écran</translation>
 <translation id="8910222113987937043">Les modifications apportées à vos favoris, à votre historique, à vos mots de passe et à d'autres paramètres ne seront plus synchronisées avec votre compte Google. Cependant, les données déjà stockées sur votre compte Google y seront conservées et pourront être gérées dans le <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" />.</translation>

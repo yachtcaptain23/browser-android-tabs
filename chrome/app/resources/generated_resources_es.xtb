@@ -215,7 +215,7 @@
 <translation id="1319979322914001937">Una aplicación que muestra una lista de extensiones filtrada de Brave Web Store. Las extensiones de la lista se pueden instalar directamente desde la aplicación.</translation>
 <translation id="132090119144658135">Coincidencia de asunto:</translation>
 <translation id="1325040735987616223">Actualización del sistema</translation>
-<translation id="1326317727527857210">Inicia sesión en Brave para ver las pestañas de tus otros dispositivos.</translation>
+<translation id="7253276740368043692">Inicia sesión en Brave para ver las pestañas de tus otros dispositivos.</translation>
 <translation id="1327074568633507428">Impresora en Google Cloud Print</translation>
 <translation id="1327977588028644528">Pasarela</translation>
 <translation id="1329584516321524826">Actualizada ahora mismo</translation>
@@ -718,7 +718,7 @@
 <translation id="2116673936380190819">hace una hora</translation>
 <translation id="2121825465123208577">Modificar tamaño</translation>
 <translation id="2126167708562367080">El administrador ha inhabilitado la sincronización.</translation>
-<translation id="2126426811489709554">Con la tecnología de Brave</translation>
+<translation id="796823723482603597">Con la tecnología de Brave</translation>
 <translation id="2127372758936585790">Carga lenta</translation>
 <translation id="212862741129535676">Porcentaje de ocupación de estado de frecuencia</translation>
 <translation id="2128691215891724419">Error de sincronización: actualiza la frase de contraseña de sincronización</translation>
@@ -1505,7 +1505,7 @@ Para obtener más información, accede a nuestro <ph name="BEGIN_LINK" />Centro 
 <translation id="3280237271814976245">Gu&amp;ardar como...</translation>
 <translation id="3280243678470289153">Permanecer en Brave</translation>
 <translation id="3280431534455935878">Preparando</translation>
-<translation id="3282568296779691940">Iniciar sesión en Brave</translation>
+<translation id="82609232232243542">Iniciar sesión en Brave</translation>
 <translation id="3285322247471302225">Nueva &amp;pestaña</translation>
 <translation id="3288047731229977326">Las extensiones que se ejecutan en modo de desarrollador pueden causar daños en el ordenador. Si no eres desarrollador, debes inhabilitar esas extensiones para mantener protegido tu ordenador.</translation>
 <translation id="3289856944988573801">Para comprobar si hay actualizaciones, utiliza una conexión Ethernet o Wi-Fi.</translation>
@@ -4210,7 +4210,7 @@ Exponente público (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bits):
 <translation id="7564847347806291057">Finalizar proceso</translation>
 <translation id="7565291891798266313">Tu motor de búsqueda ha cambiado a <ph name="URL" />. Para inhabilitar las extensiones que cambian el motor de búsqueda, haz clic en Restaurar.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Datos de Brave borrados</translation>
+<translation id="7814200940910057384">Datos de Brave borrados</translation>
 <translation id="7568790562536448087">Actualización</translation>
 <translation id="7571643774869182231">No hay espacio suficiente para instalar la actualización</translation>
 <translation id="7573172247376861652">Carga de batería</translation>
@@ -5033,7 +5033,7 @@ Calculando el tiempo de carga completa</translation>
 <translation id="8899851313684471736">Abrir enlace en una &amp;ventana nueva</translation>
 <translation id="8902667442496790482">Abrir los ajustes de Escuchar Selección</translation>
 <translation id="8903921497873541725">Acercar</translation>
-<translation id="8904976895050290827">Sincronización de Brave</translation>
+<translation id="3149880132460839085">Sincronización de Brave</translation>
 <translation id="8908902564709148335">Advertencia: Has habilitado la opción --scripts-require-action en este ordenador, lo que limita las posibilidades de esta extensión. Sin embargo, es posible que en otros dispositivos esta opción no se admita o esté habilitada. En esos dispositivos, la extensión también puede:</translation>
 <translation id="8910146161325739742">Compartir tu pantalla</translation>
 <translation id="8910222113987937043">Los cambios que realices en tus marcadores, tu historial, tus contraseñas y otros ajustes no se sincronizarán con tu cuenta de Google. Sin embargo, tus datos actuales permanecerán almacenados en esa cuenta y se podrán administrar en el <ph name="BEGIN_LINK" />Panel de Control de Google<ph name="END_LINK" />.</translation>
