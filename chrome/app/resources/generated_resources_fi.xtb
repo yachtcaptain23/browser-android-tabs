@@ -215,7 +215,7 @@
 <translation id="1319979322914001937">Sovellus, joka näyttää suodatetun luettelon laajennuksia Brave Web Storesta. Luettelon laajennukset voi asentaa suoraan sovelluksesta.</translation>
 <translation id="132090119144658135">Aiheen vastaavuus:</translation>
 <translation id="1325040735987616223">Järjestelmäpäivitys</translation>
-<translation id="1326317727527857210">Käytä välilehtiä muilta laitteiltasi kirjautumalla Braveen.</translation>
+<translation id="7253276740368043692">Käytä välilehtiä muilta laitteiltasi kirjautumalla Braveen.</translation>
 <translation id="1327074568633507428">Tulostin Google Cloud Printissä</translation>
 <translation id="1327977588028644528">Yhdyskäytävä</translation>
 <translation id="1329584516321524826">Päivitetty juuri nyt</translation>
@@ -718,7 +718,7 @@
 <translation id="2116673936380190819">viime tunti</translation>
 <translation id="2121825465123208577">Muuta kokoa</translation>
 <translation id="2126167708562367080">Järjestelmänvalvoja on poistanut synkronoinnin käytöstä.</translation>
-<translation id="2126426811489709554">Palvelun tarjoaa Brave</translation>
+<translation id="796823723482603597">Palvelun tarjoaa Brave</translation>
 <translation id="2127372758936585790">Pienitehoinen laturi</translation>
 <translation id="212862741129535676">Kellotaajuuden tilan käyttöprosentti</translation>
 <translation id="2128691215891724419">Synkronointivirhe: päivitä synkronoinnin tunnuslause...</translation>
@@ -1503,7 +1503,7 @@ Lisätietoja saat <ph name="BEGIN_LINK" />ohjekeskuksestamme<ph name="END_LINK" 
 <translation id="3280237271814976245">Tallenna &amp;nimellä...</translation>
 <translation id="3280243678470289153">Pysy Bravessa</translation>
 <translation id="3280431534455935878">Valmistellaan</translation>
-<translation id="3282568296779691940">Kirjaudu Braveen</translation>
+<translation id="82609232232243542">Kirjaudu Braveen</translation>
 <translation id="3285322247471302225">Uusi välileh&amp;ti</translation>
 <translation id="3288047731229977326">Kehittäjätilassa olevat laajennukset voivat vahingoittaa tietokonettasi. Jos et ole kehittäjä, poista kehittäjätilassa olevat laajennukset käytöstä varmuuden vuoksi.</translation>
 <translation id="3289856944988573801">Tarkista päivitykset Ethernetin tai Wi-Fin kautta.</translation>
@@ -4210,7 +4210,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7564847347806291057">Lopeta prosessi</translation>
 <translation id="7565291891798266313">Hakukoneeksi vaihdettiin <ph name="URL" />. Jos haluat poistaa käytöstä laajennuksia, jotka voivat vaihtaa hakukoneesi, klikkaa Palauta.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Brave-tiedot tyhjennetty</translation>
+<translation id="7814200940910057384">Brave-tiedot tyhjennetty</translation>
 <translation id="7568790562536448087">Päivitetään</translation>
 <translation id="7571643774869182231">Tallennustila ei riitä päivitykseen.</translation>
 <translation id="7573172247376861652">Akun varaus</translation>
@@ -5030,7 +5030,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8899851313684471736">Avaa linkki uudessa &amp;ikkunassa</translation>
 <translation id="8902667442496790482">Avaa valinnan ääneen lukemisen asetukset</translation>
 <translation id="8903921497873541725">Lähennä</translation>
-<translation id="8904976895050290827">Braven synkronointi</translation>
+<translation id="3149880132460839085">Braven synkronointi</translation>
 <translation id="8908902564709148335">Varoitus: Olet ottanut tällä tietokoneella käyttöön --scripts-require-action-komennon, joka rajoittaa tämän laajennuksen ominaisuuksia. Muut laitteet eivät välttämättä tue tätä komentoa tai ne eivät ole ottaneet sitä käyttöön. Näillä laitteilla laajennus voi tehdä myös seuraavia asioita:</translation>
 <translation id="8910146161325739742">Näytön jakaminen</translation>
 <translation id="8910222113987937043">Kirjanmerkkeihin, historiaan, salasanoihin ja muihin asetuksiin tehtyjä muutoksia ei enää synkronoida Google-tilillesi. Nykyiset tietosi pysyvät kuitenkin Google-tilillä ja niitä voidaan hallinnoida <ph name="BEGIN_LINK" />Google Hallintapaneelissa<ph name="END_LINK" />.</translation>

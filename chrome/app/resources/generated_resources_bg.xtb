@@ -215,7 +215,7 @@
 <translation id="1319979322914001937">Приложение, което показва филтриран списък с разширения от уеб магазина на Brave. Те могат да бъдат инсталирани направо от приложението.</translation>
 <translation id="132090119144658135">Съвпадение на субекта:</translation>
 <translation id="1325040735987616223">Системна актуализация</translation>
-<translation id="1326317727527857210">Влезте в Brave, за да получите разделите си от другите си устройства.</translation>
+<translation id="7253276740368043692">Влезте в Brave, за да получите разделите си от другите си устройства.</translation>
 <translation id="1327074568633507428">Принтер в Google Отпечатване в облак</translation>
 <translation id="1327977588028644528">Шлюз</translation>
 <translation id="1329584516321524826">Актуализирано току-що</translation>
@@ -715,7 +715,7 @@
 <translation id="2116673936380190819">последния час</translation>
 <translation id="2121825465123208577">Преоразмеряване</translation>
 <translation id="2126167708562367080">Синхронизирането е деактивирано от администратора ви.</translation>
-<translation id="2126426811489709554">Предоставено от Brave</translation>
+<translation id="796823723482603597">Предоставено от Brave</translation>
 <translation id="2127372758936585790">Зарядно устройство с малка мощност</translation>
 <translation id="212862741129535676">Процент на използване в състояние на активност</translation>
 <translation id="2128691215891724419">Грешка при синхронизирането: Актуализирайте пропуска за синхронизиране...</translation>
@@ -1499,7 +1499,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="3280237271814976245">&amp;Запазване като...</translation>
 <translation id="3280243678470289153">Оставане в Brave</translation>
 <translation id="3280431534455935878">Подготвя се</translation>
-<translation id="3282568296779691940">Вход в Brave</translation>
+<translation id="82609232232243542">Вход в Brave</translation>
 <translation id="3285322247471302225">Нов &amp;раздел</translation>
 <translation id="3288047731229977326">Разширенията, които се изпълняват в режим за програмисти, могат да навредят на компютъра ви. Ако не сте програмист, за по-голяма безопасност трябва да деактивирате изпълнението им в този режим.</translation>
 <translation id="3289856944988573801">За да проверите за актуализации, моля, използвайте Ethernet или Wi-Fi.</translation>
@@ -4211,7 +4211,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="7564847347806291057">Прекратяване на процеса</translation>
 <translation id="7565291891798266313">Търсещата ви машина бе променена на <ph name="URL" />. За да деактивирате разширенията, които я променят, кликнете върху „Възстановяване“.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Данните в Brave са изчистени</translation>
+<translation id="7814200940910057384">Данните в Brave са изчистени</translation>
 <translation id="7568790562536448087">Актуализира се</translation>
 <translation id="7571643774869182231">Мястото в хранилището не е достатъчно за актуализацията</translation>
 <translation id="7573172247376861652">Заряд на батерията</translation>
@@ -5033,7 +5033,7 @@ http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-featur
 <translation id="8899851313684471736">Отваряне на връзк&amp;ата в нов прозорец</translation>
 <translation id="8902667442496790482">Отваряне на настройките на Прочитане на глас</translation>
 <translation id="8903921497873541725">Увеличаване на мащаба</translation>
-<translation id="8904976895050290827">Синхронизиране в Brave</translation>
+<translation id="3149880132460839085">Синхронизиране в Brave</translation>
 <translation id="8908902564709148335">Предупреждение: Активирахте флага --scripts-require-action на този компютър, при което се ограничават възможностите на това разширение. На други устройства обаче е възможно флагът да не се поддържа или да не е активиран. На тях разширението също така може:</translation>
 <translation id="8910146161325739742">Споделяне на екрана ви</translation>
 <translation id="8910222113987937043">Промените във вашите отметки, история, пароли и други настройки повече няма да се синхронизират с профила ви в Google. Съществуващите ви данни обаче ще продължат да се съхраняват в него. Можете да ги управлявате от <ph name="BEGIN_LINK" />Google Табло за управление<ph name="END_LINK" />.</translation>
