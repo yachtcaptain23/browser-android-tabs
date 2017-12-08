@@ -215,7 +215,7 @@
 <translation id="1319979322914001937">ऐसा ऐप जो Brave वेब स्टोर से एक्सटेंशन की फ़िल्टर की गई सूची दिखाता है. सूची में मौजूद एक्सटेंशन सीधे ऐप से इंस्‍टॉल किए गए हो सकते हैं.</translation>
 <translation id="132090119144658135">विषय मिलान:</translation>
 <translation id="1325040735987616223">सिस्टम अपडेट</translation>
-<translation id="1326317727527857210">अपने अन्य डिवाइस से अपने टैब प्राप्त करने के लिए, Brave में प्रवेश करें.</translation>
+<translation id="7253276740368043692">अपने अन्य डिवाइस से अपने टैब प्राप्त करने के लिए, Brave में प्रवेश करें.</translation>
 <translation id="1327074568633507428">Google क्लाउड प्रिंट पर प्रिंटर</translation>
 <translation id="1327977588028644528">गेटवे</translation>
 <translation id="1329584516321524826">अभी-अभी अपडेट किया गया</translation>
@@ -718,7 +718,7 @@
 <translation id="2116673936380190819">पिछले घंटे</translation>
 <translation id="2121825465123208577">आकार बदलें</translation>
 <translation id="2126167708562367080">सिंक को आपके व्यवस्थापक ने अक्षम किया है.</translation>
-<translation id="2126426811489709554">Brave के द्वारा संचालित</translation>
+<translation id="796823723482603597">Brave के द्वारा संचालित</translation>
 <translation id="2127372758936585790">कम-शक्ति वाला चार्जर</translation>
 <translation id="212862741129535676">आवृत्ति स्थिति उपयोग प्रतिशत</translation>
 <translation id="2128691215891724419">समन्‍वयन गड़बड़ी: समन्‍वयन पदबंध अपडेट करें...</translation>
@@ -1502,7 +1502,7 @@
 <translation id="3280237271814976245">इस &amp;रूप में सहेजें...</translation>
 <translation id="3280243678470289153">Brave में बने रहें</translation>
 <translation id="3280431534455935878">तैयार कर रहा है</translation>
-<translation id="3282568296779691940">Brave में प्रवेश करें</translation>
+<translation id="82609232232243542">Brave में प्रवेश करें</translation>
 <translation id="3285322247471302225">नया &amp;टैब</translation>
 <translation id="3288047731229977326">डेवलपर मोड में चलने वाले एक्सटेंशन आपके कंप्यूटर को नुकसान पहुंचा सकते हैं. यदि आप कोई डेवलपर नहीं हैं, तो सुरक्षित रहने के लिए आपको डेवलपर मोड मे चलने वाले इन एक्सटेंशन को अक्षम करना चाहिए.</translation>
 <translation id="3289856944988573801">अपडेट की जाँच करने के लिए, कृपया Ethernet या वाई-फ़ाई  उपयोग करें.</translation>
@@ -4213,7 +4213,7 @@
 <translation id="7564847347806291057">प्रक्रिया समाप्त करें</translation>
 <translation id="7565291891798266313">आपका खोज इंजन <ph name="URL" /> में बदल दिया गया था. आपका खोज इंजन बदलने वाले एक्सटेंशन को अक्षम करने के लिए, बहाल करें पर क्लिक करें.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">साफ़ किया गया Brave डेटा</translation>
+<translation id="7814200940910057384">साफ़ किया गया Brave डेटा</translation>
 <translation id="7568790562536448087">अपडेट कर रहा है</translation>
 <translation id="7571643774869182231">अपडेट करने के लिए पर्याप्त जगह नहीं है</translation>
 <translation id="7573172247376861652">बैटरी चार्ज</translation>
@@ -5034,7 +5034,7 @@
 <translation id="8899851313684471736">नई &amp;विंडो में लिंक खोलें</translation>
 <translation id="8902667442496790482">चुनें और सुनें सेटिंग खोलें</translation>
 <translation id="8903921497873541725">ज़ूम इन करें</translation>
-<translation id="8904976895050290827">Brave सिंक</translation>
+<translation id="3149880132460839085">Brave सिंक</translation>
 <translation id="8908902564709148335">चेतावनी: आपने इस कंप्‍यूटर पर --स्क्रिप्‍ट-आवश्‍यक-कार्यवाही फ़्लैग सक्षम किया है, जो इस एक्‍सटेंशन की क्षमताओं को सीमित करता है. हालांकि, हो सकता है कि अन्‍य डिवाइस इस फ़्लैग का समर्थन न करें या यह सक्षम किया गया हो. इन डिवाइस पर, यह एक्‍सटेंशन यह भी कर सकता है:</translation>
 <translation id="8910146161325739742">अपनी स्क्रीन साझा करें</translation>
 <translation id="8910222113987937043">आपके बुकमार्क, इतिहास, पासवर्ड और अन्य सेटिंग में किए गए बदलाव अब आपके Google खाते से सिंक नहीं किए जाएंगे. हालांकि, आपका मौजूदा डेटा आपके Google खाते में संग्रहित रहेगा और <ph name="BEGIN_LINK" />Google डैशबोर्ड<ph name="END_LINK" /> पर प्रबंधित किया जा सकेगा.</translation>

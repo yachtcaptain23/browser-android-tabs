@@ -215,7 +215,7 @@
 <translation id="1319979322914001937">En app som viser en filtrert liste over utvidelser fra Brave Nettmarked. Utvidelser i listen kan installeres direkte fra appen.</translation>
 <translation id="132090119144658135">Emnetreff:</translation>
 <translation id="1325040735987616223">Systemoppdatering</translation>
-<translation id="1326317727527857210">For å få fanene dine fra de andre enhetene du bruker, logg på Brave.</translation>
+<translation id="7253276740368043692">For å få fanene dine fra de andre enhetene du bruker, logg på Brave.</translation>
 <translation id="1327074568633507428">Skriver på Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Nettopp oppdatert</translation>
@@ -715,7 +715,7 @@
 <translation id="2116673936380190819">den siste timen</translation>
 <translation id="2121825465123208577">Endre størrelse</translation>
 <translation id="2126167708562367080">Administratoren din har slått av synkronisering.</translation>
-<translation id="2126426811489709554">Drevet av Brave</translation>
+<translation id="796823723482603597">Drevet av Brave</translation>
 <translation id="2127372758936585790">Lading med lav effekt</translation>
 <translation id="212862741129535676">Utnyttelsesgrad for frekvenstilstand</translation>
 <translation id="2128691215891724419">Synkroniseringsfeil: Oppdater passordfrase for synkronisering</translation>
@@ -1498,7 +1498,7 @@ Du finner mer informasjon i <ph name="BEGIN_LINK" />brukerstøtten<ph name="END_
 <translation id="3280237271814976245">L&amp;agre som...</translation>
 <translation id="3280243678470289153">Bli værende i Brave</translation>
 <translation id="3280431534455935878">Forbereder</translation>
-<translation id="3282568296779691940">Logg på Brave</translation>
+<translation id="82609232232243542">Logg på Brave</translation>
 <translation id="3285322247471302225">Ny &amp;fane</translation>
 <translation id="3288047731229977326">Utvidelser som kjører i utviklermodus kan skade datamaskinen din. Hvis du ikke er utvikler, bør du deaktivere disse utvidelsene som kjører i utviklermodus, for å være på den sikre siden.</translation>
 <translation id="3289856944988573801">For å sjekke etter oppdateringer, kan du bruke Ethernet eller Wi-Fi.</translation>
@@ -4196,7 +4196,7 @@ Trykk på en tast for å fortsette økten.</translation>
 <translation id="7564847347806291057">Avslutt prosessen</translation>
 <translation id="7565291891798266313">Søkemotoren er endret til <ph name="URL" />. Du kan slå av utvidelser som endrer søkemotoren, ved å klikke på Gjenopprett.</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Brave-dataene er slettet</translation>
+<translation id="7814200940910057384">Brave-dataene er slettet</translation>
 <translation id="7568790562536448087">Oppdaterer</translation>
 <translation id="7571643774869182231">For lite lagringsplass til å oppdatere</translation>
 <translation id="7573172247376861652">Batterilading</translation>
@@ -5017,7 +5017,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="8899851313684471736">Å&amp;pne linken i et nytt vindu</translation>
 <translation id="8902667442496790482">Åpne innstillingene for Tekstopplesing</translation>
 <translation id="8903921497873541725">Zoom inn</translation>
-<translation id="8904976895050290827">Brave-synkronisering</translation>
+<translation id="3149880132460839085">Brave-synkronisering</translation>
 <translation id="8908902564709148335">Advarsel: Du har aktivert --scripts-require-action-flagget på denne datamaskinen. Dette begrenser funksjonaliteten til denne utvidelsen. Andre enheter støtter kanskje ikke dette flagget, eventuelt er det ikke aktivert på dem. På disse enhetene kan denne utvidelsen også:</translation>
 <translation id="8910146161325739742">Del skjermen</translation>
 <translation id="8910222113987937043">Endringer i bokmerkene, loggen, passordene og andre innstillinger du har, blir ikke lenger synkronisert med Google-kontoen din. Data som allerede er lagret i Google-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK" />Google Oversikt<ph name="END_LINK" />.</translation>

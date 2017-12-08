@@ -16,9 +16,9 @@
 <translation id="1393853151966637042">‏دریافت راهنمایی برای استفاده از Brave</translation>
 <translation id="1399397803214730675">‏این رایانه از قبل دارای نسخه جدیدتر Brave است. اگر نرم‌افزار کار نمی‌کند، لطفاً Brave را حذف نصب کرده و دوباره امتحان کنید.</translation>
 <translation id="1434626383986940139">‏برنامه‌های Brave Canary</translation>
-<translation id="1457721931618994305">‏به‌روزرسانی Brave…</translation>
+<translation id="5047208012586153436">‏به‌روزرسانی Brave…</translation>
 <translation id="1469002951682717133">‏را‌ه‌انداز برنامه Brave</translation>
-<translation id="1553358976309200471">‏به‌روزرسانی Brave</translation>
+<translation id="1705567146636171298">‏به‌روزرسانی Brave</translation>
 <translation id="1587223624401073077">‏Brave درحال استفاده از دوربین شما است.</translation>
 <translation id="1587325591171447154">‏<ph name="FILE_NAME" /> خطرناک است، بنابراین Brave آن را مسدود کرده ست.</translation>
 <translation id="1619887657840448962">‏برای ایمن‌تر کردن Brave، افزونه زیر را که در <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> فهرست نشده است و ممکن است بدون اطلاع شما اضافه شده باشد، غیرفعال کردیم.</translation>
@@ -49,12 +49,12 @@
 <translation id="2290095356545025170">‏آیا می‌خواهید Brave را غیر فعال کنید؟</translation>
 <translation id="2309047409763057870">‏این نصب ثانویه Brave است و نمی‌تواند مرورگر پیش‌فرضتان شود.</translation>
 <translation id="2316129865977710310">نه متشکرم</translation>
-<translation id="2334084861041072223">‏حق نسخه‌برداری ‪<ph name="YEAR" />‏ Brave Software Inc.‬ کلیه حقوق محفوظ است.</translation>
+<translation id="4651430425715739110">‏حق نسخه‌برداری ‪<ph name="YEAR" />‏ Brave Software Inc.‬ کلیه حقوق محفوظ است.</translation>
 <translation id="2346876346033403680">‏شخصی قبلاً بعنوان <ph name="ACCOUNT_EMAIL_LAST" /> وارد Brave در این رایانه شده است. اگر این حساب شما نیست، کاربر جدید Brave را ایجاد کنید تا اطلاعات خود را جدا نگهدارید.
 
 ورود به سیستم به هر حال اطلاعات Brave مانند نشانک‌ها، سابقه، و سایر تنظیمات را در <ph name="ACCOUNT_EMAIL_NEW" /> ادغام می‌کند.</translation>
 <translation id="2397416548179033562">‏نمایش منوی Brave</translation>
-<translation id="2416359993254398973">‏Brave به مجوز دسترسی به دوربین برای این سایت نیاز دارد.</translation>
+<translation id="8285489906452138776">‏Brave به مجوز دسترسی به دوربین برای این سایت نیاز دارد.</translation>
 <translation id="2429317896000329049">‏Brave قادر به همگام‌سازی داده‌های شما نبود زیرا همگام‌سازی برای دامنه شما قابل دسترسی نیست.</translation>
 <translation id="2446511512801740068">‏Brave قدیمی است چون برای مدتی راه‌اندازی مجدد نشده است. یک نسخه به‌روز دردسترس است و به‌محض راه‌اندازی مجدد اعمال خواهد شد.</translation>
 <translation id="2485422356828889247">حذف نصب</translation>
@@ -70,7 +70,7 @@
 <translation id="2799223571221894425">راه‌اندازی مجدد</translation>
 <translation id="2847461019998147611">‏نمایش Brave به این زبان</translation>
 <translation id="2871893339301912279">‏شما در حال حاضر وارد سیستم Brave شده‌اید!</translation>
-<translation id="2888126860611144412">‏درباره Brave</translation>
+<translation id="8541922081612557424">‏درباره Brave</translation>
 <translation id="3037838751736561277">‏Brave در حالت پس‌زمینه است.</translation>
 <translation id="3047079729301751317">‏با قطع اتصال <ph name="USERNAME" />، سابقه، نشانک‌ها، تنظیمات و سایر داده‌های Brave شما که در این دستگاه ذخیره شده‌اند، پاک می‌شود. داده‌های ذخیره شده در حساب Google شما پاک نمی‌شوند و در <ph name="GOOGLE_DASHBOARD_LINK" />داشبورد Google<ph name="END_GOOGLE_DASHBOARD_LINK" /> قابل مدیریت هستند.</translation>
 <translation id="3065168410429928842">‏برگه Brave</translation>
@@ -84,7 +84,7 @@
 <ph name="BEGIN_LINK_2" />بیشتر بدانید<ph name="END_LINK_2" />
 
 برای دستورالعمل‌های بیشتر، لطفاً رایانامه‌تان (<ph name="ACCOUNT_EMAIL" />) را بررسی کنید.</translation>
-<translation id="3282568296779691940">‏ورود به Brave</translation>
+<translation id="82609232232243542">‏ورود به Brave</translation>
 <translation id="3360895254066713204">‏راهنمای Brave</translation>
 <translation id="3395323229510056640">‏دریافت کمک از سیستم عامل Brave</translation>
 <translation id="3396977131400919238">‏هنگام نصب یک خطای سیستم عامل رخ داد. لطفاً دوباره Brave را بارگیری کنید.</translation>
@@ -161,11 +161,11 @@
 <translation id="556024056938947818">‏Brave می‌خواهد گذرواژه‌ها را نمایش دهد.</translation>
 <translation id="5563479599352954471">جستجو فقط با یک تماس</translation>
 <translation id="5566025111015594046">‏Brave (ورودی mDNS)</translation>
-<translation id="557283862590186398">‏Brave برای این سایت به مجوز دسترسی به میکروفون نیاز دارد.</translation>
+<translation id="320189792589364011">‏Brave برای این سایت به مجوز دسترسی به میکروفون نیاز دارد.</translation>
 <translation id="5620765574781326016">بدون اینکه صفحه را ترک کنید، درباره موضوعات در وب‌سایت‌ها اطلاعاتی به دست آورید.</translation>
 <translation id="565744775970812598">‏<ph name="FILE_NAME" /> ممکن است خطرناک باشد، بنابراین Brave آن را مسدود کرده است.</translation>
 <translation id="573759479754913123">‏درباره سیستم عامل Brave</translation>
-<translation id="5749068826913805084">‏Brave برای بارگیری فایل‌ها باید به حافظه دسترسی داشته باشد.</translation>
+<translation id="3088191967551450609">‏Brave برای بارگیری فایل‌ها باید به حافظه دسترسی داشته باشد.</translation>
 <translation id="5774845247549698882">‏سیستم عامل Brave به این زبان نشان داده می‌شود</translation>
 <translation id="5855036575689098185">‏نرم‌افزار در حال اجرا در رایانه شما با Brave سازگار نیست.</translation>
 <translation id="5877064549588274448">کانال تغییر کرد. برای اعمال تغییرات دستگاه خود را مجدداً راه‌اندازی کنید.</translation>
@@ -185,18 +185,18 @@
 <translation id="6291549208091401781">‏Brave از قبل برای همه کاربران این رایانه نصب شده است.</translation>
 <translation id="6338556085225130112">‏به‌روزرسانی Brave</translation>
 <translation id="6368958679917195344">‏Chrome OS با یک <ph name="BEGIN_LINK_CROS_OSS" />نرم‌افزار منبع آزاد<ph name="END_LINK_CROS_OSS" /> دیگر امکان‌پذیر است.</translation>
-<translation id="6393863479814692971">‏Brave برای این سایت به مجوز دسترسی به دوربین و میکروفون نیاز دارد.</translation>
+<translation id="7988136689212463100">‏Brave برای این سایت به مجوز دسترسی به دوربین و میکروفون نیاز دارد.</translation>
 <translation id="6400076122676892962">‏دریافت به‌روزرسانی‌های Brave به زودی در این رایانه متوقف خواهد شد زیرا Mac OS X نسخه ۱۰٫۶،‏ ۱۰٫۷ و ۱۰٫۸ دیگر پشتیبانی نمی‌شود.</translation>
 <translation id="6410540444482791104">‏می‌توانید با ارسال خودکار برخی از اطلاعات سیستم و محتوای صفحه به Google‏، Brave را ایمن‌تر و آسان‌تر کنید. Google از این اطلاعات برای شناسایی برنامه‌ها و سایت‌های خطرناک استفاده می‌کند.</translation>
 <translation id="6470176598693778404">‏این رایانه دیگر به‌روزرسانی‌های Brave را دریافت نمی‌کند زیرا Mac OS X نسخه ۱۰٫۶،‏ ۱۰٫۷ و ۱۰٫۸ دیگر پشتیبانی نمی‌شود.</translation>
 <translation id="6477562832195530369">{NUM_DOWNLOAD,plural, =1{‏در حال حاضر یک بارگیری در حال انجام است. آیا می‌خواهید بارگیری را لغو کنید و از Brave خارج شوید؟}one{‏در حال حاضر # بارگیری در حال انجام است. آیا می‌خواهید بارگیری را لغو کنید و از Brave خارج شوید؟}other{‏در حال حاضر # بارگیری در حال انجام است. آیا می‌خواهید بارگیری‌ها را لغو کنید و از Brave خارج شوید؟}}</translation>
 <translation id="6566149418543181476">‏درحال به‌روزرسانی Brave (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="6598387184982954187">‏شما از <ph name="PROFILE_EMAIL" /> برای همگام‌سازی موارد Brave خودتان استفاده می‌کنید. برای به‌روزرسانی تنظیمات ترجیحی همگام‌سازی‌تان یا استفاده از Brave بدون حساب Google، به <ph name="SETTINGS_LINK" /> مراجعه کنید.</translation>
-<translation id="6600954340915313787">‏کپی در Brave</translation>
+<translation id="663059986967017181">‏کپی در Brave</translation>
 <translation id="6626317981028933585">‏متأسفانه تنظیمات Mozilla Firefox شما هنگام باز بودن مرورگر در دسترس نیست. برای واردکردن آن تنظیمات در Brave، کارهای خود را ذخیره کنید و همه پنجره‌های Firefox را ببندید. سپس ادامه را کلیک کنید.</translation>
 <translation id="6634887557811630702">‏Brave به‌روز است</translation>
 <translation id="6676384891291319759">دسترسی به اینترنت</translation>
-<translation id="6697947395630195233">‏Brave برای اشتراک‌گذاری مکانتان با این سایت باید به مکانتان دسترسی داشته باشد.</translation>
+<translation id="4931190655840828017">‏Brave برای اشتراک‌گذاری مکانتان با این سایت باید به مکانتان دسترسی داشته باشد.</translation>
 <translation id="683440813066116847">‏قانون ترافیک ورودی برای Brave Canary به منظور اجازه به ترافیک mDNS .</translation>
 <translation id="686561893457936865">‏Brave را همه‌ جا ببرید</translation>
 <translation id="6883876366448858277">‏کلمه و نوشتار اطرافش را به جستجوی Google ارسال می‌کند و معانی، تصاویر و نتایج جستجوی دیگر را برمی‌گرداند.</translation>
@@ -207,7 +207,7 @@
 <translation id="6989339256997917931">‏Brave به روز شده است اما حداقل ۳۰ روز از آن استفاده نکرده‌اید.</translation>
 <translation id="7098166902387133879">‏Brave درحال استفاده از میکروفون شما است.</translation>
 <translation id="7106741999175697885">‏مدیر فعالیت‌ها - Brave</translation>
-<translation id="7161904924553537242">‏به Brave خوش آمدید</translation>
+<translation id="7207456302801184289">‏به Brave خوش آمدید</translation>
 <translation id="7164397146364144019">‏می‌توانید با گزارش خودکار جزئیات حوادث امنیتی احتمالی به Google به ایمن‌تر شدن Brave و استفاده آسان‌تر از آن کمک کنید.</translation>
 <translation id="7185038942300673794">‏<ph name="EXTENSION_NAME" /> به Brave اضافه شد.</translation>
 <translation id="7242029209006116544">‏شما با حساب مدیریت‌شده وارد سیستم می‌شوید و به سرپرست آن اجازه کنترل بر نمایه Brave خود را می‌دهید. داده‌های Brave شما شامل برنامه‌ها، نشانک‌ها، سابقه، گذرواژه‌ها و سایر تنظیمات برای همیشه به <ph name="USER_NAME" /> مرتبط خواهد شد. می‌توانید این داده‌ها را از طریق داشبورد حساب‌های Google حذف کنید اما نمی‌توانید این داده‌ها را به حساب دیگری مرتبط سازید. در صورت تمایل برای ذخیره داده‌های Brave موجود به صورت جداگانه می‌توانید نمایه جدیدی ایجاد کنید. <ph name="LEARN_MORE" /></translation>
@@ -218,7 +218,7 @@
 <translation id="7398801000654795464">‏شما بعنوان <ph name="USER_EMAIL_ADDRESS" /> وارد سیستم Brave شدید. لطفاً برای ورود به سیستم مجدد از همان حساب استفاده کنید.</translation>
 <translation id="7408085963519505752">‏شرایط Chrome OS</translation>
 <translation id="7419046106786626209">‏سیستم‌عامل Brave قادر به همگام‌سازی داده‌هایتان نبود زیرا همگام‌سازی برای دامنه شما قابل دسترسی نیست.</translation>
-<translation id="7437998757836447326">‏خروج از سیستم Brave</translation>
+<translation id="6234515504547364178">‏خروج از سیستم Brave</translation>
 <translation id="7459554271817304652">‏برای ذخیره ویژگی‌های مرورگر سفارشی شده خود در وب و دسترسی به آن‌ها از Brave از هر رایانه دیگری، همگام‌سازی را راه‌اندازی کنید.</translation>
 <translation id="7473136999113284234">‏Brave به صورت خودکار به‌روزرسانی می‌شود بنابراین همیشه جدیدترین نسخه را دارید.</translation>
 <translation id="7473891865547856676">نه متشکرم</translation>
@@ -226,7 +226,7 @@
 <translation id="7535429826459677826">‏Brave نسخه Dev</translation>
 <translation id="7552219221109926349">‏سیستم عامل Brave به این زبان نشان داده می‌شود</translation>
 <translation id="7592736734348559088">‏Brave قادر به همگام‌سازی داده‌های شما نبود زیرا جزئیات ورود به حساب شما به‌روز نیست.</translation>
-<translation id="7626032353295482388">‏به Brave خوش آمدید</translation>
+<translation id="7207456302801184289">‏به Brave خوش آمدید</translation>
 <translation id="7747138024166251722">نصب‌کننده نتوانست دایرکتوری موقت ایجاد کند. لطفاً فضای خالی دیسک و اجازه نصب نرم‌افزار را بررسی کنید.</translation>
 <translation id="7756122083761163394">‏این داده‌های محصول مرور فرد از این دستگاه حذف می‌شود. برای بازیابی داده‌ها، با نام 2$ به سیستم Brave وارد شوید.</translation>
 <translation id="7761834446675418963">‏برای باز کردن Brave و شروع به مرور، روی نامتان کلیک کنید.</translation>
