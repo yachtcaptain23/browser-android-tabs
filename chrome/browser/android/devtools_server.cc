@@ -155,7 +155,7 @@ void DevToolsServer::Start(bool allow_debug_permission) {
       new UnixDomainServerSocketFactory(socket_name_, auth_callback));
   DevToolsAgentHost::StartRemoteDebuggingServer(
       std::move(factory),
-      base::StringPrintf(kFrontEndURL, content::GetWebKitRevision().c_str()),
+      base::StringPrintf(kFrontEndURL, "@a0c7ac948c1f78d26b0707d2daac32162f3048b6"),
       base::FilePath(), base::FilePath());
   is_started_ = true;
 }
