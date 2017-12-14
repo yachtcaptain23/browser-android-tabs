@@ -179,14 +179,14 @@ public class PartnerBrowserCustomizations {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    boolean systemOrPreStable =
-                            (context.getApplicationInfo().flags & ApplicationInfo.FLAG_SYSTEM) == 1
-                            || !ChromeVersionInfo.isStableBuild();
-                    if (!systemOrPreStable) {
-                        // Only allow partner customization if this browser is a system package, or
-                        // forced for testing purposes.
-                        return null;
-                    }
+                    // boolean systemOrPreStable =
+                    //         (context.getApplicationInfo().flags & ApplicationInfo.FLAG_SYSTEM) == 1
+                    //         || !ChromeVersionInfo.isStableBuild();
+                    // if (!systemOrPreStable) {
+                    //     // Only allow partner customization if this browser is a system package, or
+                    //     // forced for testing purposes.
+                    //     return null;
+                    // }
 
                     ProviderInfo providerInfo = context.getPackageManager()
                             .resolveContentProvider(sProviderAuthority, 0);
