@@ -550,12 +550,12 @@ CHAR-LIMIT guidelines:
       <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_SUMMARY" desc="Summary for reporting data to detect bad apps/sites.">
         Automatically send some system information and page content to Google to help detect dangerous apps and sites
       </message>-->
-      <message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
+      <!--<message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
         Safe Browsing
       </message>
       <message name="IDS_SAFE_BROWSING_SUMMARY" desc="Summary for safe browsing.">
         Protect you and your device from dangerous sites
-      </message>
+      </message>-->
       <message name="IDS_NETWORK_PREDICTIONS_TITLE" desc="Title of a setting in Chrome settings. Followed by a body that describes the setting. If setting is turned on, Chrome will download certain pages to the user’s phone automatically for offline reading. 'predictions' convey the idea that Chrome is using predictive models to figure out pages likely of interest to the user.">
         Use page predictions
       </message>
