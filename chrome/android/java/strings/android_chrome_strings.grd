@@ -3488,6 +3488,20 @@ Saved
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_LATER" desc="Text on the button allows to relaunch browser later">
         LATER
       </message>
+
+      <message name="IDS_PLAY_YT_VIDEO_IN_BROWSER_TITLE" desc="Title of the setting for enabling play YouTube video in Brave [CHAR-LIMIT=32]">
+        Play YouTube video in Brave
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED_SUMMARY" desc="Summary text for 'Play YouTube video in Brave' preference mode enabled">
+        Enabled
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_DISABLED_SUMMARY" desc="Summary text for 'Play YouTube video in Brave' preference mode disabled">
+        Disabled
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED" desc="Summary text describing what 'Play YouTube video in Brave' preference does.">
+        If enabled, video will be played in Brave instead of launching YouTube app
+      </message>
+
     </messages>
   </release>
 </grit>
