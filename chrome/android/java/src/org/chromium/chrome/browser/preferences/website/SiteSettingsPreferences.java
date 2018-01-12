@@ -103,7 +103,6 @@ public class SiteSettingsPreferences extends PreferenceFragment
                 getPreferenceScreen().removePreference(
                         findPreference(SiteSettingsCategory.Type.AUTOPLAY));
             }
-
             getPreferenceScreen().removePreference(
                     findPreference(SiteSettingsCategory.Type.PROTECTED_MEDIA));
             getPreferenceScreen().removePreference(SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND);
