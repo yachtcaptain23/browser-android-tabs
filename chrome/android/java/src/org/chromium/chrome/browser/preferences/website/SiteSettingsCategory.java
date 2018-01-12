@@ -315,7 +315,7 @@ public class SiteSettingsCategory {
     }
 
     /**
-     * Returns whether this category is the Play video in background.
+     * Returns whether this category is the 'Background video playback'.
      */
     public boolean showPlayVideoInBackground() {
         return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND;
