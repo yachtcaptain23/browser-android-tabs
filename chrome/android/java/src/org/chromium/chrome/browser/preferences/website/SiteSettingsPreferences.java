@@ -106,8 +106,8 @@ public class SiteSettingsPreferences extends PreferenceFragment
 
             getPreferenceScreen().removePreference(
                     findPreference(SiteSettingsCategory.Type.PROTECTED_MEDIA));
-
             getPreferenceScreen().removePreference(SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND);
+            getPreferenceScreen().removePreference(SiteSettingsCategory.Type.PLAY_YT_VIDEO_IN_BROWSER);
 
             // TODO(csharrison): Remove this condition once the experimental UI lands. It is not
             // great to dynamically remove the preference in this way.
@@ -148,6 +148,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
             if (mProtectedContentMenuAvailable) {websitePrefs.add(SiteSettingsCategory.Type.PROTECTED_MEDIA);}
             websitePrefs.add(SiteSettingsCategory.Type.AUTOPLAY);
             websitePrefs.add(SiteSettingsCategory.PLAY_VIDEO_IN_BACKGROUND);
+            websitePrefs.add(SiteSettingsCategory.PLAY_YT_VIDEO_IN_BROWSER);
         } else {
             if (SiteSettingsCategory.adsCategoryEnabled()) {
                 websitePrefs.add(SiteSettingsCategory.Type.ADS);
@@ -219,7 +220,9 @@ public class SiteSettingsPreferences extends PreferenceFragment
                 p.setSummary( checked ? ContentSettingsResources.getDesktopViewEnabledSummary() : ContentSettingsResources.getDesktopViewDisabledSummary());
             } else if (PLAY_VIDEO_IN_BACKGROUND_KEY.equals(prefName)) {
                 p.setSummary( checked ? ContentSettingsResources.getPlayVideoInBackgroundEnabledSummary() : ContentSettingsResources.getPlayVideoInBackgroundDisabledSummary());
-            }else {
+            } else if (PLAY_YT_VIDEO_IN_BROWSER_KEY.equals(prefName)) {
+                p.setSummary( checked ? ContentSettingsResources.getPlayYTVideoInBrowserEnabledSummary() : ContentSettingsResources.getPlayYTVideoInBrowserDisabledSummary());
+            } else {
                 p.setSummary(ContentSettingsResources.getCategorySummary(contentType, checked));
             }
 
