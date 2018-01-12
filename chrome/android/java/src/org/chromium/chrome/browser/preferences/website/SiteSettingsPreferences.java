@@ -144,7 +144,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
             }
         } else {
             // Now Media menu always has two submenus at least:
-            // Autoplay and Play Video in background.
+            // Autoplay and Background video playback.
             // No need to extract Autoplay subitem
             getPreferenceScreen().removePreference(findPreference(PROTECTED_CONTENT_KEY));
             getPreferenceScreen().removePreference(findPreference(AUTOPLAY_KEY));
