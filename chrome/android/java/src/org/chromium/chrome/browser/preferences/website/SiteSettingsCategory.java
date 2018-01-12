@@ -51,6 +51,7 @@ public class SiteSettingsCategory {
     public static final String CATEGORY_USE_STORAGE = "use_storage";
     public static final String CATEGORY_USB = "usb";
     public static final String CATEGORY_PLAY_VIDEO_IN_BACKGROUND = "play_video_in_background";
+    public static final String CATEGORY_PLAY_YT_VIDEO_IN_BROWSER = "play_yt_video_in_browser";
 
     // The id of this category.
     private String mCategory;
@@ -134,6 +135,10 @@ public class SiteSettingsCategory {
             return new SiteSettingsCategory(CATEGORY_PLAY_VIDEO_IN_BACKGROUND, "",
                     ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
         }
+        if (CATEGORY_PLAY_YT_VIDEO_IN_BROWSER.equals(category)) {
+            return new SiteSettingsCategory(CATEGORY_PLAY_YT_VIDEO_IN_BROWSER, "",
+                    ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER);
+        }
         if (CATEGORY_POPUPS.equals(category)) {
             return new SiteSettingsCategory(CATEGORY_POPUPS, "",
                     ContentSettingsType.CONTENT_SETTINGS_TYPE_POPUPS);
@@ -195,6 +200,9 @@ public class SiteSettingsCategory {
         }
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND) {
             return fromString(CATEGORY_PLAY_VIDEO_IN_BACKGROUND);
+        }
+        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER) {
+            return fromString(CATEGORY_PLAY_YT_VIDEO_IN_BROWSER);
         }
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_POPUPS) {
             return fromString(CATEGORY_POPUPS);
@@ -311,6 +319,13 @@ public class SiteSettingsCategory {
      */
     public boolean showPlayVideoInBackground() {
         return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND;
+    }
+
+    /**
+     * Returns whether this category is the Play YouTube video in browser.
+     */
+    public boolean showPlayYTVideoInBrowser() {
+        return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER;
     }
 
     /**
