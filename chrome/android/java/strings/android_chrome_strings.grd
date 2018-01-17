@@ -3490,15 +3490,15 @@ Saved
       </message>
 
       <message name="IDS_PLAY_YT_VIDEO_IN_BROWSER_TITLE" desc="Title of the setting for enabling keeping play video in Brave [CHAR-LIMIT=32]">
-        Keep playing video in Brave
+        Video playback in Brave
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED_SUMMARY" desc="Summary text for 'Keep playing video in Brave' preference mode enabled">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED_SUMMARY" desc="Summary text for 'Video playback in Brave' preference mode enabled">
         Enabled
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_DISABLED_SUMMARY" desc="Summary text for 'Keep playing video in Brave' preference mode disabled">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_DISABLED_SUMMARY" desc="Summary text for 'Video playback in Brave' preference mode disabled">
         Disabled
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED" desc="Summary text describing what 'Keep playing video in Brave' preference does.">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED" desc="Summary text describing what 'Video playback in Brave' preference does.">
         If enabled, videos will be played in Brave instead of corresponding app
       </message>
 
