@@ -541,12 +541,12 @@ CHAR-LIMIT guidelines:
       <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_SUMMARY" desc="Summary for reporting data to detect bad apps/sites.">
         Automatically send some system information and page content to Google to help detect dangerous apps and sites
       </message>-->
-      <message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
+      <!--<message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
         Safe Browsing
       </message>
       <message name="IDS_SAFE_BROWSING_SUMMARY" desc="Summary for safe browsing.">
         Protect you and your device from dangerous sites
-      </message>
+      </message>-->
       <message name="IDS_NTP_SITES_EXPLORATION_CATEGORY_PERSONALIZED_TITLE" desc="In the Sites Explore UI, title of the Personalized category.">
         Personalized
       </message>
