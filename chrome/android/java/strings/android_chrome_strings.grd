@@ -3467,16 +3467,16 @@ Saved
         Block Phishing
       </message>-->
 
-      <message name="IDS_PLAY_VIDEO_IN_BACKGROUND_TITLE" desc="Title of the setting for enabling play video in background [CHAR-LIMIT=32]">
-        Video in background
+      <message name="IDS_PLAY_VIDEO_IN_BACKGROUND_TITLE" desc="Title of the setting for enabling background video playback [CHAR-LIMIT=32]">
+        Background video playback
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED_SUMMARY" desc="Summary text for 'Video in background' preference mode enabled">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED_SUMMARY" desc="Summary text for 'Background video playback' preference mode enabled">
         Enabled
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_DISABLED_SUMMARY" desc="Summary text for 'Video in background' preference mode disabled">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_DISABLED_SUMMARY" desc="Summary text for 'Background video playback' preference mode disabled">
         Disabled
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED" desc="Summary text describing what 'Video in background' preference does.">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED" desc="Summary text describing what 'Background video playback' preference does.">
         Experimental. Enables play audio from video in background when tab is not active or device screen is turned off. Try to switch to desktop mode if this feature is not working.
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
@@ -3488,6 +3488,20 @@ Saved
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_LATER" desc="Text on the button allows to relaunch browser later">
         LATER
       </message>
+
+      <message name="IDS_PLAY_YT_VIDEO_IN_BROWSER_TITLE" desc="Title of the setting for enabling keeping play video in Brave [CHAR-LIMIT=32]">
+        Video playback in Brave
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED_SUMMARY" desc="Summary text for 'Video playback in Brave' preference mode enabled">
+        Enabled
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_DISABLED_SUMMARY" desc="Summary text for 'Video playback in Brave' preference mode disabled">
+        Disabled
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_YT_VIDEO_IN_BROWSER_ENABLED" desc="Summary text describing what 'Video playback in Brave' preference does.">
+        If enabled, videos will be played in Brave instead of corresponding app
+      </message>
+
     </messages>
   </release>
 </grit>

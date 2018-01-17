@@ -273,6 +273,11 @@ static jboolean GetPlayVideoInBackgroundEnabled(JNIEnv* env,
   return GetBooleanForContentSetting(CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
 }
 
+static jboolean GetPlayYTVideoInBrowserEnabled(JNIEnv* env,
+                                         const JavaParamRef<jobject>& obj) {
+  return GetBooleanForContentSetting(CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER);
+}
+
 static jboolean GetBlockThirdPartyCookiesEnabled(
     JNIEnv* env,
     const JavaParamRef<jobject>& obj) {
@@ -736,6 +741,16 @@ static void SetPlayVideoInBackgroundEnabled(JNIEnv* env,
       HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
   host_content_settings_map->SetDefaultContentSetting(
       CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND,
+      allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
+}
+
+static void SetPlayYTVideoInBrowserEnabled(JNIEnv* env,
+                                     const JavaParamRef<jobject>& obj,
+                                     jboolean allow) {
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetDefaultContentSetting(
+      CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER,
       allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
 }
 
