@@ -1,0 +1,1 @@
+/usr/bin/cc -pipe -std=c99 -m64 -Wall -ggdb -fPIC -finstrument-functions  -O0 -fno-omit-frame-pointer  -L/home/user/Documents/Projects/ledger_mobile/node-anonize2-relic/anonize2/relic/src/low/easy/  -rdynamic CMakeFiles/bench_err.dir/bench_err.c.o  -o ../bin/bench_err ../lib/librelic_s.a -lrt 

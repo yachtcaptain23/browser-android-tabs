@@ -1,0 +1,1 @@
+/usr/bin/cc -pipe -std=c99 -m64 -Wall -ggdb  -O0 -fno-omit-frame-pointer  -L/home/user/Documents/Projects/ledger_mobile/node-anonize2-relic/anonize2/relic/src/low/easy/  -rdynamic CMakeFiles/test_bn.dir/test_bn.c.o  -o ../bin/test_bn ../lib/librelic_s.a 

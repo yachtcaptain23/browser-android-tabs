@@ -4,6 +4,7 @@
 
 package org.chromium.chrome.browser;
 
+import org.chromium.base.Log;
 import org.chromium.content_public.browser.WebContents;
 
 /**
