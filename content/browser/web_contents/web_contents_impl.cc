@@ -32,6 +32,7 @@
 #include "base/time/time.h"
 #include "base/trace_event/trace_event.h"
 #include "build/build_config.h"
+#include "chrome/browser/browser_process.h"
 #include "components/rappor/public/rappor_utils.h"
 #include "components/url_formatter/url_formatter.h"
 #include "content/browser/accessibility/browser_accessibility_state_impl.h"
@@ -111,6 +112,7 @@
 #include "content/public/browser/storage_partition.h"
 #include "content/public/browser/web_contents_binding_set.h"
 #include "content/public/browser/web_contents_delegate.h"
+#include "content/public/browser/web_contents_ledger_observer.h"
 #include "content/public/browser/web_contents_unresponsive_state.h"
 #include "content/public/common/bindings_policy.h"
 #include "content/public/common/browser_side_navigation_policy.h"
@@ -308,7 +310,11 @@ class CloseDialogCallbackWrapper
 }  // namespace
 
 WebContents* WebContents::Create(const WebContents::CreateParams& params) {
-  return WebContentsImpl::CreateWithOpener(params, FindOpenerRFH(params));
+  WebContents* web_contents = WebContentsImpl::CreateWithOpener(params, FindOpenerRFH(params));
+  std::shared_ptr<WebContentsLedgerObserver> web_contents_ledger_observer(new WebContentsLedgerObserver(web_contents));
+  g_browser_process->ledger_manager_.AddObserver(web_contents_ledger_observer);
+
+  return web_contents;
 }
 
 WebContents* WebContents::CreateWithSessionStorage(

@@ -583,6 +583,8 @@ split_static_library("browser") {
     "language/language_model_factory.h",
     "language/url_language_histogram_factory.cc",
     "language/url_language_histogram_factory.h",
+    "ledger_manager.cc",
+    "ledger_manager.h",
     "lifetime/application_lifetime.cc",
     "lifetime/application_lifetime.h",
     "lifetime/application_lifetime_mac.mm",
@@ -1577,9 +1579,19 @@ split_static_library("browser") {
     "//ipc",
     "//sql",
   ]
+
+  include_dirs = [
+    "//anonize2/anon",
+    "//anonize2/relic/include",
+    "//anonize2/relic/include/low",
+    "//braveLedger/src",
+  ]
+
   deps = [
     ":active_use_util",
     ":resource_prefetch_predictor_proto",
+    "//anonize2",
+    "//braveLedger",
     "//base:i18n",
     "//base/allocator:features",
     "//cc",

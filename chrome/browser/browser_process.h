@@ -19,6 +19,7 @@
 #include "base/macros.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process_platform_part.h"
+#include "chrome/browser/ledger_manager.h"
 #include "chrome/browser/shell_integration.h"
 #include "media/media_features.h"
 
@@ -309,6 +310,8 @@ class BrowserProcess {
   virtual physical_web::PhysicalWebDataSource* GetPhysicalWebDataSource() = 0;
 
   virtual prefs::InProcessPrefServiceFactory* pref_service_factory() const = 0;
+
+  LedgerManager ledger_manager_;
 
  private:
   DISALLOW_COPY_AND_ASSIGN(BrowserProcess);
