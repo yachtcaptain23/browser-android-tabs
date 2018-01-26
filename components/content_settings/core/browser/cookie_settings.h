@@ -64,7 +64,7 @@ class CookieSettings : public RefcountedKeyedService {
   // session only or blocked.
   //
   // This may be called on any thread.
-  bool IsCookieSessionOnlyOrBlocked(const GURL& url) const;
+  bool IsCookieSessionOnlyOrBlocked(const GURL& url);
 
   // Returns all patterns with a non-default cookie setting, mapped to their
   // actual settings, in the precedence order of the setting rules. |settings|
