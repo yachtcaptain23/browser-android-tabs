@@ -32,23 +32,23 @@
   <message name="IDS_WALLPAPER_MANAGER_SHOW_CUSTOM_WALLPAPER_ON_START_WARNING" desc="The string displayed to user when set custom wallpaper">
     Wallpapers appear on the Sign-in Screen.
   </message>
-  <message name="IDS_WALLPAPER_MANAGER_SURPRISE_ME_LABEL" desc="Wallpaper surprise me checkbox label. If the checkbox is checked, Chrome will automatically change wallpaper to either a random one available in wallpaper picker or a google pushed wallpaper (surprise factor).">
+  <message name="IDS_WALLPAPER_MANAGER_SURPRISE_ME_LABEL" desc="Wallpaper surprise me checkbox label. If the checkbox is checked, Brave will automatically change wallpaper to either a random one available in wallpaper picker or a google pushed wallpaper (surprise factor).">
     Surprise Me
   </message>
   <message name="IDS_WALLPAPER_MANAGER_ACCESS_FAIL" desc="The string displayed to user when access wallpaper server failed.">
-    Chrome cannot access wallpapers. Please connect to a network.
+    Brave cannot access wallpapers. Please connect to a network.
   </message>
   <message name="IDS_WALLPAPER_MANAGER_DOWNLOAD_FAIL" desc="The string displayed to user when downloading the wallpaper failed.">
-    Chrome cannot download this wallpaper.
+    Brave cannot download this wallpaper.
   </message>
   <message name="IDS_WALLPAPER_MANAGER_DOWNLOAD_CANCEL" desc="The string displayed to user when downloading the wallpaper canceled.">
     Download was canceled.
   </message>
   <message name="IDS_WALLPAPER_MANAGER_ACCESS_FILE_FAILURE" desc="The string displayed to user when accessing custom wallpaper on disk failed.">
-    Chrome cannot access the image.
+    Brave cannot access the image.
   </message>
   <message name="IDS_WALLPAPER_MANAGER_INVALID_WALLPAPER" desc="The string displayed to user when user selected wallpaper can not be set as a wallpaper.">
-    Chrome cannot set wallpaper.
+    Brave cannot set wallpaper.
   </message>
   <message name="IDS_WALLPAPER_MANAGER_LAYOUT_CENTER" desc="Label for option to center a customized wallpaper.">
     Center
@@ -67,7 +67,7 @@
   <message desc="The product name for Zip Archiver." name="IDS_ZIP_ARCHIVER_NAME">
     Zip Archiver
   </message>
-  <message desc="The product description, displayed in the Chrome Extensions page." name="IDS_ZIP_ARCHIVER_DESCRIPTION">
+  <message desc="The product description, displayed in the Brave Extensions page." name="IDS_ZIP_ARCHIVER_DESCRIPTION">
     Zip Archiver - Open and pack ZIP files in Files app.
   </message>
   <message desc="Title of the password input dialog." name="IDS_ZIP_ARCHIVER_PASSPHRASE_TITLE">
@@ -806,7 +806,7 @@
   <message name="IDS_FILE_BROWSER_SUGGEST_DIALOG_FOR_PROVIDERS_TITLE" desc="Title of the suggest app dialog, which shows the list of the apps that can be added to the left nav of the Files app.">
     Available services
   </message>
-  <message name="IDS_FILE_BROWSER_SUGGEST_DIALOG_LINK_TO_WEBSTORE" desc="Text of the link to the app list on Chrome Webstore, which shows the more apps than in the suggest app dialog.">
+  <message name="IDS_FILE_BROWSER_SUGGEST_DIALOG_LINK_TO_WEBSTORE" desc="Text of the link to the app list on Brave Webstore, which shows the more apps than in the suggest app dialog.">
     See more...
   </message>
   <message name="IDS_FILE_BROWSER_SUGGEST_DIALOG_INSTALLATION_FAILED" desc="Error message when the installation of the app from WebStore is failed.">
@@ -1056,20 +1056,20 @@
     Dismiss
   </message>
   <message name="IDS_FILE_BROWSER_NO_TASK_FOR_FILE" desc="Message shown when user tries to open file, which we can't handle.">
-    This file type is not supported. Please visit the <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;<ex>&lt;a target='_blank' href='$1'&gt;</ex></ph>Chrome Web Store<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> to find an app that can open this type of file.
+    This file type is not supported. Please visit the <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;<ex>&lt;a target='_blank' href='$1'&gt;</ex></ph>Brave Web Store<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> to find an app that can open this type of file.
     <ph name="BEGIN_LINK_HELP">&lt;a target='_blank' href='$2'&gt;<ex>&lt;a target='_blank' href='$2'&gt;</ex></ph>Learn More<ph name="END_LINK_HELP">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
   <message name="IDS_FILE_BROWSER_NO_TASK_FOR_EXECUTABLE" desc="Message shown when user tries to open a windows executable file, which we can't handle.">
-    This file is designed for a PC using Windows software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;<ex>&lt;a target='_blank' href='$1'&gt;</ex></ph>Chrome Web Store<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> for a suitable replacement app.<ph name="BEGIN_LINK_HELP">&lt;a target='_blank' href='$2'&gt;<ex>&lt;a target='_blank' href='$2'&gt;</ex></ph>Learn More<ph name="END_LINK_HELP">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
+    This file is designed for a PC using Windows software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;<ex>&lt;a target='_blank' href='$1'&gt;</ex></ph>Brave Web Store<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> for a suitable replacement app.<ph name="BEGIN_LINK_HELP">&lt;a target='_blank' href='$2'&gt;<ex>&lt;a target='_blank' href='$2'&gt;</ex></ph>Learn More<ph name="END_LINK_HELP">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
   <message name="IDS_FILE_BROWSER_NO_TASK_FOR_DMG" desc="Message shown when user tries to open a windows executable file, which we can't handle.">
-    This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;<ex>&lt;a target='_blank' href='$1'&gt;</ex></ph>Chrome Web Store<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> for a suitable replacement app.<ph name="BEGIN_LINK_HELP">&lt;a target='_blank' href='$2'&gt;<ex>&lt;a target='_blank' href='$2'&gt;</ex></ph>Learn More<ph name="END_LINK_HELP">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
+    This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;<ex>&lt;a target='_blank' href='$1'&gt;</ex></ph>Brave Web Store<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> for a suitable replacement app.<ph name="BEGIN_LINK_HELP">&lt;a target='_blank' href='$2'&gt;<ex>&lt;a target='_blank' href='$2'&gt;</ex></ph>Learn More<ph name="END_LINK_HELP">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
   <message name="IDS_FILE_BROWSER_NO_TASK_FOR_CRX_TITLE" desc="Message shown when a user tries to open a *.crx file, which we don't handle in the Files app.">
     Wait just a sec
   </message>
   <message name="IDS_FILE_BROWSER_NO_TASK_FOR_CRX" desc="Message shown when a user tries to open a *.crx file, which we don't handle in the Files app.">
-    We're constantly looking for ways to make your browsing safer. Previously, any website could prompt you to add an extension into your browser. In the latest versions of Google Chrome, you must explicitly tell Chrome that you want to install these extensions by adding them through the Extensions page. <ph name="BEGIN_LINK">&lt;a target='_blank' href='https://support.google.com/chrome_webstore/answer/2664769?p=crx_warning&amp;rd=1'&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
+    We're constantly looking for ways to make your browsing safer. Previously, any website could prompt you to add an extension into your browser. In the latest versions of Brave, you must explicitly tell Brave that you want to install these extensions by adding them through the Extensions page. <ph name="BEGIN_LINK">&lt;a target='_blank' href='https://support.google.com/chrome_webstore/answer/2664769?p=crx_warning&amp;rd=1'&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
   <message name="IDS_FILE_BROWSER_FOLDER" desc="Folder entry type">
@@ -1156,13 +1156,13 @@
     <ph name="FILENAME">$1</ph>
   </message>
   <message name="IDS_FILE_BROWSER_ERROR_VIEWING_FILE" desc="Error message when user attempts to open a non-supported file in the Files app via Downloads panel.">
-    This file type is not supported. Please visit the Chrome Web Store to find an app that can open this type of file.
+    This file type is not supported. Please visit the Brave Web Store to find an app that can open this type of file.
   </message>
   <message name="IDS_FILE_BROWSER_ERROR_VIEWING_FILE_FOR_DMG" desc="Error message when user attempts to open a dmg file in the Files app via Downloads panel.">
-    This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the Chrome Web Store for a suitable replacement app.
+    This file is designed for a computer using Macintosh software. This is not compatible with your device which runs Chrome OS. Please search the Brave Web Store for a suitable replacement app.
   </message>
   <message name="IDS_FILE_BROWSER_ERROR_VIEWING_FILE_FOR_EXECUTABLE" desc="Error message when user attempts to open a exe file in the Files app via Downloads panel.">
-    This file is designed for a PC using Windows software. This is not compatible with your device which runs Chrome OS. Please search the Chrome Web Store for a suitable replacement app.
+    This file is designed for a PC using Windows software. This is not compatible with your device which runs Chrome OS. Please search the Brave Web Store for a suitable replacement app.
   </message>
   <message name="IDS_FILE_BROWSER_ERROR_UNRESOLVABLE_FILE" desc="Error message when the file attempted to open from Downloads panel was not found under paths managed by file manager.">
     This file has wandered off somewhere. Please check your download location setting and try again.
@@ -1344,7 +1344,7 @@
     <ph name="SERVICE_NAME">$1<ex>Google Drive</ex></ph> wants to check if you are using an eligible Chrome OS device. <ph name="MORE_INFO_LINK">$2<ex>More info</ex></ph>
   </message>
   <message name="IDS_ECHO_DISABLED_CONSENT_DIALOG_TEXT" desc="Dialog text shown when user is informed that redeeming offers is disabled for the device.">
-    Your IT administrator has disabled Chrome Goodies for your device. <ph name="MORE_INFO_LINK">$1<ex>More info</ex></ph>
+    Your IT administrator has disabled Brave Goodies for your device. <ph name="MORE_INFO_LINK">$1<ex>More info</ex></ph>
   </message>
   <message name="IDS_ECHO_CONSENT_DISMISS_BUTTON" desc="Dismiss dialog button label for disabled echo dialog.">
     Dismiss
@@ -1491,7 +1491,7 @@
     Updating
   </message>
   <message name="IDS_UPDATE_SCREEN_ACCESSIBLE_TITLE" desc="Title to be spoken on opening the OOBE update screen">
-    Chrome updates automatically so you always have the freshest version
+    Brave updates automatically so you always have the freshest version
   </message>
   <message name="IDS_SIGNIN_SCREEN_TITLE_TAB_PROMPT" desc="Title of OOBE/Add User sign-in screen with TAB prompt when ChromeVox is active">
     Sign in, press the tab key to interact with input elements
@@ -1854,7 +1854,7 @@
     <ph name="BEGIN_BOLD">&lt;strong&gt;</ph>manage<ph name="END_BOLD">&lt;/strong&gt;</ph> other settings.
   </message>
   <message name="IDS_CREATE_SUPERVISED_INTRO_TEXT_1" desc="Supervised user dialog, intro page, first paragraph">
-    A supervised user can explore the web with your guidance. As the manager of a supervised user in Chrome, you can:
+    A supervised user can explore the web with your guidance. As the manager of a supervised user in Brave, you can:
   </message>
   <message name="IDS_CREATE_SUPERVISED_INTRO_MANAGER_ITEM_1" desc="Supervised user dialog, intro page, options available to manager">
     allow or prohibit certain websites,
@@ -1867,7 +1867,7 @@
   </message>
   <message name="IDS_CREATE_SUPERVISED_INTRO_TEXT_2" desc="Supervised user dialog, intro page, second paragraph">
     Creating a supervised user does not create a Google Account, and their settings
-    and data will not follow them to other devices with Chrome Sync. A supervised user applies only to this device.
+    and data will not follow them to other devices with Brave Sync. A supervised user applies only to this device.
   </message>
   <message name="IDS_CREATE_SUPERVISED_INTRO_TEXT_3" desc="Supervised user dialog, intro page, third paragraph">
     After you create a new supervised user, you can manage the settings at any time from any device at <ph name="MANAGEMENT_URL">$1<ex>www.example.com</ex></ph>.
@@ -2028,7 +2028,7 @@
     This owner account has to be the first signed-in account in a multiple sign-in session.
   </message>
   <message name="IDS_LOCAL_STATE_ERROR_TEXT_0" desc="Text for notification that Local State file is corrupted and powerwash is required.">
-    Unfortunately, <ph name="SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> is unable to recover your settings. To fix the error, <ph name="SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> must reset your device with Powerwash.
+    Unfortunately, <ph name="SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is unable to recover your settings. To fix the error, <ph name="SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> must reset your device with Powerwash.
   </message>
   <message name="IDS_LOCAL_STATE_ERROR_TEXT_1" desc="Text for notification that all local files will be deleted while Google account and any synced data won't be affected.">
     Resetting your device will not affect your Google accounts or any data synced to these accounts. However, all files saved locally on your device will be deleted.
@@ -2479,7 +2479,7 @@
     The randomly generated TPM password is not available. This is normal after a Powerwash.
   </message>
   <message name="IDS_EULA_RLZ_DESCRIPTION" desc="Dialog box text">
-    Your computer also comes with <ph name="SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph>'s RLZ library built in. RLZ assigns a non-unique, non-personally identifiable tag to measure the searches and <ph name="SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> usage driven by a particular promotional campaign. These labels sometimes appear in Google Search queries in <ph name="PRODUCT_NAME">$2<ex>Google Chrome</ex></ph>.
+    Your computer also comes with <ph name="SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph>'s RLZ library built in. RLZ assigns a non-unique, non-personally identifiable tag to measure the searches and <ph name="SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> usage driven by a particular promotional campaign. These labels sometimes appear in Google Search queries in <ph name="PRODUCT_NAME">$2<ex>Brave</ex></ph>.
   </message>
   <message name="IDS_EULA_RLZ_ENABLE" desc="Check box text for enabling RLZ tracking on TPM/RLZ info dialog.">
     Enable RLZ tracking on <ph name="SHORT_PRODUCT_OS_NAME">$1<ex>Chrome OS</ex></ph>.
@@ -2503,7 +2503,7 @@
     Enable debugging features
   </message>
   <message name="IDS_ENABLE_DEBUGGING_SCREEN_WARNING_MSG" desc="Warning text shown on enable debugging features screen above the exclamation icon.">
-    Enable debugging features on this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device
+    Enable debugging features on this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device
   </message>
   <message name="IDS_ENABLE_DEBUGGING_SCREEN_ROOTFS_REMOVE_MSG" desc="Text shown on enable debugging features screen below warning messages if device needs extra restart before powerwash.">
     A removal of rootfs protection and restart is required before enabling other debugging features.
@@ -2521,13 +2521,13 @@
    You are enabling Chrome OS debugging features which will set up sshd daemon and enable booting from USB drives.
   </message>
   <message name="IDS_ENABLE_DEBUGGING_DONE_MESSAGE" desc="Completion message in dialog for enabling debugging features.">
-    You have successfully enabled debugging features on this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device.
+    You have successfully enabled debugging features on this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device.
   </message>
   <message name="IDS_ENABLE_DEBUGGING_ERROR_TITLE" desc="Title message when enabling of debugging features fails.">
     Something went wrong
   </message>
   <message name="IDS_ENABLE_DEBUGGING_ERROR_MESSAGE" desc="Error message when enabling of debugging features fails.">
-    Debugging features were not completely enabled on this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device.
+    Debugging features were not completely enabled on this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device.
   </message>
   <message name="IDS_ENABLE_DEBUGGING_ROOT_PASSWORD_LABEL" desc="Text for root password entry field label from enable debugging features dialog.">
    root password
@@ -2563,13 +2563,13 @@
   </message>
 
   <message name="IDS_RESET_SCREEN_WARNING_MSG" desc="Warning text shown on reset screen above the exclamation icon.">
-    Reset this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device
+    Reset this <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device
   </message>
   <message name="IDS_RESET_SCREEN_WARNING_POWERWASH_MSG" desc="Warning text shown on reset screen below the exclamation icon.">
-    Powerwash to reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device to be just like new.
+    Powerwash to reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device to be just like new.
   </message>
   <message name="IDS_RESET_SCREEN_WARNING_POWERWASH_AND_ROLLBACK_MSG" desc="Warning text shown on reset screen below the exclamation icon.">
-    Powerwash your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device and return to the previous version.
+    Powerwash your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device and return to the previous version.
   </message>
   <message name="IDS_RESET_SCREEN_WARNING_DETAILS_DATA" desc="Additional warning text shown on reset screen below the main warning.">
     All user accounts and local data will be removed.
@@ -2587,16 +2587,16 @@
     Powerwash and Revert
   </message>
   <message name="IDS_RESET_SCREEN_PREPARING_REVERT_PROMISE" desc="Message shown on reset screen after user initiates powerwash with version revert while revert is prepared until reboot.">
-    <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> will restart and reset momentarily
+    <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> will restart and reset momentarily
   </message>
   <message name="IDS_RESET_SCREEN_PREPARING_REVERT_SPINNER_MESSAGE" desc="Spinner message shown on reset screen after user initiates powerwash with version revert while revert is prepared until reboot.">
-    Reverting to the previously installed version of <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph>
+    Reverting to the previously installed version of <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph>
   </message>
   <message name="IDS_RESET_SCREEN_REVERT_ERROR" desc="Error message shown when revert was initiated but unavailable to be performed." meaning="Device reset screen revert option context.">
     Oops, something went wrong.
   </message>
   <message name="IDS_RESET_SCREEN_REVERT_ERROR_EXPLANATION" desc="Error description shown when revert was initiated but unavailable to be performed.">
-    <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> is unable to revert to the previously installed version. Please try again to Powerwash your device.
+    <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is unable to revert to the previously installed version. Please try again to Powerwash your device.
   </message>
   <message name="IDS_RESET_SCREEN_POPUP_POWERWASH_TITLE" desc="Confirmational pop-up on top of reset device dialog. Pop-up title for powerwash.">
     Confirm Powerwash
@@ -2608,7 +2608,7 @@
     Your device will be reset and all user accounts and local data will be removed. This cannot be undone.
   </message>
   <message name="IDS_RESET_SCREEN_POPUP_ROLLBACK_TEXT" desc="Confirmational pop-up on top of reset device dialog. Pop-up text for rollback.">
-    Your device will be returned to the previously installed version of Chrome. All user accounts and local data will be removed. This cannot be undone.
+    Your device will be returned to the previously installed version of Brave. All user accounts and local data will be removed. This cannot be undone.
   </message>
   <message name="IDS_RESET_SCREEN_POPUP_CONFIRM_BUTTON" desc="Confirmational pop-up on top of reset device dialog. Confirm button text.">
     Continue
@@ -3477,7 +3477,7 @@
     Remove this person
   </message>
   <message name="IDS_LOGIN_VERSION_LABEL_FORMAT" desc="Login screen version text format.">
-    <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> <ph name="PRODUCT_VERSION">$2<ex>15.0.0.0</ex></ph> (Platform <ph name="PLATFORM_VERSION">$3<ex>900.0-11.09.01</ex></ph>) <ph name="DEVICE_SERIAL_NUMBER">$4<ex>SN:123456789ABC</ex></ph>
+    <ph name="PRODUCT_NAME">$1<ex>Brave</ex></ph> <ph name="PRODUCT_VERSION">$2<ex>15.0.0.0</ex></ph> (Platform <ph name="PLATFORM_VERSION">$3<ex>900.0-11.09.01</ex></ph>) <ph name="DEVICE_SERIAL_NUMBER">$4<ex>SN:123456789ABC</ex></ph>
   </message>
   <message name="IDS_LOGIN_API_KEYS_NOTICE" desc="Notice displayed on the login screen in case if API keys are missing.">
     You will not be able to add users because Google API keys are missing. See <ph name="DETAILS_URL">$1<ex>http://www.example.com</ex></ph> for details.
@@ -3661,7 +3661,7 @@
     Can't copy external crx file to <ph name="TEMP_CRX_FILE">$1<ex>/tmp/kiosk_update/app.crx</ex></ph>.
   </message>
 
-  <!-- About Chrome page -->
+  <!-- About Brave page -->
   <message name="IDS_UPGRADE_OFFLINE" desc="Status label: Currently offline">
     You are currently offline.
   </message>
@@ -3722,10 +3722,10 @@
     Howdy.
   </message>
   <message name="IDS_FIRST_RUN_GREETING_STEP_TEXT_1" desc="First part of message shown on the first dialog of firsr-run tutorial.">
-    Welcome to the <ph name="SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> family. This is no ordinary computer.
+    Welcome to the <ph name="SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> family. This is no ordinary computer.
   </message>
   <message name="IDS_FIRST_RUN_GREETING_STEP_TEXT_2" desc="Second part of message shown on the first dialog of firsr-run tutorial.">
-    This <ph name="SHORT_PRODUCT_NAME">$1<ex>Chrome</ex></ph> device was designed to deliver the best experience of the web to you.
+    This <ph name="SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device was designed to deliver the best experience of the web to you.
   </message>
   <message name="IDS_FIRST_RUN_GREETING_STEP_BUTTON" desc="Text on the button located on the first dialog of first-run tutorial.">
     Take a tour
@@ -3801,7 +3801,7 @@
     Mobile data
   </message>
   <message name="IDS_3G_NOTIFICATION_MESSAGE" desc="Text of the 3G data notification telling that 3G data is enabled.">
-    Google Chrome will use mobile data if you're not connected to another network.
+    Brave will use mobile data if you're not connected to another network.
   </message>
   <message name="IDS_3G_DATASAVER_TITLE" desc="Title of the 3G data notification prompting user to install Data Saver.">
     You are using mobile data
@@ -4233,7 +4233,7 @@
     Failed to join the machine to the domain. This might be due to exceeding the maximum number of allowed machine joins for your account on the server.
   </message>
   <message name="IDS_AD_BOARD_NOT_SUPPORTED" desc="Alert message that the Chromebook model is not supported for Active Directory">
-    Chrome <ph name="MS_AD_NAME">Microsoft® Active Directory®</ph> integration is only supported on x86_64 platforms. Chromebooks built on top of an ARM or x86 platform do not support this functionality.
+    Brave <ph name="MS_AD_NAME">Microsoft® Active Directory®</ph> integration is only supported on x86_64 platforms. Chromebooks built on top of an ARM or x86 platform do not support this functionality.
   </message>
   <message name="IDS_AD_AUTH_NETWORK_ERROR" desc="Error message to show when there is a problem contacting the logon server when authenticating for Active Directory enrollment.">
     Oops!  There was a problem contacting the logon server. Please check your network connection and the domain name, then try again.
@@ -4319,7 +4319,7 @@
     Check your system time
   </message>
   <message name="IDS_SET_TIME_PROMPT" desc="Text prompting the user to check and set the system time.">
-    Chrome was unable to set the system time. Please check the time below and correct it if needed.
+    Brave was unable to set the system time. Please check the time below and correct it if needed.
   </message>
   <message name="IDS_SET_TIME_BUTTON_CLOSE" desc="Text for the button to close the window.">
     Done
@@ -4354,22 +4354,22 @@
   </message>
 
   <!-- Webstore widget app -->
-  <message name="IDS_WEBSTORE_WIDGET_APP_NAME" desc="App name for Webstore Gallery Widget app. The app shows a filtered list of extensions from Chrome Web Store. Extensions from the list can be installed directly from the app.">
-    Chrome Web Store Gallery
+  <message name="IDS_WEBSTORE_WIDGET_APP_NAME" desc="App name for Webstore Gallery Widget app. The app shows a filtered list of extensions from Brave Web Store. Extensions from the list can be installed directly from the app.">
+    Brave Web Store Gallery
   </message>
-  <message name="IDS_WEBSTORE_WIDGET_APP_DESC" desc="Description of Chrome Webstore Gallery Widget app.">
-    An app that shows a filtered list of extensions from Chrome Web Store. Extensions in the list can be installed directly from the app.
+  <message name="IDS_WEBSTORE_WIDGET_APP_DESC" desc="Description of Brave Webstore Gallery Widget app.">
+    An app that shows a filtered list of extensions from Brave Web Store. Extensions in the list can be installed directly from the app.
   </message>
-  <message name="IDS_WEBSTORE_WIDGET_TITLE_PRINTER_PROVIDERS" desc="Title for Chrome Web Store Gallery Widget which lists all print driver apps from Chrome Web Store for a specific printer.">
+  <message name="IDS_WEBSTORE_WIDGET_TITLE_PRINTER_PROVIDERS" desc="Title for Brave Web Store Gallery Widget which lists all print driver apps from Brave Web Store for a specific printer.">
     Select a printer driver app
   </message>
-  <message name="IDS_WEBSTORE_WIDGET_DEFAULT_ERROR" desc="Default message shown when Chrome Web Store Widget app window content fails to load (e.g. if it fails to load Chrome Web Store Gallery in a webview).">
-    Could not connect to the Chrome Web Store.
+  <message name="IDS_WEBSTORE_WIDGET_DEFAULT_ERROR" desc="Default message shown when Brave Web Store Widget app window content fails to load (e.g. if it fails to load Brave Web Store Gallery in a webview).">
+    Could not connect to the Brave Web Store.
   </message>
-  <message name="IDS_WEBSTORE_WIDGET_LOADING_SPINNER_ALT" desc="Alt text for spinner shown in Chrome Web Store Gallery widget while the widget contents is loading. This is the text that will be read by screen reader when the spinner is focused. The string should be translated as a verb.">
+  <message name="IDS_WEBSTORE_WIDGET_LOADING_SPINNER_ALT" desc="Alt text for spinner shown in Brave Web Store Gallery widget while the widget contents is loading. This is the text that will be read by screen reader when the spinner is focused. The string should be translated as a verb.">
     Loading
   </message>
-  <message name="IDS_WEBSTORE_WIDGET_INSTALLING_SPINNER_ALT" desc="Alt text for spinner shown in Chrome Web Store Gallery widget while an app is being installed from the widget. This is the text that will be read by screen reader when the spinner has focus. The string should be translated as a verb.">
+  <message name="IDS_WEBSTORE_WIDGET_INSTALLING_SPINNER_ALT" desc="Alt text for spinner shown in Brave Web Store Gallery widget while an app is being installed from the widget. This is the text that will be read by screen reader when the spinner has focus. The string should be translated as a verb.">
     Installing
   </message>
 

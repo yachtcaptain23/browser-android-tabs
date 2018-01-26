@@ -57,7 +57,7 @@
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1077946062898560804">Ota käyttöön automaattiset päivitykset kaikille käyttäjille</translation>
 <translation id="1079766198702302550">Estä aina kameran käyttö</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> haluaa palauttaa Chrome-asetuksesi alkuperäisiksi. Etusivusi, Uusi välilehti -sivusi ja hakukoneesi palautetaan, laajennukset poistetaan käytöstä ja kaikki kiinnitetyt välilehdet irrotetaan. Myös kaikki väliaikaiset ja välimuistissa olevat tiedot, kuten evästeet, sisältö ja sivustotiedot, poistetaan.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> haluaa palauttaa Brave-asetuksesi alkuperäisiksi. Etusivusi, Uusi välilehti -sivusi ja hakukoneesi palautetaan, laajennukset poistetaan käytöstä ja kaikki kiinnitetyt välilehdet irrotetaan. Myös kaikki väliaikaiset ja välimuistissa olevat tiedot, kuten evästeet, sisältö ja sivustotiedot, poistetaan.</translation>
 <translation id="1082725763867769612">Offline-tiedostot</translation>
 <translation id="1084824384139382525">Kopioi linkin osoit&amp;e</translation>
 <translation id="1089439967362294234">Vaihda salasana</translation>
@@ -74,7 +74,7 @@
 <translation id="1110753181581583968">{NUM_DOWNLOAD,plural, =1{Jatka latausta}other{Jatka latauksia}}</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">Vinoneliö</translation>
-<translation id="1114335938027186412">Tietokoneesi sisältää Trusted Platform Module (TPM) -turvalaitteen, jonka avulla otetaan käyttöön monia tärkeitä turvallisuusominaisuuksia Chrome-käyttöjärjestelmässä. Lisätietoja on Chromebook-ohjekeskuksessa: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Tietokoneesi sisältää Trusted Platform Module (TPM) -turvalaitteen, jonka avulla otetaan käyttöön monia tärkeitä turvallisuusominaisuuksia Brave-käyttöjärjestelmässä. Lisätietoja on Chromebook-ohjekeskuksessa: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114525161406758033">Virransäästö, kun kansi suljetaan</translation>
 <translation id="1115018219887494029">Smart Lock Chromebookille (beta)</translation>
 <translation id="1116694919640316211">Tietoja asetuksista</translation>
@@ -97,7 +97,7 @@
 <translation id="1145292499998999162">Laajennus estettiin</translation>
 <translation id="1145532888383813076">Hae laitteeltasi, sovelluksistasi ja verkosta.</translation>
 <translation id="1146204723345436916">Tuo kirjanmerkit HTML-tiedostosta...</translation>
-<translation id="1149088842877960903">JavaScriptin suorittaminen AppleScriptin kautta on poistettu käytöstä. Ota se käyttöön valitsemalla Chrome-asetukset &gt; Lisäasetukset &gt; Järjestelmä. Lisätietoja: https://support.google.com/chrome/?p=applescript</translation>
+<translation id="1149088842877960903">JavaScriptin suorittaminen AppleScriptin kautta on poistettu käytöstä. Ota se käyttöön valitsemalla Brave-asetukset &gt; Lisäasetukset &gt; Järjestelmä. Lisätietoja: https://support.google.com/chrome/?p=applescript</translation>
 <translation id="1149401351239820326">Viimeinen voimassaolokuukausi</translation>
 <translation id="1153356358378277386">Laiteparit</translation>
 <translation id="1156488781945104845">Nykyinen aika</translation>
@@ -210,7 +210,7 @@
 <translation id="131461803491198646">Kotiverkko, ei roaming-tilassa </translation>
 <translation id="1316136264406804862">Haetaan...</translation>
 <translation id="1317502925920562130">Onko tämä haluamasi etusivu?</translation>
-<translation id="1319979322914001937">Sovellus, joka näyttää suodatetun luettelon laajennuksia Chrome Web Storesta. Luettelon laajennukset voi asentaa suoraan sovelluksesta.</translation>
+<translation id="1319979322914001937">Sovellus, joka näyttää suodatetun luettelon laajennuksia Brave Web Storesta. Luettelon laajennukset voi asentaa suoraan sovelluksesta.</translation>
 <translation id="132090119144658135">Aiheen vastaavuus:</translation>
 <translation id="1326317727527857210">Käytä välilehtiä muilta laitteiltasi kirjautumalla Chromeen.</translation>
 <translation id="1327074568633507428">Tulostin Google Cloud Printissä</translation>
@@ -520,7 +520,7 @@
 <translation id="1786636458339910689">Tiimin Drivet</translation>
 <translation id="1789575671122666129">Ponnahdusikkunat</translation>
 <translation id="1792619191750875668">Laajennettu näyttö</translation>
-<translation id="1793119619663054394">Haluatko varmasti poistaa profiilin <ph name="PROFILE_NAME" /> ja kaikki siihen liittyvät Chrome-tiedot tältä tietokoneelta? Tätä ei voi perua.</translation>
+<translation id="1793119619663054394">Haluatko varmasti poistaa profiilin <ph name="PROFILE_NAME" /> ja kaikki siihen liittyvät Brave-tiedot tältä tietokoneelta? Tätä ei voi perua.</translation>
 <translation id="1794791083288629568">Lähetä palautetta, niin autat meitä korjaamaan ongelman.</translation>
 <translation id="1795214765651529549">Ota käyttöön perinteinen</translation>
 <translation id="179767530217573436">viimeiset 4 viikkoa</translation>
@@ -690,7 +690,7 @@
 <translation id="2091887806945687916">Ääni</translation>
 <translation id="2097372108957554726">Sinun on kirjauduttava sisään Chromeen, jos haluat rekisteröidä uusia laitteita</translation>
 <translation id="2098305189700762159">Ei löydy</translation>
-<translation id="2099172618127234427">Olet ottamassa käyttöön Chrome-käyttöjärjestelmän viankorjausominaisuudet, jotka määrittävät sshd daemon -toiminnon ja ottavat käyttöön USB-muistitikulta käynnistyksen.</translation>
+<translation id="2099172618127234427">Olet ottamassa käyttöön Brave-käyttöjärjestelmän viankorjausominaisuudet, jotka määrittävät sshd daemon -toiminnon ja ottavat käyttöön USB-muistitikulta käynnistyksen.</translation>
 <translation id="2099686503067610784">Poistetaanko palvelimen varmenne <ph name="CERTIFICATE_NAME" />?</translation>
 <translation id="2100273922101894616">Automaattinen kirjautuminen</translation>
 <translation id="2101225219012730419">Versio:</translation>
@@ -711,7 +711,7 @@
 <translation id="2121825465123208577">Muuta kokoa</translation>
 <translation id="2124930039827422115">{1,plural, =1{Yhden käyttäjän keskimääräinen arvio: <ph name="AVERAGE_RATING" />}other{# käyttäjän keskimääräinen arvio: <ph name="AVERAGE_RATING" />}}</translation>
 <translation id="2126167708562367080">Järjestelmänvalvoja on poistanut synkronoinnin käytöstä.</translation>
-<translation id="2126426811489709554">Palvelun tarjoaa Chrome</translation>
+<translation id="2126426811489709554">Palvelun tarjoaa Brave</translation>
 <translation id="2127372758936585790">Pienitehoinen laturi</translation>
 <translation id="212862741129535676">Kellotaajuuden tilan käyttöprosentti</translation>
 <translation id="2128691215891724419">Synkronointivirhe: päivitä synkronoinnin tunnuslause...</translation>
@@ -761,7 +761,7 @@
 <translation id="2193365732679659387">Luottamusasetukset</translation>
 <translation id="2195729137168608510">Sähköpostin suojaus</translation>
 <translation id="219985413780390209">Suojaa itseäsi ja laitettasi vaarallisilta sivustoilta</translation>
-<translation id="2200356397587687044">Chrome tarvitsee luvan jatkamiseen</translation>
+<translation id="2200356397587687044">Brave tarvitsee luvan jatkamiseen</translation>
 <translation id="220138918934036434">Piilota painike</translation>
 <translation id="2202898655984161076">Tulostimien luetteloinnissa tapahtui virhe. Kaikkia tulostimiasi ei ole välttämättä rekisteröity palveluun <ph name="CLOUD_PRINT_NAME" />.</translation>
 <translation id="2203682048752833055">Hakukone, jota käytetään <ph name="BEGIN_LINK" />osoitepalkissa<ph name="END_LINK" /></translation>
@@ -843,7 +843,7 @@
 <translation id="2318817390901984578">Jos haluat käyttää Android-sovelluksia, lataa ja päivitä <ph name="DEVICE_TYPE" />.</translation>
 <translation id="2318923050469484167">Nykyinen incognito-istunto (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">Ylä- ja alatunnisteet</translation>
-<translation id="2325650632570794183">Tätä tiedostotyyppiä ei tueta. Etsi tämäntyyppisiä tiedostoja avaava sovellus Chrome Web Storesta.</translation>
+<translation id="2325650632570794183">Tätä tiedostotyyppiä ei tueta. Etsi tämäntyyppisiä tiedostoja avaava sovellus Brave Web Storesta.</translation>
 <translation id="2326606747676847821">Siirry incognito-tilaan</translation>
 <translation id="2326931316514688470">&amp;Lataa sovellus uudelleen</translation>
 <translation id="2327492829706409234">Ota sovellus käyttöön</translation>
@@ -1018,7 +1018,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="258932246702879617">Valitse <ph name="BEGIN_BOLD" />Kiinnitä tehtäväpalkkiin<ph name="END_BOLD" />.</translation>
 <translation id="259421303766146093">Poista suurennus</translation>
 <translation id="2594999711683503743">Hae Googlesta tai kirjoita URL-osoite</translation>
-<translation id="2597852038534460976">Chrome ei voi käyttää taustakuvia. Muodosta verkkoyhteys.</translation>
+<translation id="2597852038534460976">Brave ei voi käyttää taustakuvia. Muodosta verkkoyhteys.</translation>
 <translation id="2600115369439982409">Tiedostot ja ohjelmat:</translation>
 <translation id="2603115962224169880">Puhdista tietokone</translation>
 <translation id="2603463522847370204">Avaa incognito-ikkunassa</translation>
@@ -1047,7 +1047,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="263325223718984101"><ph name="PRODUCT_NAME" /> ei voinut suorittaa asennusta loppuun, vaan toimii edelleen levyvedoksen kautta.</translation>
 <translation id="2635276683026132559">Allekirjoitus</translation>
 <translation id="2635926034288331400">Asenna Sovellukset-kansioon</translation>
-<translation id="2636625531157955190">Chrome ei voi käyttää tätä kuvaa.</translation>
+<translation id="2636625531157955190">Brave ei voi käyttää tätä kuvaa.</translation>
 <translation id="2638087589890736295">Synkronointi edellyttää tunnuslausetta.</translation>
 <translation id="2638286699381354126">Päivitä...</translation>
 <translation id="2638942478653899953">Google Driveen ei saada yhteyttä. <ph name="BEGIN_LINK" />Kirjaudu ulos<ph name="END_LINK" /> ja takaisin sisään.</translation>
@@ -1064,13 +1064,13 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="2655386581175833247">Käyttäjävarmenne:</translation>
 <translation id="2660779039299703961">Tapahtuma</translation>
 <translation id="2661146741306740526">16 x 9</translation>
-<translation id="2662876636500006917">Chrome Web Store</translation>
+<translation id="2662876636500006917">Brave Web Store</translation>
 <translation id="2663302507110284145">Kieli</translation>
 <translation id="2665394472441560184">Lisää uusi sana</translation>
 <translation id="2665717534925640469">Tämä sivu on nyt koko ruudun kokoinen ja on poistanut hiiren osoittimen käytöstä.</translation>
 <translation id="2665919335226618153">Voi räkä! Alustuksen aikana tapahtui virhe.</translation>
 <translation id="2667463864537187133">Hallitse oikeinkirjoituksen tarkistusta</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> jakaa Chrome-välilehden.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> jakaa Brave-välilehden.</translation>
 <translation id="2670429602441959756">Tämä sivu sisältää ominaisuuksia, joita ei vielä tueta virtuaalitodellisuudessa. Jännittävää…</translation>
 <translation id="2670531586141364277">Verkon <ph name="NAME" /> aktivointi vaatii verkkoyhteyden.</translation>
 <translation id="2671451824761031126">Kirjanmerkkisi ja asetuksesi ovat valmiina.</translation>
@@ -1093,7 +1093,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="2693176596243495071">Hups, tapahtui tuntematon virhe. Yritä myöhemmin uudelleen tai ota yhteyttä järjestelmänvalvojaan, jos ongelma ei ratkea.</translation>
 <translation id="2694026874607847549">yksi eväste</translation>
 <translation id="2695749433451188613">Internet-tulostusprotokolla (HTTPS)</translation>
-<translation id="270358213449696159">Google Chrome ‑käyttöjärjestelmän käyttöehtojen sisältö</translation>
+<translation id="270358213449696159">Brave ‑käyttöjärjestelmän käyttöehtojen sisältö</translation>
 <translation id="2704184184447774363">Microsoftin tiedoston allekirjoitus</translation>
 <translation id="270516211545221798">Kosketuslevyn nopeus</translation>
 <translation id="2706892089432507937">USB-laitteet</translation>
@@ -1106,7 +1106,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="2715751256863167692">Tämä päivitys nollaa Chromebookisi ja poistaa nykyiset käyttäjätiedot.</translation>
 <translation id="2718395828230677721">Yövalo</translation>
 <translation id="2718998670920917754">Viruksentorjuntaohjelma havaitsi viruksen.</translation>
-<translation id="2719545156185392871">Chrome etsii haitallisia ohjelmia tietokoneestasi ja voi poistaa ne.</translation>
+<translation id="2719545156185392871">Brave etsii haitallisia ohjelmia tietokoneestasi ja voi poistaa ne.</translation>
 <translation id="2719936478972253983">Seuraavat evästeet estettiin</translation>
 <translation id="2721037002783622288">&amp;Hae kuvaa (<ph name="SEARCH_ENGINE" />)</translation>
 <translation id="2721334646575696520">Microsoft Edge</translation>
@@ -1163,7 +1163,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="2803375539583399270">Anna PIN-koodi.</translation>
 <translation id="2803887722080936828"><ph name="BEGIN_H3" />Virheenkorjausominaisuudet<ph name="END_H3" />
     <ph name="BR" />
-    Voit ottaa virheenkorjausominaisuudet käyttöön Chrome-käyttöjärjestelmää käyttävässä laitteessa, jotta voit asentaa ja testata muokattua koodia laitteessasi. Tämän avulla voit<ph name="BR" />
+    Voit ottaa virheenkorjausominaisuudet käyttöön Brave-käyttöjärjestelmää käyttävässä laitteessa, jotta voit asentaa ja testata muokattua koodia laitteessasi. Tämän avulla voit<ph name="BR" />
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />poistaa rootfs-vahvistuksen, jotta voit muokata käyttöjärjestelmän tietoja
       <ph name="LIST_ITEM" />ottaa käyttöön laitteen SSH-käytön vakiotestipainikkeilla, jotta voit käyttää laitetta työkaluilla kuten <ph name="BEGIN_CODE" />cros flash<ph name="END_CODE" />
@@ -1171,7 +1171,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
       <ph name="LIST_ITEM" />asettaa sekä kehittäjäversion että järjestelmän pääkäyttäjän salasanaksi muokatun arvon, jotta voit käyttää SSH:ta manuaalisesti laitteessa.
     <ph name="END_LIST" />
     <ph name="BR" />
-    Jos otat ne käyttöön, suurin osa virheenkorjausominaisuuksista on edelleen käytössä, vaikka yrityksen hallinnoimalle laitteelle suoritettaisiin powerwash tai sen tiedot tyhjennettäisiin. Jos haluat poistaa käytöstä kaikki virheenkorjausominaisuudet, palauta Chrome-käyttöjärjestelmän tehdasasetukset (https://support.google.com/chromebook/answer/1080595).
+    Jos otat ne käyttöön, suurin osa virheenkorjausominaisuuksista on edelleen käytössä, vaikka yrityksen hallinnoimalle laitteelle suoritettaisiin powerwash tai sen tiedot tyhjennettäisiin. Jos haluat poistaa käytöstä kaikki virheenkorjausominaisuudet, palauta Brave-käyttöjärjestelmän tehdasasetukset (https://support.google.com/chromebook/answer/1080595).
     <ph name="BR" />
     <ph name="BR" />
     Lisätietoja virheenkorjausominaisuuksista:<ph name="BR" />
@@ -1327,7 +1327,7 @@ Tämän sivuston ei pitäisi olla estetty.</translation>
 <translation id="3022978424994383087">En ymmärtänyt.</translation>
 <translation id="3024374909719388945">Käytä 24 tunnin kelloa</translation>
 <translation id="302781076327338683">Päivitä sivu ohittamalla välimuisti</translation>
-<translation id="3030243755303701754">Valvottu käyttäjä voi käyttää internetiä sinun valvonnassasi. Valvotun Chrome-käyttäjän hallinnoijana voit
+<translation id="3030243755303701754">Valvottu käyttäjä voi käyttää internetiä sinun valvonnassasi. Valvotun Brave-käyttäjän hallinnoijana voit
 
  • sallia tai estää tiettyjä verkkosivustoja
  • tarkastella verkkosivustoja, joilla valvottu käyttäjä on vieraillut
@@ -1406,7 +1406,7 @@ Lisätietoja saat <ph name="BEGIN_LINK" />ohjekeskuksestamme<ph name="END_LINK" 
 <translation id="3144126448740580210">VALMIS</translation>
 <translation id="3144135466825225871">CRX-tiedoston korvaaminen epäonnistui. Tarkista, onko tiedosto käytössä.</translation>
 <translation id="3144647712221361880">Avaa linkki käyttäjänä</translation>
-<translation id="3149510190863420837">Chrome-sovellukset</translation>
+<translation id="3149510190863420837">Brave-sovellukset</translation>
 <translation id="3150927491400159470">Pakotettu päivitys</translation>
 <translation id="315116470104423982">Mobiilitiedonsiirto</translation>
 <translation id="3151539355209957474">Aloitusaika</translation>
@@ -1670,7 +1670,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3547495624659668105">PRL-versio</translation>
 <translation id="3547954654003013442">Välityspalvelimen asetukset</translation>
 <translation id="3549797760399244642">Siirry osoitteeseen drive.google.com...</translation>
-<translation id="3550915441744863158">Chrome päivitetään automaattisesti, joten käytössäsi on aina uusin versio</translation>
+<translation id="3550915441744863158">Brave päivitetään automaattisesti, joten käytössäsi on aina uusin versio</translation>
 <translation id="3551320343578183772">Sulje välilehti</translation>
 <translation id="3552780134252864554">Tyhjennetty poistumisen yhteydessä</translation>
 <translation id="355298399003313926"><ph name="URL" /> haluaa vastata esteettömyystapahtumiin.</translation>
@@ -1749,7 +1749,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3660234220361471169">Ei-luotettu</translation>
 <translation id="3661054927247347545">Kirjautumisen varmenne ei kelpaa, ikkuna sulkeutuu <ph name="MINUTES" /> minuutin ja <ph name="SECONDS" /> sekunnin kuluttua.</translation>
 <translation id="3664511988987167893">Laajennuskuvake</translation>
-<translation id="3665589677786828986">Chrome havaitsi, että toinen ohjelma oli muokannut joitakin selainasetuksia, ja palautti asetukset alkuperäisiksi.</translation>
+<translation id="3665589677786828986">Brave havaitsi, että toinen ohjelma oli muokannut joitakin selainasetuksia, ja palautti asetukset alkuperäisiksi.</translation>
 <translation id="3665842570601375360">Turvallisuus:</translation>
 <translation id="3668570675727296296">Kieliasetukset</translation>
 <translation id="3668823961463113931">Käsittelypalvelut</translation>
@@ -1768,7 +1768,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3688578402379768763">Ajan tasalla</translation>
 <translation id="3693415264595406141">Salasana:</translation>
 <translation id="3694027410380121301">Valitse edellinen välilehti</translation>
-<translation id="3697100740575341996">IT-järjestelmänvalvojasi on poistanut Chrome Goodies -tarjoukset käytöstä laitteellasi. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="3697100740575341996">IT-järjestelmänvalvojasi on poistanut Brave Goodies -tarjoukset käytöstä laitteellasi. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="3699624789011381381">Sähköpostiosoite</translation>
 <translation id="3702500414347826004">Aloitussivujasi muokattiin, ja niihin sisältyy nyt <ph name="URL" />.</translation>
 <translation id="3703669627274482482">Kysy, kun sivusto haluaa nähdä leikepöydälle kopioimasi tekstin ja kuvat</translation>
@@ -1820,7 +1820,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="3768037234834996183">Asetuksia synkronoidaan…</translation>
 <translation id="3771294271822695279">Videotiedostot </translation>
 <translation id="3775432569830822555">SSL-palvelinvarmenne</translation>
-<translation id="3776796446459804932">Tämä laajennus loukkaa Chrome Web Storen käytäntöä.</translation>
+<translation id="3776796446459804932">Tämä laajennus loukkaa Brave Web Storen käytäntöä.</translation>
 <translation id="3777806571986431400">Laajennus otettu käyttöön</translation>
 <translation id="3778152852029592020">Lataus peruutettiin.</translation>
 <translation id="3778740492972734840">&amp;Kehittäjän työkalut</translation>
@@ -1988,7 +1988,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4035758313003622889">&amp;Tehtävänhallinta</translation>
 <translation id="4037084878352560732">Hevonen</translation>
 <translation id="4037889604535939429">Muokkaa henkilöä</translation>
-<translation id="4042264909745389898">Google Chrome ‑käyttöjärjestelmän käyttöehdot</translation>
+<translation id="4042264909745389898">Brave ‑käyttöjärjestelmän käyttöehdot</translation>
 <translation id="4044612648082411741">Anna varmenteen salasana.</translation>
 <translation id="404493185430269859">Oletushakukone</translation>
 <translation id="4047112090469382184">Miksi tämä on turvallista</translation>
@@ -2211,7 +2211,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4452426408005428395">Peruuta</translation>
 <translation id="445923051607553918">Yhdistä Wi-Fi-verkkoon</translation>
 <translation id="4462159676511157176">Omat nimipalvelimet</translation>
-<translation id="4467100756425880649">Chrome Web Store Gallery</translation>
+<translation id="4467100756425880649">Brave Web Store Gallery</translation>
 <translation id="4467101674048705704">Laajenna <ph name="FOLDER_NAME" /></translation>
 <translation id="4474155171896946103">Lisää kaikki välilehdet kirjanmerkkeihin...</translation>
 <translation id="4474381447165623168">Aseta automaattisesti käyttämällä Wi-Fi-verkkoa</translation>
@@ -2235,7 +2235,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="451407183922382411">Palvelun tarjoaa <ph name="COMPANY_NAME" />.</translation>
 <translation id="4514542542275172126">Luo uusi valvottu käyttäjä</translation>
 <translation id="451515744433878153">Poista</translation>
-<translation id="4518677423782794009">Kaatuileeko Chrome? Näyttääkö se epätavallisia aloitussivuja, työkalupalkkeja tai mainoksia, joista et pääse eroon? Onko selaimen käyttökokemus muuttunut jollakin muulla tavalla? Ongelmien korjaaminen voi onnistua Chrome Cleanup Toolin avulla.</translation>
+<translation id="4518677423782794009">Kaatuileeko Brave? Näyttääkö se epätavallisia aloitussivuja, työkalupalkkeja tai mainoksia, joista et pääse eroon? Onko selaimen käyttökokemus muuttunut jollakin muulla tavalla? Ongelmien korjaaminen voi onnistua Brave Cleanup Toolin avulla.</translation>
 <translation id="4520385623207007473">Käytössä olevat evästeet</translation>
 <translation id="452039078290142656">myyjän <ph name="VENDOR_NAME" /> tuntemattomat laitteet</translation>
 <translation id="4522570452068850558">Tiedot</translation>
@@ -2255,7 +2255,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4546308221697447294">Selaa nopeasti Google Chromella.</translation>
 <translation id="4547659257713117923">Ei välilehtiä muista laitteista</translation>
 <translation id="4547992677060857254">Valitsemasi kansio sisältää arkaluonteisia tiedostoja. Haluatko varmasti myöntää käyttäjälle "$1" pysyvän kirjoitusoikeuden tähän kansioon?</translation>
-<translation id="4552031286893852992">Chrome esti mainokset tällä sivustolla, koska se näyttää häiritseviä mainoksia.</translation>
+<translation id="4552031286893852992">Brave esti mainokset tällä sivustolla, koska se näyttää häiritseviä mainoksia.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552495056028768700">Sivun käyttöoikeus</translation>
 <translation id="4552678318981539154">Osta lisää tallennustilaa</translation>
@@ -2311,21 +2311,21 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4634771451598206121">Kirjaudu uudelleen sisään...</translation>
 <translation id="4636315944522859212">Tulostin löydetty</translation>
 <translation id="4640525840053037973">Kirjaudu sisään Google-tiliisi</translation>
-<translation id="4641539339823703554">Chrome ei voinut asettaa järjestelmän aikaa. Tarkista aika alta ja korjaa sitä tarvittaessa.</translation>
+<translation id="4641539339823703554">Brave ei voinut asettaa järjestelmän aikaa. Tarkista aika alta ja korjaa sitä tarvittaessa.</translation>
 <translation id="4643612240819915418">Avaa vide&amp;o uudessa välilehdessä</translation>
 <translation id="4645676300727003670">&amp;Säilytä</translation>
 <translation id="4647090755847581616">&amp;Sulje välilehti</translation>
 <translation id="4647697156028544508">Anna laitteen <ph name="DEVICE_NAME" /> PIN-koodi:</translation>
 <translation id="4648491805942548247">Käyttöluvat eivät riitä</translation>
 <translation id="4648499713050786492">Avaa profiilisi lukitus ennen henkilön lisäämistä.</translation>
-<translation id="465499440663162826">Chrome Web Storeen ei saatu yhteyttä.</translation>
+<translation id="465499440663162826">Brave Web Storeen ei saatu yhteyttä.</translation>
 <translation id="4656293982926141856">Tällä tietokoneella</translation>
 <translation id="4658312088164718891">Ota Smart Lock käyttöön antamalla salasanasi. Seuraavalla kerralla puhelimesi avaa laitteen <ph name="DEVICE_TYPE" /> lukituksen. Ota Smart Lock pois käytöstä Asetuksissa.</translation>
 <translation id="4662788913887017617">Jaa tämä kirjanmerkki iPhonellesi</translation>
 <translation id="4663373278480897665">Kamera sallittu</translation>
 <translation id="4664482161435122549">PKCS #12 -vientivirhe</translation>
 <translation id="4665014895760275686">Valmistaja</translation>
-<translation id="466506872045057845">Chrome palauttaa käyttöoikeudet oletusarvoihin.</translation>
+<translation id="466506872045057845">Brave palauttaa käyttöoikeudet oletusarvoihin.</translation>
 <translation id="4667176955651319626">Estä kolmannen osapuolen evästeet ja sivustotiedot</translation>
 <translation id="4668721319092543482">Ota <ph name="PLUGIN_NAME" /> käyttöön klikkaamalla.</translation>
 <translation id="4669606053856530811">Jäsenet (<ph name="SOURCE_NAME" />) menettävät käyttöoikeuden, ellei näitä kohteita jaeta heille.</translation>
@@ -2351,7 +2351,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4708794300267213770">Näytä lukitusnäyttö, kun laite poistuu virransäästötilasta</translation>
 <translation id="4708849949179781599">Sulje <ph name="PRODUCT_NAME" /></translation>
 <translation id="4711638718396952945">Palauta asetukset</translation>
-<translation id="4713544552769165154">Tämä tiedosto on tarkoitettu Macintosh-ohjelmistoa käyttävälle tietokoneelle. Tämä ei ole yhteensopiva Chrome-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi sopiva korvaava sovellus <ph name="BEGIN_LINK" />Chrome Web Storesta.<ph name="END_LINK" /> <ph name="BEGIN_LINK_HELP" />Lisätietoja<ph name="END_LINK_HELP" /></translation>
+<translation id="4713544552769165154">Tämä tiedosto on tarkoitettu Macintosh-ohjelmistoa käyttävälle tietokoneelle. Tämä ei ole yhteensopiva Brave-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi sopiva korvaava sovellus <ph name="BEGIN_LINK" />Brave Web Storesta.<ph name="END_LINK" /> <ph name="BEGIN_LINK_HELP" />Lisätietoja<ph name="END_LINK_HELP" /></translation>
 <translation id="4714531393479055912"><ph name="PRODUCT_NAME" /> voi nyt synkronoida salasanasi</translation>
 <translation id="4715553623069266137">hyvin lyhyt (0,8 s)</translation>
 <translation id="4716483597559580346">Paranna suojausta powerwashin avulla</translation>
@@ -2374,7 +2374,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4742746985488890273">Kiinnitä hyllyyn</translation>
 <translation id="4744574733485822359">Lataus on valmis</translation>
 <translation id="4746971725921104503">Näyttää siltä, että hallinnoit jo käyttäjää, jolla on sama nimi. Haluatko <ph name="LINK_START" />tuoda käyttäjän <ph name="USER_DISPLAY_NAME" /> tälle laitteelle<ph name="LINK_END" />?</translation>
-<translation id="4748762018725435655">Edellyttää laajennuksen lataamista Chrome Web Storesta.</translation>
+<translation id="4748762018725435655">Edellyttää laajennuksen lataamista Brave Web Storesta.</translation>
 <translation id="4750394297954878236">Ehdotukset</translation>
 <translation id="475088594373173692">Ensimmäinen käyttäjä</translation>
 <translation id="4756378406049221019">Pysäytä/päivitä</translation>
@@ -2451,7 +2451,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="48704129375571883">Lisää ominaisuuksia</translation>
 <translation id="4870903493621965035">Ei laitepareja</translation>
 <translation id="4871210892959306034">$1 Kt</translation>
-<translation id="4871308555310586478">Ei peräisin Chrome Web Storesta.</translation>
+<translation id="4871308555310586478">Ei peräisin Brave Web Storesta.</translation>
 <translation id="4871370605780490696">Lisää kirjanmerkki</translation>
 <translation id="4871833665870725367">Haluatko, että <ph name="PASSWORD_MANAGER_BRAND" /> päivittää sivuston <ph name="ORIGIN" /> salasanasi?</translation>
 <translation id="4873312501243535625">Mediatiedostojen tarkistaja</translation>
@@ -2516,10 +2516,10 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="496226124210045887">Valitsemasi kansio sisältää arkaluonteisia tiedostoja. Haluatko varmasti myöntää käyttäjälle "$1" pysyvän käyttöoikeuden tähän kansioon?</translation>
 <translation id="4964455510556214366">Asettelu</translation>
 <translation id="4964673849688379040">Tarkistetaan…</translation>
-<translation id="4965682129423310439">Chrome löysi haitallisia ohjelmia tietokoneestasi. Chrome voi poistaa ne ja palauttaa asetukset ennalleen, jotta selain toimii taas normaalisti.</translation>
+<translation id="4965682129423310439">Brave löysi haitallisia ohjelmia tietokoneestasi. Brave voi poistaa ne ja palauttaa asetukset ennalleen, jotta selain toimii taas normaalisti.</translation>
 <translation id="4965808351167763748">Haluatko varmasti määrittää tämän laitteen käyttämään Hangouts Meetiä?</translation>
 <translation id="4967749818080339523">Valitse tili.</translation>
-<translation id="496888482094675990">Tiedostot-sovelluksen kautta pääset käyttämään nopeasti Google Driveen, ulkoiseen tallennustilaan tai Chrome-käyttöjärjestelmälaitteellesi tallennettuja tiedostoja.</translation>
+<translation id="496888482094675990">Tiedostot-sovelluksen kautta pääset käyttämään nopeasti Google Driveen, ulkoiseen tallennustilaan tai Brave-käyttöjärjestelmälaitteellesi tallennettuja tiedostoja.</translation>
 <translation id="4969785127455456148">Albumi</translation>
 <translation id="4970738541803285369">Asenna työpöydälle…</translation>
 <translation id="4971412780836297815">Avaa kun valmis</translation>
@@ -2535,7 +2535,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="4988792151665380515">Julkisen avaimen vienti epäonnistui.</translation>
 <translation id="49896407730300355">Käännä &amp;vastapäivään</translation>
 <translation id="4989966318180235467">Tarkista &amp;taustasivu</translation>
-<translation id="4990343175649730969">Lataa Chrome Cleanup Tool</translation>
+<translation id="4990343175649730969">Lataa Brave Cleanup Tool</translation>
 <translation id="4991420928586866460">Käytä ylärivin näppäimiä toimintanäppäiminä</translation>
 <translation id="499165176004408815">Käytä suuri kontrasti -tilaa</translation>
 <translation id="4992066212339426712">Poista mykistys</translation>
@@ -2963,7 +2963,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="5649053991847567735">Automaattiset lataukset</translation>
 <translation id="5649768706273821470">Kuuntele</translation>
 <translation id="5653140146600257126">Hakemisto, jonka nimi on "$1", on jo olemassa. Valitse toinen nimi.</translation>
-<translation id="5657667036353380798">Ulkoinen laajennus vaatii Chrome-version <ph name="MINIMUM_CHROME_VERSION" /> tai uudemman.</translation>
+<translation id="5657667036353380798">Ulkoinen laajennus vaatii Brave-version <ph name="MINIMUM_CHROME_VERSION" /> tai uudemman.</translation>
 <translation id="5658415415603568799">Turvallisuussyistä Smart Lock pyytää antamaan salasanan, kun 20 tuntia on kulunut.</translation>
 <translation id="5659593005791499971">Sähköposti</translation>
 <translation id="5662477687021125631">Ikuinen</translation>
@@ -3015,7 +3015,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="5749861707650047230">{NUM_DOWNLOAD,plural, =1{Peruuta lataus}other{Peruuta lataukset}}</translation>
 <translation id="5750324801516359607">Kaukana</translation>
 <translation id="5751545372099101699">Hyllyn kohde 4</translation>
-<translation id="5752453871435543420">Chrome-käyttöjärjestelmän pilvivarmuuskopiointi</translation>
+<translation id="5752453871435543420">Brave-käyttöjärjestelmän pilvivarmuuskopiointi</translation>
 <translation id="5754903485544371559">Lisää Sovellukset-kansioon…</translation>
 <translation id="5756163054456765343">Ohj&amp;ekeskus</translation>
 <translation id="5759728514498647443"><ph name="APP_NAME" /> voi lukea dokumentteja, jotka lähetät tulostettavaksi sovelluksen <ph name="APP_NAME" /> kautta.</translation>
@@ -3032,18 +3032,18 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="5774295353725270860">Avaa Tiedostot-sovellus</translation>
 <translation id="5774515636230743468">Luettelo:</translation>
 <translation id="577624874850706961">Hae evästeistä</translation>
-<translation id="5777468213129569553">Avaa Chrome</translation>
+<translation id="5777468213129569553">Avaa Brave</translation>
 <translation id="5778747455497889540">Alla on tietokoneesi sattumanvaraisesti luotu suojausmoduulin salasana.</translation>
 <translation id="5780973441651030252">Prosessien tärkeysjärjestys</translation>
 <translation id="5781865261247219930">Lähetä komennot laajennukselle <ph name="EXTENSION_NAME" />.</translation>
 <translation id="5783221160790377646">Tapahtui virhe, joten valvottua käyttäjää ei voitu luoda. Yritä myöhemmin uudelleen.</translation>
 <translation id="5783602409389152506">laitteiden hakemisen aikana…</translation>
 <translation id="57838592816432529">Mykistä</translation>
-<translation id="5785583009707899920">Chrome-tiedostoapuohjelma</translation>
+<translation id="5785583009707899920">Brave-tiedostoapuohjelma</translation>
 <translation id="5787146423283493983">Avainsopimus</translation>
 <translation id="5788367137662787332">Ainakin yhtä laitteen <ph name="DEVICE_LABEL" /> osiosta ei voitu ottaa käyttöön.</translation>
 <translation id="5794414402486823030">Avaa aina järjestelmän katselusovelluksella</translation>
-<translation id="5794786537412027208">Sulje kaikki Chrome-sovellukset</translation>
+<translation id="5794786537412027208">Sulje kaikki Brave-sovellukset</translation>
 <translation id="5800020978570554460">Kohdetiedosto on katkaistu tai poistettu edellisen latauksen jälkeen.</translation>
 <translation id="5801568494490449797">Asetukset</translation>
 <translation id="5804241973901381774">Käyttöluvat</translation>
@@ -3074,7 +3074,7 @@ verkkotunnuksesta <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="5848924408752252705">Palaa takaisin koskettamalla.</translation>
 <translation id="5849570051105887917">Kotiverkon palveluntarjoajan koodi</translation>
 <translation id="5849869942539715694">Pakkaa laajennus...</translation>
-<translation id="5850516540536751549">Tätä tiedostotyyppiä ei tueta. Etsi tämäntyyppisiä tiedostoja avaava sovellus <ph name="BEGIN_LINK" />Chrome Web Storesta<ph name="END_LINK" />.
+<translation id="5850516540536751549">Tätä tiedostotyyppiä ei tueta. Etsi tämäntyyppisiä tiedostoja avaava sovellus <ph name="BEGIN_LINK" />Brave Web Storesta<ph name="END_LINK" />.
 	      <ph name="BEGIN_LINK_HELP" />Lisätietoja<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">Tyhjää täynnä…</translation>
 <translation id="5851868085455377790">Myöntäjä</translation>
@@ -3124,7 +3124,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="5916664084637901428">Käytössä</translation>
 <translation id="59174027418879706">Käytössä</translation>
 <translation id="5920543303088087579">Järjestelmänvalvoja on estänyt yhteyden muodostamisen tähän verkkoon.</translation>
-<translation id="5920835625712313205">Chrome-käyttöjärjestelmän näköistiedoston kirjoittaja</translation>
+<translation id="5920835625712313205">Brave-käyttöjärjestelmän näköistiedoston kirjoittaja</translation>
 <translation id="5921745308587794300">Kierrä ikkunaa</translation>
 <translation id="5924047253200400718">Lue ohjeita <ph name="SCANNING_STATUS" /></translation>
 <translation id="5925147183566400388">Hyväksymiskäytännön lausunto-osoitus</translation>
@@ -3195,9 +3195,9 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="604124094241169006">Automaattinen</translation>
 <translation id="6042169520002885235">Valitse tulostimen valmistaja ja malli</translation>
 <translation id="6042308850641462728">Lisää</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> jakaa Chrome-välilehden välilehdelle <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> jakaa Brave-välilehden välilehdelle <ph name="TAB_NAME" />.</translation>
 <translation id="6043357981274314628">Valmis!</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> jakaa Chrome-välilehden ja ääntä välilehdelle <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> jakaa Brave-välilehden ja ääntä välilehdelle <ph name="TAB_NAME" />.</translation>
 <translation id="6049004884579590341">Paina pitkään |<ph name="ACCELERATOR" />|, niin poistut koko näytön tilasta.</translation>
 <translation id="6049065490165456785">Kuva laitteen kamerasta</translation>
 <translation id="6051354611314852653">Hups! Järjestelmä ei voinut sallia sovellusliittymän käyttöä tälle laitteelle.</translation>
@@ -3304,7 +3304,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6212752530110374741">Lähetä linkki sähköpostitse</translation>
 <translation id="6220413761270491930">Virhe ladattaessa laajennusta</translation>
 <translation id="6223447490656896591">Oma kuva:</translation>
-<translation id="62243461820985415">Chrome ei voi ladata tätä taustakuvaa.</translation>
+<translation id="62243461820985415">Brave ei voi ladata tätä taustakuvaa.</translation>
 <translation id="6224481128663248237">Alustus onnistui!</translation>
 <translation id="6225475702458870625">Datayhteys käytettävissä puhelimella <ph name="PHONE_NAME" /></translation>
 <translation id="6226777517901268232">Yksityinen avaintiedosto (valinnainen)</translation>
@@ -3340,7 +3340,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6270770586500173387">Lähetä <ph name="BEGIN_LINK1" />järjestelmä- ja sovellustietoja<ph name="END_LINK1" /> ja <ph name="BEGIN_LINK2" />tilastoja<ph name="END_LINK2" /></translation>
 <translation id="6272643420381259437">Virhe (<ph name="ERROR" />) ladattaessa laajennusta</translation>
 <translation id="6273677812470008672">Laatu</translation>
-<translation id="6274087148640822908">Löydät laajennuksia ja sovelluksia <ph name="BEGIN_LINK" />Chrome Web Storesta<ph name="END_LINK" />.</translation>
+<translation id="6274087148640822908">Löydät laajennuksia ja sovelluksia <ph name="BEGIN_LINK" />Brave Web Storesta<ph name="END_LINK" />.</translation>
 <translation id="62751439899495218">Vaihda kuva</translation>
 <translation id="6276301056778294989">Varmista, että laite näyttää samaa koodia.</translation>
 <translation id="6277105963844135994">Verkon aikakatkaisu</translation>
@@ -3363,7 +3363,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6305607932814307878">Yleinen käytäntö:</translation>
 <translation id="6307990684951724544">Järjestelmä on varattu</translation>
 <translation id="6308937455967653460">Tallenna lin&amp;kki nimellä...</translation>
-<translation id="6311220991371174222">Chromea ei voi käynnistää, koska profiilia avattaessa tapahtui virhe. Yritä käynnistää Chrome uudelleen.</translation>
+<translation id="6311220991371174222">Chromea ei voi käynnistää, koska profiilia avattaessa tapahtui virhe. Yritä käynnistää Brave uudelleen.</translation>
 <translation id="6312403991423642364">Tuntematon verkkovirhe</translation>
 <translation id="6313641880021325787">POISTU VR:STÄ</translation>
 <translation id="6314335155547195432">Luo salasana</translation>
@@ -3479,7 +3479,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6473842110411557830">Kuva Powerwashista</translation>
 <translation id="6474706907372204693">Edellinen syöttötapa</translation>
 <translation id="6474884162850599008">Katkaise yhteys Google Drive -tiliin.</translation>
-<translation id="6475079491906995455"><ph name="SERVICE_NAME" /> haluaa tarkistaa, että käytät yhteensopivaa Chrome-laitetta. <ph name="MORE_INFO_LINK" /></translation>
+<translation id="6475079491906995455"><ph name="SERVICE_NAME" /> haluaa tarkistaa, että käytät yhteensopivaa Brave-laitetta. <ph name="MORE_INFO_LINK" /></translation>
 <translation id="6475697075626596525"><ph name="APP_NAME" /> haluaa jakaa näyttösi sisällön. Valitse, mitä haluat jakaa.</translation>
 <translation id="6478248366783946499">Pidetäänkö haitallinen tiedosto?</translation>
 <translation id="6483805311199035658">Avataan tiedostoa <ph name="FILE" />...</translation>
@@ -3499,7 +3499,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6508261954199872201">Sovellus: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medialisenssi</translation>
 <translation id="6510568984200103950">Vähemmän asetuksia</translation>
-<translation id="6513247462497316522">Google Chrome käyttää mobiilitiedonsiirtoa, jos et ole yhteydessä toiseen verkkoon.</translation>
+<translation id="6513247462497316522">Brave käyttää mobiilitiedonsiirtoa, jos et ole yhteydessä toiseen verkkoon.</translation>
 <translation id="6514010653036109809">Käytettävissä oleva laite:</translation>
 <translation id="6514565641373682518">Tämä sivu on poistanut hiiren osoittimen käytöstä.</translation>
 <translation id="6518014396551869914">K&amp;opioi kuva</translation>
@@ -3587,12 +3587,12 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="665061930738760572">Avaa uudessa ikkunassa</translation>
 <translation id="6651237644330755633">Luota tähän varmenteeseen tunnistettaessa verkkosivustoja.</translation>
 <translation id="6653525630739667879">Kohteeseen $1 ei voi tallentaa. Kaikki muokkaukset tallennetaan Lataukset-kansioon kohteeseen $2.</translation>
-<translation id="665355505818177700">Chrome <ph name="MS_AD_NAME" /> ‑integraatiota tuetaan vain x86_64-alustoilla. ARM- tai x86-alustoille rakennetut Chromebookit eivät tue tätä toimintoa.</translation>
+<translation id="665355505818177700">Brave <ph name="MS_AD_NAME" /> ‑integraatiota tuetaan vain x86_64-alustoilla. ARM- tai x86-alustoille rakennetut Chromebookit eivät tue tätä toimintoa.</translation>
 <translation id="6655190889273724601">Kehittäjätila</translation>
 <translation id="6655458902729017087">Piilota tilit</translation>
 <translation id="6657585470893396449">Salasana</translation>
 <translation id="6659213950629089752">Tämän sivun lähensi laajennus <ph name="NAME" /></translation>
-<translation id="6664237456442406323">Tietokoneesi on valitettavasti määritetty virheellisellä laitetunnuksella. Siksi Chrome-käyttöjärjestelmä ei voi asentaa uusimpia tietoturvapäivityksiä ja tietokoneesi <ph name="BEGIN_BOLD" />voi altistua hyökkäyksille<ph name="END_BOLD" />.</translation>
+<translation id="6664237456442406323">Tietokoneesi on valitettavasti määritetty virheellisellä laitetunnuksella. Siksi Brave-käyttöjärjestelmä ei voi asentaa uusimpia tietoturvapäivityksiä ja tietokoneesi <ph name="BEGIN_BOLD" />voi altistua hyökkäyksille<ph name="END_BOLD" />.</translation>
 <translation id="6664774537677393800">Jokin meni vikaan profiilisi avaamisessa. Kirjaudu ensin ulos ja sitten uudelleen sisään.</translation>
 <translation id="6673391612973410118"><ph name="PRINTER_MAKE_OR_MODEL" /> (USB)</translation>
 <translation id="667517062706956822">Haluatko, että Google kääntää tämän sivun kielestä <ph name="SOURCE_LANGUAGE" /> kieleen <ph name="TARGET_LANGUAGE" />?</translation>
@@ -3768,7 +3768,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6976108581241006975">JavaScript-konsoli</translation>
 <translation id="6977381486153291903">Laiteohjelmiston versio</translation>
 <translation id="6978121630131642226">Hakukoneet</translation>
-<translation id="6978611942794658017">Tämä tiedosto on tarkoitettu tietokoneelle, joka käyttää Windowsia. Se ei ole yhteensopiva Chrome-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi sopiva korvaava sovellus Chrome Web Storesta.</translation>
+<translation id="6978611942794658017">Tämä tiedosto on tarkoitettu tietokoneelle, joka käyttää Windowsia. Se ei ole yhteensopiva Brave-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi sopiva korvaava sovellus Brave Web Storesta.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979737339423435258">Kaikki</translation>
 <translation id="6980462514016882061">Google voi muokata hakua, mainoksia ja muita Googlen palveluita selaushistoriasi perusteella.</translation>
@@ -3845,7 +3845,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="708060913198414444">K&amp;opioi äänen osoite</translation>
 <translation id="708278670402572152">Katkaise yhteys, jotta skannaus voidaan ottaa käyttöön.</translation>
 <translation id="7084192839369222683">Suorita vain tärkeä sisältö</translation>
-<translation id="7085389578340536476">Saako Chrome nauhoittaa ääntä?</translation>
+<translation id="7085389578340536476">Saako Brave nauhoittaa ääntä?</translation>
 <translation id="7088434364990739311">Päivitystarkistuksen käynnistäminen epäonnistui (virhekoodi <ph name="ERROR" />).</translation>
 <translation id="7088561041432335295">Zip Archiver – Avaa ja pakkaa ZIP-tiedostoja Tiedostot-sovelluksessa.</translation>
 <translation id="7088674813905715446">Järjestelmänvalvoja on asettanut tämän laitteen poistotilaan. Voit asettaa sen käyttöönottotilaan pyytämällä järjestelmänvalvojaa asettamaan laitteen odottavaan tilaan.</translation>
@@ -3888,7 +3888,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7152478047064750137">Tämä laajennus ei vaadi erityisiä käyttöoikeuksia.</translation>
 <translation id="7154130902455071009">Vaihda aloitussivuksi <ph name="START_PAGE" /></translation>
 <translation id="7155171745945906037">Olemassa oleva kuva kamerasta tai tiedostosta</translation>
-<translation id="7156235233373189579">Tämä tiedosto on tarkoitettu Windows-ohjelmistoa käyttävälle tietokoneelle. Tämä ei ole yhteensopiva Chrome-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi sopiva korvaava sovellus <ph name="BEGIN_LINK" />Chrome Web Storesta<ph name="END_LINK" />. <ph name="BEGIN_LINK_HELP" />Lisätietoja<ph name="END_LINK_HELP" /></translation>
+<translation id="7156235233373189579">Tämä tiedosto on tarkoitettu Windows-ohjelmistoa käyttävälle tietokoneelle. Tämä ei ole yhteensopiva Brave-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi sopiva korvaava sovellus <ph name="BEGIN_LINK" />Brave Web Storesta<ph name="END_LINK" />. <ph name="BEGIN_LINK_HELP" />Lisätietoja<ph name="END_LINK_HELP" /></translation>
 <translation id="7165320105431587207">Verkon asetuksien määrittäminen epäonnistui</translation>
 <translation id="716640248772308851"><ph name="EXTENSION" /> voi lukea kuva-, video- ja äänitiedostoja valituissa sijainneissa.</translation>
 <translation id="7167486101654761064">&amp;Avaa aina tämäntyyppiset tiedostot</translation>
@@ -4003,13 +4003,13 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7376553024552204454">Korosta hiiren osoitinta, kun se liikkuu</translation>
 <translation id="7377169924702866686">Caps Lock on päällä.</translation>
 <translation id="7378627244592794276">Ei</translation>
-<translation id="73786666777299047">Avaa Chrome Web Store</translation>
+<translation id="73786666777299047">Avaa Brave Web Store</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7378812711085314936">Luo mobiiliyhteys</translation>
 <translation id="7382945755068785583">Sisältää tietoja tietokoneesi haitallisista ohjelmista, järjestelmäasetuksista ja prosesseista.</translation>
 <translation id="7384292194278095697">Tätä laitetta ei enää tueta</translation>
 <translation id="7385854874724088939">Ongelmia tulostuksessa. Tarkista tulostimesi ja yritä uudelleen.</translation>
-<translation id="7386824183915085801">Käyttämäsi Chrome- ja käyttöjärjestelmäversiot lähetetään muiden yllä
+<translation id="7386824183915085801">Käyttämäsi Brave- ja käyttöjärjestelmäversiot lähetetään muiden yllä
         kertomiesi tietojen lisäksi. Jos kerrot myös sähköpostiosoitteesi,
         Google saattaa ottaa sinuun yhteyttä palauteraporttiisi liittyen. Tätä palautetta
         käytetään ongelmien diagnosoimiseen ja Chromen parantamiseen. Kaikki joko
@@ -4130,7 +4130,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7565291891798266313">Hakukoneeksi vaihdettiin <ph name="URL" />. Jos haluat poistaa käytöstä laajennuksia, jotka voivat vaihtaa hakukoneesi, klikkaa Palauta.</translation>
 <translation id="7566118625369982896">Hallinnoi Play-sovelluksen linkkejä</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Chrome-tiedot tyhjennetty</translation>
+<translation id="756809126120519699">Brave-tiedot tyhjennetty</translation>
 <translation id="7568790562536448087">Päivitetään</translation>
 <translation id="7571643774869182231">Tallennustila ei riitä päivitykseen.</translation>
 <translation id="7573172247376861652">Akun varaus</translation>
@@ -4143,7 +4143,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7581462281756524039">Poistotyökalu</translation>
 <translation id="7582582252461552277">Käytä tätä verkkoa</translation>
 <translation id="7586312264284919041">Haluatko kääntää tämän sivun?</translation>
-<translation id="7586498138629385861">Chrome pysyy käynnissä, kun Chrome-sovelluksia on avoinna.</translation>
+<translation id="7586498138629385861">Brave pysyy käynnissä, kun Brave-sovelluksia on avoinna.</translation>
 <translation id="7589461650300748890">Hei, varo vähän.</translation>
 <translation id="7589661784326793847">Odota hetki</translation>
 <translation id="7591957897535945411">Sivu on käännetty.</translation>
@@ -4203,7 +4203,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7704521324619958564">Avaa Play Kaupppa</translation>
 <translation id="7705276765467986571">Kirjanmerkkimallin lataaminen epäonnistui.</translation>
 <translation id="7705524343798198388">VPN</translation>
-<translation id="7705600705238488017">Haluatko sen sijaan <ph name="BEGIN_LINK" />selata Chrome Web Storea<ph name="END_LINK" />?</translation>
+<translation id="7705600705238488017">Haluatko sen sijaan <ph name="BEGIN_LINK" />selata Brave Web Storea<ph name="END_LINK" />?</translation>
 <translation id="7705990546212675384">Lisää yhteystieto</translation>
 <translation id="7707922173985738739">Käytä mobiilidataa</translation>
 <translation id="7709152031285164251">Epäonnistui – <ph name="INTERRUPT_REASON" /></translation>
@@ -4472,7 +4472,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8116925261070264013">Mykistetty</translation>
 <translation id="8116972784401310538">&amp;Kirjanmerkkien hallinta</translation>
 <translation id="8117620576188476503">Tila-alueella voit hallita yhteyksiä, päivityksiä ja asetuksia. Avaa se näppäimistöllä painamalla Alt + vaihto + S.</translation>
-<translation id="8118362518458010043">Chrome on poistanut tämän laajennuksen käytöstä, sillä se ei välttämättä ole turvallinen.</translation>
+<translation id="8118362518458010043">Brave on poistanut tämän laajennuksen käytöstä, sillä se ei välttämättä ole turvallinen.</translation>
 <translation id="8118860139461251237">hallinnoida latauksiasi</translation>
 <translation id="81238879832906896">Kelta-valkoinen kukka</translation>
 <translation id="8124313775439841391">Hallinnoitu ONC</translation>
@@ -4662,7 +4662,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8454288007744638700">Tai valitse uusi verkko:</translation>
 <translation id="845627346958584683">Päättymisaika</translation>
 <translation id="8456681095658380701">Nimi ei kelpaa</translation>
-<translation id="8460336040822756677">Jos poistat käytöstä Smart Lockin laitteelle <ph name="DEVICE_TYPE" />, et voi avata Chrome-laitteiden lukitusta käyttämällä puhelintasi. Sinun täytyy antaa salasanasi.</translation>
+<translation id="8460336040822756677">Jos poistat käytöstä Smart Lockin laitteelle <ph name="DEVICE_TYPE" />, et voi avata Brave-laitteiden lukitusta käyttämällä puhelintasi. Sinun täytyy antaa salasanasi.</translation>
 <translation id="8461329675984532579">Kotiverkon palveluntarjoajan nimi</translation>
 <translation id="84613761564611563">Verkon määrityksen käyttöliittymää pyydettiin, odota hetki…</translation>
 <translation id="8461914792118322307">Välityspalvelin</translation>
@@ -4748,7 +4748,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8620617069779373398">Roaming-tila</translation>
 <translation id="8620765578342452535">Määrittää verkkoyhteydet</translation>
 <translation id="8620790565535071193">Haku epäonnistui</translation>
-<translation id="8623004009673949077">Sovellukset, joilla on luettelomäärite kiosk_only, täytyy asentaa Chrome-käyttöjärjestelmän kioskitilassa.</translation>
+<translation id="8623004009673949077">Sovellukset, joilla on luettelomäärite kiosk_only, täytyy asentaa Brave-käyttöjärjestelmän kioskitilassa.</translation>
 <translation id="8624205858755890468">Sallii Assistantin näyttää kohteisiin liittyviä tietoja, sovelluksia ja toimintoja.</translation>
 <translation id="862542460444371744">Laaj&amp;ennukset</translation>
 <translation id="8627151598708688654">Valitse lähde</translation>
@@ -4758,7 +4758,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8628085465172583869">Palvelimen verkkoaseman tunnus:</translation>
 <translation id="8630903300770275248">Tuo valvottu käyttäjä</translation>
 <translation id="8631032106121706562">Kukka</translation>
-<translation id="8637542770513281060">Tietokoneesi sisältää suojausmoduulin, jonka avulla käytetään monia tärkeitä turvallisuusominaisuuksia Chrome-käyttöjärjestelmässä. Lisätietoja on Chromebook-ohjekeskuksessa: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Tietokoneesi sisältää suojausmoduulin, jonka avulla käytetään monia tärkeitä turvallisuusominaisuuksia Brave-käyttöjärjestelmässä. Lisätietoja on Chromebook-ohjekeskuksessa: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">Järjestelmäpäivitys saatavilla. Valmistellaan latausta...</translation>
 <translation id="8639047128869322042">Etsitään haittaohjelmia…</translation>
 <translation id="8639963783467694461">Automaattisen täytön asetukset</translation>
@@ -4783,7 +4783,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8662795692588422978">Henkilöt</translation>
 <translation id="8662811608048051533">Kirjaa sinut ulos useimmilta sivustoilta.</translation>
 <translation id="8662911384982557515">Vaihda aloitussivuksi <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Chrome ei voi asettaa tätä taustakuvaa.</translation>
+<translation id="8662978096466608964">Brave ei voi asettaa tätä taustakuvaa.</translation>
 <translation id="8663099077749055505">Estä aina sivustoa <ph name="HOST" /> lataamasta useita tiedostoja automaattisesti</translation>
 <translation id="8664389313780386848">&amp;Näytä sivun lähdekoodi</translation>
 <translation id="866611985033792019">Luota tähän varmenteeseen sähköpostin käyttäjiä tunnistettaessa.</translation>
@@ -4851,7 +4851,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8757803915342932642">Google Cloud Devices -laite</translation>
 <translation id="8759408218731716181">Useisiin tileihin kirjautumista ei sallita</translation>
 <translation id="8759753423332885148">Lisätietoja</translation>
-<translation id="8767621466733104912">Päivitä kaikkien käyttäjien Chrome automaattisesti</translation>
+<translation id="8767621466733104912">Päivitä kaikkien käyttäjien Brave automaattisesti</translation>
 <translation id="8770406935328356739">Laajennuksen juurihakemisto</translation>
 <translation id="8770507190024617908">Hallinnoi käyttäjiä</translation>
 <translation id="8774934320277480003">Yläreuna</translation>
@@ -5061,7 +5061,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="9103001804464916031">{NUM_DOWNLOAD,plural, =1{Lataus käynnissä}other{Latauksia käynnissä}}</translation>
 <translation id="9105212490906037469">F2</translation>
 <translation id="9109122242323516435">Vapauta tilaa poistamalla laitteeseen tallennettuja tiedostoja.</translation>
-<translation id="9110990317705400362">Pyrimme jatkuvasti tekemään selaamisesta turvallisempaa. Aiemmin mikä tahansa sivusto pystyi pyytämään laajennuksen lisäämistä selaimeen. Uusimmissa Google Chrome -versioissa sinun on erikseen ilmoitettava Chromelle, että haluat asentaa nämä laajennukset, lisäämällä ne Laajennukset-sivulla. <ph name="BEGIN_LINK" />Lisätietoja<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">Pyrimme jatkuvasti tekemään selaamisesta turvallisempaa. Aiemmin mikä tahansa sivusto pystyi pyytämään laajennuksen lisäämistä selaimeen. Uusimmissa Brave -versioissa sinun on erikseen ilmoitettava Chromelle, että haluat asentaa nämä laajennukset, lisäämällä ne Laajennukset-sivulla. <ph name="BEGIN_LINK" />Lisätietoja<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">Poista lukitus</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112748030372401671">Vaihda taustakuva</translation>
@@ -5082,7 +5082,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="9131487537093447019">Lähettää viestejä Bluetooth-laitteisiin ja vastaanottaa viestejä Bluetooth-laitteilta.</translation>
 <translation id="9131598836763251128">Valitse vähintään yksi tiedosto</translation>
 <translation id="9133055936679483811">Pakkaus epäonnistui. <ph name="ERROR_MESSAGE" /></translation>
-<translation id="9134524245363717059">Tämä tiedosto on tarkoitettu tietokoneelle, joka käyttää Macintosh-ohjelmistoa. Tämä ei ole yhteensopiva Chrome-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi Chrome Web Storesta soveltuva sovellus.</translation>
+<translation id="9134524245363717059">Tämä tiedosto on tarkoitettu tietokoneelle, joka käyttää Macintosh-ohjelmistoa. Tämä ei ole yhteensopiva Brave-käyttöjärjestelmää käyttävän laitteesi kanssa. Etsi Brave Web Storesta soveltuva sovellus.</translation>
 <translation id="9137013805542155359">Näytä alkuperäinen</translation>
 <translation id="9137916601698928395">Avaa linkki käyttäjänä <ph name="USER" /></translation>
 <translation id="9138978632494473300">Lisää pikanäppäimiä seuraaviin kohtiin:</translation>
@@ -5138,7 +5138,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="939598580284253335">Anna tunnuslause</translation>
 <translation id="939736085109172342">Uusi kansio</translation>
 <translation id="941543339607623937">Virheellinen yksityinen avain.</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> jakaa Chrome-välilehden ja ääntä.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> jakaa Brave-välilehden ja ääntä.</translation>
 <translation id="942954117721265519">Tässä hakemistossa ei ole kuvia.</translation>
 <translation id="945522503751344254">Lähetä palautetta</translation>
 <translation id="951981865514037445"><ph name="URL" /> haluaa käyttää laitteesi sijaintia.</translation>
