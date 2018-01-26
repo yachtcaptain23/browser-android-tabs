@@ -74,7 +74,7 @@ bool CookieSettings::IsCookieSessionOnly(const GURL& origin) {
   return (setting == CONTENT_SETTING_SESSION_ONLY);
 }
 
-bool CookieSettings::IsCookieSessionOnlyOrBlocked(const GURL& origin) const {
+bool CookieSettings::IsCookieSessionOnlyOrBlocked(const GURL& origin) {
   ContentSetting setting;
   GetCookieSetting(origin, origin, nullptr, &setting);
   DCHECK(IsValidSetting(setting));
