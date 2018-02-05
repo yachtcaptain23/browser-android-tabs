@@ -10,6 +10,7 @@
 #include <vector>
 #include <mutex>
 
+#include "bat_helper.h"
 #include "url_fetcher_delegate.h"
 #include "base/callback.h"
 
@@ -25,22 +26,21 @@ namespace bat_client {
 
 class BatClientWebRequest: public net::URLFetcherDelegate {
 public:
-  typedef base::Callback<void(bool, const std::string&)> FetchCallback;
-
   struct URL_FETCH_REQUEST {
     URL_FETCH_REQUEST();
     ~URL_FETCH_REQUEST();
 
     std::unique_ptr<net::URLFetcher> url_fetcher_;
-    FetchCallback callback_;
+    BatHelper::FetchCallback callback_;
+    FETCH_CALLBACK_EXTRA_DATA_ST extraData_;
   };
 
   BatClientWebRequest();
   ~BatClientWebRequest() final;
 
-  void run(const std::string& url, BatClientWebRequest::FetchCallback callback,
+  void run(const std::string& url, BatHelper::FetchCallback callback,
     const std::vector<std::string>& headers, const std::string& content,
-    const std::string& contentType);
+    const std::string& contentType, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
 
   void OnURLFetchComplete(const net::URLFetcher* source) final;
   void OnURLFetchDownloadProgress(const net::URLFetcher* source,
@@ -55,9 +55,9 @@ public:
   }
 
 private:
-  void runOnThread(const std::string& url, BatClientWebRequest::FetchCallback callback,
+  void runOnThread(const std::string& url, BatHelper::FetchCallback callback,
     const std::vector<std::string>& headers, const std::string& content,
-    const std::string& contentType);
+    const std::string& contentType, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
 
   std::unique_ptr<net::UploadDataStream> CreateUploadStream(const std::string& stream);
 

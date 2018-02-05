@@ -311,7 +311,7 @@ WebContents* WebContents::Create(const WebContents::CreateParams& params) {
   WebContents* web_contents = WebContentsImpl::CreateWithOpener(params, FindOpener(params));
   std::shared_ptr<WebContentsLedgerObserver> web_contents_ledger_observer(new WebContentsLedgerObserver(web_contents));
   g_browser_process->ledger_manager_.AddObserver(web_contents_ledger_observer);
-  
+
   return web_contents;
 }
 
@@ -4295,7 +4295,6 @@ void WebContentsImpl::OnUpdateFaviconURL(
   // for the new page has committed.
   if (!source->IsCurrent())
     return;
-
   for (auto& observer : observers_)
     observer.DidUpdateFaviconURL(candidates);
 }

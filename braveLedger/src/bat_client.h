@@ -7,41 +7,46 @@
 
 #include <string>
 #include <vector>
+#include <mutex>
 #include "bat_client_webrequest.h"
 #include "bat_helper.h"
+#include "base/callback.h"
 
 namespace bat_client {
 
 class BatClient {
 public:
+
   BatClient(const bool& useProxy = true);
   ~BatClient();
 
   void loadStateOrRegisterPersona();
-  void requestCredentialsCallback(bool result, const std::string& response);
-  void registerPersonaCallback(bool result, const std::string& response);
-  void publisherTimestampCallback(bool result, const std::string& response);
+  void requestCredentialsCallback(bool result, const std::string& response, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
+  void registerPersonaCallback(bool result, const std::string& response, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
+  void publisherTimestampCallback(bool result, const std::string& response, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
+  uint64_t getPublisherTimestamp();
+  void publisherInfo(const std::string& publisher, BatHelper::FetchCallback callback,
+    const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
+  void setContributionAmount(const double& amount);
+
+  std::string getBATAddress();
+  std::string getBTCAddress();
+  std::string getETHAddress();
+  std::string getLTCAddress();
 
 private:
-  void loadStateOrRegisterPersonaCallback(bool result, const STATE_ST& state);
+  void loadStateOrRegisterPersonaCallback(bool result, const CLIENT_STATE_ST& state);
   void registerPersona();
-  void publisherTimestamp();
+  void publisherTimestamp(const bool& saveState = true);
 
   std::string buildURL(const std::string& path, const std::string& prefix);
 
   bool useProxy_;
   BatClientWebRequest batClientWebRequest_;
-  std::string personaId_;
-  std::string userId_;
-  std::string registrarVK_;
+  CLIENT_STATE_ST state_;
   std::string preFlight_;
-  std::string masterUserToken_;
-  WALLET_INFO_ST walletInfo_;
-  std::string fee_currency_;
-  double fee_amount_;
-  unsigned int days_;
-  unsigned long long bootStamp_;
-  unsigned long long reconcileStamp_;
+  uint64_t publisherTimestamp_;
+  std::mutex state_mutex_;
 };
 }
 

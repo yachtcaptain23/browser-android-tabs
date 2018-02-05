@@ -30,16 +30,65 @@
 
 REQUEST_CREDENTIALS_ST::REQUEST_CREDENTIALS_ST() {}
 REQUEST_CREDENTIALS_ST::~REQUEST_CREDENTIALS_ST() {}
+
 WALLET_INFO_ST::WALLET_INFO_ST() {}
 WALLET_INFO_ST::~WALLET_INFO_ST() {}
-STATE_ST::STATE_ST(): settings_(AD_FREE_SETTINGS) {}
-STATE_ST::~STATE_ST() {}
+
+CLIENT_STATE_ST::CLIENT_STATE_ST():
+  bootStamp_(0),
+  reconcileStamp_(0),
+  settings_(AD_FREE_SETTINGS),
+  fee_amount_(0),
+  days_(0)  {}
+CLIENT_STATE_ST::~CLIENT_STATE_ST() {}
+
+PUBLISHER_STATE_ST::PUBLISHER_STATE_ST():
+  min_pubslisher_duration_(ledger::_default_min_pubslisher_duration),
+  min_visits_(1),
+  allow_non_verified_(true) {}
+PUBLISHER_STATE_ST::~PUBLISHER_STATE_ST() {}
+
 PUBLISHER_ST::PUBLISHER_ST():
   duration_(0),
   score_(0),
-  visits_(0) {
-}
+  visits_(0),
+  verified_(false),
+  exclude_(false),
+  pinPercentage_(false),
+  verifiedTimeStamp_(0),
+  percent_(0),
+  deleted_(false) {}
+PUBLISHER_ST::PUBLISHER_ST(const PUBLISHER_ST& publisher) :
+  duration_(publisher.duration_),
+  favicon_url_(publisher.favicon_url_),
+  score_(publisher.score_),
+  visits_(publisher.visits_),
+  verified_(publisher.verified_),
+  exclude_(publisher.exclude_),
+  pinPercentage_(publisher.pinPercentage_),
+  verifiedTimeStamp_(publisher.verifiedTimeStamp_),
+  percent_(publisher.percent_),
+  deleted_(publisher.deleted_) {}
 PUBLISHER_ST::~PUBLISHER_ST() {}
+
+PUBLISHER_DATA_ST::PUBLISHER_DATA_ST() :
+  daysSpent_(0),
+  hoursSpent_(0),
+  minutesSpent_(0),
+  secondsSpent_(0) {}
+PUBLISHER_DATA_ST::PUBLISHER_DATA_ST(const PUBLISHER_DATA_ST& publisherData) :
+  publisherKey_(publisherData.publisherKey_),
+  publisher_(publisherData.publisher_),
+  daysSpent_(publisherData.daysSpent_),
+  hoursSpent_(publisherData.hoursSpent_),
+  minutesSpent_(publisherData.minutesSpent_),
+  secondsSpent_(publisherData.secondsSpent_) {}
+PUBLISHER_DATA_ST::~PUBLISHER_DATA_ST() {}
+
+FETCH_CALLBACK_EXTRA_DATA_ST::FETCH_CALLBACK_EXTRA_DATA_ST():
+  value1(0),
+  boolean1(true) {}
+FETCH_CALLBACK_EXTRA_DATA_ST::~FETCH_CALLBACK_EXTRA_DATA_ST() {}
 
 
 
@@ -74,7 +123,34 @@ std::string BatHelper::getJSONValue(const std::string& fieldName, const std::str
   return res;
 }
 
-void BatHelper::getJSONState(const std::string& json, STATE_ST& state) {
+void BatHelper::getJSONPublisherState(const std::string& json, PUBLISHER_STATE_ST& state) {
+  std::unique_ptr<base::Value> json_object = base::JSONReader::Read(json);
+  if (nullptr == json_object.get()) {
+      LOG(ERROR) << "BatHelper::getJSONState: incorrect json object";
+
+      return;
+  }
+
+  const base::DictionaryValue* childTopDictionary = nullptr;
+  json_object->GetAsDictionary(&childTopDictionary);
+  if (nullptr == childTopDictionary) {
+      return;
+  }
+  const base::Value* value = nullptr;
+  if (childTopDictionary->Get("min_pubslisher_duration", &value)) {
+    value->GetAsInteger((int*)&state.min_pubslisher_duration_);
+    assert(0 != state.min_pubslisher_duration_);
+  }
+  if (childTopDictionary->Get("min_visits", &value)) {
+    value->GetAsInteger((int*)&state.min_visits_);
+    assert(0 != state.min_visits_);
+  }
+  if (childTopDictionary->Get("allow_non_verified", &value)) {
+    value->GetAsBoolean(&state.allow_non_verified_);
+  }
+}
+
+void BatHelper::getJSONState(const std::string& json, CLIENT_STATE_ST& state) {
   std::unique_ptr<base::Value> json_object = base::JSONReader::Read(json);
   if (nullptr == json_object.get()) {
       LOG(ERROR) << "BatHelper::getJSONState: incorrect json object";
@@ -186,8 +262,8 @@ void BatHelper::getJSONPublisher(const std::string& json, PUBLISHER_ST& publishe
     std::stringstream temp(duration);
     temp >> publisher_st.duration_;
   }
-  if (childTopDictionary->Get("fav_icon_URL", &value)) {
-    value->GetAsString(&publisher_st.fav_icon_URL_);
+  if (childTopDictionary->Get("favicon_url", &value)) {
+    value->GetAsString(&publisher_st.favicon_url_);
   }
   if (childTopDictionary->Get("score", &value)) {
     value->GetAsDouble(&publisher_st.score_);
@@ -195,8 +271,48 @@ void BatHelper::getJSONPublisher(const std::string& json, PUBLISHER_ST& publishe
   if (childTopDictionary->Get("visits", &value)) {
     value->GetAsInteger((int*)&publisher_st.visits_);
   }
+  if (childTopDictionary->Get("verified", &value)) {
+    value->GetAsBoolean(&publisher_st.verified_);
+  }
+  if (childTopDictionary->Get("exclude", &value)) {
+    value->GetAsBoolean(&publisher_st.exclude_);
+  }
+  if (childTopDictionary->Get("pinPercentage", &value)) {
+    value->GetAsBoolean(&publisher_st.pinPercentage_);
+  }
+  if (childTopDictionary->Get("verifiedTimeStamp", &value)) {
+    std::string verifiedTimeStamp;
+    value->GetAsString(&verifiedTimeStamp);
+    std::stringstream temp(verifiedTimeStamp);
+    temp >> publisher_st.verifiedTimeStamp_;
+  }
+  if (childTopDictionary->Get("percent", &value)) {
+    value->GetAsInteger((int*)&publisher_st.percent_);
+  }
+  if (childTopDictionary->Get("deleted", &value)) {
+    value->GetAsBoolean(&publisher_st.deleted_);
+  }
 }
 
+void BatHelper::getJSONPublisherVerified(const std::string& json, bool& verified) {
+  verified = false;
+  std::unique_ptr<base::Value> json_object = base::JSONReader::Read(json);
+  if (nullptr == json_object.get()) {
+      LOG(ERROR) << "BatHelper::getJSONPublisherVerified: incorrect json object";
+
+      return;
+  }
+
+  const base::DictionaryValue* childTopDictionary = nullptr;
+  json_object->GetAsDictionary(&childTopDictionary);
+  if (nullptr == childTopDictionary) {
+      return;
+  }
+  const base::Value* value = nullptr;
+  if (childTopDictionary->Get("properties.verified", &value)) {
+    value->GetAsBoolean(&verified);
+  }
+}
 
 void BatHelper::getJSONWalletInfo(const std::string& json, WALLET_INFO_ST& walletInfo,
       std::string& fee_currency, double& fee_amount, unsigned int& days) {
@@ -257,6 +373,29 @@ void BatHelper::getJSONWalletInfo(const std::string& json, WALLET_INFO_ST& walle
   }
 }
 
+void BatHelper::getJSONPublisherTimeStamp(const std::string& json, uint64_t& publisherTimestamp) {
+  publisherTimestamp = 0;
+  std::unique_ptr<base::Value> json_object = base::JSONReader::Read(json);
+  if (nullptr == json_object.get()) {
+      LOG(ERROR) << "BatHelper::getJSONPublisherTimeStamp: incorrect json object";
+
+      return;
+  }
+
+  const base::DictionaryValue* childTopDictionary = nullptr;
+  json_object->GetAsDictionary(&childTopDictionary);
+  if (nullptr == childTopDictionary) {
+      return;
+  }
+  const base::Value* value = nullptr;
+  if (childTopDictionary->Get("timestamp", &value)) {
+    std::string timestamp;
+    value->GetAsString(&timestamp);
+    std::stringstream temp(timestamp);
+    temp >> publisherTimestamp;
+  }
+}
+
 std::vector<uint8_t> BatHelper::generateSeed() {
   //std::ostringstream seedStr;
 
@@ -299,7 +438,7 @@ std::vector<uint8_t> BatHelper::getHKDF(const std::vector<uint8_t>& seed) {
   LOG(ERROR) << "!!!seed == " << seedStr1.str();*/
   //
   int hkdfRes = HKDF(&out.front(), SEED_LENGTH, EVP_sha512(), &seed.front(), seed.size(),
-    g_hkdfSalt, SALT_LENGTH, nullptr, 0);
+    ledger::g_hkdfSalt, SALT_LENGTH, nullptr, 0);
 
   DCHECK(hkdfRes);
   DCHECK(!seed.empty());
@@ -395,7 +534,7 @@ std::string BatHelper::stringifyRequestCredentialsSt(const REQUEST_CREDENTIALS_S
   return res;
 }
 
-std::string BatHelper::stringifyState(const STATE_ST& state) {
+std::string BatHelper::stringifyState(const CLIENT_STATE_ST& state) {
   std::string res;
 
   base::DictionaryValue root_dict;
@@ -424,14 +563,33 @@ std::string BatHelper::stringifyState(const STATE_ST& state) {
   return res;
 }
 
+std::string BatHelper::stringifyPublisherState(const PUBLISHER_STATE_ST& state) {
+  std::string res;
+
+  base::DictionaryValue root_dict;
+  root_dict.SetInteger("min_pubslisher_duration", state.min_pubslisher_duration_);
+  root_dict.SetInteger("min_visits", state.min_visits_);
+  root_dict.SetBoolean("allow_non_verified", state.allow_non_verified_);
+
+  base::JSONWriter::Write(root_dict, &res);
+
+  return res;
+}
+
 std::string BatHelper::stringifyPublisher(PUBLISHER_ST& publisher_st) {
   std::string res;
 
   base::DictionaryValue root_dict;
   root_dict.SetString("duration", std::to_string(publisher_st.duration_));
-  root_dict.SetString("fav_icon_URL", publisher_st.fav_icon_URL_);
+  root_dict.SetString("favicon_url", publisher_st.favicon_url_);
   root_dict.SetDouble("score", publisher_st.score_);
   root_dict.SetInteger("visits", publisher_st.visits_);
+  root_dict.SetBoolean("verified", publisher_st.verified_);
+  root_dict.SetBoolean("exclude", publisher_st.exclude_);
+  root_dict.SetBoolean("pinPercentage", publisher_st.pinPercentage_);
+  root_dict.SetString("verifiedTimeStamp", std::to_string(publisher_st.verifiedTimeStamp_));
+  root_dict.SetInteger("percent", publisher_st.percent_);
+  root_dict.SetBoolean("deleted", publisher_st.deleted_);
 
   base::JSONWriter::Write(root_dict, &res);
   LOG(ERROR) << "!!!stringifyPublisher res == " << res;
@@ -494,9 +652,9 @@ std::string BatHelper::sign(std::string* keys, std::string* values, const unsign
     message += keys[i] + ": " + values[i];
   }
   std::vector<uint8_t> signedMsg(crypto_sign_BYTES + message.length());
-  unsigned long long signedMsgSize = 0;
+  uint64_t signedMsgSize = 0;
   crypto_sign(&signedMsg.front(), &signedMsgSize, (const unsigned char*)message.c_str(),
-    (unsigned long long)message.length(), &secretKey.front());
+    (uint64_t)message.length(), &secretKey.front());
   std::vector<uint8_t> signature(crypto_sign_BYTES);
   std::copy(signedMsg.begin(), signedMsg.begin() + crypto_sign_BYTES, signature.begin());
 
@@ -504,7 +662,7 @@ std::string BatHelper::sign(std::string* keys, std::string* values, const unsign
     "\",headers=\"" + headers + "\",signature=\"" + BatHelper::getBase64(signature) + "\"";
 }
 
-unsigned long long BatHelper::currentTime() {
+uint64_t BatHelper::currentTime() {
   return time(0);
 }
 
@@ -513,33 +671,71 @@ void BatHelper::writeStateFile(const std::string& data) {
   base::PathService::Get(base::DIR_HOME, &dirToSave);
   dirToSave = dirToSave.Append(LEDGER_STATE_FILENAME);
 
-  // TODO write the state
+  assert(base::WriteFile(dirToSave, data.c_str(), data.length()));
 }
 
 void BatHelper::readStateFile(BatHelper::ReadStateCallback callback) {
-  base::FilePath dirToSave;
+  // to do debug
+  CLIENT_STATE_ST state;
+  BatHelper::getJSONState("{\"bootStamp\":\"1513801479000\",\"days\":30,\"fee_amount\":5.0,\"fee_currency\":\"USD\",\"masterUserToken\":\"==========ANONLOGIN_CRED_BEG==========\n6d1219ab4ac45a5928323eb196ed62a\n877tj628PcvlP1zchf9Aqdcdd5vanNWcWA6W38frVWt\n8jgv5COUICuE2dsT9/pCfDWzgnyqsEdIpxyBjsrguOE 8PLZV85uw+e0xMqx57jIxvTdbTfV3TjGgO5r18x7Ibw 1\n1oJSttLRXBNE9D5PJjCuBWaAmt/s+sPzochwRCtYCp+\n6cvYviG1DoeDDYEXFFGxbT8cqGbxZs44ln9KiwGzVGe\n===========ANONLOGIN_CRED_END==========\",\"personaId\":\"6d1219ab-4ac4-45a5-9283-23eb196ed62a\",\"reconcileStamp\":\"1516393479000\",\"registrarVK\":\"==========ANONLOGIN_VK_BEG==========\nx3EmZXFb2jD7OocZz6l7o638S45k2kKrX5BrWp1Ox+ ANJXSauJVPNHKl/mmakFwxbkwJkJzfXe+c9+jxFtuX6 1\n5xMuqWE8J7HIHbW/UEJwFELYjTWRF10x7LMd7s46MVT 4DC6LqGM8zLz1pCsHA3qab48gkpeiQpNZAdb9owFvU6 \n1tADCD6LdrEDQQDhRy1ijjAfhV9uKwlKKuhD6xXyPAZ BLOzUy+ZZh48riPnAHnUGal+ceCclccZXmoXXx92WHW 1\n7VRDst4U4iaT/9QNCwajEaqgRNtKPV1Dp5QuMjP019h HucbxBMGGAZBNLXGzfKsTlF+wAdmOFAvBRAo8i2Azd 1\n5SLk8SphICEkF+CNhN5g7IX2ih+Tb6w14LLlwupKw7y 96ANsdHzg0pwo2DDWOyAh1YPnION196pIT9xwISFZTA 3ef5G5d2c8cctdK4LuaxlSeEf1OZ100Sy5un5EjuHJB 77yFnY61GM7PHd6q3TLs2QS6c9PfrXD2idxaFq2DMd 1 0\n===========ANONLOGIN_VK_END==========\",\"settings\":\"adFree\",\"userId\":\"6d1219ab4ac45a5928323eb196ed62a\",\"wallet_info\":{\"addressBAT\":\"0xb6D2Ce629970fa023cE94071a13DBb3a0B7Ad615\",\"addressBTC\":\"moHQRnXhUAgmj3Cx9sWPsViAFiYM1KrFdp\",\"addressCARD_ID\":\"ede6ca9b-0dcb-4c3c-9dc2-6fca2ca6763c\",\"addressETH\":\"0xb6D2Ce629970fa023cE94071a13DBb3a0B7Ad615\",\"addressLTC\":\"moRTAecPfzphfs4zTzKT7Fxb82qAeL5htM\",\"keyInfoSeed_\":\"KFU2+vesyrQNNykr1U+Bz5LVflIjLHfJ/ZNT5R3ShEY=\",\"paymentId\":\"4b0b878c-e2aa-4725-845b-66c5fb0ff3c5\"}}", state);
+  callback.Run(true, state);
+  //
+  /*base::FilePath dirToSave;
   base::PathService::Get(base::DIR_HOME, &dirToSave);
   dirToSave = dirToSave.Append(LEDGER_STATE_FILENAME);
   int64_t file_size = 0;
   if (!GetFileSize(dirToSave, &file_size)) {
-    callback.Run(false, STATE_ST());
+
+    callback.Run(false, CLIENT_STATE_ST());
 
     return;
   }
   std::vector<char> data(file_size + 1);
   if (-1 != base::ReadFile(dirToSave, &data.front(), file_size)) {
     data[file_size] = '\0';
-    STATE_ST state;
+    CLIENT_STATE_ST state;
     BatHelper::getJSONState(&data.front(), state);
     callback.Run(true, state);
 
     return;
   }
 
-  callback.Run(false, STATE_ST());
+  callback.Run(false, CLIENT_STATE_ST());*/
 }
 
-void BatHelper::saveState(const STATE_ST& state) {
+void BatHelper::writePublisherStateFile(const std::string& data) {
+  base::FilePath dirToSave;
+  base::PathService::Get(base::DIR_HOME, &dirToSave);
+  dirToSave = dirToSave.Append(LEDGER_PUBLISHER_STATE_FILENAME);
+
+  assert(base::WriteFile(dirToSave, data.c_str(), data.length()));
+}
+
+void BatHelper::readPublisherStateFile(BatHelper::ReadPublisherStateCallback callback) {
+  base::FilePath dirToSave;
+  base::PathService::Get(base::DIR_HOME, &dirToSave);
+  dirToSave = dirToSave.Append(LEDGER_PUBLISHER_STATE_FILENAME);
+  int64_t file_size = 0;
+  if (!GetFileSize(dirToSave, &file_size)) {
+
+    callback.Run(false, PUBLISHER_STATE_ST());
+
+    return;
+  }
+  std::vector<char> data(file_size + 1);
+  if (-1 != base::ReadFile(dirToSave, &data.front(), file_size)) {
+    data[file_size] = '\0';
+    PUBLISHER_STATE_ST state;
+    BatHelper::getJSONPublisherState(&data.front(), state);
+    callback.Run(true, state);
+
+    return;
+  }
+
+  callback.Run(false, PUBLISHER_STATE_ST());
+}
+
+void BatHelper::saveState(const CLIENT_STATE_ST& state) {
   std::string data = BatHelper::stringifyState(state);
   scoped_refptr<base::SequencedTaskRunner> task_runner =
      base::CreateSequencedTaskRunnerWithTraits(
@@ -553,4 +749,20 @@ void BatHelper::loadState(BatHelper::ReadStateCallback callback) {
      base::CreateSequencedTaskRunnerWithTraits(
          {base::MayBlock(), base::TaskShutdownBehavior::SKIP_ON_SHUTDOWN});
   task_runner->PostTask(FROM_HERE, base::Bind(&BatHelper::readStateFile, callback));
+}
+
+void BatHelper::savePublisherState(const PUBLISHER_STATE_ST& state) {
+  std::string data = BatHelper::stringifyPublisherState(state);
+  scoped_refptr<base::SequencedTaskRunner> task_runner =
+     base::CreateSequencedTaskRunnerWithTraits(
+         {base::MayBlock(), base::TaskShutdownBehavior::SKIP_ON_SHUTDOWN});
+  task_runner->PostTask(FROM_HERE, base::Bind(&BatHelper::writePublisherStateFile,
+     data));
+}
+
+void BatHelper::loadPublisherState(BatHelper::ReadPublisherStateCallback callback) {
+  scoped_refptr<base::SequencedTaskRunner> task_runner =
+     base::CreateSequencedTaskRunnerWithTraits(
+         {base::MayBlock(), base::TaskShutdownBehavior::SKIP_ON_SHUTDOWN});
+  task_runner->PostTask(FROM_HERE, base::Bind(&BatHelper::readPublisherStateFile, callback));
 }
