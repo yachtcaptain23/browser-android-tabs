@@ -5,6 +5,7 @@
 #ifndef LEDGER_H_
 #define LEDGER_H_
 
+#include "bat_helper.h"
 #include <string>
 
 namespace bat_client {
@@ -25,10 +26,25 @@ public:
   void createWallet();
   void initSynopsis();
   void saveVisit(const std::string& publisher, const uint64_t& duration);
+  void saveVisitCallback(const std::string& publisher, const uint64_t& verifiedTimestamp);
+  void favIconUpdated(const std::string& publisher, const std::string& favicon_url);
+  void setPublisherInclude(const std::string& publisher, const bool& include);
+  void setPublisherDeleted(const std::string& publisher, const bool& deleted);
+  void setPublisherPinPercentage(const std::string& publisher, const bool& pinPercentage);
+  void setPublisherMinVisitTime(const uint64_t& duration); // In milliseconds
+  void setPublisherMinVisits(const unsigned int& visits);
+  void setPublisherAllowNonVerified(const bool& allow);
+  void setContributionAmount(const double& amount);
+
+  std::string getBATAddress();
+  std::string getBTCAddress();
+  std::string getETHAddress();
+  std::string getLTCAddress();
 
 private:
   bool isBatClientExist();
   bool isBatPublisherExist();
+  void publisherInfoCallback(bool result, const std::string& response, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData);
 
   bat_client::BatClient* bat_client_;
   bat_publisher::BatPublisher* bat_publisher_;

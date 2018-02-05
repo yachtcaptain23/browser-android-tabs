@@ -8,9 +8,14 @@
 #include "web_contents_ledger_observer.h"
 #include "web_contents_observer.h"
 #include "web_contents.h"
+#include "content/public/common/favicon_url.h"
 
 void WebSiteWasHidden(IOThread* io_thread, const std::string& url, uint64_t duration) {
   io_thread->globals()->ledger_->saveVisit(url, duration);
+}
+
+void FavIconUpdated(IOThread* io_thread, const std::string& url, const std::string& favicon_url) {
+  io_thread->globals()->ledger_->favIconUpdated(url, favicon_url);
 }
 
 namespace content {
@@ -56,6 +61,22 @@ void WebContentsLedgerObserver::DidFinishLoad(RenderFrameHost* render_frame_host
       current_domain_ = web_contents_->GetLastCommittedURL().host();
     }
     last_active_time_ = base::TimeTicks::Now();
+  }
+}
+
+void WebContentsLedgerObserver::DidUpdateFaviconURL(const std::vector<FaviconURL>& candidates) {
+  for (size_t i = 0; i < candidates.size(); i++) {
+    switch(candidates[i].icon_type) {
+      case content::FaviconURL::IconType::kFavicon:
+        content::BrowserThread::PostTask(
+            content::BrowserThread::IO, FROM_HERE,
+            base::Bind(&FavIconUpdated, g_browser_process->io_thread(), current_domain_,
+            candidates[i].icon_url.spec()));
+
+        return;
+      default:
+        break;
+    }
   }
 }
 

@@ -15,11 +15,8 @@ namespace bat_client {
 
 BatClient::BatClient(const bool& useProxy):
       useProxy_(useProxy),
-      fee_amount_(0),
-      days_(0),
-      bootStamp_(0),
-      reconcileStamp_(0) {
-    initAnonize();
+      publisherTimestamp_(0) {
+  initAnonize();
 }
 
 BatClient::~BatClient() {
@@ -27,7 +24,7 @@ BatClient::~BatClient() {
 
 std::string BatClient::buildURL(const std::string& path, const std::string& prefix) {
   std::string url;
-  if (g_isProduction) {
+  if (ledger::g_isProduction) {
     url = useProxy_ ? LEDGER_PRODUCTION_PROXY_SERVER : LEDGER_PRODUCTION_SERVER;
   } else {
     url = LEDGER_STAGING_SERVER;
@@ -41,67 +38,55 @@ void BatClient::loadStateOrRegisterPersona() {
     base::Unretained(this)));
 }
 
-void BatClient::loadStateOrRegisterPersonaCallback(bool result, const STATE_ST& state) {
+void BatClient::loadStateOrRegisterPersonaCallback(bool result, const CLIENT_STATE_ST& state) {
   if (!result) {
     registerPersona();
 
     return;
   }
   LOG(ERROR) << "!!!bat address1 == " << state.walletInfo_.addressBAT_;
-  walletInfo_ = state.walletInfo_;
-  personaId_ = state.personaId_;
-  userId_ = state.userId_;
-  registrarVK_ = state.registrarVK_;
-  masterUserToken_ = state.masterUserToken_;
-  fee_currency_ = state.fee_currency_;
-  fee_amount_ = state.fee_amount_;
-  days_ = state.days_;
-  bootStamp_ = state.bootStamp_;
-  reconcileStamp_ = state.reconcileStamp_;
-
-  publisherTimestamp();
+  state_ = state;
+  publisherTimestamp(false);
 }
 
 void BatClient::registerPersona() {
   // We should use simple callbacks on iOS
   batClientWebRequest_.run(buildURL(REGISTER_PERSONA, PREFIX_V2),
     base::Bind(&BatClient::requestCredentialsCallback,
-      base::Unretained(this)), std::vector<std::string>(), "", "");
+      base::Unretained(this)), std::vector<std::string>(), "", "", FETCH_CALLBACK_EXTRA_DATA_ST());
 }
 
-void BatClient::requestCredentialsCallback(bool result, const std::string& response) {
+void BatClient::requestCredentialsCallback(bool result, const std::string& response, const FETCH_CALLBACK_EXTRA_DATA_ST&) {
   //LOG(ERROR) << "!!!response == " << response;
   if (!result) {
     // TODO errors handling
     return;
   }
-  if (personaId_.empty()) {
-    personaId_ = base::GenerateGUID();
+  if (state_.personaId_.empty()) {
+    state_.personaId_ = base::GenerateGUID();
   }
   // Anonize2 limit is 31 octets
-  userId_ = personaId_;
-  userId_.erase(std::remove(userId_.begin(), userId_.end(), '-'), userId_.end());
-  userId_.erase(12, 1);
+  state_.userId_ = state_.personaId_;
+  state_.userId_.erase(std::remove(state_.userId_.begin(), state_.userId_.end(), '-'), state_.userId_.end());
+  state_.userId_.erase(12, 1);
 
-  registrarVK_ = BatHelper::getJSONValue(REGISTRARVK_FIELDNAME, response);
-  DCHECK(!registrarVK_.empty());
-  const char* cred = makeCred(userId_.c_str());
+  state_.registrarVK_ = BatHelper::getJSONValue(REGISTRARVK_FIELDNAME, response);
+  DCHECK(!state_.registrarVK_.empty());
+  const char* cred = makeCred(state_.userId_.c_str());
   if (nullptr != cred) {
     preFlight_ = cred;
     free((void*)cred);
   }
   DCHECK(!preFlight_.empty());
-  LOG(ERROR) << "!!!userId_ == " << userId_;
-  LOG(ERROR) << "!!!preFlight_ == " << preFlight_;
-  const char* proofTemp = registerUserMessage(preFlight_.c_str(), registrarVK_.c_str());
+  const char* proofTemp = registerUserMessage(preFlight_.c_str(), state_.registrarVK_.c_str());
   std::string proof;
   if (nullptr != proofTemp) {
     proof = proofTemp;
     free((void*)proofTemp);
   }
   DCHECK(!proof.empty());
-  walletInfo_.keyInfoSeed_ = BatHelper::generateSeed();
-  std::vector<uint8_t> secretKey = BatHelper::getHKDF(walletInfo_.keyInfoSeed_);
+  state_.walletInfo_.keyInfoSeed_ = BatHelper::generateSeed();
+  std::vector<uint8_t> secretKey = BatHelper::getHKDF(state_.walletInfo_.keyInfoSeed_);
   std::vector<uint8_t> publicKey;
   std::vector<uint8_t> newSecretKey;
   BatHelper::getPublicKeyFromSeed(secretKey, publicKey, newSecretKey);
@@ -130,58 +115,85 @@ void BatClient::requestCredentialsCallback(bool result, const std::string& respo
   std::vector<std::string> headers;
   headers.push_back("Content-Type: application/json; charset=UTF-8");
   // We should use simple callbacks on iOS
-  batClientWebRequest_.run(buildURL((std::string)REGISTER_PERSONA + "/" + userId_, PREFIX_V2),
+  batClientWebRequest_.run(buildURL((std::string)REGISTER_PERSONA + "/" + state_.userId_, PREFIX_V2),
     base::Bind(&BatClient::registerPersonaCallback,
-      base::Unretained(this)), headers, payloadStringify, "application/json; charset=utf-8");
+      base::Unretained(this)), headers, payloadStringify, "application/json; charset=utf-8", FETCH_CALLBACK_EXTRA_DATA_ST());
 }
 
-void BatClient::registerPersonaCallback(bool result, const std::string& response) {
+void BatClient::registerPersonaCallback(bool result, const std::string& response,
+    const FETCH_CALLBACK_EXTRA_DATA_ST& extraData) {
   if (!result) {
     // TODO errors handling
     return;
   }
 
   std::string verification = BatHelper::getJSONValue(VERIFICATION_FIELDNAME, response);
-  LOG(ERROR) << "!!!verification == " << verification;
-  const char* masterUserToken = registerUserFinal(userId_.c_str(), verification.c_str(),
-    preFlight_.c_str(), registrarVK_.c_str());
+  const char* masterUserToken = registerUserFinal(state_.userId_.c_str(), verification.c_str(),
+    preFlight_.c_str(), state_.registrarVK_.c_str());
   if (nullptr != masterUserToken) {
-    masterUserToken_ = masterUserToken;
+    state_.masterUserToken_ = masterUserToken;
     free((void*)masterUserToken);
   }
-  LOG(ERROR) << "!!!masterUserToken_ == " << masterUserToken_;
-  BatHelper::getJSONWalletInfo(response, walletInfo_, fee_currency_, fee_amount_, days_);
-  bootStamp_ = BatHelper::currentTime() * 1000;
-  reconcileStamp_ = bootStamp_ + days_ * 24 * 60 * 60 * 1000;
-  LOG(ERROR) << "!!!bootStamp_ == " << bootStamp_;
-  LOG(ERROR) << "!!!reconcileStamp_ == " << reconcileStamp_;
-  STATE_ST state;
-  state.walletInfo_ = walletInfo_;
-  state.bootStamp_ = bootStamp_;
-  state.reconcileStamp_ = reconcileStamp_;
-  state.personaId_ = personaId_;
-  state.userId_ = userId_;
-  state.registrarVK_ = registrarVK_;
-  state.masterUserToken_ = masterUserToken_;
-  state.fee_currency_ = fee_currency_;
-  state.fee_amount_ = fee_amount_;
-  state.days_ = days_;
-  BatHelper::saveState(state);
+
+  BatHelper::getJSONWalletInfo(response, state_.walletInfo_, state_.fee_currency_, state_.fee_amount_, state_.days_);
+  state_.bootStamp_ = BatHelper::currentTime() * 1000;
+  state_.reconcileStamp_ = state_.bootStamp_ + state_.days_ * 24 * 60 * 60 * 1000;
+  publisherTimestamp();
 }
 
-void BatClient::publisherTimestamp() {
+void BatClient::publisherTimestamp(const bool& saveState) {
   // We should use simple callbacks on iOS
+  FETCH_CALLBACK_EXTRA_DATA_ST extraData;
+  extraData.boolean1 = saveState;
   batClientWebRequest_.run(buildURL(PUBLISHER_TIMESTAMP, PREFIX_V3),
     base::Bind(&BatClient::publisherTimestampCallback,
-      base::Unretained(this)), std::vector<std::string>(), "", "");
+      base::Unretained(this)), std::vector<std::string>(), "", "", FETCH_CALLBACK_EXTRA_DATA_ST());
 }
 
-void BatClient::publisherTimestampCallback(bool result, const std::string& response) {
+void BatClient::publisherTimestampCallback(bool result, const std::string& response,
+    const FETCH_CALLBACK_EXTRA_DATA_ST& extraData) {
   if (!result) {
     // TODO errors handling
     return;
   }
-  LOG(ERROR) << "!!!publisherTimestampCallback response == " << response;
+  BatHelper::getJSONPublisherTimeStamp(response, publisherTimestamp_);
+  if (!extraData.boolean1) {
+    return;
+  }
+  std::lock_guard<std::mutex> guard(state_mutex_);
+  BatHelper::saveState(state_);
+}
+
+uint64_t BatClient::getPublisherTimestamp() {
+  return publisherTimestamp_;
+}
+
+void BatClient::publisherInfo(const std::string& publisher, BatHelper::FetchCallback callback,
+    const FETCH_CALLBACK_EXTRA_DATA_ST& extraData) {
+  batClientWebRequest_.run(buildURL(PUBLISHER_INFO + publisher, PREFIX_V3),
+    callback, std::vector<std::string>(), "", "", extraData);
+}
+
+void BatClient::setContributionAmount(const double& amount) {
+  std::lock_guard<std::mutex> guard(state_mutex_);
+  state_.fee_amount_ = amount;
+  BatHelper::saveState(state_);
+}
+
+std::string BatClient::getBATAddress() {
+  return state_.walletInfo_.addressBAT_;
+}
+
+std::string BatClient::getBTCAddress() {
+  return state_.walletInfo_.addressBTC_;
+}
+
+std::string BatClient::getETHAddress() {
+  return state_.walletInfo_.addressETH_;
+}
+
+std::string BatClient::getLTCAddress() {
+  return state_.walletInfo_.addressLTC_;
 }
 
 }

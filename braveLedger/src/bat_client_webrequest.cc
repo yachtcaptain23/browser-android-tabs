@@ -37,8 +37,8 @@ namespace bat_client {
   }
 
   void BatClientWebRequest::runOnThread(const std::string& url,
-        BatClientWebRequest::FetchCallback callback, const std::vector<std::string>& headers,
-        const std::string& content, const std::string& contentType) {
+        BatHelper::FetchCallback callback, const std::vector<std::string>& headers,
+        const std::string& content, const std::string& contentType, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData) {
     std::lock_guard<std::mutex> guard(fetcher_mutex_);
     url_fetchers_.push_back(std::make_unique<URL_FETCH_REQUEST>());
     net::URLFetcher::RequestType requestType = net::URLFetcher::GET;
@@ -47,6 +47,7 @@ namespace bat_client {
     }
     url_fetchers_.back()->url_fetcher_ = net::URLFetcher::Create(GURL(url), requestType, this);
     url_fetchers_.back()->callback_ = callback;
+    url_fetchers_.back()->extraData_ = extraData;
     url_fetchers_.back()->url_fetcher_->SetRequestContext(g_browser_process->system_request_context());
     for (size_t i = 0; i < headers.size(); i++) {
       url_fetchers_.back()->url_fetcher_->AddExtraRequestHeader(headers[i]);
@@ -60,13 +61,13 @@ namespace bat_client {
   }
 
   void BatClientWebRequest::run(const std::string& url,
-        BatClientWebRequest::FetchCallback callback,
+        BatHelper::FetchCallback callback,
         const std::vector<std::string>& headers, const std::string& content,
-        const std::string& contentType) {
+        const std::string& contentType, const FETCH_CALLBACK_EXTRA_DATA_ST& extraData) {
     content::BrowserThread::PostTask(
       content::BrowserThread::UI, FROM_HERE,
       base::Bind(&BatClientWebRequest::runOnThread,
-          base::Unretained(this), url, callback, headers, content, contentType));
+          base::Unretained(this), url, callback, headers, content, contentType, extraData));
   }
 
   void BatClientWebRequest::OnURLFetchComplete(const net::URLFetcher* source) {
@@ -79,10 +80,9 @@ namespace bat_client {
     std::string response;
     source->GetResponseAsString(&response);
 
-    LOG(ERROR) << "!!!response == " << response;
     std::lock_guard<std::mutex> guard(fetcher_mutex_);
     if (url_fetchers_.size()) {
-      url_fetchers_.front()->callback_.Run(!failure, response);
+      url_fetchers_.front()->callback_.Run(!failure, response, url_fetchers_.front()->extraData_);
       url_fetchers_.pop_front();
     }
   }

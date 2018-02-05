@@ -22,6 +22,7 @@ public:
   void WebContentsDestroyed() override;
   void DidFinishLoad(RenderFrameHost* render_frame_host,
                              const GURL& validated_url) override;
+  void DidUpdateFaviconURL(const std::vector<FaviconURL>& candidates) override;
   bool IsBeingDestroyed();
 
 private:

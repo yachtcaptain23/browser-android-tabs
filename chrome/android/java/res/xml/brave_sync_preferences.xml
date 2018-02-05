@@ -46,7 +46,7 @@
        android:enabled="true"
        android:title="@string/autofill_credit_cards_title"
        android:fragment="org.chromium.chrome.browser.preferences.autofill.AutofillLocalCardEditor"
-       android:contentDescription="@string/autofill_create_credit_card"-->
-       />
+       android:contentDescription="@string/autofill_create_credit_card"
+       />-->
 
 </PreferenceScreen>
