@@ -33,6 +33,7 @@ import org.chromium.chrome.browser.crash.PureJavaExceptionHandler;
 import org.chromium.chrome.browser.crash.PureJavaExceptionReporter;
 import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.StatsUpdaterWorker;
+import org.chromium.chrome.browser.ADBlockUpdaterWorker;
 import org.chromium.chrome.browser.init.InvalidStartupDialog;
 import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
 import org.chromium.chrome.browser.init.ShieldsConfig;
@@ -58,6 +59,8 @@ public class ChromeApplication extends Application {
     public BraveSyncWorker mBraveSyncWorker = null;
     // Stats updater
     public StatsUpdaterWorker mStatsUpdaterWorker = null;
+    // ADBlock updater
+    public ADBlockUpdaterWorker mADBlockUpdaterWorker = null;
     // Mixpanel global object
     public MixpanelAPI mMixpanelInstance = null;
 
