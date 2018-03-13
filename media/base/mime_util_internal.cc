@@ -283,7 +283,6 @@ void MimeUtil::AddSupportedMediaFormats() {
   CodecSet mp4_video_codecs;
   mp4_video_codecs.emplace(VP9);
 
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   const CodecSet aac{MPEG2_AAC, MPEG4_AAC};
   mp4_audio_codecs.insert(aac.begin(), aac.end());
 
@@ -307,7 +306,6 @@ void MimeUtil::AddSupportedMediaFormats() {
 #if BUILDFLAG(ENABLE_DOLBY_VISION_DEMUXING)
   mp4_video_codecs.emplace(DOLBY_VISION);
 #endif  // BUILDFLAG(ENABLE_DOLBY_VISION_DEMUXING)
-#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 #if BUILDFLAG(ENABLE_AV1_DECODER)
   if (base::FeatureList::IsEnabled(kAv1Decoder))
     mp4_video_codecs.emplace(AV1);
@@ -336,7 +334,6 @@ void MimeUtil::AddSupportedMediaFormats() {
   AddContainerWithCodecs("audio/mp4", mp4_audio_codecs, false);
   DCHECK(!mp4_video_codecs.empty());
   AddContainerWithCodecs("video/mp4", mp4_codecs, false);
-
   AddContainerWithCodecs("audio/aac", implicit_codec, true);  // AAC / ADTS.
   // These strings are supported for backwards compatibility only and thus only
   // support the codecs needed for compatibility.
