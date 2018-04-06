@@ -519,7 +519,9 @@ NavigationRequest::NavigationRequest(
           key = customHeaders.substr(0, pos);
           value = customHeaders.substr(pos + 1);
       }
-      headers.SetHeader(key, value);
+      if (key.size()) {
+          headers.SetHeader(key, value);
+      }
   }
 
   AddAdditionalRequestHeaders(
