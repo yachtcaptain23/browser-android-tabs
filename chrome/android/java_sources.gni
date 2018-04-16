@@ -59,7 +59,7 @@ chrome_java_sources = [
   "java/src/org/chromium/chrome/browser/LauncherShortcutActivity.java",
   "java/src/org/chromium/chrome/browser/LoginPrompt.java",
   "java/src/org/chromium/chrome/browser/LollipopTtsPlatformImpl.java",
-  "java/src/org/chromium/chrome/browser/MixPanelWorker.java",
+#  "java/src/org/chromium/chrome/browser/MixPanelWorker.java",
   "java/src/org/chromium/chrome/browser/NativePage.java",
   "java/src/org/chromium/chrome/browser/NativePageHost.java",
   "java/src/org/chromium/chrome/browser/NavigationBarColorController.java",
