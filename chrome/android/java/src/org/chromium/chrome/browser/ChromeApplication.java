@@ -49,7 +49,7 @@ import org.chromium.chrome.browser.preferences.ChromePreferenceManager;
 import org.chromium.chrome.browser.vr.OnExitVrRequestListener;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
 
-import com.mixpanel.android.mpmetrics.MixpanelAPI;
+//import com.mixpanel.android.mpmetrics.MixpanelAPI;
 
 /**
  * Basic application functionality that should be shared among all browser applications that use
@@ -68,7 +68,7 @@ public class ChromeApplication extends Application {
     // ADBlock updater
     public ADBlockUpdaterWorker mADBlockUpdaterWorker = null;
     // Mixpanel global object
-    public MixpanelAPI mMixpanelInstance = null;
+    //public MixpanelAPI mMixpanelInstance = null;
 
     @Nullable
     private static ChromeAppComponent sComponent;
