@@ -462,7 +462,7 @@ public class CustomTabActivity extends ChromeActivity<CustomTabActivityComponent
     public void postInflationStartup() {
         super.postInflationStartup();
 
-        getToolbarManager().setCloseButtonDrawable(mIntentDataProvider.getCloseButtonDrawable());
+        /*getToolbarManager().setCloseButtonDrawable(mIntentDataProvider.getCloseButtonDrawable());
         getToolbarManager().setShowTitle(mIntentDataProvider.getTitleVisibilityState()
                 == CustomTabsIntent.SHOW_PAGE_TITLE);
         if (mConnection.shouldHideDomainForSession(mSession)) {
@@ -491,7 +491,7 @@ public class CustomTabActivity extends ChromeActivity<CustomTabActivityComponent
         showCustomButtonOnToolbar();
         mBottomBarDelegate = new CustomTabBottomBarDelegate(this, mIntentDataProvider, getFullscreenManager());
         mBottomBarDelegate.showBottomBarIfNecessary();
-        mTopBarDelegate = new CustomTabTopBarDelegate(this);
+        mTopBarDelegate = new CustomTabTopBarDelegate(this);*/
     }
 
     @Override
