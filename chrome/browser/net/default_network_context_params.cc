@@ -37,7 +37,7 @@ network::mojom::NetworkContextParamsPtr CreateDefaultNetworkContextParams() {
   network_context_params->enable_brotli =
       base::FeatureList::IsEnabled(features::kBrotliEncoding);
 
-  network_context_params->user_agent = GetUserAgent();
+  network_context_params->user_agent = GetUserAgent("");
 
   // Disable referrers by default. Any consumer that enables referrers should
   // respect prefs::kEnableReferrers from the appropriate pref store.

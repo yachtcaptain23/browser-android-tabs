@@ -5268,7 +5268,6 @@ mojom::FrameNavigationControl* RenderFrameHostImpl::GetNavigationControl() {
   return navigation_control_.get();
 }
 
-<<<<<<< HEAD
 bool RenderFrameHostImpl::ValidateDidCommitParams(
     FrameHostMsg_DidCommitProvisionalLoad_Params* validated_params) {
   RenderProcessHost* process = GetProcess();
