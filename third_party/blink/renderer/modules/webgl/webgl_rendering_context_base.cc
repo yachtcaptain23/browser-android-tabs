@@ -3534,7 +3534,7 @@ WebGLRenderingContextBase::getSupportedExtensions() {
       }
   }
   if (!allowed)
-      return nullptr;
+      return WTF::nullopt;
 
   Vector<String> result;
 

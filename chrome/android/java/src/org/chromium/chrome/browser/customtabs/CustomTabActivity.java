@@ -431,7 +431,7 @@ public class CustomTabActivity extends ChromeActivity {
     public void postInflationStartup() {
         super.postInflationStartup();
 
-        getToolbarManager().setCloseButtonDrawable(mIntentDataProvider.getCloseButtonDrawable());
+        /*getToolbarManager().setCloseButtonDrawable(mIntentDataProvider.getCloseButtonDrawable());
         getToolbarManager().setShowTitle(mIntentDataProvider.getTitleVisibilityState()
                 == CustomTabsIntent.SHOW_PAGE_TITLE);
         if (mConnection.shouldHideDomainForSession(mSession)) {
@@ -459,7 +459,7 @@ public class CustomTabActivity extends ChromeActivity {
         ApiCompatibilityUtils.setTaskDescription(this, null, null, toolbarColor);
         showCustomButtonOnToolbar();
         mBottomBarDelegate = new CustomTabBottomBarDelegate(this, mIntentDataProvider, getFullscreenManager());
-        mBottomBarDelegate.showBottomBarIfNecessary();
+        mBottomBarDelegate.showBottomBarIfNecessary();*/
     }
 
     @Override
