@@ -669,14 +669,14 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         ColorMatrixColorFilter filter = new ColorMatrixColorFilter(matrix);
         ImageButton braveShieldsButton = (ImageButton)findViewById(R.id.brave_shields_button);
         if (null != braveShieldsButton) {
-            braveShieldsButton.setColorFilter(filter);
+            braveShieldsButton.getDrawable().setColorFilter(filter);
         }
     }
 
     protected void setBraveShieldsColored() {
         ImageButton braveShieldsButton = (ImageButton)findViewById(R.id.brave_shields_button);
         if (null != braveShieldsButton) {
-            braveShieldsButton.clearColorFilter();
+            braveShieldsButton.getDrawable().clearColorFilter();
         }
     }
 
