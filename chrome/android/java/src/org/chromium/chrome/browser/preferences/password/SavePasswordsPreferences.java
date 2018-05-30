@@ -288,7 +288,7 @@ public class SavePasswordsPreferences
             return;
         }
 
-        displayManageAccountLink();
+        //displayManageAccountLink();
 
         PreferenceGroup passwordParent;
         if (mSearchQuery == null) {
@@ -363,7 +363,7 @@ public class SavePasswordsPreferences
             return;
         }
 
-        displayManageAccountLink();
+        //displayManageAccountLink();
 
         PreferenceCategory profileCategory = new PreferenceCategory(getActivity());
         profileCategory.setKey(PREF_KEY_CATEGORY_EXCEPTIONS);
