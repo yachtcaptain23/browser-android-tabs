@@ -173,7 +173,7 @@ public class ConnectionInfoPopup implements OnClickListener, ModalDialogView.Con
         mContainer.addView(container);
     }
 
-    @CalledByNative
+    /*@CalledByNative
     private void addMoreInfoLink(String linkText) {
         mMoreInfoLink = new TextView(mContext);
         mLinkUrl = HELP_URL;
@@ -182,7 +182,7 @@ public class ConnectionInfoPopup implements OnClickListener, ModalDialogView.Con
         mMoreInfoLink.setPadding(0, mPaddingThin, 0, 0);
         mMoreInfoLink.setOnClickListener(this);
         mDescriptionLayout.addView(mMoreInfoLink);
-    }
+    }*/
 
     /** Displays the ConnectionInfoPopup. */
     @CalledByNative
