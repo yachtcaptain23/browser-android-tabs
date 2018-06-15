@@ -868,6 +868,12 @@ Your Google account may have other forms of browsing history like searches and a
       <message name="IDS_READER_FOR_ACCESSIBILITY_SUMMARY" desc="Summary of preference that allows the user to use simplified view on any supported articles, even if the page is mobile-friendly.">
         Offer to show articles in simplified view, when supported
       </message>
+      <message name="IDS_OPEN_PAGES_IN_CUSTOM_TABS_TITLE" desc="Title of preference that allows the user to open pages in a full mode always.">
+        Open tabs in Custom Tabs
+      </message>
+      <message name="IDS_OPEN_PAGES_IN_CUSTOM_TABS_SUMMARY" desc="Summary of preference that allows the user to open pages in a full mode always.">
+        Offer to open tabs in Custom Tabs
+      </message>
 
       <!-- Site settings -->
       <message name="IDS_PREFS_SITE_SETTINGS" desc="Title of the Website Settings screen. [CHAR-LIMIT=32]">

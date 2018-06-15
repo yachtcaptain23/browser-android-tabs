@@ -143,6 +143,9 @@ public class ChromePreferenceManager {
     private static final String SHOULD_REGISTER_VR_ASSETS_COMPONENT_ON_STARTUP =
             "should_register_vr_assets_component_on_startup";
 
+    private static final String USE_CUSTOM_TABS =
+            "use_custom_tabs";
+
     private static class LazyHolder {
         static final ChromePreferenceManager INSTANCE = new ChromePreferenceManager();
     }
@@ -501,6 +504,14 @@ public class ChromePreferenceManager {
      */
     public boolean isHomepageTileEnabled() {
         return mSharedPreferences.getBoolean(HOMEPAGE_TILE_ENABLED_KEY, false);
+    }
+
+    /**
+     * Get whether or not use custom tabs.
+     * @return True if we can use custom tabs.
+     */
+    public boolean useCustomTabs() {
+        return mSharedPreferences.getBoolean(USE_CUSTOM_TABS, false);
     }
 
     /**
