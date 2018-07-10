@@ -21,8 +21,8 @@ public enum ChromeContextMenuItem implements ContextMenuItem {
     // Custom Tab Group
     OPEN_IN_NEW_CHROME_TAB(
             R.string.contextmenu_open_in_new_chrome_tab, R.id.contextmenu_open_in_new_chrome_tab),
-    OPEN_IN_CHROME_INCOGNITO_TAB(R.string.contextmenu_open_in_chrome_incognito_tab,
-            R.id.contextmenu_open_in_chrome_incognito_tab),
+    OPEN_IN_CHROME_INCOGNITO_TAB(R.string.brave_open_in_private_tab,
+            R.id.brave_open_in_private_tab),
     OPEN_IN_BROWSER_ID(0, R.id.contextmenu_open_in_browser_id),
 
     // Link Group
@@ -30,7 +30,7 @@ public enum ChromeContextMenuItem implements ContextMenuItem {
             R.string.contextmenu_open_in_other_window, R.id.contextmenu_open_in_other_window),
     OPEN_IN_NEW_TAB(R.string.contextmenu_open_in_new_tab, R.id.contextmenu_open_in_new_tab),
     OPEN_IN_INCOGNITO_TAB(
-            R.string.contextmenu_open_in_incognito_tab, R.id.contextmenu_open_in_incognito_tab),
+            R.string.brave_open_in_private_tab, R.id.brave_open_in_private_tab),
     COPY_LINK_ADDRESS(R.string.contextmenu_copy_link_address, R.id.contextmenu_copy_link_address),
     COPY_LINK_TEXT(R.string.contextmenu_copy_link_text, R.id.contextmenu_copy_link_text),
     SAVE_LINK_AS(R.string.contextmenu_save_link, R.id.contextmenu_save_link_as),
@@ -59,8 +59,8 @@ public enum ChromeContextMenuItem implements ContextMenuItem {
     // Browser Action Items
     BROWSER_ACTIONS_OPEN_IN_BACKGROUND(
             R.string.browser_actions_open_in_background, R.id.browser_actions_open_in_background),
-    BROWSER_ACTIONS_OPEN_IN_INCOGNITO_TAB(R.string.browser_actions_open_in_incognito_tab,
-            R.id.browser_actions_open_in_incognito_tab),
+    BROWSER_ACTIONS_OPEN_IN_INCOGNITO_TAB(R.string.brave_open_in_private_tab,
+            R.id.brave_open_in_private_tab),
     BROWSER_ACTION_SAVE_LINK_AS(
             R.string.browser_actions_save_link_as, R.id.browser_actions_save_link_as),
     BROWSER_ACTIONS_COPY_ADDRESS(

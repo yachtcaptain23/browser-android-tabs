@@ -681,7 +681,7 @@ public class ToolbarPhone extends ToolbarLayout
             description = getResources().getString(R.string.open_tabs);
         } else if (v == mNewTabButton) {
             description = getResources().getString(
-                    isIncognito() ? R.string.button_new_incognito_tab : R.string.button_new_tab);
+                    isIncognito() ? R.string.brave_new_private_tab : R.string.button_new_tab);
         } else if (v == mBraveShieldsButton) {
             description = getResources().getString(R.string.accessibility_toolbar_btn_brave_shields);
         } else {
@@ -2809,7 +2809,7 @@ public class ToolbarPhone extends ToolbarLayout
         mNewTabButton.setIsIncognito(isIncognito);
 
         CharSequence newTabContentDescription = getResources().getText(
-                isIncognito ? R.string.accessibility_toolbar_btn_new_incognito_tab :
+                isIncognito ? R.string.brave_new_private_tab :
                         R.string.accessibility_toolbar_btn_new_tab);
         if (mNewTabButton != null
                 && !newTabContentDescription.equals(mNewTabButton.getContentDescription())) {

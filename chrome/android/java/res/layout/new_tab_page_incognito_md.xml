@@ -20,7 +20,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:requiresFadingEdge="vertical"
-        android:contentDescription="@string/accessibility_new_incognito_tab_page" >
+        android:contentDescription="@string/brave_new_private_tab" >
 
         <LinearLayout
             android:id="@+id/new_tab_incognito_container"

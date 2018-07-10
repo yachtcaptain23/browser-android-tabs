@@ -85,9 +85,9 @@ public class IncognitoNewTabPage
 
         if (!useMDIncognitoNTP()) {
             TextView newTabIncognitoMessage = (TextView) mIncognitoNewTabPageView.findViewById(
-                    R.id.new_tab_incognito_message);
+                    R.id.brave_new_tab_private_message);
             newTabIncognitoMessage.setText(
-                    activity.getResources().getString(R.string.new_tab_incognito_message));
+                    activity.getResources().getString(R.string.brave_new_tab_private_message));
         }
     }
 
