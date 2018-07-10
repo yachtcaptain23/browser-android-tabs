@@ -643,11 +643,8 @@ public class ToolbarPhone extends ToolbarLayout
         if (v == mToggleTabStackButton) {
             description = getResources().getString(R.string.open_tabs);
         } else if (v == mNewTabButton) {
-            description = getResources().getString(isIncognito()
-                            ? (ChromeFeatureList.isEnabled(ChromeFeatureList.INCOGNITO_STRINGS)
-                                              ? R.string.button_new_private_tab
-                                              : R.string.button_new_incognito_tab)
-                            : R.string.button_new_tab);
+            description = getResources().getString(
+                    isIncognito() ? R.string.brave_new_private_tab : R.string.button_new_tab);
         } else if (v == mBraveShieldsButton) {
             description = getResources().getString(R.string.accessibility_toolbar_btn_brave_shields);
         } else {
