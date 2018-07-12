@@ -112,7 +112,7 @@ bool ContentRendererClient::HandleNavigation(
 }
 
 bool ContentRendererClient::ShouldUseMediaPlayerForURL(const GURL& url) {
-  return true;
+  return false;
 }
 #endif
 
