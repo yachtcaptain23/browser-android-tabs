@@ -650,6 +650,7 @@ public class ToolbarPhone extends ToolbarLayout
                     && PartnerBrowserCustomizations.isHomepageProviderAvailableAndEnabled()) {
                 TrackerFactory.getTrackerForProfile(Profile.getLastUsedProfile())
                         .notifyEvent(EventConstants.PARTNER_HOME_PAGE_BUTTON_PRESSED);
+            }
         } else if (mBraveShieldsButton == v) {
             if (null != mBraveShieldsButton) {
                 mBraveShieldsListener.onClick(mBraveShieldsButton);
