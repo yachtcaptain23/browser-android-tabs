@@ -626,6 +626,7 @@ public class ToolbarPhone
                     && PartnerBrowserCustomizations.isHomepageProviderAvailableAndEnabled()) {
                 TrackerFactory.getTrackerForProfile(Profile.getLastUsedProfile())
                         .notifyEvent(EventConstants.PARTNER_HOME_PAGE_BUTTON_PRESSED);
+            }
         } else if (mBraveShieldsButton == v) {
             if (null != mBraveShieldsButton) {
                 mBraveShieldsListener.onClick(mBraveShieldsButton);
