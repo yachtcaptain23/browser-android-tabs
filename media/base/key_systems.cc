@@ -89,6 +89,7 @@ static const NameToCodec kCodecMap[] = {
     {"dvhe", EME_CODEC_DOLBY_VISION_HEVC},  // DolbyVision HEVC
 #endif
 #endif
+#endif  // BUILDFLAG(USE_PROPRIETARY_CODECS)
 };
 
 class ClearKeyProperties : public KeySystemProperties {
