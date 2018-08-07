@@ -103,10 +103,10 @@ void CertReportHelper::PopulateExtendedReportingOption(
       security_interstitials::CMD_OPEN_REPORTING_PRIVACY,
       l10n_util::GetStringUTF8(IDS_SAFE_BROWSING_PRIVACY_POLICY_PAGE).c_str());
 
-  load_time_data->SetString(
+  /*load_time_data->SetString(
       security_interstitials::kOptInLink,
       l10n_util::GetStringFUTF16(IDS_SAFE_BROWSING_SCOUT_REPORTING_AGREE,
-                                 base::UTF8ToUTF16(privacy_link)));
+                                 base::UTF8ToUTF16(privacy_link)));*/
 }
 
 void CertReportHelper::SetSSLCertReporterForTesting(
@@ -200,12 +200,13 @@ bool CertReportHelper::IsShowingReportingCheckboxOrReportingAllowed() {
 }
 
 bool CertReportHelper::ShouldShowCertificateReporterCheckbox() {
-  if (!IsShowingReportingCheckboxOrReportingAllowed())
+  return false;
+  /*if (!IsShowingReportingCheckboxOrReportingAllowed())
     return false;
   Profile* profile = GetProfile(web_contents_);
   unified_consent::UnifiedConsentService* consent_service =
       UnifiedConsentServiceFactory::GetForProfile(profile);
-  return !(consent_service && consent_service->IsUnifiedConsentGiven());
+  return !(consent_service && consent_service->IsUnifiedConsentGiven());*/
 }
 
 bool CertReportHelper::ShouldReportCertificateError() {
