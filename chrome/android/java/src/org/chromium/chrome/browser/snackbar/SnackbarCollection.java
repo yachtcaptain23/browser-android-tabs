@@ -23,13 +23,17 @@ class SnackbarCollection {
      * collection immediately.
      */
     void add(Snackbar snackbar) {
-        if (snackbar.isTypeAction()) {
-            if (getCurrent() != null && !getCurrent().isTypeAction()) {
-                removeCurrent(false);
+        try {
+            if (snackbar.isTypeAction()) {
+                if (getCurrent() != null && !getCurrent().isTypeAction()) {
+                    removeCurrent(false);
+                }
+                mSnackbars.addFirst(snackbar);
+            } else {
+                mSnackbars.addLast(snackbar);
             }
-            mSnackbars.addFirst(snackbar);
-        } else {
-            mSnackbars.addLast(snackbar);
+        } catch (NoSuchMethodError e) {
+            return;
         }
     }
 
@@ -42,24 +46,36 @@ class SnackbarCollection {
     }
 
     private Snackbar removeCurrent(boolean isAction) {
-        Snackbar current = mSnackbars.pollFirst();
-        if (current != null) {
-            SnackbarController controller = current.getController();
-            if (isAction) controller.onAction(current.getActionData());
-            else controller.onDismissNoAction(current.getActionData());
+        try {
+            Snackbar current = mSnackbars.pollFirst();
+            if (current != null) {
+                SnackbarController controller = current.getController();
+                if (isAction) controller.onAction(current.getActionData());
+                else controller.onDismissNoAction(current.getActionData());
+            }
+            return current;
+        } catch (NoSuchMethodError e) {
+            return null;
         }
-        return current;
     }
 
     /**
      * @return The snackbar that is currently displayed.
      */
     Snackbar getCurrent() {
-        return mSnackbars.peekFirst();
+        try {
+            return mSnackbars.peekFirst();
+        } catch (NoSuchMethodError e) {
+            return null;
+        }
     }
 
     boolean isEmpty() {
-        return mSnackbars.isEmpty();
+        try {
+            return mSnackbars.isEmpty();
+        } catch (NoSuchMethodError e) {
+            return true;
+        }
     }
 
     void clear() {
@@ -77,32 +93,40 @@ class SnackbarCollection {
     }
 
     boolean removeMatchingSnackbars(SnackbarController controller) {
-        boolean snackbarRemoved = false;
-        Iterator<Snackbar> iter = mSnackbars.iterator();
-        while (iter.hasNext()) {
-            Snackbar snackbar = iter.next();
-            if (snackbar.getController() == controller) {
-                iter.remove();
-                controller.onDismissNoAction(snackbar.getActionData());
-                snackbarRemoved = true;
+        try {
+            boolean snackbarRemoved = false;
+            Iterator<Snackbar> iter = mSnackbars.iterator();
+            while (iter.hasNext()) {
+                Snackbar snackbar = iter.next();
+                if (snackbar.getController() == controller) {
+                    iter.remove();
+                    controller.onDismissNoAction(snackbar.getActionData());
+                    snackbarRemoved = true;
+                }
             }
+            return snackbarRemoved;
+        } catch (NoSuchMethodError e) {
+            return false;
         }
-        return snackbarRemoved;
     }
 
     boolean removeMatchingSnackbars(SnackbarController controller, Object data) {
-        boolean snackbarRemoved = false;
-        Iterator<Snackbar> iter = mSnackbars.iterator();
-        while (iter.hasNext()) {
-            Snackbar snackbar = iter.next();
-            if (snackbar.getController() == controller
-                    && objectsAreEqual(snackbar.getActionData(), data)) {
-                iter.remove();
-                controller.onDismissNoAction(data);
-                snackbarRemoved = true;
+        try {
+            boolean snackbarRemoved = false;
+            Iterator<Snackbar> iter = mSnackbars.iterator();
+            while (iter.hasNext()) {
+                Snackbar snackbar = iter.next();
+                if (snackbar.getController() == controller
+                        && objectsAreEqual(snackbar.getActionData(), data)) {
+                    iter.remove();
+                    controller.onDismissNoAction(data);
+                    snackbarRemoved = true;
+                }
             }
+            return snackbarRemoved;
+        } catch (NoSuchMethodError e) {
+            return false;
         }
-        return snackbarRemoved;
     }
 
     private static boolean objectsAreEqual(Object a, Object b) {

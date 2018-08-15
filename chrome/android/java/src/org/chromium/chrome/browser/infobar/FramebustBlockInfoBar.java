@@ -57,7 +57,7 @@ public class FramebustBlockInfoBar extends InfoBar {
         schemeView.setText(scheme);
 
         TextView urlView = ellipsizerView.findViewById(R.id.url_minus_scheme);
-        String textToEllipsize = formattedUrl.substring(scheme.length());
+        String textToEllipsize = formattedUrl.length() > scheme.length() ? formattedUrl.substring(scheme.length()) : "";
         // Handle adjusting the text to workaround Android crashes when ellipsizing on old versions.
         // TODO(donnd): remove this class when older versions of Android are no longer supported.
         ((TextViewEllipsizerSafe) urlView).setTextSafely(textToEllipsize);
