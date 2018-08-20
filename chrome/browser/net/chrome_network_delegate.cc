@@ -185,6 +185,7 @@ struct OnBeforeURLRequestContext
   bool isAdBlockRegionalEnabled = true;
   bool isTPEnabled = true;
   bool isHTTPSEEnabled = true;
+  bool isBlock3rdPartyCookies = true;
 
   bool shieldsSetExplicitly = false;
 
@@ -323,6 +324,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
    ctx->isGlobalBlockEnabled = true;
    ctx->blockAdsAndTracking = true;
    ctx->isHTTPSEEnabled = true;
+   ctx->isBlock3rdPartyCookies = true;
    ctx->shieldsSetExplicitly = false;
    net::blockers::ShieldsConfig* shieldsConfig =
      net::blockers::ShieldsConfig::getShieldsConfig();
@@ -340,6 +342,9 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
              }
              if ('0' ==  hostConfig[4]) {
                  ctx->isHTTPSEEnabled = false;
+             }
+             if ('0' ==  hostConfig[8]) {
+                 ctx->isBlock3rdPartyCookies = false;
              }
          }
        }
@@ -672,6 +677,9 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PostBlockers(
   }
 
   extensions_delegate_->ForwardStartRequestStatus(request);
+
+  ShouldBlockReferrer(ctx, request);
+
   return extensions_delegate_->NotifyBeforeURLRequest(
       request, std::move(callback), new_url);
 }
@@ -913,4 +921,22 @@ bool ChromeNetworkDelegate::PendedRequestIsDestroyedOrCancelled(OnBeforeURLReque
     }
   }
   return false;
+}
+
+void ChromeNetworkDelegate::ShouldBlockReferrer(std::shared_ptr<OnBeforeURLRequestContext> ctx, net::URLRequest* request) {
+  if (!ctx || !request) {
+    return;
+  }
+  GURL target_origin = GURL(request->url()).GetOrigin();
+  GURL tab_origin = request->site_for_cookies().GetOrigin();
+  bool allow_referrers = !ctx->isBlock3rdPartyCookies;
+  bool shields_up = ctx->isGlobalBlockEnabled;
+  std::string original_referrer(request->referrer());
+  content::Referrer new_referrer;
+  if (net::blockers::ShieldsConfig::shouldSetReferrer(allow_referrers, shields_up,
+          GURL(original_referrer), tab_origin, request->url(), target_origin,
+          content::Referrer::NetReferrerPolicyToBlinkReferrerPolicy(
+              request->referrer_policy()), &new_referrer)) {
+      request->SetReferrer(new_referrer.url.spec());
+  }
 }

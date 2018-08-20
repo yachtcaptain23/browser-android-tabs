@@ -259,6 +259,8 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   bool PendedRequestIsDestroyedOrCancelled(
             OnBeforeURLRequestContext* ctx,
             net::URLRequest* request);
+  void ShouldBlockReferrer(std::shared_ptr<OnBeforeURLRequestContext> ctx,
+            net::URLRequest* request);
 
   std::unique_ptr<ChromeExtensionsNetworkDelegate> extensions_delegate_;
 
