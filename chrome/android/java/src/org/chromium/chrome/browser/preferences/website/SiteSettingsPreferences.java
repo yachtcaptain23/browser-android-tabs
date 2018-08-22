@@ -110,10 +110,10 @@ public class SiteSettingsPreferences extends PreferenceFragment
 
             // TODO(csharrison): Remove this condition once the experimental UI lands. It is not
             // great to dynamically remove the preference in this way.
-            if (!SiteSettingsCategory.adsCategoryEnabled()) {
+            /*if (!SiteSettingsCategory.adsCategoryEnabled()) {
                 getPreferenceScreen().removePreference(
                         findPreference(SiteSettingsCategory.Type.ADS));
-            }
+            }*/
             if (!ChromeFeatureList.isEnabled(ChromeFeatureList.SOUND_CONTENT_SETTING)) {
                 getPreferenceScreen().removePreference(
                         findPreference(SiteSettingsCategory.Type.SOUND));
@@ -149,9 +149,9 @@ public class SiteSettingsPreferences extends PreferenceFragment
             websitePrefs.add(SiteSettingsCategory.PLAY_VIDEO_IN_BACKGROUND);
             websitePrefs.add(SiteSettingsCategory.PLAY_YT_VIDEO_IN_BROWSER);
         } else {
-            if (SiteSettingsCategory.adsCategoryEnabled()) {
+            /*if (SiteSettingsCategory.adsCategoryEnabled()) {
                 websitePrefs.add(SiteSettingsCategory.Type.ADS);
-            }
+            }*/
             // Now even if Protected Content is not available,
             // there are two items at least. Media item will be shown.
             //websitePrefs.add(SiteSettingsCategory.Type.BACKGROUND_SYNC);
@@ -209,8 +209,8 @@ public class SiteSettingsPreferences extends PreferenceFragment
             } else if (SiteSettingsCategory.Type.DEVICE_LOCATION == prefCategory && checked
                     && prefServiceBridge.isLocationAllowedByPolicy()) {
                 p.setSummary(ContentSettingsResources.getGeolocationAllowedSummary());
-            } else if (SiteSettingsCategory.Type.ADS == prefCategory && !checked) {
-                p.setSummary(ContentSettingsResources.getAdsBlockedListSummary());
+            //} else if (SiteSettingsCategory.Type.ADS == prefCategory && !checked) {
+            //    p.setSummary(ContentSettingsResources.getAdsBlockedListSummary());
             } else if (SiteSettingsCategory.Type.SOUND == prefCategory && !checked) {
                 p.setSummary(ContentSettingsResources.getSoundBlockedListSummary());
             } else if (requiresTriStateSetting) {
