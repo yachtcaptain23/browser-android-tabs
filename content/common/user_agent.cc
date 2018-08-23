@@ -62,7 +62,7 @@ std::string BuildOSCpuInfo() {
     else if (windows_architecture == base::win::OSInfo::IA64_ARCHITECTURE)
       architecture_token = "; Win64; IA64";
   }
-/*#elif defined(OS_ANDROID)
+#elif defined(OS_ANDROID)
   std::string android_version_str = base::SysInfo::OperatingSystemVersion();
 
   std::string android_info_str;
@@ -83,7 +83,7 @@ std::string BuildOSCpuInfo() {
       android_info_str += ";";
     }
     android_info_str += " Build/" + android_build_id;
-  }*/
+  }
 #elif (defined(OS_POSIX) && !defined(OS_MACOSX)) || defined(OS_FUCHSIA)
   // Should work on any Posix system.
   struct utsname unixinfo;
@@ -119,10 +119,9 @@ std::string BuildOSCpuInfo() {
       os_minor_version,
       os_bugfix_version
 #elif defined(OS_ANDROID)
-      "Android"
-/*      "Android %s%s",
+      "Android %s%s",
       android_version_str.c_str(),
-      android_info_str.c_str()*/
+      android_info_str.c_str()
 #elif defined(OS_POSIX) || defined(OS_FUCHSIA)
                       "%s %s",
                       unixinfo.sysname,  // e.g. Linux
@@ -190,7 +189,7 @@ std::string BuildUserAgentFromOSAndProduct(const std::string& os_info,
   std::string user_agent;
   base::StringAppendF(
       &user_agent,
-      "Mozilla/5.0 (%s) AppleWebKit/%d.%d (KHTML, like Gecko) %s Safari/%d.%d Brave",
+      "Mozilla/5.0 (%s) AppleWebKit/%d.%d (KHTML, like Gecko) %s Safari/%d.%d",
       os_info.c_str(),
       WEBKIT_VERSION_MAJOR,
       WEBKIT_VERSION_MINOR,
