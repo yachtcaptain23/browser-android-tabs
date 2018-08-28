@@ -1394,8 +1394,6 @@ class CONTENT_EXPORT WebContentsImpl : public WebContents,
   // |DisplayCutoutHostImpl|.
   void NotifyViewportFitChanged(blink::mojom::ViewportFit value);
 
-  void ShouldBlockReferrer(NavigationHandle* navigation_handle);
-
   // Data for core operation ---------------------------------------------------
 
   // Delegate for notifying our owner about stuff. Not owned by us.
