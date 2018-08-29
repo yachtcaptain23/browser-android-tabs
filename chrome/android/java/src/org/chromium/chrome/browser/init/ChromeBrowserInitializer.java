@@ -591,7 +591,7 @@ public class ChromeBrowserInitializer {
         MemoryPressureUma.initializeForBrowser();
 
         InitAdBlock();
-        UpdateStats();
+        //UpdateStats();
         CheckInstallationSource();
         SwitchSearchSuggestEnabled();
     }
