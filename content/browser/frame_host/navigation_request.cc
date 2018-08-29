@@ -36,6 +36,7 @@
 #include "content/browser/service_worker/service_worker_context_wrapper.h"
 #include "content/browser/service_worker/service_worker_navigation_handle.h"
 #include "content/browser/site_instance_impl.h"
+#include "content/browser/web_contents/web_contents_impl.h"
 #include "content/common/appcache_interfaces.h"
 #include "content/common/content_constants_internal.h"
 #include "content/public/browser/browser_context.h"
@@ -59,6 +60,7 @@
 #include "content/public/common/request_context_type.h"
 #include "content/public/common/url_constants.h"
 #include "content/public/common/url_utils.h"
+#include "content/public/common/user_agent.h"
 #include "content/public/common/web_preferences.h"
 #include "net/base/load_flags.h"
 #include "net/base/net_errors.h"
@@ -496,7 +498,11 @@ NavigationRequest::NavigationRequest(
   if (request_params.is_overriding_user_agent ||
       (entry && entry->GetIsOverridingUserAgent())) {
     user_agent_override =
-        frame_tree_node_->navigator()->GetDelegate()->GetUserAgentOverride();
+        content::AddBraveUserAgent(frame_tree_node_->navigator()->GetDelegate()->GetUserAgentOverride(), common_params_.url.host());
+    content::WebContents* web_contents = content::WebContentsImpl::FromFrameTreeNode(frame_tree_node_);
+    if (web_contents) {
+      web_contents->SetUserAgentOverride(user_agent_override, false);
+    }
   }
 
   std::unique_ptr<net::HttpRequestHeaders> embedder_additional_headers;
