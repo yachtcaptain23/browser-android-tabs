@@ -2888,7 +2888,6 @@ public class ToolbarPhone extends ToolbarLayout
         }
     }
 
-<<<<<<< HEAD
     @Override
     public void enableExperimentalButton(
             OnClickListener onClickListener, int drawableResId, int contentDescriptionResId) {

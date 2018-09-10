@@ -128,7 +128,7 @@ class ReportingServiceProxyImpl : public blink::mojom::ReportingServiceProxy {
     // renderer.
     std::string user_agent;
     if (request_context->http_user_agent_settings() != nullptr)
-      user_agent = request_context->http_user_agent_settings()->GetUserAgent();
+      user_agent = request_context->http_user_agent_settings()->GetUserAgent("");
     reporting_service->QueueReport(url, user_agent, group, type,
                                    std::move(body),
                                    /* depth= */ 0);

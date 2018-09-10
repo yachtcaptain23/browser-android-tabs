@@ -81,13 +81,13 @@ public class PrivacyPreferences extends PreferenceFragment
             // Remove preferences that were migrated to SyncAndServicesPreferences.
             preferenceScreen.removePreference(findPreference(PREF_NAVIGATION_ERROR));
             preferenceScreen.removePreference(findPreference(PREF_SEARCH_SUGGESTIONS));
-            preferenceScreen.removePreference(
-                    findPreference(PREF_SAFE_BROWSING_EXTENDED_REPORTING));
-            preferenceScreen.removePreference(findPreference(PREF_SAFE_BROWSING_SCOUT_REPORTING));
-            preferenceScreen.removePreference(findPreference(PREF_SAFE_BROWSING));
+            /*preferenceScreen.removePreference(
+                    findPreference(PREF_SAFE_BROWSING_EXTENDED_REPORTING));*/
+            //preferenceScreen.removePreference(findPreference(PREF_SAFE_BROWSING_SCOUT_REPORTING));
+            //preferenceScreen.removePreference(findPreference(PREF_SAFE_BROWSING));
             preferenceScreen.removePreference(findPreference(PREF_NETWORK_PREDICTIONS));
             preferenceScreen.removePreference(findPreference(PREF_CONTEXTUAL_SEARCH));
-            preferenceScreen.removePreference(findPreference(PREF_USAGE_AND_CRASH_REPORTING));
+            //preferenceScreen.removePreference(findPreference(PREF_USAGE_AND_CRASH_REPORTING));
 
             TextMessageWithLinkAndIconPreference syncAndServicesLink =
                     (TextMessageWithLinkAndIconPreference) findPreference(

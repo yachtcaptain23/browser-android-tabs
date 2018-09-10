@@ -466,15 +466,6 @@ public class SingleCategoryPreferences extends PreferenceFragment
                 break;
             }
 
-           if (mCategory.showDesktopViewSites()) {
-                PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
-            } else if (mCategory.showPlayVideoInBackground()) {
-                PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
-                AskForRelaunch();
-            } else if (mCategory.showPlayYTVideoInBrowser()) {
-                PrefServiceBridge.getInstance().setPlayYTVideoInBrowserEnabled((boolean) newValue);
-            }
-
             // Categories that support adding exceptions also manage the 'Add site' preference.
             // This should only be used for settings that have host-pattern based exceptions.
             if (mCategory.showSites(SiteSettingsCategory.Type.AUTOPLAY)
@@ -822,7 +813,6 @@ public class SingleCategoryPreferences extends PreferenceFragment
                 return mCategory.isManaged() && !mCategory.isManagedByCustodian();
             }
 
-<<<<<<< HEAD
             @Override
             public boolean isPreferenceControlledByCustodian(Preference preference) {
                 return mCategory.isManagedByCustodian();
@@ -842,14 +832,6 @@ public class SingleCategoryPreferences extends PreferenceFragment
             } else {
                 globalToggle.setChecked(PrefServiceBridge.getInstance().isCategoryEnabled(
                         SiteSettingsCategory.contentSettingsType(type)));
-
-                if (mCategory.showDesktopViewSites()) {
-                    globalToggle.setChecked(PrefServiceBridge.getInstance().desktopViewEnabled());
-                } else if (mCategory.showPlayVideoInBackground()) {
-                    globalToggle.setChecked(PrefServiceBridge.getInstance().playVideoInBackgroundEnabled());
-                } else if (mCategory.showPlayYTVideoInBrowser()) {
-                    globalToggle.setChecked(PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled());
-                }
             }
             break;
         }

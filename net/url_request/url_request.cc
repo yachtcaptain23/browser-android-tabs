@@ -1186,7 +1186,7 @@ std::string URLRequest::GetUserAgent() const {
                                        &user_agent))
     return user_agent;
   if (context()->http_user_agent_settings())
-    return context()->http_user_agent_settings()->GetUserAgent();
+    return context()->http_user_agent_settings()->GetUserAgent("");
   return std::string();
 }
 
