@@ -60,11 +60,11 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   void set_extension_info_map(extensions::InfoMap* extension_info_map);
 
   void ResetBlocker(IOThread* io_thread, net::URLRequest* request,
-      const net::CompletionCallback& callback,
+      net::CompletionOnceCallback callback,
       GURL* new_url,
       std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void GetIOThread(net::URLRequest* request,
-      const net::CompletionCallback& callback,
+      net::CompletionOnceCallback callback,
       GURL* new_url,
       std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void CheckAdBlockerReload(net::blockers::ShieldsConfig* shields_config);
@@ -213,34 +213,34 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   // Separate IO and FILE thread workers for blocker
   int OnBeforeURLRequest_PreBlockersWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_TpBlockPreFileWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void OnBeforeURLRequest_TpBlockFileWork();
   int OnBeforeURLRequest_TpBlockPostFileWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_AdBlockPreFileWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void OnBeforeURLRequest_AdBlockFileWork(std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_AdBlockPostFileWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_HttpsePreFileWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void OnBeforeURLRequest_HttpseFileWork(
@@ -248,12 +248,12 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_HttpsePostFileWork(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_PostBlockers(
             net::URLRequest* request,
-            const net::CompletionCallback& callback,
+            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   bool PendedRequestIsDestroyedOrCancelled(

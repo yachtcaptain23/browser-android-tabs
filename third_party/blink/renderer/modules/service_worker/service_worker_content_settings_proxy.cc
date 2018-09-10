@@ -43,4 +43,8 @@ ServiceWorkerContentSettingsProxy::GetService() {
   return *content_settings_instance_host;
 }
 
+bool ServiceWorkerContentSettingsProxy::AllowFingerprinting() {
+    return true;
+};
+
 }  // namespace blink

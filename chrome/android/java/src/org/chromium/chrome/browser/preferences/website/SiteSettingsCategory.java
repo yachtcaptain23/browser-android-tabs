@@ -40,7 +40,7 @@ public class SiteSettingsCategory {
     @IntDef({Type.ALL_SITES, Type.ADS, Type.AUTOPLAY, Type.BACKGROUND_SYNC, Type.CAMERA,
             Type.CLIPBOARD, Type.COOKIES, Type.DEVICE_LOCATION, Type.JAVASCRIPT, Type.MICROPHONE,
             Type.NOTIFICATIONS, Type.POPUPS, Type.PROTECTED_MEDIA, Type.SENSORS, Type.SOUND,
-            Type.USE_STORAGE, Type.USB})
+            Type.USE_STORAGE, Type.USB, Type.DESKTOP_VIEW, Type.PLAY_VIDEO_IN_BACKGROUND, Type.PLAY_YT_VIDEO_IN_BROWSER})
     @Retention(RetentionPolicy.SOURCE)
     public @interface Type {
         // Values used to address array index. Should be enumerated from 0 and
@@ -63,10 +63,13 @@ public class SiteSettingsCategory {
         int SOUND = 14;
         int USE_STORAGE = 15;
         int USB = 16;
+        int DESKTOP_VIEW = 17;
+        int PLAY_VIDEO_IN_BACKGROUND = 18;
+        int PLAY_YT_VIDEO_IN_BROWSER = 19;
         /**
          * Number of handled categories used for calculating array sizes.
          */
-        int NUM_ENTRIES = 17;
+        int NUM_ENTRIES = 20;
     }
 
     /**
@@ -91,6 +94,9 @@ public class SiteSettingsCategory {
             "sound", // Type.SOUND
             "use_storage", // Type.USE_STORAGE
             "usb", // Type.USB
+            "desktop_view", // Type.DESKTOP_VIEW
+            "play_video_in_background", // Type.PLAY_VIDEO_IN_BACKGROUND
+            "play_yt_video_in_browser", // Type.PLAY_YT_VIDEO_IN_BROWSER
     };
 
     /**
@@ -117,10 +123,10 @@ public class SiteSettingsCategory {
             ContentSettingsType.CONTENT_SETTINGS_TYPE_SOUND, // Type.SOUND
             -1, // Type.USE_STORAGE
             ContentSettingsType.CONTENT_SETTINGS_TYPE_USB_GUARD, // Type.USB
+            ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW, // Type.DESKTOP_VIEW
+            ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND, // Type.PLAY_VIDEO_IN_BACKGROUND
+            ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER, // Type.PLAY_YT_VIDEO_IN_BROWSER
     };
-    public static final String CATEGORY_DESKTOP_VIEW = "desktop_view";
-    public static final String CATEGORY_PLAY_VIDEO_IN_BACKGROUND = "play_video_in_background";
-    public static final String CATEGORY_PLAY_YT_VIDEO_IN_BROWSER = "play_yt_video_in_browser";
 
     // The id of this category.
     private @Type int mCategory;
@@ -149,10 +155,6 @@ public class SiteSettingsCategory {
     public static SiteSettingsCategory createFromType(@Type int type) {
         if (type == Type.DEVICE_LOCATION) return new LocationCategory();
         if (type == Type.NOTIFICATIONS) return new NotificationCategory();
-        if (CATEGORY_DESKTOP_VIEW.equals(category)) {
-            return new SiteSettingsCategory(CATEGORY_DESKTOP_VIEW, "",
-                    ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
-        }
 
         final String permission;
         if (type == Type.CAMERA) {
@@ -171,15 +173,6 @@ public class SiteSettingsCategory {
         assert Type.ALL_SITES == 0;
         for (@Type int i = Type.ALL_SITES; i < Type.NUM_ENTRIES; i++) {
             if (CONTENT_TYPES[i] == contentSettingsType) return createFromType(i);
-        }
-        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW) {
-            return fromString(CATEGORY_DESKTOP_VIEW);
-        }
-        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND) {
-            return fromString(CATEGORY_PLAY_VIDEO_IN_BACKGROUND);
-        }
-        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER) {
-            return fromString(CATEGORY_PLAY_YT_VIDEO_IN_BROWSER);
         }
         return null;
     }
