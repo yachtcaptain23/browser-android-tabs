@@ -342,7 +342,6 @@ class CONTENT_EXPORT NavigationRequest : public NavigationURLLoaderDelegate {
   // renderer process.
   void UpdateRequestNavigationParamsHistory();
 
-<<<<<<< HEAD
   // Called when an ongoing renderer-initiated navigation is aborted.
   // Only used with PerNavigationMojoInterface enabled.
   void OnRendererAbortedNavigation();

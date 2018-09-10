@@ -2790,7 +2790,6 @@ public class ToolbarPhone
         }
     }
 
-<<<<<<< HEAD
     @Override
     public void enableExperimentalButton(
             OnClickListener onClickListener, int drawableResId, int contentDescriptionResId) {
