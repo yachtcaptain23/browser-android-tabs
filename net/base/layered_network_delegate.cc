@@ -16,10 +16,11 @@ LayeredNetworkDelegate::~LayeredNetworkDelegate() = default;
 
 int LayeredNetworkDelegate::OnBeforeURLRequest(URLRequest* request,
                                                CompletionOnceCallback callback,
-                                               GURL* new_url) {
+                                               GURL* new_url,
+                                               bool call_callback) {
   OnBeforeURLRequestInternal(request, new_url);
   return nested_network_delegate_->NotifyBeforeURLRequest(
-      request, std::move(callback), new_url);
+      request, std::move(callback), new_url, call_callback);
 }
 
 void LayeredNetworkDelegate::OnBeforeURLRequestInternal(URLRequest* request,
