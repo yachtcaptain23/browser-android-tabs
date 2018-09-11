@@ -284,7 +284,8 @@ void ChromeNetworkDelegate::InitializePrefsOnUIThread(
 int ChromeNetworkDelegate::OnBeforeURLRequest(
     net::URLRequest* request,
     net::CompletionOnceCallback callback,
-    GURL* new_url) {
+    GURL* new_url,
+    bool call_callback) {
   std::shared_ptr<OnBeforeURLRequestContext> ctx(new OnBeforeURLRequestContext());
 
   int rv = OnBeforeURLRequest_PreBlockersWork(
@@ -680,7 +681,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PostBlockers(
   ShouldBlockReferrer(ctx, request);
 
   return extensions_delegate_->NotifyBeforeURLRequest(
-      request, std::move(callback), new_url);
+      request, std::move(callback), new_url, ctx->pendingAtLeastOnce);
 }
 
 int ChromeNetworkDelegate::OnBeforeStartTransaction(
