@@ -197,7 +197,7 @@ public class NewTabPageView extends FrameLayout {
         initializeLayoutChangeListener();
         mNewTabPageLayout.setSearchProviderInfo(searchProviderHasLogo, searchProviderIsGoogle);
 
-        //mRecyclerView.init(mUiConfig, mContextMenuManager);
+        mRecyclerView.init(mUiConfig, mContextMenuManager);
 
         // Set up snippets
         NewTabPageAdapter newTabPageAdapter = new NewTabPageAdapter(
@@ -255,7 +255,7 @@ public class NewTabPageView extends FrameLayout {
      *                        has focus.
      */
     public void setFakeboxDelegate(FakeboxDelegate fakeboxDelegate) {
-        //mRecyclerView.setFakeboxDelegate(fakeboxDelegate);
+        mRecyclerView.setFakeboxDelegate(fakeboxDelegate);
     }
 
     private void initializeLayoutChangeListener() {
@@ -435,8 +435,8 @@ public class NewTabPageView extends FrameLayout {
             return;
         }
 
-        /*mRecyclerView.getLinearLayoutManager().scrollToPositionWithOffset(
-                scrollPosition, getScrollToSuggestionsOffset());*/
+        mRecyclerView.getLinearLayoutManager().scrollToPositionWithOffset(
+                scrollPosition, getScrollToSuggestionsOffset());
     }
 
     /**
@@ -445,9 +445,8 @@ public class NewTabPageView extends FrameLayout {
      *         suggestion card's position.
      */
     private int getSuggestionsScrollPosition() {
-        return RecyclerView.NO_POSITION;
         // Header always exists.
-        /*if (ChromeFeatureList.isEnabled(
+        if (ChromeFeatureList.isEnabled(
                     ChromeFeatureList.NTP_ARTICLE_SUGGESTIONS_EXPANDABLE_HEADER)) {
             return mRecyclerView.getNewTabPageAdapter().getArticleHeaderPosition();
         }
@@ -462,7 +461,7 @@ public class NewTabPageView extends FrameLayout {
         int scrollPosition = mRecyclerView.getNewTabPageAdapter().getArticleHeaderPosition();
         return scrollPosition == RecyclerView.NO_POSITION
                 ? mRecyclerView.getNewTabPageAdapter().getFirstSnippetPosition()
-                : scrollPosition;*/
+                : scrollPosition;
     }
 
     private int getScrollToSuggestionsOffset() {
@@ -485,8 +484,8 @@ public class NewTabPageView extends FrameLayout {
         return SuggestionsConfig.useModernLayout()
                 && !ChromeFeatureList.isEnabled(
                            ChromeFeatureList.NTP_ARTICLE_SUGGESTIONS_EXPANDABLE_HEADER)
-                /*&& mRecyclerView.getNewTabPageAdapter().getArticleHeaderPosition()
-                == RecyclerView.NO_POSITION*/;
+                && mRecyclerView.getNewTabPageAdapter().getArticleHeaderPosition()
+                == RecyclerView.NO_POSITION;
     }
 
     /**
