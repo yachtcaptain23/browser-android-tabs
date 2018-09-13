@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">Letiltott beépülő modul</translation>
 <translation id="1145532888383813076">Kereshet az eszközén, az alkalmazások között és az interneten.</translation>
 <translation id="1146204723345436916">Könyvjelzők importálása HTML-fájlból...</translation>
-<translation id="114721135501989771">Google-funkciók a Brave-ban</translation>
+<translation id="4755587405228414306">Google-funkciók a Brave-ban</translation>
 <translation id="1148097584170732637">A következőket találtuk: <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     Nincs elég helyi tárhely. További <ph name="FILE_SIZE" /> tárhelyre van szükség.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">A szinkronizálás szünetel</translation>
 <translation id="1319979322914001937">Olyan alkalmazás, amely a Brave Internetes áruházból származó bővítmények szűrt listáját jeleníti meg. A listában szereplő alkalmazások közvetlenül telepíthetők az alkalmazásban.</translation>
 <translation id="1322046419516468189">A mentett jelszavakat itt láthatja és kezelheti: <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Ha hozzá szeretne férni lapjaihoz a többi eszközéről, jelentkezzen be a Brave-ba.</translation>
+<translation id="7253276740368043692">Ha hozzá szeretne férni lapjaihoz a többi eszközéről, jelentkezzen be a Brave-ba.</translation>
 <translation id="1327074568633507428">Nyomtató a Google Cloud Printben</translation>
 <translation id="1327977588028644528">Átjáró</translation>
 <translation id="1329584516321524826">Most frissítve</translation>
@@ -604,7 +604,7 @@
 <translation id="1875312262568496299">Indítás</translation>
 <translation id="1875387611427697908">Ez csak a következő helyről adható hozzá: <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Nem sikerült lekérni a hitelesítési tokent. Jelentkezzen ki, majd jelentkezzen be újra.</translation>
-<translation id="1878302395768190018">Ezt bármikor személyre szabhatja a Brave beállításaiban</translation>
+<translation id="8340964510643644301">Ezt bármikor személyre szabhatja a Brave beállításaiban</translation>
 <translation id="1880905663253319515">Törli a "<ph name="CERTIFICATE_NAME" />" tanúsítványt?</translation>
 <translation id="1886996562706621347">A webhelyek kérhetik, hogy protokollok alapértelmezett kezelői legyenek (ajánlott)</translation>
 <translation id="1887442540531652736">Bejelentkezési hiba</translation>
@@ -1439,7 +1439,7 @@
 <translation id="3143695347784622594">Rendszeradatok küldése. Diagnosztikai, továbbá eszköz- és alkalmazáshasználati adatok automatikus küldése a Google-nak. Ezt bármikor módosíthatja az eszköz <ph name="BEGIN_LINK1" />beállításaiban<ph name="END_LINK1" />. Ha bekapcsolta a további Internetes és alkalmazástevékenységeket, akkor a rendszer tárolja ezeket az információkat a fiókjában, Ön pedig kezelheti őket a Saját tevékenységek között. <ph name="BEGIN_LINK2" />További információ<ph name="END_LINK2" />.</translation>
 <translation id="3144126448740580210">KÉSZ</translation>
 <translation id="3144647712221361880">Link megnyitása mint</translation>
-<translation id="3149510190863420837">Brave-alkalmazások</translation>
+<translation id="300669147395456190">Brave-alkalmazások</translation>
 <translation id="3150927491400159470">Teljes újratöltés</translation>
 <translation id="315116470104423982">Mobiladatok</translation>
 <translation id="3151539355209957474">Kezdés ideje</translation>
@@ -1514,7 +1514,7 @@
 <translation id="3280237271814976245">Mentés &amp;másként...</translation>
 <translation id="3280243678470289153">A Brave használatának folytatása</translation>
 <translation id="3280431534455935878">Előkészítés</translation>
-<translation id="3282568296779691940">Bejelentkezés a Brave-ba</translation>
+<translation id="82609232232243542">Bejelentkezés a Brave-ba</translation>
 <translation id="3285322247471302225">Új lap</translation>
 <translation id="3288047731229977326">A fejlesztői módban futó bővítmények kárt okozhatnak számítógépén. Ha Ön nem fejlesztő, akkor a biztonság kedvéért kapcsolja ki a fejlesztői módban futó bővítményeket.</translation>
 <translation id="3289856944988573801">Kérjük, frissítések kereséséhez Ethernetet vagy Wi-Fit használjon.</translation>
@@ -2756,7 +2756,7 @@ Elindítja a következőt: <ph name="CONTROL_PANEL_APPLET_NAME" />?</translation
 <translation id="5235750401727657667">Új lap megnyitásakor látható oldal cseréje</translation>
 <translation id="5238278114306905396">A(z) „<ph name="EXTENSION_NAME" />” alkalmazás automatikusan törölve.</translation>
 <translation id="5238369540257804368">Hatáskörök</translation>
-<translation id="5240817131241497236">Megváltoztak a szinkronizálást, a személyre szabást és a Brave más Google-szolgáltatásait vezérlő beállítások. Ez befolyásolhatja az aktuális beállításokat.</translation>
+<translation id="5088042060344584749">Megváltoztak a szinkronizálást, a személyre szabást és a Brave más Google-szolgáltatásait vezérlő beállítások. Ez befolyásolhatja az aktuális beállításokat.</translation>
 <translation id="5241128660650683457">Az összes adat beolvasása a felkeresett webhelyekről</translation>
 <translation id="5242724311594467048">Engedélyezi a következőt: „<ph name="EXTENSION_NAME" />”?</translation>
 <translation id="5243522832766285132">Próbálkozzon újra néhány pillanat múlva</translation>
@@ -4290,7 +4290,7 @@ Győződjön meg arról, hogy nem ad ki bizalmas adatokat.</translation>
 <translation id="7564847347806291057">Folyamat leállítása</translation>
 <translation id="7566118625369982896">Play-alkalmazáslinkek kezelése</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Brave-adatok törölve</translation>
+<translation id="7814200940910057384">Brave-adatok törölve</translation>
 <translation id="7568790562536448087"> frissítése</translation>
 <translation id="7571643774869182231">A frissítés telepítéséhez nincs elegendő tárhely</translation>
 <translation id="7573172247376861652">Akkumulátor töltése</translation>
@@ -5168,7 +5168,7 @@ A kulcsfájlt tartsa biztonságos helyen. Szüksége lesz rá ahhoz, hogy új ve
 <translation id="8899851313684471736">Link megnyitása új &amp;ablakban</translation>
 <translation id="8902667442496790482">Felolvasási beállítások megnyitása</translation>
 <translation id="8903921497873541725">Nagyítás</translation>
-<translation id="8904976895050290827">Brave - szinkronizálás</translation>
+<translation id="3149880132460839085">Brave - szinkronizálás</translation>
 <translation id="8909833622202089127">A webhely nyomon követi a tartózkodási helyét</translation>
 <translation id="8910146161325739742">Képernyőmegosztás</translation>
 <translation id="8910222113987937043">A könyvjelzők, előzmények, jelszavak és egyéb beállítások módosításai nem lesznek szinkronizálva Google-fiókjával. Meglévő adatait azonban továbbra is tárolni fogja Google-fiókja, és azokat a <ph name="BEGIN_LINK" />Google Irányítópulton<ph name="END_LINK" /> kezelheti.</translation>

@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">Плагін заблоковано</translation>
 <translation id="1145532888383813076">Шукайте на пристрої, в додатках і в Інтернеті</translation>
 <translation id="1146204723345436916">Імпортувати закладки з файлу HTML...</translation>
-<translation id="114721135501989771">Розумні функції в Brave</translation>
+<translation id="4755587405228414306">Розумні функції в Brave</translation>
 <translation id="1148097584170732637">Знайдено: <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     Недостатньо місця в локальній пам’яті. Потрібно додати <ph name="FILE_SIZE" />.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">Синхронізацію призупинено</translation>
 <translation id="1319979322914001937">Додаток, який показує відфільтрований список розширень із Веб-магазину Brave. Розширення в цьому списку може встановлювати прямо з додатка.</translation>
 <translation id="1322046419516468189">Переглядайте збережені паролі й керуйте ними на сторінці <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Щоб мати доступ до вкладок з інших пристроїв, увійдіть в обліковий запис Brave.</translation>
+<translation id="7253276740368043692">Щоб мати доступ до вкладок з інших пристроїв, увійдіть в обліковий запис Brave.</translation>
 <translation id="1327074568633507428">Принтер у Google Cloud Print</translation>
 <translation id="1327977588028644528">Шлюз</translation>
 <translation id="1329584516321524826">Щойно оновлено</translation>
@@ -604,7 +604,7 @@
 <translation id="1875312262568496299">Почати</translation>
 <translation id="1875387611427697908">Можна додавати лише із сайту <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Не вдалось отримати маркер автентифікації. Щоб повторити спробу, вийдіть і знову ввійдіть в обліковий запис.</translation>
-<translation id="1878302395768190018">Це можна будь-коли змінити в налаштуваннях Brave</translation>
+<translation id="8340964510643644301">Це можна будь-коли змінити в налаштуваннях Brave</translation>
 <translation id="1880905663253319515">Видалити сертифікат "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">Дозволити сайтам запитувати можливість ставати обробниками протоколів за умовчанням (рекомендовано)</translation>
 <translation id="1887442540531652736">Помилка входу</translation>
@@ -1438,7 +1438,7 @@
 <translation id="3143695347784622594">Надсилання системних даних. Автоматично надсилає в Google дані про діагностику та використання пристрою й додатків. Цей параметр можна будь-коли змінити в <ph name="BEGIN_LINK1" />налаштуваннях<ph name="END_LINK1" /> пристрою. Якщо Історію додатків і веб-пошуку ввімкнено, ця інформація зберігатиметься в обліковому записі. Ви зможете керувати нею в розділі "Моя активність". <ph name="BEGIN_LINK2" />Докладніше<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">ГОТОВО</translation>
 <translation id="3144647712221361880">Відкрити посилання як</translation>
-<translation id="3149510190863420837">Додатки Brave</translation>
+<translation id="300669147395456190">Додатки Brave</translation>
 <translation id="3150927491400159470">Жорстке перезавантаження</translation>
 <translation id="315116470104423982">Мобільне передавання даних</translation>
 <translation id="3151539355209957474">Час початку</translation>
@@ -1513,7 +1513,7 @@
 <translation id="3280237271814976245">Зберегти &amp;як...</translation>
 <translation id="3280243678470289153">Не виходити з Brave</translation>
 <translation id="3280431534455935878">Підготовка</translation>
-<translation id="3282568296779691940">Вхід у Brave</translation>
+<translation id="82609232232243542">Вхід у Brave</translation>
 <translation id="3285322247471302225">Нова &amp;вкладка</translation>
 <translation id="3288047731229977326">Розширення, які працюють у режимі розробника, можуть пошкодити ваш комп’ютер. Якщо ви не розробник, вимкніть їх заради безпеки.</translation>
 <translation id="3289856944988573801">Щоб перевірити наявність оновлень, скористайтеся мережею Ethernet чи Wi-Fi.</translation>
@@ -2756,7 +2756,7 @@
 <translation id="5235750401727657667">Відкривати нову вкладку на місці поточної сторінки</translation>
 <translation id="5238278114306905396">Програму "<ph name="EXTENSION_NAME" />" автоматично вилучено.</translation>
 <translation id="5238369540257804368">Діапазони</translation>
-<translation id="5240817131241497236">Змінилися налаштування, які керують синхронізацією, персоналізацією й іншими службами Google у Brave. Це може вплинути на поточні налаштування.</translation>
+<translation id="5088042060344584749">Змінилися налаштування, які керують синхронізацією, персоналізацією й іншими службами Google у Brave. Це може вплинути на поточні налаштування.</translation>
 <translation id="5241128660650683457">Переглядати всі ваші дані на веб-сайтах, які ви відвідуєте</translation>
 <translation id="5242724311594467048">Увімкнути розширення "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">Повторіть спробу через кілька хвилин</translation>
@@ -4288,7 +4288,7 @@
 <translation id="7564847347806291057">Завершити процес</translation>
 <translation id="7566118625369982896">Керувати посиланнями на додатки в Google Play</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Дані Brave видалено</translation>
+<translation id="7814200940910057384">Дані Brave видалено</translation>
 <translation id="7568790562536448087">Оновлення</translation>
 <translation id="7571643774869182231">Замало пам’яті для оновлення</translation>
 <translation id="7573172247376861652">Заряджання акумулятора</translation>
@@ -5166,7 +5166,7 @@
 <translation id="8899851313684471736">Відкрити посилання у новому &amp;вікні</translation>
 <translation id="8902667442496790482">Відкрити налаштування служби Читання з екрана</translation>
 <translation id="8903921497873541725">Збільшити масштаб</translation>
-<translation id="8904976895050290827">Синхронізація Brave</translation>
+<translation id="3149880132460839085">Синхронізація Brave</translation>
 <translation id="8909833622202089127">Сайт відстежує місцезнаходження</translation>
 <translation id="8910146161325739742">Як показувати екран</translation>
 <translation id="8910222113987937043">Зміни в закладках, історії, паролях та інших налаштуваннях більше не синхронізуватимуться з вашим обліковим записом Google. Дані, які зберігаються в обліковому записі Google, не буде видалено. Ними можна керувати на <ph name="BEGIN_LINK" />Інформаційній панелі Google<ph name="END_LINK" />.</translation>

@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">प्लगिन अवरोधित</translation>
 <translation id="1145532888383813076">तुमच्या डिव्हाइस, अॅप्स आणि वेबवर शोधा.</translation>
 <translation id="1146204723345436916">HTML फायलीवरुन बुकमार्क आयात करा...</translation>
-<translation id="114721135501989771">Brave मध्ये Google स्मार्ट मिळवा</translation>
+<translation id="4755587405228414306">Brave मध्ये Google स्मार्ट मिळवा</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> आढळले.
     <ph name="LINE_BREAK1" />
     स्थानिक स्टोरेजमध्ये पुरेशी जागा उपलब्ध नाही. अतिरिक्त <ph name="FILE_SIZE" /> आवश्यक आहे.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">सिंक थांबवले आहे</translation>
 <translation id="1319979322914001937">Brave वेब स्टोअरमधील विस्ताराची फिल्टर केलेली सूची दर्शविणारा अॅप. सूचीमधील विस्तार अॅपवरून थेट इंस्टॉल केले जाऊ शकतात.</translation>
 <translation id="1322046419516468189">सेव्ह केलेले पासवर्ड तुमच्या <ph name="SAVED_PASSWORDS_STORE" /> मध्ये पाहा आणि व्यवस्थापित करा</translation>
-<translation id="1326317727527857210">आपल्या इतर डिव्हाइसेसवरील आपले टॅब प्राप्त करण्यासाठी, Brave मध्ये साइन इन करा.</translation>
+<translation id="7253276740368043692">आपल्या इतर डिव्हाइसेसवरील आपले टॅब प्राप्त करण्यासाठी, Brave मध्ये साइन इन करा.</translation>
 <translation id="1327074568633507428">Google क्लाउड प्रिंट वरील प्रिंटर</translation>
 <translation id="1327977588028644528">गेटवे</translation>
 <translation id="1329584516321524826">नुकतेच अपडेट केले</translation>
@@ -603,7 +603,7 @@
 <translation id="1875312262568496299">सुरुवात करा</translation>
 <translation id="1875387611427697908">हे केवळ <ph name="CHROME_WEB_STORE" /> वरून जोडले जाऊ शकते</translation>
 <translation id="1877520246462554164">प्रमाणीकरण टोकन मिळविण्यात अयशस्वी. कृपया साइन आउट करा नंतर पुन्हा प्रयत्न करण्यासाठी साइन इन करा.</translation>
-<translation id="1878302395768190018">तुम्ही Brave सेटिंग्जमध्ये हे कधीही कस्टमाइझ करू शकता</translation>
+<translation id="8340964510643644301">तुम्ही Brave सेटिंग्जमध्ये हे कधीही कस्टमाइझ करू शकता</translation>
 <translation id="1880905663253319515">"<ph name="CERTIFICATE_NAME" />" सर्टिफिकेट हटवायचे?</translation>
 <translation id="1886996562706621347">प्रोटोकॉलकरिता डीफॉल्ट हँडलर होण्यासाठी साइटना विचारण्याची अनुमती द्या</translation>
 <translation id="1887442540531652736">साइन-इन एरर</translation>
@@ -1437,7 +1437,7 @@
 <translation id="3143695347784622594">सिस्टम डेटा पाठवा. आपोआप निदान आणि डिव्हाइस आणि अ‍ॅप वापर डेटा Google ला पाठवा. तुम्ही तुमच्या डिव्हाइसच्या <ph name="BEGIN_LINK1" />सेटिंग्ज<ph name="END_LINK1" /> मध्ये कधीही हे बदलू शकता. तुम्ही अतिरिक्त वेब आणि अ‍ॅप अ‍ॅक्टिव्हिटी सुरू केल्यास, ही माहिती तुमच्या खात्यासह स्टोअर केली जाईल जेणेकरून तुम्ही ती माझी अ‍ॅक्टिव्हिटीमध्ये व्यवस्थापित करू शकाल. <ph name="BEGIN_LINK2" />अधिक जाणून घ्या<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">पूर्ण झाले</translation>
 <translation id="3144647712221361880">हे म्हणून दुवा उघडा</translation>
-<translation id="3149510190863420837">Brave Apps</translation>
+<translation id="300669147395456190">Brave Apps</translation>
 <translation id="3150927491400159470">कठीण रीलोड</translation>
 <translation id="315116470104423982">मोबाइल डेटा</translation>
 <translation id="3151539355209957474">प्रारंभ वेळ</translation>
@@ -1512,7 +1512,7 @@
 <translation id="3280237271814976245">&amp;म्हणून सेव्ह करा...</translation>
 <translation id="3280243678470289153">Brave मध्ये रहा</translation>
 <translation id="3280431534455935878">तयारी करीत आहे</translation>
-<translation id="3282568296779691940">Brave वर साइन इन करा</translation>
+<translation id="82609232232243542">Brave वर साइन इन करा</translation>
 <translation id="3285322247471302225">नवीन &amp;टॅब</translation>
 <translation id="3288047731229977326">डेव्हलपर मोडमध्‍ये चालणारे विस्‍तार तुमच्या कॉंप्युटरास हानी पोहचवू शकतात. तुम्ही डेव्हलपर नसल्‍यास, सुरक्षित राहाण्‍यासाठी डेव्हलपर मोडमध्‍ये चालणारे हे विस्‍तार तुम्ही अक्षम करावे.</translation>
 <translation id="3289856944988573801">अपडेट तपासण्यासाठी, कृपया इथरनेट किंवा वाय-फाय वापरा.</translation>
@@ -2756,7 +2756,7 @@
 <translation id="5235750401727657667">एखादा नवीन टॅब उघडताना दिसत असलेले पेज बदला</translation>
 <translation id="5238278114306905396">अ‍ॅप "<ph name="EXTENSION_NAME" />" स्वयंचलितपणे काढण्यात आला.</translation>
 <translation id="5238369540257804368">स्कोप</translation>
-<translation id="5240817131241497236">Brave मध्ये सिंक, पर्सनलायझेशन आणि इतर Google सेवा नियंत्रित करणारी सेटिंग्ज बदलली आहेत. याचा तुमच्या सद्य सेटिंग्जवर परिणाम होऊ शकतो.</translation>
+<translation id="5088042060344584749">Brave मध्ये सिंक, पर्सनलायझेशन आणि इतर Google सेवा नियंत्रित करणारी सेटिंग्ज बदलली आहेत. याचा तुमच्या सद्य सेटिंग्जवर परिणाम होऊ शकतो.</translation>
 <translation id="5241128660650683457">आपण भेट देता त्या वेबसाइटवर आपला सर्व डेटा वाचा</translation>
 <translation id="5242724311594467048">"<ph name="EXTENSION_NAME" />" सक्षम करायचे?</translation>
 <translation id="5243522832766285132">कृपया थोड्या वेळानंतर पुन्हा प्रयत्न करा</translation>
@@ -4290,7 +4290,7 @@
 <translation id="7564847347806291057">प्रक्रिया समाप्त करा</translation>
 <translation id="7566118625369982896">Play अॅप लिंक व्‍यवस्‍थापित करा</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Brave डेटा साफ केला</translation>
+<translation id="7814200940910057384">Brave डेटा साफ केला</translation>
 <translation id="7568790562536448087">अपडेट करीत आहे</translation>
 <translation id="7571643774869182231">अपडेटसाठी पुरेसे स्टोरेज उपलब्ध नाही</translation>
 <translation id="7573172247376861652">बॅटरी चार्ज</translation>
@@ -5167,7 +5167,7 @@
 <translation id="8899851313684471736">दुवा नवीन &amp;विंडोमध्ये उघडा</translation>
 <translation id="8902667442496790482">बोलण्यासाठी निवडा सेटिंग्ज उघडा</translation>
 <translation id="8903921497873541725">झूम इन करा</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8909833622202089127">साइट तुमचे स्थान ट्रॅक करत आहे</translation>
 <translation id="8910146161325739742">तुमची स्क्रीन शेअर करा</translation>
 <translation id="8910222113987937043">आपल्या बुकमार्क, इतिहास आणि अन्य सेटिंग्जसाठी बदल यापुढे आपल्या Google खात्यासह संकालित केले जाणार नाहीत. तथापि, आपला विद्यमान डेटा आपल्या Google खात्यामध्ये संग्रहित केलेला असेल आणि <ph name="BEGIN_LINK" />Google डॅशबोर्ड<ph name="END_LINK" /> वर व्यवस्थापित केला जाऊ शकतो.</translation>

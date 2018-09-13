@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">已封鎖外掛程式</translation>
 <translation id="1145532888383813076">搜尋你的裝置、應用程式和網路。</translation>
 <translation id="1146204723345436916">從 HTML 檔案匯入書籤...</translation>
-<translation id="114721135501989771">在 Brave 中體驗 Google 智慧功能</translation>
+<translation id="4755587405228414306">在 Brave 中體驗 Google 智慧功能</translation>
 <translation id="1148097584170732637">找到 <ph name="FILE_COUNT" />。
     <ph name="LINE_BREAK1" />
     可用的本機儲存空間不足，還需要 <ph name="FILE_SIZE" />。
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">已暫停同步處理</translation>
 <translation id="1319979322914001937">這個應用程式會顯示經過篩選的 Brave 線上應用程式商店擴充功能清單。使用者可以直接透過應用程式安裝清單中的擴充功能。</translation>
 <translation id="1322046419516468189">你可以查看及管理 <ph name="SAVED_PASSWORDS_STORE" />中儲存的密碼</translation>
-<translation id="1326317727527857210">如要存取您在其他裝置上開啟的分頁，請登入 Brave。</translation>
+<translation id="7253276740368043692">如要存取您在其他裝置上開啟的分頁，請登入 Brave。</translation>
 <translation id="1327074568633507428">Google 雲端列印中的印表機</translation>
 <translation id="1327977588028644528">閘道</translation>
 <translation id="1329584516321524826">剛才更新</translation>
@@ -604,7 +604,7 @@
 <translation id="1875312262568496299">開始</translation>
 <translation id="1875387611427697908">只能從 <ph name="CHROME_WEB_STORE" /> 新增</translation>
 <translation id="1877520246462554164">無法取得驗證憑證。請先登出，然後重新登入再試一次。</translation>
-<translation id="1878302395768190018">你隨時可在 Brave 設定中自訂這項設定</translation>
+<translation id="8340964510643644301">你隨時可在 Brave 設定中自訂這項設定</translation>
 <translation id="1880905663253319515">要刪除憑證「<ph name="CERTIFICATE_NAME" />」嗎？</translation>
 <translation id="1886996562706621347">允許網站要求成為通訊協定的預設處理常式 (建議)</translation>
 <translation id="1887442540531652736">登入錯誤</translation>
@@ -1438,7 +1438,7 @@
 <translation id="3143695347784622594">傳送系統資料。自動將診斷資料、裝置與應用程式使用情形資料傳送給 Google。你隨時可以在裝置<ph name="BEGIN_LINK1" />設定<ph name="END_LINK1" />中變更這項設定。如果你另外開啟了「網路和應用程式活動」設定，這項資訊會儲存在你的帳戶中，方便你在「我的活動」中進行管理。<ph name="BEGIN_LINK2" />瞭解詳情<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">完成</translation>
 <translation id="3144647712221361880">以其他身分開啟連結</translation>
-<translation id="3149510190863420837">Brave 應用程式</translation>
+<translation id="300669147395456190">Brave 應用程式</translation>
 <translation id="3150927491400159470">強制重新載入</translation>
 <translation id="315116470104423982">行動數據</translation>
 <translation id="3151539355209957474">開始時間</translation>
@@ -1513,7 +1513,7 @@
 <translation id="3280237271814976245">另存新檔(&amp;A)...</translation>
 <translation id="3280243678470289153">繼續使用 Brave</translation>
 <translation id="3280431534455935878">準備中</translation>
-<translation id="3282568296779691940">登入 Brave</translation>
+<translation id="82609232232243542">登入 Brave</translation>
 <translation id="3285322247471302225">新增分頁(&amp;T)</translation>
 <translation id="3288047731229977326">在開發人員模式中執行擴充功能可能會損害你的電腦。如果你不是開發人員，最好在開發人員模式中停用這些擴充功能，以策安全。</translation>
 <translation id="3289856944988573801">如要檢查更新，請使用乙太網路或 Wi-Fi。</translation>
@@ -2754,7 +2754,7 @@
 <translation id="5235750401727657667">取代新分頁開啟時顯示的網頁</translation>
 <translation id="5238278114306905396">「<ph name="EXTENSION_NAME" />」應用程式已自動移除。</translation>
 <translation id="5238369540257804368">範圍</translation>
-<translation id="5240817131241497236">Brave 的同步處理、個人化功能和其他 Google 服務控制設定已變更。這可能影響你目前的設定。</translation>
+<translation id="5088042060344584749">Brave 的同步處理、個人化功能和其他 Google 服務控制設定已變更。這可能影響你目前的設定。</translation>
 <translation id="5241128660650683457">讀取你在造訪的網站上產生的所有資料</translation>
 <translation id="5242724311594467048">啟用「<ph name="EXTENSION_NAME" />」？</translation>
 <translation id="5243522832766285132">請稍後再試</translation>
@@ -4284,7 +4284,7 @@
 <translation id="7564847347806291057">結束處理程序</translation>
 <translation id="7566118625369982896">管理 Play 應用程式連結</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">已清除 Brave 資料</translation>
+<translation id="7814200940910057384">已清除 Brave 資料</translation>
 <translation id="7568790562536448087">更新</translation>
 <translation id="7571643774869182231">空間不足，無法進行更新</translation>
 <translation id="7573172247376861652">電池充電</translation>
@@ -5162,7 +5162,7 @@
 <translation id="8899851313684471736">在新視窗中開啟連結(&amp;W)</translation>
 <translation id="8902667442496790482">開啟隨選朗讀設定</translation>
 <translation id="8903921497873541725">放大</translation>
-<translation id="8904976895050290827">Brave 同步功能</translation>
+<translation id="3149880132460839085">Brave 同步功能</translation>
 <translation id="8909833622202089127">網站正在追蹤你的位置</translation>
 <translation id="8910146161325739742">分享螢幕畫面</translation>
 <translation id="8910222113987937043">你的書籤、歷史記錄、密碼和其他設定的變更將不會再同步到你的 Google 帳戶。不過，你的現有資料仍會儲存在你的 Google 帳戶中，並可透過 <ph name="BEGIN_LINK" />Google 資訊主頁<ph name="END_LINK" />管理。</translation>

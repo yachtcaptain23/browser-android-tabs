@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">Dodatak je blokiran</translation>
 <translation id="1145532888383813076">Pretražite uređaj, aplikacije i web.</translation>
 <translation id="1146204723345436916">Uvoz oznaka iz HTML datoteke...</translation>
-<translation id="114721135501989771">Googleove značajke za Brave</translation>
+<translation id="4755587405228414306">Googleove značajke za Brave</translation>
 <translation id="1148097584170732637">Pronađene su datoteke (ukupno <ph name="FILE_COUNT" />).
     <ph name="LINE_BREAK1" />
     U lokalnoj pohrani nema dovoljno prostora. Potrebno je još <ph name="FILE_SIZE" />.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">Sinkronizacija je pauzirana</translation>
 <translation id="1319979322914001937">Aplikacija koja prikazuje filtrirani popis proširenja iz Brave web-trgovine. Proširenja na popisu mogu se instalirati izravno iz te aplikacije.</translation>
 <translation id="1322046419516468189">Spremljene zaporke možete pregledati i upravljati njima ovdje: <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Da bi se prikazale kartice s vaših ostalih uređaja, prijavite se na Brave.</translation>
+<translation id="7253276740368043692">Da bi se prikazale kartice s vaših ostalih uređaja, prijavite se na Brave.</translation>
 <translation id="1327074568633507428">Pisač na usluzi Google Cloud Print</translation>
 <translation id="1327977588028644528">Pristupnik</translation>
 <translation id="1329584516321524826">Upravo je ažurirano</translation>
@@ -604,7 +604,7 @@
 <translation id="1875312262568496299">Započni</translation>
 <translation id="1875387611427697908">Može se dodati jedino s usluge <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Dohvaćanje oznake za autentifikaciju nije uspjelo. Odjavite se pa se opet prijavite da biste pokušali ponovo.</translation>
-<translation id="1878302395768190018">To možete prilagoditi u bilo kojem trenutku u postavkama Bravea</translation>
+<translation id="8340964510643644301">To možete prilagoditi u bilo kojem trenutku u postavkama Bravea</translation>
 <translation id="1880905663253319515">Izbrisati certifikat "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">Dopusti web-lokacijama traženje dopuštenja da postanu zadani rukovatelji za protokole (preporučeno)</translation>
 <translation id="1887442540531652736">Pogreška prijave</translation>
@@ -1438,7 +1438,7 @@
 <translation id="3143695347784622594">Slanje podataka o sustavu. Automatsko slanje dijagnostičkih podataka te podataka o upotrebi uređaja i aplikacija Googleu. To možete promijeniti u bilo kojem trenutku u <ph name="BEGIN_LINK1" />postavkama<ph name="END_LINK1" /> uređaja. Ako ste uključili dodatnu Aktivnost na webu i u aplikacijama, ti će se podaci pohranjivati na vašem računu, pa možete upravljati njima na stranici Moja aktivnost. <ph name="BEGIN_LINK2" />Saznajte više<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">GOTOVO</translation>
 <translation id="3144647712221361880">Otvori vezu kao</translation>
-<translation id="3149510190863420837">Aplikacije sustava Brave</translation>
+<translation id="300669147395456190">Aplikacije sustava Brave</translation>
 <translation id="3150927491400159470">Tvrdo ponovno učitavanje</translation>
 <translation id="315116470104423982">Mobilni podaci</translation>
 <translation id="3151539355209957474">Vrijeme početka</translation>
@@ -1513,7 +1513,7 @@
 <translation id="3280237271814976245">Spremi &amp;kao...</translation>
 <translation id="3280243678470289153">Ostani u Braveu</translation>
 <translation id="3280431534455935878">Priprema</translation>
-<translation id="3282568296779691940">Prijavite se u Brave</translation>
+<translation id="82609232232243542">Prijavite se u Brave</translation>
 <translation id="3285322247471302225">Nova &amp;kartica</translation>
 <translation id="3288047731229977326">Proširenja pokrenuta u načinu rada razvojnog programera mogu naštetiti vašem računalu. Ako niste razvojni programer, trebali biste onemogućiti proširenja koja su pokrenuta u načinu rada razvojnog programera radi svoje zaštite.</translation>
 <translation id="3289856944988573801">Da biste provjerili ima li ažuriranja, upotrijebite Ethernet ili Wi-Fi.</translation>
@@ -2756,7 +2756,7 @@
 <translation id="5235750401727657667">Zamijenite stranicu koja se prikazuje prilikom otvaranja nove kartice</translation>
 <translation id="5238278114306905396">Aplikacija "<ph name="EXTENSION_NAME" />" automatski je uklonjena.</translation>
 <translation id="5238369540257804368">Rasponi</translation>
-<translation id="5240817131241497236">Promijenjene su postavke koje upravljaju sinkronizacijom, prilagodbom i drugim Googleovim uslugama u Braveu. To može utjecati na vaše trenutačne postavke.</translation>
+<translation id="5088042060344584749">Promijenjene su postavke koje upravljaju sinkronizacijom, prilagodbom i drugim Googleovim uslugama u Braveu. To može utjecati na vaše trenutačne postavke.</translation>
 <translation id="5241128660650683457">čitati sve vaše podatke s web-lokacija koje posjetite</translation>
 <translation id="5242724311594467048">Omogućiti proširenje "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">Pokušajte ponovo za nekoliko trenutaka.</translation>
@@ -4288,7 +4288,7 @@
 <translation id="7564847347806291057">Završi proces</translation>
 <translation id="7566118625369982896">Upravljaj vezama aplikacije Play</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Braveovi su podaci izbrisani</translation>
+<translation id="7814200940910057384">Braveovi su podaci izbrisani</translation>
 <translation id="7568790562536448087">Ažuriranje stavke</translation>
 <translation id="7571643774869182231">Nema dovoljno prostora za pohranu za ažuriranje</translation>
 <translation id="7573172247376861652">Punjenje baterije</translation>
@@ -5167,7 +5167,7 @@ Osobe sa sporom vezom možda neće vidjeti vaš sadržaj.</translation>
 <translation id="8899851313684471736">Otvori vezu u novom &amp;prozoru</translation>
 <translation id="8902667442496790482">Otvorite postavke Odabira za govor</translation>
 <translation id="8903921497873541725">Povećaj</translation>
-<translation id="8904976895050290827">Brave sinkronizacija</translation>
+<translation id="3149880132460839085">Brave sinkronizacija</translation>
 <translation id="8909833622202089127">Web-lokacija prati vašu lokaciju</translation>
 <translation id="8910146161325739742">Dijeljenje zaslona</translation>
 <translation id="8910222113987937043">Promjene vaših oznaka, povijesti, zaporki i drugih postavki više se neće sinkronizirati s vašim Google računom. No vaši podaci ostat će pohranjeni na vašem Google računu i možete upravljati njima na <ph name="BEGIN_LINK" />Google nadzornoj ploči<ph name="END_LINK" />.</translation>

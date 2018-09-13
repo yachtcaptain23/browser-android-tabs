@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">Plugin zablokován</translation>
 <translation id="1145532888383813076">Prohledejte zařízení, aplikace a internet.</translation>
 <translation id="1146204723345436916">Importovat záložky ze souboru HTML...</translation>
-<translation id="114721135501989771">Získejte do Brave chytré funkce Google</translation>
+<translation id="4755587405228414306">Získejte do Brave chytré funkce Google</translation>
 <translation id="1148097584170732637">Nalezeno: <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     V místním úložišti není dost místa, chybí <ph name="FILE_SIZE" />.
@@ -224,7 +224,7 @@ Na následující obrazovce prosím zadejte zpětnou vazbu, která nám problém
 <translation id="1316495628809031177">Synchronizace je pozastavena</translation>
 <translation id="1319979322914001937">Aplikace, která zobrazuje filtrovaný seznam rozšíření v Internetovém obchodu Brave. Rozšíření v seznamu lze nainstalovat přímo z této aplikace.</translation>
 <translation id="1322046419516468189">K zobrazení a správě uložených hesel můžete použít svůj <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Chcete-li získat přístup ke kartám ze svých ostatních zařízení, přihlaste se do Brave.</translation>
+<translation id="7253276740368043692">Chcete-li získat přístup ke kartám ze svých ostatních zařízení, přihlaste se do Brave.</translation>
 <translation id="1327074568633507428">Tiskárna ve službě Google Cloud Print</translation>
 <translation id="1327977588028644528">Brána</translation>
 <translation id="1329584516321524826">Aktualizováno právě teď</translation>
@@ -604,7 +604,7 @@ Na následující obrazovce prosím zadejte zpětnou vazbu, která nám problém
 <translation id="1875312262568496299">Začít</translation>
 <translation id="1875387611427697908">Lze přidat pouze ze stránek <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Nepodařilo se získat ověřovací token. Chcete-li to zkusit znovu, odhlaste se a poté se znovu přihlaste.</translation>
-<translation id="1878302395768190018">Toto nastavení můžete kdykoliv upravit v nastavení Brave</translation>
+<translation id="8340964510643644301">Toto nastavení můžete kdykoliv upravit v nastavení Brave</translation>
 <translation id="1880905663253319515">Smazat certifikát <ph name="CERTIFICATE_NAME" />?</translation>
 <translation id="1886996562706621347">Povolit dotazy stránek, zda je chcete použít jako výchozí obslužný nástroj protokolů (doporučeno)</translation>
 <translation id="1887442540531652736">Chyba přihlášení</translation>
@@ -1438,7 +1438,7 @@ Zpráva serveru: <ph name="SERVER_MSG" /></translation>
 <translation id="3143695347784622594">Odesílání údajů o systému. Automaticky do Googlu odesílat diagnostické údaje a údaje o využití. Toto nastavení můžete kdykoliv změnit v <ph name="BEGIN_LINK1" />nastavení<ph name="END_LINK1" /> zařízení. Pokud jste zapnuli další Aktivitu na webu a v aplikacích, budou se tyto informace ukládat na vašem účtu a budete je moci spravovat na panelu Moje aktivita. <ph name="BEGIN_LINK2" />Další informace<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">HOTOVO</translation>
 <translation id="3144647712221361880">Otevřít odkaz jako</translation>
-<translation id="3149510190863420837">Aplikace Brave</translation>
+<translation id="300669147395456190">Aplikace Brave</translation>
 <translation id="3150927491400159470">Úplné opětovné načtení</translation>
 <translation id="315116470104423982">Mobilní datové přenosy</translation>
 <translation id="3151539355209957474">Čas zahájení</translation>
@@ -1513,7 +1513,7 @@ Zpráva serveru: <ph name="SERVER_MSG" /></translation>
 <translation id="3280237271814976245">Uložit &amp;jako...</translation>
 <translation id="3280243678470289153">Zůstat v Brave</translation>
 <translation id="3280431534455935878">Příprava</translation>
-<translation id="3282568296779691940">Přihlásit se do Brave</translation>
+<translation id="82609232232243542">Přihlásit se do Brave</translation>
 <translation id="3285322247471302225">Nová kar&amp;ta</translation>
 <translation id="3288047731229977326">Rozšíření spuštěná v režimu pro vývojáře mohou poškodit počítač. Pokud nejste vývojář, měli byste s ohledem na svou bezpečnost rozšíření spuštěná v tomto režimu deaktivovat.</translation>
 <translation id="3289856944988573801">Chcete-li zkontrolovat dostupnost aktualizací, použijte síť Ethernet nebo Wi-Fi.</translation>
@@ -2753,7 +2753,7 @@ Pokud nezměníte výchozí nastavení, uživatel <ph name="USER_DISPLAY_NAME" /
 <translation id="5235750401727657667">Nahradit stránku, která se zobrazí po otevření nové karty</translation>
 <translation id="5238278114306905396">Aplikace <ph name="EXTENSION_NAME" /> byla automaticky odebrána.</translation>
 <translation id="5238369540257804368">Rozsahy</translation>
-<translation id="5240817131241497236">Nastavení, která v Brave ovládají synchronizaci, personalizaci a další služby Google, se změnila. Může to mít dopad na vaše aktuální nastavení.</translation>
+<translation id="5088042060344584749">Nastavení, která v Brave ovládají synchronizaci, personalizaci a další služby Google, se změnila. Může to mít dopad na vaše aktuální nastavení.</translation>
 <translation id="5241128660650683457">Čtení veškerých dat na navštívených webových stránkách</translation>
 <translation id="5242724311594467048">Aktivovat rozšíření <ph name="EXTENSION_NAME" />?</translation>
 <translation id="5243522832766285132">Zkuste to znovu za okamžik</translation>
@@ -4282,7 +4282,7 @@ Pokud nezměníte výchozí nastavení, uživatel <ph name="USER_DISPLAY_NAME" /
 <translation id="7564847347806291057">Ukončit proces</translation>
 <translation id="7566118625369982896">Spravovat odkazy na aplikace ve službě Play</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Vymazání údajů Brave</translation>
+<translation id="7814200940910057384">Vymazání údajů Brave</translation>
 <translation id="7568790562536448087">Aktualizace</translation>
 <translation id="7571643774869182231">Na aktualizaci nemáte dostatek místa</translation>
 <translation id="7573172247376861652">Nabití baterie</translation>
@@ -5160,7 +5160,7 @@ Svůj soubor klíče uchovávejte na bezpečném místě. Budete jej potřebovat
 <translation id="8899851313684471736">Otevřít o&amp;dkaz v novém okně</translation>
 <translation id="8902667442496790482">Otevřít nastavení poslechu vybraného textu</translation>
 <translation id="8903921497873541725">Přiblížit</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8909833622202089127">Web sleduje vaši polohu</translation>
 <translation id="8910146161325739742">Sdílení obrazovky</translation>
 <translation id="8910222113987937043">Změny záložek, historie, hesel a dalších nastavení se již nebudou synchronizovat do účtu Google. Vaše existující data v účtu Google uložena zůstanou a lze je spravovat na <ph name="BEGIN_LINK" />Hlavním panelu Google<ph name="END_LINK" />.</translation>

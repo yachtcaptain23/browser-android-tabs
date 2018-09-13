@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">Et programtillegg ble blokkert</translation>
 <translation id="1145532888383813076">Søk på enheten din, appene dine og på nettet.</translation>
 <translation id="1146204723345436916">Importér bokmerker fra HTML-fil</translation>
-<translation id="114721135501989771">Få Googles smarte funksjoner i Brave</translation>
+<translation id="4755587405228414306">Få Googles smarte funksjoner i Brave</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> ble funnet.
     <ph name="LINE_BREAK1" />
     Utilstrekkelig plass i lokal lagring. Du trenger <ph name="FILE_SIZE" /> til.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">Synkroniseringen er satt på pause</translation>
 <translation id="1319979322914001937">En app som viser en filtrert liste over utvidelser fra Brave Nettmarked. Utvidelser i listen kan installeres direkte fra appen.</translation>
 <translation id="1322046419516468189">Se og administrer lagrede passord i <ph name="SAVED_PASSWORDS_STORE" /> din</translation>
-<translation id="1326317727527857210">For å få fanene dine fra de andre enhetene du bruker, logg på Brave.</translation>
+<translation id="7253276740368043692">For å få fanene dine fra de andre enhetene du bruker, logg på Brave.</translation>
 <translation id="1327074568633507428">Skriver på Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Nettopp oppdatert</translation>
@@ -601,7 +601,7 @@
 <translation id="1875312262568496299">Start</translation>
 <translation id="1875387611427697908">Dette kan bare legges til fra <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Kunne ikke hente autentiseringstokenet. Logg av og på igjen for å prøve på nytt.</translation>
-<translation id="1878302395768190018">Du kan når som helst tilpasse dette i Brave-innstillingene</translation>
+<translation id="8340964510643644301">Du kan når som helst tilpasse dette i Brave-innstillingene</translation>
 <translation id="1880905663253319515">Vil du slette sertifikatet «<ph name="CERTIFICATE_NAME" />»?</translation>
 <translation id="1886996562706621347">Tillat at nettsteder kan be om å bli standardbehandlere for protokoller (anbefalt)</translation>
 <translation id="1887442540531652736">Påloggingsfeil</translation>
@@ -1434,7 +1434,7 @@
 <translation id="3143695347784622594">Send systemdata. Denne enheten sender diagnostikk og bruksdata til Google automatisk. Du kan endre dette når som helst i <ph name="BEGIN_LINK1" />innstillingene<ph name="END_LINK1" /> på enheten. Hvis du har slått på annen nett- og appaktivitet, lagres denne informasjonen på kontoen din, slik at du kan administrere den i Min aktivitet. <ph name="BEGIN_LINK2" />Finn ut mer<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">FERDIG</translation>
 <translation id="3144647712221361880">Åpne linken som</translation>
-<translation id="3149510190863420837">Brave-apper</translation>
+<translation id="300669147395456190">Brave-apper</translation>
 <translation id="3150927491400159470">Hard innlasting på nytt</translation>
 <translation id="315116470104423982">Mobildata</translation>
 <translation id="3151539355209957474">Starttid</translation>
@@ -1509,7 +1509,7 @@
 <translation id="3280237271814976245">L&amp;agre som...</translation>
 <translation id="3280243678470289153">Bli værende i Brave</translation>
 <translation id="3280431534455935878">Forbereder</translation>
-<translation id="3282568296779691940">Logg på Brave</translation>
+<translation id="82609232232243542">Logg på Brave</translation>
 <translation id="3285322247471302225">Ny &amp;fane</translation>
 <translation id="3288047731229977326">Utvidelser som kjører i utviklermodus kan skade datamaskinen din. Hvis du ikke er utvikler, bør du deaktivere disse utvidelsene som kjører i utviklermodus, for å være på den sikre siden.</translation>
 <translation id="3289856944988573801">For å sjekke etter oppdateringer, kan du bruke Ethernet eller Wi-Fi.</translation>
@@ -2748,7 +2748,7 @@
 <translation id="5235750401727657667">Erstatt siden du ser når du åpner nye faner</translation>
 <translation id="5238278114306905396">Programmet «<ph name="EXTENSION_NAME" />» ble automatisk fjernet.</translation>
 <translation id="5238369540257804368">Omfang</translation>
-<translation id="5240817131241497236">Innstillingene som kontrollerer synkronisering, personlig tilpasning og andre Google-tjenester i Brave, er blitt endret. Dette kan påvirke de nåværende innstillingene dine.</translation>
+<translation id="5088042060344584749">Innstillingene som kontrollerer synkronisering, personlig tilpasning og andre Google-tjenester i Brave, er blitt endret. Dette kan påvirke de nåværende innstillingene dine.</translation>
 <translation id="5241128660650683457">Les alle dataene på nettstedene du besøker</translation>
 <translation id="5242724311594467048">Vil du slå på «<ph name="EXTENSION_NAME" />»?</translation>
 <translation id="5243522832766285132">Prøv på nytt om en liten stund</translation>
@@ -4277,7 +4277,7 @@
 <translation id="7564847347806291057">Avslutt prosessen</translation>
 <translation id="7566118625369982896">Administrer Play-applinker</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Brave-dataene er slettet</translation>
+<translation id="7814200940910057384">Brave-dataene er slettet</translation>
 <translation id="7568790562536448087">Oppdaterer</translation>
 <translation id="7571643774869182231">For lite lagringsplass til å oppdatere</translation>
 <translation id="7573172247376861652">Batterilading</translation>
@@ -5155,7 +5155,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="8899851313684471736">Å&amp;pne linken i et nytt vindu</translation>
 <translation id="8902667442496790482">Åpne innstillingene for Tekstopplesing</translation>
 <translation id="8903921497873541725">Zoom inn</translation>
-<translation id="8904976895050290827">Brave-synkronisering</translation>
+<translation id="3149880132460839085">Brave-synkronisering</translation>
 <translation id="8909833622202089127">Nettstedet sporer posisjonen din</translation>
 <translation id="8910146161325739742">Del skjermen</translation>
 <translation id="8910222113987937043">Endringer i bokmerkene, loggen, passordene og andre innstillinger du har, blir ikke lenger synkronisert med Google-kontoen din. Data som allerede er lagret i Google-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK" />Google Oversikt<ph name="END_LINK" />.</translation>

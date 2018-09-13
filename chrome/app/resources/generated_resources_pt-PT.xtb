@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">Plug-in bloqueado</translation>
 <translation id="1145532888383813076">Pesquise no dispositivo, nas aplicações e na Web.</translation>
 <translation id="1146204723345436916">Importar marcadores de um ficheiro HTML...</translation>
-<translation id="114721135501989771">Inteligên. Google no Brave</translation>
+<translation id="4755587405228414306">Inteligên. Google no Brave</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> encontrada(s).
     <ph name="LINE_BREAK1" />
     Sem espaço suficiente disponível no armazenamento local. São necessários <ph name="FILE_SIZE" /> adicionais.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">A sincronização está em pausa.</translation>
 <translation id="1319979322914001937">Uma aplicação que mostra uma lista filtrada de extensões da Web Store do Brave. As extensões da lista podem ser instaladas diretamente a partir da aplicação.</translation>
 <translation id="1322046419516468189">Veja e faça a gestão das palavras-passe guardadas em <ph name="SAVED_PASSWORDS_STORE" />.</translation>
-<translation id="1326317727527857210">Para obter os separadores dos seus outros dispositivos, inicie sessão no Brave.</translation>
+<translation id="7253276740368043692">Para obter os separadores dos seus outros dispositivos, inicie sessão no Brave.</translation>
 <translation id="1327074568633507428">Impressora no Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Atualizado mesmo agora</translation>
@@ -604,7 +604,7 @@
 <translation id="1875312262568496299">Começar</translation>
 <translation id="1875387611427697908">Só é possível adicioná-la a partir da <ph name="CHROME_WEB_STORE" />.</translation>
 <translation id="1877520246462554164">Falha ao obter o símbolo de autenticação. Termine e inicie sessão novamente para tentar de novo.</translation>
-<translation id="1878302395768190018">Pode personalizar em qualquer altura nas Definições do Brave</translation>
+<translation id="8340964510643644301">Pode personalizar em qualquer altura nas Definições do Brave</translation>
 <translation id="1880905663253319515">Eliminar o certificado "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">Permitir que os Web sites peçam para se tornarem os processadores de protocolos predefinidos (recomendado)</translation>
 <translation id="1887442540531652736">Erro de início de sessão</translation>
@@ -1439,7 +1439,7 @@ Pretende pará-lo?</translation>
 <translation id="3143695347784622594">Envie dados do sistema. Envie automaticamente dados de diagnóstico e de utilização do dispositivo e das aplicações para a Google. É possível alterar esta situação a qualquer momento nas <ph name="BEGIN_LINK1" />definições<ph name="END_LINK1" /> do dispositivo. Se tiver ativado a Atividade da Web e de aplicações adicional, estas informações são armazenadas na sua conta para que as possa gerir em A minha atividade. <ph name="BEGIN_LINK2" />Saiba mais<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">CONCLUÍDO</translation>
 <translation id="3144647712221361880">Abrir link como</translation>
-<translation id="3149510190863420837">Aplicações do Brave</translation>
+<translation id="300669147395456190">Aplicações do Brave</translation>
 <translation id="3150927491400159470">Atualização Pesada</translation>
 <translation id="315116470104423982">Dados móveis</translation>
 <translation id="3151539355209957474">Hora de início</translation>
@@ -1514,7 +1514,7 @@ Pretende pará-lo?</translation>
 <translation id="3280237271814976245">Guard&amp;ar como...</translation>
 <translation id="3280243678470289153">Permanecer no Brave</translation>
 <translation id="3280431534455935878">A preparar</translation>
-<translation id="3282568296779691940">Iniciar sessão no Brave</translation>
+<translation id="82609232232243542">Iniciar sessão no Brave</translation>
 <translation id="3285322247471302225">Novo &amp;Separador</translation>
 <translation id="3288047731229977326">As extensões que funcionam no modo de programador podem danificar o seu computador. Se não é programador, deverá desativar as extensões que sejam executadas neste modo para se manter protegido.</translation>
 <translation id="3289856944988573801">Para verificar se existem atualizações, utilize Ethernet ou Wi-Fi.</translation>
@@ -2757,7 +2757,7 @@ Pretende pará-lo?</translation>
 <translation id="5235750401727657667">Substituir a página visualizada ao abrir um novo separador</translation>
 <translation id="5238278114306905396">A aplicação "<ph name="EXTENSION_NAME" />" foi automaticamente removida.</translation>
 <translation id="5238369540257804368">Âmbitos</translation>
-<translation id="5240817131241497236">As definições que controlam a sincronização, a personalização e outros serviços Google no Brave foram alteradas. Isto pode afetar as suas definições atuais.</translation>
+<translation id="5088042060344584749">As definições que controlam a sincronização, a personalização e outros serviços Google no Brave foram alteradas. Isto pode afetar as suas definições atuais.</translation>
 <translation id="5241128660650683457">Ler todos os dados nos Sites visitados</translation>
 <translation id="5242724311594467048">Ativar a extensão "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">Tente novamente dentro de alguns momentos.</translation>
@@ -4290,7 +4290,7 @@ Certifique-se de que não revela informações confidenciais.</translation>
 <translation id="7564847347806291057">Concluir processo</translation>
 <translation id="7566118625369982896">Gerir links para aplicações do Google Play</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">Dados do Brave limpos</translation>
+<translation id="7814200940910057384">Dados do Brave limpos</translation>
 <translation id="7568790562536448087">A atualizar</translation>
 <translation id="7571643774869182231">Sem armazenamento suficiente para atualizar</translation>
 <translation id="7573172247376861652">Carga da bateria</translation>
@@ -5168,7 +5168,7 @@ Mantenha o seu ficheiro de chave num local seguro, pois irá precisar dele para 
 <translation id="8899851313684471736">Abrir link numa nova &amp;janela</translation>
 <translation id="8902667442496790482">Abrir as definições de Selecionar para ativar voz</translation>
 <translation id="8903921497873541725">Ampliar</translation>
-<translation id="8904976895050290827">Sincronização do Brave</translation>
+<translation id="3149880132460839085">Sincronização do Brave</translation>
 <translation id="8909833622202089127">O site está a monitorizar a sua localização.</translation>
 <translation id="8910146161325739742">Partilhar o ecrã</translation>
 <translation id="8910222113987937043">As alterações aos seus marcadores, histórico, palavras-passe e outras definições já não serão sincronizadas com a sua Conta Google. No entanto, os dados existentes continuarão armazenados na Conta Google e podem ser geridos no <ph name="BEGIN_LINK" />Painel de Controlo Google<ph name="END_LINK" />.</translation>

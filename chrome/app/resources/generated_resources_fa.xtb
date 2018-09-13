@@ -96,7 +96,7 @@
 <translation id="1145292499998999162">افزایه مسدود شد</translation>
 <translation id="1145532888383813076">دستگاه، برنامه‌ها و وب را جستجو کنید.</translation>
 <translation id="1146204723345436916">‏وارد کردن نشانک‌ها از فایل HTML...</translation>
-<translation id="114721135501989771">‏هوشمندی‌های Google را در Brave دریافت کنید</translation>
+<translation id="4755587405228414306">‏هوشمندی‌های Google را در Brave دریافت کنید</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> مورد پیدا شد.
     <ph name="LINE_BREAK1" />
     در حافظه محلی فضای کافی در دسترس نیست. <ph name="FILE_SIZE" /> فضای اضافی لازم است.
@@ -224,7 +224,7 @@
 <translation id="1316495628809031177">همگام‌سازی موقتاً متوقف شده است</translation>
 <translation id="1319979322914001937">‏برنامه‌ای که فهرست فیلترشده‌ای از افزونه‌ها از فروشگاه وب Brave را نشان می‌دهد. می‌توان افزونه‌ها در این فهرست را به‌طور مستقیم از برنامه نصب کرد.</translation>
 <translation id="1322046419516468189">در <ph name="SAVED_PASSWORDS_STORE" /> گذرواژه‌های ذخیره‌شده‌تان را مشاهده و مدیریت کنید</translation>
-<translation id="1326317727527857210">‏برای دسترسی به برگه‌هایتان در دستگاه‌های دیگر، به سیستم Brave وارد شوید.</translation>
+<translation id="7253276740368043692">‏برای دسترسی به برگه‌هایتان در دستگاه‌های دیگر، به سیستم Brave وارد شوید.</translation>
 <translation id="1327074568633507428">‏چاپگر در Google Cloud Print</translation>
 <translation id="1327977588028644528">دروازه</translation>
 <translation id="1329584516321524826">لحظاتی پیش به‌روزرسانی شد</translation>
@@ -601,7 +601,7 @@
 <translation id="1875312262568496299">شروع</translation>
 <translation id="1875387611427697908">این مورد را فقط می‌توان از <ph name="CHROME_WEB_STORE" /> اضافه کرد</translation>
 <translation id="1877520246462554164">کد احراز هویت دریافت نشد. لطفاً از سیستم خارج شوید و برای امتحان مجدد دوباره به سیستم وارد شوید.</translation>
-<translation id="1878302395768190018">‏هرزمان بخواهید می‌توانید این گزینه را در «تنظیمات Brave» سفارشی کنید</translation>
+<translation id="8340964510643644301">‏هرزمان بخواهید می‌توانید این گزینه را در «تنظیمات Brave» سفارشی کنید</translation>
 <translation id="1880905663253319515">مجوز "<ph name="CERTIFICATE_NAME" />" حذف شود؟</translation>
 <translation id="1886996562706621347">به سایت‌ها اجازه داده شود درخواست کنند که کنترل‌کننده پیش‌فرض برای پروتکل‌ها شوند (توصیه می‌شود)</translation>
 <translation id="1887442540531652736">خطای ورود به سیستم</translation>
@@ -1434,7 +1434,7 @@
 <translation id="3143695347784622594">‏ارسال داده‌های سیستم. داده‌های عیب‌یابی و میزان استفاده دستگاه و برنامه به‌طور خودکار به Google ارسال می‌شوند. هرزمان خواستید می‌توانید این مورد را در <ph name="BEGIN_LINK1" />تنظیمات<ph name="END_LINK1" /> دستگاه تغییر دهید. اگر «فعالیت وب و برنامه» تکمیلی را روشن کرده باشید، این اطلاعات در حسابتان ذخیره خواهد شد تا بتوانید آن‌ها را در «فعالیت من» مدیریت کنید. <ph name="BEGIN_LINK2" />بیشتر بدانید<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">تمام</translation>
 <translation id="3144647712221361880">بازکردن پیوند به‌عنوان</translation>
-<translation id="3149510190863420837">‏برنامه‌های Brave</translation>
+<translation id="300669147395456190">‏برنامه‌های Brave</translation>
 <translation id="3150927491400159470">تازه سازی سخت</translation>
 <translation id="315116470104423982">داده‌های تلفن همراه</translation>
 <translation id="3151539355209957474">زمان شروع</translation>
@@ -1509,7 +1509,7 @@
 <translation id="3280237271814976245">ذخیره &amp;بعنوان</translation>
 <translation id="3280243678470289153">‏ماندن در Brave</translation>
 <translation id="3280431534455935878"> آماده‌سازی</translation>
-<translation id="3282568296779691940">‏ورود به Brave</translation>
+<translation id="82609232232243542">‏ورود به Brave</translation>
 <translation id="3285322247471302225">&amp;برگه جدید</translation>
 <translation id="3288047731229977326">افزونه‌هایی که در حالت برنامه‌نوبس اجرا می‌شوند می‌توانند به رایانه شما آسیب برسانند. اگر برنامه‌نویس نیستید، باید این برنامه‌های افزودنی را که در حالت برنامه‌نویس اجرا می‌شوند غیرفعال کنید تا ایمن بمانید.</translation>
 <translation id="3289856944988573801">‏برای بررسی موارد به‌روز لطفاً از کابل شبکه یا Wi-Fi استفاده کنید.</translation>
@@ -2752,7 +2752,7 @@
 <translation id="5235750401727657667">جایگزین کردن صفحه‌ای که هنگام باز کردن برگه جدید می‌بینید</translation>
 <translation id="5238278114306905396">برنامه «<ph name="EXTENSION_NAME" />» به‌طور خودکار حذف شد.</translation>
 <translation id="5238369540257804368">حوزه‌ها</translation>
-<translation id="5240817131241497236">‏تنظیماتی که همگام‌سازی، شخصی‌سازی و سرویس‌های دیگر Google در Brave را کنترل می‌کند تغییر کرده است. این تغییر ممکن است روی تنظیمات فعلی تأثیر گذارد.</translation>
+<translation id="5088042060344584749">‏تنظیماتی که همگام‌سازی، شخصی‌سازی و سرویس‌های دیگر Google در Brave را کنترل می‌کند تغییر کرده است. این تغییر ممکن است روی تنظیمات فعلی تأثیر گذارد.</translation>
 <translation id="5241128660650683457">خواندن همه داده‌هایتان در وب‌سایت‌هایی که بازدید می‌کنید</translation>
 <translation id="5242724311594467048">«<ph name="EXTENSION_NAME" />» فعال شود؟</translation>
 <translation id="5243522832766285132">چند لحظه دیگر دوباره امتحان کنید</translation>
@@ -4284,7 +4284,7 @@
 <translation id="7564847347806291057">پایان دادن به فرایند</translation>
 <translation id="7566118625369982896">‏مدیریت پیوندهای برنامه Play</translation>
 <translation id="7566723889363720618">F12</translation>
-<translation id="756809126120519699">‏داده‌های Brave پاک شد</translation>
+<translation id="7814200940910057384">‏داده‌های Brave پاک شد</translation>
 <translation id="7568790562536448087">در حال به‌روزرسانی</translation>
 <translation id="7571643774869182231">فضای ذخیره‌سازی برای به‌روزرسانی کافی نیست</translation>
 <translation id="7573172247376861652">شارژ باتری</translation>
@@ -5162,7 +5162,7 @@
 <translation id="8899851313684471736">باز کردن پیوند در &amp;پنجره جدید</translation>
 <translation id="8902667442496790482">باز کردن تنظیمات «انتخاب برای شنیدن»</translation>
 <translation id="8903921497873541725">بزرگ‌نمایی</translation>
-<translation id="8904976895050290827">‏همگام‌سازی Brave</translation>
+<translation id="3149880132460839085">‏همگام‌سازی Brave</translation>
 <translation id="8909833622202089127">سایت درحال ردیابی مکان شما است</translation>
 <translation id="8910146161325739742">اشتراک‌گذاری صفحه</translation>
 <translation id="8910222113987937043">‏تغییرات ایجادشده در نشانک‌ها، سابقه، گذرواژه‌ها و سایر تنظیمات شما با حساب Google شما دیگر همگام‌سازی نخواهد شد. بااین‌وجود داده‌های قبلاً ذخیره‌شده در حساب Google شما در آنجا می‌مانند و در <ph name="BEGIN_LINK" />داشبورد Google<ph name="END_LINK" /> می‌توانید آن‌ها را مدیریت کنید.</translation>
