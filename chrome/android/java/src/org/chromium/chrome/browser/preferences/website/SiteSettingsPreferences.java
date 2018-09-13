@@ -86,9 +86,14 @@ public class SiteSettingsPreferences extends PreferenceFragment
             for (@SiteSettingsCategory.Type int i = 0; i < SiteSettingsCategory.Type.NUM_ENTRIES;
                     i++) {
                 if (i == SiteSettingsCategory.Type.AUTOPLAY
-                        || i == SiteSettingsCategory.Type.PROTECTED_MEDIA)
+                        || i == SiteSettingsCategory.Type.PROTECTED_MEDIA
+                        || i == SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND
+                        || i == SiteSettingsCategory.Type.PLAY_YT_VIDEO_IN_BROWSER)
                     continue;
-                getPreferenceScreen().removePreference(findPreference(i));
+                Preference p = findPreference(i);
+                if (p != null) {
+                    getPreferenceScreen().removePreference(p);
+                }
             }
             getPreferenceScreen().removePreference(findPreference(MEDIA_KEY));
             //getPreferenceScreen().removePreference(findPreference(BACKGROUND_SYNC_KEY));
@@ -165,6 +170,7 @@ public class SiteSettingsPreferences extends PreferenceFragment
             websitePrefs.add(SiteSettingsCategory.Type.MICROPHONE);
             websitePrefs.add(SiteSettingsCategory.Type.NOTIFICATIONS);
             websitePrefs.add(SiteSettingsCategory.Type.POPUPS);
+            websitePrefs.add(SiteSettingsCategory.Type.DESKTOP_VIEW);
             if (ChromeFeatureList.isEnabled(ChromeFeatureList.GENERIC_SENSOR_EXTRA_CLASSES)) {
                 websitePrefs.add(SiteSettingsCategory.Type.SENSORS);
             }
