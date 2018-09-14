@@ -515,36 +515,6 @@ public class CustomTabActivity extends ChromeActivity {
             }
         };
 
-        getToolbarManager().setCloseButtonDrawable(mIntentDataProvider.getCloseButtonDrawable());
-        getToolbarManager().setShowTitle(mIntentDataProvider.getTitleVisibilityState()
-                == CustomTabsIntent.SHOW_PAGE_TITLE);
-        if (mConnection.shouldHideDomainForSession(mSession)) {
-            getToolbarManager().setUrlBarHidden(true);
-        }
-        int toolbarColor = mIntentDataProvider.getToolbarColor();
-        getToolbarManager().updatePrimaryColor(toolbarColor, false);
-        if (!mIntentDataProvider.isOpenedByChrome()) {
-            getToolbarManager().setShouldUpdateToolbarPrimaryColor(false);
-        }
-
-        super.setStatusBarColor(toolbarColor,
-                ColorUtils.isUsingDefaultToolbarColor(getResources(),
-                        FeatureUtilities.isChromeModernDesignEnabled(), false, toolbarColor));
-
-        // Properly attach tab's infobar to the view hierarchy, as the main tab might have been
-        // initialized prior to inflation.
-        if (mMainTab != null) {
-            ViewGroup bottomContainer = (ViewGroup) findViewById(R.id.bottom_container);
-            mMainTab.getInfoBarContainer().setParentView(bottomContainer);
-        }
-
-        // Setting task title and icon to be null will preserve the client app's title and icon.
-        ApiCompatibilityUtils.setTaskDescription(this, null, null, toolbarColor);
-        showCustomButtonsOnToolbar();
-        mBottomBarDelegate = new CustomTabBottomBarDelegate(this, mIntentDataProvider,
-                getFullscreenManager());
-        mBottomBarDelegate.showBottomBarIfNecessary();
-
         return  tabModelSelectorImpl;
     }
 
