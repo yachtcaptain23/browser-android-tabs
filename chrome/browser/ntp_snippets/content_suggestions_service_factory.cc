@@ -266,7 +266,7 @@ MakeBreakingNewsGCMAppHandlerIfEnabled(
 #endif  // OS_ANDROID
 
 bool IsArticleProviderEnabled() {
-  return base::FeatureList::IsEnabled(ntp_snippets::kArticleSuggestionsFeature);
+  return false;//base::FeatureList::IsEnabled(ntp_snippets::kArticleSuggestionsFeature);
 }
 
 bool IsKeepingPrefetchedSuggestionsEnabled() {
