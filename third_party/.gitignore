@@ -27,7 +27,7 @@
 /apache-win32/modules/*.so
 /apache-win32/modules/*.dll
 /apk-patch-size-estimator/lib/
-/arcore-android-sdk
+/arcore-android-sdk/src
 /asan
 /auto/src
 /bazel/desugar/Desugar.jar
