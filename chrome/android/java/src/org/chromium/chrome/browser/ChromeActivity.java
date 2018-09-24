@@ -1042,7 +1042,12 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
         new Thread(new Runnable() {
           @Override
           public void run () {
-            StatsUpdater.UpdateStats(ContextUtils.getApplicationContext());
+            try {
+                StatsUpdater.UpdateStats(ContextUtils.getApplicationContext());
+            }
+            catch(Exception exc) {
+                // Just ignore it if we cannot update
+            }
           }
         }).start();
         markSessionResume();
