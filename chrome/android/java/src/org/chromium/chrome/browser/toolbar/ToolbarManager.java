@@ -669,8 +669,8 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
             final ToolbarButtonSlotData secondButtonSlot =
                     new ToolbarButtonSlotData(createSearchAccelerator());
             mBottomToolbarCoordinator = new BottomToolbarCoordinator(
-                    mActivity.getFullscreenManager(), mActivity.findViewById(R.id.coordinator),
-                    firstButtonSlot, secondButtonSlot);
+                    mActivity.getFullscreenManager(), mActivity.findViewById(R.id.coordinator), 
+                    firstButtonSlot, secondButtonSlot, mActivity);
             if (mAppMenuButtonHelper != null) mAppMenuButtonHelper.setMenuShowsFromBottom(true);
         }
     }

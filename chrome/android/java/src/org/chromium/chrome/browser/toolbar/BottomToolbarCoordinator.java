@@ -15,6 +15,8 @@ import android.view.ViewStub;
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.appmenu.AppMenuButtonHelper;
+import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
@@ -24,6 +26,7 @@ import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
 import org.chromium.chrome.browser.toolbar.ToolbarButtonSlotData.ToolbarButtonData;
+import org.chromium.chrome.browser.widget.TintedImageButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -41,7 +44,7 @@ public class BottomToolbarCoordinator {
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
 
     /** The bookmarks button component that lives in the bottom toolbar. */
-    private final ToolbarButtonCoordinator mBookmarksButtonCoordinator;
+    private final TintedImageButton mBookmarksButton;
 
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
@@ -58,6 +61,9 @@ public class BottomToolbarCoordinator {
     /** The primary color to be used in incognito mode. */
     private final int mIncognitoPrimaryColor;
 
+    /** The invoking activity. */
+    private final ChromeActivity mActivity;
+
     /**
      * Build the coordinator that manages the bottom toolbar.
      * @param fullscreenManager A {@link ChromeFullscreenManager} to update the bottom controls
@@ -67,7 +73,7 @@ public class BottomToolbarCoordinator {
      * @param secondSlotData The data required to fill in the second bottom toolbar button slot.
      */
     public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root,
-            ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData) {
+            ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData, ChromeActivity activity) {
         BottomToolbarModel model = new BottomToolbarModel();
 
         int shadowHeight =
@@ -85,8 +91,7 @@ public class BottomToolbarCoordinator {
         model.addObserver(processor);
 
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
-        mBookmarksButtonCoordinator =
-                new ToolbarButtonCoordinator(toolbarRoot.findViewById(R.id.bookmarks_button));
+        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
 
         mLightModeTint =
@@ -101,6 +106,7 @@ public class BottomToolbarCoordinator {
 
         mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources(),
                 firstSlotData, secondSlotData, mNormalPrimaryColor);
+        mActivity = activity;
     }
 
     /**
@@ -148,6 +154,13 @@ public class BottomToolbarCoordinator {
         mBookmarksButtonCoordinator.setButtonListeners(bookmarksButtonListener, null);
         mBookmarksButtonCoordinator.setOverviewModeBehavior(
                 overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
+
+        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BookmarkUtils.showBookmarkManager(mActivity);
+            }
+        });
     }
 
     /**
