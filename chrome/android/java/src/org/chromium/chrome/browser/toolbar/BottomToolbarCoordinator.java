@@ -18,6 +18,7 @@ import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
 import org.chromium.chrome.browser.contextualsearch.ContextualSearchManager;
 import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
+import org.chromium.chrome.browser.history.HistoryManagerUtils;
 import org.chromium.chrome.browser.modelutil.PropertyKey;
 import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
@@ -42,8 +43,14 @@ public class BottomToolbarCoordinator {
     /** The bookmarks button component that lives in the bottom toolbar. */
     private final TintedImageButton mBookmarksButton;
 
+    /** The history button component that lives in the bottom toolbar. */
+    private final TintedImageButton mHistoryButton;
+
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
+
+    /** The toolbar model that tells us about the current toolbar state and data. */
+    private final ToolbarModel mToolbarModel;
 
     /** The invoking activity. */
     private final ChromeActivity mActivity;
@@ -54,7 +61,7 @@ public class BottomToolbarCoordinator {
      *                          height for the renderer.
      * @param root The root {@link ViewGroup} for locating the vies to inflate.
      */
-    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root, ChromeActivity activity) {
+    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root, ChromeActivity activity, ToolbarModel toolbarModel) {
         BottomToolbarModel model = new BottomToolbarModel();
         mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources());
 
@@ -73,8 +80,10 @@ public class BottomToolbarCoordinator {
         model.addObserver(processor);
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
         mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
         mActivity = activity;
+        mToolbarModel = toolbarModel;
     }
 
     /**
@@ -121,6 +130,13 @@ public class BottomToolbarCoordinator {
             @Override
             public void onClick(View v) {
                 BookmarkUtils.showBookmarkManager(mActivity);
+            }
+        });
+
+        mHistoryButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
             }
         });
     }
