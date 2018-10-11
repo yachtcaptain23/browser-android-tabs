@@ -11,11 +11,16 @@ import android.view.ViewStub;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ActivityTabProvider;
 import org.chromium.chrome.browser.appmenu.AppMenuButtonHelper;
+import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
 import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
+import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
+import org.chromium.chrome.browser.toolbar.ToolbarButtonSlotData.ToolbarButtonData;
+import org.chromium.chrome.browser.widget.TintedImageButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -34,7 +39,7 @@ public class BottomToolbarCoordinator {
     private final ViewStub mTabSwitcherModeStub;
 
     /** The bookmarks button component that lives in the bottom toolbar. */
-    private final ToolbarButtonCoordinator mBookmarksButtonCoordinator;
+    private final TintedImageButton mBookmarksButton;
 
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
@@ -50,6 +55,9 @@ public class BottomToolbarCoordinator {
 
     /** The primary color to be used in incognito mode. */
     private final int mIncognitoPrimaryColor;
+
+    /** The invoking activity. */
+    private final ChromeActivity mActivity;
 
     /**
      * Build the coordinator that manages the bottom toolbar.
