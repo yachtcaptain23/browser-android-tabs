@@ -33,6 +33,24 @@ public class BottomToolbarCoordinator {
     /** The tab switcher mode bottom toolbar stub that will be inflated when native is ready. */
     private final ViewStub mTabSwitcherModeStub;
 
+    /** The bookmarks button component that lives in the bottom toolbar. */
+    private final ToolbarButtonCoordinator mBookmarksButtonCoordinator;
+
+    /** The menu button that lives in the bottom toolbar. */
+    private final MenuButton mMenuButton;
+
+    /** The light mode tint to be used in bottom toolbar buttons. */
+    private final ColorStateList mLightModeTint;
+
+    /** The dark mode tint to be used in bottom toolbar buttons. */
+    private final ColorStateList mDarkModeTint;
+
+    /** The primary color to be used in normal mode. */
+    private final int mNormalPrimaryColor;
+
+    /** The primary color to be used in incognito mode. */
+    private final int mIncognitoPrimaryColor;
+
     /**
      * Build the coordinator that manages the bottom toolbar.
      * @param fullscreenManager A {@link ChromeFullscreenManager} to update the bottom controls
