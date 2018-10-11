@@ -40,6 +40,9 @@ public class BottomToolbarCoordinator {
     /** The tab switcher button component that lives in the bottom toolbar. */
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
 
+    /** The bookmarks button component that lives in the bottom toolbar. */
+    private final ToolbarButtonCoordinator mBookmarksButtonCoordinator;
+
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
 
@@ -82,6 +85,8 @@ public class BottomToolbarCoordinator {
         model.addObserver(processor);
 
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
+        mBookmarksButtonCoordinator =
+                new ToolbarButtonCoordinator(toolbarRoot.findViewById(R.id.bookmarks_button));
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
 
         mLightModeTint =
@@ -107,6 +112,8 @@ public class BottomToolbarCoordinator {
      * @param layoutManager A {@link LayoutManager} to attach overlays to.
      * @param tabSwitcherListener An {@link OnClickListener} that is triggered when the
      *                                  tab switcher button is clicked.
+     * @param bookmarksButtonListener An {@link OnClickListener} that is triggered when the
+     *                           bookmarks button is clicked.
      * @param menuButtonListener An {@link OnTouchListener} that is triggered when the
      *                           menu button is clicked.
      * @param tabModelSelector A {@link TabModelSelector} that the tab switcher button uses to
@@ -118,10 +125,12 @@ public class BottomToolbarCoordinator {
      *                                        switcher mode.
      */
     public void initializeWithNative(ResourceManager resourceManager, LayoutManager layoutManager,
-            OnClickListener tabSwitcherListener, AppMenuButtonHelper menuButtonHelper,
+            OnClickListener tabSwitcherListener, OnClickListener bookmarksButtonListener, AppMenuButtonHelper menuButtonHelper,
             TabModelSelector tabModelSelector, OverviewModeBehavior overviewModeBehavior,
             WindowAndroid windowAndroid, ToolbarButtonData firstSlotTabSwitcherButtonData,
             ToolbarButtonData secondSlotTabSwitcherButtonData, boolean isIncognito) {
+        // (Albert Wang): We're using history in favor of search acceleration
+        // mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
         mMediator.setLayoutManager(layoutManager);
         mMediator.setResourceManager(resourceManager);
         mMediator.setOverviewModeBehavior(overviewModeBehavior);
@@ -136,6 +145,9 @@ public class BottomToolbarCoordinator {
 
         mMenuButton.setTouchListener(menuButtonHelper);
         mMenuButton.setAccessibilityDelegate(menuButtonHelper);
+        mBookmarksButtonCoordinator.setButtonListeners(bookmarksButtonListener, null);
+        mBookmarksButtonCoordinator.setOverviewModeBehavior(
+                overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
     }
 
     /**
