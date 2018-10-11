@@ -424,7 +424,8 @@ public class ChromePreferenceManager {
      * @return True if the new tab page button is enabled.
      */
     public boolean isNewTabPageButtonEnabled() {
-        return mSharedPreferences.getBoolean(NTP_BUTTON_ENABLED_KEY, false);
+      return true;
+      // return mSharedPreferences.getBoolean(NTP_BUTTON_ENABLED_KEY, false);
     }
 
     /**
@@ -440,7 +441,8 @@ public class ChromePreferenceManager {
      * @return True if the bottom toolbar is enabled.
      */
     public boolean isBottomToolbarEnabled() {
-        return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, false);
+      return true;
+      // return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, false);
     }
 
     /**

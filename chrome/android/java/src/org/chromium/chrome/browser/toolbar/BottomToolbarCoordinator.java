@@ -36,8 +36,8 @@ public class BottomToolbarCoordinator {
     /** The tab switcher button component that lives in the bottom toolbar. */
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
 
-    /** The home button component that lives in the bottom toolbar. */
-    private final ToolbarButtonCoordinator mHomeButtonCoordinator;
+    /** The bookmarks button component that lives in the bottom toolbar. */
+    private final ToolbarButtonCoordinator mBookmarksButtonCoordinator;
 
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
@@ -66,8 +66,8 @@ public class BottomToolbarCoordinator {
                         model, new ViewHolder(toolbarRoot), new BottomToolbarViewBinder());
         model.addObserver(processor);
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
-        mHomeButtonCoordinator =
-                new ToolbarButtonCoordinator(toolbarRoot.findViewById(R.id.home_button));
+        mBookmarksButtonCoordinator =
+                new ToolbarButtonCoordinator(toolbarRoot.findViewById(R.id.bookmarks_button));
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
     }
 
@@ -82,8 +82,8 @@ public class BottomToolbarCoordinator {
      *                                  tab switcher button is clicked.
      * @param searchAcceleratorListener An {@link OnClickListener} that is triggered when the
      *                                  search accelerator is clicked.
-     * @param homeButtonListener An {@link OnClickListener} that is triggered when the
-     *                           home button is clicked.
+     * @param bookmarksButtonListener An {@link OnClickListener} that is triggered when the
+     *                           bookmarks button is clicked.
      * @param menuButtonListener An {@link OnTouchListener} that is triggered when the
      *                           menu button is clicked.
      * @param tabModelSelector A {@link TabModelSelector} that the tab switcher button uses to
@@ -94,10 +94,11 @@ public class BottomToolbarCoordinator {
      */
     public void initializeWithNative(ResourceManager resourceManager, LayoutManager layoutManager,
             OnClickListener tabSwitcherListener, OnClickListener searchAcceleratorListener,
-            OnClickListener homeButtonListener, OnTouchListener menuButtonListener,
+            OnClickListener bookmarksButtonListener, OnTouchListener menuButtonListener,
             TabModelSelector tabModelSelector, OverviewModeBehavior overviewModeBehavior,
             ContextualSearchManager contextualSearchManager, WindowAndroid windowAndroid) {
-        mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
+        // (Albert Wang): We're using history in favor of search acceleration
+        // mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
         mMediator.setLayoutManager(layoutManager);
         mMediator.setResourceManager(resourceManager);
         mMediator.setOverviewModeBehavior(overviewModeBehavior);
@@ -108,8 +109,8 @@ public class BottomToolbarCoordinator {
         mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
         mTabSwitcherButtonCoordinator.setTabModelSelector(tabModelSelector);
 
-        mHomeButtonCoordinator.setButtonListeners(homeButtonListener, null);
-        mHomeButtonCoordinator.setOverviewModeBehavior(
+        mBookmarksButtonCoordinator.setButtonListeners(bookmarksButtonListener, null);
+        mBookmarksButtonCoordinator.setOverviewModeBehavior(
                 overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
 
         mMenuButton.setTouchListener(menuButtonListener);
