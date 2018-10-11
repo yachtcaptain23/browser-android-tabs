@@ -17,6 +17,9 @@ import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
 import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
+import org.chromium.chrome.browser.history.HistoryManagerUtils;
+import org.chromium.chrome.browser.modelutil.PropertyKey;
+import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
 import org.chromium.chrome.browser.toolbar.ToolbarButtonSlotData.ToolbarButtonData;
@@ -41,6 +44,9 @@ public class BottomToolbarCoordinator {
     /** The bookmarks button component that lives in the bottom toolbar. */
     private final TintedImageButton mBookmarksButton;
 
+    /** The history button component that lives in the bottom toolbar. */
+    private final TintedImageButton mHistoryButton;
+
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
 
@@ -56,6 +62,9 @@ public class BottomToolbarCoordinator {
     /** The primary color to be used in incognito mode. */
     private final int mIncognitoPrimaryColor;
 
+    /** The toolbar model that tells us about the current toolbar state and data. */
+    private final ToolbarModel mToolbarModel;
+
     /** The invoking activity. */
     private final ChromeActivity mActivity;
 
@@ -69,15 +78,44 @@ public class BottomToolbarCoordinator {
      * @param searchAcceleratorListener The {@link OnClickListener} for the search accelerator.
      * @param shareButtonListener The {@link OnClickListener} for the share button.
      */
-    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewStub stub,
-            ActivityTabProvider tabProvider, OnClickListener homeButtonListener,
-            OnClickListener searchAcceleratorListener, OnClickListener shareButtonListener) {
-        final View root = stub.inflate();
+    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root,
+            ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData, ChromeActivity activity, 
+            ToolbarModel toolbarModel) {
+        BottomToolbarModel model = new BottomToolbarModel();
 
-        mBrowsingModeCoordinator = new BrowsingModeBottomToolbarCoordinator(root, fullscreenManager,
-                tabProvider, homeButtonListener, searchAcceleratorListener, shareButtonListener);
+        int shadowHeight =
+                root.getResources().getDimensionPixelOffset(R.dimen.toolbar_shadow_height);
 
-        mTabSwitcherModeStub = root.findViewById(R.id.bottom_toolbar_tab_switcher_mode_stub);
+        // This is the Android view component of the views that constitute the bottom toolbar.
+        View inflatedView = ((ViewStub) root.findViewById(R.id.bottom_toolbar)).inflate();
+        final ScrollingBottomViewResourceFrameLayout toolbarRoot =
+                (ScrollingBottomViewResourceFrameLayout) inflatedView;
+        toolbarRoot.setTopShadowHeight(shadowHeight);
+
+        PropertyModelChangeProcessor<BottomToolbarModel, ViewHolder, PropertyKey> processor =
+                new PropertyModelChangeProcessor<>(
+                        model, new ViewHolder(toolbarRoot), new BottomToolbarViewBinder());
+        model.addObserver(processor);
+
+        mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
+        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
+        mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
+
+        mLightModeTint =
+                AppCompatResources.getColorStateList(root.getContext(), R.color.light_mode_tint);
+        mDarkModeTint =
+                AppCompatResources.getColorStateList(root.getContext(), R.color.dark_mode_tint);
+
+        mNormalPrimaryColor =
+                ApiCompatibilityUtils.getColor(root.getResources(), R.color.modern_primary_color);
+        mIncognitoPrimaryColor = ApiCompatibilityUtils.getColor(
+                root.getResources(), R.color.incognito_modern_primary_color);
+
+        mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources(),
+                firstSlotData, secondSlotData, mNormalPrimaryColor);
+        mActivity = activity;
+        mToolbarModel = toolbarModel;
     }
 
     /**
@@ -112,6 +150,39 @@ public class BottomToolbarCoordinator {
         mTabSwitcherModeCoordinator = new TabSwitcherBottomToolbarCoordinator(mTabSwitcherModeStub,
                 incognitoStateProvider, newTabClickListener, menuButtonHelper, tabModelSelector,
                 overviewModeBehavior, tabCountProvider);
+        // (Albert Wang): We're using history in favor of search acceleration
+        // mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
+        mMediator.setLayoutManager(layoutManager);
+        mMediator.setResourceManager(resourceManager);
+        mMediator.setOverviewModeBehavior(overviewModeBehavior);
+        mMediator.setToolbarSwipeHandler(layoutManager.getToolbarSwipeHandler());
+        mMediator.setWindowAndroid(windowAndroid);
+        setIncognito(isIncognito);
+        mMediator.setTabSwitcherButtonData(
+                firstSlotTabSwitcherButtonData, secondSlotTabSwitcherButtonData);
+
+        mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
+        mTabSwitcherButtonCoordinator.setTabModelSelector(tabModelSelector);
+
+        mMenuButton.setTouchListener(menuButtonHelper);
+        mMenuButton.setAccessibilityDelegate(menuButtonHelper);
+        mBookmarksButtonCoordinator.setButtonListeners(bookmarksButtonListener, null);
+        mBookmarksButtonCoordinator.setOverviewModeBehavior(
+                overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
+
+        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BookmarkUtils.showBookmarkManager(mActivity);
+            }
+        });
+
+        mHistoryButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
+            }
+        });
     }
 
     /**
