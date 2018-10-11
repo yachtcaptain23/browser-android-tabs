@@ -636,7 +636,7 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
     public void enableBottomToolbar() {
         if (FeatureUtilities.isBottomToolbarEnabled()) {
             mBottomToolbarCoordinator = new BottomToolbarCoordinator(
-                    mActivity.getFullscreenManager(), mActivity.findViewById(R.id.coordinator));
+                    mActivity.getFullscreenManager(), mActivity.findViewById(R.id.coordinator), mActivity);
             if (mAppMenuButtonHelper != null) mAppMenuButtonHelper.setMenuShowsFromBottom(true);
         }
     }

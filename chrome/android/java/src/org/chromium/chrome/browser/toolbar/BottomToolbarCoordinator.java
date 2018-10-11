@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.view.ViewStub;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
@@ -20,6 +22,7 @@ import org.chromium.chrome.browser.modelutil.PropertyKey;
 import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
+import org.chromium.chrome.browser.widget.TintedImageButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -37,10 +40,13 @@ public class BottomToolbarCoordinator {
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
 
     /** The bookmarks button component that lives in the bottom toolbar. */
-    private final ToolbarButtonCoordinator mBookmarksButtonCoordinator;
+    private final TintedImageButton mBookmarksButton;
 
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
+
+    /** The invoking activity. */
+    private final ChromeActivity mActivity;
 
     /**
      * Build the coordinator that manages the bottom toolbar.
@@ -48,7 +54,7 @@ public class BottomToolbarCoordinator {
      *                          height for the renderer.
      * @param root The root {@link ViewGroup} for locating the vies to inflate.
      */
-    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root) {
+    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root, ChromeActivity activity) {
         BottomToolbarModel model = new BottomToolbarModel();
         mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources());
 
@@ -66,9 +72,9 @@ public class BottomToolbarCoordinator {
                         model, new ViewHolder(toolbarRoot), new BottomToolbarViewBinder());
         model.addObserver(processor);
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
-        mBookmarksButtonCoordinator =
-                new ToolbarButtonCoordinator(toolbarRoot.findViewById(R.id.bookmarks_button));
+        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
+        mActivity = activity;
     }
 
     /**
@@ -109,11 +115,14 @@ public class BottomToolbarCoordinator {
         mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
         mTabSwitcherButtonCoordinator.setTabModelSelector(tabModelSelector);
 
-        mBookmarksButtonCoordinator.setButtonListeners(bookmarksButtonListener, null);
-        mBookmarksButtonCoordinator.setOverviewModeBehavior(
-                overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
-
         mMenuButton.setTouchListener(menuButtonListener);
+
+        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BookmarkUtils.showBookmarkManager(mActivity);
+            }
+        });
     }
 
     /**
