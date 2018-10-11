@@ -3887,6 +3887,9 @@ However, you aren’t invisible. Going private doesn’t hide your browsing from
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_SHIELDS" desc="Content description for the button that is enable, disable Brave Shields.">
         Enable/Disable Brave Shields
       </message>
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_REWARDS" desc="Content description for the button that is enable, disable Brave Rewards.">
+        Enable/Disable Brave Shields
+      </message>
       <message name="IDS_HTTPSE_TITLE" desc="Title for HTTPS Everywhere.">
         HTTPS Everywhere
       </message>
