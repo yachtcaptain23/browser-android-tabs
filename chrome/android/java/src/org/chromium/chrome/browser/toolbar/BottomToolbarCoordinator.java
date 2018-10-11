@@ -21,6 +21,7 @@ import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
 import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
+import org.chromium.chrome.browser.history.HistoryManagerUtils;
 import org.chromium.chrome.browser.modelutil.PropertyKey;
 import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
@@ -46,6 +47,9 @@ public class BottomToolbarCoordinator {
     /** The bookmarks button component that lives in the bottom toolbar. */
     private final TintedImageButton mBookmarksButton;
 
+    /** The history button component that lives in the bottom toolbar. */
+    private final TintedImageButton mHistoryButton;
+
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
 
@@ -61,6 +65,9 @@ public class BottomToolbarCoordinator {
     /** The primary color to be used in incognito mode. */
     private final int mIncognitoPrimaryColor;
 
+    /** The toolbar model that tells us about the current toolbar state and data. */
+    private final ToolbarModel mToolbarModel;
+
     /** The invoking activity. */
     private final ChromeActivity mActivity;
 
@@ -73,7 +80,8 @@ public class BottomToolbarCoordinator {
      * @param secondSlotData The data required to fill in the second bottom toolbar button slot.
      */
     public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root,
-            ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData, ChromeActivity activity) {
+            ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData, ChromeActivity activity, 
+            ToolbarModel toolbarModel) {
         BottomToolbarModel model = new BottomToolbarModel();
 
         int shadowHeight =
@@ -92,6 +100,7 @@ public class BottomToolbarCoordinator {
 
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
         mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
 
         mLightModeTint =
@@ -107,6 +116,7 @@ public class BottomToolbarCoordinator {
         mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources(),
                 firstSlotData, secondSlotData, mNormalPrimaryColor);
         mActivity = activity;
+        mToolbarModel = toolbarModel;
     }
 
     /**
@@ -159,6 +169,13 @@ public class BottomToolbarCoordinator {
             @Override
             public void onClick(View v) {
                 BookmarkUtils.showBookmarkManager(mActivity);
+            }
+        });
+
+        mHistoryButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
             }
         });
     }
