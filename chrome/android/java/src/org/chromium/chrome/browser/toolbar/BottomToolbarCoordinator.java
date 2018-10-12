@@ -24,6 +24,7 @@ import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
 import org.chromium.chrome.browser.toolbar.ToolbarButtonSlotData.ToolbarButtonData;
 import org.chromium.chrome.browser.widget.TintedImageButton;
+import org.chromium.chrome.browser.widget.newtab.NewTabButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -46,6 +47,9 @@ public class BottomToolbarCoordinator {
 
     /** The history button component that lives in the bottom toolbar. */
     private final TintedImageButton mHistoryButton;
+
+    /** The new tab button component that lives in the bottom toolbar. */
+    private final NewTabButton mNewTabButton;
 
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
@@ -116,6 +120,7 @@ public class BottomToolbarCoordinator {
                 firstSlotData, secondSlotData, mNormalPrimaryColor);
         mActivity = activity;
         mToolbarModel = toolbarModel;
+        mNewTabButton = toolbarRoot.findViewById(R.id.new_tab_button);
     }
 
     /**
