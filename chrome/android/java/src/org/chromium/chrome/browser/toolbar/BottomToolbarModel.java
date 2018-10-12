@@ -35,6 +35,9 @@ public class BottomToolbarModel extends PropertyModel {
     public static final ObjectPropertyKey<ResourceManager> RESOURCE_MANAGER =
             new ObjectPropertyKey<>();
 
+    /** Whether or not search acceleration is enabled. */
+    public static final boolean SEARCH_ACCELERATOR_ENABLED = false;
+
     /** A handler for swipe events on the toolbar. */
     public static final ObjectPropertyKey<EdgeSwipeHandler> TOOLBAR_SWIPE_HANDLER =
             new ObjectPropertyKey<>();
