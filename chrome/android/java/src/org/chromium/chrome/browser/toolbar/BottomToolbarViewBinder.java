@@ -79,10 +79,13 @@ public class BottomToolbarViewBinder
                     .registerResource(
                             view.toolbarRoot.getId(), view.toolbarRoot.getResourceAdapter());
         } else if (BottomToolbarModel.SEARCH_ACCELERATOR_VISIBLE == propertyKey) {
+          // (Albert Wang): Disable handling as search acceleration isn't on
+          if (BottomToolbarModel.SEARCH_ACCELERATOR_ENABLED) {
             view.toolbarRoot.findViewById(R.id.search_button)
                     .setVisibility(model.getValue(BottomToolbarModel.SEARCH_ACCELERATOR_VISIBLE)
                                     ? View.VISIBLE
                                     : View.INVISIBLE);
+          }
         } else if (BottomToolbarModel.TOOLBAR_SWIPE_HANDLER == propertyKey) {
             view.toolbarRoot.setSwipeDetector(
                     model.getValue(BottomToolbarModel.TOOLBAR_SWIPE_HANDLER));
