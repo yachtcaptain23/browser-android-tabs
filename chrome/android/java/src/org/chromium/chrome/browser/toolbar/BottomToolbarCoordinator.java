@@ -25,6 +25,7 @@ import org.chromium.chrome.browser.history.HistoryManagerUtils;
 import org.chromium.chrome.browser.modelutil.PropertyKey;
 import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
+import org.chromium.chrome.browser.tabmodel.TabModel.TabLaunchType;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
 import org.chromium.chrome.browser.toolbar.ToolbarButtonSlotData.ToolbarButtonData;
 import org.chromium.chrome.browser.widget.TintedImageButton;
@@ -121,7 +122,7 @@ public class BottomToolbarCoordinator {
                 firstSlotData, secondSlotData, mNormalPrimaryColor);
         mActivity = activity;
         mToolbarModel = toolbarModel;
-        mNewTabButton = toolbarRoot.findViewById(R.id.new_tab_button);
+        mNewTabButton = (NewTabButton) toolbarRoot.findViewById(R.id.new_tab_button);
     }
 
     /**
@@ -181,6 +182,13 @@ public class BottomToolbarCoordinator {
             @Override
             public void onClick(View v) {
                 HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
+            }
+        });
+
+        mNewTabButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mActivity.getTabCreator(false).launchUrl("chrome-native://newtab/", TabLaunchType.FROM_LAUNCHER_SHORTCUT);
             }
         });
     }
