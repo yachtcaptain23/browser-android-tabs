@@ -65,7 +65,7 @@
                 android:layout_height="1dp"
                 android:layout_weight="1" />
 
-            <org.chromium.chrome.browser.widget.TintedImageButton
+            <org.chromium.chrome.browser.widget.newtab.NewTabButton
                 android:id="@+id/new_tab_button"
                 style="@style/ToolbarButton"
                 android:src="@drawable/btn_toolbar_new_tab"
