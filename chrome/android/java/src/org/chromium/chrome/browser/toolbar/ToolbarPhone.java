@@ -479,6 +479,11 @@ public class ToolbarPhone extends ToolbarLayout
             mTabSwitcherModeViews.add(mNewTabButton);
         }
         mBraveShieldsButton = (ImageView) findViewById(R.id.brave_shields_button);
+        if (mBraveShieldsButton == null) {
+          Log.d("***", "****** Unable to find shield");
+        } else {
+          Log.d("***", "****** Able to find shield");
+        }
         if (mBraveShieldsButton != null) {
             mBraveShieldsButton.setClickable(true);
         }
@@ -618,6 +623,8 @@ public class ToolbarPhone extends ToolbarLayout
             if (null != mBraveShieldsButton) {
                 mBraveShieldsListener.onClick(mBraveShieldsButton);
                 RecordUserAction.record("MobileToolbarShowBraveShields");
+            } else {
+              Log.d("***", "****** Shield not found 664");
             }
         }
     }
@@ -1366,6 +1373,7 @@ public class ToolbarPhone extends ToolbarLayout
         }
 
         // Draw Brave Shields button if necessary.
+        /*
         if (mBraveShieldsAnimationMenuDrawable != null
                 && mBraveShieldsButton != null
                 && mUrlExpansionPercent != 1f) {
@@ -1388,6 +1396,7 @@ public class ToolbarPhone extends ToolbarLayout
             mBraveShieldsAnimationMenuDrawable.draw(canvas);
             canvas.restore();
         }
+        */
 
         // Draw the menu button if necessary.
         final TintedImageButton menuButton = getMenuButton();
