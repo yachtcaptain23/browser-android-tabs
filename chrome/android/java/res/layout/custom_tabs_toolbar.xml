@@ -59,6 +59,17 @@
                 android:singleLine="true"
                 android:paddingEnd="@dimen/toolbar_edge_padding"
                 android:textSize="@dimen/location_bar_url_text_size" />
+            <ImageButton android:id="@+id/brave_shields_button"
+                style="@style/ToolbarButton"
+                android:src="@drawable/btn_brave"
+                android:layout_gravity="center_vertical|end"
+                android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
+            <ImageButton android:id="@+id/brave_rewards_button"
+                style="@style/ToolbarButton"
+                android:src="@drawable/btn_bat"
+                android:layout_gravity="top"
+                android:layout_marginEnd="42dp"
+                android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
         </view>
     </FrameLayout>
     <LinearLayout
@@ -69,17 +80,6 @@
         android:layout_gravity="center_vertical|end"
         android:gravity="center_vertical"
         android:orientation="horizontal" />
-    <ImageButton android:id="@+id/brave_shields_button"
-        style="@style/ToolbarButton"
-        android:src="@drawable/btn_brave"
-        android:layout_gravity="center_vertical|end"
-        android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
-    <ImageButton android:id="@+id/brave_rewards_button"
-        style="@style/ToolbarButton"
-        android:src="@drawable/btn_bat"
-        android:layout_gravity="top"
-        android:layout_marginEnd="42dp"
-        android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
     <org.chromium.chrome.browser.widget.TintedImageButton
         android:id="@+id/menu_button"
         style="@style/ToolbarButton"
