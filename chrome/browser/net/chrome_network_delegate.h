@@ -19,6 +19,7 @@
 #include "build/build_config.h"
 #include "chrome/browser/net/reporting_permissions_checker.h"
 #include "components/domain_reliability/monitor.h"
+#include "components/prefs/pref_member.h"
 #include "net/base/network_delegate_impl.h"
 
 class ChromeExtensionsNetworkDelegate;
