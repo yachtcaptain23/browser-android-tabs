@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">플러그인 차단됨</translation>
 <translation id="1145532888383813076">기기, 앱, 웹에서 검색하세요.</translation>
 <translation id="1146204723345436916">HTML 파일에서 북마크 가져오기...</translation>
-<translation id="114721135501989771">Google로 Chrome을 더욱 스마트하게</translation>
+<translation id="4755587405228414306">Google로 Chrome을 더욱 스마트하게</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" />개가 있습니다.
     <ph name="LINE_BREAK1" />
     로컬 저장소에 공간이 부족합니다. <ph name="FILE_SIZE" />가 더 필요합니다.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">동기화 일시중지됨</translation>
 <translation id="1319979322914001937">Brave 웹 스토어의 필터링된 확장 프로그램 목록을 보여주는 앱입니다. 앱에서 직접 이 목록에 있는 확장 프로그램을 설치할 수 있습니다.</translation>
 <translation id="1322046419516468189"><ph name="SAVED_PASSWORDS_STORE" />에 저장된 비밀번호 보기 및 관리</translation>
-<translation id="1326317727527857210">다른 기기에서 탭을 가져오려면 Chrome에 로그인하세요.</translation>
+<translation id="7253276740368043692">다른 기기에서 탭을 가져오려면 Chrome에 로그인하세요.</translation>
 <translation id="1327074568633507428">Google 클라우드 프린트의 프린터</translation>
 <translation id="1327977588028644528">게이트웨이</translation>
 <translation id="1329584516321524826">조금 전 업데이트됨</translation>
@@ -614,7 +614,7 @@
 <translation id="1875312262568496299">시작</translation>
 <translation id="1875387611427697908">이 프로그램은 <ph name="CHROME_WEB_STORE" />에서만 추가할 수 있습니다</translation>
 <translation id="1877520246462554164">인증 토큰을 가져오지 못했습니다. 로그아웃한 다음 다시 로그인하여 다시 시도해 주세요.</translation>
-<translation id="1878302395768190018">Brave 설정에서 언제든지 맞춤설정할 수 있습니다.</translation>
+<translation id="8340964510643644301">Brave 설정에서 언제든지 맞춤설정할 수 있습니다.</translation>
 <translation id="1880905663253319515">인증서 '<ph name="CERTIFICATE_NAME" />'을(를) 삭제하시겠습니까?</translation>
 <translation id="1886996562706621347">사이트에서 프로토콜 기본 핸들러로 사용할지 여부를 묻도록 허용(권장)</translation>
 <translation id="1887442540531652736">로그인 오류</translation>
@@ -1444,7 +1444,7 @@
 <translation id="3143695347784622594">시스템 데이터를 전송합니다. 이 기능을 사용 설정하면 진단과 기기 및 앱 사용 데이터를 Google로 자동 전송합니다. 이 설정은 언제든지 기기 <ph name="BEGIN_LINK1" />설정<ph name="END_LINK1" />에서 변경할 수 있습니다. 추가 웹 및 앱 활동을 사용 설정하면 이 정보가 계정에 저장되어 내 활동에서 관리할 수 있습니다. <ph name="BEGIN_LINK2" />자세히 알아보기<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">완료</translation>
 <translation id="3144647712221361880">다음으로 링크 열기</translation>
-<translation id="3149510190863420837">Brave 앱</translation>
+<translation id="300669147395456190">Brave 앱</translation>
 <translation id="3150927491400159470">강력 새로고침</translation>
 <translation id="315116470104423982">모바일 데이터</translation>
 <translation id="3151539355209957474">시작 시간</translation>
@@ -1521,7 +1521,7 @@
 <translation id="3280237271814976245">다른 이름으로 저장(&amp;A)...</translation>
 <translation id="3280243678470289153">Brave 사용 계속하기</translation>
 <translation id="3280431534455935878">준비 중</translation>
-<translation id="3282568296779691940">Chrome에 로그인</translation>
+<translation id="82609232232243542">Chrome에 로그인</translation>
 <translation id="3285322247471302225">새 탭(&amp;T)</translation>
 <translation id="3288047731229977326">개발자 모드로 실행 중인 확장 프로그램은 컴퓨터에 해를 줄 수 있습니다. 개발자가 아닌 경우 컴퓨터를 안전하게 사용하려면 개발자 모드로 실행 중인 확장 프로그램을 사용 중지해야 합니다.</translation>
 <translation id="3289856944988573801">업데이트를 확인하려면 이더넷 또는 Wi-Fi를 사용하세요.</translation>
@@ -2287,7 +2287,7 @@
 <translation id="4462159676511157176">맞춤 이름 서버</translation>
 <translation id="4467100756425880649">Brave 웹 스토어 갤러리</translation>
 <translation id="4467101674048705704"><ph name="FOLDER_NAME" /> 펼치기</translation>
-<translation id="447252321002412580">Chrome의 기능 및 성능 개선에 참여</translation>
+<translation id="918192811481327695">Chrome의 기능 및 성능 개선에 참여</translation>
 <translation id="4474155171896946103">모든 탭 북마크...</translation>
 <translation id="4475552974751346499">다운로드 검색</translation>
 <translation id="4476590490540813026">운동선수</translation>
@@ -2789,7 +2789,7 @@
 <translation id="5235750401727657667">새 탭을 열 때 표시되는 페이지 변경</translation>
 <translation id="5238278114306905396">'<ph name="EXTENSION_NAME" />' 앱이 자동으로 삭제되었습니다.</translation>
 <translation id="5238369540257804368">범위</translation>
-<translation id="5240817131241497236">Chrome에서 동기화, 맞춤설정 및 기타 Google 서비스를 관리하는 설정이 변경되었습니다. 이로 인해 현재 설정이 영향을 받을 수 있습니다.</translation>
+<translation id="5088042060344584749">Chrome에서 동기화, 맞춤설정 및 기타 Google 서비스를 관리하는 설정이 변경되었습니다. 이로 인해 현재 설정이 영향을 받을 수 있습니다.</translation>
 <translation id="5241128660650683457">방문하는 웹사이트의 모든 데이터 읽기</translation>
 <translation id="5242724311594467048">'<ph name="EXTENSION_NAME" />'을(를) 사용하시겠습니까?</translation>
 <translation id="5243522832766285132">잠시 후 다시 시도해 주세요.</translation>
@@ -4355,7 +4355,7 @@
 <translation id="7566118625369982896">Play 앱 링크 관리</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">손가락을 대세요</translation>
-<translation id="756809126120519699">Brave 데이터 삭제됨</translation>
+<translation id="7814200940910057384">Brave 데이터 삭제됨</translation>
 <translation id="7568790562536448087">업데이트</translation>
 <translation id="7571643774869182231">저장용량이 부족하여 업데이트할 수 없음</translation>
 <translation id="7573172247376861652">배터리 충전</translation>
@@ -5242,7 +5242,7 @@
 <translation id="8899851313684471736">새 창에서 링크 열기(&amp;W)</translation>
 <translation id="8902667442496790482">텍스트 읽어주기 설정 열기</translation>
 <translation id="8903921497873541725">확대</translation>
-<translation id="8904976895050290827">크롬 동기화</translation>
+<translation id="3149880132460839085">크롬 동기화</translation>
 <translation id="8909833622202089127">사이트에서 내 위치를 추적하고 있습니다.</translation>
 <translation id="8910146161325739742">화면 공유하기</translation>
 <translation id="8910222113987937043">북마크, 방문 기록, 비밀번호 및 기타 설정을 변경하면 더 이상 Google 계정에 동기화되지 않습니다. 하지만 기존 데이터는 Google 계정에 계속 저장되며 <ph name="BEGIN_LINK" />Google 대시보드<ph name="END_LINK" />에서 관리할 수 있습니다.</translation>

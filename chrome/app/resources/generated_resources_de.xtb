@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">Plug-in blockiert</translation>
 <translation id="1145532888383813076">Durchsuchen Sie Ihr Gerät, Ihre Apps und das Web.</translation>
 <translation id="1146204723345436916">Lesezeichen aus HTML-Datei importieren...</translation>
-<translation id="114721135501989771">Brave cleverer nutzen – dank Google</translation>
+<translation id="4755587405228414306">Brave cleverer nutzen – dank Google</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> gefunden.
     <ph name="LINE_BREAK1" />
     Nicht genügend Platz im lokalen Speicher. Zusätzlich <ph name="FILE_SIZE" /> erforderlich.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">Synchronisierung pausiert</translation>
 <translation id="1319979322914001937">Eine App, in der eine gefilterte Liste mit Erweiterungen für den Brave Web Store angezeigt wird. Die angezeigten Erweiterungen können direkt aus der App installiert werden.</translation>
 <translation id="1322046419516468189">Gespeicherte Passwörter in Ihrem <ph name="SAVED_PASSWORDS_STORE" /> aufrufen und verwalten</translation>
-<translation id="1326317727527857210">Melden Sie sich in Brave an, um Tabs von Ihren anderen Geräten abzurufen.</translation>
+<translation id="7253276740368043692">Melden Sie sich in Brave an, um Tabs von Ihren anderen Geräten abzurufen.</translation>
 <translation id="1327074568633507428">Google Cloud Print-Drucker</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Gerade aktualisiert</translation>
@@ -611,7 +611,7 @@
 <translation id="1875312262568496299">Starten</translation>
 <translation id="1875387611427697908">Dieser Artikel kann nur über den <ph name="CHROME_WEB_STORE" /> hinzugefügt werden</translation>
 <translation id="1877520246462554164">Authentifizierungs-Token konnte nicht abgerufen werden. Bitte melden Sie sich ab und dann wieder an, um es noch einmal zu versuchen.</translation>
-<translation id="1878302395768190018">Diese Option lässt sich jederzeit in den Brave-Einstellungen anpassen</translation>
+<translation id="8340964510643644301">Diese Option lässt sich jederzeit in den Brave-Einstellungen anpassen</translation>
 <translation id="1880905663253319515">Zertifikat "<ph name="CERTIFICATE_NAME" />" löschen?</translation>
 <translation id="1886996562706621347">Registrierung von Websites als Standard-Handler für Protokolle zulassen (empfohlen)</translation>
 <translation id="1887442540531652736">Fehler bei der Anmeldung</translation>
@@ -1440,7 +1440,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 <translation id="3143695347784622594">Systemdaten senden. Diagnosedaten sowie Geräte- und App-Nutzungsdaten werden automatisch an Google gesendet. Diese Berechtigung können Sie jederzeit in den <ph name="BEGIN_LINK1" />Geräteeinstellungen<ph name="END_LINK1" /> ändern. Wenn Sie zusätzliche Web- &amp; App-Aktivitäten aktiviert haben, werden diese Informationen in Ihrem Konto gespeichert, damit Sie sie unter "Meine Aktivitäten" verwalten können. <ph name="BEGIN_LINK2" />Weitere Informationen<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">Fertig</translation>
 <translation id="3144647712221361880">Link öffnen als</translation>
-<translation id="3149510190863420837">Brave-Apps</translation>
+<translation id="300669147395456190">Brave-Apps</translation>
 <translation id="3150927491400159470">Vollständiges Aktualisieren (Hard Reload)</translation>
 <translation id="315116470104423982">Mobilfunk</translation>
 <translation id="3151539355209957474">Startzeit</translation>
@@ -1517,7 +1517,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 <translation id="3280237271814976245">Speichern &amp;unter...</translation>
 <translation id="3280243678470289153">In Brave bleiben</translation>
 <translation id="3280431534455935878">In Vorbereitung</translation>
-<translation id="3282568296779691940">In Brave anmelden</translation>
+<translation id="82609232232243542">In Brave anmelden</translation>
 <translation id="3285322247471302225">Neuer &amp;Tab</translation>
 <translation id="3288047731229977326">Erweiterungen im Entwicklermodus können auf Ihrem Computer Schaden anrichten. Wenn Sie kein Entwickler sind, sollten Sie diese Erweiterungen im Entwicklermodus deaktivieren, um sicher zu sein.</translation>
 <translation id="3289856944988573801">Verwenden Sie Ethernet oder WLAN zur Suche nach Updates.</translation>
@@ -2285,7 +2285,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="4462159676511157176">Benutzerdefinierte Nameserver</translation>
 <translation id="4467100756425880649">Brave Web Store-Galerie</translation>
 <translation id="4467101674048705704"><ph name="FOLDER_NAME" /> maximieren</translation>
-<translation id="447252321002412580">Helfen, die Funktionen und die Leistung von Brave zu verbessern</translation>
+<translation id="918192811481327695">Helfen, die Funktionen und die Leistung von Brave zu verbessern</translation>
 <translation id="4474155171896946103">Alle Tabs als Lesezeichen speichern...</translation>
 <translation id="4475552974751346499">In Downloads suchen</translation>
 <translation id="4476590490540813026">Athletin</translation>
@@ -2787,7 +2787,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="5235750401727657667">Seite ändern, die beim Öffnen eines neuen Tabs angezeigt wird</translation>
 <translation id="5238278114306905396">Die App "<ph name="EXTENSION_NAME" />" wurde automatisch entfernt.</translation>
 <translation id="5238369540257804368">Umfang</translation>
-<translation id="5240817131241497236">Die Einstellungen für die Synchronisierung, Personalisierung und andere Google-Dienste in Brave wurden geändert. Dadurch könnten sich auch Ihre aktuellen Einstellungen geändert haben.</translation>
+<translation id="5088042060344584749">Die Einstellungen für die Synchronisierung, Personalisierung und andere Google-Dienste in Brave wurden geändert. Dadurch könnten sich auch Ihre aktuellen Einstellungen geändert haben.</translation>
 <translation id="5241128660650683457">Alle Ihre Daten auf von Ihnen besuchten Websites lesen</translation>
 <translation id="5242724311594467048">"<ph name="EXTENSION_NAME" />" aktivieren?</translation>
 <translation id="5243522832766285132">Bitte versuchen Sie es in einigen Minuten noch einmal</translation>
@@ -4353,7 +4353,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="7566118625369982896">Play-App-Links verwalten</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">Finger positionieren</translation>
-<translation id="756809126120519699">Gelöschte Brave-Daten</translation>
+<translation id="7814200940910057384">Gelöschte Brave-Daten</translation>
 <translation id="7568790562536448087">Aktualisierung läuft</translation>
 <translation id="7571643774869182231">Nicht genug Speicherplatz, um Update auszuführen</translation>
 <translation id="7573172247376861652">Akkustand</translation>
@@ -5241,7 +5241,7 @@ Andere Personen mit langsamen Verbindungen sehen Ihre Inhalte möglicherweise ni
 <translation id="8899851313684471736">Link in neuem &amp;Fenster öffnen</translation>
 <translation id="8902667442496790482">Einstellungen für "Vorlesen" öffnen</translation>
 <translation id="8903921497873541725">Vergrößern</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8909833622202089127">Die Website verfolgt Ihren Standort</translation>
 <translation id="8910146161325739742">Bildschirm freigeben</translation>
 <translation id="8910222113987937043">Änderungen an Ihrem Verlauf sowie an Ihren Lesezeichen, Passwörtern und sonstigen Einstellungen werden nicht mehr mit Ihrem Google-Konto synchronisiert. Bereits in Ihrem Google-Konto gespeicherte Daten bleiben dort erhalten und können über das <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" /> verwaltet werden.</translation>

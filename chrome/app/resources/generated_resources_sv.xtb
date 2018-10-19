@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">Pluginprogrammet har blockerats</translation>
 <translation id="1145532888383813076">Sök på enheten, i appar och på webben.</translation>
 <translation id="1146204723345436916">Importera bokmärken från HTML-filen...</translation>
-<translation id="114721135501989771">Få Google-teknik i Brave</translation>
+<translation id="4755587405228414306">Få Google-teknik i Brave</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> hittades.
     <ph name="LINE_BREAK1" />
     Det finns inte tillräckligt med utrymme i det lokala lagringsutrymmet. Det behövs ytterligare <ph name="FILE_SIZE" />.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">Synkroniseringen har pausats</translation>
 <translation id="1319979322914001937">En app som visar en filtrerad lista över tillägg från Brave Web Store. Tillägg på listan kan installeras direkt från appen.</translation>
 <translation id="1322046419516468189">Visa och hantera sparade lösenord i <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Logga in i Brave om du vill ha samma flikar tillgängliga på alla enheter.</translation>
+<translation id="7253276740368043692">Logga in i Brave om du vill ha samma flikar tillgängliga på alla enheter.</translation>
 <translation id="1327074568633507428">Skrivare på Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Uppdaterades alldeles nyss</translation>
@@ -613,7 +613,7 @@
 <translation id="1875312262568496299">Börja</translation>
 <translation id="1875387611427697908">Kan endast installeras från <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Det gick inte att hämta autentiseringstoken. Försök igen genom att logga ut och sedan logga in igen.</translation>
-<translation id="1878302395768190018">Du kan när som helst ändra detta i Brave-inställningarna</translation>
+<translation id="8340964510643644301">Du kan när som helst ändra detta i Brave-inställningarna</translation>
 <translation id="1880905663253319515">Vill du ta bort certifikatet <ph name="CERTIFICATE_NAME" />?</translation>
 <translation id="1886996562706621347">Tillåt att webbplatser begär att bli standardhanterare för protokoll (rekommenderas)</translation>
 <translation id="1887442540531652736">Inloggningsfel</translation>
@@ -1443,7 +1443,7 @@
 <translation id="3143695347784622594">Skicka systemdata. Skicka automatiskt diagnostik- och användningsdata för enheten och appar till Google. Du kan när som helst ändra detta i <ph name="BEGIN_LINK1" />enhetsinställningarna<ph name="END_LINK1" />. Om du har aktiverat ytterligare webb- och appaktivitet lagras den informationen i kontot så att du kan hantera den på sidan Min aktivitet. <ph name="BEGIN_LINK2" />Learn More<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">KLART</translation>
 <translation id="3144647712221361880">Öppna länk som</translation>
-<translation id="3149510190863420837">Brave-appar</translation>
+<translation id="300669147395456190">Brave-appar</translation>
 <translation id="3150927491400159470">Hård inläsning</translation>
 <translation id="315116470104423982">Mobildata</translation>
 <translation id="3151539355209957474">Starttid</translation>
@@ -1520,7 +1520,7 @@
 <translation id="3280237271814976245">Spara so&amp;m...</translation>
 <translation id="3280243678470289153">Fortsätt i Brave</translation>
 <translation id="3280431534455935878">Förbereder</translation>
-<translation id="3282568296779691940">Logga in i Brave</translation>
+<translation id="82609232232243542">Logga in i Brave</translation>
 <translation id="3285322247471302225">Ny &amp;flik</translation>
 <translation id="3288047731229977326">Tillägg som körs i utvecklarläge kan skada datorn. Om du inte är en utvecklare bör du inaktivera tillägg som körs i utvecklarläge för att skydda dig.</translation>
 <translation id="3289856944988573801">Använd Ethernet eller Wi-Fi om du vill söka efter uppdateringar.</translation>
@@ -2288,7 +2288,7 @@
 <translation id="4462159676511157176">Anpassade namnservrar</translation>
 <translation id="4467100756425880649">Brave Web Store Gallery</translation>
 <translation id="4467101674048705704">Utöka <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">Bidra till att förbättra Chromes funktioner och prestanda</translation>
+<translation id="918192811481327695">Bidra till att förbättra Chromes funktioner och prestanda</translation>
 <translation id="4474155171896946103">Skapa bokmärken för alla flikar ...</translation>
 <translation id="4475552974751346499">Sök i nedladdningar</translation>
 <translation id="4476590490540813026">Idrottare</translation>
@@ -2790,7 +2790,7 @@
 <translation id="5235750401727657667">Ersätt den aktuella sidan när du öppnar en ny flik</translation>
 <translation id="5238278114306905396">Appen <ph name="EXTENSION_NAME" /> togs bort automatiskt.</translation>
 <translation id="5238369540257804368">Omfattningar</translation>
-<translation id="5240817131241497236">Inställningarna som styr synkronisering, anpassning och andra tjänster från Google i Brave har ändrats. Detta kan påverka dina nuvarande inställningar.</translation>
+<translation id="5088042060344584749">Inställningarna som styr synkronisering, anpassning och andra tjänster från Google i Brave har ändrats. Detta kan påverka dina nuvarande inställningar.</translation>
 <translation id="5241128660650683457">Läsa all din data på webbplatserna som du besöker</translation>
 <translation id="5242724311594467048">Vill du aktivera <ph name="EXTENSION_NAME" />?</translation>
 <translation id="5243522832766285132">Försök igen om en liten stund</translation>
@@ -4356,7 +4356,7 @@
 <translation id="7566118625369982896">Hantera länkar till appar på Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">Sätt fingret på sensorn</translation>
-<translation id="756809126120519699">Data i Brave har rensats</translation>
+<translation id="7814200940910057384">Data i Brave har rensats</translation>
 <translation id="7568790562536448087">Uppdaterar</translation>
 <translation id="7571643774869182231">Det finns inte tillräckligt med lagringsutrymme för uppdateringen.</translation>
 <translation id="7573172247376861652">Batteriladdning</translation>
@@ -5243,7 +5243,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8899851313684471736">Öppna länk i nytt f&amp;önster</translation>
 <translation id="8902667442496790482">Öppna inställningarna för Textuppläsning</translation>
 <translation id="8903921497873541725">Zooma in</translation>
-<translation id="8904976895050290827">Synkronisera med Brave</translation>
+<translation id="3149880132460839085">Synkronisera med Brave</translation>
 <translation id="8909833622202089127">Webbplatsen spårar din plats</translation>
 <translation id="8910146161325739742">Dela skärmen</translation>
 <translation id="8910222113987937043">När bokmärken, historik, lösenord och andra inställningar ändras kommer dessa ändringar inte längre att synkroniseras med Google-kontot. Uppgifter som redan har sparats i Google-kontot finns däremot kvar och kan hanteras via <ph name="BEGIN_LINK" />Google Översikt<ph name="END_LINK" />.</translation>

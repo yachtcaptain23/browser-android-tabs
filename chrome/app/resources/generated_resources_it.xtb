@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">Plug-in bloccato</translation>
 <translation id="1145532888383813076">Cerca sul dispositivo, nelle app e sul Web.</translation>
 <translation id="1146204723345436916">Importa i preferiti da file HTML...</translation>
-<translation id="114721135501989771">Tutta l'intelligenza Google in Brave</translation>
+<translation id="4755587405228414306">Tutta l'intelligenza Google in Brave</translation>
 <translation id="1148097584170732637">Elementi trovati: <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     Spazio nella memoria locale insufficiente. Sono necessari altri <ph name="FILE_SIZE" />.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">Sincronizzazione in pausa</translation>
 <translation id="1319979322914001937">Un'app che mostra un elenco filtrato di estensioni del Brave Web Store. Le estensioni dell'elenco possono essere installate direttamente dall'app.</translation>
 <translation id="1322046419516468189">Visualizza e gestisci le password salvate in <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Accedi a Brave per trovare le tue schede degli altri dispositivi.</translation>
+<translation id="7253276740368043692">Accedi a Brave per trovare le tue schede degli altri dispositivi.</translation>
 <translation id="1327074568633507428">Stampante su Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Aggiornata adesso</translation>
@@ -614,7 +614,7 @@
 <translation id="1875312262568496299">Inizia</translation>
 <translation id="1875387611427697908">È possibile aggiungerla soltanto dal <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Recupero del token di autenticazione non riuscito. Esci e accedi nuovamente per riprovare.</translation>
-<translation id="1878302395768190018">Puoi personalizzare questa opzione in qualsiasi momento nelle Impostazioni di Brave</translation>
+<translation id="8340964510643644301">Puoi personalizzare questa opzione in qualsiasi momento nelle Impostazioni di Brave</translation>
 <translation id="1880905663253319515">Eliminare il certificato "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">Consenti ai siti di chiedere di diventare gestori predefiniti dei protocolli (consigliata)</translation>
 <translation id="1887442540531652736">Errore di accesso</translation>
@@ -1443,7 +1443,7 @@
 <translation id="3143695347784622594">Invia dati sul sistema. Invia automaticamente a Google dati diagnostici e sull'utilizzo delle app e del dispositivo. Potrai modificare questa opzione in qualsiasi momento nelle <ph name="BEGIN_LINK1" />impostazioni<ph name="END_LINK1" /> del dispositivo. Se hai attivato Attività web e app, queste informazioni vengono memorizzate nel tuo account per consentirti di gestirle nella pagina Le mie attività. <ph name="BEGIN_LINK2" />Ulteriori informazioni<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">FINE</translation>
 <translation id="3144647712221361880">Apri link come</translation>
-<translation id="3149510190863420837">Applicazioni Brave</translation>
+<translation id="300669147395456190">Applicazioni Brave</translation>
 <translation id="3150927491400159470">Ricaricamento manuale</translation>
 <translation id="315116470104423982">Dati mobili</translation>
 <translation id="3151539355209957474">Ora di inizio</translation>
@@ -1520,7 +1520,7 @@
 <translation id="3280237271814976245">Salva con &amp;nome...</translation>
 <translation id="3280243678470289153">Rimani in Brave</translation>
 <translation id="3280431534455935878">Preparazione in corso</translation>
-<translation id="3282568296779691940">Accedi a Brave</translation>
+<translation id="82609232232243542">Accedi a Brave</translation>
 <translation id="3285322247471302225">Nuova &amp;scheda</translation>
 <translation id="3288047731229977326">Le estensioni in esecuzione in modalità sviluppatore potrebbero danneggiare il computer. Se non sei uno sviluppatore, dovresti disattivare queste estensioni per la tua sicurezza.</translation>
 <translation id="3289856944988573801">Per verificare la disponibilità di aggiornamenti, utilizza una rete Ethernet o Wi-Fi.</translation>
@@ -2286,7 +2286,7 @@ Se non modifichi le impostazioni predefinite, <ph name="USER_DISPLAY_NAME" /> pu
 <translation id="4462159676511157176">Assegna nomi personalizzati a server</translation>
 <translation id="4467100756425880649">Brave Web Store Gallery</translation>
 <translation id="4467101674048705704">Espandi <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">Contribuisci a migliorare le funzioni e le prestazioni di Brave</translation>
+<translation id="918192811481327695">Contribuisci a migliorare le funzioni e le prestazioni di Brave</translation>
 <translation id="4474155171896946103">Aggiungi tutte le schede ai Preferiti...</translation>
 <translation id="4475552974751346499">Cerca tra i file scaricati</translation>
 <translation id="4476590490540813026">Atleta</translation>
@@ -2788,7 +2788,7 @@ Se non modifichi le impostazioni predefinite, <ph name="USER_DISPLAY_NAME" /> pu
 <translation id="5235750401727657667">Sostituzione della pagina visualizzata quando viene aperta una nuova scheda</translation>
 <translation id="5238278114306905396">L'applicazione "<ph name="EXTENSION_NAME" />" è stata rimossa automaticamente.</translation>
 <translation id="5238369540257804368">Ambiti</translation>
-<translation id="5240817131241497236">Le impostazioni che controllano sincronizzazione, personalizzazione e altri servizi Google in Brave sono cambiate. Questo cambiamento potrebbe incidere sulle impostazioni attuali.</translation>
+<translation id="5088042060344584749">Le impostazioni che controllano sincronizzazione, personalizzazione e altri servizi Google in Brave sono cambiate. Questo cambiamento potrebbe incidere sulle impostazioni attuali.</translation>
 <translation id="5241128660650683457">Lettura di tutti i dati sui siti web visitati</translation>
 <translation id="5242724311594467048">Attivare "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">Riprova tra qualche istante</translation>
@@ -4351,7 +4351,7 @@ Se non modifichi le impostazioni predefinite, <ph name="USER_DISPLAY_NAME" /> pu
 <translation id="7566118625369982896">Gestisci i link dell'app Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">Appoggia il dito</translation>
-<translation id="756809126120519699">Dati di Brave cancellati</translation>
+<translation id="7814200940910057384">Dati di Brave cancellati</translation>
 <translation id="7568790562536448087">Aggiornamento</translation>
 <translation id="7571643774869182231">Spazio di archiviazione insufficiente per eseguire l'aggiornamento</translation>
 <translation id="7573172247376861652">Carica della batteria</translation>
@@ -5238,7 +5238,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8899851313684471736">Apri link in un'altra &amp;finestra</translation>
 <translation id="8902667442496790482">Apri le impostazioni Seleziona per ascoltare</translation>
 <translation id="8903921497873541725">Aumenta lo zoom</translation>
-<translation id="8904976895050290827">Sincronizzazione Brave</translation>
+<translation id="3149880132460839085">Sincronizzazione Brave</translation>
 <translation id="8909833622202089127">Il sito sta monitorando la tua posizione</translation>
 <translation id="8910146161325739742">Condividi lo schermo</translation>
 <translation id="8910222113987937043">Le modifiche apportate a preferiti, cronologia, password e altre impostazioni non verranno più sincronizzate con il tuo account Google. I dati esistenti rimarranno invece memorizzati nel tuo account Google e potranno essere gestiti su <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" />.</translation>

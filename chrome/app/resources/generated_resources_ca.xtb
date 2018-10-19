@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">Connector bloquejat</translation>
 <translation id="1145532888383813076">Cerca al dispositiu, en aplicacions i al web.</translation>
 <translation id="1146204723345436916">Importa les adreces d'interès des d'un fitxer HTML...</translation>
-<translation id="114721135501989771">Eines intel·ligents a Brave</translation>
+<translation id="4755587405228414306">Eines intel·ligents a Brave</translation>
 <translation id="1148097584170732637">S'han trobat <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     No hi ha prou espai disponible a l'emmagatzematge local. Cal tenir <ph name="FILE_SIZE" /> més.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">La sincronització està en pausa</translation>
 <translation id="1319979322914001937">Una aplicació que mostra un llista filtrada de les extensions de Brave Web Store. Les extensions de la llista es poden instal·lar directament des de l'aplicació.</translation>
 <translation id="1322046419516468189">Consulta i gestiona les contrasenyes desades al <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Inicieu la sessió a Brave per accedir a les vostres pestanyes des dels altres dispositius que tingueu.</translation>
+<translation id="7253276740368043692">Inicieu la sessió a Brave per accedir a les vostres pestanyes des dels altres dispositius que tingueu.</translation>
 <translation id="1327074568633507428">Impressora a Google Cloud Print</translation>
 <translation id="1327977588028644528">Passarel·la</translation>
 <translation id="1329584516321524826">S'acaba d'actualitzar</translation>
@@ -614,7 +614,7 @@
 <translation id="1875312262568496299">Comença</translation>
 <translation id="1875387611427697908">Només pot afegir-se des de <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">No s'ha pogut obtenir el testimoni d'autenticació. Tanca la sessió i torna-la a iniciar per tornar-ho a provar.</translation>
-<translation id="1878302395768190018">Pots personalitzar aquesta opció en qualsevol moment des de la configuració de Brave</translation>
+<translation id="8340964510643644301">Pots personalitzar aquesta opció en qualsevol moment des de la configuració de Brave</translation>
 <translation id="1880905663253319515">Voleu suprimir el certificat "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">Permet que els llocs web sol·licitin esdevenir gestors predeterminats de protocols (recomanat)</translation>
 <translation id="1887442540531652736">Error d'inici de sessió</translation>
@@ -1443,7 +1443,7 @@
 <translation id="3143695347784622594">Envia dades del sistema. Envia automàticament a Google dades de diagnòstic i d'ús del dispositiu i de les aplicacions. Pots canviar-ho en qualsevol moment des de la <ph name="BEGIN_LINK1" />configuració<ph name="END_LINK1" /> del dispositiu. Si també has activat l'opció Activitat al web i en aplicacions, aquesta informació es desarà al teu compte perquè la puguis gestionar des de La meva activitat. <ph name="BEGIN_LINK2" />Obtén més informació<ph name="END_LINK2" />.</translation>
 <translation id="3144126448740580210">FET</translation>
 <translation id="3144647712221361880">Obre l'enllaç com a</translation>
-<translation id="3149510190863420837">Aplicacions de Brave</translation>
+<translation id="300669147395456190">Aplicacions de Brave</translation>
 <translation id="3150927491400159470">Torna a carregar de manera forçada</translation>
 <translation id="315116470104423982">Dades mòbils</translation>
 <translation id="3151539355209957474">Hora d'inici</translation>
@@ -1520,7 +1520,7 @@
 <translation id="3280237271814976245">Desa &amp;com a...</translation>
 <translation id="3280243678470289153">Continua a Brave</translation>
 <translation id="3280431534455935878">S'està preparant</translation>
-<translation id="3282568296779691940">Inicia la sessió a Brave</translation>
+<translation id="82609232232243542">Inicia la sessió a Brave</translation>
 <translation id="3285322247471302225">Pes&amp;tanya nova</translation>
 <translation id="3288047731229977326">Les extensions que funcionen amb el mode de desenvolupador poden malmetre el vostre ordinador. Si no sou desenvolupador, hauríeu de desactivar aquestes extensions per continuar protegit.</translation>
 <translation id="3289856944988573801">Per comprovar si hi ha actualitzacions, feu servir Ethernet o Wi-Fi.</translation>
@@ -2286,7 +2286,7 @@
 <translation id="4462159676511157176">Servidors de noms personalitzats</translation>
 <translation id="4467100756425880649">Galeria de Brave Web Store</translation>
 <translation id="4467101674048705704">Desplega <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">Ajuda a millorar les funcions i el rendiment de Brave</translation>
+<translation id="918192811481327695">Ajuda a millorar les funcions i el rendiment de Brave</translation>
 <translation id="4474155171896946103">Afegeix totes les pestanyes a les adreces d'interès...</translation>
 <translation id="4475552974751346499">Cerca baixades</translation>
 <translation id="4476590490540813026">Atleta</translation>
@@ -2790,7 +2790,7 @@
 <translation id="5235750401727657667">Substitueix la pàgina que veus en obrir una pestanya nova</translation>
 <translation id="5238278114306905396">L'aplicació "<ph name="EXTENSION_NAME" />" s'ha eliminat automàticament.</translation>
 <translation id="5238369540257804368">Àmbits</translation>
-<translation id="5240817131241497236">La configuració que controla la sincronització, la personalització i altres serveis de Google a Brave ha canviat. Això pot afectar la teva configuració actual.</translation>
+<translation id="5088042060344584749">La configuració que controla la sincronització, la personalització i altres serveis de Google a Brave ha canviat. Això pot afectar la teva configuració actual.</translation>
 <translation id="5241128660650683457">Llegir totes les dades dels llocs web que es visitin</translation>
 <translation id="5242724311594467048">Vols activar "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">Torna-ho a provar d'aquí a una estona</translation>
@@ -4354,7 +4354,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="7566118625369982896">Gestiona els enllaços d'aplicacions de Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">Col·loca el dit</translation>
-<translation id="756809126120519699">S'han esborrat les dades de Brave</translation>
+<translation id="7814200940910057384">S'han esborrat les dades de Brave</translation>
 <translation id="7568790562536448087">Actualització</translation>
 <translation id="7571643774869182231">No hi ha prou espai d'emmagatzematge per fer l'actualització</translation>
 <translation id="7573172247376861652">Càrrega de la bateria</translation>
@@ -5241,7 +5241,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8899851313684471736">Obre l'enllaç en una &amp;finestra nova</translation>
 <translation id="8902667442496790482">Obre la configuració d'Escolta la selecció</translation>
 <translation id="8903921497873541725">Amplia</translation>
-<translation id="8904976895050290827">Sincronització de Brave</translation>
+<translation id="3149880132460839085">Sincronització de Brave</translation>
 <translation id="8909833622202089127">El lloc web està fent un seguiment de la teva ubicació</translation>
 <translation id="8910146161325739742">Compartiu la pantalla</translation>
 <translation id="8910222113987937043">Els canvis que es facin a les adreces d'interès, l'historial, les contrasenyes i altres opcions de configuració es deixaran de sincronitzar amb el compte de Google. No obstant això, les dades existents continuaran emmagatzemades al teu compte de Google i es podran gestionar al <ph name="BEGIN_LINK" />Tauler de control de Google<ph name="END_LINK" />.</translation>

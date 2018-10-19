@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">הפלאגין חסום</translation>
 <translation id="1145532888383813076">אפשר לחפש במכשיר, באפליקציות ובאינטרנט.</translation>
 <translation id="1146204723345436916">‏יבוא סימניות מקובץ HTML...</translation>
-<translation id="114721135501989771">‏תכונות חכמות של Google</translation>
+<translation id="4755587405228414306">‏תכונות חכמות של Google</translation>
 <translation id="1148097584170732637">נמצאו <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     אין מספיק מקום באחסון המקומי. יש צורך ב-<ph name="FILE_SIZE" /> נוספים.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">הסינכרון הושהה</translation>
 <translation id="1319979322914001937">‏יישום שמציג רשימה מסוננת של תוספים מחנות האינטרנט של Brave. ניתן להתקין את התוספים שברשימה ישירות מתוך היישום.</translation>
 <translation id="1322046419516468189">הצגה וניהול של סיסמאות שמורות במסגרת <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">‏כדי לקבל את הכרטיסיות מהמכשירים האחרים שלך, היכנס ל-Brave.</translation>
+<translation id="7253276740368043692">‏כדי לקבל את הכרטיסיות מהמכשירים האחרים שלך, היכנס ל-Brave.</translation>
 <translation id="1327074568633507428">‏מדפסת ב-Google Cloud Print</translation>
 <translation id="1327977588028644528">שער</translation>
 <translation id="1329584516321524826">עודכן עכשיו</translation>
@@ -611,7 +611,7 @@
 <translation id="1875312262568496299">התחלה</translation>
 <translation id="1875387611427697908">ניתן להוסיף את הפריט הזה רק מ-<ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">לא ניתן לקבל אסימון אימות. צא לאחר מכן היכנס מחדש כדי לנסות שוב.</translation>
-<translation id="1878302395768190018">‏אפשר תמיד להתאים אישית דרך הגדרות Brave</translation>
+<translation id="8340964510643644301">‏אפשר תמיד להתאים אישית דרך הגדרות Brave</translation>
 <translation id="1880905663253319515">למחוק את האישור "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">אפשר לאתרים לבקש להפוך למטפלי ברירת המחדל עבור פרוטוקולים (מומלץ)</translation>
 <translation id="1887442540531652736">שגיאת כניסה</translation>
@@ -1441,7 +1441,7 @@
 <translation id="3143695347784622594">‏שליחת נתוני מערכת. אפשר לשלוח אל Google באופן אוטומטי נתוני ניתוח ונתוני שימוש במכשיר ובאפליקציות. ניתן לשנות זאת תמיד ב<ph name="BEGIN_LINK1" />הגדרות<ph name="END_LINK1" /> המכשיר. אם הפעלת פריטים נוספים ב'פעילות באינטרנט ובאפליקציות', המידע הזה יאוחסן בחשבון כדי לאפשר לך לנהל אותו דרך 'הפעילות שלי'. <ph name="BEGIN_LINK2" />מידע נוסף<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">בוצע</translation>
 <translation id="3144647712221361880">פתח קישור בתור</translation>
-<translation id="3149510190863420837">‏יישומי Brave</translation>
+<translation id="300669147395456190">‏יישומי Brave</translation>
 <translation id="3150927491400159470">טעינה מחדש קשיחה</translation>
 <translation id="315116470104423982">נתוני נייד</translation>
 <translation id="3151539355209957474">שעת התחלה</translation>
@@ -1518,7 +1518,7 @@
 <translation id="3280237271814976245">שמור &amp;בשם...</translation>
 <translation id="3280243678470289153">‏להישאר ב-Brave</translation>
 <translation id="3280431534455935878">מכין</translation>
-<translation id="3282568296779691940">‏כניסה ל-Brave</translation>
+<translation id="82609232232243542">‏כניסה ל-Brave</translation>
 <translation id="3285322247471302225">כרטיסייה &amp;חדשה</translation>
 <translation id="3288047731229977326">תוספים הרצים במצב מפתח יכולים להזיק למחשב שלך. אם אינך מפתח, עליך להשבית את התוספים הרצים במצב מפתח כדי לשמור על ביטחונך.</translation>
 <translation id="3289856944988573801">‏כדי לבדוק אם יש עדכונים, השתמש ב-Ethernet או ב-Wi-Fi.</translation>
@@ -2286,7 +2286,7 @@
 <translation id="4462159676511157176">שרתי שמות מותאמים אישית</translation>
 <translation id="4467100756425880649">‏הגלריה של חנות האינטרנט של Brave</translation>
 <translation id="4467101674048705704">הרחבה של <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">‏עזרה בשיפור התכונות והביצועים של Brave</translation>
+<translation id="918192811481327695">‏עזרה בשיפור התכונות והביצועים של Brave</translation>
 <translation id="4474155171896946103">צור סימניה לכל הכרטיסיות...</translation>
 <translation id="4475552974751346499">חפש בהורדות</translation>
 <translation id="4476590490540813026">ספורטאית</translation>
@@ -2788,7 +2788,7 @@
 <translation id="5235750401727657667">החלפת הדף שמוצג בפתיחה של כרטיסייה חדשה</translation>
 <translation id="5238278114306905396">היישום "<ph name="EXTENSION_NAME" />" הוסר באופן אוטומטי.</translation>
 <translation id="5238369540257804368">טווחים</translation>
-<translation id="5240817131241497236">‏ההגדרות ששולטות בסינכרון, בהתאמה אישית ובשירותים אחרים של Google ב-Brave השתנו. השינוי עשוי להשפיע על ההגדרות הנוכחיות שלך.</translation>
+<translation id="5088042060344584749">‏ההגדרות ששולטות בסינכרון, בהתאמה אישית ובשירותים אחרים של Google ב-Brave השתנו. השינוי עשוי להשפיע על ההגדרות הנוכחיות שלך.</translation>
 <translation id="5241128660650683457">קריאת כל הנתונים שלך באתרים שבהם אתה מבקר</translation>
 <translation id="5242724311594467048">האם להפעיל את "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">צריך לנסות שוב בעוד כמה רגעים</translation>
@@ -4353,7 +4353,7 @@
 <translation id="7566118625369982896">‏ניהול קישורים של אפליקציות מ-Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">יש להניח את האצבע</translation>
-<translation id="756809126120519699">‏נתוני Brave נוקו</translation>
+<translation id="7814200940910057384">‏נתוני Brave נוקו</translation>
 <translation id="7568790562536448087">מעדכן</translation>
 <translation id="7571643774869182231">אין מספיק שטח אחסון לעדכון</translation>
 <translation id="7573172247376861652">טעינת סוללה</translation>
@@ -5239,7 +5239,7 @@
 <translation id="8899851313684471736">פתח קישור &amp;בחלון חדש</translation>
 <translation id="8902667442496790482">פתיחה של הגדרות ההקראה</translation>
 <translation id="8903921497873541725">התקרב</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8909833622202089127">האתר עוקב אחרי המיקום שלך</translation>
 <translation id="8910146161325739742">שיתוף המסך שלך</translation>
 <translation id="8910222113987937043">‏שינויים בסימניות, בהיסטוריה, בסיסמאות ובהגדרות אחרות לא יסונכרנו עוד עם חשבון Google שלך. עם זאת, הנתונים הקיימים עדיין יישארו בחשבון Google ותוכל לנהל אותם ב<ph name="BEGIN_LINK" />מרכז השליטה של Google<ph name="END_LINK" />.</translation>

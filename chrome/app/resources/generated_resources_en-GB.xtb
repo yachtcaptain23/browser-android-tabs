@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">Plug-in blocked</translation>
 <translation id="1145532888383813076">Search your device, apps and web.</translation>
 <translation id="1146204723345436916">Import bookmarks from HTML file...</translation>
-<translation id="114721135501989771">Get Google smarts in Brave</translation>
+<translation id="4755587405228414306">Get Google smarts in Brave</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> found.
     <ph name="LINE_BREAK1" />
     Not enough space available in local storage. Additional <ph name="FILE_SIZE" /> needed.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">Sync is paused</translation>
 <translation id="1319979322914001937">An app that shows a filtered list of extensions from Brave Web Store. Extensions in the list can be installed directly from the app.</translation>
 <translation id="1322046419516468189">View and manage saved passwords in your <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">To get your tabs from your other devices, sign in to Brave.</translation>
+<translation id="7253276740368043692">To get your tabs from your other devices, sign in to Brave.</translation>
 <translation id="1327074568633507428">Printer on Google Cloud Print</translation>
 <translation id="1327977588028644528">Gateway</translation>
 <translation id="1329584516321524826">Updated just now</translation>
@@ -614,7 +614,7 @@
 <translation id="1875312262568496299">Begin</translation>
 <translation id="1875387611427697908">This can only be added from the <ph name="CHROME_WEB_STORE" /></translation>
 <translation id="1877520246462554164">Failed to get authentication token. Please sign out then sign in again to try again.</translation>
-<translation id="1878302395768190018">You can customise this at any time in Brave Settings</translation>
+<translation id="8340964510643644301">You can customise this at any time in Brave Settings</translation>
 <translation id="1880905663253319515">Delete certificate "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="1886996562706621347">Allow sites to ask to become default handlers for protocols (recommended)</translation>
 <translation id="1887442540531652736">Sign-In Error</translation>
@@ -1443,7 +1443,7 @@
 <translation id="3143695347784622594">Send system data. Automatically send diagnostic and device and app usage data to Google. You can change this at any time in your device <ph name="BEGIN_LINK1" />settings<ph name="END_LINK1" />. If you turned on additional Web &amp; App Activity, this information will be stored with your account so that you can manage it in My Activity. <ph name="BEGIN_LINK2" />Learn More<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">DONE</translation>
 <translation id="3144647712221361880">Open link as</translation>
-<translation id="3149510190863420837">Brave Apps</translation>
+<translation id="300669147395456190">Brave Apps</translation>
 <translation id="3150927491400159470">Hard Reload</translation>
 <translation id="315116470104423982">Mobile data</translation>
 <translation id="3151539355209957474">Start Time</translation>
@@ -1520,7 +1520,7 @@
 <translation id="3280237271814976245">Save &amp;as...</translation>
 <translation id="3280243678470289153">Stay in Brave</translation>
 <translation id="3280431534455935878">Preparing</translation>
-<translation id="3282568296779691940">Sign in to Brave</translation>
+<translation id="82609232232243542">Sign in to Brave</translation>
 <translation id="3285322247471302225">New &amp;Tab</translation>
 <translation id="3288047731229977326">Extensions running in developer mode can harm your computer. If you're not a developer, you should disable these extensions running in developer mode to stay safe.</translation>
 <translation id="3289856944988573801">To check for updates, please use Ethernet or Wi-Fi.</translation>
@@ -2288,7 +2288,7 @@
 <translation id="4462159676511157176">Custom name servers</translation>
 <translation id="4467100756425880649">Brave Web Store Gallery</translation>
 <translation id="4467101674048705704">Expand <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">Help improve Brave's features and performance</translation>
+<translation id="918192811481327695">Help improve Brave's features and performance</translation>
 <translation id="4474155171896946103">Bookmark all tabs...</translation>
 <translation id="4475552974751346499">Search downloads</translation>
 <translation id="4476590490540813026">Athlete</translation>
@@ -2790,7 +2790,7 @@
 <translation id="5235750401727657667">Replace the page that you see when opening a new tab</translation>
 <translation id="5238278114306905396">The app "<ph name="EXTENSION_NAME" />" was automatically removed.</translation>
 <translation id="5238369540257804368">Scopes</translation>
-<translation id="5240817131241497236">The settings that control sync, personalisation and other Google services in Brave have changed. This may affect your current settings.</translation>
+<translation id="5088042060344584749">The settings that control sync, personalisation and other Google services in Brave have changed. This may affect your current settings.</translation>
 <translation id="5241128660650683457">Read all your data on the websites that you visit</translation>
 <translation id="5242724311594467048">Enable "<ph name="EXTENSION_NAME" />"?</translation>
 <translation id="5243522832766285132">Please try again in a few moments</translation>
@@ -4356,7 +4356,7 @@
 <translation id="7566118625369982896">Manage Play app links</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">Place your finger</translation>
-<translation id="756809126120519699">Cleared Brave data</translation>
+<translation id="7814200940910057384">Cleared Brave data</translation>
 <translation id="7568790562536448087">Updating</translation>
 <translation id="7571643774869182231">Not enough storage for update</translation>
 <translation id="7573172247376861652">Battery Charge</translation>
@@ -5243,7 +5243,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8899851313684471736">Open link in new &amp;window</translation>
 <translation id="8902667442496790482">Open Select to Speak settings</translation>
 <translation id="8903921497873541725">Zoom in</translation>
-<translation id="8904976895050290827">Brave Sync</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
 <translation id="8909833622202089127">Site is tracking your location</translation>
 <translation id="8910146161325739742">Share your screen</translation>
 <translation id="8910222113987937043">Changes to your bookmarks, history, passwords and other settings will no longer be synced to your Google account. However, your existing data will remain stored in your Google account and can be managed on <ph name="BEGIN_LINK" />Google Dashboard<ph name="END_LINK" />.</translation>

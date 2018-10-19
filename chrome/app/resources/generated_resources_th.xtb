@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">ปลั๊กอินถูกบล็อก</translation>
 <translation id="1145532888383813076">ค้นหาอุปกรณ์ แอป และเว็บ</translation>
 <translation id="1146204723345436916">นำเข้าบุ๊กมาร์กจากไฟล์ HTML...</translation>
-<translation id="114721135501989771">ใช้ฟีเจอร์เจ๋งๆ จาก Google ใน Brave</translation>
+<translation id="4755587405228414306">ใช้ฟีเจอร์เจ๋งๆ จาก Google ใน Brave</translation>
 <translation id="1148097584170732637">พบ <ph name="FILE_COUNT" />
     <ph name="LINE_BREAK1" />
     มีพื้นที่เก็บข้อมูลในเครื่องไม่พอ ต้องการอีก <ph name="FILE_SIZE" />
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">หยุดซิงค์ชั่วคราว</translation>
 <translation id="1319979322914001937">แอปที่แสดงรายการส่วนขยายที่ผ่านการกรองจากส่วนขยายของ Brave เว็บสโตร์ในรายการนี้สามารถติดตั้งได้โดยตรงจากแอปนี้</translation>
 <translation id="1322046419516468189">ดูและจัดการรหัสผ่านที่บันทึกไว้ได้ใน<ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">ลงชื่อเข้าใช้ Brave เพื่อรับแท็บจากอุปกรณ์เครื่องอื่นๆ ของคุณ</translation>
+<translation id="7253276740368043692">ลงชื่อเข้าใช้ Brave เพื่อรับแท็บจากอุปกรณ์เครื่องอื่นๆ ของคุณ</translation>
 <translation id="1327074568633507428">เครื่องพิมพ์บน Google Cloud Print</translation>
 <translation id="1327977588028644528">เกตเวย์</translation>
 <translation id="1329584516321524826">เพิ่งอัปเดตเมื่อครู่นี้</translation>
@@ -614,7 +614,7 @@
 <translation id="1875312262568496299">เริ่มต้น</translation>
 <translation id="1875387611427697908">ต้องเพิ่มจาก <ph name="CHROME_WEB_STORE" /> เท่านั้น</translation>
 <translation id="1877520246462554164">ไม่ได้รับโทเค็นการตรวจสอบสิทธิ์ โปรดออกจากระบบแล้วลงชื่อเข้าใช้อีกครั้งเพื่อลองอีกครั้ง</translation>
-<translation id="1878302395768190018">ปรับแต่งการตั้งค่านี้ได้ทุกเมื่อในการตั้งค่า Brave</translation>
+<translation id="8340964510643644301">ปรับแต่งการตั้งค่านี้ได้ทุกเมื่อในการตั้งค่า Brave</translation>
 <translation id="1880905663253319515">ลบใบรับรอง "<ph name="CERTIFICATE_NAME" />" หรือไม่</translation>
 <translation id="1886996562706621347">อนุญาตให้ไซต์แจ้งขอเป็นเครื่องจัดการเริ่มต้นสำหรับโปรโตคอล (แนะนำ)</translation>
 <translation id="1887442540531652736">ข้อผิดพลาดในการลงชื่อเข้าใช้</translation>
@@ -1444,7 +1444,7 @@
 <translation id="3143695347784622594">ส่งข้อมูลระบบ ส่งข้อมูลการวินิจฉัยและข้อมูลการใช้งานอุปกรณ์และแอปไปยัง Google โดยอัตโนมัติ คุณเปลี่ยนการตั้งค่านี้ได้ทุกเมื่อใน<ph name="BEGIN_LINK1" />การตั้งค่า<ph name="END_LINK1" />ของอุปกรณ์ หากคุณเปิดกิจกรรมบนเว็บและแอปเพิ่มเติม ระบบจะเก็บข้อมูลนี้ไว้กับบัญชีเพื่อให้คุณจัดการได้ในกิจกรรมของฉัน <ph name="BEGIN_LINK2" />ดูข้อมูลเพิ่มเติม<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">เสร็จสิ้น</translation>
 <translation id="3144647712221361880">เปิดลิงก์ในฐานะ</translation>
-<translation id="3149510190863420837">แอป Brave</translation>
+<translation id="300669147395456190">แอป Brave</translation>
 <translation id="3150927491400159470">โหลดซ้ำแบบดึงข้อมูลใหม่ทั้งหมด</translation>
 <translation id="315116470104423982">เน็ตมือถือ</translation>
 <translation id="3151539355209957474">เวลาเริ่มต้น</translation>
@@ -1521,7 +1521,7 @@
 <translation id="3280237271814976245">บันทึกใ&amp;ห้เป็น...</translation>
 <translation id="3280243678470289153">อยู่ภายใน Brave</translation>
 <translation id="3280431534455935878">กำลังเตรียม</translation>
-<translation id="3282568296779691940">ลงชื่อเข้าใช้ Brave</translation>
+<translation id="82609232232243542">ลงชื่อเข้าใช้ Brave</translation>
 <translation id="3285322247471302225">แ&amp;ท็บใหม่</translation>
 <translation id="3288047731229977326">ส่วนขยายที่ทำงานอยู่ในโหมดนักพัฒนาซอฟต์แวร์อาจเป็นอันตรายต่อคอมพิวเตอร์ของคุณ หากคุณไม่ใช่นักพัฒนาซอฟต์แวร์ คุณควรปิดส่วนขยายที่ทำงานอยู่ในโหมดนักพัฒนาซอฟต์แวร์เพื่อรักษาความปลอดภัย</translation>
 <translation id="3289856944988573801">ในการตรวจหาการอัปเดต โปรดใช้อีเทอร์เน็ตหรือ WiFi</translation>
@@ -2289,7 +2289,7 @@
 <translation id="4462159676511157176">เซิร์ฟเวอร์ชื่อที่กำหนดเอง</translation>
 <translation id="4467100756425880649">แกลเลอรี Brave เว็บสโตร์</translation>
 <translation id="4467101674048705704">ขยาย <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Brave</translation>
+<translation id="918192811481327695">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Brave</translation>
 <translation id="4474155171896946103">บุ๊กมาร์กแท็บทั้งหมด...</translation>
 <translation id="4475552974751346499">ค้นสิ่งที่ดาวน์โหลดไว้</translation>
 <translation id="4476590490540813026">นักกีฬา</translation>
@@ -2791,7 +2791,7 @@
 <translation id="5235750401727657667">แทนที่หน้าที่คุณจะเห็นเมื่อเปิดแท็บใหม่</translation>
 <translation id="5238278114306905396">แอปพลิเคชัน "<ph name="EXTENSION_NAME" />" ถูกลบโดยอัตโนมัติ</translation>
 <translation id="5238369540257804368">ขอบเขต</translation>
-<translation id="5240817131241497236">การตั้งค่าที่ควบคุมการซิงค์ การปรับเปลี่ยนในแบบของคุณ และบริการอื่นๆ ของ Google ใน Brave มีการเปลี่ยนแปลง ซึ่งอาจส่งผลต่อการตั้งค่าปัจจุบันของคุณ</translation>
+<translation id="5088042060344584749">การตั้งค่าที่ควบคุมการซิงค์ การปรับเปลี่ยนในแบบของคุณ และบริการอื่นๆ ของ Google ใน Brave มีการเปลี่ยนแปลง ซึ่งอาจส่งผลต่อการตั้งค่าปัจจุบันของคุณ</translation>
 <translation id="5241128660650683457">อ่านข้อมูลทั้งหมดของคุณบนเว็บไซต์ที่คุณเข้าชม</translation>
 <translation id="5242724311594467048">เปิดใช้งาน "<ph name="EXTENSION_NAME" />" ไหม</translation>
 <translation id="5243522832766285132">โปรดลองอีกครั้งในอีกสักครู่</translation>
@@ -4357,7 +4357,7 @@
 <translation id="7566118625369982896">จัดการลิงก์ของแอป Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">วางนิ้ว</translation>
-<translation id="756809126120519699">ล้างข้อมูล Brave แล้ว</translation>
+<translation id="7814200940910057384">ล้างข้อมูล Brave แล้ว</translation>
 <translation id="7568790562536448087">การอัปเดต</translation>
 <translation id="7571643774869182231">มีพื้นที่เก็บข้อมูลไม่เพียงพอสำหรับอัปเดต</translation>
 <translation id="7573172247376861652">ชาร์จแบตเตอรี่</translation>
@@ -5244,7 +5244,7 @@
 <translation id="8899851313684471736">เปิดลิงก์ใน&amp;หน้าต่างใหม่</translation>
 <translation id="8902667442496790482">เปิดการตั้งค่าการเลือกเพื่อให้อ่าน</translation>
 <translation id="8903921497873541725">ขยาย</translation>
-<translation id="8904976895050290827">การทำข้อมูลให้ตรงกันของ Brave</translation>
+<translation id="3149880132460839085">การทำข้อมูลให้ตรงกันของ Brave</translation>
 <translation id="8909833622202089127">เว็บไซต์กำลังติดตามตำแหน่งของคุณ</translation>
 <translation id="8910146161325739742">แชร์หน้าจอของคุณ</translation>
 <translation id="8910222113987937043">การเปลี่ยนแปลงในบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะไม่ซิงค์กับบัญชี Google อีกต่อไป แต่ข้อมูลที่มีอยู่จะยังจัดเก็บไว้ในบัญชี Google และสามารถจัดการได้ใน<ph name="BEGIN_LINK" />แดชบอร์ด Google<ph name="END_LINK" /></translation>

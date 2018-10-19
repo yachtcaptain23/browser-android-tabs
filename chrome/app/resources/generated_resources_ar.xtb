@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">تم حظر المكوّن الإضافي</translation>
 <translation id="1145532888383813076">البحث في جهازك والتطبيقات والويب.</translation>
 <translation id="1146204723345436916">‏استيراد الإشارات المرجعية من ملف HTML...</translation>
-<translation id="114721135501989771">‏الحصول على ميزات Google الذكية في Brave</translation>
+<translation id="4755587405228414306">‏الحصول على ميزات Google الذكية في Brave</translation>
 <translation id="1148097584170732637">تم العثور على <ph name="FILE_COUNT" />.
     <ph name="LINE_BREAK1" />
     لا توجد مساحة كافية في سعة التخزين المحلية. ويتطلب وجود <ph name="FILE_SIZE" /> إضافي.
@@ -230,7 +230,7 @@
 <translation id="1316495628809031177">تم إيقاف المزامنة مؤقتًا</translation>
 <translation id="1319979322914001937">‏أحد التطبيقات التي تعرض قائمة مُفلترة بالإضافات من سوق Brave الإلكتروني. يمكن تثبيت الإضافات الموجودة في القائمة من التطبيق مباشرةً.</translation>
 <translation id="1322046419516468189">عرض كلمات المرور المحفوظة وإدارتها في <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">‏للحصول على علامات التبويب من أجهزتك الأخرى، سجّل الدخول إلى Brave.</translation>
+<translation id="7253276740368043692">‏للحصول على علامات التبويب من أجهزتك الأخرى، سجّل الدخول إلى Brave.</translation>
 <translation id="1327074568633507428">‏طابعة مسجلة في الطباعة السحابية من Google</translation>
 <translation id="1327977588028644528">المدخل</translation>
 <translation id="1329584516321524826">تم التحديث الآن</translation>
@@ -614,7 +614,7 @@
 <translation id="1875312262568496299">البدء</translation>
 <translation id="1875387611427697908">لا يمكن إضافة ذلك إلا من <ph name="CHROME_WEB_STORE" />.</translation>
 <translation id="1877520246462554164">تعذّر الحصول على الرمز المميز للمصادقة. يُرجى الخروج ثم تسجيل الدخول مرّة أخرى لإعادة المحاولة.</translation>
-<translation id="1878302395768190018">‏يمكنك تخصيص هذا في أي وقت في إعدادات Brave.</translation>
+<translation id="8340964510643644301">‏يمكنك تخصيص هذا في أي وقت في إعدادات Brave.</translation>
 <translation id="1880905663253319515">هل تريد حذف الشهادة "<ph name="CERTIFICATE_NAME" />"؟</translation>
 <translation id="1886996562706621347">السماح للمواقع بأن تطلب أن تصبح معالجات تلقائية للبروتوكولات (مستحسن)</translation>
 <translation id="1887442540531652736">خطأ في تسجيل الدخول</translation>
@@ -1443,7 +1443,7 @@
 <translation id="3143695347784622594">‏إرسال بيانات النظام. يمكنك إرسال بيانات التشخيص وبيانات استخدام التطبيق والجهاز تلقائيًا إلى Google. ويمكنك تغيير ذلك في أي وقت في <ph name="BEGIN_LINK1" />إعدادات<ph name="END_LINK1" /> جهازك. في حال تفعيل "نشاط ويب وتطبيقات" إضافي، سيتم حفظ هذه المعلومات مع حسابك حتى تتمكَّن من إدارتها في "نشاطي". <ph name="BEGIN_LINK2" />مزيد من المعلومات<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">تم</translation>
 <translation id="3144647712221361880">فتح الرابط كـ</translation>
-<translation id="3149510190863420837">‏تطبيقات Brave</translation>
+<translation id="300669147395456190">‏تطبيقات Brave</translation>
 <translation id="3150927491400159470">إعادة تحميل بشكل كامل</translation>
 <translation id="315116470104423982">بيانات الجوال</translation>
 <translation id="3151539355209957474">وقت البدء</translation>
@@ -1520,7 +1520,7 @@
 <translation id="3280237271814976245">الحفظ &amp;باسم...</translation>
 <translation id="3280243678470289153">‏الاستمرار في استخدام Brave</translation>
 <translation id="3280431534455935878">جارٍ التحضير</translation>
-<translation id="3282568296779691940">‏تسجيل الدخول إلى Brave</translation>
+<translation id="82609232232243542">‏تسجيل الدخول إلى Brave</translation>
 <translation id="3285322247471302225">&amp;علامة تبويب جديدة</translation>
 <translation id="3288047731229977326">يمكن أن تؤدي الإضافات التي تعمل في وضع مطور البرامج إلى إلحاق الضرر بجهاز الكمبيوتر. إذا لم تكن مطور برامج، فيجب إيقاف هذه الإضافات التي تعمل في وضع مطور البرامج للبقاء في أمان.</translation>
 <translation id="3289856944988573801">‏للتحقق من وجود تحديثات، يُرجى استخدام شبكة Ethernet أو Wi-Fi.</translation>
@@ -2284,7 +2284,7 @@
 <translation id="4462159676511157176">خوادم أسماء مخصصة</translation>
 <translation id="4467100756425880649">‏معرض سوق Brave الإلكتروني</translation>
 <translation id="4467101674048705704">توسيع <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">‏المساعدة في تحسين ميزات Brave وأدائه</translation>
+<translation id="918192811481327695">‏المساعدة في تحسين ميزات Brave وأدائه</translation>
 <translation id="4474155171896946103">وضع إشارات على كل علامات التبويب...</translation>
 <translation id="4475552974751346499">البحث في التنزيلات</translation>
 <translation id="4476590490540813026">رياضي</translation>
@@ -2785,7 +2785,7 @@
 <translation id="5235750401727657667">استبدال الصفحة التي تشاهدها عند فتح علامة تبويب جديدة</translation>
 <translation id="5238278114306905396">تمت إزالة التطبيق "<ph name="EXTENSION_NAME" />" تلقائيًا.</translation>
 <translation id="5238369540257804368">النطاقات</translation>
-<translation id="5240817131241497236">‏تم تغيير الإعدادات التي تتحكَّم في المزامنة والتخصيص وخدمات Google الأخرى في Brave. قد تطال هذه التغييرات إعداداتك الحالية.</translation>
+<translation id="5088042060344584749">‏تم تغيير الإعدادات التي تتحكَّم في المزامنة والتخصيص وخدمات Google الأخرى في Brave. قد تطال هذه التغييرات إعداداتك الحالية.</translation>
 <translation id="5241128660650683457">مراجعة كل بياناتك على مواقع الويب التي تزورها</translation>
 <translation id="5242724311594467048">تفعيل "<ph name="EXTENSION_NAME" />"؟</translation>
 <translation id="5243522832766285132">يُرجى إعادة المحاولة بعد بضع لحظات</translation>
@@ -4353,7 +4353,7 @@
 <translation id="7566118625369982896">‏إدارة روابط تطبيق Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">مكان وضع إصبعك</translation>
-<translation id="756809126120519699">‏بيانات Brave التي تم محوها</translation>
+<translation id="7814200940910057384">‏بيانات Brave التي تم محوها</translation>
 <translation id="7568790562536448087">تحديث</translation>
 <translation id="7571643774869182231">لا تتوفر سعة تخزين كافية لإجراء التحديث</translation>
 <translation id="7573172247376861652">شحن البطارية</translation>
@@ -5240,7 +5240,7 @@
 <translation id="8899851313684471736">&amp;فتح الرّابط في نافذة جديدة</translation>
 <translation id="8902667442496790482">فتح إعدادات الاختيار والاستماع</translation>
 <translation id="8903921497873541725">تكبير</translation>
-<translation id="8904976895050290827">‏مزامنة Brave</translation>
+<translation id="3149880132460839085">‏مزامنة Brave</translation>
 <translation id="8909833622202089127">تتبّع موقع الويب موقعك الجغرافي.</translation>
 <translation id="8910146161325739742">مشاركة الشاشة</translation>
 <translation id="8910222113987937043">‏لن تتم مزامنة التغييرات التي تطرأ على الإشارات المرجعية والسجل وكلمات المرور والإعدادات الأخرى مع حسابك في Google بعد الآن. ومع ذلك، ستظل بياناتك الحالية مخزنة في حسابك على Google ويمكن إدارتها في <ph name="BEGIN_LINK" />لوحة تحكم Google<ph name="END_LINK" />.</translation>
