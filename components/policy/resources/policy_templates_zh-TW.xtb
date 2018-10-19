@@ -363,7 +363,7 @@
 <translation id="2073552873076775140">允許登入 <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">在可用時使用硬體加速</translation>
 <translation id="2077273864382355561">在電池供電環境下執行時的螢幕關閉延遲時間</translation>
-<translation id="2082205219176343977">設定裝置的最低 Chrome 版本限制。</translation>
+<translation id="2082205219176343977">設定裝置的最低 Brave 版本限制。</translation>
 <translation id="209586405398070749">穩定版</translation>
 <translation id="2098658257603918882">啟用使用量和當機相關資料的報告功能</translation>
 <translation id="2111016292707172233">在 <ph name="PRODUCT_NAME" /> 的內容畫面中啟用「輕觸搜尋」功能。
@@ -451,7 +451,7 @@
 <translation id="2236488539271255289">不允許任何網站設定本機資料</translation>
 <translation id="2240879329269430151">允許你設定是否要讓網站顯示彈出式視窗。你可以允許或禁止所有網站顯示彈出式視窗。如果未設定這項政策，系統會使用「BlockPopups」，不過使用者可以變更設定。</translation>
 <translation id="2269319728625047531">在登入期間允許顯示同步處理同意聲明</translation>
-<translation id="2274864612594831715">這項政策可設定在 Chrome 作業系統中啟用虛擬鍵盤做為輸入裝置。使用者無法覆寫這項政策。
+<translation id="2274864612594831715">這項政策可設定在 Brave 作業系統中啟用虛擬鍵盤做為輸入裝置。使用者無法覆寫這項政策。
 
       如果你將這項政策設為 True，虛擬螢幕小鍵盤會持續啟用。
 
@@ -479,13 +479,13 @@
 
           這項政策比可能發生衝突的 <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" /> 政策具備更高的優先順序。如果從清單中移除先前強制安裝的應用程式或擴充功能，<ph name="PRODUCT_NAME" /> 會自動解除安裝該應用程式/擴充功能。
 
-          如果 Windows 執行個體未加入 <ph name="MS_AD_NAME" /> 網域，系統只能強制安裝 Chrome 線上應用程式商店中的應用程式和擴充功能。
+          如果 Windows 執行個體未加入 <ph name="MS_AD_NAME" /> 網域，系統只能強制安裝 Brave 線上應用程式商店中的應用程式和擴充功能。
 
           請注意，所有擴充功能的原始碼都可以使用開發人員工具變更 (可能會造成擴充功能無法正常運作)。如果你對此有所顧慮，建議你設定 <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> 政策。
 
-          這項政策的每個清單項目都是一條字串，其中包含以分號 (<ph name="SEMICOLON" />) 分隔的一個擴充功能 ID，和一個可自行選擇是否要指定的「更新」網址。擴充功能 ID 為 32 個字母的字串。如需查看範例，請在開發人員模式下前往 <ph name="CHROME_EXTENSIONS_LINK" />。「更新」網址 (如果有指定) 應指向更新資訊清單 XML 文件 (如 <ph name="LINK_TO_EXTENSION_DOC1" /> 所述)。根據預設，系統會使用 Chrome 線上應用程式商店的更新網址 (目前為此網址為「https://clients2.google.com/service/update2/crx」)。請注意，這項政策中設定的「更新」網址僅適用於初次安裝，後續的擴充功能更新將會使用擴充功能資訊清單中指定的更新網址。另請注意，在 67 以下版本的 <ph name="PRODUCT_NAME" /> 中，你一定要明確指定「更新」網址。
+          這項政策的每個清單項目都是一條字串，其中包含以分號 (<ph name="SEMICOLON" />) 分隔的一個擴充功能 ID，和一個可自行選擇是否要指定的「更新」網址。擴充功能 ID 為 32 個字母的字串。如需查看範例，請在開發人員模式下前往 <ph name="CHROME_EXTENSIONS_LINK" />。「更新」網址 (如果有指定) 應指向更新資訊清單 XML 文件 (如 <ph name="LINK_TO_EXTENSION_DOC1" /> 所述)。根據預設，系統會使用 Brave 線上應用程式商店的更新網址 (目前為此網址為「https://clients2.google.com/service/update2/crx」)。請注意，這項政策中設定的「更新」網址僅適用於初次安裝，後續的擴充功能更新將會使用擴充功能資訊清單中指定的更新網址。另請注意，在 67 以下版本的 <ph name="PRODUCT_NAME" /> 中，你一定要明確指定「更新」網址。
 
-          舉例來說，<ph name="EXTENSION_POLICY_EXAMPLE" /> 會透過標準 Chrome 線上應用程式商店「更新」網址安裝「<ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />」應用程式。如需進一步瞭解如何代管擴充功能，請參閱 <ph name="LINK_TO_EXTENSION_DOC2" />。
+          舉例來說，<ph name="EXTENSION_POLICY_EXAMPLE" /> 會透過標準 Brave 線上應用程式商店「更新」網址安裝「<ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />」應用程式。如需進一步瞭解如何代管擴充功能，請參閱 <ph name="LINK_TO_EXTENSION_DOC2" />。
 
           如果未設定這項政策，則不會自動安裝任何應用程式或擴充功能，且使用者可以在 <ph name="PRODUCT_NAME" /> 中解除安裝任何應用程式或擴充功能。</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> 可以透過 Google 網路服務來解決拼字錯誤。如果你啟用這項設定，系統就會一律使用這項服務；如果你停用這項設定，則系統將絕不使用這項服務。
@@ -660,7 +660,7 @@
 <translation id="268577405881275241">啟用資料壓縮 Proxy 功能</translation>
 <translation id="2693108589792503178">設定變更密碼網址。</translation>
 <translation id="2731627323327011390">禁止 ARC 應用程式使用「<ph name="PRODUCT_OS_NAME" />」憑證</translation>
-<translation id="2742843273354638707">在新分頁和 <ph name="PRODUCT_OS_NAME" />應用程式啟動畫面中隱藏 Chrome 線上應用程式商店和底端連結。
+<translation id="2742843273354638707">在新分頁和 <ph name="PRODUCT_OS_NAME" />應用程式啟動畫面中隱藏 Brave 線上應用程式商店和底端連結。
 
       如果將這項政策設為 True，系統會隱藏圖示。
 
@@ -690,7 +690,7 @@
 <translation id="2799297758492717491">允許符合網址模式許可清單的網頁自動播放媒體</translation>
 <translation id="2801230735743888564">允許使用者在裝置處於離線狀態時玩恐龍復活節彩蛋遊戲。
 
-      如果將這項政策設為 False，使用者將無法在裝置處於離線狀態時玩恐龍復活節彩蛋遊戲。如果將這項政策設為 True，使用者就可以玩這個遊戲。如果未設定這項政策，使用者將無法在已註冊的 Chrome 作業系統中玩恐龍復活節彩蛋遊戲，但可以在其他環境下玩這個遊戲。</translation>
+      如果將這項政策設為 False，使用者將無法在裝置處於離線狀態時玩恐龍復活節彩蛋遊戲。如果將這項政策設為 True，使用者就可以玩這個遊戲。如果未設定這項政策，使用者將無法在已註冊的 Brave 作業系統中玩恐龍復活節彩蛋遊戲，但可以在其他環境下玩這個遊戲。</translation>
 <translation id="2802085784857530815">讓你控制使用者是否可存取非企業印表機
 
       如果將這項政策設為 True 或未予設定，使用者可以自行新增及設定自己的原生印表機，也可以使用這類印表機列印。
@@ -777,7 +777,7 @@
 <translation id="3034580675120919256">允許你設定是否要讓網站執行 JavaScript。你可以允許或禁止所有網站執行 JavaScript。如果未設定這項政策，系統會使用「AllowJavaScript」，不過使用者可以變更設定。</translation>
 <translation id="3038323923255997294">在 <ph name="PRODUCT_NAME" /> 關閉時繼續執行背景應用程式 </translation>
 <translation id="3046192273793919231">將監控線上狀態所需的網路封包傳送到管理伺服器</translation>
-<translation id="3047732214002457234">控制 Chrome 清理功能回報資料給 Google 的方式</translation>
+<translation id="3047732214002457234">控制 Brave 清理功能回報資料給 Google 的方式</translation>
 <translation id="3048744057455266684">如果你設定這項政策，且網址列所建議的搜尋網址在查詢字串或片段識別碼中含有這項 參數，則搜尋建議會顯示搜尋字詞和搜尋引擎供應商，而不是顯示原始的搜尋網址。
 
           這個政策為選擇性，如果你並未設定這項政策，系統就不會取代任何搜尋字詞。
@@ -1091,13 +1091,13 @@
       如果不設定這項政策，<ph name="PRODUCT_NAME" /> 將使用一般的預設目錄 (依平台區分)。
 
       如需可使用的變數清單，請參閱 https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables。</translation>
-<translation id="3904459740090265495">這項政策可控制瀏覽器的登入行為。你可以指定使用者是否能用個人帳戶登入 <ph name="PRODUCT_NAME" /> 並使用帳戶相關服務 (例如 Chrome 同步功能)。
+<translation id="3904459740090265495">這項政策可控制瀏覽器的登入行為。你可以指定使用者是否能用個人帳戶登入 <ph name="PRODUCT_NAME" /> 並使用帳戶相關服務 (例如 Brave 同步功能)。
 
-      如果將這項政策設為「禁止登入瀏覽器」，使用者便無法登入瀏覽器及使用帳戶提供的服務。在這種情況下，瀏覽器層級的功能 (例如 Chrome 同步功能) 是無法使用的。將這項政策設為「禁止登入瀏覽器」之後，原先已登入瀏覽器的使用者會在下次執行 Chrome 時被登出，不過，他們的本機設定檔資料 (例如書籤、密碼等) 仍會保留在裝置上。使用者仍然可以登入並使用 Gmail 之類的 Google 網路服務。
+      如果將這項政策設為「禁止登入瀏覽器」，使用者便無法登入瀏覽器及使用帳戶提供的服務。在這種情況下，瀏覽器層級的功能 (例如 Brave 同步功能) 是無法使用的。將這項政策設為「禁止登入瀏覽器」之後，原先已登入瀏覽器的使用者會在下次執行 Brave 時被登出，不過，他們的本機設定檔資料 (例如書籤、密碼等) 仍會保留在裝置上。使用者仍然可以登入並使用 Gmail 之類的 Google 網路服務。
 
-      如果將這項政策設為「允許登入瀏覽器」，使用者便能登入瀏覽器，而且當他們登入 Gmail 之類的 Google 網路服務時，也會自動登入瀏覽器。在登入瀏覽器的狀態下，瀏覽器會保留使用者的帳戶資料。不過，Chrome 同步功能不會預設開啟，使用者必須另外選擇啟用這項功能。啟用這項政策後，使用者將無法關閉允許登入瀏覽器的設定。如要管理能否使用 Chrome 同步功能，請使用「SyncDisabled」政策。
+      如果將這項政策設為「允許登入瀏覽器」，使用者便能登入瀏覽器，而且當他們登入 Gmail 之類的 Google 網路服務時，也會自動登入瀏覽器。在登入瀏覽器的狀態下，瀏覽器會保留使用者的帳戶資料。不過，Chrome 同步功能不會預設開啟，使用者必須另外選擇啟用這項功能。啟用這項政策後，使用者將無法關閉允許登入瀏覽器的設定。如要管理能否使用 Brave 同步功能，請使用「SyncDisabled」政策。
 
-      如果將這項政策設為「強制登入瀏覽器」，使用者便會看到帳戶選項對話方塊，而且必須選擇要登入哪個帳戶使用瀏覽器。這樣可確保系統在所有受管理的帳戶中套用並強制執行相關政策。根據預設，這會開啟帳戶的 Chrome 同步功能 (除非網域管理員已停用同步功能，或是另外設定了「SyncDisabled」政策)。BrowserGuestModeEnabled 的預設值將設為 False。請注意，啟用這項政策後，未經簽署的現有設定檔會遭到鎖定，無法再使用。詳情請參閱說明中心文章：https://support.google.com/chrome/a/answer/7572556.
+      如果將這項政策設為「強制登入瀏覽器」，使用者便會看到帳戶選項對話方塊，而且必須選擇要登入哪個帳戶使用瀏覽器。這樣可確保系統在所有受管理的帳戶中套用並強制執行相關政策。根據預設，這會開啟帳戶的 Brave 同步功能 (除非網域管理員已停用同步功能，或是另外設定了「SyncDisabled」政策)。BrowserGuestModeEnabled 的預設值將設為 False。請注意，啟用這項政策後，未經簽署的現有設定檔會遭到鎖定，無法再使用。詳情請參閱說明中心文章：https://support.google.com/chrome/a/answer/7572556.
 
       如果未設定這項政策，使用者則可以決定是否要啟用瀏覽器登入選項，並視情況使用。</translation>
 <translation id="3907986150060929099">為公開工作階段設定建議的語言代碼</translation>
@@ -1120,9 +1120,9 @@
 <translation id="3973371701361892765">永不自動隱藏檔案櫃</translation>
 <translation id="3984028218719007910">決定登出後 <ph name="PRODUCT_OS_NAME" /> 是否要保留本機帳戶資料。如果設為 True，<ph name="PRODUCT_OS_NAME" /> 不會保留任何永久帳戶，並且在登出後會刪除使用者工作階段的所有資料。如果這項政策設為 False 或未設定，裝置會保留 (加密) 本機使用者資料。</translation>
 <translation id="3997519162482760140">可在 SAML 登入網頁取得錄影裝置存取權的網址</translation>
-<translation id="4001275826058808087">企業裝置的 IT 管理員可使用這個標記來控制是否允許使用者透過註冊 Chrome 作業系統來兌換優惠。
+<translation id="4001275826058808087">企業裝置的 IT 管理員可使用這個標記來控制是否允許使用者透過註冊 Brave 作業系統來兌換優惠。
 
-      如果將這項政策設為 True 或未設定這項政策，使用者將可透過註冊 Chrome 作業系統來兌換優惠。
+      如果將這項政策設為 True 或未設定這項政策，使用者將可透過註冊 Brave 作業系統來兌換優惠。
 
       如果將這項政策設為 False，使用者將無法兌換優惠。</translation>
 <translation id="4010738624545340900">允許調用檔案選項對話方塊</translation>
@@ -1186,7 +1186,7 @@
 
       指定政策值時需以秒為單位，並且必須大於 3600 (1 小時)。</translation>
 <translation id="4203879074082863035">僅對使用者顯示許可清單中的印表機</translation>
-<translation id="420512303455129789">將網址對應至布林值標記的字典，以指定 Chrome 是否能存取主機。允許值為 True，封鎖值為 False。
+<translation id="420512303455129789">將網址對應至布林值標記的字典，以指定 Brave 是否能存取主機。允許值為 True，封鎖值為 False。
 
           這項政策僅供 <ph name="PRODUCT_NAME" /> 內部使用。</translation>
 <translation id="4224610387358583899">螢幕鎖定延遲</translation>
@@ -1220,7 +1220,7 @@
 <translation id="4298509794364745131">指定可在「<ph name="PRODUCT_OS_NAME" />」螢幕鎖定畫面中做為筆記應用程式使用的應用程式清單。
 
       如果你偏好的筆記應用程式可在螢幕鎖定畫面中啟用，螢幕鎖定畫面就會顯示使用者介面元素，供你啟動該應用程式。
-      啟動後，應用程式將可在螢幕鎖定畫面上方建立應用程式視窗，並在螢幕鎖定的狀態下建立資料項目 (記事)。主要使用者工作階段解鎖後，應用程式可以將建立的記事匯入主要使用者工作階段。目前只有 Chrome 筆記應用程式可在螢幕鎖定畫面中使用。
+      啟動後，應用程式將可在螢幕鎖定畫面上方建立應用程式視窗，並在螢幕鎖定的狀態下建立資料項目 (記事)。主要使用者工作階段解鎖後，應用程式可以將建立的記事匯入主要使用者工作階段。目前只有 Brave 筆記應用程式可在螢幕鎖定畫面中使用。
 
       設定政策後，使用者如要在螢幕鎖定畫面中啟用某個應用程式，該應用程式的擴充功能 ID 必須包含在政策清單值內才能啟用。
       因此，將這項政策設定為空白清單時，系統會完全停用螢幕鎖定畫面的筆記功能。
@@ -1325,7 +1325,7 @@
 <translation id="4567137030726189378">允許使用開發人員工具</translation>
 <translation id="4600786265870346112">啟用大型游標</translation>
 <translation id="4604931264910482931">設定內建訊息傳遞黑名單</translation>
-<translation id="4613508646038788144">如果將這項政策設為 false，第三方軟體將可在 Chrome 的處理程序中置入可執行的程式碼。如果將這項政策設為 true 或不予設定，第三方軟體將無法在 Chrome 的處理程序中置入可執行的程式碼。</translation>
+<translation id="4613508646038788144">如果將這項政策設為 false，第三方軟體將可在 Brave 的處理程序中置入可執行的程式碼。如果將這項政策設為 true 或不予設定，第三方軟體將無法在 Brave 的處理程序中置入可執行的程式碼。</translation>
 <translation id="4617338332148204752">在 <ph name="PRODUCT_FRAME_NAME" /> 內略過中繼標記檢查</translation>
 <translation id="4625915093043961294">設定擴充功能安裝許可清單</translation>
 <translation id="4632343302005518762">允許 <ph name="PRODUCT_FRAME_NAME" /> 處理下列內容類型</translation>
@@ -1534,7 +1534,7 @@
           如果黑名單的值指定為 '*'，表示將所有內建訊息傳遞主機列入黑名單 (許可清單中明確列出者除外)。
 
           如果未設定這項政策，<ph name="PRODUCT_NAME" /> 將會載入所有已安裝的內建訊息傳遞主機。</translation>
-<translation id="5272684451155669299">如果設為 true，使用者就可以使用 Chrome 裝置上的硬體，從遠端透過 <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> (使用 <ph name="CHALLENGE_USER_KEY_FUNCTION" />) 向隱私權 CA 證明身分。
+<translation id="5272684451155669299">如果設為 true，使用者就可以使用 Brave 裝置上的硬體，從遠端透過 <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> (使用 <ph name="CHALLENGE_USER_KEY_FUNCTION" />) 向隱私權 CA 證明身分。
 
           如果設為 false 或未設定，API 呼叫作業將會失敗，並傳回錯誤代碼。</translation>
 <translation id="5277806246014825877">允許這位使用者執行 Crostini。
@@ -1559,7 +1559,7 @@
 <translation id="5318185076587284965">啟用遠端存取主機所使用的轉送伺服器</translation>
 <translation id="5323128137188992869">允許透過「<ph name="PRODUCT_NAME" />」將內容投放至裝置。
 
-          如果這項政策設為 False，使用者就無法將內容投放至自己的裝置。如果這項政策設為 True，則使用者可投放內容。如果未設定這項政策，使用者就無法將內容投放至已註冊的 Chrome 作業系統裝置，但可投放至未註冊的裝置。</translation>
+          如果這項政策設為 False，使用者就無法將內容投放至自己的裝置。如果這項政策設為 True，則使用者可投放內容。如果未設定這項政策，使用者就無法將內容投放至已註冊的 Brave 作業系統裝置，但可投放至未註冊的裝置。</translation>
 <translation id="5330684698007383292">允許 <ph name="PRODUCT_FRAME_NAME" /> 處理列出的內容類型</translation>
 <translation id="5365946944967967336">在工具列上顯示 [首頁] 按鈕</translation>
 <translation id="5366745336748853475">允許以清單列出網址模式，指定要在 SAML 流程代管架構的登入畫面自動選取用戶端憑證的網站 (如果網站要求憑證的話)。實際應用範例為設定要提供給 SAML IdP 的裝置通用憑證。
@@ -1655,7 +1655,7 @@
       請注意，這項設定可能會允許略過 nameConstraints 延伸 (用於限制指定的憑證可授權的主機名稱)，因此不建議啟用。
 
       如果未設定這項政策，或是將這項政策設為 false，含有 DNS 名稱或 IP 位址但缺少 subjectAlternativeName 延伸的伺服器憑證將不會受到信任。</translation>
-<translation id="5581292529942108810">設定 Chrome 資訊回報擴充功能相關政策。
+<translation id="5581292529942108810">設定 Brave 資訊回報擴充功能相關政策。
 
       只有在已啟用 <ph name="CHROME_REPORTING_EXTENSION_NAME" /> 且已透過 <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" /> 註冊電腦的情況下，這項政策才會有作用。</translation>
 <translation id="5584132346604748282">控制 Android Google 定位服務</translation>
@@ -1757,7 +1757,7 @@
           如果你設定了這項政策，使用者可以暫時覆寫這項政策，只要啟用或停用大型游標即可。但使用者的選擇並非永久性，只要系統再次顯示登入畫面或使用者在登入畫面閒置了一段時間，系統就會還原預設值。
 
           如果你未設定這項政策，則系統會在初次顯示登入畫面時停用大型游標。使用者隨時都可以啟用或停用大型游標，而大型游標在登入畫面的狀態則視使用者的選擇而定 (均為永久性)。</translation>
-<translation id="5929855945144989709">允許裝置在 Chrome 作業系統上執行虛擬機器</translation>
+<translation id="5929855945144989709">允許裝置在 Brave 作業系統上執行虛擬機器</translation>
 <translation id="5932767795525445337">這項政策也可用於固定 Android 應用程式。</translation>
 <translation id="5936622343001856595">強制啟用安全搜尋服務，處理 Google 網頁搜尋中的查詢，並且防止使用者變更這項設定。
 
@@ -1923,7 +1923,7 @@
           如果選擇自動偵測 Proxy 伺服器，系統會提供指令碼網址「http://wpad/wpad.dat」給 Android 應用程式 (不會使用 Proxy 自動偵測通訊協定的其他部分)。
 
           如果選擇 .pac Proxy 指令碼，系統會提供該指令碼網址給 Android 應用程式。</translation>
-<translation id="6430366557948788869">Chrome 資訊回報擴充功能</translation>
+<translation id="6430366557948788869">Brave 資訊回報擴充功能</translation>
 <translation id="6440051664870270040">允許同時在多個網站中進行瀏覽及開啟彈出式視窗</translation>
 <translation id="6447948611083700881">備份與還原功能已停用</translation>
 <translation id="645425387487868471">啟用 <ph name="PRODUCT_NAME" /> 的強制登入功能</translation>
@@ -2006,7 +2006,7 @@
 
       <ph name="SYNC_DISABLED_POLICY_NAME" /> 政策會停用所有資料同步處理功能，並覆寫 RoamingProfileSupportEnabled。</translation>
 <translation id="6731757988219967594">針對成人內容篩選頂層網站 (但不篩選嵌入的 iframe)</translation>
-<translation id="6734521799274931721">控管是否允許在 Chrome 作業系統使用網路檔案共用功能</translation>
+<translation id="6734521799274931721">控管是否允許在 Brave 作業系統使用網路檔案共用功能</translation>
 <translation id="6735701345096330595">強制執行拼字檢查的語言</translation>
 <translation id="673699536430961464">如果啟用這項設定，使用者在登入 <ph name="PRODUCT_OS_NAME" />裝置後，將可在瀏覽器視窗的內容區域中切換 Google 帳戶。
 
@@ -2193,9 +2193,9 @@
 
       如果將這項政策設為 False 或不予設定，<ph name="PRODUCT_NAME" /> 就可能不會收集或上傳這類記錄。
 
-      這些記錄包含有助於偵錯 Chrome 語音或視訊通話問題的診斷資訊，例如收發 RTP 封包的時間和大小、網路壅塞情形回報、關於語音及視訊畫格的時間和品質等中繼資料，但不包含通話的語音和視訊內容。
+      這些記錄包含有助於偵錯 Brave 語音或視訊通話問題的診斷資訊，例如收發 RTP 封包的時間和大小、網路壅塞情形回報、關於語音及視訊畫格的時間和品質等中繼資料，但不包含通話的語音和視訊內容。
 
-      Chrome 這項資料收集作業只能由 Google 的網路服務觸發，例如 Google Hangouts 或 Google Meet。
+      Brave 這項資料收集作業只能由 Google 的網路服務觸發，例如 Google Hangouts 或 Google Meet。
 
       Google 可能會依照工作階段 ID 將這些記錄和 Google 服務本身收集的其他記錄建立關聯，目的是簡化偵錯作業。
       </translation>
@@ -2270,11 +2270,11 @@
 
           如果你未設定這項政策，則系統會在初次顯示登入畫面時停用螢幕放大鏡。使用者隨時都可以啟用或停用螢幕放大鏡，而螢幕放大鏡在登入畫面的狀態則視使用者的選擇而定 (均為永久性)。</translation>
 <translation id="7249828445670652637">允許 ARC 應用程式使用「<ph name="PRODUCT_OS_NAME" />」CA 憑證</translation>
-<translation id="725322441686394886">如果未設定這項政策，當 Chrome 清理功能偵測到垃圾軟體時，可能會根據 SafeBrowsingExtendedReportingEnabled 設定的政策，將掃描作業的相關中繼資料回報給 Google。回報完畢後，Chrome 清理功能會詢問使用者是否要將偵測到的垃圾軟體清除。使用者可以選擇將清理作業的執行結果分享給 Google，讓日後的垃圾軟體偵測作業更精確。分享的結果包括檔案中繼資料、自動安裝的擴充功能和登錄機碼，詳情請見《Chrome 隱私權白皮書》。
+<translation id="725322441686394886">如果未設定這項政策，當 Brave 清理功能偵測到垃圾軟體時，可能會根據 SafeBrowsingExtendedReportingEnabled 設定的政策，將掃描作業的相關中繼資料回報給 Google。回報完畢後，Chrome 清理功能會詢問使用者是否要將偵測到的垃圾軟體清除。使用者可以選擇將清理作業的執行結果分享給 Google，讓日後的垃圾軟體偵測作業更精確。分享的結果包括檔案中繼資料、自動安裝的擴充功能和登錄機碼，詳情請見《Chrome 隱私權白皮書》。
 
-      如果停用這項政策，當 Chrome 清理功能偵測到垃圾軟體時，就不會將掃描作業的相關中繼資料回報給 Google (覆寫 SafeBrowsingExtendedReportingEnabled 設定的政策)。此外，Chrome 清理功能會詢問使用者是否要將偵測到的垃圾軟體清除。清理作業的執行結果不會回報給 Google，使用者也無法選擇回報。
+      如果停用這項政策，當 Brave 清理功能偵測到垃圾軟體時，就不會將掃描作業的相關中繼資料回報給 Google (覆寫 SafeBrowsingExtendedReportingEnabled 設定的政策)。此外，Chrome 清理功能會詢問使用者是否要將偵測到的垃圾軟體清除。清理作業的執行結果不會回報給 Google，使用者也無法選擇回報。
 
-      如果啟用這項政策，當 Chrome 清理功能偵測到垃圾軟體時，可能會根據 SafeBrowsingExtendedReportingEnabled 設定的政策，將掃描作業的相關中繼資料回報給 Google。此外，Chrome 清理功能會詢問使用者是否要將偵測到的垃圾軟體清除。清理作業的執行結果將回報給 Google，且使用者無法選擇不回報。
+      如果啟用這項政策，當 Brave 清理功能偵測到垃圾軟體時，可能會根據 SafeBrowsingExtendedReportingEnabled 設定的政策，將掃描作業的相關中繼資料回報給 Google。此外，Chrome 清理功能會詢問使用者是否要將偵測到的垃圾軟體清除。清理作業的執行結果將回報給 Google，且使用者無法選擇不回報。
 
       這項政策不適用於未加入 <ph name="MS_AD_NAME" /> 網域的 Windows 執行個體。</translation>
 <translation id="7258823566580374486">啟用遠端存取主機遮幕</translation>
@@ -2343,7 +2343,7 @@
 <translation id="7343497214039883642">裝置專用企業印表機設定檔</translation>
 <translation id="7349338075015720646">指定以無訊息方式安裝 (使用者無需操作) 的網站清單 (使用者無法解除安裝或停用這些網站)。
 
-      這項政策的每個清單項目都是一個物件，由「url」和「launch_container」組成。「url」應為要安裝的網路應用程式的網址，「launch_container」則應為「window」(視窗) 或「tab」(分頁)，是用於指定網路應用程式安裝後要採用的開啟方式。如果省略「launch_container」，且 Chrome 判斷該網路應用程式為漸進式網路應用程式，將會在視窗中開啟；若 Chrome 判斷不是漸進式網路應用程式，則會在分頁中開啟。</translation>
+      這項政策的每個清單項目都是一個物件，由「url」和「launch_container」組成。「url」應為要安裝的網路應用程式的網址，「launch_container」則應為「window」(視窗) 或「tab」(分頁)，是用於指定網路應用程式安裝後要採用的開啟方式。如果省略「launch_container」，且 Brave 判斷該網路應用程式為漸進式網路應用程式，將會在視窗中開啟；若 Brave 判斷不是漸進式網路應用程式，則會在分頁中開啟。</translation>
 <translation id="735902178936442460">這項政策可控管系統是否要回報能用於辨識電腦的資訊，例如電腦名稱和網路位址。
 
       如果不設定這項政策或設為 True，系統會收集可用於辨識電腦的資訊。
@@ -2356,9 +2356,9 @@
 
       如要進一步瞭解安全瀏覽功能，請前往 https://developers.google.com/safe-browsing。</translation>
 <translation id="737655323154569539">限制列印頁面大小。未設定這項政策或將設定留空，系統會視為未設限制。</translation>
-<translation id="7417728346887499628">如果停用這項政策，系統會禁止 Chrome 清理功能掃描系統中的垃圾軟體並執行清理作業。此外，使用者將無法透過 chrome://settings/cleanup 手動觸發 Chrome 清理功能。
+<translation id="7417728346887499628">如果停用這項政策，系統會禁止 Brave 清理功能掃描系統中的垃圾軟體並執行清理作業。此外，使用者將無法透過 chrome://settings/cleanup 手動觸發 Brave 清理功能。
 
-      如果啟用或未設定這項政策，Chrome 清理功能會定期掃描系統中的垃圾軟體，並且在找到垃圾軟體時詢問使用者是否要予以移除。此外，使用者也可以透過 chrome://settings 手動觸發 Chrome 清理功能。
+      如果啟用或未設定這項政策，Chrome 清理功能會定期掃描系統中的垃圾軟體，並且在找到垃圾軟體時詢問使用者是否要予以移除。此外，使用者也可以透過 chrome://settings 手動觸發 Brave 清理功能。
 
       這項政策不適用於未加入 <ph name="MS_AD_NAME" /> 網域的 Windows 執行個體。</translation>
 <translation id="7417972229667085380">簡報模式中的閒置延遲時間延長百分比 (已不適用)</translation>
@@ -2467,7 +2467,7 @@
 
       注意：目前只有在顯示登入畫面或 Kiosk 應用程式工作階段運作時，才能啟用自動重新啟動。這種情況會在日後變更，而且無論任何特定類型的工作階段是否正在運作，政策都會一律適用。</translation>
 <translation id="7701341006446125684">設定應用程式和擴充功能快取大小 (以位元組為單位)</translation>
-<translation id="7709537117200051035">將主機名稱對應至布林值旗標的字典，以指定 Chrome 是否能存取主機。允許值為 True，封鎖值為 False。
+<translation id="7709537117200051035">將主機名稱對應至布林值旗標的字典，以指定 Brave 是否能存取主機。允許值為 True，封鎖值為 False。
 
           這項政策僅供 <ph name="PRODUCT_NAME" /> 內部使用。</translation>
 <translation id="7712109699186360774">每當有任何網站要使用攝影機和/或麥克風時詢問我</translation>
@@ -2609,7 +2609,7 @@
 <translation id="7976157349247117979">「<ph name="PRODUCT_NAME" />」目的地名稱</translation>
 <translation id="7980227303582973781">無特殊限制</translation>
 <translation id="7985242821674907985"><ph name="PRODUCT_NAME" /></translation>
-<translation id="7992136759457836904">讓你控制是否要在 Chrome 作業系統上執行虛擬機器。
+<translation id="7992136759457836904">讓你控制是否要在 Brave 作業系統上執行虛擬機器。
 
       如果將這項政策設為 True，裝置即可執行虛擬機器。
       如果將這項政策設為 False，裝置則無法執行虛擬機器。
@@ -2711,7 +2711,7 @@
       如未設定這項政策，<ph name="PRODUCT_OS_NAME" /> 就會使用裝置本機帳戶的電子郵件帳戶 ID 當做登入畫面的顯示名稱。
 
       這項政策對於一般使用者帳戶無效。</translation>
-<translation id="8259375588339409826">Chromium 和 Google Chrome 支援同一套政策。請注意，這份文件可能包含未發佈的政策 (即「支援環境」項目是指尚未發佈的 <ph name="PRODUCT_NAME" /> 版本)，後續有關這些政策的變更與移除恕不另行通知，我們也不提供任何方面的保證，包括安全性和隱私權方面的保證。
+<translation id="8259375588339409826">Brave 和 Brave 支援同一套政策。請注意，這份文件可能包含未發佈的政策 (即「支援環境」項目是指尚未發佈的 <ph name="PRODUCT_NAME" /> 版本)，後續有關這些政策的變更與移除恕不另行通知，我們也不提供任何方面的保證，包括安全性和隱私權方面的保證。
 
 這些政策僅適用於設定貴機構內部的 <ph name="PRODUCT_NAME" /> 執行個體。如果在機構外 (例如公開發佈的程式中) 使用這些政策，會被視為惡意軟體行徑，且 Google 和防毒軟體廠商可能會將其標示為惡意軟體。
 
@@ -2725,7 +2725,7 @@
 
       設為 False 時會停用安全性功能，PAC 指令碼將因此獲得檢視所有 https:// 網址元素的權限。所有 PAC 指令碼都會套用這項設定，無論來源為何 (包括從不安全的傳輸過程中擷取而來的 PAC 指令碼，或是以不安全的方式透過 WPAD 找到的 PAC 指令碼)。
 
-      這項政策預設為 True (啟用安全性功能)，但 Chrome 作業系統企業使用者除外 (目前預設為 False)。
+      這項政策預設為 True (啟用安全性功能)，但 Brave 作業系統企業使用者除外 (目前預設為 False)。
 
       建議您將這項政策設為 True。如果設為 True 會與現有的 PAC 指令碼衝突，造成相容性問題，才需要將這項政策設為 False。
 
@@ -2754,7 +2754,7 @@
 <translation id="8339420913453596618">已停用雙重驗證</translation>
 <translation id="8344454543174932833">第一次執行時從預設瀏覽器匯入書籤</translation>
 <translation id="8359734107661430198">從 2008 年 9 月 2 日開始啟用 ExampleDeprecatedFeature API</translation>
-<translation id="8367209241899435947">在 Windows 裝置上啟用 Chrome 清理功能</translation>
+<translation id="8367209241899435947">在 Windows 裝置上啟用 Brave 清理功能</translation>
 <translation id="8369602308428138533">在 AC 供電環境下執行時的螢幕關閉延遲時間</translation>
 <translation id="8382184662529825177">啟用可用於保護裝置內容的遠端認證機制</translation>
 <translation id="838870586332499308">啟用數據漫遊</translation>
@@ -2830,10 +2830,10 @@
 
       如果將這項政策設為 true 或不予設定，所有使用者皆可使用 ARC (除非透過其他方法停用 ARC)。
 
-      政策變更只會在 ARC 未執行時套用，例如 Chrome 作業系統啟動時。</translation>
+      政策變更只會在 ARC 未執行時套用，例如 Brave 作業系統啟動時。</translation>
 <translation id="8631434304112909927">到第 <ph name="UNTIL_VERSION" /> 版為止</translation>
 <translation id="863319402127182273">這項政策對 Android 應用程式的影響僅限於內建攝影機。將這項政策設為 true 時，所有 Android 應用程式皆無法使用攝影機，沒有任何例外。</translation>
-<translation id="8649763579836720255">當 Chrome 作業系統 CA 判斷裝置可播放受保護內容，Chrome 作業系統裝置可以使用遠端證明 (已驗證存取權) 取得其所發出的憑證。在此過程中，系統會傳送硬體簽署資訊到識別裝置的 Chrome 作業系統 CA。
+<translation id="8649763579836720255">當 Brave 作業系統 CA 判斷裝置可播放受保護內容，Chrome 作業系統裝置可以使用遠端證明 (已驗證存取權) 取得其所發出的憑證。在此過程中，系統會傳送硬體簽署資訊到識別裝置的 Brave 作業系統 CA。
 
           如果設定為 False，裝置將不會針對受保護內容使用遠端證明，並且無法播放受保護內容。
 
@@ -3069,7 +3069,7 @@
       如果將這項政策設為 ClientCertificate (值為 1)，則會依用戶端憑證驗證判斷是否要允許新使用者透過 SAML 登入。這類使用者不需要密碼，且其快取本機資料會受到對應加密金鑰的保護。舉例來說，如果使用這項設定，就能設定透過智慧型卡片驗證使用者 (請注意，你必須透過 DeviceLoginScreenAppInstallList 政策安裝智慧型卡片中介軟體應用程式)。
 
       這項政策只會影響透過 SAML 進行驗證的使用者。</translation>
-<translation id="9213347477683611358">設定還沒有任何使用者登入裝置時，登入畫面顯示的裝置層級桌布圖片。如要設定這項政策，請指定 Chrome 作業系統裝置可下載桌布圖片的網址，以及用於驗證下載完整性的加密編譯雜湊值。圖片必須為 JPEG 格式，且大小不得超過 16MB。網址則必須可供直接存取，不必經過任何驗證。系統會下載並快取桌布圖片，每當網址或雜湊值有所變更即重新下載。
+<translation id="9213347477683611358">設定還沒有任何使用者登入裝置時，登入畫面顯示的裝置層級桌布圖片。如要設定這項政策，請指定 Brave 作業系統裝置可下載桌布圖片的網址，以及用於驗證下載完整性的加密編譯雜湊值。圖片必須為 JPEG 格式，且大小不得超過 16MB。網址則必須可供直接存取，不必經過任何驗證。系統會下載並快取桌布圖片，每當網址或雜湊值有所變更即重新下載。
 
       指定政策時，請使用 JSON 格式的字串來表示網址和雜湊值。範例如下：
       {

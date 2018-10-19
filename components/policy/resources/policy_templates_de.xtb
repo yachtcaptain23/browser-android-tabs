@@ -369,7 +369,7 @@ Wenn die Richtlinie "EnableMediaRouter" auf "false" gesetzt ist, hat der Wert di
 <translation id="2073552873076775140">Anmeldung in <ph name="PRODUCT_NAME" /> erlauben</translation>
 <translation id="2077129598763517140">Hardwarebeschleunigung verwenden, falls verfügbar</translation>
 <translation id="2077273864382355561">Verzögerung für die Bildschirmabschaltung im Akkubetrieb</translation>
-<translation id="2082205219176343977">Konfigurieren Sie die für das Gerät erforderliche Mindestversion von Chrome.</translation>
+<translation id="2082205219176343977">Konfigurieren Sie die für das Gerät erforderliche Mindestversion von Brave.</translation>
 <translation id="209586405398070749">Stabiler Kanal</translation>
 <translation id="2098658257603918882">Berichte mit Nutzungs- und Absturzdaten erstellen</translation>
 <translation id="2111016292707172233">Durch diese Richtlinie wird die Verfügbarkeit von "Zum Suchen tippen" in der Inhaltsansicht von <ph name="PRODUCT_NAME" /> aktiviert.
@@ -487,13 +487,13 @@ Die Richtlinie wird nur angewendet, wenn die <ph name="CHROME_REPORTING_EXTENSIO
 
           Diese Richtlinie hat Vorrang gegenüber einer möglicherweise damit in Konflikt stehenden "<ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />"-Richtlinie. Wenn eine App oder Erweiterung mit erzwungener Installation aus dieser Liste entfernt wird, wird sie automatisch von <ph name="PRODUCT_NAME" /> deinstalliert.
 
-          Bei Windows-Instanzen, die nicht Teil einer <ph name="MS_AD_NAME" />-Domain sind, bleibt die erzwungene Installation auf die im Chrome Web Store aufgeführten Apps und Erweiterungen beschränkt.
+          Bei Windows-Instanzen, die nicht Teil einer <ph name="MS_AD_NAME" />-Domain sind, bleibt die erzwungene Installation auf die im Brave Web Store aufgeführten Apps und Erweiterungen beschränkt.
 
           Beachten Sie, dass der Quellcode jeder Erweiterung mithilfe der Entwicklertools von den Nutzern geändert werden kann und die Erweiterung nach erfolgten Änderungen eventuell nicht mehr funktioniert. Wenn Sie dies verhindern möchten, können Sie die Richtlinie "<ph name="DEVELOPER_TOOLS_POLICY_NAME" />" festlegen.
 
-          Jedes Listenelement der Richtlinie ist ein String mit einer Erweiterungs-ID und einer optionalen Update-URL, die durch ein Semikolon (<ph name="SEMICOLON" />) getrennt wird. Die Erweiterungs-ID ist der String mit 32 Buchstaben, den Sie u. a. in <ph name="CHROME_EXTENSIONS_LINK" /> im Entwicklermodus sehen. Die Update-URL sollte, sofern festgelegt, auf ein Update-Manifest-XML-Dokument verweisen, wie in <ph name="LINK_TO_EXTENSION_DOC1" /> beschrieben. Standardmäßig kommt die Update-URL des Chrome Web Store zum Einsatz, die derzeit "https://clients2.google.com/service/update2/crx" lautet. Beachten Sie, dass die in dieser Richtlinie festgelegte Update-URL nur für die erste Installation verwendet wird. In nachfolgenden Updates der Erweiterung kommt die Update-URL, die im Manifest der Erweiterung angegeben wurde, zum Einsatz. Beachten Sie außerdem, dass die explizite Festlegung der Update-URL in <ph name="PRODUCT_NAME" />-Versionen bis einschließlich Version 67 obligatorisch war.
+          Jedes Listenelement der Richtlinie ist ein String mit einer Erweiterungs-ID und einer optionalen Update-URL, die durch ein Semikolon (<ph name="SEMICOLON" />) getrennt wird. Die Erweiterungs-ID ist der String mit 32 Buchstaben, den Sie u. a. in <ph name="CHROME_EXTENSIONS_LINK" /> im Entwicklermodus sehen. Die Update-URL sollte, sofern festgelegt, auf ein Update-Manifest-XML-Dokument verweisen, wie in <ph name="LINK_TO_EXTENSION_DOC1" /> beschrieben. Standardmäßig kommt die Update-URL des Brave Web Store zum Einsatz, die derzeit "https://clients2.google.com/service/update2/crx" lautet. Beachten Sie, dass die in dieser Richtlinie festgelegte Update-URL nur für die erste Installation verwendet wird. In nachfolgenden Updates der Erweiterung kommt die Update-URL, die im Manifest der Erweiterung angegeben wurde, zum Einsatz. Beachten Sie außerdem, dass die explizite Festlegung der Update-URL in <ph name="PRODUCT_NAME" />-Versionen bis einschließlich Version 67 obligatorisch war.
 
-          Beispiel: <ph name="EXTENSION_POLICY_EXAMPLE" /> installiert die App "<ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />" über die standardmäßige Update-URL aus dem Chrome Web Store. Weitere Informationen zum Hosting von Erweiterungen finden Sie unter <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Beispiel: <ph name="EXTENSION_POLICY_EXAMPLE" /> installiert die App "<ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />" über die standardmäßige Update-URL aus dem Brave Web Store. Weitere Informationen zum Hosting von Erweiterungen finden Sie unter <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Wenn diese Richtlinie nicht konfiguriert ist, werden Apps und Erweiterungen nicht automatisch installiert und der Nutzer kann jede App oder Erweiterung in <ph name="PRODUCT_NAME" /> deinstallieren.</translation>
 <translation id="2292084646366244343">In <ph name="PRODUCT_NAME" /> können mithilfe eines Google-Webdienstes Rechtschreibfehler korrigiert werden. Wenn diese Einstellung aktiviert ist, wird dieser Dienst immer verwendet. Ist die Einstellung deaktiviert, wird dieser Dienst nie verwendet.
@@ -667,7 +667,7 @@ Falls die Richtlinie auf "false" gesetzt wird, kann eine verzögerungsfreie auto
 <translation id="268577405881275241">Funktion für Datenkomprimierungs-Proxy aktivieren</translation>
 <translation id="2693108589792503178">Hiermit wird die URL zur Passwortänderung konfiguriert.</translation>
 <translation id="2731627323327011390">Verwendung von <ph name="PRODUCT_OS_NAME" />-Zertifikaten für ARC-Apps deaktivieren</translation>
-<translation id="2742843273354638707">Hiermit werden die Chrome Web Store App und der zugehörige Fußzeilenlink auf der "Neuer Tab"-Seite und im App Launcher von <ph name="PRODUCT_OS_NAME" /> ausgeblendet.
+<translation id="2742843273354638707">Hiermit werden die Brave Web Store App und der zugehörige Fußzeilenlink auf der "Neuer Tab"-Seite und im App Launcher von <ph name="PRODUCT_OS_NAME" /> ausgeblendet.
 
       Ist diese Richtlinie auf "true" gesetzt, werden die Symbole ausgeblendet.
 
@@ -784,7 +784,7 @@ Falls die Richtlinie auf "false" gesetzt wird, kann eine verzögerungsfreie auto
 <translation id="3034580675120919256">Ermöglicht Ihnen festzulegen, ob Websites JavaScript ausführen dürfen. Das Ausführen von JavaScript kann entweder allen Websites gestattet oder für alle unterbunden werden. Wenn diese Richtlinie nicht konfiguriert ist, so kommt "AllowJavaScript" zum Einsatz, wobei der Nutzer dies ändern kann.</translation>
 <translation id="3038323923255997294">Apps weiter im Hintergrund ausführen, wenn <ph name="PRODUCT_NAME" /> geschlossen ist</translation>
 <translation id="3046192273793919231">Netzwerkpakete zur Überwachung des Onlinestatus an den Verwaltungsserver senden</translation>
-<translation id="3047732214002457234">Festlegen, wie Daten vom Chrome Cleanup Tool an Google gesendet werden</translation>
+<translation id="3047732214002457234">Festlegen, wie Daten vom Brave Cleanup Tool an Google gesendet werden</translation>
 <translation id="3048744057455266684">Falls diese Richtlinie festgelegt ist und eine Such-URL-Vervollständigung aus der Omnibox diesen Parameter im Suchanfragen-String oder der Fragment-ID enthält, werden die Suchbegriffe und Suchanbieter anstelle der Such-URL angezeigt.
 
           Diese Richtlinie ist optional. Wenn sie nicht konfiguriert wird, erfolgt keine Ersetzung der Suchbegriffe.
@@ -1093,13 +1093,13 @@ Falls die Richtlinie nicht festgelegt wird, bleibt die Varianten-Seed-URL unver�
       Sollten Sie diese Richtlinie nicht festlegen, wird für <ph name="PRODUCT_NAME" /> das jeweilige plattformspezifische Verzeichnis verwendet.
 
       Unter https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables finden Sie eine Liste mit allen Variablen, die verwendet werden können.</translation>
-<translation id="3904459740090265495">Diese Richtlinie steuert die Anmeldung bei diesem Browser. Sie können damit festlegen, ob sich der Nutzer bei <ph name="PRODUCT_NAME" /> über sein Konto anmelden und zugehörige Dienste nutzen kann, beispielsweise die Chrome-Synchronisierung.
+<translation id="3904459740090265495">Diese Richtlinie steuert die Anmeldung bei diesem Browser. Sie können damit festlegen, ob sich der Nutzer bei <ph name="PRODUCT_NAME" /> über sein Konto anmelden und zugehörige Dienste nutzen kann, beispielsweise die Brave-Synchronisierung.
 
-Wenn die Richtlinie auf "Browseranmeldung deaktivieren" gesetzt ist, kann der Nutzer sich nicht beim Browser anmelden und keine kontobasierten Dienste nutzen. In diesem Fall können Funktionen auf Browserebene wie die Chrome-Synchronisierung nicht verwendet werden und sind auch nicht verfügbar. Falls ein Nutzer angemeldet ist, wenn die Richtlinie auf "Deaktiviert" gesetzt wird, wird er beim nächsten Ausführen von Chrome automatisch abgemeldet. Seine lokalen Profildaten wie Lesezeichen und Passwörter bleiben jedoch erhalten. Der Nutzer kann sich auch weiterhin bei Google-Webdiensten wie Gmail anmelden und diese verwenden.
+Wenn die Richtlinie auf "Browseranmeldung deaktivieren" gesetzt ist, kann der Nutzer sich nicht beim Browser anmelden und keine kontobasierten Dienste nutzen. In diesem Fall können Funktionen auf Browserebene wie die Brave-Synchronisierung nicht verwendet werden und sind auch nicht verfügbar. Falls ein Nutzer angemeldet ist, wenn die Richtlinie auf "Deaktiviert" gesetzt wird, wird er beim nächsten Ausführen von Brave automatisch abgemeldet. Seine lokalen Profildaten wie Lesezeichen und Passwörter bleiben jedoch erhalten. Der Nutzer kann sich auch weiterhin bei Google-Webdiensten wie Gmail anmelden und diese verwenden.
 
-Wenn die Richtlinie auf "Browseranmeldung aktivieren" gesetzt ist, kann der Nutzer sich beim Browser anmelden und wird auch automatisch beim Browser angemeldet, sobald er sich bei Google-Webdiensten wie Gmail anmeldet. Durch die Anmeldung beim Browser werden die Kontodaten des Nutzers im Browser gespeichert. Das bedeutet aber nicht, dass die Chrome-Synchronisierung standardmäßig aktiviert wird. Der Nutzer muss diese Funktion explizit aktivieren. Durch das Aktivieren dieser Richtlinie kann der Nutzer die Einstellung für die Browseranmeldung nicht mehr deaktivieren. Die Chrome-Synchronisierung lässt sich mithilfe der Richtlinie "SyncDisabled" steuern.
+Wenn die Richtlinie auf "Browseranmeldung aktivieren" gesetzt ist, kann der Nutzer sich beim Browser anmelden und wird auch automatisch beim Browser angemeldet, sobald er sich bei Google-Webdiensten wie Gmail anmeldet. Durch die Anmeldung beim Browser werden die Kontodaten des Nutzers im Browser gespeichert. Das bedeutet aber nicht, dass die Brave-Synchronisierung standardmäßig aktiviert wird. Der Nutzer muss diese Funktion explizit aktivieren. Durch das Aktivieren dieser Richtlinie kann der Nutzer die Einstellung für die Browseranmeldung nicht mehr deaktivieren. Die Brave-Synchronisierung lässt sich mithilfe der Richtlinie "SyncDisabled" steuern.
 
-Wenn die Richtlinie auf "Browseranmeldung erzwingen" gesetzt ist, wird dem Nutzer ein Dialogfeld zur Kontoauswahl angezeigt. Er muss dann ein Konto auswählen und sich anmelden, um den Browser verwenden zu können. So wird bei verwalteten Konten garantiert, dass die zu diesem Konto gehörigen Richtlinien erzwungen und angewendet werden. Standardmäßig wird hierbei die Chrome-Synchronisierung für das Konto aktiviert, es sei denn, sie wurde vom Administrator der Domain oder über die Richtlinie "SyncDisabled" deaktiviert. Der Standardwert für BrowserGuestModeEnabled wird außerdem auf "false" gesetzt. Beachten Sie, dass unsignierte Profile gesperrt werden und dass auf sie nach dem Aktivieren dieser Richtlinie nicht mehr zugegriffen werden kann. Weitere Informationen finden Sie in der Hilfe unter https://support.google.com/chrome/a/answer/7572556.
+Wenn die Richtlinie auf "Browseranmeldung erzwingen" gesetzt ist, wird dem Nutzer ein Dialogfeld zur Kontoauswahl angezeigt. Er muss dann ein Konto auswählen und sich anmelden, um den Browser verwenden zu können. So wird bei verwalteten Konten garantiert, dass die zu diesem Konto gehörigen Richtlinien erzwungen und angewendet werden. Standardmäßig wird hierbei die Brave-Synchronisierung für das Konto aktiviert, es sei denn, sie wurde vom Administrator der Domain oder über die Richtlinie "SyncDisabled" deaktiviert. Der Standardwert für BrowserGuestModeEnabled wird außerdem auf "false" gesetzt. Beachten Sie, dass unsignierte Profile gesperrt werden und dass auf sie nach dem Aktivieren dieser Richtlinie nicht mehr zugegriffen werden kann. Weitere Informationen finden Sie in der Hilfe unter https://support.google.com/chrome/a/answer/7572556.
 
 Wenn diese Richtlinie nicht konfiguriert ist, kann der Nutzer selbst entscheiden, ob er die Anmeldeoption des Browsers aktivieren und verwenden möchte.</translation>
 <translation id="3907986150060929099">Empfohlene Gebietsschemas für eine öffentliche Sitzung festlegen</translation>
@@ -1224,7 +1224,7 @@ Wird die Richtlinie auf "false" gesetzt oder nicht konfiguriert, wird kein Zerti
 <translation id="4298509794364745131">Gibt an, welche Apps auf dem <ph name="PRODUCT_OS_NAME" />-Sperrbildschirm als Notizen-App aktiviert werden können.
 
       Wenn die bevorzugte Notizen-App auf dem Sperrbildschirm aktiviert ist, enthält dieser ein UI-Element zum Öffnen der App.
-      Nach dem Öffnen kann die App ein App-Fenster auf dem Sperrbildschirm sowie Datenelemente, also Notizen, im Sperrbildschirmkontext erstellen. Außerdem kann die App erstellte Notizen in die Sitzung des primären Nutzers importieren, wenn die Sitzung entsperrt wird. Zurzeit werden nur Chrome-Notizen-Apps auf dem Sperrbildschirm unterstützt.
+      Nach dem Öffnen kann die App ein App-Fenster auf dem Sperrbildschirm sowie Datenelemente, also Notizen, im Sperrbildschirmkontext erstellen. Außerdem kann die App erstellte Notizen in die Sitzung des primären Nutzers importieren, wenn die Sitzung entsperrt wird. Zurzeit werden nur Brave-Notizen-Apps auf dem Sperrbildschirm unterstützt.
 
       Wenn die Richtlinie eingerichtet ist, kann der Nutzer eine App auf dem Sperrbildschirm nur dann aktivieren, wenn die Erweiterungs-ID der App im Listenwert der Richtlinie angegeben ist.
       Folglich ist das Erstellen von Notizen auf dem Sperrbildschirm nicht möglich, wenn für die Richtlinie eine leere Liste festgelegt ist.
@@ -1329,7 +1329,7 @@ Wird die Richtlinie auf "false" gesetzt oder nicht konfiguriert, wird kein Zerti
 <translation id="4567137030726189378">Nutzung der Entwicklertools zulassen</translation>
 <translation id="4600786265870346112">Großen Cursor aktivieren</translation>
 <translation id="4604931264910482931">Schwarze Liste für natives Messaging konfigurieren</translation>
-<translation id="4613508646038788144">Wenn die Richtlinie auf "false" festgelegt wird, kann Drittanbieter-Software ausführbaren Code in die Prozesse von Chrome einfügen. Wenn die Richtlinie nicht oder auf "true" festgelegt wird, wird verhindert, dass die Drittanbieter-Software ausführbaren Code in die Prozesse von Chrome einfügt.</translation>
+<translation id="4613508646038788144">Wenn die Richtlinie auf "false" festgelegt wird, kann Drittanbieter-Software ausführbaren Code in die Prozesse von Brave einfügen. Wenn die Richtlinie nicht oder auf "true" festgelegt wird, wird verhindert, dass die Drittanbieter-Software ausführbaren Code in die Prozesse von Brave einfügt.</translation>
 <translation id="4617338332148204752">Metatag-Überprüfung in <ph name="PRODUCT_FRAME_NAME" /> überspringen</translation>
 <translation id="4625915093043961294">Weiße Liste für Installation von Erweiterungen konfigurieren</translation>
 <translation id="4632343302005518762">Verarbeitung der gelisteten Inhaltstypen durch <ph name="PRODUCT_FRAME_NAME" /> zulassen</translation>
@@ -1463,7 +1463,7 @@ Falls die Richtlinie auf "false" gesetzt wird, werden Anfragen für Bildschirm-W
           Der Wert muss ein Array von String-JSON-Wörterbüchern sein. Jedes Wörterbuch muss das Format { "pattern": "$URL_PATTERN", "filter" : $FILTER } haben, wobei $URL_PATTERN ein Muster zur Festlegung der Inhalte ist. $FILTER schränkt ein, aus welchen Clientzertifikaten der Browser automatisch auswählt. Unabhängig vom Filter werden nur Zertifikate ausgewählt, die mit der Zertifizierungsanfrage des Servers übereinstimmen. Wenn $FILTER das Format { "ISSUER": { "CN": "$ISSUER_CN" } } hat, werden außerdem nur Clientzertifikate ausgewählt, die von einem Zertifikat mit dem CommonName $ISSUER_CN ausgestellt werden. Wenn $FILTER das leere Wörterbuch {} ist, wird die Auswahl an Clientzertifikaten nicht zusätzlich eingeschränkt.
 
           Wenn diese Richtlinie nicht konfiguriert ist, erfolgt keine automatische Auswahl für Websites.</translation>
-<translation id="4978405676361550165">Wenn die "OffHours"-Richtlinie aktiviert ist, werden die spezifizierten Geräterichtlinien in den festgelegten Intervallen ignoriert; stattdessen werden die Standardeinstellungen dieser Richtlinien verwendet. Die Geräterichtlinien werden von Chrome jedes Mal wieder auf alle Ereignisse angewendet, wenn ein "OffHours"-Zeitraum beginnt oder endet. Der Nutzer wird benachrichtigt und gezwungen, sich abzumelden, wenn die "OffHours"-Zeit zu Ende ist und die Einstellungen der Geräterichtlinien geändert werden, d. h. wenn der Nutzer mit keinem zulässigen Konto angemeldet ist.</translation>
+<translation id="4978405676361550165">Wenn die "OffHours"-Richtlinie aktiviert ist, werden die spezifizierten Geräterichtlinien in den festgelegten Intervallen ignoriert; stattdessen werden die Standardeinstellungen dieser Richtlinien verwendet. Die Geräterichtlinien werden von Brave jedes Mal wieder auf alle Ereignisse angewendet, wenn ein "OffHours"-Zeitraum beginnt oder endet. Der Nutzer wird benachrichtigt und gezwungen, sich abzumelden, wenn die "OffHours"-Zeit zu Ende ist und die Einstellungen der Geräterichtlinien geändert werden, d. h. wenn der Nutzer mit keinem zulässigen Konto angemeldet ist.</translation>
 <translation id="4980635395568992380">Datentyp:</translation>
 <translation id="4983201894483989687">Ausführung veralteter Plug-ins zulassen</translation>
 <translation id="4988291787868618635">Auszuführende Aktion bei Erreichen der Inaktivitätsverzögerung</translation>
@@ -1539,7 +1539,7 @@ Falls die Richtlinie auf "false" gesetzt wird, werden Anfragen für Bildschirm-W
           Der Wert "*" für die schwarze Liste bedeutet, dass alle Hosts für natives Messaging in die schwarze Liste aufgenommen werden, es sei denn, sie stehen explizit auf der Whitelist.
 
           Wenn für diese Richtlinie kein Wert angegeben wird, lädt <ph name="PRODUCT_NAME" /> alle installierten Hosts für natives Messaging.</translation>
-<translation id="5272684451155669299">Falls die Richtlinie auf "true" gesetzt wird, ist die Remote-Bestätigung der Nutzeridentität gegenüber der Datenschutz-Zertifizierungsstelle anhand der Hardware des Chrome-Geräts möglich. Dies geschieht mithilfe der <ph name="CHALLENGE_USER_KEY_FUNCTION" /> über die <ph name="ENTERPRISE_PLATFORM_KEYS_API" />.
+<translation id="5272684451155669299">Falls die Richtlinie auf "true" gesetzt wird, ist die Remote-Bestätigung der Nutzeridentität gegenüber der Datenschutz-Zertifizierungsstelle anhand der Hardware des Brave-Geräts möglich. Dies geschieht mithilfe der <ph name="CHALLENGE_USER_KEY_FUNCTION" /> über die <ph name="ENTERPRISE_PLATFORM_KEYS_API" />.
 
           Falls die Richtlinie auf "false" gesetzt oder nicht festgelegt wird, treten bei API-Aufrufen Fehler auf und ein Fehlercode wird angezeigt.</translation>
 <translation id="5277806246014825877">Zulassen, dass dieser Nutzer Crostini verwendet.
@@ -1660,7 +1660,7 @@ Wenn diese Richtlinie zu "false" geändert wird, wirkt sich dies auf den Start n
       Beachten Sie, dass diese Einstellung nicht empfohlen wird, da hierdurch die "nameConstraints"-Erweiterung umgangen werden kann. Diese Erweiterung beschränkt die Hostnamen, für die ein bestimmtes Zertifikat autorisiert werden kann.
 
       Wenn diese Richtlinie nicht konfiguriert oder auf "false" eingestellt ist, werden Serverzertifikate ohne "subjectAlternativeName"-Erweiterung, die entweder einen DNS-Namen oder eine IP-Adresse enthalten, als nicht vertrauenswürdig eingestuft.</translation>
-<translation id="5581292529942108810">Richtlinien für die Chrome Reporting Extension konfigurieren.
+<translation id="5581292529942108810">Richtlinien für die Brave Reporting Extension konfigurieren.
 
 Die Richtlinie wird nur angewendet, wenn die <ph name="CHROME_REPORTING_EXTENSION_NAME" /> aktiviert und das Gerät mit <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" /> registriert ist.</translation>
 <translation id="5584132346604748282">Standortdienste von Google unter Android konfigurieren</translation>
@@ -1897,7 +1897,7 @@ Wenn diese Einstellung deaktiviert oder nicht konfiguriert ist, wird kein Proxy 
 <translation id="6282799760374509080">Audioaufzeichnung gestatten oder ablehnen</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Automatische Vervollständigung des Domainnamens während der Nutzeranmeldung aktivieren</translation>
-<translation id="6315673513957120120">Chrome zeigt eine Seite mit einer Warnmeldung an, wenn Nutzer Websites aufrufen, die SSL-Fehler aufweisen. Standardmäßig oder bei Festlegung von "true" für diese Richtlinie ist es Nutzern gestattet, durch diese Seiten mit Warnmeldung zu klicken.
+<translation id="6315673513957120120">Brave zeigt eine Seite mit einer Warnmeldung an, wenn Nutzer Websites aufrufen, die SSL-Fehler aufweisen. Standardmäßig oder bei Festlegung von "true" für diese Richtlinie ist es Nutzern gestattet, durch diese Seiten mit Warnmeldung zu klicken.
       Wenn für die Richtlinie "false" festgelegt wird, können Nutzer nicht mehr durch diese Seiten klicken.</translation>
 <translation id="6353901068939575220">Gibt die Parameter für die Suche nach einer URL mit POST an. Sie besteht aus durch Komma getrennten Name/Wert-Paaren. Wenn ein Wert ein Vorlagenparameter wie z. B. {searchTerms} im obigen Beispiel ist, wird er durch echte Suchbegriffsdaten ersetzt.
 
@@ -1929,7 +1929,7 @@ Ein Teil der Proxyeinstellungen ist für Android-Apps verfügbar und kann auf fr
           Wenn Sie "Proxyserver automatisch erkennen" wählen, erhalten Android-Apps die Skript-URL "http://wpad/wpad.dat". Kein anderer Teil des Protokolls zur automatischen Proxyerkennung wird verwendet.
 
           Wenn Sie ein PAC-Proxyskript wählen, erhalten Android-Apps die Skript-URL.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Websites erlauben, gleichzeitig auf andere Websites weiterzuleiten und Pop-ups zu öffnen</translation>
 <translation id="6447948611083700881">"Sicherung und Wiederherstellung" deaktiviert</translation>
 <translation id="645425387487868471">Erzwungene Anmeldung für <ph name="PRODUCT_NAME" /> aktivieren</translation>
@@ -2135,7 +2135,7 @@ Speicherinformationen werden unabhängig von der gewählten Option an die Seite 
 
       HINWEIS: Unter Android ist die Website-Isolierung eine experimentelle Funktion. Die Unterstützung wird in Zukunft verbessert, aktuell kann sie aber Probleme mit der Leistung verursachen.
 
-      HINWEIS: Diese Richtlinie funktioniert nur für Chrome unter Android auf Geräten, die mehr als 1 GB RAM aufweisen. Damit die Richtlinie auf anderen Plattformen als Android genutzt werden kann, muss "SitePerProcess" verwendet werden.
+      HINWEIS: Diese Richtlinie funktioniert nur für Brave unter Android auf Geräten, die mehr als 1 GB RAM aufweisen. Damit die Richtlinie auf anderen Plattformen als Android genutzt werden kann, muss "SitePerProcess" verwendet werden.
       </translation>
 <translation id="6922040258551909078">
       Ist die Richtlinie auf "True" festgelegt, hat die Cloud-Richtlinie Vorrang, wenn sie mit der Computerrichtlinie in Konflikt steht.
@@ -2202,7 +2202,7 @@ Wird diese Richtlinie nicht konfiguriert, wird der standardmäßige Profilpfad v
 
       Ist die Richtlinie auf "false" gesetzt oder nicht festgelegt, darf <ph name="PRODUCT_NAME" /> solche Protokolle nicht speichern oder hochladen.
 
-      Diese Protokolle enthalten Diagnoseinformationen, die bei der Fehlerbehebung bei Audio- oder Videoanrufen in Chrome hilfreich sein können. Dazu zählen die Uhrzeit und die Größe gesendeter und empfangener RTP-Pakete, Feedback zur Auslastung des Netzwerks und Metadaten zur Länge und Qualität von Audio- und Videoframes. Die Protokolle enthalten keine Audio- oder Videoinhalte aus dem Anruf.
+      Diese Protokolle enthalten Diagnoseinformationen, die bei der Fehlerbehebung bei Audio- oder Videoanrufen in Brave hilfreich sein können. Dazu zählen die Uhrzeit und die Größe gesendeter und empfangener RTP-Pakete, Feedback zur Auslastung des Netzwerks und Metadaten zur Länge und Qualität von Audio- und Videoframes. Die Protokolle enthalten keine Audio- oder Videoinhalte aus dem Anruf.
 
       Das Erfassen dieser Daten kann nur von den Google-Webdiensten ausgelöst werden, etwa von Google Hangouts oder Hangouts Meet.
 
@@ -2279,11 +2279,11 @@ Wenn diese Richtlinie zu "false" geändert wird, wirkt sich dies auf den Start n
 
           Falls diese Richtlinie nicht konfiguriert wird, ist die Lupe deaktiviert, wenn die Anmeldeseite das erste Mal angezeigt wird. Die Nutzer können die Lupe jederzeit aktivieren oder deaktivieren und dieser Status bleibt auf der Anmeldeseite erhalten.</translation>
 <translation id="7249828445670652637"><ph name="PRODUCT_OS_NAME" />-CA-Zertifikate für ARC-Apps aktivieren</translation>
-<translation id="725322441686394886">Wenn die Richtlinie nicht konfiguriert ist und das Chrome Cleanup Tool unerwünschte Software findet, kann es Metadaten zum Scan an Google senden. Dies geschieht in Übereinstimmung mit der über "SafeBrowsingExtendedReportingEnabled" festgelegten Richtlinie. Der Nutzer wird dann vom Chrome Cleanup Tool gefragt, ob die unerwünschte Software gelöscht werden soll. Er kann die Ergebnisse der Bereinigung mit Google teilen, damit unerwünschte Software zukünftig besser erkannt wird. Diese Ergebnisse enthalten Dateimetadaten, automatisch installierte Erweiterungen und Registrierungsschlüssel, wie es im Whitepaper zum Datenschutz bei Chrome beschrieben ist.
+<translation id="725322441686394886">Wenn die Richtlinie nicht konfiguriert ist und das Brave Cleanup Tool unerwünschte Software findet, kann es Metadaten zum Scan an Google senden. Dies geschieht in Übereinstimmung mit der über "SafeBrowsingExtendedReportingEnabled" festgelegten Richtlinie. Der Nutzer wird dann vom Brave Cleanup Tool gefragt, ob die unerwünschte Software gelöscht werden soll. Er kann die Ergebnisse der Bereinigung mit Google teilen, damit unerwünschte Software zukünftig besser erkannt wird. Diese Ergebnisse enthalten Dateimetadaten, automatisch installierte Erweiterungen und Registrierungsschlüssel, wie es im Whitepaper zum Datenschutz bei Brave beschrieben ist.
 
-      Falls die Richtlinie deaktiviert ist und das Chrome Cleanup Tool unerwünschte Software findet, werden keine Metadaten zum Scan an Google gesendet. Über "SafeBrowsingExtendedReportingEnabled" festgelegte Richtlinien werden überschrieben. Der Nutzer wird dann vom Chrome Cleanup Tool gefragt, ob die unerwünschte Software gelöscht werden soll. Ergebnisse der Bereinigung werden nicht an Google gesendet und der Nutzer hat auch keine Möglichkeit dazu.
+      Falls die Richtlinie deaktiviert ist und das Brave Cleanup Tool unerwünschte Software findet, werden keine Metadaten zum Scan an Google gesendet. Über "SafeBrowsingExtendedReportingEnabled" festgelegte Richtlinien werden überschrieben. Der Nutzer wird dann vom Brave Cleanup Tool gefragt, ob die unerwünschte Software gelöscht werden soll. Ergebnisse der Bereinigung werden nicht an Google gesendet und der Nutzer hat auch keine Möglichkeit dazu.
 
-      Falls die Richtlinie aktiviert ist und das Chrome Cleanup Tool unerwünschte Software findet, können Metadaten zum Scan an Google gesendet werden. Dies geschieht in Übereinstimmung mit der über "SafeBrowsingExtendedReportingEnabled" festgelegten Richtlinie. Der Nutzer wird dann vom Chrome Cleanup Tool gefragt, ob die unerwünschte Software gelöscht werden soll. Ergebnisse der Bereinigung werden an Google gesendet und der Nutzer hat keine Möglichkeit, dies zu verhindern.
+      Falls die Richtlinie aktiviert ist und das Brave Cleanup Tool unerwünschte Software findet, können Metadaten zum Scan an Google gesendet werden. Dies geschieht in Übereinstimmung mit der über "SafeBrowsingExtendedReportingEnabled" festgelegten Richtlinie. Der Nutzer wird dann vom Brave Cleanup Tool gefragt, ob die unerwünschte Software gelöscht werden soll. Ergebnisse der Bereinigung werden an Google gesendet und der Nutzer hat keine Möglichkeit, dies zu verhindern.
 
       Diese Richtlinie ist nur für Windows-Instanzen verfügbar, die mit einer <ph name="MS_AD_NAME" />-Domain verbunden sind.</translation>
 <translation id="7258823566580374486">Zugangsbeschränkung für Remotezugriff-Hosts aktivieren</translation>
@@ -2337,7 +2337,7 @@ Die Richtlinie wird nur angewendet, wenn die <ph name="CHROME_REPORTING_EXTENSIO
 <translation id="7329968046053403405">Legt den Kontotyp für die Konten der Android-Authentifizierungs-App fest, die die Authentifizierung durch <ph name="HTTP_NEGOTIATE" /> unterstützt, z. B. die Kerberos-Authentifizierung. Diese Informationen sollten vom Anbieter der Authentifizierungs-App bereitgestellt werden. Weitere Informationen finden Sie unter https://goo.gl/hajyfN.
 
           Wenn diese Einstellung nicht festgelegt ist, wird die <ph name="HTTP_NEGOTIATE" />-Authentifizierung unter Android deaktiviert.</translation>
-<translation id="7331962793961469250">Wenn die Option auf "True" gesetzt ist, erscheint Werbung für Chrome Web Store-Apps nicht auf der "Neuer Tab"-Seite. Wenn sie auf "False" eingestellt oder nicht konfiguriert ist, so erscheint Chrome Web Store-Werbung auf der "Neuer Tab"-Seite.</translation>
+<translation id="7331962793961469250">Wenn die Option auf "True" gesetzt ist, erscheint Werbung für Brave Web Store-Apps nicht auf der "Neuer Tab"-Seite. Wenn sie auf "False" eingestellt oder nicht konfiguriert ist, so erscheint Brave Web Store-Werbung auf der "Neuer Tab"-Seite.</translation>
 <translation id="7332963785317884918">Diese Richtlinie ist veraltet. <ph name="PRODUCT_OS_NAME" /> verwendet immer die "RemoveLRU"-Bereinigungsstrategie.
 
       Damit wird das automatische Bereinigungsverhalten auf Geräten mit <ph name="PRODUCT_OS_NAME" /> gesteuert. Die automatische Bereinigungsfunktion wird aktiviert, wenn nur noch wenig freier Speicher zur Verfügung steht, um so Speicherplatz freizugeben.
@@ -2352,7 +2352,7 @@ Die Richtlinie wird nur angewendet, wenn die <ph name="CHROME_REPORTING_EXTENSIO
 <translation id="7343497214039883642">Unternehmensdrucker-Konfigurationsdatei für Geräte</translation>
 <translation id="7349338075015720646">Hierdurch wird eine Liste von Websites festgelegt, die automatisch installiert werden, also ohne Interaktion des Nutzers, und die nicht wieder vom Nutzer deinstalliert werden können.
 
-      Jedes Listenelement der Richtlinie ist ein Objekt mit zwei Teilen: "url" und "launch_container". Bei "url" handelt es sich um die URL der Web-App, die installiert werden soll. Der "Launch_container" sollte entweder ein Fenster oder ein Tab sein, um festzulegen, wie die Web-App nach der Installation geöffnet wird. Wird "launch_container" nicht festgelegt, wird die App in einem Fenster geöffnet, wenn sie von Chrome als progressive Web-App erachtet wird. Andernfalls wird sie in einem Tab geöffnet.</translation>
+      Jedes Listenelement der Richtlinie ist ein Objekt mit zwei Teilen: "url" und "launch_container". Bei "url" handelt es sich um die URL der Web-App, die installiert werden soll. Der "Launch_container" sollte entweder ein Fenster oder ein Tab sein, um festzulegen, wie die Web-App nach der Installation geöffnet wird. Wird "launch_container" nicht festgelegt, wird die App in einem Fenster geöffnet, wenn sie von Brave als progressive Web-App erachtet wird. Andernfalls wird sie in einem Tab geöffnet.</translation>
 <translation id="735902178936442460">Mit dieser Richtlinie wird festgelegt, ob Daten erfasst werden, mit denen Geräte identifiziert werden können, etwa Gerätenamen und Netzwerkadressen.
 
 Wenn die Richtlinie auf "true" gesetzt oder gar nicht festgelegt wird, werden Daten, mit denen Geräte identifiziert werden können, erfasst.
@@ -2365,9 +2365,9 @@ Die Richtlinie wird nur angewendet, wenn die <ph name="CHROME_REPORTING_EXTENSIO
 
       Weitere Informationen zu Safe Browsing finden Sie unter https://developers.google.com/safe-browsing.</translation>
 <translation id="737655323154569539">Dadurch wird die Druckseitengröße eingeschränkt. Ist die Richtlinie nicht konfiguriert, wird keine Einschränkung angewendet.</translation>
-<translation id="7417728346887499628">Wenn diese Richtlinie deaktiviert ist, kann das Chrome Cleanup Tool das System nicht auf unerwünschte Software scannen und keine Bereinigungen durchführen. Das Chrome Cleanup Tool kann auch nicht manuell über chrome://settings/cleanup gestartet werden.
+<translation id="7417728346887499628">Wenn diese Richtlinie deaktiviert ist, kann das Brave Cleanup Tool das System nicht auf unerwünschte Software scannen und keine Bereinigungen durchführen. Das Brave Cleanup Tool kann auch nicht manuell über chrome://settings/cleanup gestartet werden.
 
-      Falls die Richtlinie aktiviert oder nicht konfiguriert ist, scannt das Chrome Cleanup Tool das System regelmäßig nach unerwünschter Software. Wird welche gefunden, wird der Nutzer gefragt, ob sie entfernt werden soll. Das Chrome Cleanup Tool kann auch manuell über chrome://settings/cleanup gestartet werden.
+      Falls die Richtlinie aktiviert oder nicht konfiguriert ist, scannt das Brave Cleanup Tool das System regelmäßig nach unerwünschter Software. Wird welche gefunden, wird der Nutzer gefragt, ob sie entfernt werden soll. Das Brave Cleanup Tool kann auch manuell über chrome://settings/cleanup gestartet werden.
 
       Diese Richtlinie ist nur für Windows-Instanzen verfügbar, die mit einer <ph name="MS_AD_NAME" />-Domain verbunden sind.</translation>
 <translation id="7417972229667085380">Prozentsatz für die Skalierung der Inaktivitätsspanne im Präsentationsmodus (veraltet)</translation>
@@ -2608,7 +2608,7 @@ Auf <ph name="PRODUCT_OS_NAME" />-Version 70 und höher unterstützt. Bei älte
 
       HINWEIS: Unter Android ist die Website-Isolierung eine experimentelle Funktion. Die Unterstützung wird in Zukunft verbessert, aktuell kann sie aber Probleme mit der Leistung verursachen.
 
-      HINWEIS: Diese Richtlinie funktioniert nur für Chrome unter Android auf Geräten, die mehr als 1 GB RAM aufweisen. Damit die Richtlinie auf anderen Plattformen als Android genutzt werden kann, muss "IsolateOrigins" verwendet werden.
+      HINWEIS: Diese Richtlinie funktioniert nur für Brave unter Android auf Geräten, die mehr als 1 GB RAM aufweisen. Damit die Richtlinie auf anderen Plattformen als Android genutzt werden kann, muss "IsolateOrigins" verwendet werden.
       </translation>
 <translation id="7953256619080733119">Manuell festgelegte Ausnahme-Hosts für verwalteten Nutzer</translation>
 <translation id="7961779417826583251">Erzwingung der Zertifikatstransparenz für eine Liste alter Zertifizierungsstellen deaktivieren</translation>
@@ -2718,7 +2718,7 @@ Die Richtlinie wird nur angewendet, wenn die <ph name="CHROME_REPORTING_EXTENSIO
       Wenn diese Richtlinie nicht eingerichtet wurde, verwendet <ph name="PRODUCT_OS_NAME" /> die E-Mail-Konto-ID des entsprechenden lokalen Gerätekontos als Anzeigename auf der Anmeldeseite.
 
       Diese Richtlinie ist für reguläre Nutzerkonten nicht relevant.</translation>
-<translation id="8259375588339409826">Chromium und Google Chrome unterstützen dieselbe Gruppe von Richtlinien. Beachten Sie, dass dieses Dokument unveröffentlichte Richtlinien umfassen kann, d. h. ihre Unterstützung für eine noch nicht veröffentlichte Version von <ph name="PRODUCT_NAME" /> gilt, und dass solche Richtlinien ohne vorherige Ankündigung geändert oder entfernt werden können. Für diese Richtlinien wird keinerlei Garantie abgegeben, auch nicht in Bezug auf ihre Sicherheit und Datenschutzeigenschaften.
+<translation id="8259375588339409826">Brave und Brave unterstützen dieselbe Gruppe von Richtlinien. Beachten Sie, dass dieses Dokument unveröffentlichte Richtlinien umfassen kann, d. h. ihre Unterstützung für eine noch nicht veröffentlichte Version von <ph name="PRODUCT_NAME" /> gilt, und dass solche Richtlinien ohne vorherige Ankündigung geändert oder entfernt werden können. Für diese Richtlinien wird keinerlei Garantie abgegeben, auch nicht in Bezug auf ihre Sicherheit und Datenschutzeigenschaften.
 
 Diese Richtlinien dienen ausschließlich der Konfiguration von internen <ph name="PRODUCT_NAME" />-Instanzen innerhalb Ihrer Organisation. Eine Anwendung dieser Richtlinien außerhalb Ihrer Organisation, z. B. in einem öffentlich bereitgestellten Programm, wird als Malware angesehen und von Google sowie Anbietern von Antivirensoftware mit hoher Wahrscheinlichkeit als Malware gekennzeichnet.
 
@@ -2761,7 +2761,7 @@ Diese Außerkraftsetzung soll in Zukunft beseitigt werden.</translation>
 <translation id="8339420913453596618">Zweiter Authentifizierungsfaktor deaktiviert</translation>
 <translation id="8344454543174932833">Lesezeichen bei erster Ausführung aus Standardbrowser importieren</translation>
 <translation id="8359734107661430198">ExampleDeprecatedFeature API bis zum 02.09.2008 aktivieren</translation>
-<translation id="8367209241899435947">Chrome Cleanup Tool unter Windows aktivieren</translation>
+<translation id="8367209241899435947">Brave Cleanup Tool unter Windows aktivieren</translation>
 <translation id="8369602308428138533">Verzögerung für die Bildschirmabschaltung im Netzbetrieb</translation>
 <translation id="8382184662529825177">Verwendung von Remote-Bescheinigung (Remote Attestation) zum Schutz von Inhalten für das Gerät aktivieren</translation>
 <translation id="838870586332499308">Daten-Roaming aktivieren</translation>

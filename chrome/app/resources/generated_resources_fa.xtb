@@ -49,14 +49,14 @@
 <translation id="1067291318998134776">‏Linux (بتا)</translation>
 <translation id="1067922213147265141">‏سایر سرویس‌های Google</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">‏برنامه دیگری در رایانه شما یک افزونه اضافه کرده است که ممکن است نحوه کارکرد Chrome را تغییر دهد.
+<translation id="1070377999570795893">‏برنامه دیگری در رایانه شما یک افزونه اضافه کرده است که ممکن است نحوه کارکرد Brave را تغییر دهد.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1071917609930274619">به رمز درآوردن داده</translation>
 <translation id="1076698951459398590">فعال کردن طرح زمینه</translation>
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1079766198702302550">دسترسی به دوربین همیشه مسدود شود</translation>
-<translation id="1082398631555931481">‏<ph name="THIRD_PARTY_TOOL_NAME" /> می‌خواهد تنظیمات Chrome شما را به پیش‌فرض‌های اصلی‌شان بازیابی کند. با این کار صفحه اصلی، صفحه برگه جدید و موتور جستجویتان بازنشانی می‌شود، افزونه‌های شما غیرفعال می‌شوند و پین همه برگه‌ها برداشته می‌شود. همچنین سایر داده‌های موقت و داده‌های ذخیره شده در حافظه موقت، مانند کوکی‌ها، اطلاعات سایت و محتوا پاک می‌شوند.</translation>
+<translation id="1082398631555931481">‏<ph name="THIRD_PARTY_TOOL_NAME" /> می‌خواهد تنظیمات Brave شما را به پیش‌فرض‌های اصلی‌شان بازیابی کند. با این کار صفحه اصلی، صفحه برگه جدید و موتور جستجویتان بازنشانی می‌شود، افزونه‌های شما غیرفعال می‌شوند و پین همه برگه‌ها برداشته می‌شود. همچنین سایر داده‌های موقت و داده‌های ذخیره شده در حافظه موقت، مانند کوکی‌ها، اطلاعات سایت و محتوا پاک می‌شوند.</translation>
 <translation id="1082725763867769612">فایل‌های آفلاین</translation>
 <translation id="1084824384139382525">کپی آدر&amp;س پیوند</translation>
 <translation id="1085697365578766383">هنگام شروع دستگاه مجازی خطایی روی داد. لطفاً دوباره امتحان کنید.</translation>
@@ -73,7 +73,7 @@
 <translation id="1112420131909513020">برگه پس‌زمینه درحال استفاده از بلوتوث است</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">الماسی</translation>
-<translation id="1114335938027186412">‏رایانه شما حاوی یک دستگاه امنیتی با مدول پلتفورم مورداعتماد (TPM) است که برای اجرای بسیاری از ویژگی‌های امنیتی مهم در سیستم عامل Chrome استفاده می‌شود. برای کسب اطلاعات بیشتر به مرکز راهنمایی Chromebook بروید: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">‏رایانه شما حاوی یک دستگاه امنیتی با مدول پلتفورم مورداعتماد (TPM) است که برای اجرای بسیاری از ویژگی‌های امنیتی مهم در سیستم عامل Brave استفاده می‌شود. برای کسب اطلاعات بیشتر به مرکز راهنمایی Chromebook بروید: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114525161406758033">رفتن به حالت خواب، وقتی دستگاه بسته می‌شود</translation>
 <translation id="1115324527092594775">‏راه‌اندازی Better Together</translation>
 <translation id="1116639326869298217">هویتتان تأیید نشد</translation>
@@ -100,7 +100,7 @@
 <translation id="1145292499998999162">افزایه مسدود شد</translation>
 <translation id="1145532888383813076">دستگاه، برنامه‌ها و وب را جستجو کنید.</translation>
 <translation id="1146204723345436916">‏وارد کردن نشانک‌ها از فایل HTML...</translation>
-<translation id="114721135501989771">‏هوشمندی‌های Google را در Chrome دریافت کنید</translation>
+<translation id="114721135501989771">‏هوشمندی‌های Google را در Brave دریافت کنید</translation>
 <translation id="1148097584170732637"><ph name="FILE_COUNT" /> مورد پیدا شد.
     <ph name="LINE_BREAK1" />
     در حافظه محلی فضای کافی در دسترس نیست. <ph name="FILE_SIZE" /> فضای اضافی لازم است.
@@ -112,7 +112,7 @@
 <translation id="1156488781945104845">زمان کنونی</translation>
 <translation id="1157102636231978136">‏داده‌های محصول مرور و فعالیتتان با حساب Google شما همگام‌سازی شد</translation>
 <translation id="1161575384898972166">لطفاً برای صدور مجوز سرویس گیرنده، به <ph name="TOKEN_NAME" /> وارد شوید.</translation>
-<translation id="1161699061380012396">‏روش ورودی سیستم‌عامل Chrome</translation>
+<translation id="1161699061380012396">‏روش ورودی سیستم‌عامل Brave</translation>
 <translation id="1163931534039071049">&amp;نمای منبع قاب</translation>
 <translation id="1164674268730883318">‏Smart Lock برای <ph name="DEVICE_TYPE" /> خاموش شود؟</translation>
 <translation id="1164899421101904659">کلید باز کردن قفل پین را وارد کنید</translation>
@@ -228,9 +228,9 @@
 <translation id="131461803491198646">شبکه اصلی، بدون رومینگ</translation>
 <translation id="1316136264406804862">در حال جستجو...</translation>
 <translation id="1316495628809031177">همگام‌سازی موقتاً متوقف شده است</translation>
-<translation id="1319979322914001937">‏برنامه‌ای که فهرست فیلترشده‌ای از افزونه‌ها از فروشگاه وب Chrome را نشان می‌دهد. می‌توان افزونه‌ها در این فهرست را به‌طور مستقیم از برنامه نصب کرد.</translation>
+<translation id="1319979322914001937">‏برنامه‌ای که فهرست فیلترشده‌ای از افزونه‌ها از فروشگاه وب Brave را نشان می‌دهد. می‌توان افزونه‌ها در این فهرست را به‌طور مستقیم از برنامه نصب کرد.</translation>
 <translation id="1322046419516468189">در <ph name="SAVED_PASSWORDS_STORE" /> گذرواژه‌های ذخیره‌شده‌تان را مشاهده و مدیریت کنید</translation>
-<translation id="1326317727527857210">‏برای دسترسی به برگه‌هایتان در دستگاه‌های دیگر، به سیستم Chrome وارد شوید.</translation>
+<translation id="1326317727527857210">‏برای دسترسی به برگه‌هایتان در دستگاه‌های دیگر، به سیستم Brave وارد شوید.</translation>
 <translation id="1327074568633507428">‏چاپگر در Google Cloud Print</translation>
 <translation id="1327977588028644528">دروازه</translation>
 <translation id="1329584516321524826">لحظاتی پیش به‌روزرسانی شد</translation>
@@ -289,7 +289,7 @@
 <translation id="1409390508152595145">ایجاد کاربر نظارت شده</translation>
 <translation id="1410197035576869800">نماد برنامه</translation>
 <translation id="1410616244180625362">ادامه اجازه به <ph name="HOST" /> برای دسترسی به دوربین</translation>
-<translation id="1411668397053040814">‏برای استفاده از Chrome در VR، صفحه کلید Daydream را نصب یا به‌روزرسانی کنید</translation>
+<translation id="1411668397053040814">‏برای استفاده از Brave در VR، صفحه کلید Daydream را نصب یا به‌روزرسانی کنید</translation>
 <translation id="1414648216875402825">شما نسخه ناپایداری از <ph name="PRODUCT_NAME" /> را به‌روزرسانی می‌کنید که حاوی قابلیت‌های در حال توسعه است. خرابی‌ها و اشکال‌های غیرمنتظره‌ای رخ خواهد داد. لطفاُ با احتیاط ادامه دهید.</translation>
 <translation id="1415708812149920388">دسترسی برای خواندن محتوای بریده‌دان امکان‌پذیر نیست</translation>
 <translation id="1415990189994829608"><ph name="EXTENSION_NAME" /> (شناسه برنامه افزودنی «<ph name="EXTENSION_ID" />») در این نوع جلسه مجاز نیست.</translation>
@@ -398,7 +398,7 @@
 <translation id="1581962803218266616">‏نمایش در Finder</translation>
 <translation id="1584990664401018068">‏شبکه Wi-Fi مورد استفاده شما (<ph name="NETWORK_ID" />) احتمالاً نیاز به احراز هویت دارد.</translation>
 <translation id="1585238069289523942">‏نصب برنامه در Chromebook</translation>
-<translation id="1585717515139318619">‏برنامه دیگری در رایانه شما یک طرح زمینه اضافه کرده است که ممکن است نحوه کارکرد Chrome را تغییر دهد.
+<translation id="1585717515139318619">‏برنامه دیگری در رایانه شما یک طرح زمینه اضافه کرده است که ممکن است نحوه کارکرد Brave را تغییر دهد.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">کنسول &amp;جاوا اسکریپت</translation>
@@ -433,11 +433,11 @@
 <translation id="1627408615528139100">قبلاً بارگیری شده است</translation>
 <translation id="1632803087685957583">به شما امکان می‌دهد سرعت تکرار صفحه‌کلید، پیش‌بینی کلمه و سایر موارد را تنظیم کنید</translation>
 <translation id="1635033183663317347">قیم شما نصب کرده است.</translation>
-<translation id="1635885551358739414">‏ممکن است Google از محتوای سایت‌هایی که بازدید می‌کنید و فعالیت و تعاملات مرورگر برای شخصی کردن Chrome و سایر سرویس‌های Google (مانند «مترجم»، «جستجو» و آگهی‌ها) استفاده کند. می‌توانید این مورد را در «تنظیمات» سفارشی کنید.</translation>
+<translation id="1635885551358739414">‏ممکن است Google از محتوای سایت‌هایی که بازدید می‌کنید و فعالیت و تعاملات مرورگر برای شخصی کردن Brave و سایر سرویس‌های Google (مانند «مترجم»، «جستجو» و آگهی‌ها) استفاده کند. می‌توانید این مورد را در «تنظیمات» سفارشی کنید.</translation>
 <translation id="1637224376458524414">‏این نشانک را در iPhone خود دریافت کنید</translation>
 <translation id="1637765355341780467">هنگام باز کردن نمایه‌تان خطایی رخ داد. ممکن است برخی از قابلیت‌ها در دسترس نباشند.</translation>
 <translation id="1639239467298939599">بارگیری</translation>
-<translation id="163993578339087550">‏<ph name="SERVICE_NAME" /> می‌خواهد مطمئن شود از دستگاه واجد شرایطی با سیستم‌عامل Chrome استفاده می‌کنید.</translation>
+<translation id="163993578339087550">‏<ph name="SERVICE_NAME" /> می‌خواهد مطمئن شود از دستگاه واجد شرایطی با سیستم‌عامل Brave استفاده می‌کنید.</translation>
 <translation id="1640283014264083726">‏PKCS #1 MD4 با رمزگذاری RSA</translation>
 <translation id="1641113438599504367">مرور ایمن</translation>
 <translation id="1642494467033190216">راه‌اندازی مجدد و برداشتن محافظت ویژگی‌های ریشه قبل از فعال کردن ویژگی‌های رفع‌اشکال دیگر لازم است.</translation>
@@ -711,7 +711,7 @@
 <translation id="204497730941176055">‏نام الگوی گواهی Microsoft</translation>
 <translation id="2045117674524495717">راهنمای میان‌بر صفحه‌کلید</translation>
 <translation id="2045969484888636535">ادامه مسدود کردن کوکی‌ها</translation>
-<translation id="204622017488417136">‏دستگاه شما به نسخه قبلاً نصب شده Chrome باز می‌گردد. همه حساب‌های کاربری و داده‌های محلی حذف می‌شوند. این کار قابل بازگشت نیست.</translation>
+<translation id="204622017488417136">‏دستگاه شما به نسخه قبلاً نصب شده Brave باز می‌گردد. همه حساب‌های کاربری و داده‌های محلی حذف می‌شوند. این کار قابل بازگشت نیست.</translation>
 <translation id="2048182445208425546">دسترسی به ترافیک شبکه شما</translation>
 <translation id="2048653237708779538">کنش دردسترس نیست</translation>
 <translation id="204914487372604757">ایجاد میان‌بر</translation>
@@ -738,14 +738,14 @@
 <translation id="2085483813371386023">‏برای دیدن گزینه‌های Better Together به <ph name="LINK_BEGIN" />تنظیمات<ph name="LINK_END" /> بروید</translation>
 <translation id="208586643495776849">لطفاً دوباره امتحان کنید</translation>
 <translation id="2087822576218954668">چاپ: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">‏با Google Chrome ایمن مرور کنید</translation>
+<translation id="2089566709556890888">‏با Brave ایمن مرور کنید</translation>
 <translation id="2089795179672254991">وقتی سایتی می‌خواهد به نوشتار و تصاویر کپی‌شده در بریده‌دان دسترسی پیدا کند، سؤال شود (توصیه می‌شود)</translation>
 <translation id="2090165459409185032">‏برای بازیابی اطلاعات حساب‌تان به اینجا بروید: google.com/accounts/recovery</translation>
 <translation id="2090876986345970080">تنظیم امنیتی سیستم</translation>
 <translation id="2091887806945687916">صدا</translation>
-<translation id="2097372108957554726">‏برای ثبت دستگاه‌های جدید باید به سیستم Chrome وارد شوید</translation>
+<translation id="2097372108957554726">‏برای ثبت دستگاه‌های جدید باید به سیستم Brave وارد شوید</translation>
 <translation id="2098305189700762159">یافت نشد</translation>
-<translation id="2099172618127234427">‏ویژگی‌های رفع اشکال سیستم عامل Chrome را فعال می‌کنید که sshd daemon را تنظیم خواهد کرد و راه‌اندازی از درایوهای USB را فعال می‌کند.</translation>
+<translation id="2099172618127234427">‏ویژگی‌های رفع اشکال سیستم عامل Brave را فعال می‌کنید که sshd daemon را تنظیم خواهد کرد و راه‌اندازی از درایوهای USB را فعال می‌کند.</translation>
 <translation id="2099686503067610784">مجوز سرور "<ph name="CERTIFICATE_NAME" />" حذف شود؟</translation>
 <translation id="2100273922101894616">ورود به سیستم خودکار</translation>
 <translation id="2101225219012730419">نسخه:</translation>
@@ -896,7 +896,7 @@
 <translation id="2318817390901984578">‏برای استفاده از برنامه‌های Android، ‏<ph name="DEVICE_TYPE" /> خود را شارژ و به‌روزرسانی کنید.</translation>
 <translation id="2318923050469484167">جلسه ناشناس کنونی (<ph name="EMBEDDING" />)</translation>
 <translation id="2322193970951063277">سرصفحه‌ها و پانویس‌ها</translation>
-<translation id="2325650632570794183">‏این نوع فایل پشتیبانی نمی‌شود. لطفاً فروشگاه وب Chrome را بازدید کنید تا برنامه‌ای را پیدا کنید که بتواند این نوع فایل را باز کند.</translation>
+<translation id="2325650632570794183">‏این نوع فایل پشتیبانی نمی‌شود. لطفاً فروشگاه وب Brave را بازدید کنید تا برنامه‌ای را پیدا کنید که بتواند این نوع فایل را باز کند.</translation>
 <translation id="2326931316514688470">&amp;تازه‌سازی برنامه</translation>
 <translation id="2327492829706409234">فعال کردن برنامه</translation>
 <translation id="2329597144923131178">برای دریافت نشانک‌ها، سابقه، گذرواژه‌ها و سایر تنظیماتتان در همه دستگاه‌ها، وارد سیستم شوید.</translation>
@@ -919,7 +919,7 @@
 <translation id="2352947182261340447">فضای کافی در حافظه محلی در دسترس نیست.</translation>
 <translation id="2353297238722298836">دوربین و میکروفون مجاز هستند</translation>
 <translation id="2356070529366658676">سؤال شود</translation>
-<translation id="2357949918965361754">‏می‌توانید از این قابلیت برای نمایش محتوا از Chrome روی تلویزیون یا دستگاه‌های دیگرتان استفاده کنید.</translation>
+<translation id="2357949918965361754">‏می‌توانید از این قابلیت برای نمایش محتوا از Brave روی تلویزیون یا دستگاه‌های دیگرتان استفاده کنید.</translation>
 <translation id="2359345697448000899">با کلیک کردن روی افزونه‌ها در منوی ابزار، برنامه‌های افزودنی خود را مدیریت کنید.</translation>
 <translation id="2359808026110333948">ادامه</translation>
 <translation id="236117173274098341">بهینه‌سازی</translation>
@@ -1066,7 +1066,7 @@
 <translation id="2585724835339714757">این برگه درحال اشتراک‌گذاری صفحه‌نمایش شماست.</translation>
 <translation id="2586657967955657006">کلیپ‌بورد</translation>
 <translation id="2586672484245266891">لطفاً نشانی وب کوتاه‌تری وارد کنید</translation>
-<translation id="2587922270115112871">‏با ایجاد کاربر نظارت شده، حساب Google ایجاد نمی‌شود و تنظیمات و داده‌های آن در دستگاه‌های دیگری که دارای قابلیت همگام‌ساز Chrome هستند اعمال نمی‌شود. کاربر نظارت شده فقط در این دستگاه اعمال می‌شود.</translation>
+<translation id="2587922270115112871">‏با ایجاد کاربر نظارت شده، حساب Google ایجاد نمی‌شود و تنظیمات و داده‌های آن در دستگاه‌های دیگری که دارای قابلیت همگام‌ساز Brave هستند اعمال نمی‌شود. کاربر نظارت شده فقط در این دستگاه اعمال می‌شود.</translation>
 <translation id="258932246702879617"><ph name="BEGIN_BOLD" />پین به نوار وظیفه<ph name="END_BOLD" /> را انتخاب کنید</translation>
 <translation id="259421303766146093">لغو بزرگ‌نمایی</translation>
 <translation id="2594999711683503743">‏در Google جستجو کنید یا نشانی وب را تایپ کنید</translation>
@@ -1118,14 +1118,14 @@
 <translation id="2660779039299703961">رویداد</translation>
 <translation id="266079277508604648">‏چاپگر متصل نشد. بررسی کنید چاپگر روشن و ازطریق Wi-Fi یا USB به Chromebook متصل باشد.</translation>
 <translation id="2661146741306740526">۱۶x۹</translation>
-<translation id="2662876636500006917">Chrome Web Store</translation>
+<translation id="2662876636500006917">Brave Web Store</translation>
 <translation id="2663302507110284145">زبان</translation>
 <translation id="2665394472441560184">افزودن کلمه جدید</translation>
 <translation id="2665717534925640469">این صفحه اکنون در حالت تمام صفحه است و مکان‌نمای ماوس شما را غیرفعال می‌کند.</translation>
 <translation id="2665919335226618153">اوه، نه! هنگام قالب‌بندی خطایی رخ داد.</translation>
 <translation id="2666990579225592931">باز کردن پنجره مهمان</translation>
 <translation id="2667463864537187133">مدیریت غلط‌گیر املا</translation>
-<translation id="2670102641511624474">‏<ph name="APP_NAME" /> درحال اشتراک‌گذاری یک برگه Chrome است.</translation>
+<translation id="2670102641511624474">‏<ph name="APP_NAME" /> درحال اشتراک‌گذاری یک برگه Brave است.</translation>
 <translation id="2670429602441959756">این صفحه حاوی قابلیت‌هایی است که هنوز در حالت «واقعیت مجازی» پشتیبانی نمی‌شوند. درحال خروج…</translation>
 <translation id="2671451824761031126">نشانک‌ها و تنظیمات شما آماده هستند</translation>
 <translation id="2672142220933875349">‏فایل crx نادرست، باز کردن بسته انجام نشد.</translation>
@@ -1144,7 +1144,7 @@
 <translation id="2691385045260836588">مدل</translation>
 <translation id="2693176596243495071">وای! خطای نامعلومی روی داد. لطفاً بعداً دوباره امتحان کنید یا اگر مشکل حل نشد، با سرپرستتان تماس بگیرید.</translation>
 <translation id="2695749433451188613">‏پروتکل چاپ اینترنتی (HTTPS)</translation>
-<translation id="270358213449696159">‏محتوای شرایط سیستم‌عامل Google Chrome</translation>
+<translation id="270358213449696159">‏محتوای شرایط سیستم‌عامل Brave</translation>
 <translation id="2704184184447774363">‏امضای مدرک Microsoft</translation>
 <translation id="270516211545221798">سرعت صفحه لمسی</translation>
 <translation id="2705736684557713153">به پایین صفحه نمایش پیمایش کنید و اگر «اتصال فوری به اینترنت با تلفن همراه» نمایان شد، آن را روشن کنید. اگر نمایان نشد، همه چیز آماده است.</translation>
@@ -1262,8 +1262,8 @@
 <translation id="2871813825302180988">از این حساب از قبل در این دستگاه استفاده می‌شود.</translation>
 <translation id="2872353916818027657">تعویض مانیتور اصلی</translation>
 <translation id="287286579981869940">افزودن <ph name="PROVIDER_NAME" />...</translation>
-<translation id="2874343608108773609">‏برای اینکه گذرواژه‌هایتان را در همه دستگاه‌ها دریافت کنید، به سیستم Chrome وارد شوید.</translation>
-<translation id="2875698561019555027">‏(صفحه‌های خطای Chrome)</translation>
+<translation id="2874343608108773609">‏برای اینکه گذرواژه‌هایتان را در همه دستگاه‌ها دریافت کنید، به سیستم Brave وارد شوید.</translation>
+<translation id="2875698561019555027">‏(صفحه‌های خطای Brave)</translation>
 <translation id="2876336351874743617">انگشت ۲</translation>
 <translation id="288042212351694283">‏دسترسی به دستگاه‌های Universal 2nd Factor شما</translation>
 <translation id="2881076733170862447">وقتی روی افزونه کلیک می‌کنید</translation>
@@ -1403,7 +1403,7 @@
 <translation id="3083193146044397360">برای محافظت از امنیت شما، به‌طور موقت مسدود شده است</translation>
 <translation id="308330327687243295">https://mail.google.com/mail/?extsrc=mailto&amp;url=%s</translation>
 <translation id="3084548735795614657">رهاکردن جهت نصب</translation>
-<translation id="3084771660770137092">‏ممکن است حافظه Chrome تمام شده باشد یا فرآیند مربوط به صفحهٔ وب به دلایل دیگری متوقف شده باشد. برای ادامه، صفحه را تازه‌سازی کنید یا به یک صفحه دیگر بروید.</translation>
+<translation id="3084771660770137092">‏ممکن است حافظه Brave تمام شده باشد یا فرآیند مربوط به صفحهٔ وب به دلایل دیگری متوقف شده باشد. برای ادامه، صفحه را تازه‌سازی کنید یا به یک صفحه دیگر بروید.</translation>
 <translation id="3085412380278336437">سایت می‌تواند از دوربینتان استفاده کند</translation>
 <translation id="3085752524577180175">‏میزبان SOCKS</translation>
 <translation id="3088325635286126843">&amp;تغییر‌نام...</translation>
@@ -1440,7 +1440,7 @@
 <translation id="3143695347784622594">‏ارسال داده‌های سیستم. داده‌های عیب‌یابی و میزان استفاده دستگاه و برنامه به‌طور خودکار به Google ارسال می‌شوند. هرزمان خواستید می‌توانید این مورد را در <ph name="BEGIN_LINK1" />تنظیمات<ph name="END_LINK1" /> دستگاه تغییر دهید. اگر «فعالیت وب و برنامه» تکمیلی را روشن کرده باشید، این اطلاعات در حسابتان ذخیره خواهد شد تا بتوانید آن‌ها را در «فعالیت من» مدیریت کنید. <ph name="BEGIN_LINK2" />بیشتر بدانید<ph name="END_LINK2" /></translation>
 <translation id="3144126448740580210">تمام</translation>
 <translation id="3144647712221361880">بازکردن پیوند به‌عنوان</translation>
-<translation id="3149510190863420837">‏برنامه‌های Chrome</translation>
+<translation id="3149510190863420837">‏برنامه‌های Brave</translation>
 <translation id="3150927491400159470">تازه سازی سخت</translation>
 <translation id="315116470104423982">داده‌های تلفن همراه</translation>
 <translation id="3151539355209957474">زمان شروع</translation>
@@ -1515,9 +1515,9 @@
 <translation id="3279230909244266691">این فرایند ممکن است چند دقیقه طول بکشد. درحال شروع دستگاه مجازی.</translation>
 <translation id="3279741024917655738">نمایش ویدیوهای تمام‌صفحه در</translation>
 <translation id="3280237271814976245">ذخیره &amp;بعنوان</translation>
-<translation id="3280243678470289153">‏ماندن در Chrome</translation>
+<translation id="3280243678470289153">‏ماندن در Brave</translation>
 <translation id="3280431534455935878"> آماده‌سازی</translation>
-<translation id="3282568296779691940">‏ورود به Chrome</translation>
+<translation id="3282568296779691940">‏ورود به Brave</translation>
 <translation id="3285322247471302225">&amp;برگه جدید</translation>
 <translation id="3288047731229977326">افزونه‌هایی که در حالت برنامه‌نوبس اجرا می‌شوند می‌توانند به رایانه شما آسیب برسانند. اگر برنامه‌نویس نیستید، باید این برنامه‌های افزودنی را که در حالت برنامه‌نویس اجرا می‌شوند غیرفعال کنید تا ایمن بمانید.</translation>
 <translation id="3289856944988573801">‏برای بررسی موارد به‌روز لطفاً از کابل شبکه یا Wi-Fi استفاده کنید.</translation>
@@ -1784,7 +1784,7 @@
 <translation id="3664511988987167893">نماد افزونه</translation>
 <translation id="3665589677786828986">‏Chrome تشخیص داد که برنامه دیگری برخی از تنظیمات شما را خراب کرده است و این تنظیمات را به پیش‌فرض‌های اولیه آن‌ها بازنشانی کرد.</translation>
 <translation id="3668570675727296296">تنظیمات زبان</translation>
-<translation id="3668801437375206837">‏برای بهبود رفع مشکلات بلوتوث، کارمندان Google می‌توانند گزارش‌های بلوتوث اضافی‌ای را با گزارش‌های بازخورد شما همراه کنند. وقتی این گزینه انتخاب شود، گزارشتان شامل گزارش‌های btsnoop و HCI جلسهٔ اخیرتان نیز می‌شود، که با برداشتن اطلاعات قابل‌شناسایی شخصی (PII) تا جای ممکن پاک‌سازی شده است. فقط مدیران گروه محصول سیستم‌عامل Chrome در Listnr به این گزارش‌ها دسترسی دارند. گزارش‌ها پس از ۹۰ روز حذف دائم می‌شود.</translation>
+<translation id="3668801437375206837">‏برای بهبود رفع مشکلات بلوتوث، کارمندان Google می‌توانند گزارش‌های بلوتوث اضافی‌ای را با گزارش‌های بازخورد شما همراه کنند. وقتی این گزینه انتخاب شود، گزارشتان شامل گزارش‌های btsnoop و HCI جلسهٔ اخیرتان نیز می‌شود، که با برداشتن اطلاعات قابل‌شناسایی شخصی (PII) تا جای ممکن پاک‌سازی شده است. فقط مدیران گروه محصول سیستم‌عامل Brave در Listnr به این گزارش‌ها دسترسی دارند. گزارش‌ها پس از ۹۰ روز حذف دائم می‌شود.</translation>
 <translation id="3668823961463113931">کنترل‌کننده‌ها</translation>
 <translation id="3670229581627177274">روشن کردن بلوتوث</translation>
 <translation id="3672681487849735243">یک خطای کارخانه شناسایی شده است</translation>
@@ -1821,7 +1821,7 @@
 <translation id="3719826155360621982">صفحه اصلی</translation>
 <translation id="3720996970802414353">درهرصورت جابه‌جایی</translation>
 <translation id="3722108462506185496">هنگام شروع سرویس دستگاه مجازی خطایی روی داد. لطفاً دوباره امتحان کنید.</translation>
-<translation id="3723158278575423087">‏به تجربه ارسال محتوا در Chromium خوش آمدید!</translation>
+<translation id="3723158278575423087">‏به تجربه ارسال محتوا در Brave خوش آمدید!</translation>
 <translation id="3725367690636977613">صفحات</translation>
 <translation id="3726463242007121105">این دستگاه باز نمی‌شود زیرا سیستم فایل آن پشتیبانی نمی‌شود.</translation>
 <translation id="3727148787322499904">تغییر این تنظیم همه شبکه‌های به اشتراک‌گذاشته‌شده را تحت تأثیر قرار می‌دهد</translation>
@@ -1861,7 +1861,7 @@
 <translation id="3768037234834996183">در حال همگام‌سازی تنظیمات ترجیحی...</translation>
 <translation id="3771294271822695279">فایل‌های ویدئویی</translation>
 <translation id="3775432569830822555">‏گواهی سرور SSL</translation>
-<translation id="3776796446459804932">‏این برنامه افزودنی حریم خصوصی فروشگاه وب Chrome را نقض می‌کند.</translation>
+<translation id="3776796446459804932">‏این برنامه افزودنی حریم خصوصی فروشگاه وب Brave را نقض می‌کند.</translation>
 <translation id="3777806571986431400">برنامه افزودنی فعال شد</translation>
 <translation id="3778152852029592020">بارگیری لغو شد.</translation>
 <translation id="3778740492972734840">ابزارهای &amp;برنامه نویس</translation>
@@ -1890,7 +1890,7 @@
 <translation id="3811494700605067549">۱ فایل انتخاب شد</translation>
 <translation id="381202950560906753">افزودن دستگاه دیگر</translation>
 <translation id="3812525830114410218">گواهی نادرست</translation>
-<translation id="3813296892522778813">‏اگر نمی‌توانید چیزی را که می‌خواهید پیدا کنید،‌ به <ph name="BEGIN_LINK_CHROMIUM" />راهنمای Google Chrome‏<ph name="END_LINK_CHROMIUM" /> بروید</translation>
+<translation id="3813296892522778813">‏اگر نمی‌توانید چیزی را که می‌خواهید پیدا کنید،‌ به <ph name="BEGIN_LINK_CHROMIUM" />راهنمای Brave‏<ph name="END_LINK_CHROMIUM" /> بروید</translation>
 <translation id="3813984289128269159">Ok Google</translation>
 <translation id="3817579325494460411">ارائه نشده است</translation>
 <translation id="3819752733757735746">دسترسی سوئیچ (رایانه را فقط با یک یا دو سوئیچ کنترل کنید)</translation>
@@ -1929,9 +1929,9 @@
 <translation id="3860104611854310167"><ph name="PROFILE_NAME" />: همگام‌سازی موقتاً متوقف شد</translation>
 <translation id="3860381078714302691">‏به Hangouts Meet خوش آمدید</translation>
 <translation id="3861241522664181545">صفحه موقتاً متوقف شد.</translation>
-<translation id="3862134173397075045">‏به تجربه ارسال محتوا در Chrome خوش آمدید!</translation>
+<translation id="3862134173397075045">‏به تجربه ارسال محتوا در Brave خوش آمدید!</translation>
 <translation id="3862693525629180217">به‌تأیید رساندن ازطریق حسگر داخلی</translation>
-<translation id="3862788408946266506">‏برنامه‌ای با ویژگی مانیفست «kiosk_only» باید در حالت کیوسک سیستم عامل Chrome نصب شود</translation>
+<translation id="3862788408946266506">‏برنامه‌ای با ویژگی مانیفست «kiosk_only» باید در حالت کیوسک سیستم عامل Brave نصب شود</translation>
 <translation id="3865414814144988605">وضوح</translation>
 <translation id="386548886866354912">بسته‌بندی با <ph name="EXTENSION_NAME" /></translation>
 <translation id="3866249974567520381">توضیح</translation>
@@ -2037,7 +2037,7 @@
 <translation id="4022426551683927403">&amp;افزودن به واژه‌نامه</translation>
 <translation id="4023146161712577481">تعیین پیکربندی دستگاه</translation>
 <translation id="4027804175521224372">(شما موفق نشدید-<ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK" />)</translation>
-<translation id="4027951648498485763">‏تنظیمات Flash تا وقتی از Chrome خارج شوید حفظ می‌شود.</translation>
+<translation id="4027951648498485763">‏تنظیمات Flash تا وقتی از Brave خارج شوید حفظ می‌شود.</translation>
 <translation id="4031179711345676612">میکروفون مجاز است</translation>
 <translation id="4031527940632463547">حسگرها مسدود شدند</translation>
 <translation id="4031910098617850788">F5</translation>
@@ -2047,7 +2047,7 @@
 <translation id="4035758313003622889">مدیر &amp;فعالیت ها</translation>
 <translation id="4037084878352560732">اسب</translation>
 <translation id="4037889604535939429">ویرایش شخص</translation>
-<translation id="4042264909745389898">‏شرایط سیستم‌عامل Google Chrome</translation>
+<translation id="4042264909745389898">‏شرایط سیستم‌عامل Brave</translation>
 <translation id="4042863763121826131">{NUM_PAGES,plural, =1{خروج از صفحه}one{خروج از صفحه‌ها}other{خروج از صفحه‌ها}}</translation>
 <translation id="4044612648082411741">گذرواژه گواهی‌تان را وارد کنید</translation>
 <translation id="404493185430269859">موتور جستجوی پیش‌‌فرض</translation>
@@ -2283,9 +2283,9 @@
 <translation id="4450974146388585462">تشخیص</translation>
 <translation id="4453946976636652378">جستجوی <ph name="SEARCH_ENGINE_NAME" /> یا تایپ نشانی وب</translation>
 <translation id="4462159676511157176">سرورهای نام سفارشی</translation>
-<translation id="4467100756425880649">‏گالری فروشگاه وب Chrome</translation>
+<translation id="4467100756425880649">‏گالری فروشگاه وب Brave</translation>
 <translation id="4467101674048705704">بزرگ کردن <ph name="FOLDER_NAME" /></translation>
-<translation id="447252321002412580">‏کمک به بهبود ویژگی‌ها و عملکرد Chrome</translation>
+<translation id="447252321002412580">‏کمک به بهبود ویژگی‌ها و عملکرد Brave</translation>
 <translation id="4474155171896946103">نشانک‌گذاری همه برگه‌ها...</translation>
 <translation id="4475552974751346499">جستجوی فایل‌های بارگیری‌شده</translation>
 <translation id="4476590490540813026">ورزشکار</translation>
@@ -2310,7 +2310,7 @@
 <translation id="4514542542275172126">تنظیم کاربر نظارت شده جدید</translation>
 <translation id="4514610446763173167">تغییر وضعیت بین پخش یا مکث ویدیو</translation>
 <translation id="451515744433878153">پاک کردن</translation>
-<translation id="4518677423782794009">‏آیا Chrome خراب می‌شود، صفحات شروع، نوارابزار غیرمعمول یا آگهی‌های ناخواسته‌ای نشان می‌دهد که نمی‌توانید از شرشان خلاص شوید یا به روش دیگری تجربه مرور شما را تغییر می‌دهد؟ ممکن است با اجرای «ابزار پاک‌سازی Chrome»، بتوانید این مشکل را رفع کنید.</translation>
+<translation id="4518677423782794009">‏آیا Brave خراب می‌شود، صفحات شروع، نوارابزار غیرمعمول یا آگهی‌های ناخواسته‌ای نشان می‌دهد که نمی‌توانید از شرشان خلاص شوید یا به روش دیگری تجربه مرور شما را تغییر می‌دهد؟ ممکن است با اجرای «ابزار پاک‌سازی Chrome»، بتوانید این مشکل را رفع کنید.</translation>
 <translation id="4519935350946509010">خطا در اتصال.</translation>
 <translation id="4520385623207007473">کوکی‌های درحال استفاده</translation>
 <translation id="452039078290142656">دستگاه‌های ناشناس از <ph name="VENDOR_NAME" /></translation>
@@ -2331,11 +2331,11 @@
 <translation id="4545028762441890696">برای دوباره فعال کردن آن، مجوزهای جدید را بپذیرید:</translation>
 <translation id="454547174531670764">همگام‌سازی با حسابی دیگر</translation>
 <translation id="4545759655004063573">به دلیل مجوزهای ناکافی ذخیره امکان‌پذیر نیست. لطفاً در محل دیگری ذخیره کنید.</translation>
-<translation id="4546308221697447294">‏با Google Chrome سریع مرور کنید</translation>
+<translation id="4546308221697447294">‏با Brave سریع مرور کنید</translation>
 <translation id="4547659257713117923">برگه‌ای از دیگر دستگاه‌ها وجود ندارد</translation>
 <translation id="4547672827276975204">تنظیم خودکار</translation>
 <translation id="4547992677060857254">پوشه‌ای که انتخاب کرده‌اید، حاوی فایل‌های حساسی است. آیا مطمئنید که می‌خواهید به «$1» دسترسی دائم نوشتن در این پوشه را اعطا کنید؟</translation>
-<translation id="4552031286893852992">‏چون این سایت تمایل دارد آگهی‌های مزاحم نشان دهد، Chrome آگهی‌ها را در این سایت مسدود کرد.</translation>
+<translation id="4552031286893852992">‏چون این سایت تمایل دارد آگهی‌های مزاحم نشان دهد، Brave آگهی‌ها را در این سایت مسدود کرد.</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4552678318981539154">خرید فضای ذخیره بیشتر</translation>
 <translation id="4554591392113183336">برنامه افزودنی خارجی در مقایسه با برنامه کنونی، دارای همان نسخه یا نسخه پایین‌تر است.</translation>
@@ -2401,7 +2401,7 @@
 <translation id="4647697156028544508">لطفاً پین را برای "<ph name="DEVICE_NAME" />" وارد کنید:</translation>
 <translation id="4648491805942548247">مجوزها کافی نیستند</translation>
 <translation id="4648499713050786492">لطفاً قبل از افزودن شخصی، قفل نمایه‌تان را باز کنید.</translation>
-<translation id="465499440663162826">‏اتصال به فروشگاه وب Chrome انجام نشد.</translation>
+<translation id="465499440663162826">‏اتصال به فروشگاه وب Brave انجام نشد.</translation>
 <translation id="4656293982926141856">این رایانه</translation>
 <translation id="4658312088164718891">‏برای روشن کردن Smart Lock، گذرواژه‌تان را وارد کنید. دفعه بعد، تلفنتان قفل <ph name="DEVICE_TYPE" /> را باز می‌کند. در «تنظیمات»، Smart Lock را خاموش کنید.</translation>
 <translation id="4660476621274971848">نسخه موردانتظار «<ph name="EXPECTED_VERSION" />» است، اما نسخه «<ph name="NEW_ID" />» بود</translation>
@@ -2463,7 +2463,7 @@
 <translation id="4743260470722568160"><ph name="BEGIN_LINK" />با نحوه به‌روزرسانی برنامه‌ها آشنا شوید<ph name="END_LINK" /></translation>
 <translation id="4746351372139058112">پیام‌ها</translation>
 <translation id="4746971725921104503">به نظر می‌رسد که شما از قبل در حال مدیریت کاربری با همان نام هستید. آیا مایلید <ph name="LINK_START" /><ph name="USER_DISPLAY_NAME" /> را به این دستگاه وارد کنید<ph name="LINK_END" />؟</translation>
-<translation id="4748762018725435655">‏نیازمند افزونه از فروشگاه وب Chrome است</translation>
+<translation id="4748762018725435655">‏نیازمند افزونه از فروشگاه وب Brave است</translation>
 <translation id="4750394297954878236">پیشنهادات</translation>
 <translation id="475088594373173692">کاربر اول</translation>
 <translation id="4751476147751820511">حسگرهای نوری یا حرکتی</translation>
@@ -2540,7 +2540,7 @@
 <translation id="48704129375571883">افزودن قابلیت‌های بیشتر</translation>
 <translation id="4870903493621965035">دستگاه مرتبطی وجود ندارد</translation>
 <translation id="4871210892959306034">$1 کیلوبایت</translation>
-<translation id="4871308555310586478">‏از فروشگاه وب Chrome نیست.</translation>
+<translation id="4871308555310586478">‏از فروشگاه وب Brave نیست.</translation>
 <translation id="4871370605780490696">افزودن نشانک</translation>
 <translation id="4873312501243535625">بررسی‌کننده فایل رسانه‌ای</translation>
 <translation id="4876273079589074638">به مهندسان ما کمک کنید این خرابی را بررسی و برطرف کنند. در صورت امکان مراحل را دقیق فهرست کنید. هیچ جزئیاتی بی‌اهمیت نیست!</translation>
@@ -2631,7 +2631,7 @@
 <translation id="4988526792673242964">صفحات</translation>
 <translation id="49896407730300355">چرخاندن خلاف جهت ع&amp;قربه‌های ساعت</translation>
 <translation id="4989966318180235467">بازرسی صفحه &amp;پس‌زمینه</translation>
-<translation id="4990343175649730969">‏بارگیری ابزار پاک‌سازی Chrome</translation>
+<translation id="4990343175649730969">‏بارگیری ابزار پاک‌سازی Brave</translation>
 <translation id="4991420928586866460">در نظر گرفتن کلیدهای ردیف بالا به عنوان کلیدهای عملکرد</translation>
 <translation id="499165176004408815">استفاده از حالت کنتراست بالا</translation>
 <translation id="4992066212339426712">باصدا کردن</translation>
@@ -2787,7 +2787,7 @@
 <translation id="5235750401727657667">جایگزین کردن صفحه‌ای که هنگام باز کردن برگه جدید می‌بینید</translation>
 <translation id="5238278114306905396">برنامه «<ph name="EXTENSION_NAME" />» به‌طور خودکار حذف شد.</translation>
 <translation id="5238369540257804368">حوزه‌ها</translation>
-<translation id="5240817131241497236">‏تنظیماتی که همگام‌سازی، شخصی‌سازی و سرویس‌های دیگر Google در Chrome را کنترل می‌کند تغییر کرده است. این تغییر ممکن است روی تنظیمات فعلی تأثیر گذارد.</translation>
+<translation id="5240817131241497236">‏تنظیماتی که همگام‌سازی، شخصی‌سازی و سرویس‌های دیگر Google در Brave را کنترل می‌کند تغییر کرده است. این تغییر ممکن است روی تنظیمات فعلی تأثیر گذارد.</translation>
 <translation id="5241128660650683457">خواندن همه داده‌هایتان در وب‌سایت‌هایی که بازدید می‌کنید</translation>
 <translation id="5242724311594467048">«<ph name="EXTENSION_NAME" />» فعال شود؟</translation>
 <translation id="5243522832766285132">چند لحظه دیگر دوباره امتحان کنید</translation>
@@ -2850,7 +2850,7 @@
 <translation id="5315873049536339193">هویت</translation>
 <translation id="5316716239522500219">بازتاب مانیتورها</translation>
 <translation id="5317780077021120954">ذخیره</translation>
-<translation id="5319359161174645648">‏Google،‏ Chrome را توصیه می‌کند</translation>
+<translation id="5319359161174645648">‏Google،‏ Brave را توصیه می‌کند</translation>
 <translation id="5319566035256672173">این دستگاه دیگر آخرین به‌روز‌رسانی‌های نرم‌افزار را دریافت نمی‌کند. لطفاً برای ارتقا دادن دستگاه اقدام کنید.</translation>
 <translation id="532247166573571973">ممکن است سرور در دسترس نباشد. بعداً دوباره امتحان کنید.</translation>
 <translation id="532360961509278431">نمی‌توانید «$1» را باز کنید: 2$</translation>
@@ -2878,7 +2878,7 @@
 <translation id="5341980496415249280">لطفاً منتظر بمانید، درحال بسته‌بندی…</translation>
 <translation id="5342091991439452114">پین باید حداقل <ph name="MINIMUM" /> رقم باشد</translation>
 <translation id="5352033265844765294">مهر زمان</translation>
-<translation id="5353252989841766347">‏صادر کردن گذرواژه‌ها از Chrome</translation>
+<translation id="5353252989841766347">‏صادر کردن گذرواژه‌ها از Brave</translation>
 <translation id="5355097969896547230">یافتن دوباره</translation>
 <translation id="5355926466126177564">‏افزونه «<ph name="EXTENSION_NAME" />»، صفحه‌ای را تغییر داده است که هنگام جستجو از Omnibox نشان داده می‌شود.</translation>
 <translation id="5358764674931277">نرخ فریم</translation>
@@ -2992,7 +2992,7 @@
 <translation id="5511823366942919280">‏مطمئنید می‌خواهید این دستگاه را به عنوان «Shark» تنظیم کنید؟</translation>
 <translation id="5512653252560939721">گواهی‌نامه کاربر باید با سخت‌افزار پشتیبانی شود.</translation>
 <translation id="5513242761114685513">منوی بافت</translation>
-<translation id="5516183516694518900">‏برای دریافت نشانک‌ها، سابقه، گذرواژه و سایر تنظیمات در تمام دستگاه‌هایتان، با «حساب Google» خود به سیستم Chrome وارد شوید.</translation>
+<translation id="5516183516694518900">‏برای دریافت نشانک‌ها، سابقه، گذرواژه و سایر تنظیمات در تمام دستگاه‌هایتان، با «حساب Google» خود به سیستم Brave وارد شوید.</translation>
 <translation id="551752069230578406">در حال افزودن چاپگر به حسابتان - این کار ممکن است چند دقیقه طول بکشد...</translation>
 <translation id="5518219166343146486">وقتی سایتی می‌خواهد به نوشتار و تصاویر کپی‌شده در بریده‌دان دسترسی پیدا کند، سؤال شود.</translation>
 <translation id="5518584115117143805">گواهی رمزگذاری ایمیل</translation>
@@ -3079,12 +3079,12 @@
 <translation id="5624120631404540903">مدیریت گذرواژه‌ها</translation>
 <translation id="5626134646977739690">نام:</translation>
 <translation id="5627086634964711283">این برنامه افزودنی همچنین صفحه‌ای را که هنگام کلیک کردن روی دکمه اصلی نشان داده می‌شود، کنترل می‌کند.</translation>
-<translation id="5627676517703583263">‏با Chrome هوشمندانه مرور کنید</translation>
+<translation id="5627676517703583263">‏با Brave هوشمندانه مرور کنید</translation>
 <translation id="562935524653278697">سرپرست شما همگام‌سازی نشانک‌ها، سابقه، گذرواژه‌ها و سایر تنظیماتتان را غیرفعال کرده است.</translation>
 <translation id="563535393368633106">قبل از دسترسی سؤال شود (توصیه می‌شود)</translation>
 <translation id="5636996382092289526">برای استفاده از <ph name="NETWORK_ID" /> ابتدا باید به <ph name="LINK_START" />صفحه ورود به سیستم شبکه بروید<ph name="LINK_END" />، که تا چند ثانیه دیگر به‌طور خودکار باز می‌شود. اگر این اتفاق نیافتد، نمی‌توان از شبکه استفاده کرد.</translation>
 <translation id="5637476008227280525">فعال کردن داده تلفن همراه</translation>
-<translation id="5638309510554459422">‏افزونه‌ها و طرح‌های زمینه را در <ph name="BEGIN_LINK" />نت‌بازار Chrome<ph name="END_LINK" /> پیدا کنید</translation>
+<translation id="5638309510554459422">‏افزونه‌ها و طرح‌های زمینه را در <ph name="BEGIN_LINK" />نت‌بازار Brave<ph name="END_LINK" /> پیدا کنید</translation>
 <translation id="5638497698949808140"><ph name="HOURS" /> ساعت قبل به‌روزرسانی شد</translation>
 <translation id="5639549361331209298">تازه‌سازی این صفحه، آن را نگهدارید تا گزینه‌های بیشتری را ببینید</translation>
 <translation id="5642508497713047">‏امضاکننده CRL</translation>
@@ -3094,7 +3094,7 @@
 <translation id="5649053991847567735">بارگیری‌های خودکار</translation>
 <translation id="5649768706273821470">گوش دادن</translation>
 <translation id="5653140146600257126">پوشه با نام «$1» در حال حاضر موجود است. لطفاً نام دیگری انتخاب کنید.</translation>
-<translation id="5657667036353380798">‏برنامه افزودنی خارجی برای نصب شدن به Chrome نسخه <ph name="MINIMUM_CHROME_VERSION" /> یا بالاتر نیاز دارد.</translation>
+<translation id="5657667036353380798">‏برنامه افزودنی خارجی برای نصب شدن به Brave نسخه <ph name="MINIMUM_CHROME_VERSION" /> یا بالاتر نیاز دارد.</translation>
 <translation id="5658415415603568799">‏برای امنیت بیشتر، Smart Lock درخواست می‌کند گذرواژه‌تان را بعد از ۲۰ ساعت وارد کنید.</translation>
 <translation id="5659593005791499971">ایمیل</translation>
 <translation id="5659833766619490117">ترجمه این صفحه امکان‌پذیر نیست</translation>
@@ -3171,7 +3171,7 @@
 <translation id="5774295353725270860">بازکردن برنامه فایل‌ها</translation>
 <translation id="5774515636230743468">اظهارنامه:</translation>
 <translation id="577624874850706961">جستجوی کوکی‌ها</translation>
-<translation id="5777468213129569553">‏باز کردن Chrome</translation>
+<translation id="5777468213129569553">‏باز کردن Brave</translation>
 <translation id="5778747455497889540">گذرواژه زیر، گذرواژه به‌صورت تصادفی ایجادشده مدول امن است که به رایانه شما اختصاص داده شده است:</translation>
 <translation id="5780973441651030252">پردازش اولویت‌دار</translation>
 <translation id="5781092003150880845">همگام‌سازی با حساب <ph name="ACCOUNT_FULL_NAME" /></translation>
@@ -3180,12 +3180,12 @@
 <translation id="5783221160790377646">به علت بروز خطا، کاربر نظارت‌شده ایجاد نشد. لطفاً دوباره امتحان کنید.</translation>
 <translation id="5783602409389152506">درحین اسکن دستگاه‌ها…</translation>
 <translation id="57838592816432529">بی‌صدا کردن</translation>
-<translation id="5785583009707899920">‏امکانات فایل‌ها در Chrome</translation>
+<translation id="5785583009707899920">‏امکانات فایل‌ها در Brave</translation>
 <translation id="5787146423283493983">قرارداد کلید</translation>
 <translation id="5788127256798019331">‏فایل‌های Play</translation>
 <translation id="5788367137662787332">متأسفیم، حداقل یک پارتیشن در دستگاه <ph name="DEVICE_LABEL" /> نصب نمی‌شود.</translation>
 <translation id="5794414402486823030">همیشه با نظاره‌گر سیستم باز شود</translation>
-<translation id="5794786537412027208">‏خروج از همه برنامه‌های Chrome</translation>
+<translation id="5794786537412027208">‏خروج از همه برنامه‌های Brave</translation>
 <translation id="5800020978570554460">فایل مقصد از زمان آخرین بارگیری برداشته شده است یا ناقص است.</translation>
 <translation id="5801568494490449797">موارد برگزیده</translation>
 <translation id="5804241973901381774">مجوزها</translation>
@@ -3218,7 +3218,7 @@
 <translation id="5846929185714966548">برگه ۴</translation>
 <translation id="5849212445710944278">قبلاً اضافه شده است</translation>
 <translation id="5849570051105887917">کد ارائه‌دهنده صفحه اصلی</translation>
-<translation id="5850516540536751549">‏این نوع فایل پشتیبانی نمی‌شود. لطفاً از <ph name="BEGIN_LINK" />فروشگاه وب<ph name="END_LINK" /> Chrome بازدید کنید تا برنامه‌ای پیدا کنید که بتواند این نوع فایل را باز کند.
+<translation id="5850516540536751549">‏این نوع فایل پشتیبانی نمی‌شود. لطفاً از <ph name="BEGIN_LINK" />فروشگاه وب<ph name="END_LINK" /> Brave بازدید کنید تا برنامه‌ای پیدا کنید که بتواند این نوع فایل را باز کند.
  <ph name="BEGIN_LINK_HELP" />بیشتر بدانید<ph name="END_LINK_HELP" /></translation>
 <translation id="5851063901794976166">موردی برای مشاهده موجود نیست...</translation>
 <translation id="5851868085455377790">صادرکننده</translation>
@@ -3273,14 +3273,14 @@
 <translation id="5916878242223710315">باز کردن قفل پیکربندی</translation>
 <translation id="59174027418879706">فعال شد</translation>
 <translation id="5920543303088087579">سرپرستتان اتصال به این شبکه را غیرفعال کرده است</translation>
-<translation id="5920835625712313205">‏ایجادکننده تصویر سیستمی سیستم‌عامل Chrome</translation>
+<translation id="5920835625712313205">‏ایجادکننده تصویر سیستمی سیستم‌عامل Brave</translation>
 <translation id="5921745308587794300">چرخاندن پنجره</translation>
 <translation id="5924047253200400718">دریافت راهنمایی<ph name="SCANNING_STATUS" /></translation>
 <translation id="5924527146239595929">‏عکس جدیدی بگیرید یا عکس یا نماد موجودی را انتخاب کنید.
     <ph name="LINE_BREAK" />
     این تصویر در صفحه ورود به سیستم و صفحه درحالت قفل Chromebook نشان داده می‌شود.</translation>
 <translation id="5925147183566400388">‏اشاره‌گر Certification Practice Statement</translation>
-<translation id="592880897588170157">‏بارگیری فایل‌های PDF به‌جای باز کردن خودکار آن‌ها در Chrome</translation>
+<translation id="592880897588170157">‏بارگیری فایل‌های PDF به‌جای باز کردن خودکار آن‌ها در Brave</translation>
 <translation id="5931146425219109062">خواندن و تغییر همه داده‌هایتان در وب‌سایت‌هایی که بازدید می‌کنید</translation>
 <translation id="5932881020239635062">سریال</translation>
 <translation id="5933376509899483611">منطقه زمانی</translation>
@@ -3353,8 +3353,8 @@
 <translation id="604124094241169006">خودکار</translation>
 <translation id="6042169520002885235">سازنده و مدل چاپگر را انتخاب کنید</translation>
 <translation id="6042308850641462728">بیشتر</translation>
-<translation id="6043317578411397101">‏<ph name="APP_NAME" /> در حال اشتراک‌گذاری یک برگه Chrome با <ph name="TAB_NAME" /> است.</translation>
-<translation id="6044805581023976844">‏<ph name="APP_NAME" /> درحال اشتراک‌گذاری یک برگه Chrome و صوت با <ph name="TAB_NAME" /> است.</translation>
+<translation id="6043317578411397101">‏<ph name="APP_NAME" /> در حال اشتراک‌گذاری یک برگه Brave با <ph name="TAB_NAME" /> است.</translation>
+<translation id="6044805581023976844">‏<ph name="APP_NAME" /> درحال اشتراک‌گذاری یک برگه Brave و صوت با <ph name="TAB_NAME" /> است.</translation>
 <translation id="6049004884579590341">برای خروج از حالت تمام صفحه، |<ph name="ACCELERATOR" />| را فشار دهید و نگه‌دارید</translation>
 <translation id="6049065490165456785">عکس از دوربین داخلی</translation>
 <translation id="6051354611314852653">‏متأسفیم! سیستم نتوانست دسترسی API را برای این دستگاه راستی‌آزمایی کند.</translation>
@@ -3412,7 +3412,7 @@
 <translation id="6124650939968185064">افزودنه‌های زیر به این برنامه افزودنی وابسته هستند:</translation>
 <translation id="6125479973208104919">متأسفانه دوباره باید حسابتان را به این <ph name="DEVICE_TYPE" /> اضافه کنید.</translation>
 <translation id="612596694132302162">باصدا کردن سایت</translation>
-<translation id="6129691635767514872">‏داده‌های انتخاب‌شده از Chrome و دستگاه‌های همگام‌سازی‌شده برداشته شده‌اند. ممکن است حساب Google شما در <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> شکل‌های دیگری از سابقه مرور (مانند جستجوها و فعالیت از سایر سرویس‌های Google) داشته باشد.</translation>
+<translation id="6129691635767514872">‏داده‌های انتخاب‌شده از Brave و دستگاه‌های همگام‌سازی‌شده برداشته شده‌اند. ممکن است حساب Google شما در <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> شکل‌های دیگری از سابقه مرور (مانند جستجوها و فعالیت از سایر سرویس‌های Google) داشته باشد.</translation>
 <translation id="6129938384427316298">‏نظر گواهی Netscape</translation>
 <translation id="6129953537138746214">فاصله</translation>
 <translation id="6132383530370527946">چاپ کوچک</translation>
@@ -3444,7 +3444,7 @@
 <translation id="6163522313638838258">بزرگ کردن همه...</translation>
 <translation id="6164005077879661055">با حذف این کاربر نظارت‌شده، کلیه فایل‌ها و داده‌های محلی مربوط به کاربر نظارت‌شده برای همیشه حذف خواهند شد. وب‌سایت‌های بازدید شده و تنظیمات این کاربر نظارت‌شده همچنان برای مدیر در <ph name="MANAGEMENT_URL" /> قابل مشاهده خواهد بود.</translation>
 <translation id="6165508094623778733">بیشتر بدانید</translation>
-<translation id="6166185671393271715">‏وارد کردن گذرواژه‌ها به Chrome</translation>
+<translation id="6166185671393271715">‏وارد کردن گذرواژه‌ها به Brave</translation>
 <translation id="6169040057125497443">لطفاً میکروفون را بررسی کنید.</translation>
 <translation id="6169666352732958425">ارسال محتوای میز کار امکان‌پذیر نیست.</translation>
 <translation id="6171948306033499786">توقف موقت چاپ</translation>
@@ -3523,7 +3523,7 @@
 <translation id="6286708577777130801">جزئیات گذرواژه ذخیره‌شده</translation>
 <translation id="6287852322318138013">یک برنامه را برای باز کردن این فایل انتخاب کنید</translation>
 <translation id="6289452883081499048">‏سرویس‌های شخصی‌شده Google مانند Play</translation>
-<translation id="6290556621549272952">‏می‌توانید از این قابلیت برای نمایش محتوا از Chromium روی تلویزیون یا دستگاه‌های دیگر استفاده کنید.</translation>
+<translation id="6290556621549272952">‏می‌توانید از این قابلیت برای نمایش محتوا از Brave روی تلویزیون یا دستگاه‌های دیگر استفاده کنید.</translation>
 <translation id="6291949900244949761">‏وقتی سایتی می‌خواهد به دستگاه‌های USB‌ دسترسی پیدا کند سؤال شود (توصیه می‌شود)</translation>
 <translation id="6291953229176937411">‏&amp;نمایش در Finder</translation>
 <translation id="6295158916970320988">همه سایت‌ها</translation>
@@ -3533,7 +3533,7 @@
 <translation id="6305607932814307878">خط‌مشی کلی:</translation>
 <translation id="6307990684951724544">سیستم مشغول است</translation>
 <translation id="6308937455967653460">ذخیره پی&amp;وند به‌عنوان...</translation>
-<translation id="6311220991371174222">‏راه‌اندازی Chrome ممکن نیست زیرا هنگام باز کردن نمایه‌تان مشکلی پیش آمد. Chrome را راه‌اندازی مجدد کنید.</translation>
+<translation id="6311220991371174222">‏راه‌اندازی Brave ممکن نیست زیرا هنگام باز کردن نمایه‌تان مشکلی پیش آمد. Brave را راه‌اندازی مجدد کنید.</translation>
 <translation id="6312400084708441752">حاوی اطلاعاتی درباره فرآیندها، تنظیمات سیستم و نرم‌افزار مضر در رایانه شما است</translation>
 <translation id="6312403991423642364">خطای شبکه ناشناس</translation>
 <translation id="6313320178014547270">از کلیدی استفاده می‌کنید که در این وب‌سایت ثبت نشده است</translation>
@@ -3546,7 +3546,7 @@
 <translation id="6318407754858604988">بارگیری شروع شد</translation>
 <translation id="6324916366299863871">ویرایش میان‌بر</translation>
 <translation id="6325191661371220117">از کار انداختن اجرای خودکار</translation>
-<translation id="6326175484149238433">‏حذف از Chrome</translation>
+<translation id="6326175484149238433">‏حذف از Brave</translation>
 <translation id="6326855256003666642">تعداد فعالیت‌های زنده‌نگه‌داری</translation>
 <translation id="632744581670418035">هم‌پوشانی صفحه‌کلید</translation>
 <translation id="6327785803543103246">کشف خودکار پراکسی وب</translation>
@@ -3670,7 +3670,7 @@
 <translation id="6508261954199872201">برنامه: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">گواهینامه رسانه</translation>
 <translation id="6510568984200103950">تنظیمات کمتر</translation>
-<translation id="6513247462497316522">‏اگر به شبکه دیگری وصل نباشید Google Chrome از داده‌های تلفن همراه استفاده خواهد کرد.</translation>
+<translation id="6513247462497316522">‏اگر به شبکه دیگری وصل نباشید Brave از داده‌های تلفن همراه استفاده خواهد کرد.</translation>
 <translation id="6514010653036109809">دستگاه دردسترس:</translation>
 <translation id="6514565641373682518">این صفحه مکان‌نمای ماوس شما را غیرفعال کرد.</translation>
 <translation id="6518014396551869914">&amp;کپی تصویر</translation>
@@ -3681,7 +3681,7 @@
 <translation id="6522797484310591766">اکنون به سیستم وارد شوید</translation>
 <translation id="6527303717912515753">اشتراک‌گذاری</translation>
 <translation id="6528513914570774834">به سایر کاربران این دستگاه اجازه داده شود از این شبکه استفاده کنند</translation>
-<translation id="652948702951888897">‏سابقه Chrome</translation>
+<translation id="652948702951888897">‏سابقه Brave</translation>
 <translation id="653019979737152879">در حال همگام‌سازی <ph name="FILE_NAME" />...</translation>
 <translation id="6530681427077572136">‏ارسال داده‌های سیستم. درحال‌حاضر این دستگاه داده‌های عیب‌یابی و میزان استفاده دستگاه و برنامه را به‌طور خودکار به Google ارسال می‌کند. هرزمان خواستید می‌توانید این مورد را در تنظیمات دستگاه تغییر دهید. اگر «فعالیت وب و برنامه» تکمیلی را روشن کرده باشید، این اطلاعات در حسابتان ذخیره خواهد شد تا بتوانید آن‌ها را در «فعالیت من» مدیریت کنید. <ph name="BEGIN_LINK1" />بیشتر بدانید<ph name="END_LINK1" />‌</translation>
 <translation id="6531282281159901044">حفظ فایل خطرناک</translation>
@@ -3768,7 +3768,7 @@
 <translation id="665061930738760572">باز کردن در پنجره &amp;جدید</translation>
 <translation id="6651237644330755633">برای شناسایی وب‌سایت‌ها به این گواهی اطمینان شود</translation>
 <translation id="6653525630739667879">‏در $1 ذخیره نشد. همه ویرایش‌ها در $2 در پوشه Downloads ذخیره می‌شوند.</translation>
-<translation id="665355505818177700">‏یکپارچه‌سازی <ph name="MS_AD_NAME" /> Chrome فقط در پلتفورم‌های x86_64 پشتیبانی می‌شود. دستگاه‌های Chromebook ساخته‌شده در بالای پلتفورم ARM یا x86 این عملکرد را پشتیبانی نمی‌کنند.</translation>
+<translation id="665355505818177700">‏یکپارچه‌سازی <ph name="MS_AD_NAME" /> Brave فقط در پلتفورم‌های x86_64 پشتیبانی می‌شود. دستگاه‌های Chromebook ساخته‌شده در بالای پلتفورم ARM یا x86 این عملکرد را پشتیبانی نمی‌کنند.</translation>
 <translation id="6655190889273724601">حالت برنامه‌نویس</translation>
 <translation id="6655458902729017087">پنهان‌سازی حساب‌ها</translation>
 <translation id="6657585470893396449">گذرواژه</translation>
@@ -3872,7 +3872,7 @@
 <translation id="6817174620439930047">‏اگر سایتی می‌خواهد از پیام‌های انحصاری سیستم برای دسترسی به دستگاه‌های MIDI استفاده کند سؤال شود (توصیه می‌شود)</translation>
 <translation id="6820687829547641339">‏بایگانی نوار فشرده Gzip</translation>
 <translation id="682123305478866682">فرستادن میزکار</translation>
-<translation id="6823506025919456619">‏برای مشاهده دستگاه‌هایتان باید به سیستم Chrome وارد شوید</translation>
+<translation id="6823506025919456619">‏برای مشاهده دستگاه‌هایتان باید به سیستم Brave وارد شوید</translation>
 <translation id="6824564591481349393">کپی آدرس &amp;ایمیل</translation>
 <translation id="6825184156888454064">مرتب‌سازی براساس نام</translation>
 <translation id="6826872289184051766">‏به‌تأیید رساندن ازطریق USB</translation>
@@ -3964,7 +3964,7 @@
 <translation id="6976108581241006975">کنسول جاوا اسکریپت</translation>
 <translation id="6977381486153291903">بازبینی سفت‌افزار</translation>
 <translation id="6978121630131642226">موتورهای جستجو</translation>
-<translation id="6978611942794658017">‏این فایل برای رایانه‌ای که از نرم‌افزار Windows استفاده می‌کند طراحی شده است. این فایل با دستگاه شما که سیستم عامل Chrome را اجرا می‌کند، سازگار نیست. لطفاً «فروشگاه وب Chrome» را برای یک برنامه جایگزین مناسب جستجو کنید.</translation>
+<translation id="6978611942794658017">‏این فایل برای رایانه‌ای که از نرم‌افزار Windows استفاده می‌کند طراحی شده است. این فایل با دستگاه شما که سیستم عامل Brave را اجرا می‌کند، سازگار نیست. لطفاً «فروشگاه وب Chrome» را برای یک برنامه جایگزین مناسب جستجو کنید.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979440798594660689">بی‌صدا (پیش‌فرض)</translation>
 <translation id="6979737339423435258">همه زمان‌ها</translation>
@@ -4044,7 +4044,7 @@
 <translation id="7081952801286122383">در حالت ناشناس هستید</translation>
 <translation id="708278670402572152">برای فعال کردن اسکن، ارتباط را قطع کنید</translation>
 <translation id="7084192839369222683">فقط محتوای مهم اجرا شود</translation>
-<translation id="7085389578340536476">‏به Chrome اجازه ضبط صوت داده شود؟</translation>
+<translation id="7085389578340536476">‏به Brave اجازه ضبط صوت داده شود؟</translation>
 <translation id="7088434364990739311">بررسی برای به‌روزرسانی شروع نشد (کد خطا <ph name="ERROR" />).</translation>
 <translation id="7088561041432335295">‏Zip Archiver - باز کردن و بسته‌بندی کردن فایل‌های ZIP در برنامه Files.</translation>
 <translation id="7088674813905715446">این دستگاه توسط سرپرست سیستم در وضعیت بدون دسترسی قرار گرفته است. برای فعال کردن آن جهت ثبت‌نام، لطفاً از سرپرستتان بخواهید که دستگاه را در وضعیت در حالت تعلیق قرار دهد.</translation>
@@ -4191,7 +4191,7 @@
 <translation id="7297443947353982503">‏نام کاربری/گذرواژه نادرست است یا احراز هویت EAP ناموفق بود</translation>
 <translation id="729761647156315797">انتخاب زبان و صفحه‌کلید</translation>
 <translation id="7299337219131431707">فعال کردن مرور به‌عنوان مهمان</translation>
-<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{‏این برنامه می‌تواند مانع عملکرد درست Chrome شود.}one{‏این برنامه‌ها می‌توانند مانع عملکرد درست Chrome شوند.}other{‏این برنامه‌ها می‌توانند مانع عملکرد درست Chrome شوند.}}</translation>
+<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{‏این برنامه می‌تواند مانع عملکرد درست Brave شود.}one{‏این برنامه‌ها می‌توانند مانع عملکرد درست Brave شوند.}other{‏این برنامه‌ها می‌توانند مانع عملکرد درست Brave شوند.}}</translation>
 <translation id="7303900363563182677">دسترسی این سایت به نوشتار و تصاویر کپی‌شده در بریده‌دان مسدود شده است</translation>
 <translation id="730515362922783851">تبادل داده با هر دستگاهی در شبکه محلی یا اینترنت</translation>
 <translation id="7307129035224081534">موقتاً متوقف شد</translation>
@@ -4229,14 +4229,14 @@
 <translation id="7366415735885268578">افزودن سایت</translation>
 <translation id="7366909168761621528">داده‌های مرور</translation>
 <translation id="7371006317849674875">زمان شروع</translation>
-<translation id="737439367876257440">‏بهبود Chrome و امنیت آن با ارسال اطلاعات و آمار استفاده سیستم به Google</translation>
+<translation id="737439367876257440">‏بهبود Brave و امنیت آن با ارسال اطلاعات و آمار استفاده سیستم به Google</translation>
 <translation id="7374989181012106167">‏Chromebook با تلفنتان به‌مراتب بهتر کار می‌کند. <ph name="LINK_BEGIN" />بیشتر بدانید.<ph name="LINK_END" /></translation>
 <translation id="7375053625150546623">EAP</translation>
 <translation id="7376553024552204454">برجسته کردن نشانگر موشواره هنگامی که حرکت می‌کند</translation>
 <translation id="7377169924702866686">‏Caps Lock روشن است.</translation>
 <translation id="7377451353532943397">دسترسی به حسگر همچنان مسدود شود</translation>
 <translation id="7378627244592794276">نه</translation>
-<translation id="73786666777299047">‏باز کردن نت‌بازار Chrome</translation>
+<translation id="73786666777299047">‏باز کردن نت‌بازار Brave</translation>
 <translation id="7378812711085314936">دریافت اتصال داده</translation>
 <translation id="7384292194278095697">این دستگاه دیگر پشتیبانی نمی‌شود</translation>
 <translation id="7385854874724088939">هنگام سعی برای چاپ، اشتباهی رخ داده است. لطفاً چاپگر خود را بررسی کنید و دوباره امتحان کنید.</translation>
@@ -4353,7 +4353,7 @@
 <translation id="7566118625369982896">‏مدیریت پیوندهای برنامه Play</translation>
 <translation id="7566723889363720618">F12</translation>
 <translation id="7567772679638539078">انگشتتان را بگذارید</translation>
-<translation id="756809126120519699">‏داده‌های Chrome پاک شد</translation>
+<translation id="756809126120519699">‏داده‌های Brave پاک شد</translation>
 <translation id="7568790562536448087">در حال به‌روزرسانی</translation>
 <translation id="7571643774869182231">فضای ذخیره‌سازی برای به‌روزرسانی کافی نیست</translation>
 <translation id="7573172247376861652">شارژ باتری</translation>
@@ -4363,7 +4363,7 @@
 <translation id="7580671184200851182">یک صدا را از طریق همه بلندگوها پخش کنید (تک صوتی)</translation>
 <translation id="7581462281756524039">یک ابزار پاکسازی</translation>
 <translation id="7582582252461552277">این شبکه ارجحیت دارد</translation>
-<translation id="7586498138629385861">‏وقتی برنامه‌های Chrome باز هستند، Chrome همچنان اجرا می‌شود.</translation>
+<translation id="7586498138629385861">‏وقتی برنامه‌های Brave باز هستند، Brave همچنان اجرا می‌شود.</translation>
 <translation id="7589461650300748890">اینجا ایست. مراقب باشید.</translation>
 <translation id="7589661784326793847">چند ثانیه صبر کنید</translation>
 <translation id="7591957897535945411">این صفحه ترجمه شده است.</translation>
@@ -4483,7 +4483,7 @@
 <translation id="7788080748068240085">برای ذخیره «<ph name="FILE_NAME" />» به‌صورت آفلاین باید <ph name="TOTAL_FILE_SIZE" /> فضای دیگر خالی کنید:<ph name="MARKUP_1" />
         <ph name="MARKUP_2" />فایل‌هایی را که دیگر نمی‌خواهید به آن‌ها دسترسی آفلاین داشته باشید٬ لغو پین کنید<ph name="MARKUP_3" />
         <ph name="MARKUP_4" />فایل‌ها را از پوشه دانلودهایتان حذف کنید<ph name="MARKUP_5" /></translation>
-<translation id="7788298548579301890">‏برنامه دیگری در رایانه شما برنامه‌ای اضافه کرده که ممکن است نحوه کارکرد Chrome را تغییر دهد.
+<translation id="7788298548579301890">‏برنامه دیگری در رایانه شما برنامه‌ای اضافه کرده که ممکن است نحوه کارکرد Brave را تغییر دهد.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="7788383851298063850">به ما بگویید چه اتفاقی افتاده است</translation>
@@ -4506,7 +4506,7 @@
 <translation id="7815680994978050279">بارگیری خطرناک مسدود شد</translation>
 <translation id="7818135753970109980">طرح‌های زمینه جدید اضافه شده (<ph name="EXTENSION_NAME" />)</translation>
 <translation id="7819857487979277519">‏PSK (WPA یا RSN)</translation>
-<translation id="7819992334107904369">‏همگام‌سازی Chrome</translation>
+<translation id="7819992334107904369">‏همگام‌سازی Brave</translation>
 <translation id="782057141565633384">کپی آدرس ویدئو</translation>
 <translation id="7821462174190887129">‏<ph name="FILE_COUNT" /> مورد پیدا شد.
     <ph name="LINE_BREAK1" />
@@ -4517,7 +4517,7 @@
 <translation id="7826346148677309647">‏در «فروشگاه Play» می‌توانید برنامه‌های بیشتری برای دستگاهتان پیدا کنید.</translation>
 <translation id="7826790948326204519">‏<ph name="BEGIN_H3" />ویژگی‌های رفع اشکال<ph name="END_H3" />
 <ph name="BR" />
-    می‌توانید برای نصب و آزمایش کد سفارشی در دستگاهتان، ویژگی‌های رفع اشکال را در دستگاه دارای سیستم‌عامل Chrome فعال کنید. با این کار می‌توانید:<ph name="BR" />
+    می‌توانید برای نصب و آزمایش کد سفارشی در دستگاهتان، ویژگی‌های رفع اشکال را در دستگاه دارای سیستم‌عامل Brave فعال کنید. با این کار می‌توانید:<ph name="BR" />
 <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />تأیید rootfs را بردارید تا بتوانید فایل‌های سیستم‌عامل را تغییر دهید
       <ph name="LIST_ITEM" />دسترسی SSH را به دستگاهی که از کلیدهای آزمایشی استاندارد استفاده می‌کند فعال کنید تا بتوانید از ابزارهایی مانند <ph name="BEGIN_CODE" />cros flash<ph name="END_CODE" /> برای دسترسی به دستگاه استفاده کنید
@@ -4525,7 +4525,7 @@
       <ph name="LIST_ITEM" />گذرواژه ورود به سیستم ریشه سیستم و dev را روی مقدار سفارشی تنظیم کنید تا بتوانید به‌صورت دستی در دستگاه پروتکل SSH اجرا کنید
    <ph name="END_LIST" />
    <ph name="BR" />
-    وقتی فعال شود، حتی پس از انجام powerwash یا پاک کردن داده‌ها از روی دستگاه تحت مدیریت شرکت، اکثر ویژگی‌های رفع اشکال فعال می‌ماند. برای اینکه همه ویژگی‌های رفع اشکال به‌طور کامل غیرفعال شود، مراحل بازیابی سیستم‌عامل Chrome را انجام دهید (https://support.google.com/chromebook/answer/1080595).
+    وقتی فعال شود، حتی پس از انجام powerwash یا پاک کردن داده‌ها از روی دستگاه تحت مدیریت شرکت، اکثر ویژگی‌های رفع اشکال فعال می‌ماند. برای اینکه همه ویژگی‌های رفع اشکال به‌طور کامل غیرفعال شود، مراحل بازیابی سیستم‌عامل Brave را انجام دهید (https://support.google.com/chromebook/answer/1080595).
     <ph name="BR" />
     <ph name="BR" />
 برای اطلاعات بیشتر درباره ویژگی‌های رفع اشکال به این نشانی مراجعه کنید:
@@ -4742,7 +4742,7 @@
 <translation id="8113043281354018522">انتخاب نوع مجوز</translation>
 <translation id="8116972784401310538">مدیر &amp;نشانک</translation>
 <translation id="8117620576188476503">‏اتصال‌ها، به‌روزرسانی‌ها و تنظیمات را ازطریق سینی وضعیت مدیریت کنید. برای اینکه ازطریق صفحه‌کلید به اینجا بیایید Alt + Shift + S را فشار دهید.</translation>
-<translation id="8118362518458010043">‏توسط Chrome غیرفعال شده است. ممکن است این افزونه ناامن باشد.</translation>
+<translation id="8118362518458010043">‏توسط Brave غیرفعال شده است. ممکن است این افزونه ناامن باشد.</translation>
 <translation id="8118860139461251237">مدیریت بارگیری‌ها</translation>
 <translation id="81238879832906896">گل زرد و سفید</translation>
 <translation id="8124313775439841391">‏ONC مدیریت شده</translation>
@@ -4797,7 +4797,7 @@
 <translation id="8202160505685531999">لطفاً برای به‌روزرسانی نمایه <ph name="DEVICE_TYPE" /> خود، گذرواژه‌تان را دوباره وارد کنید.</translation>
 <translation id="8206354486702514201">این تنظیم توسط سرپرست شما اجباری شده است.</translation>
 <translation id="8206745257863499010">بلوزی</translation>
-<translation id="8209677645716428427">‏کاربر نظارت‌شده می‌تواند با راهنمایی شما در وب کاوش کند. شما به عنوان مدیر کاربر نظارت‌شده در Chrome می‌توانید:</translation>
+<translation id="8209677645716428427">‏کاربر نظارت‌شده می‌تواند با راهنمایی شما در وب کاوش کند. شما به عنوان مدیر کاربر نظارت‌شده در Brave می‌توانید:</translation>
 <translation id="8212008074015601248">{NUM_DOWNLOAD,plural, =1{بارگیری درحال انجام است}one{بارگیری درحال انجام است}other{بارگیری درحال انجام است}}</translation>
 <translation id="8213449224684199188">به حالت عکس‌برداری وارد شد</translation>
 <translation id="8213577208796878755">یک دستگاه دیگر در دسترس است.</translation>
@@ -4942,7 +4942,7 @@
 <translation id="845627346958584683">زمان انقضا</translation>
 <translation id="8456681095658380701">نام نامعتبر</translation>
 <translation id="8457451314607652708">وارد کردن نشانک‌ها</translation>
-<translation id="8460336040822756677">‏اگر Smart Lock را برای <ph name="DEVICE_TYPE" /> خاموش کنید، نمی‌توانید قفل دستگاه‌های Chrome خود را با استفاده از تلفنتان باز کنید. باید گذرواژه‌تان را تایپ کنید.</translation>
+<translation id="8460336040822756677">‏اگر Smart Lock را برای <ph name="DEVICE_TYPE" /> خاموش کنید، نمی‌توانید قفل دستگاه‌های Brave خود را با استفاده از تلفنتان باز کنید. باید گذرواژه‌تان را تایپ کنید.</translation>
 <translation id="8461329675984532579">نام ارائه‌دهنده اصلی</translation>
 <translation id="84613761564611563">رابط کاربری پیکربندی شبکه درخواست شد، لطفاً صبر کنید…</translation>
 <translation id="8461914792118322307">پراکسی</translation>
@@ -4958,7 +4958,7 @@
 <translation id="8470028084415844044">برای اینکه همه گذرواژه‌هایتان را در همه دستگاه‌ها دریافت کنید، همگام‌سازی را روشن کنید.</translation>
 <translation id="8470513973197838199">گذرواژه‌های ذخیره‌شده برای <ph name="ORIGIN" /></translation>
 <translation id="8472623782143987204">سخت‌افزار پشتیبانی</translation>
-<translation id="8475313423285172237">‏برنامه‌ای دیگر بر روی رایانه شما یک برنامه افزودنی را اضافه کرده است که ممکن است نحوه کارکرد Chrome را تغییر دهد.</translation>
+<translation id="8475313423285172237">‏برنامه‌ای دیگر بر روی رایانه شما یک برنامه افزودنی را اضافه کرده است که ممکن است نحوه کارکرد Brave را تغییر دهد.</translation>
 <translation id="8475647382427415476">‏Google Drive نتوانست در این لحظه «<ph name="FILENAME" />» را همگام‌سازی کند. Google Drive بعداً دوباره امتحان می‌کند.</translation>
 <translation id="8477241577829954800">از دور خارج شده</translation>
 <translation id="8477384620836102176">&amp;عمومی</translation>
@@ -4974,7 +4974,7 @@
 <translation id="8496717697661868878">اجرای این افزایه</translation>
 <translation id="8497219075884839166">‏امکانات WIndows</translation>
 <translation id="8498214519255567734">نگاه کردن به صفحه یا خواندن در نور کم را آسان‌تر می‌کند</translation>
-<translation id="8498395510292172881">‏ادامه خواندن در Chrome</translation>
+<translation id="8498395510292172881">‏ادامه خواندن در Brave</translation>
 <translation id="8502536196501630039">‏برای استفاده از برنامه‌های Google Play، ابتدا باید برنامه‌هایتان را بازیابی کنید. ممکن است برخی از داده‌ها از دست رفته باشد.</translation>
 <translation id="8503813439785031346">نام کاربری</translation>
 <translation id="850875081535031620">نرم‌افزار مضری پیدا نشد</translation>
@@ -5029,7 +5029,7 @@
 <translation id="8597845839771543242">قالب محصول:</translation>
 <translation id="8598453409908276158">افزایه خارج از جعبه ایمنی مسدود شد</translation>
 <translation id="8601206103050338563">‏راستی‌آزمایی سرویس گیرنده TLS WWW</translation>
-<translation id="8602851771975208551">‏برنامه‌ای دیگر بر روی رایانه شما یک برنامه را اضافه کرده است که ممکن است نحوه کارکرد Chrome را تغییر دهد.</translation>
+<translation id="8602851771975208551">‏برنامه‌ای دیگر بر روی رایانه شما یک برنامه را اضافه کرده است که ممکن است نحوه کارکرد Brave را تغییر دهد.</translation>
 <translation id="8605428685123651449">‏حافظه SQLite</translation>
 <translation id="8606726445206553943">‏استفاده از دستگاه‌های MIDI شما</translation>
 <translation id="8609465669617005112">انتقال به بالا</translation>
@@ -5047,7 +5047,7 @@
 <translation id="8627795981664801467">فقط اتصالات ایمن</translation>
 <translation id="8630903300770275248">وارد کردن کاربر نظارت شده</translation>
 <translation id="8631032106121706562">گل</translation>
-<translation id="8637542770513281060">‏رایانه شما مدول امنی دارد که برای پیاده‌سازی بسیاری از قابلیت‌های امنیتی ضروری در سیستم‌عامل Chrome استفاده می‌شود. برای اطلاعات بیشتر از «مرکز راهنمایی Chromebook» دیدن کنید: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">‏رایانه شما مدول امنی دارد که برای پیاده‌سازی بسیاری از قابلیت‌های امنیتی ضروری در سیستم‌عامل Brave استفاده می‌شود. برای اطلاعات بیشتر از «مرکز راهنمایی Chromebook» دیدن کنید: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">به‌روزرسانی سیستم موجود است. در حال آماده سازی برای بارگیری...</translation>
 <translation id="8639047128869322042">درحال بررسی وجود نرم‌افزار مضر...</translation>
 <translation id="8639963783467694461">تنظیمات تکمیل خودکار</translation>
@@ -5128,7 +5128,7 @@
 <translation id="8725066075913043281">سعی مجدد</translation>
 <translation id="8725178340343806893">موارد دلخواه/نشانک‌ها</translation>
 <translation id="8726206820263995930">خطا هنگام واکشی تنظیمات خط‌مشی از سرور: <ph name="CLIENT_ERROR" />.</translation>
-<translation id="8727344521467137076">‏نرم‌افزار مضری در رایانه‌تان وجود دارد. Chrome درحال حذف آن است و تنظیماتتان را بازیابی می‌کند تا عملکرد مرورگرتان دوباره عادی شود.</translation>
+<translation id="8727344521467137076">‏نرم‌افزار مضری در رایانه‌تان وجود دارد. Brave درحال حذف آن است و تنظیماتتان را بازیابی می‌کند تا عملکرد مرورگرتان دوباره عادی شود.</translation>
 <translation id="8730621377337864115">تمام</translation>
 <translation id="8732030010853991079">با کلیک کردن روی این نماد از این برنامه افزودنی استفاده کنید.</translation>
 <translation id="8732212173949624846">خواندن و تغییر سابقه مرورتان در همه دستگاه‌های وارد به سیستم خودتان</translation>
@@ -5154,7 +5154,7 @@
 <translation id="8758418656925882523">فعال کردن املا (صحبت برای تایپ)</translation>
 <translation id="8759408218731716181">تنظیم ورود چندگانه به سیستم ممکن نیست</translation>
 <translation id="8759753423332885148">بیشتر بیاموزید.</translation>
-<translation id="8767621466733104912">‏به‌روزرسانی‌ خودکار Chrome برای همه کاربران</translation>
+<translation id="8767621466733104912">‏به‌روزرسانی‌ خودکار Brave برای همه کاربران</translation>
 <translation id="8770406935328356739">دایرکتوری ریشه افزونه:</translation>
 <translation id="8770507190024617908">مدیریت افراد</translation>
 <translation id="8774934320277480003">حاشیه بالا</translation>
@@ -5240,7 +5240,7 @@
 <translation id="8899851313684471736">باز کردن پیوند در &amp;پنجره جدید</translation>
 <translation id="8902667442496790482">باز کردن تنظیمات «انتخاب برای شنیدن»</translation>
 <translation id="8903921497873541725">بزرگ‌نمایی</translation>
-<translation id="8904976895050290827">‏همگام‌سازی Chrome</translation>
+<translation id="8904976895050290827">‏همگام‌سازی Brave</translation>
 <translation id="8909833622202089127">سایت درحال ردیابی مکان شما است</translation>
 <translation id="8910146161325739742">اشتراک‌گذاری صفحه</translation>
 <translation id="8910222113987937043">‏تغییرات ایجادشده در نشانک‌ها، سابقه، گذرواژه‌ها و سایر تنظیمات شما با حساب Google شما دیگر همگام‌سازی نخواهد شد. بااین‌وجود داده‌های قبلاً ذخیره‌شده در حساب Google شما در آنجا می‌مانند و در <ph name="BEGIN_LINK" />داشبورد Google<ph name="END_LINK" /> می‌توانید آن‌ها را مدیریت کنید.</translation>
@@ -5340,7 +5340,7 @@
 <translation id="9050666287014529139">عبارت عبور</translation>
 <translation id="9052208328806230490">شما ثبت چاپگرهای خود را با <ph name="CLOUD_PRINT_NAME" /> از طریق حساب <ph name="EMAIL" /> انجام داده‌اید</translation>
 <translation id="9052404922357793350">ادامه مسدود کردن</translation>
-<translation id="9053091947372579468">‏دستگاهتان دارای مجوز Chrome است، اما نام کاربری‌تان با «کنسول سرپرست» مرتبط نشده است. لطفاً برای ادامه ثبت‌نام، حساب «کنسول سرپرست» ایجاد کنید. نکته: اگر بخواهید از دامنه خود برای ایجاد حساب «کنسول سرپرست» جدید استفاده کنید، باید بعد از ثبت‌نام، تأیید دامنه را هم تکمیل کنید. https://g.co/ChromeEnterpriseAccount</translation>
+<translation id="9053091947372579468">‏دستگاهتان دارای مجوز Brave است، اما نام کاربری‌تان با «کنسول سرپرست» مرتبط نشده است. لطفاً برای ادامه ثبت‌نام، حساب «کنسول سرپرست» ایجاد کنید. نکته: اگر بخواهید از دامنه خود برای ایجاد حساب «کنسول سرپرست» جدید استفاده کنید، باید بعد از ثبت‌نام، تأیید دامنه را هم تکمیل کنید. https://g.co/ChromeEnterpriseAccount</translation>
 <translation id="9053893665344928494">انتخاب من به خاطر سپرده شود</translation>
 <translation id="9055636786322918818">‏اجرای اجباری رمزگذاری RC4. استفاده از این گزینه احتمال خطر را بالا می‌برد، زیرا رمزهای RC4 امن نیست.</translation>
 <translation id="9056034633062863292">‏در حال به‌روزرسانی Chromebox</translation>
@@ -5376,7 +5376,7 @@
 <translation id="9103868373786083162">برای دیدن سابقه، دکمه را فشار دهید تا به عقب، و به منوی بافت برگردید</translation>
 <translation id="9105212490906037469">F2</translation>
 <translation id="9109122242323516435">برای آزاد کردن فضا، فایل‌ها را در حافظه دستگاه حذف کنید.</translation>
-<translation id="9110990317705400362">‏همواره به دنبال راه‌هایی هستیم تا مرورتان را ایمن‌تر کنیم. قبلاً هر وب‌سایتی از شما می‌خواست برنامه‌افزودنی‌ای را در مرورگرتان اضافه کنید. در جدیدترین نسخه Google Chrome، باید به Chrome صراحتاً بگویید که می‌خواهید با افزودن این برنامه‌های افزودنی از طریق صفحه افزونه‌ها آنها را نصب کنید. <ph name="BEGIN_LINK" />بیشتر بدانید<ph name="END_LINK" /></translation>
+<translation id="9110990317705400362">‏همواره به دنبال راه‌هایی هستیم تا مرورتان را ایمن‌تر کنیم. قبلاً هر وب‌سایتی از شما می‌خواست برنامه‌افزودنی‌ای را در مرورگرتان اضافه کنید. در جدیدترین نسخه Brave، باید به Brave صراحتاً بگویید که می‌خواهید با افزودن این برنامه‌های افزودنی از طریق صفحه افزونه‌ها آنها را نصب کنید. <ph name="BEGIN_LINK" />بیشتر بدانید<ph name="END_LINK" /></translation>
 <translation id="9111102763498581341">باز کردن قفل</translation>
 <translation id="9111395131601239814"><ph name="NETWORKDEVICE" />: <ph name="STATUS" /></translation>
 <translation id="9112748030372401671">تغییر کاغذدیواری</translation>
@@ -5398,7 +5398,7 @@
 <translation id="9131598836763251128">انتخاب یک یا چند فایل</translation>
 <translation id="9133055936679483811">فشرده‌سازی انجام نشد. <ph name="ERROR_MESSAGE" /></translation>
 <translation id="9134304429738380103">بله، موافقم.</translation>
-<translation id="9134524245363717059">‏این فایل برای رایانه‌ای که از نرم‌افزار Macintosh استفاده می‌کند طراحی شده است. با دستگاه شما که سیستم عامل Chrome را اجرا می‌کند، سازگار نیست. لطفاً فروشگاه وب Chrome را برای یک برنامه جایگزین مناسب جستجو کنید.</translation>
+<translation id="9134524245363717059">‏این فایل برای رایانه‌ای که از نرم‌افزار Macintosh استفاده می‌کند طراحی شده است. با دستگاه شما که سیستم عامل Brave را اجرا می‌کند، سازگار نیست. لطفاً فروشگاه وب Brave را برای یک برنامه جایگزین مناسب جستجو کنید.</translation>
 <translation id="9137013805542155359">نمایش مورد اصلی</translation>
 <translation id="9137916601698928395">بازکردن پیوند به‌عنوان <ph name="USER" /></translation>
 <translation id="9138978632494473300">افزودن میان‌بر به مکان‌های زیر:</translation>
@@ -5422,7 +5422,7 @@
 <translation id="9169496697824289689">مشاهده میان‌برهای صفحه‌کلید</translation>
 <translation id="9169931577761441333"><ph name="APP_NAME" /> را به صفحه اصلی اضافه کنید</translation>
 <translation id="9170848237812810038">&amp;واگرد</translation>
-<translation id="9170884462774788842">‏برنامه‌ای دیگر بر روی رایانه شما یک طرح زمینه را اضافه کرده است که ممکن است نحوه کارکرد Chrome را تغییر دهد.</translation>
+<translation id="9170884462774788842">‏برنامه‌ای دیگر بر روی رایانه شما یک طرح زمینه را اضافه کرده است که ممکن است نحوه کارکرد Brave را تغییر دهد.</translation>
 <translation id="9173995187295789444">درحال جستجوی دستگاه‌های بلوتوث...</translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> - دستگاه بلوتوث متصل شد</translation>
 <translation id="9177499212658576372">در حال حاضر به شبکه <ph name="NETWORK_TYPE" /> متصل هستید.</translation>
@@ -5464,7 +5464,7 @@
 <translation id="939519157834106403">SSID</translation>
 <translation id="939598580284253335">عبارت ورود را وارد کنید</translation>
 <translation id="939736085109172342">پوشهٔ جدید</translation>
-<translation id="942532530371314860">‏<ph name="APP_NAME" /> در حال اشتراک‌گذاری یک برگه Chrome و صوت است.</translation>
+<translation id="942532530371314860">‏<ph name="APP_NAME" /> در حال اشتراک‌گذاری یک برگه Brave و صوت است.</translation>
 <translation id="942954117721265519">تصویری در دایرکتوری وجود ندارد.</translation>
 <translation id="943972244133411984">اصلاح‌شده توسط</translation>
 <translation id="945522503751344254">ارسال بازخورد</translation>
@@ -5474,7 +5474,7 @@
 <translation id="960719561871045870">کد اپراتور</translation>
 <translation id="960987915827980018">حدود ۱ ساعت باقی مانده است</translation>
 <translation id="962802172452141067">درخت پوشه نشانک</translation>
-<translation id="964286338916298286">‏سرپرست IT شما Chrome Goodies را برای دستگاهتان غیرفعال کرده است.</translation>
+<translation id="964286338916298286">‏سرپرست IT شما Brave Goodies را برای دستگاهتان غیرفعال کرده است.</translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{برنامه}one{برنامه}other{برنامه}}</translation>
 <translation id="967007123645306417">‏با این کار از سیستم همه حساب‌های Google خارج می‌شوید. تغییرات ایجادشده در نشانک‌ها، سابقه، گذرواژه‌ها و سایر تنظیمات، دیگر با حساب Google شما همگام‌سازی نخواهد شد. بااین‌وجود، داده‌های کنونی در حساب Google شما باقی خواهد ماند و می‌توانید در <ph name="BEGIN_LINK" />داشبورد Google<ph name="END_LINK" /> آن‌ها را مدیریت کنید.</translation>
 <translation id="967624055006145463">داده ذخیره شد</translation>

@@ -382,7 +382,7 @@
 <translation id="2073552873076775140">Payagan ang pag-sign in sa <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Gamitin ang pagpapabilis ng hardware kapag available</translation>
 <translation id="2077273864382355561">Delay ng pag-off ng screen kapag tumatakbo gamit ang power ng baterya</translation>
-<translation id="2082205219176343977">I-configure ang minimum na pinapayagang bersyon ng Chrome para sa device.</translation>
+<translation id="2082205219176343977">I-configure ang minimum na pinapayagang bersyon ng Brave para sa device.</translation>
 <translation id="209586405398070749">Stable na channel</translation>
 <translation id="2098658257603918882">Paganahin ang pag-uulat ng data ng paggamit at kaugnay ng crash</translation>
 <translation id="2111016292707172233">Ine-enable ang availability ng I-tap para Maghanap sa view ng content ng <ph name="PRODUCT_NAME" />.
@@ -500,13 +500,13 @@
 
           Mangingibabaw ang patakarang ito sa posibleng salungat na patakarang <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Kung may inalis na app o extension sa listahang ito na kamakailang sapilitang na-install, awtomatiko itong ia-uninstall ng <ph name="PRODUCT_NAME" />.
 
-          Para sa mga sitwasyon ng Mga Window na hindi kasali sa isang <ph name="MS_AD_NAME" /> na domain, para lang sa mga app at extension na nakalista sa Chrome Web Store ang sapilitang pag-install.
+          Para sa mga sitwasyon ng Mga Window na hindi kasali sa isang <ph name="MS_AD_NAME" /> na domain, para lang sa mga app at extension na nakalista sa Brave Web Store ang sapilitang pag-install.
 
           Tandaang maaaring mabago ng mga user ang source code ng anumang extension sa pamamagitan ng Mga Tool ng Developer (na maaaring humantong sa maling paggana ng extension). Kung isa itong alalahanin, dapat itakda ang patakarang <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
-          Ang bawat item sa listahan ng patakaran ay isang string na may extension ID at, bilang opsyon, isang URL ng "update" na hinihiwalay ng semicolon (<ph name="SEMICOLON" />). Ang extension ID ay ang 32 titik na string na makikita hal. sa <ph name="CHROME_EXTENSIONS_LINK" /> kapag nasa developer mode. Dapat hindi nakadirekta ang URL ng "update," kung natukoy, sa isang dokumentong Update Manifest XML gaya ng nakasaad sa <ph name="LINK_TO_EXTENSION_DOC1" />. Bilang default, ginagamit ang URL ng update ng Chrome Web Store (na kasalukuyang "https://clients2.google.com/service/update2/crx"). Tandaang ginagamit lang ang nakatakdang URL ng "update" sa patakarang ito para sa paunang pag-install; ine-employ ng mga susunod na pag-update ng extension ang URL ng update na nakasaad sa manifest ng extension. Tandaan ding mandatoryo ang hayagang pagtukoy sa URL ng "update" sa mga bersyon ng <ph name="PRODUCT_NAME" /> hanggang sa at kabilang ang 67.
+          Ang bawat item sa listahan ng patakaran ay isang string na may extension ID at, bilang opsyon, isang URL ng "update" na hinihiwalay ng semicolon (<ph name="SEMICOLON" />). Ang extension ID ay ang 32 titik na string na makikita hal. sa <ph name="CHROME_EXTENSIONS_LINK" /> kapag nasa developer mode. Dapat hindi nakadirekta ang URL ng "update," kung natukoy, sa isang dokumentong Update Manifest XML gaya ng nakasaad sa <ph name="LINK_TO_EXTENSION_DOC1" />. Bilang default, ginagamit ang URL ng update ng Brave Web Store (na kasalukuyang "https://clients2.google.com/service/update2/crx"). Tandaang ginagamit lang ang nakatakdang URL ng "update" sa patakarang ito para sa paunang pag-install; ine-employ ng mga susunod na pag-update ng extension ang URL ng update na nakasaad sa manifest ng extension. Tandaan ding mandatoryo ang hayagang pagtukoy sa URL ng "update" sa mga bersyon ng <ph name="PRODUCT_NAME" /> hanggang sa at kabilang ang 67.
 
-          Halimbawa, ini-install ng <ph name="EXTENSION_POLICY_EXAMPLE" /> ang <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> app mula sa karaniwang URL ng "update" ng Chrome Web Store. Para sa higit pang impormasyon tungkol sa mga extension ng pag-host, tingnan ang: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Halimbawa, ini-install ng <ph name="EXTENSION_POLICY_EXAMPLE" /> ang <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> app mula sa karaniwang URL ng "update" ng Brave Web Store. Para sa higit pang impormasyon tungkol sa mga extension ng pag-host, tingnan ang: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Kung hinayaang hindi nakatakda ang patakarang ito, walang app o extension ang awtomatikong ii-install at makakapag-uninstall ng anumang app o extension ang user sa <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343">Makakagamit ang <ph name="PRODUCT_NAME" /> ng serbisyo sa web ng Google upang makatulong na resolbahin ang mga error sa spelling. Kung pinapagana ang setting na ito, palaging gagamitin ang serbisyong ito. Kung hindi pinapagana ang setting na ito, hindi kailanman gagamitin ang serbisyong ito.
@@ -693,7 +693,7 @@
 <translation id="268577405881275241">Ine-enable ang feature na proxy ng compression ng data</translation>
 <translation id="2693108589792503178">I-configure ang URL ng pagpapalit ng password.</translation>
 <translation id="2731627323327011390">I-disable ang paggamit ng mga certificate ng <ph name="PRODUCT_OS_NAME" /> sa mga ARC app</translation>
-<translation id="2742843273354638707">Itago ang Chrome Web Store app at link ng footer mula sa Page ng Bagong Tab at sa app launcher ng <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Itago ang Brave Web Store app at link ng footer mula sa Page ng Bagong Tab at sa app launcher ng <ph name="PRODUCT_OS_NAME" />.
 
       Kapag nakatakda ang patakarang ito sa true, nakatago ang mga icon.
 
@@ -812,7 +812,7 @@
           Kung hinayaang hindi nakatakda ang patakarang ito, gagamitin ang 'AllowJavaScript' at magagawa ng user na baguhin ito.</translation>
 <translation id="3038323923255997294">Magpatuloy sa pagpapatakbo ng apps sa background kapag nakasara ang <ph name="PRODUCT_NAME" /></translation>
 <translation id="3046192273793919231">Magpadala ng mga network packet sa server sa pamamahala upang masubaybayan ang online status</translation>
-<translation id="3047732214002457234">Kinokontrol kung paano nag-uulat ng data sa Google ang Chrome Cleanup</translation>
+<translation id="3047732214002457234">Kinokontrol kung paano nag-uulat ng data sa Google ang Brave Cleanup</translation>
 <translation id="3048744057455266684">Kung nakatakda ang patakarang ito at may URL sa paghahanap na iminungkahi mula sa omnibox na naglalaman ng parameter na ito sa string ng query o sa tagatukoy ng fragment, ipapakita ng suhestiyon ang mga termino para sa paghahanap at search provider sa halip na ang mismong URL sa paghahanap.
 
           Opsyonal ang patakarang ito. Kung hindi nakatakda, hindi magpapalit ng termino para sa paghahanap.
@@ -1133,13 +1133,13 @@
       Kung hindi mo itatakda ang patakarang ito, gagamitin ng <ph name="PRODUCT_NAME" /> ang karaniwang default na directory nito (partikular sa platform).
 
       Tingnan ang https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables para sa isang listahan ng mga magagamit na variable.</translation>
-<translation id="3904459740090265495">Kinokontrol ng patakarang ito ang gawi sa pag-sign in ng browser. Nagbibigay-daan ito sa iyong tukuyin kung ang user ay maaaring mag-sign in sa <ph name="PRODUCT_NAME" /> gamit ang kanyang account at gumamit ng mga serbisyong nauugnay sa account tulad ng Chrome sync.
+<translation id="3904459740090265495">Kinokontrol ng patakarang ito ang gawi sa pag-sign in ng browser. Nagbibigay-daan ito sa iyong tukuyin kung ang user ay maaaring mag-sign in sa <ph name="PRODUCT_NAME" /> gamit ang kanyang account at gumamit ng mga serbisyong nauugnay sa account tulad ng Brave sync.
 
-      Kung itatakda ang patakaran sa "I-disable ang pag-sign in sa browser," ang user ay hindi maaaring mag-sign in sa browser at gumamit ng mga serbisyong nakabatay sa account. Sa ganitong sitwasyon, hindi magagamit at hindi magiging available ang mga feature sa antas ng browser tulad ng Chrome sync. Kung naka-sign in ang user at nakatakda ang patakaran sa "Naka-disable," masa-sign out siya sa susunod na magpatakbo siya ng Chrome ngunit mapapanatili ang kanyang lokal na data ng profile tulad ng mga bookmark, password, etc. Magagawa pa rin ng user na mag-sign in sa at gumamit ng mga serbisyo sa web ng Google tulad ng Gmail.
+      Kung itatakda ang patakaran sa "I-disable ang pag-sign in sa browser," ang user ay hindi maaaring mag-sign in sa browser at gumamit ng mga serbisyong nakabatay sa account. Sa ganitong sitwasyon, hindi magagamit at hindi magiging available ang mga feature sa antas ng browser tulad ng Brave sync. Kung naka-sign in ang user at nakatakda ang patakaran sa "Naka-disable," masa-sign out siya sa susunod na magpatakbo siya ng Brave ngunit mapapanatili ang kanyang lokal na data ng profile tulad ng mga bookmark, password, etc. Magagawa pa rin ng user na mag-sign in sa at gumamit ng mga serbisyo sa web ng Google tulad ng Gmail.
 
-      Kung itatakda ang patakaran sa "I-enable ang pag-sign in sa browser," papayagan ang user na mag-sign in sa browser at awtomatiko siyang masa-sign in sa browser kapag nag-sign in sa mga serbisyo sa web ng Google tulad ng Gmail. Ang pagiging naka-sign in sa browser ay nangangahulugang pananatilihin ng browser ang impormasyon ng account ng user. Gayunpaman, hindi ito nangangahulugang mao-on bilang default ang Chrome sync; dapat ay hiwalay na mag-opt in ang user para magamit ang feature na ito. Kapag na-enable ang patakarang ito, mapipigilan ang user na i-off ang setting na nagbibigay-daan sa pag-sign in sa browser. Para makontrol ang availability ng Chrome sync, gamitin ang patakarang "SyncDisabled."
+      Kung itatakda ang patakaran sa "I-enable ang pag-sign in sa browser," papayagan ang user na mag-sign in sa browser at awtomatiko siyang masa-sign in sa browser kapag nag-sign in sa mga serbisyo sa web ng Google tulad ng Gmail. Ang pagiging naka-sign in sa browser ay nangangahulugang pananatilihin ng browser ang impormasyon ng account ng user. Gayunpaman, hindi ito nangangahulugang mao-on bilang default ang Brave sync; dapat ay hiwalay na mag-opt in ang user para magamit ang feature na ito. Kapag na-enable ang patakarang ito, mapipigilan ang user na i-off ang setting na nagbibigay-daan sa pag-sign in sa browser. Para makontrol ang availability ng Brave sync, gamitin ang patakarang "SyncDisabled."
 
-      Kung itatakda ang patakaran sa "Pwersahin ang pag-sign in sa browser," papakitaan ng dialog sa pagpili ng account ang user at kailangan niyang pumili at mag-sign in sa isang account para magamit ang browser. Tinitiyak nitong malalapat at mapapatupad ang mga patakarang nauugnay sa account para sa mga pinamamahalaang account. Bilang default, ino-on nito ang Chrome sync para sa account, maliban sa sitwasyon kung saan ang pag-sync ay na-disable ng admin ng domain o sa pamamagitan ng patakarang "SyncDisabled." Itatakda sa false ang default na value ng BrowserGuestModeEnabled. Tandaang mala-lock at hindi na maa-access ang mga kasalukuyang unsigned na profile pagkatapos i-enable ang patakarang ito. Para sa higit pang impormasyon, tingnan ang artikulo sa help center: https://support.google.com/chrome/a/answer/7572556.
+      Kung itatakda ang patakaran sa "Pwersahin ang pag-sign in sa browser," papakitaan ng dialog sa pagpili ng account ang user at kailangan niyang pumili at mag-sign in sa isang account para magamit ang browser. Tinitiyak nitong malalapat at mapapatupad ang mga patakarang nauugnay sa account para sa mga pinamamahalaang account. Bilang default, ino-on nito ang Brave sync para sa account, maliban sa sitwasyon kung saan ang pag-sync ay na-disable ng admin ng domain o sa pamamagitan ng patakarang "SyncDisabled." Itatakda sa false ang default na value ng BrowserGuestModeEnabled. Tandaang mala-lock at hindi na maa-access ang mga kasalukuyang unsigned na profile pagkatapos i-enable ang patakarang ito. Para sa higit pang impormasyon, tingnan ang artikulo sa help center: https://support.google.com/chrome/a/answer/7572556.
 
       Kung hindi itatakda ang patakarang ito, maaaring magpasya ang user kung gusto niyang i-enable ang opsyon sa pag-sign in sa browser at gamitin ito sa paraang naaangkop para sa kanya.</translation>
 <translation id="3907986150060929099">Itakda ang mga inirerekumendang lokal para sa isang pampublikong session</translation>
@@ -1264,11 +1264,11 @@
 <translation id="4298509794364745131">Tumutukoy ng listahan ng mga app na maaaring i-enable bilang app sa paggawa ng tala sa lock screen ng <ph name="PRODUCT_OS_NAME" />.
 
       Kung naka-enable sa lock screen ang piniling app sa paggawa ng tala, maglalaman ang lock screen ng elemento ng UI para sa paglulunsad ng piniling app sa paggawa ng tala.
-      Kapag inilunsad, makakagawa ang app ng isang window sa itaas na bahagi ng lock screen, at makakagawa ng mga item ng data (mga tala) sa konteksto ng lock screen. Makakapag-import ang app ng mga nagawang tala sa session ng pangunahing user kapag naka-unlock ang screen. Sa kasalukuyan, ang mga app sa paggawa ng tala ng Chrome lang ang sinusuportahan sa lock screen.
+      Kapag inilunsad, makakagawa ang app ng isang window sa itaas na bahagi ng lock screen, at makakagawa ng mga item ng data (mga tala) sa konteksto ng lock screen. Makakapag-import ang app ng mga nagawang tala sa session ng pangunahing user kapag naka-unlock ang screen. Sa kasalukuyan, ang mga app sa paggawa ng tala ng Brave lang ang sinusuportahan sa lock screen.
 
       Kung nakatakda ang patakaran, papayagan lang ang user na mag-enable ng app sa lock screen kung ang extension ID ng app ay nasa value ng listahan ng patakaran.
       Bilang resulta, kapag itinakda ang patakarang ito sa isang listahang walang laman, tuluyang madi-disable ang paggawa ng tala sa lock screen.
-      Tandaan na ang patakarang naglalaman ng app ID ay hindi nangangahulugang mae-enable ng user ang app bilang app sa paggawa ng tala sa lock screen - halimbawa, sa Chrome 61, may karagdagang paghihigpit ayon sa platform ang hanay ng mga available na app.
+      Tandaan na ang patakarang naglalaman ng app ID ay hindi nangangahulugang mae-enable ng user ang app bilang app sa paggawa ng tala sa lock screen - halimbawa, sa Brave 61, may karagdagang paghihigpit ayon sa platform ang hanay ng mga available na app.
 
       Kung hindi nakatakda ang patakaran, walang ipapatupad na paghihigpit ang patakaran para sa hanay ng mga app na maaaring i-enable ng user sa lock screen.</translation>
 <translation id="4309640770189628899">Kung naka-enable ang mga DHE na cipher suite sa TLS o hindi</translation>
@@ -1377,7 +1377,7 @@
 <translation id="4567137030726189378">Payagan ang paggamit ng Mga Tool ng Developer</translation>
 <translation id="4600786265870346112">I-enable ang malaking cursor</translation>
 <translation id="4604931264910482931">I-configure ang blacklist ng native na pagmemensahe</translation>
-<translation id="4613508646038788144">Kung nakatakda sa false ang patakarang ito, papayagan ang third party software na magpasok ng executable code sa mga proseso ng Chrome. Kung hindi nakatakda ang patakaran o kung nakatakda ito sa true, pipigilan ang third party software sa pagpasok ng executable code sa mga proseso ng Chrome.</translation>
+<translation id="4613508646038788144">Kung nakatakda sa false ang patakarang ito, papayagan ang third party software na magpasok ng executable code sa mga proseso ng Brave. Kung hindi nakatakda ang patakaran o kung nakatakda ito sa true, pipigilan ang third party software sa pagpasok ng executable code sa mga proseso ng Brave.</translation>
 <translation id="4617338332148204752">Lalaktawan ang pagsuri sa meta tag sa <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">I-configure ang whitelist sa pag-install ng extension</translation>
 <translation id="4632343302005518762">Payagan ang <ph name="PRODUCT_FRAME_NAME" /> na pangasiwaan ang mga uri ng nakalistang nilalaman</translation>
@@ -1510,7 +1510,7 @@
           Ang value ay dapat na isang array ng stringified na mga diksyunaryong JSON. Ang bawat diksyunaryo ay dapat na mayroong anyong { "pattern": "$URL_PATTERN", "filter" : $FILTER }, kung saan ang $URL_PATTERN ay isang pattern ng setting ng content. Nililimitahan ng $FILTER kung aling mga client certificate ang awtomatikong pipiliin ng browser. Anuman ang filter, ang mga certificate na tumutugma sa kahilingan sa certificate ng server ang pipiliin. Kung ang $FILTER ay may anyong { "ISSUER": { "CN": "$ISSUER_CN" } }, mga client certificate na ibinigay ng isang certificate na may CommonName $ISSUER_CN lang ang pipiliin. Kung ang $FILTER ay ang walang lamang diksyunaryo na {}, hindi na nililimitahan ang pagpili ng mga client certificate.
 
           Kung hindi nakatakda ang patakarang ito, walang gagawing awtomatikong pagpili para sa anumang site.</translation>
-<translation id="4978405676361550165">Kung nakatakda ang patakarang "OffHours," babalewalain ang mga tinukoy na patakaran sa device (gagamitin ang mga default na setting ng mga patakarang ito) sa mga tinukoy na pagitan ng oras. Muling ilalapat ng Chrome ang mga patakaran sa device sa bawat kaganapan kapag nagsimula o natapos ang "OffHours" na yugto. Aabisuhan at sapilitang isa-sign out ang user kapag natapos ang oras ng "OffHours" at kapag nabago ang mga setting ng patakaran sa device (hal., kapag sa hindi pinapayagang account naka-log in ang user).</translation>
+<translation id="4978405676361550165">Kung nakatakda ang patakarang "OffHours," babalewalain ang mga tinukoy na patakaran sa device (gagamitin ang mga default na setting ng mga patakarang ito) sa mga tinukoy na pagitan ng oras. Muling ilalapat ng Brave ang mga patakaran sa device sa bawat kaganapan kapag nagsimula o natapos ang "OffHours" na yugto. Aabisuhan at sapilitang isa-sign out ang user kapag natapos ang oras ng "OffHours" at kapag nabago ang mga setting ng patakaran sa device (hal., kapag sa hindi pinapayagang account naka-log in ang user).</translation>
 <translation id="4980635395568992380">Uri ng data:</translation>
 <translation id="4983201894483989687">Payagan ang pagpapatakbo ng mga plugin na wala na sa panahon</translation>
 <translation id="4988291787868618635">Pagkilos na gagawin kapag naabot ang idle delay</translation>
@@ -1600,7 +1600,7 @@
           Ang value ng blacklist na '*' ay nangangahulugang naka-blacklist ang lahat ng host ng native na pagmemensahe maliban kung tahasang nakalista ang mga ito sa whitelist.
 
           Kung ang patakarang ito ay naiwang hindi nakatakda, ilo-load ng <ph name="PRODUCT_NAME" /> ang lahat ng naka-install na host ng native na pagmemensahe.</translation>
-<translation id="5272684451155669299">Kung true, magagamit ng user ang hardware sa mga Chrome device upang malayuang patunayan ang pagkakakilanlan nito sa CA ng privacy sa pamamagitan ng <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> gamit ang <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Kung true, magagamit ng user ang hardware sa mga Brave device upang malayuang patunayan ang pagkakakilanlan nito sa CA ng privacy sa pamamagitan ng <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> gamit ang <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Kung nakatakda ito sa false, o kung hindi ito nakatakda, papalya ang mga call sa API na may code ng error.</translation>
 <translation id="5277806246014825877">I-enable ang user na itong patakbuhin ang Crostini.
@@ -1728,7 +1728,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
       Tandaan na hindi ito inirerekomenda, dahil maaari itong maging daan sa pag-bypass sa nameConstraints na extension na naghihigpit sa mga hostname kung saan maaaring awtorisahan ang isang certificate.
 
       Kung hindi naitakda ang patakarang ito, o kung naitakda ito sa false, hindi pagkakatiwalaan ang mga certificate ng server na walang subjectAlternativeName na extension na naglalaman ng DNS name o IP address.</translation>
-<translation id="5581292529942108810">I-configure ang mga patakarang nauugnay sa Chrome Reporting Extension.
+<translation id="5581292529942108810">I-configure ang mga patakarang nauugnay sa Brave Reporting Extension.
 
       May bisa lang ang patakarang ito kapag naka-enable ang <ph name="CHROME_REPORTING_EXTENSION_NAME" />, at naka-enroll sa <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" /> ang machine.</translation>
 <translation id="5584132346604748282">Kontrolin ang mga serbisyo ng lokasyon ng Google sa Android</translation>
@@ -1789,7 +1789,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
       Kung naka-disable ang patakaran, magsisimula kaagad ang mga pag-download, at hindi itatanong sa user kung saan ise-save ang file.
       Kung hindi na-configure ang patakaran, mababago ng user ang setting na ito.
       </translation>
-<translation id="5835124959204887277">Tumutukoy ng mga URL at domain kung saan walang ipapakitang prompt kapag humiling ng mga certificate ng pagpapatunay mula sa Mga Security Key. Bukod pa rito, may ipapadalang signal sa Security Key na nagsasaad na maaaring gumamit ng indibidwal na pagpapatunay. Kung wala ito, ipo-prompt ang mga user sa Chrome 65+ kapag humiling ang mga site ng pagpapatunay ng Mga Security Key.
+<translation id="5835124959204887277">Tumutukoy ng mga URL at domain kung saan walang ipapakitang prompt kapag humiling ng mga certificate ng pagpapatunay mula sa Mga Security Key. Bukod pa rito, may ipapadalang signal sa Security Key na nagsasaad na maaaring gumamit ng indibidwal na pagpapatunay. Kung wala ito, ipo-prompt ang mga user sa Brave 65+ kapag humiling ang mga site ng pagpapatunay ng Mga Security Key.
 
       Tutugma lang ang mga URL (tulad ng https://example.com/some/path) bilang mga U2F appID. Tutugma lang ang mga domain (tulad ng example.com) bilang mga webauthn RP ID. Samakatuwid, upang masaklaw ang mga U2F at webauthn API para sa isang partikular na site, kailangang parehong ilista ang appID URL at domain.</translation>
 <translation id="5835412847081687053">I-configure ang mga pinapayagang lokal ng UI sa isang session ng user</translation>
@@ -1977,7 +1977,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 <translation id="6282799760374509080">Payagan o tanggihan ang pagkuha ng audio</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">I-enable ang pag-autocomplete ng domain name sa pag-sign in ng user</translation>
-<translation id="6315673513957120120">Nagpapakita ang Chrome ng page ng babala kapag nag-navigate ang mga user sa mga site na may mga SSL error. Bilang default o kapag itinakda ang patakarang ito sa true, maaaring mag-click ang mga user sa mga page ng babala na ito.
+<translation id="6315673513957120120">Nagpapakita ang Brave ng page ng babala kapag nag-navigate ang mga user sa mga site na may mga SSL error. Bilang default o kapag itinakda ang patakarang ito sa true, maaaring mag-click ang mga user sa mga page ng babala na ito.
       Kapag itinakda ang patakarang ito sa false, hindi makakapag-click ang mga user sa anumang page ng babala.</translation>
 <translation id="6353901068939575220">Tinutukoy ang mga parameter na ginamit kapag naghahanap ng URL gamit ang POST. Binubuo ito ng mga pares ng pangalan/value na pinaghihiwalay ng kuwit. Kung isang parameter ng template ang isang value, tulad ng {searchTerms} sa halimbawa sa itaas, papalitan ito ng data ng tunay na mga termino para sa paghahanap.
 
@@ -2008,7 +2008,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
           Kung pipiliin mong awtomatikong i-detect ang proxy server, ibibigay sa mga Android app ang script URL na "http://wpad/wpad.dat." Walang gagamiting ibang bahagi ng protocol ng awtomatikong pag-detect ng proxy.
 
           Kung pipiliin mong gumamit ng isang .pac proxy script, ibibigay sa mga Android app ang script URL.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Payagan ang mga site na sabay na mag-navigate at magbukas ng mga pop-up</translation>
 <translation id="6447948611083700881">Na-disable ang pag-backup at pag-restore</translation>
 <translation id="645425387487868471">I-enable ang pwersahang pag-sign in para sa <ph name="PRODUCT_NAME" /></translation>
@@ -2213,7 +2213,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
       TANDAAN: Sa Android, pang-eksperimento ang Pag-isolate ng Site. Huhusay ang suporta sa paglipas ng panahon, ngunit maaari itong magdulot ng mga problema sa performance sa kasalukuyan.
 
-      TANDAAN: Nalalapat lang ang patakarang ito sa Chrome sa Android na gumagana sa mga device na may mahigit lang sa 1GB ng RAM. Para ilapat ang patakaran sa mga platform na hindi Android, gamitin ang SitePerProcess.
+      TANDAAN: Nalalapat lang ang patakarang ito sa Brave sa Android na gumagana sa mga device na may mahigit lang sa 1GB ng RAM. Para ilapat ang patakaran sa mga platform na hindi Android, gamitin ang SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Kung itinakda ang patakaran sa true, ang patakaran sa cloud ang mangingibabaw kung magiging salungat ito sa patakaran sa machine.
@@ -2294,7 +2294,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
       Kung nakatakda ang patakaran sa false, o hindi ito nakatakda, hindi maaaring kolektahin o i-upload ng <ph name="PRODUCT_NAME" /> ang mga nasabing log.
 
-      Ang mga log na ito ay naglalaman ng diagnostic na impormasyong makakatulong kapag nagde-debug ng mga isyu sa mga audio o video call sa Chrome, gaya ng oras at laki ng mga naipadala at natanggap na RTP packet, feedback tungkol sa pagdami ng gumagamit sa network, at metadata tungkol sa oras at kalidad ng mga audio at video frame. Ang mga log na ito ay hindi naglalaman ng mga audio o video content mula sa tawag.
+      Ang mga log na ito ay naglalaman ng diagnostic na impormasyong makakatulong kapag nagde-debug ng mga isyu sa mga audio o video call sa Brave, gaya ng oras at laki ng mga naipadala at natanggap na RTP packet, feedback tungkol sa pagdami ng gumagamit sa network, at metadata tungkol sa oras at kalidad ng mga audio at video frame. Ang mga log na ito ay hindi naglalaman ng mga audio o video content mula sa tawag.
 
       Mati-trigger lang ang ganitong pagkolekta ng data sa pamamagitan ng mga serbisyo sa web ng Google, gaya ng Google Hangouts o Google Meet.
 
@@ -2371,11 +2371,11 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
           Kung iiwanang hindi nakatakda ang patakarang ito, madi-disable ang magnifier ng screen kapag unang ipinakita ang screen sa pag-login. Maaaring i-enable o i-disable ng mga user ang magnifier ng screen anumang oras at mananatili ang katayuan nito sa screen sa pag-login sa pagitan ng mga user.</translation>
 <translation id="7249828445670652637">I-enable ang mga CA certificate ng <ph name="PRODUCT_OS_NAME" /> sa mga ARC app</translation>
-<translation id="725322441686394886">Kung hindi nakatakda at kung makakatukoy ang Chrome Cleanup ng hindi kanais-nais na software, maaari itong mag-ulat sa Google ng metadata tungkol sa pag-scan alinsunod sa patakarang itinakda ng SafeBrowsingExtendedReportingEnabled. Pagkatapos, itatanong ng Chrome Cleanup sa user kung gusto niyang alisin ang hindi kanais-nais na software. Mapipili ng user na ibahagi ang mga resulta ng pag-alis sa Google para makatulong sa pagtukoy ng hindi kanais-nais na software sa hinaharap. Makikita sa mga resultang ito ang metadata ng file, mga awtomatikong na-install na extension, at registry key gaya ng isinaad ng Whitepaper ng Privacy ng Chrome.
+<translation id="725322441686394886">Kung hindi nakatakda at kung makakatukoy ang Brave Cleanup ng hindi kanais-nais na software, maaari itong mag-ulat sa Google ng metadata tungkol sa pag-scan alinsunod sa patakarang itinakda ng SafeBrowsingExtendedReportingEnabled. Pagkatapos, itatanong ng Brave Cleanup sa user kung gusto niyang alisin ang hindi kanais-nais na software. Mapipili ng user na ibahagi ang mga resulta ng pag-alis sa Google para makatulong sa pagtukoy ng hindi kanais-nais na software sa hinaharap. Makikita sa mga resultang ito ang metadata ng file, mga awtomatikong na-install na extension, at registry key gaya ng isinaad ng Whitepaper ng Privacy ng Brave.
 
-      Kung naka-disable at makakatukoy ang Chrome Cleanup ng hindi kanais-nais na software, hindi ito mag-uulat sa Google ng metadata tungkol sa pag-scan, na mag-o-override sa anumang patakarang itinakda ng SafeBrowsingExtendedReportingEnabled. Itatanong ng Chrome Cleanup sa user kung gusto niyang alisin ang hindi kanais-nais na software.  Hindi iuulat sa Google ang mga resulta ng pag-alis at hindi magiging opsyon ng user na gawin ito.
+      Kung naka-disable at makakatukoy ang Brave Cleanup ng hindi kanais-nais na software, hindi ito mag-uulat sa Google ng metadata tungkol sa pag-scan, na mag-o-override sa anumang patakarang itinakda ng SafeBrowsingExtendedReportingEnabled. Itatanong ng Brave Cleanup sa user kung gusto niyang alisin ang hindi kanais-nais na software.  Hindi iuulat sa Google ang mga resulta ng pag-alis at hindi magiging opsyon ng user na gawin ito.
 
-      Kung naka-enable at kung makakatukoy ang Chrome Cleanup ng hindi kanais-nais na software, maaari itong mag-ulat sa Google ng metadata tungkol sa pag-scan alinsunod sa patakarang itinakda ng SafeBrowsingExtendedReportingEnabled. Itatanong ng Chrome Cleanup sa user kung gusto niyang alisin ang hindi kanais-nais na software.  Iuulat sa Google ang mga resulta ng pag-alis at hindi magiging opsyon ng user na pigilan ito.
+      Kung naka-enable at kung makakatukoy ang Brave Cleanup ng hindi kanais-nais na software, maaari itong mag-ulat sa Google ng metadata tungkol sa pag-scan alinsunod sa patakarang itinakda ng SafeBrowsingExtendedReportingEnabled. Itatanong ng Brave Cleanup sa user kung gusto niyang alisin ang hindi kanais-nais na software.  Iuulat sa Google ang mga resulta ng pag-alis at hindi magiging opsyon ng user na pigilan ito.
 
       Hindi available ang patakarang ito sa mga instance ng Windows na hindi kasali sa isang <ph name="MS_AD_NAME" /> domain.</translation>
 <translation id="7258823566580374486">Paganahin ang paghadlang sa mga host ng malayuang pag-access</translation>
@@ -2429,9 +2429,9 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 <translation id="7329968046053403405">Tinutukoy ang uri ng account ng mga account na ibinigay ng app sa pagpapatotoo ng Android na sumusuporta sa pagpapatotoo ng <ph name="HTTP_NEGOTIATE" /> (hal. pagpapatotoo ng Kerberos). Dapat na available ang impormasyong ito mula sa supplier ng app sa pagpapatotoo. Para sa higit pang mga detalye, tingnan ang https://goo.gl/hajyfN.
 
           Kung walang ibinigay na setting, idi-disable ang pagpapatotoo ng <ph name="HTTP_NEGOTIATE" /> sa Android.</translation>
-<translation id="7331962793961469250">Kapag nakatakda sa True, hindi lilitaw sa bagong pahina ng tab ang mga pag-promote para sa mga Chrome Web Store app.
+<translation id="7331962793961469250">Kapag nakatakda sa True, hindi lilitaw sa bagong pahina ng tab ang mga pag-promote para sa mga Brave Web Store app.
 
-      Palilitawin ng pagtatakda sa pagpipiliang ito sa False o pag-iwan dito na hindi nakatakda sa bagong pahina ng tab ang mga pag-promote para sa mga Chrome Web Store app</translation>
+      Palilitawin ng pagtatakda sa pagpipiliang ito sa False o pag-iwan dito na hindi nakatakda sa bagong pahina ng tab ang mga pag-promote para sa mga Brave Web Store app</translation>
 <translation id="7332963785317884918">Hindi na ginagamit ang patakarang ito. Palaging gagamitin ng <ph name="PRODUCT_OS_NAME" /> ang 'RemoveLRU' na diskarte ng pag-clean-up.
 
       Kinokontrol ang awtomatikong gawi ng pag-clean-up sa mga <ph name="PRODUCT_OS_NAME" /> na device. Nati-trigger ang awtomatikong pag-clean-up kapag umabot sa kritikal na antas ang bakanteng espasyo sa disk upang makabawi ng kaunting espasyo sa disk.
@@ -2446,7 +2446,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 <translation id="7343497214039883642">File ng configuration para sa mga device ng printer ng enterprise</translation>
 <translation id="7349338075015720646">Tumutukoy ng listahan ng mga website na na-install nang hindi napapansin, nang walang pakikipag-ugnayan ng user, at hindi maa-uninstall o madi-disable ng user.
 
-      Ang bawat item ng patakaran ay isang object na may dalawang miyembro: "url" at "launch_container." Ang "url" ay dapat ang URL ng web app na ii-install at ang "launch_container" ay dapat alinman sa "window" o "tab" para maisaad kung paano bubuksan ang Web App kapag na-install na. Kung tatanggalin ang "launch_container," ilulunsad ang app sa window kung ituturing ito ng Chrome na Progressive Web App at kung hindi naman, ilulunsad ito sa tab.</translation>
+      Ang bawat item ng patakaran ay isang object na may dalawang miyembro: "url" at "launch_container." Ang "url" ay dapat ang URL ng web app na ii-install at ang "launch_container" ay dapat alinman sa "window" o "tab" para maisaad kung paano bubuksan ang Web App kapag na-install na. Kung tatanggalin ang "launch_container," ilulunsad ang app sa window kung ituturing ito ng Brave na Progressive Web App at kung hindi naman, ilulunsad ito sa tab.</translation>
 <translation id="735902178936442460">Kinokontrol ng patakarang ito kung mag-uulat ng impormasyong magagamit para makilala ang mga machine, gaya ng pangalan ng machine at mga address ng network.
 
       Kapag hinayaang hindi nakatakda o nakatakda sa True ang patakarang ito, kukuha ng impormasyong magagamit sa pagkilala ng mga machine.
@@ -2459,9 +2459,9 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
       Tingnan sa https://developers.google.com/safe-browsing para sa higit pang impormasyon tungkol sa Ligtas na Pag-browse.</translation>
 <translation id="737655323154569539">Pinaghihigpitan ang laki ng page ng pag-print. Itinuturing na walang paghihigpit ang hindi nakatakdang patakaran at empty set.</translation>
-<translation id="7417728346887499628">Kung naka-disable, pipigilan ang Chrome Cleanup na i-scan ang system para sa hindi kanais-nais na software at magsasagawa ng mga pagtatanggal. Madi-disable ang manual na pag-trigger sa Chrome Cleanup mula sa chrome://settings/cleanup.
+<translation id="7417728346887499628">Kung naka-disable, pipigilan ang Brave Cleanup na i-scan ang system para sa hindi kanais-nais na software at magsasagawa ng mga pagtatanggal. Madi-disable ang manual na pag-trigger sa Brave Cleanup mula sa chrome://settings/cleanup.
 
-      Kung naka-enable o hindi naitakda, pana-panahong isa-scan ng Chrome Cleanup ang system para sa hindi kanais-nais na software at kung may anumang makita, tatanungin nito ang user kung gusto niya itong alisin. Mae-enable ang manual na pag-trigger sa Chrome Cleanup mula sa chrome://settings.
+      Kung naka-enable o hindi naitakda, pana-panahong isa-scan ng Brave Cleanup ang system para sa hindi kanais-nais na software at kung may anumang makita, tatanungin nito ang user kung gusto niya itong alisin. Mae-enable ang manual na pag-trigger sa Brave Cleanup mula sa chrome://settings.
 
       Hindi available ang patakarang ito sa mga instance ng Windows na hindi kasama sa isang <ph name="MS_AD_NAME" /> domain.</translation>
 <translation id="7417972229667085380">Porsyento ng pag-scale ng idle delay kapag nasa presentation mode (hindi na ginagamit)</translation>
@@ -2711,7 +2711,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
       TANDAAN: Sa Android, pang-eksperimento ang Pag-isolate ng Site. Huhusay ang suporta sa paglipas ng panahon, ngunit maaari itong magdulot ng mga problema sa performance sa kasalukuyan.
 
-      TANDAAN: Nalalapat lang ang patakarang ito sa Chrome sa Android na tumatakbo sa mga device na may mahigit lang sa 1GB ng RAM. Para ilapat ang patakaran sa mga platform na hindi Android, gamitin ang IsolateOrigins.
+      TANDAAN: Nalalapat lang ang patakarang ito sa Brave sa Android na tumatakbo sa mga device na may mahigit lang sa 1GB ng RAM. Para ilapat ang patakaran sa mga platform na hindi Android, gamitin ang IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Mga pinapamahalaang host ng manu-manong exception ng user</translation>
 <translation id="7961779417826583251">I-disable ang pagpapatupad ng Transparency ng Certificate para sa isang listahan ng Mga Legacy Certificate Authority</translation>
@@ -2826,7 +2826,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
       Kung hindi nakatakda ang patakaran, gagamitin ng <ph name="PRODUCT_OS_NAME" /> ang ID ng email account ng account na lokal sa device bilang display name sa screen sa pag-login.
 
       Binabalewala ang patakarang ito para sa mga regular na account ng user.</translation>
-<translation id="8259375588339409826">Sinusuportahan ng Chromium at Google Chrome ang iisang hanay ng mga patakaran. Pakitandaang maaaring masama sa dokumentong ito ang mga hindi pa nailalabas na patakaran (ibig sabihin, ang entry na 'Sinusuportahan sa' nito ay tumutukoy sa hindi pa nailalabas na bersyon ng <ph name="PRODUCT_NAME" />) na maaaring baguhin o alisin nang walang abiso at walang garantiyang ibinibigay para sa mga ito, kabilang ang mga garantiya kaugnay ng mga property sa seguridad at privacy.
+<translation id="8259375588339409826">Sinusuportahan ng Brave at Brave ang iisang hanay ng mga patakaran. Pakitandaang maaaring masama sa dokumentong ito ang mga hindi pa nailalabas na patakaran (ibig sabihin, ang entry na 'Sinusuportahan sa' nito ay tumutukoy sa hindi pa nailalabas na bersyon ng <ph name="PRODUCT_NAME" />) na maaaring baguhin o alisin nang walang abiso at walang garantiyang ibinibigay para sa mga ito, kabilang ang mga garantiya kaugnay ng mga property sa seguridad at privacy.
 
 Ang mga patakarang ito ay mahigpit na nilalayong gamitin upang i-configure ang mga instance ng <ph name="PRODUCT_NAME" /> sa loob ng iyong organisasyon. Ang paggamit sa mga patakarang ito sa labas ng iyong organisasyon (halimbawa, sa isang program na ipinamamahagi sa publiko) ay itinuturing na malware at malamang na ituring ng Google at mga vendor ng anti-virus bilang malware.
 
@@ -2878,7 +2878,7 @@ Ang inirerekomendang paraan upang mag-configure ng patakaran sa Windows ay sa pa
 <translation id="8339420913453596618">Naka-disable ang pangalawang factor</translation>
 <translation id="8344454543174932833">Mag-import ng mga bookmark mula sa default na browser sa unang pagtakbo</translation>
 <translation id="8359734107661430198">I-enable ang ExampleDeprecatedFeature API sa 2008/09/02</translation>
-<translation id="8367209241899435947">Ine-enable ang Chrome Cleanup sa Windows</translation>
+<translation id="8367209241899435947">Ine-enable ang Brave Cleanup sa Windows</translation>
 <translation id="8369602308428138533">Delay ng pag-off ng screen kapag tumatakbo habang nakasaksak sa kuryente</translation>
 <translation id="8382184662529825177">I-enable ang paggamit ng malayuang pagpapatotoo para sa pagprotekta sa nilalaman para sa device</translation>
 <translation id="838870586332499308">Payagan ang roaming ng data</translation>

@@ -386,7 +386,7 @@ Si ce paramètre n'est pas défini, les utilisateurs peuvent ouvrir normalement 
 <translation id="2073552873076775140">Autoriser la connexion à <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Utiliser l'accélération matérielle (le cas échéant)</translation>
 <translation id="2077273864382355561">Délai d'arrêt de l'écran (batterie)</translation>
-<translation id="2082205219176343977">Configurer la version Chrome minimale autorisée de l'appareil.</translation>
+<translation id="2082205219176343977">Configurer la version Brave minimale autorisée de l'appareil.</translation>
 <translation id="209586405398070749">Version stable</translation>
 <translation id="2098658257603918882">Autoriser l'envoi de statistiques d'utilisation et de rapports d'erreur</translation>
 <translation id="2111016292707172233">Active la fonctionnalité "Appuyer pour rechercher" dans l'affichage du contenu de <ph name="PRODUCT_NAME" />.
@@ -510,13 +510,13 @@ Si cette règle n'est pas configurée, le paramètre "BlockPopups" est utilisé 
 
           Cette règle prévaut lors d'un conflit avec la règle <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Si une application ou une extension dont l'installation a été forcée est supprimée de la liste, <ph name="PRODUCT_NAME" /> la désinstalle automatiquement.
 
-          Pour les instances Windows qui ne sont pas associées à un domaine <ph name="MS_AD_NAME" />, l'installation forcée est limitée aux applications et aux extensions répertoriées sur le Chrome Web Store.
+          Pour les instances Windows qui ne sont pas associées à un domaine <ph name="MS_AD_NAME" />, l'installation forcée est limitée aux applications et aux extensions répertoriées sur le Brave Web Store.
 
           Notez que le code source de toute extension peut être modifié par les utilisateurs (cela pouvant entraîner son dysfonctionnement) via les outils pour les développeurs. Si cela pose problème, la règle <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> doit être définie.
 
-          Chaque élément de la règle correspond à une chaîne constituée d'un ID d'extension et éventuellement d'une URL de mise à jour, séparés par un point-virgule (<ph name="SEMICOLON" />). L'ID d'extension est la chaîne de 32 lettres qui se trouve, par exemple, dans <ph name="CHROME_EXTENSIONS_LINK" /> en mode développeur. L'URL de mise à jour, si elle est spécifiée, doit renvoyer à un fichier manifeste de mise à jour au format XML, comme décrit sur la page <ph name="LINK_TO_EXTENSION_DOC1" />. Par défaut, l'URL de mise à jour du Chrome Web Store est utilisée (cette URL est actuellement la suivante : "https://clients2.google.com/service/update2/crx"). Notez que l'URL de mise à jour spécifiée dans cette règle n'est utilisée que pour l'installation initiale. Toute mise à jour ultérieure de l'extension est effectuée avec l'URL indiquée dans le fichier manifeste de l'extension. Notez également qu'il était obligatoire de spécifier clairement l'URL de mise à jour dans <ph name="PRODUCT_NAME" /> (jusqu'à la version 67 comprise).
+          Chaque élément de la règle correspond à une chaîne constituée d'un ID d'extension et éventuellement d'une URL de mise à jour, séparés par un point-virgule (<ph name="SEMICOLON" />). L'ID d'extension est la chaîne de 32 lettres qui se trouve, par exemple, dans <ph name="CHROME_EXTENSIONS_LINK" /> en mode développeur. L'URL de mise à jour, si elle est spécifiée, doit renvoyer à un fichier manifeste de mise à jour au format XML, comme décrit sur la page <ph name="LINK_TO_EXTENSION_DOC1" />. Par défaut, l'URL de mise à jour du Brave Web Store est utilisée (cette URL est actuellement la suivante : "https://clients2.google.com/service/update2/crx"). Notez que l'URL de mise à jour spécifiée dans cette règle n'est utilisée que pour l'installation initiale. Toute mise à jour ultérieure de l'extension est effectuée avec l'URL indiquée dans le fichier manifeste de l'extension. Notez également qu'il était obligatoire de spécifier clairement l'URL de mise à jour dans <ph name="PRODUCT_NAME" /> (jusqu'à la version 67 comprise).
 
-          Par exemple, <ph name="EXTENSION_POLICY_EXAMPLE" /> installe l'application <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> à partir de l'URL de mise à jour standard du Chrome Web Store. Pour en savoir plus sur l'hébergement des extensions, consultez la page <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Par exemple, <ph name="EXTENSION_POLICY_EXAMPLE" /> installe l'application <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> à partir de l'URL de mise à jour standard du Brave Web Store. Pour en savoir plus sur l'hébergement des extensions, consultez la page <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Si cette règle n'est pas configurée, aucune application ni extension n'est installée automatiquement. Toute application ou extension de <ph name="PRODUCT_NAME" /> peut être désinstallée.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> peut utiliser un service Web de Google pour corriger les erreurs d'orthographe. En cas d'activation de ce paramètre, ce service est toujours utilisé. En cas de désactivation de ce paramètre, il n'est jamais utilisé.
@@ -1152,13 +1152,13 @@ Si cette règle n'est pas configurée, la valeur par défaut globale sera utilis
       Si vous ne configurez pas cette règle, <ph name="PRODUCT_NAME" /> utilise le répertoire par défaut habituel (spécifique à la plate-forme).
 
       Vous pouvez consulter la liste des variables utilisables à l'adresse https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables.</translation>
-<translation id="3904459740090265495">Cette règle permet de gérer la connexion au navigateur et de spécifier si l'utilisateur peut ou non se connecter à <ph name="PRODUCT_NAME" /> avec son compte et utiliser les services relatifs au compte, comme la synchronisation Chrome.
+<translation id="3904459740090265495">Cette règle permet de gérer la connexion au navigateur et de spécifier si l'utilisateur peut ou non se connecter à <ph name="PRODUCT_NAME" /> avec son compte et utiliser les services relatifs au compte, comme la synchronisation Brave.
 
-      Si la règle est définie sur "Désactiver la connexion au navigateur", l'utilisateur ne peut pas se connecter au navigateur et utiliser les services relatifs au compte. Dans ce cas, les fonctionnalités de navigateur comme la synchronisation Chrome sont indisponibles et ne peuvent pas être utilisés. Si l'utilisateur était connecté et que la règle est définie sur "Disabled", il sera déconnecté la prochaine fois qu'il utilisera Chrome, mais ses données de profil locales (favoris, mots de passe, etc.) seront conservées. L'utilisateur peut toujours se connecter aux services Web Google comme Gmail et s'en servir.
+      Si la règle est définie sur "Désactiver la connexion au navigateur", l'utilisateur ne peut pas se connecter au navigateur et utiliser les services relatifs au compte. Dans ce cas, les fonctionnalités de navigateur comme la synchronisation Brave sont indisponibles et ne peuvent pas être utilisés. Si l'utilisateur était connecté et que la règle est définie sur "Disabled", il sera déconnecté la prochaine fois qu'il utilisera Brave, mais ses données de profil locales (favoris, mots de passe, etc.) seront conservées. L'utilisateur peut toujours se connecter aux services Web Google comme Gmail et s'en servir.
 
-      Si la règle est définie sur "Activer la connexion au navigateur", l'utilisateur peut se connecter au navigateur. Il est également automatiquement connecté au navigateur lorsqu'il est connecté aux services Web Google comme Gmail. Lorsque l'utilisateur est connecté au navigateur, ses informations de compte sont conservées par le navigateur. Cependant, cela ne signifie pas que la synchronisation Chrome est activée par défaut, l'utilisateur doit accepter d'utiliser cette fonctionnalité séparément. En activant cette règle, vous empêchez l'utilisateur de désactiver le paramètre qui autorise la connexion au navigateur. Pour contrôler la disponibilité de la synchronisation Chrome, utilisez la règle "SyncDisabled".
+      Si la règle est définie sur "Activer la connexion au navigateur", l'utilisateur peut se connecter au navigateur. Il est également automatiquement connecté au navigateur lorsqu'il est connecté aux services Web Google comme Gmail. Lorsque l'utilisateur est connecté au navigateur, ses informations de compte sont conservées par le navigateur. Cependant, cela ne signifie pas que la synchronisation Brave est activée par défaut, l'utilisateur doit accepter d'utiliser cette fonctionnalité séparément. En activant cette règle, vous empêchez l'utilisateur de désactiver le paramètre qui autorise la connexion au navigateur. Pour contrôler la disponibilité de la synchronisation Brave, utilisez la règle "SyncDisabled".
 
-      Si la règle est définie sur "Obliger la connexion au navigateur", une boîte de dialogue s'affiche pour permettre à l'utilisateur de choisir un compte auquel se connecter pour utiliser le navigateur. Cette mesure permet de s'assurer que dans le cas de comptes gérés, les règles associées à un compte sont appliquées. Active par défaut la synchronisation Chrome pour le compte, sauf dans le cas où la synchronisation a été désactivée par l'administrateur de domaine ou via la règle "SyncDisabled". La valeur par défaut de "BrowserGuestModeEnabled" est définie sur "False". Sachez que les profils existants non signés seront verrouillés et inaccessibles une fois cette règle activée. Pour en savoir plus, consultez l'article suivant du centre d'aide : https://support.google.com/chrome/a/answer/7572556.
+      Si la règle est définie sur "Obliger la connexion au navigateur", une boîte de dialogue s'affiche pour permettre à l'utilisateur de choisir un compte auquel se connecter pour utiliser le navigateur. Cette mesure permet de s'assurer que dans le cas de comptes gérés, les règles associées à un compte sont appliquées. Active par défaut la synchronisation Brave pour le compte, sauf dans le cas où la synchronisation a été désactivée par l'administrateur de domaine ou via la règle "SyncDisabled". La valeur par défaut de "BrowserGuestModeEnabled" est définie sur "False". Sachez que les profils existants non signés seront verrouillés et inaccessibles une fois cette règle activée. Pour en savoir plus, consultez l'article suivant du centre d'aide : https://support.google.com/chrome/a/answer/7572556.
 
       Si la règle n'est pas définie, l'utilisateur peut décider d'activer ou non l'option de connexion au navigateur et l'utiliser à sa convenance.</translation>
 <translation id="3907986150060929099">Définir les paramètres régionaux recommandés pour une session publique</translation>
@@ -1284,7 +1284,7 @@ Cette option est habituellement désactivée dans le cadre de la protection cont
 <translation id="4298509794364745131">Liste des applications qui peuvent être activées pour la prise de notes sur l'écran de verrouillage de <ph name="PRODUCT_OS_NAME" />.
 
       Si l'application de prise de notes préférée est activée sur l'écran de verrouillage, ce dernier présente un élément permettant de la lancer.
-      Une fois lancée, l'application peut créer une fenêtre d'application sur l'écran de verrouillage, ainsi que des éléments de données (des notes) dans le contexte de l'écran de verrouillage. L'application pourra ensuite importer les notes créées dans la session utilisateur principale, lorsque celle-ci sera déverrouillée. Actuellement, seules les applications de prises de notes Chrome sont autorisées sur l'écran de verrouillage.
+      Une fois lancée, l'application peut créer une fenêtre d'application sur l'écran de verrouillage, ainsi que des éléments de données (des notes) dans le contexte de l'écran de verrouillage. L'application pourra ensuite importer les notes créées dans la session utilisateur principale, lorsque celle-ci sera déverrouillée. Actuellement, seules les applications de prises de notes Brave sont autorisées sur l'écran de verrouillage.
 
       Si vous définissez la règle, l'utilisateur pourra autoriser une application sur l'écran de verrouillage, uniquement si l'identifiant d'extension de l'application figure dans la liste de valeurs de la règle.
       Par conséquent, si vous définissez une liste vide pour cette règle, la prise de notes sera totalement désactivée sur l'écran de verrouillage.
@@ -1396,7 +1396,7 @@ Si cette règle n'est pas configurée, l'utilisateur peut décider d'afficher ou
 <translation id="4567137030726189378">Autoriser l'utilisation des outils pour les développeurs</translation>
 <translation id="4600786265870346112">Activer le grand curseur</translation>
 <translation id="4604931264910482931">Configurer la liste noire de messagerie native</translation>
-<translation id="4613508646038788144">Si cette règle est définie sur "false", le logiciel tiers sera autorisé à injecter du code exécutable dans les processus de Chrome. Si elle est définie sur "true" ou si elle n'est pas configurée, le logiciel tiers ne pourra pas injecter de code exécutable dans les processus de Chrome.</translation>
+<translation id="4613508646038788144">Si cette règle est définie sur "false", le logiciel tiers sera autorisé à injecter du code exécutable dans les processus de Brave. Si elle est définie sur "true" ou si elle n'est pas configurée, le logiciel tiers ne pourra pas injecter de code exécutable dans les processus de Brave.</translation>
 <translation id="4617338332148204752">Ignorer la vérification des balises Meta dans <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Configurer la liste blanche d'installation des extensions</translation>
 <translation id="4632343302005518762">Autoriser <ph name="PRODUCT_FRAME_NAME" /> à gérer les types de contenu répertoriés</translation>
@@ -1529,7 +1529,7 @@ Si cette règle n'est pas configurée, l'utilisateur peut décider d'afficher ou
           La valeur doit être un ensemble de dictionnaires convertis au format JSON à l'aide de la méthode JSON.stringify(). Chaque dictionnaire doit avoir le format { "pattern": "$URL_PATTERN", "filter": $FILTER }, où $URL_PATTERN correspond à un schéma de paramètre de contenu. La valeur $FILTER limite les certificats client à partir desquels le navigateur effectue une sélection automatique. Indépendamment du filtre, seuls les certificats correspondant à la demande de certificats du serveur sont sélectionnés. De plus, si $FILTER a le format { "ISSUER": { "CN": "$ISSUER_CN" } }, seuls les certificats client émis par un certificat dont la valeur CommonName est $ISSUER_CN sont sélectionnés. Si $FILTER correspond à la valeur {} vide du dictionnaire, la sélection de certificats client ne fait pas l'objet de restrictions supplémentaires.
 
           Si cette règle n'est pas définie, la sélection automatique n'est effectuée pour aucun site.</translation>
-<translation id="4978405676361550165">Si la règle de désactivation OffHours est définie, les règles spécifiées relatives aux appareils sont ignorées (utilisation des paramètres par défaut de ces règles) pendant la période définie. Les règles relatives aux appareils sont de nouveau appliquées par Chrome à chaque événement lorsque la période de désactivation OffHours commence ou se termine. L'utilisateur recevra une notification, puis il sera obligé de se déconnecter à la fin de la période de désactivation OffHours et lorsque les paramètres des règles relatives aux appareils sont modifiés (par exemple, si l'utilisateur est connecté avec un compte non autorisé).</translation>
+<translation id="4978405676361550165">Si la règle de désactivation OffHours est définie, les règles spécifiées relatives aux appareils sont ignorées (utilisation des paramètres par défaut de ces règles) pendant la période définie. Les règles relatives aux appareils sont de nouveau appliquées par Brave à chaque événement lorsque la période de désactivation OffHours commence ou se termine. L'utilisateur recevra une notification, puis il sera obligé de se déconnecter à la fin de la période de désactivation OffHours et lorsque les paramètres des règles relatives aux appareils sont modifiés (par exemple, si l'utilisateur est connecté avec un compte non autorisé).</translation>
 <translation id="4980635395568992380">Type de données :</translation>
 <translation id="4983201894483989687">Autoriser l'exécution de plug-ins obsolètes</translation>
 <translation id="4988291787868618635">Action à effectuer au terme du délai d'inactivité</translation>
@@ -1623,7 +1623,7 @@ Si cette règle n'est pas configurée, la valeur par défaut globale sera utilis
           Si vous définissez la valeur liée à la liste noire sur "*", cela signifie que tous les hôtes de messagerie native figurent sur la liste noire tant qu'ils n'ont pas été explicitement ajoutés à la liste blanche.
 
           Si cette règle n'est pas définie, <ph name="PRODUCT_NAME" /> charge tous les hôtes de messagerie native installés.</translation>
-<translation id="5272684451155669299">Si cette règle est définie sur "true", l'utilisateur peut utiliser le matériel sur des appareils Chrome afin d'attester, à distance, de son identité auprès de l'autorité de certification de la confidentialité par le biais de l'API <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> à l'aide de la fonction <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Si cette règle est définie sur "true", l'utilisateur peut utiliser le matériel sur des appareils Brave afin d'attester, à distance, de son identité auprès de l'autorité de certification de la confidentialité par le biais de l'API <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> à l'aide de la fonction <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Si cette règle est définie sur "false", ou si vous ne l'avez pas définie, les appels vers l'API échouent, et un code d'erreur est renvoyé.</translation>
 <translation id="5277806246014825877">Autoriser cet utilisateur à utiliser Crostini.
@@ -1751,7 +1751,7 @@ Lorsque cette règle n'est pas configurée, le paramètre par défaut utilisé c
       Sachez que cette méthode n'est pas recommandée, car l'extension nameConstraints qui limite les noms d'hôtes pour lesquels un certificat donné peut être autorisé risque d'être ignorée.
 
       Si cette règle n'est pas configurée, ou si elle est définie sur "False", les certificats de serveur qui ne comportent pas d'extension subjectAlternativeName contenant soit un nom DNS, soit une adresse IP, ne seront pas approuvés.</translation>
-<translation id="5581292529942108810">Configurez les règles relatives à Chrome Reporting Extension.
+<translation id="5581292529942108810">Configurez les règles relatives à Brave Reporting Extension.
 
       Ces règles ne sont effectives que lorsque <ph name="CHROME_REPORTING_EXTENSION_NAME" /> est activée et que l'ordinateur est inscrit à <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Gérer les services de localisation Android</translation>
@@ -2001,7 +2001,7 @@ Si vous désactivez ce paramètre ou si vous ne le configurez pas, le SPN Kerber
 <translation id="6282799760374509080">Autoriser ou interdire la capture audio</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Activer la saisie automatique du nom de domaine lors de la connexion de l'utilisateur</translation>
-<translation id="6315673513957120120">Chrome affiche une page d'avertissement lorsque les utilisateurs naviguent vers des sites présentant des erreurs SSL. Par défaut, ou quand cette règle est définie sur "True", les utilisateurs sont autorisés à poursuivre leur navigation vers la page concernée.
+<translation id="6315673513957120120">Brave affiche une page d'avertissement lorsque les utilisateurs naviguent vers des sites présentant des erreurs SSL. Par défaut, ou quand cette règle est définie sur "True", les utilisateurs sont autorisés à poursuivre leur navigation vers la page concernée.
       Définir cette règle sur "False" empêche les utilisateurs de poursuivre leur navigation au-delà de la page d'avertissement.</translation>
 <translation id="6353901068939575220">Spécifie les paramètres utilisés pour la recherche d'URL avec POST. Il s'agit de paires de noms et de valeurs séparées par une virgule. Si une valeur est équivalente à un paramètre modèle, comme "{searchTerms}" dans l'exemple ci-dessus, elle est remplacée par des termes de recherche réels.
 
@@ -2032,7 +2032,7 @@ Si vous désactivez ce paramètre ou si vous ne le configurez pas, le SPN Kerber
           Si vous choisissez de détecter automatiquement le serveur proxy, l'URL de script "http://wpad/wpad.dat" est transmise aux applications Android. Aucune autre partie du protocole d'auto-détection du proxy n'est utilisée.
 
           Si vous sélectionnez le script de proxy .pac, l'URL de script est fournie aux applications Android.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Autoriser les sites à parcourir et à ouvrir des pop-up simultanément</translation>
 <translation id="6447948611083700881">Service de sauvegarde et de restauration désactivé</translation>
 <translation id="645425387487868471">Activer la connexion forcée pour <ph name="PRODUCT_NAME" /></translation>
@@ -2238,7 +2238,7 @@ Si vous désactivez ce paramètre ou si vous ne le configurez pas, le SPN Kerber
 
       REMARQUE : Pour Android, l'isolation de sites est une fonctionnalité expérimentale. Nous allons améliorer sa compatibilité au fil du temps. Toutefois, elle peut actuellement entraîner des problèmes de performances.
 
-      REMARQUE : Cette règle ne s'applique qu'à Chrome sur les appareils Android possédant plus de 1 Go de RAM. Pour l'appliquer sur d'autres plates-formes, utilisez SitePerProcess.
+      REMARQUE : Cette règle ne s'applique qu'à Brave sur les appareils Android possédant plus de 1 Go de RAM. Pour l'appliquer sur d'autres plates-formes, utilisez SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Si la règle est définie sur la valeur "true", les règles relatives au cloud ont priorité en cas de conflit avec celles de la machine.
@@ -2313,9 +2313,9 @@ Si elle n'est pas configurée, l'utilisateur peut être invité à effectuer l'i
 
       Si la règle est définie sur "False" ou n'est pas définie, <ph name="PRODUCT_NAME" /> ne peut pas collecter ces journaux ni les transférer.
 
-      Ces journaux contiennent des informations de diagnostic utiles lors du débogage de problèmes liés aux appels audio ou vidéo dans Chrome, telles que l'horodatage et la taille des paquets RTP envoyés et reçus, des commentaires sur l'encombrement du réseau, et des métadonnées relatives à l'horodatage et à la qualité des trames vidéo et audio. Les journaux n'incluent aucun contenu audio ou vidéo des appels.
+      Ces journaux contiennent des informations de diagnostic utiles lors du débogage de problèmes liés aux appels audio ou vidéo dans Brave, telles que l'horodatage et la taille des paquets RTP envoyés et reçus, des commentaires sur l'encombrement du réseau, et des métadonnées relatives à l'horodatage et à la qualité des trames vidéo et audio. Les journaux n'incluent aucun contenu audio ou vidéo des appels.
 
-      Cette collecte de données par Chrome ne peut être déclenchée que par des services Web de Google, tels que Google Hangouts ou Google Meet.
+      Cette collecte de données par Brave ne peut être déclenchée que par des services Web de Google, tels que Google Hangouts ou Google Meet.
 
       Google peut associer ces journaux à d'autres journaux collectés par le service Google proprement dit à l'aide d'un ID de session dans le but de faciliter le débogage.
       </translation>
@@ -2465,7 +2465,7 @@ Si elle est définie sur "False" ou si elle n'est pas configurée, ces publicit�
 <translation id="7343497214039883642">Fichier de configuration des imprimantes d'entreprise pour des appareils</translation>
 <translation id="7349338075015720646">Établit une liste de sites Web installés de façon silencieuse, sans intervention de l'utilisateur, qui ne peuvent être ni désinstallés, ni désactivés par l'utilisateur.
 
-      Chaque élément de la liste de cette règle est un objet constitué de deux paramètres : "url" et "launch_container". "url" correspond à l'URL de l'application Web à installer et "launch_container" désigne l'endroit où celle-ci doit s'ouvrir ("window" ou "tab"). Lorsque le paramètre "launch_container" n'est pas défini, l'application se lance dans une fenêtre si Chrome considère qu'il s'agit d'une progressive web app. Sinon, elle s'affiche dans un onglet.</translation>
+      Chaque élément de la liste de cette règle est un objet constitué de deux paramètres : "url" et "launch_container". "url" correspond à l'URL de l'application Web à installer et "launch_container" désigne l'endroit où celle-ci doit s'ouvrir ("window" ou "tab"). Lorsque le paramètre "launch_container" n'est pas défini, l'application se lance dans une fenêtre si Brave considère qu'il s'agit d'une progressive web app. Sinon, elle s'affiche dans un onglet.</translation>
 <translation id="735902178936442460">Cette règle détermine si les informations pouvant être utilisées pour identifier les ordinateurs, telles que le nom de l'ordinateur et les adresses réseau doivent être enregistrées.
 
       Lorsque cette règle n'est pas définie ou est définie sur True, les informations pouvant être utilisées pour identifier les ordinateurs sont collectées.
@@ -2730,7 +2730,7 @@ au maximum si un utilisateur se sert de l'appareil.
 
       REMARQUE : Pour Android, l'isolation des sites est une fonctionnalité expérimentale. Nous allons améliorer sa compatibilité au fil du temps. Toutefois, elle peut actuellement entraîner des problèmes de performances.
 
-      REMARQUE : Cette règle ne s'applique qu'à Chrome sur les appareils Android possédant plus de 1 Go de RAM. Pour l'appliquer sur d'autres plates-formes, utilisez IsolateOrigins.
+      REMARQUE : Cette règle ne s'applique qu'à Brave sur les appareils Android possédant plus de 1 Go de RAM. Pour l'appliquer sur d'autres plates-formes, utilisez IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Hôtes d'exception manuelle des utilisateurs gérés</translation>
 <translation id="7961779417826583251">Désactiver l'application des règles de transparence des certificats pour une liste d'autorités de certification héritées</translation>
@@ -2845,7 +2845,7 @@ Si ce paramètre est désactivé et que les connexions UDP sortantes sont filtr�
       Si la règle n'est pas définie, le nom affiché sur l'écran de connexion de <ph name="PRODUCT_OS_NAME" /> correspond à l'identifiant de l'adresse e-mail utilisée pour le compte local de l'appareil.
 
       Cette règle est ignorée pour les comptes utilisateur classiques.</translation>
-<translation id="8259375588339409826">Chromium et Google Chrome fonctionnent avec le même ensemble de règles. Sachez que ce document peut contenir des règles destinées à des versions logicielles inédites (règles dont la compatibilité renvoie à une version de <ph name="PRODUCT_NAME" /> qui n'est pas encore commercialisée), qui sont susceptibles d'être modifiées ou supprimées sans préavis, et pour lesquelles aucune garantie d'aucune sorte n'est fournie, y compris en termes de sécurité et de confidentialité.
+<translation id="8259375588339409826">Brave et Google Chrome fonctionnent avec le même ensemble de règles. Sachez que ce document peut contenir des règles destinées à des versions logicielles inédites (règles dont la compatibilité renvoie à une version de <ph name="PRODUCT_NAME" /> qui n'est pas encore commercialisée), qui sont susceptibles d'être modifiées ou supprimées sans préavis, et pour lesquelles aucune garantie d'aucune sorte n'est fournie, y compris en termes de sécurité et de confidentialité.
 
 Ces règles sont strictement réservées à la configuration des instances de
 <ph name="PRODUCT_NAME" /> au sein de votre organisation. Leur utilisation en dehors de votre organisation (par exemple, dans un programme diffusé au public) sera considérée comme malveillante et certainement identifiée comme telle par Google et les fournisseurs d'antivirus.
@@ -2957,7 +2957,7 @@ Il est conseillé de configurer les règles sur Windows via GPO, même si la ges
 <translation id="8544465954173828789">Autoriser la synchronisation des SMS entre le téléphone et le Chromebook</translation>
 <translation id="8548832052135586762">Définit l'impression couleur seulement, monochrome seulement ou sans restriction de couleur. Si aucune règle n'est définie, on considère qu'il n'y a aucune restriction.</translation>
 <translation id="8549772397068118889">Prévenir en cas de consultation de sites en dehors des packs de contenu</translation>
-<translation id="8566842294717252664">Masquer le Chrome Web Store sur la page Nouvel onglet et dans le lanceur d'applications</translation>
+<translation id="8566842294717252664">Masquer le Brave Web Store sur la page Nouvel onglet et dans le lanceur d'applications</translation>
 <translation id="857369585509260201">Cette règle est obsolète. Veuillez utiliser "BrowserSignin" à la place.
 
       Si cette règle est définie sur "True", l'utilisateur doit se connecter à <ph name="PRODUCT_NAME" /> avec son propre profil pour utiliser le navigateur. La valeur par défaut de "BrowserGuestModeEnabled" est définie sur "False". Sachez que les profils existants non signés seront verrouillés et inaccessibles une fois cette règle activée. Pour en savoir plus, consultez l'article correspondant du centre d'aide.

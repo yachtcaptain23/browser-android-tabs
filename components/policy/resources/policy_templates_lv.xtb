@@ -371,7 +371,7 @@
 <translation id="2073552873076775140">Atļauja pierakstīties pārlūkā <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Izmantot aparatūras paātrināšanas režīmu, kad tas ir pieejams</translation>
 <translation id="2077273864382355561">Aizkave līdz ekrāna izslēgšanai, ja ierīce darbojas ar akumulatora jaudu</translation>
-<translation id="2082205219176343977">Konfigurējiet ierīcē minimālo atļauto Chrome versiju.</translation>
+<translation id="2082205219176343977">Konfigurējiet ierīcē minimālo atļauto Brave versiju.</translation>
 <translation id="209586405398070749">Stabila versija</translation>
 <translation id="2098658257603918882">Iespējo lietošanas un ar avārijām saistītu datu ziņošanu</translation>
 <translation id="2111016292707172233">Izmantojot šo politiku, pārlūka <ph name="PRODUCT_NAME" /> satura skatā var iespējot funkciju “Pieskarties, lai meklētu”.
@@ -491,13 +491,13 @@
 
           Šī politika ir svarīgāka par iespējami konfliktējošo politiku <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Ja lietotne vai paplašinājums, kas iepriekš tika instalēts piespiedu kārtā, tiek noņemts no šī saraksta, <ph name="PRODUCT_NAME" /> to automātiski atinstalē.
 
-          Windows datoros, kas nav pievienoti <ph name="MS_AD_NAME" /> domēnam, piespiedu instalēšana attiecas tikai uz lietotnēm un paplašinājumiem, kas norādīti Chrome interneta veikalā.
+          Windows datoros, kas nav pievienoti <ph name="MS_AD_NAME" /> domēnam, piespiedu instalēšana attiecas tikai uz lietotnēm un paplašinājumiem, kas norādīti Brave interneta veikalā.
 
           Ņemiet vērā, ka jebkura paplašinājuma avota kodu lietotāji var mainīt izstrādātāja rīkos (potenciāli atveidojot paplašinājumu kā nefunkcionējošu). Ja tas rada problēmas, ir jāiestata politika <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
-          Katrs politikas saraksta vienums ir virkne, kas ietver paplašinājuma ID un atjaunināšanas URL, kuri atdalīti ar semikolu (<ph name="SEMICOLON" />). Paplašinājuma ID ir 32 burtu virkne, kas ir redzama, piemēram, lapā <ph name="CHROME_EXTENSIONS_LINK" /> izstrādātāja režīmā. Atjaunināšanas vietrādim URL (ja tas ir norādīts) ir jānovirza uz atjauninājuma manifesta XML dokumentu, kā norādīts šeit: <ph name="LINK_TO_EXTENSION_DOC1" />. Pēc noklusējuma tiek izmantots Chrome interneta veikala atjaunināšanas URL (šobrīd: “https://clients2.google.com/service/update2/crx”). Ņemiet vērā, ka šajā politikā iestatītais atjaunināšanas URL tiek izmantots tikai sākotnējai instalācijai; nākamajiem paplašinājuma atjauninājumiem tiek izmantots paplašinājuma manifestā norādītais atjaunināšanas URL. Ņemiet vērā, ka atjaunināšanas URL tieša norādīšana bija obligāta visās <ph name="PRODUCT_NAME" /> versijās, kas ir vecākas par versiju 67 (ieskaitot).
+          Katrs politikas saraksta vienums ir virkne, kas ietver paplašinājuma ID un atjaunināšanas URL, kuri atdalīti ar semikolu (<ph name="SEMICOLON" />). Paplašinājuma ID ir 32 burtu virkne, kas ir redzama, piemēram, lapā <ph name="CHROME_EXTENSIONS_LINK" /> izstrādātāja režīmā. Atjaunināšanas vietrādim URL (ja tas ir norādīts) ir jānovirza uz atjauninājuma manifesta XML dokumentu, kā norādīts šeit: <ph name="LINK_TO_EXTENSION_DOC1" />. Pēc noklusējuma tiek izmantots Brave interneta veikala atjaunināšanas URL (šobrīd: “https://clients2.google.com/service/update2/crx”). Ņemiet vērā, ka šajā politikā iestatītais atjaunināšanas URL tiek izmantots tikai sākotnējai instalācijai; nākamajiem paplašinājuma atjauninājumiem tiek izmantots paplašinājuma manifestā norādītais atjaunināšanas URL. Ņemiet vērā, ka atjaunināšanas URL tieša norādīšana bija obligāta visās <ph name="PRODUCT_NAME" /> versijās, kas ir vecākas par versiju 67 (ieskaitot).
 
-          Piemēram, <ph name="EXTENSION_POLICY_EXAMPLE" /> instalē lietotni <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />, izmantojot Chrome interneta veikala standarta atjaunināšanas URL. Plašāku informāciju par paplašinājumu mitināšanu skatiet šeit: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Piemēram, <ph name="EXTENSION_POLICY_EXAMPLE" /> instalē lietotni <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />, izmantojot Brave interneta veikala standarta atjaunināšanas URL. Plašāku informāciju par paplašinājumu mitināšanu skatiet šeit: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Ja šī politika nav iestatīta, neviena lietotne un paplašinājums netiek instalēts automātiski un lietotājs var atinstalēt jebkuru pārlūkā <ph name="PRODUCT_NAME" /> esošu lietotni vai paplašinājumu.</translation>
 <translation id="2292084646366244343">Lai labotu pareizrakstības kļūdas, pārlūkā <ph name="PRODUCT_NAME" /> var izmantot Google tīmekļa pakalpojumu. Ja šis iestatījums ir iespējots, šis pakalpojums tiek izmantots vienmēr. Ja šis iestatījums ir atspējots, pakalpojums nekad netiek izmantots.
@@ -686,7 +686,7 @@
 <translation id="268577405881275241">Iespējot datu saspiešanas starpniekservera funkciju</translation>
 <translation id="2693108589792503178">Konfigurēt paroles maiņas URL.</translation>
 <translation id="2731627323327011390">Atspējot <ph name="PRODUCT_OS_NAME" /> sertifikātu izmantošanu ARC lietotnēm</translation>
-<translation id="2742843273354638707">Paslēpt Chrome interneta veikala lietotnes un kājenes saiti Jaunas cilnes lapā un <ph name="PRODUCT_OS_NAME" /> lietotņu palaidējā.
+<translation id="2742843273354638707">Paslēpt Brave interneta veikala lietotnes un kājenes saiti Jaunas cilnes lapā un <ph name="PRODUCT_OS_NAME" /> lietotņu palaidējā.
 
       Ja šai politikai ir iestatīta vērtība Patiesa, ikonas tiek paslēptas.
 
@@ -805,7 +805,7 @@
           Ja šī politika nav iestatīta, tiks lietota politika AllowJavaScript un lietotājs to varēs mainīt.</translation>
 <translation id="3038323923255997294">Turpināt lietotņu izpildi fonā, kad produkts <ph name="PRODUCT_NAME" /> ir aizvērts</translation>
 <translation id="3046192273793919231">Tīkla pakešu sūtīšana uz pārvaldības serveri, lai pārraudzītu tiešsaistes statusu</translation>
-<translation id="3047732214002457234">Kontrolējiet, kā Chrome tīrīšanas rīks nosūta datus Google serveriem</translation>
+<translation id="3047732214002457234">Kontrolējiet, kā Brave tīrīšanas rīks nosūta datus Google serveriem</translation>
 <translation id="3048744057455266684">Ja šī politika ir iestatīta un universālajā lodziņā ieteiktā URL vaicājuma virkne vai fragmenta identifikators satur šo parametru, kā ieteikums tiks rādīti meklēšanas vienumi un meklētājprogramma, nevis neapstrādāts meklēšanas URL.
 
           Šī politika nav jāiestata obligāti. Ja tā nebūs iestatīta, meklēšanas vienumu aizstāšana nenotiks.
@@ -1127,13 +1127,13 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
       Ja neiestatīsiet šo politiku, produktā <ph name="PRODUCT_NAME" /> tiks izmantots ierastais noklusējuma direktorijs (atkarīgs no konkrētas platformas).
 
       Pieejamo mainīgo sarakstu skatiet vietnē https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables.</translation>
-<translation id="3904459740090265495">Šī politika nosaka pārlūkprogrammas pierakstīšanās darbību. Varat norādīt, vai lietotājs var pierakstīties pārlūkprogrammā <ph name="PRODUCT_NAME" /> ar savu kontu un izmantot ar kontu saistītus pakalpojumus, piemēram, Chrome sinhronizāciju.
+<translation id="3904459740090265495">Šī politika nosaka pārlūkprogrammas pierakstīšanās darbību. Varat norādīt, vai lietotājs var pierakstīties pārlūkprogrammā <ph name="PRODUCT_NAME" /> ar savu kontu un izmantot ar kontu saistītus pakalpojumus, piemēram, Brave sinhronizāciju.
 
-      Ja šai politikai ir iestatīta vērtība “Atspējot pierakstīšanos pārlūkprogrammā”, tad lietotājs nevar pierakstīties pārlūkprogrammā un izmantot ar kontu saistītus pakalpojumus. Šādā gadījumā tādas pārlūkprogrammas līmeņa funkcijas kā Chrome sinhronizācija nav pieejamas – lietotājs nevar tās izmantot. Ja politikas atspējošanas brīdī lietotājs ir pierakstījies, nākamajā Chrome palaišanas reizē lietotājs tiek izrakstīts no pārlūkprogrammas, taču vietējie profila dati, piemēram, grāmatzīmes, paroles u.c., tiek saglabāti. Lietotājs arī turpmāk var pierakstīties Google tīmekļa pakalpojumos, piemēram, Gmail, un lietot tos.
+      Ja šai politikai ir iestatīta vērtība “Atspējot pierakstīšanos pārlūkprogrammā”, tad lietotājs nevar pierakstīties pārlūkprogrammā un izmantot ar kontu saistītus pakalpojumus. Šādā gadījumā tādas pārlūkprogrammas līmeņa funkcijas kā Brave sinhronizācija nav pieejamas – lietotājs nevar tās izmantot. Ja politikas atspējošanas brīdī lietotājs ir pierakstījies, nākamajā Brave palaišanas reizē lietotājs tiek izrakstīts no pārlūkprogrammas, taču vietējie profila dati, piemēram, grāmatzīmes, paroles u.c., tiek saglabāti. Lietotājs arī turpmāk var pierakstīties Google tīmekļa pakalpojumos, piemēram, Gmail, un lietot tos.
 
-      Ja politikai ir iestatīta vērtība “Iespējot pierakstīšanos pārlūkprogrammā”, tad lietotājam ir atļauts pierakstīties pārlūkprogrammā, turklāt lietotājs tiek automātiski pierakstīts pārlūkprogrammā, pierakstoties tādos Google tīmekļa pakalpojumos kā Gmail. Pierakstīšanās pārlūkprogrammā nozīmē, ka pārlūkprogrammā tiek glabāta lietotāja konta informācija. Tomēr tas nenozīmē, ka pēc noklusējuma tiktu ieslēgta Chrome sinhronizācija, – lai lietotu šo funkciju, lietotājam tā jāizvēlas atsevišķi. Ja šī politika ir ieslēgta, lietotājs nevar izslēgt iestatījumu, ar kuru tiek atļauta pierakstīšanās pārlūkprogrammā. Lai kontrolētu Chrome sinhronizācijas pieejamību, izmantojiet politiku SyncDisabled.
+      Ja politikai ir iestatīta vērtība “Iespējot pierakstīšanos pārlūkprogrammā”, tad lietotājam ir atļauts pierakstīties pārlūkprogrammā, turklāt lietotājs tiek automātiski pierakstīts pārlūkprogrammā, pierakstoties tādos Google tīmekļa pakalpojumos kā Gmail. Pierakstīšanās pārlūkprogrammā nozīmē, ka pārlūkprogrammā tiek glabāta lietotāja konta informācija. Tomēr tas nenozīmē, ka pēc noklusējuma tiktu ieslēgta Brave sinhronizācija, – lai lietotu šo funkciju, lietotājam tā jāizvēlas atsevišķi. Ja šī politika ir ieslēgta, lietotājs nevar izslēgt iestatījumu, ar kuru tiek atļauta pierakstīšanās pārlūkprogrammā. Lai kontrolētu Brave sinhronizācijas pieejamību, izmantojiet politiku SyncDisabled.
 
-      Ja politikai ir iestatīta vērtība “Likt lietotājiem pierakstīties, lai lietotu pārlūkprogrammu”, lietotājam tiek rādīts konta izvēles dialoglodziņš un, lai lietotu pārlūkprogrammu, ir jāizvēlas konts un jāpierakstās. Pārvaldītiem kontiem šis iestatījums nodrošina ar kontu saistīto politiku lietošanu un piemērošanu. Pēc noklusējuma ar šo iestatījumu kontam tiek ieslēgta Chrome sinhronizācija, izņemot gadījumus, kad sinhronizāciju ir atspējojis domēna administrators vai kad tā ir atspējota, izmantojot politiku SyncDisabled. Šādā gadījumā politikai BrowserGuestModeEnabled tiek iestatīta noklusējuma vērtība “false”. Ņemiet vērā, ka pēc šīs politikas iespējošanas neparakstītie profili tiek bloķēti un nav pieejami. Plašāku informāciju skatiet šajā palīdzības centra rakstā: https://support.google.com/chrome/a/answer/7572556.
+      Ja politikai ir iestatīta vērtība “Likt lietotājiem pierakstīties, lai lietotu pārlūkprogrammu”, lietotājam tiek rādīts konta izvēles dialoglodziņš un, lai lietotu pārlūkprogrammu, ir jāizvēlas konts un jāpierakstās. Pārvaldītiem kontiem šis iestatījums nodrošina ar kontu saistīto politiku lietošanu un piemērošanu. Pēc noklusējuma ar šo iestatījumu kontam tiek ieslēgta Brave sinhronizācija, izņemot gadījumus, kad sinhronizāciju ir atspējojis domēna administrators vai kad tā ir atspējota, izmantojot politiku SyncDisabled. Šādā gadījumā politikai BrowserGuestModeEnabled tiek iestatīta noklusējuma vērtība “false”. Ņemiet vērā, ka pēc šīs politikas iespējošanas neparakstītie profili tiek bloķēti un nav pieejami. Plašāku informāciju skatiet šajā palīdzības centra rakstā: https://support.google.com/chrome/a/answer/7572556.
 
       Ja šī politika nav iestatīta, lietotājs var izvēlēties, vai iespējot pierakstīšanos pārlūkprogrammā, un izmantot šo iespēju pēc vēlēšanās.</translation>
 <translation id="3907986150060929099">Ieteikto lokalizāciju iestatīšana publiskai sesijai</translation>
@@ -1257,7 +1257,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
 <translation id="4298509794364745131">Nosaka lietotņu sarakstu, kuras var iespējot kā piezīmju lietotnes <ph name="PRODUCT_OS_NAME" /> bloķēšanas ekrānā.
 
       Ja bloķēšanas ekrānā ir iespējota vēlamā piezīmju lietotne, bloķēšanas ekrānā būs lietotāja saskarnes elements, ar ko varēs palaist vēlamo piezīmju lietotni.
-      Palaista lietotne varēs bloķēšanas ekrāna augšdaļā izveidot lietotnes logu un datu vienumus (piezīmes), kamēr bloķēšanas ekrāns ir iespējots. Lietotne varēs importēt izveidotās piezīmes galvenajā lietotāja sesijā, kad tā būs atbloķēta. Pašlaik bloķēšanas ekrānā tiek atbalstītas tikai Chrome piezīmju lietotnes.
+      Palaista lietotne varēs bloķēšanas ekrāna augšdaļā izveidot lietotnes logu un datu vienumus (piezīmes), kamēr bloķēšanas ekrāns ir iespējots. Lietotne varēs importēt izveidotās piezīmes galvenajā lietotāja sesijā, kad tā būs atbloķēta. Pašlaik bloķēšanas ekrānā tiek atbalstītas tikai Brave piezīmju lietotnes.
 
       Kad politika ir iestatīta, lietotājam ir atļauts iespējot lietotni bloķēšanas ekrānā tikai tad, ja attiecīgās lietotnes paplašinājuma ID ir iekļauts politikas saraksta vērtībā.
       Tādējādi, iestatot šo politiku tukšā sarakstā, piezīmju izveidošana bloķēšanas ekrānā tiks pilnībā atspējota.
@@ -1370,7 +1370,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
 <translation id="4567137030726189378">Atļauj izstrādātāju rīku lietošanu</translation>
 <translation id="4600786265870346112">Lielā kursora iespējošana</translation>
 <translation id="4604931264910482931">Vietējās ziņojumapmaiņas melnā saraksta konfigurēšana</translation>
-<translation id="4613508646038788144">Ja politikai ir iestatīta vērtība “False”, trešās puses programmatūra pārlūka Chrome procesos varēs ievietot izpildāmo kodu. Ja politikai nav iestatīta vērtība vai ir iestatīta vērtība “True”, trešās puses programmatūrai tiek liegta izpildāmā koda ievietošana pārlūka Chrome procesos.</translation>
+<translation id="4613508646038788144">Ja politikai ir iestatīta vērtība “False”, trešās puses programmatūra pārlūka Brave procesos varēs ievietot izpildāmo kodu. Ja politikai nav iestatīta vērtība vai ir iestatīta vērtība “True”, trešās puses programmatūrai tiek liegta izpildāmā koda ievietošana pārlūka Brave procesos.</translation>
 <translation id="4617338332148204752">Izlaist metataga pārbaudīšanu spraudnī <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Konfigurē paplašinājumu instalēšanas balto sarakstu</translation>
 <translation id="4632343302005518762">Atļauja produktam <ph name="PRODUCT_FRAME_NAME" /> apstrādāt sarakstā iekļautos satura veidus</translation>
@@ -1503,7 +1503,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
           Vērtībai ir jābūt virknētai JSON vārdnīcu masīvam. Katrai vārdnīcai ir jābūt šādā formā: { "pattern": "$URL_PATTERN", "filter" : $FILTER } (kur $URL_PATTERN ir satura iestatījuma raksts). $FILTER ierobežo, no kura klienta pārlūkprogrammā tiks automātiski atlasīti sertifikāti. Neatkarīgi no filtra tiks atlasīti tikai sertifikāti, kas atbilst servera sertifikāta pieprasījumam. Ja $FILTER ir formā { "ISSUER": { "CN": "$ISSUER_CN" } }, papildus tiek atlasīti tikai klienta sertifikāti, kas izsniegti, izmantojot sertifikātu ar nosaukumu CommonName $ISSUER_CN. Ja $FILTER ir tukšā vārdnīca {}, klienta sertifikātu atlasīšana nav papildus ierobežota.
 
           Ja šī politika nav iestatīta, nevienai vietnei netiks veikta automātiskā atlase.</translation>
-<translation id="4978405676361550165">Ja politika “OffHours” ir iestatīta, noteiktajos laika intervālos konkrētās ierīču politikas tiek ignorētas (tiek izmantoti šo politiku noklusējuma iestatījumi). Ierīču politikas tiek atkārtoti izmantotas pārlūkā Chrome katru reizi, kad sākas vai beidzas “OffHours” periods. Lietotājam tiks parādīts paziņojums un viņam būs jāizrakstās piespiedu kārtā, kad tiks mainīti “OffHours” laika un ierīču politikas iestatījumi (t.i., ja lietotājs būs pieteicies, izmantojot neatļautu kontu).</translation>
+<translation id="4978405676361550165">Ja politika “OffHours” ir iestatīta, noteiktajos laika intervālos konkrētās ierīču politikas tiek ignorētas (tiek izmantoti šo politiku noklusējuma iestatījumi). Ierīču politikas tiek atkārtoti izmantotas pārlūkā Brave katru reizi, kad sākas vai beidzas “OffHours” periods. Lietotājam tiks parādīts paziņojums un viņam būs jāizrakstās piespiedu kārtā, kad tiks mainīti “OffHours” laika un ierīču politikas iestatījumi (t.i., ja lietotājs būs pieteicies, izmantojot neatļautu kontu).</translation>
 <translation id="4980635395568992380">Datu tips:</translation>
 <translation id="4983201894483989687">Atļauj palaist novecojušus spraudņus</translation>
 <translation id="4988291787868618635">Darbība, kas ir jāveic, kad ir aizritējis laiks līdz dīkstāvei</translation>
@@ -1597,7 +1597,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
           Ja melnā saraksta vērtība ir “*”, visi vietējās ziņojumapmaiņas saimniekdatori ir iekļauti melnajā sarakstā, izņemot gadījumus, kad tie ir atsevišķi norādīti baltajā sarakstā.
 
           Ja šī politika netiek iestatīta, pārlūkā <ph name="PRODUCT_NAME" /> tiks ielādēti visi vietējās ziņojumapmaiņas saimniekdatori.</translation>
-<translation id="5272684451155669299">Ja ir iestatīta vērtība “true”, lietotājs var izmantot aparatūru Chrome ierīcēs, lai attālināti apstiprinātu tās identitāti konfidencialitātes sertificēšanas CA, platformā <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> izmantojot funkciju <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Ja ir iestatīta vērtība “true”, lietotājs var izmantot aparatūru Brave ierīcēs, lai attālināti apstiprinātu tās identitāti konfidencialitātes sertificēšanas CA, platformā <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> izmantojot funkciju <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Ja ir iestatīta vērtība “false” vai tā nav iestatīta, API izsaukumi neizdosies un tiks rādīts kļūdas kods.</translation>
 <translation id="5277806246014825877">Lietotāja iespējošana rīka Crostini palaišanai.
@@ -1726,7 +1726,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
       Ņemiet vērā, ka tas nav ieteicams, jo var atļaut paplašinājuma nameConstraints ignorēšanu, kas ierobežo tos saimniekdatora nosaukumus, kuriem var autorizēt minēto sertifikātu.
 
       Ja šī politika nav iestatīta vai ir iestatīta vērtība “false”, servera sertifikāti, kam trūks paplašinājuma subjectAlternativeName, kurā ietverts DNS nosaukums vai IP adrese, nebūs uzticami.</translation>
-<translation id="5581292529942108810">Ar pārlūkprogrammas Chrome pārskatu paplašinājumu saistītu politiku konfigurēšana.
+<translation id="5581292529942108810">Ar pārlūkprogrammas Brave pārskatu paplašinājumu saistītu politiku konfigurēšana.
 
       Šī politika ir spēkā tikai tad, ja ir iespējots paplašinājums <ph name="CHROME_REPORTING_EXTENSION_NAME" /> un mašīna ir reģistrēta pakalpojumā <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Google atrašanās vietu pakalpojumu kontrole Android operētājsistēmā</translation>
@@ -1787,7 +1787,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
       Ja šī politika ir atspējota, lejupielādes tiks sāktas nekavējoties un lietotājam netiks jautāts, kur saglabāt failu.
       Ja šī politika nav konfigurēta, lietotājs varēs mainīt šo iestatījumu.
       </translation>
-<translation id="5835124959204887277">Tiek norādīti vietrāži URL un domēni, kuriem netiks rādīta uzvedne, kad tiks pieprasīti drošības atslēgu apstiprinājuma sertifikāti. Turklāt uz drošības atslēgu tiks nosūtīts signāls, norādot, ka var izmantot atsevišķu apstiprinājumu. Ja šī politika netiek izmantota, Chrome 65. versijas vai jaunākas versijas lietotājiem tiks parādīta uzvedne, kad vietnēs tiks pieprasīts drošības atslēgu apstiprinājums.
+<translation id="5835124959204887277">Tiek norādīti vietrāži URL un domēni, kuriem netiks rādīta uzvedne, kad tiks pieprasīti drošības atslēgu apstiprinājuma sertifikāti. Turklāt uz drošības atslēgu tiks nosūtīts signāls, norādot, ka var izmantot atsevišķu apstiprinājumu. Ja šī politika netiek izmantota, Brave 65. versijas vai jaunākas versijas lietotājiem tiks parādīta uzvedne, kad vietnēs tiks pieprasīts drošības atslēgu apstiprinājums.
 
       Vietrāži URL (piemēram, https://example.com/kads/cels) atbildīs tikai kā U2F appID. Domēni (piemēram, example.com) atbildīs tikai kā tīmekļa autorizācijas RP ID. Tādējādi, lai nodrošinātu U2F un tīmekļa autorizācijas API konkrētai vietnei, ir jābūt norādītam gan appID vietrādim URL, gan domēnam.</translation>
 <translation id="5835412847081687053">Konfigurē lietotāja sesijā atļautās lietotāja saskarnes lokalizācijas</translation>
@@ -1971,7 +1971,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
 <translation id="6282799760374509080">Audio tveršanas ļaušana vai noraidīšana</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Domēna nosaukuma automātiskās pabeigšanas iespējošana lietotāja pierakstīšanās laikā</translation>
-<translation id="6315673513957120120">Ja lietotāji atver vietnes, kurās ir SSL kļūdas, pārlūkā Chrome tiek parādīta brīdinājuma lapa. Pēc noklusējuma, kā arī tad, ja šai politikai ir iestatīta vērtība Patiesa, lietotājiem ir atļauts no brīdinājuma lapas pāriet uz vietni.
+<translation id="6315673513957120120">Ja lietotāji atver vietnes, kurās ir SSL kļūdas, pārlūkā Brave tiek parādīta brīdinājuma lapa. Pēc noklusējuma, kā arī tad, ja šai politikai ir iestatīta vērtība Patiesa, lietotājiem ir atļauts no brīdinājuma lapas pāriet uz vietni.
       Ja politikai ir iestatīta vērtība Nepatiesa, lietotājiem tiek liegts no brīdinājuma lapas pāriet uz vietni.</translation>
 <translation id="6353901068939575220">Norāda parametrus, kas tiek izmantoti, meklējot URL ar metodi POST. Izmantojot šo metodi, tiek meklēti ar komatu atdalītu vārdu/vērtību pāri. Ja vērtība ir veidnes parametrs, piemēram, {searchTerms} (iepriekšējā piemērā), tas tiks aizstāts ar īstiem meklēšanas vienumu datiem.
 
@@ -2002,7 +2002,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
           Ja izvēlēsieties automātiski noteikt starpniekserveri, Android lietotnēm tiks nodrošināts skripta URL http://wpad/wpad.dat. Netiks izmantota neviena cita daļa no automātiskās noteikšanas protokola.
 
           Ja izvēlēsieties izmantot .pac starpniekservera skriptu, Android lietotnēm tiks nodrošināts skripta URL.</translation>
-<translation id="6430366557948788869">Chrome pārskatu paplašinājums</translation>
+<translation id="6430366557948788869">Brave pārskatu paplašinājums</translation>
 <translation id="6440051664870270040">Atļauja vietnēs vienlaicīgi izmantot navigāciju un atvērt uznirstošos logus</translation>
 <translation id="6447948611083700881">Dublēšana un atjaunošana ir atspējota</translation>
 <translation id="645425387487868471">Piespiedu pierakstīšanās iespējošana pārlūkā <ph name="PRODUCT_NAME" /></translation>
@@ -2206,7 +2206,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
 
       PIEZĪME. Operētājsistēmā Android vietņu izolēšana ir eksperimentāla. Ar laiku atbalsts tiks uzlabots, tomēr pašlaik var rasties veiktspējas problēmas.
 
-      PIEZĪME. Šī politika attiecas tikai uz pārlūku Chrome operētājsistēmā Android ierīcēs, kuru RAM atmiņas ietilpība pārsniedz 1 GB. Lai izmantotu politiku platformās, kas nav Android operētājsistēma, izmantojiet SitePerProcess.
+      PIEZĪME. Šī politika attiecas tikai uz pārlūku Brave operētājsistēmā Android ierīcēs, kuru RAM atmiņas ietilpība pārsniedz 1 GB. Lai izmantotu politiku platformās, kas nav Android operētājsistēma, izmantojiet SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Ja šai politikai ir iestatīta vērtība “True” un ja mākoņa politika konfliktē ar ierīces politiku, mākoņa politikai ir priekšroka.
@@ -2365,11 +2365,11 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
 
           Ja šī politika nav iestatīta, ekrāna lupa tiek atspējota, kad pirmo reizi tiek parādīts pieteikšanās ekrāns. Lietotāji var jebkurā laikā iespējot vai atspējot ekrāna lupu, un tās statuss pieteikšanās ekrānā tiek saglabāts visiem lietotājiem.</translation>
 <translation id="7249828445670652637">Iespējot <ph name="PRODUCT_OS_NAME" /> CA sertifikātus ARC lietotnēm</translation>
-<translation id="725322441686394886">Ja šī politika nav iestatīta un Chrome tīrīšanas rīks atrod nevēlamu programmatūru, saskaņā ar politiku “SafeBrowsingExtendedReportingEnabled” meklēšanas metadatus var nosūtīt Google serveriem. Pēc tam Chrome tīrīšanas rīkā lietotājam tiks vaicāts, vai noņemt nevēlamo programmatūru. Lietotājs var izvēlēties, vai tīrīšanas rezultātus kopīgot ar Google serveriem, lai uzlabotu turpmāku nevēlamās programmatūras atrašanu. Kā norādīts Chrome konfidencialitātes tehniskajā dokumentā, šie rezultāti ietver failu metadatus, automātiski instalētus paplašinājumus un reģistra atslēgas.
+<translation id="725322441686394886">Ja šī politika nav iestatīta un Brave tīrīšanas rīks atrod nevēlamu programmatūru, saskaņā ar politiku “SafeBrowsingExtendedReportingEnabled” meklēšanas metadatus var nosūtīt Google serveriem. Pēc tam Brave tīrīšanas rīkā lietotājam tiks vaicāts, vai noņemt nevēlamo programmatūru. Lietotājs var izvēlēties, vai tīrīšanas rezultātus kopīgot ar Google serveriem, lai uzlabotu turpmāku nevēlamās programmatūras atrašanu. Kā norādīts Brave konfidencialitātes tehniskajā dokumentā, šie rezultāti ietver failu metadatus, automātiski instalētus paplašinājumus un reģistra atslēgas.
 
-      Ja politika ir atspējota un Chrome tīrīšanas rīks atrod nevēlamu programmatūru, meklēšanas metadati netiks sūtīti Google serveriem un tiks ignorēti politikas “SafeBrowsingExtendedReportingEnabled” iestatījumi. Chrome tīrīšanas rīkā lietotājam tiks vaicāts, vai noņemt nevēlamo programmatūru. Tīrīšanas rezultāti netiks nosūtīti Google serveriem, un lietotājam nebūs pieejama nosūtīšanas iespēja.
+      Ja politika ir atspējota un Brave tīrīšanas rīks atrod nevēlamu programmatūru, meklēšanas metadati netiks sūtīti Google serveriem un tiks ignorēti politikas “SafeBrowsingExtendedReportingEnabled” iestatījumi. Brave tīrīšanas rīkā lietotājam tiks vaicāts, vai noņemt nevēlamo programmatūru. Tīrīšanas rezultāti netiks nosūtīti Google serveriem, un lietotājam nebūs pieejama nosūtīšanas iespēja.
 
-      Ja politika ir iespējota un Chrome tīrīšanas rīks atrod nevēlamu programmatūru, saskaņā ar politiku “SafeBrowsingExtendedReportingEnabled” meklēšanas metadatus var nosūtīt Google serveriem. Chrome tīrīšanas rīkā lietotājam tiks vaicāts, vai noņemt nevēlamo programmatūru. Tīrīšanas rezultāti tiks nosūtīti Google serveriem, un lietotājam nebūs pieejama iespēja liegt nosūtīšanu.
+      Ja politika ir iespējota un Brave tīrīšanas rīks atrod nevēlamu programmatūru, saskaņā ar politiku “SafeBrowsingExtendedReportingEnabled” meklēšanas metadatus var nosūtīt Google serveriem. Brave tīrīšanas rīkā lietotājam tiks vaicāts, vai noņemt nevēlamo programmatūru. Tīrīšanas rezultāti tiks nosūtīti Google serveriem, un lietotājam nebūs pieejama iespēja liegt nosūtīšanu.
 
       Šī politika nav pieejama Windows instancēs, kas nav pievienotas <ph name="MS_AD_NAME" /> domēnam.</translation>
 <translation id="7258823566580374486">Aizsegšanas režīma iespējošana attālās piekļuves saimniekdatoriem</translation>
@@ -2423,9 +2423,9 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
 <translation id="7329968046053403405">Norāda Android autentifikācijas lietotnes nodrošināto kontu veidu, kuros tiek atbalstīta <ph name="HTTP_NEGOTIATE" /> autentifikācija (piemēram, Kerberos autentifikācija). Šai informācijai ir jābūt pieejamai no autentifikācijas lietotnes nodrošinātāja. Plašāku informāciju skatiet vietnē https://goo.gl/hajyfN.
 
           Ja iestatījums nav norādīts, <ph name="HTTP_NEGOTIATE" /> autentifikācija operētājsistēmā Android tiek atspējota.</translation>
-<translation id="7331962793961469250">Ja ir iestatīta vērtība Patiess, jaunas cilnes lapā netiek rādītas Chrome interneta veikala lietotņu reklāmas.
+<translation id="7331962793961469250">Ja ir iestatīta vērtība Patiess, jaunas cilnes lapā netiek rādītas Brave interneta veikala lietotņu reklāmas.
 
-      Ja šai opcijai ir iestatīta vērtība Aplams vai tā vispār nav iestatīta, jaunas cilnes lapā tiek rādītas Chrome interneta veikala lietotņu reklāmas.</translation>
+      Ja šai opcijai ir iestatīta vērtība Aplams vai tā vispār nav iestatīta, jaunas cilnes lapā tiek rādītas Brave interneta veikala lietotņu reklāmas.</translation>
 <translation id="7332963785317884918">Šī politika vairs netiek izmantota. <ph name="PRODUCT_OS_NAME" /> vienmēr izmantos tīrīšanas stratēģiju “RemoveLRU”.
 
       Kontrolē automātisko tīrīšanu <ph name="PRODUCT_OS_NAME" /> ierīcēs. Automātiskā tīrīšana tiek aktivizēta, kad tiek sasniegts kritisks brīvās diska vietas līmenis, lai iegūtu brīvu vietu diskā.
@@ -2453,9 +2453,9 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
 
       Plašāku informāciju par funkciju Droša pārlūkošana skatiet vietnē https://developers.google.com/safe-browsing.</translation>
 <translation id="737655323154569539">Ierobežo drukāšanas lapas izmēru. Ja politika nav iestatīta, tiek uzskatīts, ka ierobežojuma nav.</translation>
-<translation id="7417728346887499628">Ja politika ir atspējota, Chrome tīrīšanas rīkam tiek liegta sistēmas pārmeklēšana, kas ir nepieciešama nevēlamu programmatūru noteikšanai un tīrīšanai. Manuāla Chrome tīrīšanas rīka aktivizēšana sadaļā chrome://settings/cleanup ir atspējota.
+<translation id="7417728346887499628">Ja politika ir atspējota, Brave tīrīšanas rīkam tiek liegta sistēmas pārmeklēšana, kas ir nepieciešama nevēlamu programmatūru noteikšanai un tīrīšanai. Manuāla Brave tīrīšanas rīka aktivizēšana sadaļā chrome://settings/cleanup ir atspējota.
 
-      Ja politika ir iespējota vai nav iestatīta, Chrome tīrīšanas rīks sistēmā periodiski meklē nevēlamu programmatūru un, ja šāda programmatūra tiek atrasta, lietotājam tiks parādīta ziņojums ar jautājumu, vai šo programmatūru noņemt. Manuāla Chrome tīrīšanas rīka aktivizēšana sadaļā chrome://settings ir iespējota.
+      Ja politika ir iespējota vai nav iestatīta, Brave tīrīšanas rīks sistēmā periodiski meklē nevēlamu programmatūru un, ja šāda programmatūra tiek atrasta, lietotājam tiks parādīta ziņojums ar jautājumu, vai šo programmatūru noņemt. Manuāla Brave tīrīšanas rīka aktivizēšana sadaļā chrome://settings ir iespējota.
 
       Šī politika nav pieejama Windows instancēs, kas nav pievienotas <ph name="MS_AD_NAME" /> domēnam.</translation>
 <translation id="7417972229667085380">Aizkaves līdz dīkstāvei norādīšana procentos (prezentācijas režīmā; pārtraukta)</translation>
@@ -2703,7 +2703,7 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
 
       PIEZĪME. Operētājsistēmā Android vietņu izolēšana ir eksperimentāla. Ar laiku atbalsts tiks uzlabots, tomēr pašlaik var rasties veiktspējas problēmas.
 
-      PIEZĪME. Šī politika attiecas tikai uz pārlūku Chrome operētājsistēmā Android ierīcēs, kuru RAM atmiņas ietilpība pārsniedz 1 GB. Lai izmantotu politiku platformās, kas nav Android platformas, izmantojiet politikas iestatījumu IsolateOrigins.
+      PIEZĪME. Šī politika attiecas tikai uz pārlūku Brave operētājsistēmā Android ierīcēs, kuru RAM atmiņas ietilpība pārsniedz 1 GB. Lai izmantotu politiku platformās, kas nav Android platformas, izmantojiet politikas iestatījumu IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Pārvaldīto lietotāju manuālo izņēmumu saimniekdatori</translation>
 <translation id="7961779417826583251">Certificate Transparency piemērošanas atspējošana mantotajām sertificēšanas iestādēm</translation>
@@ -2716,7 +2716,7 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
 <translation id="7976157349247117979"><ph name="PRODUCT_NAME" /> galamērķa nosaukums</translation>
 <translation id="7980227303582973781">Nav specifisku ierobežojumu</translation>
 <translation id="7985242821674907985"><ph name="PRODUCT_NAME" /></translation>
-<translation id="7992136759457836904">Ļauj kontrolēt, vai virtuālajām ierīcēm ir atļauts darboties Chrome operētājsistēmā.
+<translation id="7992136759457836904">Ļauj kontrolēt, vai virtuālajām ierīcēm ir atļauts darboties Brave operētājsistēmā.
 
       Ja politikai ir iestatīta vērtība “True”, ierīcei ir atļauts palaist virtuālās mašīnas.
       Ja politikai ir iestatīta vērtība “False”, ierīcei nebūs atļauts palaist virtuālās mašīnas.
@@ -2818,7 +2818,7 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
       Ja politika netiks iestatīta, <ph name="PRODUCT_OS_NAME" /> izmantos ierīces lokālā konta e-pasta konta ID kā parādāmo vārdu pieteikšanās ekrānā.
 
       Šī politika netiek ņemta vērā parastajiem lietotāju kontiem.</translation>
-<translation id="8259375588339409826">Pārlūkos Chromium un Google Chrome tiek atbalstīta viena un tā pati politiku kopa. Lūdzu, ņemiet vērā, ka šajā dokumentā var būt ietvertas neizlaistas politikas (t.i., to ieraksts “Atbalstītās ierīces” attiecas uz vēl neizlaistu <ph name="PRODUCT_NAME" /> versiju), kuras var tikt mainītas vai noņemtas bez brīdinājuma un par kurām netiek sniegtas nekāda veida garantijas, tostarp garantijas par drošību un konfidencialitāti.
+<translation id="8259375588339409826">Pārlūkos Brave un Google Chrome tiek atbalstīta viena un tā pati politiku kopa. Lūdzu, ņemiet vērā, ka šajā dokumentā var būt ietvertas neizlaistas politikas (t.i., to ieraksts “Atbalstītās ierīces” attiecas uz vēl neizlaistu <ph name="PRODUCT_NAME" /> versiju), kuras var tikt mainītas vai noņemtas bez brīdinājuma un par kurām netiek sniegtas nekāda veida garantijas, tostarp garantijas par drošību un konfidencialitāti.
 
 Šīs politikas ir paredzētas tikai jūsu organizācijas iekšējo <ph name="PRODUCT_NAME" /> instanču konfigurācijas veikšanai. Šo politiku izmantojums ārpus jūsu organizācijas (piemēram, publiski izplatītā programmā) tiek uzskatīts par ļaunprātīgu programmatūru, un, visticamāk, uzņēmums Google un pretvīrusu programmu pakalpojumu sniedzēji to arī atzīmēs kā ļaunprātīgu programmatūru.
 
@@ -2870,7 +2870,7 @@ Operētājsistēmā Windows politikas konfigurēšanai ieteicams izmantot GPO, t
 <translation id="8339420913453596618">Otrais faktors atspējots</translation>
 <translation id="8344454543174932833">Grāmatzīmju importēšana no noklusējuma pārlūka pirmajā palaišanas reizē</translation>
 <translation id="8359734107661430198">Iespējot ExampleDeprecatedFeature API, kas bija derīgs līdz 02.09.2008.</translation>
-<translation id="8367209241899435947">Iespējojiet Chrome tīrīšanas rīku Windows datorā</translation>
+<translation id="8367209241899435947">Iespējojiet Brave tīrīšanas rīku Windows datorā</translation>
 <translation id="8369602308428138533">Aizkave līdz ekrāna izslēgšanai, ja ierīce darbojas ar maiņstrāvu</translation>
 <translation id="8382184662529825177">Iespējot attālās apstiprināšanas lietošanu ierīces satura aizsardzībai</translation>
 <translation id="838870586332499308">Iespējot datu viesabonēšanu</translation>

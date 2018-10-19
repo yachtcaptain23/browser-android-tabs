@@ -386,7 +386,7 @@
 <translation id="2073552873076775140">Benarkan log masuk ke <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Gunakan pecutan perkakasan apabila tersedia</translation>
 <translation id="2077273864382355561">Kelewatan pemadaman skrin apabila dijalankan dengan kuasa bateri</translation>
-<translation id="2082205219176343977">Konfigurasikan versi Chrome minimum yang dibenarkan untuk peranti ini.</translation>
+<translation id="2082205219176343977">Konfigurasikan versi Brave minimum yang dibenarkan untuk peranti ini.</translation>
 <translation id="209586405398070749">Saluran stabil</translation>
 <translation id="2098658257603918882">Dayakan laporan penggunaan dan data berkaitan nahas</translation>
 <translation id="2111016292707172233">Mendayakan ketersediaan Ketik untuk Mencari dalam paparan kandungan <ph name="PRODUCT_NAME" />.
@@ -504,13 +504,13 @@
 
           Dasar ini diutamakan sekiranya berlaku percanggahan dasar <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Jika apl atau sambungan yang dipasang secara paksa sebelum ini dialih keluar daripada senarai ini, maka apl atau sambungan tersebut akan dinyahpasang oleh <ph name="PRODUCT_NAME" /> secara automatik.
 
-          Untuk tika Windows yang tidak dihubungkan ke domain <ph name="MS_AD_NAME" />, pemasangan paksa adalah terhad kepada apl dan sambungan yang disenaraikan di Gedung Web Chrome.
+          Untuk tika Windows yang tidak dihubungkan ke domain <ph name="MS_AD_NAME" />, pemasangan paksa adalah terhad kepada apl dan sambungan yang disenaraikan di Gedung Web Brave.
 
           Sila ambil perhatian bahawa kod sumber mana-mana sambungan mungkin diubah oleh pengguna melalui Alatan Pembangun (berkemungkinan menyebabkan disfungsi pada sambungan). Jika perkara ini menimbulkan kebimbangan, maka dasar <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> harus ditetapkan.
 
-          Setiap item senarai dasar ini ialah rentetan yang mengandungi ID sambungan dan URL "kemas kini" yang dipisahkan oleh koma bertitik (<ph name="SEMICOLON" />) sebagai pillihan. ID sambungan ialah rentetan 32 huruf yang didapati contohnya di <ph name="CHROME_EXTENSIONS_LINK" /> apabila dalam mod pembangun. URL "kemas kini", jika dinyatakan, harus menunjuk kepada dokumen XML Manifes Kemas Kini seperti yang dihuraikan di <ph name="LINK_TO_EXTENSION_DOC1" />. Secara lalai, URL kemas kini Gedung Web Chrome digunakan (pada masa ini ialah "https://clients2.google.com/service/update2/crx"). Sila ambil perhatian bahawa URL "kemas kini" yang ditetapkan dalam dasar ini hanya digunakan untuk pemasangan awal; kemas kini sambungan yang berikutnya menggunakan URL kemas kini yang ditunjukkan dalam manifes sambungan tersebut. Selain itu, sila ambil perhatian bahawa menentukan URL "kemas kini" secara jelas adalah mandatori dalam <ph name="PRODUCT_NAME" /> sehingga dan termasuk versi 67.
+          Setiap item senarai dasar ini ialah rentetan yang mengandungi ID sambungan dan URL "kemas kini" yang dipisahkan oleh koma bertitik (<ph name="SEMICOLON" />) sebagai pillihan. ID sambungan ialah rentetan 32 huruf yang didapati contohnya di <ph name="CHROME_EXTENSIONS_LINK" /> apabila dalam mod pembangun. URL "kemas kini", jika dinyatakan, harus menunjuk kepada dokumen XML Manifes Kemas Kini seperti yang dihuraikan di <ph name="LINK_TO_EXTENSION_DOC1" />. Secara lalai, URL kemas kini Gedung Web Brave digunakan (pada masa ini ialah "https://clients2.google.com/service/update2/crx"). Sila ambil perhatian bahawa URL "kemas kini" yang ditetapkan dalam dasar ini hanya digunakan untuk pemasangan awal; kemas kini sambungan yang berikutnya menggunakan URL kemas kini yang ditunjukkan dalam manifes sambungan tersebut. Selain itu, sila ambil perhatian bahawa menentukan URL "kemas kini" secara jelas adalah mandatori dalam <ph name="PRODUCT_NAME" /> sehingga dan termasuk versi 67.
 
-          Contohnya, <ph name="EXTENSION_POLICY_EXAMPLE" /> memasang apl <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> daripada URL "kemas kini" standard Gedung Web Chrome. Untuk mendapatkan maklumat lanjut tentang mengehoskan sambungan, lihat: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Contohnya, <ph name="EXTENSION_POLICY_EXAMPLE" /> memasang apl <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> daripada URL "kemas kini" standard Gedung Web Brave. Untuk mendapatkan maklumat lanjut tentang mengehoskan sambungan, lihat: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Jika dasar ini dibiarkan tanpa ditetapkan, tiada apl mahupun sambungan dipasang secara automatik dan pengguna boleh menyahpasang sebarang apl dan sambungan dalam <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> boleh menggunakan perkhidmatan web Google untuk membantu menyelesaikan kesilapan ejaan. Jika tetapan ini didayakan, maka perkhidmatan ini sentiasa akan digunakan. Jika tetapan ini dilumpuhkan, maka perkhidmatan ini tidak akan digunakan.
@@ -697,7 +697,7 @@
 <translation id="268577405881275241">Dayakan ciri proksi pemampatan data</translation>
 <translation id="2693108589792503178">Konfigurasikan URL tukar kata laluan.</translation>
 <translation id="2731627323327011390">Lumpuhkan penggunaan sijil <ph name="PRODUCT_OS_NAME" /> pada apl ARC</translation>
-<translation id="2742843273354638707">Sembunyikan apl Gedung Web Chrome dan pautan pembawah daripada Halaman Tab Baharu dan pelancar apl <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Sembunyikan apl Gedung Web Brave dan pautan pembawah daripada Halaman Tab Baharu dan pelancar apl <ph name="PRODUCT_OS_NAME" />.
 
       Apabila dasar ini ditetapkan kepada benar, ikon akan disembunyikan.
 
@@ -727,7 +727,7 @@
 <translation id="2799297758492717491">Benarkan automain media pada senarai putih corak URL</translation>
 <translation id="2801230735743888564">Membolehkan pengguna bermain permainan telur easter dinosaur apabila peranti di luar talian.
 
-      Jika dasar ini ditetapkan kepada Palsu, pengguna tidak akan dapat bermain permainan telur easter dinosaur apabila peranti di luar talian. Jika tetapan ini ditetapkan kepada Benar, pengguna dibenarkan bermain permainan dinosaur. Jika dasar ini tidak ditetapkan, pengguna tidak dibenarkan bermain permainan telur easter dinosaur pada OS Chrome berdaftar, tetapi dibenarkan bermain menurut keadaan lain.</translation>
+      Jika dasar ini ditetapkan kepada Palsu, pengguna tidak akan dapat bermain permainan telur easter dinosaur apabila peranti di luar talian. Jika tetapan ini ditetapkan kepada Benar, pengguna dibenarkan bermain permainan dinosaur. Jika dasar ini tidak ditetapkan, pengguna tidak dibenarkan bermain permainan telur easter dinosaur pada OS Brave berdaftar, tetapi dibenarkan bermain menurut keadaan lain.</translation>
 <translation id="2802085784857530815">Membolehkan anda mengawal sama ada pengguna boleh mengakses pencetak bukan perusahaan
 
       Jika dasar ini ditetapkan kepada Benar atau tidak ditetapkan sama sekali, pengguna boleh menambah, mengkonfigurasi dan mencetak menggunakan pencetak asli mereka sendiri.
@@ -816,7 +816,7 @@
           Jika dasar ini dibiarkan tanpa ditetapkan, 'AllowJavaScript' akan digunakan dan pengguna akan boleh mengubahnya.</translation>
 <translation id="3038323923255997294">Terus jalankan apl latar belakang apabila <ph name="PRODUCT_NAME" /> ditutup</translation>
 <translation id="3046192273793919231">Hantar bingkisan rangkaian ke pelayan pengurusan untuk memantau status dalam talian</translation>
-<translation id="3047732214002457234">Kawal cara Pembersih Chrome melaporkan data kepada Google</translation>
+<translation id="3047732214002457234">Kawal cara Pembersih Brave melaporkan data kepada Google</translation>
 <translation id="3048744057455266684">Jika dasar ini ditetapkan dan URL carian yang dicadangkan dari kotak omni mengandungi parameter ini dalam rentetan pertanyaan atau dalam pengecam serpihan, maka cadangan akan memaparkan istilah carian dan penyedia carian, bukannya URL carian mentah.
 
           Dasar ini tidak wajib. Jika tidak ditetapkan, tiada penggantian istilah carian akan dilaksanakan.
@@ -1143,13 +1143,13 @@
       Jika anda tidak menetapkan dasar ini, <ph name="PRODUCT_NAME" /> akan menggunakan direktori lalainya yang biasa (khusus platform).
 
       Lihat https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables untuk mendapatkan senarai pemboleh ubah yang boleh digunakan.</translation>
-<translation id="3904459740090265495">Dasar ini mengawal gelagat log masuk penyemak imbas. Dasar ini membolehkan anda menentukan sama ada pengguna boleh log masuk ke <ph name="PRODUCT_NAME" /> dengan akaun mereka dan menggunakan perkhidmatan yang berkaitan dengan akaun, seperti penyegerakan Chrome.
+<translation id="3904459740090265495">Dasar ini mengawal gelagat log masuk penyemak imbas. Dasar ini membolehkan anda menentukan sama ada pengguna boleh log masuk ke <ph name="PRODUCT_NAME" /> dengan akaun mereka dan menggunakan perkhidmatan yang berkaitan dengan akaun, seperti penyegerakan Brave.
 
-      Jika dasar ini ditetapkan kepada "Lumpuhkan log masuk penyemak imbas", maka pengguna tidak boleh log masuk ke penyemak imbas dan menggunakan perkhidmatan yang berkaitan dengan akaun. Dalam keadaan ini, ciri tahap penyemak imbas, seperti penyegerakan Chrome, tidak boleh digunakan dan tidak akan tersedia. Jika pengguna telah log masuk dan dasar ini ditetapkan kepada "Dilumpuhkan", mereka akan dilog keluar apabila mereka menjalankan Chrome selepas ini tetapi data profil setempat mereka, seperti penanda halaman, kata laluan dan sebagainya, tidak akan berubah. Pengguna masih boleh log masuk dan menggunakan perkhidmatan web Google, seperti Gmail.
+      Jika dasar ini ditetapkan kepada "Lumpuhkan log masuk penyemak imbas", maka pengguna tidak boleh log masuk ke penyemak imbas dan menggunakan perkhidmatan yang berkaitan dengan akaun. Dalam keadaan ini, ciri tahap penyemak imbas, seperti penyegerakan Brave, tidak boleh digunakan dan tidak akan tersedia. Jika pengguna telah log masuk dan dasar ini ditetapkan kepada "Dilumpuhkan", mereka akan dilog keluar apabila mereka menjalankan Brave selepas ini tetapi data profil setempat mereka, seperti penanda halaman, kata laluan dan sebagainya, tidak akan berubah. Pengguna masih boleh log masuk dan menggunakan perkhidmatan web Google, seperti Gmail.
 
-      Jika dasar ini ditetapkan kepada "Dayakan log masuk penyemak imbas", maka pengguna dibenarkan untuk log masuk ke penyemak imbas dan dilog masuk ke penyemak imbas secara automatik apabila mengelog masuk ke perkhidmatan web Google, seperti Gmail. Tindakan log masuk ke penyemak imbas bermakna maklumat akaun pengguna akan disimpan oleh penyemak imbas. Walau bagaimanapun, ini tidak bermakna penyegerakan Chrome akan dihidupkan secara lalai; pengguna mesti ikut serta menggunakan ciri ini secara berasingan. Tindakan mendayakan dasar ini akan menghalang pengguna daripada mematikan tetapan yang membenarkan log masuk penyemak imbas. Untuk mengawal ketersediaan penyegerakan Chrome, gunakan dasar "SyncDisabled".
+      Jika dasar ini ditetapkan kepada "Dayakan log masuk penyemak imbas", maka pengguna dibenarkan untuk log masuk ke penyemak imbas dan dilog masuk ke penyemak imbas secara automatik apabila mengelog masuk ke perkhidmatan web Google, seperti Gmail. Tindakan log masuk ke penyemak imbas bermakna maklumat akaun pengguna akan disimpan oleh penyemak imbas. Walau bagaimanapun, ini tidak bermakna penyegerakan Brave akan dihidupkan secara lalai; pengguna mesti ikut serta menggunakan ciri ini secara berasingan. Tindakan mendayakan dasar ini akan menghalang pengguna daripada mematikan tetapan yang membenarkan log masuk penyemak imbas. Untuk mengawal ketersediaan penyegerakan Brave, gunakan dasar "SyncDisabled".
 
-      Jika dasar ini ditetapkan kepada "Paksa log masuk penyemak imbas", pengguna akan melihat dialog pemilihan akaun dan perlu memilih serta log masuk ke akaun untuk menggunakan penyemak imbas. Langkah ini memastikan bahawa bagi akaun terurus, dasar yang dikaitkan dengan akaun tersebut akan diterapkan dan dikuatkuasakan. Secara lalai, dasar ini menghidupkan penyegerakan Chrome untuk akaun tersebut, kecuali dalam keadaan apabila penyegerakan dilumpuhkan oleh pentadbir domain atau melalui dasar "SyncDisabled". Nilai lalai BrowserGuestModeEnabled akan ditetapkan kepada palsu. Sila ambil perhatian bahawa profil tidak bertandatangan yang sedia ada akan dikunci dan tidak boleh diakses selepas dasar ini didayakan. Untuk mendapatkan maklumat lanjut, lihat artikel pusat bantuan: https://support.google.com/chrome/a/answer/7572556.
+      Jika dasar ini ditetapkan kepada "Paksa log masuk penyemak imbas", pengguna akan melihat dialog pemilihan akaun dan perlu memilih serta log masuk ke akaun untuk menggunakan penyemak imbas. Langkah ini memastikan bahawa bagi akaun terurus, dasar yang dikaitkan dengan akaun tersebut akan diterapkan dan dikuatkuasakan. Secara lalai, dasar ini menghidupkan penyegerakan Brave untuk akaun tersebut, kecuali dalam keadaan apabila penyegerakan dilumpuhkan oleh pentadbir domain atau melalui dasar "SyncDisabled". Nilai lalai BrowserGuestModeEnabled akan ditetapkan kepada palsu. Sila ambil perhatian bahawa profil tidak bertandatangan yang sedia ada akan dikunci dan tidak boleh diakses selepas dasar ini didayakan. Untuk mendapatkan maklumat lanjut, lihat artikel pusat bantuan: https://support.google.com/chrome/a/answer/7572556.
 
       Jika dasar ini tidak ditetapkan, maka pengguna boleh menentukan sama ada mereka mahu mendayakan pilihan log masuk penyemak imbas dan menggunakannya mengikut kesesuaian mereka.</translation>
 <translation id="3907986150060929099">Tetapkan penempatan yang disyorkan untuk sesi awam</translation>
@@ -1172,9 +1172,9 @@
 <translation id="3973371701361892765">Jangan sekali-kali sembunyikan rak secara automatik</translation>
 <translation id="3984028218719007910">Memastikan sama ada <ph name="PRODUCT_OS_NAME" /> menyimpan data akaun setempat selepas log keluar. Jika ditetapkan kepada benar, tiada akaun berulang akan disimpan oleh <ph name="PRODUCT_OS_NAME" /> dan semua data dari sesi pengguna akan dibuang selepas log keluar. Jika dasar ini ditetapkan kepada palsu atau tidak dikonfigurasi, peranti boleh menyimpan data pengguna setempat (disulitkan).</translation>
 <translation id="3997519162482760140">URL yang akan diberikan akses kepada peranti tangkapan video pada halaman log masuk SAML</translation>
-<translation id="4001275826058808087">Pentadbir IT untuk peranti perusahaan boleh menggunakan bendera ini untuk mengawal sama ada membenarkan pengguna menebus tawaran melalui Pendaftaran OS Chrome.
+<translation id="4001275826058808087">Pentadbir IT untuk peranti perusahaan boleh menggunakan bendera ini untuk mengawal sama ada membenarkan pengguna menebus tawaran melalui Pendaftaran OS Brave.
 
-      Jika dasar ini ditetapkan kepada benar atau dibiarkan tanpa ditetapkan, pengguna dapat menebus tawaran melalui Pendaftaran OS Chrome.
+      Jika dasar ini ditetapkan kepada benar atau dibiarkan tanpa ditetapkan, pengguna dapat menebus tawaran melalui Pendaftaran OS Brave.
 
       Jika dasar ini ditetapkan kepada palsu, pengguna tidak akan dapat menebus tawaran.</translation>
 <translation id="4010738624545340900">Membenarkan permohonan dialog pemilihan fail</translation>
@@ -1274,11 +1274,11 @@
 <translation id="4298509794364745131">Menentukan senarai apl yang boleh didayakan sebagai apl pencatatan nota pada skrin kunci <ph name="PRODUCT_OS_NAME" />.
 
       Jika apl pencatatan nota pilihan didayakan pada skrin kunci, skrin kunci akan mengandungi unsur UI untuk melancarkan apl pencatatan nota pilihan.
-      Apabila dilancarkan, apl ini akan dapat membuat tetingkap apl di atas skrin kunci dan membuat item data (nota) dalam konteks skrin kunci. Apl ini akan dapat mengimport nota yang dibuat ke sesi pengguna utama, semasa sesi dibuka kunci. Hanya apl pencatatan nota Chrome yang disokong pada skrin kunci pada masa ini.
+      Apabila dilancarkan, apl ini akan dapat membuat tetingkap apl di atas skrin kunci dan membuat item data (nota) dalam konteks skrin kunci. Apl ini akan dapat mengimport nota yang dibuat ke sesi pengguna utama, semasa sesi dibuka kunci. Hanya apl pencatatan nota Brave yang disokong pada skrin kunci pada masa ini.
 
       Jika dasar ini ditetapkan, pengguna akan dibenarkan untuk mendayakan apl pada skrin kunci hanya jika ID sambungan apl terkandung dalam nilai senarai dasar.
       Akibatnya, tindakan menetapkan dasar ini kepada senarai kosong akan melumpuhkan pencatatan nota pada keseluruhan skrin kunci.
-      Sila ambil perhatian bahawa dasar yang mengandungi ID apl tidak semestinya bermaksud pengguna akan dapat mendayakan apl sebagai apl pencatatan nota pada skrin kunci - contohnya, pada Chrome 61, set apl yang tersedia dihadkan secara tambahan oleh platform.
+      Sila ambil perhatian bahawa dasar yang mengandungi ID apl tidak semestinya bermaksud pengguna akan dapat mendayakan apl sebagai apl pencatatan nota pada skrin kunci - contohnya, pada Brave 61, set apl yang tersedia dihadkan secara tambahan oleh platform.
 
       Jika dasar dibiarkan tanpa ditetapkan, tiada sekatan pada set apl yang boleh didayakan oleh pengguna pada skrin kunci yang dikenakan oleh dasar.</translation>
 <translation id="4309640770189628899">Sama ada suit sifer DHE dalam TLS didayakan</translation>
@@ -1387,7 +1387,7 @@
 <translation id="4567137030726189378">Benarkan penggunaan Alat Pembangun</translation>
 <translation id="4600786265870346112">Dayakan kursor besar</translation>
 <translation id="4604931264910482931">Konfigurasi senarai hitam pemesejan natif</translation>
-<translation id="4613508646038788144">Jika dasar ditetapkan kepada palsu, maka perisian pihak ketiga akan dibenarkan untuk menyuntik kod boleh laku ke dalam proses Chrome. Jika dasar tidak ditetapkan atau ditetapkan kepada benar, maka perisian pihak ketiga akan dihalang daripada menyuntik kod boleh laku ke dalam proses Chrome.</translation>
+<translation id="4613508646038788144">Jika dasar ditetapkan kepada palsu, maka perisian pihak ketiga akan dibenarkan untuk menyuntik kod boleh laku ke dalam proses Brave. Jika dasar tidak ditetapkan atau ditetapkan kepada benar, maka perisian pihak ketiga akan dihalang daripada menyuntik kod boleh laku ke dalam proses Brave.</translation>
 <translation id="4617338332148204752">Langkau semakan teg meta dalam <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Konfigurasi senarai putih pemasangan sambungan</translation>
 <translation id="4632343302005518762">Benarkan <ph name="PRODUCT_FRAME_NAME" /> mengendalikan jenis kandungan yang disenaraikan</translation>
@@ -1520,7 +1520,7 @@
           Nilai tersebut mestilah tatasusunan pelbagai kamus JSON yang berentetan. Setiap kamus mestilah berbentuk { "pattern": "$URL_PATTERN", "filter" : $FILTER }, dengan $URL_PATTERN ialah pola tetapan kandungan. $FILTER menyekat yang daripadanya sijil pelanggan akan dipilih secara automatik oleh penyemak imbas. Tanpa bergantung kepada penapis, hanya sijil akan dipilih apabila sepadan dengan permintaan sijil pelayan. Jika $FILTER berbentuk { "ISSUER": { "CN": "$ISSUER_CN" } }, selain itu hanya sijil pelanggan dipilih yang dikeluarkan oleh sijil dengan CommonName $ISSUER_CN. Jika $FILTER ialah kamus kosong {}, pemilihan sijil pelanggan tidak dihadkan sebagai tambahan.
 
           Jika dasar ini dibiarkan tanpa ditetapkan, tiada auto pilihan akan dibuat untuk mana-mana tapak.</translation>
-<translation id="4978405676361550165">Jika dasar "OffHours" ditetapkan, maka dasar peranti yang ditetapkan akan diabaikan (gunakan tetapan lalai dasar ini) semasa selang masa yang ditakrifkan. Dasar peranti akan diterapkan semula oleh Chrome pada setiap peristiwa apabila tempoh "OffHours" bermula atau berakhir. Pengguna akan diberitahu dan dipaksa log keluar apabila masa "OffHours" berakhir dan tetapan dasar peranti diubah (mis., apabila pengguna log masuk menggunakan akaun yang tidak dibenarkan).</translation>
+<translation id="4978405676361550165">Jika dasar "OffHours" ditetapkan, maka dasar peranti yang ditetapkan akan diabaikan (gunakan tetapan lalai dasar ini) semasa selang masa yang ditakrifkan. Dasar peranti akan diterapkan semula oleh Brave pada setiap peristiwa apabila tempoh "OffHours" bermula atau berakhir. Pengguna akan diberitahu dan dipaksa log keluar apabila masa "OffHours" berakhir dan tetapan dasar peranti diubah (mis., apabila pengguna log masuk menggunakan akaun yang tidak dibenarkan).</translation>
 <translation id="4980635395568992380">Jenis data:</translation>
 <translation id="4983201894483989687">Benarkan pemalam yang lapuk dijalankan</translation>
 <translation id="4988291787868618635">Tindakan yang perlu diambil apabila kelewatan melahu dicapai</translation>
@@ -1609,7 +1609,7 @@
           Nilai senarai hitam '*' bermaksud semua hos pemesejan natif disenaraihitamkan melainkan hos ini disenaraikan dengan jelas dalam senarai putih.
 
           Jika dasar ini dibiarkan tanpa ditetapkan, <ph name="PRODUCT_NAME" /> akan memuatkan semua hos pemesejan natif yang telah dipasang.</translation>
-<translation id="5272684451155669299">Jika benar, pengguna boleh menggunakan perkakasan pada peranti Chrome untuk membuktikan identitinya dari jauh pada CA privasi melalui <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> menggunakan <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Jika benar, pengguna boleh menggunakan perkakasan pada peranti Brave untuk membuktikan identitinya dari jauh pada CA privasi melalui <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> menggunakan <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Jika ditetapkan kepada palsu atau tidak ditetapkan, panggilan kepada API ini akan gagal dengan kod ralat.</translation>
 <translation id="5277806246014825877">Benarkan pengguna ini menjalankan Crostini.
@@ -1634,7 +1634,7 @@
 <translation id="5318185076587284965">Dayakan penggunaan pelayan ganti oleh hos akses jauh.</translation>
 <translation id="5323128137188992869">Benarkan kandungan dihantar ke peranti menggunakan <ph name="PRODUCT_NAME" />.
 
-          Jika dasar ini ditetapkan kepada Palsu, pengguna tidak akan dapat menghantar kandungan ke peranti mereka. Jika dasar ini ditetapkan kepada Benar, pengguna dibenarkan menghantar kandungan. Jika dasar ini tidak ditetapkan, pengguna tidak dibenarkan menghantar kandungan ke peranti OS Chrome berdaftar, tetapi dibenarkan berbuat demikian ke peranti OS Chrome tidak berdaftar.</translation>
+          Jika dasar ini ditetapkan kepada Palsu, pengguna tidak akan dapat menghantar kandungan ke peranti mereka. Jika dasar ini ditetapkan kepada Benar, pengguna dibenarkan menghantar kandungan. Jika dasar ini tidak ditetapkan, pengguna tidak dibenarkan menghantar kandungan ke peranti OS Brave berdaftar, tetapi dibenarkan berbuat demikian ke peranti OS Brave tidak berdaftar.</translation>
 <translation id="5330684698007383292">Benarkan <ph name="PRODUCT_FRAME_NAME" /> mengendalikan jenis kandungan berikut</translation>
 <translation id="5365946944967967336">Paparkan butang Halaman Utama pada bar alat</translation>
 <translation id="5366745336748853475">Membolehkan anda menentukan senarai pola url yang menentukan tapak yang sijil pelanggannya dipilih secara automatik pada skrin log masuk dalam bingkai yang mengehoskan aliran SAML, jika tapak tersebut meminta sijil. Satu contoh penggunaan adalah untuk mengkonfigurasikan sijil seluruh peranti yang akan disampaikan kepada SAML IdP.
@@ -1737,7 +1737,7 @@
       Harap maklum bahawa langkah ini tidak disyorkan kerana boleh membenarkan pintasan sambungan nameConstraints yang menyekat nama hos yang boleh diberi kebenaran oleh sijil tertentu.
 
       Jika dasar ini tidak ditetapkan atau ditetapkan kepada palsu, sijil pelayan yang ketiadaan sambungan subjectAlternativeName yang mengandungi sama ada nama DNS atau alamat IP tidak akan dipercayai.</translation>
-<translation id="5581292529942108810">Konfigurasikan dasar yang berkaitan dengan Sambungan Pelaporan Chrome.
+<translation id="5581292529942108810">Konfigurasikan dasar yang berkaitan dengan Sambungan Pelaporan Brave.
 
       Dasar ini hanya dikuatkuasakan apabila <ph name="CHROME_REPORTING_EXTENSION_NAME" /> didayakan dan peranti didaftarkan dengan <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Kawal Perkhidmatan lokasi Google Android</translation>
@@ -1798,7 +1798,7 @@
       Jika dasar ini dilumpuhkan, muat turun akan bermula dengan serta-merta dan pengguna tidak akan ditanya tempat untuk menyimpan fail.
       Jika dasar ini tidak dikonfigurasi, pengguna dapat menukar tetapan ini.
       </translation>
-<translation id="5835124959204887277">Menentukan URL dan domain yang mana gesaan tidak akan ditunjukkan apabila sijil pembuktian daripada Kunci Keselamatan diminta. Selain itu, isyarat akan dihantar kepada Kunci Keselamatan yang menunjukkan bahawa pembuktian individu boleh digunakan. Tanpa ini, pengguna akan digesa dalam Chrome 65+ apabila tapak meminta pembuktian Kunci Keselamatan.
+<translation id="5835124959204887277">Menentukan URL dan domain yang mana gesaan tidak akan ditunjukkan apabila sijil pembuktian daripada Kunci Keselamatan diminta. Selain itu, isyarat akan dihantar kepada Kunci Keselamatan yang menunjukkan bahawa pembuktian individu boleh digunakan. Tanpa ini, pengguna akan digesa dalam Brave 65+ apabila tapak meminta pembuktian Kunci Keselamatan.
 
       URL (seperti https://example.com/some/path) hanya akan sepadan sebagai appID U2F. Domain (seperti example.com) hanya sepadan sebagai ID RP webauthn. Oleh sebab itu, untuk meliputi kedua-dua API U2F dan webauthn bagi tapak tertentu, kedua-dua URL dan domain appID perlu disenaraikan.</translation>
 <translation id="5835412847081687053">Konfigurasikan tempat peristiwa UI yang dibenarkan dalam sesi pengguna</translation>
@@ -1845,7 +1845,7 @@
           Jika anda menetapkan dasar ini, pengguna boleh mengatasinya secara sementara dengan mendayakan atau melumpuhkan kursor besar. Walau bagaimanapun, pilihan pengguna ini tidak berterusan dan lalai dipulihkan apabila skrin log masuk dipaparkan semula atau pengguna kekal melahu pada skrin log masuk selama satu minit.
 
           Jika dasar ini dibiarkan tanpa ditetapkan, kursor besar dilumpuhkan apabila skrin log masuk mula-mula dipaparkan. Pengguna boleh mendayakan atau melumpuhkan kursor besar pada bila-bila masa dan statusnya pada skrin log masuk yang berterusan antara pengguna.</translation>
-<translation id="5929855945144989709">Benarkan peranti untuk menjalankan mesin maya pada OS Chrome</translation>
+<translation id="5929855945144989709">Benarkan peranti untuk menjalankan mesin maya pada OS Brave</translation>
 <translation id="5932767795525445337">Dasar ini juga boleh digunakan untuk menyemat apl Android.</translation>
 <translation id="5936622343001856595">Memaksa pertanyaan dalam Carian Web Google dilakukan dengan SafeSearch ditetapkan kepada aktif dan menghalang pengguna daripada menukar tetapan ini.
 
@@ -1986,7 +1986,7 @@
 <translation id="6282799760374509080">Benarkan atau nafikan rakaman audio</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Dayakan autolengkap nama domain semasa log masuk pengguna</translation>
-<translation id="6315673513957120120">Chrome memaparkan halaman amaran apabila pengguna menavigasi ke tapak yang mempunyai ralat SSL. Secara lalai atau apabila dasar ini ditetapkan kepada benar, pengguna dibenarkan mengklik lalu halaman amaran ini.
+<translation id="6315673513957120120">Brave memaparkan halaman amaran apabila pengguna menavigasi ke tapak yang mempunyai ralat SSL. Secara lalai atau apabila dasar ini ditetapkan kepada benar, pengguna dibenarkan mengklik lalu halaman amaran ini.
       Pengguna tidak dibenarkan mengklik lalu sebarang halaman amaran apabila dasar ini ditetapkan kepada palsu.</translation>
 <translation id="6353901068939575220">Menentukan parameter yang digunakan apabila mencari URL dengan POST. Parameter ini mengandungi pasangan nama/nilai yang dipisahkan koma. Jika nilai merupakan parameter templat, seperti {searchTerms} dalam contoh di atas, nilai ini akan digantikan dengan data istilah carian sebenar.
 
@@ -2017,7 +2017,7 @@
           Jika anda memilih untuk mengesan pelayan proksi secara automatik, URL skrip "http://wpad/wpad.dat" akan diberikan kepada apl Android. Tiada bahagian protokol autokesan proksi yang lain akan digunakan.
 
           Jika anda memilih untuk menggunakan skrip proksi .pac, URL skrip akan diberikan kepada apl Android.</translation>
-<translation id="6430366557948788869">Sambungan Pelaporan Chrome</translation>
+<translation id="6430366557948788869">Sambungan Pelaporan Brave</translation>
 <translation id="6440051664870270040">Benarkan tapak menavigasi dan membuka tetingkap timbul secara serentak</translation>
 <translation id="6447948611083700881">Sandaran dan pemulihan dilumpuhkan</translation>
 <translation id="645425387487868471">Dayakan log masuk paksa untuk <ph name="PRODUCT_NAME" /></translation>
@@ -2100,7 +2100,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
       Dasar <ph name="SYNC_DISABLED_POLICY_NAME" /> melumpuhkan semua penyegerakan data, mengatasi RoamingProfileSupportEnabled.</translation>
 <translation id="6731757988219967594">Tapis tapak peringkat atas (tetapi bukan iframe yang dibenamkan) untuk kandungan dewasa</translation>
-<translation id="6734521799274931721">Mengawal Perkongsian Fail Rangkaian untuk ketersediaan OS Chrome</translation>
+<translation id="6734521799274931721">Mengawal Perkongsian Fail Rangkaian untuk ketersediaan OS Brave</translation>
 <translation id="6735701345096330595">Paksa dayakan semakan ejaan bahasa</translation>
 <translation id="673699536430961464">Tetapan ini membenarkan pengguna beralih antara akaun Google dalam kawasan kandungan tetingkap penyemak imbas selepas mereka mengelog masuk ke peranti <ph name="PRODUCT_OS_NAME" /> mereka.
 
@@ -2221,7 +2221,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
       NOTA: Pengasingan Tapak bersifat percubaan pada Android. Sokongan akan dipertingkatkan dari semasa ke semasa tetapi masalah prestasi mungkin berlaku pada masa ini.
 
-      NOTA: Dasar ini hanya digunakan pada Chrome di Android yang dijalankan pada peranti dengan 1GB RAM ke atas sahaja. Untuk menggunakan dasar ini pada platform bukan Android, gunakan SitePerProcess.
+      NOTA: Dasar ini hanya digunakan pada Brave di Android yang dijalankan pada peranti dengan 1GB RAM ke atas sahaja. Untuk menggunakan dasar ini pada platform bukan Android, gunakan SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Jika dasar ini ditetapkan kepada benar, dasar awan akan diutamakan sekiranya bercanggah dengan dasar mesin.
@@ -2303,9 +2303,9 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
       Jika dasar ini ditetapkan kepada palsu atau tidak ditetapkan, <ph name="PRODUCT_NAME" /> tidak boleh mengumpul mahupun memuat naik log tersebut.
 
-      Log ini mengandungi maklumat diagnostik yang berguna apabila menyahpepijat isu berkaitan panggilan audio atau video dalam Chrome, seperti masa dan saiz paket RTP yang diterima dan dihantar, maklum balas tentang kesesakan di rangkaian dan metadata tentang masa dan mutu bingkai audio dan video. Log ini tidak mengandungi kandungan audio atau video daripada panggilan.
+      Log ini mengandungi maklumat diagnostik yang berguna apabila menyahpepijat isu berkaitan panggilan audio atau video dalam Brave, seperti masa dan saiz paket RTP yang diterima dan dihantar, maklum balas tentang kesesakan di rangkaian dan metadata tentang masa dan mutu bingkai audio dan video. Log ini tidak mengandungi kandungan audio atau video daripada panggilan.
 
-      Pengumpulan data oleh Chrome ini hanya boleh dicetuskan oleh perkhidmatan web Google, seperti Google Hangouts atau Google Meet.
+      Pengumpulan data oleh Brave ini hanya boleh dicetuskan oleh perkhidmatan web Google, seperti Google Hangouts atau Google Meet.
 
       Google boleh mengaitkan log ini, melalui penggunaan ID sesi, dengan log lain yang dikumpul oleh perkhidmatan Google itu sendiri, yang bertujuan untuk lebih memudahkan penyahpepijatan.
       </translation>
@@ -2380,11 +2380,11 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
           Jika dasar ini dibiarkan tanpa ditetapkan, penggadang skrin dilumpuhkan apabila skrin log masuk mula-mula dipaparkan. Pengguna boleh mendayakan atau melumpuhkan penggadang skrin pada bila-bila masa dan statusnya pada skrin log masuk yang berterusan antara pengguna.</translation>
 <translation id="7249828445670652637">Dayakan sijil CA <ph name="PRODUCT_OS_NAME" /> pada apl ARC</translation>
-<translation id="725322441686394886">Jika tidak ditetapkan, sekiranya Pembersih Chrome mengesan perisian yang tidak dikehendaki, Pembersih Chrome boleh melaporkan metadata tentang imbasan itu kepada Google menurut dasar yang ditetapkan oleh SafeBrowsingExtendedReportingEnabled. Pembersih Chrome kemudiannya akan menanyakan pengguna sama ada mereka ingin membersihkan perisian yang tidak dikehendaki itu. Pengguna boleh memilih untuk berkongsi keputusan pembersihan dengan Google untuk membantu pengesanan perisian yang tidak dikehendaki pada masa akan datang. Keputusan ini mengandungi metadata fail, sambungan yang dipasang secara automatik dan kunci daftaran seperti yang diterangkan oleh Kertas Putih Privasi Chrome.
+<translation id="725322441686394886">Jika tidak ditetapkan, sekiranya Pembersih Brave mengesan perisian yang tidak dikehendaki, Pembersih Brave boleh melaporkan metadata tentang imbasan itu kepada Google menurut dasar yang ditetapkan oleh SafeBrowsingExtendedReportingEnabled. Pembersih Brave kemudiannya akan menanyakan pengguna sama ada mereka ingin membersihkan perisian yang tidak dikehendaki itu. Pengguna boleh memilih untuk berkongsi keputusan pembersihan dengan Google untuk membantu pengesanan perisian yang tidak dikehendaki pada masa akan datang. Keputusan ini mengandungi metadata fail, sambungan yang dipasang secara automatik dan kunci daftaran seperti yang diterangkan oleh Kertas Putih Privasi Brave.
 
-      Jika dilumpuhkan, sekiranya Pembersih Chrome mengesan perisian yang tidak dikehendaki, Pembersih Chrome tidak akan melaporkan metadata tentang imbasan itu kepada Google, mengatasi sebarang dasar yang ditetapkan oleh SafeBrowsingExtendedReportingEnabled. Pembersih Chrome akan menanyakan pengguna sama ada mereka ingin membersihkan perisian yang tidak dikehendaki itu.  Keputusan pembersihan tidak akan dilaporkan kepada Google dan pengguna tidak akan mempunyai pilihan untuk melakukannya.
+      Jika dilumpuhkan, sekiranya Pembersih Brave mengesan perisian yang tidak dikehendaki, Pembersih Brave tidak akan melaporkan metadata tentang imbasan itu kepada Google, mengatasi sebarang dasar yang ditetapkan oleh SafeBrowsingExtendedReportingEnabled. Pembersih Brave akan menanyakan pengguna sama ada mereka ingin membersihkan perisian yang tidak dikehendaki itu.  Keputusan pembersihan tidak akan dilaporkan kepada Google dan pengguna tidak akan mempunyai pilihan untuk melakukannya.
 
-      Jika didayakan, sekiranya Pembersih Chrome mengesan perisian yang tidak dikehendaki, Pembersih Chrome boleh melaporkan metadata tentang imbasan itu kepada Google menurut dasar yang ditetapkan oleh SafeBrowsingExtendedReportingEnabled. Pembersih Chrome akan menanyakan pengguna sama ada mereka ingin membersihkan perisian yang tidak dikehendaki itu.  Keputusan pembersihan akan dilaporkan kepada Google dan pengguna tidak mempunyai pilihan untuk menghalangnya.
+      Jika didayakan, sekiranya Pembersih Brave mengesan perisian yang tidak dikehendaki, Pembersih Brave boleh melaporkan metadata tentang imbasan itu kepada Google menurut dasar yang ditetapkan oleh SafeBrowsingExtendedReportingEnabled. Pembersih Brave akan menanyakan pengguna sama ada mereka ingin membersihkan perisian yang tidak dikehendaki itu.  Keputusan pembersihan akan dilaporkan kepada Google dan pengguna tidak mempunyai pilihan untuk menghalangnya.
 
       Dasar ini tidak tersedia pada tika Windows yang tidak menyertai domain <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Dayakan pengadangan hos akses jauh</translation>
@@ -2438,9 +2438,9 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 <translation id="7329968046053403405">Menentukan jenis akaun bagi akaun yang diberikan oleh apl pengesahan Android yang menyokong pengesahan <ph name="HTTP_NEGOTIATE" /> (contohnya, pengesahan Kerberos). Maklumat ini seharusnya boleh didapati daripada pembekal apl pengesahan. Untuk mendapatkan butiran lanjut, lihat https://goo.gl/hajyfN.
 
           Jika tiada tetapan diberikan, maka pengesahan <ph name="HTTP_NEGOTIATE" /> akan dilumpuhkan pada Android.</translation>
-<translation id="7331962793961469250">Apabila ditetapkan kepada Benar, promosi apl Kedai Web Chrome tidak akan dipaparkan pada halaman tab baharu.
+<translation id="7331962793961469250">Apabila ditetapkan kepada Benar, promosi apl Kedai Web Brave tidak akan dipaparkan pada halaman tab baharu.
 
-      Tindakan menetapkan pilihan ini kepada Tidak Benar atau membiarkannya tanpa ditetapkan akan memaparkan promosi apl Kedai Web Chrome pada halaman tab baharu</translation>
+      Tindakan menetapkan pilihan ini kepada Tidak Benar atau membiarkannya tanpa ditetapkan akan memaparkan promosi apl Kedai Web Brave pada halaman tab baharu</translation>
 <translation id="7332963785317884918">Dasar ini telah dikecam. <ph name="PRODUCT_OS_NAME" /> akan sentiasa menggunakan strategi pembersihan 'RemoveLRU'.
 
       Mengawal kelakuan pembersihan automatik pada peranti <ph name="PRODUCT_OS_NAME" />. Pembersihan automatik dicetuskan apabila jumlah ruang cakera kosong mencapai tahap kritikal untuk memulihkan beberapa ruang cakera.
@@ -2455,7 +2455,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 <translation id="7343497214039883642">Fail konfigurasi pencetak perusahaan untuk peranti</translation>
 <translation id="7349338075015720646">Menyatakan senarai tapak web yang dipasang secara senyap, tanpa interaksi pengguna dan tidak boleh dinyahpasang mahupun dilumpuhkan oleh pengguna.
 
-      Setiap senarai item dasar ialah objek dengan dua ahli: "url" dan "launch_container". "url" ialah URL apl web yang hendak dipasang dan "launch_container" ialah "tetingkap" atau "tab" untuk menunjukkan cara Apl Web akan dibuka setelah dipasang. Jika "launch_container" tidak dimasukkan, apl akan dilancarkan dalam tetingkap jika Chrome menganggapnya sebagai Apl Web Progresif dan jika sebaliknya, apl akan dilancarkan dalam tab.</translation>
+      Setiap senarai item dasar ialah objek dengan dua ahli: "url" dan "launch_container". "url" ialah URL apl web yang hendak dipasang dan "launch_container" ialah "tetingkap" atau "tab" untuk menunjukkan cara Apl Web akan dibuka setelah dipasang. Jika "launch_container" tidak dimasukkan, apl akan dilancarkan dalam tetingkap jika Brave menganggapnya sebagai Apl Web Progresif dan jika sebaliknya, apl akan dilancarkan dalam tab.</translation>
 <translation id="735902178936442460">Dasar ini mengawal sama ada hendak melaporkan maklumat yang boleh digunakan untuk mengenal pasti peranti, seperti nama peranti dan alamat rangkaian.
 
       Apabila dasar ini dibiarkan tanpa ditetapkan atau ditetapkan kepada Benar, maklumat yang boleh digunakan untuk mengenal pasti peranti akan dikumpulkan.
@@ -2468,9 +2468,9 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
       Lihat https://developers.google.com/safe-browsing untuk mendapatkan maklumat lanjut tentang Penyemakan Imbas Selamat.</translation>
 <translation id="737655323154569539">Mengehadkan saiz halaman pencetakan. Dasar yang tidak ditetapkan dan set kosong dianggap sebagai tiada sekatan.</translation>
-<translation id="7417728346887499628">Jika dilumpuhkan, Pembersih Chrome tidak akan dapat mengimbas sistem untuk mengesan perisian yang tidak dikehendaki dan melakukan pembersihan. Tindakan memulakan Pembersih Chrome secara manual daripada chrome://settings/cleanup dilumpuhkan.
+<translation id="7417728346887499628">Jika dilumpuhkan, Pembersih Brave tidak akan dapat mengimbas sistem untuk mengesan perisian yang tidak dikehendaki dan melakukan pembersihan. Tindakan memulakan Pembersih Brave secara manual daripada chrome://settings/cleanup dilumpuhkan.
 
-      Jika didayakan atau tidak ditetapkan, Pembersih Chrome akan mengimbas sistem secara berkala untuk mengesan perisian yang tidak dikehendaki dan sekiranya menemui perisian tersebut, Pembersih Chrome akan bertanya kepada pengguna sama ada mereka ingin mengalih keluar perisian tersebut. Tindakan memulakan Pembersih Chrome secara manual daripada chrome://settings didayakan.
+      Jika didayakan atau tidak ditetapkan, Pembersih Brave akan mengimbas sistem secara berkala untuk mengesan perisian yang tidak dikehendaki dan sekiranya menemui perisian tersebut, Pembersih Brave akan bertanya kepada pengguna sama ada mereka ingin mengalih keluar perisian tersebut. Tindakan memulakan Pembersih Brave secara manual daripada chrome://settings didayakan.
 
       Dasar ini tidak tersedia pada tika Windows yang tidak menyertai domain <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Peratusan yang digunakan untuk skala kelewatan melahu dalam mod penyampaian (tidak akan digunakan lagi)</translation>
@@ -2720,7 +2720,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
       NOTA: Pada Android, Pengasingan Tapak bersifat percubaan. Sokongan akan ditingkatkan dari semasa ke semasa, tetapi ciri ini mungkin menyebabkan masalah prestasi pada masa ini.
 
-      NOTA: Dasar ini hanya digunakan pada Chrome di Android yang dijalankan pada peranti dengan 1GB RAM ke atas sahaja. Untuk menggunakan dasar ini pada platform bukan Android, gunakan IsolateOrigins.
+      NOTA: Dasar ini hanya digunakan pada Brave di Android yang dijalankan pada peranti dengan 1GB RAM ke atas sahaja. Untuk menggunakan dasar ini pada platform bukan Android, gunakan IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Hos pengecualian manual pengguna terurus</translation>
 <translation id="7961779417826583251">Lumpuhkan penguatkuasaan Ketelusan Sijil untuk Sijil Kuasa Lama yang disenaraikan</translation>
@@ -2733,7 +2733,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 <translation id="7976157349247117979">Nama destinasi <ph name="PRODUCT_NAME" /></translation>
 <translation id="7980227303582973781">Tiada sekatan khas</translation>
 <translation id="7985242821674907985"><ph name="PRODUCT_NAME" /></translation>
-<translation id="7992136759457836904">Membolehkan anda mengawal sama ada peranti maya dibenarkan untuk dijalankan pada OS Chrome.
+<translation id="7992136759457836904">Membolehkan anda mengawal sama ada peranti maya dibenarkan untuk dijalankan pada OS Brave.
 
       Jika dasar ditetapkan kepada Benar, peranti dibenarkan untuk menjalankan peranti maya.
       Jika dasar ditetapkan kepada Palsu, peranti tidak akan dibenarkan untuk menjalankan peranti maya.
@@ -2795,7 +2795,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
 
       Jika dasar ditetapkan sebagai tidak benar, senarai antara muka tidak akan dilaporkan.</translation>
 <translation id="8141795997560411818">Dasar ini tidak menghalang pengguna daripada menggunakan apl Google Drive Android. Jika anda mahu menghalang akses kepada Google Drive, anda tidak harus membenarkan pemasangan apl Google Drive Android juga.</translation>
-<translation id="8146727383888924340">Benarkan pengguna menebus tawaran melalui Pendaftaran OS Chrome</translation>
+<translation id="8146727383888924340">Benarkan pengguna menebus tawaran melalui Pendaftaran OS Brave</translation>
 <translation id="8148785525797916822">Menyekat amaran yang dipaparkan semasa <ph name="PRODUCT_NAME" /> dijalankan pada komputer atau sistem pengendalian yang tidak disokong lagi.</translation>
 <translation id="8148901634826284024">Dayakan ciri kebolehcapaian mod kontras tinggi.
 
@@ -2835,7 +2835,7 @@ Jika dasar ini dibiarkan tidak ditetapkan, papan kekunci pada skrin dilumpuhkan 
       Jika dasar ini dibiarkan tanpa ditetapkan, <ph name="PRODUCT_OS_NAME" /> akan menggunakan ID akaun e-mel akaun setempat peranti sebagai nama paparan pada skrin log masuk.
 
       Dasar ini diabaikan untuk akaun pengguna biasa.</translation>
-<translation id="8259375588339409826">Chromium dan Google Chrome menyokong set dasar yang sama. Harap maklum bahawa dokumen ini mungkin menyertakan dasar yang belum dikeluarkan (contohnya masukan 'Disokong pada' ciri ini merujuk pada versi <ph name="PRODUCT_NAME" /> yang belum dikeluarkan) yang tertakluk pada perubahan atau pengalihan keluar tanpa notis dan tidak memberikan sebarang jenis jaminan, termasuk tiada jaminan berhubung sifat keselamatan dan privasi ciri ini.
+<translation id="8259375588339409826">Brave dan Brave menyokong set dasar yang sama. Harap maklum bahawa dokumen ini mungkin menyertakan dasar yang belum dikeluarkan (contohnya masukan 'Disokong pada' ciri ini merujuk pada versi <ph name="PRODUCT_NAME" /> yang belum dikeluarkan) yang tertakluk pada perubahan atau pengalihan keluar tanpa notis dan tidak memberikan sebarang jenis jaminan, termasuk tiada jaminan berhubung sifat keselamatan dan privasi ciri ini.
 
 Tujuan dasar ini adalah semata-mata untuk digunakan dalam mengkonfigurasi tika <ph name="PRODUCT_NAME" /> dalaman untuk organisasi anda. Penggunaan dasar ini di luar organisasi anda (contohnya, dalam atur cara yang diedarkan secara terbuka) dianggap perisian hasad dan akan dilabelkan sebagai perisian hasad oleh Google dan vendor antivirus.
 
@@ -2857,7 +2857,7 @@ Cara yang disyorkan untuk mengkonfigurasikan dasar pada Windows adalah melalui G
       yang tidak selamat atau ditemui secara tidak selamat menerusi WPAD).
 
       Ciri ini ditetapkan kepada Benar secara lalai (ciri keselamatan didayakan),
-      kecuali pengguna perusahaan OS Chrome yang ditetapkan kepada Palsu secara lalai.
+      kecuali pengguna perusahaan OS Brave yang ditetapkan kepada Palsu secara lalai.
 
       Anda disyorkan supaya menetapkannya kepada Benar. Satu-satunya sebab  
       untuk menetapkannya kepada Palsu adalah jika ciri ini menyebabkan masalah keserasian dengan skrip PAC sedia ada.
@@ -2887,7 +2887,7 @@ Cara yang disyorkan untuk mengkonfigurasikan dasar pada Windows adalah melalui G
 <translation id="8339420913453596618">Faktor kedua dilumpuhkan</translation>
 <translation id="8344454543174932833">Import penanda halaman daripada penyemak imbas lalai pada kali pertama menjalankannya</translation>
 <translation id="8359734107661430198">Dayakan API ExampleDeprecatedFeature sehingga 2008/09/02</translation>
-<translation id="8367209241899435947">Dayakan Pembersih Chrome pada Windows</translation>
+<translation id="8367209241899435947">Dayakan Pembersih Brave pada Windows</translation>
 <translation id="8369602308428138533">Kelewatan pemadaman skrin apabila dijalankan dengan kuasa AC</translation>
 <translation id="8382184662529825177">Dayakan penggunaan pembuktian jauh untuk perlindungan kandungan bagi peranti</translation>
 <translation id="838870586332499308">Dayakan perayauan data</translation>
@@ -2963,10 +2963,10 @@ Cara yang disyorkan untuk mengkonfigurasikan dasar pada Windows adalah melalui G
 
       Jika dasar tidak ditetapkan atau ditetapkan kepada benar, semua pengguna dibenarkan menggunakan ARC (melainkan ARC dilumpuhkan melalui cara lain).
 
-      Perubahan kepada dasar hanya akan diterapkan semasa ARC tidak dijalankan, misalnya semasa OS Chrome bermula.</translation>
+      Perubahan kepada dasar hanya akan diterapkan semasa ARC tidak dijalankan, misalnya semasa OS Brave bermula.</translation>
 <translation id="8631434304112909927">sehingga versi <ph name="UNTIL_VERSION" /></translation>
 <translation id="863319402127182273">Untuk apl Android, dasar ini memberi kesan terhadap kamera terbina dalam sahaja. Apabila dasar ini ditetapkan kepada benar, kamera dilumpuhkan untuk semua apl Android tanpa pengecualian.</translation>
-<translation id="8649763579836720255">Peranti OS Chrome boleh menggunakan pembuktian jauh (Akses Disahkan) untuk mendapatkan perakuan yang dikeluarkan oleh CA OS Chrome yang menyatakan peranti layak memainkan kandungan yang dilindungi.  Proses ini melibatkan penghantaran maklumat sokongan kepada CA OS Chrome yang mengenal pasti peranti tersebut secara unik.
+<translation id="8649763579836720255">Peranti OS Brave boleh menggunakan pembuktian jauh (Akses Disahkan) untuk mendapatkan perakuan yang dikeluarkan oleh CA OS Brave yang menyatakan peranti layak memainkan kandungan yang dilindungi.  Proses ini melibatkan penghantaran maklumat sokongan kepada CA OS Brave yang mengenal pasti peranti tersebut secara unik.
 
           Jika tetapan ini palsu, peranti tidak akan menggunakan pembuktian jauh untuk perlindungan kandungan dan peranti mungkin tidak dapat memainkan kandungan yang dilindungi.
 
@@ -3236,7 +3236,7 @@ Cara yang disyorkan untuk mengkonfigurasikan dasar pada Windows adalah melalui G
       Apabila dasar ini ditetapkan kepada ClientCertificate (nilai 1), pengesahan sijil pelanggan digunakan untuk pengguna yang baru ditambahkan, yang log masuk melalui SAML. Tiada kata laluan digunakan untuk pengguna sedemikian dan data setempat mereka yang dicache dilindungi menggunakan kunci kriptografi yang sepadan. Contohnya, tetapan ini membenarkan konfigurasi kad pintar dilakukan berdasarkan pengesahan pengguna (harap maklum bahawa apl perisian tengah kad pintar perlu dipasang melalui dasar DeviceLoginScreenAppInstallList).
 
       Dasar ini hanya memberi kesan pada pengguna yang membuat pengesahan menggunakan SAML.</translation>
-<translation id="9213347477683611358">Mengkonfigurasikan imej kertas dinding tahap peranti yang dipaparkan pada skrin log masuk jika belum ada pengguna yang pernah log masuk ke peranti. Dasar ini ditetapkan dengan menentukan URL tempat peranti OS Chrome boleh memuat turun imej kertas dinding itu dan cincangan kriptografi digunakan untuk mengesahkan integriti muat turun itu. Imej mestilah dalam format JPEG dan saiznya tidak boleh melebihi 16MB. URL mestilah boleh diakses tanpa sebarang pengesahan. Imej kertas dinding dimuat turun dan dicache. Imej kertas dinding akan dimuat turun semula setiap kali URL atau cincangan berubah.
+<translation id="9213347477683611358">Mengkonfigurasikan imej kertas dinding tahap peranti yang dipaparkan pada skrin log masuk jika belum ada pengguna yang pernah log masuk ke peranti. Dasar ini ditetapkan dengan menentukan URL tempat peranti OS Brave boleh memuat turun imej kertas dinding itu dan cincangan kriptografi digunakan untuk mengesahkan integriti muat turun itu. Imej mestilah dalam format JPEG dan saiznya tidak boleh melebihi 16MB. URL mestilah boleh diakses tanpa sebarang pengesahan. Imej kertas dinding dimuat turun dan dicache. Imej kertas dinding akan dimuat turun semula setiap kali URL atau cincangan berubah.
 
       Dasar ini hendaklah ditetapkan sebagai rentetan yang menyatakan URL dan cincangan dalam format JSON, mis.,
       {
@@ -3244,7 +3244,7 @@ Cara yang disyorkan untuk mengkonfigurasikan dasar pada Windows adalah melalui G
         "hash": "examplewallpaperhash"
       }
 
-      Jika dasar kertas dinding peranti ditetapkan, peranti OS Chrome akan memuat turun dan menggunakan imej kertas dinding pada skrin log masuk jika belum ada pengguna yang pernah log masuk ke peranti. Sebaik sahaja pengguna log masuk, dasar kertas dinding pengguna akan berkuat kuasa.
+      Jika dasar kertas dinding peranti ditetapkan, peranti OS Brave akan memuat turun dan menggunakan imej kertas dinding pada skrin log masuk jika belum ada pengguna yang pernah log masuk ke peranti. Sebaik sahaja pengguna log masuk, dasar kertas dinding pengguna akan berkuat kuasa.
 
       Jika dasar kertas dinding peranti dibiarkan tidak ditetapkan dan jika dasar kertas dinding pengguna ditetapkan, dasar kertas dinding pengguna akan menentukan item yang perlu dipaparkan.</translation>
 <translation id="9217154963008402249">Kekerapan pemantauan bingkisan rangkaian</translation>

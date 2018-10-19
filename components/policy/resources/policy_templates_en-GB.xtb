@@ -384,7 +384,7 @@
 <translation id="2073552873076775140">Allow sign-in to <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Use hardware acceleration when available</translation>
 <translation id="2077273864382355561">Screen off delay when running on battery power</translation>
-<translation id="2082205219176343977">Configure minimum allowed Chrome version for the device.</translation>
+<translation id="2082205219176343977">Configure minimum allowed Brave version for the device.</translation>
 <translation id="209586405398070749">Stable channel</translation>
 <translation id="2098658257603918882">Enable reporting of usage and crash-related data</translation>
 <translation id="2111016292707172233">Enables the availability of Tap to Search in <ph name="PRODUCT_NAME" />'s content view.
@@ -502,13 +502,13 @@
 
           This policy takes precedence over a potentially conflicting <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" /> policy. If an app or extension that previously had been force-installed is removed from this list, it is automatically uninstalled by <ph name="PRODUCT_NAME" />.
 
-          For Windows instances that are not joined to a <ph name="MS_AD_NAME" /> domain, forced installation is limited to apps and extensions listed in the Chrome Web Store.
+          For Windows instances that are not joined to a <ph name="MS_AD_NAME" /> domain, forced installation is limited to apps and extensions listed in the Brave Web Store.
 
           Note that the source code of any extension may be altered by users via Developer Tools (potentially rendering the extension dysfunctional). If this is a concern, the <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> policy should be set.
 
-          Each list item of the policy is a string that contains an extension ID and, optionally, an 'update' URL separated by a semicolon (<ph name="SEMICOLON" />). The extension ID is the 32-letter string found e.g. on <ph name="CHROME_EXTENSIONS_LINK" /> when in developer mode. The 'update' URL, if specified, should point to an Update Manifest XML document as described at <ph name="LINK_TO_EXTENSION_DOC1" />. By default, the Chrome Web Store's update URL is used (which currently is 'https://clients2.google.com/service/update2/crx'). Note that the 'update'URL set in this policy is only used for the initial installation; subsequent updates of the extension employ the update URL indicated in the extension's manifest. Note also that specifying the 'update' URL explicitly was mandatory in <ph name="PRODUCT_NAME" /> versions up to and including 67.
+          Each list item of the policy is a string that contains an extension ID and, optionally, an 'update' URL separated by a semicolon (<ph name="SEMICOLON" />). The extension ID is the 32-letter string found e.g. on <ph name="CHROME_EXTENSIONS_LINK" /> when in developer mode. The 'update' URL, if specified, should point to an Update Manifest XML document as described at <ph name="LINK_TO_EXTENSION_DOC1" />. By default, the Brave Web Store's update URL is used (which currently is 'https://clients2.google.com/service/update2/crx'). Note that the 'update'URL set in this policy is only used for the initial installation; subsequent updates of the extension employ the update URL indicated in the extension's manifest. Note also that specifying the 'update' URL explicitly was mandatory in <ph name="PRODUCT_NAME" /> versions up to and including 67.
 
-          For example, <ph name="EXTENSION_POLICY_EXAMPLE" /> installs the <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> app from the standard Chrome Web Store 'update' URL. For more information about hosting extensions, see: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          For example, <ph name="EXTENSION_POLICY_EXAMPLE" /> installs the <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> app from the standard Brave Web Store 'update' URL. For more information about hosting extensions, see: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           If this policy is left not set, no apps or extensions are installed automatically and the user can uninstall any app or extension in <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> can use a Google web service to help resolve spelling errors. If this setting is enabled, then this service is always used. If this setting is disabled, then this service is never used.
@@ -697,7 +697,7 @@ The contents of the list 'URLs to open at start-up' are ignored unless you selec
 <translation id="268577405881275241">Enable the data compression proxy feature</translation>
 <translation id="2693108589792503178">Configure the change password URL.</translation>
 <translation id="2731627323327011390">Disable usage of <ph name="PRODUCT_OS_NAME" /> certificates to ARC-apps</translation>
-<translation id="2742843273354638707">Hide the Chrome Web Store app and footer link from the New Tab Page and <ph name="PRODUCT_OS_NAME" /> app launcher.
+<translation id="2742843273354638707">Hide the Brave Web Store app and footer link from the New Tab Page and <ph name="PRODUCT_OS_NAME" /> app launcher.
 
       When this policy is set to true, the icons are hidden.
 
@@ -816,7 +816,7 @@ The contents of the list 'URLs to open at start-up' are ignored unless you selec
           If this policy is left unset, 'AllowJavaScript' will be used and the user will be able to change it.</translation>
 <translation id="3038323923255997294">Continue running background apps when <ph name="PRODUCT_NAME" /> is closed</translation>
 <translation id="3046192273793919231">Send network packets to the management server to monitor online status</translation>
-<translation id="3047732214002457234">Control how Chrome Cleanup reports data to Google</translation>
+<translation id="3047732214002457234">Control how Brave Cleanup reports data to Google</translation>
 <translation id="3048744057455266684">If this policy is set and a search URL suggested from the omnibox contains this parameter in the query string or in the fragment identifier, then the suggestion will show the search terms and search provider instead of the raw search URL.
 
           This policy is optional. If not set, no search term replacement will be performed.
@@ -1144,13 +1144,13 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
       If you do not set this policy, <ph name="PRODUCT_NAME" /> will use its usual default directory (platform-specific).
 
       See https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables for a list of variables that can be used.</translation>
-<translation id="3904459740090265495">This policy controls the sign-in behaviour of the browser. It allows you to specify if the user can sign in to <ph name="PRODUCT_NAME" /> with their account and use account-related services such as Chrome Sync.
+<translation id="3904459740090265495">This policy controls the sign-in behaviour of the browser. It allows you to specify if the user can sign in to <ph name="PRODUCT_NAME" /> with their account and use account-related services such as Brave Sync.
 
-      If the policy is set to 'Disable browser sign-in', the user cannot sign in to the browser and use account-based services. In this case browser-level features such as Chrome Sync cannot be used and will be unavailable. If the user was signed in and the policy is set 'Disabled', they will be signed out the next time that they run Chrome but their local profile data such as bookmarks, passwords, etc. will stay preserved. The user will still be able to sign in to and use Google web services such as Gmail.
+      If the policy is set to 'Disable browser sign-in', the user cannot sign in to the browser and use account-based services. In this case browser-level features such as Brave Sync cannot be used and will be unavailable. If the user was signed in and the policy is set 'Disabled', they will be signed out the next time that they run Brave but their local profile data such as bookmarks, passwords, etc. will stay preserved. The user will still be able to sign in to and use Google web services such as Gmail.
 
-      If the policy is set to 'Enable browser sign-in', the user is allowed to sign in to the browser and is automatically signed in to the browser when signed in to Google web services such as Gmail. Being signed in to the browser means that the user's account information will be kept by the browser. However, it does not mean that Chrome Sync will be turned on per default; the user must separately opt in to use this feature. Enabling this policy will prevent the user from turning off the setting that allows browser sign-in. To control the availability of Chrome Sync, use the 'SyncDisabled' policy.
+      If the policy is set to 'Enable browser sign-in', the user is allowed to sign in to the browser and is automatically signed in to the browser when signed in to Google web services such as Gmail. Being signed in to the browser means that the user's account information will be kept by the browser. However, it does not mean that Brave Sync will be turned on per default; the user must separately opt in to use this feature. Enabling this policy will prevent the user from turning off the setting that allows browser sign-in. To control the availability of Brave Sync, use the 'SyncDisabled' policy.
 
-      If the policy is set to 'Force browser sign-in', the user is presented with an account selection dialogue and has to choose and sign in to an account to use the browser. This ensures that for managed accounts the policies associated with the account are applied and enforced. By default this turns on Chrome Sync for the account, except for the case when sync was disabled by the domain admin or via the 'SyncDisabled' policy. The default value of BrowserGuestModeEnabled will be set to false. Note: Existing unsigned profiles will be locked and inaccessible after enabling this policy. For more information, see help centre article: https://support.google.com/chrome/a/answer/7572556.
+      If the policy is set to 'Force browser sign-in', the user is presented with an account selection dialogue and has to choose and sign in to an account to use the browser. This ensures that for managed accounts the policies associated with the account are applied and enforced. By default this turns on Brave Sync for the account, except for the case when sync was disabled by the domain admin or via the 'SyncDisabled' policy. The default value of BrowserGuestModeEnabled will be set to false. Note: Existing unsigned profiles will be locked and inaccessible after enabling this policy. For more information, see help centre article: https://support.google.com/chrome/a/answer/7572556.
 
       If this policy is not set then the user can decide if they want to enable the browser sign-in option and use it as they see fit.</translation>
 <translation id="3907986150060929099">Set the recommended locales for a public session</translation>
@@ -1275,11 +1275,11 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 <translation id="4298509794364745131">Specifies list of apps that can be enabled as a note-taking app on the <ph name="PRODUCT_OS_NAME" /> lock screen.
 
       If the preferred note-taking app is enabled on the lock screen, the lock screen will contain UI element for launching the preferred note taking app.
-      When launched, the app will be able to create an app window on top of the lock screen and create data items (notes) in the lock screen context. The app will be able to import created notes to the primary user session, when the session is unlocked. Currently, only Chrome note-taking apps are supported on the lock screen.
+      When launched, the app will be able to create an app window on top of the lock screen and create data items (notes) in the lock screen context. The app will be able to import created notes to the primary user session, when the session is unlocked. Currently, only Brave note-taking apps are supported on the lock screen.
 
       If the policy is set, the user will be allowed to enable an app on the lock screen only if the app's extension ID is contained in the policy list value.
       As a consequence, setting this policy to an empty list will disable note-taking on the lock screen entirely.
-      Note that the policy containing an app ID does not necessarily mean that the user will be able to enable the app as a note-taking app on the lock screen - for example, on Chrome 61, the set of available apps is additionally restricted by the platform.
+      Note that the policy containing an app ID does not necessarily mean that the user will be able to enable the app as a note-taking app on the lock screen - for example, on Brave 61, the set of available apps is additionally restricted by the platform.
 
       If the policy is left unset, there will be no restrictions on the set of apps the user can enable on the lock screen imposed by the policy.</translation>
 <translation id="4309640770189628899">Whether DHE cipher suites in TLS are enabled</translation>
@@ -1388,7 +1388,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 <translation id="4567137030726189378">Allow usage of the Developer Tools</translation>
 <translation id="4600786265870346112">Enable large cursor</translation>
 <translation id="4604931264910482931">Configure native messaging blacklist</translation>
-<translation id="4613508646038788144">If the policy is set to false then third-party software will be allowed to inject executable code into Chrome's processes. If the policy is unset or set to true then third-party software will be prevented from injecting executable code into Chrome's processes.</translation>
+<translation id="4613508646038788144">If the policy is set to false then third-party software will be allowed to inject executable code into Brave's processes. If the policy is unset or set to true then third-party software will be prevented from injecting executable code into Brave's processes.</translation>
 <translation id="4617338332148204752">Skip the meta tag check in <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Configure extension installation whitelist</translation>
 <translation id="4632343302005518762">Allow <ph name="PRODUCT_FRAME_NAME" /> to handle the listed content types</translation>
@@ -1521,7 +1521,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
           The value must be an array of stringified JSON dictionaries. Each dictionary must have the form { "pattern": "$URL_PATTERN", "filter" : $FILTER }, where $URL_PATTERN is a content setting pattern. $FILTER restricts from which client certificates the browser will automatically select. Independent of the filter, only certificates will be selected that match the server's certificate request. If $FILTER has the form { "ISSUER": { "CN": "$ISSUER_CN" } }, additionally only client certificates are selected that are issued by a certificate with the CommonName $ISSUER_CN. If $FILTER is the empty dictionary {}, the selection of client certificates is not additionally restricted.
 
           If this policy is left not set, no auto-selection will be done for any site.</translation>
-<translation id="4978405676361550165">If 'OffHours' policy is set, then the specified device policies are ignored (use the default settings of these policies) during the defined time intervals. Device policies are re-applied by Chrome on every event when 'OffHours' period starts or ends. User will be notified and forced to sign out when 'OffHours' time end and device policy settings are changed (e.g. when user is logged in with an unallowed account).</translation>
+<translation id="4978405676361550165">If 'OffHours' policy is set, then the specified device policies are ignored (use the default settings of these policies) during the defined time intervals. Device policies are re-applied by Brave on every event when 'OffHours' period starts or ends. User will be notified and forced to sign out when 'OffHours' time end and device policy settings are changed (e.g. when user is logged in with an unallowed account).</translation>
 <translation id="4980635395568992380">Data Types</translation>
 <translation id="4983201894483989687">Allow running plug-ins that are outdated</translation>
 <translation id="4988291787868618635">Action to take when the idle delay is reached</translation>
@@ -1615,7 +1615,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
           A blacklist value of '*' means that all native messaging hosts are blacklisted unless they are explicitly listed in the whitelist.
 
           If this policy is left not set <ph name="PRODUCT_NAME" /> will load all installed native messaging hosts.</translation>
-<translation id="5272684451155669299">If true, the user can use the hardware on Chrome devices to remotely attest its identity to the privacy CA via the <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> using <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">If true, the user can use the hardware on Brave devices to remotely attest its identity to the privacy CA via the <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> using <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           If it is set to false, or if it is not set, calls to the API will fail with an error code.</translation>
 <translation id="5277806246014825877">Enable this user to run Crostini.
@@ -1743,7 +1743,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
       Note that this is not recommended, as this may allow bypassing the nameConstraints extension that restricts the hostnames that a given certificate can be authorised for.
 
       If this policy is not set, or is set to false, server certificates that lack a subjectAlternativeName extension containing either a DNS name or IP address will not be trusted.</translation>
-<translation id="5581292529942108810">Configure Chrome Reporting Extension related policies.
+<translation id="5581292529942108810">Configure Brave Reporting Extension related policies.
 
       This policy is only effective when the <ph name="CHROME_REPORTING_EXTENSION_NAME" /> is enabled, and the machine is enrolled with <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Control Android Google Location services</translation>
@@ -1804,7 +1804,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
       If the policy is disabled, downloads will start immediately, and the user will not be asked where to save the file.
       If the policy is not configured, the user will be able to change this setting.
       </translation>
-<translation id="5835124959204887277">Specifies URLs and domains for which no prompt will be shown when attestation certificates from Security Keys are requested. Additionally, a signal will be sent to the Security Key indicating that individual attestation may be used. Without this, users will be prompted in Chrome 65+ when sites request attestation of Security Keys.
+<translation id="5835124959204887277">Specifies URLs and domains for which no prompt will be shown when attestation certificates from Security Keys are requested. Additionally, a signal will be sent to the Security Key indicating that individual attestation may be used. Without this, users will be prompted in Brave 65+ when sites request attestation of Security Keys.
 
       URLs (like https://example.com/some/path) will only match as U2F appIDs. Domains (like example.com) only match as webauthn RP IDs. Thus, to cover both U2F and webauthn APIs for a given site, both the appID URL and domain would need to be listed.</translation>
 <translation id="5835412847081687053">Configure the allowed UI locales in a user session</translation>
@@ -1988,7 +1988,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 <translation id="6282799760374509080">Allow or deny audio capture</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Enable domain name autocomplete during user sign in</translation>
-<translation id="6315673513957120120">Chrome shows a warning page when users navigate to sites that have SSL errors. By default or when this policy is set to true, users are allowed to click through these warning pages.
+<translation id="6315673513957120120">Brave shows a warning page when users navigate to sites that have SSL errors. By default or when this policy is set to true, users are allowed to click through these warning pages.
       Setting this policy to false disallows users to click through any warning page.</translation>
 <translation id="6353901068939575220">Specifies the parameters used when searching a URL with POST. It consists of comma-separated name/value pairs. If a value is a template parameter, like {searchTerms} in above example, it will be replaced with real search terms data.
 
@@ -2019,7 +2019,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
           If you choose to auto detect the proxy server, the script URL "http://wpad/wpad.dat" is provided to Android apps. No other part of the proxy auto-detection protocol is used.
 
           If you choose to use a .pac proxy script, the script URL is provided to Android apps.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Allow sites to simultaneously navigate and open pop-ups</translation>
 <translation id="6447948611083700881">Backup and restore disabled</translation>
 <translation id="645425387487868471">Enable force sign-in for <ph name="PRODUCT_NAME" /></translation>
@@ -2224,7 +2224,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 
       NOTE: On Android, Site Isolation is experimental. Support will improve over time, but currently it may cause performance problems.
 
-      NOTE: This policy only applies to Chrome on Android, running on devices with strictly more than 1 GB of RAM. To apply the policy on non-Android platforms, use SitePerProcess.
+      NOTE: This policy only applies to Brave on Android, running on devices with strictly more than 1 GB of RAM. To apply the policy on non-Android platforms, use SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       If the policy is set to true, cloud policy takes precedence if it conflicts with machine policy.
@@ -2305,9 +2305,9 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 
       If the policy is set to false, or is unset, <ph name="PRODUCT_NAME" /> may not collect or upload such logs.
 
-      These logs contain diagnostic information helpful when debugging issues with audio or video calls in Chrome, such as the time and size of sent and received RTP packets, feedback about congestion on the network, and metadata about time and quality of audio and video frames. These logs do not contain audio or video contents from the call.
+      These logs contain diagnostic information helpful when debugging issues with audio or video calls in Brave, such as the time and size of sent and received RTP packets, feedback about congestion on the network, and metadata about time and quality of audio and video frames. These logs do not contain audio or video contents from the call.
 
-      This data collection by Chrome can only be triggered by Google's web services, such as Google Hangouts or Google Meet.
+      This data collection by Brave can only be triggered by Google's web services, such as Google Hangouts or Google Meet.
 
       Google may associate these logs, by means of a session ID, with other logs collected by the Google service itself; this is intended to make debugging easier.
       </translation>
@@ -2382,11 +2382,11 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 
           If this policy is left unset, the screen magnifier is disabled when the login screen is first shown. Users can enable or disable the screen magnifier at any time and its status on the login screen is persisted between users.</translation>
 <translation id="7249828445670652637">Enable <ph name="PRODUCT_OS_NAME" /> CA certificates to ARC-apps</translation>
-<translation id="725322441686394886">If unset, should Chrome Cleanup detect unwanted software, it may report metadata about the scan to Google in accordance with policy set by SafeBrowsingExtendedReportingEnabled. Chrome Cleanup will then ask the user if they wish to clean up the unwanted software. The user can choose to share results of the cleanup with Google to assist with future unwanted software detection. These results contain file metadata, automatically installed extensions and registry keys as described by the Chrome Privacy Whitepaper.
+<translation id="725322441686394886">If unset, should Brave Cleanup detect unwanted software, it may report metadata about the scan to Google in accordance with policy set by SafeBrowsingExtendedReportingEnabled. Brave Cleanup will then ask the user if they wish to clean up the unwanted software. The user can choose to share results of the cleanup with Google to assist with future unwanted software detection. These results contain file metadata, automatically installed extensions and registry keys as described by the Brave Privacy Whitepaper.
 
-      If disabled, should Chrome Cleanup detect unwanted software, it will not report metadata about the scan to Google, overriding any policy set by SafeBrowsingExtendedReportingEnabled. Chrome Cleanup will ask the user if they wish to clean up the unwanted software. Results of the cleanup will not be reported to Google and the user will not have the option to do so.
+      If disabled, should Brave Cleanup detect unwanted software, it will not report metadata about the scan to Google, overriding any policy set by SafeBrowsingExtendedReportingEnabled. Brave Cleanup will ask the user if they wish to clean up the unwanted software. Results of the cleanup will not be reported to Google and the user will not have the option to do so.
 
-      If enabled, should Chrome Cleanup detect unwanted software, it may report metadata about the scan to Google in accordance with policy set by SafeBrowsingExtendedReportingEnabled. Chrome Cleanup will ask the user if they wish to clean up the unwanted software. Results of the cleanup will be reported to Google and the user will not have the option to prevent it.
+      If enabled, should Brave Cleanup detect unwanted software, it may report metadata about the scan to Google in accordance with policy set by SafeBrowsingExtendedReportingEnabled. Brave Cleanup will ask the user if they wish to clean up the unwanted software. Results of the cleanup will be reported to Google and the user will not have the option to prevent it.
 
       This policy is not available on Windows instances that are not joined to a <ph name="MS_AD_NAME" /> domain.</translation>
 <translation id="7258823566580374486">Enable curtaining of remote access hosts</translation>
@@ -2440,9 +2440,9 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 <translation id="7329968046053403405">Specifies the account type of the accounts provided by the Android authentication app that supports <ph name="HTTP_NEGOTIATE" /> authentication (e.g. Kerberos authentication). This information should be available from the supplier of the authentication app. For more details see https://goo.gl/hajyfN.
 
           If no setting is provided, <ph name="HTTP_NEGOTIATE" /> authentication is disabled on Android.</translation>
-<translation id="7331962793961469250">When set to True, promotions for Chrome Web Store apps will not appear on the new tab page.
+<translation id="7331962793961469250">When set to True, promotions for Brave Web Store apps will not appear on the new tab page.
 
-      Setting this option to False or leaving it unset will make the promotions for Chrome Web Store apps appear on the new tab page</translation>
+      Setting this option to False or leaving it unset will make the promotions for Brave Web Store apps appear on the new tab page</translation>
 <translation id="7332963785317884918">This policy is deprecated. <ph name="PRODUCT_OS_NAME" /> will always use the 'RemoveLRU' clean-up strategy.
 
       Controls the automatic clean-up behaviour on <ph name="PRODUCT_OS_NAME" /> devices. Automatic clean-up is triggered when the amount of free disk space reaches a critical level to recover some disk space.
@@ -2457,7 +2457,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 <translation id="7343497214039883642">Enterprise printer configuration file for devices</translation>
 <translation id="7349338075015720646">Specifies a list of websites that are installed silently, without user interaction, and which cannot be uninstalled or disabled by the user.
 
-      Each list item of the policy is an object with two members: 'url' and 'launch_container'. 'url' should be the URL of the web app to install and 'launch_container' should be either 'window' or 'tab' to indicate how the web app will be opened once installed. If 'launch_container' is omitted, the app will launch in a window if Chrome considers it a progressive web app, and in a tab otherwise.</translation>
+      Each list item of the policy is an object with two members: 'url' and 'launch_container'. 'url' should be the URL of the web app to install and 'launch_container' should be either 'window' or 'tab' to indicate how the web app will be opened once installed. If 'launch_container' is omitted, the app will launch in a window if Brave considers it a progressive web app, and in a tab otherwise.</translation>
 <translation id="735902178936442460">This policy controls whether to report information that can be used to identify machines, such as machine name and network addresses.
 
       When this policy is left unset or set to True, information that can be used to identify machines is gathered.
@@ -2470,9 +2470,9 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 
       See https://developers.google.com/safe-browsing for more info on Safe Browsing.</translation>
 <translation id="737655323154569539">Restricts printing page size. Unset policy and empty set are treated as no restriction.</translation>
-<translation id="7417728346887499628">If disabled, prevents Chrome Cleanup from scanning the system for unwanted software and performing cleanups. Manually triggering Chrome Cleanup from chrome://settings/cleanup is disabled.
+<translation id="7417728346887499628">If disabled, prevents Brave Cleanup from scanning the system for unwanted software and performing cleanups. Manually triggering Brave Cleanup from chrome://settings/cleanup is disabled.
 
-      If enabled or unset, Chrome Cleanup periodically scans the system for unwanted software and should any be found, will ask the user if they wish to remove it. Manually triggering Chrome Cleanup from chrome://settings is enabled.
+      If enabled or unset, Brave Cleanup periodically scans the system for unwanted software and should any be found, will ask the user if they wish to remove it. Manually triggering Brave Cleanup from chrome://settings is enabled.
 
       This policy is not available on Windows instances that are not joined to a <ph name="MS_AD_NAME" /> domain.</translation>
 <translation id="7417972229667085380">Percentage by which to scale the idle delay in presentation mode (deprecated)</translation>
@@ -2721,7 +2721,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
 
       NOTE: On Android, Site Isolation is experimental. Support will improve over time, but currently it may cause performance problems.
 
-      NOTE: This policy only applies to Chrome on Android, running on devices with strictly more than 1 GB of RAM. To apply the policy on non-Android platforms, use IsolateOrigins.
+      NOTE: This policy only applies to Brave on Android, running on devices with strictly more than 1 GB of RAM. To apply the policy on non-Android platforms, use IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Managed user manual exception hosts</translation>
 <translation id="7961779417826583251">Disable Certificate Transparency enforcement for a list of Legacy Certificate Authorities</translation>
@@ -2836,7 +2836,7 @@ If this setting is not set, <ph name="PRODUCT_NAME" /> will allow the user to co
       If the policy is left not set, <ph name="PRODUCT_OS_NAME" /> will use the device-local account's email account ID as the display name on the login screen.
 
       This policy is ignored for regular user accounts.</translation>
-<translation id="8259375588339409826">Both Chromium and Google Chrome support the same set of policies. Please note that this document may include unreleased policies (i.e. their 'Supported on' entry refers to a not-yet released version of <ph name="PRODUCT_NAME" />) which are subject to change or removal without notice and for which no guarantees of any kind are provided, including no guarantees with respect to their security and privacy properties.
+<translation id="8259375588339409826">Both Brave and Brave support the same set of policies. Please note that this document may include unreleased policies (i.e. their 'Supported on' entry refers to a not-yet released version of <ph name="PRODUCT_NAME" />) which are subject to change or removal without notice and for which no guarantees of any kind are provided, including no guarantees with respect to their security and privacy properties.
 
 These policies are strictly intended to be used to configure instances of <ph name="PRODUCT_NAME" /> internal to your organisation. Use of these policies outside of your organisation (for example, in a publicly distributed program) is considered malware and will likely be labelled as malware by Google and anti-virus vendors.
 
@@ -2888,7 +2888,7 @@ The recommended way to configure policy on Windows is via GPO, although provisio
 <translation id="8339420913453596618">Second factor disabled</translation>
 <translation id="8344454543174932833">Import bookmarks from default browser on first run</translation>
 <translation id="8359734107661430198">Enable ExampleDeprecatedFeature API through 2008/09/02</translation>
-<translation id="8367209241899435947">Enable Chrome Cleanup on Windows</translation>
+<translation id="8367209241899435947">Enable Brave Cleanup on Windows</translation>
 <translation id="8369602308428138533">Screen off delay when running on AC power</translation>
 <translation id="8382184662529825177">Enable the use of remote attestation for content protection for the device</translation>
 <translation id="838870586332499308">Enable data roaming</translation>

@@ -378,7 +378,7 @@
 <translation id="2073552873076775140">Cho phép đăng nhập vào <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Sử dụng chế độ tăng tốc phần cứng khi khả dụng</translation>
 <translation id="2077273864382355561">Độ trễ tắt màn hình khi chạy trên nguồn pin</translation>
-<translation id="2082205219176343977">Định cấu hình phiên bản Chrome tối thiểu được phép cho thiết bị.</translation>
+<translation id="2082205219176343977">Định cấu hình phiên bản Brave tối thiểu được phép cho thiết bị.</translation>
 <translation id="209586405398070749">Kênh ổn định</translation>
 <translation id="2098658257603918882">Bật tính năng báo cáo sử dụng và dữ liệu liên quan đến sự cố</translation>
 <translation id="2111016292707172233">Cho phép sử dụng tính năng Nhấn để tìm kiếm trong chế độ xem nội dung của <ph name="PRODUCT_NAME" />.
@@ -503,13 +503,13 @@
 
           Chính sách này được ưu tiên hơn trong trường hợp xung đột với chính sách <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Nếu một ứng dụng hoặc tiện ích mà trước đây bị buộc cài đặt hiện đã được xóa khỏi danh sách này, thì <ph name="PRODUCT_NAME" /> sẽ tự động gỡ cài đặt ứng dụng hoặc tiện ích đó.
 
-          Đối với các phiên bản Windows không tham gia miền <ph name="MS_AD_NAME" /> thì cài đặt bắt buộc sẽ bị giới hạn ở các ứng dụng và tiện ích trong Cửa hàng Chrome trực tuyến.
+          Đối với các phiên bản Windows không tham gia miền <ph name="MS_AD_NAME" /> thì cài đặt bắt buộc sẽ bị giới hạn ở các ứng dụng và tiện ích trong Cửa hàng Brave trực tuyến.
 
           Lưu ý rằng người dùng có thể thay đổi mã nguồn của bất cứ tiện ích nào thông qua Công cụ dành cho nhà phát triển (điều này có thể khiến tiện ích hoạt động không chính xác). Nếu bạn lo ngại về điều này thì cần phải đặt chính sách <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
-          Mỗi mục danh sách của chính sách là một chuỗi chứa một ID tiện ích và một URL "cập nhật" (không bắt buộc) được phân tách bằng dấu chấm phẩy (<ph name="SEMICOLON" />). ID tiện ích là chuỗi gồm 32 chữ cái được tìm thấy, chẳng hạn như, trên <ph name="CHROME_EXTENSIONS_LINK" /> khi ở chế độ nhà phát triển. URL "cập nhật", nếu được chỉ định, sẽ trỏ tới tài liệu XML của tệp kê khai cập nhật như mô tả tại <ph name="LINK_TO_EXTENSION_DOC1" />. Theo mặc định, URL cập nhật của Cửa hàng Chrome trực tuyến sẽ được sử dụng (hiện là "https://clients2.google.com/service/update2/crx"). Lưu ý rằng URL "cập nhật" được đặt trong chính sách này chỉ dùng cho lần cài đặt ban đầu; các lần cập nhật tiện ích tiếp theo sẽ sử dụng URL cập nhật nêu trong tệp kê khai của tiện ích. Ngoài ra, xin lưu ý rằng việc chỉ định URL "cập nhật" một cách rõ ràng là bắt buộc trong các phiên bản <ph name="PRODUCT_NAME" />, bao gồm cả phiên bản 67.
+          Mỗi mục danh sách của chính sách là một chuỗi chứa một ID tiện ích và một URL "cập nhật" (không bắt buộc) được phân tách bằng dấu chấm phẩy (<ph name="SEMICOLON" />). ID tiện ích là chuỗi gồm 32 chữ cái được tìm thấy, chẳng hạn như, trên <ph name="CHROME_EXTENSIONS_LINK" /> khi ở chế độ nhà phát triển. URL "cập nhật", nếu được chỉ định, sẽ trỏ tới tài liệu XML của tệp kê khai cập nhật như mô tả tại <ph name="LINK_TO_EXTENSION_DOC1" />. Theo mặc định, URL cập nhật của Cửa hàng Brave trực tuyến sẽ được sử dụng (hiện là "https://clients2.google.com/service/update2/crx"). Lưu ý rằng URL "cập nhật" được đặt trong chính sách này chỉ dùng cho lần cài đặt ban đầu; các lần cập nhật tiện ích tiếp theo sẽ sử dụng URL cập nhật nêu trong tệp kê khai của tiện ích. Ngoài ra, xin lưu ý rằng việc chỉ định URL "cập nhật" một cách rõ ràng là bắt buộc trong các phiên bản <ph name="PRODUCT_NAME" />, bao gồm cả phiên bản 67.
 
-          Ví dụ: <ph name="EXTENSION_POLICY_EXAMPLE" /> cài đặt ứng dụng <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> từ URL "cập nhật" tiêu chuẩn của Cửa hàng Chrome trực tuyến. Để biết thêm thông tin về việc lưu trữ tiện ích, hãy xem: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Ví dụ: <ph name="EXTENSION_POLICY_EXAMPLE" /> cài đặt ứng dụng <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> từ URL "cập nhật" tiêu chuẩn của Cửa hàng Brave trực tuyến. Để biết thêm thông tin về việc lưu trữ tiện ích, hãy xem: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Nếu không đặt chính sách này, thì sẽ không có ứng dụng hoặc tiện ích nào được cài đặt tự động và người dùng có thể gỡ cài đặt mọi ứng dụng hoặc tiện ích trong <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> có thể sử dụng dịch vụ web của Google để giúp giải quyết các lỗi chính tả. Nếu cài đặt này được bật thì dịch vụ này sẽ luôn được sử dụng. Nếu cài đặt này bị tắt thì dịch vụ này sẽ không bao giờ được sử dụng.
@@ -695,7 +695,7 @@
 <translation id="268577405881275241">Bật tính năng proxy nén dữ liệu</translation>
 <translation id="2693108589792503178">Định cấu hình URL thay đổi mật khẩu.</translation>
 <translation id="2731627323327011390">Tắt sử dụng chứng chỉ <ph name="PRODUCT_OS_NAME" /> đối với ứng dụng ARC</translation>
-<translation id="2742843273354638707">Ẩn ứng dụng Cửa hàng Chrome trực tuyến và liên kết chân trang khỏi Trang tab mới và trình chạy ứng dụng <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Ẩn ứng dụng Cửa hàng Brave trực tuyến và liên kết chân trang khỏi Trang tab mới và trình chạy ứng dụng <ph name="PRODUCT_OS_NAME" />.
 
 Khi chính sách này được đặt thành true, các biểu tượng sẽ bị ẩn. 
 
@@ -815,7 +815,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
           Nếu không thiết lập chính sách này, 'AllowJavaScript' sẽ được sử dụng và người dùng có thể thay đổi cài đặt này.</translation>
 <translation id="3038323923255997294">Tiếp tục chạy các ứng dụng dưới nền khi <ph name="PRODUCT_NAME" /> bị đóng</translation>
 <translation id="3046192273793919231">Gửi gói mạng tới máy chủ quản lý để theo dõi trạng thái trực tuyến</translation>
-<translation id="3047732214002457234">Kiểm soát cách tính năng Làm sạch Chrome báo cáo dữ liệu cho Google</translation>
+<translation id="3047732214002457234">Kiểm soát cách tính năng Làm sạch Brave báo cáo dữ liệu cho Google</translation>
 <translation id="3048744057455266684">Nếu chính sách này được đặt và URL tìm kiếm được đề xuất từ thanh địa chỉ có chứa tham số này trong chuỗi truy vấn hoặc trong số nhận dạng phân đoạn, thì đề xuất sẽ hiển thị cụm từ tìm kiếm và nhà cung cấp dịch vụ tìm kiếm thay vì URL tìm kiếm thô.
           Chính sách này là tùy chọn. Nếu không được đặt, sẽ không có thay thế cụm từ tìm kiếm nào được thực hiện.
 
@@ -879,7 +879,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
 
       Nếu chính sách được đặt thành sai, máy khách DNS tích hợp sẽ không bao giờ được sử dụng.
 
-      Nếu chính sách không được đặt, người dùng sẽ có thể thay đổi để máy khách DNS tích hợp được sử dụng hay không bằng cách chỉnh sửa Chrome://flags hoặc chỉ định một cờ dòng lệnh.</translation>
+      Nếu chính sách không được đặt, người dùng sẽ có thể thay đổi để máy khách DNS tích hợp được sử dụng hay không bằng cách chỉnh sửa Brave://flags hoặc chỉ định một cờ dòng lệnh.</translation>
 <translation id="3214164532079860003">Chính sách này nếu được bật sẽ buộc trang chủ phải được nhập từ trình duyệt mặc định hiện tại.
 
       Nếu tắt chính sách này, trang chủ sẽ không được nhập.
@@ -1136,13 +1136,13 @@ Khi chính sách này được đặt thành false hoặc không được địn
       Nếu bạn không đặt chính sách này, <ph name="PRODUCT_NAME" /> sẽ sử dụng thư mục mặc định thông thường (dành riêng cho nền tảng).
 
       Hãy xem https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables để biết danh sách các biến có thể được sử dụng.</translation>
-<translation id="3904459740090265495">Chính sách này kiểm soát hành vi đăng nhập của trình duyệt. Chính sách cho phép bạn chỉ định xem người dùng có thể đăng nhập vào <ph name="PRODUCT_NAME" /> bằng tài khoản của họ và sử dụng các dịch vụ liên quan đến tài khoản như tính năng đồng bộ hóa trên Chrome hay không.
+<translation id="3904459740090265495">Chính sách này kiểm soát hành vi đăng nhập của trình duyệt. Chính sách cho phép bạn chỉ định xem người dùng có thể đăng nhập vào <ph name="PRODUCT_NAME" /> bằng tài khoản của họ và sử dụng các dịch vụ liên quan đến tài khoản như tính năng đồng bộ hóa trên Brave hay không.
 
-      Nếu bạn đặt chính sách này thành "Vô hiệu hóa đăng nhập vào trình duyệt", thì người dùng sẽ không thể đăng nhập vào trình duyệt và sử dụng các dịch vụ dựa trên tài khoản. Trong trường hợp này, các tính năng ở cấp trình duyệt như đồng bộ hóa trên Chrome sẽ không sử dụng được và không có sẵn. Nếu người dùng đã đăng nhập và chính sách này được đặt thành "Tắt", thì họ sẽ bị đăng xuất khi chạy Chrome vào lần sau. Tuy nhiên, các dữ liệu hồ sơ cục bộ của họ như dấu trang, mật khẩu, v.v. sẽ vẫn giữ nguyên. Người dùng vẫn có thể đăng nhập và sử dụng các dịch vụ web của Google như Gmail.
+      Nếu bạn đặt chính sách này thành "Vô hiệu hóa đăng nhập vào trình duyệt", thì người dùng sẽ không thể đăng nhập vào trình duyệt và sử dụng các dịch vụ dựa trên tài khoản. Trong trường hợp này, các tính năng ở cấp trình duyệt như đồng bộ hóa trên Brave sẽ không sử dụng được và không có sẵn. Nếu người dùng đã đăng nhập và chính sách này được đặt thành "Tắt", thì họ sẽ bị đăng xuất khi chạy Brave vào lần sau. Tuy nhiên, các dữ liệu hồ sơ cục bộ của họ như dấu trang, mật khẩu, v.v. sẽ vẫn giữ nguyên. Người dùng vẫn có thể đăng nhập và sử dụng các dịch vụ web của Google như Gmail.
 
-      Nếu bạn đặt chính sách này thành "Cho phép đăng nhập vào trình duyệt", thì người dùng sẽ được phép đăng nhập vào trình duyệt và tự động được đăng nhập vào trình duyệt khi họ đăng nhập vào các dịch vụ web của Google như Gmail. Được đăng nhập vào trình duyệt nghĩa là thông tin tài khoản của người dùng sẽ do trình duyệt lưu giữ. Tuy nhiên, điều đó không có nghĩa là tính năng đồng bộ hóa trên Chrome sẽ được bật theo mặc định; người dùng phải chọn sử dụng tính năng này riêng biệt. Việc bật chính sách này sẽ ngăn không cho người dùng tắt tùy chọn cài đặt cho phép đăng nhập vào trình duyệt. Để kiểm soát việc có cho phép tính năng đồng bộ hóa trên Chrome hay không, hãy sử dụng chính sách "SyncDisabled".
+      Nếu bạn đặt chính sách này thành "Cho phép đăng nhập vào trình duyệt", thì người dùng sẽ được phép đăng nhập vào trình duyệt và tự động được đăng nhập vào trình duyệt khi họ đăng nhập vào các dịch vụ web của Google như Gmail. Được đăng nhập vào trình duyệt nghĩa là thông tin tài khoản của người dùng sẽ do trình duyệt lưu giữ. Tuy nhiên, điều đó không có nghĩa là tính năng đồng bộ hóa trên Brave sẽ được bật theo mặc định; người dùng phải chọn sử dụng tính năng này riêng biệt. Việc bật chính sách này sẽ ngăn không cho người dùng tắt tùy chọn cài đặt cho phép đăng nhập vào trình duyệt. Để kiểm soát việc có cho phép tính năng đồng bộ hóa trên Brave hay không, hãy sử dụng chính sách "SyncDisabled".
 
-      Nếu bạn đặt chính sách này thành "Buộc đăng nhập vào trình duyệt", thì người dùng sẽ thấy hộp thoại lựa chọn tài khoản và phải chọn rồi đăng nhập vào tài khoản để sử dụng trình duyệt. Điều này đảm bảo rằng các chính sách liên kết với tài khoản sẽ được áp dụng và thực thi (đối với tài khoản được quản lý). Theo mặc định, việc này sẽ bật tính năng đồng bộ hóa trên Chrome cho tài khoản, trừ khi quản trị viên miền hoặc chính sách "SyncDisabled" đã tắt tính năng đó. Giá trị mặc định của BrowserGuestModeEnabled sẽ được đặt thành false. Lưu ý rằng các hồ sơ chưa ký hiện tại sẽ bị khóa và không truy cập được sau khi bật chính sách này. Để biết thêm thông tin, hãy xem bài viết trên trung tâm trợ giúp: https://support.google.com/chrome/a/answer/7572556.
+      Nếu bạn đặt chính sách này thành "Buộc đăng nhập vào trình duyệt", thì người dùng sẽ thấy hộp thoại lựa chọn tài khoản và phải chọn rồi đăng nhập vào tài khoản để sử dụng trình duyệt. Điều này đảm bảo rằng các chính sách liên kết với tài khoản sẽ được áp dụng và thực thi (đối với tài khoản được quản lý). Theo mặc định, việc này sẽ bật tính năng đồng bộ hóa trên Brave cho tài khoản, trừ khi quản trị viên miền hoặc chính sách "SyncDisabled" đã tắt tính năng đó. Giá trị mặc định của BrowserGuestModeEnabled sẽ được đặt thành false. Lưu ý rằng các hồ sơ chưa ký hiện tại sẽ bị khóa và không truy cập được sau khi bật chính sách này. Để biết thêm thông tin, hãy xem bài viết trên trung tâm trợ giúp: https://support.google.com/chrome/a/answer/7572556.
 
       Nếu bạn không đặt chính sách này, thì người dùng có thể quyết định xem họ có muốn bật tùy chọn đăng nhập vào trình duyệt và sử dụng khi thấy phù hợp hay không.</translation>
 <translation id="3907986150060929099">Đặt ngôn ngữ được đề xuất cho phiên công khai</translation>
@@ -1266,11 +1266,11 @@ Khi chính sách này được đặt thành false hoặc không được địn
 <translation id="4298509794364745131">Chỉ định danh sách các ứng dụng có thể bật làm ứng dụng ghi chú trên màn hình khóa của <ph name="PRODUCT_OS_NAME" />.
 
       Nếu bạn bật ứng dụng ghi chú ưa thích trên màn hình khóa, màn hình khóa sẽ chứa phần tử giao diện người dùng để khởi chạy ứng dụng ghi chú ưa thích.
-      Khi đã khởi chạy, ứng dụng sẽ có thể tạo cửa sổ ứng dụng ở đầu màn hình khóa và tạo mục dữ liệu (ghi chú) trong ngữ cảnh màn hình khóa. Ứng dụng sẽ có thể nhập các ghi chú đã tạo vào phiên người dùng chính, khi phiên được mở khóa. Hiện tại, chỉ hỗ trợ các ứng dụng ghi chú của Chrome trên màn hình khóa.
+      Khi đã khởi chạy, ứng dụng sẽ có thể tạo cửa sổ ứng dụng ở đầu màn hình khóa và tạo mục dữ liệu (ghi chú) trong ngữ cảnh màn hình khóa. Ứng dụng sẽ có thể nhập các ghi chú đã tạo vào phiên người dùng chính, khi phiên được mở khóa. Hiện tại, chỉ hỗ trợ các ứng dụng ghi chú của Brave trên màn hình khóa.
 
       Nếu bạn đã đặt chính sách, người dùng sẽ chỉ được phép bật ứng dụng trên màn hình khóa khi ID tiện ích của ứng dụng có trong giá trị danh sách chính sách.
       Do vậy, việc đặt chính sách này cho một danh sách trống sẽ tắt hoàn toàn tính năng viết ghi chú trên màn hình khóa.
-      Lưu ý rằng chính sách chứa ID ứng dụng không nhất thiết có nghĩa là người dùng sẽ có thể bật ứng dụng làm ứng dụng ghi chú trên màn hình khóa - ví dụ: trên Chrome 61, tập hợp các ứng dụng hiện có bị nền tảng hạn chế thêm.
+      Lưu ý rằng chính sách chứa ID ứng dụng không nhất thiết có nghĩa là người dùng sẽ có thể bật ứng dụng làm ứng dụng ghi chú trên màn hình khóa - ví dụ: trên Brave 61, tập hợp các ứng dụng hiện có bị nền tảng hạn chế thêm.
 
       Nếu không đặt chính sách thì sẽ không có hạn chế nào được chính sách áp dụng cho tập hợp các ứng dụng mà người dùng có thể bật trên màn hình khóa.</translation>
 <translation id="4309640770189628899">Bộ mã hóa DHE trong TLS có được bật hay không</translation>
@@ -1379,7 +1379,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
 <translation id="4567137030726189378">Cho phép sử dụng Công cụ dành cho nhà phát triển</translation>
 <translation id="4600786265870346112">Bật con trỏ lớn</translation>
 <translation id="4604931264910482931">Định cấu hình danh sách cấm nhắn tin gốc</translation>
-<translation id="4613508646038788144">Nếu bạn đặt chính sách thành false thì phần mềm của bên thứ ba sẽ được phép đưa mã thực thi vào các quy trình của Chrome. Nếu bạn không đặt hoặc đặt chính sách thành true thì phần mềm của bên thứ ba sẽ không được đưa đoạn mã thực thi vào các quy trình của Chrome.</translation>
+<translation id="4613508646038788144">Nếu bạn đặt chính sách thành false thì phần mềm của bên thứ ba sẽ được phép đưa mã thực thi vào các quy trình của Brave. Nếu bạn không đặt hoặc đặt chính sách thành true thì phần mềm của bên thứ ba sẽ không được đưa đoạn mã thực thi vào các quy trình của Brave.</translation>
 <translation id="4617338332148204752">Bỏ qua kiểm tra thẻ meta trong <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Định cấu hình danh sách trắng cài đặt tiện ích</translation>
 <translation id="4632343302005518762">Cho phép <ph name="PRODUCT_FRAME_NAME" /> xử lý các loại nội dung được liệt kê</translation>
@@ -1511,7 +1511,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
           Giá trị phải là một dãy từ điển JSON dạng chuỗi. Mỗi từ điển đều phải có dạng { "pattern": "$URL_PATTERN", "filter" : $FILTER }, trong đó $URL_PATTERN là mẫu cài đặt nội dung. $FILTER giới hạn các chứng chỉ ứng dụng mà trình duyệt sẽ tự động chọn. Bất kể bộ lọc, chỉ các chứng chỉ khớp với yêu cầu chứng chỉ của máy chủ mới được chọn. Nếu $FILTER có dạng { "ISSUER": { "CN": "$ISSUER_CN" } } thì thêm nữa, chỉ những chứng chỉ ứng dụng do chứng chỉ có CommonName $ISSUER_CN cấp mới được chọn. Nếu $FILTER là từ điển trống {}, lựa chọn chứng chỉ ứng dụng sẽ không bị hạn chế thêm.
 
           Nếu bạn không đặt chính sách này, sẽ không có thao tác tự động chọn nào được thực hiện cho bất kỳ trang web nào.</translation>
-<translation id="4978405676361550165">Nếu bạn đặt chính sách "OffHours" thì Chrome sẽ bỏ qua các chính sách thiết bị đã chỉ định (sử dụng cài đặt mặc định của những chính sách này) trong khoảng thời gian đã định. Chrome sẽ áp dụng lại các chính sách thiết bị đối với mọi sự kiện khi khoảng thời gian "OffHours" bắt đầu hoặc kết thúc. Người dùng sẽ được thông báo và bắt buộc phải đăng xuất khi kết thúc thời gian "OffHours" và khi các cài đặt của chính sách thiết bị thay đổi (ví dụ: khi người dùng đăng nhập bằng một tài khoản không được phép).</translation>
+<translation id="4978405676361550165">Nếu bạn đặt chính sách "OffHours" thì Brave sẽ bỏ qua các chính sách thiết bị đã chỉ định (sử dụng cài đặt mặc định của những chính sách này) trong khoảng thời gian đã định. Brave sẽ áp dụng lại các chính sách thiết bị đối với mọi sự kiện khi khoảng thời gian "OffHours" bắt đầu hoặc kết thúc. Người dùng sẽ được thông báo và bắt buộc phải đăng xuất khi kết thúc thời gian "OffHours" và khi các cài đặt của chính sách thiết bị thay đổi (ví dụ: khi người dùng đăng nhập bằng một tài khoản không được phép).</translation>
 <translation id="4980635395568992380">Loại dữ liệu:</translation>
 <translation id="4983201894483989687">Cho phép chạy các plugin đã lỗi thời</translation>
 <translation id="4988291787868618635">Hành động cần thực hiện khi đạt tới độ trễ khi không sử dụng</translation>
@@ -1601,7 +1601,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
           Giá trị danh sách cấm '*' nghĩa là tất cả máy chủ nhắn tin gốc được đưa vào danh sách cấm trừ khi chúng được liệt kê rõ ràng trong danh sách cho phép.
 
           Nếu chính sách này chưa được thiết lập <ph name="PRODUCT_NAME" /> sẽ tải tất cả máy chủ nhắn tin gốc đã cài đặt.</translation>
-<translation id="5272684451155669299">Nếu true, người dùng có thể sử dụng phần cứng trên thiết bị Chrome để chứng thực từ xa danh tính của thiết bị với CA bảo mật qua <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> bằng <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Nếu true, người dùng có thể sử dụng phần cứng trên thiết bị Brave để chứng thực từ xa danh tính của thiết bị với CA bảo mật qua <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> bằng <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Nếu cài đặt được đặt thành false hoặc chưa được đặt, cuộc gọi tới API sẽ không thực hiện được với mã lỗi.</translation>
 <translation id="5277806246014825877">Cho phép người dùng này chạy Crostini.
@@ -1733,7 +1733,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
       Lưu ý rằng tùy chọn này không được đề xuất, vì điều này có thể cho phép bỏ qua tiện ích nameConstraints hạn chế tên máy chủ mà một chứng chỉ đã cho có thể được ủy quyền.
 
       Nếu chính sách này chưa được đặt hoặc được đặt thành false, chứng chỉ máy chủ thiếu tiện ích subjectAlternativeName chứa tên DNS hoặc địa chỉ IP sẽ không được tin tưởng.</translation>
-<translation id="5581292529942108810">Định cấu hình các chính sách liên quan đến Tiện ích báo cáo của Chrome.
+<translation id="5581292529942108810">Định cấu hình các chính sách liên quan đến Tiện ích báo cáo của Brave.
 
       Chính sách này chỉ có hiệu lực khi <ph name="CHROME_REPORTING_EXTENSION_NAME" /> ở trạng thái bật và bạn đã đăng ký máy với <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Kiểm soát các dịch vụ vị trí của Google trên thiết bị Android</translation>
@@ -1794,7 +1794,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
       Nếu bạn tắt chính sách này thì quá trình tải xuống sẽ bắt đầu ngay lập tức và người dùng sẽ không được hỏi vị trí lưu tệp.
       Nếu bạn không định cấu hình chính sách này thì người dùng sẽ có thể thay đổi cài đặt này.
       </translation>
-<translation id="5835124959204887277">Chỉ định các URL và miền để lời nhắc không hiển thị khi chứng chỉ chứng thực từ Khóa bảo mật được yêu cầu. Ngoài ra, một tín hiệu sẽ được gửi đến Khóa bảo mật cho biết rằng có thể sử dụng chứng thực cá nhân. Nếu không có tín hiệu này, trên trình duyệt Chrome 65 trở lên, người dùng sẽ được nhắc khi trang web yêu cầu chứng thực của Khóa bảo mật.
+<translation id="5835124959204887277">Chỉ định các URL và miền để lời nhắc không hiển thị khi chứng chỉ chứng thực từ Khóa bảo mật được yêu cầu. Ngoài ra, một tín hiệu sẽ được gửi đến Khóa bảo mật cho biết rằng có thể sử dụng chứng thực cá nhân. Nếu không có tín hiệu này, trên trình duyệt Brave 65 trở lên, người dùng sẽ được nhắc khi trang web yêu cầu chứng thực của Khóa bảo mật.
 
       Các URL (như https://example.com/some/path) sẽ chỉ khớp dưới dạng U2F appID. Các miền (như example.com) chỉ khớp dưới dạng ID RP webauthn. Do đó, để bao gồm cả API U2F và API webauthn cho một trang web cho trước, cần liệt kê cả miền và URL appID.</translation>
 <translation id="5835412847081687053">Định cấu hình ngôn ngữ giao diện người dùng được phép trong phiên người dùng</translation>
@@ -1982,7 +1982,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
 <translation id="6282799760374509080">Cho phép hoặc từ chối ghi âm</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Bật tự động hoàn tất tên miền trong khi người dùng đăng nhập</translation>
-<translation id="6315673513957120120">Chrome hiển thị trang cảnh báo khi người dùng truy cập các trang web gặp lỗi SSL. Theo mặc định hoặc khi chính sách này được đặt thành true, người dùng được phép nhấp qua các trang cảnh báo này.
+<translation id="6315673513957120120">Brave hiển thị trang cảnh báo khi người dùng truy cập các trang web gặp lỗi SSL. Theo mặc định hoặc khi chính sách này được đặt thành true, người dùng được phép nhấp qua các trang cảnh báo này.
       Đặt chính sách này thành false sẽ không cho phép người dùng nhấp qua bất kỳ trang cảnh báo nào.</translation>
 <translation id="6353901068939575220">Chỉ định tham số được dùng khi tìm kiếm URL với POST. Tham số này bao gồm các cặp tên/giá trị phân tách bằng dấu phẩy. Nếu một giá trị là tham số mẫu như {searchTerms} trong ví dụ trên, tham số đó sẽ được thay thế bằng dữ liệu cụm từ tìm kiếm thực.
 
@@ -2013,7 +2013,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
           Nếu bạn chọn tự động phát hiện máy chủ proxy, URL tập lệnh "http://wpad/wpad.dat" được cung cấp cho ứng dụng Android. Không sử dụng phần khác của giao thức tự động phát hiện proxy.
 
           Nếu bạn chọn sử dụng tập lệnh proxy .pac, URL tập lệnh được cung cấp cho ứng dụng Android.</translation>
-<translation id="6430366557948788869">Tiện ích báo cáo của Chrome</translation>
+<translation id="6430366557948788869">Tiện ích báo cáo của Brave</translation>
 <translation id="6440051664870270040">Cho phép các trang web chuyển tới và mở các cửa sổ bật lên cùng một lúc</translation>
 <translation id="6447948611083700881">Đã tắt tính năng sao lưu và khôi phục</translation>
 <translation id="645425387487868471">Bật bắt buộc đăng nhập cho <ph name="PRODUCT_NAME" /></translation>
@@ -2217,7 +2217,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
 
       LƯU Ý: Trên Android, tính năng Cô lập trang web vẫn đang trong giai đoạn thử nghiệm. Khả năng hỗ trợ sẽ cải thiện theo thời gian nhưng hiện tính năng này có thể gây ra các vấn đề về hiệu suất.
 
-      LƯU Ý: Chính sách này chỉ áp dụng cho Chrome trên Android đang chạy trên các thiết bị chắc chắn có RAM lớn hơn 1 GB. Để áp dụng chính sách này trên các nền tảng không phải là Android, hãy sử dụng SitePerProcess.
+      LƯU Ý: Chính sách này chỉ áp dụng cho Brave trên Android đang chạy trên các thiết bị chắc chắn có RAM lớn hơn 1 GB. Để áp dụng chính sách này trên các nền tảng không phải là Android, hãy sử dụng SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Nếu đặt chính sách thành true, thì chính sách đám mây sẽ được ưu tiên trong trường hợp xung đột với chính sách máy.
@@ -2298,9 +2298,9 @@ Khi chính sách này được đặt thành false hoặc không được địn
 
       Nếu đặt chính sách này thành false hoặc không đặt, thì <ph name="PRODUCT_NAME" /> có thể sẽ không thu thập cũng như tải các nhật ký đó lên.
 
-      Các nhật ký này chứa thông tin chẩn đoán hữu ích khi gỡ lỗi sự cố về cuộc gọi âm thanh hoặc video trên Chrome, chẳng hạn như thời gian và kích thước gói RTP gửi đi và nhận được, phản hồi về tình trạng nghẽn mạng cũng như siêu dữ liệu về thời gian và chất lượng của khung video và âm thanh. Các nhật ký này không chứa nội dung âm thanh hoặc video của cuộc gọi.
+      Các nhật ký này chứa thông tin chẩn đoán hữu ích khi gỡ lỗi sự cố về cuộc gọi âm thanh hoặc video trên Brave, chẳng hạn như thời gian và kích thước gói RTP gửi đi và nhận được, phản hồi về tình trạng nghẽn mạng cũng như siêu dữ liệu về thời gian và chất lượng của khung video và âm thanh. Các nhật ký này không chứa nội dung âm thanh hoặc video của cuộc gọi.
 
-      Chỉ các dịch vụ web của Google, chẳng hạn như Google Hangouts hoặc Google Meet, mới có thể kích hoạt chức năng thu thập dữ liệu này trên Chrome.
+      Chỉ các dịch vụ web của Google, chẳng hạn như Google Hangouts hoặc Google Meet, mới có thể kích hoạt chức năng thu thập dữ liệu này trên Brave.
 
       Thông qua ID phiên, Google có thể liên kết các nhật ký này với các nhật ký khác do dịch vụ của Google tự thu thập, nhằm giúp quá trình gỡ lỗi trở nên dễ dàng hơn.
       </translation>
@@ -2373,11 +2373,11 @@ Khi chính sách này được đặt thành false hoặc không được địn
 
           Nếu không đặt chính sách này, kính lúp màn hình bị tắt khi màn hình đăng nhập hiển thị lần đầu. Người dùng có thể bật hoặc tắt kính lúp màn hình bất cứ lúc nào và trạng thái của kính lúp trên màn hình đăng nhập được duy trì giữa những người dùng.</translation>
 <translation id="7249828445670652637">Bật chứng chỉ CA <ph name="PRODUCT_OS_NAME" /> đối với ứng dụng ARC</translation>
-<translation id="725322441686394886">Nếu bạn không đặt chính sách này, thì khi phát hiện thấy phần mềm không mong muốn, tính năng Làm sạch Chrome có thể báo cáo siêu dữ liệu về phiên quét cho Google theo chính sách do SafeBrowsingExtendedReportingEnabled đặt ra. Sau đó, tính năng này sẽ hỏi người dùng có muốn xóa phần mềm không mong muốn đó hay không. Người dùng có thể chọn chia sẻ kết quả của quá trình làm sạch với Google để hỗ trợ khả năng phát hiện phần mềm không mong muốn trong tương lai. Các kết quả này bao gồm khóa đăng ký, tiện ích được tự động cài đặt và siêu dữ liệu tệp như mô tả trong Báo cáo chính thức về quyền riêng tư của Chrome.
+<translation id="725322441686394886">Nếu bạn không đặt chính sách này, thì khi phát hiện thấy phần mềm không mong muốn, tính năng Làm sạch Brave có thể báo cáo siêu dữ liệu về phiên quét cho Google theo chính sách do SafeBrowsingExtendedReportingEnabled đặt ra. Sau đó, tính năng này sẽ hỏi người dùng có muốn xóa phần mềm không mong muốn đó hay không. Người dùng có thể chọn chia sẻ kết quả của quá trình làm sạch với Google để hỗ trợ khả năng phát hiện phần mềm không mong muốn trong tương lai. Các kết quả này bao gồm khóa đăng ký, tiện ích được tự động cài đặt và siêu dữ liệu tệp như mô tả trong Báo cáo chính thức về quyền riêng tư của Brave.
 
-      Nếu bạn tắt chính sách này thì khi phát hiện thấy phần mềm không mong muốn, tính năng Làm sạch Chrome sẽ không báo cáo siêu dữ liệu về phiên quét cho Google mà ghi đè mọi chính sách do SafeBrowsingExtendedReportingEnabled đặt ra.  Kết quả của quá trình làm sạch sẽ không được báo cáo cho Google và người dùng sẽ không có tùy chọn để thực hiện việc này.
+      Nếu bạn tắt chính sách này thì khi phát hiện thấy phần mềm không mong muốn, tính năng Làm sạch Brave sẽ không báo cáo siêu dữ liệu về phiên quét cho Google mà ghi đè mọi chính sách do SafeBrowsingExtendedReportingEnabled đặt ra.  Kết quả của quá trình làm sạch sẽ không được báo cáo cho Google và người dùng sẽ không có tùy chọn để thực hiện việc này.
 
-      Nếu bạn bật chính sách này thì khi phát hiện thấy phần mềm không mong muốn, tính năng Làm sạch Chrome có thể báo cáo siêu dữ liệu về phiên quét cho Google theo chính sách do SafeBrowsingExtendedReportingEnabled đặt ra.  Kết quả của quá trình làm sạch sẽ được báo cáo cho Google và người dùng sẽ không có tùy chọn để tắt tính năng báo cáo.
+      Nếu bạn bật chính sách này thì khi phát hiện thấy phần mềm không mong muốn, tính năng Làm sạch Brave có thể báo cáo siêu dữ liệu về phiên quét cho Google theo chính sách do SafeBrowsingExtendedReportingEnabled đặt ra.  Kết quả của quá trình làm sạch sẽ được báo cáo cho Google và người dùng sẽ không có tùy chọn để tắt tính năng báo cáo.
 
       Chính sách này không có trên các phiên bản Windows chưa tham gia miền <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Bật tính năng ẩn của máy chủ truy cập từ xa</translation>
@@ -2431,9 +2431,9 @@ Khi chính sách này được đặt thành false hoặc không được địn
 <translation id="7329968046053403405">Chỉ định loại tài khoản của các tài khoản được ứng dụng xác thực Android có hỗ trợ xác thực <ph name="HTTP_NEGOTIATE" /> (ví dụ: xác thực Kerberos) cung cấp. Thông tin này có sẵn từ nhà cung cấp ứng dụng xác thực. Để biết thêm chi tiết, hãy xem https://goo.gl/hajyfN.
 
           Nếu không có cài đặt nào được cung cấp thì xác thực <ph name="HTTP_NEGOTIATE" /> sẽ bị vô hiệu hóa trên Android.</translation>
-<translation id="7331962793961469250">Khi được đặt thành True, kết quả thăng hạng của các ứng dụng trong Cửa hàng Chrome trực tuyến sẽ không xuất hiện trên trang tab mới.
+<translation id="7331962793961469250">Khi được đặt thành True, kết quả thăng hạng của các ứng dụng trong Cửa hàng Brave trực tuyến sẽ không xuất hiện trên trang tab mới.
 
-      Nếu đặt tùy chọn này thành False hoặc không đặt, các kết quả thăng hạng của các ứng dụng trong Cửa hàng Chrome trực tuyến sẽ xuất hiện trên trang tab mới.</translation>
+      Nếu đặt tùy chọn này thành False hoặc không đặt, các kết quả thăng hạng của các ứng dụng trong Cửa hàng Brave trực tuyến sẽ xuất hiện trên trang tab mới.</translation>
 <translation id="7332963785317884918">Chính sách này không còn được sử dụng. <ph name="PRODUCT_OS_NAME" /> sẽ luôn sử dụng chiến lược dọn sạch 'RemoveLRU'.
 
       Kiểm soát hoạt động dọn sạch tự động trên các thiết bị <ph name="PRODUCT_OS_NAME" />. Tính năng dọn sạch tự động được kích hoạt khi dung lượng đĩa trống đạt tới mức tới hạn để khôi phục một số dung lượng đĩa.
@@ -2448,7 +2448,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
 <translation id="7343497214039883642">Tệp cấu hình máy dành cho in doanh nghiệp cho các thiết bị</translation>
 <translation id="7349338075015720646">Xác định danh sách các trang web được cài đặt tự động mà không cần sự can thiệp của người dùng và các trang web mà người dùng không thể gỡ cài đặt cũng như tắt.
 
-      Mỗi mục danh sách của chính sách này là một đối tượng chứa hai thành phần: "url" và "launch_container". "url" phải là URL của ứng dụng web cần cài đặt và "launch_container" phải là "cửa sổ" hoặc "tab" để xác định cách mở Ứng dụng web sau khi cài đặt. Khi thiếu phần "launch_container", ứng dụng sẽ chạy trong một cửa sổ nếu Chrome cho rằng đây là Ứng dụng web tiến bộ, nếu không thì ứng dụng sẽ chạy trong tab.</translation>
+      Mỗi mục danh sách của chính sách này là một đối tượng chứa hai thành phần: "url" và "launch_container". "url" phải là URL của ứng dụng web cần cài đặt và "launch_container" phải là "cửa sổ" hoặc "tab" để xác định cách mở Ứng dụng web sau khi cài đặt. Khi thiếu phần "launch_container", ứng dụng sẽ chạy trong một cửa sổ nếu Brave cho rằng đây là Ứng dụng web tiến bộ, nếu không thì ứng dụng sẽ chạy trong tab.</translation>
 <translation id="735902178936442460">Chính sách này kiểm soát xem có báo cáo thông tin dùng để nhận dạng máy, chẳng hạn như tên máy và địa chỉ mạng hay không.
 
       Khi không đặt chính sách này hoặc đặt thành True, thông tin dùng để nhận dạng máy sẽ được thu thập.
@@ -2461,9 +2461,9 @@ Khi chính sách này được đặt thành false hoặc không được địn
 
       Truy cập vào https://developers.google.com/safe-browsing để biết thêm thông tin về dịch vụ Duyệt web an toàn.</translation>
 <translation id="737655323154569539">Hạn chế kích thước trang in. Nếu bạn không đặt hoặc để trống chính sách, thì hệ thống sẽ coi là không có hạn chế.</translation>
-<translation id="7417728346887499628">Nếu bạn tắt chính sách này thì tính năng Làm sạch Chrome sẽ không quét hệ thống để tìm phần mềm không mong muốn và thực hiện thao tác xóa. Tùy chọn kích hoạt thủ công tính năng Làm sạch Chrome trên trang web chrome://settings/cleanup sẽ bị tắt.
+<translation id="7417728346887499628">Nếu bạn tắt chính sách này thì tính năng Làm sạch Brave sẽ không quét hệ thống để tìm phần mềm không mong muốn và thực hiện thao tác xóa. Tùy chọn kích hoạt thủ công tính năng Làm sạch Brave trên trang web chrome://settings/cleanup sẽ bị tắt.
 
-      Nếu bạn bật hoặc không đặt chính sách này, thì tính năng Làm sạch Chrome sẽ quét định kỳ hệ thống để tìm phần mềm không mong muốn. Khi tìm thấy phần mềm không mong muốn, tính năng này sẽ hỏi người dùng có muốn xóa phần mềm đó hay không. Tùy chọn kích hoạt thủ công tính năng Làm sạch Chrome trên trang web chrome://settings sẽ được bật.
+      Nếu bạn bật hoặc không đặt chính sách này, thì tính năng Làm sạch Brave sẽ quét định kỳ hệ thống để tìm phần mềm không mong muốn. Khi tìm thấy phần mềm không mong muốn, tính năng này sẽ hỏi người dùng có muốn xóa phần mềm đó hay không. Tùy chọn kích hoạt thủ công tính năng Làm sạch Brave trên trang web chrome://settings sẽ được bật.
 
       Chính sách này không có trên các phiên bản Windows chưa tham gia miền <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Tỷ lệ phần trăm theo đó xác định độ trễ khi không hoạt động trong chế độ bản trình bày (không dùng nữa)</translation>
@@ -2705,7 +2705,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
 
       LƯU Ý: Trên Android, tính năng Cô lập trang web vẫn đang trong giai đoạn thử nghiệm. Khả năng hỗ trợ sẽ cải thiện theo thời gian nhưng hiện tính năng này có thể gây ra các vấn đề về hiệu suất.
 
-      LƯU Ý: Chính sách này chỉ áp dụng cho Chrome trên Android đang chạy trên các thiết bị chắc chắn có RAM lớn hơn 1 GB. Để áp dụng chính sách này trên các nền tảng không phải là Android, hãy sử dụng IsolateOrigins.
+      LƯU Ý: Chính sách này chỉ áp dụng cho Brave trên Android đang chạy trên các thiết bị chắc chắn có RAM lớn hơn 1 GB. Để áp dụng chính sách này trên các nền tảng không phải là Android, hãy sử dụng IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Lưu trữ ngoại lệ hướng dẫn người dùng được quản lý</translation>
 <translation id="7961779417826583251">Tắt mục cài đặt buộc thực thi Tính minh bạch của chứng chỉ cho một danh sách Tổ chức phát hành chứng chỉ kế thừa</translation>
@@ -2818,7 +2818,7 @@ Khi chính sách này được đặt thành false hoặc không được địn
       Nếu chính sách không được đặt, <ph name="PRODUCT_OS_NAME" /> sẽ sử dụng ID tài khoản email của tài khoản trong thiết bị làm tên hiển thị trên màn hình đăng nhập.
 
       Chính sách này bị bỏ qua đối với các tài khoản người dùng thông thường.</translation>
-<translation id="8259375588339409826">Cả Chromium và Google Chrome đều hỗ trợ nhóm chính sách giống nhau. Xin lưu ý rằng tài liệu này có thể bao gồm các chính sách chưa được ban hành (nghĩa là mục 'Được hỗ trợ trên' của các chính sách này đề cập đến một phiên bản <ph name="PRODUCT_NAME" /> chưa phát hành). Những chính sách này có thể bị thay đổi hoặc xóa bỏ mà không thông báo trước. Chúng tôi không bảo đảm bất kỳ điều gì, kể cả bảo đảm cho các thuộc tính bảo mật và quyền riêng tư.
+<translation id="8259375588339409826">Cả Brave và Brave đều hỗ trợ nhóm chính sách giống nhau. Xin lưu ý rằng tài liệu này có thể bao gồm các chính sách chưa được ban hành (nghĩa là mục 'Được hỗ trợ trên' của các chính sách này đề cập đến một phiên bản <ph name="PRODUCT_NAME" /> chưa phát hành). Những chính sách này có thể bị thay đổi hoặc xóa bỏ mà không thông báo trước. Chúng tôi không bảo đảm bất kỳ điều gì, kể cả bảo đảm cho các thuộc tính bảo mật và quyền riêng tư.
 
 Những chính sách này chỉ dùng cho mục đích định cấu hình các phiên bản <ph name="PRODUCT_NAME" /> nội bộ trong tổ chức của bạn. Việc sử dụng các chính sách này bên ngoài tổ chức (ví dụ: trong một chương trình được phân phối công khai) sẽ bị coi là phần mềm độc hại và có thể bị Google và các nhà cung cấp phần mềm diệt vi-rút gắn nhãn là phần mềm độc hại.
 
@@ -2872,7 +2872,7 @@ Bạn nên định cấu hình chính sách trên Windows qua GPO, mặc dù vi�
 <translation id="8339420913453596618">Đã tắt hai yếu tố</translation>
 <translation id="8344454543174932833">Nhập dấu trang từ trình duyệt mặc định trong lần chạy đầu tiên</translation>
 <translation id="8359734107661430198">Bật API ExampleDeprecatedFeature đến ngày 2 tháng 9 năm 2008</translation>
-<translation id="8367209241899435947">Bật tính năng Làm sạch Chrome trên Windows</translation>
+<translation id="8367209241899435947">Bật tính năng Làm sạch Brave trên Windows</translation>
 <translation id="8369602308428138533">Độ trễ tắt màn hình khi chạy trên nguồn AC</translation>
 <translation id="8382184662529825177">Cho phép sử dụng chứng thực từ xa để bảo vệ nội dung cho thiết bị</translation>
 <translation id="838870586332499308">Bật chuyển vùng dữ liệu</translation>

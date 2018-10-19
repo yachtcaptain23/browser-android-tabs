@@ -359,7 +359,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="2073552873076775140">Povoliť prihlásenie do prehliadača <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Používať hardvérovú akceleráciu (keď je dostupná)</translation>
 <translation id="2077273864382355561">Oneskorenie vypnutia obrazovky pri napájaní z batérie</translation>
-<translation id="2082205219176343977">Konfigurácia minimálnej povolenej verzie Chromu pre zariadenie.</translation>
+<translation id="2082205219176343977">Konfigurácia minimálnej povolenej verzie Brave pre zariadenie.</translation>
 <translation id="209586405398070749">Stabilná verzia</translation>
 <translation id="2098658257603918882">Povoliť hlásenie údajov týkajúcich sa používania a zlyhaní</translation>
 <translation id="2111016292707172233">Povolí dostupnosť Vyhľadávania klepnutím v zobrazení obsahu v prehliadači <ph name="PRODUCT_NAME" />.
@@ -448,7 +448,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 
           Ak toto pravidlo ponecháte nenastavené, použije sa pravidlo „BlockPopups“ a používateľ ho bude môcť zmeniť.</translation>
 <translation id="2269319728625047531">Povolenie zobrazovania súhlasu so synchronizáciou počas prihlasovania</translation>
-<translation id="2274864612594831715">Toto pravidlo konfiguruje povolenie virtuálnej klávesnice ako zariadenia vstupu v systéme OS Chrome. Používatelia nemôžu toto pravidlo prepísať.
+<translation id="2274864612594831715">Toto pravidlo konfiguruje povolenie virtuálnej klávesnice ako zariadenia vstupu v systéme OS Brave. Používatelia nemôžu toto pravidlo prepísať.
 
       Ak je toto pravidlo povolené, bude virtuálna klávesnica na obrazovke vždy povolená.
 
@@ -468,13 +468,13 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 
           Tieto pravidlá sú uprednostnené pred potenciálne konfliktnými pravidlami <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Ak je z tohto zoznamu odstránená aplikácia alebo rozšírenie, ktorého inštalácia v minulosti bola vynútená, <ph name="PRODUCT_NAME" /> ich automaticky odinštaluje.
 
-          V prípade inštancií systému Windows nepripojených k doméne <ph name="MS_AD_NAME" /> sa vynucuje iba inštalácia aplikácií a rozšírení uvedených v Internetovom obchode Chrome.
+          V prípade inštancií systému Windows nepripojených k doméne <ph name="MS_AD_NAME" /> sa vynucuje iba inštalácia aplikácií a rozšírení uvedených v Internetovom obchode Brave.
 
           Všimnite si, že zdrojový kód jednotlivých rozšírení je možné pozmeniť pomocou nástrojov pre vývojárov (t. j. potenciálne tým znefunkčniť dané rozšírenie). Ak sa toho obávate, nastavte pravidlo <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
-          Každá položka zoznamu je reťazec s identifikátorom rozšírenia a webovou adresou aktualizácie oddelenou bodkočiarkou (<ph name="SEMICOLON" />). Identifikátor rozšírenia je reťazec pozostávajúci z 32 písmen a nájdete ho napríklad v adrese <ph name="CHROME_EXTENSIONS_LINK" />, keď prejdete do režimu pre vývojárov. Ak je určená webová adresa aktualizácie, mala by odkazovať na dokument XML manifestu aktualizácie tak, ako je to uvedené na adrese <ph name="LINK_TO_EXTENSION_DOC1" />. Predvolene sa použije webová adresa aktualizácie z Internetového obchodu Chrome (ktorá je momentálne https://clients2.google.com/service/update2/crx). Upozorňujeme, že webová adresa aktualizácie nastavená v týchto pravidlách sa použije iba pri prvej inštalácii. Následné inštalácie rozšírenia používajú webovú adresu aktualizácie uvedenú v manifeste príslušného rozšírenia. Zreteľné uvedenie webovej adresy aktualizácie bolo v prehliadači <ph name="PRODUCT_NAME" /> do verzie 67 (vrátane) povinné.
+          Každá položka zoznamu je reťazec s identifikátorom rozšírenia a webovou adresou aktualizácie oddelenou bodkočiarkou (<ph name="SEMICOLON" />). Identifikátor rozšírenia je reťazec pozostávajúci z 32 písmen a nájdete ho napríklad v adrese <ph name="CHROME_EXTENSIONS_LINK" />, keď prejdete do režimu pre vývojárov. Ak je určená webová adresa aktualizácie, mala by odkazovať na dokument XML manifestu aktualizácie tak, ako je to uvedené na adrese <ph name="LINK_TO_EXTENSION_DOC1" />. Predvolene sa použije webová adresa aktualizácie z Internetového obchodu Brave (ktorá je momentálne https://clients2.google.com/service/update2/crx). Upozorňujeme, že webová adresa aktualizácie nastavená v týchto pravidlách sa použije iba pri prvej inštalácii. Následné inštalácie rozšírenia používajú webovú adresu aktualizácie uvedenú v manifeste príslušného rozšírenia. Zreteľné uvedenie webovej adresy aktualizácie bolo v prehliadači <ph name="PRODUCT_NAME" /> do verzie 67 (vrátane) povinné.
 
-          <ph name="EXTENSION_POLICY_EXAMPLE" /> napríklad nainštaluje aplikáciu <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> zo štandardnej webovej adresy aktualizácie v Internetovom obchode Chrome. Ďalšie informácie o hostení rozšírení nájdete na adrese <ph name="LINK_TO_EXTENSION_DOC2" />.
+          <ph name="EXTENSION_POLICY_EXAMPLE" /> napríklad nainštaluje aplikáciu <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> zo štandardnej webovej adresy aktualizácie v Internetovom obchode Brave. Ďalšie informácie o hostení rozšírení nájdete na adrese <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Ak toto pravidlo nenastavíte, nebudú sa automaticky inštalovať žiadne aplikácie ani rozšírenia a používateľ môže odinštalovať ľubovoľnú aplikáciu alebo rozšírenie v prehliadači <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> môže na opravu pravopisných chýb používať webovú službu spoločnosti Google. Ak je toto nastavenie povolené, služba sa používa neustále. Ak je nastavenie zakázané, služba sa nepoužíva nikdy.
@@ -665,7 +665,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="268577405881275241">Povoliť funkciu servera proxy na kompresiu údajov</translation>
 <translation id="2693108589792503178">Konfiguruje webovú adresu zmeny hesla.</translation>
 <translation id="2731627323327011390">Zakázať použitie certifikátov systému <ph name="PRODUCT_OS_NAME" /> v aplikáciách ARC</translation>
-<translation id="2742843273354638707">Skryje na stránke Nová karta a v spúšťači systému <ph name="PRODUCT_OS_NAME" /> aplikáciu Internetový obchod Chrome a odkaz na pätu stránky.
+<translation id="2742843273354638707">Skryje na stránke Nová karta a v spúšťači systému <ph name="PRODUCT_OS_NAME" /> aplikáciu Internetový obchod Brave a odkaz na pätu stránky.
 
       Ak je pravidlo nastavené na hodnotu true, ikony sa skryjú.
 
@@ -784,7 +784,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
           Ak toto pravidlo ponecháte nenastavené, použije sa pravidlo „AllowJavaScript“ a používateľ to bude môcť zmeniť.</translation>
 <translation id="3038323923255997294">Po zatvorení prehliadača <ph name="PRODUCT_NAME" /> nechať aplikácie na pozadí spustené</translation>
 <translation id="3046192273793919231">Odosielať sieťové pakety na správcovský server s cieľom sledovania online stavu</translation>
-<translation id="3047732214002457234">Určuje, ako nástroj Chrome Cleanup hlási dáta do Googlu</translation>
+<translation id="3047732214002457234">Určuje, ako nástroj Brave Cleanup hlási dáta do Googlu</translation>
 <translation id="3048744057455266684">Ak je toto pravidlo nastavené a webová adresa vyhľadávania navrhnutá vo všeobecnom poli obsahuje tento parameter v reťazci dopytu alebo v identifikátore fragmentu, potom odporúčanie zobrazí hľadané výrazy a poskytovateľa vyhľadávania namiesto nespracovanej webovej adresy vyhľadávania.
 
           Toto pravidlo je voliteľné. Ak nie je nastavené, nedôjde k žiadnej výmene hľadaných výrazov.
@@ -1105,13 +1105,13 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
       Ak toto pravidlo nenastavíte, <ph name="PRODUCT_NAME" /> bude používať obvyklý predvolený adresár (podľa konkrétnej platformy).
 
       Zoznam premenných, ktoré sa dajú použiť, nájdete na adrese https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables.</translation>
-<translation id="3904459740090265495">Toto pravidlo ovláda prihlasovacie správanie prehliadača. Umožňuje určiť, či sa používateľ môže prihlásiť do prehliadača <ph name="PRODUCT_NAME" /> pomocou svojho účtu a používať služby súvisiace s účtom, ako je napríklad synchronizácia Chromu.
+<translation id="3904459740090265495">Toto pravidlo ovláda prihlasovacie správanie prehliadača. Umožňuje určiť, či sa používateľ môže prihlásiť do prehliadača <ph name="PRODUCT_NAME" /> pomocou svojho účtu a používať služby súvisiace s účtom, ako je napríklad synchronizácia Brave.
 
-      Ak ho nastavíte na možnosť Zakázať prihlásenie do prehliadača, používateľ sa nemôže prihlásiť do prehliadača ani používať služby založené v účte. V tomto prípade nie je možné použiť funkcie na úrovni prehliadača, ako napríklad synchronizáciu Chromu, pričom nebudú k dispozícii. Ak bol používateľ prihlásený a pravidlo nastavíte na možnosť Zakázané, bude pri ďalšom spustení Chromu odhlásený, ale údaje jeho miestneho profilu (napríklad záložky, heslá atď.) sa zachovajú. Používateľ sa bude môcť naďalej prihlasovať do webových služieb Googlu, ako je napríklad Gmail, a používať ich.
+      Ak ho nastavíte na možnosť Zakázať prihlásenie do prehliadača, používateľ sa nemôže prihlásiť do prehliadača ani používať služby založené v účte. V tomto prípade nie je možné použiť funkcie na úrovni prehliadača, ako napríklad synchronizáciu Brave, pričom nebudú k dispozícii. Ak bol používateľ prihlásený a pravidlo nastavíte na možnosť Zakázané, bude pri ďalšom spustení Brave odhlásený, ale údaje jeho miestneho profilu (napríklad záložky, heslá atď.) sa zachovajú. Používateľ sa bude môcť naďalej prihlasovať do webových služieb Googlu, ako je napríklad Gmail, a používať ich.
 
-      Ak ho nastavíte na možnosť Povoliť prihlásenie do prehliadača, používateľ sa môže prihlásiť do prehliadača a automaticky bude prihlasovaný do prehliadača pri prihlásení do webových služieb Googlu, ako je napríklad Gmail. To, že je používateľ prihlásený do prehliadača, znamená, že prehliadač bude uchovávať informácie o jeho účte. Neznamená to však, že synchronizácia Chromu bude predvolene zapnutá. Používateľ si musí túto funkciu samostatne aktivovať. Povolením tohto pravidla zabránite používateľovi vypnúť nastavenie umožňujúce prihlásenie do účtu. Ak chcete ovládať dostupnosť synchronizácie Chromu, použite pravidlo SyncDisabled.
+      Ak ho nastavíte na možnosť Povoliť prihlásenie do prehliadača, používateľ sa môže prihlásiť do prehliadača a automaticky bude prihlasovaný do prehliadača pri prihlásení do webových služieb Googlu, ako je napríklad Gmail. To, že je používateľ prihlásený do prehliadača, znamená, že prehliadač bude uchovávať informácie o jeho účte. Neznamená to však, že synchronizácia Brave bude predvolene zapnutá. Používateľ si musí túto funkciu samostatne aktivovať. Povolením tohto pravidla zabránite používateľovi vypnúť nastavenie umožňujúce prihlásenie do účtu. Ak chcete ovládať dostupnosť synchronizácie Brave, použite pravidlo SyncDisabled.
 
-      Ak ho nastavíte na možnosť Presadzovať prihlásenie do prehliadača, používateľovi sa zobrazí dialógové okno na výber účtu, v ktorom musí vybrať účet a prihlásiť sa doň, aby mohol prehliadač používať. Tým sa zaistí, že v prípade spravovaných účtov sa budú uplatňovať a presadzovať pravidlá priradené k danému účtu. Predvolene sa tým v danom účte zapne aj synchronizácia Chromu. Výnimku predstavujú prípady, keď je zakázaná správcom domény alebo pravidlom SyncDisabled. Predvolená hodnota parametra BrowserGuestModeEnabled bude nastavená na hodnotu false. Upozorňujeme, že po povolení tohto pravidla sa existujúce nepriradené profily uzamknú a budú neprístupné. Ďalšie informácie nájdete v článku centra pomoci na https://support.google.com/chrome/a/answer/7572556.
+      Ak ho nastavíte na možnosť Presadzovať prihlásenie do prehliadača, používateľovi sa zobrazí dialógové okno na výber účtu, v ktorom musí vybrať účet a prihlásiť sa doň, aby mohol prehliadač používať. Tým sa zaistí, že v prípade spravovaných účtov sa budú uplatňovať a presadzovať pravidlá priradené k danému účtu. Predvolene sa tým v danom účte zapne aj synchronizácia Brave. Výnimku predstavujú prípady, keď je zakázaná správcom domény alebo pravidlom SyncDisabled. Predvolená hodnota parametra BrowserGuestModeEnabled bude nastavená na hodnotu false. Upozorňujeme, že po povolení tohto pravidla sa existujúce nepriradené profily uzamknú a budú neprístupné. Ďalšie informácie nájdete v článku centra pomoci na https://support.google.com/chrome/a/answer/7572556.
 
       Ak toto pravidlo nenastavíte, používateľ sa môže rozhodnúť, či chce možnosť prihlásenia do prehliadača povoliť, a následne ju použiť, keď to považuje za vhodné.</translation>
 <translation id="3907986150060929099">Nastavenie odporúčaných miestnych nastavení pre verejnú reláciu</translation>
@@ -1134,9 +1134,9 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="3973371701361892765">Poličku nikdy neskrývať automaticky</translation>
 <translation id="3984028218719007910">Určuje, či má systém <ph name="PRODUCT_OS_NAME" /> po odhlásení zachovať miestne údaje o účte. Ak je toto pravidlo nastavené na hodnotu true, systém <ph name="PRODUCT_OS_NAME" /> nebude uchovávať žiadne trvalé účty a všetky údaje z relácií používateľov budú po odhlásení odstránené. Ak je toto pravidlo nastavené na hodnotu false, alebo nie je nakonfigurované, zariadenie môže uchovávať (zašifrované) miestne údaje používateľa.</translation>
 <translation id="3997519162482760140">Webové adresy, ktorým bude udelený prístup k zariadeniam na zaznamenávanie videa na prihlasovacích stránkach SAML</translation>
-<translation id="4001275826058808087">Správcovia IT spravujúci podnikové zariadenia môžu pomocou tohto pravidla povoliť alebo zakázať používateľom uplatniť ponuky pri registrácii OS Chrome.
+<translation id="4001275826058808087">Správcovia IT spravujúci podnikové zariadenia môžu pomocou tohto pravidla povoliť alebo zakázať používateľom uplatniť ponuky pri registrácii OS Brave.
 
-      Ak je toto pravidlo nastavené na hodnotu true alebo je ponechané bez nastavenia, používatelia si pri registrácii OS Chrome budú môcť uplatniť ponuky.
+      Ak je toto pravidlo nastavené na hodnotu true alebo je ponechané bez nastavenia, používatelia si pri registrácii OS Brave budú môcť uplatniť ponuky.
 
       Ak je toto pravidlo nastavené na hodnotu false, používatelia si nebudú môcť uplatniť ponuky.</translation>
 <translation id="4010738624545340900">Povolenie vyvolania dialógových okien na výber súborov</translation>
@@ -1236,11 +1236,11 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="4298509794364745131">Špecifikuje zoznam aplikácií, ktoré môžu byť na uzamknutej obrazovke systému <ph name="PRODUCT_OS_NAME" /> povolené ako aplikácie na písanie poznámok.
 
       Ak je na uzamknutej obrazovke povolená preferovaná aplikácia na písanie poznámok, na uzamknutej obrazovke bude prvok používateľského rozhrania na spustenie preferovanej aplikácie na písanie poznámok.
-      Po spustení bude táto aplikácia môcť otvoriť okno aplikácie na uzamknutej obrazovke a vytvárať dátové položky (poznámky) v kontexte uzamknutej obrazovky. Aplikácia bude môcť vytvorené poznámky importovať do primárnej používateľskej relácie (keď bude odomknutá). Na uzamknutej obrazovke sú momentálne podporované iba aplikácie na písanie poznámok prehliadača Chrome.
+      Po spustení bude táto aplikácia môcť otvoriť okno aplikácie na uzamknutej obrazovke a vytvárať dátové položky (poznámky) v kontexte uzamknutej obrazovky. Aplikácia bude môcť vytvorené poznámky importovať do primárnej používateľskej relácie (keď bude odomknutá). Na uzamknutej obrazovke sú momentálne podporované iba aplikácie na písanie poznámok prehliadača Brave.
 
       Ak je toto pravidlo nastavené, používateľ bude môcť povoliť aplikáciu na uzamknutej obrazovke iba v prípade, ak bude ID rozšírenia aplikácie zahrnuté ako hodnota v zozname pravidla.
       Preto ak nastavíte toto pravidlo na prázdny zoznam, písanie poznámok bude na uzamknutej obrazovke úplne zakázané.
-      Upozorňujeme, že pravidlo zahrnujúce ID aplikácie automaticky neznamená, že používateľ bude môcť na uzamknutej obrazovke povoliť príslušnú aplikáciu ako aplikáciu na písanie poznámok – v systéme Chrome 61 je napríklad skupina dostupných aplikácií ďalej obmedzená platformou.
+      Upozorňujeme, že pravidlo zahrnujúce ID aplikácie automaticky neznamená, že používateľ bude môcť na uzamknutej obrazovke povoliť príslušnú aplikáciu ako aplikáciu na písanie poznámok – v systéme Brave 61 je napríklad skupina dostupných aplikácií ďalej obmedzená platformou.
 
       Ak pravidlo ponecháte nenastavené, nebudú existovať žiadne obmedzenia skupiny aplikácií, ktoré používateľ môže povoliť na uzamknutej obrazovke na základe tohto pravidla.</translation>
 <translation id="4309640770189628899">Ovláda, či sú v protokole TLS povolené šifrovacie súpravy DHE</translation>
@@ -1349,7 +1349,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="4567137030726189378">Povoliť používanie nástrojov pre vývojárov</translation>
 <translation id="4600786265870346112">Povoliť veľký kurzor</translation>
 <translation id="4604931264910482931">Konfigurácia zoznamu zakázaných položiek pre odosielanie natívnych správ</translation>
-<translation id="4613508646038788144">Ak toto pravidlo nastavíte na hodnotu False, softvér tretej strany bude môcť vkladať spustiteľný kód do procesov Chromu. Ak toto pravidlo nastavíte na hodnotu True alebo ponecháte nenastavené, softvér tretej strany bude mať vkladanie spustiteľného kódu do procesov Chromu zakázané.</translation>
+<translation id="4613508646038788144">Ak toto pravidlo nastavíte na hodnotu False, softvér tretej strany bude môcť vkladať spustiteľný kód do procesov Brave. Ak toto pravidlo nastavíte na hodnotu True alebo ponecháte nenastavené, softvér tretej strany bude mať vkladanie spustiteľného kódu do procesov Brave zakázané.</translation>
 <translation id="4617338332148204752">Preskočiť kontrolu metaznačiek v rámci služby <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Konfigurovať zoznam rozšírení, ktorých inštalácia je povolená</translation>
 <translation id="4632343302005518762">Povoliť doplnku <ph name="PRODUCT_FRAME_NAME" /> spracovávať uvedené typy obsahu</translation>
@@ -1484,7 +1484,7 @@ Ak toto pravidlo nie je nastavené alebo je prázdne, akýkoľvek používateľ 
           Hodnota musí byť pole slovníkov JSON prevedených na reťazce. Každý slovník musí mať tvar { "pattern": "$URL_PATTERN", "filter" : $FILTER }, kde $URL_PATTERN je vzor nastavenia obsahu. $FILTER obmedzuje certifikáty klienta, z ktorých bude prehliadač automaticky vyberať. Nezávisle od filtra budú vybraté iba tie certifikáty, ktoré zodpovedajú žiadosti servera o certifikát. Ak má $FILTER tvar { "ISSUER": { "CN": "$ISSUER_CN" } }, budú navyše vybraté iba tie certifikáty klienta, ktoré boli vydané certifikátom s bežným názvom $ISSUER_CN. Ak je $FILTER prázdny slovník {}, výber certifikátov klienta nie je nijako ďalej obmedzený.
 {/}{}
           Ak toto pravidlo nenastavíte, automatický výber sa nevykoná pre žiadne webové stránky.</translation>
-<translation id="4978405676361550165">Ak nastavíte pravidlo OffHours, zadané pravidlá zariadenia budú ignorované (použite predvolené nastavenia týchto pravidiel) počas stanovených časových intervalov. Chrome znova začne používať pravidlá zariadenia, keď sa obdobie pravidla OffHours začne alebo skončí. Používateľ bude upozornený a systém vynúti jeho odhlásenie, keď sa časové obdobie pravidla OffHours skončí a nastavenia pravidiel zariadenia sa zmenia (t. j. keď sa používateľ prihlási pomocou účtu, ktorý nie je povolený).</translation>
+<translation id="4978405676361550165">Ak nastavíte pravidlo OffHours, zadané pravidlá zariadenia budú ignorované (použite predvolené nastavenia týchto pravidiel) počas stanovených časových intervalov. Brave znova začne používať pravidlá zariadenia, keď sa obdobie pravidla OffHours začne alebo skončí. Používateľ bude upozornený a systém vynúti jeho odhlásenie, keď sa časové obdobie pravidla OffHours skončí a nastavenia pravidiel zariadenia sa zmenia (t. j. keď sa používateľ prihlási pomocou účtu, ktorý nie je povolený).</translation>
 <translation id="4980635395568992380">Typ údajov:</translation>
 <translation id="4983201894483989687">Povoliť spúšťanie zastaraných doplnkov</translation>
 <translation id="4988291787868618635">Akcia po určitej dobe nečinnosti</translation>
@@ -1572,7 +1572,7 @@ Ak toto pravidlo nie je nastavené alebo je prázdne, akýkoľvek používateľ 
           Hodnota * v zozname zakázaných položiek znamená, že všetci hostitelia pre odosielanie natívnych správ sú zakázaní. Povolení budú iba tí, ktorí sú výslovne uvedení na bielej listine.
 
           Ak toto pravidlo nebude nastavené, produkt <ph name="PRODUCT_NAME" /> načíta všetkých nainštalovaných hostiteľov pre odosielanie natívnych správ.</translation>
-<translation id="5272684451155669299">Ak pravidlo nastavíte na hodnotu True, používateľ môže pomocou hardvéru zariadení Chrome diaľkovo overiť svoju identitu pre certifikačnú autoritu (CA) ochrany súkromia prostredníctvom metódy <ph name="CHALLENGE_USER_KEY_FUNCTION" /> rozhrania <ph name="ENTERPRISE_PLATFORM_KEYS_API" />.
+<translation id="5272684451155669299">Ak pravidlo nastavíte na hodnotu True, používateľ môže pomocou hardvéru zariadení Brave diaľkovo overiť svoju identitu pre certifikačnú autoritu (CA) ochrany súkromia prostredníctvom metódy <ph name="CHALLENGE_USER_KEY_FUNCTION" /> rozhrania <ph name="ENTERPRISE_PLATFORM_KEYS_API" />.
 
           Ak je nastavené na možnosť False alebo nie je nenastavené, 
 volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
@@ -1949,7 +1949,7 @@ volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
 <translation id="6282799760374509080">Povoliť alebo zakázať zaznamenávanie zvuku</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Povolenie automatického dopĺňania názvu domény počas prihlasovania používateľa</translation>
-<translation id="6315673513957120120">Keď používateľ prejde na weby, ktoré obsahujú chyby protokolu SSL, Chrome zobrazí stránku s upozornením. V predvolenom nastavení alebo vtedy, keď je toto pravidlo nastavené na možnosť True, môžu používatelia preskočiť tieto stránky s upozornením prostredníctvom kliknutia.
+<translation id="6315673513957120120">Keď používateľ prejde na weby, ktoré obsahujú chyby protokolu SSL, Brave zobrazí stránku s upozornením. V predvolenom nastavení alebo vtedy, keď je toto pravidlo nastavené na možnosť True, môžu používatelia preskočiť tieto stránky s upozornením prostredníctvom kliknutia.
       Nastavením tohto pravidla na možnosť False zakážete používateľom, aby mohli stránku s upozornením preskočiť kliknutím.</translation>
 <translation id="6353901068939575220">Určuje parametre, ktoré sa použijú vyhľadávaní webovej adresy pomocou metódy POST. Pozostáva z párov názov/hodnota oddelených čiarkami. Ak je hodnota parameter šablóny, napr. hodnota {searchTerms} v príklade vyššie, bude nahradená údajmi skutočných vyhľadávaných výrazov.
 
@@ -2186,7 +2186,7 @@ volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
 
       POZNÁMKA: Funkcia Izolácia webov v Androide je experimentálna. Jej podpora sa časom zlepší, ale v súčasnosti môže spôsobovať problémy s výkonnosťou.
 
-      POZNÁMKA: Toto pravidlo platí len pre Chrome v Androide v zariadeniach s minimálne 1 GB pamäte RAM. Ak ho chcete použiť v iných platformách ako Android, použite pravidlo SitePerProcess.
+      POZNÁMKA: Toto pravidlo platí len pre Brave v Androide v zariadeniach s minimálne 1 GB pamäte RAM. Ak ho chcete použiť v iných platformách ako Android, použite pravidlo SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Ak toto pravidlo nastavíte na hodnotu True, pravidlá používania cloudu budú uprednostnené, ak sa dostanú do konfliktu s pravidlami zariadenia.
@@ -2344,11 +2344,11 @@ volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
 
           Ak toto pravidlo ponecháte nenastavené, bude lupa obrazovky pri prvom zobrazení prihlasovacej obrazovky zakázaná. Používatelia budú môcť lupu obrazovky kedykoľvek povoliť alebo zakázať a jej stav na prihlasovacej obrazovke sa zachová aj po zmene používateľov.</translation>
 <translation id="7249828445670652637">Povoliť certifikáty CA systému <ph name="PRODUCT_OS_NAME" /> v aplikáciách ARC</translation>
-<translation id="725322441686394886">Ak ho nenastavíte a Chrome Cleanup rozpozná nechcený softvér, môže Googlu nahlásiť metadáta o vyhľadávaní v súlade s pravidlami určenými parametrom SafeBrowsingExtendedReportingEnabled. Chrome Cleanup sa potom používateľa spýta, či chce vymazať nechcený softvér. Používateľ sa môže rozhodnúť zdieľať výsledky vymazania s Googlom, čím mu pomôže s rozpoznávaním nechcených softvérov v budúcnosti. Tieto výsledky obsahujú metadáta súboru, automaticky nainštalované rozšírenia a kľúče databázy tak, ako je uvedené v informáciách o ochrane súkromia v Chrome.
+<translation id="725322441686394886">Ak ho nenastavíte a Chrome Cleanup rozpozná nechcený softvér, môže Googlu nahlásiť metadáta o vyhľadávaní v súlade s pravidlami určenými parametrom SafeBrowsingExtendedReportingEnabled. Brave Cleanup sa potom používateľa spýta, či chce vymazať nechcený softvér. Používateľ sa môže rozhodnúť zdieľať výsledky vymazania s Googlom, čím mu pomôže s rozpoznávaním nechcených softvérov v budúcnosti. Tieto výsledky obsahujú metadáta súboru, automaticky nainštalované rozšírenia a kľúče databázy tak, ako je uvedené v informáciách o ochrane súkromia v Chrome.
 
-      Ak ho zakážete a Chrome Cleanup rozpozná nechcený softvér, nebude Googlu nahlasovať metadáta vyhľadávania a pravidlá určené parametrom SafeBrowsingExtendedReportingEnabled budú prepísané. Chrome Cleanup sa používateľa spýta, či chce nechcený softvér vymazať. Výsledky vymazania nebudú nahlásené Googlu a používateľ nebude mať k dispozícii možnosť ich nahlásiť.
+      Ak ho zakážete a Chrome Cleanup rozpozná nechcený softvér, nebude Googlu nahlasovať metadáta vyhľadávania a pravidlá určené parametrom SafeBrowsingExtendedReportingEnabled budú prepísané. Brave Cleanup sa používateľa spýta, či chce nechcený softvér vymazať. Výsledky vymazania nebudú nahlásené Googlu a používateľ nebude mať k dispozícii možnosť ich nahlásiť.
 
-      Ak ho povolíte a Chrome Cleanup rozpozná nechcený softvér, môže Googlu nahlasovať metadáta o vyhľadávaní v súlade s pravidlami určenými parametrom SafeBrowsingExtendedReportingEnabled. Chrome Cleanup sa používateľa spýta, či chce nechcený softvér vymazať. Výsledky vymazania budú nahlásené Googlu a používateľ nebude mať k dispozícii možnosť tomu zabrániť.
+      Ak ho povolíte a Chrome Cleanup rozpozná nechcený softvér, môže Googlu nahlasovať metadáta o vyhľadávaní v súlade s pravidlami určenými parametrom SafeBrowsingExtendedReportingEnabled. Brave Cleanup sa používateľa spýta, či chce nechcený softvér vymazať. Výsledky vymazania budú nahlásené Googlu a používateľ nebude mať k dispozícii možnosť tomu zabrániť.
 
       Toto pravidlo nie je k dispozícii v inštanciách systému Windows, ktoré sa nepridali k doméne <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Povoliť blokovanie hostiteľov so vzdialeným prístupom</translation>
@@ -2402,9 +2402,9 @@ volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
 <translation id="7329968046053403405">Určí typ účtov poskytnutých aplikáciou pre Android na overenie totožnosti, ktorá podporuje overenie <ph name="HTTP_NEGOTIATE" /> (napr. overenie Kerberos). Tieto informácie by ste mali mať k dispozícii od poskytovateľa danej aplikácie na overenie totožnosti. Ďalšie podrobnosti získate na adrese https://goo.gl/hajyfN.
 
           Ak neposkytnete žiadne nastavenie, overenie <ph name="HTTP_NEGOTIATE" /> bude v systéme Android zakázané.</translation>
-<translation id="7331962793961469250">Ak je nastavená možnosť True, na stránke Nová karta sa nezobrazia propagácie aplikácií v Internetovom obchode Chrome.
+<translation id="7331962793961469250">Ak je nastavená možnosť True, na stránke Nová karta sa nezobrazia propagácie aplikácií v Internetovom obchode Brave.
 
-      Ak ju nastavíte na možnosť False alebo ju ponecháte nenastavenú, propagácie aplikácií v Internetovom obchode Chrome sa na stránke Nová karta budú zobrazovať</translation>
+      Ak ju nastavíte na možnosť False alebo ju ponecháte nenastavenú, propagácie aplikácií v Internetovom obchode Brave sa na stránke Nová karta budú zobrazovať</translation>
 <translation id="7332963785317884918">Podpora tohto pravidlo bola ukončená. Systém <ph name="PRODUCT_OS_NAME" /> bude vždy používať stratégiu čistenia RemoveLRU.
 
       Ovláda správanie automatického čistenia na zariadeniach so systémom <ph name="PRODUCT_OS_NAME" />. Automatické čistenie sa spustí s cieľom uvoľniť miesto na disku, keď množstvo voľného miesta dosiahne kritickú úroveň.
@@ -2419,7 +2419,7 @@ volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
 <translation id="7343497214039883642">Konfiguračný súbor podnikovej tlačiarne pre zariadenia</translation>
 <translation id="7349338075015720646">Určuje zoznam webov inštalovaných na pozadí, bez interakcie s používateľom a ktoré používateľ nemôže odinštalovať ani deaktivovať.
 
-      Jednotlivé položky zoznamu v danom pravidle sú objekty pozostávajúce z dvoch častí: „url“ a „launch_container“. „url“ by mala byť adresa webovej aplikácie, ktorá sa má nainštalovať, a „launch_container“ by malo byť „window“ (okno) alebo „tab“ (karta) (teda podoba, v akej sa webová aplikácia po inštalácii otvorí). Ak časť „launch_container“ vynecháte, aplikácia sa spustí v okne, keď ju Chrome bude považovať za progresívnu webovú aplikáciu. Inak sa zobrazí ako karta.</translation>
+      Jednotlivé položky zoznamu v danom pravidle sú objekty pozostávajúce z dvoch častí: „url“ a „launch_container“. „url“ by mala byť adresa webovej aplikácie, ktorá sa má nainštalovať, a „launch_container“ by malo byť „window“ (okno) alebo „tab“ (karta) (teda podoba, v akej sa webová aplikácia po inštalácii otvorí). Ak časť „launch_container“ vynecháte, aplikácia sa spustí v okne, keď ju Brave bude považovať za progresívnu webovú aplikáciu. Inak sa zobrazí ako karta.</translation>
 <translation id="735902178936442460">Toto pravidlo ovláda, či sa majú nahlasovať informácie, ktoré sa dajú použiť na identifikáciu zariadení, ako napríklad názov zariadenia a sieťové adresy.
 
       Keď ho nenastavíte alebo nastavíte na hodnotu true, informácie použiteľné na identifikáciu zariadení sa zhromažďujú.
@@ -2432,9 +2432,9 @@ volania rozhrania API zlyhajú a nahlásia kód chyby.</translation>
 
       Ďalšie informácie o Bezpečnom prehliadaní získate na adrese https://developers.google.com/safe-browsing.</translation>
 <translation id="737655323154569539">Obmedzí veľkosť tlačenej strany. Ak pravidlo nenastavíte alebo obsahuje prázdnu hodnotu, znamená to, že sa nepoužijú žiadne obmedzenia.</translation>
-<translation id="7417728346887499628">Ak toto pravidlo zakážete, zabráni nástroju Chrome Cleanup hľadať v systéme nechcený softvér a vykonávať čistenia. Ručné spúšťanie nástroja Chrome Cleanup z adresy chrome://settings/cleanup je zakázané.
+<translation id="7417728346887499628">Ak toto pravidlo zakážete, zabráni nástroju Brave Cleanup hľadať v systéme nechcený softvér a vykonávať čistenia. Ručné spúšťanie nástroja Brave Cleanup z adresy chrome://settings/cleanup je zakázané.
 
-      Ak ho povolíte alebo ponecháte nenastavené, Chrome Cleanup bude pravidelne hľadať v systéme nechcený softvér a v prípade jeho nájdenia sa používateľa opýta, či ho chce odstrániť. Ručné spúšťanie nástroja Chrome Cleanup z adresy chrome://settings je povolené.
+      Ak ho povolíte alebo ponecháte nenastavené, Brave Cleanup bude pravidelne hľadať v systéme nechcený softvér a v prípade jeho nájdenia sa používateľa opýta, či ho chce odstrániť. Ručné spúšťanie nástroja Brave Cleanup z adresy chrome://settings je povolené.
 
       Toto pravidlo nie je k dispozícii v reláciách systému Windows, ktoré nie sú pripojené k doméne <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Percento predĺženia oneskorenia režimu nečinnosti v režime prezentácie (podpora je ukončená)</translation>
@@ -2679,7 +2679,7 @@ Ak chcete vyťažiť z oboch možností, t. j. izolovať s obmedzeným vplyvom
 
       POZNÁMKA: Funkcia Izolácia webov v Androide je experimentálna. Jej podpora sa časom zlepší, ale v súčasnosti môže spôsobovať problémy s výkonnosťou.
 
-      POZNÁMKA: Toto pravidlo platí len pre Chrome v Androide v zariadeniach s minimálne 1 GB pamäte RAM. Ak ho chcete použiť v iných platformách ako Android, použite pravidlo IsolateOrigins.
+      POZNÁMKA: Toto pravidlo platí len pre Brave v Androide v zariadeniach s minimálne 1 GB pamäte RAM. Ak ho chcete použiť v iných platformách ako Android, použite pravidlo IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Spravované výnimky hostiteľov ručne nastavené používateľom</translation>
 <translation id="7961779417826583251">Zakázať presadzovanie pravidla transparentnosti certifikátov pre zoznam starých certifikačných autorít</translation>
@@ -2755,7 +2755,7 @@ Ak chcete vyťažiť z oboch možností, t. j. izolovať s obmedzeným vplyvom
 
       Ak je pravidlo nastavené na hodnotu False, zoznam rozhraní sa nenahlási.</translation>
 <translation id="8141795997560411818">Toto pravidlo nezabráni používateľovi používať aplikáciu Disk Google pre Android. Ak chcete zakázať prístup k Disku Google, mali by ste zakázať aj inštaláciu aplikácie Disk Google.</translation>
-<translation id="8146727383888924340">Povoliť používateľom uplatniť ponuky pri registrácii systému OS Chrome</translation>
+<translation id="8146727383888924340">Povoliť používateľom uplatniť ponuky pri registrácii systému OS Brave</translation>
 <translation id="8148785525797916822">Zruší zobrazenie upozornenia spúšťaného vtedy, keď <ph name="PRODUCT_NAME" /> používate v počítači alebo operačnom systéme, ktorý už nie je podporovaný.</translation>
 <translation id="8148901634826284024">Povolí režim vysokého kontrastu (funkcia na uľahčenie prístupu).
 
@@ -2795,7 +2795,7 @@ Ak chcete vyťažiť z oboch možností, t. j. izolovať s obmedzeným vplyvom
       Ak je toto pravidlo ponechané nenastavené, systém <ph name="PRODUCT_OS_NAME" /> použije ID e-mailového účtu pre miestny účet na zariadení ako meno, ktoré zobrazí na obrazovke prihlásenia.
 
       Toto pravidlo sa v prípade bežných používateľských účtov ignoruje.</translation>
-<translation id="8259375588339409826">Prehliadače Chromium a Google Chrome podporujú rovnaké pravidlá. Upozorňujeme, že tento dokument môže obsahovať zatiaľ nevydané pravidlá (t. j. ich záznam „Podporované v“ odkazuje na zatiaľ nevydanú verziu softvéru <ph name="PRODUCT_NAME" />) a že tieto pravidlá môžu byť zmenené alebo odstránené bez predchádzajúceho upozornenia, pričom nie sú kryté zárukou akéhokoľvek druhu vrátane záruk týkajúcich sa bezpečnosti a súkromia.
+<translation id="8259375588339409826">Prehliadače Brave a Brave podporujú rovnaké pravidlá. Upozorňujeme, že tento dokument môže obsahovať zatiaľ nevydané pravidlá (t. j. ich záznam „Podporované v“ odkazuje na zatiaľ nevydanú verziu softvéru <ph name="PRODUCT_NAME" />) a že tieto pravidlá môžu byť zmenené alebo odstránené bez predchádzajúceho upozornenia, pričom nie sú kryté zárukou akéhokoľvek druhu vrátane záruk týkajúcich sa bezpečnosti a súkromia.
 
 Tieto pravidlá sú výhradne určené na použitie pri konfigurácii inštancií prehliadača <ph name="PRODUCT_NAME" /> vo vašej organizácii. Použitie týchto pravidiel mimo vašej organizácie (napr. vo verejne distribuovanom programe) je považované za malvér. Google a dodávatelia antivírusových softvérov ho pravdepodobne budú označovať ako malvér.
 
@@ -2847,7 +2847,7 @@ Odporúčaný spôsob nastavenia pravidiel v systéme Windows je prostredníctv
 <translation id="8339420913453596618">Druhý faktor je zakázaný</translation>
 <translation id="8344454543174932833">Importovanie záložiek z predvoleného prehliadača pri prvom spustení</translation>
 <translation id="8359734107661430198">Povoliť rozhranie ExampleDeprecatedFeature API platné do 2. 9. 2008</translation>
-<translation id="8367209241899435947">Povoliť nástroj Chrome Cleanup v systéme Windows</translation>
+<translation id="8367209241899435947">Povoliť nástroj Brave Cleanup v systéme Windows</translation>
 <translation id="8369602308428138533">Oneskorenie vypnutia obrazovky pri používaní napájacieho zdroja</translation>
 <translation id="8382184662529825177">Povoliť použitie vzdialeného overenia na ochranu obsahu pre zariadenie</translation>
 <translation id="838870586332499308">Povoliť roaming pre dátové prenosy</translation>
@@ -2926,7 +2926,7 @@ Odporúčaný spôsob nastavenia pravidiel v systéme Windows je prostredníctv
       Zmeny pravidla sa použijú iba vtedy, keď funkcia ARC nie je spustená, napr. keď sa spúšťa systém Chrome OS.</translation>
 <translation id="8631434304112909927">po verziu <ph name="UNTIL_VERSION" /></translation>
 <translation id="863319402127182273">V prípade aplikácií pre Android toto pravidlo ovplyvňuje iba vstavaný fotoaparát. Keď je pravidlo nastavené na hodnotu True, fotoaparát je zakázaný pre všetky aplikácie pre Android (bez výnimiek).</translation>
-<translation id="8649763579836720255">Zariadenia OS Chrome môžu používať vzdialené overenie (overený prístup) na získanie certifikátu vydaného certifikačnou autoritou OS Chrome, ktorý potvrdzuje, že zariadenie môže prehrávať chránený obsah. Tento proces zahrnuje odoslanie informácií o hardvére certifikačnej autorite OS Chrome, ktoré dané zariadenie jedinečne identifikujú.
+<translation id="8649763579836720255">Zariadenia OS Brave môžu používať vzdialené overenie (overený prístup) na získanie certifikátu vydaného certifikačnou autoritou OS Brave, ktorý potvrdzuje, že zariadenie môže prehrávať chránený obsah. Tento proces zahrnuje odoslanie informácií o hardvére certifikačnej autorite OS Brave, ktoré dané zariadenie jedinečne identifikujú.
 
           Ak je toto nastavenie nastavené na hodnotu False, dané zariadenie nepoužije vzdialené overenie na ochranu obsahu a pravdepodobne nebude môcť prehrávať chránený obsah.
 

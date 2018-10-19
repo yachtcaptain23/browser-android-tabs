@@ -126,7 +126,7 @@ locale.  The strings in this file are specific to iOS.
   <release seq="1" allow_pseudo="false">
     <messages fallback_to_english="true">
       <message name="IDS_IOS_ABOUT_PRODUCT_NAME" desc="The menu item to access information about the application.">
-        About Chromium
+        About Brave
       </message>
       <message name="IDS_IOS_ABOUT_VERSION_COMPANY_NAME" desc="Company name on the about pages">
         The Chromium Authors
@@ -135,173 +135,173 @@ locale.  The strings in this file are specific to iOS.
         Copyright <ph name="YEAR">$1</ph> The Chromium Authors. All rights reserved.
       </message>
       <message name="IDS_IOS_ACCOUNT_CONSISTENCY_SETUP_TITLE" desc="Title of the screen where users select an account to use. [Length: 20em] [iOS only]">
-        Sign in to Chromium
+        Sign in to Brave
       </message>
       <message name="IDS_IOS_ACCOUNT_UNIFIED_CONSENT_BETTER_BROWSER" desc="Description on the sign-in consent dialog to explain the benefit to sign-in. [Length: unlimited] [iOS only]">
-      Improve Chromium and its security by sending system and usage data to Google
+      Improve Brave and its security by sending system and usage data to Google
       </message>
       <message name="IDS_IOS_ACCOUNT_UNIFIED_CONSENT_SETTINGS" desc="Description on the sign-in consent dialog to explain the benefit to sign-in. [Length: unlimited] [iOS only]">
-      <ph name="BEGIN_LINK">BEGIN_LINK</ph>Settings<ph name="END_LINK">END_LINK</ph> can be customized anytime. Google may use content on sites you visit, browser interactions and activity to personalize Chromium and Google services like Translate, Search and ads.
+      <ph name="BEGIN_LINK">BEGIN_LINK</ph>Settings<ph name="END_LINK">END_LINK</ph> can be customized anytime. Google may use content on sites you visit, browser interactions and activity to personalize Brave and Google services like Translate, Search and ads.
       </message>
       <message name="IDS_IOS_ACCOUNT_UNIFIED_CONSENT_TITLE" desc="Title on the sign-in consent dialog to explain why sign-in can be useful for the user. [iOS only]">
-        Get Google smarts in Chromium
+        Get Google smarts in Brave
       </message>
       <message name="IDS_IOS_APP_RATING_PROMO_STRING" desc="Text displayed for the rate this app promo. [iOS only]">
-        Enjoying Chromium? <ph name="BEGIN_LINK"><ex>BEGIN_LINK</ex>BEGIN_LINK</ph>Rate this app<ph name="END_LINK"><ex>END_LINK</ex>END_LINK</ph>
+        Enjoying Brave? <ph name="BEGIN_LINK"><ex>BEGIN_LINK</ex>BEGIN_LINK</ph>Rate this app<ph name="END_LINK"><ex>END_LINK</ex>END_LINK</ph>
       </message>
-      <message name="IDS_IOS_AUTOFILL_DESCRIBE_LOCAL_COPY" desc="Text label that describes a Wallet credit card which has been copied to the local Chromium instance. Title case. [Length: 20em] [iOS only]">
-        Copied to Chromium
+      <message name="IDS_IOS_AUTOFILL_DESCRIBE_LOCAL_COPY" desc="Text label that describes a Wallet credit card which has been copied to the local Brave instance. Title case. [Length: 20em] [iOS only]">
+        Copied to Brave
       </message>
       <message name="IDS_IOS_BANDWIDTH_MANAGEMENT_DESCRIPTION_LEARN_MORE" desc="Description text bandwidth management panel in settings with explicit Learn More link [iOS only]">
-        Chromium has features that help you manage your internet data and how quickly you're able to load webpages.
+        Brave has features that help you manage your internet data and how quickly you're able to load webpages.
 <ph name="BEGIN_LINK">BEGIN_LINK</ph>Learn more<ph name="END_LINK">END_LINK</ph>
       </message>
       <message name="IDS_IOS_BOTTOM_TOOLBAR_IPH_PROMOTION_VOICE_OVER" desc="Text to be read by VoiceOver when the Bottom Toolbar Tip is presented to the user, explaining that the bottom toolbar can be used to reach some controls. Read by Text-to-Speech. [iOS only]">
-        Chromium tip. Some buttons are now at the bottom of your screen, like Back, Forward, and Search.
+        Brave tip. Some buttons are now at the bottom of your screen, like Back, Forward, and Search.
       </message>
-      <message name="IDS_IOS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_DESCRIPTION" desc="Description of the dialog informing the user that their Chromium browsing history was deleted, but other forms of history can still be found on Google My Activity.">
-        The selected data has been removed from Chromium and synced devices. Your Google Account may have other forms of browsing history like searches and activity from other Google services at history.google.com.
+      <message name="IDS_IOS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_DESCRIPTION" desc="Description of the dialog informing the user that their Brave browsing history was deleted, but other forms of history can still be found on Google My Activity.">
+        The selected data has been removed from Brave and synced devices. Your Google Account may have other forms of browsing history like searches and activity from other Google services at history.google.com.
       </message>
-      <message name="IDS_IOS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_TITLE" desc="Title of a dialog that informs the user that the deletion of Chromium's browsing data has been completed.">
-        Cleared Chromium data
+      <message name="IDS_IOS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_TITLE" desc="Title of a dialog that informs the user that the deletion of Brave's browsing data has been completed.">
+        Cleared Brave data
       </message>
       <message name="IDS_IOS_CONSENT_BUMP_PERSONALIZATION_MESSAGE" desc="Title for the Consent Bump personalization menu, presented when the user wants more informations and control over the sync personalization. [iOS only]">
-        The settings that control sync, personalization, and other Google services in Chromium have changed. This may affect your current settings.
+        The settings that control sync, personalization, and other Google services in Brave have changed. This may affect your current settings.
       </message>
       <message name="IDS_IOS_CONSENT_BUMP_TURN_ON_TEXT" desc="Text for the Consent Bump personalization option to turn on the sync. [iOS only]">
-        You can customize this anytime in Chromium Settings
+        You can customize this anytime in Brave Settings
       </message>
       <message name="IDS_IOS_DISCONNECT_DIALOG_TITLE" desc="The title of the disconnect dialog [Length: 30em].">
-        Sign out of Chromium?
+        Sign out of Brave?
       </message>
       <message name="IDS_IOS_FIRSTRUN_AGREE_TO_TERMS" desc="Label containing a link to the Terms of Service and Privacy Notice, displayed in the first run flow. [Length: 117em] [iOS only]">
-        By using this application, you agree to Chromium’s <ph name="BEGIN_LINK_TOS">BEGIN_LINK_TOS</ph>Terms of Service<ph name="END_LINK_TOS">END_LINK_TOS</ph> and <ph name="BEGIN_LINK_PRIVACY">BEGIN_LINK_PRIVACY</ph>Privacy Notice<ph name="END_LINK_PRIVACY">END_LINK_PRIVACY</ph>.
+        By using this application, you agree to Brave’s <ph name="BEGIN_LINK_TOS">BEGIN_LINK_TOS</ph>Terms of Service<ph name="END_LINK_TOS">END_LINK_TOS</ph> and <ph name="BEGIN_LINK_PRIVACY">BEGIN_LINK_PRIVACY</ph>Privacy Notice<ph name="END_LINK_PRIVACY">END_LINK_PRIVACY</ph>.
       </message>
       <message name="IDS_IOS_FIRSTRUN_NEW_OPT_IN_LABEL" desc="User metrics opt-in label [Length: 80em] [iOS only]">
-        Help make Chromium better by sending usage statistics and crash reports to Google.
+        Help make Brave better by sending usage statistics and crash reports to Google.
       </message>
       <message name="IDS_IOS_FIRSTRUN_TERMS_TITLE" desc="Title for the Terms of Service page shown to user on First Run. [Length: 30em]">
-        Chromium Terms of Service
+        Brave Terms of Service
       </message>
       <message name="IDS_IOS_FIRSTRUN_PRIVACY_TITLE" desc="Title for the Privacy Notice page shown to user on First Run. [Length: 30em]">
-        Chromium Privacy Notice
+        Brave Privacy Notice
       </message>
-      <message name="IDS_IOS_FIRSTRUN_WELCOME_TO_CHROME" desc="Title on the Welcome to Chromium screen presented to the user on First Run. [iOS only]">
-        Welcome to Chromium
+      <message name="IDS_IOS_FIRSTRUN_WELCOME_TO_CHROME" desc="Title on the Welcome to Brave screen presented to the user on First Run. [iOS only]">
+        Welcome to Brave
       </message>
       <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_NON_PERSONALIZED_SERVICES_DETAIL" desc="Section detail text for the list of all the non-personalized features to enable/disable in the settings. Related to 'Non-personalized Services'. [iOS only]">
-        Communicates with Google to improve browsing and Chromium
+        Communicates with Google to improve browsing and Brave
       </message>
       <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_IMPROVE_CHROME_TEXT" desc="Feature title in the settings for the user enable or disable. Related with 'Automatically sends usage statistics and crash reports to Google'. [iOS only]">
-        Help improve Chromium's features and performance
+        Help improve Brave's features and performance
       </message>
       <message name="IDS_IOS_LOCATION_AUTHORIZATION_ALERT" desc="Specifies the reason for sending the user's location to Google [Length: unlimited] [iOS only].">
-          Get a better Google experience in Chromium based on your location.
+          Get a better Google experience in Brave based on your location.
       </message>
       <message name="IDS_IOS_LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION" desc="Specifies the reason for accessing the user's location information while the app is in use [Length: unlimited] [iOS only].">
-        Get a better experience in Chromium based on your location.
+        Get a better experience in Brave based on your location.
       </message>
       <message name="IDS_IOS_LOGIN_ERROR_AUTHENTICATING_HOSTED" desc="Couldn't sign in because hosted account is used.">
-        Your account does not work on Chromium. Please contact your domain administrator or use a regular Google Account to sign in.
+        Your account does not work on Brave. Please contact your domain administrator or use a regular Google Account to sign in.
       </message>
       <message name="IDS_IOS_LONG_PRESS_TOOLBAR_IPH_PROMOTION_VOICE_OVER" desc="Text to be read by VoiceOver when the LongPress Toolbar Tip is presented to the user. Read by Text-to-Speech.">
-        Chromium tip. For more tab options, press and hold the Show Tabs button in the toolbar, which is at the bottom or top of your screen.
+        Brave tip. For more tab options, press and hold the Show Tabs button in the toolbar, which is at the bottom or top of your screen.
       </message>
-      <message name="IDS_IOS_MANAGED_DISCONNECT_DIALOG_INFO" desc="Message explaini ng that signing out of a managed account will clear all the Chromium data.[Length: 200em, may be line wrapped to multiple lines at run time.].">
-        You are signing out of an account managed by <ph name="SIGNOUT_MANAGED_DOMAIN">$1<ex>google.com</ex></ph>. This will delete your Chromium data from this device, but your data will remain in your Google account.
+      <message name="IDS_IOS_MANAGED_DISCONNECT_DIALOG_INFO" desc="Message explaini ng that signing out of a managed account will clear all the Brave data.[Length: 200em, may be line wrapped to multiple lines at run time.].">
+        You are signing out of an account managed by <ph name="SIGNOUT_MANAGED_DOMAIN">$1<ex>google.com</ex></ph>. This will delete your Brave data from this device, but your data will remain in your Google account.
       </message>
       <message name="IDS_IOS_MANAGED_SIGNIN_SUBTITLE" desc="The subtitle of the Sign in to a managed account dialog. [300em]">
-        You are signing in with an account managed by <ph name="DOMAIN">$1<ex>doe.com</ex></ph> and giving its administrator control over your Chromium data. Your data will become permanently tied to this account. Signing out of Chromium will delete your data from this device, but it will remain stored in your Google Account.
+        You are signing in with an account managed by <ph name="DOMAIN">$1<ex>doe.com</ex></ph> and giving its administrator control over your Brave data. Your data will become permanently tied to this account. Signing out of Brave will delete your data from this device, but it will remain stored in your Google Account.
       </message>
       <message name="IDS_IOS_MANAGED_SWITCH_SUBTITLE" desc="The subtitle of the Switch from a managed account dialog. [300em]">
-        You are switching sync accounts from <ph name="USER_EMAIL1">$1<ex>john@doe.com</ex></ph> to <ph name="USER_EMAIL2">$2<ex>johndoe@gmail.com</ex></ph>. Your existing Chromium data is managed by <ph name="DOMAIN">$3<ex>doe.com</ex></ph>. This will delete your data from this device, but your data will remain in <ph name="USER_EMAIL1">$1<ex>john@doe.com</ex></ph>.
+        You are switching sync accounts from <ph name="USER_EMAIL1">$1<ex>john@doe.com</ex></ph> to <ph name="USER_EMAIL2">$2<ex>johndoe@gmail.com</ex></ph>. Your existing Brave data is managed by <ph name="DOMAIN">$3<ex>doe.com</ex></ph>. This will delete your data from this device, but your data will remain in <ph name="USER_EMAIL1">$1<ex>john@doe.com</ex></ph>.
       </message>
-      <message name="IDS_IOS_MOVE_TO_DOCK_TIP" desc="Text displayed on the New Tab Page for the move Chromium to the dock promo. [iOS only]">
-        Tip: <ph name="BEGIN_LINK"><ex>BEGIN_LINK</ex>BEGIN_LINK</ph>Move Chromium to your dock<ph name="END_LINK"><ex>END_LINK</ex>END_LINK</ph>
+      <message name="IDS_IOS_MOVE_TO_DOCK_TIP" desc="Text displayed on the New Tab Page for the move Brave to the dock promo. [iOS only]">
+        Tip: <ph name="BEGIN_LINK"><ex>BEGIN_LINK</ex>BEGIN_LINK</ph>Move Brave to your dock<ph name="END_LINK"><ex>END_LINK</ex>END_LINK</ph>
       </message>
       <message name="IDS_IOS_OPEN_TABS_NO_SESSION_INSTRUCTIONS" desc="Information about sync displayed when the user has signed in on mobile but not on desktop">
-        Access the tabs you have open on your computer, right here. Just open Chromium on your computer, go to the menu, and select “Sign in to Chromium…”
+        Access the tabs you have open on your computer, right here. Just open Brave on your computer, go to the menu, and select “Sign in to Brave…”
       </message>
       <message name="IDS_IOS_OPEN_TABS_SYNC_IS_OFF_MOBILE" desc="Short paragraph(s) encouraging the user to enable sync on device [Length: 300em, may be line wrapped to multiple lines at run time.]">
-        Tabs that you've opened in Chromium on your other devices will appear here.
+        Tabs that you've opened in Brave on your other devices will appear here.
       </message>
-      <message name="IDS_IOS_OPTIONS_ACCOUNTS_SIGNOUT" desc="Title of the button to sign out of Chromium [iOS only] [60em]">
-        Sign out of Chromium
+      <message name="IDS_IOS_OPTIONS_ACCOUNTS_SIGNOUT" desc="Title of the button to sign out of Brave [iOS only] [60em]">
+        Sign out of Brave
       </message>
       <message name="IDS_IOS_OPTIONS_IMPORT_DATA_TITLE_SIGNIN" desc="The title of the Import Data settings screen when signing in. [30em]">
-        Sign in to Chromium
+        Sign in to Brave
       </message>
       <message name="IDS_IOS_OPTIONS_PRIVACY_FOOTER" desc="Footer for the clear browsing data dialog [Length: 300em] [iOS only]">
-        Chromium may use web services to improve your browsing experience. You may optionally disable these services. <ph name="BEGIN_LINK">BEGIN_LINK</ph>Learn more<ph name="END_LINK">END_LINK</ph>
+        Brave may use web services to improve your browsing experience. You may optionally disable these services. <ph name="BEGIN_LINK">BEGIN_LINK</ph>Learn more<ph name="END_LINK">END_LINK</ph>
       </message>
       <message name="IDS_IOS_PAGE_INFO_SECURITY_TAB_SECURE_IDENTITY" desc="The text of the identity section for iOS.">
-        Chromium verified that <ph name="ISSUER">$1<ex>VeriSign</ex></ph> issued this website's certificate.
+        Brave verified that <ph name="ISSUER">$1<ex>VeriSign</ex></ph> issued this website's certificate.
       </message>
       <message name="IDS_IOS_PASSWORD_MANAGER_SAVE_PASSWORD_PROMPT" desc="Info bar message to save a password. [Length: 60em]">
-        Do you want Chromium to save your password for this site?
+        Do you want Brave to save your password for this site?
       </message>
-      <message name="IDS_IOS_PRODUCT_NAME" desc="The Chrome application name">
-        Chromium
+      <message name="IDS_IOS_PRODUCT_NAME" desc="The Brave application name">
+        Brave
       </message>
       <message name="IDS_IOS_QR_SCANNER_CAMERA_IN_USE_ALERT_DETAIL" desc="Body of a modal dialog shown when the user tries to open the QR scanner but the camera is in use by another application. [Length: 140em] [iOS only]">
-        Chromium can't use your camera because it's in use by another application
+        Brave can't use your camera because it's in use by another application
       </message>
       <message name="IDS_IOS_QR_SCANNER_CAMERA_PERMISSIONS_HELP_DETAIL" desc="Body of modal dialog shown when the user tries to open the QR scanner but the application lacks permission to use the camera. The text instructs the user how to change the permissions setting. [Length: 140em] [iOS only]">
-        Open Settings &gt; Privacy &gt; Camera &gt; Chromium and turn on the camera.
+        Open Settings &gt; Privacy &gt; Camera &gt; Brave and turn on the camera.
       </message>
       <message name="IDS_IOS_QR_SCANNER_CAMERA_PERMISSIONS_HELP_TITLE" desc="Title of modal dialog shown when the user tries to open the QR scanner but the application lacks permission to use the camera. The body of this dialog instructs the user how to change the permissions setting. [Length: 50em] [iOS only]">
-        Start using Chromium QR scanner
+        Start using Brave QR scanner
       </message>
       <message name="IDS_IOS_QR_SCANNER_CAMERA_PERMISSIONS_HELP_TITLE_GO_TO_SETTINGS" desc="Title of modal dialog shown when the user tries to open the QR scanner but the application lacks permission to use the camera. [Length: 40em] [iOS only]">
-        Turn on Chromium QR scanner
+        Turn on Brave QR scanner
       </message>
       <message name="IDS_IOS_QR_SCANNER_CAMERA_UNAVAILABLE_ALERT_DETAIL" desc="Body of a modal dialog shown when the user tries to open the QR scanner but the camera is unavailable. [Length: 140em] [iOS only]">
-        Chromium can't use your camera right now
+        Brave can't use your camera right now
       </message>
       <message name="IDS_IOS_QR_SCANNER_MULTIPLE_FOREGROUND_APPS_ALERT_DETAIL" desc="Body of a modal dialog shown when the user tries to open the QR scanner in a Split View mode, when the camera is unavailable. [Length: 140em] [iOS only]">
-        Chromium can't use your camera in Split View mode
+        Brave can't use your camera in Split View mode
       </message>
-      <message name="IDS_IOS_SAFE_MODE_NAMED_TWEAKS_FOUND" desc="The message indicating a 3rd party tweak has been found that is known to crash Chromium.  After the ':', we will list the names of the libraries. [Length: 140em]">
-        Some add-ons cause Chromium to crash. Please uninstall:
+      <message name="IDS_IOS_SAFE_MODE_NAMED_TWEAKS_FOUND" desc="The message indicating a 3rd party tweak has been found that is known to crash Brave.  After the ':', we will list the names of the libraries. [Length: 140em]">
+        Some add-ons cause Brave to crash. Please uninstall:
       </message>
       <message name="IDS_IOS_SAFE_MODE_TWEAKS_FOUND" desc="The message indicating one or more 3rd party tweaks have been found, but none that we know specifically cause crashes. [Length: 140em]">
-        Some add-ons cause Chromium to crash. Please try uninstalling them.
+        Some add-ons cause Brave to crash. Please try uninstalling them.
       </message>
-      <message name="IDS_IOS_SAVE_IMAGE_PRIVACY_ALERT_MESSAGE" desc="Message to inform user that Save Image failed due to insufficient privilege in Privacy Settings. Directs user to adjust Privacy Settings for Chrome. This message is displayed as the message body in an alert box with a single OK button. [Length: 120em]">
-        Chromium does not have access to your photos or videos. Enable access in iOS Settings &gt; Privacy &gt; Photos.
+      <message name="IDS_IOS_SAVE_IMAGE_PRIVACY_ALERT_MESSAGE" desc="Message to inform user that Save Image failed due to insufficient privilege in Privacy Settings. Directs user to adjust Privacy Settings for Brave. This message is displayed as the message body in an alert box with a single OK button. [Length: 120em]">
+        Brave does not have access to your photos or videos. Enable access in iOS Settings &gt; Privacy &gt; Photos.
       </message>
       <message name="IDS_IOS_SAVE_IMAGE_PRIVACY_ALERT_MESSAGE_GO_TO_SETTINGS" desc="Body of the alert shown when the user tries to save an image but we lack permission to use the photos. This body tells the user he'll be redirected to the Settings app. [Length: 100em] [iOS only].">
-        To save images, tap on Settings to let Chromium use your photos
+        To save images, tap on Settings to let Brave use your photos
       </message>
-      <message name="IDS_IOS_SHORT_PRODUCT_NAME" desc="The Chrome application short name.">
-        Chromium
+      <message name="IDS_IOS_SHORT_PRODUCT_NAME" desc="The Brave application short name.">
+        Brave
       </message>
       <message name="IDS_IOS_SIGNED_IN_ACCOUNTS_VIEW_INFO" desc="The information text on the Signed In Accounts view. [iOS only] [200em]">
-        Chromium saves you time by bringing your accounts to the web. You can add or remove accounts in Settings.
+        Brave saves you time by bringing your accounts to the web. You can add or remove accounts in Settings.
       </message>
-      <message name="IDS_IOS_SIGN_IN_TO_CHROME_SETTING_TITLE" desc="The title for the setting item to Sign in to Chromium [iOS only]">
-        Sign in to Chromium
+      <message name="IDS_IOS_SIGN_IN_TO_CHROME_SETTING_TITLE" desc="The title for the setting item to Sign in to Brave [iOS only]">
+        Sign in to Brave
       </message>
       <message name="IDS_IOS_TAB_SWITCHER_NO_TABS_TO_SYNC_PROMO" desc="The title of the paragraph IDS_OPEN_TABS_NO_SESSION_INSTRUCTIONS_IOS. The paragraph explains that tabs opened on other devices where the user is signed in will appear here, in the Tab Switcher. [iOS only]">
-        Use Chromium Everywhere
+        Use Brave Everywhere
       </message>
       <message name="IDS_IOS_TRANSLATE_INFOBAR_NEVER_MESSAGE" desc="Message for the Translate infobar to allow the user to opt out. [Length: 250em]">
-        Would you like Chromium to offer to translate <ph name="LANGUAGE_NAME">$1<ex>French</ex></ph> pages from this site next time?
+        Would you like Brave to offer to translate <ph name="LANGUAGE_NAME">$1<ex>French</ex></ph> pages from this site next time?
       </message>
       <message name="IDS_IOS_TRANSLATE_SETTING_DESCRIPTION" desc="Description for the Translate setting. [Length: unlimited] [iOS only]">
-        When this feature is turned on, Chromium will offer to translate pages written in other languages using Google Translate. <ph name="BEGIN_LINK">BEGIN_LINK</ph>Learn more<ph name="END_LINK">END_LINK</ph>
+        When this feature is turned on, Brave will offer to translate pages written in other languages using Google Translate. <ph name="BEGIN_LINK">BEGIN_LINK</ph>Learn more<ph name="END_LINK">END_LINK</ph>
       </message>
       <message name="IDS_IOS_UPGRADE_AVAILABLE" desc="Text to inform the user of the presence of a new version of the application">
-        Chromium just got better! A new version is available.
+        Brave just got better! A new version is available.
       </message>
       <message name="IDS_IOS_SIGNIN_PROMO_SETTINGS" desc="Text to inform the user that they can sign in to get personal settings">
-        Sign in to Chromium to get your bookmarks, passwords, and more on all your devices.
+        Sign in to Brave to get your bookmarks, passwords, and more on all your devices.
       </message>
       <message name="IDS_IOS_SIGNIN_PROMO_RECENT_TABS" desc="Text to inform the user that they can sign in to get the recent tabs from other computers">
-        To get your tabs on all your devices, sign in to Chromium.
+        To get your tabs on all your devices, sign in to Brave.
       </message>
       <message name="IDS_IOS_SIGNIN_PROMO_BOOKMARKS" desc="Text to inform the user that they can sign in to get bookmarks shared between devices">
-        To get your bookmarks on all your devices, sign in to Chromium.
+        To get your bookmarks on all your devices, sign in to Brave.
       </message>
     </messages>
   </release>

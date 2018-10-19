@@ -353,7 +353,7 @@ Questa norma viene rispettata soltanto se la norma "DefaultSearchProviderEnabled
 <translation id="2073552873076775140">Consenti di eseguire l'accesso a <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Usa accelerazione hardware quando disponibile</translation>
 <translation id="2077273864382355561">Ritardo disattivazione schermo in caso di utilizzo della batteria</translation>
-<translation id="2082205219176343977">Configura la versione minima di Chrome consentita per il dispositivo.</translation>
+<translation id="2082205219176343977">Configura la versione minima di Brave consentita per il dispositivo.</translation>
 <translation id="209586405398070749">Canale stabile</translation>
 <translation id="2098658257603918882">Attiva rapporti sull'utilizzo e sui dati relativi agli arresti anomali</translation>
 <translation id="2111016292707172233">Consente di attivare la disponibilità della funzione Tocca per cercare nella visualizzazione contenuti di <ph name="PRODUCT_NAME" />.
@@ -463,13 +463,13 @@ Questa norma viene rispettata soltanto se la norma "DefaultSearchProviderEnabled
 
           Questa norma ha precedenza su una norma <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />potenzialmente in conflitto. Se un'app o un'estensione con installazione forzata viene rimossa da questo elenco, tale app o estensione viene disinstallata automaticamente da <ph name="PRODUCT_NAME" />.
 
-          Per le istanze di Windows che non fanno parte di un dominio <ph name="MS_AD_NAME" />, l'installazione forzata è limitata alle app e alle estensioni elencate nel Chrome Web Store.
+          Per le istanze di Windows che non fanno parte di un dominio <ph name="MS_AD_NAME" />, l'installazione forzata è limitata alle app e alle estensioni elencate nel Brave Web Store.
 
           Tieni presente che il codice sorgente delle estensioni può essere modificato dagli utenti tramite Strumenti per sviluppatori (causando potenzialmente il malfunzionamento dell'estensione). Per evitare un problema di questo tipo, è consigliabile impostare la norma <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
-          Ogni voce della norma è una stringa contenente un ID estensione e un URL di "aggiornamento" separati da punto e virgola (<ph name="SEMICOLON" />). L'ID estensione è la stringa di 32 lettere che si trova, ad esempio, all'indirizzo <ph name="CHROME_EXTENSIONS_LINK" /> quando è attivata la modalità sviluppatore. L'URL di "aggiornamento", se specificato, deve indirizzare a un documento XML Manifest di aggiornamento, come descritto all'indirizzo <ph name="LINK_TO_EXTENSION_DOC1" />. Per impostazione predefinita, viene utilizzato l'URL di aggiornamento del Chrome Web Store (che attualmente è "https://clients2.google.com/service/update2/crx"). Nota che l'URL di "aggiornamento" impostato in questa norma viene utilizzato esclusivamente per l'installazione iniziale; per i successivi aggiornamenti dell'estensione viene utilizzato l'URL di aggiornamento indicato nel file manifest dell'estensione. Inoltre, specificare l'URL di "aggiornamento" in modo esplicito era obbligatorio nelle versioni di <ph name="PRODUCT_NAME" /> fino alla 67 inclusa.
+          Ogni voce della norma è una stringa contenente un ID estensione e un URL di "aggiornamento" separati da punto e virgola (<ph name="SEMICOLON" />). L'ID estensione è la stringa di 32 lettere che si trova, ad esempio, all'indirizzo <ph name="CHROME_EXTENSIONS_LINK" /> quando è attivata la modalità sviluppatore. L'URL di "aggiornamento", se specificato, deve indirizzare a un documento XML Manifest di aggiornamento, come descritto all'indirizzo <ph name="LINK_TO_EXTENSION_DOC1" />. Per impostazione predefinita, viene utilizzato l'URL di aggiornamento del Brave Web Store (che attualmente è "https://clients2.google.com/service/update2/crx"). Nota che l'URL di "aggiornamento" impostato in questa norma viene utilizzato esclusivamente per l'installazione iniziale; per i successivi aggiornamenti dell'estensione viene utilizzato l'URL di aggiornamento indicato nel file manifest dell'estensione. Inoltre, specificare l'URL di "aggiornamento" in modo esplicito era obbligatorio nelle versioni di <ph name="PRODUCT_NAME" /> fino alla 67 inclusa.
 
-          Ad esempio, <ph name="EXTENSION_POLICY_EXAMPLE" /> installa l'app <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> dall'URL di "aggiornamento" del Chrome Web Store standard. Ulteriori informazioni sulle estensioni in hosting sono disponibili all'indirizzo <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Ad esempio, <ph name="EXTENSION_POLICY_EXAMPLE" /> installa l'app <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> dall'URL di "aggiornamento" del Brave Web Store standard. Ulteriori informazioni sulle estensioni in hosting sono disponibili all'indirizzo <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Se questa norma non è impostata, le app e le estensioni non vengono installate automaticamente e l'utente può disinstallare qualsiasi app o estensione in <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> può utilizzare un servizio web Google per correggere gli errori di ortografia. Se questa impostazione è abilitata, il servizio viene sempre utilizzato. Se questa impostazione è disabilitata, il servizio non viene mai utilizzato.
@@ -644,7 +644,7 @@ Se questa norma non viene impostata, l'utente potrà scegliere se utilizzare o m
 <translation id="268577405881275241">Attiva la funzione proxy di compressione dei dati</translation>
 <translation id="2693108589792503178">Configura l'URL di modifica della password.</translation>
 <translation id="2731627323327011390">Disattiva l'utilizzo dei certificati <ph name="PRODUCT_OS_NAME" /> per le app ARC</translation>
-<translation id="2742843273354638707">Consente di nascondere l'app Chrome Web Store e il link nel piè di pagina nella pagina Nuova scheda e in Avvio applicazioni di <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Consente di nascondere l'app Brave Web Store e il link nel piè di pagina nella pagina Nuova scheda e in Avvio applicazioni di <ph name="PRODUCT_OS_NAME" />.
 
       Quando questa norma è impostata su true, le icone sono nascoste.
 
@@ -761,7 +761,7 @@ Il valore della norma deve essere specificato in millisecondi. I valori devono e
 <translation id="3034580675120919256">Permette di stabilire se consentire o meno l'esecuzione di JavaScript nei siti web. L'esecuzione di JavaScript può essere consentita o negata per tutti i siti web. Se questa norma non viene impostata, verrà utilizzato il valore "AllowJavaScript", che potrà essere modificato dagli utenti.</translation>
 <translation id="3038323923255997294">Continua a eseguire applicazioni in background dopo la chiusura di <ph name="PRODUCT_NAME" /></translation>
 <translation id="3046192273793919231">Invia pacchetti di rete al server di gestione per monitorare lo stato online</translation>
-<translation id="3047732214002457234">Consente di stabilire la modalità di segnalazione dei dati di Chrome Software Cleaner a Google</translation>
+<translation id="3047732214002457234">Consente di stabilire la modalità di segnalazione dei dati di Brave Software Cleaner a Google</translation>
 <translation id="3048744057455266684">Se questa norma viene impostata e un URL di ricerca suggerito dalla omnibox contiene questo parametro nella stringa di ricerca o nell'identificatore del frammento, il suggerimento visualizzerà i termini di ricerca e il fornitore del servizio di ricerca anziché l'URL di ricerca non elaborato.
 
 Questa norma è facoltativa. Se non viene impostata, non verrà effettuata alcuna sostituzione dei termini di ricerca.
@@ -1069,13 +1069,13 @@ Per impostazione predefinita sono autorizzati tutti gli host di messaggi nativi 
       Se questa norma non viene impostata, verrà usata la normale directory predefinita (specifica della piattaforma) di <ph name="PRODUCT_NAME" />.
 
       Visita il sito https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables per consultare un elenco di variabili utilizzabili.</translation>
-<translation id="3904459740090265495">Questa norma consente di stabilire il comportamento di accesso del browser. Ti consente di specificare se l'utente può accedere a <ph name="PRODUCT_NAME" /> con il proprio account e usare i servizi correlati all'account come Sincronizzazione Chrome.
+<translation id="3904459740090265495">Questa norma consente di stabilire il comportamento di accesso del browser. Ti consente di specificare se l'utente può accedere a <ph name="PRODUCT_NAME" /> con il proprio account e usare i servizi correlati all'account come Sincronizzazione Brave.
 
-      Se la norma viene impostata su "Disattiva accesso al browser", l'utente non potrà accedere al browser e usare i servizi basati sull'account. In questo caso, le funzionalità a livello di browser come la Sincronizzazione Chrome non potranno essere usate e non saranno disponibili. Se la norma viene impostata su "Disattivata" dopo che l'utente ha eseguito l'accesso, l'utente verrà scollegato alla successiva esecuzione di Chrome, ma i dati locali del profilo, come preferiti, password ecc., verranno mantenuti. L'utente potrà comunque accedere e usare i servizi web di Google come Gmail.
+      Se la norma viene impostata su "Disattiva accesso al browser", l'utente non potrà accedere al browser e usare i servizi basati sull'account. In questo caso, le funzionalità a livello di browser come la Sincronizzazione Brave non potranno essere usate e non saranno disponibili. Se la norma viene impostata su "Disattivata" dopo che l'utente ha eseguito l'accesso, l'utente verrà scollegato alla successiva esecuzione di Brave, ma i dati locali del profilo, come preferiti, password ecc., verranno mantenuti. L'utente potrà comunque accedere e usare i servizi web di Google come Gmail.
 
-      Se la norma viene impostata su "Attiva accesso al browser", l'utente potrà accedere al browser e verrà collegato automaticamente al browser se accederà a servizi web di Google come Gmail. Se viene eseguito l'accesso al browser, i dati dell'account dell'utente vengono memorizzati dal browser, ma la funzione Sincronizzazione Chrome non viene attivata per impostazione predefinita; per poter utilizzare questa funzione, l'utente deve attivarla separatamente. Se attivi questa norma, l'utente non potrà disattivare l'impostazione che consente l'accesso al browser. Per gestire la disponibilità della funzione Sincronizzazione Chrome, usa la norma "SyncDisabled".
+      Se la norma viene impostata su "Attiva accesso al browser", l'utente potrà accedere al browser e verrà collegato automaticamente al browser se accederà a servizi web di Google come Gmail. Se viene eseguito l'accesso al browser, i dati dell'account dell'utente vengono memorizzati dal browser, ma la funzione Sincronizzazione Brave non viene attivata per impostazione predefinita; per poter utilizzare questa funzione, l'utente deve attivarla separatamente. Se attivi questa norma, l'utente non potrà disattivare l'impostazione che consente l'accesso al browser. Per gestire la disponibilità della funzione Sincronizzazione Brave, usa la norma "SyncDisabled".
 
-      Se la norma viene impostata su "Forza accesso al browser", all'utente verrà mostrata una finestra di dialogo di selezione dell'account, da cui dovrà scegliere un account a cui accedere per usare il browser. Questa misura garantisce l'applicazione, nell'ambito degli account gestiti, delle norme associate all'account. La funzione Sincronizzazione Chrome viene attivata per impostazione predefinita per l'account, ad eccezione del caso in cui la sincronizzazione sia stata disattivata dall'amministratore di dominio o tramite la norma "SyncDisabled". Il valore predefinito della norma BrowserGuestModeEnabled sarà false. Tieni presente che i profili esistenti a cui non viene eseguito l'accesso saranno bloccati e inaccessibili dopo l'attivazione di questa norma. Per ulteriori informazioni, leggi il seguente articolo del Centro assistenza: https://support.google.com/chrome/a/answer/7572556.
+      Se la norma viene impostata su "Forza accesso al browser", all'utente verrà mostrata una finestra di dialogo di selezione dell'account, da cui dovrà scegliere un account a cui accedere per usare il browser. Questa misura garantisce l'applicazione, nell'ambito degli account gestiti, delle norme associate all'account. La funzione Sincronizzazione Brave viene attivata per impostazione predefinita per l'account, ad eccezione del caso in cui la sincronizzazione sia stata disattivata dall'amministratore di dominio o tramite la norma "SyncDisabled". Il valore predefinito della norma BrowserGuestModeEnabled sarà false. Tieni presente che i profili esistenti a cui non viene eseguito l'accesso saranno bloccati e inaccessibili dopo l'attivazione di questa norma. Per ulteriori informazioni, leggi il seguente articolo del Centro assistenza: https://support.google.com/chrome/a/answer/7572556.
 
       Se questa norma non è impostata, l'utente potrà decidere se attivare o meno l'opzione di accesso al browser e di usarla in base alle necessità.</translation>
 <translation id="3907986150060929099">Consente di impostare le impostazioni internazionali consigliate per una sessione pubblica</translation>
@@ -1198,11 +1198,11 @@ Questa norma viene rispettata soltanto se la norma "DefaultSearchProviderEnabled
 <translation id="4298509794364745131">Consente di specificare l'elenco di app che è possibile attivare come app per scrivere note nella schermata di blocco di <ph name="PRODUCT_OS_NAME" />.
 
       Se nella schermata di blocco viene attivata l'app per scrivere note preferita, nella schermata sarà presente l'elemento dell'interfaccia utente per avviare tale app.
-      Quando viene avviata, l'app può creare una finestra sopra la schermata di blocco e creare dati (note) nel contesto della schermata di blocco. L'app può importare note create nella sessione utente principale, quando la sessione è sbloccata. Attualmente, nella schermata di blocco sono supportate soltanto le app per scrivere note di Chrome.
+      Quando viene avviata, l'app può creare una finestra sopra la schermata di blocco e creare dati (note) nel contesto della schermata di blocco. L'app può importare note create nella sessione utente principale, quando la sessione è sbloccata. Attualmente, nella schermata di blocco sono supportate soltanto le app per scrivere note di Brave.
 
       Se la norma viene impostata, l'utente potrà attivare un'app nella schermata di blocco soltanto se l'ID estensione dell'app è presente come valore nell'elenco della norma.
       Di conseguenza, se l'elenco di questa norma viene lasciato vuoto, non sarà consentito scrivere note nella schermata di blocco.
-      Tieni presente che l'esistenza dell'ID di un'app nella norma non implica necessariamente che l'utente potrà attivare l'app in questione come app per scrivere note nella schermata di blocco. Ad esempio, su Chrome 61, il gruppo di app disponibili è limitato ulteriormente dalla piattaforma.
+      Tieni presente che l'esistenza dell'ID di un'app nella norma non implica necessariamente che l'utente potrà attivare l'app in questione come app per scrivere note nella schermata di blocco. Ad esempio, su Brave 61, il gruppo di app disponibili è limitato ulteriormente dalla piattaforma.
 
       Se la norma non viene impostata, non ci saranno limitazioni relative al gruppo di app che l'utente potrà attivare nella schermata di blocco.</translation>
 <translation id="4309640770189628899">Attiva o meno i pacchetti di crittografia DHE in TLS</translation>
@@ -1297,7 +1297,7 @@ Se questa norma non viene impostata, l'impostazione verrà attivata ma gli utent
 <translation id="4567137030726189378">Consenti l'utilizzo degli Strumenti per sviluppatori</translation>
 <translation id="4600786265870346112">Attivazione del puntatore grande</translation>
 <translation id="4604931264910482931">Configura lista nera di messaggi nativi</translation>
-<translation id="4613508646038788144">Se la norma viene impostata su false, i programmi software di terze parti potranno inserire codice eseguibile nei processi di Chrome. Se la norma non viene impostata o viene impostata su true, i programmi software di terze parti non potranno inserire codice eseguibile nei processi di Chrome.</translation>
+<translation id="4613508646038788144">Se la norma viene impostata su false, i programmi software di terze parti potranno inserire codice eseguibile nei processi di Brave. Se la norma non viene impostata o viene impostata su true, i programmi software di terze parti non potranno inserire codice eseguibile nei processi di Brave.</translation>
 <translation id="4617338332148204752">Salta il controllo dei metatag in <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Configura la whitelist per l'installazione delle estensioni</translation>
 <translation id="4632343302005518762">Consenti a <ph name="PRODUCT_FRAME_NAME" /> di gestire i tipi di contenuti elencati</translation>
@@ -1430,7 +1430,7 @@ Questa norma viene rispettata soltanto se la norma "DefaultSearchProviderEnabled
           Il valore deve essere un array di dizionari JSON in stringa. Ogni dizionario deve avere questa forma: { "pattern": "$URL_PATTERN", "filter" : $FILTER }, dove $URL_PATTERN è un pattern di impostazione dei contenuti. $FILTER restringe i certificati client da cui il browser effettua automaticamente la selezione. Indipendentemente dal filtro, saranno selezionati solo certificati che soddisfano la richiesta di certificato del server. Se $FILTER presenta la forma { "ISSUER": { "CN": "$ISSUER_CN" } }, vengono inoltre selezionati solo i certificati client emessi da certificati con valore CommonName uguale a $ISSUER_CN. Se $FILTER è il dizionario vuoto {}, la selezione del certificato client non viene limitata ulteriormente.
 
           Se questa norma non viene impostata, la selezione automatica non avviene per nessun sito.</translation>
-<translation id="4978405676361550165">Se viene impostata la norma "OffHours", le norme relative ai dispositivi specificate vengono ignorate (vengono usate le impostazioni predefinite delle norme) durante gli intervalli di tempo definiti. Le norme relative ai dispositivi vengono riapplicate da Chrome ogni volta che inizia o finisce il periodo definito in "OffHours". L'utente verrà informato e obbligato a uscire dall'account quando vengono cambiate le impostazioni relative alla fine del periodo "OffHours" e alle norme relative ai dispositivi (ad esempio se l'utente ha eseguito l'accesso con un account non consentito).</translation>
+<translation id="4978405676361550165">Se viene impostata la norma "OffHours", le norme relative ai dispositivi specificate vengono ignorate (vengono usate le impostazioni predefinite delle norme) durante gli intervalli di tempo definiti. Le norme relative ai dispositivi vengono riapplicate da Brave ogni volta che inizia o finisce il periodo definito in "OffHours". L'utente verrà informato e obbligato a uscire dall'account quando vengono cambiate le impostazioni relative alla fine del periodo "OffHours" e alle norme relative ai dispositivi (ad esempio se l'utente ha eseguito l'accesso con un account non consentito).</translation>
 <translation id="4980635395568992380">Tipo di dati:</translation>
 <translation id="4983201894483989687">Consenti esecuzione dei plug-in obsoleti</translation>
 <translation id="4988291787868618635">Azione da compiere a raggiungimento ritardo inattività</translation>
@@ -1504,7 +1504,7 @@ Se questa norma non viene impostata viene utilizzata la riga di comando predefin
 Il valore della lista nera "*" indica che tutti gli host di messaggi nativi non sono autorizzati, a meno che vengano elencati espressamente nella whitelist.
 
 Se la norma non viene impostata, <ph name="PRODUCT_NAME" /> caricherà tutti gli host di messaggi nativi installati.</translation>
-<translation id="5272684451155669299">Se questa opzione viene impostata su true, l'utente può usare l'hardware su dispositivi Chrome per attestare da remoto la propria identità all'autorità di certificazione della privacy utilizzando la funzione <ph name="CHALLENGE_USER_KEY_FUNCTION" /> dell'<ph name="ENTERPRISE_PLATFORM_KEYS_API" />.
+<translation id="5272684451155669299">Se questa opzione viene impostata su true, l'utente può usare l'hardware su dispositivi Brave per attestare da remoto la propria identità all'autorità di certificazione della privacy utilizzando la funzione <ph name="CHALLENGE_USER_KEY_FUNCTION" /> dell'<ph name="ENTERPRISE_PLATFORM_KEYS_API" />.
 
           Se viene impostata su false o non viene impostata, le chiamate all'API non vanno a buon fine e viene generato un codice di errore.</translation>
 <translation id="5277806246014825877">Questa norma consente all'utente di eseguire Crostini.
@@ -1624,7 +1624,7 @@ Se questa impostazione viene disattivata o non viene impostata, sia gli utenti l
       Tieni presente che è sconsigliato farlo, perché potrebbe essere consentita l'elusione dell'estensione nameConstraints, che limita i nomi host per cui può essere autorizzato un determinato certificato.
 
       Se questa norma non viene impostata, o viene impostata su false, i certificati server privi di estensione subjectAlternativeName e contenenti un nome DNS o un indirizzo IP non verranno considerati attendibili.</translation>
-<translation id="5581292529942108810">Consente di configurare le norme relative all'estensione Chrome Reporting Extension.
+<translation id="5581292529942108810">Consente di configurare le norme relative all'estensione Brave Reporting Extension.
 
       Questa norma viene applicata soltanto se viene attivata l'estensione <ph name="CHROME_REPORTING_EXTENSION_NAME" /> e il computer viene registrato con la norma <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Controlla i servizi di geolocalizzazione di Google per Android</translation>
@@ -1679,7 +1679,7 @@ Il valore della norma deve essere specificato in millisecondi.</translation>
       Se la norma viene disattivata, i download inizieranno subito e all'utente non verrà chiesto dove salvare i file.
       Se la norma non viene configurata, l'utente potrà modificare questa impostazione.
       </translation>
-<translation id="5835124959204887277">Consente di specificare URL e domini per i quali non verranno mostrati messaggi quando verranno richiesti certificati di attestazione dei token di sicurezza. Verrà inoltre inviato un segnale al token di sicurezza per indicare che potrebbe essere usata la singola attestazione. Senza questo segnale, gli utenti di Chrome 65 e versioni successive riceveranno un messaggio quando i siti richiederanno l'attestazione dei token di sicurezza.
+<translation id="5835124959204887277">Consente di specificare URL e domini per i quali non verranno mostrati messaggi quando verranno richiesti certificati di attestazione dei token di sicurezza. Verrà inoltre inviato un segnale al token di sicurezza per indicare che potrebbe essere usata la singola attestazione. Senza questo segnale, gli utenti di Brave 65 e versioni successive riceveranno un messaggio quando i siti richiederanno l'attestazione dei token di sicurezza.
 
       Gli URL (ad esempio https://example.com/some/path) corrisponderanno soltanto ad appID U2F. I domini (come example.com) corrisponderanno soltanto a ID RP webauthn. Di conseguenza, per includere entrambe le API U2F e webauthn per un determinato sito, devono essere elencati sia il dominio sia l'URL appID.</translation>
 <translation id="5835412847081687053">Configura le impostazioni internazionali UI consentite in una sessione utente</translation>
@@ -1858,7 +1858,7 @@ Il valore della norma deve essere specificato in millisecondi. I valori devono e
 <translation id="6282799760374509080">Consenti o nega acquisizione audio</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Consente il completamento automatico del nome di dominio durante l'accesso dell'utente</translation>
-<translation id="6315673513957120120">Chrome mostra una pagina di avviso quando gli utenti visitano siti che presentano errori SSL. Per impostazione predefinita, o se la norma viene impostata su true, gli utenti possono fare clic nelle pagine di avviso.
+<translation id="6315673513957120120">Brave mostra una pagina di avviso quando gli utenti visitano siti che presentano errori SSL. Per impostazione predefinita, o se la norma viene impostata su true, gli utenti possono fare clic nelle pagine di avviso.
       Se questa norma viene impostata su false, gli utenti non possono fare clic nelle pagine di avviso.</translation>
 <translation id="6353901068939575220">Consente di specificare i parametri utilizzati durante la ricerca di un URL con POST. Si tratta di coppie di nome/valore separate da virgole. Se un valore è il parametro di un modello, come {searchTerms} nell'esempio precedente, verrà sostituito con i dati dei termini di ricerca reali.
 
@@ -1887,7 +1887,7 @@ Questa norma viene rispettata soltanto se la norma "DefaultSearchProviderEnabled
           Se si decide di rilevare automaticamente il server proxy, alle app Android viene fornito l'URL script "http://wpad/wpad.dat". Non viene utilizzata nessun'altra parte del protocollo di rilevamento automatico del server proxy.
 
           Se si decide di utilizzare uno script proxy .pac, alle app Android viene fornito l'URL script.</translation>
-<translation id="6430366557948788869">Estensione Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Estensione Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Consenti ai siti di navigare e aprire popup contemporaneamente</translation>
 <translation id="6447948611083700881">Backup e ripristino disabilitati</translation>
 <translation id="645425387487868471">Attiva l'accesso forzato per <ph name="PRODUCT_NAME" /></translation>
@@ -2085,7 +2085,7 @@ Se la norma non viene configurata, la lettura vocale viene inizialmente disattiv
 
       NOTA: su Android, l'isolamento dei siti è sperimentale. L'assistenza verrà migliorata, ma attualmente potrebbe causare problemi di prestazioni.
 
-      NOTA: questa norma viene applicata solo a Chrome su dispositivi Android con più di 1 GB di RAM. Per applicare la norma su piattaforme non Android, utilizza SitePerProcess.
+      NOTA: questa norma viene applicata solo a Brave su dispositivi Android con più di 1 GB di RAM. Per applicare la norma su piattaforme non Android, utilizza SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Se la norma è impostata su true, la norma cloud ha la precedenza in caso di conflitto con la norma della macchina.
@@ -2151,9 +2151,9 @@ Se questa norma è impostata su True o non è impostata, il modello di oscuramen
       Se la norma è impostata su True, <ph name="PRODUCT_NAME" /> può raccogliere log eventi WebRTC dai servizi Google (ad es., Google Meet) e caricare i log su Google.
 
       Se la norma è impostata su False o è priva di impostazione, <ph name="PRODUCT_NAME" /> potrebbe non raccogliere né caricare tali log.
-      Questi log contengono informazioni di diagnostica utili per il debug dei problemi relativi a chiamate vocali o videochiamate in Chrome, ad esempio data/ora e dimensioni dei pacchetti RTP inviati e ricevuti, feedback sulla congestione della rete, nonché metadati su tempo e qualità dei frame audio e video. Questi log non contengono l'audio o i video delle chiamate.
+      Questi log contengono informazioni di diagnostica utili per il debug dei problemi relativi a chiamate vocali o videochiamate in Brave, ad esempio data/ora e dimensioni dei pacchetti RTP inviati e ricevuti, feedback sulla congestione della rete, nonché metadati su tempo e qualità dei frame audio e video. Questi log non contengono l'audio o i video delle chiamate.
 
-      Questa raccolta di dati da parte di Chrome può essere attivata soltanto dai servizi web di Google, ad esempio Google Hangouts o Google Meet.
+      Questa raccolta di dati da parte di Brave può essere attivata soltanto dai servizi web di Google, ad esempio Google Hangouts o Google Meet.
 
       Google potrebbe associare questi log tramite un ID sessione ad altri log raccolti dal servizio Google stesso al fine di facilitare il debug.
       </translation>
@@ -2227,11 +2227,11 @@ Se la norma viene impostata, gli utenti possono ignorarla temporaneamente attiva
 
 Se la norma non viene impostata, l'ingrandimento dello schermo viene disattivato alla prima visualizzazione della schermata di accesso. Gli utenti possono attivare o disattivare l'ingrandimento dello schermo in qualsiasi momento e il relativo stato nella schermata di accesso persiste per tutti gli utenti.</translation>
 <translation id="7249828445670652637">Attiva i certificati CA <ph name="PRODUCT_OS_NAME" /> per le app ARC</translation>
-<translation id="725322441686394886">Se questa norma non viene impostata, nel caso in cui Chrome Software Cleaner dovesse rilevare software indesiderato, a Google potrebbero essere segnalati metadati relativi alla scansione in base alla norma stabilita da SafeBrowsingExtendedReportingEnabled. Chrome Software Cleaner chiederà poi all'utente se vuole ripulire il software indesiderato. L'utente potrà decidere di condividere i risultati della pulizia con Google per contribuire a rilevare software indesiderato in futuro. Questi risultati contengono metadati di file, estensioni installate automaticamente e chiavi del registro di sistema, come spiegato nel Whitepaper sulla privacy di Chrome.
+<translation id="725322441686394886">Se questa norma non viene impostata, nel caso in cui Brave Software Cleaner dovesse rilevare software indesiderato, a Google potrebbero essere segnalati metadati relativi alla scansione in base alla norma stabilita da SafeBrowsingExtendedReportingEnabled. Brave Software Cleaner chiederà poi all'utente se vuole ripulire il software indesiderato. L'utente potrà decidere di condividere i risultati della pulizia con Google per contribuire a rilevare software indesiderato in futuro. Questi risultati contengono metadati di file, estensioni installate automaticamente e chiavi del registro di sistema, come spiegato nel Whitepaper sulla privacy di Brave.
 
-      Se la norma viene disattivata, nel caso in cui Chrome Software Cleaner dovesse rilevare software indesiderato, a Google non verranno segnalati metadati relativi alla scansione, ignorando qualsiasi norma stabilita da SafeBrowsingExtendedReportingEnabled. Chrome Software Cleaner chiederà all'utente se vuole ripulire il software indesiderato. I risultati della pulizia non verranno segnalati a Google e l'utente non avrà la possibilità di segnalarli.
+      Se la norma viene disattivata, nel caso in cui Brave Software Cleaner dovesse rilevare software indesiderato, a Google non verranno segnalati metadati relativi alla scansione, ignorando qualsiasi norma stabilita da SafeBrowsingExtendedReportingEnabled. Brave Software Cleaner chiederà all'utente se vuole ripulire il software indesiderato. I risultati della pulizia non verranno segnalati a Google e l'utente non avrà la possibilità di segnalarli.
 
-      Se la norma viene attivata, nel caso in cui Chrome Software Cleaner dovesse rilevare software indesiderato, a Google potrebbero essere segnalati metadati relativi alla scansione in base alla norma stabilita da SafeBrowsingExtendedReportingEnabled. Chrome Software Cleaner chiederà all'utente se vuole ripulire il software indesiderato. I risultati della pulizia verranno segnalati a Google e l'utente non avrà la possibilità di impedire la segnalazione. 
+      Se la norma viene attivata, nel caso in cui Brave Software Cleaner dovesse rilevare software indesiderato, a Google potrebbero essere segnalati metadati relativi alla scansione in base alla norma stabilita da SafeBrowsingExtendedReportingEnabled. Brave Software Cleaner chiederà all'utente se vuole ripulire il software indesiderato. I risultati della pulizia verranno segnalati a Google e l'utente non avrà la possibilità di impedire la segnalazione. 
 
       Questa norma non è disponibile sulle istanze di Windows che non fanno parte di un dominio <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Attiva separazione degli host di accesso remoto</translation>
@@ -2285,7 +2285,7 @@ Il valore della norma deve essere specificato in millisecondi. I valori devono e
 <translation id="7329968046053403405">Consente di specificare il tipo di account degli account forniti dall'app di autenticazione di Android che supporta l'autenticazione <ph name="HTTP_NEGOTIATE" /> (ad esempio, l'autenticazione Kerberos). Queste informazioni dovrebbero essere messe a disposizione dal fornitore dell'app di autenticazione. Per ulteriori informazioni, visitare la pagina https://goo.gl/hajyfN.
 
           Se non vengono fornite impostazioni, l'autenticazione <ph name="HTTP_NEGOTIATE" /> è disattivata su Android.</translation>
-<translation id="7331962793961469250">Quando la norma è impostata su True, le promozioni relative alle applicazioni del Chrome Web Store non vengono visualizzate nella pagina Nuova scheda. Se questa opzione viene impostata su False o non viene impostata, le promozioni relative alle applicazioni del Chrome Web Store vengono visualizzate nella pagina Nuova scheda.</translation>
+<translation id="7331962793961469250">Quando la norma è impostata su True, le promozioni relative alle applicazioni del Brave Web Store non vengono visualizzate nella pagina Nuova scheda. Se questa opzione viene impostata su False o non viene impostata, le promozioni relative alle applicazioni del Brave Web Store vengono visualizzate nella pagina Nuova scheda.</translation>
 <translation id="7332963785317884918">Questa norma è obsoleta. <ph name="PRODUCT_OS_NAME" /> utilizzerà sempre la strategia di pulizia "RemoveLRU".
 
       Consente di stabilire il comportamento di pulizia automatica sui dispositivi <ph name="PRODUCT_OS_NAME" />. La pulizia automatica viene attivata per recuperare spazio quando la quantità di spazio libero su disco raggiunge un livello critico.
@@ -2300,7 +2300,7 @@ Il valore della norma deve essere specificato in millisecondi. I valori devono e
 <translation id="7343497214039883642">File di configurazione delle stampanti aziendali per i dispositivi</translation>
 <translation id="7349338075015720646">Consente di specificare un elenco di app web installate automaticamente, senza interazione dell'utente e che non possono essere disinstallate o disattivate dall'utente
 
-      Ogni elemento dell'elenco della norma è un oggetto con due componenti: "url" e "launch_container". "url" deve essere l'URL dell'app web da installare e "launch_container" deve essere "finestra" o "scheda" per indicare in che modo l'app web verrà aperta una volta installata. Se il valore di "launch_container" non viene specificato, l'app verrà avviata in una finestra se Chrome la considera un'applicazione web progressiva, altrimenti in una scheda.</translation>
+      Ogni elemento dell'elenco della norma è un oggetto con due componenti: "url" e "launch_container". "url" deve essere l'URL dell'app web da installare e "launch_container" deve essere "finestra" o "scheda" per indicare in che modo l'app web verrà aperta una volta installata. Se il valore di "launch_container" non viene specificato, l'app verrà avviata in una finestra se Brave la considera un'applicazione web progressiva, altrimenti in una scheda.</translation>
 <translation id="735902178936442460">Questa norma consente di stabilire se segnalare o meno informazioni che possono essere usate per identificare i computer, ad esempio il nome del computer e gli indirizzi di rete.
 
       Se questa norma non viene impostata o viene impostata su True, vengono raccolte le informazioni che possono essere usate per identificare i computer.
@@ -2313,9 +2313,9 @@ Il valore della norma deve essere specificato in millisecondi. I valori devono e
 
       Visita il sito https://developers.google.com/safe-browsing per avere ulteriori informazioni sulla funzione Navigazione sicura.</translation>
 <translation id="737655323154569539">Consente di limitare le dimensioni delle pagine di stampa. Se la norma non viene impostata o viene lasciata vuota non vengono applicate limitazioni.</translation>
-<translation id="7417728346887499628">Se questa norma viene disattivata, Chrome Software Cleaner non potrà eseguire la scansione del sistema per individuare eventuale software indesiderato e ripulire il sistema. L'attivazione manuale di Chrome Software Cleaner da chrome://settings/cleanup viene disattivata.
+<translation id="7417728346887499628">Se questa norma viene disattivata, Brave Software Cleaner non potrà eseguire la scansione del sistema per individuare eventuale software indesiderato e ripulire il sistema. L'attivazione manuale di Brave Software Cleaner da chrome://settings/cleanup viene disattivata.
 
-      Se la norma viene attivata o non viene impostata, Chrome Software Cleaner eseguirà periodicamente la scansione del sistema per individuare eventuale software indesiderato e, qualora fosse presente, chiederà all'utente se vuole rimuoverlo. L'attivazione manuale di Chrome Software Cleaner da chrome://settings viene attivata.
+      Se la norma viene attivata o non viene impostata, Brave Software Cleaner eseguirà periodicamente la scansione del sistema per individuare eventuale software indesiderato e, qualora fosse presente, chiederà all'utente se vuole rimuoverlo. L'attivazione manuale di Brave Software Cleaner da chrome://settings viene attivata.
 
       Questa norma non è disponibile sulle istanze di Windows che non fanno parte di un dominio <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Percentuale di regolazione del ritardo di inattività in modalità di presentazione (obsoleta)</translation>
@@ -2557,7 +2557,7 @@ Se questa norma non viene impostata, <ph name="PRODUCT_NAME" /> utilizzerà il v
 
       NOTA: su Android, l'isolamento dei siti è sperimentale. L'assistenza verrà migliorata, ma attualmente potrebbe causare problemi di prestazioni.
 
-      NOTA: questa norma viene applicata solo a Chrome su dispositivi Android con più di 1 GB di RAM. Per applicare la norma su piattaforme non Android, utilizza IsolateOrigins.
+      NOTA: questa norma viene applicata solo a Brave su dispositivi Android con più di 1 GB di RAM. Per applicare la norma su piattaforme non Android, utilizza IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Host delle eccezioni manuali per gli utenti gestiti</translation>
 <translation id="7961779417826583251">Disattiva l'applicazione di Certificate Transparency per un elenco di autorità di certificazione precedenti</translation>
@@ -2665,7 +2665,7 @@ Se la norma non viene configurata, la modalità ad alto contrasto viene inizialm
       Se il criterio non viene impostato, <ph name="PRODUCT_OS_NAME" /> utilizzerà l'ID account email dell'account dispositivo come nome visualizzato nella schermata di accesso.
 
       Questo criterio viene ignorato per gli account utente standard.</translation>
-<translation id="8259375588339409826">Chromium e Google Chrome supportano lo stesso insieme di norme. Questo documento potrebbe includere norme riferite a versioni non ancora introdotte (la relativa voce "Supported on" si riferisce a una versione non rilasciata di <ph name="PRODUCT_NAME" />). Tali norme sono soggette a modifica o rimozione senza preavviso e non viene fornita alcuna garanzia in merito, neanche in relazione alle proprietà di privacy e sicurezza.
+<translation id="8259375588339409826">Brave e Brave supportano lo stesso insieme di norme. Questo documento potrebbe includere norme riferite a versioni non ancora introdotte (la relativa voce "Supported on" si riferisce a una versione non rilasciata di <ph name="PRODUCT_NAME" />). Tali norme sono soggette a modifica o rimozione senza preavviso e non viene fornita alcuna garanzia in merito, neanche in relazione alle proprietà di privacy e sicurezza.
 
 Queste norme devono essere utilizzate esclusivamente per la configurazione delle istanze di <ph name="PRODUCT_NAME" /> interne all'organizzazione. L'utilizzo di queste norme al di fuori dell'organizzazione (ad esempio in un programma distribuito pubblicamente) viene considerato malware e potrebbe essere contrassegnato come malware da Google e dai fornitori di programmi antivirus.
 
@@ -2708,7 +2708,7 @@ Se questa norma non viene impostata, le pagine saranno sottoposte a scansione pe
 <translation id="8339420913453596618">Autenticazione a due fattori disattivata</translation>
 <translation id="8344454543174932833">Importa Preferiti dal browser predefinito alla prima esecuzione</translation>
 <translation id="8359734107661430198">Attiva l'API ExampleDeprecatedFeature valida fino al 02/09/2008</translation>
-<translation id="8367209241899435947">Attiva Chrome Software Cleaner su Windows</translation>
+<translation id="8367209241899435947">Attiva Brave Software Cleaner su Windows</translation>
 <translation id="8369602308428138533">Ritardo disattivazione schermo in caso di utilizzo di CA</translation>
 <translation id="8382184662529825177">Attiva l'utilizzo dell'attestazione remota per la protezione dei contenuti per il dispositivo</translation>
 <translation id="838870586332499308">Attiva roaming dati</translation>

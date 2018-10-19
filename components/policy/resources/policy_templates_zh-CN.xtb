@@ -348,7 +348,7 @@
 <translation id="2073552873076775140">允许登录 <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">使用硬件加速模式（如果可用）</translation>
 <translation id="2077273864382355561">使用电源供电时的屏幕关闭延迟时间</translation>
-<translation id="2082205219176343977">为设备配置允许使用的最低 Chrome 版本。</translation>
+<translation id="2082205219176343977">为设备配置允许使用的最低 Brave 版本。</translation>
 <translation id="209586405398070749">稳定版</translation>
 <translation id="2098658257603918882">启用关于使用情况和崩溃相关数据的报告</translation>
 <translation id="2111016292707172233">在 <ph name="PRODUCT_NAME" /> 的内容视图中启用“点按搜索”功能。
@@ -450,13 +450,13 @@
 
           此政策优先于可能会与其冲突的 <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" /> 政策。如果从此列表中移除了之前强制安装的某个应用或扩展程序，<ph name="PRODUCT_NAME" /> 便会自动卸载该应用或扩展程序。
 
-          对于未加入 <ph name="MS_AD_NAME" /> 网域的 Windows 实例，强制安装仅限于 Chrome 网上应用店中所列的应用和扩展程序。
+          对于未加入 <ph name="MS_AD_NAME" /> 网域的 Windows 实例，强制安装仅限于 Brave 网上应用店中所列的应用和扩展程序。
 
           请注意，用户可通过开发者工具更改任何扩展程序的源代码（此类更改可能会导致相应扩展程序无法正常运行）。如果您不希望用户进行此类更改，则应设置 <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> 政策。
 
-          此政策的每个列表项都是一个字符串，其中包含一个扩展程序 ID 和一个可选的“更新”网址（这两者之间以英文分号 (<ph name="SEMICOLON" />) 分隔）。扩展程序 ID 是一个由 32 个字母构成的字符串；若想查看示例，请在开发者模式下前往 <ph name="CHROME_EXTENSIONS_LINK" />。“更新”网址（如已指定）应指向一个更新清单 XML 文档，如 <ph name="LINK_TO_EXTENSION_DOC1" /> 中所述。默认情况下，系统会使用 Chrome 网上应用店的更新网址（目前为“https://clients2.google.com/service/update2/crx”）。请注意，此政策中设置的“更新”网址仅用于初次安装；相应扩展程序的后续更新将会使用该扩展程序的清单中指定的更新网址。另请注意，在 <ph name="PRODUCT_NAME" /> 67 及更低版本中，明确指定“更新”网址是一项强制性要求。
+          此政策的每个列表项都是一个字符串，其中包含一个扩展程序 ID 和一个可选的“更新”网址（这两者之间以英文分号 (<ph name="SEMICOLON" />) 分隔）。扩展程序 ID 是一个由 32 个字母构成的字符串；若想查看示例，请在开发者模式下前往 <ph name="CHROME_EXTENSIONS_LINK" />。“更新”网址（如已指定）应指向一个更新清单 XML 文档，如 <ph name="LINK_TO_EXTENSION_DOC1" /> 中所述。默认情况下，系统会使用 Brave 网上应用店的更新网址（目前为“https://clients2.google.com/service/update2/crx”）。请注意，此政策中设置的“更新”网址仅用于初次安装；相应扩展程序的后续更新将会使用该扩展程序的清单中指定的更新网址。另请注意，在 <ph name="PRODUCT_NAME" /> 67 及更低版本中，明确指定“更新”网址是一项强制性要求。
 
-          例如，<ph name="EXTENSION_POLICY_EXAMPLE" /> 会从标准的 Chrome 网上应用店“更新”网址安装“<ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />”应用。要详细了解如何托管扩展程序，请访问 <ph name="LINK_TO_EXTENSION_DOC2" />。
+          例如，<ph name="EXTENSION_POLICY_EXAMPLE" /> 会从标准的 Brave 网上应用店“更新”网址安装“<ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />”应用。要详细了解如何托管扩展程序，请访问 <ph name="LINK_TO_EXTENSION_DOC2" />。
 
           如果未设置此政策，系统便不会自动安装任何应用或扩展程序，而且用户可在 <ph name="PRODUCT_NAME" /> 中卸载任何应用或扩展程序。</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" />可使用 Google 网络服务帮助解决拼写错误问题。如果启用此设置，那么将一直使用此服务。如果停用此设置，则从不使用此服务。
@@ -660,7 +660,7 @@
 <translation id="2799297758492717491">允许符合网址格式白名单中所列格式的网页自动播放媒体内容</translation>
 <translation id="2801230735743888564">允许用户在设备未联网的情况下玩恐龙复活节彩蛋游戏。
 
-      如果此政策设为 False，用户将无法在设备未联网的情况下玩恐龙复活节彩蛋游戏。如果此设置设为 True，用户将可以玩恐龙复活节彩蛋游戏。如果此政策未设置，用户将无法在已注册的 Chrome 操作系统上玩恐龙复活节彩蛋游戏，但可以在其他环境下玩该游戏。</translation>
+      如果此政策设为 False，用户将无法在设备未联网的情况下玩恐龙复活节彩蛋游戏。如果此设置设为 True，用户将可以玩恐龙复活节彩蛋游戏。如果此政策未设置，用户将无法在已注册的 Brave 操作系统上玩恐龙复活节彩蛋游戏，但可以在其他环境下玩该游戏。</translation>
 <translation id="2802085784857530815">可让您控制用户能否访问非企业打印机
 
       如果此政策设为 true 或根本未设置，用户将能够添加和配置自己的原生打印机并使用这些打印机进行打印。
@@ -747,7 +747,7 @@
 <translation id="3034580675120919256">可让您设置是否允许网站运行 JavaScript。可以针对所有网站允许或拒绝运行 JavaScript。如果未设置此政策，系统将使用“AllowJavaScript”并允许用户更改此设置。</translation>
 <translation id="3038323923255997294">在<ph name="PRODUCT_NAME" />关闭后继续运行后台应用</translation>
 <translation id="3046192273793919231">将网络数据包发送到管理服务器以监控联网状态</translation>
-<translation id="3047732214002457234">控制 Chrome 清理功能向 Google 报告数据的方式</translation>
+<translation id="3047732214002457234">控制 Brave 清理功能向 Google 报告数据的方式</translation>
 <translation id="3048744057455266684">如果设置了此政策，且多功能框建议的搜索网址在查询字符串或片段标识符中包含此参数，则该建议将显示搜索字词和搜索服务提供商，而不是原始的搜索网址。
 
           此为可选政策。如果未设置此政策，系统将不会替换搜索字词。
@@ -1053,13 +1053,13 @@
       如果您未设置此政策，<ph name="PRODUCT_NAME" /> 将会使用其惯用的默认目录（因平台而异）。
 
       有关可用变量的列表，请访问 https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables。</translation>
-<translation id="3904459740090265495">此政策可控制浏览器的登录行为。它允许您指定用户是否可使用其帐号登录 <ph name="PRODUCT_NAME" /> 并使用与帐号相关的服务（如 Chrome 同步）。
+<translation id="3904459740090265495">此政策可控制浏览器的登录行为。它允许您指定用户是否可使用其帐号登录 <ph name="PRODUCT_NAME" /> 并使用与帐号相关的服务（如 Brave 同步）。
 
-      如果此政策设为“禁止登录浏览器”，用户便无法登录浏览器并使用帐号相关服务。在这种情况下，用户无法使用也无法访问浏览器级功能（如 Chrome 同步）。如果用户已登录并且此政策设为“停用”，则用户将在下次运行 Chrome 时退出登录，但是他们的本地个人资料数据（如书签、密码等）会保留。用户仍能够登录并使用 Google 网络服务（如 Gmail）。
+      如果此政策设为“禁止登录浏览器”，用户便无法登录浏览器并使用帐号相关服务。在这种情况下，用户无法使用也无法访问浏览器级功能（如 Brave 同步）。如果用户已登录并且此政策设为“停用”，则用户将在下次运行 Brave 时退出登录，但是他们的本地个人资料数据（如书签、密码等）会保留。用户仍能够登录并使用 Google 网络服务（如 Gmail）。
 
-      如果此政策设为“允许登录浏览器”，用户将可以登录浏览器，并且会在登录 Google 网络服务（如 Gmail）后自动登录浏览器。登录浏览器意味着浏览器将保存用户的帐号信息，但并不意味着 Chrome 同步功能将默认开启；用户必须单独选择启用此功能。启用此政策会阻止用户关闭允许登录浏览器的设置。要控制 Chrome 同步功能的可用性，请使用“SyncDisabled”政策。
+      如果此政策设为“允许登录浏览器”，用户将可以登录浏览器，并且会在登录 Google 网络服务（如 Gmail）后自动登录浏览器。登录浏览器意味着浏览器将保存用户的帐号信息，但并不意味着 Brave 同步功能将默认开启；用户必须单独选择启用此功能。启用此政策会阻止用户关闭允许登录浏览器的设置。要控制 Brave 同步功能的可用性，请使用“SyncDisabled”政策。
 
-      如果此政策设为“强制登录浏览器”，系统将向用户显示帐号选择对话框，并且用户必须选择并登录某个帐号才能使用浏览器。这样可确保针对受管理的帐号应用并强制执行与相应帐号关联的政策。默认情况下，此设置会为帐号开启 Chrome 同步功能，但同步功能已被网域管理员停用或已通过“SyncDisabled”政策停用的情况除外。BrowserGuestModeEnabled 的默认值将设为 false。请注意，启用此政策后，现有的未登录个人资料将处于锁定且不可访问的状态。有关详情，请参阅帮助中心文章：https://support.google.com/chrome/a/answer/7572556。
+      如果此政策设为“强制登录浏览器”，系统将向用户显示帐号选择对话框，并且用户必须选择并登录某个帐号才能使用浏览器。这样可确保针对受管理的帐号应用并强制执行与相应帐号关联的政策。默认情况下，此设置会为帐号开启 Brave 同步功能，但同步功能已被网域管理员停用或已通过“SyncDisabled”政策停用的情况除外。BrowserGuestModeEnabled 的默认值将设为 false。请注意，启用此政策后，现有的未登录个人资料将处于锁定且不可访问的状态。有关详情，请参阅帮助中心文章：https://support.google.com/chrome/a/answer/7572556。
 
       如果此政策未设置，用户可以决定是否要启用浏览器登录选项并随意使用该选项。</translation>
 <translation id="3907986150060929099">为公用自助终端设置建议的语言区域</translation>
@@ -1181,11 +1181,11 @@
 <translation id="4298509794364745131">指定可以在 <ph name="PRODUCT_OS_NAME" />锁定屏幕上作为备注应用启用的应用列表。
 
       如果在锁定屏幕上启用首选备注应用，则锁定屏幕将包含用于启动该首选备注应用的界面元素。
-      在启动时，该应用将能够在锁定屏幕顶部创建一个应用窗口，并在锁定屏幕环境中创建数据项（备注）。在主用户会话解锁后，该应用能够将所创建的备注导入到该会话中。目前，系统仅支持在锁定屏幕上启用 Chrome 备注应用。
+      在启动时，该应用将能够在锁定屏幕顶部创建一个应用窗口，并在锁定屏幕环境中创建数据项（备注）。在主用户会话解锁后，该应用能够将所创建的备注导入到该会话中。目前，系统仅支持在锁定屏幕上启用 Brave 备注应用。
 
       如果设置了此政策，则只有当政策的列表值中包含某个应用的扩展程序 ID 时，用户才可以在锁定屏幕上启用该应用。
       因此，将此政策设置为空列表便会在锁定屏幕上完全停用备注功能。
-      请注意，即使此政策包含某个应用 ID，也不意味着用户一定可以在锁定屏幕上将该应用作为备注应用启用；例如，在 Chrome 61 上，可启用哪些应用要遵循该平台的额外限制。
+      请注意，即使此政策包含某个应用 ID，也不意味着用户一定可以在锁定屏幕上将该应用作为备注应用启用；例如，在 Brave 61 上，可启用哪些应用要遵循该平台的额外限制。
 
       如果未设置此政策，则此政策不会限制用户可以在锁定屏幕上启用哪些应用。</translation>
 <translation id="4309640770189628899">是否在 TLS 中启用 DHE 加密套件</translation>
@@ -1286,7 +1286,7 @@
 <translation id="4567137030726189378">允许使用开发者工具</translation>
 <translation id="4600786265870346112">启用大号光标</translation>
 <translation id="4604931264910482931">配置本地消息传递主机黑名单</translation>
-<translation id="4613508646038788144">如果此政策设为 false，系统便会允许第三方软件将可执行代码插入到 Chrome 进程中。如果此政策设为 true 或未设置，系统则会阻止第三方软件将可执行代码插入到 Chrome 进程中。</translation>
+<translation id="4613508646038788144">如果此政策设为 false，系统便会允许第三方软件将可执行代码插入到 Brave 进程中。如果此政策设为 true 或未设置，系统则会阻止第三方软件将可执行代码插入到 Brave 进程中。</translation>
 <translation id="4617338332148204752">跳过“<ph name="PRODUCT_FRAME_NAME" />”中的元标记检查</translation>
 <translation id="4625915093043961294">配置扩展程序安装白名单</translation>
 <translation id="4632343302005518762">允许 <ph name="PRODUCT_FRAME_NAME" />处理列出的内容类型</translation>
@@ -1492,7 +1492,7 @@
           如果黑名单的值为“*”，则意味着所有本地消息传递主机均将列入黑名单（除非这些主机已明确列入白名单）。
 
           如果此政策尚未设置，<ph name="PRODUCT_NAME" />便会加载所有已安装的本地消息传递主机。</translation>
-<translation id="5272684451155669299">如果此政策设为 True，则用户可以使用 Chrome 设备上的硬件，通过 <ph name="ENTERPRISE_PLATFORM_KEYS_API" />（使用 <ph name="CHALLENGE_USER_KEY_FUNCTION" />）远程向隐私认证中心 (Privacy CA) 认证自己的身份。
+<translation id="5272684451155669299">如果此政策设为 True，则用户可以使用 Brave 设备上的硬件，通过 <ph name="ENTERPRISE_PLATFORM_KEYS_API" />（使用 <ph name="CHALLENGE_USER_KEY_FUNCTION" />）远程向隐私认证中心 (Privacy CA) 认证自己的身份。
 
           如果此政策设为 False 或未设置，则会导致无法调用此 API，并返回错误代码。</translation>
 <translation id="5277806246014825877">允许此用户运行 Crostini。
@@ -1517,7 +1517,7 @@
 <translation id="5318185076587284965">允许远程访问主机使用中继服务器</translation>
 <translation id="5323128137188992869">允许使用 <ph name="PRODUCT_NAME" /> 向设备投射内容。
 
-          如果此政策设为 False，用户将无法向其设备投射内容。如果此政策设为 True，用户将能够投射内容。如果此政策未设置，用户将被禁止向已注册的 Chrome 操作系统设备投射内容，但可将内容投射到未注册的设备。</translation>
+          如果此政策设为 False，用户将无法向其设备投射内容。如果此政策设为 True，用户将能够投射内容。如果此政策未设置，用户将被禁止向已注册的 Brave 操作系统设备投射内容，但可将内容投射到未注册的设备。</translation>
 <translation id="5330684698007383292">允许 <ph name="PRODUCT_FRAME_NAME" />处理以下内容类型</translation>
 <translation id="5365946944967967336">在工具栏上显示“主页”按钮</translation>
 <translation id="5366745336748853475">可让您指定一系列网址格式，从而指定要在 SAML 流程托管框架的登录屏幕上自动为哪些网站选择客户端证书（如果相应网站要求提供证书）。例如，配置一个要向 SAML IdP 出示的设备级证书。
@@ -1612,7 +1612,7 @@
       请注意，我们不建议启用此设置，因为这可能会允许绕过 nameConstraints 扩展项（用于限制可针对哪些主机名授权指定的证书）。
 
       如果此政策未设置或设为 false，系统将不会信任包含 DNS 名称或 IP 地址但缺少 subjectAlternativeName 扩展项的服务器证书。</translation>
-<translation id="5581292529942108810">配置与 Chrome Reporting Extension 相关的政策。
+<translation id="5581292529942108810">配置与 Brave Reporting Extension 相关的政策。
 
       仅当已启用 <ph name="CHROME_REPORTING_EXTENSION_NAME" /> 且已使用 <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" /> 注册相应设备后，此政策才有效。</translation>
 <translation id="5584132346604748282">控制 Android Google 位置信息服务</translation>
@@ -1713,7 +1713,7 @@
           如果您设置了此政策，那么用户将可通过启用或停用大号光标暂时覆盖此政策。不过，用户选择的设置并不是永久有效的；只要登录屏幕重新显示或用户在登录屏幕上停止操作一段时间，系统即会恢复默认设置。
 
           如果未设置此政策，则登录屏幕初次显示时会停用大号光标。用户可以随时启用或停用大号光标，并且其在登录屏幕上的启用或停用状态对于各用户均有效。</translation>
-<translation id="5929855945144989709">允许设备在 Chrome 操作系统上运行虚拟机</translation>
+<translation id="5929855945144989709">允许设备在 Brave 操作系统上运行虚拟机</translation>
 <translation id="5932767795525445337">此政策也可用于固定 Android 应用。</translation>
 <translation id="5936622343001856595">在安全搜索被设置为激活的状态下强制在 Google 网页搜索中执行查询，并禁止用户更改此设置。
 
@@ -1879,7 +1879,7 @@
           如果您选择自动检测代理服务器，则系统会向 Android 应用提供脚本网址“http://wpad/wpad.dat”，但不会使用代理自动检测协议的任何其他部分。
 
           如果您选择使用 .pac 代理脚本，则系统会向 Android 应用提供相应的脚本网址。</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">允许网站在导航的同时打开弹出式窗口</translation>
 <translation id="6447948611083700881">已停用备份和恢复服务</translation>
 <translation id="645425387487868471">为 <ph name="PRODUCT_NAME" /> 启用强制登录功能</translation>
@@ -1962,7 +1962,7 @@
 
       <ph name="SYNC_DISABLED_POLICY_NAME" /> 政策会停用所有数据同步，并会替换 RoamingProfileSupportEnabled。</translation>
 <translation id="6731757988219967594">滤除提供成人内容的顶级网站（但不滤除嵌入式 iframe）</translation>
-<translation id="6734521799274931721">控制是否允许在 Chrome 操作系统中使用网络文件共享功能</translation>
+<translation id="6734521799274931721">控制是否允许在 Brave 操作系统中使用网络文件共享功能</translation>
 <translation id="6735701345096330595">强制检查语言拼写</translation>
 <translation id="673699536430961464">您可以通过此设置允许用户在登录其 <ph name="PRODUCT_OS_NAME" />设备后从浏览器窗口的内容区域切换 Google 帐号。
 
@@ -2074,7 +2074,7 @@
 
       注意：在 Android 设备上，网站隔离尚处于实验阶段。随着时间的推移，相关支持将会不断得到完善，但目前它可能会导致性能问题。
 
-      注意：这项政策仅适用于 Android 版 Chrome，且运行 Chrome 的设备一定要有超过 1GB 的 RAM。若要在非 Android 平台上应用此政策，请改用 SitePerProcess。
+      注意：这项政策仅适用于 Android 版 Chrome，且运行 Brave 的设备一定要有超过 1GB 的 RAM。若要在非 Android 平台上应用此政策，请改用 SitePerProcess。
       </translation>
 <translation id="6922040258551909078">
       如果此政策设为 true，那么当云政策与机器政策冲突时，即会以云政策为准。
@@ -2139,9 +2139,9 @@
 
       如果此政策设为 false 或未设置，<ph name="PRODUCT_NAME" /> 将不能收集或上传此类日志。
 
-      这些日志中包含一些诊断信息，例如 RTP 数据包的收发时间和大小、网络拥堵情况反馈，以及与语音和视频帧的时间和质量相关的元数据。在调试 Chrome 中的语音或视频通话问题时，这些信息非常有用。这些日志不包含通话的语音或视频内容。
+      这些日志中包含一些诊断信息，例如 RTP 数据包的收发时间和大小、网络拥堵情况反馈，以及与语音和视频帧的时间和质量相关的元数据。在调试 Brave 中的语音或视频通话问题时，这些信息非常有用。这些日志不包含通话的语音或视频内容。
 
-      这项由 Chrome 进行的数据收集操作只能由 Google 的网络服务（例如 Google 环聊或 Google Meet）触发。
+      这项由 Brave 进行的数据收集操作只能由 Google 的网络服务（例如 Google 环聊或 Google Meet）触发。
 
       Google 可能会通过会话 ID 将这些日志与 Google 服务自身收集的其他日志相关联，以便更轻松地进行调试。
       </translation>
@@ -2216,11 +2216,11 @@
 
           如果未设置此政策，则登录屏幕初次显示时会停用放大镜。用户可以随时启用或停用放大镜，并且其在登录屏幕上的启用或停用状态对各用户均有效。</translation>
 <translation id="7249828445670652637">允许 ARC 应用使用 <ph name="PRODUCT_OS_NAME" /> CA 证书</translation>
-<translation id="725322441686394886">如果此政策未设置，当 Chrome 清理功能检测到垃圾软件时，可能会按照 SafeBrowsingExtendedReportingEnabled 设置的政策向 Google 报告与此项扫描相关的元数据。然后，Chrome 清理功能会询问用户是否要清理垃圾软件。用户可以选择与 Google 分享清理结果，以协助 Google 日后更好地检测垃圾软件。这些结果包含文件元数据、自动安装的扩展程序以及注册表键（有关说明，请参见《Chrome 隐私权白皮书》）。
+<translation id="725322441686394886">如果此政策未设置，当 Brave 清理功能检测到垃圾软件时，可能会按照 SafeBrowsingExtendedReportingEnabled 设置的政策向 Google 报告与此项扫描相关的元数据。然后，Chrome 清理功能会询问用户是否要清理垃圾软件。用户可以选择与 Google 分享清理结果，以协助 Google 日后更好地检测垃圾软件。这些结果包含文件元数据、自动安装的扩展程序以及注册表键（有关说明，请参见《Chrome 隐私权白皮书》）。
 
-      如果此政策处于停用状态，当 Chrome 清理功能检测到垃圾软件时，则不会向 Google 报告与此项扫描相关的元数据，并且会覆盖 SafeBrowsingExtendedReportingEnabled 设置的任何政策。Chrome 清理功能会询问用户是否要清理垃圾软件，但不会向 Google 报告清理结果，也不会为用户提供用于向 Google 报告清理结果的选项。
+      如果此政策处于停用状态，当 Brave 清理功能检测到垃圾软件时，则不会向 Google 报告与此项扫描相关的元数据，并且会覆盖 SafeBrowsingExtendedReportingEnabled 设置的任何政策。Chrome 清理功能会询问用户是否要清理垃圾软件，但不会向 Google 报告清理结果，也不会为用户提供用于向 Google 报告清理结果的选项。
 
-      如果此政策处于启用状态，当 Chrome 清理功能检测到垃圾软件时，可能会按照 SafeBrowsingExtendedReportingEnabled 设置的政策向 Google 报告与此项扫描相关的元数据。Chrome 清理功能会询问用户是否要清理垃圾软件，并会向 Google 报告清理结果，而且不会为用户提供用于禁止向 Google 报告清理结果的选项。
+      如果此政策处于启用状态，当 Brave 清理功能检测到垃圾软件时，可能会按照 SafeBrowsingExtendedReportingEnabled 设置的政策向 Google 报告与此项扫描相关的元数据。Chrome 清理功能会询问用户是否要清理垃圾软件，并会向 Google 报告清理结果，而且不会为用户提供用于禁止向 Google 报告清理结果的选项。
 
       此政策不适用于未加入 <ph name="MS_AD_NAME" /> 网域的 Windows 实例。</translation>
 <translation id="7258823566580374486">启用远程访问主机的屏蔽设置</translation>
@@ -2274,7 +2274,7 @@
 <translation id="7329968046053403405">指定由支持 <ph name="HTTP_NEGOTIATE" />身份验证（例如 Kerberos 身份验证）的 Android 身份验证应用提供的帐号所属的类型。您应该可以从身份验证应用的供应商处获得此信息。如需更多详细信息，请访问 https://goo.gl/hajyfN。
 
           如果此设置未指定，Android 设备上将停用 <ph name="HTTP_NEGOTIATE" />身份验证。</translation>
-<translation id="7331962793961469250">设置为“True”时，新标签页中不会显示 Chrome 网上应用店应用的推广内容。如果将此选项设置为“False”或不做任何设置，新标签页中就会显示 Chrome 网上应用店应用的推广内容。</translation>
+<translation id="7331962793961469250">设置为“True”时，新标签页中不会显示 Brave 网上应用店应用的推广内容。如果将此选项设置为“False”或不做任何设置，新标签页中就会显示 Brave 网上应用店应用的推广内容。</translation>
 <translation id="7332963785317884918">此政策已被弃用。<ph name="PRODUCT_OS_NAME" />将始终使用“RemoveLRU”清理策略。
 
       控制<ph name="PRODUCT_OS_NAME" />设备上的自动清理行为。当可用磁盘空间的大小达到设定的临界值时，系统会触发自动清理，以便释放部分磁盘空间。
@@ -2289,7 +2289,7 @@
 <translation id="7343497214039883642">设备的企业打印机配置文件</translation>
 <translation id="7349338075015720646">以列表形式指定在无需用户干预的情况下静默安装的网站，用户无法卸载或停用这些网站。
 
-      此政策的每个列表项都是一个包含以下两个成员的对象：“url”和“launch_container”。“url”应该是要安装的网络应用的网址，“launch_container”应该是“窗口”或“标签页”（用于指示网络应用在安装后的打开方式）。如果省略“launch_container”，当应用被 Chrome 视为渐进式网页应用时，将在窗口中启动，否则将在标签页中打开。</translation>
+      此政策的每个列表项都是一个包含以下两个成员的对象：“url”和“launch_container”。“url”应该是要安装的网络应用的网址，“launch_container”应该是“窗口”或“标签页”（用于指示网络应用在安装后的打开方式）。如果省略“launch_container”，当应用被 Brave 视为渐进式网页应用时，将在窗口中启动，否则将在标签页中打开。</translation>
 <translation id="735902178936442460">此政策可控制是否报告可用于识别设备的信息，例如设备名称和网络地址。
 
       当此政策设为 True 或未设置时，系统会收集可用于识别设备的信息。
@@ -2302,9 +2302,9 @@
 
       要详细了解安全浏览功能，请访问 https://developers.google.com/safe-browsing。</translation>
 <translation id="737655323154569539">限制打印页面大小。如果未设置此政策或将其留空，则会被视为无限制。</translation>
-<translation id="7417728346887499628">如果此政策处于停用状态，Chrome 清理功能将无法扫描系统以检测是否存在垃圾软件，也无法执行清理操作。此外，系统将禁止通过 chrome://settings/cleanup 手动触发 Chrome 清理功能。
+<translation id="7417728346887499628">如果此政策处于停用状态，Chrome 清理功能将无法扫描系统以检测是否存在垃圾软件，也无法执行清理操作。此外，系统将禁止通过 chrome://settings/cleanup 手动触发 Brave 清理功能。
 
-      如果此政策处于启用状态或未设置，Chrome 清理功能将会定期扫描系统以检测是否存在垃圾软件，并会在发现任何垃圾软件时询问用户是否要将其移除。此外，系统将允许通过 chrome://settings 手动触发 Chrome 清理功能。
+      如果此政策处于启用状态或未设置，Chrome 清理功能将会定期扫描系统以检测是否存在垃圾软件，并会在发现任何垃圾软件时询问用户是否要将其移除。此外，系统将允许通过 chrome://settings 手动触发 Brave 清理功能。
 
       此政策不适用于未加入 <ph name="MS_AD_NAME" /> 网域的 Windows 实例。</translation>
 <translation id="7417972229667085380">演示模式下待机延迟时间的调整幅度（百分比）（已弃用）</translation>
@@ -2541,7 +2541,7 @@
 
       注意：在 Android 设备上，网站隔离尚处于实验阶段。随着时间的推移，相关支持将会不断得到完善，但目前它可能会导致性能问题。
 
-      注意：这项政策仅适用于 Android 版 Chrome，且 Chrome 运行所在的设备一定要有超过 1GB 的 RAM。若要在非 Android 平台上应用此政策，请改用 IsolateOrigins。
+      注意：这项政策仅适用于 Android 版 Chrome，且 Brave 运行所在的设备一定要有超过 1GB 的 RAM。若要在非 Android 平台上应用此政策，请改用 IsolateOrigins。
       </translation>
 <translation id="7953256619080733119">托管用户手动管理的例外主机</translation>
 <translation id="7961779417826583251">对于指定的一系列旧版证书授权机构，不强制执行证书透明化要求</translation>
@@ -2549,7 +2549,7 @@
 <translation id="7976157349247117979"><ph name="PRODUCT_NAME" /> 目标名称</translation>
 <translation id="7980227303582973781">无特殊限制</translation>
 <translation id="7985242821674907985"><ph name="PRODUCT_NAME" /></translation>
-<translation id="7992136759457836904">让您能够控制是否允许在 Chrome 操作系统上运行虚拟机。
+<translation id="7992136759457836904">让您能够控制是否允许在 Brave 操作系统上运行虚拟机。
 
       如果此政策设为 True，相应设备将能够运行虚拟机。
       如果此政策设为 False，相应设备将无法运行虚拟机。
@@ -2611,7 +2611,7 @@
 
       如果此政策设为False，则不报告接口列表。</translation>
 <translation id="8141795997560411818">此政策不会阻止用户使用 Android 版“Google 云端硬盘”应用。如果您想阻止对 Google 云端硬盘的访问，则也应禁止安装 Android 版“Google 云端硬盘”应用。</translation>
-<translation id="8146727383888924340">允许用户通过注册 Chrome 操作系统来兑换优惠</translation>
+<translation id="8146727383888924340">允许用户通过注册 Brave 操作系统来兑换优惠</translation>
 <translation id="8148785525797916822">禁止显示当<ph name="PRODUCT_NAME" />在不再受支持的计算机或操作系统上运行时出现的警告。</translation>
 <translation id="8148901634826284024">启用高反差模式辅助功能。
 
@@ -2651,7 +2651,7 @@
       如果未设置此策略，“<ph name="PRODUCT_OS_NAME" />”将使用设备本地帐号的电子邮件帐号 ID 作为登录屏幕上的显示名称。
 
       普通用户帐号忽略此策略。</translation>
-<translation id="8259375588339409826">Chromium 和 Google Chrome 支持同一组政策。请注意，本文档中可能包含未发布的政策（即它们的“支持的环境”条目是指尚未发布的 <ph name="PRODUCT_NAME" /> 版本），这些政策可能会被随时更改或撤消，恕不另行通知；对于这些政策，我们也不会提供任何类型的保证（包括安全性和隐私权方面的保证）。
+<translation id="8259375588339409826">Brave 和 Brave 支持同一组政策。请注意，本文档中可能包含未发布的政策（即它们的“支持的环境”条目是指尚未发布的 <ph name="PRODUCT_NAME" /> 版本），这些政策可能会被随时更改或撤消，恕不另行通知；对于这些政策，我们也不会提供任何类型的保证（包括安全性和隐私权方面的保证）。
 
 这些政策仅适用于配置您单位内部所用的 <ph name="PRODUCT_NAME" /> 实例。在您单位外部（例如在某款公开发布的程序中）使用这些政策的软件将被视为恶意软件，并且很可能会被 Google 和防病毒软件供应商标记为恶意软件。
 
@@ -2665,7 +2665,7 @@
 
       如果将此政策设置为 False，则系统会停用安全功能，且 PAC 脚本将可暗中查看完整的 https:// 网址。此设置会应用于所有 PAC 脚本（无论这些脚本的来源为何），其中包括通过不安全的传输过程获取的 PAC 脚本，或以不安全的方式通过 WPAD 发现的 PAC 脚本。
 
-      此政策默认设置为 True（安全功能已启用），但 Chrome 操作系统企业版用户除外（对于这些用户，此政策目前默认设置为 False）。
+      此政策默认设置为 True（安全功能已启用），但 Brave 操作系统企业版用户除外（对于这些用户，此政策目前默认设置为 False）。
 
       建议您将此政策设置为 True。唯一需要将此政策设置为 False 的情况是，设置为 True 会导致与现有 PAC 脚本出现兼容性问题。
 
@@ -2694,7 +2694,7 @@
 <translation id="8339420913453596618">已停用第二重因素</translation>
 <translation id="8344454543174932833">首次运行时，从默认浏览器导入书签</translation>
 <translation id="8359734107661430198">从 2008 年 9 月 2 日开始启用 ExampleDeprecatedFeature API</translation>
-<translation id="8367209241899435947">在 Windows 系统上启用 Chrome 清理功能</translation>
+<translation id="8367209241899435947">在 Windows 系统上启用 Brave 清理功能</translation>
 <translation id="8369602308428138533">使用交流电源供电时的屏幕关闭延迟时间</translation>
 <translation id="8382184662529825177">允许为设备使用远程认证来保护内容</translation>
 <translation id="838870586332499308">启用数据漫游</translation>
@@ -2770,10 +2770,10 @@
 
       如果此政策设为 true 或未设置，所有用户都将能够使用 ARC（除非通过其他方式停用了 ARC）。
 
-      系统只会在未运行 ARC 时（例如启动 Chrome 操作系统时）应用对此政策做出的更改。</translation>
+      系统只会在未运行 ARC 时（例如启动 Brave 操作系统时）应用对此政策做出的更改。</translation>
 <translation id="8631434304112909927">到版本 <ph name="UNTIL_VERSION" /> 为止</translation>
 <translation id="863319402127182273">对于 Android 应用，此政策仅会影响内置摄像头。当此政策设为 true 时，系统会针对所有 Android 应用（无一例外）停用摄像头。</translation>
-<translation id="8649763579836720255">Chrome 操作系统设备可使用远程凭证（经验证的访问凭证）来获取由 Chrome OS CA 颁发的证书，以证明该设备符合播放受保护内容的条件。此过程涉及向 Chrome OS CA 发送用于唯一标识设备的硬件背书信息。
+<translation id="8649763579836720255">Brave 操作系统设备可使用远程凭证（经验证的访问凭证）来获取由 Chrome OS CA 颁发的证书，以证明该设备符合播放受保护内容的条件。此过程涉及向 Chrome OS CA 发送用于唯一标识设备的硬件背书信息。
 
           如果该设置为 False，设备将不使用远程凭证来保护内容，并且设备可能无法播放受保护内容。
 
@@ -3004,7 +3004,7 @@
       如果此政策设为“ClientCertificate”（值是 1），对于所有通过 SAML 登录的新增用户，系统都会使用客户端证书（而非密码）来验证其身份，并会使用相应的加密密钥来保护与其相关的本地缓存数据。例如，此设置允许配置基于智能卡的用户身份验证机制（请注意，智能卡中间件应用必须通过 DeviceLoginScreenAppInstallList 政策进行安装）。
 
       此政策仅会影响那些使用 SAML 验证身份的用户。</translation>
-<translation id="9213347477683611358">配置在无任何用户登录设备的情况下显示在登录屏幕上的设备级壁纸图片。要设置此政策，请指定可供 Chrome 操作系统设备下载相应壁纸图片的网址，并指定用于验证下载内容是否完整的加密哈希值。图片必须是 JPEG 格式，且大小不得超过 16MB。网址必须可供直接访问，而无需进行任何身份验证。系统会下载并缓存相应的壁纸图片。网址或哈希值只要有任何变化，系统即会重新下载壁纸图片。
+<translation id="9213347477683611358">配置在无任何用户登录设备的情况下显示在登录屏幕上的设备级壁纸图片。要设置此政策，请指定可供 Brave 操作系统设备下载相应壁纸图片的网址，并指定用于验证下载内容是否完整的加密哈希值。图片必须是 JPEG 格式，且大小不得超过 16MB。网址必须可供直接访问，而无需进行任何身份验证。系统会下载并缓存相应的壁纸图片。网址或哈希值只要有任何变化，系统即会重新下载壁纸图片。
 
       指定此政策时，请使用 JSON 格式的字符串来表示网址和哈希值，例如：
       {

@@ -371,7 +371,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
 <translation id="2073552873076775140">Tillat pålogging i <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Bruk maskinvareakselerasjon når det er tilgjengelig</translation>
 <translation id="2077273864382355561">Forsinkelse for avslått skjerm når enheten kjører på batteristrøm</translation>
-<translation id="2082205219176343977">Konfigurer minimum tillatt Chrome-versjon for enheten.</translation>
+<translation id="2082205219176343977">Konfigurer minimum tillatt Brave-versjon for enheten.</translation>
 <translation id="209586405398070749">Stabil kanal</translation>
 <translation id="2098658257603918882">Aktiver rapportering av bruk og programstopprelaterte data</translation>
 <translation id="2111016292707172233">Gjør «Trykk for å søke» tilgjengelig i innholdsvisningen i <ph name="PRODUCT_NAME" />.
@@ -487,13 +487,13 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
 
           Denne regelen kommer foran en <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />-regel som kan være i konflikt med den. Hvis en app eller utvidelse som tidligere ble tvangsinstallert, fjernes fra denne listen, avinstalleres den automatisk av <ph name="PRODUCT_NAME" />.
 
-          For Windows-forekomster som ikke er koblet til et <ph name="MS_AD_NAME" />-domene, er tvungen installasjon begrenset til apper og utvidelser oppført i Chrome Nettmarked.
+          For Windows-forekomster som ikke er koblet til et <ph name="MS_AD_NAME" />-domene, er tvungen installasjon begrenset til apper og utvidelser oppført i Brave Nettmarked.
 
           Merk at kildekoden for alle utvidelser kan endres av brukere via utviklerverktøyene (noe som potensielt kan ødelegge funksjonaliteten for utvidelsen). Hvis dette er noe som skaper bekymring, er det best å angi <ph name="DEVELOPER_TOOLS_POLICY_NAME" />-regelen.
 
-          Listeelementene i regelen er strenger som inneholder en utvidelses-ID og en nettadresse for oppdatering, atskilt med semikolon (<ph name="SEMICOLON" />). Utvidelses-ID-en er strengen på 32 tegn du for eksempel finner i <ph name="CHROME_EXTENSIONS_LINK" /> når du er i utviklermodus. Nettadressen for oppdatering skal peke til oppdateringsmanifestet i XML-format som beskrevet i <ph name="LINK_TO_EXTENSION_DOC1" />. Som standard brukes nettadressen for oppdatering av Chrome Nettmarked (som nå er «https://clients2.google.com/service/update2/crx»). Merk at nettadressen for oppdatering som er angitt i denne regelen, bare brukes for første installasjon – senere oppdateringer av utvidelsen bruker nettadressen for oppdatering som er oppgitt i utvidelsens manifest. Merk også at angivelse av nettadressen for oppdatering var obligatorisk i <ph name="PRODUCT_NAME" />-versjoner til og med 67.
+          Listeelementene i regelen er strenger som inneholder en utvidelses-ID og en nettadresse for oppdatering, atskilt med semikolon (<ph name="SEMICOLON" />). Utvidelses-ID-en er strengen på 32 tegn du for eksempel finner i <ph name="CHROME_EXTENSIONS_LINK" /> når du er i utviklermodus. Nettadressen for oppdatering skal peke til oppdateringsmanifestet i XML-format som beskrevet i <ph name="LINK_TO_EXTENSION_DOC1" />. Som standard brukes nettadressen for oppdatering av Brave Nettmarked (som nå er «https://clients2.google.com/service/update2/crx»). Merk at nettadressen for oppdatering som er angitt i denne regelen, bare brukes for første installasjon – senere oppdateringer av utvidelsen bruker nettadressen for oppdatering som er oppgitt i utvidelsens manifest. Merk også at angivelse av nettadressen for oppdatering var obligatorisk i <ph name="PRODUCT_NAME" />-versjoner til og med 67.
 
-          <ph name="EXTENSION_POLICY_EXAMPLE" /> installerer for eksempel <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />-appen fra standardnettadressen for oppdatering for Chrome Nettmarked. Hvis du vil ha mer informasjon om verter for utvidelser, kan du se: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          <ph name="EXTENSION_POLICY_EXAMPLE" /> installerer for eksempel <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" />-appen fra standardnettadressen for oppdatering for Brave Nettmarked. Hvis du vil ha mer informasjon om verter for utvidelser, kan du se: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Hvis denne regelen ikke angis, installeres ingen apper eller utvidelser automatisk, og brukeren kan avinstallere hvilken som helst app eller utvidelse i <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> kan bruke en Google-nett-tjeneste for å få bukt med stavefeil. Hvis denne innstillingen er aktivert, så blir denne tjenesten alltid brukt. Hvis innstillinger er deaktivert, forblir tjenesten ubrukt.
@@ -676,7 +676,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
 <translation id="268577405881275241">Aktiver proxy-tjenerfunksjonen for datakomprimering</translation>
 <translation id="2693108589792503178">Konfigurer nettadressen for endring av passord.</translation>
 <translation id="2731627323327011390">Slå av bruken av <ph name="PRODUCT_OS_NAME" />-sertifikater for ARC-apper</translation>
-<translation id="2742843273354638707">Skjul Chrome Nettmarked-appen og linken fra ny fane-siden og <ph name="PRODUCT_OS_NAME" /> OS-appvelgeren.
+<translation id="2742843273354638707">Skjul Brave Nettmarked-appen og linken fra ny fane-siden og <ph name="PRODUCT_OS_NAME" /> OS-appvelgeren.
 
       Hvis denne regelen slås på («true»), skjules ikonene.
 
@@ -795,7 +795,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
           Hvis denne retningslinjen ikke angis, brukes AllowJavaScript, og brukeren kan endre på dette.</translation>
 <translation id="3038323923255997294">Fortsett å kjøre bakgrunnsprogrammer når <ph name="PRODUCT_NAME" /> er lukket</translation>
 <translation id="3046192273793919231">Send nettverkspakker til administreringstjeneren for å overvåke nettstatusen</translation>
-<translation id="3047732214002457234">Kontrollerer hvordan Opprydning for Chrome rapporterer data til Google</translation>
+<translation id="3047732214002457234">Kontrollerer hvordan Opprydning for Brave rapporterer data til Google</translation>
 <translation id="3048744057455266684">Hvis denne innstillingen er angitt og en nettadresse som blir foreslått av søkefeltet inneholder denne parameteren i søkestrengen eller fragmentidentifikatoren, viser forslaget søkeordene og søkeleverandøren i stedet for søkenettadressen.
 
           Denne innstillingen er valgfri. hvis den ikke er angitt, forekommer det ingen søkeordserstatning.
@@ -1111,13 +1111,13 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
       Hvis du ikke angir denne regelen, bruker <ph name="PRODUCT_NAME" /> den vanlige standardkatalogen (plattformspesifikk).
 
       Se https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables for en liste over variabler som kan brukes.</translation>
-<translation id="3904459740090265495">Denne regelen styrer påloggingsatferden til nettleseren. Du kan spesifisere hvorvidt brukeren kan logge på <ph name="PRODUCT_NAME" /> med kontoen sin og bruke kontorelaterte tjenester som Chrome-synkronisering.
+<translation id="3904459740090265495">Denne regelen styrer påloggingsatferden til nettleseren. Du kan spesifisere hvorvidt brukeren kan logge på <ph name="PRODUCT_NAME" /> med kontoen sin og bruke kontorelaterte tjenester som Brave-synkronisering.
 
-      Hvis regelen er angitt som «Deaktiver nettleserpålogging», kan ikke brukeren logge på nettleseren og bruke kontobaserte tjenester. Da er det ikke mulig å bruke funksjoner på nettlesernivå, for eksempel Chrome-synkronisering, og slike funksjoner er utilgjengelige. Hvis brukeren var pålogget da regelen ble deaktivert, logges vedkommende av neste gang Chrome startes, men lokale profildata som bokmerker, passord osv. beholdes. Brukeren kan fortsatt logge på og bruke Google-nettjenester som Gmail.
+      Hvis regelen er angitt som «Deaktiver nettleserpålogging», kan ikke brukeren logge på nettleseren og bruke kontobaserte tjenester. Da er det ikke mulig å bruke funksjoner på nettlesernivå, for eksempel Brave-synkronisering, og slike funksjoner er utilgjengelige. Hvis brukeren var pålogget da regelen ble deaktivert, logges vedkommende av neste gang Brave startes, men lokale profildata som bokmerker, passord osv. beholdes. Brukeren kan fortsatt logge på og bruke Google-nettjenester som Gmail.
 
-      Hvis regelen er angitt som «Aktiver nettleserpålogging», kan brukeren logge på nettleseren og logges på nettleseren automatisk når vedkommende logger på Google-nettjenester som Gmail. Når brukeren er logget på nettleseren, lagrer nettleseren brukerens kontoinformasjon. Men dette betyr ikke at Chrome-synkronisering er på som standard. Brukeren må velge å bruke denne funksjonen. Når denne regelen aktiveres, kan ikke brukeren slå av innstillingen som styrer nettleserpålogging. For å styre hvorvidt Chrome-synkronisering skal være tilgjengelig, bruk regelen «SyncDisabled».
+      Hvis regelen er angitt som «Aktiver nettleserpålogging», kan brukeren logge på nettleseren og logges på nettleseren automatisk når vedkommende logger på Google-nettjenester som Gmail. Når brukeren er logget på nettleseren, lagrer nettleseren brukerens kontoinformasjon. Men dette betyr ikke at Brave-synkronisering er på som standard. Brukeren må velge å bruke denne funksjonen. Når denne regelen aktiveres, kan ikke brukeren slå av innstillingen som styrer nettleserpålogging. For å styre hvorvidt Brave-synkronisering skal være tilgjengelig, bruk regelen «SyncDisabled».
 
-      Hvis regelen er angitt som «Tving nettleserpålogging», vises brukeren en dialogboks for kontovalg og må velge og logge på en konto for å bruke nettleseren. Dette sikrer at reglene som er knyttet til kontoen, brukes og håndheves for administrerte kontoer. Dette slår på Chrome-synkronisering for kontoen som standard, med mindre synkronisering er deaktivert av domeneadministratoren eller med regelen «SyncDisabled». Standardverdien for BrowserGuestModeEnabled er satt til «False» (usann). Merk at eksisterende, usignerte profiler låses og gjøres utilgjengelige når denne regelen aktiveres. For mer informasjon, se denne brukerstøtteartikkelen: https://support.google.com/chrome/a/answer/7572556.
+      Hvis regelen er angitt som «Tving nettleserpålogging», vises brukeren en dialogboks for kontovalg og må velge og logge på en konto for å bruke nettleseren. Dette sikrer at reglene som er knyttet til kontoen, brukes og håndheves for administrerte kontoer. Dette slår på Brave-synkronisering for kontoen som standard, med mindre synkronisering er deaktivert av domeneadministratoren eller med regelen «SyncDisabled». Standardverdien for BrowserGuestModeEnabled er satt til «False» (usann). Merk at eksisterende, usignerte profiler låses og gjøres utilgjengelige når denne regelen aktiveres. For mer informasjon, se denne brukerstøtteartikkelen: https://support.google.com/chrome/a/answer/7572556.
 
       Hvis denne regelen ikke er angitt, kan brukeren velge om alternativet for nettleserpålogging skal aktiveres, og bruke det som vedkommende selv vil.</translation>
 <translation id="3907986150060929099">Spesifiser de anbefalte lokalitetene for offentlige økter</translation>
@@ -1243,11 +1243,11 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
 <translation id="4298509794364745131">Angir en liste over apper som kan aktiveres som notatapper på låseskjermen for <ph name="PRODUCT_OS_NAME" />.
 
       Hvis den foretrukne notatappen er aktivert på låseskjermen, inneholder låseskjermen et UI-element for å starte den aktuelle appen.
-      Når appen er startet, kan den opprette et appvindu øverst på låseskjermen og opprette dataelementer (notater) når skjermen er låst. Appen kan også importere opprettede notater til den primære brukerøkten når den aktuelle økten er låst opp. For øyeblikket støttes bare Chrome-notatapper på låseskjermen.
+      Når appen er startet, kan den opprette et appvindu øverst på låseskjermen og opprette dataelementer (notater) når skjermen er låst. Appen kan også importere opprettede notater til den primære brukerøkten når den aktuelle økten er låst opp. For øyeblikket støttes bare Brave-notatapper på låseskjermen.
 
       Når regelen er angitt, kan brukeren bare aktivere en app på låseskjermen hvis utvidelses-ID-en til den aktuelle appen er oppført i listeverdien for regelen.
       Dette betyr at hvis en tom liste angis for regelen, blir notater på startskjermen fullstendig deaktivert.
-      Vær oppmerksom på at selv når regelen inneholder en app-ID, er det ikke sikkert at brukeren kan aktivere den aktuelle appen som en notatapp på låseskjermen. I Chrome 61 er for eksempel settet med tilgjengelige apper også begrenset av plattformen.
+      Vær oppmerksom på at selv når regelen inneholder en app-ID, er det ikke sikkert at brukeren kan aktivere den aktuelle appen som en notatapp på låseskjermen. I Brave 61 er for eksempel settet med tilgjengelige apper også begrenset av plattformen.
 
     Hvis regelen ikke angis, innfører den ikke noen begrensinger for hvilke apper brukeren kan aktivere på låseskjermen.</translation>
 <translation id="4309640770189628899">Definerer om DHE-chifferserier i TLS er slått på</translation>
@@ -1490,7 +1490,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
           Verdien må være en matrise med JSON-ordlister i strengformat. Hver ordliste må ha formen { "mønster": "$URL_PATTERN", "filter" : $FILTER }, der $URL_PATTERN er et mønster for spesifisering av innhold. $FILTER begrenser klientsertifikatene nettleseren automatisk velger fra. Uavhengig av hvilket filter som brukes, blir det bare valgt sertifikater som stemmer overens med tjenerens sertifikatforespørsel. Hvis $FILTER har formen { "ISSUER": { "CN": "$ISSUER_CN" } }, velges det bare klientsertifikater som er utstedt av et sertifikat med CommonName $ISSUER_CN. Hvis $FILTER er den tomme katalogen {}, brukes det ikke ytterligere begrensninger for valg av klientsertifikater.
 
           Hvis du ikke spesifiserer denne regelen, blir det ikke valgt klientsertifikat automatisk for noen nettsteder.</translation>
-<translation id="4978405676361550165">Hvis regelen «OffHours» er angitt, ignoreres de spesifiserte enhetsreglene (og standardverdiene for disse reglene brukes i stedet) i løpet av de definerte tidsintervallene. Enhetsreglene brukes på nytt av Chrome hver gang perioden for «OffHours» begynner og slutter. Brukeren blir varslet og tvunget til å logge av når «OffHours»-perioden slutter og enhetsinnstillingene for regelen blir endret (for eksempel når brukeren er logget på med en konto som ikke er tillatt).</translation>
+<translation id="4978405676361550165">Hvis regelen «OffHours» er angitt, ignoreres de spesifiserte enhetsreglene (og standardverdiene for disse reglene brukes i stedet) i løpet av de definerte tidsintervallene. Enhetsreglene brukes på nytt av Brave hver gang perioden for «OffHours» begynner og slutter. Brukeren blir varslet og tvunget til å logge av når «OffHours»-perioden slutter og enhetsinnstillingene for regelen blir endret (for eksempel når brukeren er logget på med en konto som ikke er tillatt).</translation>
 <translation id="4980635395568992380">Datatype:</translation>
 <translation id="4983201894483989687">Tillat kjøring av foreldede programtillegg</translation>
 <translation id="4988291787868618635">Handling som skal utføres når inaktivitetsforsinkelsen blir overskredet</translation>
@@ -1575,7 +1575,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
           En svartelisteverdi på «*» betyr at alle innebygde meldingsverter er svartelistet, med mindre de er eksplistitt oppført på godkjenningslisten.
 
           Hvis denne innstillingen ikke angis, laster <ph name="PRODUCT_NAME" /> inn alle installerte innebygde verter.</translation>
-<translation id="5272684451155669299">Hvis denne er angitt som «true» (sann), kan brukerne bruke maskinvaren på Chrome-enheter til å attestere enhetenes identitet eksternt til sertifiseringsinstansen for personvern via <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> ved bruk av <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Hvis denne er angitt som «true» (sann), kan brukerne bruke maskinvaren på Brave-enheter til å attestere enhetenes identitet eksternt til sertifiseringsinstansen for personvern via <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> ved bruk av <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Hvis den er angitt som «false» (usann), eller hvis den ikke er angitt, kan ikke API-et kalles opp – i stedet vises en feilkode.</translation>
 <translation id="5277806246014825877">Gi denne brukeren tillatelse til å kjøre Crostini.
@@ -1703,7 +1703,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
       Vær oppmerksom på at dette ikke anbefales, ettersom det gjør det mulig å omgå nameConstraints-utvidelsen som begrenser vertsnavnene et gitt sertifikat kan autoriseres for
 
       Hvis denne innstillingen ikke angis, eller hvis den angis som «false» (usann), klareres ikke tjenersertifikater som mangler en subjectAlternativeName-utvidelse og har enten et DNS-navn eller en IP-adresse.</translation>
-<translation id="5581292529942108810">Konfigurer regler knyttet til Chrome Reporting Extension.
+<translation id="5581292529942108810">Konfigurer regler knyttet til Brave Reporting Extension.
 
       Disse reglene gjelder bare når <ph name="CHROME_REPORTING_EXTENSION_NAME" /> er slått på og maskinen er registrert med <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Kontrollér Googles posisjonstjenester for Android</translation>
@@ -1764,7 +1764,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
       Hvis regelen er slått av, starter nedlastinger umiddelbart, og brukeren blir ikke spurt hvor filen skal lagres.
       Hvis regelen ikke er spesifisert, kan brukeren endre denne innstillingen.
       </translation>
-<translation id="5835124959204887277">Spesifiserer nettadresser og domener som det ikke blir vist noen forespørsel for når det blir bedt om attestsertifikater fra sikkerhetsnøkler. I tillegg blir et signal sendt til sikkerhetsnøkkelen. Dette signalet indikerer at enkeltattester kan brukes. Uten dette kommer brukere til å få opp en forespørsel i Chrome v65+ når nettsteder ber om attest for sikkerhetsnøkler.
+<translation id="5835124959204887277">Spesifiserer nettadresser og domener som det ikke blir vist noen forespørsel for når det blir bedt om attestsertifikater fra sikkerhetsnøkler. I tillegg blir et signal sendt til sikkerhetsnøkkelen. Dette signalet indikerer at enkeltattester kan brukes. Uten dette kommer brukere til å få opp en forespørsel i Brave v65+ når nettsteder ber om attest for sikkerhetsnøkler.
 
       Nettadresser (for eksempel https://example.com/some/path) samsvarer bare som U2F-app-ID-er. Domener (for eksempel example.com) samsvarer bare som webauthn RP-ID-er. For å dekke både U2F- og webauthn-API-er for et bestemt nettsted må derfor både app-ID-nettadressen og domenet listes opp.</translation>
 <translation id="5835412847081687053">Konfigurer tillatte lokaliteter i brukerøkter</translation>
@@ -1952,7 +1952,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
 <translation id="6282799760374509080">Tillat eller avvis lydopptak</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Slå på autofullføring av domenenavn ved brukerpålogging</translation>
-<translation id="6315673513957120120">Brukerne ser advarselssider i Chrome når de åpner nettsteder med SSL-feil. Som standard, eller når denne regelen er satt til true (sann), kan brukerne klikke seg forbi disse advarselssidene.
+<translation id="6315673513957120120">Brukerne ser advarselssider i Brave når de åpner nettsteder med SSL-feil. Som standard, eller når denne regelen er satt til true (sann), kan brukerne klikke seg forbi disse advarselssidene.
       Hvis denne regelen settes til false (usann), kan ikke brukerne klikke seg forbi advarselssider.</translation>
 <translation id="6353901068939575220">Angir parameterene som brukes når du utfører søker på en nettadresse med POST. De består av kommainndelte navn og verdi-par. Hvis en verdi er et malparameter, som {searchTerms} i eksempelet ovenfor, blir den erstattet med virkelig søkeordsdata.
 
@@ -1983,7 +1983,7 @@ Hvis verdiene som er angitt av de to reglene, ikke samsvarer, kan det oppstå en
           Hvis du velger å finne proxy-tjeneren automatisk, får Android-apper skriptnettadressen «http://wpad/wpad.dat». Ingen annen del av protokollen for automatisk gjenkjennelse brukes.
 
           Hvis du velger PAC-skript for proxy-tjenere, får Android-apper skriptnettadressen.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Tillat at nettsteder navigerer og åpner forgrunnsvinduer samtidig</translation>
 <translation id="6447948611083700881">Sikkerhetskopiering og gjenoppretting er deaktivert</translation>
 <translation id="645425387487868471">Slå på tvunget pålogging for <ph name="PRODUCT_NAME" /></translation>
@@ -2188,7 +2188,7 @@ Minneinformasjon blir uansett rapportert til siden, uavhengig av verdien for alt
 
       MERK: Nettstedsisolering er på forsøksstadiet på Android. Det kan foreløpig forårsake ytelsesproblemer, men kommer til å bli mer kompatibel.
 
-      MERK: Denne regelen gjelder bare for Chrome på Android med mer enn 1 GB RAM. Bruk SitePerProcess for å anvende regelen på andre plattformer.
+      MERK: Denne regelen gjelder bare for Brave på Android med mer enn 1 GB RAM. Bruk SitePerProcess for å anvende regelen på andre plattformer.
       </translation>
 <translation id="6922040258551909078">
       Hvis regelen er satt til Sann, prioriteres den foran maskinens retningslinjer hvis de er i konflikt med hverandre.
@@ -2259,9 +2259,9 @@ Minneinformasjon blir uansett rapportert til siden, uavhengig av verdien for alt
 
       Hvis usann er valgt for regelen eller ingen valg er gjort, kan ikke <ph name="PRODUCT_NAME" /> samle inn eller laste opp slike logger.
 
-      Disse loggene inneholder diagnostikkinformasjon som er nyttig ved feilsøking av problemer med lyd- eller videoanrop i Chrome, for eksempel tidspunkt for og størrelse på sendte og mottatte RTP-pakker, tilbakemelding om overbelastning av nettverket samt metadata om tid og kvalitet for lyd- og videorammer. Loggene inneholder ikke lyd- eller videoinnhold fra samtaler.
+      Disse loggene inneholder diagnostikkinformasjon som er nyttig ved feilsøking av problemer med lyd- eller videoanrop i Brave, for eksempel tidspunkt for og størrelse på sendte og mottatte RTP-pakker, tilbakemelding om overbelastning av nettverket samt metadata om tid og kvalitet for lyd- og videorammer. Loggene inneholder ikke lyd- eller videoinnhold fra samtaler.
 
-      Denne datainnsamlingen til Chrome kan kun bli utløst av Googles nettjenester, for eksempel Google Hangouts eller Google Meet.
+      Denne datainnsamlingen til Brave kan kun bli utløst av Googles nettjenester, for eksempel Google Hangouts eller Google Meet.
 
       Google kan knytte disse loggene, via en økt-ID, sammen med andre logger som er samlet inn av Google-tjenesten, for å gjøre feilsøking enklere.
       </translation>
@@ -2336,11 +2336,11 @@ Minneinformasjon blir uansett rapportert til siden, uavhengig av verdien for alt
 
           Hvis innstillingen ikke angis, slås lupen av når påloggingssiden vises for første gang. Brukere kan slå lupen på eller av når som helst, og dens status på påloggingssiden forblir den samme mellom brukere.</translation>
 <translation id="7249828445670652637">Slå på CA-sertifikater for <ph name="PRODUCT_OS_NAME" /> for ARC-apper</translation>
-<translation id="725322441686394886">Hvis regelen ikke er angitt og Opprydning for Chrome oppdager uønsket programvare, kan metadata om skanningen rapporteres til Google i samsvar med retningslinjene som er angitt av SafeBrowsingExtendedReportingEnabled. Opprydning for Chrome spør da brukeren om den uønskede programvaren skal fjernes. Brukeren kan velge å dele resultatene av opprydningen med Google for å bistå med gjenkjenning av uønsket programvare i fremtiden. Disse resultatene inneholder filmetadata, automatisk installerte utvidelser og registernøkler som beskrevet av det tekniske dokumentet om personvern i Chrome.
+<translation id="725322441686394886">Hvis regelen ikke er angitt og Opprydning for Brave oppdager uønsket programvare, kan metadata om skanningen rapporteres til Google i samsvar med retningslinjene som er angitt av SafeBrowsingExtendedReportingEnabled. Opprydning for Brave spør da brukeren om den uønskede programvaren skal fjernes. Brukeren kan velge å dele resultatene av opprydningen med Google for å bistå med gjenkjenning av uønsket programvare i fremtiden. Disse resultatene inneholder filmetadata, automatisk installerte utvidelser og registernøkler som beskrevet av det tekniske dokumentet om personvern i Brave.
 
-      Hvis regelen er deaktivert og Opprydning for Chrome oppdager uønsket programvare, rapporteres ikke metadata om skanningen til Google. Dette overstyrer enhver regel som er angitt av SafeBrowsingExtendedReportingEnabled. Opprydning for Chrome spør ikke brukeren om den uønskede programvaren skal fjernes. Resultatene av opprydningen rapporteres ikke til Google, og brukeren har ikke muligheten til å gjøre det.
+      Hvis regelen er deaktivert og Opprydning for Brave oppdager uønsket programvare, rapporteres ikke metadata om skanningen til Google. Dette overstyrer enhver regel som er angitt av SafeBrowsingExtendedReportingEnabled. Opprydning for Brave spør ikke brukeren om den uønskede programvaren skal fjernes. Resultatene av opprydningen rapporteres ikke til Google, og brukeren har ikke muligheten til å gjøre det.
 
-      Hvis regelen er aktivert og Opprydning for Chrome oppdager uønsket programvare, kan metadata om skanningen rapporteres til Google i samsvar med retningslinjene som er angitt av SafeBrowsingExtendedReportingEnabled. Opprydning for Chrome spør brukeren om den uønskede programvaren skal fjernes. Resultatene av opprydningen rapporteres til Google, og brukeren får ikke mulighet til å forhindre det.
+      Hvis regelen er aktivert og Opprydning for Brave oppdager uønsket programvare, kan metadata om skanningen rapporteres til Google i samsvar med retningslinjene som er angitt av SafeBrowsingExtendedReportingEnabled. Opprydning for Brave spør brukeren om den uønskede programvaren skal fjernes. Resultatene av opprydningen rapporteres til Google, og brukeren får ikke mulighet til å forhindre det.
 
       Denne regelen er ikke tilgjengelig i forekomster av Windows som ikke er tilknyttet et <ph name="MS_AD_NAME" />-domene.</translation>
 <translation id="7258823566580374486">Aktiver begrensning (curtaining) av verter for fjerntilgang</translation>
@@ -2394,9 +2394,9 @@ Minneinformasjon blir uansett rapportert til siden, uavhengig av verdien for alt
 <translation id="7329968046053403405">Spesifiserer kontotypen for kontoene som gjøres tilgjengelige av Android-autentiseringsappen som støtter <ph name="HTTP_NEGOTIATE" />-autentisering (f.eks. Kerberos-autentisering). Denne informasjonen skal være tilgjengelig fra leverandøren av autentiseringsappen. For mer detaljert informasjon se https://goo.gl/hajyfN.
 
           Hvis du ikke velger noen innstilling, er <ph name="HTTP_NEGOTIATE" />-autentisering slått av på Android.</translation>
-<translation id="7331962793961469250">Når innstillingen er True, vil ikke reklamer for programmer fra Chrome Nettmarked vises på siden Ny fane.
+<translation id="7331962793961469250">Når innstillingen er True, vil ikke reklamer for programmer fra Brave Nettmarked vises på siden Ny fane.
 
-      Hvis dette alternativet settes til False, eller hvis det ikke angis noe for dette alternativet, vises reklamer for programmer fra Chrome Nettbutikk på siden Ny fane</translation>
+      Hvis dette alternativet settes til False, eller hvis det ikke angis noe for dette alternativet, vises reklamer for programmer fra Brave Nettbutikk på siden Ny fane</translation>
 <translation id="7332963785317884918">Denne innstillingen er foreldet. <ph name="PRODUCT_OS_NAME" /> kommer alltid til å bruke oppryddingsstrategien «RemoveLRU».
 
       Kontrollerer den automatiske oppryddingsfunksjonaliteten på <ph name="PRODUCT_OS_NAME" />-enheter. Automatisk opprydding starter når mengden ledig diskplass når et kritisk nivå. Dette gjøres for å frigjøre diskplass.
@@ -2411,7 +2411,7 @@ Minneinformasjon blir uansett rapportert til siden, uavhengig av verdien for alt
 <translation id="7343497214039883642">Konfigurasjonsfil for enheter på bedriftsskriver</translation>
 <translation id="7349338075015720646">Spesifiserer en liste over nettsteder som er installert gjennom bakgrunnsinstallasjon (uten brukerinteraksjon), og som brukere ikke kan avinstallere eller slå av.
 
-      Hvert element på regellisten er et objekt med to medlemmer: «url» og «launch_container». «url» bør være nettadressen for nettprogrammet som skal installeres, og «launch_container» bør være enten «window» (vindu) eller «tab» (fane) for å avgjøre hvordan nettprogrammet skal åpnes når det er installert. Hvis «launch_container» ikke er oppført, åpnes programmet i et vindu hvis Chrome anser det som et progressivt nettprogram. Hvis ikke åpnes det i en fane.</translation>
+      Hvert element på regellisten er et objekt med to medlemmer: «url» og «launch_container». «url» bør være nettadressen for nettprogrammet som skal installeres, og «launch_container» bør være enten «window» (vindu) eller «tab» (fane) for å avgjøre hvordan nettprogrammet skal åpnes når det er installert. Hvis «launch_container» ikke er oppført, åpnes programmet i et vindu hvis Brave anser det som et progressivt nettprogram. Hvis ikke åpnes det i en fane.</translation>
 <translation id="735902178936442460">Denne regelen kontrollerer om det skal rapporteres om informasjon som kan brukes til å identifisere maskiner, for eksempel maskinnavn og nettverksadresser.
 
       Hvis denne regelen ikke er konfigurert eller er angitt som «true» (sant), innhentes informasjon som kan brukes til å identifisere maskiner.
@@ -2424,9 +2424,9 @@ Minneinformasjon blir uansett rapportert til siden, uavhengig av verdien for alt
 
       Du kan finne ut mer om Safe Browsing på https://developers.google.com/safe-browsing.</translation>
 <translation id="737655323154569539">Begrenser sidestørrelse på utskrift. Regler som ikke er konfigurert, regnes for å være uten begrensninger.</translation>
-<translation id="7417728346887499628">Hvis denne regelen er deaktivert, hindres Opprydning for Chrome i å gjennomsøke systemet etter uønsket programvare og gjennomføre opprydning. Manuell utløsing av Opprydning for Chrome via chrome://settings/cleanup er deaktivert.
+<translation id="7417728346887499628">Hvis denne regelen er deaktivert, hindres Opprydning for Brave i å gjennomsøke systemet etter uønsket programvare og gjennomføre opprydning. Manuell utløsing av Opprydning for Brave via chrome://settings/cleanup er deaktivert.
 
-      Hvis regelen er aktivert eller ikke er angitt, gjennomsøker Opprydning for Chrome systemet regelmessig etter uønsket programvare, og hvis det blir oppdaget, blir brukeren spurt om det skal fjernes. Manuell utløsing av Opprydning for Chrome via chrome://settings/cleanup er aktivert.
+      Hvis regelen er aktivert eller ikke er angitt, gjennomsøker Opprydning for Brave systemet regelmessig etter uønsket programvare, og hvis det blir oppdaget, blir brukeren spurt om det skal fjernes. Manuell utløsing av Opprydning for Brave via chrome://settings/cleanup er aktivert.
 
       Denne regelen er ikke tilgjengelig på Windows-forekomster som ikke er knyttet til et <ph name="MS_AD_NAME" />-domene.</translation>
 <translation id="7417972229667085380">Prosentandelen for skalering av inaktivitetsforsinkelsen i presentasjonsmodus (avviklet)</translation>
@@ -2680,7 +2680,7 @@ MERK: Frem til versjon 45 ble denne regelen bare støttet i kioskmodus.</transla
 
       MERK: Nettstedsisolering er på forsøksstadiet på Android. Kvaliteten på støtten økes etterhvert, men foreløpig kan funksjonen forårsake ytelsesproblemer.
 
-      MERK: Denne regelen gjelder bare for Chrome på Android-enheter med mer enn 1 GB RAM. Bruk IsolateOrigins for å bruke regelen på andre plattformer.
+      MERK: Denne regelen gjelder bare for Brave på Android-enheter med mer enn 1 GB RAM. Bruk IsolateOrigins for å bruke regelen på andre plattformer.
       </translation>
 <translation id="7953256619080733119">Verter for manuelle unntak for administrerte brukere</translation>
 <translation id="7961779417826583251">Slå av tvungen sertifikatåpenhet for en liste med eldre sertifiseringsinstanser</translation>
@@ -2790,7 +2790,7 @@ MERK: Frem til versjon 45 ble denne regelen bare støttet i kioskmodus.</transla
       Hvis innstillingen ikke angis, bruker <ph name="PRODUCT_OS_NAME" /> ID-en for e-postkontoen til enhetens lokale konto som skjermnavn på påloggingsskjermen.
 
       Denne innstillingen ignoreres for vanlige brukerkontoer.</translation>
-<translation id="8259375588339409826">Både Chromium og Google Chrome støtter det samme settet med regler. Merk at dette dokumentet kan inneholde upubliserte regler (dvs. at reglenes «Støttes på»-informasjon kan vise til en upublisert versjon av <ph name="PRODUCT_NAME" />) som kan endres eller fjernes uten varsel. Det gis ingen garantier av noe slag, verken i forbindelse med sikkerhet, personvern eller annet, for slike upubliserte regler.
+<translation id="8259375588339409826">Både Brave og Brave støtter det samme settet med regler. Merk at dette dokumentet kan inneholde upubliserte regler (dvs. at reglenes «Støttes på»-informasjon kan vise til en upublisert versjon av <ph name="PRODUCT_NAME" />) som kan endres eller fjernes uten varsel. Det gis ingen garantier av noe slag, verken i forbindelse med sikkerhet, personvern eller annet, for slike upubliserte regler.
 
 Disse reglene er kun ment å brukes for å konfigurere forekomster av <ph name="PRODUCT_NAME" /> internt i organisasjonen din. Bruk av disse reglene utenfor organisasjonen (for eksempel i et offentlig distribuert program) regnes som skadelig programvare og blir sannsynligvis merket som skadelig programvare av Google og antivirus-leverandører.
 
@@ -2844,7 +2844,7 @@ Vi anbefaler å konfigurere regler på Windows via GPO, men tildeling av regler 
 <translation id="8339420913453596618">Bruk av tofaktorautentisering er slått av</translation>
 <translation id="8344454543174932833">Importer bokmerker fra standard nettleser ved første kjøring</translation>
 <translation id="8359734107661430198">Slå på ExampleDeprecatedFeature API frem til og med 2008/09/02</translation>
-<translation id="8367209241899435947">Aktiver Opprydning for Chrome på Windows</translation>
+<translation id="8367209241899435947">Aktiver Opprydning for Brave på Windows</translation>
 <translation id="8369602308428138533">Forsinkelse for avslått skjerm når du bruker strømadapteren</translation>
 <translation id="8382184662529825177">Slå på bruken av ekstern attestasjon for innholdsbeskyttelse på enheten</translation>
 <translation id="838870586332499308">Aktiver datastreifing</translation>

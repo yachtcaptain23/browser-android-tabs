@@ -375,7 +375,7 @@ Format jest taki sam jak w słowniku NativePrinters. Dodatkowo w przypadku każd
 <translation id="2073552873076775140">Zezwalaj na logowanie się w: <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Użyj akceleracji sprzętowej, gdy jest dostępna</translation>
 <translation id="2077273864382355561">Opóźnienie wyłączenia ekranu przy zasilaniu z baterii</translation>
-<translation id="2082205219176343977">Skonfiguruj minimalną dozwoloną wersję Chrome dla urządzenia.</translation>
+<translation id="2082205219176343977">Skonfiguruj minimalną dozwoloną wersję Brave dla urządzenia.</translation>
 <translation id="209586405398070749">Wersja stabilna</translation>
 <translation id="2098658257603918882">Włącz przesyłanie raportów o użytkowaniu i danych dotyczących awarii</translation>
 <translation id="2111016292707172233">Pozwala korzystać z funkcji „Kliknij, by wyszukać” w widoku treści w <ph name="PRODUCT_NAME" />.
@@ -496,9 +496,9 @@ Format jest taki sam jak w słowniku NativePrinters. Dodatkowo w przypadku każd
 
           Pamiętaj, że kod źródłowy każdego rozszerzenia można zmodyfikować za pomocą Narzędzi dla programistów (potencjalnie zakłócając jego działanie). Jeśli jest to problemem, ustaw zasadę <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
-          Każdy element na liście tej zasady jest ciągiem zawierającym identyfikator rozszerzenia i opcjonalnie URL „aktualizacji” oddzielone średnikiem (<ph name="SEMICOLON" />). Identyfikator rozszerzenia to ciąg 32 znaków, który znajdziesz np. na <ph name="CHROME_EXTENSIONS_LINK" /> w trybie programisty. URL „aktualizacji” powinien wskazywać plik manifestu aktualizacji w postaci dokumentu XML, zgodnie z opisem w dokumencie <ph name="LINK_TO_EXTENSION_DOC1" />. Domyślnie używany jest URL aktualizacji Chrome Web Store (obecnie to „https://clients2.google.com/service/update2/crx”). Uwaga: URL „aktualizacji” ustawiony przez tę zasadę jest używany tylko podczas pierwszej instalacji. Późniejsze aktualizacje rozszerzenia korzystają z adresu URL aktualizacji wskazanego w pliku manifestu. Pamiętaj też, że podanie adresu URL „aktualizacji” było obowiązkowe w <ph name="PRODUCT_NAME" /> do wersji 67 włącznie.
+          Każdy element na liście tej zasady jest ciągiem zawierającym identyfikator rozszerzenia i opcjonalnie URL „aktualizacji” oddzielone średnikiem (<ph name="SEMICOLON" />). Identyfikator rozszerzenia to ciąg 32 znaków, który znajdziesz np. na <ph name="CHROME_EXTENSIONS_LINK" /> w trybie programisty. URL „aktualizacji” powinien wskazywać plik manifestu aktualizacji w postaci dokumentu XML, zgodnie z opisem w dokumencie <ph name="LINK_TO_EXTENSION_DOC1" />. Domyślnie używany jest URL aktualizacji Brave Web Store (obecnie to „https://clients2.google.com/service/update2/crx”). Uwaga: URL „aktualizacji” ustawiony przez tę zasadę jest używany tylko podczas pierwszej instalacji. Późniejsze aktualizacje rozszerzenia korzystają z adresu URL aktualizacji wskazanego w pliku manifestu. Pamiętaj też, że podanie adresu URL „aktualizacji” było obowiązkowe w <ph name="PRODUCT_NAME" /> do wersji 67 włącznie.
 
-          Na przykład <ph name="EXTENSION_POLICY_EXAMPLE" /> instaluje aplikację <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> ze standardowego adresu URL „aktualizacji” Chrome Web Store. Więcej informacji o hostowaniu rozszerzeń znajdziesz na <ph name="LINK_TO_EXTENSION_DOC2" />
+          Na przykład <ph name="EXTENSION_POLICY_EXAMPLE" /> instaluje aplikację <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> ze standardowego adresu URL „aktualizacji” Brave Web Store. Więcej informacji o hostowaniu rozszerzeń znajdziesz na <ph name="LINK_TO_EXTENSION_DOC2" />
 
           Jeśli ta zasada nie jest ustawiona, aplikacje ani rozszerzenia nie są instalowane automatycznie, a użytkownik może odinstalować dowolne z nich w <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> może sprawdzać pisownię, używając usługi internetowej Google. Jeśli to ustawienie zostanie włączone, usługa będzie zawsze używana. W przypadku wyłączenia tego ustawienia, usługa nie będzie nigdy wykorzystywana.
@@ -673,7 +673,7 @@ Format jest taki sam jak w słowniku NativePrinters. Dodatkowo w przypadku każd
 <translation id="268577405881275241">Włącz serwer proxy kompresowania danych</translation>
 <translation id="2693108589792503178">Skonfiguruj adres URL do zmiany hasła.</translation>
 <translation id="2731627323327011390">Wyłącz korzystanie z certyfikatów <ph name="PRODUCT_OS_NAME" /> w aplikacjach ARC</translation>
-<translation id="2742843273354638707">Ukrywa aplikację Chrome Web Store i link w stopce na stronie Nowa karta oraz w menu z aplikacjami <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Ukrywa aplikację Brave Web Store i link w stopce na stronie Nowa karta oraz w menu z aplikacjami <ph name="PRODUCT_OS_NAME" />.
 
       Jeśli zasada ma wartość prawda, ikony są ukryte.
 
@@ -790,7 +790,7 @@ Format jest taki sam jak w słowniku NativePrinters. Dodatkowo w przypadku każd
 <translation id="3034580675120919256">Umożliwia określenie, czy w witrynach może być wykonywany kod JavaScript. Wykonanie kodu JavaScript może być dozwolone lub zabronione we wszystkich witrynach. W przypadku nieskonfigurowania tej zasady będzie używane ustawienie „AllowJavaScript”, a użytkownik będzie mógł je zmienić.</translation>
 <translation id="3038323923255997294">Kontynuuj działanie aplikacji w tle po zamknięciu <ph name="PRODUCT_NAME" /></translation>
 <translation id="3046192273793919231">Wysyłaj pakiety sieciowe na serwer zarządzania w celu monitorowania stanu online</translation>
-<translation id="3047732214002457234">Określ sposób przesyłania do Google danych przez Czyszczenie Chrome</translation>
+<translation id="3047732214002457234">Określ sposób przesyłania do Google danych przez Czyszczenie Brave</translation>
 <translation id="3048744057455266684">Jeśli ta zasada jest ustawiona, a URL wyszukiwania zaproponowany przez omnibox zawiera ten parametr w ciągu zapytania lub identyfikatorze fragmentu, wtedy sugestia zamiast nieprzetworzonego adresu URL wyszukiwania pokaże wyszukiwane hasła i dostawcę wyszukiwania.
 
           Ta zasada jest opcjonalna. Jeśli nie jest ustawiona, nie zachodzi zamiana wyszukiwanego hasła.
@@ -1102,13 +1102,13 @@ Jeśli ta zasada jest wyłączona, informacje o sesji nie będą przesyłane. Je
       Jeśli zasada pozostanie nieustawiona, <ph name="PRODUCT_NAME" /> będzie używać katalogu domyślnego (zależnego od platformy).
 
       Listę zmiennych, których można użyć, znajdziesz na https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables</translation>
-<translation id="3904459740090265495">Ta zasada kontroluje mechanizm logowania w przeglądarce. Umożliwia określenie, czy użytkownik może zalogować się w <ph name="PRODUCT_NAME" /> przy użyciu swojego konta i używać usług związanych z kontem, na przykład synchronizacji Chrome.
+<translation id="3904459740090265495">Ta zasada kontroluje mechanizm logowania w przeglądarce. Umożliwia określenie, czy użytkownik może zalogować się w <ph name="PRODUCT_NAME" /> przy użyciu swojego konta i używać usług związanych z kontem, na przykład synchronizacji Brave.
 
-      Jeśli zasada ma wartość „Wyłącz logowanie w przeglądarce”, użytkownik nie może zalogować się w przeglądarce ani używać usług związanych z kontem. Funkcje przeglądarki, takie jak synchronizacja Chrome, będą niedostępne. Jeśli użytkownik był wcześniej zalogowany, a zasada jest wyłączona, użytkownik zostanie wylogowany po najbliższym uruchomieniu Chrome, ale dane z jego profilu lokalnego, takie jak zakładki, hasła itd., zostaną zachowane. Użytkownik nadal będzie mógł logować się w usługach internetowych Google takich jak Gmail i ich używać.
+      Jeśli zasada ma wartość „Wyłącz logowanie w przeglądarce”, użytkownik nie może zalogować się w przeglądarce ani używać usług związanych z kontem. Funkcje przeglądarki, takie jak synchronizacja Brave, będą niedostępne. Jeśli użytkownik był wcześniej zalogowany, a zasada jest wyłączona, użytkownik zostanie wylogowany po najbliższym uruchomieniu Brave, ale dane z jego profilu lokalnego, takie jak zakładki, hasła itd., zostaną zachowane. Użytkownik nadal będzie mógł logować się w usługach internetowych Google takich jak Gmail i ich używać.
 
-      Jeśli zasada ma wartość „Włącz logowanie w przeglądarce”, użytkownik może zalogować się w przeglądarce i jest logowany w niej automatycznie po zalogowaniu się w usługach internetowych Google takich jak Gmail. Zalogowanie w przeglądarce oznacza, że przeglądarka będzie przechowywać dane z konta użytkownika. Nie oznacza to jednak, że domyślnie włączona zostanie synchronizacja Chrome – użytkownik musi zgodzić się na jej używanie oddzielnie. Włączenie tej zasady uniemożliwi użytkownikowi wyłączenie logowania w przeglądarce w ustawieniach. Do określania dostępności synchronizacji Chrome służy zasada „SyncDisabled”.
+      Jeśli zasada ma wartość „Włącz logowanie w przeglądarce”, użytkownik może zalogować się w przeglądarce i jest logowany w niej automatycznie po zalogowaniu się w usługach internetowych Google takich jak Gmail. Zalogowanie w przeglądarce oznacza, że przeglądarka będzie przechowywać dane z konta użytkownika. Nie oznacza to jednak, że domyślnie włączona zostanie synchronizacja Brave – użytkownik musi zgodzić się na jej używanie oddzielnie. Włączenie tej zasady uniemożliwi użytkownikowi wyłączenie logowania w przeglądarce w ustawieniach. Do określania dostępności synchronizacji Brave służy zasada „SyncDisabled”.
 
-      Jeśli zasada ma wartość „Wymuś logowanie w przeglądarce", użytkownikowi wyświetlane jest okno wyboru konta i musi on wybrać konto oraz zalogować się na nie, by używać przeglądarki. Jest to gwarancją, że na kontach zarządzanych będą stosowane i egzekwowane zasady. Domyślnie powoduje to włączenie dla tego konta synchronizacji Chrome – o ile synchronizacja nie została wyłączona przez administratora domeny lub za pomocą zasady „SyncDisabled”. Domyślnie wartość zasady BrowserGuestModeEnabled zostanie ustawiona na fałsz. Uwaga: po włączeniu tej zasady istniejące niepodpisane profile zostaną zablokowane i będą niedostępne. Więcej informacji znajdziesz w tym artykule w Centrum pomocy: https://support.google.com/chrome/a/answer/7572556
+      Jeśli zasada ma wartość „Wymuś logowanie w przeglądarce", użytkownikowi wyświetlane jest okno wyboru konta i musi on wybrać konto oraz zalogować się na nie, by używać przeglądarki. Jest to gwarancją, że na kontach zarządzanych będą stosowane i egzekwowane zasady. Domyślnie powoduje to włączenie dla tego konta synchronizacji Brave – o ile synchronizacja nie została wyłączona przez administratora domeny lub za pomocą zasady „SyncDisabled”. Domyślnie wartość zasady BrowserGuestModeEnabled zostanie ustawiona na fałsz. Uwaga: po włączeniu tej zasady istniejące niepodpisane profile zostaną zablokowane i będą niedostępne. Więcej informacji znajdziesz w tym artykule w Centrum pomocy: https://support.google.com/chrome/a/answer/7572556
 
       Jeśli zasada jest nieskonfigurowana, użytkownik może samodzielnie włączyć lub wyłączyć logowanie w przeglądarce i korzystać z tej funkcji według własnego uznania.</translation>
 <translation id="3907986150060929099">Ustaw zalecane języki dla sesji publicznej</translation>
@@ -1131,9 +1131,9 @@ Jeśli ta zasada jest wyłączona, informacje o sesji nie będą przesyłane. Je
 <translation id="3973371701361892765">Nigdy nie autoukrywaj półki</translation>
 <translation id="3984028218719007910">Określa, czy <ph name="PRODUCT_OS_NAME" /> przechowuje po wylogowaniu dane konta lokalnego. W przypadku włączenia trwałe konta nie są przechowywane przez <ph name="PRODUCT_OS_NAME" /> i po wylogowaniu wszystkie dane z sesji użytkownika są usuwane. Jeśli ta zasada będzie wyłączona lub nieskonfigurowana, urządzenie może przechowywać zaszyfrowane lokalne dane użytkownika.</translation>
 <translation id="3997519162482760140">Adresy URL, które będą mieć dostęp do urządzeń rejestrujących wideo na stronach logowania SAML</translation>
-<translation id="4001275826058808087">Administratorzy IT urządzeń firmowych mogą przy użyciu tej flagi określić, czy użytkownicy mogą korzystać z ofert w procesie rejestracji systemu operacyjnego Chrome.
+<translation id="4001275826058808087">Administratorzy IT urządzeń firmowych mogą przy użyciu tej flagi określić, czy użytkownicy mogą korzystać z ofert w procesie rejestracji systemu operacyjnego Brave.
 
-      Jeśli nie skonfigurujesz tej zasady lub ustawisz dla niej wartość prawda, użytkownicy będą mogli wykorzystywać oferty przy rejestracji systemu operacyjnego Chrome.
+      Jeśli nie skonfigurujesz tej zasady lub ustawisz dla niej wartość prawda, użytkownicy będą mogli wykorzystywać oferty przy rejestracji systemu operacyjnego Brave.
 
       Jeśli ustawisz tu wartość fałsz, użytkownicy nie będą mogli wykorzystywać ofert.</translation>
 <translation id="4010738624545340900">Zezwolenie na wywoływanie okien dialogowych wyboru plików</translation>
@@ -1233,7 +1233,7 @@ Zwykle ta zasada jest wyłączona w celu ochrony przed phishingiem. W przypadku 
 <translation id="4298509794364745131">Określa listę aplikacji, które mogą być włączone jako aplikacje do notatek na ekranie blokady w: <ph name="PRODUCT_OS_NAME" />.
 
       Jeśli preferowana aplikacja do robienia notatek jest włączona na ekranie blokady, będą na nim dostępne elementy interfejsu umożliwiające uruchomienie tej aplikacji.
-      Po uruchomieniu aplikacja będzie mogła otworzyć swoje okno w górnej części ekranu blokady, a następnie generować dane (notatki) na ekranie blokady. Aplikacja będzie mogła zaimportować utworzone notatki do głównej sesji użytkownika, gdy sesja ta zostanie odblokowana. Obecnie na ekranie blokady można używać tylko aplikacji do robienia notatek obsługiwanych przez Chrome.
+      Po uruchomieniu aplikacja będzie mogła otworzyć swoje okno w górnej części ekranu blokady, a następnie generować dane (notatki) na ekranie blokady. Aplikacja będzie mogła zaimportować utworzone notatki do głównej sesji użytkownika, gdy sesja ta zostanie odblokowana. Obecnie na ekranie blokady można używać tylko aplikacji do robienia notatek obsługiwanych przez Brave.
 
       Jeśli ta zasada zostanie skonfigurowana, użytkownik będzie mógł włączyć aplikację na ekranie blokady tylko wtedy, gdy identyfikator rozszerzenia aplikacji zostanie dodany do listy wartości zasady.
       Z tego powodu w przypadku, gdy lista wartości będzie pusta, robienie notatek na ekranie blokady będzie niemożliwe.
@@ -1346,7 +1346,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
 <translation id="4567137030726189378">Zezwól na używanie narzędzi dla programistów</translation>
 <translation id="4600786265870346112">Włącz duży kursor</translation>
 <translation id="4604931264910482931">Skonfiguruj czarną listę wiadomości natywnych</translation>
-<translation id="4613508646038788144">Jeśli ta zasada ma ustawienie „fałsz”, oprogramowanie innych firm będzie mogło wstrzykiwać kod wykonywalny do procesów Chrome. Jeśli ta zasada jest nieskonfigurowana lub ma ustawienie „prawda”, oprogramowanie innych firm nie będzie mogło wstrzykiwać takiego kodu do procesów Chrome.</translation>
+<translation id="4613508646038788144">Jeśli ta zasada ma ustawienie „fałsz”, oprogramowanie innych firm będzie mogło wstrzykiwać kod wykonywalny do procesów Brave. Jeśli ta zasada jest nieskonfigurowana lub ma ustawienie „prawda”, oprogramowanie innych firm nie będzie mogło wstrzykiwać takiego kodu do procesów Brave.</translation>
 <translation id="4617338332148204752">Pomiń sprawdzanie metatagów w <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Konfiguruj białą listę instalacji rozszerzeń</translation>
 <translation id="4632343302005518762">Zezwalaj <ph name="PRODUCT_FRAME_NAME" /> na obsługę poniższych typów treści</translation>
@@ -1475,7 +1475,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
           Wartość musi być tablicą słowników JSON odwzorowanych na ciąg. Każdy słownik musi mieć postać { "pattern": "$URL_PATTERN", "filter" : $FILTER }, gdzie $URL_PATTERN jest wzorcem ustawiającym zawartość. $FILTER ogranicza certyfikaty klienta, spośród których przeglądarka może dokonać automatycznego wyboru. Niezależnie od filtra wybierane mogą być tylko te certyfikaty, które są zgodne z żądaniem certyfikatu serwera. Jeśli $FILTER ma postać { "ISSUER": { "CN": "$ISSUER_CN" } }, to dodatkowo wybierane będą tylko te certyfikaty klienta, które zostały wydane przez certyfikat z CommonName $ISSUER_CN. Jeśli $FILTER jest pustym słownikiem {}, wybór certyfikatów klienta nie jest dodatkowo ograniczany.
 
           Jeśli ta zasada nie jest ustawiona, automatyczna selekcja nie będzie przeprowadzana w żadnej witrynie.</translation>
-<translation id="4978405676361550165">Jeśli zasada „OffHours” jest ustawiona, to określone zasady dotyczące urządzeń są ignorowane (używane są ustawienia domyślne tych zasad) w konkretnych okresach. Zasady dotyczące urządzeń są ponownie stosowane przez Chrome za każdym razem, gdy zaczyna lub kończy się okres „OffHours”. Użytkownik otrzymuje powiadomienie i następuje wymuszone wylogowanie, gdy zakończenie okresu „OffHours” i zasady dotyczące urządzeń zmienią się (np. gdy użytkownik jest zalogowany na konto, które nie ma uprawnień).</translation>
+<translation id="4978405676361550165">Jeśli zasada „OffHours” jest ustawiona, to określone zasady dotyczące urządzeń są ignorowane (używane są ustawienia domyślne tych zasad) w konkretnych okresach. Zasady dotyczące urządzeń są ponownie stosowane przez Brave za każdym razem, gdy zaczyna lub kończy się okres „OffHours”. Użytkownik otrzymuje powiadomienie i następuje wymuszone wylogowanie, gdy zakończenie okresu „OffHours” i zasady dotyczące urządzeń zmienią się (np. gdy użytkownik jest zalogowany na konto, które nie ma uprawnień).</translation>
 <translation id="4980635395568992380">Typ danych:</translation>
 <translation id="4983201894483989687">Zezwalaj na uruchamianie nieaktualnych wtyczek</translation>
 <translation id="4988291787868618635">Działanie, jakie ma zostać wykonane po osiągnięciu opóźnienia bezczynności</translation>
@@ -1726,7 +1726,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
       Jeśli zasada jest wyłączona, pobieranie zaczyna się od razu bez pytania o miejsce zapisania pliku.
       Jeśli zasada nie jest skonfigurowana, użytkownik może zmienić to ustawienie.
       </translation>
-<translation id="5835124959204887277">Określa adresy URL i domeny, w przypadku których nie będzie wyświetlać się monit podczas przesyłania prośby o certyfikaty poświadczenia z Kluczy bezpieczeństwa Google. Oprócz tego do Klucza bezpieczeństwa Google będzie wysyłany sygnał wskazujący, że można użyć poświadczenia indywidualnego. Jeśli zasada ta nie będzie ustawiona, użytkownicy Chrome w wersji 65 lub nowszej zobaczą monit, gdy strony będą prosić o poświadczenie Kluczy bezpieczeństwa Google.
+<translation id="5835124959204887277">Określa adresy URL i domeny, w przypadku których nie będzie wyświetlać się monit podczas przesyłania prośby o certyfikaty poświadczenia z Kluczy bezpieczeństwa Google. Oprócz tego do Klucza bezpieczeństwa Google będzie wysyłany sygnał wskazujący, że można użyć poświadczenia indywidualnego. Jeśli zasada ta nie będzie ustawiona, użytkownicy Brave w wersji 65 lub nowszej zobaczą monit, gdy strony będą prosić o poświadczenie Kluczy bezpieczeństwa Google.
 
       Adresy URL (takie jak https://example.com/jakaś/ścieżka) będą dopasowywane tylko jako identyfikatory appID typu U2F. Domeny (takie jak example.com) będą dopasowane tylko jako identyfikatory RP typu webauthn. Dlatego jeśli w przypadku danej witryny mają zostać uwzględnione zarówno interfejsy API U2F, jak i webauthn, na liście muszą znajdować się zarówno URL identyfikatora appID, jak i domena.</translation>
 <translation id="5835412847081687053">Skonfiguruj dozwolone języki sesji użytkownika</translation>
@@ -1908,7 +1908,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
 <translation id="6282799760374509080">Zezwól lub nie na przechwytywanie dźwięku</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Włącz autouzupełnianie nazw domen w czasie logowania użytkownika</translation>
-<translation id="6315673513957120120">Chrome wyświetla stronę z ostrzeżeniem, gdy użytkownicy otworzą witrynę, w której występują błędy SSL. Domyślnie lub wtedy, gdy ta zasada jest włączona, użytkownicy mogą zignorować i zamknąć stronę z ostrzeżeniem.
+<translation id="6315673513957120120">Brave wyświetla stronę z ostrzeżeniem, gdy użytkownicy otworzą witrynę, w której występują błędy SSL. Domyślnie lub wtedy, gdy ta zasada jest włączona, użytkownicy mogą zignorować i zamknąć stronę z ostrzeżeniem.
       Po wyłączeniu tej zasady użytkownicy nie będą mogli zamknąć strony z ostrzeżeniem.</translation>
 <translation id="6353901068939575220">Określa parametry używane przy wyszukiwaniu URL-a z użyciem POST. Składa się z rozdzielonych przecinkami par nazwy i wartości. Jeśli wartość jest parametrem szablonu, tak jak w przykładzie powyżej {searchTerms}, zostanie ona zastąpiona rzeczywistymi danymi wyszukiwanych słów.
 
@@ -2142,7 +2142,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
 
       UWAGA: w systemie Android funkcja izolacji witryn ma charakter eksperymentalny. Z czasem będzie działać lepiej, ale obecnie może powodować problemy z wydajnością.
 
-      UWAGA: ta zasada ma zastosowanie tylko do Chrome na urządzeniach z Androidem wyposażonych w więcej niż 1 GB pamięci RAM. Aby zasada mogła mieć zastosowanie na platformach, które nie wykorzystują systemu Android, należy użyć ustawienia SitePerProcess.
+      UWAGA: ta zasada ma zastosowanie tylko do Brave na urządzeniach z Androidem wyposażonych w więcej niż 1 GB pamięci RAM. Aby zasada mogła mieć zastosowanie na platformach, które nie wykorzystują systemu Android, należy użyć ustawienia SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Gdy ta zasada jest włączona, zasady dotyczące chmury mają pierwszeństwo przed zasadami dotyczącymi komputera w przypadku konfliktu.
@@ -2203,7 +2203,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
 
       Te dzienniki zawierają informacje diagnostyczne przydatne podczas debugowania problemów z rozmowami audio i wideo w Chrome, między innymi czas i wielkość wysłanych i odebranych pakietów RTP, informacje zwrotne o obciążeniu sieci oraz metadane o czasie i jakości ramek audio i wideo. Dzienniki nie zawierają treści audio ani wideo rozmów.
 
-      Zbieranie tych danych przez Chrome może być uruchomione tylko przez usługi internetowe Google, takie jak Google Hangouts czy Google Meet.
+      Zbieranie tych danych przez Brave może być uruchomione tylko przez usługi internetowe Google, takie jak Google Hangouts czy Google Meet.
 
       Google może powiązać te dzienniki za pomocą identyfikatora sesji z innymi dziennikami zebranymi przez same usługi Google – ma to na celu ułatwienie debugowania.
       </translation>
@@ -2278,13 +2278,13 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
 
           Jeśli zasada pozostanie nieustawiona, po pierwszym wyświetleniu ekranu logowania lupa jest wyłączona. Użytkownicy mogą ją w każdej chwili włączyć lub wyłączyć i jej stan na ekranie logowania jest trwały dla wszystkich użytkowników.</translation>
 <translation id="7249828445670652637">Włącz korzystanie z certyfikatów CA <ph name="PRODUCT_OS_NAME" /> w aplikacjach ARC</translation>
-<translation id="725322441686394886">Gdy ta zasada jest nieskonfigurowana, Czyszczenie Chrome po wykryciu niechcianego oprogramowania może przesłać metadane skanowania do Google zgodnie z ustawieniem zasady SafeBrowsingExtendedReportingEnabled. Następnie Czyszczenie Chrome zapyta użytkownika, czy usunąć niechciane oprogramowanie. Użytkownik może zdecydować, czy przesłać do Google wyniki czyszczenia, by pomóc ulepszyć wykrywanie niechcianego oprogramowania. 
-Te wyniki zawierają metadane plików, informacje o automatycznie zainstalowanych rozszerzeniach i klucze rejestru zgodnie z opisem w Dokumencie na temat ochrony prywatności w Google Chrome.
+<translation id="725322441686394886">Gdy ta zasada jest nieskonfigurowana, Czyszczenie Brave po wykryciu niechcianego oprogramowania może przesłać metadane skanowania do Google zgodnie z ustawieniem zasady SafeBrowsingExtendedReportingEnabled. Następnie Czyszczenie Brave zapyta użytkownika, czy usunąć niechciane oprogramowanie. Użytkownik może zdecydować, czy przesłać do Google wyniki czyszczenia, by pomóc ulepszyć wykrywanie niechcianego oprogramowania. 
+Te wyniki zawierają metadane plików, informacje o automatycznie zainstalowanych rozszerzeniach i klucze rejestru zgodnie z opisem w Dokumencie na temat ochrony prywatności w Brave.
 
-      Jeśli ta zasada jest wyłączona, Czyszczenie Chrome po wykryciu niechcianego oprogramowania nie prześle metadanych skanowania do Google, ignorując ustawienie zasady SafeBrowsingExtendedReportingEnabled. Następnie Czyszczenie Chrome zapyta użytkownika, czy usunąć niechciane oprogramowanie. 
+      Jeśli ta zasada jest wyłączona, Czyszczenie Brave po wykryciu niechcianego oprogramowania nie prześle metadanych skanowania do Google, ignorując ustawienie zasady SafeBrowsingExtendedReportingEnabled. Następnie Czyszczenie Brave zapyta użytkownika, czy usunąć niechciane oprogramowanie. 
 Wyniki czyszczenia nie będą przesyłane do Google, a użytkownik nie będzie pytany, czy chce to zrobić.
 
-      Gdy ta zasada jest włączona, Czyszczenie Chrome po wykryciu niechcianego oprogramowania może przesłać metadane skanowania do Google zgodnie z ustawieniem zasady SafeBrowsingExtendedReportingEnabled. Następnie Czyszczenie Chrome zapyta użytkownika, czy usunąć niechciane oprogramowanie. 
+      Gdy ta zasada jest włączona, Czyszczenie Brave po wykryciu niechcianego oprogramowania może przesłać metadane skanowania do Google zgodnie z ustawieniem zasady SafeBrowsingExtendedReportingEnabled. Następnie Czyszczenie Brave zapyta użytkownika, czy usunąć niechciane oprogramowanie. 
 Wyniki czyszczenia będą przesyłane do Google, a użytkownik nie będzie pytany, czy się na to zgadza.
 
       Ta zasada jest niedostępna w systemach Windows niepołączonych z domeną <ph name="MS_AD_NAME" />.</translation>
@@ -2339,7 +2339,7 @@ Wyniki czyszczenia będą przesyłane do Google, a użytkownik nie będzie pytan
 <translation id="7329968046053403405">W przypadku kont z aplikacji uwierzytelniającej na Androida określa rodzaj konta, które obsługuje uwierzytelnianie <ph name="HTTP_NEGOTIATE" /> (np. uwierzytelnianie Kerberos). Tę informację powinien udostępnić dostawca aplikacji uwierzytelniającej. Więcej informacji znajdziesz na https://goo.gl/hajyfN.
 
           W przypadku braku ustawień uwierzytelnianie <ph name="HTTP_NEGOTIATE" /> w Androidzie jest wyłączone.</translation>
-<translation id="7331962793961469250">Kiedy zostanie ustawiona wartość Prawda, na stronie Nowa karta nie będą wyświetlane promowane aplikacje z Chrome Web Store. Przypisanie tej opcji wartości Fałsz lub jej nieustawienie spowoduje, że promowane aplikacje z Chrome Web Store będą widoczne na stronie Nowa karta.</translation>
+<translation id="7331962793961469250">Kiedy zostanie ustawiona wartość Prawda, na stronie Nowa karta nie będą wyświetlane promowane aplikacje z Brave Web Store. Przypisanie tej opcji wartości Fałsz lub jej nieustawienie spowoduje, że promowane aplikacje z Brave Web Store będą widoczne na stronie Nowa karta.</translation>
 <translation id="7332963785317884918">Ta zasada została wycofana. <ph name="PRODUCT_OS_NAME" /> zawsze stosuje strategię czyszczenia „RemoveLRU”.
 
       Steruje działaniem automatycznego czyszczenia na urządzeniach z <ph name="PRODUCT_OS_NAME" />. Gdy ilość wolnego miejsca na dysku osiąga poziom krytyczny, uruchamia się automatyczne czyszczenie, co pozwala odzyskać trochę miejsca.
@@ -2354,7 +2354,7 @@ Wyniki czyszczenia będą przesyłane do Google, a użytkownik nie będzie pytan
 <translation id="7343497214039883642">Plik konfiguracji drukarek firmowych dla urządzeń</translation>
 <translation id="7349338075015720646">Określa listę witryn internetowych instalowanych dyskretnie, bez interakcji z użytkownikiem, których użytkownik nie może odinstalować ani wyłączyć.
 
-      Każda pozycja na liście jest obiektem o dwóch składowych: „url” i „launch_container”. „url” to URL aplikacji internetowej do zainstalowania, a „launch_container” może mieć wartość „window” (okno) lub „tab” (karta) wskazującą sposób otwierania zainstalowanej aplikacji. Jeśli element „launch_container” zostanie pominięty, aplikacja będzie otwierana w oknie, o ile Chrome uzna ją za progresywną aplikację internetową, a w przeciwnym razie na karcie.</translation>
+      Każda pozycja na liście jest obiektem o dwóch składowych: „url” i „launch_container”. „url” to URL aplikacji internetowej do zainstalowania, a „launch_container” może mieć wartość „window” (okno) lub „tab” (karta) wskazującą sposób otwierania zainstalowanej aplikacji. Jeśli element „launch_container” zostanie pominięty, aplikacja będzie otwierana w oknie, o ile Brave uzna ją za progresywną aplikację internetową, a w przeciwnym razie na karcie.</translation>
 <translation id="735902178936442460">Ta zasada określa, czy mają być zgłaszane informacje umożliwiające identyfikację urządzeń, takie jak nazwa urządzenia i adresy sieciowe.
 
       Gdy ta zasada jest nieskonfigurowana lub ma wartość prawda, informacje, na podstawie których można zidentyfikować urządzenia, są zbierane.
@@ -2367,9 +2367,9 @@ Wyniki czyszczenia będą przesyłane do Google, a użytkownik nie będzie pytan
 
       Więcej informacji o Bezpiecznym przeglądaniu znajdziesz na https://developers.google.com/safe-browsing</translation>
 <translation id="737655323154569539">Ogranicza rozmiar drukowanych stron. Zasada nieskonfigurowana i pusty zbiór są traktowane jako brak ograniczeń.</translation>
-<translation id="7417728346887499628">Wyłączenie tej zasady powoduje, że Czyszczenie Chrome nie będzie skanować systemu w celu wykrycia i usunięcia niechcianego oprogramowania. Ręczne uruchamianie Czyszczenia Chrome na stronie chrome://settings/cleanup będzie wyłączone.
+<translation id="7417728346887499628">Wyłączenie tej zasady powoduje, że Czyszczenie Brave nie będzie skanować systemu w celu wykrycia i usunięcia niechcianego oprogramowania. Ręczne uruchamianie Czyszczenia Brave na stronie chrome://settings/cleanup będzie wyłączone.
 
-      Jeśli zasada zostanie włączona lub nie będzie skonfigurowana, Czyszczenie Chrome będzie okresowo skanować system, a gdy wykryje niechciane oprogramowanie, zapyta użytkownika, czy je usunąć. Ręczne uruchamianie Czyszczenia Chrome na stronie chrome://settings będzie włączone.
+      Jeśli zasada zostanie włączona lub nie będzie skonfigurowana, Czyszczenie Brave będzie okresowo skanować system, a gdy wykryje niechciane oprogramowanie, zapyta użytkownika, czy je usunąć. Ręczne uruchamianie Czyszczenia Brave na stronie chrome://settings będzie włączone.
 
       Ta zasada jest niedostępna w systemach Windows niepołączonych z domeną <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Wartość procentowa skalowania opóźnienia bezczynności w trybie prezentacji (wycofana)</translation>
@@ -2613,7 +2613,7 @@ optymalne efekty – izolację i ograniczony wpływ na użytkowników. W tym c
 
       UWAGA: funkcja izolacji witryn na urządzeniach z Androidem jest eksperymentalna. Z czasem będzie działać lepiej, ale obecnie może powodować problemy z wydajnością.
 
-      UWAGA: ta zasada ma zastosowanie tylko do Chrome na urządzeniach z Androidem wyposażonych w więcej niż 1 GB pamięci RAM. Aby zasada mogła mieć zastosowanie na platformach, które nie wykorzystują systemu Android, należy użyć ustawienia IsolateOrigins.
+      UWAGA: ta zasada ma zastosowanie tylko do Brave na urządzeniach z Androidem wyposażonych w więcej niż 1 GB pamięci RAM. Aby zasada mogła mieć zastosowanie na platformach, które nie wykorzystują systemu Android, należy użyć ustawienia IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Zarządzane hosty umieszczone przez użytkownika na liście wyjątków</translation>
 <translation id="7961779417826583251">Wyłącz egzekwowanie protokołu Certificate Transparency dla starych urzędów certyfikacji z listy</translation>
@@ -2683,7 +2683,7 @@ optymalne efekty – izolację i ograniczony wpływ na użytkowników. W tym c
 
       Jeśli ta zasada ma wartość Fałsz, lista interfejsów nie zostanie zgłoszona.</translation>
 <translation id="8141795997560411818">Ta zasada nie uniemożliwia użytkownikom korzystania z aplikacji Dysk Google na Androida. Aby zablokować dostęp do Dysku Google, należy wyłączyć możliwość instalowania tej aplikacji.</translation>
-<translation id="8146727383888924340">Zezwalaj użytkownikom na wykorzystanie ofert w procesie rejestracji systemu operacyjnego Chrome</translation>
+<translation id="8146727383888924340">Zezwalaj użytkownikom na wykorzystanie ofert w procesie rejestracji systemu operacyjnego Brave</translation>
 <translation id="8148785525797916822">Ukrywanie ostrzeżenia pojawiającego się, gdy <ph name="PRODUCT_NAME" /> działa na komputerze lub w systemie operacyjnym, który nie jest obsługiwany.</translation>
 <translation id="8148901634826284024">Włącza funkcję ułatwień dostępu w postaci trybu wysokiego kontrastu.
 
@@ -2723,7 +2723,7 @@ optymalne efekty – izolację i ograniczony wpływ na użytkowników. W tym c
       Jeśli ta opcja nie zostanie ustawiona, <ph name="PRODUCT_OS_NAME" /> użyje identyfikatora konta e-mail lokalnego konta na urządzeniu jako nazwy wyświetlanej na ekranie logowania.
 
       Ta zasada jest ignorowana w przypadku zwykłych kont użytkownika.</translation>
-<translation id="8259375588339409826">Zarówno Chromium, jak i Google Chrome obsługują jednakowy zestaw zasad. Ten dokument może zawierać nieopublikowane zasady (tzn. wpis „Obsługiwana przez” odnosi się do jeszcze nieopublikowanej wersji <ph name="PRODUCT_NAME" />), które mogą zostać zmienione lub usunięte bez powiadomienia i nie podlegają żadnej gwarancji. Między innymi nie ma żadnych gwarancji dotyczących ich zabezpieczeń i właściwości związanych z prywatnością.
+<translation id="8259375588339409826">Zarówno Brave, jak i Brave obsługują jednakowy zestaw zasad. Ten dokument może zawierać nieopublikowane zasady (tzn. wpis „Obsługiwana przez” odnosi się do jeszcze nieopublikowanej wersji <ph name="PRODUCT_NAME" />), które mogą zostać zmienione lub usunięte bez powiadomienia i nie podlegają żadnej gwarancji. Między innymi nie ma żadnych gwarancji dotyczących ich zabezpieczeń i właściwości związanych z prywatnością.
 
 Zasady te są przeznaczone do konfigurowania <ph name="PRODUCT_NAME" /> tylko na wewnętrzny użytek Twojej organizacji. Użycie ich poza nią (np. w programie rozpowszechnianym publicznie) spowoduje uznanie oprogramowania za złośliwe – prawdopodobnie tak zostanie ono oznaczone przez Google i programy antywirusowe.
 
@@ -2779,7 +2779,7 @@ Zalecamy skonfigurowanie zasady w systemie Windows przy użyciu obiektu zasad gr
 <translation id="8339420913453596618">Uwierzytelnianie dwuskładnikowe wyłączone</translation>
 <translation id="8344454543174932833">Importuj zakładki z przeglądarki domyślnej przy pierwszym uruchomieniu</translation>
 <translation id="8359734107661430198">Włącz interfejs API ExampleDeprecatedFeature od 2 września 2008 r.</translation>
-<translation id="8367209241899435947">Włącz Czyszczenie Chrome w Windows</translation>
+<translation id="8367209241899435947">Włącz Czyszczenie Brave w Windows</translation>
 <translation id="8369602308428138533">Opóźnienie wyłączenia ekranu przy zasilaniu sieciowym</translation>
 <translation id="8382184662529825177">Włącz używanie zaświadczania zdalnego do ochrony treści na urządzeniu</translation>
 <translation id="838870586332499308">Włącz dane w roamingu</translation>
@@ -2839,7 +2839,7 @@ Jeśli bieżąca wersja stanie się przestarzała podczas sesji użytkownika, je
 <translation id="8544465954173828789">Zezwól na synchronizację SMS-ów między telefonem a Chromebookiem.</translation>
 <translation id="8548832052135586762">Ustawia drukowanie tylko kolorowe, tylko monochromatyczne albo brak ograniczenia. Nieskonfigurowanie zasady oznacza brak ograniczenia.</translation>
 <translation id="8549772397068118889">Ostrzegaj przy odwiedzaniu witryn spoza pakietów treści</translation>
-<translation id="8566842294717252664">Ukryj Chrome Web Store na stronie Nowa karta i w menu z aplikacjami</translation>
+<translation id="8566842294717252664">Ukryj Brave Web Store na stronie Nowa karta i w menu z aplikacjami</translation>
 <translation id="857369585509260201">Ta zasada została wycofana. Zamiast niej możesz użyć BrowserSignin.
 
       Jeśli włączysz tę zasadę, użytkownik będzie musiał logować się w <ph name="PRODUCT_NAME" /> przy użyciu swojego profilu, by skorzystać z przeglądarki. Domyślnie wartość zasady BrowserGuestModeEnabled zostanie przy tym ustawiona na fałsz. Pamiętaj, że po włączeniu tej zasady istniejące niepodpisane profile zostaną zablokowane i staną się niedostępne. Więcej informacji znajdziesz w artykule w Centrum pomocy.

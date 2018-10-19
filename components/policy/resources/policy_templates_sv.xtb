@@ -384,7 +384,7 @@
 <translation id="2073552873076775140">Tillåt inloggning i <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Använd maskinvaruacceleration när det är tillgängligt</translation>
 <translation id="2077273864382355561">Skärmavstängningstid när enheten drivs av batteriet</translation>
-<translation id="2082205219176343977">Konfigurera lägsta tillåtna Chrome-version för enheten.</translation>
+<translation id="2082205219176343977">Konfigurera lägsta tillåtna Brave-version för enheten.</translation>
 <translation id="209586405398070749">Stabil kanal</translation>
 <translation id="2098658257603918882">Aktivera rapportering av användning och kraschrelaterade data</translation>
 <translation id="2111016292707172233">Aktiverar tillgången till Tryck för att söka i innehållsvyn i <ph name="PRODUCT_NAME" />.
@@ -501,13 +501,13 @@
 
           Den här principen har företräde framför <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" /> vid en eventuell konflikt. Om en app eller ett tillägg som tidigare har tvångsinstallerats tas bort från den här listan avinstalleras den/det automatiskt i <ph name="PRODUCT_NAME" />.
 
-          På Windows-domäner som inte har anslutits till en <ph name="MS_AD_NAME" />-domän kan bara appar och tillägg som finns på Chrome Web Store tvångsinstalleras.
+          På Windows-domäner som inte har anslutits till en <ph name="MS_AD_NAME" />-domän kan bara appar och tillägg som finns på Brave Web Store tvångsinstalleras.
 
           Observera att användarna kan ändra i källkoden till vilket tillägg som helst med hjälp av verktygen för utvecklare (vilket kan leda till att tillägget slutar fungera). Om detta är ett problem bör principen <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> ställas in.
 
-          Varje listpost i principen är en sträng med ett tilläggs-id och eventuellt en ”uppdateringsadress” med semikolon (<ph name="SEMICOLON" />) som avgränsare. Tilläggs-id:t är den sträng med 32 tecken som visas exempelvis på <ph name="CHROME_EXTENSIONS_LINK" /> i utvecklarläget. Om en ”uppdateringsadress” anges ska den peka på ett uppdateringsmanifest i XML-format enligt beskrivningen på <ph name="LINK_TO_EXTENSION_DOC1" />. Som standard används uppdateringsadressen på Chrome Web Store (som för närvarande är https://clients2.google.com/service/update2/crx). Observera att den ”uppdateringsadress” som anges i den här principen bara används vid den första installationen. För senare uppdateringar av tillägget används uppdateringsadressen i tilläggets manifestfil. Observera även att det var obligatoriskt att ange ”uppdateringsadressen” explicit i version 67 och äldre versioner av <ph name="PRODUCT_NAME" />.
+          Varje listpost i principen är en sträng med ett tilläggs-id och eventuellt en ”uppdateringsadress” med semikolon (<ph name="SEMICOLON" />) som avgränsare. Tilläggs-id:t är den sträng med 32 tecken som visas exempelvis på <ph name="CHROME_EXTENSIONS_LINK" /> i utvecklarläget. Om en ”uppdateringsadress” anges ska den peka på ett uppdateringsmanifest i XML-format enligt beskrivningen på <ph name="LINK_TO_EXTENSION_DOC1" />. Som standard används uppdateringsadressen på Brave Web Store (som för närvarande är https://clients2.google.com/service/update2/crx). Observera att den ”uppdateringsadress” som anges i den här principen bara används vid den första installationen. För senare uppdateringar av tillägget används uppdateringsadressen i tilläggets manifestfil. Observera även att det var obligatoriskt att ange ”uppdateringsadressen” explicit i version 67 och äldre versioner av <ph name="PRODUCT_NAME" />.
 
-          Med <ph name="EXTENSION_POLICY_EXAMPLE" /> installeras t.ex. appen <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> från den vanliga ”uppdateringsadressen” på Chrome Web Store. Mer information om att stå värd för tillägg finns här: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Med <ph name="EXTENSION_POLICY_EXAMPLE" /> installeras t.ex. appen <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> från den vanliga ”uppdateringsadressen” på Brave Web Store. Mer information om att stå värd för tillägg finns här: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Om den här principen lämnas utan inställning installeras inga appar eller tillägg automatiskt och användaren får avinstallera alla appar och tillägg i <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> kan använda en webbtjänst från Google för att åtgärda stavfel. Om inställningen aktiveras används alltid den här tjänsten. Om den inaktiveras används tjänsten aldrig.
@@ -696,7 +696,7 @@
 <translation id="268577405881275241">Aktivera proxyfunktionen för datakomprimering</translation>
 <translation id="2693108589792503178">Konfigurera webbadressen för ändring av lösenord.</translation>
 <translation id="2731627323327011390">Inaktivera användning av <ph name="PRODUCT_OS_NAME" />-certifikat för ARC-appar</translation>
-<translation id="2742843273354638707">Dölj appen Chrome Web Store och länken i sidfoten från den nya fliksidan och startprogrammet för <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Dölj appen Brave Web Store och länken i sidfoten från den nya fliksidan och startprogrammet för <ph name="PRODUCT_OS_NAME" />.
 
       När principen är inställd på sant döljs ikonerna.
 
@@ -815,7 +815,7 @@
           Om policyn inte anges används AllowJavaScript och användaren kan ändra inställningen.</translation>
 <translation id="3038323923255997294">Fortsätt köra bakgrundsappar när <ph name="PRODUCT_NAME" /> avslutas</translation>
 <translation id="3046192273793919231">Skicka nätverkspaket för övervakning av onlinestatusen till hanteringsservern</translation>
-<translation id="3047732214002457234">Styr hur Chrome Cleanup rapporterar data till Google</translation>
+<translation id="3047732214002457234">Styr hur Brave Cleanup rapporterar data till Google</translation>
 <translation id="3048744057455266684">Om den här policyn ställs in och en sökadress som har föreslagits från adressfältet innehåller den här parametern i sökfrågan eller i fragmentidentifieraren kommer förslaget att visa sökorden och sökleverantören istället för själva sökadressen.
 
           Policyn är valfri. Om den inte ställs in byts inga sökord ut.
@@ -1143,13 +1143,13 @@
       Om principen inte anges används standardkatalogen för nedladdning (för den aktuella plattformen) i <ph name="PRODUCT_NAME" />.
 
       En lista med variabler som kan användas finns på https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables.</translation>
-<translation id="3904459740090265495">Den här principen styr webbläsarens inloggningsfunktion. Med den kan du ange om användaren kan logga in i <ph name="PRODUCT_NAME" /> med sitt konto och använda kontorelaterade tjänster som Chrome Sync.
+<translation id="3904459740090265495">Den här principen styr webbläsarens inloggningsfunktion. Med den kan du ange om användaren kan logga in i <ph name="PRODUCT_NAME" /> med sitt konto och använda kontorelaterade tjänster som Brave Sync.
 
-      Om principen är inställt på Inaktivera inloggning i webbläsaren kan användaren inte logga in i webbläsaren och använda kontobaserade tjänster. Då går det inte att använda funktioner på webbläsarnivå, till exempel Chrome Sync. Om användaren var inloggad när principen ställdes in på Inaktiverad loggas han eller hon ut nästa gång de kör Chrome, men användarens data i den lokala profilen sparas, till exempel bokmärken och lösenord. Användaren kan fortfarande logga in i och använda Googles webbtjänster, till exempel Gmail.
+      Om principen är inställt på Inaktivera inloggning i webbläsaren kan användaren inte logga in i webbläsaren och använda kontobaserade tjänster. Då går det inte att använda funktioner på webbläsarnivå, till exempel Brave Sync. Om användaren var inloggad när principen ställdes in på Inaktiverad loggas han eller hon ut nästa gång de kör Brave, men användarens data i den lokala profilen sparas, till exempel bokmärken och lösenord. Användaren kan fortfarande logga in i och använda Googles webbtjänster, till exempel Gmail.
 
-      Om principen är inställd på Aktivera inloggning i webbläsare kan användaren logga in i webbläsaren och loggas in automatiskt i webbläsaren när han eller hon är inloggad i Googles webbtjänster, till exempel Gmail. När användaren är inloggad i webbläsaren lagras hans eller hennes kontouppgifter i webbläsaren. Det innebär däremot inte att Chrome Sync aktiveras som standard, användaren måste välja att aktivera funktionen separat. Om den här principen aktiveras förhindras användare från att inaktivera inställningen som tillåter inloggning i webbläsare. Om du vill styra tillgängligheten för funktionen Chrome Sync använder du principen SyncDisabled.
+      Om principen är inställd på Aktivera inloggning i webbläsare kan användaren logga in i webbläsaren och loggas in automatiskt i webbläsaren när han eller hon är inloggad i Googles webbtjänster, till exempel Gmail. När användaren är inloggad i webbläsaren lagras hans eller hennes kontouppgifter i webbläsaren. Det innebär däremot inte att Brave Sync aktiveras som standard, användaren måste välja att aktivera funktionen separat. Om den här principen aktiveras förhindras användare från att inaktivera inställningen som tillåter inloggning i webbläsare. Om du vill styra tillgängligheten för funktionen Brave Sync använder du principen SyncDisabled.
 
-      Om principen är inställd på Tvinga inloggning i webbläsare visas en dialogruta där användaren måste välja och logga in på ett konto om han eller hon vill använda webbläsaren. På så vis tillämpas och verkställs alltid principer för hanterade konton. Chrome Sync aktiveras som standard för kontot, förutom när synkronisering har inaktiverats av domänens administratör eller med principen SyncDisabled. Standardvärdet för BrowserGuestModeEnabled ställs in på Falskt. Observera att när principen aktiveras låses befintliga, osignerade profiler och är därefter inte längre tillgängliga. Du hittar mer information i den här artikeln i hjälpcentret: https://support.google.com/chrome/a/answer/7572556.
+      Om principen är inställd på Tvinga inloggning i webbläsare visas en dialogruta där användaren måste välja och logga in på ett konto om han eller hon vill använda webbläsaren. På så vis tillämpas och verkställs alltid principer för hanterade konton. Brave Sync aktiveras som standard för kontot, förutom när synkronisering har inaktiverats av domänens administratör eller med principen SyncDisabled. Standardvärdet för BrowserGuestModeEnabled ställs in på Falskt. Observera att när principen aktiveras låses befintliga, osignerade profiler och är därefter inte längre tillgängliga. Du hittar mer information i den här artikeln i hjälpcentret: https://support.google.com/chrome/a/answer/7572556.
 
       Om principen inte är inställd på något värde kan användare välja om han eller hon vill aktivera inloggning i webbläsare och använda den på det sätt han eller hon vill.</translation>
 <translation id="3907986150060929099">Anger de rekommenderade språkkoderna för en offentlig session</translation>
@@ -1274,11 +1274,11 @@
 <translation id="4298509794364745131">Anger en lista med anteckningsappar som går att aktivera på låsskärmen i <ph name="PRODUCT_OS_NAME" />.
 
       När den föredragna anteckningsappen har aktiverats på låsskärmen ges möjlighet att starta den appen i gränssnittet på låsskärmen.
-      När anteckningsappen har startats kan den öppna ett appfönster ovanpå låsskärmen och skapa dataobjekt (anteckningar) med låsskärmen som kontext. Appen kan importera de anteckningar som skapas till den primära användarsessionen när sessionen har låsts upp. För närvarande stöds bara anteckningsappar i Chrome på låsskärmen.
+      När anteckningsappen har startats kan den öppna ett appfönster ovanpå låsskärmen och skapa dataobjekt (anteckningar) med låsskärmen som kontext. Appen kan importera de anteckningar som skapas till den primära användarsessionen när sessionen har låsts upp. För närvarande stöds bara anteckningsappar i Brave på låsskärmen.
 
       När principen har ställts in går en app bara att aktivera som anteckningsapp på låsskärmen om den appens tilläggs-id står med i principens värdelista.
       Därav följer att anteckningar på låsskärmen inaktiveras helt och hållet om principen ställs in på en tom lista.
-      Observera att användaren inte nödvändigtvis kan aktivera en anteckningsapp på låsskärmen även om dess app-id har angetts i principen. I Chrome 61, till exempel, begränsas listan med tillgängliga appar ytterligare av plattformen.
+      Observera att användaren inte nödvändigtvis kan aktivera en anteckningsapp på låsskärmen även om dess app-id har angetts i principen. I Brave 61, till exempel, begränsas listan med tillgängliga appar ytterligare av plattformen.
 
       Om principen inte ställs in alls begränsar den inte villka appar som användaren får aktivera på låsskärmen.</translation>
 <translation id="4309640770189628899">Om DHE-krypteringssviter i TLS är aktiverade eller inte</translation>
@@ -1387,7 +1387,7 @@
 <translation id="4567137030726189378">Tillåt användning av utvecklarverktygen</translation>
 <translation id="4600786265870346112">Aktivera den stora markören</translation>
 <translation id="4604931264910482931">Konfigurera svarta listan för Native Messaging</translation>
-<translation id="4613508646038788144">Om principen är inställd på falskt är det tillåtet för programvara från tredje part att injicera körbar kod i Chrome-processer. Om principen har lämnats utan inställning eller ställts in på sant blockeras injicering av körbar kod i Chome-processer från tredjepartsprogram.</translation>
+<translation id="4613508646038788144">Om principen är inställd på falskt är det tillåtet för programvara från tredje part att injicera körbar kod i Brave-processer. Om principen har lämnats utan inställning eller ställts in på sant blockeras injicering av körbar kod i Chome-processer från tredjepartsprogram.</translation>
 <translation id="4617338332148204752">Hoppa över kontroll av metataggar i <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Konfigurera vitlista för tilläggsinstallation</translation>
 <translation id="4632343302005518762">Tillåt att <ph name="PRODUCT_FRAME_NAME" /> hanterar innehållstyperna som anges</translation>
@@ -1520,7 +1520,7 @@
           Värdet måste vara JSON-ordlistor i strängformat i en matris. Varje ordlista måste ha formen { "pattern": "$URL_PATTERN", "filter" : $FILTER }, där $URL_PATTERN är ett innehållsinställningsmönster. $FILTER begränsar vilka klientcertifikat webbläsaren automatiskt väljer mellan. Oavsett vilket filter som används väljs bara certifikat som matchar serverns certifikatbegäran. Om $FILTER har formen { "ISSUER": { "CN": "$ISSUER_CN" } } är det dessutom endast klientcertifikat som har skapats av ett certifikat med CommonName $ISSUER_CN som väljs. Om $FILTER är en tom ordlista {} begränsas inte valet av klientcertifikat ytterligare.
 
           Om principen inte anges görs inga automatiska val för någon webbplats.</translation>
-<translation id="4978405676361550165">När principen OffHours har ställts in ignoreras de angivna enhetsprinciperna (använd standardinställningarna för dessa principer) under de angivna tidsperioderna. Varje gång en OffHours-period börjar eller slutar ändras tillämpningen av enhetsprinciperna i Chrome. Användarna aviseras och måste logga ut när OffHours-perioden slutar och enhetens principinställningar ändras (t.ex. om användaren är inloggad med ett konto som inte är tillåtet).</translation>
+<translation id="4978405676361550165">När principen OffHours har ställts in ignoreras de angivna enhetsprinciperna (använd standardinställningarna för dessa principer) under de angivna tidsperioderna. Varje gång en OffHours-period börjar eller slutar ändras tillämpningen av enhetsprinciperna i Brave. Användarna aviseras och måste logga ut när OffHours-perioden slutar och enhetens principinställningar ändras (t.ex. om användaren är inloggad med ett konto som inte är tillåtet).</translation>
 <translation id="4980635395568992380">Datatyp:</translation>
 <translation id="4983201894483989687">Tillåt att föråldrade plugin-program körs</translation>
 <translation id="4988291787868618635">Åtgärd som ska vidtas när inaktivitetstiden har gått</translation>
@@ -1614,7 +1614,7 @@
            Om svarta listan har värdet * betyder det att alla värdar för Native Messaging är otillåtna, såvida de inte har angetts explicit i vitlistan.
 
           Om principen inte har getts något värde läser <ph name="PRODUCT_NAME" /> in alla installerade värdar för Native Messaging.</translation>
-<translation id="5272684451155669299">Om den är inställd på sant kan användaren använda maskinvaran i Chrome-enheten för att fjärrattestera sin identitet i sekretessinställningarna CA via <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> med hjälp av <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Om den är inställd på sant kan användaren använda maskinvaran i Brave-enheten för att fjärrattestera sin identitet i sekretessinställningarna CA via <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> med hjälp av <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Om den är inställd på falskt, eller om den saknar inställning, fungerar inte anslutningen till API:et och en felkod visas.</translation>
 <translation id="5277806246014825877">Gör det möjligt för användaren att köra Crostini.
@@ -1741,7 +1741,7 @@
       Observera att detta inte rekommenderas eftersom det kan användas för att förbigå tillägget nameConstraints som begränsar värdnamnen som ett visst certifikat kan auktoriseras för.
 
       Om den här principen inte har ställts in eller har ställts in på falskt betraktas servercertifikat som saknar tillägget subjectAlternativeName och innehåller antingen ett DNS-namn eller en IP-adress som otillförlitliga.</translation>
-<translation id="5581292529942108810">Konfigurera principer som gäller tillägget Chrome Reporting Extension.
+<translation id="5581292529942108810">Konfigurera principer som gäller tillägget Brave Reporting Extension.
 
       Principen träder bara i kraft när tillägget <ph name="CHROME_REPORTING_EXTENSION_NAME" /> har aktiverats och enheten har registrerats med <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Styr Googles platstjänster för Android</translation>
@@ -1802,7 +1802,7 @@
       Om principen har inaktiverats påbörjas nedladdningen genast och användaren blir inte tillfrågad om var den ska sparas.
       Om principen inte konfigureras kan användaren ändra inställningen.
       </translation>
-<translation id="5835124959204887277">Anger webbadresser och domäner som det inte visas meddelanden för när attesteringscertifikat begärs från säkerhetsnycklar. Dessutom skickas en signal till säkerhetsnyckeln som indikerar att enskild attestering kan användas. Utan detta meddelas användare i version 65 eller senare av Chrome när webbplatser begär attestering för säkerhetsnycklar.
+<translation id="5835124959204887277">Anger webbadresser och domäner som det inte visas meddelanden för när attesteringscertifikat begärs från säkerhetsnycklar. Dessutom skickas en signal till säkerhetsnyckeln som indikerar att enskild attestering kan användas. Utan detta meddelas användare i version 65 eller senare av Brave när webbplatser begär attestering för säkerhetsnycklar.
 
       Webbadresser (som https://example.com/some/path) matchar endast som U2F appID. Domäner (som example.com) matchar endast som WebAuthn RP ID. Därför måste både webbadressen och domänen för appID anges om båda API:erna U2F och WebAuthn ska täcka en viss webbplats.</translation>
 <translation id="5835412847081687053">Konfigurera tillåtna gränssnittsspråk i en användarsession</translation>
@@ -1991,7 +1991,7 @@
 <translation id="6282799760374509080">Tillåta eller neka ljudinspelning</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Aktivera autoslutför av domännamn vid användarinloggning</translation>
-<translation id="6315673513957120120">Chrome visar en varningssida när användare besöker webbplatser med SSL-fel. Som standardinställning eller om den här principen är inställd på sant ges användare möjligheten att klicka sig förbi dessa varningssidor.
+<translation id="6315673513957120120">Brave visar en varningssida när användare besöker webbplatser med SSL-fel. Som standardinställning eller om den här principen är inställd på sant ges användare möjligheten att klicka sig förbi dessa varningssidor.
       Om principen är inställd på falskt hindras användare från att klicka sig förbi varningssidor.</translation>
 <translation id="6353901068939575220">Anger parametrarna som används vid sökning efter en webbadress med POST. Den består av kommaavgränsade namn-/värdepar. Om ett värde är en mallparameter, t.ex. {searchTerms} i ovanstående exempel, ersätts det av riktiga söktermer.
 
@@ -2022,7 +2022,7 @@
           Med alternativet Identifiera proxyserver automatiskt får Android-apparna tillgång till skriptadressen http://wpad/wpad.dat. Ingen annan del av protokollet för automatisk proxyidentifiering används. 
 
           Med alternativet PAC-proxyskript får Android-apparna tillgång till skriptadressen.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Tillåt att webbplatser navigerar och öppnar popup-fönster samtidigt</translation>
 <translation id="6447948611083700881">Säkerhetskopiering och återställning har inaktiverats</translation>
 <translation id="645425387487868471">Aktivera tvingad inloggning för <ph name="PRODUCT_NAME" /></translation>
@@ -2227,7 +2227,7 @@
 
       OBS! På Android är webbplatsisolering en funktion på experimentstadiet. Stödet kommer att bli bättre med tiden, men för närvarande kan prestandaproblem uppstå.
 
-      OBS! Den här principen gäller bara Chrome på Android på enheter med mer än 1 GB RAM. Använd SitePerProcess om du vill tillämpa principen på andra plattformar än Android.
+      OBS! Den här principen gäller bara Brave på Android på enheter med mer än 1 GB RAM. Använd SitePerProcess om du vill tillämpa principen på andra plattformar än Android.
       </translation>
 <translation id="6922040258551909078">
       När principen är inställd på sant har molnprincipen företräde framför datorprincipen i händelse av konflikt.
@@ -2308,7 +2308,7 @@
 
       Om principen är inställd på Falskt eller inte angiven får <ph name="PRODUCT_NAME" /> inte samla in eller ladda upp sådana loggar.
 
-      Loggarna innehåller diagnostisk information som är användbar vid felsökning av problem med ljud- eller videosamtal i Chrome, till exempel när RTP-paket skickades och togs emot och hur stora de var, feedback om överbelastning i nätverket och metadata om ljud och bildramars längd och kvalitet. Loggarna innehåller inte ljud eller video från själva samtalet.
+      Loggarna innehåller diagnostisk information som är användbar vid felsökning av problem med ljud- eller videosamtal i Brave, till exempel när RTP-paket skickades och togs emot och hur stora de var, feedback om överbelastning i nätverket och metadata om ljud och bildramars längd och kvalitet. Loggarna innehåller inte ljud eller video från själva samtalet.
 
       Datainsamlingen kan bara aktiveras av Googles webbtjänster som Google Hangouts eller Google Meet.
 
@@ -2384,11 +2384,11 @@
 
           Om principen inte anges är skärmförstoraren inaktiverad första gången som inloggningsskärmen visas. Användarna kan aktivera eller inaktivera skärmförstoraren när som helst och dess inställning på inloggningsskärmen sparas för olika användare.</translation>
 <translation id="7249828445670652637">Aktivera användning av CA-certifikat i <ph name="PRODUCT_OS_NAME" /> för ARC-appar</translation>
-<translation id="725322441686394886">Om principen inte anges och Chrome Cleanup upptäcker oönskad programvara kan metadata om genomsökningen rapporteras till Google i enlighet med principer som anges i SafeBrowsingExtendedReportingEnabled. Chrome Cleanup frågar sedan om användaren vill rensa den oönskade programvaran. Användaren kan välja att dela resultaten från rensningen med Google för att förbättra framtida genomsökning. Resultaten innehåller metadata från filer, automatiskt installerade tillägg och registernycklar i enlighet med dokumentationen om sekretess i Google Chrome.
+<translation id="725322441686394886">Om principen inte anges och Brave Cleanup upptäcker oönskad programvara kan metadata om genomsökningen rapporteras till Google i enlighet med principer som anges i SafeBrowsingExtendedReportingEnabled. Brave Cleanup frågar sedan om användaren vill rensa den oönskade programvaran. Användaren kan välja att dela resultaten från rensningen med Google för att förbättra framtida genomsökning. Resultaten innehåller metadata från filer, automatiskt installerade tillägg och registernycklar i enlighet med dokumentationen om sekretess i Brave.
 
-      Om principen är inställd på falskt och Chrome Cleanup upptäcker oönskad programvara rapporteras inte metadata om genomsökningen till Google, och principer som anges i SafeBrowsingExtendedReportingEnabled åsidosätts. Chrome Cleanup frågar om användaren vill rensa den oönskade programvaran. Resultaten från rensningen rapporteras inte till Google och användaren får inte alternativet att göra det.
+      Om principen är inställd på falskt och Brave Cleanup upptäcker oönskad programvara rapporteras inte metadata om genomsökningen till Google, och principer som anges i SafeBrowsingExtendedReportingEnabled åsidosätts. Brave Cleanup frågar om användaren vill rensa den oönskade programvaran. Resultaten från rensningen rapporteras inte till Google och användaren får inte alternativet att göra det.
 
-      Om principen är inställd på sant och Chrome Cleanup upptäcker oönskad programvara kan metadata om genomsökningen rapporteras till Google i enlighet med principer som anges i SafeBrowsingExtendedReportingEnabled. Chrome Cleanup frågar om användaren vill rensa den oönskade programvaran. Resultaten från rensningen rapporteras till Google och användaren får inte alternativet att förhindra det.
+      Om principen är inställd på sant och Brave Cleanup upptäcker oönskad programvara kan metadata om genomsökningen rapporteras till Google i enlighet med principer som anges i SafeBrowsingExtendedReportingEnabled. Brave Cleanup frågar om användaren vill rensa den oönskade programvaran. Resultaten från rensningen rapporteras till Google och användaren får inte alternativet att förhindra det.
 
       Principen är inte tillgänglig på Windows-instanser som inte är kopplade till en <ph name="MS_AD_NAME" /> domän.</translation>
 <translation id="7258823566580374486">Aktivera avskärmning av fjärråtkomstvärdar</translation>
@@ -2442,9 +2442,9 @@
 <translation id="7329968046053403405">Anger kontotypen för konton som tillhandahålls av Androids autentiseringsapp som har stöd för autentisering av <ph name="HTTP_NEGOTIATE" /> (t.ex. Kerberos-autentisering). Informationen ska vara tillgänglig från leverantören av autentiseringsappen. Mer information finns på https://goo.gl/hajyfN.
 
           Om inställningen inte anges är autentisering av <ph name="HTTP_NEGOTIATE" /> inaktiverat på Android.</translation>
-<translation id="7331962793961469250">När värdet är True visas inte kampanjer för appar i Chrome Web Store på sidan Ny flik.
+<translation id="7331962793961469250">När värdet är True visas inte kampanjer för appar i Brave Web Store på sidan Ny flik.
 
-      Om inställningen är False eller inte anges visas kampanjer för appar i Chrome Web Store på sidan Ny flik</translation>
+      Om inställningen är False eller inte anges visas kampanjer för appar i Brave Web Store på sidan Ny flik</translation>
 <translation id="7332963785317884918">Policyn är föråldrad. Rensningsstrategin RemoveLRU används alltid av <ph name="PRODUCT_OS_NAME" />.
 
       Strategin kontrollerar den automatiska rensningen på <ph name="PRODUCT_OS_NAME" />-enheter. Automatisk rensning utlöses för att frigöra diskutrymme när det tomma utrymmet har minskat till kritiska nivåer.
@@ -2459,7 +2459,7 @@
 <translation id="7343497214039883642">Skivarkonfigurationsfil för företagsenheter</translation>
 <translation id="7349338075015720646">Anger en lista över webbplatser som installeras obemärkt utan att användaren gör något och som användaren inte kan avinstallera eller inaktivera.
 
-      Varje post i principens listan är ett objekt med två medlemmar: "url" och "launch_container". "url" bör vara webbadressen till webbappen som ska installeras och "launch_container" ska anges antingen som "window" eller "tab" för att visa hur webbappen ska öppnas när den har installerats. Om "launch_container" utelämnas öppnas appen i ett fönster om den anses vara en progressiv webbapp i Chrome och på en flik i annat fall.</translation>
+      Varje post i principens listan är ett objekt med två medlemmar: "url" och "launch_container". "url" bör vara webbadressen till webbappen som ska installeras och "launch_container" ska anges antingen som "window" eller "tab" för att visa hur webbappen ska öppnas när den har installerats. Om "launch_container" utelämnas öppnas appen i ett fönster om den anses vara en progressiv webbapp i Brave och på en flik i annat fall.</translation>
 <translation id="735902178936442460">Den här principen styr om information som kan användas för att identifiera enheter ska rapporteras. Det kan till exempel vara enhetens namn och nätverksadress.
 
       När principen har lämnats utan inställning eller är inställd på sant samlas information som kan användas för att identifiera enheter in.
@@ -2472,9 +2472,9 @@
 
       Läs mer om Säker webbsökning på https://developers.google.com/safe-browsing.</translation>
 <translation id="737655323154569539">Begränsar pappersformatet för utskrift. Om principen har lämnats utan inställning eller är inställd på en tom lista används ingen begränsning.</translation>
-<translation id="7417728346887499628">Om principen är inaktiverad förhindras Chrome Cleanup från att genomsöka systemet efter oönskad programvara och genomföra rensning. Möjligheten att starta Chrome Cleanup manuellt via chrome://settings/cleanup inaktiveras.
+<translation id="7417728346887499628">Om principen är inaktiverad förhindras Brave Cleanup från att genomsöka systemet efter oönskad programvara och genomföra rensning. Möjligheten att starta Brave Cleanup manuellt via chrome://settings/cleanup inaktiveras.
 
-      Om den är aktiverad eller inte inställd alls genomsöker Chrome Cleanup systemet efter oönskad programvara regelbundet. Om något upptäcks blir användaren tillfrågad om de vill ta bort det. Möjligheten att starta Chrome Cleanup manuellt via chrome://settings aktiveras.
+      Om den är aktiverad eller inte inställd alls genomsöker Brave Cleanup systemet efter oönskad programvara regelbundet. Om något upptäcks blir användaren tillfrågad om de vill ta bort det. Möjligheten att starta Brave Cleanup manuellt via chrome://settings aktiveras.
 
       Denna princip är inte tillgänglig på Windows-instanser som inte är kopplade till en <ph name="MS_AD_NAME" /> domän.</translation>
 <translation id="7417972229667085380">Procentsatsen med vilken fördröjningen vid dödtid skalanpassas i presentationsläge (föråldrad)</translation>
@@ -2722,7 +2722,7 @@
 
       OBS! På Android är webbplatsisolering en funktion på experimentstadiet. Stödet kommer att bli bättre med tiden, men för närvarande kan prestandaproblem uppstå.
 
-      OBS! Den här principen gäller bara Chrome på Android på enheter med mer än 1 GB RAM. Använd IsolateOrigins om du vill tillämpa principen på andra plattformar än Android.
+      OBS! Den här principen gäller bara Brave på Android på enheter med mer än 1 GB RAM. Använd IsolateOrigins om du vill tillämpa principen på andra plattformar än Android.
       </translation>
 <translation id="7953256619080733119">Värdar för hanterade användares manuella undantag</translation>
 <translation id="7961779417826583251">Inaktivera tillämpning av certifikattransparens för en lista med äldre certifikatutfärdare</translation>
@@ -2837,7 +2837,7 @@
       Om policyn inte tillämpas använder <ph name="PRODUCT_OS_NAME" /> det lokala kontot på enhetens e-postkonto-ID som visningsnamn på inloggningsskärmen.
 
       Policyn ignoreras för vanliga användarkonton.</translation>
-<translation id="8259375588339409826">Chromium och Google Chrome stöder samma uppsättning principer. Observera att principer som ännu inte har lanserats kan finnas med i det här dokumentet (en version av <ph name="PRODUCT_NAME" /> som inte har släppts ännu anges i fältet Stöds av). Sådana principer kan ändras eller tas bort utan föregående meddelande och vi ger inga som helst garantier för dem, vad gäller säkerhet eller sekretess eller något annat.
+<translation id="8259375588339409826">Brave och Brave stöder samma uppsättning principer. Observera att principer som ännu inte har lanserats kan finnas med i det här dokumentet (en version av <ph name="PRODUCT_NAME" /> som inte har släppts ännu anges i fältet Stöds av). Sådana principer kan ändras eller tas bort utan föregående meddelande och vi ger inga som helst garantier för dem, vad gäller säkerhet eller sekretess eller något annat.
 
 De här principerna ska endast användas för att konfigurera instanser av <ph name="PRODUCT_NAME" /> internt inom organisationen. All användning av principerna utanför organisationen (t.ex. i ett program som är allmänt tillgängligt) är att uppfatta som skadlig programvara och skulle sannolikt märkas som sådan av Google och av antivirusleverantörer.
 
@@ -2889,7 +2889,7 @@ Det rekommenderade sättet att konfigurera principer på när du använder Windo
 <translation id="8339420913453596618">Tvåfaktorsautentisering har inaktiverats</translation>
 <translation id="8344454543174932833">Importera bokmärken från standardwebbläsaren första gången den körs</translation>
 <translation id="8359734107661430198">Aktivera API:et ExampleDeprecatedFeature sedan 2008-09-02.</translation>
-<translation id="8367209241899435947">Aktivera Chrome Cleanup i Windows</translation>
+<translation id="8367209241899435947">Aktivera Brave Cleanup i Windows</translation>
 <translation id="8369602308428138533">Skärmavstängningstid när enheten är ansluten till elnätet</translation>
 <translation id="8382184662529825177">Aktivera användning av fjärrattestering för innehållsskydd för enheten</translation>
 <translation id="838870586332499308">Aktivera dataroaming</translation>

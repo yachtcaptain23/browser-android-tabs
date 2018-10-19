@@ -380,7 +380,7 @@ Si esta política se establece en True, <ph name="PRODUCT_OS_NAME" /> intentará
 <translation id="2073552873076775140">Permitir inicio de sesión en <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Utilizar aceleración por hardware cuando esté disponible</translation>
 <translation id="2077273864382355561">Retraso de desconexión de pantalla cuando el dispositivo funciona con la batería</translation>
-<translation id="2082205219176343977">Configurar la versión mínima permitida de Chrome en el dispositivo.</translation>
+<translation id="2082205219176343977">Configurar la versión mínima permitida de Brave en el dispositivo.</translation>
 <translation id="209586405398070749">Canal estable</translation>
 <translation id="2098658257603918882">Habilitar informes de uso y de datos sobre fallos</translation>
 <translation id="2111016292707172233">Permite que Tocar para buscar esté disponible en la vista de contenido de <ph name="PRODUCT_NAME" />.
@@ -696,7 +696,7 @@ Si no se establece esta política, el teclado en pantalla estará inhabilitado i
 <translation id="268577405881275241">Habilitar la función del proxy de compresión de datos</translation>
 <translation id="2693108589792503178">Configura la URL de cambio de contraseñas.</translation>
 <translation id="2731627323327011390">Inhabilitar el uso de certificados de <ph name="PRODUCT_OS_NAME" /> a las aplicaciones ARC</translation>
-<translation id="2742843273354638707">Permite ocultar la aplicación Chrome Web Store y el enlace de la parte inferior de la página en la página Nueva pestaña y en el menú de aplicaciones de <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Permite ocultar la aplicación Brave Web Store y el enlace de la parte inferior de la página en la página Nueva pestaña y en el menú de aplicaciones de <ph name="PRODUCT_OS_NAME" />.
 
       Cuando se establece el valor true en esta política, se ocultan los iconos.
 
@@ -815,7 +815,7 @@ Si no se establece esta política, el teclado en pantalla estará inhabilitado i
           Si no se establece esta política, se usará la política AllowJavaScript y el usuario podrá modificarla.</translation>
 <translation id="3038323923255997294">Continuar ejecutando aplicaciones en segundo plano cuando <ph name="PRODUCT_NAME" /> esté cerrado</translation>
 <translation id="3046192273793919231">Enviar paquetes de red al servidor de gestión para supervisar el estado online</translation>
-<translation id="3047732214002457234">Controlar cómo envía el Limpiador de Chrome datos a Google</translation>
+<translation id="3047732214002457234">Controlar cómo envía el Limpiador de Brave datos a Google</translation>
 <translation id="3048744057455266684">En caso de que se establezca esta política y de que una URL de búsqueda sugerida del omnibox incluya este parámetro en la cadena de consulta o en el identificador de fragmentos, la sugerencia mostrará los términos de búsqueda y el proveedor de búsqueda en lugar de la URL de búsqueda sin procesar.
 
           Esta política es opcional. Si no se establece, no se realizará ninguna sustitución de los términos de búsqueda.
@@ -1143,13 +1143,13 @@ Si no se establece esta política, el teclado en pantalla estará inhabilitado i
       Si no estableces esta política, <ph name="PRODUCT_NAME" /> utilizará el directorio predeterminado habitual (específico de la plataforma).
 
       Accede a la página https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables para consultar una lista de las variables que se pueden utilizar.</translation>
-<translation id="3904459740090265495">Esta política controla el comportamiento del navegador cuando se inicia sesión. Permite establecer si los usuarios pueden iniciar sesión en <ph name="PRODUCT_NAME" /> con su cuenta y usar los servicios asociados a esta, como la función Sincronización de Chrome.
+<translation id="3904459740090265495">Esta política controla el comportamiento del navegador cuando se inicia sesión. Permite establecer si los usuarios pueden iniciar sesión en <ph name="PRODUCT_NAME" /> con su cuenta y usar los servicios asociados a esta, como la función Sincronización de Brave.
 
-      Si se asigna el valor "Inhabilitar el inicio de sesión en el navegador" a esta política, el usuario no podrá iniciar sesión en el navegador ni usar los servicios asociados a la cuenta. Además, las funciones del navegador, como Sincronización de Chrome, no se podrán usar ni estarán disponibles. Si el usuario inicia sesión y esta política está inhabilitada, la próxima vez que ejecute Chrome se cerrará la sesión, pero se conservarán los datos de su perfil local, como los marcadores o las contraseñas. De todas formas, podrá iniciar sesión y usar servicios web de Google como Gmail.
+      Si se asigna el valor "Inhabilitar el inicio de sesión en el navegador" a esta política, el usuario no podrá iniciar sesión en el navegador ni usar los servicios asociados a la cuenta. Además, las funciones del navegador, como Sincronización de Brave, no se podrán usar ni estarán disponibles. Si el usuario inicia sesión y esta política está inhabilitada, la próxima vez que ejecute Brave se cerrará la sesión, pero se conservarán los datos de su perfil local, como los marcadores o las contraseñas. De todas formas, podrá iniciar sesión y usar servicios web de Google como Gmail.
 
-      Si se asigna el valor "Habilitar el inicio de sesión en el navegador" a esta política, el usuario podrá iniciar sesión en el navegador. Si inicia sesión en servicios web de Google como Gmail, también lo hará en el navegador automáticamente. Con la sesión iniciada, el navegador conservará la información de la cuenta, pero Sincronización de Chrome no se activará de forma predeterminada; el usuario deberá activar esta función por separado. Al habilitar esta política, se impedirá que el usuario desactive la opción que permite iniciar sesión en el navegador. Para controlar la disponibilidad de Sincronización de Chrome, usa la política "SyncDisabled".
+      Si se asigna el valor "Habilitar el inicio de sesión en el navegador" a esta política, el usuario podrá iniciar sesión en el navegador. Si inicia sesión en servicios web de Google como Gmail, también lo hará en el navegador automáticamente. Con la sesión iniciada, el navegador conservará la información de la cuenta, pero Sincronización de Brave no se activará de forma predeterminada; el usuario deberá activar esta función por separado. Al habilitar esta política, se impedirá que el usuario desactive la opción que permite iniciar sesión en el navegador. Para controlar la disponibilidad de Sincronización de Brave, usa la política "SyncDisabled".
 
-      Si se asigna el valor "Forzar el inicio de sesión en el navegador" a esta política, se mostrará un cuadro de diálogo de selección de cuenta al usuario para que elija una e inicie sesión en el navegador. De este modo, se garantiza que, en el caso de las cuentas gestionadas, se apliquen y se cumplan las políticas asociadas a la cuenta. Además, se activará de forma predeterminada la función Sincronización de Chrome de la cuenta, excepto si la sincronización está inhabilitada por el administrador del dominio o por la política "SyncDisabled". El valor predeterminado que se asignará a BrowserGuestModeEnabled es "False". Ten en cuenta que, después de habilitar esta política, los perfiles con los que no se haya iniciado sesión se bloquearán y no se podrá acceder a ellos. Para obtener más información, consulta este artículo del Centro de Ayuda: https://support.google.com/chrome/a/answer/7572556.
+      Si se asigna el valor "Forzar el inicio de sesión en el navegador" a esta política, se mostrará un cuadro de diálogo de selección de cuenta al usuario para que elija una e inicie sesión en el navegador. De este modo, se garantiza que, en el caso de las cuentas gestionadas, se apliquen y se cumplan las políticas asociadas a la cuenta. Además, se activará de forma predeterminada la función Sincronización de Brave de la cuenta, excepto si la sincronización está inhabilitada por el administrador del dominio o por la política "SyncDisabled". El valor predeterminado que se asignará a BrowserGuestModeEnabled es "False". Ten en cuenta que, después de habilitar esta política, los perfiles con los que no se haya iniciado sesión se bloquearán y no se podrá acceder a ellos. Para obtener más información, consulta este artículo del Centro de Ayuda: https://support.google.com/chrome/a/answer/7572556.
 
      Si no se asigna ningún valor a esta política, el usuario podrá decidir si quiere habilitar la opción para iniciar sesión en el navegador y usarla cuando lo crea oportuno.</translation>
 <translation id="3907986150060929099">Establecer las configuraciones regionales recomendadas para una sesión pública</translation>
@@ -1275,7 +1275,7 @@ Si esta política se establece en False, el usuario no podrá canjear ofertas.</
 <translation id="4298509794364745131">Especifica la lista de aplicaciones que se pueden habilitar como aplicaciones para tomar notas en la pantalla de bloqueo de <ph name="PRODUCT_OS_NAME" />.
 
       Si la aplicación para tomar notas preferida está habilitada en la pantalla de bloqueo, esta contendrá un elemento de UI para iniciar dicha aplicación.
-      Cuando se inicie, la aplicación podrá abrir una ventana de aplicación en la parte superior de la pantalla de bloqueo y crear elementos de datos (notas) en dicha pantalla. La aplicación también podrá importar las notas creadas a la sesión del usuario principal, cuando la sesión esté desbloqueada. Actualmente, solo se admiten las aplicaciones para tomar notas de Chrome en la pantalla de bloqueo.
+      Cuando se inicie, la aplicación podrá abrir una ventana de aplicación en la parte superior de la pantalla de bloqueo y crear elementos de datos (notas) en dicha pantalla. La aplicación también podrá importar las notas creadas a la sesión del usuario principal, cuando la sesión esté desbloqueada. Actualmente, solo se admiten las aplicaciones para tomar notas de Brave en la pantalla de bloqueo.
 
       Si se configura esta política, el usuario solo podrá habilitar aplicaciones en la pantalla de bloqueo si el ID de extensión de la aplicación está incluido en los valores de la lista de políticas.
       Como consecuencia, configurar esta política con una lista vacía inhabilitará por completo la toma de notas en la pantalla de bloqueo.
@@ -1388,7 +1388,7 @@ Si esta política está configurada, el usuario no puede cambiarla y el acceso d
 <translation id="4567137030726189378">Permite el uso de las herramientas para desarrolladores</translation>
 <translation id="4600786265870346112">Habilitar cursor grande</translation>
 <translation id="4604931264910482931">Configurar la lista negra de mensajes nativos</translation>
-<translation id="4613508646038788144">Si se le asigna el valor "False" a esta política, el software de terceros podrá insertar código ejecutable en los procesos de Chrome. Si no se asigna ningún valor a esta política o se le asigna el valor "True", el software de terceros no podrá insertar código ejecutable en los procesos de Chrome.</translation>
+<translation id="4613508646038788144">Si se le asigna el valor "False" a esta política, el software de terceros podrá insertar código ejecutable en los procesos de Brave. Si no se asigna ningún valor a esta política o se le asigna el valor "True", el software de terceros no podrá insertar código ejecutable en los procesos de Brave.</translation>
 <translation id="4617338332148204752">Saltarla comprobación de metaetiquetas en <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Configurar lista de admisión de instalación de extensiones</translation>
 <translation id="4632343302005518762">Permitir que <ph name="PRODUCT_FRAME_NAME" /> procese los tipos de contenido mostrados</translation>
@@ -1521,7 +1521,7 @@ Si esta política está configurada, el usuario no puede cambiarla y el acceso d
           El valor debe ser un conjunto de diccionarios JSON de tipo Stringify. Cada diccionario debe tener la forma { "pattern": "$URL_PATTERN", "filter" : $FILTER }, donde $URL_PATTERN es un patrón de configuración de contenido. $FILTER limita desde qué certificados de cliente podrá seleccionar el navegador automáticamente. Independientemente del filtro, solo se seleccionarán certificados que coincidan con la solicitud de certificado del servidor. Además, si $FILTER tiene la forma { "ISSUER": { "CN": "$ISSUER_CN" } }, solo se seleccionarán certificados de cliente emitidos por un certificado con el valor $ISSUER_CN para CommonName. Si $FILTER es el diccionario vacío {}, no se limitará de forma adicional la selección de los certificados de cliente.
 
           Si esta política no se configura, no se aplicará la selección automática en ningún sitio web.</translation>
-<translation id="4978405676361550165">Si se establece la política "OffHours", se ignorarán las políticas de dispositivos especificadas (se utiliza la configuración predeterminada de estas políticas) durante los intervalos de tiempo establecidos. Chrome vuelve a aplicar las políticas de dispositivos cada vez que se inicia o finaliza el periodo de "OffHours". El usuario recibirá una notificación y tendrá que cerrar sesión cuando finalice OffHours y se modifique la configuración de la política de dispositivos (por ejemplo, cuando el usuario no haya iniciado sesión con una cuenta permitida).</translation>
+<translation id="4978405676361550165">Si se establece la política "OffHours", se ignorarán las políticas de dispositivos especificadas (se utiliza la configuración predeterminada de estas políticas) durante los intervalos de tiempo establecidos. Brave vuelve a aplicar las políticas de dispositivos cada vez que se inicia o finaliza el periodo de "OffHours". El usuario recibirá una notificación y tendrá que cerrar sesión cuando finalice OffHours y se modifique la configuración de la política de dispositivos (por ejemplo, cuando el usuario no haya iniciado sesión con una cuenta permitida).</translation>
 <translation id="4980635395568992380">Tipo de datos:</translation>
 <translation id="4983201894483989687">Permitir la ejecución de complementos obsoletos</translation>
 <translation id="4988291787868618635">Acción que se realiza al alcanzar el retraso de inactividad</translation>
@@ -1615,7 +1615,7 @@ Si esta política está configurada, el usuario no puede cambiarla y el acceso d
           El valor de lista negra de "*" indica que todos los hosts de mensajes nativos se incluyen en la lista negra a menos que se incluyan explícitamente en la lista blanca.
 
           Si esta política no se establece en <ph name="PRODUCT_NAME" />, se cargarán todos los hosts de mensajes nativos.</translation>
-<translation id="5272684451155669299">Si se asigna el valor true, los usuarios podrán usar el hardware en dispositivos Chrome para confirmar su identidad de forma remota ante la entidad emisora de certificados de privacidad a través de la API <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> mediante <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Si se asigna el valor true, los usuarios podrán usar el hardware en dispositivos Brave para confirmar su identidad de forma remota ante la entidad emisora de certificados de privacidad a través de la API <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> mediante <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Si se le asigna el valor false o no se configura, aparecerá un código de error en las llamadas a la API.</translation>
 <translation id="5277806246014825877">Permitir que este usuario ejecute Crostini.
@@ -1742,7 +1742,7 @@ Si esta política está configurada, el usuario no puede cambiarla y el acceso d
       Recuerda que no se recomienda esta opción, ya que puede permitir que se omita la extensión nameConstraints que restringe los nombres de host para los que puede estar autorizado un certificado concreto.
 
       Si esta política no se configura o se le asigna el valor valse, los certificados de servidor que no tengan ninguna extensión subjectAlternativeName que incluya un nombre de DNS o una dirección IP no serán de confianza.</translation>
-<translation id="5581292529942108810">Configurar las políticas asociadas a Chrome Reporting Extension.
+<translation id="5581292529942108810">Configurar las políticas asociadas a Brave Reporting Extension.
 
       Esta política solo es efectiva si la extensión <ph name="CHROME_REPORTING_EXTENSION_NAME" /> está habilitada y el equipo está registrado en <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Controlar los servicios de ubicación de Google de Android</translation>
@@ -1991,7 +1991,7 @@ Si esta opción no está establecida o está establecida en True, los dispositiv
 <translation id="6282799760374509080">Permitir o denegar captura de audio</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Habilitar la opción de autocompletar nombre de dominio durante el inicio de sesión del usuario</translation>
-<translation id="6315673513957120120">Chrome muestra una página de advertencia cuando los usuarios intentan acceder a sitios web con errores SSL. De forma predeterminada o cuando se establezca el valor true en esta política, los usuarios podrán hacer clic para ignorar estas páginas de advertencia.
+<translation id="6315673513957120120">Brave muestra una página de advertencia cuando los usuarios intentan acceder a sitios web con errores SSL. De forma predeterminada o cuando se establezca el valor true en esta política, los usuarios podrán hacer clic para ignorar estas páginas de advertencia.
       Si se asigna el valor false, los usuarios no tendrán permiso para ignorar ninguna página de advertencia.</translation>
 <translation id="6353901068939575220">Especifica los parámetros utilizados al buscar una URL con POST. Se compone de pares de valor/nombre separados por comas. Si un valor es un parámetro de plantilla, como {searchTerms} en el ejemplo anterior, se sustituirá por datos de términos de búsqueda reales.
 
@@ -2022,7 +2022,7 @@ Si la política está establecida en False, no se informará sobre los usuarios.
           Si quieres que se detecte automáticamente el servidor proxy, se proporcionará la URL del script "http://wpad/wpad.dat" a las aplicaciones de Android. No se utilizará ninguna otra parte del protocolo de detección automática del proxy.
 
           Si decides usar un script del proxy .pac, se proporcionará la URL del script a las aplicaciones de Android.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Permitir que los sitios web abran ventanas emergentes y naveguen de forma simultánea</translation>
 <translation id="6447948611083700881">La función de copia de seguridad y restauración está inhabilitada</translation>
 <translation id="645425387487868471">Habilitar el inicio de sesión forzoso de <ph name="PRODUCT_NAME" /></translation>
@@ -2227,7 +2227,7 @@ Al habilitar esta política, se inhabilita la sincronización en la nube.
       Si se inhabilita, no se aplica ningún aislamiento explícito de sitios web y se inhabilitan las pruebas de campo de IsolateOriginsAndroid y SitePerProcessAndroid. Los usuarios podrán seguir habilitando la política SitePerProcess manualmente.
       Si no se configura la política, el usuario podrá cambiar esta opción.
 
-      NOTA:  Esta política solo se aplica a Chrome si se utiliza en dispositivos Android con más de 1 GB de RAM. Para aplicar esta política a plataformas distintas de Android, usa SiteperProcess.
+      NOTA:  Esta política solo se aplica a Brave si se utiliza en dispositivos Android con más de 1 GB de RAM. Para aplicar esta política a plataformas distintas de Android, usa SiteperProcess.
       </translation>
 <translation id="6922040258551909078">
       Si se le asigna el valor "true" a esta política, la política de la nube prevalecerá si entra en conflicto con la política del equipo.
@@ -2307,9 +2307,9 @@ Estas políticas te permiten configurar el comportamiento de <ph name="PRODUCT_O
 
       Si se le asigna el valor "False" o no se le asigna ningún valor, <ph name="PRODUCT_NAME" /> no podrá recopilar ni subir los registros.
 
-      Los registros contienen información de diagnóstico que resulta útil para depurar errores de las llamadas de audio o las videollamadas en Chrome, como la hora y el tamaño de los paquetes RTP recibidos y enviados, comentarios sobre la congestión de la red y metadatos sobre la hora y la calidad de las tramas de audio y vídeo. Estos registros no incluyen contenido de audio ni de vídeo de las llamadas.
+      Los registros contienen información de diagnóstico que resulta útil para depurar errores de las llamadas de audio o las videollamadas en Brave, como la hora y el tamaño de los paquetes RTP recibidos y enviados, comentarios sobre la congestión de la red y metadatos sobre la hora y la calidad de las tramas de audio y vídeo. Estos registros no incluyen contenido de audio ni de vídeo de las llamadas.
 
-      Solo los servicios web de Google, como Hangouts o Google Meet, pueden activar la recogida de datos que realiza Chrome.
+      Solo los servicios web de Google, como Hangouts o Google Meet, pueden activar la recogida de datos que realiza Brave.
 
       Google puede asociar estos registros, mediante un ID de sesión, a otros registros recopilados por el servicio de Google para facilitar la depuración.
       </translation>
@@ -2384,11 +2384,11 @@ Estas políticas te permiten configurar el comportamiento de <ph name="PRODUCT_O
 
           Si no se establece esta política, se inhabilitará la lupa la primera vez que se muestre la pantalla de inicio de sesión. Los usuarios pueden habilitar o inhabilitar la lupa en cualquier momento, y su estado en la pantalla de inicio de sesión permanecerá entre usuarios.</translation>
 <translation id="7249828445670652637">Habilitar los certificados de CA de <ph name="PRODUCT_OS_NAME" /> a las aplicaciones ARC</translation>
-<translation id="725322441686394886">Si no se le asigna ningún valor a esta política, cuando el Limpiador de Chrome detecte software no deseado, podrá enviar metadatos sobre el análisis a Google, según la política establecida por SafeBrowsingExtendedReportingEnabled. El Limpiador de Chrome preguntará al usuario si quiere eliminar el software no deseado. El usuario tendrá la opción de compartir los resultados de la limpieza con Google para ayudar a detectar software no deseado en el futuro. Estos resultados contienen metadatos de archivos, extensiones instaladas de forma automática y claves de registro, tal como se describe en la página de información sobre privacidad de Google Chrome.
+<translation id="725322441686394886">Si no se le asigna ningún valor a esta política, cuando el Limpiador de Brave detecte software no deseado, podrá enviar metadatos sobre el análisis a Google, según la política establecida por SafeBrowsingExtendedReportingEnabled. El Limpiador de Brave preguntará al usuario si quiere eliminar el software no deseado. El usuario tendrá la opción de compartir los resultados de la limpieza con Google para ayudar a detectar software no deseado en el futuro. Estos resultados contienen metadatos de archivos, extensiones instaladas de forma automática y claves de registro, tal como se describe en la página de información sobre privacidad de Brave.
 
-      Si se inhabilita, cuando el Limpiador de Chrome detecte software no deseado, no enviará metadatos sobre el análisis a Google y anulará cualquier política establecida por SafeBrowsingExtendedReportingEnabled. El Limpiador de Chrome preguntará al usuario si quiere eliminar el software no deseado. Los resultados de la limpieza no se enviarán a Google y el usuario no tendrá la opción de hacerlo.
+      Si se inhabilita, cuando el Limpiador de Brave detecte software no deseado, no enviará metadatos sobre el análisis a Google y anulará cualquier política establecida por SafeBrowsingExtendedReportingEnabled. El Limpiador de Brave preguntará al usuario si quiere eliminar el software no deseado. Los resultados de la limpieza no se enviarán a Google y el usuario no tendrá la opción de hacerlo.
 
-      Si se habilita, cuando el Limpiador de Chrome detecte software no deseado, podrá enviar metadatos sobre el análisis de acuerdo con la política establecida por SafeBrowsingExtendedReportingEnabled. El Limpiador de Chrome preguntará al usuario si quiere eliminar el software no deseado. Los resultados de la limpieza se enviarán a Google y el usuario no tendrá la opción de impedirlo.
+      Si se habilita, cuando el Limpiador de Brave detecte software no deseado, podrá enviar metadatos sobre el análisis de acuerdo con la política establecida por SafeBrowsingExtendedReportingEnabled. El Limpiador de Brave preguntará al usuario si quiere eliminar el software no deseado. Los resultados de la limpieza se enviarán a Google y el usuario no tendrá la opción de impedirlo.
 
       Esta política no está disponible en las instancias de Windows que no están vinculadas a un dominio de <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Activar modo de cortina en hosts de acceso remoto</translation>
@@ -2442,9 +2442,9 @@ Estas políticas te permiten configurar el comportamiento de <ph name="PRODUCT_O
 <translation id="7329968046053403405">Especifica el tipo de cuenta de las cuentas proporcionadas por la aplicación de autenticación de Android que admita la autenticación <ph name="HTTP_NEGOTIATE" /> (p. ej., autenticación Kerberos). Esta información debe estar disponible desde el proveedor de la aplicación de autenticación. Para obtener más información, consulta la página https://goo.gl/hajyfN.
 
           Si no se proporciona ninguna opción, la autenticación <ph name="HTTP_NEGOTIATE" /> se inhabilitará en Android.</translation>
-<translation id="7331962793961469250">Si se establece en "true", las promociones de aplicaciones de Chrome Web Store no aparecerán en la página Nueva pestaña.
+<translation id="7331962793961469250">Si se establece en "true", las promociones de aplicaciones de Brave Web Store no aparecerán en la página Nueva pestaña.
 
-      Si se establece en "false" o si no se establece, las promociones de aplicaciones de Chrome Web Store aparecerán en la página Nueva pestaña.</translation>
+      Si se establece en "false" o si no se establece, las promociones de aplicaciones de Brave Web Store aparecerán en la página Nueva pestaña.</translation>
 <translation id="7332963785317884918">Esta política está obsoleta. <ph name="PRODUCT_OS_NAME" /> siempre utilizará la estrategia de limpieza RemoveLRU.
 
       Controla el comportamiento de limpieza automática en dispositivos <ph name="PRODUCT_OS_NAME" />. La limpieza automática se activa cuando la cantidad de espacio en disco libre alcanza un nivel crítico para recuperar algo de espacio en disco.
@@ -2459,7 +2459,7 @@ Estas políticas te permiten configurar el comportamiento de <ph name="PRODUCT_O
 <translation id="7343497214039883642">Archivo de configuración de las impresoras de empresa para los dispositivos</translation>
 <translation id="7349338075015720646">Define una lista de sitios web que se instalan de forma silenciosa, sin intervención del usuario, y que el usuario no puede desinstalar ni inhabilitar.
 
-      Cada elemento de la lista es un objeto formado por dos componentes: "url" y "launch_container". El valor de "url" es la URL de la aplicación web que se va a instalar, mientras que el valor de "launch_container" puede ser "window" o "tab", y sirve para definir cómo se abrirá la aplicación web una vez instalada. Si se omite "launch_container", la aplicación se abrirá en una ventana si Chrome considera que es una aplicación web progresiva; en caso contrario, la aplicación se abrirá en una pestaña.</translation>
+      Cada elemento de la lista es un objeto formado por dos componentes: "url" y "launch_container". El valor de "url" es la URL de la aplicación web que se va a instalar, mientras que el valor de "launch_container" puede ser "window" o "tab", y sirve para definir cómo se abrirá la aplicación web una vez instalada. Si se omite "launch_container", la aplicación se abrirá en una ventana si Brave considera que es una aplicación web progresiva; en caso contrario, la aplicación se abrirá en una pestaña.</translation>
 <translation id="735902178936442460">Esta política determina si se recoge información que sirva para identificar equipos, como sus nombres o direcciones de red.
 
       Si se le asigna el valor "True" o no se le asigna ninguno, se recogerá información que sirva para identificar equipos.
@@ -2472,9 +2472,9 @@ Estas políticas te permiten configurar el comportamiento de <ph name="PRODUCT_O
 
       Consulta la página https://developers.google.com/safe-browsing para obtener más información sobre la función Navegación Segura.</translation>
 <translation id="737655323154569539">Restringe el tamaño de impresión de la página. Si esta política no se configura o tiene ningún valor, no se aplica ninguna restricción.</translation>
-<translation id="7417728346887499628">Si se inhabilita, el Limpiador de Chrome no podrá analizar el sistema para detectar software no deseado y realizar limpiezas. La opción para activar el Limpiador de Chrome desde chrome://settings/cleanup estará inhabilitada.
+<translation id="7417728346887499628">Si se inhabilita, el Limpiador de Brave no podrá analizar el sistema para detectar software no deseado y realizar limpiezas. La opción para activar el Limpiador de Brave desde chrome://settings/cleanup estará inhabilitada.
 
-      Si se habilita o no se le asigna ningún valor, el Limpiador de Chrome analizará el sistema periódicamente para detectar software no deseado y, si encontrara alguno, preguntará al usuario si desea eliminarlo. La opción para activar el Limpiador de Chrome desde chrome://settings/cleanup estará inhabilitada.
+      Si se habilita o no se le asigna ningún valor, el Limpiador de Brave analizará el sistema periódicamente para detectar software no deseado y, si encontrara alguno, preguntará al usuario si desea eliminarlo. La opción para activar el Limpiador de Brave desde chrome://settings/cleanup estará inhabilitada.
 
       Esta política no está disponible en instancias de Windows que no estén unidas a un dominio <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Porcentaje que permite ajustar el retraso de inactividad en el modo de presentación (política obsoleta)</translation>
@@ -2727,7 +2727,7 @@ NOTA: Hasta la versión 45, esta política solo se admitía en modo kiosco.</tr
 
       NOTA: En Android, el aislamiento de sitios web es experimental. La compatibilidad mejorará con el tiempo, pero es posible que actualmente provoque problemas de rendimiento. 
 
-      NOTA: Esta política solo se aplica a Chrome si se utiliza en dispositivos Android con más de 1 GB de RAM. Para aplicar esta política a plataformas distintas de Android, usa IsolateOrigins.
+      NOTA: Esta política solo se aplica a Brave si se utiliza en dispositivos Android con más de 1 GB de RAM. Para aplicar esta política a plataformas distintas de Android, usa IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Hosts de excepción manual de usuario administrado</translation>
 <translation id="7961779417826583251">Inhabilitar los requisitos de la transparencia en los certificados en una lista de autoridades de certificación antiguas</translation>
@@ -2842,7 +2842,7 @@ Si la política está establecida en False, no se informará sobre la lista de i
       Si la política no se establece, <ph name="PRODUCT_OS_NAME" /> utilizará el ID de cuenta de correo electrónico de la cuenta local del dispositivo como el nombre visible en la pantalla de inicio de sesión.
 
       Esta política no se aplica a cuentas de usuario normales.</translation>
-<translation id="8259375588339409826">Tanto Chromium como Google Chrome admiten el mismo conjunto de políticas. Ten en cuenta que en este documento se pueden incluir políticas no publicadas (es decir, cuya entrada "Compatible con" hace referencia a una versión no publicada de <ph name="PRODUCT_NAME" />), que pueden modificarse o retirarse sin previo aviso y que no tienen ningún tipo de garantía, ni siquiera las referentes a las propiedades de privacidad y seguridad.
+<translation id="8259375588339409826">Tanto Brave como Brave admiten el mismo conjunto de políticas. Ten en cuenta que en este documento se pueden incluir políticas no publicadas (es decir, cuya entrada "Compatible con" hace referencia a una versión no publicada de <ph name="PRODUCT_NAME" />), que pueden modificarse o retirarse sin previo aviso y que no tienen ningún tipo de garantía, ni siquiera las referentes a las propiedades de privacidad y seguridad.
 
 Estas políticas están destinadas exclusivamente a la configuración de instancias de <ph name="PRODUCT_NAME" /> internas de tu organización. El uso de estas políticas fuera de tu organización (por ejemplo, en un programa distribuido públicamente) se considera software malicioso y es probable que Google y los proveedores de antivirus lo designen como tal.
 
@@ -2894,7 +2894,7 @@ Te recomendamos que utilices GPO para configurar la política en Windows, aunque
 <translation id="8339420913453596618">Segundo factor inhabilitado</translation>
 <translation id="8344454543174932833">Importa los marcadores desde el navegador predeterminado en la primera ejecución.</translation>
 <translation id="8359734107661430198">Habilitar el API ExampleDeprecatedFeature hasta el 02/09/2008</translation>
-<translation id="8367209241899435947">Habilitar el Limpiador de Chrome en Windows</translation>
+<translation id="8367209241899435947">Habilitar el Limpiador de Brave en Windows</translation>
 <translation id="8369602308428138533">Retraso de desconexión de la pantalla cuando el dispositivo está conectado a la red</translation>
 <translation id="8382184662529825177">Habilitar el uso de la confirmación remota para la protección del contenido del dispositivo</translation>
 <translation id="838870586332499308">Habilitar la itinerancia de datos</translation>

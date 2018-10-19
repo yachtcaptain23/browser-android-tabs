@@ -359,7 +359,7 @@ Sera hii ikiondolewa, chaguomsingi zitatumika kwa mipangilio yote.</translation>
 <translation id="2073552873076775140">Ruhusu kuingia katika akaunti ya <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Tumia uongezaji kasi wa maunzi wakati unapatikana</translation>
 <translation id="2077273864382355561">Kuzimika kwa skrini kunachelewa wakati wa kuendesha kwa nishati ya betri</translation>
-<translation id="2082205219176343977">Weka mipangilio ya msingi inayoruhusiwa ya toleo la Chrome kwenye kifaa.</translation>
+<translation id="2082205219176343977">Weka mipangilio ya msingi inayoruhusiwa ya toleo la Brave kwenye kifaa.</translation>
 <translation id="209586405398070749">Kituo imara</translation>
 <translation id="2098658257603918882">Wezesha kuripoti kwa matumizi na data zinazohusu mvurugiko</translation>
 <translation id="2111016292707172233">Huwasha kipengele cha Gusa ili Utafute katika mwonekano wa maudhui ya <ph name="PRODUCT_NAME" />.
@@ -473,13 +473,13 @@ Sera hii ikiondolewa, chaguomsingi zitatumika kwa mipangilio yote.</translation>
 
           Sera hii inapewa kipaumbele ikiwa kuna sera inayoweza kukinzana ya <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />. Ikiwa programu au kiendelezi kilichosakinishwa hapo awali kwa lazima kitaondolewa kwenye orodha hii, kitaondolewa kiotomatiki na <ph name="PRODUCT_NAME" />.
 
-          Katika matukio ya Windows ambayo hayajaunganishwa kwenye kikoa cha <ph name="MS_AD_NAME" />, usakinishaji wa lazima unatumiwa tu na programu na viendelezi vilivyoorodheshwa katika Duka la Chrome kwenye Wavuti.
+          Katika matukio ya Windows ambayo hayajaunganishwa kwenye kikoa cha <ph name="MS_AD_NAME" />, usakinishaji wa lazima unatumiwa tu na programu na viendelezi vilivyoorodheshwa katika Duka la Brave kwenye Wavuti.
 
           Kumbuka kuwa msimbo wa kiendelezi chochote unaweza kubadilishwa na mtumiaji kupitia Zana za Wasanidi Programu (hali hii inaweza kuzuia kiendelezi kufanya kazi). Ikiwa jambo hili litatokea, sera ya <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> inapaswa kuwekwa.
 
-          Kila kipengee cha orodha ya sera ni kifungu ambacho kinajumuisha kitambulisho cha kiendelezi na URL ya "sasisho" isiyo ya lazima inayotenganishwa kwa nukta mkato (<ph name="SEMICOLON" />). Kitambulisho cha kiendelezi ni kifungu cha herufi 32 kinachopatikana (kwa mfano kwenye <ph name="CHROME_EXTENSIONS_LINK" /> ikiwa katika hali ya msanidi programu. URL ya "sasisho" inapaswa kuashiria hati ya XML ya faili ya Maelezo ya Sasisho kama ilivyofanunuliwa katika <ph name="LINK_TO_EXTENSION_DOC1" />. Kwa chaguomsingi, sasisho la URL ya Duka la Chrome kwenye Wavuti linatumika (kwa sasa ni "https://clients2.google.com/service/update2/crx"). Kumbuka kuwa URL ya "sasisho" inayowekwa kwenye sera hii itatumiwa tu kwenye usanikishaji wa mwanzo; masasisho yanayofuata ya kiendelezi yatatumia URL ya sasisho inayoonyeshwa katika faili ya maelezo ya kiendelezi. Kumbuka pia kubainisha URL ya "sasisho" waziwazi ni lazima katika matoleo ya <ph name="PRODUCT_NAME" /> na mapya zaidi ikiwa ni pamoja na 67.
+          Kila kipengee cha orodha ya sera ni kifungu ambacho kinajumuisha kitambulisho cha kiendelezi na URL ya "sasisho" isiyo ya lazima inayotenganishwa kwa nukta mkato (<ph name="SEMICOLON" />). Kitambulisho cha kiendelezi ni kifungu cha herufi 32 kinachopatikana (kwa mfano kwenye <ph name="CHROME_EXTENSIONS_LINK" /> ikiwa katika hali ya msanidi programu. URL ya "sasisho" inapaswa kuashiria hati ya XML ya faili ya Maelezo ya Sasisho kama ilivyofanunuliwa katika <ph name="LINK_TO_EXTENSION_DOC1" />. Kwa chaguomsingi, sasisho la URL ya Duka la Brave kwenye Wavuti linatumika (kwa sasa ni "https://clients2.google.com/service/update2/crx"). Kumbuka kuwa URL ya "sasisho" inayowekwa kwenye sera hii itatumiwa tu kwenye usanikishaji wa mwanzo; masasisho yanayofuata ya kiendelezi yatatumia URL ya sasisho inayoonyeshwa katika faili ya maelezo ya kiendelezi. Kumbuka pia kubainisha URL ya "sasisho" waziwazi ni lazima katika matoleo ya <ph name="PRODUCT_NAME" /> na mapya zaidi ikiwa ni pamoja na 67.
 
-          Kwa mfano, <ph name="EXTENSION_POLICY_EXAMPLE" /> inasakinisha programu ya <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> kutoka URL ya "sasisho" la kawaida la Duka la Chrome kwenye Wavuti. Kwa maelezo zaidi kuhusu jinsi ya kupangisha viendelezi, angalia: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Kwa mfano, <ph name="EXTENSION_POLICY_EXAMPLE" /> inasakinisha programu ya <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> kutoka URL ya "sasisho" la kawaida la Duka la Brave kwenye Wavuti. Kwa maelezo zaidi kuhusu jinsi ya kupangisha viendelezi, angalia: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Ikiwa sera hii haijawekwa, hakuna programu au viendelezi vitakavyosakinishwa kiotomatiki na mtumiaji anaweza kuondoa programu au kiendelezi chochote katika <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> inaweza kutumia huduma ya wavuti ya Google ili kusaidia kutatua hitilafu za tahajia. Ikiwa mpangilio huu umewezeshwa, basi huduma hii inatumika kila mara. Ikiwa mpangilio huu unalemazwa, basi huduma hii haitumiki kamwe.
@@ -662,7 +662,7 @@ Ikiwa sera imewekwa kuwa sivyo au haijawekwa, matukio hayatarekodiwa.</translati
 <translation id="268577405881275241">Washa kipengee cha proksi cha upunguzaji wa data</translation>
 <translation id="2693108589792503178">Weka mipangilio ya URL ya kubadilisha nenosiri.</translation>
 <translation id="2731627323327011390">Zima kipengele cha utumiaji wa vyeti vya <ph name="PRODUCT_OS_NAME" /> kwenye programu za ARC</translation>
-<translation id="2742843273354638707">Ficha programu ya Duka la Chrome kwenye Wavuti na kiungo cha kijachini kutoka kwenye Ukurasa wa Kichupo Kipya na kifungua programu cha <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Ficha programu ya Duka la Brave kwenye Wavuti na kiungo cha kijachini kutoka kwenye Ukurasa wa Kichupo Kipya na kifungua programu cha <ph name="PRODUCT_OS_NAME" />.
 
       Sera hii inapowekwa kuwa ndivyo, aikoni hufichwa.
 
@@ -692,7 +692,7 @@ Ikiwa sera imewekwa kuwa sivyo au haijawekwa, matukio hayatarekodiwa.</translati
 <translation id="2799297758492717491">Ruhusu maudhui yacheze kiotomatiki kwenye orodha ya ruwaza za URL zilizoidhinishwa</translation>
 <translation id="2801230735743888564">Ruruhusu watumiaji wacheze mchezo fiche wa dinosau kifaa kinapokuwa nje ya mtandao.
 
-      Sera hii ikiwekwa kuwa Sivyo, watumiaji hawataweza kucheza mchezo mchezo fiche wa dinosau kifaa kinapokuwa nje ya mtandao. Mipangilio hii ikiwekwa kuwa Ndivyo, watumiaji wanaruhusiwa kucheza mchezo wa dinosau. Sera hii isipowekwa, watumiaji hawaruhusiwi kucheza mchezo fiche wa dinosau kwenye Mfumo wa Uendeshaji wa Chrome uliosajiliwa, lakini wanaruhusiwa kuucheza chini ya hali nyingine.</translation>
+      Sera hii ikiwekwa kuwa Sivyo, watumiaji hawataweza kucheza mchezo mchezo fiche wa dinosau kifaa kinapokuwa nje ya mtandao. Mipangilio hii ikiwekwa kuwa Ndivyo, watumiaji wanaruhusiwa kucheza mchezo wa dinosau. Sera hii isipowekwa, watumiaji hawaruhusiwi kucheza mchezo fiche wa dinosau kwenye Mfumo wa Uendeshaji wa Brave uliosajiliwa, lakini wanaruhusiwa kuucheza chini ya hali nyingine.</translation>
 <translation id="2802085784857530815">Inakuruhusu udhibiti ikiwa watumiaji wanaweza kufikia printa zisizo za shirika
 
       Ikiwa sera imewekwa kuwa Ndivyo, au isipowekwa kabisa, watumiaji wataweza kuongeza, kuweka mipangilio na kuchapisha wakitumia printa za mitandao yao.
@@ -782,7 +782,7 @@ Ikiwa sera imewekwa kuwa sivyo au haijawekwa, matukio hayatarekodiwa.</translati
           Ikiwa sera hii itasalia kama haijawekwa, 'AllowJavaScript' itatumiwa na mtumiaji ataweza kuibadilisha.</translation>
 <translation id="3038323923255997294">Endelea kuendesha programu za mandharinyuma wakati <ph name="PRODUCT_NAME" /> imefungwa</translation>
 <translation id="3046192273793919231">Tuma vifurushi vya mtandao kwenye seva ya udhibiti ili kufuatilia hali ya mtandao</translation>
-<translation id="3047732214002457234">Hudhibiti jinsi Kipengele cha Kusafisha Chrome huripoti data kwa Google</translation>
+<translation id="3047732214002457234">Hudhibiti jinsi Kipengele cha Kusafisha Brave huripoti data kwa Google</translation>
 <translation id="3048744057455266684">Sera hii ikiwekwa na URL ya utafutaji inayopendekezwa kutoka kwenye sandukuu iwe na kigezo hiki katika mtiririko wa hoja au katika kitambulishi cha kipande, basi pendekezo litaonyesha maneno ya utafutaji na mtoa huduma ya utafutaji badala ya URL ya utafutaji ghafi.
 
           Sera hii ni ya hiari. Isipowekwa, mabadiliko ya hoja ya utafutaji hayatatekelezwa.
@@ -1112,13 +1112,13 @@ Sera hii isipowekwa, mtumiaji bado anaweza kusakinisha kiendelezi chochote katik
       Kama hutaweka sera hii, <ph name="PRODUCT_NAME" /> itatumia saraka chaguomsingi ya kawaida (inayolenga mfumo mahususi).
 
      Ili kupata orodha ya vigezo vinavyoweza kutumika, angalia https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables.</translation>
-<translation id="3904459740090265495">Sera hii hudhibiti hali ya kuingia katika akaunti ya kivinjari. Inakusaidia kubainisha kama mtumiaji anaweza kuingia katika akaunti ya <ph name="PRODUCT_NAME" /> kwa kutumia akaunti yake na atumie huduma zinazohusiana kama Usawazishaji wa Chrome.
+<translation id="3904459740090265495">Sera hii hudhibiti hali ya kuingia katika akaunti ya kivinjari. Inakusaidia kubainisha kama mtumiaji anaweza kuingia katika akaunti ya <ph name="PRODUCT_NAME" /> kwa kutumia akaunti yake na atumie huduma zinazohusiana kama Usawazishaji wa Brave.
 
-      Ikiwa sera imewekwa kuwa "Zima kuingia katika akaunti ya kivinjari" basi mtumiaji hawezi kuingia katika akaunti ya kivinjari na atumie huduma zinazotegemea akaunti. Katika hali hii vipengele vya kiwango cha kivinjari kama vile Usawazishaji wa Chrome havitatumika na havitapatikana. Kama mtumiaji alikuwa ameingia katika akaunti na sera imewekwa kuwa "Imezimwa" ataondolewa kwenye akaunti wakati unaofuata atakapotekeleza Chrome lakini data yake ya wasifu kwenye kifaa kama vile alamisho, nenosiri n.k. itawekwa salama. Mtumiaji bado ataweza kuingia katika akaunti na atumie huduma za wavuti za Google kama Gmail.
+      Ikiwa sera imewekwa kuwa "Zima kuingia katika akaunti ya kivinjari" basi mtumiaji hawezi kuingia katika akaunti ya kivinjari na atumie huduma zinazotegemea akaunti. Katika hali hii vipengele vya kiwango cha kivinjari kama vile Usawazishaji wa Brave havitatumika na havitapatikana. Kama mtumiaji alikuwa ameingia katika akaunti na sera imewekwa kuwa "Imezimwa" ataondolewa kwenye akaunti wakati unaofuata atakapotekeleza Brave lakini data yake ya wasifu kwenye kifaa kama vile alamisho, nenosiri n.k. itawekwa salama. Mtumiaji bado ataweza kuingia katika akaunti na atumie huduma za wavuti za Google kama Gmail.
 
-      Ikiwa sera imewekwa kuwa "Ruhusu kuingia katika akaunti ya kivinjari," basi mtumiaji anakubaliwa kuingia katika akaunti ya kivinjari na anaingia katika akaunti ya kivinjari kiotomatiki anapoingia katika akaunti ya huduma za wavuti za Google kama Gmail. Kuingia katika akaunti ya kivinjari kuna maana kuwa maelezo ya akaunti ya mtumiaji yatahifadhiwa na kivinjari. Hata hivyo, haina maana kuwa Usawazishaji wa Chrome utawashwa kwa chaguomsingi; lazima mtumiaji achague kuingia ili aweze kutumia kipengele hiki. Kuweka sera hii kutamzuia mtumiaji kuzima mipangilio inayoruhusu kuingia katika akaunti ya kivinjari. Ili kudhibiti upatikanaji wa usawazishaji wa Chrome, tumia sera ya "SyncDisabled".
+      Ikiwa sera imewekwa kuwa "Ruhusu kuingia katika akaunti ya kivinjari," basi mtumiaji anakubaliwa kuingia katika akaunti ya kivinjari na anaingia katika akaunti ya kivinjari kiotomatiki anapoingia katika akaunti ya huduma za wavuti za Google kama Gmail. Kuingia katika akaunti ya kivinjari kuna maana kuwa maelezo ya akaunti ya mtumiaji yatahifadhiwa na kivinjari. Hata hivyo, haina maana kuwa Usawazishaji wa Brave utawashwa kwa chaguomsingi; lazima mtumiaji achague kuingia ili aweze kutumia kipengele hiki. Kuweka sera hii kutamzuia mtumiaji kuzima mipangilio inayoruhusu kuingia katika akaunti ya kivinjari. Ili kudhibiti upatikanaji wa usawazishaji wa Brave, tumia sera ya "SyncDisabled".
 
-      Ikiwa sera imewekwa kuwa "Lazimisha kuingia katika akaunti ya kivinjari" kidirisha cha kuchagua akaunti huwasilishwa kwa mtumiaji na anapaswa kuchagua na aingie katika akaunti ili kutumia kivinjari. Hii inahakikisha kwamba sera zinazohusishwa na akaunti zinazosimamiwa zimetumika na kutekelezwa. Kwa chaguomsingi hii huwasha kipengele cha Usawazishaji wa Chrome kwenye akaunti, isipokuwa ambapo usawazishaji ulizimwa na msimamizi wa kikoa au kupitia sera ya "SyncDisabled". Thamani chaguomsingi ya BrowserGuestModeEnabled itawekwa kuwa sivyo. Kumbuka kwamba wasifu uliopo ambao haujatumiwa kuingia katika akaunti utafungwa na hautaweza kufikiwa baada ya kuwasha sera hii. Kwa maelezo zaidi, angalia makala ya kituo cha usaidizi: https://support.google.com/chrome/a/answer/7572556.
+      Ikiwa sera imewekwa kuwa "Lazimisha kuingia katika akaunti ya kivinjari" kidirisha cha kuchagua akaunti huwasilishwa kwa mtumiaji na anapaswa kuchagua na aingie katika akaunti ili kutumia kivinjari. Hii inahakikisha kwamba sera zinazohusishwa na akaunti zinazosimamiwa zimetumika na kutekelezwa. Kwa chaguomsingi hii huwasha kipengele cha Usawazishaji wa Brave kwenye akaunti, isipokuwa ambapo usawazishaji ulizimwa na msimamizi wa kikoa au kupitia sera ya "SyncDisabled". Thamani chaguomsingi ya BrowserGuestModeEnabled itawekwa kuwa sivyo. Kumbuka kwamba wasifu uliopo ambao haujatumiwa kuingia katika akaunti utafungwa na hautaweza kufikiwa baada ya kuwasha sera hii. Kwa maelezo zaidi, angalia makala ya kituo cha usaidizi: https://support.google.com/chrome/a/answer/7572556.
 
       Ikiwa sera hii haijawekwa basi mtumiaji anaweza kuamua kama anataka kuwasha chaguo la kuingia katika akaunti ya kivinjari na kuitumia anavyopenda.</translation>
 <translation id="3907986150060929099">Weka lugha zinazopendekezwa kwa vipindi vya umma</translation>
@@ -1242,10 +1242,10 @@ Thamani ya sera inapaswa kubainishwa katika sekunde. Thamani huwekwa pamoja ili 
 <translation id="4298509794364745131">Huzibainisha programu zinazoweza kuwashwa kuwa programu za kuandika madokezo kwenye skrini iliyofungwa ya <ph name="PRODUCT_OS_NAME" />.
 
       Unapoitumia programu ya kuandika vidokezo unayoipendelea kwenye skrini iliyofungwa, kiolesura cha kufungua programu hiyo kitaonekana kwenye skrini iliyofungwa.
-      Unapoifungua programu hiyo, programu itaunda dirisha la programu sehemu ya juu ya skrini iliyofungwa na vipengee vya data (vidokezo) vitaundwa katika skrini iliyofungwa. Programu italeta vidokezo vilivyoundwa kwenye kipindi msingi cha mtumiaji, unapokifungua kipindi. Kwa sasa, unaweza tu kuzitumia programu za Chrome za kuandika vidokezo kwenye skrini iliyofungwa.
+      Unapoifungua programu hiyo, programu itaunda dirisha la programu sehemu ya juu ya skrini iliyofungwa na vipengee vya data (vidokezo) vitaundwa katika skrini iliyofungwa. Programu italeta vidokezo vilivyoundwa kwenye kipindi msingi cha mtumiaji, unapokifungua kipindi. Kwa sasa, unaweza tu kuzitumia programu za Brave za kuandika vidokezo kwenye skrini iliyofungwa.
 
       Ukiiweka sera, mtumiaji ataruhusiwa kuwasha programu kwenye skrini iliyofungwa iwapo tu Kitambulisho cha kiendelezi kiko kwenye orodha ya thamani ya sera.
-      Ukiiweka sera hii kwenye orodha tupu, kipengele cha kuandika vidokezo kwenye skrini iliyofungwa kitazimwa kabisa. Kumbuka kuwa sera iliyo na Kitambulisho cha programu haimaanishi kuwa mtumiaji anaweza kuwasha programu kuandika vidokezo kwenye skrini iliyofungwa - kwa mfano, kwenye Chrome 61, programu ambazo unaweza kuzitumia zimewekewa vikwazo na mfumo.
+      Ukiiweka sera hii kwenye orodha tupu, kipengele cha kuandika vidokezo kwenye skrini iliyofungwa kitazimwa kabisa. Kumbuka kuwa sera iliyo na Kitambulisho cha programu haimaanishi kuwa mtumiaji anaweza kuwasha programu kuandika vidokezo kwenye skrini iliyofungwa - kwa mfano, kwenye Brave 61, programu ambazo unaweza kuzitumia zimewekewa vikwazo na mfumo.
 
       Usipoiweka sera, hamna vikwazo vitakavyowekwa kwenye seti ya programu ambazo mtumiaji anaweza kuwasha kwenye skrini iliyofungwa vilivyowekwa na sera.</translation>
 <translation id="4309640770189628899">Ikiwa mipangilio ya kriptografia ya DHE katika TLS imewashwa</translation>
@@ -1353,7 +1353,7 @@ Ikiwa sera hii haijawekwa, thamani ya 2 itatumika.</translation>
 <translation id="4567137030726189378">Ruhusu utumiaji wa Zana za Wasanidi Programu</translation>
 <translation id="4600786265870346112">Washa kiteuzi kikubwa</translation>
 <translation id="4604931264910482931">Sanidi orodha ya wasioidhinishwa ya ujumbe asili</translation>
-<translation id="4613508646038788144">Kama sera imewekwa kuwa sivyo, programu ya kampuni nyingine itaruhusiwa kuingiza msimbo inayoweza kutekelezwa katika michakato ya Chrome. Kama sera haijawekwa au imewekwa kuwa ndivyo basi programu ya kampuni nyingine itazuiwa kuingiza msimbo unaoweza kutekelezwa katika michakato ya chrome.</translation>
+<translation id="4613508646038788144">Kama sera imewekwa kuwa sivyo, programu ya kampuni nyingine itaruhusiwa kuingiza msimbo inayoweza kutekelezwa katika michakato ya Brave. Kama sera haijawekwa au imewekwa kuwa ndivyo basi programu ya kampuni nyingine itazuiwa kuingiza msimbo unaoweza kutekelezwa katika michakato ya chrome.</translation>
 <translation id="4617338332148204752">Ruka kuingia kwa metatagi katika <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Sanidi orodha iliyoidhinishwa ya usakinishaji kiendelezi</translation>
 <translation id="4632343302005518762">Ruhusu <ph name="PRODUCT_FRAME_NAME" /> kushughulikia aina za maudhui zilizoorodheshwa</translation>
@@ -1482,7 +1482,7 @@ Iwapo sera hii haijawekwa, kiteuzi kikubwa kitazimwa mwanzoni lakini kitawashwa 
           Lazima thamani iwe orodha ya kamusi za JSON zenye mfuatano. Lazima kila kamusi iwe na muundo wa { "pattern": "$URL_PATTERN", "filter" : $FILTER }, ambapo $URL_PATTERN ni ruwaza ya mipangilio ya maudhui. $FILTER huweka vikwazo vya ni vyeti vipi vya seva teja ambavyo kivinjari kitateua kiotomatiki kutoka kwavyo. Kwa kutotegemea kichujio, vyeti pekee ndivyo vitakavyochaguliwa vinavyolingana na ombi la cheti cha seva. Ikiwa $FILTER ina muundo wa { "ISSUER": { "CN": "$ISSUER_CN" } }, zaidi ya hayo vyeti vya seva teja tu ndivyo vinavyochaguliwa vinavyotolewa na cheti chenye CommonName $ISSUER_CN. Ikiwa $FILTER ni kamusi tupu {}, uchaguzi wa vyeti vya seva teja hauwekewi vikwazo.
 
           Sera hii ikiachwa bila kuwekwa, hakuna uchaguzi wa kiotomatiki utakaofanywa kwa tovuti yoyote.</translation>
-<translation id="4978405676361550165">Ikiwa sera ya "OffHours" imewekwa, basi sera za kifaa zilizobainishwa hazitatumika (tumia mipangilio chaguomsingi ya sera hizi) katika vipindi vilivyotajwa. Sera za kifaa huwekwa tena na Chrome kwa kila tukio wakati kipindi cha "OffHours" kinaanza au kukamilika. Watumiaji wataarifiwa na kulazimishwa kuondoka katika akaunti wakati muda wa "OffHours" unakamilika na mipangilio ya kifaa inabadilishwa (kwa mfano, wakati mtumiaji ameingia katika akaunti akitumia akaunti ambayo hairuhusiwi).</translation>
+<translation id="4978405676361550165">Ikiwa sera ya "OffHours" imewekwa, basi sera za kifaa zilizobainishwa hazitatumika (tumia mipangilio chaguomsingi ya sera hizi) katika vipindi vilivyotajwa. Sera za kifaa huwekwa tena na Brave kwa kila tukio wakati kipindi cha "OffHours" kinaanza au kukamilika. Watumiaji wataarifiwa na kulazimishwa kuondoka katika akaunti wakati muda wa "OffHours" unakamilika na mipangilio ya kifaa inabadilishwa (kwa mfano, wakati mtumiaji ameingia katika akaunti akitumia akaunti ambayo hairuhusiwi).</translation>
 <translation id="4980635395568992380">Aina ya data:</translation>
 <translation id="4983201894483989687">Ruhusu kuendesha programu jalizi ambazo zimepitwa na wakati.</translation>
 <translation id="4988291787868618635">Hatua ya kuchukua wakati ucheleweshaji wa kutokuwa na shughuli unapofikiwa</translation>
@@ -1575,7 +1575,7 @@ Iwapo sera hii haijawekwa, kiteuzi kikubwa kitazimwa mwanzoni lakini kitawashwa 
         Thamani ya orodha ya wasioidhinishwa ya '*' inamaanisha kwamba wapangishi wote wa ujumbe asili hawajaidhinishwa isipokuwa kama wamewekwa waziwazi katika orodha ya walioidhinishwa.
 
          Kama sera hii haitawekwa <ph name="PRODUCT_NAME" /> itapakia wapangishi wote waliosakinishwa wa ujumbe asili.</translation>
-<translation id="5272684451155669299">Ikiwekwa kuwa ndivyo, mtumiaji anaweza kutumia maunzi kwenye vifaa vya Chrome ili kudhibiti kwa umbali utambulisho wake katika CA ya faragha kupitia <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> akitumia <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Ikiwekwa kuwa ndivyo, mtumiaji anaweza kutumia maunzi kwenye vifaa vya Brave ili kudhibiti kwa umbali utambulisho wake katika CA ya faragha kupitia <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> akitumia <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Ikiwekwa kuwa sivyo, au isipowekwa, majaribio ya kuwasiliana na API hayatafanikiwa na kutakuwa na msimbo wa hitilafu.</translation>
 <translation id="5277806246014825877">Washa ili mtumiaji huyu atumie Crostini.
@@ -1600,7 +1600,7 @@ Iwapo sera hii haijawekwa, kiteuzi kikubwa kitazimwa mwanzoni lakini kitawashwa 
 <translation id="5318185076587284965">Washa matumizi ya seva za relei kwa mpangishi wa ufikiaji wa mbali</translation>
 <translation id="5323128137188992869">Ruhusu maudhui yatumwe kwenye kifaa kwa kutumia <ph name="PRODUCT_NAME" />.
 
-          Ikiwa sera hii imewekwa kuwa Sivyo, watumiaji hawataweza kutuma maudhui kwenye vifaa vyao. Ikiwa sera hii imewekwa kuwa Ndivyo, watumiaji wataruhusiwa kutuma maudhui. Sera hii isipowekwa, watumiaji hawataruhusiwa kutuma maudhui kwenye vifaa vya mfumo wa uendeshaji wa Chrome vilivyosajiliwa, lakini wataruhusiwa kutuma kwenye vifaa vingine ambavyo havijasajiliwa.</translation>
+          Ikiwa sera hii imewekwa kuwa Sivyo, watumiaji hawataweza kutuma maudhui kwenye vifaa vyao. Ikiwa sera hii imewekwa kuwa Ndivyo, watumiaji wataruhusiwa kutuma maudhui. Sera hii isipowekwa, watumiaji hawataruhusiwa kutuma maudhui kwenye vifaa vya mfumo wa uendeshaji wa Brave vilivyosajiliwa, lakini wataruhusiwa kutuma kwenye vifaa vingine ambavyo havijasajiliwa.</translation>
 <translation id="5330684698007383292">Ruhusu <ph name="PRODUCT_FRAME_NAME" /> kushughulikia aina zifuatazo za maudhui</translation>
 <translation id="5365946944967967336">Onyesha kitufe cha Mwazo kwenye upauzana</translation>
 <translation id="5366745336748853475">Inakuruhusu kubainisha orodha ya michoro ya url inayobainsha tovuti ambazo cheti cha mteja kinachaguliwa kiotomatiki kwenye skrini ya kuingia katika akaunti katika fremu inayopangisha mtiririko wa SAML, tovuti ikiomba cheti. Mfano wa matumizi ni kusanidi cheti cha matumizi pana ya kifaa kitakachowasilishwa kwenye SAML IdP.
@@ -1702,7 +1702,7 @@ Iwapo sera hii haijawekwa, kiteuzi kikubwa kitazimwa mwanzoni lakini kitawashwa 
       Kumbuka kwamba hali hii haipendekezwi, kwa sababu inaweza kusababisha kukwepa kiendelezi cha nameConstraints kinachozuia majina ya wapangishaji ambayo cheti maalum kinaweza kuidhinishwa kushughulikia.
 
       Sera hii isipowekwa, au ikiwekwa kuwa sivyo, vyeti vya seva visivyo na kiendelezi cha subjectAlternativeName kilicho na jina la DNS au anwani ya IP havitaaminiwa.</translation>
-<translation id="5581292529942108810">Weka mipangilio inayohusiana na sera za Kiendelezi cha Kuripoti cha Chrome.
+<translation id="5581292529942108810">Weka mipangilio inayohusiana na sera za Kiendelezi cha Kuripoti cha Brave.
 
       Sera hii inaweza kutumika tu wakati umewasha <ph name="CHROME_REPORTING_EXTENSION_NAME" /> na mashine imejumuishwa katika <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Dhibiti huduma za mahali za Google kwenye Android</translation>
@@ -1763,7 +1763,7 @@ Iwapo sera hii haijawekwa, kiteuzi kikubwa kitazimwa mwanzoni lakini kitawashwa 
       Kama sera imezimwa, upakuaji utaanza moja kwa moja na mtumiaji hataulizwa mahali atakapohifadhi faili.
       Kama sera haijasanidiwa, mtumiaji ataweza kubadilisha mipangilio hii.
       </translation>
-<translation id="5835124959204887277">Hubainisha URL na vikoa ambavyo hakuna kidokezo kitakachoonyeshwa wakati vyeti vya ufikiaji uliothibitishwa vinaombwa kutoka Funguo za Usalama. Vile vile, ishara itatumwa kwa Funguo za Usalama inayoonyesha ufikiaji uliothibitishwa wa kibinafsi ambao unaweza kutumiwa. Bila hii, watumiaji watadokezewa katika Chrome 65+ wakati tovuti zinaomba ufikiaji uliothibitishwa wa Funguo za Usalama. 
+<translation id="5835124959204887277">Hubainisha URL na vikoa ambavyo hakuna kidokezo kitakachoonyeshwa wakati vyeti vya ufikiaji uliothibitishwa vinaombwa kutoka Funguo za Usalama. Vile vile, ishara itatumwa kwa Funguo za Usalama inayoonyesha ufikiaji uliothibitishwa wa kibinafsi ambao unaweza kutumiwa. Bila hii, watumiaji watadokezewa katika Brave 65+ wakati tovuti zinaomba ufikiaji uliothibitishwa wa Funguo za Usalama. 
 
     URL (kama vile https://example.com/some/path) zitalingana kama U2F appIDs pekee. Vikoa (kama vile example.com) vinalingana kama Vitambulisho vya webauthn RP pekee. Ili kushughulikia API zote mbili za U2F na webauthn za tovuti fulani iliyotolewa, ni sharti URL zote mbili za appID na kikoa ziorodheshwe.</translation>
 <translation id="5835412847081687053">Weka mipangilio ya lugha za kiolesura zinazoruhusiwa katika kipindi cha mtumiaji</translation>
@@ -1805,7 +1805,7 @@ Kama sera hii ni itawekwa kuwa uongo, kiteuzi kikubwa kitazimwa wakati skrini ya
 Kama utaweka sera hii, watumiaji wanaweza kuipuuza kwa muda kwa kuwasha au kuzima kiteuzi kikubwa. Hata hivyo, chaguo la mtumiaji halitaendelea na chaguomsingi  litarejeshwa tena wakati wowote skrini ya kuingia katika skrini itakapoonyeshwa upya au mtumiaji atakaposalia bila kufanya kitu kwenye skrini ya kuingia katika akaunti kwa dakika moja. 
 
 Kama sera hii haijawekwa, kiteuzi kikubwa huzimwa wakati skrini ya kuingia katika akaunti itakapoonyeshwa kwanza. Watumiaji wanaweza kuwasha au kuzima kiteuzi kikubwa wakati wowote na hali yake kwenye skrini ya kuingia katika akaunti inaendelea kati ya watumiaji.</translation>
-<translation id="5929855945144989709">Ruhusu vifaa vitumie mashine pepe vinavyotumia Mfumo wa Uendeshaji wa Chrome</translation>
+<translation id="5929855945144989709">Ruhusu vifaa vitumie mashine pepe vinavyotumia Mfumo wa Uendeshaji wa Brave</translation>
 <translation id="5932767795525445337">Sera hii inaweza kutumika kubandika programu za Android.</translation>
 <translation id="5936622343001856595">Hulazimisha maswali katika Utafutaji wa Wavuti wa Google kufanywa na SafeSearch ikiwa imewashwa na huzuia watumiaji kubadilisha mpangilio huu.
 
@@ -1946,7 +1946,7 @@ Thamani ya sera inapaswa kubainishwa katika milisekunde. Thamani huwekwa pamoja 
 <translation id="6282799760374509080">Ruhusu au upinge kurekodi sauti</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Washa kipengee cha jina la kikoa cha kukamilisha kiotomatiki wakati wa mtumiaji kuingia katika akaunti</translation>
-<translation id="6315673513957120120">Chrome huonyesha ukurasa wa onyo watumiaji wanapoenda kwenye tovuti ambazo zina hitilafu za SSL. Kwa chaguomsingi au sera hii ikiwekwa kuwa ndivyo, watumiaji wanaruhusiwa kubofya kwenye kurasa hizi za onyo.
+<translation id="6315673513957120120">Brave huonyesha ukurasa wa onyo watumiaji wanapoenda kwenye tovuti ambazo zina hitilafu za SSL. Kwa chaguomsingi au sera hii ikiwekwa kuwa ndivyo, watumiaji wanaruhusiwa kubofya kwenye kurasa hizi za onyo.
       Kuweka sera kuwa sivyo hakuwaruhusu watumiaji kubofya ukurasa wowote wa onyo.</translation>
 <translation id="6353901068939575220">Hubainisha vigezo vinavyotumika wakati wa kutafuta URL kwa kutumia POST.  Ina vikundi vya jina/thamani vinavyotenganishwa na koma. Kama thamani ni kigezo cha kiolezo, kama {Hoja za utafutaji} katika mfano hapo juu, itabadilishwa na data ya hoja za utafutaji halisi.
 
@@ -1977,7 +1977,7 @@ Thamani ya sera inapaswa kubainishwa katika milisekunde. Thamani huwekwa pamoja 
           Ukichagua kugundua seva mbadala kiotomatiki, URL ya hati "http://wpad/wpad.dat" hutolewa kwa programu za Android. Hakuna sehemu nyingine ya itifaki ya kugundua kiotomatiki inayotumiwa.
 
           Ukichagua kutumia hati ya seva mbadala ya a .pac, URL ya hati inatolewa kwa programu za Android.</translation>
-<translation id="6430366557948788869">Kiendelezi cha Kuripoti Chrome</translation>
+<translation id="6430366557948788869">Kiendelezi cha Kuripoti Brave</translation>
 <translation id="6440051664870270040">Ruhusu tovuti zivinjari kwa wakati mmoja na zifungue madirisha ibukizi</translation>
 <translation id="6447948611083700881">Vipengele vya kuhifadhi nakala na kurejesha vimezimwa</translation>
 <translation id="645425387487868471">Washa kulazimisha kuingia katika akaunti ya <ph name="PRODUCT_NAME" /></translation>
@@ -2179,7 +2179,7 @@ Ikiwa sera haijawekwa, mtumiaji ataweza kubadilisha mipangilio hii.
 
       KUMBUKA: Kwenye Android, Utengaji wa Tovuti bado unafanyiwa majaribio. Matumizi yataboreshwa baada ya muda lakini kwa sasa yanaweza kusababisha matatizo ya utendaji.
 
-      KUMBUKA: Sera hii inatumika tu katika Chrome kwenye vifaa vya Android vyenye zaidi ya GB 1 ya RAM. Ili kutumia sera kwenye mifumo isiyo ya Android, tumia SitePerProcess.
+      KUMBUKA: Sera hii inatumika tu katika Brave kwenye vifaa vya Android vyenye zaidi ya GB 1 ya RAM. Ili kutumia sera kwenye mifumo isiyo ya Android, tumia SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Ikiwa sera imewekwa kuwa 'ndivyo', sera ya wingu inapewa kipaumbele ikiwa inakinzana na sera ya mashine.
@@ -2261,9 +2261,9 @@ Sera hii haipatikani kwenye Windows ambazo hazijaunganishwa kwenye kikoa cha <ph
 
       Kama sera imewekwa kuwa sivyo au haijawekwa, huenda <ph name="PRODUCT_NAME" /> haitakusanya wala kupakia kumbukumbu hizi.
 
-      Kumbukumbu hizi hujumuisha maelezo ya utambuzi ambayo yanasaidia kutatua matatizo ya simu za sauti au video katika Chrome, kama vile wakatI na ukubwa wa vifurushi vya RTP vinavyotumwa na kupokelewa, maoni kuhusu msongamano kwenye mtandao na metadata kuhusu wakati na ubora wa fremu za sauti na video. Kumbukumbu hizi hazijumuishi maudhui ya simu ya sauti wala ya video.
+      Kumbukumbu hizi hujumuisha maelezo ya utambuzi ambayo yanasaidia kutatua matatizo ya simu za sauti au video katika Brave, kama vile wakatI na ukubwa wa vifurushi vya RTP vinavyotumwa na kupokelewa, maoni kuhusu msongamano kwenye mtandao na metadata kuhusu wakati na ubora wa fremu za sauti na video. Kumbukumbu hizi hazijumuishi maudhui ya simu ya sauti wala ya video.
 
-      Ukusanyaji wa data hii kwa kutumia Chrome unaweza kuanzishwa tu na huduma za wavuti za Google, kama vile Google Hangouts au Google Meet. 
+      Ukusanyaji wa data hii kwa kutumia Brave unaweza kuanzishwa tu na huduma za wavuti za Google, kama vile Google Hangouts au Google Meet. 
 
       Huenda Google ikahusisha kumbukumbu hizi na kumbukumbu zingine ambazo hukusanywa na huduma ya Google yenyewe kupitia kitambulisho cha kipindi; hali hii inanuia kurahisisha shughuli ya utatuzi.
       </translation>
@@ -2299,7 +2299,7 @@ Sera hii haipatikani kwenye Windows ambazo hazijaunganishwa kwenye kikoa cha <ph
       Sera hii ikiwekwa kuwa Sivyo, kipengee cha hali ya chinichini huzimwa na hakiwezi kudhibitiwa na mtumiaji katika mipangilio ya kivinjari.
 
     Sera hii ikiachwa bila kuwekwa, kipengee cha hali ya chinichini huzimwa kwanza na kinaweza kudhibitiwa na mtumiaji katika mipangilio ya kivinjari.</translation>
-<translation id="7126716959063786004">Washa kipengele cha kutamatisha shughuli katika Kidhibiti cha Shughuli kwenye Chrome</translation>
+<translation id="7126716959063786004">Washa kipengele cha kutamatisha shughuli katika Kidhibiti cha Shughuli kwenye Brave</translation>
 <translation id="7127892035367404455">Rejea kwenye toleo lengwa</translation>
 <translation id="7128918109610518786">Inaorodhesha vitambuaji vya programu <ph name="PRODUCT_OS_NAME" /> huonyesha kama programu zilizobanwa katika upau wa kizinduzi.
 
@@ -2337,11 +2337,11 @@ Kama umeweka sera hii, watumiaji wanaweza kuipuuza kwa muda kwa kuwasha au kuzim
 
 Kama sera haitawekwa, kikuza skrini kitazimwa wakati skrini ya kuingia katika akaunti itakapoonyeshwa kwanza. Watumiaji wanaweza kuwasha au kuzima kikuza skrini wakati wowote na hali yake kwenye skrini ya kuingia katika akaunti inaendelea kati ya watumiaji.</translation>
 <translation id="7249828445670652637">Washa kipengele cha vyeti vya CA vya <ph name="PRODUCT_OS_NAME" /> kwenye programu za ARC</translation>
-<translation id="725322441686394886">Iwapo sera haijawekwa na Kipengele cha Kusafisha Chrome kitambue programu isiyotakikana, kinaweza kuripoti metadata kuhusu uchanganuzi kwa Google kulingana na sera zilizowekwa na SafeBrowsingExtendedReportingEnabled. Kisha, Kipengele cha Kusafisha Chrome kitamwuliza mtumiaji iwapo angependa kuondoa programu isiyotakikana. Mtumiaji anaweza kuchagua kushiriki matokeo ya uondoaji na Google ili kusaidia utambuzi wa programu zisizotakikana baadaye. Matokeo haya yana metadata ya faili, viendelezi vilivyosakinishwa kiotomatiki na funguo za sajili kama ilivyobainishwa na Nakala ya Faragha ya Chrome.
+<translation id="725322441686394886">Iwapo sera haijawekwa na Kipengele cha Kusafisha Brave kitambue programu isiyotakikana, kinaweza kuripoti metadata kuhusu uchanganuzi kwa Google kulingana na sera zilizowekwa na SafeBrowsingExtendedReportingEnabled. Kisha, Kipengele cha Kusafisha Brave kitamwuliza mtumiaji iwapo angependa kuondoa programu isiyotakikana. Mtumiaji anaweza kuchagua kushiriki matokeo ya uondoaji na Google ili kusaidia utambuzi wa programu zisizotakikana baadaye. Matokeo haya yana metadata ya faili, viendelezi vilivyosakinishwa kiotomatiki na funguo za sajili kama ilivyobainishwa na Nakala ya Faragha ya Brave.
 
-      Iwapo sera imezimwa na Kipengee cha Kusafisha Chrome kitambue programu isiyotakikana, hakitaripoti metadata inayohusu uchanguzi kwa Google, hali itakayobatilisha sera zozote zilizowekwa na SafeBrowsingExtendedReportingEnabled. Kipengele cha Kusafisha Chrome kitamwuliza mtumiaji iwapo angependa kuondoa programu isiyotakikana. Matokeo ya uondoaji hayataripotiwa kwa Google na mtumiaji hatakuwa na chaguo la kufanya hivyo.
+      Iwapo sera imezimwa na Kipengee cha Kusafisha Brave kitambue programu isiyotakikana, hakitaripoti metadata inayohusu uchanguzi kwa Google, hali itakayobatilisha sera zozote zilizowekwa na SafeBrowsingExtendedReportingEnabled. Kipengele cha Kusafisha Brave kitamwuliza mtumiaji iwapo angependa kuondoa programu isiyotakikana. Matokeo ya uondoaji hayataripotiwa kwa Google na mtumiaji hatakuwa na chaguo la kufanya hivyo.
 
-      Iwapo sera imewashwa na Kipengele cha Kusafisha Chrome kitambue programu isiyotakikana, kinaweza kuripoti metadata kuhusu uchanganuzi kwa Google kulingana na sera zilizowekwa na SafeBrowsingExtendedReportingEnabled. Kipengele cha Kusafisha Chrome kitamwuliza mtumiaji iwapo angependa kuondoa programu isiyotakikana. Matokeo ya uondoaji yataripotiwa kwa Google na mtumiaji hatakuwa na chaguo la kuzuia hali hii.
+      Iwapo sera imewashwa na Kipengele cha Kusafisha Brave kitambue programu isiyotakikana, kinaweza kuripoti metadata kuhusu uchanganuzi kwa Google kulingana na sera zilizowekwa na SafeBrowsingExtendedReportingEnabled. Kipengele cha Kusafisha Brave kitamwuliza mtumiaji iwapo angependa kuondoa programu isiyotakikana. Matokeo ya uondoaji yataripotiwa kwa Google na mtumiaji hatakuwa na chaguo la kuzuia hali hii.
 
       Sera hii haipatikani katika matukio ya Windows ambayo hayajaunganishwa kwenye kikoa cha <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Wezesha uzuiaji wa wapangishaji wa ufikiaji mbali.</translation>
@@ -2395,9 +2395,9 @@ Kama sera haitawekwa, kikuza skrini kitazimwa wakati skrini ya kuingia katika ak
 <translation id="7329968046053403405">Hubainisha aina ya akaunti ya akaunti zinazotolewa na programu ya uthibitishaji wa Android inayotumia uthibitishaji wa <ph name="HTTP_NEGOTIATE" /> (k.m. uthibitishaji wa Kerberos). Maelezo haya yanapaswa kupatikana kutoka kwa muuzaji wa programu ya uthibitishaji. Kwa maelezo zaidi angalia https://goo.gl/hajyfN.
 
           Ikiwa mipangilio haijatolewa, uthibitishaji wa <ph name="HTTP_NEGOTIATE" /> utazimwa kwenye Android.</translation>
-<translation id="7331962793961469250">Wakati imewekwa kwenye Ndivyo, utambulishaji wa programu za Duka la Wavuti la Chrome hautaionekana katika ukurasa wa kichupo kipya.
+<translation id="7331962793961469250">Wakati imewekwa kwenye Ndivyo, utambulishaji wa programu za Duka la Wavuti la Brave hautaionekana katika ukurasa wa kichupo kipya.
 
-      Kuweka chaguo hili kwa Siyo Ndivyo au kuliacha kama halijawekwa kutafanya utambulishaji wa programu za Duka la wavuti la Chrome katika ukurasa wa kichupo kipya.</translation>
+      Kuweka chaguo hili kwa Siyo Ndivyo au kuliacha kama halijawekwa kutafanya utambulishaji wa programu za Duka la wavuti la Brave katika ukurasa wa kichupo kipya.</translation>
 <translation id="7332963785317884918">Sera hii imekosolewa. <ph name="PRODUCT_OS_NAME" /> itatumia mkakati wa kufuta wa 'RemoveLRU' wakati wowote.
 
       Hudhibiti tabia ya ufutaji otomatiki kwenye vifaa vya <ph name="PRODUCT_OS_NAME" />. Kufuta kiotomatiki kunafanywa kiasi cha nafasi tupu ya diski kinapofikia kiwango muhimu cha kurejesha baadhi ya nafasi ya diski.
@@ -2412,7 +2412,7 @@ Kama sera haitawekwa, kikuza skrini kitazimwa wakati skrini ya kuingia katika ak
 <translation id="7343497214039883642">Faili za mipangilio ya printa ya biashara kwenye vifaa</translation>
 <translation id="7349338075015720646">Hubainisha orodha ya tovuti ambazo zinasakinishwa kwa njia fiche, bila kuhusisha mtumiaji, na ambazo haziwezi kuondolewa wala kuzimwa na mtumiaji.
 
-      Kila orodha ya vipengee vya sera ina sehemu mbili: "url" na "launch_container". Ni sharti "url" iwe URL ya programu ya wavuti ili isakinishwe na ni sharti "launch_container" iwe aidha "dirisha" au "kichupo" ili kuashiria jinsi Programu ya Wavuti itafunguliwa baada ya kusakinishwa. Kama "launch_container" haipo, programu itafunguka katika dirisha ikiwa Chrome itaibanisha kama Programu ya Wavuti Inayoendelea na vinginevyo katika kichupo.</translation>
+      Kila orodha ya vipengee vya sera ina sehemu mbili: "url" na "launch_container". Ni sharti "url" iwe URL ya programu ya wavuti ili isakinishwe na ni sharti "launch_container" iwe aidha "dirisha" au "kichupo" ili kuashiria jinsi Programu ya Wavuti itafunguliwa baada ya kusakinishwa. Kama "launch_container" haipo, programu itafunguka katika dirisha ikiwa Brave itaibanisha kama Programu ya Wavuti Inayoendelea na vinginevyo katika kichupo.</translation>
 <translation id="735902178936442460">Sera hii hudhibiti iwapo unapaswa kuripoti maelezo yanayoweza kutumika kutambulisha mashine kama vile jina la mashine na anwani za mtandao.
 
       Sera hii isipowekwa au ikiwekwa kuwa Ndivyo, maelezo yanayoweza kutumika kutambulisha mashine hukusanywa.
@@ -2425,9 +2425,9 @@ Kama sera haitawekwa, kikuza skrini kitazimwa wakati skrini ya kuingia katika ak
 
       Angalia https://developers.google.com/safe-browsing ili upate maelezo zaidi kuhusu Kuvinjari Salama.</translation>
 <translation id="737655323154569539">Hudhibiti ukubwa wa ukurasa wa kuchapisha. Usipoweka mipangilio ya sera itachukuliwa kuwa hamna kudhibiti.</translation>
-<translation id="7417728346887499628">Ikiwa sera imezimwa, itazuia Kipengele cha Kusafisha Chrome kisichanganue mfumo kubaini programu zisizotakikana na kuziondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Chrome kutoka chrome://settings/cleanup umezimwa.
+<translation id="7417728346887499628">Ikiwa sera imezimwa, itazuia Kipengele cha Kusafisha Brave kisichanganue mfumo kubaini programu zisizotakikana na kuziondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Brave kutoka chrome://settings/cleanup umezimwa.
 
-      Ikiwa sera imewekwa kuwa ndivyo au haijawekwa, Kipengele cha Kusafisha Chrome kitakagua mfumo mara kwa mara ili kubaini programu zisizotakikana. Ikiwa programu yoyote itapatikana, kitamwuliza mtumiaji iwapo angependa kuiondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Chrome kutoka chrome://settings umewashwa.
+      Ikiwa sera imewekwa kuwa ndivyo au haijawekwa, Kipengele cha Kusafisha Brave kitakagua mfumo mara kwa mara ili kubaini programu zisizotakikana. Ikiwa programu yoyote itapatikana, kitamwuliza mtumiaji iwapo angependa kuiondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Brave kutoka chrome://settings umewashwa.
 
     Sera hii haipatikani kwenye matukio ya Windows ambayo hayajaunganishwa kwenye kikoa cha <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Asilimia ya kupima kuchelewesha kwa mwanga wa skrini katika modi ya wasilisho (kimewacha kuendesha huduma)</translation>
@@ -2668,7 +2668,7 @@ KUMBUKA: Sera hii haitumiki kwenye Android. Ili uwashe SitePerProcess kwenye And
 
      KUMBUKA: Kwenye Android, Utengaji wa Tovuti unajaribiwa. Usaidizi utaendelea kuboreshwa lakini kwa sasa huenda ukasababisha matatizo ya utendaji.
 
-      KUMBUKA: Sera hii inatumika tu katika Chrome kwenye vifaa vya Android vyenye zaidi ya GB1 ya RAM. Ili kutumia sera kwenye mifumo isiyo ya Android, tumia IsolateOrigins.
+      KUMBUKA: Sera hii inatumika tu katika Brave kwenye vifaa vya Android vyenye zaidi ya GB1 ya RAM. Ili kutumia sera kwenye mifumo isiyo ya Android, tumia IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Wapangishi wasiofuata kanuni za mwongozo wa mtumiaji uliodhibitiwa</translation>
 <translation id="7961779417826583251">Zima utekelezaji wa Uwazi wa Cheti katika orodha ya Mamlaka ya Vyeti Vilivyopitwa na Wakati</translation>
@@ -2681,7 +2681,7 @@ KUMBUKA: Sera hii haitumiki kwenye Android. Ili uwashe SitePerProcess kwenye And
 <translation id="7976157349247117979">Jina la mahali <ph name="PRODUCT_NAME" /> inapotuma</translation>
 <translation id="7980227303582973781">Hamna vikwazo maalum</translation>
 <translation id="7985242821674907985"><ph name="PRODUCT_NAME" /></translation>
-<translation id="7992136759457836904">Hukuruhusu udhibiti ikiwa mashine pepe zinaruhusiwa kutumia Mfumo wa Uendeshaji wa Chrome.
+<translation id="7992136759457836904">Hukuruhusu udhibiti ikiwa mashine pepe zinaruhusiwa kutumia Mfumo wa Uendeshaji wa Brave.
 
       Ikiwa sera imewekwa kuwa Ndivyo, kifaa kinaruhusiwa kutumia mashine pepe.
       Ikiwa sera imewekwa kuwa Sivyo, kifaa hakitaruhusiwa kutumia mashine pepe.
@@ -2741,7 +2741,7 @@ KUMBUKA: Sera hii haitumiki kwenye Android. Ili uwashe SitePerProcess kwenye And
 
       Ikiwa sera itawekwa kuwa Uongo, orodha ya violesura haitaripotiwa.</translation>
 <translation id="8141795997560411818">Sera hii haizuii mtumiaji kutumia programu ya Hifadhi ya Android Google. Ikiwa unataka kuzuia idhini ya kufikia Hifadhi ya Google, usiruhusu usakinishaji wa programu ya Hifadhi ya Android Google pia.</translation>
-<translation id="8146727383888924340">Ruhusu watumiaji kukomboa matoleo kupitia Usajili wa Mfumo wa Uendeshaji wa Chrome</translation>
+<translation id="8146727383888924340">Ruhusu watumiaji kukomboa matoleo kupitia Usajili wa Mfumo wa Uendeshaji wa Brave</translation>
 <translation id="8148785525797916822">Hukandamiza onyo linaloonekana <ph name="PRODUCT_NAME" /> inapofanya kazi kwenye kompyuta au mfumo wa uendeshaji ambao hautumiki tena.</translation>
 <translation id="8148901634826284024">Washa kipengee cha upatikanaji cha hali ya juu ya utofutishaji. 
 Kama sera hii imewekwa kuwa kweli, hali ya juu ya utofautishaji itawashwa kila wakati. 
@@ -2777,7 +2777,7 @@ Kama sera hii haitawekwa, hali ya juu ya utofautishaji itazimwa mwanzoni lakini 
       Iwapo sera itaachwa bila kuwekwa, <ph name="PRODUCT_OS_NAME" /> itatumia Kitambulisho cha akaunti ya barua pepe ya akaunti ya kifaa cha karibu nawe kama jina la onyesho kwenye skrini ya kuingia.
 
     Sera hii inaapuzwa kwa akaunti za mtumiaji wa mara kwa mara.</translation>
-<translation id="8259375588339409826">Chromium na Google Chrome hutumia kundi moja la sera. Tafadhali kumbuka kwamba hati hii inaweza kujumuisha sera ambazo zinalenga matoleo ambayo hayajatolewa (kwa mfano kipengele cha "Linalotumika kwenye' kinarejelea toleo la <ph name="PRODUCT_NAME" />) ambalo halijatolewa na kwamba sera kama hizo zinaweza kubadilishwa au kuondolewa bila taarifa, na hakuna uhakika wowote kuhusu vipengele vyake vya usalama na faragha. 
+<translation id="8259375588339409826">Brave na Brave hutumia kundi moja la sera. Tafadhali kumbuka kwamba hati hii inaweza kujumuisha sera ambazo zinalenga matoleo ambayo hayajatolewa (kwa mfano kipengele cha "Linalotumika kwenye' kinarejelea toleo la <ph name="PRODUCT_NAME" />) ambalo halijatolewa na kwamba sera kama hizo zinaweza kubadilishwa au kuondolewa bila taarifa, na hakuna uhakika wowote kuhusu vipengele vyake vya usalama na faragha. 
 
 Sera hizi zinalenga kutumiwa hasa kwa kuweka mipangilio ya matukio ya <ph name="PRODUCT_NAME" /> ya ndani ya shirika lako. Matumizi ya sera hizi nje ya shirika lako (kwa mfano, katika programu inayosambazwa kwa umma) yanachukuliwa kuwa programu hasidi na yanaweza kuainishwa kama programu hasidi na Google na wauzaji wa kingavirusi.
 
@@ -2794,7 +2794,7 @@ Njia inayopendekezwa ya kuweka mipangilio ya sera kwenye Windows ni kupitia GPO,
       Hali hii inatumika kwenye hati zote za PAC bila kuzingatia asili yake (pamoja
       na zile zilizoletwa kupitia uchukuaji usio salama, au zilizogunduliwa kwa njia isiyo salama kupitia WPAD).
 
-      Hii hubadilika kuwa Ndivyo (kipengele cha usalama kimewashwa), isipokuwa kwa watumiaji wa mfumo wa uendeshaji wa Chrome wa biashara ambapo hubadilika kuwa Sivyo kwa sasa.
+      Hii hubadilika kuwa Ndivyo (kipengele cha usalama kimewashwa), isipokuwa kwa watumiaji wa mfumo wa uendeshaji wa Brave wa biashara ambapo hubadilika kuwa Sivyo kwa sasa.
 
       Inashauriwa kipengele hiki kiwekwe Ndivyo. Sababu pekee ya kuiweka kuwa
       Sivyo ni ikiwa inasababisha tatizo la kuoana na hati za sasa za PAC.
@@ -2824,7 +2824,7 @@ Njia inayopendekezwa ya kuweka mipangilio ya sera kwenye Windows ni kupitia GPO,
 <translation id="8339420913453596618">Uthibitishaji wa hatua mbili umezimwa</translation>
 <translation id="8344454543174932833">Ingiza alamisho kutoka kivinjari chaguomsingi wakati wa uendeshaji wa kwanza</translation>
 <translation id="8359734107661430198">Washa API ya ExampleDeprecatedFeature kupitia 2008/09/02</translation>
-<translation id="8367209241899435947">Washa Kipengele cha Kusafisha Chrome kwenye Windows</translation>
+<translation id="8367209241899435947">Washa Kipengele cha Kusafisha Brave kwenye Windows</translation>
 <translation id="8369602308428138533">Kuchelewa kwa kuzima skirini wakati nishati ya AC inapotumika</translation>
 <translation id="8382184662529825177">Washa matumizi ya usahihishaji wa mbali wa kulinda maudhui ya kifaa</translation>
 <translation id="838870586332499308">Wezesha utumiaji wa data nje ya mtandao wako wa kawaida</translation>
@@ -2883,7 +2883,7 @@ Katika hali hii "Toleo" linaweza kuwa toleo halisi kama vile toleo la '61.0.3163
 <translation id="8544465954173828789">Ruhusu Ujumbe wa SMS kusawazishwa kutoka simu hadi Chromebook.</translation>
 <translation id="8548832052135586762">Inaweka uchapishaji wa rangi pekee, rangi moja nyeupe na nyeusi pekee au kudhibiti hali isiyo na rangi. Sera ambayo haijawekewa mipangilio inachukuliwa kuwa hamna kudhibiti.</translation>
 <translation id="8549772397068118889">Tahadharisha ninapotembelea tovuti zilizo nje ya vifurushi vya maudhui</translation>
-<translation id="8566842294717252664">Ficha duka la wavuti kwenye ukurasa mpya wa kichupo na kifungua programu cha Chrome</translation>
+<translation id="8566842294717252664">Ficha duka la wavuti kwenye ukurasa mpya wa kichupo na kifungua programu cha Brave</translation>
 <translation id="857369585509260201">Sera hii imeacha kuendesha huduma, badala yake jaribu kutumia kipengele cha BrowserSignin.
 
       Kama sera hii imewekwa kuwa ndivyo, mtumiaji anahitaji kuingia katika akaunti ya <ph name="PRODUCT_NAME" /> kwa kutumia wasifu wake kabla ya kutumia kivinjari. Na thamani chaguomsingi ya BrowserGuestModeEnabled itawekwa kuwa sivyo. Kumbuka kuwa wasifu uliopo ambao haujatumiwa kuingia katika akaunti utafungwa na hautaweza kufikiwa baada ya kuwasha sera hii. Kwa maelezo zaidi, angalia makala ya kituo cha usaidizi.
@@ -2900,7 +2900,7 @@ Katika hali hii "Toleo" linaweza kuwa toleo halisi kama vile toleo la '61.0.3163
 
       Ikiwa sera hii imebadilishwa au imewekwa kuwa ndivyo, watumiaiji wote wanaruhusiwa kutumia ARC (ila katika hali ambapo ARC inazimwa kwa kutumia mbinu nyinginezo).
 
-      Mabadiliko kwenye sera yatatumika wakati ARC haitekelezwi tu, kwa mfano, mfumo wa uendeshaji wa Chrome unapoanza.</translation>
+      Mabadiliko kwenye sera yatatumika wakati ARC haitekelezwi tu, kwa mfano, mfumo wa uendeshaji wa Brave unapoanza.</translation>
 <translation id="8631434304112909927">mpaka toleo la <ph name="UNTIL_VERSION" /></translation>
 <translation id="863319402127182273">Kwa programu za Android, sera hii inaathiri kamera iliyojengewa ndani pekee. Sera ikiwekwa kuwa ndivyo, kamera huzimwa kwa programu zote za Android, bila kuacha programu yoyote.</translation>
 <translation id="8649763579836720255">Vifaa vyenye Chrome OS vinaweza kutumia uwezo wa kuthibitisha kutoka mbali (Ufikiaji Uliothibitishwa) kupata cheti kilichotolewa na Chrome OS CA kinachothibitisha kuwa kifaa kimekubaliwa kucheza maudhui yanayolindwa. Utaratibu huu unahusisha kutumia Chrome OS CA maelezo maalum ya kuthibitisha maunzi yanayokitambua kifaa husika. 
@@ -3159,7 +3159,7 @@ Mfumo wa kipimo  lazima uwe 100% au zaidi. Thamani zitakazofupisha kuchelewa kwa
       Wakati sera hii imewekwa kuwa Cheti cha Kiteja (thamani ya 1), uthibitishaji wa cheti cha kiteja hutumiwa kwa watumiaji wapya walioongezwa ambao wanaingia katika akaunti wakitumia SAML. Hakuna manenosiri yanayotumiwa kwa watumiaji kama hawa na akiba ya data yao iliyohifadhiwa inalindwa kwa kutumia funguo za kriptografia zinazowiana. Kwa mfano, mipangilio hii inaruhusu kuweka mipangilio ya kadi mahiri kulingana na uthibitishaji wa mteja (kumbuka programu zinazotumika kati ya kadi mahiri na programu zinapaswa kusakinishwa kupitia DeviceLoginScreenAppInstallList).
 
       Sera hii inaathiriwa watumiaji ambao wanathibitisha kupitia SAML pekee.</translation>
-<translation id="9213347477683611358">Weka mipangilio ya picha ya mandhari ya kiwango cha kifaa ambayo inaonyeshwa kwenye skrini ya kuingia katika akaunti ikiwa hakuna mtumiaji aliyeingia katika kifaa. Sera inawekwa kwa kubainisha URL ambayo kifaa cha Mfumo wa Uendeshaji wa Chrome kinaweza kupakua picha ya mandhari na hash ya kriptografia inayotumiwa kuthibitisha kwamba kipakuliwa hakina virusi. Lazima picha iwe ya aina ya faili ya JPEG, ukubwa wake usizidi MB 16. Lazima URL ifikiwe bila uthibitishaji wowote. Picha ya mandhari hupakuliwa na kuakibishwa. Itapakuliwa tena wakati URL au hash inabadilika.
+<translation id="9213347477683611358">Weka mipangilio ya picha ya mandhari ya kiwango cha kifaa ambayo inaonyeshwa kwenye skrini ya kuingia katika akaunti ikiwa hakuna mtumiaji aliyeingia katika kifaa. Sera inawekwa kwa kubainisha URL ambayo kifaa cha Mfumo wa Uendeshaji wa Brave kinaweza kupakua picha ya mandhari na hash ya kriptografia inayotumiwa kuthibitisha kwamba kipakuliwa hakina virusi. Lazima picha iwe ya aina ya faili ya JPEG, ukubwa wake usizidi MB 16. Lazima URL ifikiwe bila uthibitishaji wowote. Picha ya mandhari hupakuliwa na kuakibishwa. Itapakuliwa tena wakati URL au hash inabadilika.
 
       Sera inapaswa kubainishwa kama mfuatano unaoeleza URL na hash katika aina ya faili ya JSON, kwa mfano,
       {
@@ -3167,7 +3167,7 @@ Mfumo wa kipimo  lazima uwe 100% au zaidi. Thamani zitakazofupisha kuchelewa kwa
         "hash": "examplewallpaperhash"
       }
 
-      Ikiwa sera ya mandhari ya kifaa itawekwa, kifaa cha Mfumo wa Uendeshaji wa Chrome kitapakua na kutumia picha ya mandhari kwenye skrini ya kuingia katika akaunti ikiwa hakuna mtumiaji ambaye ameingia katika kifaa. Pindi tu mtumiaji anapoingia katika akaunti, sera ya mandhari ya mtumiaji itaanza kutumika.
+      Ikiwa sera ya mandhari ya kifaa itawekwa, kifaa cha Mfumo wa Uendeshaji wa Brave kitapakua na kutumia picha ya mandhari kwenye skrini ya kuingia katika akaunti ikiwa hakuna mtumiaji ambaye ameingia katika kifaa. Pindi tu mtumiaji anapoingia katika akaunti, sera ya mandhari ya mtumiaji itaanza kutumika.
 
       Ikiwa sera ya mandhari ya kifaa itaachwa bila kuwekwa, ni sera ya mandhari ya mtumiaji itakayoamua kitu cha kuonyesha ikiwa sera ya mandhari ya mtumiaji itawekwa.</translation>
 <translation id="9217154963008402249">Idadi ya kufuatilia vifurushi vya mtandao</translation>

@@ -386,7 +386,7 @@
 <translation id="2073552873076775140">Teenusesse <ph name="PRODUCT_NAME" /> sisselogimise lubamine</translation>
 <translation id="2077129598763517140">Kasuta võimaluse korral riistvarakiirendust</translation>
 <translation id="2077273864382355561">Ekraani väljalülitamise viiteaeg akutoite kasutamisel</translation>
-<translation id="2082205219176343977">Seadmes kõige vanema lubatud Chrome'i versiooni seadistamine.</translation>
+<translation id="2082205219176343977">Seadmes kõige vanema lubatud Brave'i versiooni seadistamine.</translation>
 <translation id="209586405398070749">Stabiilne kanal</translation>
 <translation id="2098658257603918882">Luba kasutus- ja krahhiandmete aruandlus</translation>
 <translation id="2111016292707172233">Lubab teenuse <ph name="PRODUCT_NAME" /> sisu vaates funktsiooni Puuduta otsimiseks.
@@ -507,7 +507,7 @@
           Pange tähele, et arendaja tööriistadega saavad kasutajad muuta iga laienduse lähtekoodi (mis võib põhjustada laienduse väärtalitlust). Kui see on probleem, tuleb määrata reegel <ph name="DEVELOPER_TOOLS_POLICY_NAME" />.
 
           
-Reegli iga loendiüksus on string, mis sisaldab laienduse ID-d ja valikuliselt ka „värskenduse” URL-i, mis on eraldatud semikooloniga (<ph name="SEMICOLON" />). Laienduse ID on 32-täheline string, mis kuvatakse näiteks arendajarežiimis teenuses <ph name="CHROME_EXTENSIONS_LINK" />. „Värskenduse” URL peab viitama XML-dokumendi värskendusmanifestile, nagu on kirjeldatud jaotises <ph name="LINK_TO_EXTENSION_DOC1" />. Vaikimisi kasutatakse Chrome'i veebipoe värskenduse URL-i (praegune URL on „https://clients2.google.com/service/update2/crx”). Pange tähele, et reeglis määratud „värskenduse” URL-i kasutatakse vaid algsel installimisel ja laienduse tulevased värskendused kasutavad laienduse manifestis märgitud värskenduse URL-i. Konkreetse värskenduse URL-i määramine oli kohustuslik kuni teenuse <ph name="PRODUCT_NAME" /> 67. versioonini (kaasa arvatud).
+Reegli iga loendiüksus on string, mis sisaldab laienduse ID-d ja valikuliselt ka „värskenduse” URL-i, mis on eraldatud semikooloniga (<ph name="SEMICOLON" />). Laienduse ID on 32-täheline string, mis kuvatakse näiteks arendajarežiimis teenuses <ph name="CHROME_EXTENSIONS_LINK" />. „Värskenduse” URL peab viitama XML-dokumendi värskendusmanifestile, nagu on kirjeldatud jaotises <ph name="LINK_TO_EXTENSION_DOC1" />. Vaikimisi kasutatakse Brave'i veebipoe värskenduse URL-i (praegune URL on „https://clients2.google.com/service/update2/crx”). Pange tähele, et reeglis määratud „värskenduse” URL-i kasutatakse vaid algsel installimisel ja laienduse tulevased värskendused kasutavad laienduse manifestis märgitud värskenduse URL-i. Konkreetse värskenduse URL-i määramine oli kohustuslik kuni teenuse <ph name="PRODUCT_NAME" /> 67. versioonini (kaasa arvatud).
 
           Näiteks reegel <ph name="EXTENSION_POLICY_EXAMPLE" /> installib laienduse <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> rakenduse standardselt Chrome’i veebipoe „värskenduse” URL-ilt. Lisateavet hostimise laienduste kohta leiate siit: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
@@ -697,7 +697,7 @@ Reegli iga loendiüksus on string, mis sisaldab laienduse ID-d ja valikuliselt k
 <translation id="268577405881275241">Andmete tihendamise puhverserveri funktsiooni lubamine</translation>
 <translation id="2693108589792503178">Parooli URL-i muutmise seadistamine.</translation>
 <translation id="2731627323327011390">Keela ARC-rakenduste jaoks operatsioonisüsteemi <ph name="PRODUCT_OS_NAME" /> sertifikaatide kasutamine</translation>
-<translation id="2742843273354638707">Peitke Chrome'i veebipoe rakendus ja jaluse link uuel vahelehel ja operatsioonisüsteemi <ph name="PRODUCT_OS_NAME" /> rakenduse käivitajas.
+<translation id="2742843273354638707">Peitke Brave'i veebipoe rakendus ja jaluse link uuel vahelehel ja operatsioonisüsteemi <ph name="PRODUCT_OS_NAME" /> rakenduse käivitajas.
 
       Kui selle reegli olekuks määratakse Tõene, siis ikoonid peidetakse.
 
@@ -816,7 +816,7 @@ Reegli iga loendiüksus on string, mis sisaldab laienduse ID-d ja valikuliselt k
           Kui jätate selle reegli määramata, siis kasutatakse reeglit „AllowJavaScript” ja kasutaja saab seda muuta.</translation>
 <translation id="3038323923255997294">Jätka taustarakenduste käitamist pärast rakenduse <ph name="PRODUCT_NAME" /> sulgemist</translation>
 <translation id="3046192273793919231">Veebioleku jälgimiseks võrgupakettide haldusserverisse saatmine</translation>
-<translation id="3047732214002457234">Määrab, kuidas Chrome Cleanup edastab andmeid Google'ile</translation>
+<translation id="3047732214002457234">Määrab, kuidas Brave Cleanup edastab andmeid Google'ile</translation>
 <translation id="3048744057455266684">Kui see reegel määratakse ja omnikastikeses olev otsingu URL sisaldab seda parameetrit päringustringis või fragmendi identifikaatoris, siis kuvatakse soovituses otsinguterminid ja otsingupakkuja, mitte ainult otsingu URL.
 
           See reegel on valikuline. Kui seda ei määrata, siis otsinguterminit ei asendata.
@@ -1135,13 +1135,13 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
       Kui te seda reeglit ei määra, kasutab brauser <ph name="PRODUCT_NAME" /> oma tavapärast kataloogi (platvormipõhine).
 
       Saidil https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables näete loendit kasutatavatest muutujatest.</translation>
-<translation id="3904459740090265495">See reegel juhib brauserisse sisselogimise käitumist. See võimaldab teil määrata, kas kasutaja saab teenusesse <ph name="PRODUCT_NAME" /> oma kontoga sisse logida ja kasutada kontoga seotud teenuseid, nagu Chrome'i sünkroonimine.
+<translation id="3904459740090265495">See reegel juhib brauserisse sisselogimise käitumist. See võimaldab teil määrata, kas kasutaja saab teenusesse <ph name="PRODUCT_NAME" /> oma kontoga sisse logida ja kasutada kontoga seotud teenuseid, nagu Brave'i sünkroonimine.
 
-      Kui reegli väärtuseks on määratud „Keela brauserisse sisselogimine”, siis ei saa kasutaja brauserisse sisse logida ega kasutada kontopõhiseid teenuseid. Sellisel juhul ei saa brauseri tasemel funktsioone (nt Chrome'i sünkroonimine) kasutada ja need pole saadaval. Kui kasutaja oli sisse logitud ja reegli väärtuseks määratakse „Keelatud”, logitakse ta Chrome'i järgmisel käivitamisel välja, kuid tema kohalikud profiili andmed (nt järjehoidjad, paroolid jm) jäävad alles. Kasutaja saab siiski sisse logida Google'i veebiteenustesse (nt Gmaili) ja neid kasutada.
+      Kui reegli väärtuseks on määratud „Keela brauserisse sisselogimine”, siis ei saa kasutaja brauserisse sisse logida ega kasutada kontopõhiseid teenuseid. Sellisel juhul ei saa brauseri tasemel funktsioone (nt Brave'i sünkroonimine) kasutada ja need pole saadaval. Kui kasutaja oli sisse logitud ja reegli väärtuseks määratakse „Keelatud”, logitakse ta Brave'i järgmisel käivitamisel välja, kuid tema kohalikud profiili andmed (nt järjehoidjad, paroolid jm) jäävad alles. Kasutaja saab siiski sisse logida Google'i veebiteenustesse (nt Gmaili) ja neid kasutada.
 
-      Kui reegli väärtuseks on määratud „Luba brauserisse sisselogimine”, siis saab kasutaja brauserisse sisse logida ja ta logitakse automaatselt brauserisse sisse, kui ta logib sisse mõnda Google'i veebiteenusesse (nt Gmaili). Kui kasutaja on brauserisse sisse logitud, siis salvestab brauser tema kontoteabe. See aga ei tähenda, et Chrome'i sünkroonimine vaikimisi sisse lülitatakse. Kasutaja peab selle funktsiooni kasutamise eraldi lubama. Selle reegli lubamisel ei saa kasutaja välja lülitada seadet, mis lubab brauserisse sisselogimise. Chrome'i sünkroonimise kättesaadavuse juhtimiseks kasutage reeglit „SyncDisabled”.
+      Kui reegli väärtuseks on määratud „Luba brauserisse sisselogimine”, siis saab kasutaja brauserisse sisse logida ja ta logitakse automaatselt brauserisse sisse, kui ta logib sisse mõnda Google'i veebiteenusesse (nt Gmaili). Kui kasutaja on brauserisse sisse logitud, siis salvestab brauser tema kontoteabe. See aga ei tähenda, et Brave'i sünkroonimine vaikimisi sisse lülitatakse. Kasutaja peab selle funktsiooni kasutamise eraldi lubama. Selle reegli lubamisel ei saa kasutaja välja lülitada seadet, mis lubab brauserisse sisselogimise. Brave'i sünkroonimise kättesaadavuse juhtimiseks kasutage reeglit „SyncDisabled”.
 
-      Kui reegli väärtuseks on määratud „Brauserisse sisselogimise nõudmine”, siis kuvatakse kasutajale kontovaliku dialoog ja ta peab valima, millisele kontole brauseri kasutamiseks sisse logida. See tagab, et hallatud kontode puhul rakendatakse ja jõustatakse kontoga seotud reeglid. Vaikimisi lülitab see Chrome'i sünkroonimise sellel kontol sisse (v.a juhul, kui sünkroonimine on domeeni administraatori poolt või reegliga „SyncDisabled” välja lülitatud). Reegli BrowserGuestModeEnabled vaikeväärtuseks määratakse Väär. Pange tähele, et olemasolevad allkirjastamata profiilid lukustatakse ja nendele ei pääse pärast selle reegli lubamist juurde. Lisateabe saamiseks lugege abikeskuse artiklit: https://support.google.com/chrome/a/answer/7572556.
+      Kui reegli väärtuseks on määratud „Brauserisse sisselogimise nõudmine”, siis kuvatakse kasutajale kontovaliku dialoog ja ta peab valima, millisele kontole brauseri kasutamiseks sisse logida. See tagab, et hallatud kontode puhul rakendatakse ja jõustatakse kontoga seotud reeglid. Vaikimisi lülitab see Brave'i sünkroonimise sellel kontol sisse (v.a juhul, kui sünkroonimine on domeeni administraatori poolt või reegliga „SyncDisabled” välja lülitatud). Reegli BrowserGuestModeEnabled vaikeväärtuseks määratakse Väär. Pange tähele, et olemasolevad allkirjastamata profiilid lukustatakse ja nendele ei pääse pärast selle reegli lubamist juurde. Lisateabe saamiseks lugege abikeskuse artiklit: https://support.google.com/chrome/a/answer/7572556.
 
       Kui see reegel jäetakse määramata, siis saab kasutaja otsustada, kas soovib brauserisse sisselogimise valiku lubada, ja seda kasutada siis, kui ise soovib.</translation>
 <translation id="3907986150060929099">Avaliku seansi soovitatud lokaatide määramine</translation>
@@ -1265,11 +1265,11 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 <translation id="4298509794364745131">Määratakse loend rakendustest, mille saab operatsioonisüsteemi <ph name="PRODUCT_OS_NAME" /> lukustuskuval lubada märkmete tegemise rakendustena.
 
       Kui eelistatud märkmete tegemise rakendus on lukustuskuval lubatud, sisaldab lukustuskuva kasutajaliidese elementi eelistatud märkmete tegemise rakenduse käivitamiseks.
-      Rakendus saab käivitamisel lukustuskuva peale luua rakenduse akna ja lukustuskuva kontekstis luua andmeüksusi (märkmeid). Rakendus saab loodud märkmed importida peamise kasutaja seanssi, kui see avatakse. Praegu toetatakse lukustuskuval ainult Chrome'i märkmete tegemise rakendusi.
+      Rakendus saab käivitamisel lukustuskuva peale luua rakenduse akna ja lukustuskuva kontekstis luua andmeüksusi (märkmeid). Rakendus saab loodud märkmed importida peamise kasutaja seanssi, kui see avatakse. Praegu toetatakse lukustuskuval ainult Brave'i märkmete tegemise rakendusi.
 
       Kui see reegel on määratud, saab kasutaja rakenduse lukustuskuval lubada ainult siis, kui rakenduse laienduse ID on reeglite loendis olevas väärtuses olemas.
       Seega, kui reegli väärtuseks määratakse tühi loend, keelatakse märkmete tegemine lukustuskuval täielikult.
-      Pange tähele, et reegel, mis sisaldab rakenduse ID-d, ei tähenda alati seda, et kasutaja saab rakenduse lubada lukustuskuval märkmete tegemise rakendusena. Näiteks Chrome'i versioonis 61 on saadaolevate rakenduste kogumi täiendavalt piiranud ka platvorm.
+      Pange tähele, et reegel, mis sisaldab rakenduse ID-d, ei tähenda alati seda, et kasutaja saab rakenduse lubada lukustuskuval märkmete tegemise rakendusena. Näiteks Brave'i versioonis 61 on saadaolevate rakenduste kogumi täiendavalt piiranud ka platvorm.
 
       Kui reegel jäetakse määramata, puuduvad piirangud rakenduste kogumile, mille kasutaja saab lukustuskuval reegliga lubada.</translation>
 <translation id="4309640770189628899">Näitab, kas DHE šifreerimiskomplektid on TLS-is lubatud</translation>
@@ -1378,7 +1378,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 <translation id="4567137030726189378">Arendaja tööriistade kasutamise lubamine</translation>
 <translation id="4600786265870346112">Suure kursori lubamine</translation>
 <translation id="4604931264910482931">Omasõnumside musta nimekirja seadistamine</translation>
-<translation id="4613508646038788144">Kui reegel on määratud väärtusele Väär, on kolmanda osapoole tarkvaral lubatud sisestada Chrome'i protsessidesse täitmiskoodi. Kui reegel on määramata või seatud väärtusele Tõene, on kolmandal osapoolel keelatud täitmiskoodi Chrome'i protsessidesse sisestada.</translation>
+<translation id="4613508646038788144">Kui reegel on määratud väärtusele Väär, on kolmanda osapoole tarkvaral lubatud sisestada Brave'i protsessidesse täitmiskoodi. Kui reegel on määramata või seatud väärtusele Tõene, on kolmandal osapoolel keelatud täitmiskoodi Brave'i protsessidesse sisestada.</translation>
 <translation id="4617338332148204752">Metasildi kontrollimise vahelejätmine teenuses <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Installimiseks lubatud laienduste loendi seadistamine</translation>
 <translation id="4632343302005518762">Pistikprogrammil <ph name="PRODUCT_FRAME_NAME" /> loetletud sisutüüpide töötlemise lubamine</translation>
@@ -1512,7 +1512,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
           Väärtus peab olema rida stringideks jaotatud JSON-i sõnastikke. Igas sõnastikus peab olema vorm { "pattern": "$URL_PATTERN", "filter" : $FILTER }, kus $URL_PATTERN on sisuseadete muster. $FILTER piirab seda, milliste kliendisertifikaatide hulgast brauser automaatselt valib. Olenemata filtrist, valitakse ainult sertifikaadid, mis ühtivad serveri sertifikaadi taotlusega. Kui $FILTER on vormis { "ISSUER": { "CN": "$ISSUER_CN" } }, valitakse lisaks ainult kliendisertifikaadid, mille on väljastanud sertifikaat mustriga CommonName $ISSUER_CN. Kui $FILTER on tühi sõnastik {}, ei ole kliendisertifikaatide valik täiendavalt piiratud.
 
           Kui seda reeglit ei määrata, ei tehta ühegi saidi puhul automaatset valikut.</translation>
-<translation id="4978405676361550165">Kui reegel „OffHours” on määratud, siis eiratakse määratud ajavahemikes seadmereegleid (kasutage nende reeglite vaikeseadeid). Chrome rakendab seadmereegleid uuesti iga sündmuse puhul, kui ajavahemik „OffHours” algab või lõpeb. Kui ajavahemik „OffHours” lõpeb ja seadmereeglite seadeid muudetakse, teavitatakse sellest kasutajat ning ta logitakse välja (näiteks kui kasutaja pole sisse logitud lubatud kontoga).</translation>
+<translation id="4978405676361550165">Kui reegel „OffHours” on määratud, siis eiratakse määratud ajavahemikes seadmereegleid (kasutage nende reeglite vaikeseadeid). Brave rakendab seadmereegleid uuesti iga sündmuse puhul, kui ajavahemik „OffHours” algab või lõpeb. Kui ajavahemik „OffHours” lõpeb ja seadmereeglite seadeid muudetakse, teavitatakse sellest kasutajat ning ta logitakse välja (näiteks kui kasutaja pole sisse logitud lubatud kontoga).</translation>
 <translation id="4980635395568992380">Andmetüüp:</translation>
 <translation id="4983201894483989687">Luba vananenud pistikprogrammide käitamine</translation>
 <translation id="4988291787868618635">Tehtav toiming, kui möödub jõudeoleku viiteaeg</translation>
@@ -1602,7 +1602,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
           Musta nimekirja väärtus '*' tähendab, et kõik omasõnumside hostid on mustas nimekirjas, kui nad pole lisatud konkreetselt lubatud üksuste loendisse.
 
           Kui seda reeglit ei määrata, laadib <ph name="PRODUCT_NAME" /> kõik installitud omasõnumside hostid.</translation>
-<translation id="5272684451155669299">Kui selle väärtuseks on määratud Tõene, saab kasutaja kasutada Chrome'i seadmete riistvara, et tõendada enda isikut distantsilt privaatsuse CA abil API <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> kaudu, kasutades funktsiooni <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Kui selle väärtuseks on määratud Tõene, saab kasutaja kasutada Brave'i seadmete riistvara, et tõendada enda isikut distantsilt privaatsuse CA abil API <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> kaudu, kasutades funktsiooni <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Kui selle väärtuseks on määratud Väär või väärtus on määramata, siis kõned API-le ebaõnnestuvad ja saate vastuseks veakoodi.</translation>
 <translation id="5277806246014825877">Lubab sellel kasutajal Crostinit käitada.
@@ -1730,7 +1730,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
       Pange tähele, et me ei soovita seda teha, kuna see võib lubada möödumise laiendist nameConstraints, mis piirab hostinimesid, millele antud sertifikaadil võib olla volitus juurde pääseda.
 
       Kui see reegel on määramata või määratud väärtusele Väär, ei usaldata serveri sertifikaate, millel pole laiendit subjectAlternativeName koos DNS-i nime või IP-aadressiga.</translation>
-<translation id="5581292529942108810">Võimaldab seadistada Chrome'i aruandluse laiendusega seotud reeglid.
+<translation id="5581292529942108810">Võimaldab seadistada Brave'i aruandluse laiendusega seotud reeglid.
 
       Reegel kehtib ainult juhul, kui <ph name="CHROME_REPORTING_EXTENSION_NAME" /> on lubatud ja seade on reeglis <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" /> registreeritud.</translation>
 <translation id="5584132346604748282">Androidis Google'i asukohateenuste juhtimine</translation>
@@ -1791,7 +1791,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
       Kui reegel on keelatud, algavad allalaadimised kohe ja kasutajalt ei küsita, kuhu fail salvestada.
       Kui reegel on seadistamata, saab kasutaja seda seadet muuta.
       </translation>
-<translation id="5835124959204887277">Määrab URL-id ja domeenid, mille puhul viipa ei kuvata, kui turvavõtmetelt nõutakse atesteerimise sertifikaate. Lisaks saadetakse turvavõtmele signaal, mis näitab, et kasutada võib individuaalset atesteerimist. Ilma selleta esitatakse kasutajatele Chrome'i versioonis 65 ja uuemates versioonides viip, kui saidid nõuavad turvavõtmete atesteerimist.
+<translation id="5835124959204887277">Määrab URL-id ja domeenid, mille puhul viipa ei kuvata, kui turvavõtmetelt nõutakse atesteerimise sertifikaate. Lisaks saadetakse turvavõtmele signaal, mis näitab, et kasutada võib individuaalset atesteerimist. Ilma selleta esitatakse kasutajatele Brave'i versioonis 65 ja uuemates versioonides viip, kui saidid nõuavad turvavõtmete atesteerimist.
 
       URL-id (nt https://example.com/mingi/tee) vastendatakse ainul U2F appID-dega. Domeenid (nt example.com) vastendatakse ainult webauthn RP ID-dena. Seega antud saidil nii U2F-i kui ka webauthn API-de kasutamiseks tuleb loendisse lisada nii appID URL kui ka domeen.</translation>
 <translation id="5835412847081687053">Kasutajaseansis lubatud kasutajaliidese lokaatide seadistamine</translation>
@@ -1979,7 +1979,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 <translation id="6282799760374509080">Heli jäädvustamise lubamine või keelamine</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Domeeni nime automaatse täitmise lubamine kasutaja sisselogimise ajal</translation>
-<translation id="6315673513957120120">Chrome kuvab hoiatuslehe, kui kasutajad liiguvad SSL-i vigadega saitidele. Vaikimisi või siis, kui selle reegli väärtuseks määratakse Tõene, lubatakse kasutajatel nendelt hoiatuslehtedelt kliki abil edasi liikuda.
+<translation id="6315673513957120120">Brave kuvab hoiatuslehe, kui kasutajad liiguvad SSL-i vigadega saitidele. Vaikimisi või siis, kui selle reegli väärtuseks määratakse Tõene, lubatakse kasutajatel nendelt hoiatuslehtedelt kliki abil edasi liikuda.
       Kui selle reegli väärtuseks määratakse Väär, ei lubata kasutajatel hoiatuslehelt kliki abil edasi liikuda.</translation>
 <translation id="6353901068939575220">Määrab, mis parameetreid kasutatakse POST-meetodiga URL-i otsimisel. See koosneb komaga eraldatud nime/väärtuse paaridest. Kui väärtus on malliparameeter, nt {searchTerms} ülalolevas näites, siis asendatakse see otsingutermini andmetega.
 
@@ -2010,7 +2010,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
           Kui otsustate puhverserveri automaatselt tuvastada, esitatakse Androidi rakendustele URL „http://wpad/wpad.dat”. Ühtegi teist puhverserveri automaatse tuvastamise protokolli osa ei kasutata.
 
           Kui otsustate kasutada puhverserveri skripti .pac, esitatakse Androidi rakendustele skripti URL.</translation>
-<translation id="6430366557948788869">Chrome'i aruandluse laiendus</translation>
+<translation id="6430366557948788869">Brave'i aruandluse laiendus</translation>
 <translation id="6440051664870270040">Saitidel samaaegse navigeerimise ja hüpikakende avamise lubamine</translation>
 <translation id="6447948611083700881">Varundamine ja taastamine on keelatud</translation>
 <translation id="645425387487868471">Teenusesse <ph name="PRODUCT_NAME" /> sundsisselogimise lubamine</translation>
@@ -2216,7 +2216,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 
       MÄRKUS. Androidis on saidi isoleerimine katseline. Aja jooksul täiustatakse tuge, kuid praegu võib see toimivuses probleeme põhjustada.
 
-      MÄRKUS. See reegel kehtib ainult Chrome'i Androidi versiooni puhul seadmetes, millel on rohkem kui 1 GB muutmälu. Reegli rakendamiseks muudel platvormidel kasutage seadet SitePerProcess.
+      MÄRKUS. See reegel kehtib ainult Brave'i Androidi versiooni puhul seadmetes, millel on rohkem kui 1 GB muutmälu. Reegli rakendamiseks muudel platvormidel kasutage seadet SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Kui selle reegli väärtuseks on määratud Tõene, alistavad pilve-eeskirjad konflikti puhul seadme-eeskirjad.
@@ -2298,9 +2298,9 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 
       Kui reegli väärtuseks määratakse Väär või jäetakse see määramata, ei tohi <ph name="PRODUCT_NAME" /> logisid koguda ega üles laadida.
 
-      Need logid sisaldavad diagnostikateavet, mis on kasulik Chrome'i hääl- või videokõnedega seotud probleemide silumisel. See hõlmab näiteks saadetud ja vastuvõetud RTP-pakettide kellaaja ja suuruse teavet, tagasisidet võrgu ummistuste kohta ja metaandmeid heli- ja videokaadrite aja ja kvaliteedi kohta. Logid ei sisalda kõne hääl- ega videosisu.
+      Need logid sisaldavad diagnostikateavet, mis on kasulik Brave'i hääl- või videokõnedega seotud probleemide silumisel. See hõlmab näiteks saadetud ja vastuvõetud RTP-pakettide kellaaja ja suuruse teavet, tagasisidet võrgu ummistuste kohta ja metaandmeid heli- ja videokaadrite aja ja kvaliteedi kohta. Logid ei sisalda kõne hääl- ega videosisu.
 
-      Chrome'is saavad andmete kogumise käivitada ainult Google'i veebiteenused, nt Google Hangouts või Google Meet.
+      Brave'is saavad andmete kogumise käivitada ainult Google'i veebiteenused, nt Google Hangouts või Google Meet.
       Google võib seansi ID alusel seostada logid muude logidega, mida Google'i teenus kogub. Selle eesmärk on hõlbustada silumist.
       </translation>
 <translation id="706669471845501145">Luba saitidel töölauateatiste näitamine</translation>
@@ -2374,11 +2374,11 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 
           Kui jätate reegli määramata, on ekraaniluup sisselogimisekraani esmakuvamisel keelatud. Kasutajad võivad ekraaniluubi igal ajal lubada või keelata ja selle olek on sisselogimisekraanil kasutajati püsiv.</translation>
 <translation id="7249828445670652637">Luba ARC-rakenduste jaoks operatsioonisüsteemi <ph name="PRODUCT_OS_NAME" /> CA-sertifikaatide kasutamine</translation>
-<translation id="725322441686394886">Kui reegel on määramata ja Chrome Cleanup tuvastab soovimatu tarkvara, võib teenus edastada skanni metaandmed Google'ile, järgides atribuudiga SafeBrowsingExtendedReportingEnabled määratud reeglit. Chrome Cleanup küsib seejärel kasutajalt, kas ta soovib tuvastatud tarkvara eemaldada. Seejärel võib kasutaja jagada puhastuse tulemusi Google'iga, et täiustada soovimatu tarkvara tuvastamise funktsiooni. Tulemused sisaldavad faili metaandmeid, automaatselt installitud laiendusi ja registrivõtmeid, mida kirjeldatakse Chrome'i privaatsuse juhendis.
+<translation id="725322441686394886">Kui reegel on määramata ja Brave Cleanup tuvastab soovimatu tarkvara, võib teenus edastada skanni metaandmed Google'ile, järgides atribuudiga SafeBrowsingExtendedReportingEnabled määratud reeglit. Brave Cleanup küsib seejärel kasutajalt, kas ta soovib tuvastatud tarkvara eemaldada. Seejärel võib kasutaja jagada puhastuse tulemusi Google'iga, et täiustada soovimatu tarkvara tuvastamise funktsiooni. Tulemused sisaldavad faili metaandmeid, automaatselt installitud laiendusi ja registrivõtmeid, mida kirjeldatakse Brave'i privaatsuse juhendis.
 
-      Kui reegel on keelatud ja Chrome Cleanup tuvastab soovimatu tarkvara, ei edasta teenus skanni metaandmeid Google'ile, alistades atribuudiga SafeBrowsingExtendedReportingEnabled määratud reegli. Chrome Cleanup küsib kasutajalt, kas ta soovib tuvastatud tarkvara eemaldada. Puhastuse tulemusi ei edastata Google'ile ja kasutajale ei esitata sellekohast valikut.
+      Kui reegel on keelatud ja Brave Cleanup tuvastab soovimatu tarkvara, ei edasta teenus skanni metaandmeid Google'ile, alistades atribuudiga SafeBrowsingExtendedReportingEnabled määratud reegli. Brave Cleanup küsib kasutajalt, kas ta soovib tuvastatud tarkvara eemaldada. Puhastuse tulemusi ei edastata Google'ile ja kasutajale ei esitata sellekohast valikut.
 
-      Kui reegel on lubatud ja Chrome Cleanup tuvastab soovimatu tarkvara, võib teenus edastada skanni metaandmed Google'ile, järgides atribuudiga SafeBrowsingExtendedReportingEnabled määratud reeglit. Chrome Cleanup küsib kasutajalt, kas ta soovib tuvastatud tarkvara eemaldada. Puhastuse tulemused edastatakse Google'ile ja kasutaja ei saa seda takistada.
+      Kui reegel on lubatud ja Brave Cleanup tuvastab soovimatu tarkvara, võib teenus edastada skanni metaandmed Google'ile, järgides atribuudiga SafeBrowsingExtendedReportingEnabled määratud reeglit. Brave Cleanup küsib kasutajalt, kas ta soovib tuvastatud tarkvara eemaldada. Puhastuse tulemused edastatakse Google'ile ja kasutaja ei saa seda takistada.
 
       Reegel ei ole saadaval Windowsi eksemplarides, mis ei ole liidetud teenuse <ph name="MS_AD_NAME" /> domeeniga.</translation>
 <translation id="7258823566580374486">Kaugjuurdepääsu hostide varjamise lubamine</translation>
@@ -2432,9 +2432,9 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 <translation id="7329968046053403405">Määrab üksuse <ph name="HTTP_NEGOTIATE" /> autentimist (nt Kerberose autentimine) toetava Androidi autentimisrakenduse kontode tüübi. See teave on saadaval autentimisrakenduse pakkuja kaudu. Vaadake lisateavet aadressilt https://goo.gl/hajyfN.
 
           Kui seadet ei määrata, on üksuse <ph name="HTTP_NEGOTIATE" /> autentimine Androidis keelatud.</translation>
-<translation id="7331962793961469250">Kui valite „Tõene”, siis ei ilmu Chrome'i veebipoe rakenduste reklaamid uuel vahelehel.
+<translation id="7331962793961469250">Kui valite „Tõene”, siis ei ilmu Brave'i veebipoe rakenduste reklaamid uuel vahelehel.
 
-      Kui valite „Väär” või jätate seade määramata, siis ilmuvad uuel vahelehel Chrome'i veebipoe rakenduste reklaamid</translation>
+      Kui valite „Väär” või jätate seade määramata, siis ilmuvad uuel vahelehel Brave'i veebipoe rakenduste reklaamid</translation>
 <translation id="7332963785317884918">Reegel on peatatud. <ph name="PRODUCT_OS_NAME" /> kasutab alati puhastusstrateegiat „RemoveLRU”.
 
       Juhib automaatset puhastamist operatsioonisüsteemiga <ph name="PRODUCT_OS_NAME" /> seadmetes. Automaatne puhastamine käivitatakse osaliseks kettaruumi vabastamiseks, kui vaba kettaruumi hulk on jõudnud kriitilise tasemeni.
@@ -2449,7 +2449,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 <translation id="7343497214039883642">Ettevõtte printerite konfiguratsioonifail seadmetele</translation>
 <translation id="7349338075015720646">Määrab loendi veebisaitidest, mis installitakse märkamatult, ilma et kasutaja peaks sekkuma.
 
-      Reegli iga loendiüksus on objekt, mis koosneb kahest liikmest: „url” ja „launch_container”. Väärtus „url” peab olema installitava veebirakenduse URL ja „launch_container” peab olema „window” või „tab”, mis näitab, kuidas veebirakendus pärast installimist avatakse. Kui väärtus „launch_container” jäetakse tühjaks ja Chrome peab rakendust progressiivseks veebirakenduseks, avaneb see aknas, muidu avaneb rakendus vahelehel.</translation>
+      Reegli iga loendiüksus on objekt, mis koosneb kahest liikmest: „url” ja „launch_container”. Väärtus „url” peab olema installitava veebirakenduse URL ja „launch_container” peab olema „window” või „tab”, mis näitab, kuidas veebirakendus pärast installimist avatakse. Kui väärtus „launch_container” jäetakse tühjaks ja Brave peab rakendust progressiivseks veebirakenduseks, avaneb see aknas, muidu avaneb rakendus vahelehel.</translation>
 <translation id="735902178936442460">Reegel määrab, kas koguda teavet, mille alusel saab masinaid identifitseerida, nagu masina nimi ja võrguaadressid.
 
       Kui reegel on määramata või seatud väärtusele Tõene, kogutakse teavet, mille alusel saab masinaid identifitseerida.
@@ -2462,9 +2462,9 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 
       Vaadake lisateavet ohutu sirvimise kohta aadressilt https://developers.google.com/safe-browsing.</translation>
 <translation id="737655323154569539">Piirab prinditava lehe suurust. Määramata reeglit ja tühja hulka käsitletakse piirangu puudumisena.</translation>
-<translation id="7417728346887499628">Kui reegel on keelatud, on Chrome Cleanupil keelatud süsteemi soovimatu tarkvara suhtes skannida ja puhastada. Chrome Cleanupi käsitsi käivitamine aadressil chrome://settings/cleanup on keelatud.
+<translation id="7417728346887499628">Kui reegel on keelatud, on Brave Cleanupil keelatud süsteemi soovimatu tarkvara suhtes skannida ja puhastada. Brave Cleanupi käsitsi käivitamine aadressil chrome://settings/cleanup on keelatud.
 
-      Kui reegel on lubatud või määramata, skannib Chrome Cleanup regulaarselt süsteemi soovimatu tarkvara suhtes. Soovimatu tarkvara leidmisel küsitakse kasutajalt, kas ta soovib selle eemaldada. Chrome Cleanupi käsitsi käivitamine aadressil chrome://settings on lubatud.
+      Kui reegel on lubatud või määramata, skannib Brave Cleanup regulaarselt süsteemi soovimatu tarkvara suhtes. Soovimatu tarkvara leidmisel küsitakse kasutajalt, kas ta soovib selle eemaldada. Brave Cleanupi käsitsi käivitamine aadressil chrome://settings on lubatud.
 
       Reegel ei ole saadaval Windowsi eksemplarides, mis ei ole liidetud teenuse <ph name="MS_AD_NAME" /> domeeniga.</translation>
 <translation id="7417972229667085380">Esitlusrežiimis tegevusetu oleku viivituse skaleerimise määr protsentides (tugi on katkestatud)</translation>
@@ -2714,7 +2714,7 @@ IsolateOrigins ja SitePerProcess testid keelatakse. Kasutajad saavad reegli Isol
 
       MÄRKUS. Androidis on saidi isoleerimine katseline. Aja jooksul täiustatakse tuge, kuid praegu võib see toimivuses probleeme põhjustada.
 
-      MÄRKUS. Reegel kehtib ainult Chrome'i Androidi versiooni puhul seadmetes, millel on rohkem kui 1 GB muutmälu. Androidi-välistel platvormidel reegli kehtestamiseks kasutage reeglit IsolateOriginis.
+      MÄRKUS. Reegel kehtib ainult Brave'i Androidi versiooni puhul seadmetes, millel on rohkem kui 1 GB muutmälu. Androidi-välistel platvormidel reegli kehtestamiseks kasutage reeglit IsolateOriginis.
       </translation>
 <translation id="7953256619080733119">Kasutaja käsitsi sisestatavate hostide erandite haldamine</translation>
 <translation id="7961779417826583251">Sertifikaadi läbipaistvuse jõustamise keelamine pärandsertimisorganite loendi jaoks</translation>
@@ -2829,7 +2829,7 @@ Vaadake ka reegleid „CookiesAllowedForUrls” ja „CookiesSessionOnlyForUrls�
       Kui jätate reegli määramata, kasutab <ph name="PRODUCT_OS_NAME" /> sisselogimiskuval seadmepõhise konto meilikonto ID-d kuvatava nimena.
 
       Tavapäraste kasutajakontode puhul eiratakse seda reeglit.</translation>
-<translation id="8259375588339409826">Nii Chromium kui ka Google Chrome toetavad sama reeglite komplekti. Pange tähele, et see dokument võib sisaldada avaldamata reegleid (seega kirje „toetatud versioonis” viitab rakenduse <ph name="PRODUCT_NAME" /> veel avaldamata versioonile) ja sellised reeglid võivad ette teatamata muutuda või need võidakse eemaldada ning nende puhul ei pakuta mingeid garantiisid (sh turvalisuse ja privaatsusega seotud garantiid).
+<translation id="8259375588339409826">Nii Brave kui ka Brave toetavad sama reeglite komplekti. Pange tähele, et see dokument võib sisaldada avaldamata reegleid (seega kirje „toetatud versioonis” viitab rakenduse <ph name="PRODUCT_NAME" /> veel avaldamata versioonile) ja sellised reeglid võivad ette teatamata muutuda või need võidakse eemaldada ning nende puhul ei pakuta mingeid garantiisid (sh turvalisuse ja privaatsusega seotud garantiid).
 
 
 Need reeglid on mõeldud ainult teie organisatsioonisiseste teenuse <ph name="PRODUCT_NAME" /> eksemplaride seadistamiseks. Nende reeglite kasutamist väljaspool organisatsiooni (nt avalikult levitatavas programmis) loetakse pahavaraks ja tõenäoliselt märgivad selle pahavaraks ka Google ja viirusetõrjepakkujad.
@@ -2883,7 +2883,7 @@ Soovituslik viis selle reegli seadistamiseks Windowsis on GPO kaudu, kuigi reegl
 <translation id="8339420913453596618">Teine tegur on keelatud</translation>
 <translation id="8344454543174932833">Impordi järjehoidjad vaikebrauserist esmakordsel käitamisel</translation>
 <translation id="8359734107661430198">Luba ExampleDeprecatedFeature API kuni 02.09.2008</translation>
-<translation id="8367209241899435947">Chrome Cleanupi lubamine Windowsis</translation>
+<translation id="8367209241899435947">Brave Cleanupi lubamine Windowsis</translation>
 <translation id="8369602308428138533">Ekraani väljalülitamise viiteaeg võrgutoite kasutamisel</translation>
 <translation id="8382184662529825177">Kaugatesteerimise lubamine seadme sisu kaitsmiseks</translation>
 <translation id="838870586332499308">Luba andmeside rändlusteenus</translation>

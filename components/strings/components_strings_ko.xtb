@@ -482,11 +482,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;2단계: 시크릿 모드로 페이지 열기(컴퓨터에서만 해당)&lt;/h4&gt;
     &lt;p&gt;시크릿 창에서 방문하려는 페이지를 엽니다.&lt;/p&gt;
-    &lt;p&gt;페이지가 열리면 Chrome 확장 프로그램이 제대로 작동하지 않고 있는 것입니다. 오류를 해결하려면 확장 프로그램을 사용 중지해야 합니다.&lt;/p&gt;
+    &lt;p&gt;페이지가 열리면 Brave 확장 프로그램이 제대로 작동하지 않고 있는 것입니다. 오류를 해결하려면 확장 프로그램을 사용 중지해야 합니다.&lt;/p&gt;
     &lt;h4&gt;3단계: 운영체제 업데이트하기&lt;/h4&gt;
     &lt;p&gt;기기가 최신 상태인지 확인합니다.&lt;/p&gt;
     &lt;h4&gt;4단계: 바이러스 백신 프로그램을 일시적으로 사용 중지하기&lt;/h4&gt;
-    &lt;p&gt;’HTTPS 보호’ 또는 ‘HTTPS 검사’를 제공하는 바이러스 백신 소프트웨어를 사용 중이면 바이러스 백신이 Chrome 보안 기능을 방해하기 때문에 이 오류가 표시됩니다.&lt;/p&gt;
+    &lt;p&gt;’HTTPS 보호’ 또는 ‘HTTPS 검사’를 제공하는 바이러스 백신 소프트웨어를 사용 중이면 바이러스 백신이 Brave 보안 기능을 방해하기 때문에 이 오류가 표시됩니다.&lt;/p&gt;
     &lt;p&gt;문제를 해결하려면 바이러스 백신 소프트웨어를 사용 중지하세요. 소프트웨어를 사용 중지한 후 페이지가 작동하면 보안 사이트를 사용할 때는 이 소프트웨어를 사용 중지해야 합니다.&lt;/p&gt;
     &lt;p&gt;작업을 완료한 후 다시 바이러스 백신 프로그램을 사용 설정하세요.&lt;/p&gt;
     &lt;h4&gt;5단계: 추가 도움 받기&lt;/h4&gt;
@@ -507,7 +507,7 @@
 <translation id="4325863107915753736">도움말을 찾지 못했습니다.</translation>
 <translation id="4326324639298822553">만료일을 확인한 후 다시 시도해 주세요.</translation>
 <translation id="4331708818696583467">주의 요함</translation>
-<translation id="4340982228985273705">이 컴퓨터는 기업에서 관리하는 기기가 아닌 것으로 파악되므로, Chrome 웹 스토어에 호스팅된 확장 프로그램만 정책을 통해 자동으로 설치할 수 있습니다. Chrome 웹 스토어의 업데이트 URL은 '<ph name="CWS_UPDATE_URL" />'입니다.</translation>
+<translation id="4340982228985273705">이 컴퓨터는 기업에서 관리하는 기기가 아닌 것으로 파악되므로, Brave 웹 스토어에 호스팅된 확장 프로그램만 정책을 통해 자동으로 설치할 수 있습니다. Brave 웹 스토어의 업데이트 URL은 '<ph name="CWS_UPDATE_URL" />'입니다.</translation>
 <translation id="4346197816712207223">사용 가능한 신용카드</translation>
 <translation id="4356973930735388585">이 사이트의 공격자가 사용자 정보(예: 사진, 비밀번호, 메시지, 신용카드)를 도용하거나 삭제하는 위험한 프로그램을 컴퓨터에 설치하려고 시도할 수 있습니다.</translation>
 <translation id="4358461427845829800">결제 수단 관리...</translation>
@@ -526,7 +526,7 @@
 <translation id="4506176782989081258">유효성 검사 오류 <ph name="VALIDATION_ERROR" /></translation>
 <translation id="4506599922270137252">시스템 관리자에게 문의</translation>
 <translation id="450710068430902550">관리자와 공유</translation>
-<translation id="4515275063822566619">카드와 주소는 Chrome 및 Google 계정(<ph name="ACCOUNT_EMAIL" />)에서 가져왔습니다. 이 정보는 <ph name="BEGIN_LINK" />설정<ph name="END_LINK" />에서 관리할 수 있습니다.</translation>
+<translation id="4515275063822566619">카드와 주소는 Brave 및 Google 계정(<ph name="ACCOUNT_EMAIL" />)에서 가져왔습니다. 이 정보는 <ph name="BEGIN_LINK" />설정<ph name="END_LINK" />에서 관리할 수 있습니다.</translation>
 <translation id="4522570452068850558">세부정보</translation>
 <translation id="4524805452350978254">카드 관리</translation>
 <translation id="4552089082226364758">Flash</translation>
@@ -548,7 +548,7 @@
 <translation id="4722547256916164131"><ph name="BEGIN_LINK" />Windows 네트워크 진단 프로그램 실행<ph name="END_LINK" /></translation>
 <translation id="4726672564094551039">정책 새로고침</translation>
 <translation id="4728558894243024398">플랫폼</translation>
-<translation id="4736825316280949806">Chromium 다시 시작</translation>
+<translation id="4736825316280949806">Brave 다시 시작</translation>
 <translation id="4742407542027196863">비밀번호 관리...</translation>
 <translation id="4744603770635761495">실행 가능 경로</translation>
 <translation id="4750917950439032686">비밀번호나 신용카드 번호 등의 정보는 비공개 상태로 이 사이트에 전송됩니다.</translation>
@@ -632,7 +632,7 @@
     <ph name="LIST_ITEM" /><ph name="BEGIN_BOLD" />시작 유형<ph name="END_BOLD" />에서 <ph name="BEGIN_BOLD" />사용 중지됨<ph name="END_BOLD" />을 선택합니다.
     <ph name="LIST_ITEM" /><ph name="BEGIN_BOLD" />서비스 상태<ph name="END_BOLD" />에서 <ph name="BEGIN_BOLD" />중지<ph name="END_BOLD" />를 클릭합니다.
     <ph name="LIST_ITEM" /><ph name="BEGIN_BOLD" />적용<ph name="END_BOLD" />을 클릭한 다음 <ph name="BEGIN_BOLD" />확인<ph name="END_BOLD" />을 클릭합니다.
-    <ph name="LIST_ITEM" /><ph name="BEGIN_LEARN_MORE_LINK" />Chrome 고객센터<ph name="END_LEARN_MORE_LINK" />를 방문하여 컴퓨터에서 소프트웨어를 영구적으로 삭제하는 방법을 알아보세요.
+    <ph name="LIST_ITEM" /><ph name="BEGIN_LEARN_MORE_LINK" />Brave 고객센터<ph name="END_LEARN_MORE_LINK" />를 방문하여 컴퓨터에서 소프트웨어를 영구적으로 삭제하는 방법을 알아보세요.
     <ph name="END_LIST" /></translation>
 <translation id="5285570108065881030">저장된 비밀번호 모두 표시</translation>
 <translation id="5287240709317226393">쿠키 표시</translation>
@@ -741,7 +741,7 @@
 <translation id="6015796118275082299">연도</translation>
 <translation id="6016158022840135739">{COUNT,plural, =1{1페이지}other{#페이지}}</translation>
 <translation id="6017850046339264347"><ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" />에 있는 공격자는 다른 앱인 것처럼 가장하거나 사용자를 추적하는 데 사용될 수 있는 데이터를 수집하는 사기성 앱을 설치할 수도 있습니다. <ph name="BEGIN_LEARN_MORE_LINK" />자세히 알아보기<ph name="END_LEARN_MORE_LINK" /></translation>
-<translation id="6022659036123304283">나만의 Chrome 만들기</translation>
+<translation id="6022659036123304283">나만의 Brave 만들기</translation>
 <translation id="6025416945513303461"><ph name="TYPE_1" />, <ph name="TYPE_2" />, <ph name="TYPE_3" />(동기화됨)</translation>
 <translation id="6027201098523975773">이름을 입력하세요.</translation>
 <translation id="6039846035001940113">문제가 계속되면 사이트 소유자에게 문의하세요.</translation>
@@ -805,7 +805,7 @@
 <translation id="6489534406876378309">비정상 종료 업로드 시작하기</translation>
 <translation id="6499038740797743453">비밀번호를 재설정하시겠습니까?</translation>
 <translation id="6507833130742554667">신용카드 및 직불카드를 사용할 수 있습니다.</translation>
-<translation id="6508722015517270189">Chrome 다시 시작하기</translation>
+<translation id="6508722015517270189">Brave 다시 시작하기</translation>
 <translation id="6529602333819889595">삭제 다시 실행(&amp;R)</translation>
 <translation id="6534179046333460208">피지컬 웹 제안</translation>
 <translation id="6550675742724504774">옵션</translation>
@@ -918,7 +918,7 @@
       &lt;li&gt;&lt;strong&gt;시작 유형&lt;/strong&gt;에서 &lt;strong&gt;사용 안 함&lt;/strong&gt;을 선택합니다.
       &lt;li&gt;&lt;strong&gt;서비스 상태&lt;/strong&gt;에서 &lt;strong&gt;중지&lt;/strong&gt;를 클릭합니다.
       &lt;li&gt;&lt;strong&gt;적용&lt;/strong&gt;을 클릭한 다음 &lt;strong&gt;확인&lt;/strong&gt;을 클릭합니다.
-      &lt;li&gt;&lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Chrome 고객센터&lt;/a&gt;를 방문하여 컴퓨터에서 소프트웨어를 영구적으로 삭제하는 방법을 알아보세요.      &lt;/ol&gt;</translation>
+      &lt;li&gt;&lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Brave 고객센터&lt;/a&gt;를 방문하여 컴퓨터에서 소프트웨어를 영구적으로 삭제하는 방법을 알아보세요.      &lt;/ol&gt;</translation>
 <translation id="7416351320495623771">비밀번호 관리...</translation>
 <translation id="7419106976560586862">프로필 경로</translation>
 <translation id="7437289804838430631">연락처 정보 추가</translation>
@@ -1085,7 +1085,7 @@
 <translation id="8483780878231876732">Google 계정에서 카드를 사용하려면 Chrome에 로그인하세요.</translation>
 <translation id="8488350697529856933">적용 대상</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" />에서 응답하는 데 시간이 너무 오래 걸립니다.</translation>
-<translation id="8503559462189395349">Chrome 비밀번호</translation>
+<translation id="8503559462189395349">Brave 비밀번호</translation>
 <translation id="8503813439785031346">사용자이름</translation>
 <translation id="8508648098325802031">검색 아이콘</translation>
 <translation id="8543181531796978784"><ph name="BEGIN_ERROR_LINK" />감지 문제를 신고<ph name="END_ERROR_LINK" />할 수 있으며, 보안에 미치는 위험을 감수한다면 <ph name="BEGIN_LINK" />이 안전하지 않은 사이트를 방문<ph name="END_LINK" />할 수 있습니다.</translation>

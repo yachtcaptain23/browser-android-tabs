@@ -364,7 +364,7 @@
 <translation id="2073552873076775140">Izinkan login ke <ph name="PRODUCT_NAME" /></translation>
 <translation id="2077129598763517140">Gunakan akselerasi hardware jika tersedia</translation>
 <translation id="2077273864382355561">Penundaan mematikan layar saat menggunakan daya baterai</translation>
-<translation id="2082205219176343977">Mengonfigurasi versi minimum Chrome yang diizinkan untuk perangkat.</translation>
+<translation id="2082205219176343977">Mengonfigurasi versi minimum Brave yang diizinkan untuk perangkat.</translation>
 <translation id="209586405398070749">Saluran stabil</translation>
 <translation id="2098658257603918882">Aktifkan laporan data penggunaan dan yang terkait error</translation>
 <translation id="2111016292707172233">Mengaktifkan ketersediaan Tap untuk Menelusuri di tampilan konten <ph name="PRODUCT_NAME" />.
@@ -472,13 +472,13 @@ Jika kebijakan ini tidak disetel, setelan kebijakan berarti diaktifkan, lihat de
 
 Kebijakan ini lebih diutamakan daripada kebijakan <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" /> yang berpotensi bertentangan. Jika aplikasi atau ekstensi yang sebelumnya diinstal otomatis telah dihapus dari daftar ini, aplikasi/ekstensi tersebut otomatis di-uninstal oleh <ph name="PRODUCT_NAME" />.
 
-Untuk instance Windows yang tidak tergabung dalam domain <ph name="MS_AD_NAME" />, penginstalan otomatis dibatasi untuk aplikasi dan ekstensi yang tercantum di Chrome Web Store.
+Untuk instance Windows yang tidak tergabung dalam domain <ph name="MS_AD_NAME" />, penginstalan otomatis dibatasi untuk aplikasi dan ekstensi yang tercantum di Brave Web Store.
 
 Perlu diperhatikan bahwa kode sumber untuk ekstensi apa pun dapat diubah oleh pengguna melalui Fitur Developer (berpotensi mengganggu fungsi ekstensi). Jika hal ini menjadi masalah, kebijakan <ph name="DEVELOPER_TOOLS_POLICY_NAME" /> sebaiknya disetel.
 
-Setiap item daftar kebijakan merupakan string yang berisi ID ekstensi dan, secara opsional, URL "update" yang dipisah dengan titik koma (<ph name="SEMICOLON" />). ID ekstensi adalah string 32 huruf yang ditemukan misalnya di <ph name="CHROME_EXTENSIONS_LINK" /> saat dalam mode developer. URL "update", jika ditentukan, seharusnya mengarah ke dokumen XML Manifes Update seperti yang dijelaskan dalam <ph name="LINK_TO_EXTENSION_DOC1" />. Secara default, URL update Chrome Web Store digunakan (yang saat ini adalah "https://clients2.google.com/service/update2/crx"). Perhatikan bahwa URL "update" yang disetel di kebijakan ini hanya digunakan untuk penginstalan awal; update ekstensi berikutnya akan menggunakan URL update yang ditunjukkan dalam manifes ekstensi. Perhatikan juga bahwa menentukan URL "update" secara eksplisit harus dilakukan di versi <ph name="PRODUCT_NAME" /> hingga dan termasuk 67.
+Setiap item daftar kebijakan merupakan string yang berisi ID ekstensi dan, secara opsional, URL "update" yang dipisah dengan titik koma (<ph name="SEMICOLON" />). ID ekstensi adalah string 32 huruf yang ditemukan misalnya di <ph name="CHROME_EXTENSIONS_LINK" /> saat dalam mode developer. URL "update", jika ditentukan, seharusnya mengarah ke dokumen XML Manifes Update seperti yang dijelaskan dalam <ph name="LINK_TO_EXTENSION_DOC1" />. Secara default, URL update Brave Web Store digunakan (yang saat ini adalah "https://clients2.google.com/service/update2/crx"). Perhatikan bahwa URL "update" yang disetel di kebijakan ini hanya digunakan untuk penginstalan awal; update ekstensi berikutnya akan menggunakan URL update yang ditunjukkan dalam manifes ekstensi. Perhatikan juga bahwa menentukan URL "update" secara eksplisit harus dilakukan di versi <ph name="PRODUCT_NAME" /> hingga dan termasuk 67.
 
-Misalnya, <ph name="EXTENSION_POLICY_EXAMPLE" /> menginstal aplikasi <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> dari URL "update" Chrome Web Store standar. Untuk informasi selengkapnya tentang cara menghosting ekstensi, lihat: <ph name="LINK_TO_EXTENSION_DOC2" />.
+Misalnya, <ph name="EXTENSION_POLICY_EXAMPLE" /> menginstal aplikasi <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> dari URL "update" Brave Web Store standar. Untuk informasi selengkapnya tentang cara menghosting ekstensi, lihat: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
 Jika kebijakan ini tidak disetel, tidak ada aplikasi atau ekstensi yang otomatis diinstal dan pengguna dapat meng-uninstal aplikasi atau ekstensi apa pun di <ph name="PRODUCT_NAME" />.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> dapat menggunakan layanan web Google untuk membantu mengatasi masalah ejaan yang salah. Jika setelan ini diaktifkan, layanan ini akan selalu digunakan. Jika setelan ini dinonaktifkan, layanan ini tidak akan pernah digunakan.
@@ -655,7 +655,7 @@ Jika kebijakan ini tidak disetel, tidak ada aplikasi atau ekstensi yang otomatis
 <translation id="268577405881275241">Aktifkan fitur proxy kompresi data</translation>
 <translation id="2693108589792503178">Mengonfigurasi URL ubah sandi.</translation>
 <translation id="2731627323327011390">Menonaktifkan penggunaan sertifikat <ph name="PRODUCT_OS_NAME" /> untuk aplikasi ARC</translation>
-<translation id="2742843273354638707">Menyembunyikan aplikasi Chrome Webstore serta link footer dari Halaman Tab Baru dan peluncur aplikasi <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">Menyembunyikan aplikasi Brave Webstore serta link footer dari Halaman Tab Baru dan peluncur aplikasi <ph name="PRODUCT_OS_NAME" />.
 
       Jika kebijakan ini disetel ke true, ikon akan disembunyikan.
 
@@ -772,7 +772,7 @@ Jika kebijakan ini tidak disetel, tidak ada aplikasi atau ekstensi yang otomatis
 <translation id="3034580675120919256">Memungkinkan Anda menyetel apakah situs web diizinkan menjalankan JavaScript. Menjalankan JavaScript dapat diizinkan atau ditolak untuk semua situs web. Jika kebijakan ini tidak disetel, 'AllowJavaScript' akan digunakan dan pengguna dapat mengubahnya.</translation>
 <translation id="3038323923255997294">Terus jalankan aplikasi latar belakang saat <ph name="PRODUCT_NAME" /> ditutup</translation>
 <translation id="3046192273793919231">Kirim paket jaringan ke server pengelolaan untuk memantau status online</translation>
-<translation id="3047732214002457234">Mengontrol cara Pembersih Chrome melaporkan data ke Google</translation>
+<translation id="3047732214002457234">Mengontrol cara Pembersih Brave melaporkan data ke Google</translation>
 <translation id="3048744057455266684">Jika kebijakan ini disetel dan URL penelusuran yang disarankan dari omnibox berisi parameter ini dalam string kueri atau dalam pengenal fragmen, maka saran akan menampilkan istilah penelusuran dan penyedia penelusuran dan bukan URL penelusuran mentah.
 
           Kebijakan ini adalah opsional. Jika tidak disetel, penggantian istilah penelusuran tidak akan dilakukan.
@@ -1089,13 +1089,13 @@ Jika kebijakan ini tidak disetel, tidak ada aplikasi atau ekstensi yang otomatis
       Jika Anda tidak menyetel kebijakan ini, <ph name="PRODUCT_NAME" /> akan menggunakan direktori defaultnya yang biasa digunakan (khusus platform).
 
       Lihat https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables untuk mengetahui daftar variabel yang dapat digunakan.</translation>
-<translation id="3904459740090265495">Kebijakan ini mengontrol perilaku login browser. Dengan kebijakan ini, Anda dapat menentukan apakah pengguna dapat login ke <ph name="PRODUCT_NAME" /> dengan akun mereka dan menggunakan layanan terkait akun seperti sinkronisasi Chrome.
+<translation id="3904459740090265495">Kebijakan ini mengontrol perilaku login browser. Dengan kebijakan ini, Anda dapat menentukan apakah pengguna dapat login ke <ph name="PRODUCT_NAME" /> dengan akun mereka dan menggunakan layanan terkait akun seperti sinkronisasi Brave.
 
-      Jika kebijakan ini ditetapkan ke "Nonaktifkan login browser", maka pengguna tidak dapat login ke browser dan menggunakan layanan berbasis akun. Dalam hal ini, fitur tingkat browser seperti sinkronisasi Chrome tidak dapat digunakan dan tidak akan tersedia. Jika pengguna telah login dan kebijakan ini ditetapkan ke "Dinonaktifkan", pengguna akan dibuat logout saat berikutnya menjalankan Chrome, namun data profil lokalnya, seperti bookmark, sandi, dsb. akan tetap tersimpan. Pengguna masih dapat login dan menggunakan layanan web Google seperti Gmail.
+      Jika kebijakan ini ditetapkan ke "Nonaktifkan login browser", maka pengguna tidak dapat login ke browser dan menggunakan layanan berbasis akun. Dalam hal ini, fitur tingkat browser seperti sinkronisasi Brave tidak dapat digunakan dan tidak akan tersedia. Jika pengguna telah login dan kebijakan ini ditetapkan ke "Dinonaktifkan", pengguna akan dibuat logout saat berikutnya menjalankan Brave, namun data profil lokalnya, seperti bookmark, sandi, dsb. akan tetap tersimpan. Pengguna masih dapat login dan menggunakan layanan web Google seperti Gmail.
 
-      Jika kebijakan ini ditetapkan ke "Aktifkan login browser", maka pengguna diizinkan untuk login ke browser, dan akan otomatis dibuat login ke browser saat mereka login ke layanan web Google seperti Gmail. Setelah login ke browser, informasi akun pengguna akan disimpan oleh browser. Namun, ini tidak berarti bahwa sinkronisasi Chrome akan diaktifkan secara default; pengguna harus secara khusus memilih untuk ikut serta menggunakan fitur ini. Jika kebijakan ini diaktifkan, pengguna tidak akan dapat menonaktifkan setelan yang mengizinkan login browser. Untuk mengontrol ketersediaan sinkronisasi Chrome, gunakan kebijakan "SyncDisabled".
+      Jika kebijakan ini ditetapkan ke "Aktifkan login browser", maka pengguna diizinkan untuk login ke browser, dan akan otomatis dibuat login ke browser saat mereka login ke layanan web Google seperti Gmail. Setelah login ke browser, informasi akun pengguna akan disimpan oleh browser. Namun, ini tidak berarti bahwa sinkronisasi Brave akan diaktifkan secara default; pengguna harus secara khusus memilih untuk ikut serta menggunakan fitur ini. Jika kebijakan ini diaktifkan, pengguna tidak akan dapat menonaktifkan setelan yang mengizinkan login browser. Untuk mengontrol ketersediaan sinkronisasi Brave, gunakan kebijakan "SyncDisabled".
 
-      Jika kebijakan ini ditetapkan ke "Paksa login browser", maka dialog pemilihan akun akan ditampilkan dan pengguna harus memilih serta login ke salah satu akun agar dapat menggunakan browser. Hal ini memastikan bahwa untuk akun terkelola, kebijakan yang terkait dengan akun tersebut diterapkan dan diberlakukan. Secara default, langkah ini mengaktifkan sinkronisasi Chrome untuk akun tersebut, kecuali jika sinkronisasi dinonaktifkan oleh admin domain atau melalui kebijakan "SyncDisabled". Nilai default BrowserGuestModeEnabled akan ditetapkan ke false. Harap diperhatikan bahwa profil yang ada dan belum ditandatangani akan dikunci dan tidak dapat diakses setelah kebijakan ini diaktifkan. Untuk informasi selengkapnya, lihat artikel pusat bantuan: https://support.google.com/chrome/a/answer/7572556.
+      Jika kebijakan ini ditetapkan ke "Paksa login browser", maka dialog pemilihan akun akan ditampilkan dan pengguna harus memilih serta login ke salah satu akun agar dapat menggunakan browser. Hal ini memastikan bahwa untuk akun terkelola, kebijakan yang terkait dengan akun tersebut diterapkan dan diberlakukan. Secara default, langkah ini mengaktifkan sinkronisasi Brave untuk akun tersebut, kecuali jika sinkronisasi dinonaktifkan oleh admin domain atau melalui kebijakan "SyncDisabled". Nilai default BrowserGuestModeEnabled akan ditetapkan ke false. Harap diperhatikan bahwa profil yang ada dan belum ditandatangani akan dikunci dan tidak dapat diakses setelah kebijakan ini diaktifkan. Untuk informasi selengkapnya, lihat artikel pusat bantuan: https://support.google.com/chrome/a/answer/7572556.
 
       Jika kebijakan ini tidak ditetapkan, maka pengguna dapat memutuskan apakah mereka ingin mengaktifkan opsi login browser dan menggunakannya bila dirasa sesuai.</translation>
 <translation id="3907986150060929099">Menyetel bahasa yang disarankan untuk sesi publik</translation>
@@ -1218,11 +1218,11 @@ Jika kebijakan ini tidak disetel, tidak ada aplikasi atau ekstensi yang otomatis
 <translation id="4298509794364745131">Menentukan daftar aplikasi yang dapat diaktifkan sebagai aplikasi pencatat di layar kunci <ph name="PRODUCT_OS_NAME" />.
 
       Jika aplikasi pencatat yang dipilih diaktifkan di layar kunci, layar kunci akan menampilkan elemen UI untuk peluncuran aplikasi pencatat yang dipilih.
-      Saat diluncurkan, aplikasi akan dapat membuat jendela aplikasi di bagian atas layar kunci, dan membuat item data (catatan) saat layar dalam keadaan terkunci. Aplikasi akan dapat mengimpor catatan yang dibuat ke sesi pengguna utama, saat sesi telah dibuka kuncinya. Saat ini, hanya aplikasi pencatat Chrome yang didukung di layar kunci. 
+      Saat diluncurkan, aplikasi akan dapat membuat jendela aplikasi di bagian atas layar kunci, dan membuat item data (catatan) saat layar dalam keadaan terkunci. Aplikasi akan dapat mengimpor catatan yang dibuat ke sesi pengguna utama, saat sesi telah dibuka kuncinya. Saat ini, hanya aplikasi pencatat Brave yang didukung di layar kunci. 
 
       Jika kebijakan telah ditetapkan, pengguna hanya diperbolehkan untuk mengaktifkan aplikasi di layar kunci, jika ID ekstensi aplikasi terdapat di nilai daftar kebijakan.
       Sebagai konsekuensinya, menyetel kebijakan ini pada daftar kosong akan menonaktifkan pencatatan di layar kunci sepenuhnya.
-      Harap diperhatikan bahwa kebijakan yang berisi ID aplikasi tidak berarti pengguna dapat mengaktifkan aplikasi sebagai aplikasi pencatat di layar kunci - misalnya, di Chrome 61, kumpulan aplikasi yang tersedia dibatasi oleh platform.
+      Harap diperhatikan bahwa kebijakan yang berisi ID aplikasi tidak berarti pengguna dapat mengaktifkan aplikasi sebagai aplikasi pencatat di layar kunci - misalnya, di Brave 61, kumpulan aplikasi yang tersedia dibatasi oleh platform.
 
       Jika kebijakan tidak disetel, tidak akan ada batasan di kumpulan aplikasi yang dapat diaktifkan oleh pengguna di layar kunci yang diterapkan oleh kebijakan.</translation>
 <translation id="4309640770189628899">Untuk mengetahui apakah cipher suite DHE di TLS diaktifkan</translation>
@@ -1323,7 +1323,7 @@ Jika kebijakan ini tidak disetel, tidak ada aplikasi atau ekstensi yang otomatis
 <translation id="4567137030726189378">Izinkan penggunaan Developer Tools</translation>
 <translation id="4600786265870346112">Aktifkan kursor besar</translation>
 <translation id="4604931264910482931">Konfigurasikan daftar hitam perpesanan asli</translation>
-<translation id="4613508646038788144">Jika kebijakan disetel ke false, maka software pihak ketiga akan diizinkan untuk melakukan injeksi kode yang dapat dieksekusi ke dalam proses Chrome. Jika kebijakan tidak disetel atau disetel ke true, maka software pihak ketiga akan dicegah melakukan injeksi kode yang dapat dieksekusi ke dalam proses Chrome.</translation>
+<translation id="4613508646038788144">Jika kebijakan disetel ke false, maka software pihak ketiga akan diizinkan untuk melakukan injeksi kode yang dapat dieksekusi ke dalam proses Brave. Jika kebijakan tidak disetel atau disetel ke true, maka software pihak ketiga akan dicegah melakukan injeksi kode yang dapat dieksekusi ke dalam proses Brave.</translation>
 <translation id="4617338332148204752">Lewati pemeriksaan tag meta pada <ph name="PRODUCT_FRAME_NAME" /></translation>
 <translation id="4625915093043961294">Mengonfigurasi daftar putih pemasangan ekstensi</translation>
 <translation id="4632343302005518762">Izinkan <ph name="PRODUCT_FRAME_NAME" /> menangani jenis konten yang tercantum</translation>
@@ -1456,7 +1456,7 @@ Jika kebijakan ini dinonaktifkan atau tidak disetel, situs tidak akan dapat mena
           Nilai harus berupa rangkaian kamus dengan string JSON. Setiap kamus harus memiliki bentuk { "pattern": "$URL_PATTERN", "filter" : $FILTER }, dengan $URL_PATTERN yang merupakan pola setelan konten. $FILTER membatasi asal sertifikat klien yang akan dipilih browser secara otomatis. Terlepas dari filter, hanya sertifikat yang cocok dengan permintaan sertifikat server yang akan dipilih. Selain itu, jika $FILTER memiliki bentuk { "ISSUER": { "CN": "$ISSUER_CN" } }, hanya sertifikat klien yang dikeluarkan oleh sertifikat dengan CommonName $ISSUER_CN yang akan dipilih. Jika $FILTER berupa kamus kosong {}, pemilihan sertifikat klien tidak lagi dibatasi.
 
           Jika kebijakan ini tidak disetel, tidak akan ada pemilihan otomatis untuk situs apa pun.</translation>
-<translation id="4978405676361550165">Jika kebijakan "OffHours" disetel, kebijakan yang ditentukan untuk perangkat akan diabaikan (gunakan setelan default kebijakan tersebut) selama rentang waktu yang ditentukan. Kebijakan perangkat akan diterapkan kembali oleh Chrome pada setiap aktivitas saat periode "OffHours" dimulai atau berakhir. Pengguna akan diberi tahu dan dipaksa logout saat waktu "OffHours" berakhir dan setelan kebijakan perangkat diubah (misalnya, saat pengguna login menggunakan akun yang tidak diizinkan).</translation>
+<translation id="4978405676361550165">Jika kebijakan "OffHours" disetel, kebijakan yang ditentukan untuk perangkat akan diabaikan (gunakan setelan default kebijakan tersebut) selama rentang waktu yang ditentukan. Kebijakan perangkat akan diterapkan kembali oleh Brave pada setiap aktivitas saat periode "OffHours" dimulai atau berakhir. Pengguna akan diberi tahu dan dipaksa logout saat waktu "OffHours" berakhir dan setelan kebijakan perangkat diubah (misalnya, saat pengguna login menggunakan akun yang tidak diizinkan).</translation>
 <translation id="4980635395568992380">Jenis data:</translation>
 <translation id="4983201894483989687">Izinkan menjalankan plugin yang kedaluwarsa</translation>
 <translation id="4988291787868618635">Tindakan yang akan diambil saat penundaan waktu menganggur tercapai</translation>
@@ -1532,7 +1532,7 @@ Jika kebijakan ini dinonaktifkan atau tidak disetel, situs tidak akan dapat mena
           Nilai daftar hitam '*' menunjukkan bahwa semua hosting perpesanan asli dimasukkan daftar hitam kecuali dicantumkan dalam daftar putih dengan jelas.
 
           Jika kebijakan ini tidak disetel, <ph name="PRODUCT_NAME" /> akan memuat semua hosting perpesanan asli yang terpasang.</translation>
-<translation id="5272684451155669299">Jika disetel ke true, pengguna dapat menggunakan hardware pada perangkat Chrome untuk membuktikan identitasnya dari jarak jauh ke CA privasi melalui <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> dengan menggunakan <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Jika disetel ke true, pengguna dapat menggunakan hardware pada perangkat Brave untuk membuktikan identitasnya dari jarak jauh ke CA privasi melalui <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> dengan menggunakan <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Jika disetel ke false, atau tidak disetel, panggilan ke API akan gagal yang disertai kode error.</translation>
 <translation id="5277806246014825877">Aktifkan pengguna ini untuk menjalankan Crostini.
@@ -1653,7 +1653,7 @@ Jika kebijakan ini dinonaktifkan atau tidak disetel, situs tidak akan dapat mena
       Perlu diperhatikan bahwa tindakan ini tidak disarankan, karena dapat melewati ekstensi nameConstraints yang membatasi hostname untuk mengotorisasi sertifikat yang diberikan.
 
       Jika kebijakan ini tidak disetel, atau disetel ke false, sertifikat server yang tidak menyertakan ekstensi subjectAlternativeName yang berisi nama DNS atau alamat IP tidak akan dipercaya.</translation>
-<translation id="5581292529942108810">Konfigurasi kebijakan terkait Ekstensi Pelaporan Chrome.
+<translation id="5581292529942108810">Konfigurasi kebijakan terkait Ekstensi Pelaporan Brave.
 
       Kebijakan ini hanya berlaku jika <ph name="CHROME_REPORTING_EXTENSION_NAME" /> diaktifkan, dan mesin didaftarkan ke <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Mengontrol layanan lokasi Google di Android</translation>
@@ -1708,7 +1708,7 @@ Jika kebijakan ini dinonaktifkan atau tidak disetel, situs tidak akan dapat mena
       Jika kebijakan dinonaktifkan, download akan segera dimulai, dan pengguna tidak akan ditanyai tempat untuk menyimpan file.
       Jika kebijakan tidak dikonfigurasi, pengguna dapat mengubah setelan ini.
       </translation>
-<translation id="5835124959204887277">Menentukan URL dan domain yang tidak akan diperlihatkan perintah saat sertifikat pengesahan dari Kunci Keamanan diminta. Selain itu, sinyal akan dikirimkan ke Kuanci Keamanan yang menandakan bahwa pengesahan satu per satu mungkin digunakan. Tanpa ini, pengguna akan diminta di Chrome 65+ jika situs meminta pengesahan Kunci Keamanan.
+<translation id="5835124959204887277">Menentukan URL dan domain yang tidak akan diperlihatkan perintah saat sertifikat pengesahan dari Kunci Keamanan diminta. Selain itu, sinyal akan dikirimkan ke Kuanci Keamanan yang menandakan bahwa pengesahan satu per satu mungkin digunakan. Tanpa ini, pengguna akan diminta di Brave 65+ jika situs meminta pengesahan Kunci Keamanan.
 
       URL (seperti https://example.com/some/path) hanya akan cocok sebagai U2F appID. Domain (seperti example.com) hanya akan cocok sebagai webauthn RP ID. Oleh karena itu, guna mencakup U2F dan webauthn API untuk situs tertentu, appID URL dan domain perlu dicantumkan.</translation>
 <translation id="5835412847081687053">Mengonfigurasi lokal UI yang diizinkan dalam sesi pengguna</translation>
@@ -1890,7 +1890,7 @@ Jika kebijakan ini dinonaktifkan atau tidak disetel, situs tidak akan dapat mena
 <translation id="6282799760374509080">Izinkan atau tolak penangkapan audio</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Mengaktifkan pelengkapan otomatis nama domain saat proses masuk pengguna</translation>
-<translation id="6315673513957120120">Chrome menunjukkan halaman peringatan saat pengguna menavigasi ke situs dengan kesalahan SSL. Secara default atau saat kebijakan ini disetel ke True, pengguna diizinkan untuk mengeklik melalui halaman peringatan ini.
+<translation id="6315673513957120120">Brave menunjukkan halaman peringatan saat pengguna menavigasi ke situs dengan kesalahan SSL. Secara default atau saat kebijakan ini disetel ke True, pengguna diizinkan untuk mengeklik melalui halaman peringatan ini.
       Menyetel kebijakan ini ke False membuat pengguna tidak dapat mengeklik melalui halaman peringatan apa pun.</translation>
 <translation id="6353901068939575220">Menentukan parameter yang digunakan saat menelusuri URL dengan POST. Berisi pasangan nama/nilai yang dipisahkan koma. Jika nilai adalah parameter template, seperti {searchTerms} dalam contoh di atas, akan diganti dengan data istilah penelusuran nyata.
 
@@ -1921,7 +1921,7 @@ Jika kebijakan ini dinonaktifkan atau tidak disetel, situs tidak akan dapat mena
           Jika Anda memilih untuk mendeteksi server proxy secara otomatis, URL skrip "http://wpad/wpad.dat" akan diberikan pada aplikasi Android. Tidak ada bagian lain dari protokol deteksi proxy otomatis yang digunakan.
 
           Jika Anda memilih untuk menggunakan skrip proxy .pac, URL skrip akan diberikan pada aplikasi Android.</translation>
-<translation id="6430366557948788869">Ekstensi Pelaporan Chrome</translation>
+<translation id="6430366557948788869">Ekstensi Pelaporan Brave</translation>
 <translation id="6440051664870270040">Izinkan situs menavigasi dan membuka (jendela) pop-up sekaligus</translation>
 <translation id="6447948611083700881">Opsi backup dan pemulihan dinonaktifkan</translation>
 <translation id="645425387487868471">Aktifkan login paksa untuk <ph name="PRODUCT_NAME" /></translation>
@@ -2126,7 +2126,7 @@ Jika kebijakan ini tidak disetel, fungsi update firmware <ph name="TPM_FIRMWARE_
 
       CATATAN: Di Android, Isolasi Situs bersifat eksperimental. Dukungan akan disempurnakan seiring waktu, namun saat ini dapat menyebabkan masalah performa.
 
-      CATATAN: Kebijakan ini hanya berlaku untuk Chrome di Android yang berjalan di perangkat dengan RAM harus di atas 1 GB. Untuk menerapkan kebijakan di platform non-Android, gunakan SitePerProcess.
+      CATATAN: Kebijakan ini hanya berlaku untuk Brave di Android yang berjalan di perangkat dengan RAM harus di atas 1 GB. Untuk menerapkan kebijakan di platform non-Android, gunakan SitePerProcess.
       </translation>
 <translation id="6922040258551909078">
       Jika kebijakan disetel ke true, kebijakan cloud akan lebih diutamakan jika bertentangan dengan kebijakan perangkat.
@@ -2191,9 +2191,9 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
 
       Jika kebijakan disetel ke false, atau tidak disetel, <ph name="PRODUCT_NAME" /> mungkin tidak mengumpulkan atau mengupload log tersebut.
 
-      Log ini berisi informasi diagnostik yang berguna saat melakukan debug masalah pada panggilan audio atau video call di Chrome, seperti waktu dan ukuran paket RTP yang dikirim serta diterima, masukan tentang kemacetan di jaringan, dan metadata tentang waktu dan kualitas frame audio dan video. Log ini tidak berisi konten audio atau video dari panggilan.
+      Log ini berisi informasi diagnostik yang berguna saat melakukan debug masalah pada panggilan audio atau video call di Brave, seperti waktu dan ukuran paket RTP yang dikirim serta diterima, masukan tentang kemacetan di jaringan, dan metadata tentang waktu dan kualitas frame audio dan video. Log ini tidak berisi konten audio atau video dari panggilan.
 
-      Pengumpulan data oleh Chrome ini hanya dapat dipicu oleh layanan web Google, seperti Google Hangouts atau Google Meet.
+      Pengumpulan data oleh Brave ini hanya dapat dipicu oleh layanan web Google, seperti Google Hangouts atau Google Meet.
 
       Google dapat mengaitkan log ini, melalui ID sesi, dengan log lain yang dikumpulkan oleh layanan Google itu sendiri. Ini dimaksudkan agar debug lebih mudah.
       </translation>
@@ -2268,11 +2268,11 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
 
           Jika kebijakan ini tidak disetel, lup dinonaktifkan saat layar masuk ditampilkan untuk pertama kali. Pengguna dapat mengaktifkan atau menonaktifkan lup kapan saja dan statusnya di layar masuk bersifat permanen antar pengguna.</translation>
 <translation id="7249828445670652637">Mengaktifkan sertifikat CA <ph name="PRODUCT_OS_NAME" /> untuk aplikasi ARC</translation>
-<translation id="725322441686394886">Jika tidak disetel, apabila mendeteksi software yang tidak diinginkan, Pembersih Chrome dapat melaporkan metadata tentang pemindaian ke Google sesuai dengan kebijakan yang disetel oleh SafeBrowsingExtendedReportingEnabled. Selanjutnya, Pembersih Chrome akan menanyakan kepada pengguna apakah ia ingin menghapus software yang tidak diinginkan tersebut atau tidak. Pengguna dapat membagikan hasil pembersihan kepada Google untuk membantu mendeteksi software yang tidak diinginkan di masa mendatang. Hasil ini memuat metadata file, ekstensi dan kunci registri yang diinstal otomatis seperti dijelaskan dalam Lembar Informasi Privasi Chrome.
+<translation id="725322441686394886">Jika tidak disetel, apabila mendeteksi software yang tidak diinginkan, Pembersih Brave dapat melaporkan metadata tentang pemindaian ke Google sesuai dengan kebijakan yang disetel oleh SafeBrowsingExtendedReportingEnabled. Selanjutnya, Pembersih Brave akan menanyakan kepada pengguna apakah ia ingin menghapus software yang tidak diinginkan tersebut atau tidak. Pengguna dapat membagikan hasil pembersihan kepada Google untuk membantu mendeteksi software yang tidak diinginkan di masa mendatang. Hasil ini memuat metadata file, ekstensi dan kunci registri yang diinstal otomatis seperti dijelaskan dalam Lembar Informasi Privasi Brave.
 
-      Jika dinonaktifkan, apabila mendeteksi software yang tidak diinginkan, Pembersih Chrome tidak akan melaporkan metadata tentang pemindaian ke Google, yang berarti menggantikan kebijakan apa pun yang disetel oleh SafeBrowsingExtendedReportingEnabled. Pembersih Chrome akan menanyakan kepada pengguna apakah ia ingin menghapus software yang tidak diinginkan tersebut atau tidak.  Hasil pembersihan tidak akan dilaporkan ke Google dan pengguna tidak akan memiliki opsi untuk melaporkannya.
+      Jika dinonaktifkan, apabila mendeteksi software yang tidak diinginkan, Pembersih Brave tidak akan melaporkan metadata tentang pemindaian ke Google, yang berarti menggantikan kebijakan apa pun yang disetel oleh SafeBrowsingExtendedReportingEnabled. Pembersih Brave akan menanyakan kepada pengguna apakah ia ingin menghapus software yang tidak diinginkan tersebut atau tidak.  Hasil pembersihan tidak akan dilaporkan ke Google dan pengguna tidak akan memiliki opsi untuk melaporkannya.
 
-      Jika diaktifkan, apabila mendeteksi software yang tidak diinginkan, Pembersih Chrome dapat melaporkan metadata tentang pemindaian ke Google sesuai dengan kebijakan yang disetel oleh SafeBrowsingExtendedReportingEnabled. Pembersih Chrome akan menanyakan kepada pengguna apakah ia ingin menghapus software yang tidak diinginkan tersebut atau tidak.  Hasil pembersihan akan dilaporkan ke Google dan pengguna tidak akan memiliki opsi untuk mencegahnya.
+      Jika diaktifkan, apabila mendeteksi software yang tidak diinginkan, Pembersih Brave dapat melaporkan metadata tentang pemindaian ke Google sesuai dengan kebijakan yang disetel oleh SafeBrowsingExtendedReportingEnabled. Pembersih Brave akan menanyakan kepada pengguna apakah ia ingin menghapus software yang tidak diinginkan tersebut atau tidak.  Hasil pembersihan akan dilaporkan ke Google dan pengguna tidak akan memiliki opsi untuk mencegahnya.
 
       Kebijakan ini tidak tersedia pada instance Windows yang tidak digabungkan dengan domain <ph name="MS_AD_NAME" />.</translation>
 <translation id="7258823566580374486">Mengaktifkan pemberian tirai hosting akses jarak jauh</translation>
@@ -2326,7 +2326,7 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
 <translation id="7329968046053403405">Menentukan jenis akun untuk akun yang diberikan oleh aplikasi autentikasi Android, yang mendukung autentikasi <ph name="HTTP_NEGOTIATE" /> (misalnya autentikasi Kerberos). Informasi ini seharusnya tersedia dari penyedia aplikasi autentikasi. Untuk detail selengkapnya, lihat https://goo.gl/hajyfN.
 
           Jika tidak ada setelan yang diberikan, autentikasi <ph name="HTTP_NEGOTIATE" /> akan dinonaktifkan di Android.</translation>
-<translation id="7331962793961469250">Bila disetel ke True, promosi untuk apl Chrome Webstore tidak akan muncul pada halaman tab baru. Menyetel opsi ini ke False atau membiarkannya tanpa disetel akan membuat promosi untuk apl Chrome Webstore muncul di halaman tab baru</translation>
+<translation id="7331962793961469250">Bila disetel ke True, promosi untuk apl Brave Webstore tidak akan muncul pada halaman tab baru. Menyetel opsi ini ke False atau membiarkannya tanpa disetel akan membuat promosi untuk apl Brave Webstore muncul di halaman tab baru</translation>
 <translation id="7332963785317884918">Kebijakan ini tidak lagi digunakan. <ph name="PRODUCT_OS_NAME" /> akan selalu menggunakan strategi pembersihan 'RemoveLRU'.
 
       Mengontrol perilaku pembersihan otomatis di perangkat <ph name="PRODUCT_OS_NAME" />. Pembersihan otomatis dipicu saat jumlah ruang disk kosong mencapai level kritis guna memulihkan sejumlah ruang disk.
@@ -2341,7 +2341,7 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
 <translation id="7343497214039883642">File konfigurasi printer perusahaan untuk perangkat</translation>
 <translation id="7349338075015720646">Menentukan daftar situs yang diinstal otomatis, tanpa interaksi pengguna, dan tidak dapat di-uninstal atau dinonaktifkan oleh pengguna.
 
-      Setiap item daftar kebijakan adalah objek yang berisi dua anggota: "url" dan "launch_container". "url" harus berupa URL aplikasi web untuk menginstal dan "launch_container" harus berupa "window" atau "tab" untuk menunjukkan cara Aplikasi Web dibuka setelah diinstal. Jika "launch_container" dihilangkan, aplikasi akan diluncurkan di jendela jika Chrome mempertimbangkannya sebagai Progressive Web App dan diluncurkan di tab jika tidak.</translation>
+      Setiap item daftar kebijakan adalah objek yang berisi dua anggota: "url" dan "launch_container". "url" harus berupa URL aplikasi web untuk menginstal dan "launch_container" harus berupa "window" atau "tab" untuk menunjukkan cara Aplikasi Web dibuka setelah diinstal. Jika "launch_container" dihilangkan, aplikasi akan diluncurkan di jendela jika Brave mempertimbangkannya sebagai Progressive Web App dan diluncurkan di tab jika tidak.</translation>
 <translation id="735902178936442460">Kebijakan ini mengontrol apakah informasi yang dapat digunakan untuk mengidentifikasi mesin, seperti nama mesin dan alamat jaringan, dilaporkan atau tidak.
 
       Jika kebijakan ini tidak ditetapkan atau ditetapkan ke True, informasi yang dapat digunakan untuk mengidentifikasi mesin akan dikumpulkan.
@@ -2354,9 +2354,9 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
 
       Lihat https://developers.google.com/safe-browsing untuk informasi selengkapnya terkait Safe Browsing.</translation>
 <translation id="737655323154569539">Membatasi ukuran halaman pencetakan. Kebijakan yang tidak disetel dan setelan kosong diperlakukan sebagai tidak ada batasan.</translation>
-<translation id="7417728346887499628">Jika dinonaktifkan, Pembersih Chrome tidak akan memindai sistem untuk menemukan software yang tidak diinginkan dan menjalankan pembersihan. Pembersih Chrome tidak dapat dipicu secara manual dari chrome://settings/cleanup.
+<translation id="7417728346887499628">Jika dinonaktifkan, Pembersih Brave tidak akan memindai sistem untuk menemukan software yang tidak diinginkan dan menjalankan pembersihan. Pembersih Brave tidak dapat dipicu secara manual dari chrome://settings/cleanup.
 
-      Jika diaktifkan atau tidak disetel, Pembersih Chrome akan memindai sistem secara berkala untuk menemukan software yang tidak diinginkan, dan jika ditemukan, akan menanyakan kepada pengguna apakah ia ingin menghapusnya atau tidak. Pembersih Chrome dapat dipicu secara manual dari chrome://setting.
+      Jika diaktifkan atau tidak disetel, Pembersih Brave akan memindai sistem secara berkala untuk menemukan software yang tidak diinginkan, dan jika ditemukan, akan menanyakan kepada pengguna apakah ia ingin menghapusnya atau tidak. Pembersih Brave dapat dipicu secara manual dari chrome://setting.
 
       Kebijakan ini tidak tersedia pada instance Windows yang tidak digabungkan dengan domain <ph name="MS_AD_NAME" />.</translation>
 <translation id="7417972229667085380">Persentase yang digunakan untuk menskalakan penundaan status menganggur dalam mode presentasi (tidak digunakan lagi)</translation>
@@ -2599,7 +2599,7 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
 
       CATATAN: Di Android, Isolasi Situs bersifat eksperimental. Dukungan akan disempurnakan seiring waktu, namun saat ini dapat menyebabkan masalah performa.
 
-      CATATAN: Kebijakan ini hanya berlaku untuk Chrome di Android yang berjalan di perangkat dengan RAM harus di atas 1 GB. Untuk menerapkan kebijakan di platform non-Android, gunakan IsolateOrigins.
+      CATATAN: Kebijakan ini hanya berlaku untuk Brave di Android yang berjalan di perangkat dengan RAM harus di atas 1 GB. Untuk menerapkan kebijakan di platform non-Android, gunakan IsolateOrigins.
       </translation>
 <translation id="7953256619080733119">Hosting pengecualian manual pengguna yang dikelola</translation>
 <translation id="7961779417826583251">Nonaktifkan penerapan Transparansi Sertifikat untuk daftar Otoritas Sertifikat Lama</translation>
@@ -2709,7 +2709,7 @@ Kebijakan ini hanya berlaku jika dukungan aplikasi Linux diaktifkan.</translatio
       Jika kebijakan dibiarkan tidak disetel, <ph name="PRODUCT_OS_NAME" /> akan menggunakan ID akun email dari akun lokal perangkat sebagai nama tampilan di layar masuk.
 
       Kebijakan ini diabaikan untuk akun pengguna reguler.</translation>
-<translation id="8259375588339409826">Chromium dan Google Chrome mendukung rangkaian kebijakan yang sama. Perlu diperhatikan bahwa dokumen ini mungkin berisi kebijakan yang belum dirilis (yaitu entri "Didukung di" merujuk ke versi <ph name="PRODUCT_NAME" /> yang belum dirilis) yang dapat berubah atau dihapus tanpa pemberitahuan, dan tidak ada jaminan apa pun yang diberikan, termasuk tidak ada jaminan sehubungan dengan keamanan dan privasi.
+<translation id="8259375588339409826">Brave dan Brave mendukung rangkaian kebijakan yang sama. Perlu diperhatikan bahwa dokumen ini mungkin berisi kebijakan yang belum dirilis (yaitu entri "Didukung di" merujuk ke versi <ph name="PRODUCT_NAME" /> yang belum dirilis) yang dapat berubah atau dihapus tanpa pemberitahuan, dan tidak ada jaminan apa pun yang diberikan, termasuk tidak ada jaminan sehubungan dengan keamanan dan privasi.
 
 Kebijakan ini khusus ditujukan untuk mengonfigurasi instance internal <ph name="PRODUCT_NAME" /> ke organisasi Anda. Penggunaan kebijakan ini di luar organisasi (misalnya, dalam program yang didistribusikan secara publik) dianggap sebagai malware dan kemungkinan akan diberi label sebagai malware oleh Google dan vendor anti-virus.
 
@@ -2761,7 +2761,7 @@ Cara yang disarankan untuk mengonfigurasi kebijakan di Windows adalah melalui GP
 <translation id="8339420913453596618">Faktor kedua dinonaktifkan</translation>
 <translation id="8344454543174932833">Impor bookmark dari browser default saat pertama kali dijalankan</translation>
 <translation id="8359734107661430198">Aktifkan API ExampleDeprecatedFeature hingga 02/09/2008</translation>
-<translation id="8367209241899435947">Aktifkan Pembersih Chrome di Windows</translation>
+<translation id="8367209241899435947">Aktifkan Pembersih Brave di Windows</translation>
 <translation id="8369602308428138533">Penundaan mematikan layar saat menggunakan daya AC</translation>
 <translation id="8382184662529825177">Mengaktifkan penggunaan pengesahan jarak jauh untuk perlindungan konten bagi perangkat</translation>
 <translation id="838870586332499308">Aktifkan roaming data</translation>

@@ -379,7 +379,7 @@
 <translation id="2073552873076775140">Inloggen bij <ph name="PRODUCT_NAME" /> toestaan</translation>
 <translation id="2077129598763517140">Hardwareversnelling gebruiken indien beschikbaar</translation>
 <translation id="2077273864382355561">Vertraging van scherm uitschakelen wanneer op de batterij wordt gewerkt</translation>
-<translation id="2082205219176343977">Configureer de minimaal toegestane Chrome-versie voor het apparaat.</translation>
+<translation id="2082205219176343977">Configureer de minimaal toegestane Brave-versie voor het apparaat.</translation>
 <translation id="209586405398070749">Stabiel kanaal</translation>
 <translation id="2098658257603918882">Rapportage van gebruiks- en crashgegevens inschakelen</translation>
 <translation id="2111016292707172233">Hiermee wordt de beschikbaarheid van 'Tikken om te zoeken' ingeschakeld in de contentweergave van <ph name="PRODUCT_NAME" />.
@@ -491,13 +491,13 @@
 
           Dit beleid krijgt voorrang boven een potentieel conflicterend <ph name="EXTENSION_INSTALL_BLACKLIST_POLICY_NAME" />-beleid. Als een app of extensie die eerder gedwongen is geïnstalleerd uit deze lijst wordt verwijderd, wordt de app of extensie automatisch verwijderd door <ph name="PRODUCT_NAME" />.
 
-          Voor Windows-instanties die niet zijn gekoppeld aan een <ph name="MS_AD_NAME" />-domein, is gedwongen installatie beperkt tot apps en extensies die worden vermeld in de Chrome Web Store.
+          Voor Windows-instanties die niet zijn gekoppeld aan een <ph name="MS_AD_NAME" />-domein, is gedwongen installatie beperkt tot apps en extensies die worden vermeld in de Brave Web Store.
 
           Houd er rekening mee dat gebruikers de broncode van een extensie kunnen wijzigen via de ontwikkelaarstools (waardoor de extensie mogelijk niet meer functioneert). Als je je hierover zorgen maakt, moet het <ph name="DEVELOPER_TOOLS_POLICY_NAME" />-beleid worden ingesteld.
 
-          Elk lijstitem van het beleid is een tekenreeks die een extensie-ID en optioneel een update-URL bevat, gescheiden door een puntkomma (<ph name="SEMICOLON" />). De extensie-ID is de tekenreeks van 32 letters die bijvoorbeeld op <ph name="CHROME_EXTENSIONS_LINK" /> kan worden gevonden wanneer de ontwikkelaarsmodus actief is. De update-URL moet verwijzen naar een XML-document voor het updaten van het manifest, zoals beschreven op <ph name="LINK_TO_EXTENSION_DOC1" />. Standaard wordt de update-URL van de Chrome Web Store gebruikt (momenteel https://clients2.google.com/service/update2/crx). Houd er rekening mee dat de update-URL die in dit beleid is ingesteld, alleen voor de eerste installatie wordt gebruikt. Daaropvolgende updates van de extensie gebruiken de update-URL die in het manifest van de extensie wordt aangegeven. Houd er ook rekening mee dat het expliciet opgeven van de update-URL verplicht was in <ph name="PRODUCT_NAME" />-versies tot en met 67.
+          Elk lijstitem van het beleid is een tekenreeks die een extensie-ID en optioneel een update-URL bevat, gescheiden door een puntkomma (<ph name="SEMICOLON" />). De extensie-ID is de tekenreeks van 32 letters die bijvoorbeeld op <ph name="CHROME_EXTENSIONS_LINK" /> kan worden gevonden wanneer de ontwikkelaarsmodus actief is. De update-URL moet verwijzen naar een XML-document voor het updaten van het manifest, zoals beschreven op <ph name="LINK_TO_EXTENSION_DOC1" />. Standaard wordt de update-URL van de Brave Web Store gebruikt (momenteel https://clients2.google.com/service/update2/crx). Houd er rekening mee dat de update-URL die in dit beleid is ingesteld, alleen voor de eerste installatie wordt gebruikt. Daaropvolgende updates van de extensie gebruiken de update-URL die in het manifest van de extensie wordt aangegeven. Houd er ook rekening mee dat het expliciet opgeven van de update-URL verplicht was in <ph name="PRODUCT_NAME" />-versies tot en met 67.
 
-          Met <ph name="EXTENSION_POLICY_EXAMPLE" /> wordt de app <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> bijvoorbeeld geïnstalleerd via de standaard update-URL van de Chrome Web Store. Ga voor meer informatie over het hosten van extensies naar: <ph name="LINK_TO_EXTENSION_DOC2" />.
+          Met <ph name="EXTENSION_POLICY_EXAMPLE" /> wordt de app <ph name="EXTENSION_POLICY_EXAMPLE_EXTENSION_NAME" /> bijvoorbeeld geïnstalleerd via de standaard update-URL van de Brave Web Store. Ga voor meer informatie over het hosten van extensies naar: <ph name="LINK_TO_EXTENSION_DOC2" />.
 
           Als dit beleid niet wordt ingesteld, worden apps en extensies automatisch geïnstalleerd en kan de gebruiker elke app of extensie in <ph name="PRODUCT_NAME" /> verwijderen.</translation>
 <translation id="2292084646366244343"><ph name="PRODUCT_NAME" /> kan een webservice van Google gebruiken om spelfouten te corrigeren. Als deze instelling is ingeschakeld, wordt deze service altijd gebruikt. Als deze instelling is uitgeschakeld, wordt deze service nooit gebruikt.
@@ -685,7 +685,7 @@
 <translation id="268577405881275241">De proxyfunctie voor het comprimeren van gegevens inschakelen</translation>
 <translation id="2693108589792503178">Configureer de URL voor het wijzigen van het wachtwoord.</translation>
 <translation id="2731627323327011390">Gebruik van certificaten van <ph name="PRODUCT_OS_NAME" /> voor ARC-apps uitschakelen</translation>
-<translation id="2742843273354638707">De app en voettekstlink voor de Chrome Web Store verbergen op de pagina 'Nieuw tabblad' en in de App Launcher van <ph name="PRODUCT_OS_NAME" />.
+<translation id="2742843273354638707">De app en voettekstlink voor de Brave Web Store verbergen op de pagina 'Nieuw tabblad' en in de App Launcher van <ph name="PRODUCT_OS_NAME" />.
 
       Als dit beleid is ingesteld op 'True', zijn de pictogrammen verborgen.
 
@@ -803,7 +803,7 @@
           Als dit beleid niet wordt ingesteld, wordt 'AllowJavaScript' gebruikt en kan de gebruiker dit aanpassen.</translation>
 <translation id="3038323923255997294">Doorgaan met uitvoeren van achtergrondapps als <ph name="PRODUCT_NAME" /> is gesloten</translation>
 <translation id="3046192273793919231">Netwerkpakketten verzenden naar de beheerserver om de online status bij te houden</translation>
-<translation id="3047732214002457234">Bepalen hoe Chrome Cleanup gegevens doorgeeft aan Google</translation>
+<translation id="3047732214002457234">Bepalen hoe Brave Cleanup gegevens doorgeeft aan Google</translation>
 <translation id="3048744057455266684">Als dit beleid is ingesteld en een zoek-URL die is voorgesteld vanuit de omnibox, deze parameter in de zoekreeks of in de fragment-ID bevat, geeft de suggestie de zoektermen en zoekprovider weer en niet de onbewerkte zoek-URL.
 
           Dit beleid is optioneel. Als het niet wordt ingesteld, wordt er geen vervanging van zoektermen uitgevoerd.
@@ -1131,13 +1131,13 @@
       Als je dit beleid niet instelt, gebruikt <ph name="PRODUCT_NAME" /> de normale standaardmap (platformspecifiek).
 
       Raadpleeg https://www.chromium.org/administrators/policy-list-3/user-data-directory-variables voor een lijst met variabelen die kunnen worden gebruikt.</translation>
-<translation id="3904459740090265495">Met dit beleid wordt het inloggedrag van de browser beheerd. Hiermee kun je specificeren of de gebruiker kan inloggen bij <ph name="PRODUCT_NAME" /> met zijn account en accountgerelateerde services (zoals Chrome-synchronisatie) kan gebruiken.
+<translation id="3904459740090265495">Met dit beleid wordt het inloggedrag van de browser beheerd. Hiermee kun je specificeren of de gebruiker kan inloggen bij <ph name="PRODUCT_NAME" /> met zijn account en accountgerelateerde services (zoals Brave-synchronisatie) kan gebruiken.
 
-      Als het beleid is ingesteld op 'Inloggen bij browser uitschakelen', kan de gebruiker niet inloggen bij de browser en geen accountgebaseerde services gebruiken. Functies op browserniveau (zoals Chrome-synchronisatie) kunnen in dit geval niet worden gebruikt en zijn niet beschikbaar. Als de gebruiker was ingelogd en het beleid is ingesteld op 'Uitgeschakeld', wordt de gebruiker uitgelogd wanneer hij Chrome de volgende keer gebruikt. Zijn lokale profielgegevens (zoals bladwijzers, wachtwoorden, enzovoort) blijven behouden. De gebruiker kan nog steeds inloggen bij en gebruikmaken van Google-webservices zoals Gmail.
+      Als het beleid is ingesteld op 'Inloggen bij browser uitschakelen', kan de gebruiker niet inloggen bij de browser en geen accountgebaseerde services gebruiken. Functies op browserniveau (zoals Brave-synchronisatie) kunnen in dit geval niet worden gebruikt en zijn niet beschikbaar. Als de gebruiker was ingelogd en het beleid is ingesteld op 'Uitgeschakeld', wordt de gebruiker uitgelogd wanneer hij Brave de volgende keer gebruikt. Zijn lokale profielgegevens (zoals bladwijzers, wachtwoorden, enzovoort) blijven behouden. De gebruiker kan nog steeds inloggen bij en gebruikmaken van Google-webservices zoals Gmail.
 
-      Als het beleid is ingesteld op 'Inloggen bij browser inschakelen', mag de gebruiker inloggen bij de browser en wordt deze automatisch ingelogd bij de browser wanneer hij is ingelogd bij Google-webservices zoals Gmail. Als een gebruiker wordt ingelogd bij de browser, betekent dit dat de accountgegevens van de gebruiker worden bewaard door de browser. Het betekent echter niet dat Chrome-synchronisatie standaard wordt ingeschakeld. De gebruiker moet zich afzonderlijk aanmelden voor gebruik van deze functie. Als dit beleid wordt ingeschakeld, kan de gebruiker de instelling die inloggen bij de browser toestaat, niet uitschakelen. Gebruik het beleid 'SyncDisabled' om de beschikbaarheid van Chrome-synchronisatie te beheren.
+      Als het beleid is ingesteld op 'Inloggen bij browser inschakelen', mag de gebruiker inloggen bij de browser en wordt deze automatisch ingelogd bij de browser wanneer hij is ingelogd bij Google-webservices zoals Gmail. Als een gebruiker wordt ingelogd bij de browser, betekent dit dat de accountgegevens van de gebruiker worden bewaard door de browser. Het betekent echter niet dat Brave-synchronisatie standaard wordt ingeschakeld. De gebruiker moet zich afzonderlijk aanmelden voor gebruik van deze functie. Als dit beleid wordt ingeschakeld, kan de gebruiker de instelling die inloggen bij de browser toestaat, niet uitschakelen. Gebruik het beleid 'SyncDisabled' om de beschikbaarheid van Brave-synchronisatie te beheren.
 
-      Als het beleid is ingesteld op 'Inloggen bij browser afdwingen', krijgt de gebruiker een dialoogvenster voor accountselectie te zien en moet deze een account kiezen en inloggen om de browser te gebruiken. Dit zorgt ervoor dat voor beheerde accounts de beleidsregels die aan het account zijn gekoppeld, worden toegepast en afgedwongen. Hiermee wordt Chrome-synchronisatie standaard ingeschakeld voor het account, behalve wanneer synchronisatie is uitgeschakeld door de domeinbeheerder of via het beleid 'SyncDisabled'. De standaardwaarde van BrowserGuestModeEnabled wordt ingesteld op 'False'. Houd er rekening mee dat bestaande, niet-ingelogde profielen worden vergrendeld en niet toegankelijk zijn na inschakeling van dit beleid. Bekijk het Helpcentrum-artikel voor meer informatie: https://support.google.com/chrome/a/answer/7572556.
+      Als het beleid is ingesteld op 'Inloggen bij browser afdwingen', krijgt de gebruiker een dialoogvenster voor accountselectie te zien en moet deze een account kiezen en inloggen om de browser te gebruiken. Dit zorgt ervoor dat voor beheerde accounts de beleidsregels die aan het account zijn gekoppeld, worden toegepast en afgedwongen. Hiermee wordt Brave-synchronisatie standaard ingeschakeld voor het account, behalve wanneer synchronisatie is uitgeschakeld door de domeinbeheerder of via het beleid 'SyncDisabled'. De standaardwaarde van BrowserGuestModeEnabled wordt ingesteld op 'False'. Houd er rekening mee dat bestaande, niet-ingelogde profielen worden vergrendeld en niet toegankelijk zijn na inschakeling van dit beleid. Bekijk het Helpcentrum-artikel voor meer informatie: https://support.google.com/chrome/a/answer/7572556.
 
       Als dit beleid niet is ingesteld, kan de gebruiker bepalen of deze de optie voor inloggen bij de browser wil inschakelen en deze naar wens gebruiken.</translation>
 <translation id="3907986150060929099">De aanbevolen talen instellen voor een openbare sessie</translation>
@@ -1261,11 +1261,11 @@
 <translation id="4298509794364745131">Specificeert de lijst met apps die kunnen worden ingeschakeld als notitie-app op het <ph name="PRODUCT_OS_NAME" />-vergrendelingsscherm.
 
       Als de gewenste notitie-app is ingeschakeld op het vergrendelingsscherm, bevat het vergrendelingsscherm een UI-element om de gewenste notitie-app te starten.
-      Wanneer de app is gestart, kan deze een app-venster bovenop het vergrendelingsscherm maken en gegevensitems (notities) maken in de context van het vergrendelingsscherm. De app kan gemaakte notities importeren naar de primaire gebruikerssessie wanneer de sessie ontgrendeld is. Momenteel worden alleen Chrome-notitie-apps ondersteund op het vergrendelingsscherm.
+      Wanneer de app is gestart, kan deze een app-venster bovenop het vergrendelingsscherm maken en gegevensitems (notities) maken in de context van het vergrendelingsscherm. De app kan gemaakte notities importeren naar de primaire gebruikerssessie wanneer de sessie ontgrendeld is. Momenteel worden alleen Brave-notitie-apps ondersteund op het vergrendelingsscherm.
 
       Als het beleid is ingesteld, kan de gebruiker een app alleen inschakelen op het vergrendelingsscherm als de extensie-ID van de app is opgenomen in de beleidslijstwaarde.
       Dit betekent dat als je dit beleid instelt op een lege lijst, het maken van notities op het vergrendelingsscherm volledig wordt uitgeschakeld.
-      Houd er rekening mee dat als het beleid een app-ID bevat, dit niet noodzakelijkerwijs betekent dat de gebruiker de app kan inschakelen als notitie-app op het vergrendelingsscherm. In Chrome 61 wordt de reeks beschikbare apps bijvoorbeeld extra beperkt door het platform.
+      Houd er rekening mee dat als het beleid een app-ID bevat, dit niet noodzakelijkerwijs betekent dat de gebruiker de app kan inschakelen als notitie-app op het vergrendelingsscherm. In Brave 61 wordt de reeks beschikbare apps bijvoorbeeld extra beperkt door het platform.
 
       Als het beleid niet wordt ingesteld, gelden er geen beperkingen voor de reeks apps die de gebruiker kan inschakelen op het vergrendelingsscherm.</translation>
 <translation id="4309640770189628899">Of DHE-coderingssuites in TLS zijn ingeschakeld</translation>
@@ -1374,7 +1374,7 @@
 <translation id="4567137030726189378">Het gebruik van de hulpprogramma's voor ontwikkelaars toestaan</translation>
 <translation id="4600786265870346112">Grote muisaanwijzer inschakelen</translation>
 <translation id="4604931264910482931">Zwarte lijst voor systeemeigen berichten configureren</translation>
-<translation id="4613508646038788144">Als het beleid is ingesteld op 'False', is het mogelijk om via software van derden uitvoerbare code te injecteren in de processen van Chrome. Als het beleid niet is ingesteld of is ingesteld op 'True', kan er geen uitvoerbare code via software van derden worden geïnjecteerd in de processen van Chrome.</translation>
+<translation id="4613508646038788144">Als het beleid is ingesteld op 'False', is het mogelijk om via software van derden uitvoerbare code te injecteren in de processen van Brave. Als het beleid niet is ingesteld of is ingesteld op 'True', kan er geen uitvoerbare code via software van derden worden geïnjecteerd in de processen van Brave.</translation>
 <translation id="4617338332148204752">De metatagcontrole in <ph name="PRODUCT_FRAME_NAME" /> overslaan</translation>
 <translation id="4625915093043961294">Witte lijst voor het installeren van extensies configureren</translation>
 <translation id="4632343302005518762"><ph name="PRODUCT_FRAME_NAME" /> toestaan de vermelde soorten content te verwerken.</translation>
@@ -1502,7 +1502,7 @@
           De waarde moet een array van JSON-woordenboeken met tekenreeksen zijn. Elk woordenboek moet de indeling { "pattern": "$URL_PATTERN", "filter" : $FILTER } hebben, waarbij $URL_PATTERN een patroon voor het instellen van content is. $FILTER beperkt de clientcertificaten die de browser automatisch kan selecteren. Onafhankelijk van het filter, worden alleen certificaten geselecteerd die overeenkomen met het certificaatverzoek van de server. Als $FILTER de indeling { "ISSUER": { "CN": "$ISSUER_CN" } } heeft, worden daarnaast alleen clientcertificaten geselecteerd die zijn uitgegeven door een certificaat met de CommonName $ISSUER_CN. Als $FILTER het lege woordenboek {} is, wordt de selectie van clientcertificaten niet verder beperkt.
 
           Als dit beleid niet wordt ingesteld, wordt voor geen enkele site automatische selectie uitgevoerd.</translation>
-<translation id="4978405676361550165">Als het beleid 'OffHours' is ingesteld, worden de gespecificeerde apparaatbeleidsregels genegeerd (gebruik de standaardinstellingen van deze beleidsregels) tijdens de gedefinieerde tijdsintervallen. Chrome past apparaatbeleidsregels opnieuw toe voor elke gebeurtenis wanneer de periode 'OffHours' begint of eindigt. De gebruiker ontvangt een melding en wordt gedwongen uit te loggen wanneer de tijd 'OffHours' eindigt en de apparaatbeleidsinstellingen worden gewijzigd (bijvoorbeeld wanneer de gebruiker is ingelogd met een niet-toegestaan account).</translation>
+<translation id="4978405676361550165">Als het beleid 'OffHours' is ingesteld, worden de gespecificeerde apparaatbeleidsregels genegeerd (gebruik de standaardinstellingen van deze beleidsregels) tijdens de gedefinieerde tijdsintervallen. Brave past apparaatbeleidsregels opnieuw toe voor elke gebeurtenis wanneer de periode 'OffHours' begint of eindigt. De gebruiker ontvangt een melding en wordt gedwongen uit te loggen wanneer de tijd 'OffHours' eindigt en de apparaatbeleidsinstellingen worden gewijzigd (bijvoorbeeld wanneer de gebruiker is ingelogd met een niet-toegestaan account).</translation>
 <translation id="4980635395568992380">Gegevenstype:</translation>
 <translation id="4983201894483989687">Verouderde plug-ins toestaan die actief zijn</translation>
 <translation id="4988291787868618635">Actie die wordt ondernomen wanneer de inactieve vertraging wordt bereikt</translation>
@@ -1594,7 +1594,7 @@
           Een waarde van * voor de zwarte lijst betekent dat alle hosts voor systeemeigen berichten op de zwarte lijst staan, tenzij ze expliciet op de witte lijst worden vermeld.
 
           Als dit beleid niet wordt ingesteld, laadt <ph name="PRODUCT_NAME" /> alle geïnstalleerde hosts voor systeemeigen berichten.</translation>
-<translation id="5272684451155669299">Als dit beleid is ingesteld op 'True', kan de gebruiker met de hardware van Chrome-apparaten de identiteit ervan extern bevestigen aan de privacy-CA via de <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> met <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
+<translation id="5272684451155669299">Als dit beleid is ingesteld op 'True', kan de gebruiker met de hardware van Brave-apparaten de identiteit ervan extern bevestigen aan de privacy-CA via de <ph name="ENTERPRISE_PLATFORM_KEYS_API" /> met <ph name="CHALLENGE_USER_KEY_FUNCTION" />.
 
           Als dit beleid is ingesteld op 'False' of niet is ingesteld, mislukt het aanroepen van de API en wordt er een foutcode weergegeven.</translation>
 <translation id="5277806246014825877">Deze gebruiker toestaan om Crostini uit te voeren.
@@ -1722,7 +1722,7 @@
       Houd er rekening mee dat dit niet wordt aanbevolen, aangezien zodoende de extensie nameConstraints, waarmee kan worden beperkt voor welke hostnamen een bepaald certificaat kan worden geautoriseerd, kan worden omzeild.
 
       Als dit beleid niet is ingesteld of is ingesteld op 'false' (onwaar), worden de servercertificaten die geen subjectAlternativeName-extensie met een DNS-naam of IP-adres bevatten, niet vertrouwd.</translation>
-<translation id="5581292529942108810">Aan Chrome Reporting Extension gerelateerde beleidsregels.
+<translation id="5581292529942108810">Aan Brave Reporting Extension gerelateerde beleidsregels.
 
       Dit beleid is alleen effectief wanneer de <ph name="CHROME_REPORTING_EXTENSION_NAME" /> is ingeschakeld en de machine is ingeschreven met <ph name="MACHINE_LEVEL_USER_CLOUD_POLICY_ENROLLMENT_TOKEN_POLICY_NAME" />.</translation>
 <translation id="5584132346604748282">Beheer van Google-locatieservices op Android</translation>
@@ -1784,7 +1784,7 @@
       Als het beleid is uitgeschakeld, worden downloads onmiddellijk gestart en wordt de gebruiker niet gevraagd waar het bestand moet worden opgeslagen.
       Als het beleid niet wordt geconfigureerd, kan de gebruiker deze instelling wijzigen.
       </translation>
-<translation id="5835124959204887277">Specificeert URL's en domeinen waarvoor geen prompt wordt weergegeven wanneer bevestigingscertificaten van beveiligingssleutels wordt aangevraagd. Er wordt bovendien een signaal verzonden naar de beveiligingssleutel dat aangeeft dat afzonderlijke bevestiging mag worden gebruikt. Zonder dit signaal krijgen gebruikers in Chrome 65+ een prompt te zien wanneer sites bevestiging van beveiligingssleutels aanvragen.
+<translation id="5835124959204887277">Specificeert URL's en domeinen waarvoor geen prompt wordt weergegeven wanneer bevestigingscertificaten van beveiligingssleutels wordt aangevraagd. Er wordt bovendien een signaal verzonden naar de beveiligingssleutel dat aangeeft dat afzonderlijke bevestiging mag worden gebruikt. Zonder dit signaal krijgen gebruikers in Brave 65+ een prompt te zien wanneer sites bevestiging van beveiligingssleutels aanvragen.
 
       URL's (zoals https://example.com/some/path) komen alleen overeen als U2F appID's. Domeinen (zoals example.com) komen alleen overeen als webauthn RP ID's. Dus om zowel de U2F- als webauthn-API voor een bepaalde site te omvatten, moeten zowel de appID-URL als het appID-domein worden vermeld.</translation>
 <translation id="5835412847081687053">Instellen welke weergavetalen zijn toegestaan in een gebruikerssessie</translation>
@@ -1972,7 +1972,7 @@
 <translation id="6282799760374509080">Het opnemen van audio toestaan of weigeren</translation>
 <translation id="6284362063448764300">TLS 1.1</translation>
 <translation id="6310223829319187614">Automatisch aanvullen van domeinnaam bij inloggen van gebruiker inschakelen</translation>
-<translation id="6315673513957120120">Chrome toont een waarschuwingspagina wanneer gebruikers naar sites met SSL-fouten navigeren. Gebruikers kunnen standaard, of wanneer dit beleid is ingesteld op 'waar', door deze waarschuwingspagina's klikken.
+<translation id="6315673513957120120">Brave toont een waarschuwingspagina wanneer gebruikers naar sites met SSL-fouten navigeren. Gebruikers kunnen standaard, of wanneer dit beleid is ingesteld op 'waar', door deze waarschuwingspagina's klikken.
       Als dit beleid wordt ingesteld op 'onwaar', kunnen gebruikers niet door waarschuwingspagina's klikken.</translation>
 <translation id="6353901068939575220">Specificeert de parameters die worden gebruikt wanneer een URL wordt gezocht met POST. Het bestaat uit door komma's gescheiden naam/waarde-paren. Als een waarde een templateparameter, zoals {searchTerms} in het bovenstaande voorbeeld, is, wordt de waarde vervangen door echte zoektermgegevens.
 
@@ -2003,7 +2003,7 @@
           Als je ervoor kiest de proxyserver automatisch te detecteren, ontvangen de Android-apps de script-URL http://wpad/wpad.dat. Er wordt geen enkel ander onderdeel van het protocol voor de automatische detectie van de proxy gebruikt.
 
           Als je het PAC-script voor de proxy kiest, ontvangen de Android-apps de script-URL.</translation>
-<translation id="6430366557948788869">Chrome Reporting Extension</translation>
+<translation id="6430366557948788869">Brave Reporting Extension</translation>
 <translation id="6440051664870270040">Toestaan dat sites tegelijkertijd kunnen navigeren en pop-ups kunnen openen</translation>
 <translation id="6447948611083700881">Back-up maken en terugzetten uitgeschakeld</translation>
 <translation id="645425387487868471">Gedwongen inloggen voor <ph name="PRODUCT_NAME" /> inschakelen</translation>
@@ -2198,7 +2198,7 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 
       OPMERKING: Site-isolatie op Android is experimenteel. De ondersteuning zal in de loop der tijd verbeteren, maar kan op dit moment prestatieproblemen veroorzaken.
 
-      OPMERKING: Dit beleid is alleen van toepassing op Chrome op Android-apparaten met meer dan 1 GB RAM. Als je het beleid op andere platforms wilt toepassen, gebruik je SitePerProcess.
+      OPMERKING: Dit beleid is alleen van toepassing op Brave op Android-apparaten met meer dan 1 GB RAM. Als je het beleid op andere platforms wilt toepassen, gebruik je SitePerProcess.
       </translation>
 <translation id="6922040258551909078">Als het beleid is ingesteld op 'True', krijgt het cloudbeleid voorrang als dit conflicteert met het apparaatbeleid.
       Als het beleid is ingesteld op 'False' of niet is geconfigureerd, krijgt het apparaatbeleid voorrang als dit conflicteert met het cloudbeleid.
@@ -2274,9 +2274,9 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 
       Als het beleid is ingesteld op 'False' of niet wordt ingesteld, mag <ph name="PRODUCT_NAME" /> deze logboeken niet verzamelen of uploaden.
 
-      Deze logboeken bevatten diagnostische informatie die handig is voor het oplossen van problemen met audio- of videogesprekken in Chrome. Deze informatie betreft bijvoorbeeld het tijdstip en de grootte van verzonden en ontvangen RTP-pakketten, feedback over overbelasting van het netwerk en metadata over de duur en kwaliteit van audio- en videoframes. Deze logboeken bevatten geen audio of video van het gesprek.
+      Deze logboeken bevatten diagnostische informatie die handig is voor het oplossen van problemen met audio- of videogesprekken in Brave. Deze informatie betreft bijvoorbeeld het tijdstip en de grootte van verzonden en ontvangen RTP-pakketten, feedback over overbelasting van het netwerk en metadata over de duur en kwaliteit van audio- en videoframes. Deze logboeken bevatten geen audio of video van het gesprek.
 
-      Chrome verzamelt deze gegevens alleen als Chrome wordt getriggerd door webservices van Google, zoals Google Hangouts of Google Meet.
+      Brave verzamelt deze gegevens alleen als Brave wordt getriggerd door webservices van Google, zoals Google Hangouts of Google Meet.
 
       Google mag deze logboeken aan de hand van de sessie-ID koppelen aan andere logboeken die door de Google-service zelf zijn verzameld. Het doel hiervan is dat fouten makkelijker kunnen worden opgespoord.</translation>
 <translation id="706669471845501145">Sites toestaan bureaubladmeldingen weer te geven</translation>
@@ -2350,11 +2350,11 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 
           Als je dit beleid niet instelt, is het vergrootglas uitgeschakeld wanneer het inlogscherm voor de eerste keer wordt weergegeven. Gebruikers kunnen het vergrootglas op elk moment in- of uitschakelen en de status op het inlogscherm is van toepassing op alle gebruikers.</translation>
 <translation id="7249828445670652637">CA-certificaten van <ph name="PRODUCT_OS_NAME" /> voor ARC-apps inschakelen</translation>
-<translation id="725322441686394886">Als dit niet is ingesteld en Chrome Cleanup ongewenste software detecteert, kan Chrome Cleanup metadata over de scan doorgeven aan Google in overeenstemming met het beleid dat is ingesteld door SafeBrowsingExtendedReportingEnabled. Chrome Cleanup vraagt de gebruiker of de ongewenste software moet worden verwijderd. De gebruiker kan ervoor kiezen de resultaten van de opschoning met Google te delen, zodat Google de detectie van ongewenste software kan verbeteren. Deze resultaten bevatten metadata van bestanden, automatisch geïnstalleerde extensies en registersleutels, zoals wordt beschreven in de whitepaper over Chrome en privacy.
+<translation id="725322441686394886">Als dit niet is ingesteld en Brave Cleanup ongewenste software detecteert, kan Brave Cleanup metadata over de scan doorgeven aan Google in overeenstemming met het beleid dat is ingesteld door SafeBrowsingExtendedReportingEnabled. Brave Cleanup vraagt de gebruiker of de ongewenste software moet worden verwijderd. De gebruiker kan ervoor kiezen de resultaten van de opschoning met Google te delen, zodat Google de detectie van ongewenste software kan verbeteren. Deze resultaten bevatten metadata van bestanden, automatisch geïnstalleerde extensies en registersleutels, zoals wordt beschreven in de whitepaper over Brave en privacy.
 
-      Als dit is uitgeschakeld en Chrome Cleanup ongewenste software detecteert, worden er geen metadata van de scan met Google gedeeld. Het beleid dat is ingesteld door SafeBrowsingExtendedReportingEnabled wordt genegeerd. Chrome Cleanup vraagt de gebruiker of de ongewenste software moet worden verwijderd. De resultaten van de opschoning worden niet met Google gedeeld, en de gebruiker krijgt niet de keuze om dit wel te doen.
+      Als dit is uitgeschakeld en Brave Cleanup ongewenste software detecteert, worden er geen metadata van de scan met Google gedeeld. Het beleid dat is ingesteld door SafeBrowsingExtendedReportingEnabled wordt genegeerd. Brave Cleanup vraagt de gebruiker of de ongewenste software moet worden verwijderd. De resultaten van de opschoning worden niet met Google gedeeld, en de gebruiker krijgt niet de keuze om dit wel te doen.
 
-      Als dit is ingeschakeld en Chrome Cleanup ongewenste software detecteert, kan Chrome Cleanup metadata over de scan doorgeven aan Google in overeenstemming met het beleid dat is ingesteld door SafeBrowsingExtendedReportingEnabled. Chrome Cleanup vraagt de gebruiker of de ongewenste software moet worden verwijderd. De resultaten van de opschoning worden met Google gedeeld, en de gebruiker krijgt niet de keuze om dit te voorkomen.
+      Als dit is ingeschakeld en Brave Cleanup ongewenste software detecteert, kan Brave Cleanup metadata over de scan doorgeven aan Google in overeenstemming met het beleid dat is ingesteld door SafeBrowsingExtendedReportingEnabled. Brave Cleanup vraagt de gebruiker of de ongewenste software moet worden verwijderd. De resultaten van de opschoning worden met Google gedeeld, en de gebruiker krijgt niet de keuze om dit te voorkomen.
 
       Dit beleid is niet beschikbaar voor Windows-instanties die niet aan een <ph name="MS_AD_NAME" />-domein zijn gekoppeld.</translation>
 <translation id="7258823566580374486">Afschermen van hosts voor externe toegang inschakelen</translation>
@@ -2408,9 +2408,9 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 <translation id="7329968046053403405">Hiermee wordt het accounttype gespecificeerd van de accounts die worden geleverd door de verificatie-app voor Android die <ph name="HTTP_NEGOTIATE" />-verificatie ondersteunt (zoals Kerberos-verificatie). Deze informatie is beschikbaar via de leverancier van de verificatie-app. Ga voor meer informatie naar https://goo.gl/hajyfN.
 
           Als er geen instelling is opgegeven, wordt <ph name="HTTP_NEGOTIATE" />-verificatie uitgeschakeld voor Android.</translation>
-<translation id="7331962793961469250">Wanneer dit is ingesteld op 'True', worden promoties voor apps van de Chrome Web Store niet weergegeven op de pagina 'Nieuw tabblad'.
+<translation id="7331962793961469250">Wanneer dit is ingesteld op 'True', worden promoties voor apps van de Brave Web Store niet weergegeven op de pagina 'Nieuw tabblad'.
 
-      Als je deze optie instelt op 'False' of deze niet instelt, worden promoties voor apps van de Chrome Web Store wel op de pagina 'Nieuw tabblad' weergegeven.</translation>
+      Als je deze optie instelt op 'False' of deze niet instelt, worden promoties voor apps van de Brave Web Store wel op de pagina 'Nieuw tabblad' weergegeven.</translation>
 <translation id="7332963785317884918">Dit beleid is niet langer in gebruik. <ph name="PRODUCT_OS_NAME" /> gebruikt altijd de opschoonstrategie 'RemoveLRU'.
 
       Bepaalt het automatische opschoongedrag op <ph name="PRODUCT_OS_NAME" />-apparaten. Automatisch opschonen wordt geactiveerd wanneer de hoeveelheid vrije schijfruimte een kritiek niveau bereikt, om wat schijfruimte vrij te maken.
@@ -2425,7 +2425,7 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 <translation id="7343497214039883642">Configuratiebestand voor zakelijke printers voor apparaten</translation>
 <translation id="7349338075015720646">Specificeert een lijst met web-apps die op de achtergrond worden geïnstalleerd zonder interactie van de gebruiker en die niet kunnen worden verwijderd of uitgeschakeld door de gebruiker.
 
-      Elk lijstitem van het beleid is een tweeledig object, bestaande uit 'url' en 'launch_container'. 'url' moet de URL van de te installeren web-app zijn en 'launch_container' moet 'window' of 'tab' zijn om aan te duiden hoe de web-app na de installatie wordt geopend. Als 'launch_container' wordt weggelaten, wordt de app geopend in een venster indien Chrome de app als progressieve web-app beschouwt en op een tabblad indien de app niet als progressieve web-app wordt beschouwd.</translation>
+      Elk lijstitem van het beleid is een tweeledig object, bestaande uit 'url' en 'launch_container'. 'url' moet de URL van de te installeren web-app zijn en 'launch_container' moet 'window' of 'tab' zijn om aan te duiden hoe de web-app na de installatie wordt geopend. Als 'launch_container' wordt weggelaten, wordt de app geopend in een venster indien Brave de app als progressieve web-app beschouwt en op een tabblad indien de app niet als progressieve web-app wordt beschouwd.</translation>
 <translation id="735902178936442460">Met dit beleid wordt bepaald of er informatie moet worden gerapporteerd die gebruikt kan worden om machines te identificeren, zoals de machinenaam en netwerkadressen.
 
       Als dit beleid niet is ingesteld of op 'True' is ingesteld, worden er gegevens verzameld die kunnen worden gebruikt om machines te identificeren.
@@ -2438,9 +2438,9 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 
       Zie https://developers.google.com/safe-browsing voor meer informatie over Safe Browsing.</translation>
 <translation id="737655323154569539">Hiermee beperk je de grootte van de afdrukpagina. Als er geen beleid is ingesteld of de instelling leeg is, gelden er geen beperkingen.</translation>
-<translation id="7417728346887499628">Als dit beleid is uitgeschakeld, scant Chrome Cleanup het systeem niet op ongewenste software en kan de tool niets opschonen. Het is in dit geval ook niet meer mogelijk Chrome Cleanup handmatig te starten via chrome://settings/cleanup.
+<translation id="7417728346887499628">Als dit beleid is uitgeschakeld, scant Brave Cleanup het systeem niet op ongewenste software en kan de tool niets opschonen. Het is in dit geval ook niet meer mogelijk Brave Cleanup handmatig te starten via chrome://settings/cleanup.
 
-      Als de waarde is ingeschakeld of niet is ingesteld, scant Chrome Cleanup het systeem periodiek op ongewenste software. Als er ongewenste software wordt aangetroffen, wordt de gebruiker gevraagd of deze software moet worden verwijderd. Het is in dit geval mogelijk Chrome Cleanup te starten via chrome://settings.
+      Als de waarde is ingeschakeld of niet is ingesteld, scant Brave Cleanup het systeem periodiek op ongewenste software. Als er ongewenste software wordt aangetroffen, wordt de gebruiker gevraagd of deze software moet worden verwijderd. Het is in dit geval mogelijk Brave Cleanup te starten via chrome://settings.
 
       Dit beleid is niet beschikbaar voor Windows-instanties die niet aan een <ph name="MS_AD_NAME" />-domein zijn gekoppeld.</translation>
 <translation id="7417972229667085380">Het percentage waarmee je de inactieve vertraging in presentatiemodus kunt schalen (verouderd)</translation>
@@ -2683,7 +2683,7 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
 
       OPMERKING: Site-isolatie op Android is experimenteel. De ondersteuning zal in de loop der tijd verbeteren, maar kan op dit moment prestatieproblemen veroorzaken.
 
-      OPMERKING: Dit beleid is uitsluitend van toepassing op Chrome op Android met meer dan 1 GB RAM. Als je het beleid op andere platforms wilt toepassen, gebruik je SitePerProcess.
+      OPMERKING: Dit beleid is uitsluitend van toepassing op Brave op Android met meer dan 1 GB RAM. Als je het beleid op andere platforms wilt toepassen, gebruik je SitePerProcess.
       </translation>
 <translation id="7953256619080733119">Hosts van handmatige uitzonderingen voor beheerde gebruikers</translation>
 <translation id="7961779417826583251">Handhaving van Certificaattransparantie voor een lijst met certificeringsinstanties uitschakelen</translation>
@@ -2798,7 +2798,7 @@ Geheugengegevens worden in alle gevallen aan de pagina gerapporteerd, afgezien v
       Als het beleid niet wordt ingesteld, gebruikt <ph name="PRODUCT_OS_NAME" /> de e-mailaccount-ID van het lokale account van het apparaat als de weergavenaam op het aanmeldscherm.
 
       Dit beleid wordt genegeerd voor gewone gebruikersaccounts.</translation>
-<translation id="8259375588339409826">Chromium en Google Chrome ondersteunen dezelfde reeks beleidsregels. Dit document bevat mogelijk niet-vrijgegeven beleidsregels (dat wil zeggen, het item 'Ondersteund op' verwijst naar een nog niet vrijgegeven versie van <ph name="PRODUCT_NAME" />) die zonder kennisgeving kunnen worden gewijzigd of verwijderd en waarvoor geen enkele garanties worden geleverd, waaronder geen garanties met betrekking tot hun beveiligings- en privacy-eigenschappen.
+<translation id="8259375588339409826">Brave en Brave ondersteunen dezelfde reeks beleidsregels. Dit document bevat mogelijk niet-vrijgegeven beleidsregels (dat wil zeggen, het item 'Ondersteund op' verwijst naar een nog niet vrijgegeven versie van <ph name="PRODUCT_NAME" />) die zonder kennisgeving kunnen worden gewijzigd of verwijderd en waarvoor geen enkele garanties worden geleverd, waaronder geen garanties met betrekking tot hun beveiligings- en privacy-eigenschappen.
 
 Deze beleidsregels zijn uitsluitend bedoeld voor het configureren van instanties van <ph name="PRODUCT_NAME" /> binnen je organisatie. Gebruik van deze beleidsregels buiten je organisatie (bijvoorbeeld in een openbaar gedistribueerd programma) wordt beschouwd als malware en wordt waarschijnlijk gelabeld als malware door Google en antivirusproviders.
 
@@ -2850,7 +2850,7 @@ De aanbevolen manier om beleidsregels te configureren op Windows, is via GPO, ma
 <translation id="8339420913453596618">Tweede factor uitgeschakeld</translation>
 <translation id="8344454543174932833">Bladwijzers importeren uit standaardbrowser bij eerste uitvoering</translation>
 <translation id="8359734107661430198">API voor ExampleDeprecatedFeature tot en met 02-09-2008 inschakelen</translation>
-<translation id="8367209241899435947">Chrome Cleanup inschakelen op Windows</translation>
+<translation id="8367209241899435947">Brave Cleanup inschakelen op Windows</translation>
 <translation id="8369602308428138533">Vertraging van scherm uitschakelen wanneer op netstroom wordt gewerkt</translation>
 <translation id="8382184662529825177">Het gebruik van externe verificatie inschakelen voor het beveiligen van content voor het apparaat</translation>
 <translation id="838870586332499308">Dataroaming inschakelen</translation>

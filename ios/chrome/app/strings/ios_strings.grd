@@ -141,7 +141,7 @@ locale.  The strings in this file are specific to iOS.
         Ok, Got it
       </message>
       <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_OPEN_SETTINGS" desc="Description of how to configure sync and Google services on the sign-in confirmation screen. [Length: unlimited]">
-        Manage Chrome Sync and personalization in <ph name="BEGIN_LINK">BEGIN_LINK</ph>Settings<ph name="END_LINK">END_LINK</ph>
+        Manage Brave Sync and personalization in <ph name="BEGIN_LINK">BEGIN_LINK</ph>Settings<ph name="END_LINK">END_LINK</ph>
       </message>
       <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_SCROLL_BUTTON" desc="Title of the button to scroll the confirmation screen when it is too small to show everything at once. [Length: 20m] [iOS only]">
         More
@@ -152,12 +152,12 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_SERVICES_TITLE" desc="Title of the Google services section on the sign-in confirmation screen. [Length: 50em]">
         Personalize Google services
       </message>
-      <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_SYNC_DESCRIPTION" desc="Description of the Chrome sync section on the sign-in confirmation screen. [Length: unlimited]">
+      <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_SYNC_DESCRIPTION" desc="Description of the Brave sync section on the sign-in confirmation screen. [Length: unlimited]">
         Your bookmarks, history, passwords, and other settings will be synced to your Google Account so you can use them on all your devices.
       </message>
-      <!-- "Chrome sync" is the Google Cloud Based service used for sync. Thus this string resource is set to "Chrome sync" even for Chromium builds. -->
-      <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_SYNC_TITLE" desc="Title of the Chrome sync section on the sign-in confirmation screen. [Length: 50em]">
-        Chrome Sync
+      <!-- "Brave sync" is the Google Cloud Based service used for sync. Thus this string resource is set to "Brave sync" even for Brave builds. -->
+      <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_SYNC_TITLE" desc="Title of the Brave sync section on the sign-in confirmation screen. [Length: 50em]">
+        Brave Sync
       </message>
       <message name="IDS_IOS_ACCOUNT_CONSISTENCY_CONFIRMATION_TITLE" desc="Title of the screen confirming selection of an account. [Length: 10em] [iOS only]">
         Hi, <ph name="FULL_ACCOUNT_NAME">$1<ex>Jane Doe</ex></ph>
@@ -453,10 +453,10 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_CLEAR_AUTOFILL" desc="Label for the option in settings to clear form data. In titlecase. [Length: 20em] [iOS only]">
         Autofill Data
       </message>
-      <message name="IDS_IOS_CLEAR_BROWSING_DATA_FOOTER_ACCOUNT" desc="Footer message in the settings to clear browsing data that informs the user that clearing browsing data will not sign them out of Chrome.">
+      <message name="IDS_IOS_CLEAR_BROWSING_DATA_FOOTER_ACCOUNT" desc="Footer message in the settings to clear browsing data that informs the user that clearing browsing data will not sign them out of Brave.">
         You won't be signed out of your Google Account.
       </message>
-      <message name="IDS_IOS_CLEAR_BROWSING_DATA_FOOTER_ACCOUNT_AND_HISTORY" desc="Footer message in the settings to clear browsing data that informs the user that clearing browsing data will not sign them out of Chrome and that other forms of history will still be available.">
+      <message name="IDS_IOS_CLEAR_BROWSING_DATA_FOOTER_ACCOUNT_AND_HISTORY" desc="Footer message in the settings to clear browsing data that informs the user that clearing browsing data will not sign them out of Brave and that other forms of history will still be available.">
         You won't be signed out of your Google Account. Your Google Account may have other forms of browsing history at <ph name="BEGIN_LINK">BEGIN_LINK</ph>history.google.com<ph name="END_LINK">END_LINK</ph>.
       </message>
       <message name="IDS_IOS_CLEAR_BROWSING_DATA_FOOTER_CLEAR_SYNC_AND_SAVED_SITE_DATA" desc="Footer message in the settings to clear browsing data that informs the user the synced data will be cleared on all devices and that saved site settings will not be deleted.">
@@ -568,7 +568,7 @@ locale.  The strings in this file are specific to iOS.
         Save Image
       </message>
       <message name="IDS_IOS_CONTENT_SUGGESTIONS_ACCESSIBILITY_LABEL_SUGGESTION" desc="The accessibility label of a suggestion. Summarizes fields in the reading list entry (title, publisher informations, status and informations). Read by Text-to-Speech.">
-        <ph name="TITLE"><ex>Learn about the new Chromium Projects</ex>$1</ph>, <ph name="PUBLISHER_INFORMATION"><ex>The Chromium organization</ex>$2</ph>, <ph name="PUBLICATION_DATE"><ex>January 1 2017</ex>$3</ph>
+        <ph name="TITLE"><ex>Learn about the new Brave Projects</ex>$1</ph>, <ph name="PUBLISHER_INFORMATION"><ex>The Brave organization</ex>$2</ph>, <ph name="PUBLICATION_DATE"><ex>January 1 2017</ex>$3</ph>
       </message>
       <message name="IDS_IOS_CONTENT_SUGGESTIONS_BOOKMARKS" desc="The Bookmarks title on the new tab page [Length: 10em]">
         Bookmarks
@@ -609,7 +609,7 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_CONTEXT_MENU_SEARCHWEBFORIMAGE" desc="Context menu text for option to perform a search for image [Length: 25em] [iOS only]">
         Search <ph name="SEARCH_ENGINE">$1<ex>Google</ex></ph> for This Image
       </message>
-      <message name="IDS_IOS_COPY_VERSION_HINT" desc="The accessibility hint for the label showing the Chrome version. [iOS only]">
+      <message name="IDS_IOS_COPY_VERSION_HINT" desc="The accessibility hint for the label showing the Brave version. [iOS only]">
         Double tap to copy.
       </message>
       <message name="IDS_IOS_DISCONNECT_DIALOG_CONTINUE_BUTTON_MOBILE" desc="The title of the continue button on the disconnect dialog [Length: 20em].">
@@ -756,7 +756,7 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_HISTORY_TEXT" desc="Feature in the settings for the user to enable/disable, to sync browsing history between devices. [iOS only]">
         History
       </message>
-      <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_IMPROVE_CHROME_DETAIL" desc="Feature detail text in the settings for the user enable or disable. Related with 'Help improve Chrome's features and performance' feature. [iOS only]">
+      <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_IMPROVE_CHROME_DETAIL" desc="Feature detail text in the settings for the user enable or disable. Related with 'Help improve Brave's features and performance' feature. [iOS only]">
         Automatically sends usage statistics and crash reports to Google
       </message>
       <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_MANAGED_SYNC_DATA_TEXT" desc="Opens the sync data screen for the user to manage their synced data. [iOS only]">
@@ -792,13 +792,13 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_SYNC_PERSONALIZATION_TEXT" desc="Section title for the list of all the personalized features to enable/disable in the settings. Related to 'Your browsing data and activity, synced to your Google Account'. [iOS only]">
         Sync and Personalization
       </message>
-      <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_NON_PERSONALIZED_SERVICES_TEXT" desc="Section title for the list of all the non-personalized features to enable/disable in the settings. Related to 'Communicates with Google to improve browsing and Chrome'. [iOS only]">
+      <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_NON_PERSONALIZED_SERVICES_TEXT" desc="Section title for the list of all the non-personalized features to enable/disable in the settings. Related to 'Communicates with Google to improve browsing and Brave'. [iOS only]">
         Other Google Services
       </message>
       <message name="IDS_IOS_GOOGLE_SERVICES_SETTINGS_TITLE" desc="Title for the view in the Settings for enabling/disabling Sync and all the Google services. [Length: 26em] [iOS only]">
         Sync and Google Services
       </message>
-      <message name="IDS_IOS_HISTORY_OTHER_FORMS_OF_HISTORY" desc="The notification at the top of the history page indicating that deleting Chrome browsing history will not delete other forms of history stored at Google My Activity.">
+      <message name="IDS_IOS_HISTORY_OTHER_FORMS_OF_HISTORY" desc="The notification at the top of the history page indicating that deleting Brave browsing history will not delete other forms of history stored at Google My Activity.">
         Your Google Account may have other forms of browsing history at <ph name="BEGIN_LINK">BEGIN_LINK</ph>history.google.com<ph name="END_LINK">END_LINK</ph>.
       </message>
       <message name="IDS_IOS_HTTP_LOGIN_DIALOG_PASSWORD_PLACEHOLDER" desc="The placeholder text for the password on the http login dialog [Length: 20em] [iOS only]">
@@ -846,7 +846,7 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_LONG_PRESS_TOOLBAR_IPH_PROMOTION_TEXT" desc="Text for the LongPress Toolbar Tip in-product help promotion, explaining that the user can long press on the toolbar's button to display more options. [iOS only]">
         Press and hold for more tab options
       </message>
-      <message name="IDS_IOS_MANAGED_DISCONNECT_DIALOG_ACCEPT" desc="Label on the button to proceed with signout and clear all Chrome data.[Length: 30em].">
+      <message name="IDS_IOS_MANAGED_DISCONNECT_DIALOG_ACCEPT" desc="Label on the button to proceed with signout and clear all Brave data.[Length: 30em].">
         Accept and sign out
       </message>
       <message name="IDS_IOS_MANAGED_DISCONNECT_DIALOG_TITLE" desc="Title of the dialog shown when signing out of a managed account.[Length: 50em].">
@@ -960,7 +960,7 @@ locale.  The strings in this file are specific to iOS.
       <message name="IDS_IOS_OPTIONS_ACCOUNTS_ADD_ACCOUNT_BUTTON" desc="The title of the Add account button on the accounts settings screen [iOS only] [30em]">
         Add Account…
       </message>
-      <message name="IDS_IOS_OPTIONS_ACCOUNTS_DESCRIPTION" desc="Text informing the user of the accounts they are signed in to Chrome with [iOS only] [150em]">
+      <message name="IDS_IOS_OPTIONS_ACCOUNTS_DESCRIPTION" desc="Text informing the user of the accounts they are signed in to Brave with [iOS only] [150em]">
         Signed In to Google as
       </message>
       <message name="IDS_IOS_OPTIONS_ACCOUNTS_GOOGLE_DESCRIPTION" desc="Text of the Google Activity Controls button on the accounts settings screen [Length: 150em]">
@@ -1083,10 +1083,10 @@ Handoff must also be enabled in the General section of Settings, and your device
         Update
       </message>
       <message name="IDS_IOS_PASSWORD_MANAGER_UPDATE_PASSWORD" desc="Infobar message to update a password without associated credential [Length: 70em].">
-        Do you want <ph name="PASSWORD_MANAGER_BRAND">$1<ex>Google Chrome</ex></ph> to update your password for this site?
+        Do you want <ph name="PASSWORD_MANAGER_BRAND">$1<ex>Brave</ex></ph> to update your password for this site?
       </message>
       <message name="IDS_IOS_PASSWORD_MANAGER_UPDATE_PASSWORD_FOR_ACCOUNT" desc="Infobar message to update a password for named account, referring to PASSWORD_MANAGER_BRAND as the  [Length:70em]">
-        Do you want <ph name="PASSWORD_MANAGER_BRAND">$1<ex>Google Chrome</ex></ph> to update your password for <ph name="USERNAME">$2<ex>don.john.lemon@example.com</ex></ph> for this site?
+        Do you want <ph name="PASSWORD_MANAGER_BRAND">$1<ex>Brave</ex></ph> to update your password for <ph name="USERNAME">$2<ex>don.john.lemon@example.com</ex></ph> for this site?
       </message>
       <message name="IDS_IOS_PHOTO_LIBRARY_USAGE_DESCRIPTION" desc="Specifies the reason for accessing the user's photo library while the app is in use [Length: unlimited] [iOS only].">
         This lets you save and upload photos.
@@ -1161,7 +1161,7 @@ Handoff must also be enabled in the General section of Settings, and your device
         Added to Reading List
       </message>
       <message name="IDS_IOS_READING_LIST_ENTRY_ACCESSIBILITY_LABEL" desc="Accessibility label for a reading list entry. Summarizes fields in the reading list entry (title, status and url). Read by Text To Speech.">
-        <ph name="TITLE"><ex>Chromium - The Chromium Projects</ex>$1</ph>, <ph name="STATE"><ex>Available offline</ex>$2</ph>, <ph name="URL"><ex>http://www.chromium.org/Home</ex>$3</ph>
+        <ph name="TITLE"><ex>Brave - The Brave Projects</ex>$1</ph>, <ph name="STATE"><ex>Available offline</ex>$2</ph>, <ph name="URL"><ex>http://www.chromium.org/Home</ex>$3</ph>
       </message>
       <message name="IDS_IOS_READING_LIST_ACCESSIBILITY_STATE_DOWNLOADED" desc="Accessibility label for the offline status of the reading list entry. Read by Text To Speech.">
         Available offline
@@ -1244,16 +1244,16 @@ Handoff must also be enabled in the General section of Settings, and your device
       <message name="IDS_IOS_SAFE_MODE_AW_SNAP" desc="The title of the safe mode UI after multiple crashes.  This is intended to be a humorous exclamation of dismay. [Length: 30em]">
         Aw, Snap!
       </message>
-      <message name="IDS_IOS_SAFE_MODE_CRASH_REPORT_SENT" desc="The message indicating that Chrome sent a crash report. [Length: 140em]">
+      <message name="IDS_IOS_SAFE_MODE_CRASH_REPORT_SENT" desc="The message indicating that Brave sent a crash report. [Length: 140em]">
         Crash report sent.
       </message>
-      <message name="IDS_IOS_SAFE_MODE_RELOAD_CHROME" desc="The label of a button used to start Chrome from safe mode.  Clicking this button dismisses the safe mode UI and launches Chrome. [Length: 30em]">
+      <message name="IDS_IOS_SAFE_MODE_RELOAD_CHROME" desc="The label of a button used to start Brave from safe mode.  Clicking this button dismisses the safe mode UI and launches Brave. [Length: 30em]">
         Try again
       </message>
-      <message name="IDS_IOS_SAFE_MODE_SENDING_CRASH_REPORT" desc="The message indicating that Chrome is sending a crash report. [Length: 140em]">
+      <message name="IDS_IOS_SAFE_MODE_SENDING_CRASH_REPORT" desc="The message indicating that Brave is sending a crash report. [Length: 140em]">
         Sending crash report...
       </message>
-      <message name="IDS_IOS_SAFE_MODE_UNKNOWN_CAUSE" desc="The message indicating that Chrome crashed for an unknown reason. [Length: 140em]">
+      <message name="IDS_IOS_SAFE_MODE_UNKNOWN_CAUSE" desc="The message indicating that Brave crashed for an unknown reason. [Length: 140em]">
         Something went really wrong. We'll work on that.
       </message>
       <message name="IDS_IOS_SAVE_IMAGE_NO_INTERNET_CONNECTION" desc="Message informing the user that the image could not be saved because the device has no internet connection.">
@@ -1472,10 +1472,10 @@ Handoff must also be enabled in the General section of Settings, and your device
       <message name="IDS_IOS_SIGNED_IN_ACCOUNTS_VIEW_TITLE" desc="The title of the Signed In Accounts view [iOS only] [30em]">
         You're signed in
       </message>
-      <message name="IDS_IOS_SIGN_IN_FAILED" desc="Explanatory message shown when Sign in to Chrome failed for an unknown technical reason.  [Length: 50em] [iOS only]">
+      <message name="IDS_IOS_SIGN_IN_FAILED" desc="Explanatory message shown when Sign in to Brave failed for an unknown technical reason.  [Length: 50em] [iOS only]">
         Failed to sign in. Please try again later.
       </message>
-      <message name="IDS_IOS_SIGN_IN_TO_CHROME_SETTING_SUBTITLE" desc="The subtitle for the setting item to Sign in to Chrome [iOS only]">
+      <message name="IDS_IOS_SIGN_IN_TO_CHROME_SETTING_SUBTITLE" desc="The subtitle for the setting item to Sign in to Brave [iOS only]">
         Get your bookmarks, history, passwords, and other settings on all your devices
       </message>
       <message name="IDS_IOS_SIGN_IN_TO_CHROME_SETTING_SYNCING" desc="The subtitle for the setting item of the signed in user [iOS only]">
@@ -1484,34 +1484,34 @@ Handoff must also be enabled in the General section of Settings, and your device
       <message name="IDS_IOS_SIGN_IN_TO_CHROME_SETTING_SYNC_OFF" desc="The subtitle for the setting item of the signed in user when sync is off [iOS only]">
         Sync is Off
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_EIGHT" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_EIGHT" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Online
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_FIVE" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_FIVE" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Browse
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_FOUR" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_FOUR" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Search
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_NINE" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_NINE" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Autofill
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_ONE" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_ONE" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Incognito
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_SEVEN" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_SEVEN" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Network
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_SIX" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_SIX" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         www
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_TEN" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_TEN" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Sync
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_THREE" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_THREE" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Private
       </message>
-      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_TWO" desc="Keyword used in Spotlight that will be linked to the Chrome App. [iOS only]">
+      <message name="IDS_IOS_SPOTLIGHT_KEYWORD_TWO" desc="Keyword used in Spotlight that will be linked to the Brave App. [iOS only]">
         Internet
       </message>
       <message name="IDS_IOS_SUGGESTIONS_DONE" desc="Label of the navigation bar button to close the view.">
@@ -1584,7 +1584,7 @@ Your data was encrypted with your sync passphrase on <ph name="TIME">$2<ex>Sept 
       <message name="IDS_IOS_SYNC_INCORRECT_PASSPHRASE" desc="Message when the passphrase is incorrect.">
         Incorrect passphrase
       </message>
-      <message name="IDS_IOS_SYNC_INFOBAR_SIGN_IN_SETTINGS_BUTTON_MOBILE" desc="Infobar button on Chrome Welcome page to let the user access the Sing in settings view. [Length: 20em]">
+      <message name="IDS_IOS_SYNC_INFOBAR_SIGN_IN_SETTINGS_BUTTON_MOBILE" desc="Infobar button on Brave Welcome page to let the user access the Sing in settings view. [Length: 20em]">
         Sign in settings
       </message>
       <message name="IDS_IOS_SYNC_LOGIN_INFO_OUT_OF_DATE" desc="The login information for the user is out of date - for example, the user changed their password and therefore signing in again is required.">
@@ -1806,7 +1806,7 @@ Your data was encrypted with your sync passphrase on <ph name="TIME">$2<ex>Sept 
       <message name="IDS_IOS_UPGRADE_AVAILABLE_BUTTON" desc="Displayed on a button the user can use to upgrade the a more recent version of the application. [Length: 10em]">
         Update
       </message>
-      <message name="IDS_IOS_VERSION" desc="The label for the Chrome version on which the application is based, displayed in the About Chrome settings page [Length: 30em] [iOS only]">
+      <message name="IDS_IOS_VERSION" desc="The label for the Brave version on which the application is based, displayed in the About Brave settings page [Length: 30em] [iOS only]">
         Version <ph name="PRODUCT_VERSION">$1<ex>31.0.1650.18</ex></ph>
       </message>
       <message name="IDS_IOS_VERSION_COPIED" desc="The message displayed when the version label is tapped (in About settings) [Length: 10em] [iOS only]">
@@ -1824,10 +1824,10 @@ Your data was encrypted with your sync passphrase on <ph name="TIME">$2<ex>Sept 
       <message name="IDS_IOS_VOICE_SEARCH_SETTING_TTS" desc="The label for setting switch enabling text-to-speech response after voice search [Length: 29em] [iOS only]">
         Speak Answers Back
       </message>
-      <message name="IDS_IOS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Chrome with this acccount. [Length: 9em]">
+      <message name="IDS_IOS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Brave with this acccount. [Length: 9em]">
         Continue as <ph name="NAME">$1<ex>John Doe</ex></ph>
       </message>
-      <message name="IDS_IOS_SIGNIN_PROMO_NOT" desc="Button that the user can press if they are not the profile that Chrome found (opposite of 'Continue as Joe Doe').">
+      <message name="IDS_IOS_SIGNIN_PROMO_NOT" desc="Button that the user can press if they are not the profile that Brave found (opposite of 'Continue as Joe Doe').">
         Not <ph name="EMAIL">$1<ex>john.doe@example.com</ex>?</ph>
       </message>
       <message name="IDS_IOS_SIGNIN_PROMO_CLOSE_ACCESSIBILITY" desc="Accessibility label to describe the close button action in the sign-in promo element.">

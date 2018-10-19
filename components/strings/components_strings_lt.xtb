@@ -155,7 +155,7 @@
 <translation id="192020519938775529">{COUNT,plural, =0{Nėra}=1{1 svetainė}one{# svetainė}few{# svetainės}many{# svetainės}other{# svetainių}}</translation>
 <translation id="1927235823738766038">Tinkamos kredito ir debeto kortelės</translation>
 <translation id="194030505837763158">Apsilankykite <ph name="LINK" /></translation>
-<translation id="1945968466830820669">Galite prarasti prieigą prie organizacijos paskyros arba gali būti pavogta tapatybė. „Chromium“ rekomenduoja pakeisti slaptažodį dabar.</translation>
+<translation id="1945968466830820669">Galite prarasti prieigą prie organizacijos paskyros arba gali būti pavogta tapatybė. „Brave“ rekomenduoja pakeisti slaptažodį dabar.</translation>
 <translation id="1948773908305951926">Tinkamos išankstinio mokėjimo kortelės</translation>
 <translation id="1962204205936693436"><ph name="DOMAIN" /> žymės</translation>
 <translation id="1973335181906896915">Serijinio rengimo klaida</translation>
@@ -228,7 +228,7 @@
 <translation id="2482878487686419369">Pranešimai</translation>
 <translation id="2491120439723279231">Serverio sertifikate yra klaidų.</translation>
 <translation id="2495083838625180221">JSON analizavimo įrankis</translation>
-<translation id="2495093607237746763">Jei pažymėta, „Chromium“ išsaugos kortelės kopiją įrenginyje, kad galėtumėte greičiau užpildyti formas.</translation>
+<translation id="2495093607237746763">Jei pažymėta, „Brave“ išsaugos kortelės kopiją įrenginyje, kad galėtumėte greičiau užpildyti formas.</translation>
 <translation id="2498091847651709837">Nuskaityti naują kortelę</translation>
 <translation id="2501278716633472235">Grįžti</translation>
 <translation id="2503184589641749290">Tinkamos debeto ir išankstinio mokėjimo kortelės</translation>
@@ -258,7 +258,7 @@
 <translation id="2704283930420550640">Vertė neatitinka formato.</translation>
 <translation id="2705137772291741111">Išsaugotos (talpykloje esančios) šios svetainės kopijos negalima skaityti.</translation>
 <translation id="2709516037105925701">Automatinis pildymas</translation>
-<translation id="2710942282213947212">Programinė įranga jūsų kompiuteryje neleidžia „Chromium“ saugiai prisijungti prie žiniatinklio</translation>
+<translation id="2710942282213947212">Programinė įranga jūsų kompiuteryje neleidžia „Brave“ saugiai prisijungti prie žiniatinklio</translation>
 <translation id="2712173769900027643">Prašyti leidimo</translation>
 <translation id="2720342946869265578">Netoliese</translation>
 <translation id="2721148159707890343">Užklausa sėkminga</translation>
@@ -297,7 +297,7 @@
 <translation id="2972581237482394796">&amp;Atlikti iš naujo</translation>
 <translation id="2977665033722899841">„<ph name="ROW_NAME" />“, šiuo metu pasirinkta. <ph name="ROW_CONTENT" /></translation>
 <translation id="298138621710431427">Padėkite man išspręsti šią problemą</translation>
-<translation id="2985306909656435243">Jei šis nustatymas įgalintas, „Chromium“ išsaugos kortelės kopiją įrenginyje, kad galėtumėte greičiau užpildyti formas.</translation>
+<translation id="2985306909656435243">Jei šis nustatymas įgalintas, „Brave“ išsaugos kortelės kopiją įrenginyje, kad galėtumėte greičiau užpildyti formas.</translation>
 <translation id="2985398929374701810">Įveskite tinkamą adresą</translation>
 <translation id="2986368408720340940">Šis paėmimo metodas nepasiekiamas. Išbandykite kitą metodą.</translation>
 <translation id="2991174974383378012">Bendrinimas su svetainėmis</translation>
@@ -371,7 +371,7 @@
 <translation id="3422472998109090673"><ph name="HOST_NAME" /> šiuo metu nepasiekiama.</translation>
 <translation id="3427092606871434483">Leisti (numatytoji parinktis)</translation>
 <translation id="3427342743765426898">&amp;Redaguoti dar kartą</translation>
-<translation id="342781501876943858">„Chromium“ rekomenduoja iš naujo nustatyti slaptažodį, jei naudojate jį kitose svetainėse.</translation>
+<translation id="342781501876943858">„Brave“ rekomenduoja iš naujo nustatyti slaptažodį, jei naudojate jį kitose svetainėse.</translation>
 <translation id="3431636764301398940">Išsaugoti šią kortelę šiame įrenginyje</translation>
 <translation id="3447661539832366887">Įrenginio savininkas išjungė dinozauro žaidimą.</translation>
 <translation id="3447884698081792621">Rodyti sertifikatą (išdavė „<ph name="ISSUER" />“)</translation>
@@ -417,7 +417,7 @@
 <translation id="372429172604983730">Ši klaida galėjo įvykti dėl antivirusinės, užkardos ar žiniatinklio filtravimo programos arba tarpinio serverio programinės įrangos.</translation>
 <translation id="3736520371357197498">Jei suprantate, kokia rizika gali kilti jūsų saugai, galite <ph name="BEGIN_LINK" />apsilankyti šioje nesaugioje svetainėje<ph name="END_LINK" />, kol iš jos dar nepašalintos pavojingos programos.</translation>
 <translation id="3739623965217189342">Nukopijuota nuoroda</translation>
-<translation id="3744899669254331632">Negalite dabar apsilankyti svetainėje <ph name="SITE" />, nes ji atsiuntė užšifruotus prisijungimo duomenis, kurių „Chromium“ negali apdoroti. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
+<translation id="3744899669254331632">Negalite dabar apsilankyti svetainėje <ph name="SITE" />, nes ji atsiuntė užšifruotus prisijungimo duomenis, kurių „Brave“ negali apdoroti. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
 <translation id="3748148204939282805"><ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> užpuolikai gali bandyti apgaule priversti jus atlikti pavojingus veiksmus, pvz., įdiegti programinę įrangą ar atskleisti asmens informaciją (pvz., slaptažodžius, telefonų numerius ar kredito kortelių duomenis). <ph name="BEGIN_LEARN_MORE_LINK" />Sužinokite daugiau<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="375403751935624634">Vertimas nepavyko dėl serverio klaidos.</translation>
 <translation id="3759461132968374835">Nėra strigčių, apie kurias buvo neseniai pranešta. Strigtys, įvykusios tuo metu, kai strigčių ataskaitų teikimas buvo išjungtas, čia rodomos nebus.</translation>
@@ -533,7 +533,7 @@
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4558551763791394412">Pabandykite išjungti plėtinius.</translation>
 <translation id="457875822857220463">Pristatymas</translation>
-<translation id="4582800630050655161">Galite prarasti prieigą prie „Google“ paskyros arba susidurti su tapatybės vagyste. „Chromium“ rekomenduoja pakeisti slaptažodį dabar.</translation>
+<translation id="4582800630050655161">Galite prarasti prieigą prie „Google“ paskyros arba susidurti su tapatybės vagyste. „Brave“ rekomenduoja pakeisti slaptažodį dabar.</translation>
 <translation id="4587425331216688090">Pašalinti adresą iš „Chrome“?</translation>
 <translation id="4592951414987517459">Ryšys su <ph name="DOMAIN" /> užšifruotas naudojant modernų šifravimo paketą.</translation>
 <translation id="4594403342090139922">&amp;Anuliuoti ištrynimą</translation>
@@ -549,7 +549,7 @@
 <translation id="4722547256916164131"><ph name="BEGIN_LINK" />Paleistas įrankis „Windows Network Diagnostics“<ph name="END_LINK" />.</translation>
 <translation id="4726672564094551039">Iš naujo įkelti politiką</translation>
 <translation id="4728558894243024398">Platforma</translation>
-<translation id="4736825316280949806">Iš naujo paleiskite „Chromium“</translation>
+<translation id="4736825316280949806">Iš naujo paleiskite „Brave“</translation>
 <translation id="4742407542027196863">Tvarkyti slaptažodžius…</translation>
 <translation id="4744603770635761495">Vykdomasis kelias</translation>
 <translation id="4750917950439032686">Į šią svetainę siunčiama informacija (pvz., slaptažodžiai arba kredito kortelių numeriai) yra privati.</translation>
@@ -603,7 +603,7 @@
 <translation id="5087286274860437796">Šiuo metu serverio sertifikatas negalioja.</translation>
 <translation id="5087580092889165836">Pridėti kortelę</translation>
 <translation id="5089810972385038852">Valstija</translation>
-<translation id="5094747076828555589">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN" />; jo saugos sertifikatas nėra patikimas „Chromium“. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
+<translation id="5094747076828555589">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN" />; jo saugos sertifikatas nėra patikimas „Brave“. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="5095208057601539847">Provincija</translation>
 <translation id="5098332213681597508">Šis vardas yra iš jūsų „Google“ paskyros.</translation>
 <translation id="5115563688576182185">(64 bitų)</translation>
@@ -767,7 +767,7 @@
 <translation id="6169916984152623906">Dabar galite naršyti privačiai, o kiti šį įrenginį naudojantys žmonės nematys jūsų veiklos. Tačiau atsisiuntimai ir žymės bus išsaugoti.</translation>
 <translation id="6177128806592000436">Ryšys su šia svetaine nėra saugus</translation>
 <translation id="6203231073485539293">Patikrinkite interneto ryšį</translation>
-<translation id="6218753634732582820">Pašalinti adresą iš „Chromium“?</translation>
+<translation id="6218753634732582820">Pašalinti adresą iš „Brave“?</translation>
 <translation id="6221345481584921695">„Google“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK" />aptiko kenkėjišką programą<ph name="END_LINK" /> svetainėje <ph name="SITE" />. Svetainės, kurios paprastai yra saugios, kartais užkrečiamos kenkėjiškomis programomis. Kenkėjiškas turinys gautas iš <ph name="SUBRESOURCE_HOST" />, žinomo kenkėjiškų programų platintojo.</translation>
 <translation id="6251924700383757765">Privatumo politika</translation>
 <translation id="6254436959401408446">Nepakanka atminties, kad būtų galima atidaryti šį puslapį</translation>
@@ -821,7 +821,7 @@
 <translation id="6644283850729428850">Ši politika nepatvirtinta.</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{Nėra}=1{Iš 1 svetainės (nebūsite atjungti nuo „Google“ paskyros)}one{Iš # svetainės (nebūsite atjungti nuo „Google“ paskyros)}few{Iš # svetainių (nebūsite atjungti nuo „Google“ paskyros)}many{Iš # svetainės (nebūsite atjungti nuo „Google“ paskyros)}other{Iš # svetainių (nebūsite atjungti nuo „Google“ paskyros)}}</translation>
 <translation id="6657585470893396449">Slaptažodis</translation>
-<translation id="6671697161687535275">Pašalinti formos pasiūlymą iš „Chromium“?</translation>
+<translation id="6671697161687535275">Pašalinti formos pasiūlymą iš „Brave“?</translation>
 <translation id="6685834062052613830">Atsijunkite ir užbaikite sąranką</translation>
 <translation id="6710213216561001401">Ankstesnis</translation>
 <translation id="6710594484020273272">&lt;Įveskite paieškos terminą&gt;</translation>
@@ -962,7 +962,7 @@ Papildoma išsami informacija:
 <translation id="7610193165460212391">Vertė nepatenka į diapazoną <ph name="VALUE" />.</translation>
 <translation id="7613889955535752492">Galioja iki: <ph name="EXPIRATION_YEAR" />-<ph name="EXPIRATION_MONTH" /></translation>
 <translation id="7615602087246926389">Jau turite duomenų, kurie šifruojami naudojant kitos versijos „Google“ paskyros slaptažodį. Įveskite juos toliau.</translation>
-<translation id="7637571805876720304">Pašalinti kredito kortelės informaciją iš „Chromium“?</translation>
+<translation id="7637571805876720304">Pašalinti kredito kortelės informaciją iš „Brave“?</translation>
 <translation id="765676359832457558">Slėpti išplėstinius nustatymus...</translation>
 <translation id="7658239707568436148">Atšaukti</translation>
 <translation id="7662298039739062396">Nustatymas valdomas pagal plėtinį</translation>
@@ -1095,7 +1095,7 @@ Papildoma išsami informacija:
 <translation id="8553075262323480129">Išversti negalima, nes nepavyko nustatyti puslapio kalbos.</translation>
 <translation id="8557066899867184262">Kortelės saugos kodas (CVC) nurodytas kitoje kortelės pusėje.</translation>
 <translation id="8559762987265718583">Nepavyksta užmegzti privataus ryšio su <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" />, nes įrenginio data ir laikas (<ph name="DATE_AND_TIME" />) yra netinkami.</translation>
-<translation id="8564985650692024650">„Chromium“ rekomenduoja iš naujo nustatyti <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> slaptažodį, jei naudojate jį kitose svetainėse.</translation>
+<translation id="8564985650692024650">„Brave“ rekomenduoja iš naujo nustatyti <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> slaptažodį, jei naudojate jį kitose svetainėse.</translation>
 <translation id="8571890674111243710">Puslapis verčiamas į <ph name="LANGUAGE" />...</translation>
 <translation id="858637041960032120">Pridėti tel. nr.
 </translation>
@@ -1113,7 +1113,7 @@ Papildoma išsami informacija:
 <translation id="8728672262656704056">Veikia inkognito režimas</translation>
 <translation id="8730621377337864115">Atlikta</translation>
 <translation id="8733831205558190772">Visos jūsų kortelės vienoje vietoje</translation>
-<translation id="8738058698779197622">Jei norite užmegzti saugų ryšį, turėsite tinkamai nustatyti laikrodį. To reikalaujama todėl, kad svetainių tapatybei įrodyti naudojami sertifikatai galioja tik tam tikrą laikotarpį. Kadangi įrenginio laikrodis nustatytas netinkamai, „Chromium“ negali tinkamai patvirtinti sertifikatų.</translation>
+<translation id="8738058698779197622">Jei norite užmegzti saugų ryšį, turėsite tinkamai nustatyti laikrodį. To reikalaujama todėl, kad svetainių tapatybei įrodyti naudojami sertifikatai galioja tik tam tikrą laikotarpį. Kadangi įrenginio laikrodis nustatytas netinkamai, „Brave“ negali tinkamai patvirtinti sertifikatų.</translation>
 <translation id="8740359287975076522">Nepavyko rasti <ph name="HOST_NAME" /> &lt;abbr id="dnsDefinition"&gt;DNS adreso&lt;/abbr&gt;. Nustatoma problema.</translation>
 <translation id="874846938927089722">Tinkamos kredito ir išankstinio mokėjimo kortelės</translation>
 <translation id="8759274551635299824">Ši kortelė nebegalioja</translation>
@@ -1122,7 +1122,7 @@ Papildoma išsami informacija:
 <translation id="8768895707659403558">Norėdami naudoti korteles visuose įrenginiuose, <ph name="SIGN_IN_LINK" />.</translation>
 <translation id="8790007591277257123">&amp;Ištrinti dar kartą</translation>
 <translation id="8790803786526555470">{NUM_CARDS,plural, =1{Ši kortelė pridėta prie „Google“ paskyros. Dabar galite ją naudoti iš bet kurio įrenginio, kuriame esate prisijungę.}one{Šios kortelės pridėtos prie „Google“ paskyros. Dabar galite jas naudoti iš bet kurio įrenginio, kuriame esate prisijungę.}few{Šios kortelės pridėtos prie „Google“ paskyros. Dabar galite jas naudoti iš bet kurio įrenginio, kuriame esate prisijungę.}many{Šios kortelės pridėtos prie „Google“ paskyros. Dabar galite jas naudoti iš bet kurio įrenginio, kuriame esate prisijungę.}other{Šios kortelės pridėtos prie „Google“ paskyros. Dabar galite jas naudoti iš bet kurio įrenginio, kuriame esate prisijungę.}}</translation>
-<translation id="8792621596287649091">Galite prarasti galimybę pasiekti „<ph name="ORG_NAME" />“ paskyrą arba gali būti pavogta tapatybė. „Chromium“ rekomenduoja pakeisti slaptažodį dabar.</translation>
+<translation id="8792621596287649091">Galite prarasti galimybę pasiekti „<ph name="ORG_NAME" />“ paskyrą arba gali būti pavogta tapatybė. „Brave“ rekomenduoja pakeisti slaptažodį dabar.</translation>
 <translation id="8800988563907321413">Netoliese esantys pasiūlymai jums rodomi čia</translation>
 <translation id="8820817407110198400">Žymės</translation>
 <translation id="883848425547221593">Kitos žymės</translation>
@@ -1168,7 +1168,7 @@ Papildoma išsami informacija:
 <translation id="9076283476770535406">Joje gali būti suaugusiesiems skirto turinio</translation>
 <translation id="9078964945751709336">Būtina pateikti daugiau informacijos</translation>
 <translation id="9080712759204168376">Užsakymų suvestinė</translation>
-<translation id="9103872766612412690">Svetainėje <ph name="SITE" /> įprastai naudojama šifruotė informacijai apsaugoti. Šį kartą „Chromium“ bandant prisijungti prie <ph name="SITE" />, ji pateikė neįprastus ir netinkamus prisijungimo duomenis. Gali būti, kad užpuolėjas bando apsimesti svetaine <ph name="SITE" /> arba „Wi-Fi“ prisijungimo ekrane nutrūko ryšys. Jūsų informacija vis tiek liko apsaugota, nes „Chromium“ sustabdė prisijungimą prieš apsikeitimą bet kokiais duomenimis.</translation>
+<translation id="9103872766612412690">Svetainėje <ph name="SITE" /> įprastai naudojama šifruotė informacijai apsaugoti. Šį kartą „Brave“ bandant prisijungti prie <ph name="SITE" />, ji pateikė neįprastus ir netinkamus prisijungimo duomenis. Gali būti, kad užpuolėjas bando apsimesti svetaine <ph name="SITE" /> arba „Wi-Fi“ prisijungimo ekrane nutrūko ryšys. Jūsų informacija vis tiek liko apsaugota, nes „Brave“ sustabdė prisijungimą prieš apsikeitimą bet kokiais duomenimis.</translation>
 <translation id="9106062320799175032">Atsiskaitymo adreso pridėjimas</translation>
 <translation id="910908805481542201">Padėkite man tai išspręsti</translation>
 <translation id="9114524666733003316">Kortelė patvirtinama...</translation>
