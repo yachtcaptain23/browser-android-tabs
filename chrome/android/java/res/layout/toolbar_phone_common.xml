@@ -7,6 +7,7 @@
 -->
 <merge
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <org.chromium.chrome.browser.widget.newtab.NewTabButton
@@ -34,59 +35,93 @@
         android:layout_height="match_parent"
         android:layout_gravity="top" />
 
-    <LinearLayout android:id="@+id/toolbar_buttons"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|end" >
+      <LinearLayout android:id="@+id/toolbar_buttons"
+          android:orientation="horizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/white"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp"
+          android:layout_gravity="top|end" >
 
-        <Space
-            android:layout_width="4dp"
-            android:layout_height="match_parent" />
+          <Space
+              android:layout_width="16dp"
+              android:layout_height="match_parent"
+              android:visibility="gone"
+              android:layout_gravity="top" />
 
-        <FrameLayout
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              android:layout_gravity="top" >
+
+              <ViewStub
+                  android:id="@+id/experimental_button_stub"
+                  android:inflatedId="@+id/experimental_toolbar_button"
+                  android:layout="@layout/experimental_toolbar_button"
+                  style="@style/ToolbarButton"
+                  android:paddingStart="8dp"
+                  android:visibility="gone" />
+
+              <ViewStub
+                  android:id="@+id/incognito_button_stub"
+                  android:inflatedId="@+id/incognito_button"
+                  android:layout="@layout/toolbar_phone_incognito_button"
+                  style="@style/ToolbarButton"
+                  android:contentDescription="@string/accessibility_tabstrip_btn_incognito_toggle_standard"
+                  android:visibility="gone" />
+          </FrameLayout>
+
+          <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top" >
-
-            <ViewStub
-                android:id="@+id/experimental_button_stub"
-                android:inflatedId="@+id/experimental_toolbar_button"
-                android:layout="@layout/experimental_toolbar_button"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_height="wrap_content" >
+            <ImageButton android:id="@+id/tab_switcher_button"
                 style="@style/ToolbarButton"
                 android:paddingStart="8dp"
-                android:visibility="gone" />
+                android:layout_gravity="top"
+                android:contentDescription="@string/accessibility_toolbar_btn_tabswitcher_toggle_default" />
 
-            <ViewStub
-                android:id="@+id/incognito_button_stub"
-                android:inflatedId="@+id/incognito_button"
-                android:layout="@layout/toolbar_phone_incognito_button"
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_shadow_height"
+                android:src="@drawable/toolbar_shadow_normal"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription" />
+          </LinearLayout>
+
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/brave_top_toolbar_background"
+            android:layout_height="match_parent" >
+            <ImageButton android:id="@+id/brave_shields_button"
                 style="@style/ToolbarButton"
-                android:contentDescription="@string/accessibility_tabstrip_btn_incognito_toggle_standard"
-                android:visibility="gone" />
-        </FrameLayout>
+                android:src="@drawable/btn_brave"
+                android:layout_marginTop="-8dp"
+                android:layout_marginBottom="-6dp"
+                android:layout_gravity="top"
+                android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
+          </LinearLayout>
 
-        <ImageButton android:id="@+id/tab_switcher_button"
-            style="@style/ToolbarButton"
-            android:paddingStart="8dp"
-            android:layout_gravity="top"
-            android:contentDescription="@string/accessibility_toolbar_btn_tabswitcher_toggle_default" />
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/brave_top_toolbar_background_end"
+            android:layout_height="match_parent" >
+            <ImageButton android:id="@+id/brave_rewards_button"
+                style="@style/ToolbarButton"
+                android:src="@drawable/btn_bat_custom"
+                android:layout_marginStart="-8dp"
+                android:layout_marginTop="-8dp"
+                android:layout_marginBottom="-6dp"
+                android:layout_gravity="top"
+                android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
+          </LinearLayout>
 
-        <ImageButton android:id="@+id/brave_shields_button"
-            style="@style/ToolbarButton"
-            android:src="@drawable/btn_brave"
-            android:layout_gravity="top"
-            android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
+          <include layout="@layout/menu_button"/>
 
-        <ImageButton android:id="@+id/brave_rewards_button"
-            style="@style/ToolbarButton"
-            android:src="@drawable/btn_bat_custom"
-            android:layout_marginStart="-8dp"
-            android:layout_gravity="top"
-            android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
-
-        <include layout="@layout/menu_button"/>
-
-    </LinearLayout>
-
+        </LinearLayout>
 </merge>
