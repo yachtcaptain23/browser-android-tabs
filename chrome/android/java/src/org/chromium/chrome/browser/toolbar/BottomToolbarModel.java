@@ -40,6 +40,9 @@ public class BottomToolbarModel extends PropertyModel {
     public static final ObjectPropertyKey<ResourceManager> RESOURCE_MANAGER =
             new ObjectPropertyKey<>();
 
+    /** Whether or not search acceleration is enabled. */
+    public static final boolean SEARCH_ACCELERATOR_ENABLED = false;
+
     /** Whether or not the search accelerator is visible. */
     public static final BooleanPropertyKey SEARCH_ACCELERATOR_VISIBLE = new BooleanPropertyKey();
 
