@@ -299,7 +299,7 @@ Namun demikian, bukan berarti Anda sama sekali tidak terlihat. Menggunakan mode 
 <translation id="3350687908700087792">Tutup semua jendela penyamaran</translation>
 <translation id="3365671512111106261">Tidak tersedia jika Penghemat Kuota Internet diaktifkan</translation>
 <translation id="3367813778245106622">Masuk lagi untuk memulai sinkronisasi</translation>
-<translation id="3377025655491224618">Tab Rahasia</translation>
+<translation id="3377025655491224618">Tab Pribadi</translation>
 <translation id="3384347053049321195">Bagikan gambar</translation>
 <translation id="3386292677130313581">Minta izin sebelum memungkinkan situs mengetahui lokasi Anda (disarankan)</translation>
 <translation id="3387650086002190359">Download <ph name="FILE_NAME" /> gagal karena kesalahan sistem file.</translation>
@@ -402,7 +402,7 @@ Untuk menyesuaikan istilah penelusuran, tekan lama untuk memilih. Untuk memperse
 <translation id="4209895695669353772">Untuk mendapatkan konten hasil personalisasi yang disarankan oleh Google, aktifkan sinkronisasi</translation>
 <translation id="4226663524361240545">Notifikasi dapat membuat perangkat bergetar</translation>
 <translation id="4242533952199664413">Buka setelan</translation>
-<translation id="4243710787042215766">Buka di tab rahasia</translation>
+<translation id="4243710787042215766">Buka di tab pribadi</translation>
 <translation id="7445061995866044926">Keluar dari Brave?</translation>
 <translation id="4256782883801055595">Lisensi open source</translation>
 <translation id="4259722352634471385">Navigasi diblokir: <ph name="URL" /></translation>
@@ -677,7 +677,7 @@ Misalnya, beberapa situs web mungkin menanggapi permintaan ini dengan menayangka
 <translation id="6320088164292336938">Getar</translation>
 <translation id="6324034347079777476">Sinkronisasi sistem Android dinonaktifkan</translation>
 <translation id="6333140779060797560">Bagikan dengan <ph name="APPLICATION" /></translation>
-<translation id="6336451774241870485">Tab rahasia yang baru</translation>
+<translation id="6336451774241870485">Tab pribadi baru</translation>
 <translation id="6337234675334993532">Enkripsi</translation>
 <translation id="6341580099087024258">Tanya lokasi menyimpan file</translation>
 <translation id="6343192674172527289">Tidak ada file download</translation>
@@ -715,7 +715,7 @@ Misalnya, beberapa situs web mungkin menanggapi permintaan ini dengan menayangka
 <translation id="6593061639179217415">Situs desktop</translation>
 <translation id="663059986967017181">Disalin ke Brave</translation>
 <translation id="6608650720463149374"><ph name="GIGABYTES" /> GB</translation>
-<translation id="6610147964972079463">Tutup tab rahasia</translation>
+<translation id="6610147964972079463">Tutup tab pribadi</translation>
 <translation id="6612358246767739896">Konten dilindungi</translation>
 <translation id="6627583120233659107">Edit folder</translation>
 <translation id="6643016212128521049">Hapus</translation>
@@ -1107,7 +1107,7 @@ Dihemat</translation>
 <translation id="807636106793708118">Memilih versi seluler dari situs</translation>
 <translation id="1340503115760585811">Aktifkan Tampilan Desktop untuk tab baru</translation>
 <translation id="7924540991929826186">Gunakan versi seluler situs untuk tab baru (disarankan)</translation>
-<translation id="3834924998750356151">Pemblokiran layar</translation>
+<translation id="3834924998750356151">Layar Pemblokiran</translation>
 <translation id="1713450908129883784">Kontrol Individu</translation>
 <translation id="6303294677342628402">Perisai</translation>
 <translation id="252011129655042182">Iklan dan Pelacak</translation>
@@ -1120,27 +1120,22 @@ Dihemat</translation>
 <translation id="6587448235155023666">Perubahan Anda akan berlaku setelah Anda meluncurkan ulang Brave</translation>
 <translation id="8701563696941209024">LUNCURKAN ULANG</translation>
 <translation id="834487290629916192">NANTI</translation>
-<translation id="5965081608816406060">Pemutaran video latar belakang</translation>
+<translation id="5965081608816406060">Pemutaran video di latar</translation>
 <translation id="1842747674580016420">Pemutaran video di Brave</translation>
 <translation id="5368992950177874750">Jika diaktifkan, video akan diputar di Brave dan bukan di aplikasi yang terkait</translation>
 <translation id="7459000603787995422">Tutup tab saat keluar</translation>
-<translation id="1680858055899097121">Jangan tahan tab di antara sesi penelusuran</translation>
-<translation id="213787746370741250">Buka tab-tab di Tab Suaian</translation>
-<translation id="3544772668823934222">Menawarkan untuk membuka tab-tab di Tab Suaian</translation>
-<translation id="4501702055016678577">Pencarian privat dengan DuckDuckGo?
-</translation>
-<translation id="910419239800579753">Dengan pencarian privat, Brave akan menggunakan DuckDuckGo untuk mencari jawaban pencarian Anda saat Anda berada dalam tab privat ini. DuckDuckGo adalah mesin pencari yang tidak merekam riwayat pencarian Anda, memungkinkan Anda untuk mencari secara privat.
-</translation>
+<translation id="1680858055899097121">Jangan ingat tab di antara sesi penjelajahan</translation>
+<translation id="213787746370741250">Buka tab di Tab Ubahsuai</translation>
+<translation id="3544772668823934222">Tawarkan untuk membuka tab di Tab Ubahsuai</translation>
+<translation id="4501702055016678577">Pencarian pribadi dengan DuckDuckGo?</translation>
+<translation id="910419239800579753">Dengan pencarian pribadi, Brave akan menggunakan DuckDuckGo untuk mencari jawaban pencarian Anda saat Anda berada dalam tab pribadi ini. DuckDuckGo adalah mesin pencari yang tidak merekam riwayat pencarian Anda, memungkinkan Anda untuk mencari secara pribadi.</translation>
 <translation id="1426410128494586442">Ya
 </translation>
 <translation id="4250680216510889253">Tidak
 </translation>
-<translation id="5628466560184522265">Pelajari tentang pencarian privat dengan DuckDuckGo
-</translation>
+<translation id="5628466560184522265">Pelajari tentang pencarian pribadi dengan DuckDuckGo</translation>
 <translation id="1468415711258933398">Tab Standar
 </translation>
-<translation id="6199596294742117349">Ini adalah Tab Privat
-</translation>
-<translation id="5858455511731621847">Sekali pun situs yang Anda kunjungi melalui tab privat tidak disimpan secara lokal, tetapi tidak membuat jadi anonim atau tak tampak dari ISP Anda, kantor Anda, atau situs yang Anda kunjungi.
-</translation>
+<translation id="6199596294742117349">Ini adalah Tab Pribadi</translation>
+<translation id="5858455511731621847">Meski situs yang Anda kunjungi melalui tab pribadi tidak disimpan secara lokal, tetapi tidak membuat jadi anonim atau tak tampak dari ISP Anda, bos Anda, atau situs yang Anda kunjungi.</translation>
 </translationbundle>
