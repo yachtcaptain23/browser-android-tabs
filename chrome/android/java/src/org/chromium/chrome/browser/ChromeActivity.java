@@ -185,6 +185,12 @@ import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nullable;
 
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.GoogleApiAvailability;
+
 /**
  * A {@link AsyncInitializationActivity} that builds and manages a {@link CompositorViewHolder}
  * and associated classes.
@@ -422,6 +428,13 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             if (mOnStartCalled) {
                 mCompositorViewHolder.onStart();
                 mSnackbarManager.onStart();
+            }
+            Log.d("albert", "Should always call this on start");
+            if (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(getBaseContext())
+                        == ConnectionResult.SUCCESS) {
+                Log.d("albert", "GooglePlayServices is running!");
+            } else {
+                Log.d("albert", "GooglePlayServices is not running");
             }
         }
 

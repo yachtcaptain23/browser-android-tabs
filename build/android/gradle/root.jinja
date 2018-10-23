@@ -9,6 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
+        classpath: 'com.google.gms.google-services'
 {% if channel == 'canary' %}
         classpath "com.android.tools.build:gradle:3.2.0-alpha16"
 {% elif channel == 'beta' %}
