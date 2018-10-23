@@ -41,6 +41,9 @@ dependencies {
     compile "com.android.support:design:${supportLibVersion}"
 
     compile "com.android.support:multidex:1.0.0"
+
+    // Brave Custom libraries
+    compile "com.google.android.gms:play-services-safetynet:16.0.0"
 }
 
 task setUpRepository(type: BuildConfigGenerator) {
