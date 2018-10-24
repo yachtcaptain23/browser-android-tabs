@@ -107,21 +107,30 @@
           </LinearLayout>
 
           <LinearLayout
-            android:layout_width="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/brave_top_toolbar_background_end"
-            android:layout_height="match_parent" >
-            <ImageButton android:id="@+id/brave_rewards_button"
-                style="@style/ToolbarButton"
-                android:src="@drawable/btn_bat_custom"
-                android:layout_marginStart="-8dp"
-                android:layout_marginTop="-8dp"
-                android:layout_marginBottom="-6dp"
-                android:layout_gravity="top"
-                android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
+              android:layout_width="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/brave_top_toolbar_background_end"
+              android:layout_height="match_parent" >
+
+              <ImageButton android:id="@+id/brave_rewards_button"
+                  style="@style/ToolbarButton"
+                  android:src="@drawable/btn_bat"
+                  android:layout_marginStart="-8dp"
+                  android:layout_marginTop="-8dp"
+                  android:layout_marginBottom="-6dp"
+                  android:layout_gravity="top"
+                  android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
+              <ImageButton android:id="@+id/brave_rewards_verified_button"
+                  style="@style/ToolbarButton"
+                  android:src="@drawable/btn_bat_custom"
+                  android:layout_marginStart="-8dp"
+                  android:layout_marginTop="-8dp"
+                  android:layout_marginBottom="-6dp"
+                  android:layout_gravity="top"
+                  android:visibility="gone"
+                  android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
+
           </LinearLayout>
-
           <include layout="@layout/menu_button"/>
-
         </LinearLayout>
 </merge>
