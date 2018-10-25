@@ -4239,6 +4239,8 @@ Saved
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_TEXT" desc="Text of notification on application update.">
         The new Brave browser is 22% faster
+      <message name="IDS_BRAVE_REWARDS" desc="Menu item for 'Brave Rewards'">
+        Brave Rewards
       </message>
 
       <!-- Sync preferences -->
