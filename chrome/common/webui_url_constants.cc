@@ -171,6 +171,7 @@ const char kChromeUIWelcomeWin10URL[] = "chrome://welcome-win10/";
 const char kDeprecatedChromeUIHistoryFrameHost[] = "history-frame";
 const char kDeprecatedChromeUIHistoryFrameURL[] = "chrome://history-frame/";
 const char kRewardsJS[] = "brave_rewards.bundle.js";
+const char kRewardsPanelJS[] = "brave_rewards_panel.bundle.js";
 
 #if defined(OS_ANDROID)
 const char kChromeUIEocInternalsHost[] = "eoc-internals";
@@ -188,6 +189,9 @@ const char kChromeUIOfflineInternalsHost[] = "offline-internals";
 const char kChromeUIPhysicalWebDiagnosticsHost[] = "physical-web-diagnostics";
 const char kChromeUISnippetsInternalsHost[] = "snippets-internals";
 const char kChromeUIWebApksHost[] = "webapks";
+const char kBraveRewardsPanelURL[] = "chrome://rewards-panel/";
+const char kBraveRewardsPanelHost[] = "rewards-panel";
+
 #endif
 
 #if defined(OS_CHROMEOS)
