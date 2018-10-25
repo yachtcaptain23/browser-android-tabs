@@ -23,6 +23,7 @@
 #include "chrome/browser/search/suggestions/suggestions_ui.h"
 #include "chrome/browser/ui/webui/about_ui.h"
 #include "chrome/browser/ui/webui/bluetooth_internals/bluetooth_internals_ui.h"
+#include "chrome/browser/ui/webui/brave_rewards_panel_ui.h"
 #include "chrome/browser/ui/webui/brave_rewards_ui.h"
 #include "chrome/browser/ui/webui/components_ui.h"
 #include "chrome/browser/ui/webui/constrained_web_dialog_ui.h"
@@ -245,6 +246,13 @@ WebUIController* NewWebUI<BraveRewardsUI>(WebUI* web_ui, const GURL& url) {
   return new BraveRewardsUI(web_ui, url.host());
 }
 
+// Special case for BraveRewardsPanelUI
+template<>
+WebUIController* NewWebUI<BraveRewardsPanelUI>(WebUI* web_ui, const GURL& url) {
+  return new BraveRewardsPanelUI(web_ui, url.host());
+}
+
+
 
 #if !defined(OS_ANDROID)
 template <>
@@ -361,6 +369,8 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
   // print dialog.
   if (url.host_piece() == chrome::kBraveRewardsHost)
     return &NewWebUI<BraveRewardsUI>;
+  if (url.host_piece() == chrome::kBraveRewardsPanelHost)  
+    return &NewWebUI<BraveRewardsPanelUI>;  
   if (url.host_piece() == chrome::kChromeUIAccessibilityHost)
     return &NewWebUI<AccessibilityUI>;
   if (url.host_piece() == chrome::kChromeUIBluetoothInternalsHost)
