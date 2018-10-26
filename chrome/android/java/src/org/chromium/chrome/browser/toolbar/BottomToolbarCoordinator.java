@@ -11,15 +11,21 @@ import android.view.ViewGroup;
 import android.view.ViewStub;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
 import org.chromium.chrome.browser.contextualsearch.ContextualSearchManager;
 import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
+import org.chromium.chrome.browser.history.HistoryManagerUtils;
 import org.chromium.chrome.browser.modelutil.PropertyKey;
 import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
+import org.chromium.chrome.browser.tabmodel.TabModel.TabLaunchType;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
+import org.chromium.chrome.browser.widget.TintedImageButton;
+import org.chromium.chrome.browser.widget.newtab.NewTabButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -36,11 +42,23 @@ public class BottomToolbarCoordinator {
     /** The tab switcher button component that lives in the bottom toolbar. */
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
 
-    /** The home button component that lives in the bottom toolbar. */
-    private final ToolbarButtonCoordinator mHomeButtonCoordinator;
+    /** The bookmarks button component that lives in the bottom toolbar. */
+    private final TintedImageButton mBookmarksButton;
+
+    /** The history button component that lives in the bottom toolbar. */
+    private final TintedImageButton mHistoryButton;
+
+    /** The new tab button component that lives in the bottom toolbar. */
+    private final NewTabButton mNewTabButton;
 
     /** The menu button that lives in the bottom toolbar. */
     private final MenuButton mMenuButton;
+
+    /** The toolbar model that tells us about the current toolbar state and data. */
+    private final ToolbarModel mToolbarModel;
+
+    /** The invoking activity. */
+    private final ChromeActivity mActivity;
 
     /**
      * Build the coordinator that manages the bottom toolbar.
@@ -48,7 +66,7 @@ public class BottomToolbarCoordinator {
      *                          height for the renderer.
      * @param root The root {@link ViewGroup} for locating the vies to inflate.
      */
-    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root) {
+    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root, ChromeActivity activity, ToolbarModel toolbarModel) {
         BottomToolbarModel model = new BottomToolbarModel();
         mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources());
 
@@ -66,9 +84,12 @@ public class BottomToolbarCoordinator {
                         model, new ViewHolder(toolbarRoot), new BottomToolbarViewBinder());
         model.addObserver(processor);
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
-        mHomeButtonCoordinator =
-                new ToolbarButtonCoordinator(toolbarRoot.findViewById(R.id.home_button));
+        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
+        mActivity = activity;
+        mToolbarModel = toolbarModel;
+        mNewTabButton = (NewTabButton) toolbarRoot.findViewById(R.id.new_tab_button);
     }
 
     /**
@@ -82,8 +103,8 @@ public class BottomToolbarCoordinator {
      *                                  tab switcher button is clicked.
      * @param searchAcceleratorListener An {@link OnClickListener} that is triggered when the
      *                                  search accelerator is clicked.
-     * @param homeButtonListener An {@link OnClickListener} that is triggered when the
-     *                           home button is clicked.
+     * @param bookmarksButtonListener An {@link OnClickListener} that is triggered when the
+     *                           bookmarks button is clicked.
      * @param menuButtonListener An {@link OnTouchListener} that is triggered when the
      *                           menu button is clicked.
      * @param tabModelSelector A {@link TabModelSelector} that the tab switcher button uses to
@@ -94,10 +115,11 @@ public class BottomToolbarCoordinator {
      */
     public void initializeWithNative(ResourceManager resourceManager, LayoutManager layoutManager,
             OnClickListener tabSwitcherListener, OnClickListener searchAcceleratorListener,
-            OnClickListener homeButtonListener, OnTouchListener menuButtonListener,
+            OnClickListener bookmarksButtonListener, OnTouchListener menuButtonListener,
             TabModelSelector tabModelSelector, OverviewModeBehavior overviewModeBehavior,
             ContextualSearchManager contextualSearchManager, WindowAndroid windowAndroid) {
-        mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
+        // (Albert Wang): We're using history in favor of search acceleration
+        // mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
         mMediator.setLayoutManager(layoutManager);
         mMediator.setResourceManager(resourceManager);
         mMediator.setOverviewModeBehavior(overviewModeBehavior);
@@ -108,11 +130,28 @@ public class BottomToolbarCoordinator {
         mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
         mTabSwitcherButtonCoordinator.setTabModelSelector(tabModelSelector);
 
-        mHomeButtonCoordinator.setButtonListeners(homeButtonListener, null);
-        mHomeButtonCoordinator.setOverviewModeBehavior(
-                overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
-
         mMenuButton.setTouchListener(menuButtonListener);
+
+        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BookmarkUtils.showBookmarkManager(mActivity);
+            }
+        });
+
+        mHistoryButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
+            }
+        });
+
+        mNewTabButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mActivity.getTabCreator(false).launchUrl("chrome-native://newtab/", TabLaunchType.FROM_LAUNCHER_SHORTCUT);
+            }
+        });
     }
 
     /**

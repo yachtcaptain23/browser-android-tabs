@@ -14,8 +14,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/toolbar_height_no_shadow"
     android:layout_marginTop="@dimen/tab_strip_height"
-    android:background="@color/default_primary_color"
-    android:paddingStart="@dimen/tablet_toolbar_start_padding" >
+    android:background="@color/default_primary_color" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,12 +68,39 @@
             android:contentDescription="@string/accessibility_toolbar_btn_tabswitcher_toggle_default"
             android:visibility="gone" />
 
-        <ImageButton android:id="@+id/brave_shields_button"
-            style="@style/ToolbarButton"
-            android:src="@drawable/btn_brave"
-            android:layout_gravity="top"
-            android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
-
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="-4dp"
+            android:background="@android:color/white"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/brave_top_toolbar_background"
+                android:layout_height="match_parent" >
+                <ImageButton android:id="@+id/brave_shields_button"
+                    style="@style/ToolbarButton"
+                    android:src="@drawable/btn_brave"
+                    android:layout_marginTop="-8dp"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/brave_top_toolbar_background_end"
+                android:layout_height="match_parent" >
+                <ImageButton android:id="@+id/brave_rewards_button"
+                    style="@style/ToolbarButton"
+                    android:src="@drawable/btn_bat"
+                    android:layout_marginTop="-8dp"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
+            </LinearLayout>
+        </LinearLayout>
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -94,7 +120,6 @@
                 tools:ignore="ContentDescription"
                 android:importantForAccessibility="no"
                 android:visibility="invisible" />
-
         </FrameLayout>
     </LinearLayout>
 </org.chromium.chrome.browser.toolbar.ToolbarTablet>
