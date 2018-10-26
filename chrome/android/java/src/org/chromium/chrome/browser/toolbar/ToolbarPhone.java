@@ -485,26 +485,30 @@ public class ToolbarPhone extends ToolbarLayout
     }
 
     private void enableTabSwitchingResources() {
-        mToggleTabStackButton.setOnClickListener(this);
-        mToggleTabStackButton.setOnLongClickListener(this);
-        mToggleTabStackButton.setOnKeyListener(new KeyboardNavigationListener() {
-            @Override
-            public View getNextFocusForward() {
-                final TintedImageButton menuButton = getMenuButton();
-                if (menuButton != null && menuButton.isShown()) {
-                    return menuButton;
-                } else {
-                    return getCurrentTabView();
+        if (mToggleTabStackButton != null) {
+            mToggleTabStackButton.setOnClickListener(this);
+            mToggleTabStackButton.setOnLongClickListener(this);
+            mToggleTabStackButton.setOnKeyListener(new KeyboardNavigationListener() {
+                @Override
+                public View getNextFocusForward() {
+                    final TintedImageButton menuButton = getMenuButton();
+                    if (menuButton != null && menuButton.isShown()) {
+                        return menuButton;
+                    } else {
+                        return getCurrentTabView();
+                    }
                 }
-            }
 
-            @Override
-            public View getNextFocusBackward() {
-                return findViewById(R.id.url_bar);
-            }
-        });
-        mNewTabButton.setOnClickListener(this);
-        mNewTabButton.setOnLongClickListener(this);
+                @Override
+                public View getNextFocusBackward() {
+                    return findViewById(R.id.url_bar);
+                }
+            });
+        }
+        if (mNewTabButton != null) {
+            mNewTabButton.setOnClickListener(this);
+            mNewTabButton.setOnLongClickListener(this);
+        }
         mBraveShieldsButton.setOnClickListener(this);
         mBraveShieldsButton.setOnLongClickListener(this);
     }
@@ -524,7 +528,7 @@ public class ToolbarPhone extends ToolbarLayout
 
         getLocationBar().onNativeLibraryReady();
 
-        if (!FeatureUtilities.isBottomToolbarEnabled()) enableTabSwitchingResources();
+        /*if (!FeatureUtilities.isBottomToolbarEnabled())*/ enableTabSwitchingResources();
 
         if (mHomeButton != null) {
             changeIconToNTPIcon(mHomeButton);

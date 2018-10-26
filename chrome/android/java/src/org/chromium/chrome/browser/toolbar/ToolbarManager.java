@@ -664,13 +664,13 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
      */
     public void enableBottomToolbar() {
         if (FeatureUtilities.isBottomToolbarEnabled()) {
-            final ToolbarButtonSlotData firstButtonSlot =
+            /*final ToolbarButtonSlotData firstButtonSlot =
                     new ToolbarButtonSlotData(createHomeButton());
             final ToolbarButtonSlotData secondButtonSlot =
-                    new ToolbarButtonSlotData(createSearchAccelerator());
+                    new ToolbarButtonSlotData(createSearchAccelerator());*/
             mBottomToolbarCoordinator = new BottomToolbarCoordinator(
                     mActivity.getFullscreenManager(), mActivity.findViewById(R.id.coordinator), 
-                    firstButtonSlot, secondButtonSlot, mActivity, mToolbarModel);
+                    /*firstButtonSlot, secondButtonSlot,*/ mActivity, mToolbarModel);
             if (mAppMenuButtonHelper != null) mAppMenuButtonHelper.setMenuShowsFromBottom(true);
         }
     }
@@ -701,6 +701,21 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
     }
 
     private ToolbarButtonData createHomeButton() {
+        final OnClickListener homeButtonListener = v -> {
+            recordBottomToolbarUseForIPH();
+            openHomepage();
+        };
+        final int homeButtonIcon = FeatureUtilities.isNewTabPageButtonEnabled()
+                ? R.drawable.ic_home
+                : R.drawable.btn_toolbar_home;
+        final Drawable drawable = ContextCompat.getDrawable(mActivity, homeButtonIcon);
+        final CharSequence accessibilityString =
+                mActivity.getString(R.string.accessibility_toolbar_btn_home);
+        return new ToolbarButtonData(
+                drawable, accessibilityString, accessibilityString, homeButtonListener, mActivity);
+    }
+
+    private ToolbarButtonData createBookmarksButton() {
         final OnClickListener homeButtonListener = v -> {
             recordBottomToolbarUseForIPH();
             openHomepage();
@@ -894,10 +909,12 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
                                   wrapBottomToolbarClickListenerForIPH(incognitoClickHandler))
                         : null;
                 mAppMenuButtonHelper.setOnClickRunnable(() -> recordBottomToolbarUseForIPH());
+                final OnClickListener homeButtonListener = v -> openHomepage();
                 mBottomToolbarCoordinator.initializeWithNative(
                         mActivity.getCompositorViewHolder().getResourceManager(),
                         mActivity.getCompositorViewHolder().getLayoutManager(),
                         wrapBottomToolbarClickListenerForIPH(tabSwitcherClickHandler),
+                        homeButtonListener,
                         mAppMenuButtonHelper, mTabModelSelector, mOverviewModeBehavior,
                         mActivity.getWindowAndroid(), firstSlotTabSwitcherButtonData,
                         createNewTabButton(

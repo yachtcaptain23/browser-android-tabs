@@ -49,10 +49,10 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
     private boolean mIsInSwipeLayout;
 
     /** The data required to fill in the first (leftmost) bottom toolbar button slot.*/
-    private final ToolbarButtonSlotData mFirstSlotData;
+    //private final ToolbarButtonSlotData mFirstSlotData;
 
     /** The data required to fill in the second bottom toolbar button slot.*/
-    private final ToolbarButtonSlotData mSecondSlotData;
+    //private final ToolbarButtonSlotData mSecondSlotData;
 
     /**
      * Build a new mediator that handles events from outside the bottom toolbar.
@@ -60,13 +60,13 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
      * @param fullscreenManager A {@link ChromeFullscreenManager} for events related to the browser
      *                          controls.
      * @param resources Android {@link Resources} to pull dimensions from.
-     * @param firstSlotData The data required to fill in the first bottom toolbar button slot.
-     * @param secondSlotData The data required to fill in the second bottom toolbar button slot.
+     //* @param firstSlotData The data required to fill in the first bottom toolbar button slot.
+     //* @param secondSlotData The data required to fill in the second bottom toolbar button slot.
      * @param primaryColor The initial color for the bottom toolbar.
      */
     BottomToolbarMediator(BottomToolbarModel model, ChromeFullscreenManager fullscreenManager,
-            Resources resources, ToolbarButtonSlotData firstSlotData,
-            ToolbarButtonSlotData secondSlotData, int primaryColor) {
+            Resources resources,/* ToolbarButtonSlotData firstSlotData,
+            ToolbarButtonSlotData secondSlotData,*/ int primaryColor) {
         mModel = model;
         mFullscreenManager = fullscreenManager;
         mFullscreenManager.addListener(this);
@@ -76,15 +76,15 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
                 resources.getDimensionPixelOffset(R.dimen.bottom_toolbar_height));
         fullscreenManager.updateViewportSize();
 
-        mFirstSlotData = firstSlotData;
-        mSecondSlotData = secondSlotData;
+        //mFirstSlotData = firstSlotData;
+        //mSecondSlotData = secondSlotData;
 
         mModel.setValue(BottomToolbarModel.PRIMARY_COLOR, primaryColor);
 
-        mModel.setValue(
+        /*mModel.setValue(
                 BottomToolbarModel.FIRST_BUTTON_DATA, mFirstSlotData.browsingModeButtonData);
         mModel.setValue(
-                BottomToolbarModel.SECOND_BUTTON_DATA, mSecondSlotData.browsingModeButtonData);
+                BottomToolbarModel.SECOND_BUTTON_DATA, mSecondSlotData.browsingModeButtonData);*/
     }
 
     /**
@@ -129,10 +129,10 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
 
     @Override
     public void onOverviewModeStartedShowing(boolean showToolbar) {
-        mModel.setValue(
+        /*mModel.setValue(
                 BottomToolbarModel.FIRST_BUTTON_DATA, mFirstSlotData.tabSwitcherModeButtonData);
         mModel.setValue(
-                BottomToolbarModel.SECOND_BUTTON_DATA, mSecondSlotData.tabSwitcherModeButtonData);
+                BottomToolbarModel.SECOND_BUTTON_DATA, mSecondSlotData.tabSwitcherModeButtonData);*/
     }
 
     @Override
@@ -140,10 +140,10 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
 
     @Override
     public void onOverviewModeStartedHiding(boolean showToolbar, boolean delayAnimation) {
-        mModel.setValue(
+        /*mModel.setValue(
                 BottomToolbarModel.FIRST_BUTTON_DATA, mFirstSlotData.browsingModeButtonData);
         mModel.setValue(
-                BottomToolbarModel.SECOND_BUTTON_DATA, mSecondSlotData.browsingModeButtonData);
+                BottomToolbarModel.SECOND_BUTTON_DATA, mSecondSlotData.browsingModeButtonData);*/
     }
 
     @Override
@@ -231,7 +231,7 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
 
     void setTabSwitcherButtonData(
             ToolbarButtonData firstSlotButtonData, ToolbarButtonData secondSlotButtonData) {
-        mFirstSlotData.tabSwitcherModeButtonData = firstSlotButtonData;
+        /*mFirstSlotData.tabSwitcherModeButtonData = firstSlotButtonData;
         mSecondSlotData.tabSwitcherModeButtonData = secondSlotButtonData;
 
         if (mOverviewModeBehavior.overviewVisible()) {
@@ -239,7 +239,7 @@ class BottomToolbarMediator implements FullscreenListener, KeyboardVisibilityLis
                     BottomToolbarModel.FIRST_BUTTON_DATA, mFirstSlotData.tabSwitcherModeButtonData);
             mModel.setValue(BottomToolbarModel.SECOND_BUTTON_DATA,
                     mSecondSlotData.tabSwitcherModeButtonData);
-        }
+        }*/
     }
 
     void setPrimaryColor(int color) {

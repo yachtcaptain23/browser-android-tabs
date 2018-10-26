@@ -329,8 +329,8 @@ public class FeatureUtilities {
 
             try (StrictModeContext unused = StrictModeContext.allowDiskReads()) {
                 sIsBottomToolbarEnabled =
-                        prefManager.readBoolean(
-                                ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, false)
+                        true/*prefManager.readBoolean(
+                                ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, false)*/
                         && !DeviceFormFactor.isNonMultiDisplayContextOnTablet(
                                    ContextUtils.getApplicationContext());
             }
