@@ -82,9 +82,10 @@ public class BottomToolbarCoordinator {
      * @param homeButtonListener The {@link OnClickListener} for the home button.
      * @param searchAcceleratorListener The {@link OnClickListener} for the search accelerator.
      * @param shareButtonListener The {@link OnClickListener} for the share button.
+     * @param root The root {@link ViewGroup} for locating the views to inflate.
      */
     public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root,
-            ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData, ChromeActivity activity, 
+            /*ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData,*/ ChromeActivity activity, 
             ToolbarModel toolbarModel) {
         BottomToolbarModel model = new BottomToolbarModel();
 
@@ -118,7 +119,7 @@ public class BottomToolbarCoordinator {
                 root.getResources(), R.color.incognito_modern_primary_color);
 
         mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources(),
-                firstSlotData, secondSlotData, mNormalPrimaryColor);
+                /*firstSlotData, secondSlotData,*/ mNormalPrimaryColor);
         mActivity = activity;
         mToolbarModel = toolbarModel;
         mNewTabButton = (NewTabButton) toolbarRoot.findViewById(R.id.new_tab_button);
@@ -172,9 +173,6 @@ public class BottomToolbarCoordinator {
 
         mMenuButton.setTouchListener(menuButtonHelper);
         mMenuButton.setAccessibilityDelegate(menuButtonHelper);
-        mBookmarksButtonCoordinator.setButtonListeners(bookmarksButtonListener, null);
-        mBookmarksButtonCoordinator.setOverviewModeBehavior(
-                overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
 
         mBookmarksButton.setOnClickListener(new View.OnClickListener() {
             @Override
