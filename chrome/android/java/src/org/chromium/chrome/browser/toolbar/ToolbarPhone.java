@@ -56,6 +56,8 @@ import org.chromium.base.TraceEvent;
 import org.chromium.base.VisibleForTesting;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.PopupActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.compositor.Invalidator;
 import org.chromium.chrome.browser.compositor.layouts.LayoutUpdateHost;
@@ -87,6 +89,7 @@ import org.chromium.ui.UiUtils;
 import org.chromium.ui.base.LocalizationUtils;
 import org.chromium.ui.interpolators.BakedBezierInterpolator;
 import org.chromium.base.Log;
+import org.chromium.base.ApplicationStatus;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -152,6 +155,7 @@ public class ToolbarPhone
     protected NewTabButton mNewTabButton;
     protected @Nullable AppCompatImageButton mHomeButton;
     private ImageView mBraveShieldsButton;
+    private ImageView mBraveRewardsPanelButton;
     private TextView mUrlBar;
     protected View mUrlActionContainer;
     protected ImageView mToolbarShadow;
@@ -495,6 +499,11 @@ public class ToolbarPhone
         if (mBraveShieldsButton != null) {
             mBraveShieldsButton.setClickable(true);
         }
+
+        mBraveRewardsPanelButton = (ImageView) findViewById(R.id.brave_rewards_button);
+        if (mBraveRewardsPanelButton != null) {
+            mBraveRewardsPanelButton.setClickable(true);
+        }
     }
 
     private void enableTabSwitchingResources() {
@@ -524,6 +533,7 @@ public class ToolbarPhone
         }
         mBraveShieldsButton.setOnClickListener(this);
         mBraveShieldsButton.setOnLongClickListener(this);
+        mBraveRewardsPanelButton.setOnClickListener(this);
     }
 
     @Override
@@ -637,6 +647,14 @@ public class ToolbarPhone
                 RecordUserAction.record("MobileToolbarShowBraveShields");
             }
         }
+        else if (mBraveRewardsPanelButton == v) {
+            if (null != mBraveRewardsPanelButton) {
+                //mBraveShieldsListener.onClick(mBraveShieldsButton);
+                //RecordUserAction.record("MobileToolbarShowBraveShields");
+                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity());
+            }
+        }
+
     }
 
     private void handleToggleTabStack() {
