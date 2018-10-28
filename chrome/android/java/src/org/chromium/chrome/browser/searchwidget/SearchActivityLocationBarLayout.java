@@ -44,7 +44,7 @@ public class SearchActivityLocationBarLayout extends LocationBarLayout {
     public SearchActivityLocationBarLayout(Context context, AttributeSet attrs) {
         super(context, attrs, R.layout.location_bar_base);
         setUrlBarFocusable(true);
-        setBackground(ToolbarPhone.createModernLocationBarBackground(getResources()));
+        setBackground(ToolbarPhone.createModernLocationBarBackground(getResources(), R.drawable.modern_toolbar_background_white));
 
         // Now you might ask yourself what these paddings are doing? Great question, really glad
         // you asked...OH MY...LOOK BEHIND YOU!!!
