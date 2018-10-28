@@ -1089,7 +1089,7 @@ public class ToolbarPhone
      */
     protected void updateUrlExpansionAnimation() {
         if (isInTabSwitcherMode()) {
-            mToolbarButtonsContainer.setVisibility(VISIBLE);
+            mToolbarButtonsContainer.setVisibility(INVISIBLE);
             return;
         }
 
