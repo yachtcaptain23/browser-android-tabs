@@ -1673,8 +1673,6 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                 app.mStatsUpdaterWorker = new StatsUpdaterWorker(app);
             }
         }
-        BraveBadge braveRewardsBadge = (BraveBadge) findViewById(R.id.brave_rewards_badge);
-        braveRewardsBadge.update(this, 5);
     }
 
     /**
