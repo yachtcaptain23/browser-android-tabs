@@ -441,6 +441,11 @@ public class ToolbarPhone
         mLocationBarBackgroundVerticalInset =
                 res.getDimensionPixelSize(R.dimen.location_bar_vertical_margin);
         mLocationBarBackground = createModernLocationBarBackground(getResources());
+        mLocationBarBackground.getPadding(mLocationBarBackgroundPadding);
+        mLocationBarBackground.mutate();
+        mLocationBar.setPadding(mLocationBarBackgroundPadding.left,
+                mLocationBarBackgroundPadding.top, mLocationBarBackgroundPadding.right,
+                mLocationBarBackgroundPadding.bottom);
 
         int lateralPadding = res.getDimensionPixelOffset(R.dimen.location_bar_lateral_padding);
         mLocationBar.setPadding(lateralPadding, 0, lateralPadding, 0);
@@ -451,9 +456,9 @@ public class ToolbarPhone
     /**
      * @return The drawable for the modern location bar background.
      */
-    public static Drawable createModernLocationBarBackground(Resources resources) {
+    public static Drawable createModernLocationBarBackground(Resources resources, int drawableId) {
         Drawable drawable = ApiCompatibilityUtils.getDrawable(
-                resources, R.drawable.modern_toolbar_background_white);
+                resources, drawableId);
         drawable.mutate();
         drawable.setColorFilter(ApiCompatibilityUtils.getColor(resources, R.color.modern_grey_100),
                 PorterDuff.Mode.SRC_IN);
@@ -1140,6 +1145,10 @@ public class ToolbarPhone
         locationBarBaseTranslationX *= 1f
                 - (mExperimentalButtonAnimationRunning ? mLocBarWidthChangePercent
                                                        : mUrlExpansionPercent);
+
+        mLocationBarBackground = createModernLocationBarBackground(getResources(), getToolbarButtonVisibility() == VISIBLE ? R.drawable.modern_toolbar_background_white : R.drawable.modern_toolbar_background_selected);
+        mLocationBarBackground.mutate();
+        mActiveLocationBarBackground = mLocationBarBackground;
 
         mLocationBarBackgroundNtpOffset.setEmpty();
         mLocationBarNtpOffsetLeft = 0;
