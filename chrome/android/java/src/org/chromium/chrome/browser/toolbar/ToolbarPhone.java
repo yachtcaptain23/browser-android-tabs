@@ -1053,7 +1053,7 @@ public class ToolbarPhone extends ToolbarLayout
      */
     protected void updateUrlExpansionAnimation() {
         if (isInTabSwitcherMode()) {
-            mToolbarButtonsContainer.setVisibility(VISIBLE);
+            mToolbarButtonsContainer.setVisibility(INVISIBLE);
             return;
         }
 
