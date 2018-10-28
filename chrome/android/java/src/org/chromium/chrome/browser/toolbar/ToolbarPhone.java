@@ -421,7 +421,7 @@ public class ToolbarPhone extends ToolbarLayout
         Resources res = getResources();
         mModernLocationBarBackgroundHeight =
                 res.getDimensionPixelSize(R.dimen.modern_toolbar_background_size);
-        mLocationBarBackground = createModernLocationBarBackground(getResources());
+        mLocationBarBackground = createModernLocationBarBackground(getResources(), R.drawable.modern_toolbar_background_white);
         mLocationBarBackground.getPadding(mLocationBarBackgroundPadding);
         mLocationBarBackground.mutate();
         mLocationBar.setPadding(mLocationBarBackgroundPadding.left,
@@ -437,9 +437,9 @@ public class ToolbarPhone extends ToolbarLayout
     /**
      * @return The drawable for the modern location bar background.
      */
-    public static Drawable createModernLocationBarBackground(Resources resources) {
+    public static Drawable createModernLocationBarBackground(Resources resources, int drawableId) {
         Drawable drawable = ApiCompatibilityUtils.getDrawable(
-                resources, R.drawable.modern_toolbar_background_white);
+                resources, drawableId);
         drawable.mutate();
         drawable.setColorFilter(ApiCompatibilityUtils.getColor(resources, R.color.modern_grey_100),
                 PorterDuff.Mode.SRC_IN);
@@ -1107,6 +1107,10 @@ public class ToolbarPhone extends ToolbarLayout
         }
 
         locationBarBaseTranslationX *= 1f - mUrlExpansionPercent;
+
+        mLocationBarBackground = createModernLocationBarBackground(getResources(), getToolbarButtonVisibility() == VISIBLE ? R.drawable.modern_toolbar_background_white : R.drawable.modern_toolbar_background_selected);
+        mLocationBarBackground.mutate();
+        mActiveLocationBarBackground = mLocationBarBackground;
 
         mLocationBarBackgroundNtpOffset.setEmpty();
         mLocationBarNtpOffsetLeft = 0;
