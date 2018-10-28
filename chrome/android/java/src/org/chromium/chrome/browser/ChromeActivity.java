@@ -1570,8 +1570,6 @@ public abstract class ChromeActivity extends AsyncInitializationActivity
             app.mADBlockUpdaterWorker = new ADBlockUpdaterWorker(this);
             //MixPanelWorker.SendBraveAppStartEvent();
         }
-        BraveBadge braveRewardsBadge = (BraveBadge) findViewById(R.id.brave_rewards_badge);
-        braveRewardsBadge.update(this, 5);
     }
 
     /**
