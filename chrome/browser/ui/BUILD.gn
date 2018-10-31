@@ -26,7 +26,7 @@ config("ui_warnings") {
     # TODO(thakis): Remove this once http://crbug.com/383820 is figured out
     cflags = [ "-Wno-nonnull" ]
   }
-}
+} 
 
 # Use a static library here because many test binaries depend on this but don't
 # require many files from it. This makes linking more efficient.
@@ -221,8 +221,8 @@ jumbo_split_static_library("ui") {
     "webauthn/authenticator_request_dialog.h",
     "webui/about_ui.cc",
     "webui/about_ui.h",
-    "webui/brave_rewards_ui.cc",
-    "webui/brave_rewards_ui.h",
+    "//brave/browser/ui/webui/brave_rewards_ui.cc",
+    "//brave/browser/ui/webui/brave_rewards_ui.h",
     "webui/brave_rewards_panel_ui.h",
     "webui/brave_rewards_panel_ui.cc",
     "webui/brave_webui_source.h",
@@ -377,7 +377,6 @@ jumbo_split_static_library("ui") {
     "//base",
     "//base:i18n",
     "//base/allocator:buildflags",
-    "//bat-native-ledger",
     "//cc/paint",
     "//chrome:extra_resources",
     "//chrome:resources",
