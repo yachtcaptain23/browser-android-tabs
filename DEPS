@@ -237,6 +237,7 @@ allowed_hosts = [
 ]
 
 deps = {
+  'src/brave': "https://github.com/brave/brave-core.git@62356fe5786d342449a6b1a0550cb74f36fe95a4",
   'src/chrome/browser/resources/media_router/extension/src':
     Var('chromium_git') + '/media_router.git' + '@' + '475baa8b2eb0a7a9dd1c96c9c7a6a8d9035cc8d7',
 
@@ -2613,6 +2614,7 @@ hooks = [
 ]
 
 recursedeps = [
+  'src/brave',
   # buildtools provides clang_format, libc++, and libc++abi
   'src/buildtools',
   # ANGLE manages DEPS that it also owns the build files for, such as dEQP.
