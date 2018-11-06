@@ -202,6 +202,7 @@ without changes to the corresponding grd file. -->
       <if expr="not is_android">
         <part file="cr_elements_images.grdp" />
       </if>
+      <part file="brave_webui_resources.grdp" />
     </includes>
     <structures>
       <structure name="IDR_WEBUI_CSS_ACTION_LINK"

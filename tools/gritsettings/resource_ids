@@ -202,7 +202,7 @@
   "brave/components/resources/brave_components_strings.grd": {
     "messages": [39000]
   },
-  
+
   # END components/ section.
 
   # START content/ section.
@@ -413,7 +413,7 @@
   },
   "ui/webui/resources/webui_resources.grd": {
     "includes": [27750],
-    "structures": [27950],
+    "structures": [27980],
   },
 
   # This file is generated during the build.
