@@ -32,36 +32,17 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
       }
       break
     case types.GET_PUBLISHER_DATA:
-      console.log('calling brave_rewards_panel.getPublisherData')
-      //chrome.send('brave_rewards_panel.getPublisherData', [])
+      chrome.send('brave_rewards_panel.getPublisherData', [action.payload.tabId, action.payload.url])
       break
-    case types.ON_TAB_RETRIEVED:
-    /*
-      const tab: chrome.tabs.Tab = payload.tab
-      if (
-        !tab ||
-        !tab.url ||
-        tab.incognito ||
-        !tab.active ||
-        !state.walletCreated
-      ) {
-        break
-      }
-
-      state = { ...state }
-      chrome.braveRewards.getPublisherData(tab.windowId, tab.url)
-      break
-    */
     case types.ON_PUBLISHER_DATA:
-    /*
       {
-        let publisher = payload.publisher
+        let publisher = payload.info.publisher
         let publishers: Record<string, RewardsExtension.Publisher> = state.publishers
 
         if (publisher && !publisher.publisher_key) {
-          delete publishers[payload.tabId.toString()]
+          delete publishers[payload.info.tabId]
         } else {
-          publishers[payload.tabId.toString()] = payload.publisher
+          publishers[payload.info.tabId] = publisher
         }
 
         state = {
@@ -70,7 +51,6 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
         }
         break
       }
-    */
     case types.GET_WALLET_PROPERTIES:
       chrome.send('brave_rewards_panel.getWalletProperties', [])
       break
@@ -95,7 +75,7 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
     case types.ON_CURRENT_TAB_INFO:
       {
         state = { ...state }
-        state.currentTabId = parseInt(payload.currentTabInfo.id)
+        state.currentTabId = payload.currentTabInfo.id
         state.currentTabUrl = payload.currentTabInfo.url
         break
       }

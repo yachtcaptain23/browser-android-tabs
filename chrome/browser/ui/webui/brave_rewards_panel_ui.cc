@@ -12,6 +12,7 @@
 #include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "brave/components/brave_rewards/browser/rewards_service_observer.h"
 #include "brave/components/brave_rewards/browser/wallet_properties.h"
+#include "brave/vendor/bat-native-ledger/include/bat/ledger/publisher_info.h"
 
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/common/webui_url_constants.h"
@@ -50,6 +51,8 @@ private:
    void HandleCreateWalletRequested(const base::ListValue* args);
    void GetWalletProperties(const base::ListValue* args);
    void GetCurrentActiveTabInfo(const base::ListValue* args);
+   void DonateToSite(const base::ListValue* args);
+   void GetPublisherData(const base::ListValue* args);
 
    void OnWalletInitialized(brave_rewards::RewardsService* rewards_service,
                             int error_code) override;
@@ -79,6 +82,65 @@ void RewardsDOMHandler::RegisterMessages() {
   web_ui()->RegisterMessageCallback("brave_rewards_panel.getCurrentActiveTabInfo",
       base::BindRepeating(&RewardsDOMHandler::GetCurrentActiveTabInfo,
                           base::Unretained(this)));
+  web_ui()->RegisterMessageCallback("brave_rewards_panel.donateToSite",
+      base::BindRepeating(&RewardsDOMHandler::DonateToSite,
+                          base::Unretained(this)));
+  web_ui()->RegisterMessageCallback("brave_rewards_panel.getPublisherData",
+      base::BindRepeating(&RewardsDOMHandler::GetPublisherData,
+                          base::Unretained(this)));
+}
+
+void RewardsDOMHandler::DonateToSite(const base::ListValue* args) {
+  std::string tabIdStr;
+  std::string publisherKey;
+  args->GetString(0, &tabIdStr);
+  args->GetString(1, &publisherKey);
+  std::stringstream tempTabId(tabIdStr);
+  SessionID::id_type tabId = -1;
+  tempTabId >> tabId;
+
+  // TODO hook up brave_donate_ui
+}
+
+void RewardsDOMHandler::GetPublisherData(const base::ListValue* args) {
+  std::string tabIdStr;
+  std::string url;
+  args->GetString(0, &tabIdStr);
+  args->GetString(1, &url);
+  std::stringstream tempTabId(tabIdStr);
+  SessionID::id_type tabId = -1;
+  tempTabId >> tabId;
+
+  if (rewards_service_) {
+    rewards_service_->GetPublisherActivityFromUrl(tabId,
+                                                  url,
+                                                  "");
+  }
+}
+
+void RewardsDOMHandler::OnGetPublisherActivityFromUrl(
+      brave_rewards::RewardsService* rewards_service,
+      int error_code,
+      ledger::PublisherInfo* info,
+      uint64_t tabId) {
+  if (!info || !web_ui()->CanCallJavascript()) {
+    return;
+  }
+
+  base::DictionaryValue data;
+  data.SetString("tabId", std::to_string(tabId).c_str());
+  auto publisher = std::make_unique<base::DictionaryValue>();
+  publisher->SetInteger("percent", info->percent);
+  publisher->SetBoolean("verified", info->verified);
+  publisher->SetBoolean("excluded", info->excluded == ledger::PUBLISHER_EXCLUDE::EXCLUDED);
+  publisher->SetString("name", info->name);
+  publisher->SetString("url", info->url);
+  publisher->SetString("provider", info->provider);
+  publisher->SetString("favicon_url", info->favicon_url);
+  publisher->SetString("publisher_key", info->id);
+  data.SetDictionary("publisher", std::move(publisher));
+
+  web_ui()->CallJavascriptFunctionUnsafe("brave_rewards_panel.publisherData", data);
 }
 
 void RewardsDOMHandler::GetCurrentActiveTabInfo(const base::ListValue* args) {
@@ -98,7 +160,7 @@ void RewardsDOMHandler::GetCurrentActiveTabInfo(const base::ListValue* args) {
     }
     TabAndroid* tabAndroid = model->GetTabAt(model->GetActiveIndex());
     base::DictionaryValue currentTabInfo;
-    currentTabInfo.SetInteger("id", SessionTabHelper::IdForTab(web_contents).id());
+    currentTabInfo.SetString("id", std::to_string(SessionTabHelper::IdForTab(web_contents).id()).c_str());
     currentTabInfo.SetString("url", tabAndroid->GetURL().spec());
 
     web_ui()->CallJavascriptFunctionUnsafe("brave_rewards_panel.currentTabInfo", currentTabInfo);

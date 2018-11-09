@@ -25,11 +25,13 @@ export const onTabRetrieved = (tab: chrome.tabs.Tab) => action(types.ON_TAB_RETR
   tab
 })
 
-export const getPublisherData = () => action(types.GET_PUBLISHER_DATA, {})
-
-export const onPublisherData = (tabId: number, publisher: RewardsExtension.Publisher) => action(types.ON_PUBLISHER_DATA, {
+export const getPublisherData = (tabId: string, url: string) => action(types.GET_PUBLISHER_DATA, {
   tabId,
-  publisher
+  url
+})
+
+export const onPublisherData = (info: RewardsExtension.PublisherPayload) => action(types.ON_PUBLISHER_DATA, {
+  info
 })
 
 export const getWalletProperties = () => action(types.GET_WALLET_PROPERTIES, {})
@@ -46,6 +48,6 @@ export const onCurrentReport = (properties: RewardsExtension.Report) => action(t
 
 export const currentTabInfo = () => action(types.GET_CURRENT_TAB_INFO, {})
 
-export const onCurrentTabInfo = (currentTabInfo: {id: number, url: string}) => action(types.ON_CURRENT_TAB_INFO, {
+export const onCurrentTabInfo = (currentTabInfo: {id: string, url: string}) => action(types.ON_CURRENT_TAB_INFO, {
   currentTabInfo
 })

@@ -14,7 +14,8 @@ import * as rewardsPanelActions from '../actions/rewards_panel_actions'
 import * as utils from '../utils'
 
 interface Props extends RewardsExtension.ComponentProps {
-  tabId: number
+  tabId: string
+  url: string
 }
 
 interface State {
@@ -44,6 +45,7 @@ export class Panel extends React.Component<Props, State> {
 
     this.props.actions.getWalletProperties()
     this.props.actions.getCurrentReport()
+    this.props.actions.getPublisherData(this.props.tabId, this.props.url)
   }
 
   componentDidUpdate (prevProps: Props, prevState: State) {

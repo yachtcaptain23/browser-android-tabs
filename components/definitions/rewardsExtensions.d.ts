@@ -1,7 +1,7 @@
 declare namespace RewardsExtension {
   interface State {
     currentNotification?: string
-    currentTabId?: number
+    currentTabId?: string
     currentTabUrl?: string
     notifications: Record<number, Notification>
     publishers: Record<string, Publisher>
@@ -29,6 +29,11 @@ declare namespace RewardsExtension {
     provider: string
     url: string
     verified: boolean
+  }
+
+  interface PublisherPayload {
+    tabId: string,
+    publisher: Publisher
   }
 
   export interface Grant {
