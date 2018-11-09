@@ -59,6 +59,11 @@ private:
    void OnWalletProperties(brave_rewards::RewardsService* rewards_service,
                            int error_code,
                            brave_rewards::WalletProperties* wallet_properties) override;
+   void OnGetPublisherActivityFromUrl(
+      brave_rewards::RewardsService* rewards_service,
+      int error_code,
+      ledger::PublisherInfo* info,
+      uint64_t tabId) override;
 
   DISALLOW_COPY_AND_ASSIGN(RewardsDOMHandler);
 };
