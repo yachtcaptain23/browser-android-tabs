@@ -615,7 +615,8 @@ public class ToolbarPhone
             }
         } else if (mBraveRewardsPanelButton == v) {
             if (null != mBraveRewardsPanelButton) {
-                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity());
+                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity(),
+                    "chrome://rewards-panel");
             }
         }
     }

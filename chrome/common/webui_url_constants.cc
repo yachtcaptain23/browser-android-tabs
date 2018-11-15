@@ -172,11 +172,16 @@ const char kDeprecatedChromeUIHistoryFrameHost[] = "history-frame";
 const char kDeprecatedChromeUIHistoryFrameURL[] = "chrome://history-frame/";
 const char kRewardsJS[] = "brave_rewards.js";
 const char kRewardsPanelJS[] = "brave_rewards_panel.js";
+const char kRewardsDonateJS[] = "brave_rewards_donate.js";
 
 #if defined(OS_ANDROID)
 const char kChromeUIEocInternalsHost[] = "eoc-internals";
 const char kBraveRewardsURL[] = "chrome://rewards/";
 const char kBraveRewardsHost[] = "rewards";
+const char kBraveRewardsPanelURL[] = "chrome://rewards-panel/";
+const char kBraveRewardsPanelHost[] = "rewards-panel";
+const char kBraveRewardsDonateURL[] = "chrome://rewards-donate/";
+const char kBraveRewardsDonateHost[] = "rewards-donate";
 const char kChromeUIJavaCrashURL[] = "chrome://java-crash/";
 const char kChromeUINativeBookmarksURL[] = "chrome-native://bookmarks/";
 const char kChromeUINativeExploreURL[] = "chrome-native://explore";
@@ -189,8 +194,6 @@ const char kChromeUIOfflineInternalsHost[] = "offline-internals";
 const char kChromeUIPhysicalWebDiagnosticsHost[] = "physical-web-diagnostics";
 const char kChromeUISnippetsInternalsHost[] = "snippets-internals";
 const char kChromeUIWebApksHost[] = "webapks";
-const char kBraveRewardsPanelURL[] = "chrome://rewards-panel/";
-const char kBraveRewardsPanelHost[] = "rewards-panel";
 
 #endif
 
@@ -398,6 +401,8 @@ const char* const kChromeHostURLs[] = {
 #if defined(OS_ANDROID)
     kChromeUIEocInternalsHost,
     kBraveRewardsURL,
+    kBraveRewardsPanelURL,
+    kBraveRewardsDonateURL,
     kChromeUIOfflineInternalsHost,
     kChromeUISnippetsInternalsHost,
     kChromeUIWebApksHost,
