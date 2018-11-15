@@ -29,6 +29,7 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.AppHooks;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.FullscreenActivity;
+import org.chromium.chrome.browser.PopupActivity;
 import org.chromium.chrome.browser.RepostFormWarningDialog;
 import org.chromium.chrome.browser.SwipeRefreshHandler;
 import org.chromium.chrome.browser.document.DocumentUtils;
@@ -317,7 +318,11 @@ public class TabWebContentsDelegateAndroid extends WebContentsDelegateAndroid {
     @Override
     public void openNewTab(String url, String extraHeaders, ResourceRequestBody postData,
             int disposition, boolean isRendererInitiated) {
-        mTab.openNewTab(url, extraHeaders, postData, disposition, true, isRendererInitiated);
+        if (!url.equals("chrome://rewards-donate/")) {
+            mTab.openNewTab(url, extraHeaders, postData, disposition, true, isRendererInitiated);
+        } else {
+            PopupActivity.show(mTab.getActivity(), url);
+        }
     }
 
     private Pair<WebContents, String> mWebContentsUrlMapping;

@@ -656,7 +656,8 @@ public class ToolbarPhone
             if (null != mBraveRewardsPanelButton) {
                 //mBraveShieldsListener.onClick(mBraveShieldsButton);
                 //RecordUserAction.record("MobileToolbarShowBraveShields");
-                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity());
+                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity(), 
+                    "chrome://rewards-panel");
             }
         }
 
