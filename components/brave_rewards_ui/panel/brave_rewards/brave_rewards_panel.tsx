@@ -15,8 +15,6 @@ import { getActions as getUtilActions, setActions } from '../../resources/utils'
 import * as rewardsPanelActions from './actions/rewards_panel_actions'
 
 require('emptykit.css')
-require('../../../fonts/muli.css')
-require('../../../fonts/poppins.css')
 
 // Components
 import App from './components/app'
@@ -89,5 +87,10 @@ window.cr.define('brave_rewards_panel', function () {
     walletExists
   }
 })
-
+if (document.readyState === "complete"
+     || document.readyState === "interactive") {
+     // document has at least been parsed
+     window.brave_rewards_panel.initialize()
+} else {
 document.addEventListener('DOMContentLoaded', window.brave_rewards_panel.initialize)
+}

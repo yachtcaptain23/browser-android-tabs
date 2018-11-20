@@ -36,6 +36,7 @@ void AddResourcePaths(content::WebUIDataSource* html_source,
 }  // namespace
 
 void CustomizeWebUIHTMLSource(const std::string &name, content::WebUIDataSource* source) {
+  // Resources specific to each page
   static std::map<std::string, std::vector<WebUISimpleItem> > resources = {
     {
       std::string("rewards"), {

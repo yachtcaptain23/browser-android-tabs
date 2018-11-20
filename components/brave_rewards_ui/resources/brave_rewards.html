@@ -6,16 +6,19 @@
 <title>Rewards</title>
 <link rel="import" href="chrome://resources/html/cr.html">
 <script src="chrome://resources/js/cr.js"></script>
+<script src="chrome://resources/js/promise_resolver.js"></script>
+<script src="/brave_rewards_settings.js" defer></script>
 <script src="chrome://resources/js/load_time_data.js"></script>
 <script src="chrome://resources/js/util.js"></script>
 <script src="chrome://resources/js/i18n_template.js"></script>
-<script src="chrome://rewards/brave_rewards.js"></script>
-<script src="chrome://rewards/strings.js"></script>
+<script src="/strings.js"></script>
 <style>
-  #root { height: 100%; }
+  #root { width: 100vw; min-height: 100vh; }
 </style>
 </head>
 <body>
-<div id="root"></div>
+  <link rel="stylesheet" href="chrome://resources/brave/fonts/muli.css" />
+  <link rel="stylesheet" href="chrome://resources/brave/fonts/poppins.css" />
+  <div id="root"></div>
 </body>
 </html>

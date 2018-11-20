@@ -25,7 +25,7 @@ config("ui_warnings") {
     # TODO(thakis): Remove this once http://crbug.com/383820 is figured out
     cflags = [ "-Wno-nonnull" ]
   }
-} 
+}
 
 # Use a static library here because many test binaries depend on this but don't
 # require many files from it. This makes linking more efficient.
@@ -681,14 +681,14 @@ jumbo_split_static_library("ui") {
     "webui/about_ui.h",
     "//brave/browser/ui/webui/brave_rewards_ui.cc",
     "//brave/browser/ui/webui/brave_rewards_ui.h",
+    "//brave/browser/ui/webui/basic_ui.cc",
+    "//brave/browser/ui/webui/basic_ui.h",
     "webui/brave_rewards_panel_ui.cc",
     "webui/brave_rewards_panel_ui.h",
     "webui/brave_rewards_donate_ui.cc",
     "webui/brave_rewards_donate_ui.h",
     "webui/brave_webui_source.h",
     "webui/brave_webui_source.cc",
-    "webui/basic_ui.cc",
-    "webui/basic_ui.h",
     "webui/chrome_web_ui_controller_factory.cc",
     "webui/chrome_web_ui_controller_factory.h",
     "webui/components_ui.cc",
@@ -869,6 +869,9 @@ jumbo_split_static_library("ui") {
     "//components/autofill/core/browser",
     "//components/bookmarks/browser",
     "//components/bookmarks/managed",
+    "//components/brave_rewards_ui:panel_generated_resources",
+    "//components/brave_rewards_ui:settings_generated_resources",
+    "//components/brave_rewards_ui:donate_generated_resources",
     "//components/browser_sync",
     "//components/browsing_data/content",
     "//components/browsing_data/core",
