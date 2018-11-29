@@ -96,6 +96,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+// TODO debug
+import org.chromium.chrome.browser.BraveRewardsPanelPopup;
+//
+
 /**
  * Phone specific toolbar implementation.
  */
@@ -638,8 +642,11 @@ public class ToolbarPhone extends ToolbarLayout
             if (null != mBraveRewardsPanelButton) {
                 //mBraveShieldsListener.onClick(mBraveShieldsButton);
                 //RecordUserAction.record("MobileToolbarShowBraveShields");
-                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity(), 
-                    "chrome://rewards-panel");
+                //PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity(), 
+                //    "chrome://rewards-panel");
+
+                BraveRewardsPanelPopup rewardsPopup = new BraveRewardsPanelPopup(v);
+                rewardsPopup.showLikePopDownMenu();
             }
         }
 

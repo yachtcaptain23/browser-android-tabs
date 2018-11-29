@@ -4056,6 +4056,27 @@ Saved
       <message name="IDS_OPEN_PAGES_IN_CUSTOM_TABS_SUMMARY" desc="Summary of preference that allows the user to open pages in a full mode always.">
         Offer to open tabs in Custom Tabs
       </message>
+
+      <!--It's just temporary. We will need to pull rewards strings from brave-core-->
+      <message name="IDS_BRAVE_UI_WELCOME_HEADER_TWO" desc="">
+        Get ready to experience the next
+Internet.
+      </message>
+      <message name="IDS_BRAVE_REWARDS_MESSAGE" desc="">
+        Brave Rewards&#8482;
+      </message>
+      <message name="IDS_BRAVE_UI_WELCOME_DESC_TWO" desc="">
+        Get paid for viewing ads and pay it
+forward to support your favorite
+content creators.
+      </message>
+      <message name="IDS_BRAVE_UI_WELCOME_BUTTON_TEXT_TWO" desc="">
+        JOIN REWARDS
+      </message>
+      <message name="IDS_BRAVE_UI_WELCOME_FOOTER_TEXT_TWO" desc="">
+        Learn More
+      </message>
+      <!--End of rewards temporary section.-->
     </messages>
   </release>
 </grit>
