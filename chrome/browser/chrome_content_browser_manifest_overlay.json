@@ -31,6 +31,7 @@
       },
       "requires": {
         "apps": [ "app_service" ],
+        "bat_ads": [ "bat_ads" ],
         "ash": [ "system_ui", "test", "display" ],
         // Only used in classic ash case.
         "ash_pref_connector": [ "pref_connector" ],
