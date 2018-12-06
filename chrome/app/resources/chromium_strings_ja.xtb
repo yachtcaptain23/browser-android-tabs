@@ -14,7 +14,7 @@
 <translation id="1396446129537741364">Brave はパスワードを表示しようとしています。</translation>
 <translation id="1414495520565016063">Brave にログインしました</translation>
 <translation id="1502360822835740515">Brave をデフォルトのブラウザにする</translation>
-<translation id="151962892725702025">お使いのドメインでは同期を利用できないため、Brave OS はデータを同期できませんでした。</translation>
+<translation id="151962892725702025">お使いのドメインでは同期を利用できないため、Chromium OS はデータを同期できませんでした。</translation>
 <translation id="1585657529869845941">[<ph name="BEGIN_BOLD" />切り替える<ph name="END_BOLD" />] をクリックします（表示された場合）</translation>
 <translation id="1662639173275167396">Chrome OS も <ph name="BEGIN_LINK_LINUX_OSS" />Linux（ベータ版）<ph name="END_LINK_LINUX_OSS" />も追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
 <translation id="1672124279374861424">Brave からアカウントを削除したら、場合によっては開いているタブを再読み込みして変更を反映させる必要があります。</translation>
@@ -40,7 +40,7 @@
 <translation id="6078442581074612226">Brave 内</translation>
 <translation id="2485422356828889247">アンインストール</translation>
 <translation id="2527042973354814951"><ph name="PLUGIN_NAME" /> を有効にするには Brave を再起動してください</translation>
-<translation id="2535480412977113886">アカウントのログイン情報が最新ではないため、Brave OS はデータを同期できませんでした。</translation>
+<translation id="2535480412977113886">アカウントのログイン情報が最新ではないため、Chromium OS はデータを同期できませんでした。</translation>
 <translation id="2560420686485554789">ファイルをダウンロードするには、Brave でストレージへのアクセスを許可する必要があります</translation>
 <translation id="2572494885440352020">Brave Helper</translation>
 <translation id="2587578672395088481">アップデートを適用するには Chromium OS を再起動する必要があります。</translation>
@@ -71,7 +71,7 @@
 <ph name="USER_DATA_DIRECTORY" /></translation>
 <translation id="350396164462274391">Google API キーが欠落しています。Brave の一部の機能は無効になります。</translation>
 <translation id="3296368748942286671">Brave を閉じた際にバックグラウンド アプリの処理を続行する</translation>
-<translation id="331951419404882060">ログイン時にエラーが発生したため、Brave OS はデータを同期できませんでした。</translation>
+<translation id="331951419404882060">ログイン時にエラーが発生したため、Chromium OS はデータを同期できませんでした。</translation>
 <translation id="3474745554856756813">この端末から <ph name="ITEMS_COUNT" /> 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Brave にログインしてください。</translation>
 <translation id="3479552764303398839">後で</translation>
 <translation id="3509308970982693815">すべての Brave ウィンドウを閉じてからもう一度お試しください。</translation>
@@ -236,7 +236,7 @@
 <translation id="8157153840442649507">Brave はこの言語で表示されています</translation>
 <translation id="9067428552314418522">このファイルは危険なファイルであるため、Brave でブロックしました。</translation>
 <translation id="2965084188004448871">Brave をスマートフォンにインストールしませんか。お客様のアカウント再設定用の電話番号（<ph name="PHONE_NUMBER" />）に、Google より SMS をお送りします。</translation>
-<translation id="5138664332909611586">このページは大量のメモリを使用しているため、Chrome により一部のコンテンツが削除されました。</translation>
+<translation id="5138664332909611586">このページは大量のメモリを使用しているため、Brave により一部のコンテンツが削除されました。</translation>
 <translation id="763369711159699222">Brave の品質向上にご協力ください</translation>
 <translation id="89367911614620585">このファイルは危険なファイルの可能性があるため、Brave でブロックしました。</translation>
 <translation id="3360368475735266712">ログインすると、同期してカスタマイズした Brave をどの端末でも使用できます</translation>

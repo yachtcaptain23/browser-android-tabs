@@ -27,7 +27,7 @@
 <translation id="474353600079041991">Saate aidata muuta Brave turvalisemaks ja lihtsamalt kasutatavaks, kui teavitate Google'it automaatselt võimalike turvaintsidentide üksikasjadest.</translation>
 <translation id="1881322772814446296">Logite sisse hallatud kontoga ja annate selle administraatorile üle Brave profiili juhtimise. Teie Brave andmed, näiteks rakendused, järjehoidjad, ajalugu, paroolid ja muud seaded seotakse jäädavalt kasutajaga <ph name="USER_NAME" />. Saate need andmed kustutada Google'i kontode juhtpaneeli kaudu, kuid te ei saa neid seostada teise kontoga. Võite olemasolevate Brave'i andmete eraldi hoidmiseks luua aga uue profiili. <ph name="LEARN_MORE" /></translation>
 <translation id="1895626441344023878">{0,plural, =0{Brave värskendus on saadaval}=1{Brave värskendus on saadaval}other{Brave värskendus on olnud saadaval # päeva}}</translation>
-<translation id="1911763535808217981">Kui selle välja lülitate, saate Google'i saitidele (nt Gmaili) sisse logida ilma Chromiumisse sisse logimata</translation>
+<translation id="1911763535808217981">Kui selle välja lülitate, saate Google'i saitidele (nt Gmaili) sisse logida ilma Bravesse sisse logimata</translation>
 <translation id="1929939181775079593">Brave ei reageeri. Kas soovite kohe taaskäivitada?</translation>
 <translation id="1966382378801805537">Brave ei saa määrata ega seadistada vaikebrauserit</translation>
 <translation id="2008474315282236005">See kustutab seadmest ühe üksuse. Hiljem oma andmete toomiseks logige Brave sisse kasutajana <ph name="USER_EMAIL" />.</translation>
@@ -37,7 +37,7 @@
 <translation id="8358191771897395012">hankige oma iPhone'ile Brave</translation>
 <translation id="3813272600615358652">See laiendus muutis seda, milline leht kuvatakse Brave käivitamisel.</translation>
 <translation id="2576129394594491151">Laiendus „<ph name="EXTENSION_NAME" />” muutis seda, milline leht kuvatakse Brave käivitamisel.</translation>
-<translation id="6078442581074612226">Chromiumis</translation>
+<translation id="6078442581074612226">Braves</translation>
 <translation id="2485422356828889247">Desinstalli</translation>
 <translation id="2527042973354814951">Taaskäivitage pistikprogrammi <ph name="PLUGIN_NAME" /> lubamiseks Brave</translation>
 <translation id="2535480412977113886">Chromium OS ei saanud andmeid sünkroonida, sest teie konto sisselogimisandmed on aegunud.</translation>
@@ -99,7 +99,7 @@
 <translation id="4285930937574705105">Installimine ebaõnnestus tundmatu vea tõttu. Kui Brave praegu töötab, siis sulgege see ja proovige uuesti.</translation>
 <translation id="4407044323746248786">Kas väljuda Brave ikkagi?</translation>
 <translation id="4415566066719264597">Luba Brave taustal töötada</translation>
-<translation id="4421155425831608516">Administraator on selles seadmes Chromiumisse sisselogimise keelanud.</translation>
+<translation id="4421155425831608516">Administraator on selles seadmes Bravesse sisselogimise keelanud.</translation>
 <translation id="8148611988012584308">Brave kohandamine ja juhtimine</translation>
 <translation id="4567424176335768812">Olete sisse logitud aadressiga <ph name="USER_EMAIL_ADDRESS" />. Nüüd on teil juurdepääs oma järjehoidjatele, ajaloole ja muudele seadetele kõigis seadmetes, kuhu olete sisse logitud.</translation>
 <translation id="300669147395456190">Brave rakendused</translation>
@@ -120,7 +120,7 @@
 <translation id="5277894862589591112">Muudatuste rakendamiseks käivitage Brave uuesti</translation>
 <translation id="5358375970380395591">Logite sisse hallatud kontoga ja annate selle administraatorile üle Brave profiili juhtimise. Teie Brave andmed, näiteks rakendused, järjehoidjad, ajalugu, paroolid ja muud seaded seotakse jäädavalt kasutajaga <ph name="USER_NAME" />. Saate need andmed kustutada Google'i kontode juhtpaneeli kaudu, kuid te ei saa neid seostada teise kontoga. <ph name="LEARN_MORE" /></translation>
 <translation id="5386450000063123300">Brave värskendamine (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Luba Chromiumisse sisselogimine</translation>
+<translation id="538767207339317086">Luba Bravesse sisselogimine</translation>
 <translation id="5398878173008909840">Brave uus versioon on saadaval.</translation>
 <translation id="5874882355102994015">Brave ei saa printimise eelvaadet kuvada, kui sisseehitatud PDF-vaatur puudub.</translation>
 <translation id="5427571867875391349">Määra Brave vaikebrauseriks</translation>
@@ -142,12 +142,12 @@
 <translation id="7207456302801184289">Tere tulemast Brave</translation>
 <translation id="5877064549588274448">Kanal on muutunud. Muudatuste rakendamiseks taaskäivitage oma seade.</translation>
 <translation id="5895138241574237353">Taaskäivitamine</translation>
-<translation id="5902536751647951209">Autentimissertifikaat ebaõnnestus. Logige Chromiumisse uuesti sisse või võtke lisateabe saamiseks ühendust administraatoriga. <ph name="ADDITIONAL_EXPLANATION" /></translation>
+<translation id="5902536751647951209">Autentimissertifikaat ebaõnnestus. Logige Bravesse uuesti sisse või võtke lisateabe saamiseks ühendust administraatoriga. <ph name="ADDITIONAL_EXPLANATION" /></translation>
 <translation id="5906655207909574370">Seade on peaaegu ajakohane. Värskenduse lõpuleviimiseks taaskäivitage seade.</translation>
 <translation id="5987687638152509985">Sünkroonimise alustamiseks värskendage Brave</translation>
 <translation id="6040143037577758943">Sulge</translation>
 <translation id="6055895534982063517">Saadaval on Brave uus versioon ja see on kiirem kui kunagi varem.</translation>
-<translation id="9071554113102421877">&amp;Ava Chromiumis</translation>
+<translation id="9071554113102421877">&amp;Ava Braves</translation>
 <translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> on Brave lisatud</translation>
 <translation id="608189560609172163">Brave ei saanud sisselogimisvea tõttu teie andmeid sünkroonida.</translation>
 <translation id="5849446944780602366">Kohandage ja juhtige Brave. Saadaval on värskendus.</translation>
@@ -159,7 +159,7 @@
 <translation id="7445061995866044926">Kas logida Brave välja?</translation>
 <translation id="3561569806301739367"><ph name="FILE_NAME" /> võib olla ohtlik, mistõttu Brave blokeeris selle.</translation>
 <translation id="3205074487970075628">Brave kasutab teie kaamerat.</translation>
-<translation id="6333502561965082103">Teine toiming on Chromiumis pooleli. Proovige hiljem uuesti.</translation>
+<translation id="6333502561965082103">Teine toiming on Braves pooleli. Proovige hiljem uuesti.</translation>
 <translation id="6334986366598267305">Nüüd on Brave lihtsam kasutada Google'i kontoga ja jagatud arvutistes.</translation>
 <translation id="6373523479360886564">Kas soovite kindlasti Brave desinstallida?</translation>
 <translation id="9159286371333817139">Soovitame Brave kohe taaskäivitada.</translation>
@@ -223,11 +223,11 @@ Täiendavad juhised leiate aadressilt <ph name="ACCOUNT_EMAIL" />.</translation>
 <translation id="7747138024166251722">Installija ei suutnud luua ajutist kataloogi. Palun kontrollige vaba kettaruumi ja tarkvara installimise loa olemasolu.</translation>
 <translation id="7756122083761163394">Selle isiku sirvimisandmed kustutatakse seadmest. Andmete taastamiseks logige Brave'i sisse kasutajana $2.</translation>
 <translation id="5436841087823876677">Hoiatus. Brave ei saa takistada laiendustel teie sirvimisajalugu salvestada. Kui soovite laienduse inkognito režiimis keelata, siis tühistage see valik.</translation>
-<translation id="7774736947049807614">Autentimissertifikaat ebaõnnestus. Logige Chromiumisse uuesti sisse kasutajana <ph name="USER_NAME" /> või võtke lisateabe saamiseks ühendust administraatoriga. <ph name="ADDITIONAL_EXPLANATION" /></translation>
+<translation id="7774736947049807614">Autentimissertifikaat ebaõnnestus. Logige Bravesse uuesti sisse kasutajana <ph name="USER_NAME" /> või võtke lisateabe saamiseks ühendust administraatoriga. <ph name="ADDITIONAL_EXPLANATION" /></translation>
 <translation id="6236814935154483927"><ph name="PAGE_TITLE" /> – Brave Canary</translation>
 <translation id="7963515534397191222">Brave ei saanud uusimale versioonile värskendada, mistõttu jääte ilma uutest funktsioonidest ja turvaparandustest.</translation>
 <translation id="7901117350626490574">Saadaval on uus Brave värskendus, mis rakendatakse taaskäivitamisel.</translation>
-<translation id="7937630085815544518">Olite Chromiumisse sisse logitud kasutajana <ph name="USER_EMAIL_ADDRESS" />. Kasutage uuesti sisselogimiseks sama kontot.</translation>
+<translation id="7937630085815544518">Olite Bravesse sisse logitud kasutajana <ph name="USER_EMAIL_ADDRESS" />. Kasutage uuesti sisselogimiseks sama kontot.</translation>
 <translation id="7962572577636132072">Brave teeb värskendused automaatselt, nii et kasutate alati uusimat versiooni.</translation>
 <translation id="7975919845073681630">See on Brave sekundaarne install ja seda ei saa määrata vaikebrauseriks.</translation>
 <translation id="7979877361127045932">Brave menüüs peitmine</translation>
