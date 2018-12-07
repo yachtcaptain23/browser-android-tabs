@@ -411,7 +411,7 @@ Pour modifier le terme de recherche, appuyez dessus de manière prolongée afin 
 <translation id="4226663524361240545">L'appareil vibrera en cas de notifications.</translation>
 <translation id="423219824432660969">Chiffrer les données synchronisées avec le mot de passe Google à la date suivante : <ph name="TIME" /></translation>
 <translation id="4242533952199664413">Ouvrir les paramètres</translation>
-<translation id="4243710787042215766">Ouvrir dans un onglet privé</translation>
+<translation id="4243710787042215766">Ouvrez dans un onglet privé</translation>
 <translation id="7445061995866044926">Se déconnecter de Brave ?</translation>
 <translation id="4256782883801055595">Licences Open Source</translation>
 <translation id="4259722352634471385">La navigation sur <ph name="URL" /> est bloquée.</translation>
@@ -733,7 +733,7 @@ Par exemple, certains sites Web peuvent répondre à cette demande en diffusant 
 <translation id="6593061639179217415">Version pour ordinateur</translation>
 <translation id="663059986967017181">Copiée dans Brave</translation>
 <translation id="6608650720463149374"><ph name="GIGABYTES" /> Go</translation>
-<translation id="6610147964972079463">Fermer les onglets privés</translation>
+<translation id="6610147964972079463">Fermez les onglets privés</translation>
 <translation id="6612358246767739896">Contenu protégé</translation>
 <translation id="6627583120233659107">Modifier le dossier</translation>
 <translation id="6643016212128521049">Effacer</translation>
@@ -1101,7 +1101,7 @@ Pour obtenir de nouvelles licences, connectez-vous à Internet et lisez le conte
 <translation id="4609637183310787528">Empêche le chargement des ressources qui vous suivent à la trace</translation>
 <translation id="8387201461264842096">Bloqueur de publicités</translation>
 <translation id="1934885595886623674">Empêche le chargement des publicités</translation>
-<translation id="7458422973722236530">Protection par empreintes digitales</translation>
+<translation id="7458422973722236530">Protection contre les prises d'empreinte</translation>
 <translation id="5787084571334399599">Empêche le navigateur de prendre des empreintes digitales</translation>
 <translation id="3758669798635576061">Méthodes par empreintes digitales bloquées</translation>
 <translation id="3276318574457057212">Pub régionale bloquée</translation>
@@ -1132,39 +1132,39 @@ et afficher le code de synchronisation.</translation>
 <translation id="6244065453125065109">Trackers
 bloqués</translation>
 <translation id="2547939855139473800">Publicités
-bloqués</translation>
-<translation id="8880969045613157151">Mises à
-jour HTTPS</translation>
-<translation id="204407992549693965">Temps est.
-Enregistré</translation>
+bloquées</translation>
+<translation id="8880969045613157151">Passages
+en HTTPS</translation>
+<translation id="204407992549693965">Temps
+Economisé</translation>
 <translation id="991605024067283917">Envoyer les métriques</translation>
 <translation id="6572660632052512096">Mode Bureau</translation>
 <translation id="4479934682648362332">Privilégier la version bureau des sites</translation>
 <translation id="807636106793708118">Privilégier la version mobiles des sites </translation>
-<translation id="1340503115760585811">Activer l\'Aperçu Bureau pour les nouveaux onglets</translation>
+<translation id="1340503115760585811">Activer l'Aperçu Bureau pour les nouveaux onglets</translation>
 <translation id="7924540991929826186">Utiliser les versions mobiles des sites pour les nouveaux onglets (recommandé)</translation>
 <translation id="3834924998750356151">Blocage du moniteur</translation>
 <translation id="1713450908129883784">Commandes individuelles</translation>
-<translation id="6303294677342628402">Blindages</translation>
+<translation id="6303294677342628402">Boucliers</translation>
 <translation id="252011129655042182">Publicités et pistages</translation>
-<translation id="6754976710186182237">Méthodes des empreintes</translation>
+<translation id="6754976710186182237">Méthodes de prise d'empreinte</translation>
 <translation id="8585880402319729023">Bloquer le hameçonnage</translation>
 <translation id="4235790499274112499">Vidéo en arrière-plan</translation>
 <translation id="59174027418879706">Activée</translation>
 <translation id="4176463684765177261">Désactivée</translation>
-<translation id="1580125697191336644">Expérimental. Active la lecture audio à partir d\'une vidéo en arrière-plan lorsque l\'onglet est inactif ou l\'écran de l\'appareil éteint. Tentez de passer en mode bureau si cette fonctionnalité n\'est pas opérationnelle.</translation>
+<translation id="1580125697191336644">Expérimental. Active la lecture audio à partir d'une vidéo en arrière-plan lorsque l'onglet est inactif ou l'écran de l'appareil éteint. Tentez de passer en mode bureau si cette fonctionnalité n'est pas opérationnelle.</translation>
 <translation id="6587448235155023666">Vos changements prendront effet lors du prochain démarrage de Brave</translation>
 <translation id="8701563696941209024">REDÉMARRER MAINTENANT</translation>
 <translation id="834487290629916192">PLUS TARD</translation>
 <translation id="5965081608816406060">Lecture vidéo en arrière-plan</translation>
 <translation id="1842747674580016420">Lecture vidéo dans Brave</translation>
-<translation id="5368992950177874750">Si ce paramètre est activé, les vidéos seront lues dans Brave au lieu de l\'application correspondante</translation>
+<translation id="5368992950177874750">Si ce paramètre est activé, les vidéos seront lues dans Brave au lieu de l'application correspondante</translation>
 <translation id="7459000603787995422">Fermez les onglets en quittant</translation>
 <translation id="1680858055899097121">Ne faites pas persister les onglets entre les sessions de navigation</translation>
 <translation id="213787746370741250">Ouvrir les onglets dans la section Personnalisation des onglets</translation>
-<translation id="3544772668823934222">Proposer d\'ouvrir les onglets dans la section Personnalisation des onglets</translation>
+<translation id="3544772668823934222">Proposer d'ouvrir les onglets dans la section Personnalisation des onglets</translation>
 <translation id="4501702055016678577">Recherche privée avec DuckDuckGo ?</translation>
-<translation id="910419239800579753">Avec la recherche privée, Brave utilisera DuckDuckGo pour répondre à vos recherches alors que vous vous trouvez sur cet onglet privé. DuckDuckGo est un moteur de recherche qui ne traque pas votre historique de recherche, vous permettant d\'effectuer des recherches confidentiellement. </translation>
+<translation id="910419239800579753">Avec la recherche privée, Brave utilisera DuckDuckGo pour répondre à vos recherches alors que vous vous trouvez sur cet onglet privé. DuckDuckGo est un moteur de recherche qui ne traque pas votre historique de recherche, vous permettant d'effectuer des recherches confidentiellement. </translation>
 <translation id="1426410128494586442">Oui</translation>
 <translation id="4250680216510889253">Non</translation>
 <translation id="5628466560184522265">Informez-vous à propos de la recherche privée avec DuckDuckGo</translation>
