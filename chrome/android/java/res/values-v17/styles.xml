@@ -599,6 +599,12 @@
         <item name="android:layout_height">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
+    <style name="BraveToolbarButton">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:layout_width">@dimen/toolbar_button_width</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
     <!--<style name="ToolbarMenuButtonShieldsPhone" parent="ToolbarButton">
         <item name="android:layout_gravity">top</item>
         <item name="android:layout_width">42dp</item>

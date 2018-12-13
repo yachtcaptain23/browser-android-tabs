@@ -42,8 +42,11 @@
 
             <org.chromium.chrome.browser.widget.TintedImageButton
                 android:id="@+id/bookmarks_button"
-                style="@style/ToolbarButton"
+                style="@style/BraveToolbarButton"
                 android:src="@drawable/btn_toolbar_bookmarks"
+                android:adjustViewBounds="true"
+                android:paddingStart="11dp"
+                android:paddingEnd="11dp"
                 android:layout_gravity="center"
                 android:contentDescription="@string/accessibility_toolbar_btn_home"/>
 
@@ -54,8 +57,11 @@
 
             <org.chromium.chrome.browser.widget.TintedImageButton
                 android:id="@+id/history_button"
-                style="@style/ToolbarButton"
+                style="@style/BraveToolbarButton"
                 android:src="@drawable/btn_toolbar_history"
+                android:adjustViewBounds="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="12dp"
                 android:layout_gravity="center"
                 android:contentDescription="@string/accessibility_toolbar_btn_menu"/>
 
@@ -66,7 +72,7 @@
 
             <org.chromium.chrome.browser.widget.newtab.NewTabButton
                 android:id="@+id/new_tab_button"
-                style="@style/ToolbarButton"
+                style="@style/BraveToolbarButton"
                 android:src="@drawable/btn_toolbar_new_tab"
                 android:layout_gravity="center"
                 android:contentDescription="@string/accessibility_toolbar_btn_menu"/>
