@@ -60,14 +60,16 @@ private:
 
    void OnWalletInitialized(brave_rewards::RewardsService* rewards_service,
                             int error_code) override;
+
    void OnWalletProperties(brave_rewards::RewardsService* rewards_service,
                            int error_code,
-                           brave_rewards::WalletProperties* wallet_properties) override;
+                           std::unique_ptr<brave_rewards::WalletProperties> properties) override;
+
    void OnGetPublisherActivityFromUrl(
       brave_rewards::RewardsService* rewards_service,
       int error_code,
       ledger::PublisherInfo* info,
-      uint64_t tabId) override;
+      uint64_t tabId) ;
 
   DISALLOW_COPY_AND_ASSIGN(RewardsDOMHandler);
 };
@@ -241,7 +243,7 @@ void RewardsDOMHandler::OnWalletInitialized(
 void RewardsDOMHandler::OnWalletProperties(
     brave_rewards::RewardsService* rewards_service,
     int error_code,
-    brave_rewards::WalletProperties* wallet_properties) {
+    std::unique_ptr<brave_rewards::WalletProperties>  wallet_properties) {
   if (!wallet_properties || !web_ui()->CanCallJavascript()) {
     return;
   }
