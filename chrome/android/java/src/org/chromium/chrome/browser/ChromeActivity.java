@@ -12,6 +12,8 @@ import android.app.assist.AssistContent;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -22,6 +24,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
+import android.provider.Settings;
 import android.support.annotation.CallSuper;
 import android.util.DisplayMetrics;
 import android.util.Pair;
@@ -2392,6 +2395,21 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             RecordUserAction.record("MobileMenuRequestDesktopSite");
         } else if (id == R.id.reader_mode_prefs_id) {
             DomDistillerUIUtils.openSettings(currentTab.getWebContents());
+        } else if (id == R.id.brave_set_default_browser) {
+            Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
+            ResolveInfo resolveInfo = getPackageManager().resolveActivity(browserIntent, PackageManager.MATCH_DEFAULT_ONLY);
+            if (resolveInfo.activityInfo.packageName.equals("com.google.android.setupwizard")) {
+                // (Albert Wang): TODO: Show top view to say to load image
+                Log.d("albert", "should show toast");
+                // This is the default browser's packageName
+                int duration = Toast.LENGTH_LONG;
+                Toast toast = Toast.makeText(this, "hello toast", duration);
+                toast.show();
+                // (Albert Wang): TODO: Figure out why this intent keeps triggering.
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.brave.com/blog")));
+            } else {
+                getApplicationContext().startActivity(new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS));
+            }
         } else if (id == R.id.exit_id) {
             ApplicationLifetime.terminate(false);
         } else {
