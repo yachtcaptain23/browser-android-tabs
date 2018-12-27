@@ -28,6 +28,8 @@ import android.provider.Settings;
 import android.support.annotation.CallSuper;
 import android.util.DisplayMetrics;
 import android.util.Pair;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -2396,26 +2398,61 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         } else if (id == R.id.reader_mode_prefs_id) {
             DomDistillerUIUtils.openSettings(currentTab.getWebContents());
         } else if (id == R.id.brave_set_default_browser) {
-            Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
-            ResolveInfo resolveInfo = getPackageManager().resolveActivity(browserIntent, PackageManager.MATCH_DEFAULT_ONLY);
-            if (resolveInfo.activityInfo.packageName.equals("com.google.android.setupwizard")) {
-                // (Albert Wang): TODO: Show top view to say to load image
-                Log.d("albert", "should show toast");
-                // This is the default browser's packageName
-                int duration = Toast.LENGTH_LONG;
-                Toast toast = Toast.makeText(this, "hello toast", duration);
-                toast.show();
-                // (Albert Wang): TODO: Figure out why this intent keeps triggering.
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.brave.com/blog")));
-            } else {
-                getApplicationContext().startActivity(new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS));
-            }
+          handleBraveSetDefaultBrowserDialog();
         } else if (id == R.id.exit_id) {
             ApplicationLifetime.terminate(false);
         } else {
             return false;
         }
         return true;
+    }
+
+    private void handleBraveSetDefaultBrowserDialog() {
+        Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
+        /* (Albert Wang): Default app settings didn't get added until API 24
+         * https://developer.android.com/reference/android/provider/Settings#ACTION_MANAGE_DEFAULT_APPS_SETTINGS
+         */
+        boolean supportsDefault = Build.VERSION.SDK_INT >= 24;
+        ResolveInfo resolveInfo = getPackageManager().resolveActivity(browserIntent, supportsDefault ? PackageManager.MATCH_DEFAULT_ONLY : 0);
+        Context context = ContextUtils.getApplicationContext();
+        if (resolveInfo.activityInfo.packageName.equals("com.brave.browser_default")) {
+            Toast toast = new Toast(context);
+            toast.setDuration(Toast.LENGTH_LONG);
+            // TODO: Use i18
+            toast.setText("Brave is already set as default browser");
+            toast.show();
+            return;
+        }
+        if (supportsDefault) {
+            if (resolveInfo.activityInfo.packageName.equals("com.google.android.setupwizard") || resolveInfo.activityInfo.packageName.equals("android")) {
+                LayoutInflater inflater = getLayoutInflater();
+                View layout = inflater.inflate(R.layout.brave_set_default_browser_dialog, (ViewGroup) findViewById(R.id.brave_set_default_browser_toast_container));
+
+                Toast toast = new Toast(context);
+                toast.setDuration(Toast.LENGTH_LONG);
+                toast.setView(layout);
+                toast.setGravity(Gravity.TOP, 0, 40);
+                toast.show();
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.brave.com/blog"));
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            } else {
+                Intent intent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            }
+        } else {
+            if (resolveInfo.activityInfo.packageName.equals("android")) {
+                // (Albert Wang): From what I've experimented on 6.0,
+                // default browser popup is in the middle of the screen for
+                // these versions. So we shouldn't show the toast.
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.brave.com/blog"));
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            } else if (false) {
+                // TODO: Figure out how to take users to default app settings
+            }
+        }
     }
 
     /**
