@@ -2466,10 +2466,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         ResolveInfo resolveInfo = getPackageManager().resolveActivity(browserIntent, supportsDefault ? PackageManager.MATCH_DEFAULT_ONLY : 0);
         Context context = ContextUtils.getApplicationContext();
         if (isBraveSetAsDefaultBrowser()) {
-            Toast toast = new Toast(context);
-            toast.setDuration(Toast.LENGTH_LONG);
-            // TODO: Use i18
-            toast.setText(R.string.brave_already_set_as_default_browser);
+            Toast toast = Toast.makeText(context, R.string.brave_already_set_as_default_browser, Toast.LENGTH_LONG);
             toast.show();
             return;
         }
@@ -2500,9 +2497,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             } else {
-                Toast toast = new Toast(context);
-                toast.setDuration(Toast.LENGTH_LONG);
-                toast.setText(R.string.brave_default_browser_go_to_settings);
+                Toast toast = Toast.makeText(context, R.string.brave_default_browser_go_to_settings, Toast.LENGTH_LONG);
                 toast.show();
                 return;
             }
