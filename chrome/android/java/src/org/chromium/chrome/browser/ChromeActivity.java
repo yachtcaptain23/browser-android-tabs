@@ -243,7 +243,6 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     /**
      * Settings for sending local notification reminders.
      */
-    public static final String BRAVE_SET_DEFAULT_BROWSER_HAS_ASKED_KEY = "brave_set_default_browser_has_asked_key";
     public static final String BRAVE_PACKAGE_NAME = "com.brave.browser_default";
     public static final String CHANNEL_ID = "com.brave.browser_default";
 
@@ -535,7 +534,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     private void setupBraveSetDefaultBrowserNotification() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         Context context = ContextUtils.getApplicationContext();
-        if(isBraveSetAsDefaultBrowser() || sharedPref.getBoolean(BRAVE_SET_DEFAULT_BROWSER_HAS_ASKED_KEY, false)) {
+        if (isBraveSetAsDefaultBrowser() || sharedPref.getBoolean(BraveSetDefaultBrowserNotificationService.HAS_ASKED_AT_FIFTEEN_MINUTES, false)) {
           // Don't ask again
           return;
         }
