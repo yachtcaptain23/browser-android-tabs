@@ -47,7 +47,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
         boolean supportsDefault = Build.VERSION.SDK_INT >= 24;
         ResolveInfo resolveInfo = mContext.getPackageManager().resolveActivity(browserIntent, supportsDefault ? PackageManager.MATCH_DEFAULT_ONLY : 0);
-        return resolveInfo.activityInfo.packageName.equals("com.brave.browser_default");
+        return resolveInfo.activityInfo.packageName.equals(ChromeActivity.BRAVE_PRODUCTION_PACKAGE_NAME) || resolveInfo.activityInfo.packageName.equals(ChromeActivity.BRAVE_DEVELOPMENT_PACKAGE_NAME);
     }
 
     private boolean shouldShowNotification() {
@@ -82,9 +82,10 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
 
         b.setSmallIcon(R.drawable.brave_notification_white)
          .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.brave_notification_white))
+         .setColor(0xFFE2052A)
          .setAutoCancel(false)
-         .setContentTitle("Setting Brave Browser as Default Browser")
-         .setContentText("Enjoying Brave Browser's speed? You may set Brave as the default browserby clicking on the triple dot settings.")      
+         .setContentTitle(mContext.getString(R.string.brave_default_browser_notification_title))
+         .setContentText(mContext.getString(R.string.brave_default_browser_notification_body))
          .setPriority(NotificationCompat.PRIORITY_DEFAULT)
          .setCategory(NotificationCompat.CATEGORY_MESSAGE);
 

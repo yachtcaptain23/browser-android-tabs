@@ -243,8 +243,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     /**
      * Settings for sending local notification reminders.
      */
-    public static final String BRAVE_PACKAGE_NAME = "com.brave.browser_default";
-    public static final String CHANNEL_ID = "com.brave.browser_default";
+    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.brave.browser";
+    public static final String BRAVE_DEVELOPMENT_PACKAGE_NAME = "com.brave.browser_default";
+    public static final String CHANNEL_ID = "com.brave.browser";
 
     private static AppMenuHandlerFactory sAppMenuHandlerFactory =
             (activity, delegate, menuResourceId) -> new AppMenuHandler(activity, delegate,
@@ -2453,7 +2454,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
         boolean supportsDefault = Build.VERSION.SDK_INT >= 24;
         ResolveInfo resolveInfo = getPackageManager().resolveActivity(browserIntent, supportsDefault ? PackageManager.MATCH_DEFAULT_ONLY : 0);
-        return resolveInfo.activityInfo.packageName.equals("com.brave.browser_default");
+        return resolveInfo.activityInfo.packageName.equals(BRAVE_PRODUCTION_PACKAGE_NAME) || resolveInfo.activityInfo.packageName.equals(BRAVE_DEVELOPMENT_PACKAGE_NAME);
     }
 
     private void handleBraveSetDefaultBrowserDialog() {
@@ -2468,7 +2469,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             Toast toast = new Toast(context);
             toast.setDuration(Toast.LENGTH_LONG);
             // TODO: Use i18
-            toast.setText("Brave is already set as default browser");
+            toast.setText(R.string.brave_already_set_as_default_browser);
             toast.show();
             return;
         }
@@ -2498,8 +2499,12 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.brave.com/blog"));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
-            } else if (false) {
-                // TODO: Figure out how to take users to default app settings
+            } else {
+                Toast toast = new Toast(context);
+                toast.setDuration(Toast.LENGTH_LONG);
+                toast.setText(R.string.brave_default_browser_go_to_settings);
+                toast.show();
+                return;
             }
         }
     }
