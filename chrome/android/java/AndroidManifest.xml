@@ -153,10 +153,6 @@ by a child template that "extends" this file.
 
         <!-- Brave's Set Default Browser -->
         <receiver android:name="org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService" />
-        <meta-data
-          android:name="com.google.firebase.messaging.default_notification_icon"
-          android:resource="@drawable/brave_notification_white"
-        />
 
         <!-- MixPanel proxy server -->
         <!--<meta-data android:name="com.mixpanel.android.MPConfig.EventsEndpoint"

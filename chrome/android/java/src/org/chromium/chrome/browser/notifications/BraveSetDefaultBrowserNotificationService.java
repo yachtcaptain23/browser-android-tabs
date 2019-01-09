@@ -38,6 +38,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
 
     // Intent types
     public static final String INTENT_TYPE = "intent_type";
+    public static final String BROWSER_UPDATED = "browser_updated";
     public static final String FIFTEEN_MINUTES_LATER = "fifteen_minutes_later";
     public static final String FIVE_DAYS_LATER = "five_days_later";
     public static final String TEN_DAYS_LATER = "ten_days_later";
@@ -62,6 +63,9 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
             mIntent.getStringExtra(INTENT_TYPE).equals(TEN_DAYS_LATER) ||
             mIntent.getStringExtra(INTENT_TYPE).equals(FIFTEEN_DAYS_LATER)
           )
+            return true;
+
+        if (mIntent.getStringExtra(INTENT_TYPE).equals(BROWSER_UPDATED))
             return true;
 
         // Shouldn't reach here. Just out of safety, don't annoy users
