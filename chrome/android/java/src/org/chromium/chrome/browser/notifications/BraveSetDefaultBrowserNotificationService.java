@@ -80,8 +80,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         editor.apply();
         NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, ChromeActivity.CHANNEL_ID);
 
-        b.setSmallIcon(R.drawable.brave_notification_white)
-         .setColor(0xFFE2052A)
+        b.setSmallIcon(R.drawable.ic_chrome)
          .setAutoCancel(false)
          .setContentTitle(mContext.getString(R.string.brave_default_browser_notification_title))
          .setContentText(mContext.getString(R.string.brave_default_browser_notification_body))
