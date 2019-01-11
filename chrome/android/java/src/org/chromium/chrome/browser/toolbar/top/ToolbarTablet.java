@@ -19,12 +19,15 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.base.ApplicationStatus;
 import org.chromium.base.StrictModeContext;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.BraveRewardsNativeWorker;
+import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.NavigationPopup;
@@ -53,7 +56,8 @@ import java.util.Collection;
  */
 @SuppressLint("Instantiatable")
 public class ToolbarTablet extends ToolbarLayout
-        implements OnClickListener, View.OnLongClickListener, TabCountObserver {
+        implements OnClickListener, View.OnLongClickListener, TabCountObserver,
+        BraveRewardsObserver {
     // The number of toolbar buttons that can be hidden at small widths (reload, back, forward).
     public static final int HIDEABLE_BUTTON_COUNT = 3;
 
@@ -92,6 +96,9 @@ public class ToolbarTablet extends ToolbarLayout
     private AnimatorSet mButtonVisibilityAnimators;
 
     private NewTabPage mVisibleNtp;
+
+    private TextView mBraveRewardsNotificationsCount;
+    private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
 
     /**
      * Constructs a ToolbarTablet object.
@@ -156,6 +163,7 @@ public class ToolbarTablet extends ToolbarLayout
         mBraveShieldsButton.setClickable(true);
         mBraveRewardsPanelButton = (ImageView) findViewById(R.id.brave_rewards_button);
         mBraveRewardsPanelButton.setClickable(true);
+        mBraveRewardsNotificationsCount = (TextView) findViewById(R.id.br_notifications_count);
         mToolbarButtons = new ImageButton[] {mBackButton, mForwardButton, mReloadButton};
     }
 
@@ -293,6 +301,11 @@ public class ToolbarTablet extends ToolbarLayout
 
         mBraveShieldsButton.setOnClickListener(this);
         mBraveRewardsPanelButton.setOnClickListener(this);
+        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.AddObserver(this);
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
     }
 
     @Override
@@ -438,6 +451,54 @@ public class ToolbarTablet extends ToolbarLayout
 
         setMenuButtonHighlightDrawable(mHighlightingMenu);
         updateNtp();
+    }
+
+    @Override
+    public void destroy() {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.RemoveObserver(this);
+        }
+    }
+
+    @Override
+    public void OnWalletInitialized(int error_code) {}
+
+    @Override
+    public void OnWalletProperties(int error_code) {}
+
+    @Override
+    public void OnPublisherInfo(int tabId) {}
+
+    @Override
+    public void OnGetCurrentBalanceReport(String[] report) {}
+
+    @Override
+    public void OnNotificationAdded(String id, int type, int timestamp,
+            String[] args) {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
+    }
+
+    @Override
+    public void OnNotificationsCount(int count) {
+        if (mBraveRewardsNotificationsCount != null) {
+            if (count != 0) {
+                String value = Integer.toString(count);
+                if (count > 99) {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_rectangle));
+                    value = "99+";
+                } else {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_circle));
+                }
+                mBraveRewardsNotificationsCount.setText(value);
+                mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
+            } else {
+                mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+            }
+        }   
     }
 
     /**
