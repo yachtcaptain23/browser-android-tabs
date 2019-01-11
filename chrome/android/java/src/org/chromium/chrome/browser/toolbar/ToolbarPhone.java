@@ -57,7 +57,8 @@ import org.chromium.base.VisibleForTesting;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeActivity;
-import org.chromium.chrome.browser.PopupActivity;
+import org.chromium.chrome.browser.BraveRewardsNativeWorker;
+import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.compositor.Invalidator;
 import org.chromium.chrome.browser.compositor.layouts.LayoutUpdateHost;
@@ -69,6 +70,7 @@ import org.chromium.chrome.browser.ntp.NewTabPage;
 import org.chromium.chrome.browser.omaha.UpdateMenuItemHelper;
 import org.chromium.chrome.browser.omnibox.LocationBar;
 import org.chromium.chrome.browser.omnibox.LocationBarPhone;
+import org.chromium.chrome.browser.PopupActivity;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 import org.chromium.chrome.browser.partnercustomizations.PartnerBrowserCustomizations;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
@@ -107,7 +109,8 @@ import org.chromium.chrome.browser.BraveRewardsPanelPopup;
  */
 public class ToolbarPhone
         extends ToolbarLayout implements Invalidator.Client, OnClickListener, OnLongClickListener,
-                                         NewTabPage.OnSearchBoxScrollListener, TabCountObserver {
+                                         NewTabPage.OnSearchBoxScrollListener, TabCountObserver,
+                                         BraveRewardsObserver {
     /** The amount of time transitioning from one theme color to another should take in ms. */
     public static final long THEME_COLOR_TRANSITION_DURATION = 250;
 
@@ -161,9 +164,11 @@ public class ToolbarPhone
     private ImageView mBraveShieldsButton;
     private ImageView mBraveRewardsPanelButton;
     private TextView mUrlBar;
+    private TextView mBraveRewardsNotificationsCount;
     protected View mUrlActionContainer;
     protected ImageView mToolbarShadow;
     private @Nullable AppCompatImageButton mExperimentalButton;
+    private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
 
     private final int mProgressBackBackgroundColorWhite;
 
@@ -513,6 +518,7 @@ public class ToolbarPhone
         if (mBraveRewardsPanelButton != null) {
             mBraveRewardsPanelButton.setClickable(true);
         }
+        mBraveRewardsNotificationsCount = (TextView) findViewById(R.id.br_notifications_count);
     }
 
     private void enableTabSwitchingResources() {
@@ -592,6 +598,11 @@ public class ToolbarPhone
         setTabSwitcherAnimationMenuDrawable();
         setBraveShieldsAnimationMenuDrawable();
         updateVisualsForToolbarState();
+        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.AddObserver(this);
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
     }
 
     @Override
@@ -2065,6 +2076,9 @@ public class ToolbarPhone
     @Override
     public void destroy() {
         dismissTabSwitcherCallout();
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.RemoveObserver(this);
+        }
     }
 
     @Override
@@ -3103,6 +3117,47 @@ public class ToolbarPhone
                     mControlsVisibilityDelegate.showControlsPersistentAndClearOldToken(
                             mFullscreenCalloutToken);
         }
+    }
+
+    @Override
+    public void OnWalletInitialized(int error_code) {}
+
+    @Override
+    public void OnWalletProperties(int error_code) {}
+
+    @Override
+    public void OnPublisherInfo(int tabId) {}
+
+    @Override
+    public void OnGetCurrentBalanceReport(String[] report) {}
+
+    @Override
+    public void OnNotificationAdded(String id, int type, int timestamp,
+            String[] args) {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
+    }
+
+    @Override
+    public void OnNotificationsCount(int count) {
+        if (mBraveRewardsNotificationsCount != null) {
+            if (count != 0) {
+                String value = Integer.toString(count);
+                if (count > 99) {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_rectangle));
+                    value = "99+";
+                } else {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_circle));
+                }
+                mBraveRewardsNotificationsCount.setText(value);
+                mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
+            } else {
+                mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+            }
+        }   
     }
 
     /**
