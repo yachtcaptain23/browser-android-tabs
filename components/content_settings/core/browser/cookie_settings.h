@@ -94,7 +94,8 @@ class CookieSettings : public CookieSettingsBase,
   // Returns true if the "block third party cookies" preference is set.
   //
   // This method may be called on any thread.
-  bool ShouldBlockThirdPartyCookies(const GURL& first_party_url) const;
+  bool ShouldBlockThirdPartyCookies(const GURL& first_party_url,
+      const GURL& subresource_url) const;
 
   base::ThreadChecker thread_checker_;
   scoped_refptr<HostContentSettingsMap> host_content_settings_map_;
@@ -106,8 +107,6 @@ class CookieSettings : public CookieSettingsBase,
   mutable base::Lock lock_;
 
   bool block_third_party_cookies_;
-
-  mutable std::string previous_first_party_host_;
 
   bool incognito_;
 
