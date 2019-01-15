@@ -99,6 +99,7 @@ public class ToolbarTablet extends ToolbarLayout
 
     private TextView mBraveRewardsNotificationsCount;
     private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
+    private BraveRewardsPanelPopup mRewardsPopup;
 
     /**
      * Constructs a ToolbarTablet object.
@@ -377,11 +378,24 @@ public class ToolbarTablet extends ToolbarLayout
                 RecordUserAction.record("MobileToolbarShowBraveShields");
             }
         } else if (mBraveRewardsPanelButton == v) {
-            if (null != mBraveRewardsPanelButton) {
-                BraveRewardsPanelPopup rewardsPopup = new BraveRewardsPanelPopup(v);
-                rewardsPopup.showLikePopDownMenu();
+            if (null == mRewardsPopup){
+                mRewardsPopup = new BraveRewardsPanelPopup(v);
+                mRewardsPopup.showLikePopDownMenu();
             }
         }
+    }
+
+    @Override
+    public  void onRewardsPanelDismiss() {
+          mRewardsPopup = null;
+    }
+
+    @Override
+    public  void dismissRewardsPanel() {
+          if ( null != mRewardsPopup ) {
+             mRewardsPopup.dismiss();
+             mRewardsPopup = null;
+          }
     }
 
     @Override
