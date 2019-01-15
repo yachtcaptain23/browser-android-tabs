@@ -153,6 +153,7 @@ public class ToolbarPhone extends ToolbarLayout
     protected @Nullable TintedImageButton mHomeButton;
     private ImageView mBraveShieldsButton;
     private ImageView mBraveRewardsPanelButton;
+    private BraveRewardsPanelPopup mRewardsPopup;
     private TextView mUrlBar;
     private TextView mBraveRewardsNotificationsCount;
     protected View mUrlActionContainer;
@@ -648,13 +649,28 @@ public class ToolbarPhone extends ToolbarLayout
             }
         }
         else if (mBraveRewardsPanelButton == v) {
-            if (null != mBraveRewardsPanelButton) {
-                BraveRewardsPanelPopup rewardsPopup = new BraveRewardsPanelPopup(v);
-                rewardsPopup.showLikePopDownMenu();
+            if (null == mRewardsPopup){
+              mRewardsPopup = new BraveRewardsPanelPopup(v);
+              mRewardsPopup.showLikePopDownMenu();
             }
         }
-
     }
+
+    @Override
+    public  void onRewardsPanelDismiss() {
+        mRewardsPopup = null;
+    }
+
+
+    @Override
+    public  void dismissRewardsPanel() {
+      if ( null != mRewardsPopup ) {
+         mRewardsPopup.dismiss();
+         mRewardsPopup = null;
+      }
+    }
+
+
 
     private void handleToggleTabStack() {
         // The button is clickable before the native library is loaded

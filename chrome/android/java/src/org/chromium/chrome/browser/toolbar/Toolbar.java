@@ -117,4 +117,15 @@ public interface Toolbar {
      * @param scrim The scrim for this location bar to use.
      */
     void setScrim(ScrimView scrim);
+
+    /**
+     'Rewards Panel is dismissed' notification
+    */
+    void onRewardsPanelDismiss();
+
+    /**
+     Dismiss Rewards Panel if visible
+    */
+    void dismissRewardsPanel();
+
 }
