@@ -858,4 +858,10 @@ public class CustomTabToolbar extends ToolbarLayout implements LocationBar,
 
     @Override
     public void setScrim(ScrimView scrim) {}
+
+    @Override
+    public  void onRewardsPanelDismiss() {}
+
+    @Override
+    public  void dismissRewardsPanel() {}
 }
