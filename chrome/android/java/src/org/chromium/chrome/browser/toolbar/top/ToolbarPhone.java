@@ -2085,6 +2085,13 @@ public class ToolbarPhone
     }
 
     @Override
+    public void OnGetLatestNotification(String id, int type, int timestamp,
+            String[] args) {}
+
+    @Override
+    public void OnNotificationDeleted(String id) {}
+
+    @Override
     public void setOnTabSwitcherClickHandler(OnClickListener listener) {
         mTabSwitcherListener = listener;
     }
