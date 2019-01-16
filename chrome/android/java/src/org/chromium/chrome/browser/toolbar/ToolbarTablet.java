@@ -714,6 +714,13 @@ public class ToolbarTablet extends ToolbarLayout
         }   
     }
 
+    @Override
+    public void OnGetLatestNotification(String id, int type, int timestamp,
+            String[] args) {}
+
+    @Override
+    public void OnNotificationDeleted(String id) {}
+
 
     private void setToolbarButtonsVisible(boolean visible) {
         if (mToolbarButtonsVisible == visible) return;

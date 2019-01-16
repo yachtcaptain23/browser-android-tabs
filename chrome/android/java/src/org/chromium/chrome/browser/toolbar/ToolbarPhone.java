@@ -3170,6 +3170,13 @@ public class ToolbarPhone
         }   
     }
 
+    @Override
+    public void OnGetLatestNotification(String id, int type, int timestamp,
+            String[] args) {}
+
+    @Override
+    public void OnNotificationDeleted(String id) {}
+
     /**
      * Custom drawable that allows sharing the NTP search box drawable between the toolbar and the
      * NTP.  This allows animations to continue as the drawable is switched between the two owning
