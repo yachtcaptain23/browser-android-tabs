@@ -2609,10 +2609,10 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
 
       <!-- Brave as default browser strings -->
       <message name="IDS_BRAVE_ALREADY_SET_AS_DEFAULT_BROWSER" desc="Toast message for those whom have already set Brave as default browser">
-        Brave is set as your default browser.
+        Brave is already set\nas your default browser.
       </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_GO_TO_SETTINGS" desc="Toast message for those without 7.0 to go to settings to change default browser">
-        We see you already set a default browser. You may change default browser in your app settings.
+        You've already set a default browser.\nYou may change default browser in your app settings.
       </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_NOTIFICATION_TITLE" desc="Default browser notification title">
         Setting Brave Browser as Default Browser

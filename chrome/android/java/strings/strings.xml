@@ -112,7 +112,8 @@ Saved</string>
     <string name="brave_default_browser_notification_title">Setting Brave Browser as Default Browser</string>
     <string name="brave_default_browser_notification_body">Enjoying Brave Browser' speed? You may set Brave as the default browser by clicking on the triple dot settings.</string>
     <string name="brave_set_default_browser">Set as default browser</string>
-    <string name="brave_set_default_browser_dialog_text">Select Brave Browser from the list and tap 'Always'</string>
+    <string name="brave_set_default_browser_dialog_text">Select Brave Browser from the list
+and tap 'Always'</string>
 
     <string name="update_notification_title">Brave update</string>
     <string name="update_notification_text">The new Brave browser is 22% faster</string>
