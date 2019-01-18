@@ -438,9 +438,11 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             if (intent != null && getSavedInstanceState() == null) {
                 VrModuleProvider.getDelegate().maybeHandleVrIntentPreNative(this, intent);
             }
+            /*
             if (intent != null && intent.hasExtra(BraveSetDefaultBrowserNotificationService.DEEP_LINK)) {
                 handleBraveSetDefaultBrowserDeepLink(intent);
             }
+            */
 
             mSnackbarManager = new SnackbarManager(this, null);
 
@@ -2460,6 +2462,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         return resolveInfo.activityInfo.packageName.equals(BRAVE_PRODUCTION_PACKAGE_NAME) || resolveInfo.activityInfo.packageName.equals(BRAVE_DEVELOPMENT_PACKAGE_NAME);
     }
 
+    /*
     private void handleBraveSetDefaultBrowserDeepLink(Intent intent) {
         Bundle bundle = intent.getExtras();
         if (bundle.getString(BraveSetDefaultBrowserNotificationService.DEEP_LINK).equals(BraveSetDefaultBrowserNotificationService.SHOW_DEFAULT_APP_SETTINGS)) {
@@ -2469,6 +2472,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             context.startActivity(settingsIntent);
         }
     }
+    */
 
     private void handleBraveSetDefaultBrowserDialog() {
         /* (Albert Wang): Default app settings didn't get added until API 24
