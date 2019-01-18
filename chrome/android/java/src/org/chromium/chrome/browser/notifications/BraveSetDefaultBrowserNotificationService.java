@@ -36,6 +36,10 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
     public static final int FIFTEEN_DAYS = 648_000_000;
     public static final int NOTIFICATION_ID = 10;
 
+    // Deep links
+    public static final String DEEP_LINK = "deep_link";
+    public static final String SHOW_DEFAULT_APP_SETTINGS = "SHOW_DEFAULT_APP_SETTINGS";
+
     // Intent types
     public static final String INTENT_TYPE = "intent_type";
     public static final String BROWSER_UPDATED = "browser_updated";
@@ -46,8 +50,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
 
     private boolean isBraveSetAsDefaultBrowser() {
         Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
-        boolean supportsDefault = Build.VERSION.SDK_INT >= 24;
-        ResolveInfo resolveInfo = mContext.getPackageManager().resolveActivity(browserIntent, supportsDefault ? PackageManager.MATCH_DEFAULT_ONLY : 0);
+        ResolveInfo resolveInfo = mContext.getPackageManager().resolveActivity(browserIntent, supportsDefault() ? PackageManager.MATCH_DEFAULT_ONLY : 0);
         return resolveInfo.activityInfo.packageName.equals(ChromeActivity.BRAVE_PRODUCTION_PACKAGE_NAME) || resolveInfo.activityInfo.packageName.equals(ChromeActivity.BRAVE_DEVELOPMENT_PACKAGE_NAME);
     }
 
@@ -72,6 +75,10 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         return false;
     }
 
+    private boolean supportsDefault() {
+        return Build.VERSION.SDK_INT >= 24;
+    }
+
     private boolean hasRanForPresetDuration() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         return sharedPref.getLong(ChromeActivitySessionTracker.TOTAL_LIFETIME_USAGE, 0) + SystemClock.uptimeMillis() - sharedPref.getLong(ChromeActivitySessionTracker.SESSION_START_TIME, SystemClock.uptimeMillis()) >= FIFTEEN_MINUTES;
@@ -91,8 +98,28 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
          .setPriority(NotificationCompat.PRIORITY_DEFAULT)
          .setCategory(NotificationCompat.CATEGORY_MESSAGE);
 
+        if (supportsDefault() && isBraveSetAsDefaultBrowser()) {
+            b.setContentTitle(mContext.getString(R.string.brave_default_browser_existing_notification_title));
+            b.setContentText(mContext.getString(R.string.brave_default_browser_existing_notification_body));
+            b.addAction(R.drawable.settings_cog, mContext.getString(R.string.brave_default_browser_notification_action_settings), getDefaultAppSettingsIntent(mContext));
+            b.addAction(R.drawable.btn_close, mContext.getString(R.string.brave_default_browser_notification_action_dismiss), getDismissIntent(mContext));
+        }
+
         NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(NOTIFICATION_ID, b.build());
+    }
+
+    private PendingIntent getDismissIntent(Context context) {
+        Intent intent = new Intent(context, ChromeActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        return PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+    }
+
+    private PendingIntent getDefaultAppSettingsIntent(Context context) {
+        Intent intent = new Intent(context, ChromeActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.putExtra(DEEP_LINK, SHOW_DEFAULT_APP_SETTINGS);
+        return PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
     }
 
     private boolean shouldNotifyLater() {

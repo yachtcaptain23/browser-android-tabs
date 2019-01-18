@@ -438,6 +438,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             if (intent != null && getSavedInstanceState() == null) {
                 VrModuleProvider.getDelegate().maybeHandleVrIntentPreNative(this, intent);
             }
+            if (intent != null && intent.hasExtra(BraveSetDefaultBrowserNotificationService.DEEP_LINK)) {
+                handleBraveSetDefaultBrowserDeepLink(intent);
+            }
 
             mSnackbarManager = new SnackbarManager(this, null);
 
@@ -2455,6 +2458,16 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         boolean supportsDefault = Build.VERSION.SDK_INT >= 24;
         ResolveInfo resolveInfo = getPackageManager().resolveActivity(browserIntent, supportsDefault ? PackageManager.MATCH_DEFAULT_ONLY : 0);
         return resolveInfo.activityInfo.packageName.equals(BRAVE_PRODUCTION_PACKAGE_NAME) || resolveInfo.activityInfo.packageName.equals(BRAVE_DEVELOPMENT_PACKAGE_NAME);
+    }
+
+    private void handleBraveSetDefaultBrowserDeepLink(Intent intent) {
+        Bundle bundle = intent.getExtras();
+        if (bundle.getString(BraveSetDefaultBrowserNotificationService.DEEP_LINK).equals(BraveSetDefaultBrowserNotificationService.SHOW_DEFAULT_APP_SETTINGS)) {
+            Context context = ContextUtils.getApplicationContext();
+            Intent settingsIntent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
+            settingsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(settingsIntent);
+        }
     }
 
     private void handleBraveSetDefaultBrowserDialog() {
