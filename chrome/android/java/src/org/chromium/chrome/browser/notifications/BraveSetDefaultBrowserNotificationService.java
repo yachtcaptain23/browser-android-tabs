@@ -14,7 +14,9 @@ import android.content.pm.ResolveInfo;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.SystemClock;
+import android.provider.Settings;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import org.chromium.chrome.R;
@@ -79,6 +81,12 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         return Build.VERSION.SDK_INT >= 24;
     }
 
+    private boolean hasAlternateDefaultBrowser() {
+        Intent browserIntent = new Intent("android.intent.action.VIEW", Uri.parse("http://"));
+        ResolveInfo resolveInfo = mContext.getPackageManager().resolveActivity(browserIntent, supportsDefault() ? PackageManager.MATCH_DEFAULT_ONLY : 0);
+        return !(resolveInfo.activityInfo.packageName.equals("com.google.android.setupwizard") || resolveInfo.activityInfo.packageName.equals("android"));
+    }
+
     private boolean hasRanForPresetDuration() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         return sharedPref.getLong(ChromeActivitySessionTracker.TOTAL_LIFETIME_USAGE, 0) + SystemClock.uptimeMillis() - sharedPref.getLong(ChromeActivitySessionTracker.SESSION_START_TIME, SystemClock.uptimeMillis()) >= FIFTEEN_MINUTES;
@@ -95,31 +103,26 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
          .setAutoCancel(false)
          .setContentTitle(mContext.getString(R.string.brave_default_browser_notification_title))
          .setContentText(mContext.getString(R.string.brave_default_browser_notification_body))
+         .setStyle(new NotificationCompat.BigTextStyle().bigText(mContext.getString(R.string.brave_default_browser_notification_body)))
          .setPriority(NotificationCompat.PRIORITY_DEFAULT)
          .setCategory(NotificationCompat.CATEGORY_MESSAGE);
 
-        if (supportsDefault() && isBraveSetAsDefaultBrowser()) {
+        if (supportsDefault() && !isBraveSetAsDefaultBrowser() && hasAlternateDefaultBrowser()) {
             b.setContentTitle(mContext.getString(R.string.brave_default_browser_existing_notification_title));
             b.setContentText(mContext.getString(R.string.brave_default_browser_existing_notification_body));
+            b.setStyle(new NotificationCompat.BigTextStyle().bigText(mContext.getString(R.string.brave_default_browser_existing_notification_body)));
             b.addAction(R.drawable.settings_cog, mContext.getString(R.string.brave_default_browser_notification_action_settings), getDefaultAppSettingsIntent(mContext));
-            b.addAction(R.drawable.btn_close, mContext.getString(R.string.brave_default_browser_notification_action_dismiss), getDismissIntent(mContext));
         }
 
         NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(NOTIFICATION_ID, b.build());
     }
 
-    private PendingIntent getDismissIntent(Context context) {
-        Intent intent = new Intent(context, ChromeActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        return PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
-    }
-
     private PendingIntent getDefaultAppSettingsIntent(Context context) {
-        Intent intent = new Intent(context, ChromeActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        Intent intent = new Intent(context, BraveSetDefaultBrowserNotificationService.class);
+        intent.setAction(DEEP_LINK);
         intent.putExtra(DEEP_LINK, SHOW_DEFAULT_APP_SETTINGS);
-        return PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+        return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
     private boolean shouldNotifyLater() {
@@ -176,10 +179,24 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         );
     }
 
+    private void handleBraveSetDefaultBrowserDeepLink(Intent intent) {
+         Bundle bundle = intent.getExtras();
+         if (bundle.getString(BraveSetDefaultBrowserNotificationService.DEEP_LINK).equals(BraveSetDefaultBrowserNotificationService.SHOW_DEFAULT_APP_SETTINGS)) {
+             Intent settingsIntent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
+             settingsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+             mContext.startActivity(settingsIntent);
+         }
+     }
+
     @Override
     public void onReceive(Context context, Intent intent) {
         mContext = context;
         mIntent = intent;
+        if (intent != null && intent.hasExtra(BraveSetDefaultBrowserNotificationService.DEEP_LINK)) {
+            handleBraveSetDefaultBrowserDeepLink(intent);
+            return;
+        }
+
         if (shouldShowNotification()) {
             showNotification();
         } else if (shouldNotifyLater()) {
