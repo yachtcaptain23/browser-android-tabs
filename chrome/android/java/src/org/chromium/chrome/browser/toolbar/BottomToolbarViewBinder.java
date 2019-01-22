@@ -45,8 +45,8 @@ public class BottomToolbarViewBinder
          */
         public ViewHolder(ScrollingBottomViewResourceFrameLayout toolbarRootView) {
             toolbarRoot = toolbarRootView;
-            firstTintedImageButton = toolbarRoot.findViewById(R.id.bookmarks_button);
-            secondTintedImageButton = toolbarRoot.findViewById(R.id.history_button);
+            firstTintedImageButton = toolbarRoot.findViewById(R.id.home_button);
+            secondTintedImageButton = toolbarRoot.findViewById(R.id.bookmark_this_page_id);
         }
     }
 

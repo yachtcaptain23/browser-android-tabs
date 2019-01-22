@@ -5,6 +5,7 @@
 package org.chromium.chrome.browser.toolbar;
 
 import android.content.res.ColorStateList;
+import android.content.Context;
 import android.support.v7.content.res.AppCompatResources;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -15,6 +16,7 @@ import android.view.ViewStub;
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.appmenu.AppMenuButtonHelper;
+import org.chromium.chrome.browser.bookmarks.BookmarkBridge;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
@@ -24,6 +26,7 @@ import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
 import org.chromium.chrome.browser.history.HistoryManagerUtils;
 import org.chromium.chrome.browser.modelutil.PropertyKey;
 import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
+import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.tabmodel.TabModel.TabLaunchType;
 import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
@@ -49,8 +52,8 @@ public class BottomToolbarCoordinator {
     /** The home button component that lives in the bottom toolbar. */
     private final TintedImageButton mHomeButton;
 
-    /** The history button component that lives in the bottom toolbar. */
-    private final TintedImageButton mHistoryButton;
+    /** The bookmark button component that lives in the bottom toolbar. */
+    private final TintedImageButton mBookmarkButton;
 
     /** The new tab button component that lives in the bottom toolbar. */
     private final NewTabButton mNewTabButton;
@@ -75,6 +78,8 @@ public class BottomToolbarCoordinator {
 
     /** The invoking activity. */
     private final ChromeActivity mActivity;
+
+    private final Context mContext;
 
     /**
      * Build the coordinator that manages the bottom toolbar.
@@ -105,13 +110,14 @@ public class BottomToolbarCoordinator {
 
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
         mHomeButton = toolbarRoot.findViewById(R.id.home_button);
-        mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
+        mBookmarkButton = toolbarRoot.findViewById(R.id.bookmark_this_page_id);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
 
         mLightModeTint =
                 AppCompatResources.getColorStateList(root.getContext(), R.color.light_mode_tint);
         mDarkModeTint =
                 AppCompatResources.getColorStateList(root.getContext(), R.color.dark_mode_tint);
+        mContext = root.getContext();
 
         mNormalPrimaryColor =
                 ApiCompatibilityUtils.getColor(root.getResources(), R.color.modern_primary_color);
@@ -173,13 +179,6 @@ public class BottomToolbarCoordinator {
         mMenuButton.setTouchListener(menuButtonHelper);
         mMenuButton.setAccessibilityDelegate(menuButtonHelper);
 
-        mHistoryButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
-            }
-        });
-
         mNewTabButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -187,6 +186,22 @@ public class BottomToolbarCoordinator {
             }
         });
     }
+
+    public void updateBookmarkButton(BookmarkBridge bookmarkBridge, Tab currentTab) {
+        mBookmarkButton.setEnabled(bookmarkBridge.isEditBookmarksEnabled());
+        if (currentTab.getBookmarkId() != Tab.INVALID_BOOKMARK_ID) {
+            mBookmarkButton.setImageResource(R.drawable.btn_star_filled);
+            mBookmarkButton.setContentDescription(mActivity.getString(R.string.edit_bookmark));
+            mBookmarkButton.setTint(
+                    AppCompatResources.getColorStateList(mContext, R.color.blue_mode_tint));
+        } else {
+            mBookmarkButton.setTint(null);
+            mBookmarkButton.setImageResource(R.drawable.btn_star);
+            mBookmarkButton.setContentDescription(
+                    mActivity.getString(R.string.accessibility_menu_bookmark));
+        }
+    }
+
 
     /**
      * Show the update badge over the bottom toolbar's app menu.

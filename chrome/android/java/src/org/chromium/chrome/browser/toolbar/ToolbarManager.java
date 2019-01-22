@@ -1550,6 +1550,9 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
         boolean editingAllowed = currentTab == null || mBookmarkBridge == null
                 || mBookmarkBridge.isEditBookmarksEnabled();
         mToolbar.updateBookmarkButton(isBookmarked, editingAllowed);
+        // (Albert Wang): Took from AppMenuIconRowFooter
+        if (mBookmarkBridge != null)
+            mBottomToolbarCoordinator.updateBookmarkButton(mBookmarkBridge, currentTab);
     }
 
     private void updateReloadState(boolean tabCrashed) {
