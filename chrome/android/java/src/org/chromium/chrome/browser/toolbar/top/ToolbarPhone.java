@@ -190,7 +190,6 @@ public class ToolbarPhone
     private boolean mDelayingTabSwitcherAnimation;
 
     private TabSwitcherDrawable mTabSwitcherAnimationTabStackDrawable;
-    private Drawable mBraveShieldsAnimationMenuDrawable;
     private Drawable mTabSwitcherAnimationMenuDrawable;
     private Drawable mTabSwitcherAnimationMenuBadgeDarkDrawable;
     private Drawable mTabSwitcherAnimationMenuBadgeLightDrawable;
@@ -580,7 +579,6 @@ public class ToolbarPhone
         if (mNewTabButton != null) mNewTabButton.postNativeInitialization();
 
         setTabSwitcherAnimationMenuDrawable();
-        setBraveShieldsAnimationMenuDrawable();
         updateVisualsForLocationBarState();
         mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
         if (mBraveRewardsNativeWorker != null) {
@@ -858,7 +856,9 @@ public class ToolbarPhone
      * @return The right bounds of the location bar after accounting for any visible left buttons.
      */
     private int getBoundsAfterAccountingForRightButtons() {
-        return Math.max(mToolbarSidePadding, mToolbarButtonsContainer.getMeasuredWidth());
+        //return Math.max(mToolbarSidePadding, mToolbarButtonsContainer.getMeasuredWidth());
+        // We want toolbar buttons to be included into URL bar
+        return mToolbarSidePadding;
     }
 
     private void updateToolbarBackground(int color) {
@@ -1157,7 +1157,8 @@ public class ToolbarPhone
                 - (mExperimentalButtonAnimationRunning ? mLocBarWidthChangePercent
                                                        : mUrlExpansionPercent);
 
-        mLocationBarBackground = createModernLocationBarBackground(getResources(), getToolbarButtonVisibility() == VISIBLE ? R.drawable.modern_toolbar_background_white : R.drawable.modern_toolbar_background_selected);
+        mLocationBarBackground = createModernLocationBarBackground(getResources(),
+            getToolbarButtonVisibility() == VISIBLE ? R.drawable.modern_toolbar_background_white : R.drawable.modern_toolbar_background_selected);
         mLocationBarBackground.mutate();
         mActiveLocationBarBackground = mLocationBarBackground;
 
@@ -1453,7 +1454,7 @@ public class ToolbarPhone
         }
 
         // Draw Brave Shields button if necessary.
-        if (mBraveShieldsAnimationMenuDrawable != null
+        if (mBraveShieldsButton.getDrawable() != null
                 && mBraveShieldsButton != null
                 && mUrlExpansionPercent != 1f) {
             canvas.save();
@@ -1471,8 +1472,32 @@ public class ToolbarPhone
             backgroundTop += mBraveShieldsButton.getPaddingTop();
             canvas.translate(backgroundLeft, backgroundTop);
 
-            mBraveShieldsAnimationMenuDrawable.setAlpha(rgbAlpha);
-            mBraveShieldsAnimationMenuDrawable.draw(canvas);
+            mBraveShieldsButton.getDrawable().setAlpha(rgbAlpha);
+            mBraveShieldsButton.getDrawable().draw(canvas);
+            canvas.restore();
+        }
+
+        // Draw Brave Rewards panel button if necessary.
+        if (mBraveRewardsPanelButton.getDrawable() != null
+                && mBraveRewardsPanelButton != null
+                && mUrlExpansionPercent != 1f) {
+            canvas.save();
+            translateCanvasToView(mToolbarButtonsContainer, mBraveRewardsPanelButton, canvas);
+
+            int backgroundWidth = mBraveRewardsPanelButton.getDrawable().getIntrinsicWidth();
+            int backgroundHeight = mBraveRewardsPanelButton.getDrawable().getIntrinsicHeight();
+            int backgroundLeft = (mBraveRewardsPanelButton.getWidth()
+                    - mBraveRewardsPanelButton.getPaddingLeft()
+                    - mBraveRewardsPanelButton.getPaddingRight() - backgroundWidth) / 2;
+            backgroundLeft += mBraveRewardsPanelButton.getPaddingLeft();
+            int backgroundTop = (mBraveRewardsPanelButton.getHeight()
+                    - mBraveRewardsPanelButton.getPaddingTop()
+                    - mBraveRewardsPanelButton.getPaddingBottom() - backgroundHeight) / 2;
+            backgroundTop += mBraveRewardsPanelButton.getPaddingTop();
+            canvas.translate(backgroundLeft, backgroundTop);
+
+            mBraveRewardsPanelButton.getDrawable().setAlpha(rgbAlpha);
+            mBraveRewardsPanelButton.getDrawable().draw(canvas);
             canvas.restore();
         }
 
@@ -3062,15 +3087,6 @@ public class ToolbarPhone
     @VisibleForTesting
     public void endExperimentalButtonAnimationForTesting() {
         if (mExperimentalButtonAnimator != null) mExperimentalButtonAnimator.end();
-    }
-
-    private void setBraveShieldsAnimationMenuDrawable() {
-        mBraveShieldsAnimationMenuDrawable = ApiCompatibilityUtils.getDrawable(getResources(),
-                R.drawable.btn_brave);
-        int[] stateSet = {android.R.attr.state_enabled};
-        mBraveShieldsAnimationMenuDrawable.setState(stateSet);
-        mBraveShieldsAnimationMenuDrawable.setBounds(
-                mBraveShieldsButton.getDrawable().getBounds());
     }
 
     private void setTabSwitcherAnimationMenuDrawable() {
