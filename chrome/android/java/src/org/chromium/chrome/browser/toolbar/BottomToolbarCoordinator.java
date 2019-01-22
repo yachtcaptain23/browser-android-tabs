@@ -46,8 +46,8 @@ public class BottomToolbarCoordinator {
     /** The tab switcher button component that lives in the bottom toolbar. */
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
 
-    /** The bookmarks button component that lives in the bottom toolbar. */
-    private final TintedImageButton mBookmarksButton;
+    /** The home button component that lives in the bottom toolbar. */
+    private final TintedImageButton mHomeButton;
 
     /** The history button component that lives in the bottom toolbar. */
     private final TintedImageButton mHistoryButton;
@@ -104,7 +104,7 @@ public class BottomToolbarCoordinator {
         model.addObserver(processor);
 
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
-        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mHomeButton = toolbarRoot.findViewById(R.id.home_button);
         mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
 
@@ -134,8 +134,8 @@ public class BottomToolbarCoordinator {
      * @param layoutManager A {@link LayoutManager} to attach overlays to.
      * @param tabSwitcherListener An {@link OnClickListener} that is triggered when the
      *                                  tab switcher button is clicked.
-     * @param bookmarksButtonListener An {@link OnClickListener} that is triggered when the
-     *                           bookmarks button is clicked.
+     * @param homeButtonListener An {@link OnClickListener} that is triggered when the
+     *                           home button is clicked.
      * @param menuButtonListener An {@link OnTouchListener} that is triggered when the
      *                           menu button is clicked.
      * @param tabModelSelector A {@link TabModelSelector} that the tab switcher button uses to
@@ -147,7 +147,7 @@ public class BottomToolbarCoordinator {
      *                                        switcher mode.
      */
     public void initializeWithNative(ResourceManager resourceManager, LayoutManager layoutManager,
-            OnClickListener tabSwitcherListener, OnClickListener bookmarksButtonListener, AppMenuButtonHelper menuButtonHelper,
+            OnClickListener tabSwitcherListener, OnClickListener homeButtonListener, AppMenuButtonHelper menuButtonHelper,
             TabModelSelector tabModelSelector, OverviewModeBehavior overviewModeBehavior,
             WindowAndroid windowAndroid, ToolbarButtonData firstSlotTabSwitcherButtonData,
             ToolbarButtonData secondSlotTabSwitcherButtonData, boolean isIncognito) {
@@ -165,15 +165,13 @@ public class BottomToolbarCoordinator {
         mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
         mTabSwitcherButtonCoordinator.setTabModelSelector(tabModelSelector);
 
+        mHomeButton.setOnClickListener(homeButtonListener);
+        /*
+        mHomeButtonCoordinator.setOverviewModeBehavior(
+                overviewModeBehavior, ToolbarButtonCoordinator.ButtonVisibility.BROWSING_MODE);
+                */
         mMenuButton.setTouchListener(menuButtonHelper);
         mMenuButton.setAccessibilityDelegate(menuButtonHelper);
-
-        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                BookmarkUtils.showBookmarkManager(mActivity);
-            }
-        });
 
         mHistoryButton.setOnClickListener(new View.OnClickListener() {
             @Override
