@@ -42,7 +42,7 @@
                 android:layout_height="1dp"
                 android:layout_weight="1" />
 
-            <org.chromium.chrome.browser.widget.TintedImageButton
+            <android.support.v7.widget.AppCompatImageButton
                 android:id="@+id/bookmarks_button"
                 style="@style/ToolbarButton"
                 android:src="@drawable/btn_toolbar_bookmarks"
@@ -54,7 +54,7 @@
                 android:layout_height="1dp"
                 android:layout_weight="1" />
 
-            <org.chromium.chrome.browser.widget.TintedImageButton
+            <android.support.v7.widget.AppCompatImageButton
                 android:id="@+id/history_button"
                 style="@style/ToolbarButton"
                 android:src="@drawable/btn_toolbar_history"
