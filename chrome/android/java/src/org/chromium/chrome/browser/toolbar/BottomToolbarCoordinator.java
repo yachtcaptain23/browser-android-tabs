@@ -111,6 +111,12 @@ public class BottomToolbarCoordinator {
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
         mHomeButton = toolbarRoot.findViewById(R.id.home_button);
         mBookmarkButton = toolbarRoot.findViewById(R.id.bookmark_this_page_id);
+        mBookmarkButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mActivity.onMenuOrKeyboardAction(v.getId(), true);
+            }
+        });
         mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
 
         mLightModeTint =
