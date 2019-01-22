@@ -11,21 +11,11 @@ import android.view.ViewStub;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ActivityTabProvider;
 import org.chromium.chrome.browser.appmenu.AppMenuButtonHelper;
-import org.chromium.chrome.browser.ChromeActivity;
-import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
 import org.chromium.chrome.browser.fullscreen.ChromeFullscreenManager;
-import org.chromium.chrome.browser.history.HistoryManagerUtils;
-import org.chromium.chrome.browser.modelutil.PropertyKey;
-import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
-import org.chromium.chrome.browser.tabmodel.TabModel.TabLaunchType;
-import org.chromium.chrome.browser.toolbar.BottomToolbarViewBinder.ViewHolder;
-import org.chromium.chrome.browser.toolbar.ToolbarButtonSlotData.ToolbarButtonData;
-import org.chromium.chrome.browser.widget.TintedImageButton;
-import org.chromium.chrome.browser.widget.newtab.NewTabButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -43,36 +33,6 @@ public class BottomToolbarCoordinator {
     /** The tab switcher mode bottom toolbar stub that will be inflated when native is ready. */
     private final ViewStub mTabSwitcherModeStub;
 
-    /** The bookmarks button component that lives in the bottom toolbar. */
-    private final TintedImageButton mBookmarksButton;
-
-    /** The history button component that lives in the bottom toolbar. */
-    private final TintedImageButton mHistoryButton;
-
-    /** The new tab button component that lives in the bottom toolbar. */
-    private final NewTabButton mNewTabButton;
-
-    /** The menu button that lives in the bottom toolbar. */
-    private final MenuButton mMenuButton;
-
-    /** The light mode tint to be used in bottom toolbar buttons. */
-    private final ColorStateList mLightModeTint;
-
-    /** The dark mode tint to be used in bottom toolbar buttons. */
-    private final ColorStateList mDarkModeTint;
-
-    /** The primary color to be used in normal mode. */
-    private final int mNormalPrimaryColor;
-
-    /** The primary color to be used in incognito mode. */
-    private final int mIncognitoPrimaryColor;
-
-    /** The toolbar model that tells us about the current toolbar state and data. */
-    private final ToolbarModel mToolbarModel;
-
-    /** The invoking activity. */
-    private final ChromeActivity mActivity;
-
     /**
      * Build the coordinator that manages the bottom toolbar.
      * @param fullscreenManager A {@link ChromeFullscreenManager} to update the bottom controls
@@ -82,47 +42,16 @@ public class BottomToolbarCoordinator {
      * @param homeButtonListener The {@link OnClickListener} for the home button.
      * @param searchAcceleratorListener The {@link OnClickListener} for the search accelerator.
      * @param shareButtonListener The {@link OnClickListener} for the share button.
-     * @param root The root {@link ViewGroup} for locating the views to inflate.
      */
-    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewGroup root,
-            /*ToolbarButtonSlotData firstSlotData, ToolbarButtonSlotData secondSlotData,*/ ChromeActivity activity, 
-            ToolbarModel toolbarModel) {
-        BottomToolbarModel model = new BottomToolbarModel();
+    public BottomToolbarCoordinator(ChromeFullscreenManager fullscreenManager, ViewStub stub,
+            ActivityTabProvider tabProvider, OnClickListener homeButtonListener,
+            OnClickListener searchAcceleratorListener, OnClickListener shareButtonListener) {
+        final View root = stub.inflate();
 
-        int shadowHeight =
-                root.getResources().getDimensionPixelOffset(R.dimen.toolbar_shadow_height);
+        mBrowsingModeCoordinator = new BrowsingModeBottomToolbarCoordinator(root, fullscreenManager,
+                tabProvider, homeButtonListener, searchAcceleratorListener, shareButtonListener);
 
-        // This is the Android view component of the views that constitute the bottom toolbar.
-        View inflatedView = ((ViewStub) root.findViewById(R.id.bottom_toolbar)).inflate();
-        final ScrollingBottomViewResourceFrameLayout toolbarRoot =
-                (ScrollingBottomViewResourceFrameLayout) inflatedView;
-        toolbarRoot.setTopShadowHeight(shadowHeight);
-
-        PropertyModelChangeProcessor<BottomToolbarModel, ViewHolder, PropertyKey> processor =
-                new PropertyModelChangeProcessor<>(
-                        model, new ViewHolder(toolbarRoot), new BottomToolbarViewBinder());
-        model.addObserver(processor);
-
-        mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
-        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
-        mHistoryButton = toolbarRoot.findViewById(R.id.history_button);
-        mMenuButton = toolbarRoot.findViewById(R.id.menu_button_wrapper);
-
-        mLightModeTint =
-                AppCompatResources.getColorStateList(root.getContext(), R.color.light_mode_tint);
-        mDarkModeTint =
-                AppCompatResources.getColorStateList(root.getContext(), R.color.dark_mode_tint);
-
-        mNormalPrimaryColor =
-                ApiCompatibilityUtils.getColor(root.getResources(), R.color.modern_primary_color);
-        mIncognitoPrimaryColor = ApiCompatibilityUtils.getColor(
-                root.getResources(), R.color.incognito_modern_primary_color);
-
-        mMediator = new BottomToolbarMediator(model, fullscreenManager, root.getResources(),
-                /*firstSlotData, secondSlotData,*/ mNormalPrimaryColor);
-        mActivity = activity;
-        mToolbarModel = toolbarModel;
-        mNewTabButton = (NewTabButton) toolbarRoot.findViewById(R.id.new_tab_button);
+        mTabSwitcherModeStub = root.findViewById(R.id.bottom_toolbar_tab_switcher_mode_stub);
     }
 
     /**
@@ -157,43 +86,6 @@ public class BottomToolbarCoordinator {
         mTabSwitcherModeCoordinator = new TabSwitcherBottomToolbarCoordinator(mTabSwitcherModeStub,
                 incognitoStateProvider, newTabClickListener, menuButtonHelper, tabModelSelector,
                 overviewModeBehavior, tabCountProvider);
-        // (Albert Wang): We're using history in favor of search acceleration
-        // mMediator.setSearchAcceleratorListener(searchAcceleratorListener);
-        mMediator.setLayoutManager(layoutManager);
-        mMediator.setResourceManager(resourceManager);
-        mMediator.setOverviewModeBehavior(overviewModeBehavior);
-        mMediator.setToolbarSwipeHandler(layoutManager.getToolbarSwipeHandler());
-        mMediator.setWindowAndroid(windowAndroid);
-        setIncognito(isIncognito);
-        mMediator.setTabSwitcherButtonData(
-                firstSlotTabSwitcherButtonData, secondSlotTabSwitcherButtonData);
-
-        mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
-        mTabSwitcherButtonCoordinator.setTabModelSelector(tabModelSelector);
-
-        mMenuButton.setTouchListener(menuButtonHelper);
-        mMenuButton.setAccessibilityDelegate(menuButtonHelper);
-
-        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                BookmarkUtils.showBookmarkManager(mActivity);
-            }
-        });
-
-        mHistoryButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                HistoryManagerUtils.showHistoryManager(mActivity, mToolbarModel.getTab());
-            }
-        });
-
-        mNewTabButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mActivity.getTabCreator(false).launchUrl("chrome-native://newtab/", TabLaunchType.FROM_LAUNCHER_SHORTCUT);
-            }
-        });
     }
 
     /**

@@ -259,6 +259,8 @@ public class ToolbarPhone
     /** The boundaries of the omnibox, without the NTP-specific offset applied. */
     protected final Rect mLocationBarBackgroundBounds = new Rect();
 
+    protected final Rect mLocationBarBackgroundPadding = new Rect();
+
     private final Rect mBackgroundOverlayBounds = new Rect();
 
     /** Offset applied to the bounds of the omnibox if we are showing a New Tab Page. */
@@ -449,7 +451,7 @@ public class ToolbarPhone
         Resources res = getResources();
         mLocationBarBackgroundVerticalInset =
                 res.getDimensionPixelSize(R.dimen.location_bar_vertical_margin);
-        mLocationBarBackground = createModernLocationBarBackground(getResources());
+        mLocationBarBackground = createModernLocationBarBackground(getResources(), getToolbarButtonVisibility() == VISIBLE ? R.drawable.modern_toolbar_background_white : R.drawable.modern_toolbar_background_selected);
         mLocationBarBackground.getPadding(mLocationBarBackgroundPadding);
         mLocationBarBackground.mutate();
         mLocationBar.setPadding(mLocationBarBackgroundPadding.left,
@@ -528,7 +530,7 @@ public class ToolbarPhone
             mToggleTabStackButton.setOnKeyListener(new KeyboardNavigationListener() {
                 @Override
                 public View getNextFocusForward() {
-                    final TintedImageButton menuButton = getMenuButton();
+                    final AppCompatImageButton menuButton = getMenuButton();
                     if (menuButton != null && menuButton.isShown()) {
                         return menuButton;
                     } else {

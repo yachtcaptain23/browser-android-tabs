@@ -33,13 +33,13 @@ public class BrowsingModeBottomToolbarCoordinator {
     private final BrowsingModeBottomToolbarMediator mMediator;
 
     /** The home button that lives in the bottom toolbar. */
-    private final HomeButton mHomeButton;
+    //private final HomeButton mHomeButton;
 
     /** The share button that lives in the bottom toolbar. */
-    private final ShareButton mShareButton;
+    //private final ShareButton mShareButton;
 
     /** The search acceleartor that lives in the bottom toolbar. */
-    private final SearchAccelerator mSearchAccelerator;
+    //private final SearchAccelerator mSearchAccelerator;
 
     /** The tab switcher button component that lives in the bottom toolbar. */
     private final TabSwitcherButtonCoordinator mTabSwitcherButtonCoordinator;
@@ -77,15 +77,15 @@ public class BrowsingModeBottomToolbarCoordinator {
         mMediator = new BrowsingModeBottomToolbarMediator(
                 model, fullscreenManager, toolbarRoot.getResources());
 
-        mHomeButton = toolbarRoot.findViewById(R.id.home_button);
-        mHomeButton.setOnClickListener(homeButtonListener);
+        //mHomeButton = toolbarRoot.findViewById(R.id.home_button);
+        //mHomeButton.setOnClickListener(homeButtonListener);
 
-        mShareButton = toolbarRoot.findViewById(R.id.share_button);
-        mShareButton.setOnClickListener(shareButtonListener);
-        mShareButton.setActivityTabProvider(tabProvider);
+        //mShareButton = toolbarRoot.findViewById(R.id.share_button);
+        //mShareButton.setOnClickListener(shareButtonListener);
+        //mShareButton.setActivityTabProvider(tabProvider);
 
-        mSearchAccelerator = toolbarRoot.findViewById(R.id.search_accelerator);
-        mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
+        //mSearchAccelerator = toolbarRoot.findViewById(R.id.search_accelerator);
+        //mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
 
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(toolbarRoot);
 
@@ -132,10 +132,10 @@ public class BrowsingModeBottomToolbarCoordinator {
         mMediator.setOverviewModeBehavior(overviewModeBehavior);
         mMediator.setThemeColorProvider(themeColorProvider);
 
-        mHomeButton.setThemeColorProvider(themeColorProvider);
-        mShareButton.setThemeColorProvider(themeColorProvider);
-        mShareButton.setTabModelSelector(tabModelSelector);
-        mSearchAccelerator.setThemeColorProvider(themeColorProvider);
+        //mHomeButton.setThemeColorProvider(themeColorProvider);
+        //mShareButton.setThemeColorProvider(themeColorProvider);
+        //mShareButton.setTabModelSelector(tabModelSelector);
+        //mSearchAccelerator.setThemeColorProvider(themeColorProvider);
 
         mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
         mTabSwitcherButtonCoordinator.setThemeColorProvider(themeColorProvider);
@@ -195,9 +195,9 @@ public class BrowsingModeBottomToolbarCoordinator {
      */
     public void destroy() {
         mMediator.destroy();
-        mHomeButton.destroy();
-        mShareButton.destroy();
-        mSearchAccelerator.destroy();
+        //mHomeButton.destroy();
+        //mShareButton.destroy();
+        //mSearchAccelerator.destroy();
         mTabSwitcherButtonCoordinator.destroy();
         mMenuButton.destroy();
     }
