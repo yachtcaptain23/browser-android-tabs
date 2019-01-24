@@ -6,11 +6,14 @@ package org.chromium.chrome.browser.toolbar;
 
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ImageButton;
 
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ActivityTabProvider;
 import org.chromium.chrome.browser.ActivityTabProvider.HintlessActivityTabObserver;
+import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.appmenu.AppMenuButtonHelper;
+import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
@@ -35,6 +38,9 @@ public class BrowsingModeBottomToolbarCoordinator {
 
     /** The home button that lives in the bottom toolbar. */
     private final HomeButton mHomeButton;
+
+    /** The bookmarks button that lives in the bottom toolbar. */
+    private final ImageButton mBookmarksButton;
 
     /** The new tab button that lives in the bottom toolbar. */
     private NewTabButton mNewTabButton;
@@ -86,6 +92,14 @@ public class BrowsingModeBottomToolbarCoordinator {
 
         mHomeButton = toolbarRoot.findViewById(R.id.home_button);
         mHomeButton.setOnClickListener(homeButtonListener);
+
+        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BookmarkUtils.showBookmarkManager((ChromeActivity) v.getContext());
+            }
+        });
 
         //mShareButton = toolbarRoot.findViewById(R.id.share_button);
         //mShareButton.setOnClickListener(shareButtonListener);
