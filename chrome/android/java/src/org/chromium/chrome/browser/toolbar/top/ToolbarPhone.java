@@ -2092,6 +2092,9 @@ public class ToolbarPhone
     public void OnNotificationDeleted(String id) {}
 
     @Override
+    public void OnIsWalletCreated(boolean created) {}
+
+    @Override
     public void setOnTabSwitcherClickHandler(OnClickListener listener) {
         mTabSwitcherListener = listener;
     }
