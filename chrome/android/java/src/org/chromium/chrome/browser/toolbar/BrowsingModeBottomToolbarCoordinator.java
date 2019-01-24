@@ -33,7 +33,7 @@ public class BrowsingModeBottomToolbarCoordinator {
     private final BrowsingModeBottomToolbarMediator mMediator;
 
     /** The home button that lives in the bottom toolbar. */
-    //private final HomeButton mHomeButton;
+    private final HomeButton mHomeButton;
 
     /** The share button that lives in the bottom toolbar. */
     //private final ShareButton mShareButton;
@@ -77,8 +77,8 @@ public class BrowsingModeBottomToolbarCoordinator {
         mMediator = new BrowsingModeBottomToolbarMediator(
                 model, fullscreenManager, toolbarRoot.getResources());
 
-        //mHomeButton = toolbarRoot.findViewById(R.id.home_button);
-        //mHomeButton.setOnClickListener(homeButtonListener);
+        mHomeButton = toolbarRoot.findViewById(R.id.home_button);
+        mHomeButton.setOnClickListener(homeButtonListener);
 
         //mShareButton = toolbarRoot.findViewById(R.id.share_button);
         //mShareButton.setOnClickListener(shareButtonListener);
