@@ -6,11 +6,14 @@ package org.chromium.chrome.browser.toolbar;
 
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ImageButton;
 
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ActivityTabProvider;
 import org.chromium.chrome.browser.ActivityTabProvider.HintlessActivityTabObserver;
+import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.appmenu.AppMenuButtonHelper;
+import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManager;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.ToolbarSwipeLayout;
@@ -20,6 +23,7 @@ import org.chromium.chrome.browser.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.toolbar.BrowsingModeBottomToolbarViewBinder.ViewHolder;
+import org.chromium.chrome.browser.widget.newtab.NewTabButton;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.resources.ResourceManager;
 
@@ -33,7 +37,13 @@ public class BrowsingModeBottomToolbarCoordinator {
     private final BrowsingModeBottomToolbarMediator mMediator;
 
     /** The home button that lives in the bottom toolbar. */
-    //private final HomeButton mHomeButton;
+    private final HomeButton mHomeButton;
+
+    /** The bookmarks button that lives in the bottom toolbar. */
+    private final ImageButton mBookmarksButton;
+
+    /** The new tab button that lives in the bottom toolbar. */
+    private NewTabButton mNewTabButton;
 
     /** The share button that lives in the bottom toolbar. */
     //private final ShareButton mShareButton;
@@ -46,6 +56,8 @@ public class BrowsingModeBottomToolbarCoordinator {
 
     /** The menu button that lives in the browsing mode bottom toolbar. */
     private final MenuButton mMenuButton;
+
+    private final ScrollingBottomViewResourceFrameLayout mToolbarRoot;
 
     /**
      * Build the coordinator that manages the browsing mode bottom toolbar.
@@ -66,6 +78,7 @@ public class BrowsingModeBottomToolbarCoordinator {
         final ScrollingBottomViewResourceFrameLayout toolbarRoot =
                 (ScrollingBottomViewResourceFrameLayout) root.findViewById(
                         R.id.bottom_toolbar_control_container);
+        mToolbarRoot = toolbarRoot;
 
         final int shadowHeight =
                 toolbarRoot.getResources().getDimensionPixelOffset(R.dimen.toolbar_shadow_height);
@@ -77,8 +90,16 @@ public class BrowsingModeBottomToolbarCoordinator {
         mMediator = new BrowsingModeBottomToolbarMediator(
                 model, fullscreenManager, toolbarRoot.getResources());
 
-        //mHomeButton = toolbarRoot.findViewById(R.id.home_button);
-        //mHomeButton.setOnClickListener(homeButtonListener);
+        mHomeButton = toolbarRoot.findViewById(R.id.home_button);
+        mHomeButton.setOnClickListener(homeButtonListener);
+
+        mBookmarksButton = toolbarRoot.findViewById(R.id.bookmarks_button);
+        mBookmarksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BookmarkUtils.showBookmarkManager((ChromeActivity) v.getContext());
+            }
+        });
 
         //mShareButton = toolbarRoot.findViewById(R.id.share_button);
         //mShareButton.setOnClickListener(shareButtonListener);
@@ -111,6 +132,8 @@ public class BrowsingModeBottomToolbarCoordinator {
      * @param layoutManager A {@link LayoutManager} to attach overlays to.
      * @param tabSwitcherListener An {@link OnClickListener} that is triggered when the
      *                            tab switcher button is clicked.
+     * @param newTabClickListener An {@link OnClickListener} that is triggered when the
+     *                         new tab button is clicked.
      * @param menuButtonHelper An {@link AppMenuButtonHelper} that is triggered when the
      *                         menu button is clicked.
      * @param overviewModeBehavior The overview mode manager.
@@ -121,7 +144,7 @@ public class BrowsingModeBottomToolbarCoordinator {
      *                         or not to be enabled.
      */
     public void initializeWithNative(ResourceManager resourceManager, LayoutManager layoutManager,
-            OnClickListener tabSwitcherListener, AppMenuButtonHelper menuButtonHelper,
+            OnClickListener tabSwitcherListener, OnClickListener newTabClickListener, AppMenuButtonHelper menuButtonHelper,
             OverviewModeBehavior overviewModeBehavior, WindowAndroid windowAndroid,
             TabCountProvider tabCountProvider, ThemeColorProvider themeColorProvider,
             TabModelSelector tabModelSelector) {
@@ -131,6 +154,9 @@ public class BrowsingModeBottomToolbarCoordinator {
         mMediator.setWindowAndroid(windowAndroid);
         mMediator.setOverviewModeBehavior(overviewModeBehavior);
         mMediator.setThemeColorProvider(themeColorProvider);
+
+        mNewTabButton = mToolbarRoot.findViewById(R.id.new_tab_button);
+        mNewTabButton.setOnClickListener(newTabClickListener);
 
         //mHomeButton.setThemeColorProvider(themeColorProvider);
         //mShareButton.setThemeColorProvider(themeColorProvider);

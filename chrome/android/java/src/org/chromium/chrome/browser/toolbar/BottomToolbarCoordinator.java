@@ -81,7 +81,7 @@ public class BottomToolbarCoordinator {
             OverviewModeBehavior overviewModeBehavior, WindowAndroid windowAndroid,
             TabCountProvider tabCountProvider, IncognitoStateProvider incognitoStateProvider) {
         mBrowsingModeCoordinator.initializeWithNative(resourceManager, layoutManager,
-                tabSwitcherListener, menuButtonHelper, overviewModeBehavior, windowAndroid,
+                tabSwitcherListener, newTabClickListener, menuButtonHelper, overviewModeBehavior, windowAndroid,
                 tabCountProvider, incognitoStateProvider, tabModelSelector);
         mTabSwitcherModeCoordinator = new TabSwitcherBottomToolbarCoordinator(mTabSwitcherModeStub,
                 incognitoStateProvider, newTabClickListener, menuButtonHelper, tabModelSelector,
