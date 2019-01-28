@@ -1037,7 +1037,7 @@ GURL GetTabUrl(const net::URLRequest* request) {
 bool ChromeNetworkDelegate::OnCanGetCookies(const net::URLRequest& request,
                                             const net::CookieList& cookie_list,
                                             bool allowed_from_caller) {
-  if (allowed_from_caller) {
+  if (allowed_from_caller && cookie_settings_) {
     GURL tab_url = GetTabUrl(&request);
     bool allowed_from_shields = cookie_settings_->IsCookieAccessAllowed(
         request.url(), tab_url);
@@ -1061,7 +1061,7 @@ bool ChromeNetworkDelegate::OnCanSetCookie(const net::URLRequest& request,
                                            const net::CanonicalCookie& cookie,
                                            net::CookieOptions* options,
                                            bool allowed_from_caller) {
-  if (allowed_from_caller) {
+  if (allowed_from_caller && cookie_settings_) {
     GURL tab_url = GetTabUrl(&request);
     bool allowed_from_shields = cookie_settings_->IsCookieAccessAllowed(
         request.url(), tab_url);
