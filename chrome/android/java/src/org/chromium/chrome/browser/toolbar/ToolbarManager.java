@@ -221,7 +221,7 @@ public class ToolbarManager implements ToolbarTabController, UrlFocusChangeListe
 
     private boolean mInitializedWithNative;
 
-    private boolean mShouldUpdateToolbarPrimaryColor = true;
+    private boolean mShouldUpdateToolbarPrimaryColor = false;
     private int mCurrentThemeColor;
 
     private OmniboxStartupMetrics mOmniboxStartupMetrics;
