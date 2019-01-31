@@ -252,8 +252,7 @@ public class ToolbarModel implements ToolbarDataProvider {
             brandColorNeedsLightText =
                     ColorUtils.shouldUseLightForegroundOnBackground(currentPrimaryColor);
         }
-
-        // (Albert Wang) Also change here
+        // (Albert Wang): Always use dark colors for LocationBar
         return true || (!isIncognito() && (!hasTab() || !brandColorNeedsLightText));
     }
 
@@ -402,7 +401,7 @@ public class ToolbarModel implements ToolbarDataProvider {
         boolean needLightIcon = ColorUtils.shouldUseLightForegroundOnBackground(color);
         if (isIncognito() || needLightIcon) {
             // For a dark theme color, use light icons.
-            // (Albert Wang) Should change this
+            // (Albert Wang): Always use dark colors for LocationBar
             // list = AppCompatResources.getColorStateList(mContext, R.color.light_mode_tint);
             list = AppCompatResources.getColorStateList(mContext, R.color.dark_mode_tint);
         } else if (isPreview()) {
