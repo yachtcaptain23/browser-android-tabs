@@ -1008,7 +1008,9 @@ public class LocationBarLayout extends FrameLayout
     @Override
     public void updateVisualsForState() {
         if (updateUseDarkColors()) mStatusViewCoordinator.setUseDarkColors(mUseDarkColors);
-        int id = mUseDarkColors ? R.color.dark_mode_tint : R.color.light_mode_tint;
+        // (Albert Wang): Always use dark_mode_tint
+        // int id = mUseDarkColors ? R.color.dark_mode_tint : R.color.light_mode_tint;
+        int id = R.color.dark_mode_tint;
         ColorStateList colorStateList = AppCompatResources.getColorStateList(getContext(), id);
         ApiCompatibilityUtils.setImageTintList(mMicButton, colorStateList);
         ApiCompatibilityUtils.setImageTintList(mDeleteButton, colorStateList);
