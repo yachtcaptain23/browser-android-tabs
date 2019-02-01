@@ -2095,6 +2095,9 @@ public class ToolbarPhone
     public void OnIsWalletCreated(boolean created) {}
 
     @Override
+    public void OnGetPendingContributionsTotal(double amount) {}
+
+    @Override
     public void setOnTabSwitcherClickHandler(OnClickListener listener) {
         mTabSwitcherListener = listener;
     }
