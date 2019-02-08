@@ -92,7 +92,7 @@ Namun demikian, bukan berarti Anda sama sekali tidak terlihat. Menggunakan mode 
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Hapus 1 item yang dipilih}other{Hapus # item yang dipilih}}</translation>
 <translation id="1641113438599504367">Penelusuran Aman</translation>
 <translation id="164269334534774161">Anda melihat salinan offline halaman ini dari <ph name="CREATION_TIME" /></translation>
-<translation id="1644574205037202324">Histori</translation>
+<translation id="1644574205037202324">Riwayat</translation>
 <translation id="1647391597548383849">Mengakses kamera Anda</translation>
 <translation id="1660204651932907780">Mengizinkan situs memutar suara (direkomendasikan)</translation>
 <translation id="1670399744444387456">Dasar</translation>
@@ -307,7 +307,7 @@ Namun demikian, bukan berarti Anda sama sekali tidak terlihat. Menggunakan mode 
 <translation id="3353615205017136254">Halaman ringan yang ditampilkan oleh Google. Tap tombol muat versi asli untuk memuat halaman asli.</translation>
 <translation id="3365671512111106261">Tidak tersedia jika Penghemat Kuota Internet diaktifkan</translation>
 <translation id="3367813778245106622">Masuk lagi untuk memulai sinkronisasi</translation>
-<translation id="3377025655491224618">Tab Rahasia</translation>
+<translation id="3377025655491224618">Tab Pribadi</translation>
 <translation id="3384347053049321195">Bagikan gambar</translation>
 <translation id="3386292677130313581">Minta izin sebelum memungkinkan situs mengetahui lokasi Anda (disarankan)</translation>
 <translation id="3387650086002190359">Download <ph name="FILE_NAME" /> gagal karena kesalahan sistem file.</translation>
@@ -414,7 +414,7 @@ Untuk menyesuaikan istilah penelusuran, tekan lama untuk memilih. Untuk memperse
 <translation id="4226663524361240545">Notifikasi dapat membuat perangkat bergetar</translation>
 <translation id="423219824432660969">Enkripsikan data yang disinkronkan dengan sandi Google mulai tanggal <ph name="TIME" /></translation>
 <translation id="4242533952199664413">Buka setelan</translation>
-<translation id="4243710787042215766">Buka di tab rahasia</translation>
+<translation id="4243710787042215766">Buka di tab pribadi</translation>
 <translation id="7445061995866044926">Keluar dari Brave?</translation>
 <translation id="4256782883801055595">Lisensi open source</translation>
 <translation id="4259722352634471385">Navigasi diblokir: <ph name="URL" /></translation>
@@ -627,7 +627,7 @@ Namun demikian, bukan berarti Anda sama sekali tidak terlihat. Menggunakan mode 
 <translation id="5793665092639000975"><ph name="SPACE_USED" /> terpakai dari <ph name="SPACE_AVAILABLE" /></translation>
 <translation id="5804241973901381774">Izin</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{# jam yang lalu}other{# jam yang lalu}}</translation>
-<translation id="5817918615728894473">Sandingkan</translation>
+<translation id="5817918615728894473">Sambungkan</translation>
 <translation id="583281660410589416">Tidak dikenal</translation>
 <translation id="5833397272224757657">Menggunakan konten di situs yang Anda buka serta aktivitas browser dan interaksi untuk personalisasi</translation>
 <translation id="5833984609253377421">Bagikan link</translation>
@@ -698,7 +698,7 @@ Misalnya, beberapa situs web mungkin menanggapi permintaan ini dengan menayangka
 <translation id="6320088164292336938">Getar</translation>
 <translation id="6324034347079777476">Sinkronisasi sistem Android dinonaktifkan</translation>
 <translation id="6333140779060797560">Bagikan dengan <ph name="APPLICATION" /></translation>
-<translation id="6336451774241870485">Tab rahasia yang baru</translation>
+<translation id="6336451774241870485">Tab pribadi baru</translation>
 <translation id="6337234675334993532">Enkripsi</translation>
 <translation id="6341580099087024258">Tanya lokasi menyimpan file</translation>
 <translation id="6343192674172527289">Tidak ada file download</translation>
@@ -739,7 +739,7 @@ Misalnya, beberapa situs web mungkin menanggapi permintaan ini dengan menayangka
 <translation id="6593061639179217415">Situs desktop</translation>
 <translation id="663059986967017181">Disalin ke Brave</translation>
 <translation id="6608650720463149374"><ph name="GIGABYTES" /> GB</translation>
-<translation id="6610147964972079463">Tutup tab rahasia</translation>
+<translation id="6610147964972079463">Tutup tab pribadi</translation>
 <translation id="6612358246767739896">Konten dilindungi</translation>
 <translation id="6627583120233659107">Edit folder</translation>
 <translation id="6643016212128521049">Hapus</translation>
@@ -1146,7 +1146,7 @@ Dihemat</translation>
 <translation id="807636106793708118">Memilih versi seluler dari situs</translation>
 <translation id="1340503115760585811">Aktifkan Tampilan Desktop untuk tab baru</translation>
 <translation id="7924540991929826186">Gunakan versi seluler situs untuk tab baru (disarankan)</translation>
-<translation id="3834924998750356151">Pemblokiran layar</translation>
+<translation id="3834924998750356151">Layar Pemblokiran</translation>
 <translation id="1713450908129883784">Kontrol Individu</translation>
 <translation id="6303294677342628402">Perisai</translation>
 <translation id="252011129655042182">Iklan dan Pelacak</translation>
@@ -1159,27 +1159,62 @@ Dihemat</translation>
 <translation id="6587448235155023666">Perubahan Anda akan berlaku setelah Anda meluncurkan ulang Brave</translation>
 <translation id="8701563696941209024">LUNCURKAN ULANG</translation>
 <translation id="834487290629916192">NANTI</translation>
-<translation id="5965081608816406060">Pemutaran video latar belakang</translation>
+<translation id="5965081608816406060">Pemutaran video di latar</translation>
 <translation id="1842747674580016420">Pemutaran video di Brave</translation>
 <translation id="5368992950177874750">Jika diaktifkan, video akan diputar di Brave dan bukan di aplikasi yang terkait</translation>
 <translation id="7459000603787995422">Tutup tab saat keluar</translation>
-<translation id="1680858055899097121">Jangan tahan tab di antara sesi penelusuran</translation>
-<translation id="213787746370741250">Buka tab-tab di Tab Suaian</translation>
-<translation id="3544772668823934222">Menawarkan untuk membuka tab-tab di Tab Suaian</translation>
-<translation id="4501702055016678577">Pencarian privat dengan DuckDuckGo?
-</translation>
-<translation id="910419239800579753">Dengan pencarian privat, Brave akan menggunakan DuckDuckGo untuk mencari jawaban pencarian Anda saat Anda berada dalam tab privat ini. DuckDuckGo adalah mesin pencari yang tidak merekam riwayat pencarian Anda, memungkinkan Anda untuk mencari secara privat.
-</translation>
+<translation id="1680858055899097121">Jangan ingat tab di antara sesi penjelajahan</translation>
+<translation id="213787746370741250">Buka tab di Tab Ubahsuai</translation>
+<translation id="3544772668823934222">Tawarkan untuk membuka tab di Tab Ubahsuai</translation>
+<translation id="4501702055016678577">Pencarian pribadi dengan DuckDuckGo?</translation>
+<translation id="910419239800579753">Dengan pencarian pribadi, Brave akan menggunakan DuckDuckGo untuk mencari jawaban pencarian Anda saat Anda berada dalam tab pribadi ini. DuckDuckGo adalah mesin pencari yang tidak merekam riwayat pencarian Anda, memungkinkan Anda untuk mencari secara pribadi.</translation>
 <translation id="1426410128494586442">Ya
 </translation>
 <translation id="4250680216510889253">Tidak
 </translation>
-<translation id="5628466560184522265">Pelajari tentang pencarian privat dengan DuckDuckGo
-</translation>
+<translation id="5628466560184522265">Pelajari tentang pencarian pribadi dengan DuckDuckGo</translation>
 <translation id="1468415711258933398">Tab Standar
 </translation>
-<translation id="6199596294742117349">Ini adalah Tab Privat
-</translation>
-<translation id="5858455511731621847">Sekali pun situs yang Anda kunjungi melalui tab privat tidak disimpan secara lokal, tetapi tidak membuat jadi anonim atau tak tampak dari ISP Anda, kantor Anda, atau situs yang Anda kunjungi.
-</translation>
+<translation id="6199596294742117349">Ini adalah Tab Pribadi</translation>
+<translation id="5858455511731621847">Meski situs yang Anda kunjungi melalui tab pribadi tidak disimpan secara lokal, tetapi tidak membuat jadi anonim atau tak tampak dari ISP Anda, bos Anda, atau situs yang Anda kunjungi.</translation>
+<translation id="7820683005702098135">Brave (beta) Sync</translation>
+<translation id="2339273275658335597">Pembaruan Brave</translation>
+<translation id="8395234238259738935">Peramban Brave baru 22% lebih cepat</translation>
+<translation id="391177677159359824">Sync (beta)</translation>
+<translation id="3680755684186855422">Brave Sync memungkinkan Anda mensinkronisasi data bookmarks secara pribadi antara Browser Brave Anda di perangkat yang berbeda-beda.</translation>
+<translation id="3735228155296883311">Cukup pindai kode dari rantai sinkronisasi yang Anda buat pada perangkat lain. Atau mulai rantai sinkronisasi baru.</translation>
+<translation id="7745082336226088126">Pindai atau masukkan kode sinkronisasi</translation>
+<translation id="1602067095281698985">Mulai rantai sinkronisasi baru</translation>
+<translation id="4690880825349994619">Menggunakan perangkat tersinkronisasi yang ada, buka Pengaturan Brave dan bernavigasi ke Pengaturan &gt; Sinkronisasi. Pilih \"Tambah Perangkat\" dan pindai Kode QR yang ditampilkan di layar.</translation>
+<translation id="6270614677029463366">Menggunakan perangkat tersinkronisasi yang ada, buka Pengaturan Brave dan bernavigasi ke Pengaturan &gt; Sinkronisasi. Pilih \"Tambah Perangkat\" lalu \"Tampilkan kata-kata kode\".</translation>
+<translation id="1475223680121592371">Tambah Perangkat Seluler</translation>
+<translation id="2965377893636908578">Tambah Komputer</translation>
+<translation id="65315202420929965">Pindai kode sinkronisasi ini</translation>
+<translation id="6604289897677913048">Menggunakan ponsel kedua atau tablet, bernavigasi ke Pengaturan Brave &gt; Sinkronisasi &gt; Pindai.</translation>
+<translation id="3405078156498254717">Tangkap kode QR (di atas) dengan perangkat kedua Anda, atau masukkan kata-kata kode jika tidak ada kamera.</translation>
+<translation id="8076492880354921740">Tab</translation>
+<translation id="5706430066167764107">Isi otomatis/Kata sandi</translation>
+<translation id="1164234435773528579">Pengaturan Pembayaran Brave</translation>
+<translation id="6174119914106813304">SINKRONISASIKAN DI PERANGKAT INI</translation>
+<translation id="6776430845975754238">Mengubah pengaturan hanya akan mempengaruhi data yang dibagikan perangkat ini dengan orang lain.</translation>
+<translation id="8193724030871339658">PERANGKAT LAIN DALAM RANTAI</translation>
+<translation id="279635009973773843">MEMUAT PERANGKAT...</translation>
+<translation id="6450924769151530465">Tambah perangkat lain</translation>
+<translation id="2004365171440701679">Hapus perangkat ini</translation>
+<translation id="2731921493694251495">Masukkan kode rantai sinkronisasi</translation>
+<translation id="2590683710114839102">Pada komputer Anda, bernavigasi ke Pengaturan Brave &gt; Sinkronisasi. Pilih \"Masukkan Kode Rantai Sinkronisasi\".</translation>
+<translation id="1732271215616957850">Masukkan kata-kata kode di bawah ini, termasuk spasi.</translation>
+<translation id="3951555451708119590">Yakin ingin menghapus perangkat '</translation>
+<translation id="9154490620151093733">Permintaan penghapusan telah dikirim. Perangkat akan dihapus sebentar lagi.</translation>
+<translation id="544873101641618162">Memuat data...</translation>
+<translation id="6779408765480516895">Ada yang salah, sepertinya permintaan Anda kehabisan waktu.</translation>
+<translation id="4973653569293835178">Saya akan gunakan kamera saya...</translation>
+<translation id="8131740175452115882">Konfirmasi</translation>
+<translation id="6854481134066832782">Jumlah kata: </translation>
+<translation id="4282642752844565114">Jumlah kata salah</translation>
+<translation id="2175927920773552910">Kode QR</translation>
+<translation id="8653433343015102968">Kata-kata Kode</translation>
+<translation id="8624315169751085215">Salin ke Clipboard</translation>
+<translation id="5241263629636958324">Telah Disalin ke Clipboard</translation>
+<translation id="222883304157347087">(perangkat ini)</translation>
 </translationbundle>
