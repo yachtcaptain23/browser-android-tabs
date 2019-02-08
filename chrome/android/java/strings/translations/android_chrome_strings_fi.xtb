@@ -414,7 +414,7 @@ Muokkaa hakutermiä valitsemalla se pitkällä painalluksella. Tarkenna hakua li
 <translation id="4226663524361240545">Laite voi väristä ilmoitusten yhteydessä.</translation>
 <translation id="423219824432660969">Salaa synkronoitu data Google-salasanalla (<ph name="TIME" />)</translation>
 <translation id="4242533952199664413">Avaa asetukset</translation>
-<translation id="4243710787042215766">Avaa yksityisellä välilehdellä</translation>
+<translation id="4243710787042215766">Avaa yksityisessä välilehdessä</translation>
 <translation id="7445061995866044926">Kirjaudutaanko ulos Bravesta?</translation>
 <translation id="4256782883801055595">Avoimen lähdekoodin käyttöluvat</translation>
 <translation id="4259722352634471385">Kohde on estetty: <ph name="URL" /></translation>
@@ -1176,7 +1176,7 @@ Tallennettu</translation>
 <translation id="2339273275658335597">Brave-selaimen päivitys</translation>
 <translation id="8395234238259738935">Uusi Brave-selain on 22 % nopeampi</translation>
 <translation id="7497839443041994908">Brave Sync (beta)</translation>
-<translation id="391177677159359824">Sync (beta)</translation>
+<translation id="391177677159359824">Synkronoi (beta)</translation>
 <translation id="3680755684186855422">Brave Syncin avulla voit synkronoida kirjanmerkkitietoja yksityisesti Brave-selaintesi välillä eri laitteissasi.</translation>
 <translation id="3735228155296883311">Yksinkertaisesti skannaa koodi synkronointiketjusta, jonka loit toisessa laitteessa. Tai aloita uusi synkronointiketju.</translation>
 <translation id="7745082336226088126">Skannaa tai anna synkronointikoodi</translation>
@@ -1213,5 +1213,5 @@ Tallennettu</translation>
 <translation id="8624315169751085215">Kopioi leikepöydälle</translation>
 <translation id="5241263629636958324">Kopioitu leikepöydälle</translation>
 <translation id="222883304157347087">(tämä laite)</translation>
-<translation id="7820683005702098135">Brave Sync (beta)</translation>
+<translation id="7820683005702098135">Brave (beta) -synkronointi</translation>
 </translationbundle>

@@ -414,7 +414,7 @@ Als je de zoekterm wilt aanpassen, houd je deze aangeraakt om de term te selecte
 <translation id="4226663524361240545">Het apparaat kan trillen bij meldingen</translation>
 <translation id="423219824432660969">Gesynchroniseerde gegevens versleutelen met Google-wachtwoord vanaf <ph name="TIME" /></translation>
 <translation id="4242533952199664413">Instellingen openen</translation>
-<translation id="4243710787042215766">Openen op privétabblad</translation>
+<translation id="4243710787042215766">Openen in privétabblad</translation>
 <translation id="7445061995866044926">Uitloggen bij Brave?</translation>
 <translation id="4256782883801055595">Open-sourcelicenties</translation>
 <translation id="4259722352634471385">Navigatie is geblokkeerd: <ph name="URL" /></translation>
@@ -739,7 +739,7 @@ Zo kunnen sommige websites op dit verzoek reageren door advertenties weer te gev
 <translation id="6593061639179217415">Desktopsite</translation>
 <translation id="663059986967017181">Gekopieerd naar Brave</translation>
 <translation id="6608650720463149374"><ph name="GIGABYTES" /> GB</translation>
-<translation id="6610147964972079463">Privétabbladen sluiten</translation>
+<translation id="6610147964972079463">Sluit privétabbladen</translation>
 <translation id="6612358246767739896">Beveiligde content</translation>
 <translation id="6627583120233659107">Map bewerken</translation>
 <translation id="6643016212128521049">Wissen</translation>
@@ -1089,8 +1089,8 @@ Zo kunnen sommige websites op dit verzoek reageren door advertenties weer te gev
 <translation id="983192555821071799">Alle tabbladen sluiten</translation>
 <translation id="987264212798334818">Algemeen</translation>
 <translation id="3209146299287804856">Brave site afscherming instellingen voor</translation>
-<translation id="622484624075952240">Omlaag</translation>
-<translation id="2706462751667573066">Omhoog</translation>
+<translation id="622484624075952240">Gedeactiveerd</translation>
+<translation id="2706462751667573066">Geactiveerd</translation>
 <translation id="4339730410920731698">Ads en Trackers geblokkeerd</translation>
 <translation id="2313532038420432247">HTTPS upgrades</translation>
 <translation id="7461425058443653485">Scripts geblokkeerd</translation>
@@ -1100,16 +1100,16 @@ Zo kunnen sommige websites op dit verzoek reageren door advertenties weer te gev
 <translation id="7307834434086582547">Activeer/inactiveer Brave afschermingen</translation>
 <translation id="6132506775968708399">Blokkeer cookies van derden</translation>
 <translation id="8710614491157212477">Opent ondersteunde websites met HTTPS in plaats van HTTP indien mogelijk</translation>
-<translation id="5758129336814690876">Tracking Protection Modus</translation>
+<translation id="5758129336814690876">Trackingsbeschermingsmodus</translation>
 <translation id="4609637183310787528">Voorkomt hulpmiddelen die u traceren vanaf het opladen</translation>
 <translation id="8387201461264842096">Advertentieblokkeerder</translation>
-<translation id="1934885595886623674">Voorkomt het opladen van advertenties</translation>
+<translation id="1934885595886623674">Voorkomt het laden van advertenties</translation>
 <translation id="7458422973722236530">Vingerafdrukbescherming</translation>
 <translation id="5787084571334399599">Voorkomt dat de browser vingerafdrukken maakt</translation>
 <translation id="3758669798635576061">Vingerafdrukmethodes geblokkeerd</translation>
 <translation id="3276318574457057212">Regionale blokkering van reclame</translation>
 <translation id="2300239903491866759">Voorkomt dat regionale reclame geladen wordt</translation>
-<translation id="8142327400852603066">Geen extra lijsten beschikbaar voor uw lokale</translation>
+<translation id="8142327400852603066">Geen extra lijsten beschikbaar voor uw locatie</translation>
 <translation id="9148058034647219655">Afsluiten</translation>
 <translation id="3149880132460839085">Brave Sync</translation>
 <translation id="5853303025585906159">Synchroniseer browserdata tussen jouw apparaat op een
@@ -1138,16 +1138,16 @@ geblokkeerd</translation>
 geblokkeerd</translation>
 <translation id="8880969045613157151">HTTPS
 upgrades</translation>
-<translation id="204407992549693965">Est. tijd
-Opgeslagen</translation>
+<translation id="204407992549693965">Gesch. tijd
+Bespaard</translation>
 <translation id="991605024067283917">Verstuur data</translation>
 <translation id="6572660632052512096">Desktopmodus</translation>
 <translation id="4479934682648362332">Desktop versie van websites toepassen</translation>
 <translation id="807636106793708118">Mobiele versie van websites toepassen</translation>
 <translation id="1340503115760585811">Desktopmodus voor nieuwe tabs inschakelen</translation>
 <translation id="7924540991929826186">Gebruik mobiele versies van websites voor nieuwe tabs (aanbevolen)</translation>
-<translation id="3834924998750356151">Blokkerende monitor</translation>
-<translation id="1713450908129883784">Individuele controles</translation>
+<translation id="3834924998750356151">Blokkeermonitor</translation>
+<translation id="1713450908129883784">Individuele instellingen</translation>
 <translation id="6303294677342628402">Afschermingen</translation>
 <translation id="252011129655042182">Advertenties en trackers</translation>
 <translation id="6754976710186182237">Vingerafdrukmethoden</translation>
@@ -1173,5 +1173,7 @@ Opgeslagen</translation>
 <translation id="5628466560184522265">Lees meer over privézoekopdrachten met DuckDuckGo</translation>
 <translation id="1468415711258933398">Standaardtabblad</translation>
 <translation id="6199596294742117349">Dit is een privétabblad</translation>
-<translation id="5858455511731621847">Alhoewel de websites die je via een privétabblad bezoekt niet lokaal worden opgeslagen, maken ze je niet anoniem of onzichtbaar voor je ISP, werkgever, of andere websites die je bezoekt.</translation>
+<translation id="5858455511731621847">Alhoewel de websites die je via een privétabblad bezoekt niet lokaal worden opgeslagen, maken ze je niet anoniem of onzichtbaar voor je internetprovider, werkgever, of andere websites die je bezoekt.</translation>
+<translation id="2339273275658335597">Brave-update</translation>
+<translation id="8395234238259738935">De nieuwe Brave-browser is 22% sneller</translation>
 </translationbundle>
