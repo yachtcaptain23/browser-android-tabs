@@ -92,7 +92,7 @@
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Уклони 1 изабрану ставку}one{Уклони # изабрану ставку}few{Уклони # изабране ставке}other{Уклони # изабраних ставки}}</translation>
 <translation id="1641113438599504367">Безбедно прегледање</translation>
 <translation id="164269334534774161">Приказује се офлајн копија ове странице од <ph name="CREATION_TIME" /></translation>
-<translation id="1644574205037202324">Историја</translation>
+<translation id="1644574205037202324">Istorija</translation>
 <translation id="1647391597548383849">Приступ камери</translation>
 <translation id="1660204651932907780">Дозволи сајтовима да пуштају звук (препоручено)</translation>
 <translation id="1670399744444387456">Основна</translation>
@@ -307,7 +307,7 @@
 <translation id="3353615205017136254">Поједностављену страницу пружа Google. Додирните дугме Учитај првобитну страницу да бисте учитали првобитну страницу.</translation>
 <translation id="3365671512111106261">Није доступно када је Уштеда података укључена</translation>
 <translation id="3367813778245106622">Пријавите се поново да бисте започели синхронизацију</translation>
-<translation id="3377025655491224618">Приватна картица</translation>
+<translation id="3377025655491224618">Privatna kartica</translation>
 <translation id="3384347053049321195">Дели слику</translation>
 <translation id="3386292677130313581">Питај пре него што дозволиш сајтовима да знају локацију (препоручено)</translation>
 <translation id="3387650086002190359">Преузимање датотеке <ph name="FILE_NAME" /> није успело због грешака система датотека.</translation>
@@ -414,7 +414,7 @@
 <translation id="4226663524361240545">Уређај ће вибрирати када примате обавештења</translation>
 <translation id="423219824432660969">Шифрујте синхронизоване податке помоћу Google лозинке од <ph name="TIME" /></translation>
 <translation id="4242533952199664413">Отвори подешавања</translation>
-<translation id="4243710787042215766">Отвори на приватној картици</translation>
+<translation id="4243710787042215766">Otvorite na privatnoj kartici</translation>
 <translation id="7445061995866044926">Желите ли да се одјавите из Brave-а?</translation>
 <translation id="4256782883801055595">Лиценце отвореног кода</translation>
 <translation id="4259722352634471385">Навигација је блокирана: <ph name="URL" /></translation>
@@ -627,7 +627,7 @@ Google налог можда има друге облике историје п�
 <translation id="5793665092639000975">Користи се <ph name="SPACE_USED" /> од <ph name="SPACE_AVAILABLE" /></translation>
 <translation id="5804241973901381774">Дозволе</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{Пре # сата}one{Пре # сата}few{Пре # сата}other{Пре # сати}}</translation>
-<translation id="5817918615728894473">Упари</translation>
+<translation id="5817918615728894473">Par</translation>
 <translation id="583281660410589416">Непознато</translation>
 <translation id="5833397272224757657">Користи садржај на сајтовима које посећујете, као и активности и интеракције у прегледачу ради персонализације</translation>
 <translation id="5833984609253377421">Дели линк</translation>
@@ -698,7 +698,7 @@ Google налог можда има друге облике историје п�
 <translation id="6320088164292336938">Вибрација</translation>
 <translation id="6324034347079777476">Синхронизација Android система је онемогућена</translation>
 <translation id="6333140779060797560">Дељење преко <ph name="APPLICATION" /></translation>
-<translation id="6336451774241870485">Нова приватна картица</translation>
+<translation id="6336451774241870485">Nova privatna kartica</translation>
 <translation id="6337234675334993532">Шифровање</translation>
 <translation id="6341580099087024258">Питај где да сачуваш датотеке</translation>
 <translation id="6343192674172527289">Нису пронађена преузимања</translation>
@@ -739,7 +739,7 @@ Google налог можда има друге облике историје п�
 <translation id="6593061639179217415">Верзија сајта за рачунар</translation>
 <translation id="663059986967017181">Копирана у Brave</translation>
 <translation id="6608650720463149374"><ph name="GIGABYTES" /> GB</translation>
-<translation id="6610147964972079463">Затвори приватне картице</translation>
+<translation id="6610147964972079463">Zatvori privatne kartice</translation>
 <translation id="6612358246767739896">Заштићени садржај</translation>
 <translation id="6627583120233659107">Измени директоријум</translation>
 <translation id="6643016212128521049">Обриши</translation>
@@ -1017,7 +1017,7 @@ Google налог можда има друге облике историје п�
 <translation id="8719023831149562936">Није могуће пребацити актуелну картицу</translation>
 <translation id="8725066075913043281">Пробајте поново</translation>
 <translation id="7247433043977983806">Ако користите ову апликацију, прихватате Brave <ph name="BEGIN_LINK1" />услове коришћења услуге<ph name="END_LINK1" /> и <ph name="BEGIN_LINK2" />обавештење о приватности<ph name="END_LINK2" />, као и <ph name="BEGIN_LINK3" />обавештење о приватности за Google налоге којима се управља помоћу Family Link-а<ph name="END_LINK3" />.</translation>
-<translation id="8730621377337864115">Готово</translation>
+<translation id="8730621377337864115">Gotovo</translation>
 <translation id="8748850008226585750">Садржај је сакривен</translation>
 <translation id="8751914237388039244">Изаберите слику</translation>
 <translation id="8788968922598763114">Поновно отварање последње затворене картице</translation>
@@ -1177,4 +1177,42 @@ Sačuvano</translation>
 <translation id="5858455511731621847">Iako se lokacije koje posećujete na privatnim karticama ne čuvaju lokalno, to vas ne čini anonimnim ili nevidljivim za vaš ISP, vašeg poslodavca, ili za lokacije koje posećujete.</translation>
 <translation id="2339273275658335597">Brave ažuriranje</translation>
 <translation id="8395234238259738935">Novi Brave pregledač je 22% brži</translation>
+<translation id="7820683005702098135">Brave (beta) sinhronizacija</translation>
+<translation id="391177677159359824">Sinhronizacija (beta)</translation>
+<translation id="3680755684186855422">Brave sinhronizacija vam omogućava da diskretno sinhronizujete podatke o obeleživačima stranica između pregledača Brave i različitih uređaja koje koristite.</translation>
+<translation id="3735228155296883311">Jednostavno skenirajte kod iz lanca sihnronizacije koji ste kreirali na drugom uređaju. Ili, započnite novi lanac sihronizacije.</translation>
+<translation id="7745082336226088126">Skenirajte ili unesite kod sinhronizacije</translation>
+<translation id="1602067095281698985">Započnite novi lanac sinhronizacije</translation>
+<translation id="4690880825349994619">Koristeći postojeći sinhronizovani uređaj, otvorite Brave podešavanja i idite na „Settings &gt; Sync”. Odaberite „Add Device” da dodate uređaj i skenirajte QR kod prikazan na ekranu.</translation>
+<translation id="6270614677029463366">Koristeći postojeći sinhronizovani uređaj, otvorite Brave podešavanja i idite na „Settings &gt; Sync”. Odaberite „Add Device” da dodate uređaj a zatim „Display coder words instead” za prikaz kodnih reči.</translation>
+<translation id="1475223680121592371">Dodaj mobilni uređaj</translation>
+<translation id="2965377893636908578">Dodaj računar</translation>
+<translation id="65315202420929965">Skenirajte ovaj kod sinhronizacije</translation>
+<translation id="6604289897677913048">Na drugom telefonu ili tabletu idite na Brave Settings &gt; Sync &gt; Scan.</translation>
+<translation id="3405078156498254717">Snimite QR kod (iznad) pomoću drugog uređaja ili unesite kodne reči ako nemate dostupnu kameru.</translation>
+<translation id="8076492880354921740">Kartice</translation>
+<translation id="5706430066167764107">Automatsko popunjavanje/Lozinke</translation>
+<translation id="1164234435773528579">Brave postavke plaćanja</translation>
+<translation id="6174119914106813304">SINHRONIZACIJA NA OVOM UREĐAJU</translation>
+<translation id="6776430845975754238">Promena podešavanja uticaće samo na podatke koje ovaj uređaj deli sa drugim uređajima.</translation>
+<translation id="8193724030871339658">OSTALI UREĐAJI U LANCU</translation>
+<translation id="279635009973773843">UČITAVANJE UREĐAJA...</translation>
+<translation id="6450924769151530465">Dodaj novi uređaj</translation>
+<translation id="2004365171440701679">Ukloni ovaj uređaj</translation>
+<translation id="2731921493694251495">Unesite kod lanca sinhronizacije</translation>
+<translation id="2590683710114839102">Na vašem računaru idite na Brave Settings &gt; Sync. Odaberite „Enter a Sync Chain Code”.</translation>
+<translation id="1732271215616957850">Unesite kodne reči iznad, uključujući razmake.</translation>
+<translation id="3951555451708119590">Da li sigurno želite da obrišete uređaj '</translation>
+<translation id="9154490620151093733">Zahtev za brisanje je poslat. Uređaj će ubrzo biti uklonjen.</translation>
+<translation id="544873101641618162">Učitavanje podataka...</translation>
+<translation id="6779408765480516895">Nešto nije u redu, izgleda da je vaš zahtev istekao.</translation>
+<translation id="4973653569293835178">Upotrebiću kameru...</translation>
+<translation id="8131740175452115882">Potvrda</translation>
+<translation id="6854481134066832782">Broj reči: </translation>
+<translation id="4282642752844565114">Netačan broj reči</translation>
+<translation id="2175927920773552910">QR kod</translation>
+<translation id="8653433343015102968">Kodne reči</translation>
+<translation id="8624315169751085215">Kopiraj</translation>
+<translation id="5241263629636958324">Kopirano</translation>
+<translation id="222883304157347087">(ovaj uređaj)</translation>
 </translationbundle>
