@@ -79,10 +79,12 @@ public class TabSwitcherBottomToolbarCoordinator {
         mCloseAllTabsButton.setThemeColorProvider(mTabSwitcherThemeColorProvider);
         mCloseAllTabsButton.setTabCountProvider(tabCountProvider);
 
-        mNewTabButton = root.findViewById(R.id.tab_switcher_new_tab_button);
-        mNewTabButton.setOnClickListener(newTabClickListener);
-        mNewTabButton.setIncognitoStateProvider(incognitoStateProvider);
-        mNewTabButton.setThemeColorProvider(mTabSwitcherThemeColorProvider);
+        mNewTabButton = root.findViewById(R.id.new_tab_button);
+        if (mNewTabButton != null) {
+            mNewTabButton.setOnClickListener(newTabClickListener);
+            mNewTabButton.setIncognitoStateProvider(incognitoStateProvider);
+            mNewTabButton.setThemeColorProvider(mTabSwitcherThemeColorProvider);
+        }
 
         mMenuButton = root.findViewById(R.id.menu_button_wrapper);
         mMenuButton.setThemeColorProvider(mTabSwitcherThemeColorProvider);
@@ -112,7 +114,9 @@ public class TabSwitcherBottomToolbarCoordinator {
         mMediator.destroy();
         mTabSwitcherThemeColorProvider.destroy();
         mCloseAllTabsButton.destroy();
-        mNewTabButton.destroy();
+        if (mNewTabButton != null) {
+            mNewTabButton.destroy();
+        }
         mMenuButton.destroy();
     }
 }
