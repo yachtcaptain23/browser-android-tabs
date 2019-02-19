@@ -16,14 +16,14 @@ struct GPUInfo;
 namespace android_webview {
 
 std::string GetProduct();
-std::string GetUserAgent();
+std::string GetUserAgent(const std::string& host);
 
 class AwContentClient : public content::ContentClient {
  public:
   // ContentClient implementation.
   void AddAdditionalSchemes(Schemes* schemes) override;
   std::string GetProduct() const override;
-  std::string GetUserAgent() const override;
+  std::string GetUserAgent(const std::string& host) const override;
   base::string16 GetLocalizedString(int message_id) const override;
   base::StringPiece GetDataResource(
       int resource_id,

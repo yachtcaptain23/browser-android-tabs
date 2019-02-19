@@ -30,7 +30,7 @@ std::string GetProduct() {
   return version_info::GetProductNameAndVersionForUserAgent();
 }
 
-std::string GetUserAgent() {
+std::string GetUserAgent(const std::string& host) {
   // "Version/4.0" had been hardcoded in the legacy WebView.
   std::string product = "Version/4.0 " + GetProduct();
   if (base::CommandLine::ForCurrentProcess()->HasSwitch(
@@ -38,7 +38,7 @@ std::string GetUserAgent() {
     product += " Mobile";
   }
   return content::BuildUserAgentFromProductAndExtraOSInfo(
-      product, "; wv", true /* include_android_build_number */);
+      product, "; wv", true /* include_android_build_number */, host);
 }
 
 void AwContentClient::AddAdditionalSchemes(Schemes* schemes) {
@@ -52,8 +52,8 @@ std::string AwContentClient::GetProduct() const {
   return android_webview::GetProduct();
 }
 
-std::string AwContentClient::GetUserAgent() const {
-  return android_webview::GetUserAgent();
+std::string AwContentClient::GetUserAgent(const std::string& host) const {
+  return android_webview::GetUserAgent(host);
 }
 
 base::string16 AwContentClient::GetLocalizedString(int message_id) const {

@@ -260,7 +260,7 @@ network::mojom::NetworkContextPtr AwContentBrowserClient::CreateNetworkContext(
   network::mojom::NetworkContextPtr network_context;
   network::mojom::NetworkContextParamsPtr context_params =
       network::mojom::NetworkContextParams::New();
-  context_params->user_agent = GetUserAgent();
+  context_params->user_agent = GetUserAgent("");
   // TODO(ntfschr): set this value to a proper value based on the user's
   // preferred locales (http://crbug.com/898555). For now, set this to
   // "en-US,en" instead of "en-us,en", since Android guarantees region codes
