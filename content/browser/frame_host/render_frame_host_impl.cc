@@ -207,6 +207,11 @@ using base::TimeDelta;
 
 namespace content {
 
+// TODO(alexeyb): remove this workaround for release monochrome_public_apk
+#if defined(OS_ANDROID)
+bool NeedPlayVideoInBackgroundForActiveProfile();
+#endif  // OS_ANDROID
+
 namespace {
 
 #if defined(OS_ANDROID)
@@ -884,7 +889,7 @@ RenderFrameHostImpl::RenderFrameHostImpl(SiteInstance* site_instance,
   }
 
 #if defined(OS_ANDROID)
-  if (NeedPlayVideoInBackground()) {
+  if (NeedPlayVideoInBackgroundForActiveProfile()) {
     AllowInjectingJavaScript();
   }
 #endif
@@ -6166,13 +6171,6 @@ void RenderFrameHostImpl::MaybeGenerateCrashReport(
   GetProcess()->GetStoragePartition()->GetNetworkContext()->QueueReport(
       "crash" /* type */, "default" /* group */, last_committed_url_,
       base::nullopt, std::move(body));
-}
-
-bool RenderFrameHostImpl::NeedPlayVideoInBackground() const {
-  bool play_video_in_background_enabled = HostContentSettingsMapFactory::GetForProfile(
-      ProfileManager::GetActiveUserProfile()->GetOriginalProfile())->
-      GetDefaultContentSetting(CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND, NULL) == CONTENT_SETTING_ALLOW;
-  return play_video_in_background_enabled;
 }
 
 }  // namespace content
