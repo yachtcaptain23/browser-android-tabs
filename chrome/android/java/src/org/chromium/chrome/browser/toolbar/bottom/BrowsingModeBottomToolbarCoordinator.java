@@ -151,19 +151,22 @@ public class BrowsingModeBottomToolbarCoordinator {
         mMediator.setOverviewModeBehavior(overviewModeBehavior);
         mMediator.setThemeColorProvider(themeColorProvider);
 
-        mHomeButton.setThemeColorProvider(themeColorProvider);
+        // (Albert Wang): Don't use theme changes
+        // mHomeButton.setThemeColorProvider(themeColorProvider);
         //mShareButton.setThemeColorProvider(themeColorProvider);
         //mSearchAccelerator.setThemeColorProvider(themeColorProvider);
 
         mTabSwitcherButtonCoordinator.setTabSwitcherListener(tabSwitcherListener);
-        mTabSwitcherButtonCoordinator.setThemeColorProvider(themeColorProvider);
+        // (Albert Wang): Don't use theme changes
+        // mTabSwitcherButtonCoordinator.setThemeColorProvider(themeColorProvider);
         mTabSwitcherButtonCoordinator.setTabCountProvider(tabCountProvider);
 
         mNewTabButton = mToolbarRoot.findViewById(R.id.new_tab_button);
         mNewTabButton.setOnClickListener(newTabClickListener);
 
         mMenuButton.setTouchListener(menuButtonHelper);
-        mMenuButton.setThemeColorProvider(themeColorProvider);
+        // (Albert Wang): Don't use theme changes
+        // mMenuButton.setThemeColorProvider(themeColorProvider);
         mMenuButton.setAccessibilityDelegate(menuButtonHelper);
     }
 
