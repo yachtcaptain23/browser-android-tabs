@@ -545,6 +545,9 @@ public class ToolbarTablet extends ToolbarLayout
 
     @Override
     public void OnGetRewardsMainEnabled(boolean enabled) {}
+
+    @Override
+    public void OnGetAutoContributeProps() {}
     
 
     /**
