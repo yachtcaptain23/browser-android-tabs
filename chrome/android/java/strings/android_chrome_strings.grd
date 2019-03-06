@@ -3048,7 +3048,6 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_MENU_SEND_FEEDBACK" desc="Menu item for sending feedback. [CHAR-LIMIT=27]">
         Send feedback
       </message>
-
       <!-- Bookmarks strings -->
       <message name="IDS_BOOKMARKS" desc="Title of the bookmarks page, which shows a list of the user's bookmarks. [CHAR-LIMIT=18]">
         Bookmarks
@@ -4359,6 +4358,29 @@ Saved
       </message>
       <message name="IDS_BRAVE_SYNC_THIS_DEVICE_TEXT" desc="Text to mark current device.">
         (this device)
+      </message>
+
+      <!-- Brave as default browser strings -->
+      <message name="IDS_BRAVE_ALREADY_SET_AS_DEFAULT_BROWSER" desc="Toast message for those whom have already set Brave as default browser">
+        Brave is already set
+as your default browser.
+      </message>
+      <message name="IDS_BRAVE_DEFAULT_BROWSER_GO_TO_SETTINGS" desc="Toast message for those without 7.0 to go to settings to change default browser">
+        You've already set a default browser.
+You may change default browser in your app settings.
+      </message>
+      <message name="IDS_BRAVE_DEFAULT_BROWSER_NOTIFICATION_BODY" desc="Default browser notification body">
+        Save battery and load web pages faster. Make Brave your default Browser. From the Brave menu tap “Set as default browser…”
+      </message>
+      <message name="IDS_BRAVE_DEFAULT_BROWSER_EXISTING_NOTIFICATION_BODY" desc="Default browser notification body">
+        Make Brave your default web browser
+Save battery and load web pages faster
+      </message>
+      <message name="IDS_BRAVE_SET_DEFAULT_BROWSER" desc="Menu item for opening the 'Setting default browser' page.">
+        Set as default browser
+      </message>
+      <message name="IDS_BRAVE_SET_DEFAULT_BROWSER_DIALOG_TEXT" desc="Dialog for setting default browser">
+        Select Brave from the list and tap “Always”
       </message>
     </messages>
   </release>
