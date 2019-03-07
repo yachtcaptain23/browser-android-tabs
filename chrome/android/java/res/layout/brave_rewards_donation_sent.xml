@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".site_banner2"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:id="@+id/floater">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tip_sent_float">
+
+            <FrameLayout
+                android:id="@+id/frame_publisher_favicon"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/publisher_favicon_background">
+
+                <ProgressBar
+                    android:id="@+id/progress_publisher_favicon"
+                    android:indeterminateDrawable="@drawable/progress_indeterminate"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/publisher_favicon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:visibility="gone"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="10dp"
+                android:text="@string/brave_ui_thank_you"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@id/frame_publisher_favicon"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+</RelativeLayout>

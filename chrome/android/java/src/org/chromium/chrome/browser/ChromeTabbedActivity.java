@@ -141,6 +141,7 @@ import org.chromium.chrome.browser.tabmodel.TabWindowManager;
 import org.chromium.chrome.browser.tasks.TasksUma;
 import org.chromium.chrome.browser.toolbar.ToolbarButtonInProductHelpController;
 import org.chromium.chrome.browser.toolbar.top.ToolbarControlContainer;
+import org.chromium.chrome.browser.toolbar.top.ToolbarLayout;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.chrome.browser.util.FeatureUtilities;
 import org.chromium.chrome.browser.util.IntentUtils;
@@ -159,6 +160,7 @@ import org.chromium.ui.UiUtils;
 import org.chromium.ui.base.PageTransition;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.ui.widget.Toast;
+import org.chromium.chrome.browser.toolbar.top.Toolbar;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -223,6 +225,18 @@ public class ChromeTabbedActivity
      */
     private static final String ACTION_CLOSE_TABS =
             "com.google.android.apps.chrome.ACTION_CLOSE_TABS";
+
+
+    /**
+      Brave site banner activity request code
+    */
+    public static final int SITE_BANNER_REQUEST_CODE = 33;
+    public static final int SITE_BANNER_ADD_FUNDS_RESULT_CODE = SITE_BANNER_REQUEST_CODE;
+    public static final int SITE_BANNER_NOT_VERIFIED_LEARN_MORE_RESULT_CODE = SITE_BANNER_REQUEST_CODE + 1;
+    public static final String ADD_FUNDS_URL = "chrome://rewards/#add-funds";
+    public static final String REWARDS_SETTINGS_URL = "chrome://rewards/";
+    public static final String REWARDS_AC_SETTINGS_URL = "chrome://rewards/contribute";
+    public static final String REWARDS_LEARN_MORE_URL = "https://brave.com/faq-rewards/#unclaimed-funds";
 
     @VisibleForTesting
     public static final String LAST_BACKGROUNDED_TIME_MS_PREF =
@@ -296,6 +310,7 @@ public class ChromeTabbedActivity
     private long mIntentHandlingTimeMs;
 
     private boolean mPartnerPageIsLoaded;
+    private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
 
     private final IncognitoTabHost mIncognitoTabHost = new IncognitoTabHost() {
 
@@ -1876,6 +1891,8 @@ public class ChromeTabbedActivity
             RecordUserAction.record("MobileTabClosedUndoShortCut");
         } else if (id == R.id.enter_vr_id) {
             VrModuleProvider.getDelegate().enterVrIfNecessary();
+        } else if (id == R.id.brave_rewards_id) {
+            openNewOrSelectExistingTab(REWARDS_SETTINGS_URL);
         } else {
             return super.onMenuOrKeyboardAction(id, fromMenu);
         }
@@ -2574,5 +2591,60 @@ public class ChromeTabbedActivity
     @Override
     protected PageViewTimer createPageViewTimer() {
         return new PageViewTimer(mTabModelSelectorImpl, mLayoutManager);
+    }
+
+    public void OnRewardsPanelDismiss() {
+        ToolbarLayout layout = (ToolbarLayout)findViewById(R.id.toolbar);
+        assert layout != null;
+        if (layout != null) {
+            layout.onRewardsPanelDismiss();
+        }
+    }
+
+    public void dismissRewardsPanel() {
+        ToolbarLayout layout = (ToolbarLayout)findViewById(R.id.toolbar);
+        assert layout != null;
+        if (layout != null) {
+            layout.dismissRewardsPanel();
+        }
+    }
+
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(SITE_BANNER_REQUEST_CODE == requestCode)
+        {
+            if (resultCode == SITE_BANNER_ADD_FUNDS_RESULT_CODE ||
+                    resultCode == SITE_BANNER_NOT_VERIFIED_LEARN_MORE_RESULT_CODE ) {
+
+                String url = (resultCode == SITE_BANNER_ADD_FUNDS_RESULT_CODE )? ADD_FUNDS_URL :
+                        REWARDS_LEARN_MORE_URL;
+                dismissRewardsPanel();
+                TabModelSelectorImpl tabbedModeTabModelSelector = (TabModelSelectorImpl) getTabModelSelector();
+                Tab tab = tabbedModeTabModelSelector.openNewTab(new LoadUrlParams(url),
+                    TabLaunchType.FROM_BROWSER_ACTIONS, null, false);
+           }
+        }
+    }
+
+    public void openNewOrSelectExistingTab(String url) {
+        TabModel tabModel = getCurrentTabModel();
+        int tabRewardsIndex = TabModelUtils.getTabIndexByUrl(tabModel, url);
+
+        // Find if tab exists
+        if (tabRewardsIndex != TabModel.INVALID_TAB_INDEX){
+            Tab tab = tabModel.getTabAt(tabRewardsIndex);
+            // Moving tab forward
+            if (!getActivityTab().equals(tab)){
+                tabModel.moveTab(tab.getId(), tabModel.getCount());
+                tabModel.setIndex(
+                        TabModelUtils.getTabIndexById(tabModel, tab.getId()),
+                        TabSelectionType.FROM_USER);
+            }
+        } else { // Open a new tab
+            getTabCreator(false).launchUrl(url, TabLaunchType.FROM_CHROME_UI);
+        }
     }
 }

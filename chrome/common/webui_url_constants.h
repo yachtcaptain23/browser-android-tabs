@@ -171,8 +171,13 @@ extern const char kChromeUIWelcomeWin10Host[];
 extern const char kChromeUIWelcomeWin10URL[];
 extern const char kDeprecatedChromeUIHistoryFrameHost[];
 extern const char kDeprecatedChromeUIHistoryFrameURL[];
+extern const char kRewardsJS[];
+extern const char kRewardsPanelJS[];
+extern const char kRewardsDonateJS[];
 
 #if defined(OS_ANDROID)
+extern const char kBraveRewardsURL[];
+extern const char kBraveRewardsHost[];
 extern const char kChromeUIEocInternalsHost[];
 extern const char kChromeUIJavaCrashURL[];
 extern const char kChromeUINativeBookmarksURL[];

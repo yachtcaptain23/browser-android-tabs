@@ -24,7 +24,11 @@
 #include "base/sequenced_task_runner.h"
 #include "base/time/time.h"
 #include "brave_src/browser/brave_tab_url_web_contents_observer.h"
+#include "brave/vendor/bat-native-ledger/include/bat/ledger/ledger.h"
 #include "build/build_config.h"
+#include "brave/components/brave_rewards/browser/rewards_service.h"
+#include "brave/components/brave_rewards/browser/rewards_service_impl.h"
+#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/content_settings/cookie_settings_factory.h"
 #include "chrome/browser/content_settings/tab_specific_content_settings.h"
@@ -51,6 +55,8 @@
 #include "extensions/buildflags/buildflags.h"
 #include "net/base/host_port_pair.h"
 #include "net/base/net_errors.h"
+#include "net/base/upload_bytes_element_reader.h"
+#include "net/base/upload_data_stream.h"
 #include "net/cookies/canonical_cookie.h"
 #include "net/cookies/cookie_options.h"
 #include "net/http/http_request_headers.h"
@@ -61,6 +67,10 @@
 #include "net/log/net_log_with_source.h"
 #include "net/url_request/url_request.h"
 #include "chrome/browser/net/blockers/shields_config.h"
+
+#include "chrome/browser/sessions/session_tab_helper.h"
+#include "content/public/browser/websocket_handshake_request_info.h"
+#include "content/public/browser/web_contents.h"
 
 #if defined(OS_ANDROID)
 #include "base/android/path_utils.h"
@@ -98,6 +108,12 @@ void ForceGoogleSafeSearchCallbackWrapper(net::CompletionOnceCallback callback,
     safe_search_util::ForceGoogleSafeSearch(request->url(), new_url);
   std::move(callback).Run(rv);
 }
+// Notifies ledger lib about media links
+/*void NotifyLedgerIOThread(IOThread* io_thread, const std::string& url, 
+      const std::string& urlQuery, const std::string& type, bool privateTab) {
+  //LOG(ERROR) << "!!!url NotifyLedgerIOThread == " << url;
+  //io_thread->globals()->ledger_->OnMediaRequest(url, urlQuery, type);*/
+//}
 
 bool IsAccessAllowedInternal(const base::FilePath& path,
                              const base::FilePath& profile_path) {
@@ -204,6 +220,50 @@ private:
   std::set<uint64_t> pending_requests_;
   //no need synchronization, should be executed in the same thread content::BrowserThread::IO
 };
+
+void GetRenderFrameInfo(net::URLRequest* request,
+                        int* render_frame_id,
+                        int* render_process_id,
+                        int* frame_tree_node_id) {
+  DCHECK_CURRENTLY_ON(content::BrowserThread::IO);
+  *render_frame_id = -1;
+  *render_process_id = -1;
+  *frame_tree_node_id = -1;
+
+  // PlzNavigate requests have a frame_tree_node_id, but no render_process_id
+  auto* request_info = content::ResourceRequestInfo::ForRequest(request);
+  if (request_info) {
+    *frame_tree_node_id = request_info->GetFrameTreeNodeId();
+  }
+  if (!content::ResourceRequestInfo::GetRenderFrameForRequest(
+          request, render_process_id, render_frame_id)) {
+    const content::WebSocketHandshakeRequestInfo* websocket_info =
+      content::WebSocketHandshakeRequestInfo::ForRequest(request);
+    if (websocket_info) {
+      *render_frame_id = websocket_info->GetRenderFrameId();
+      *render_process_id = websocket_info->GetChildId();
+    }
+  }
+}
+
+content::WebContents* GetWebContents(
+    int render_process_id,
+    int render_frame_id,
+    int frame_tree_node_id) {
+  DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
+  content::WebContents* web_contents =
+      content::WebContents::FromFrameTreeNodeId(frame_tree_node_id);
+  if (!web_contents) {
+    content::RenderFrameHost* rfh =
+        content::RenderFrameHost::FromID(render_process_id, render_frame_id);
+    if (!rfh) {
+      return nullptr;
+    }
+    web_contents =
+        content::WebContents::FromRenderFrameHost(rfh);
+  }
+  return web_contents;
+}
 
 struct OnBeforeURLRequestContext
 {
@@ -412,7 +472,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
   if (reload_adblocker_) {
     reload_adblocker_ = false;
     base::PostTaskWithTraits(FROM_HERE, {BrowserThread::UI},
-      base::Bind(&ChromeNetworkDelegate::GetIOThread,
+      base::Bind(&ChromeNetworkDelegate::GetIOThreadResetBlocker,
           base::Unretained(this), base::Unretained(request), base::Passed(&callback), new_url, ctx));
     if (nullptr != shieldsConfig) {
       shieldsConfig->resetUpdateAdBlockerFlag();
@@ -437,7 +497,7 @@ void ChromeNetworkDelegate::CheckAdBlockerReload(net::blockers::ShieldsConfig* s
   reload_adblocker_ = shields_config->needUpdateAdBlocker();
 }
 
-void ChromeNetworkDelegate::GetIOThread(net::URLRequest* request,
+void ChromeNetworkDelegate::GetIOThreadResetBlocker(net::URLRequest* request,
     net::CompletionOnceCallback callback,
     GURL* new_url,
     std::shared_ptr<OnBeforeURLRequestContext> ctx) {
@@ -447,6 +507,37 @@ void ChromeNetworkDelegate::GetIOThread(net::URLRequest* request,
   task_runner->PostTask(FROM_HERE, base::Bind(&ChromeNetworkDelegate::ResetBlocker,
         base::Unretained(this), g_browser_process->io_thread(), base::Unretained(request), base::Passed(&callback),
           new_url, ctx));
+}
+
+void ChromeNetworkDelegate::NotifyLedger(const GURL& url, const std::string& urlQuery,
+     const GURL& last_first_party_url, const std::string& referrer,
+     int render_process_id, int render_frame_id, int frame_tree_node_id) {
+  /*content::BrowserThread::PostTask(
+        content::BrowserThread::IO, FROM_HERE,
+        base::Bind(&NotifyLedgerIOThread, g_browser_process->io_thread(), url, urlQuery,
+          type, incognito_));*/
+  auto* web_contents = GetWebContents(render_process_id,
+                                      render_frame_id,
+                                      frame_tree_node_id);
+  if (!web_contents)
+    return;
+
+  auto* tab_helper = SessionTabHelper::FromWebContents(web_contents);
+  if (!tab_helper)
+    return;
+
+  brave_rewards::RewardsService* brave_rewards_service = nullptr;
+  bool incognito = web_contents->GetBrowserContext()->IsOffTheRecord();
+  if (incognito == false){
+    brave_rewards_service = brave_rewards::RewardsServiceFactory::GetForProfile(
+      ProfileManager::GetActiveUserProfile()->GetOriginalProfile());
+  }
+
+  if (!brave_rewards_service) {
+    return;
+  }
+  brave_rewards_service->OnPostData(tab_helper->session_id(), url, last_first_party_url, 
+    GURL(referrer), urlQuery);
 }
 
 void ChromeNetworkDelegate::ResetBlocker(IOThread* io_thread, net::URLRequest* request,
@@ -699,6 +790,55 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PostBlockers(
         , 0);
   }
 
+  // Notify ledger if we have YouTube or Twitch links
+  //std::string linkType = GetLinkType(request, last_first_party_url_.spec());
+  if (brave_rewards::IsMediaLink(request->url(), last_first_party_url_, GURL(request->referrer()))) {
+    if (request->get_upload()) {
+      std::string urlQuery;
+      for (size_t i = 0; i < (*(request->get_upload())->GetElementReaders()).size(); i++) {
+        const net::UploadBytesElementReader* reader =
+          (*(request->get_upload())->GetElementReaders())[i]->AsBytesReader();
+        std::string upload_data(reader->bytes(), reader->length());
+        urlQuery += upload_data;
+      }
+      int render_process_id, render_frame_id, frame_tree_node_id;
+      GetRenderFrameInfo(request, &render_frame_id, &render_process_id,
+          &frame_tree_node_id);
+      /*content::BrowserThread::PostTask(
+        content::BrowserThread::UI, FROM_HERE,
+        base::Bind(&ChromeNetworkDelegate::NotifyLedger,
+            base::Unretained(this), request->url(), urlQuery, 
+            last_first_party_url_, request->referrer(),
+            render_process_id, render_frame_id, frame_tree_node_id));*/
+
+
+      base::PostTaskWithTraits(FROM_HERE, {BrowserThread::UI},
+        base::Bind(&ChromeNetworkDelegate::NotifyLedger,
+              base::Unretained(this), request->url(), urlQuery, 
+              last_first_party_url_, request->referrer(),
+              render_process_id, render_frame_id, frame_tree_node_id));
+    }
+  }
+  /*if (!linkType.empty()) {
+    std::string urlQuery = request->url().query();
+    if ("twitch" == linkType) {
+      if (request->get_upload()) {
+        for (size_t i = 0; i < (*(request->get_upload())->GetElementReaders()).size(); i++) {
+          const net::UploadBytesElementReader* reader =
+            (*(request->get_upload())->GetElementReaders())[i]->AsBytesReader();
+          std::string upload_data(reader->bytes(), reader->length());
+          urlQuery += upload_data;
+        }
+      }
+    }
+
+    content::BrowserThread::PostTask(
+      content::BrowserThread::UI, FROM_HERE,
+      base::Bind(&ChromeNetworkDelegate::NotifyLedger,
+          base::Unretained(this), request->url().spec(), urlQuery, linkType));
+  }*/
+  //
+
   if (ctx->block && (nullptr == ctx->info || content::RESOURCE_TYPE_IMAGE != ctx->info->GetResourceType())) {
     *new_url = GURL("");
     if (ctx->pendingAtLeastOnce) {
@@ -761,6 +901,33 @@ void SetCustomHeaders(
 }
 
 }  // namespace
+
+std::string ChromeNetworkDelegate::GetLinkType(net::URLRequest* request, const std::string& first_party_url) {
+  std::string res("");
+  if (!request) {
+    return res;
+  }
+
+  std::string url = request->url().spec();
+  if (url.find("https://m.youtube.com/api/stats/watchtime?") != std::string::npos
+      || url.find("https://www.youtube.com/api/stats/watchtime?") != std::string::npos) {
+    res = "youtube";
+  }  else if (
+    (
+      (first_party_url.find("https://www.twitch.tv/") == 0 || 
+        first_party_url.find("https://m.twitch.tv/") == 0) ||
+      (request->referrer().find("https://player.twitch.tv/") == 0)
+    ) &&
+    (
+      url.find(".ttvnw.net/v1/segment/") != std::string::npos ||
+      url.find("https://ttvnw.net/v1/segment/") != std::string::npos
+    )
+  ) {
+    return "twitch";
+  }
+
+  return res;
+}
 
 int ChromeNetworkDelegate::OnBeforeStartTransaction(
     net::URLRequest* request,

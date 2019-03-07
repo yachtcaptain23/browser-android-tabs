@@ -687,4 +687,15 @@ const base::Feature kWin10AcceleratedDefaultBrowserFlow{
 const base::Feature kIncognitoStrings{"IncognitoStrings",
                                       base::FEATURE_ENABLED_BY_DEFAULT};
 #endif  // defined(OS_ANDROID)
+
+#if defined(OS_ANDROID)
+// Flag for Brave Rewards.
+#if defined(OFFICIAL_BUILD)
+const base::Feature kBraveRewards{
+    "BraveRewards", base::FEATURE_DISABLED_BY_DEFAULT};
+#else
+const base::Feature kBraveRewards{
+    "BraveRewards", base::FEATURE_ENABLED_BY_DEFAULT};
+#endif
+#endif // defined(OS_ANDROID)
 }  // namespace features

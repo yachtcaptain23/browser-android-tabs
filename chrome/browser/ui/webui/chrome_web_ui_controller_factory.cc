@@ -11,6 +11,7 @@
 #include "base/location.h"
 #include "base/memory/ptr_util.h"
 #include "base/threading/thread_task_runner_handle.h"
+#include "brave/browser/ui/webui/brave_rewards_ui.h"
 #include "build/build_config.h"
 #include "chrome/browser/about_flags.h"
 #include "chrome/browser/accessibility/accessibility_ui.h"
@@ -239,6 +240,12 @@ WebUIController* NewWebUI(WebUI* web_ui, const GURL& url) {
   return new T(web_ui);
 }
 
+// Special case for BraveRewardsUI
+template<>
+WebUIController* NewWebUI<BraveRewardsUI>(WebUI* web_ui, const GURL& url) {
+  return new BraveRewardsUI(web_ui, url.host());
+}
+
 #if !defined(OS_ANDROID)
 template <>
 WebUIController* NewWebUI<PageNotAvailableForGuestUI>(WebUI* web_ui,
@@ -341,6 +348,12 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
   // All platform builds of Chrome will need to have a cloud printing
   // dialog as backup.  It's just that on Chrome OS, it's the only
   // print dialog.
+  if (url.host_piece() == chrome::kBraveRewardsHost) {
+    if (!base::FeatureList::IsEnabled(features::kBraveRewards)) {
+      return NULL;
+    }
+    return &NewWebUI<BraveRewardsUI>;
+  }
   if (url.host_piece() == chrome::kChromeUIAccessibilityHost)
     return &NewWebUI<AccessibilityUI>;
   if (url.host_piece() == chrome::kChromeUIBluetoothInternalsHost)

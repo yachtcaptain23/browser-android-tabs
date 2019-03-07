@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+
+    // leave JSX as it is
+    "jsx": "react",
+    // resolve modules as you would expect
+    "moduleResolution": "node",
+    // leave imports as they are
+    "module": "esnext",
+    // do not transpile stuff like classes, async/await, ...
+    "target": "esnext",
+    // produce a source map
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es7"
+    ],
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./components/definitions/"
+    ],
+    // optional
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true
+  },
+  "include": [
+    "./components/definitions/*"
+  ]
+}

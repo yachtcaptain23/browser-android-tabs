@@ -358,6 +358,7 @@ class CONTENT_EXPORT WebContentsImpl : public WebContents,
   void NotifyNavigationStateChanged(InvalidateTypes changed_flags) override;
   void OnAudioStateChanged() override;
   base::TimeTicks GetLastActiveTime() override;
+  base::TimeTicks GetLastHiddenTime() const override;
   void WasShown() override;
   void WasHidden() override;
   void WasOccluded() override;
@@ -1602,6 +1603,11 @@ class CONTENT_EXPORT WebContentsImpl : public WebContents,
   // The time that this WebContents was last made active. The initial value is
   // the WebContents creation time.
   base::TimeTicks last_active_time_;
+
+  // The time that this WebContents was last made hidden. The initial value is
+  // zero.
+  base::TimeTicks last_hidden_time_;
+
 
   // The time that this WebContents last received an 'interactive' input event
   // from the user. Interactive input events are things like mouse clicks and

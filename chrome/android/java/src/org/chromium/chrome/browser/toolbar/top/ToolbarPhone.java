@@ -50,9 +50,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.chromium.base.ApiCompatibilityUtils;
+import org.chromium.base.ApplicationStatus;
 import org.chromium.base.TraceEvent;
 import org.chromium.base.VisibleForTesting;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.BraveRewardsNativeWorker;
+import org.chromium.chrome.browser.BraveRewardsObserver;
+import org.chromium.chrome.browser.BraveRewardsPanelPopup;
+import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.compositor.Invalidator;
 import org.chromium.chrome.browser.compositor.layouts.LayoutUpdateHost;
@@ -98,7 +103,8 @@ import java.util.Set;
  */
 public class ToolbarPhone
         extends ToolbarLayout implements Invalidator.Client, OnClickListener, OnLongClickListener,
-                                         NewTabPage.OnSearchBoxScrollListener, TabCountObserver {
+                                         NewTabPage.OnSearchBoxScrollListener, TabCountObserver,
+                                         BraveRewardsObserver {
     /** The amount of time transitioning from one theme color to another should take in ms. */
     public static final long THEME_COLOR_TRANSITION_DURATION = 250;
 
@@ -154,6 +160,10 @@ public class ToolbarPhone
     protected View mUrlActionContainer;
     protected ImageView mToolbarShadow;
     private @Nullable ImageButton mExperimentalButton;
+    private ImageView mBraveRewardsPanelButton;
+    private TextView mBraveRewardsNotificationsCount;
+    private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
+    private BraveRewardsPanelPopup mRewardsPopup;
 
     private final int mProgressBackBackgroundColorWhite;
 
@@ -180,7 +190,6 @@ public class ToolbarPhone
     private boolean mDelayingTabSwitcherAnimation;
 
     private TabSwitcherDrawable mTabSwitcherAnimationTabStackDrawable;
-    private Drawable mBraveShieldsAnimationMenuDrawable;
     private Drawable mTabSwitcherAnimationMenuDrawable;
     private Drawable mTabSwitcherAnimationMenuBadgeDarkDrawable;
     private Drawable mTabSwitcherAnimationMenuBadgeLightDrawable;
@@ -420,7 +429,8 @@ public class ToolbarPhone
         Resources res = getResources();
         mLocationBarBackgroundVerticalInset =
                 res.getDimensionPixelSize(R.dimen.location_bar_vertical_margin);
-        mLocationBarBackground = createModernLocationBarBackground(getResources());
+        mLocationBarBackground = createModernLocationBarBackground(getResources(),
+            R.drawable.modern_toolbar_background_white);
 
         int lateralPadding = res.getDimensionPixelOffset(R.dimen.location_bar_lateral_padding);
         mLocationBar.setPadding(lateralPadding, 0, lateralPadding, 0);
@@ -431,9 +441,9 @@ public class ToolbarPhone
     /**
      * @return The drawable for the modern location bar background.
      */
-    public static Drawable createModernLocationBarBackground(Resources resources) {
+    public static Drawable createModernLocationBarBackground(Resources resources, int drawableId) {
         Drawable drawable = ApiCompatibilityUtils.getDrawable(
-                resources, R.drawable.modern_toolbar_background_white);
+                resources, drawableId);
         drawable.mutate();
         drawable.setColorFilter(ApiCompatibilityUtils.getColor(resources, R.color.modern_grey_100),
                 PorterDuff.Mode.SRC_IN);
@@ -444,9 +454,13 @@ public class ToolbarPhone
      * Set the background color of the location bar to appropriately match the theme color.
      */
     private void updateModernLocationBarColor(int color) {
+        // (Albert Wang): We want to preserve the LocationBar color across all pages and in incognito mode
+        return;
+        /*
         if (mCurrentLocationBarColor == color) return;
         mCurrentLocationBarColor = color;
         mLocationBarBackground.setColorFilter(color, PorterDuff.Mode.SRC_IN);
+        */
     }
 
     /**
@@ -479,31 +493,41 @@ public class ToolbarPhone
         if (mBraveShieldsButton != null) {
             mBraveShieldsButton.setClickable(true);
         }
+        mBraveRewardsPanelButton = (ImageView) findViewById(R.id.brave_rewards_button);
+        if (mBraveRewardsPanelButton != null) {
+            mBraveRewardsPanelButton.setClickable(true);
+        }
+        mBraveRewardsNotificationsCount = (TextView) findViewById(R.id.br_notifications_count);
     }
 
     private void enableTabSwitchingResources() {
-        mToggleTabStackButton.setOnClickListener(this);
-        mToggleTabStackButton.setOnLongClickListener(this);
-        mToggleTabStackButton.setOnKeyListener(new KeyboardNavigationListener() {
-            @Override
-            public View getNextFocusForward() {
-                final ImageButton menuButton = getMenuButton();
-                if (menuButton != null && menuButton.isShown()) {
-                    return menuButton;
-                } else {
-                    return getCurrentTabView();
+        if (mToggleTabStackButton != null) {
+            mToggleTabStackButton.setOnClickListener(this);
+            mToggleTabStackButton.setOnLongClickListener(this);
+            mToggleTabStackButton.setOnKeyListener(new KeyboardNavigationListener() {
+                @Override
+                public View getNextFocusForward() {
+                    final ImageButton menuButton = getMenuButton();
+                    if (menuButton != null && menuButton.isShown()) {
+                        return menuButton;
+                    } else {
+                        return getCurrentTabView();
+                    }
                 }
-            }
 
-            @Override
-            public View getNextFocusBackward() {
-                return findViewById(R.id.url_bar);
-            }
-        });
-        mNewTabButton.setOnClickListener(this);
-        mNewTabButton.setOnLongClickListener(this);
+                @Override
+                public View getNextFocusBackward() {
+                    return findViewById(R.id.url_bar);
+                }
+            });
+        }
+        if (mNewTabButton != null) {
+            mNewTabButton.setOnClickListener(this);
+            mNewTabButton.setOnLongClickListener(this);
+        }
         mBraveShieldsButton.setOnClickListener(this);
         mBraveShieldsButton.setOnLongClickListener(this);
+        mBraveRewardsPanelButton.setOnClickListener(this);
     }
 
     /**
@@ -511,11 +535,22 @@ public class ToolbarPhone
      */
     @Override
     void onNativeLibraryReady() {
+        if (ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
+            FrameLayout rewardsLayout = (FrameLayout) findViewById(R.id.brave_rewards_button_layout);
+            FrameLayout shieldsLayout = (FrameLayout) findViewById(R.id.brave_shields_button_layout);
+            if (rewardsLayout != null && shieldsLayout != null) {
+                shieldsLayout.setBackgroundColor(ApiCompatibilityUtils.getColor(getResources(), R.color.modern_grey_100));
+                rewardsLayout.setVisibility(View.VISIBLE);
+            }
+        }
+
+        updateUrlExpansionAnimation();
+
         super.onNativeLibraryReady();
 
         getLocationBar().onNativeLibraryReady();
 
-        if (!FeatureUtilities.isBottomToolbarEnabled()) enableTabSwitchingResources();
+        enableTabSwitchingResources();
 
         if (mHomeButton != null) {
             mHomeButton.setOnClickListener(this);
@@ -544,8 +579,12 @@ public class ToolbarPhone
         if (mNewTabButton != null) mNewTabButton.postNativeInitialization();
 
         setTabSwitcherAnimationMenuDrawable();
-        setBraveShieldsAnimationMenuDrawable();
         updateVisualsForLocationBarState();
+        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.AddObserver(this);
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
     }
 
     @Override
@@ -604,7 +643,25 @@ public class ToolbarPhone
             if (null != mBraveShieldsButton) {
                 mBraveShieldsListener.onClick(mBraveShieldsButton);
             }
+        } else if (mBraveRewardsPanelButton == v) {
+            if (null == mRewardsPopup){
+              mRewardsPopup = new BraveRewardsPanelPopup(v);
+              mRewardsPopup.showLikePopDownMenu();
+            }
         }
+    }
+
+    @Override
+    public  void onRewardsPanelDismiss() {
+        mRewardsPopup = null;
+    }
+
+    @Override
+    public  void dismissRewardsPanel() {
+      if ( null != mRewardsPopup ) {
+         mRewardsPopup.dismiss();
+         mRewardsPopup = null;
+      }
     }
 
     private void handleToggleTabStack() {
@@ -799,10 +856,15 @@ public class ToolbarPhone
      * @return The right bounds of the location bar after accounting for any visible left buttons.
      */
     private int getBoundsAfterAccountingForRightButtons() {
-        return Math.max(mToolbarSidePadding, mToolbarButtonsContainer.getMeasuredWidth());
+        //return Math.max(mToolbarSidePadding, mToolbarButtonsContainer.getMeasuredWidth());
+        // We want toolbar buttons to be included into URL bar
+        return mToolbarSidePadding;
     }
 
     private void updateToolbarBackground(int color) {
+        if (isIncognito()) {
+            color = ApiCompatibilityUtils.getColor(getResources(), R.color.modern_grey_800);
+        }
         if (mToolbarBackground.getColor() == color) return;
         mToolbarBackground.setColor(color);
         invalidate();
@@ -1037,7 +1099,7 @@ public class ToolbarPhone
      */
     private void updateUrlExpansionAnimation() {
         if (isInTabSwitcherMode()) {
-            mToolbarButtonsContainer.setVisibility(VISIBLE);
+            mToolbarButtonsContainer.setVisibility(GONE);
             return;
         }
 
@@ -1054,6 +1116,7 @@ public class ToolbarPhone
      * @return The visibility for {@link #mToolbarButtonsContainer}.
      */
     private int getToolbarButtonVisibility() {
+        if (!isNativeLibraryReady()) return GONE;
         return mUrlExpansionPercent == 1f ? INVISIBLE : VISIBLE;
     }
 
@@ -1093,6 +1156,11 @@ public class ToolbarPhone
         locationBarBaseTranslationX *= 1f
                 - (mExperimentalButtonAnimationRunning ? mLocBarWidthChangePercent
                                                        : mUrlExpansionPercent);
+
+        mLocationBarBackground = createModernLocationBarBackground(getResources(),
+            getToolbarButtonVisibility() == VISIBLE ? R.drawable.modern_toolbar_background_white : R.drawable.modern_toolbar_background_selected);
+        mLocationBarBackground.mutate();
+        mActiveLocationBarBackground = mLocationBarBackground;
 
         mLocationBarBackgroundNtpOffset.setEmpty();
         mLocationBarNtpOffsetLeft = 0;
@@ -1386,7 +1454,7 @@ public class ToolbarPhone
         }
 
         // Draw Brave Shields button if necessary.
-        if (mBraveShieldsAnimationMenuDrawable != null
+        if (mBraveShieldsButton.getDrawable() != null
                 && mBraveShieldsButton != null
                 && mUrlExpansionPercent != 1f) {
             canvas.save();
@@ -1404,8 +1472,32 @@ public class ToolbarPhone
             backgroundTop += mBraveShieldsButton.getPaddingTop();
             canvas.translate(backgroundLeft, backgroundTop);
 
-            mBraveShieldsAnimationMenuDrawable.setAlpha(rgbAlpha);
-            mBraveShieldsAnimationMenuDrawable.draw(canvas);
+            mBraveShieldsButton.getDrawable().setAlpha(rgbAlpha);
+            mBraveShieldsButton.getDrawable().draw(canvas);
+            canvas.restore();
+        }
+
+        // Draw Brave Rewards panel button if necessary.
+        if (mBraveRewardsPanelButton.getDrawable() != null
+                && mBraveRewardsPanelButton != null
+                && mUrlExpansionPercent != 1f) {
+            canvas.save();
+            translateCanvasToView(mToolbarButtonsContainer, mBraveRewardsPanelButton, canvas);
+
+            int backgroundWidth = mBraveRewardsPanelButton.getDrawable().getIntrinsicWidth();
+            int backgroundHeight = mBraveRewardsPanelButton.getDrawable().getIntrinsicHeight();
+            int backgroundLeft = (mBraveRewardsPanelButton.getWidth()
+                    - mBraveRewardsPanelButton.getPaddingLeft()
+                    - mBraveRewardsPanelButton.getPaddingRight() - backgroundWidth) / 2;
+            backgroundLeft += mBraveRewardsPanelButton.getPaddingLeft();
+            int backgroundTop = (mBraveRewardsPanelButton.getHeight()
+                    - mBraveRewardsPanelButton.getPaddingTop()
+                    - mBraveRewardsPanelButton.getPaddingBottom() - backgroundHeight) / 2;
+            backgroundTop += mBraveRewardsPanelButton.getPaddingTop();
+            canvas.translate(backgroundLeft, backgroundTop);
+
+            mBraveRewardsPanelButton.getDrawable().setAlpha(rgbAlpha);
+            mBraveRewardsPanelButton.getDrawable().draw(canvas);
             canvas.restore();
         }
 
@@ -1996,6 +2088,74 @@ public class ToolbarPhone
             updateViewsForTabSwitcherMode();
         }
     }
+
+    @Override
+    public void destroy() {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.RemoveObserver(this);
+        }
+    }
+
+    @Override
+    public void OnWalletInitialized(int error_code) {}
+
+    @Override
+    public void OnWalletProperties(int error_code) {}
+
+    @Override
+    public void OnPublisherInfo(int tabId) {}
+
+    @Override
+    public void OnGetCurrentBalanceReport(String[] report) {}
+
+    @Override
+    public void OnNotificationAdded(String id, int type, long timestamp,
+            String[] args) {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
+    }
+
+    @Override
+    public void OnNotificationsCount(int count) {
+        if (mBraveRewardsNotificationsCount != null) {
+            if (count != 0) {
+                String value = Integer.toString(count);
+                if (count > 99) {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_rectangle));
+                    value = "99+";
+                } else {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_circle));
+                }
+                mBraveRewardsNotificationsCount.setText(value);
+                mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
+            } else {
+                mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+            }
+        }   
+    }
+
+    @Override
+    public void OnGetLatestNotification(String id, int type, long timestamp,
+            String[] args) {}
+
+    @Override
+    public void OnNotificationDeleted(String id) {}
+
+    @Override
+    public void OnIsWalletCreated(boolean created) {}
+
+    @Override
+    public void OnGetPendingContributionsTotal(double amount) {}
+
+    @Override
+    public void OnGetRewardsMainEnabled(boolean enabled) {}
+
+    @Override
+    public void OnGetAutoContributeProps() {}
+
 
     @Override
     public void setOnTabSwitcherClickHandler(OnClickListener listener) {
@@ -2927,15 +3087,6 @@ public class ToolbarPhone
     @VisibleForTesting
     public void endExperimentalButtonAnimationForTesting() {
         if (mExperimentalButtonAnimator != null) mExperimentalButtonAnimator.end();
-    }
-
-    private void setBraveShieldsAnimationMenuDrawable() {
-        mBraveShieldsAnimationMenuDrawable = ApiCompatibilityUtils.getDrawable(getResources(),
-                R.drawable.btn_brave);
-        int[] stateSet = {android.R.attr.state_enabled};
-        mBraveShieldsAnimationMenuDrawable.setState(stateSet);
-        mBraveShieldsAnimationMenuDrawable.setBounds(
-                mBraveShieldsButton.getDrawable().getBounds());
     }
 
     private void setTabSwitcherAnimationMenuDrawable() {

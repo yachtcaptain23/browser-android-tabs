@@ -13,6 +13,7 @@
 #include "base/lazy_instance.h"
 #include "base/memory/ref_counted.h"
 #include "base/time/time.h"
+#include "brave/components/brave_ads/browser/buildflags/buildflags.h"
 #include "chrome/common/buildflags.h"
 #include "components/mirroring/mojom/constants.mojom.h"
 #include "components/mirroring/service/features.h"
@@ -107,6 +108,13 @@
 #include "services/content/simple_browser/public/mojom/constants.mojom.h"  // nogncheck
 #include "services/content/simple_browser/simple_browser_service.h"  // nogncheck
 #endif
+
+#if BUILDFLAG(BRAVE_ADS_ENABLED)
+#include "brave/components/services/bat_ads/bat_ads_app.h"
+#endif
+
+#include "brave/components/services/bat_ledger/bat_ledger_app.h"
+#include "brave/components/services/bat_ledger/public/interfaces/bat_ledger.mojom.h"
 
 namespace {
 
@@ -307,6 +315,18 @@ void ChromeContentUtilityClient::RegisterServices(
     services->emplace(simple_browser::mojom::kServiceName, service_info);
   }
 #endif
+
+#if BUILDFLAG(BRAVE_ADS_ENABLED)
+  service_manager::EmbeddedServiceInfo bat_ads_service;
+  bat_ads_service.factory = base::BindRepeating(
+      &bat_ads::BatAdsApp::CreateService);
+  services->emplace(bat_ads::mojom::kServiceName, bat_ads_service);
+#endif
+
+  service_manager::EmbeddedServiceInfo bat_ledger_info;
+  bat_ledger_info.factory = base::BindRepeating(
+    &bat_ledger::BatLedgerApp::CreateService);
+  services->emplace(bat_ledger::mojom::kServiceName, bat_ledger_info);
 }
 
 std::unique_ptr<service_manager::Service>

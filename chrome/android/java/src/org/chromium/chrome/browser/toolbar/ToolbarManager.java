@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 package org.chromium.chrome.browser.toolbar;
+import android.util.Log;
 
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -222,7 +223,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
     private boolean mToolbarInflationComplete;
     private boolean mInitializedWithNative;
 
-    private boolean mShouldUpdateToolbarPrimaryColor = true;
+    private boolean mShouldUpdateToolbarPrimaryColor;
     private int mCurrentThemeColor;
 
     private OmniboxStartupMetrics mOmniboxStartupMetrics;
@@ -967,9 +968,9 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
                         mActivity.getCompositorViewHolder().getLayoutManager(),
                         wrapBottomToolbarClickListenerForIPH(tabSwitcherClickHandler),
                         wrapBottomToolbarClickListenerForIPH(newTabClickHandler),
-                        closeTabsClickListener, mAppMenuButtonHelper, mTabModelSelector,
-                        mOverviewModeBehavior, mActivity.getWindowAndroid(), mTabCountProvider,
-                        mIncognitoStateProvider);
+                        closeTabsClickListener,
+                        mAppMenuButtonHelper, mTabModelSelector, mOverviewModeBehavior,
+                        mActivity.getWindowAndroid(), mTabCountProvider, mIncognitoStateProvider);
 
                 // Allow the bottom toolbar to be focused in accessibility after the top toolbar.
                 ApiCompatibilityUtils.setAccessibilityTraversalBefore(

@@ -46,8 +46,6 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.AccessibilityManager.AccessibilityStateChangeListener;
 import android.view.accessibility.AccessibilityManager.TouchExplorationStateChangeListener;
 import android.widget.ImageButton;
-import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
 
 import org.chromium.base.Log;
 import org.chromium.base.ActivityState;
@@ -66,6 +64,7 @@ import org.chromium.base.VisibleForTesting;
 import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.BraveBadge;
 import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.StatsUpdaterWorker;
 import org.chromium.chrome.browser.ADBlockUpdaterWorker;

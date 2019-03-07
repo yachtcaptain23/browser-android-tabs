@@ -17,13 +17,20 @@ import android.support.v7.content.res.AppCompatResources;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import org.chromium.base.ApiCompatibilityUtils;
+import org.chromium.base.ApplicationStatus;
 import org.chromium.base.StrictModeContext;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.BraveRewardsNativeWorker;
+import org.chromium.chrome.browser.BraveRewardsObserver;
+import org.chromium.chrome.browser.BraveRewardsPanelPopup;
+import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.NavigationPopup;
 import org.chromium.chrome.browser.download.DownloadUtils;
@@ -50,7 +57,8 @@ import java.util.Collection;
  */
 @SuppressLint("Instantiatable")
 public class ToolbarTablet extends ToolbarLayout
-        implements OnClickListener, View.OnLongClickListener, TabCountObserver {
+        implements OnClickListener, View.OnLongClickListener, TabCountObserver,
+        BraveRewardsObserver {
     // The number of toolbar buttons that can be hidden at small widths (reload, back, forward).
     public static final int HIDEABLE_BUTTON_COUNT = 3;
 
@@ -63,6 +71,7 @@ public class ToolbarTablet extends ToolbarLayout
     private ImageButton mSecurityButton;
     private ImageButton mAccessibilitySwitcherButton;
     private ImageView mBraveShieldsButton;
+    private ImageView mBraveRewardsPanelButton;
 
     private OnClickListener mBookmarkListener;
     private OnClickListener mTabSwitcherListener;
@@ -88,6 +97,13 @@ public class ToolbarTablet extends ToolbarLayout
     private AnimatorSet mButtonVisibilityAnimators;
 
     private NewTabPage mVisibleNtp;
+
+    private TextView mBraveRewardsNotificationsCount;
+    private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
+    private BraveRewardsPanelPopup mRewardsPopup;
+
+    private FrameLayout mShieldsLayout;
+    private FrameLayout mRewardsLayout;
 
     /**
      * Constructs a ToolbarTablet object.
@@ -149,7 +165,16 @@ public class ToolbarTablet extends ToolbarLayout
         mShouldAnimateButtonVisibilityChange = false;
         mToolbarButtonsVisible = true;
         mBraveShieldsButton = (ImageView) findViewById(R.id.brave_shields_button);
-        mBraveShieldsButton.setClickable(true);
+        if (mBraveShieldsButton != null) {
+            mBraveShieldsButton.setClickable(true);
+        }
+        mShieldsLayout = (FrameLayout) findViewById(R.id.brave_shields_button_layout);
+        mBraveRewardsPanelButton = (ImageView) findViewById(R.id.brave_rewards_button);
+        if (mBraveRewardsPanelButton != null) {
+            mBraveRewardsPanelButton.setClickable(true);
+        }
+        mRewardsLayout = (FrameLayout) findViewById(R.id.brave_rewards_button_layout);
+        mBraveRewardsNotificationsCount = (TextView) findViewById(R.id.br_notifications_count);
         mToolbarButtons = new ImageButton[] {mBackButton, mForwardButton, mReloadButton};
     }
 
@@ -165,6 +190,16 @@ public class ToolbarTablet extends ToolbarLayout
      */
     @Override
     public void onNativeLibraryReady() {
+        if (ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
+            if (mRewardsLayout != null && mShieldsLayout != null) {
+                mShieldsLayout.setBackgroundColor(ApiCompatibilityUtils.getColor(getResources(), R.color.modern_grey_100));
+                mRewardsLayout.setVisibility(View.VISIBLE);
+            }
+        }
+
+        if (mShieldsLayout != null) {
+            mShieldsLayout.setVisibility(View.VISIBLE);
+        }
         super.onNativeLibraryReady();
         mLocationBar.onNativeLibraryReady();
         mHomeButton.setOnClickListener(this);
@@ -286,6 +321,12 @@ public class ToolbarTablet extends ToolbarLayout
         }
 
         mBraveShieldsButton.setOnClickListener(this);
+        mBraveRewardsPanelButton.setOnClickListener(this);
+        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.AddObserver(this);
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
     }
 
     @Override
@@ -356,6 +397,24 @@ public class ToolbarTablet extends ToolbarLayout
                 mBraveShieldsListener.onClick(mBraveShieldsButton);
                 RecordUserAction.record("MobileToolbarShowBraveShields");
             }
+        } else if (mBraveRewardsPanelButton == v) {
+            if (null == mRewardsPopup){
+                mRewardsPopup = new BraveRewardsPanelPopup(v);
+                mRewardsPopup.showLikePopDownMenu();
+            }
+        }
+    }
+
+    @Override
+    public void onRewardsPanelDismiss() {
+        mRewardsPopup = null;
+    }
+
+    @Override
+    public void dismissRewardsPanel() {
+        if ( null != mRewardsPopup ) {
+            mRewardsPopup.dismiss();
+            mRewardsPopup = null;
         }
     }
 
@@ -412,8 +471,14 @@ public class ToolbarTablet extends ToolbarLayout
             if (incognito) {
                 mLocationBar.getContainerView().getBackground().setAlpha(
                         ToolbarPhone.LOCATION_BAR_TRANSPARENT_BACKGROUND_ALPHA);
+                mShieldsLayout.getBackground().setAlpha(
+                    ToolbarPhone.LOCATION_BAR_TRANSPARENT_BACKGROUND_ALPHA);
+                mRewardsLayout.getBackground().setAlpha(
+                    ToolbarPhone.LOCATION_BAR_TRANSPARENT_BACKGROUND_ALPHA);
             } else {
                 mLocationBar.getContainerView().getBackground().setAlpha(255);
+                mShieldsLayout.getBackground().setAlpha(255);
+                mRewardsLayout.getBackground().setAlpha(255);
             }
             mAccessibilitySwitcherButton.setImageDrawable(
                     incognito ? mTabSwitcherButtonDrawableLight : mTabSwitcherButtonDrawable);
@@ -427,6 +492,74 @@ public class ToolbarTablet extends ToolbarLayout
         setMenuButtonHighlightDrawable(mHighlightingMenu);
         updateNtp();
     }
+
+    @Override
+    public void destroy() {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.RemoveObserver(this);
+        }
+    }
+
+    @Override
+    public void OnWalletInitialized(int error_code) {}
+
+    @Override
+    public void OnWalletProperties(int error_code) {}
+
+    @Override
+    public void OnPublisherInfo(int tabId) {}
+
+    @Override
+    public void OnGetCurrentBalanceReport(String[] report) {}
+
+    @Override
+    public void OnNotificationAdded(String id, int type, long timestamp,
+            String[] args) {
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.GetAllNotifications();
+        }
+    }
+
+    @Override
+    public void OnNotificationsCount(int count) {
+        if (mBraveRewardsNotificationsCount != null) {
+            if (count != 0) {
+                String value = Integer.toString(count);
+                if (count > 99) {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_rectangle));
+                    value = "99+";
+                } else {
+                    mBraveRewardsNotificationsCount.setBackground(
+                        getResources().getDrawable(R.drawable.brave_rewards_circle));
+                }
+                mBraveRewardsNotificationsCount.setText(value);
+                mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
+            } else {
+                mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+            }
+        }   
+    }
+
+    @Override
+    public void OnGetLatestNotification(String id, int type, long timestamp,
+            String[] args) {}
+
+    @Override
+    public void OnNotificationDeleted(String id) {}
+
+    @Override
+    public void OnIsWalletCreated(boolean created) {}
+
+    @Override
+    public void OnGetPendingContributionsTotal(double amount) {}
+
+    @Override
+    public void OnGetRewardsMainEnabled(boolean enabled) {}
+
+    @Override
+    public void OnGetAutoContributeProps() {}
+    
 
     /**
      * Called when the currently visible New Tab Page changes.
