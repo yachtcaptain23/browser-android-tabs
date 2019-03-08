@@ -331,17 +331,13 @@ public class StatusViewCoordinator implements View.OnClickListener {
             case NavigationButtonType.PAGE:
                 Drawable page = TintedDrawable.constructTintedDrawable(mParentView.getContext(),
                         R.drawable.ic_omnibox_page,
-                        // (Albert Wang): navigation button exists in the location bar and should be using dark mode tint
-                        // mUseDarkColors ? R.color.dark_mode_tint : R.color.light_mode_tint);
-                        R.color.dark_mode_tint);
+                        mUseDarkColors ? R.color.dark_mode_tint : R.color.light_mode_tint);
                 mNavigationButton.setImageDrawable(page);
                 break;
             case NavigationButtonType.MAGNIFIER:
                 Drawable search = TintedDrawable.constructTintedDrawable(mParentView.getContext(),
                         R.drawable.omnibox_search,
-                        // (Albert Wang): navigation button exists in the location bar and should be using dark mode tint
-                        // mUseDarkColors ? R.color.dark_mode_tint : R.color.light_mode_tint);
-                        R.color.dark_mode_tint);
+                        mUseDarkColors ? R.color.dark_mode_tint : R.color.light_mode_tint);
                 mNavigationButton.setImageDrawable(search);
                 break;
             case NavigationButtonType.EMPTY:
