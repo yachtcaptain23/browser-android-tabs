@@ -29,7 +29,7 @@ import org.chromium.ui.widget.ChromeImageButton;
 class BottomToolbarNewTabButton
         extends ChromeImageButton implements IncognitoStateObserver, ThemeColorObserver {
     /** The gray pill background behind the plus icon. */
-    private final Drawable mBackground;
+    //private final Drawable mBackground;
 
     /** The {@link Resources} used to compute the background color. */
     private final Resources mResources;
@@ -48,9 +48,9 @@ class BottomToolbarNewTabButton
         setImageDrawable(VectorDrawableCompat.create(
                 getContext().getResources(), R.drawable.new_tab_icon, getContext().getTheme()));
 
-        mBackground = ApiCompatibilityUtils.getDrawable(mResources, R.drawable.ntp_search_box);
+        /*mBackground = ApiCompatibilityUtils.getDrawable(mResources, R.drawable.ntp_search_box);
         mBackground.mutate();
-        setBackground(mBackground);
+        setBackground(mBackground);*/
     }
 
     /**
@@ -94,8 +94,8 @@ class BottomToolbarNewTabButton
     @Override
     public void onThemeColorChanged(ColorStateList tint, int primaryColor) {
         ApiCompatibilityUtils.setImageTintList(this, tint);
-        mBackground.setColorFilter(
+        /*mBackground.setColorFilter(
                 ColorUtils.getTextBoxColorForToolbarBackground(mResources, false, primaryColor),
-                PorterDuff.Mode.SRC_IN);
+                PorterDuff.Mode.SRC_IN);*/
     }
 }
