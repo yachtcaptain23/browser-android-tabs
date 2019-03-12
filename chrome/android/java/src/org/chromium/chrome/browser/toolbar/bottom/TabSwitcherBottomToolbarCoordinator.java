@@ -79,7 +79,7 @@ public class TabSwitcherBottomToolbarCoordinator {
         mCloseAllTabsButton.setThemeColorProvider(mTabSwitcherThemeColorProvider);
         mCloseAllTabsButton.setTabCountProvider(tabCountProvider);
 
-        mNewTabButton = root.findViewById(R.id.new_tab_button);
+        mNewTabButton = root.findViewById(R.id.tab_switcher_new_tab_button);
         if (mNewTabButton != null) {
             mNewTabButton.setOnClickListener(newTabClickListener);
             mNewTabButton.setIncognitoStateProvider(incognitoStateProvider);
