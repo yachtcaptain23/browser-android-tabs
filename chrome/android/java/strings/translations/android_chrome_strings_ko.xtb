@@ -1234,7 +1234,7 @@
 <translation id="7530570094705720669">지갑 생성</translation>
 <translation id="3780605330121608425">나의 지갑</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">자금 추가</translation>
 <translation id="2730771409541953249">Reward 요약</translation>
 <translation id="8596647978585397359">관심을 가져 주셔서 감사합니다!</translation>
@@ -1263,7 +1263,7 @@
 <translation id="8220228041552340594">10월</translation>
 <translation id="8280223431922155812">11월</translation>
 <translation id="4254029385847607686">12월</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>12월</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">주의</translation>
 <translation id="7335371657242627509">자동 기여 포함</translation>
 <translation id="8918760045046434238">팁 전송...</translation>
@@ -1272,7 +1272,7 @@
 <translation id="4914597931214386232">토큰 승인 요청됨</translation>
 <translation id="298067735430872465">광고에서 벌기</translation>
 <translation id="6112368337882254910">자동 기여</translation>
-<translation id="4781696154289395607"><ph name="BAT_VALUE"><ex>50</ex></ph> BAT를 기여했습니다.</translation>
+<translation id="4781696154289395607"><ph name="BAT_VALUE" /> BAT를 기여했습니다.</translation>
 <translation id="9182287025588539628">1회성 팁</translation>
 <translation id="7577100371127227294">월별 팁</translation>
 <translation id="8772672608371898774">Brave 인증 게시자</translation>
@@ -1284,7 +1284,7 @@
 <translation id="606865182719489911">사용할 수 있는 무료 토큰 승인이 있습니다.</translation>
 <translation id="3453206261112715431">무료 토큰 승인</translation>
 <translation id="13853865024308201">요청</translation>
-<translation id="3692362746128814480">귀하가 <ph name="BAT_VALUE"><ex>50</ex></ph> BAT를 주도록지명한 작성자는 아직
+<translation id="3692362746128814480">귀하가 <ph name="BAT_VALUE" /> BAT를 주도록지명한 작성자는 아직
 기여를 받도록 등록된 상태가 아닙니다. 해당 사용자가 인증하거나 90일이 지나갈 때까지
 브라우저는 계속 기여를 시도합니다.</translation>
 <translation id="7997676409547731821">귀하는 자동 기여용으로 월별 결제 일정을 만들었으며 월별 팁이 자금 부족으로 인해 완료되지 못했습니다. 30일 내에 다시 시도할 것입니다.</translation>
@@ -1293,7 +1293,7 @@
 <translation id="2323069945529668668">이런!</translation>
 <translation id="7510166204621526816">Brave Rewards 서버가 응답하지 않습니다. 가능한 빨리 수정하겠습니다.</translation>
 <translation id="2104073734684466851">승인</translation>
-<translation id="3068742524072211213"><ph name="DATE"><ex>4/14/2019</ex></ph>에 만료</translation>
+<translation id="3068742524072211213"><ph name="DATE" />에 만료</translation>
 <translation id="7550470870580166294">자금 부족</translation>
 <translation id="2775064702681588061">귀하의 Brave Rewards 계정이 예금을 기다리고 있습니다.</translation>
 <translation id="765834632354589737">지갑 백업</translation>

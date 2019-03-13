@@ -1233,7 +1233,7 @@
 <translation id="7530570094705720669">ウォレットを作成</translation>
 <translation id="3780605330121608425">ウォレット</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph>米ドル</translation>
+<translation id="7760215798627399379"><ph name="VALUE" />米ドル</translation>
 <translation id="1165667598801520610">資金を追加</translation>
 <translation id="2730771409541953249">リワードサマリー</translation>
 <translation id="8596647978585397359">ご利用ありがとうございます！</translation>
@@ -1261,7 +1261,7 @@
 <translation id="8220228041552340594">10月</translation>
 <translation id="8280223431922155812">11月</translation>
 <translation id="4254029385847607686">12月</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>12月</ex></ph> <ph name="YEAR"><ex>2018年</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">注意</translation>
 <translation id="7335371657242627509">自動寄付に含める</translation>
 <translation id="8918760045046434238">チップを送信...</translation>
@@ -1270,7 +1270,7 @@
 <translation id="4914597931214386232">トークン付与を請求しました</translation>
 <translation id="298067735430872465">広告収入</translation>
 <translation id="6112368337882254910">自動寄付</translation>
-<translation id="4781696154289395607"><ph name="BAT_VALUE"><ex>50</ex></ph>BATを寄付しました。</translation>
+<translation id="4781696154289395607"><ph name="BAT_VALUE" />BATを寄付しました。</translation>
 <translation id="9182287025588539628">チップ</translation>
 <translation id="7577100371127227294">マンスリーチップ</translation>
 <translation id="8772672608371898774">Brave認証済みパブリッシャー</translation>
@@ -1281,7 +1281,7 @@
 <translation id="606865182719489911">無料でトークンをご利用いただけます。</translation>
 <translation id="3453206261112715431">無料トークン付与</translation>
 <translation id="13853865024308201">請求</translation>
-<translation id="3692362746128814480">寄付の受諾手続きを行なっていないクリエイターに<ph name="BAT_VALUE"><ex>50</ex></ph>BATを
+<translation id="3692362746128814480">寄付の受諾手続きを行なっていないクリエイターに<ph name="BAT_VALUE" />BATを
 設定しました。クリエイターが確認するまで、または90日間が経過するまで、ブラウザーにより寄付の送信が継続されます。</translation>
 <translation id="7997676409547731821">資金が不十分なため、自動寄付およびマンスリーチップに対して設定されている月次決済を完了できませんでした。30日後に再試行します。</translation>
 <translation id="5306913077198665897">チップの処理中にエラーが発生しました。もう一度お試しください。</translation>

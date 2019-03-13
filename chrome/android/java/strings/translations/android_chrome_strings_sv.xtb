@@ -1235,7 +1235,7 @@ titta på integritetsrespekterande reklam.</translation>
 <translation id="7530570094705720669">Skapar plånbok</translation>
 <translation id="3780605330121608425">Din plånbok</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Lägg till pengar</translation>
 <translation id="2730771409541953249">REWARDS-SAMMANSTÄLLNING</translation>
 <translation id="8596647978585397359">Tack för besöket!</translation>
@@ -1264,7 +1264,7 @@ titta på integritetsrespekterande reklam.</translation>
 <translation id="8220228041552340594">OKTOBER</translation>
 <translation id="8280223431922155812">NOVEMBER</translation>
 <translation id="4254029385847607686">DECEMBER</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DECEMBER</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Viktigt</translation>
 <translation id="7335371657242627509">Lägg till i autobidrag</translation>
 <translation id="8918760045046434238">Skicka dricks...</translation>
@@ -1273,7 +1273,7 @@ månaden...</translation>
 <translation id="4914597931214386232">Tog emot polletter</translation>
 <translation id="298067735430872465">Reklamintäkter</translation>
 <translation id="6112368337882254910">Autobidrag</translation>
-<translation id="4781696154289395607">Du har bidragit med <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Du har bidragit med <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Engångsdricks</translation>
 <translation id="7577100371127227294">Månatlig dricks</translation>
 <translation id="8772672608371898774">Brave-verifierad utgivare</translation>
@@ -1285,7 +1285,7 @@ månaden...</translation>
 <translation id="606865182719489911">En gratis pollett är tillgänglig.</translation>
 <translation id="3453206261112715431">Gratis pollett</translation>
 <translation id="13853865024308201">Hämta</translation>
-<translation id="3692362746128814480">Du har skickat <ph name="BAT_VALUE"><ex>50</ex></ph> BAT till skapare som inte har
+<translation id="3692362746128814480">Du har skickat <ph name="BAT_VALUE" /> BAT till skapare som inte har
 registrerat sig för att ta emot bidrag. Din webbläsare försöker skicka ditt bidrag
 tills de har verifierat sig (i upp till 90 dagar).</translation>
 <translation id="7997676409547731821">Din månatliga betalning via autobidrag och månatliga dricks kunde inte skickas på grund av otillräckligt saldo. Vi försöker igen om 30 dagar.</translation>
@@ -1294,7 +1294,7 @@ tills de har verifierat sig (i upp till 90 dagar).</translation>
 <translation id="2323069945529668668">Oj!</translation>
 <translation id="7510166204621526816">Brave Rewards-servern svarar inte. Vi försöker åtgärda det så fort som möjligt.</translation>
 <translation id="2104073734684466851">Bidrag</translation>
-<translation id="3068742524072211213">upphör <ph name="DATE"><ex>2019-04-14</ex></ph></translation>
+<translation id="3068742524072211213">upphör <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Otillräckligt saldo</translation>
 <translation id="2775064702681588061">Ditt Brave Rewards-konto väntar på en insättning.</translation>
 <translation id="765834632354589737">Säkerhetskopiera plånbok</translation>

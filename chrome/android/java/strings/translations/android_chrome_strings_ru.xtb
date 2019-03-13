@@ -1236,7 +1236,7 @@ Brave Sync, без создания учетной записи.
 <translation id="7530570094705720669">Создание кошелька</translation>
 <translation id="3780605330121608425">Ваш кошелек</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> долл. США</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> долл. США</translation>
 <translation id="1165667598801520610">Добавить средства</translation>
 <translation id="2730771409541953249">О BRAVE REWARDS</translation>
 <translation id="8596647978585397359">Спасибо, что заглянули!</translation>
@@ -1265,7 +1265,7 @@ Brave Sync, без создания учетной записи.
 <translation id="8220228041552340594">ОКТЯБРЬ</translation>
 <translation id="8280223431922155812">НОЯБРЬ</translation>
 <translation id="4254029385847607686">ДЕКАБРЬ</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>ДЕКАБРЬ</ex></ph> <ph name="YEAR"><ex>2018 г.</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Внимание!</translation>
 <translation id="7335371657242627509">Добавить в автоплатежи</translation>
 <translation id="8918760045046434238">Отправить пожертвование…</translation>
@@ -1274,7 +1274,7 @@ Brave Sync, без создания учетной записи.
 <translation id="4914597931214386232">Полученные в подарок токены</translation>
 <translation id="298067735430872465">Доходы от рекламы</translation>
 <translation id="6112368337882254910">Автоплатеж</translation>
-<translation id="4781696154289395607">Вы сделали пожертвование: <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Вы сделали пожертвование: <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Разовые пожертвования</translation>
 <translation id="7577100371127227294">Ежемесячные пожертвования</translation>
 <translation id="8772672608371898774">Издатель, проверенный Brave</translation>
@@ -1286,7 +1286,7 @@ Brave Sync, без создания учетной записи.
 <translation id="606865182719489911">Доступен бесплатный токен.</translation>
 <translation id="3453206261112715431">Токен в подарок</translation>
 <translation id="13853865024308201">Получить</translation>
-<translation id="3692362746128814480">Вы хотите отправить <ph name="BAT_VALUE"><ex>50</ex></ph> BAT создателям контента, которые еще не зарегистрировались в нашей программе.
+<translation id="3692362746128814480">Вы хотите отправить <ph name="BAT_VALUE" /> BAT создателям контента, которые еще не зарегистрировались в нашей программе.
 Повторные попытки отправить им пожертвование будут совершаться в браузере до тех пор,
 пока эти лица не пройдут проверку или пока не истечет 90 дней.</translation>
 <translation id="7997676409547731821">Вы запланировали ежемесячный автоплатеж, но отправить пожертвование не удалось, поскольку у вас недостаточно средств. Мы повторим попытку через 30 дней.</translation>
@@ -1295,7 +1295,7 @@ Brave Sync, без создания учетной записи.
 <translation id="2323069945529668668">Ошибка!</translation>
 <translation id="7510166204621526816">Сервер Brave Rewards не отвечает. Мы постараемся исправить это как можно скорее.</translation>
 <translation id="2104073734684466851">Подарки</translation>
-<translation id="3068742524072211213">(срок действия истекает <ph name="DATE"><ex>14/4/2019</ex></ph>)</translation>
+<translation id="3068742524072211213">(срок действия истекает <ph name="DATE" />)</translation>
 <translation id="7550470870580166294">Недостаточно средств</translation>
 <translation id="2775064702681588061">Необходимо пополнить баланс аккаунта Brave Rewards.</translation>
 <translation id="765834632354589737">Резервное копирование кошелька</translation>

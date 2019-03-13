@@ -1234,7 +1234,7 @@ HTTPS</translation>
 <translation id="7530570094705720669">Δημιουργία πορτοφολιού</translation>
 <translation id="3780605330121608425">Το πορτοφόλι σας</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Προσθήκη κεφαλαίων</translation>
 <translation id="2730771409541953249">ΣΥΝΟΨΗ ΕΠΙΒΡΑΒΕΥΣΕΩΝ</translation>
 <translation id="8596647978585397359">Σας ευχαριστούμε για την επίσκεψη!</translation>
@@ -1263,7 +1263,7 @@ HTTPS</translation>
 <translation id="8220228041552340594">ΟΚΤΩΒΡΙΟΣ</translation>
 <translation id="8280223431922155812">ΝΟΕΜΒΡΙΟΣ</translation>
 <translation id="4254029385847607686">ΔΕΚΕΜΒΡΙΟΣ</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>ΔΕΚΕΜΒΡΙΟΣ</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Προσοχή</translation>
 <translation id="7335371657242627509">Συμπερίληψη στην Αυτόματη συμβολή</translation>
 <translation id="8918760045046434238">Αποστολή φιλοδωρήματος...</translation>
@@ -1272,7 +1272,7 @@ HTTPS</translation>
 <translation id="4914597931214386232">Εκχωρήσεις μαρκών που έχετε διεκδικήσει</translation>
 <translation id="298067735430872465">Κέρδη από διαφημίσεις</translation>
 <translation id="6112368337882254910">Αυτόματη συμβολή</translation>
-<translation id="4781696154289395607">Έχετε συμβάλει <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Έχετε συμβάλει <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Εφάπαξ φιλοδωρήματα</translation>
 <translation id="7577100371127227294">Μηνιαία φιλοδωρήματα</translation>
 <translation id="8772672608371898774">Επαληθευμένος εκδότης Brave</translation>
@@ -1284,14 +1284,14 @@ HTTPS</translation>
 <translation id="606865182719489911">Διατίθεται μια δωρεάν εκχώρηση μαρκών.</translation>
 <translation id="3453206261112715431">Δωρεάν εκχώρηση μαρκών</translation>
 <translation id="13853865024308201">Διεκδίκηση</translation>
-<translation id="3692362746128814480">Έχετε καθορίσει <ph name="BAT_VALUE"><ex>50</ex></ph> BAT για δημιουργούς που δεν έχουν εγγραφεί ακόμη για λήψη συμβολών. Το πρόγραμμα περιήγησής σας θα συνεχίσει να προσπαθεί να στείλει τις συμβολές μέχρι ο δημιουργός να επαληθεύσει τον λογαριασμό του ή έως ότου παρέλθουν 90 ημέρες.</translation>
+<translation id="3692362746128814480">Έχετε καθορίσει <ph name="BAT_VALUE" /> BAT για δημιουργούς που δεν έχουν εγγραφεί ακόμη για λήψη συμβολών. Το πρόγραμμα περιήγησής σας θα συνεχίσει να προσπαθεί να στείλει τις συμβολές μέχρι ο δημιουργός να επαληθεύσει τον λογαριασμό του ή έως ότου παρέλθουν 90 ημέρες.</translation>
 <translation id="7997676409547731821">Η προγραμματισμένη μηναία πληρωμή Αυτόματης συμβολής και τα μηναία φιλοδωρήματά σας δεν ήταν δυνατό να ολοκληρωθούν λόγω ανεπαρκών κεφαλαίων. Θα προσπαθήσουμε πάλι σε 30 ημέρες.</translation>
 <translation id="5306913077198665897">Παρουσιάστηκε πρόβλημα κατά τη διεκπεραίωση του φιλοδωρήματος, προσπαθήστε πάλι.</translation>
 <translation id="2429828319207652823">Παρουσιάστηκε πρόβλημα κατά τη διεκπεραίωση της συμβολής σας.</translation>
 <translation id="2323069945529668668">Ωχ!</translation>
 <translation id="7510166204621526816">Ο διακομιστής των Επιβραβεύσεων Brave δεν αποκρίνεται. Θα επιλύσουμε το πρόβλημα το συντομότερο δυνατό.</translation>
 <translation id="2104073734684466851">Εκχωρήσεις</translation>
-<translation id="3068742524072211213">λήγει στις <ph name="DATE"><ex>14/4/2019</ex></ph></translation>
+<translation id="3068742524072211213">λήγει στις <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Ανεπαρκή κεφάλαια</translation>
 <translation id="2775064702681588061">Το πορτοφόλι Επιβραβεύσεων Brave σας περιμένει κατάθεση.</translation>
 <translation id="765834632354589737">Δημιουργία αντιγράφου ασφαλείας πορτοφολιού</translation>

@@ -1234,7 +1234,7 @@ skatoties privātumu ievērojošas reklāmas.</translation>
 <translation id="7530570094705720669">Maka izveide</translation>
 <translation id="3780605330121608425">Jūsu maks</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>00,00</ex></ph>USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" />USD</translation>
 <translation id="1165667598801520610">Pievienot līdzekļus</translation>
 <translation id="2730771409541953249">REWARDS PROGRAMMAS KOPSAVILKUMS</translation>
 <translation id="8596647978585397359">Paldies, ka apmeklējāt mūs!</translation>
@@ -1263,7 +1263,7 @@ skatoties privātumu ievērojošas reklāmas.</translation>
 <translation id="8220228041552340594">OKTOBRIS</translation>
 <translation id="8280223431922155812">NOVEMBRIS</translation>
 <translation id="4254029385847607686">DECEMBRIS</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>2018. GADA</ex></ph>, <ph name="YEAR"><ex>DECEMBRIS</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" />, <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Uzmanību!</translation>
 <translation id="7335371657242627509">Iekļaut autom. atbalstīšanu</translation>
 <translation id="8918760045046434238">Nosūtīt dzeramnaudu..</translation>
@@ -1272,7 +1272,7 @@ veiktu darbību...</translation>
 <translation id="4914597931214386232">Saņemtie žetonu piešķīrumi</translation>
 <translation id="298067735430872465">Ienākumi no reklāmām</translation>
 <translation id="6112368337882254910">Autom. atbalstīšana</translation>
-<translation id="4781696154289395607">Jūs esat ieguldījuši <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Jūs esat ieguldījuši <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Vienreizēja dzeramnauda</translation>
 <translation id="7577100371127227294">Ikmēneša dzeramnauda</translation>
 <translation id="8772672608371898774">Brave verificēts izdevējs</translation>
@@ -1284,7 +1284,7 @@ Visa dzeramnauda, ko nosūtīsiet, paliks jūsu makā, līdz viņi to apstiprin�
 <translation id="606865182719489911">Ir iespēja saņemt bezmaksas žetonus.</translation>
 <translation id="3453206261112715431">Bezmaksas žetona piešķiršana</translation>
 <translation id="13853865024308201">Pieprasīt</translation>
-<translation id="3692362746128814480">Jūs esat rezervējuši <ph name="BAT_VALUE"><ex>50</ex></ph> BAT priekš satura veidotājiem, kuri vēl nav
+<translation id="3692362746128814480">Jūs esat rezervējuši <ph name="BAT_VALUE" /> BAT priekš satura veidotājiem, kuri vēl nav
 reģistrējušies, lai saņemtu atbalstu. Jūsu pārlūkprogramma turpinās mēģināt sniegt viņiem atbalstu, līdz viņi to apstiprinās vai būs pagājušas 90 dienas.</translation>
 <translation id="7997676409547731821">Jūsu plānoto ikmēneša maksājumu automātiskajai atbalstīšanai un ikmēneša dzeramnaudu neizdevās nosūtīt, jo jums nepietiek līdzekļu. Mēs mēģināsim vēlreiz pēc 30 dienām.</translation>
 <translation id="5306913077198665897">Apstrādājot jūsu dzeramnaudu, radās problēma, lūdzu, mēģiniet vēlreiz.</translation>
@@ -1292,7 +1292,7 @@ reģistrējušies, lai saņemtu atbalstu. Jūsu pārlūkprogramma turpinās mē�
 <translation id="2323069945529668668">Ak, vai!</translation>
 <translation id="7510166204621526816">Brave Rewards serveris nav pieejams. Mēs atrisināsim šo problēmu pēc iespējas īsākā laikā.</translation>
 <translation id="2104073734684466851">Ieguldījums</translation>
-<translation id="3068742524072211213">beidzas <ph name="DATE"><ex>04.14.2019.</ex></ph></translation>
+<translation id="3068742524072211213">beidzas <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Nepietiekami līdzekļi</translation>
 <translation id="2775064702681588061">Jūsu Brave Rewards konts gaida, kad veiksiet iemaksu.</translation>
 <translation id="765834632354589737">Papildināt maku</translation>

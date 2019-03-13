@@ -1232,7 +1232,7 @@
 <translation id="7530570094705720669">正在建立錢包</translation>
 <translation id="3780605330121608425">您的錢包</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> 美元</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> 美元</translation>
 <translation id="1165667598801520610">新增資金</translation>
 <translation id="2730771409541953249">獎勵摘要</translation>
 <translation id="8596647978585397359">感謝您的來訪！</translation>
@@ -1261,7 +1261,7 @@
 <translation id="8220228041552340594">10 月</translation>
 <translation id="8280223431922155812">11 月</translation>
 <translation id="4254029385847607686">12 月</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>12 月</ex></ph> <ph name="YEAR"><ex>2018 年</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">注意</translation>
 <translation id="7335371657242627509">納入自動捐獻</translation>
 <translation id="8918760045046434238">給出小費...</translation>
@@ -1270,7 +1270,7 @@
 <translation id="4914597931214386232">已領取代幣</translation>
 <translation id="298067735430872465">廣告收入</translation>
 <translation id="6112368337882254910">自動捐獻</translation>
-<translation id="4781696154289395607">您已捐獻 <ph name="BAT_VALUE"><ex>50</ex></ph> BAT。</translation>
+<translation id="4781696154289395607">您已捐獻 <ph name="BAT_VALUE" /> BAT。</translation>
 <translation id="9182287025588539628">單次小費</translation>
 <translation id="7577100371127227294">每月小費</translation>
 <translation id="8772672608371898774">經 Brave 驗證的發佈商</translation>
@@ -1282,7 +1282,7 @@
 <translation id="606865182719489911">有免費代幣可用。</translation>
 <translation id="3453206261112715431">免費代幣</translation>
 <translation id="13853865024308201">領取</translation>
-<translation id="3692362746128814480">您已將 <ph name="BAT_VALUE"><ex>50</ex></ph> BAT 指定給尚未註冊而
+<translation id="3692362746128814480">您已將 <ph name="BAT_VALUE" /> BAT 指定給尚未註冊而
 未能收取捐獻的創作者。在創作者通過驗證或超過 90 天前，
 瀏覽器會持續試著捐獻。</translation>
 <translation id="7997676409547731821">由於資金不足，無法給出您排定的每月自動捐獻和每月小費。我們會在 30 天內再試一次。</translation>
@@ -1291,7 +1291,7 @@
 <translation id="2323069945529668668">糟糕！</translation>
 <translation id="7510166204621526816">Brave 獎勵伺服器沒有回應。我們會盡快修復此問題。</translation>
 <translation id="2104073734684466851">款項</translation>
-<translation id="3068742524072211213"><ph name="DATE"><ex>2019/4/14</ex></ph> 到期</translation>
+<translation id="3068742524072211213"><ph name="DATE" /> 到期</translation>
 <translation id="7550470870580166294">資金不足</translation>
 <translation id="2775064702681588061">您的 Brave 獎勵帳戶正在等待一筆存款。</translation>
 <translation id="765834632354589737">備份錢包</translation>

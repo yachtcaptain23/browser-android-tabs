@@ -1234,7 +1234,7 @@ fremtidens internett.</translation>
 <translation id="7530570094705720669">Oppretter lommebok</translation>
 <translation id="3780605330121608425">Lommeboken din</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Legg til midler</translation>
 <translation id="2730771409541953249">OPPSUMMERING FOR REWARDS</translation>
 <translation id="8596647978585397359">Takk for at du stakk innom!</translation>
@@ -1263,7 +1263,7 @@ fremtidens internett.</translation>
 <translation id="8220228041552340594">OKTOBER</translation>
 <translation id="8280223431922155812">NOVEMBER</translation>
 <translation id="4254029385847607686">DESEMBER</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DESEMBER</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Obs!</translation>
 <translation id="7335371657242627509">Ta med i automatisk bidrag</translation>
 <translation id="8918760045046434238">Send tips …</translation>
@@ -1272,7 +1272,7 @@ denne måneden …</translation>
 <translation id="4914597931214386232">Pollettbidrag hentet</translation>
 <translation id="298067735430872465">Inntekt fra reklame</translation>
 <translation id="6112368337882254910">Automatisk bidrag</translation>
-<translation id="4781696154289395607">Du bidro med <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Du bidro med <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Engangstips</translation>
 <translation id="7577100371127227294">Månedlig tips</translation>
 <translation id="8772672608371898774">Brave-verifisert utgiver</translation>
@@ -1284,7 +1284,7 @@ denne måneden …</translation>
 <translation id="606865182719489911">Et gratis pollettbidrag er tilgjengelig.</translation>
 <translation id="3453206261112715431">Gratis pollettbidrag</translation>
 <translation id="13853865024308201">Hent</translation>
-<translation id="3692362746128814480">Du har reservert <ph name="BAT_VALUE"><ex>50</ex></ph> BAT til skapere som foreløpig ikke
+<translation id="3692362746128814480">Du har reservert <ph name="BAT_VALUE" /> BAT til skapere som foreløpig ikke
 har registrert seg for å motta bidrag. Nettleseren din vil prøve å sende bidraget
 inntil vedkommende har bekreftet, eller det har gått 90 dager.</translation>
 <translation id="7997676409547731821">Den planlagte automatiske betalingen til automatiske bidrag og den månedlige tipsen kunne ikke gjennomføres siden du ikke har nok midler. Vi prøver igjen om 30 dager.</translation>
@@ -1293,7 +1293,7 @@ inntil vedkommende har bekreftet, eller det har gått 90 dager.</translation>
 <translation id="2323069945529668668">Å nei!</translation>
 <translation id="7510166204621526816">Brave Rewards-serveren svarer ikke. Vi skal rette feilen så fort som mulig.</translation>
 <translation id="2104073734684466851">Bidrag</translation>
-<translation id="3068742524072211213">utløper <ph name="DATE"><ex>14.4.2019</ex></ph></translation>
+<translation id="3068742524072211213">utløper <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Ikke nok midler</translation>
 <translation id="2775064702681588061">Brave Rewards-kontoen din venter på innskudd.</translation>
 <translation id="765834632354589737">Sikkerhetskopier lommebok</translation>

@@ -1220,7 +1220,7 @@ sa panonood ng mga ad na gumagalang sa privacy.</translation>
 <translation id="7530570094705720669">Ginagawa ang wallet</translation>
 <translation id="3780605330121608425">Iyong wallet</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Magdagdag ng Pondo</translation>
 <translation id="2730771409541953249">BUOD NG REWARDS</translation>
 <translation id="8596647978585397359">Salamat sa pagpunta rito!</translation>
@@ -1249,7 +1249,7 @@ sa panonood ng mga ad na gumagalang sa privacy.</translation>
 <translation id="8220228041552340594">OKTUBRE</translation>
 <translation id="8280223431922155812">NOBYEMBRE</translation>
 <translation id="4254029385847607686">DISYEMBRE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DISYEMBRE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atensyon</translation>
 <translation id="7335371657242627509">Isama sa Auto-Contribute</translation>
 <translation id="8918760045046434238">Magpadala ng tip...</translation>
@@ -1258,7 +1258,7 @@ ngayong buwan...</translation>
 <translation id="4914597931214386232">Mga Nakuhang Token Grant</translation>
 <translation id="298067735430872465">Mga Kinita Mula sa Mga Ad</translation>
 <translation id="6112368337882254910">Auto-Contribute</translation>
-<translation id="4781696154289395607">Nag-ambag ka ng <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Nag-ambag ka ng <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Mga One-time na Tip</translation>
 <translation id="7577100371127227294">Mga Buwanang Tip</translation>
 <translation id="8772672608371898774">Brave Verified Publisher</translation>
@@ -1270,7 +1270,7 @@ ngayong buwan...</translation>
 <translation id="606865182719489911">May libreng token grant na available.</translation>
 <translation id="3453206261112715431">Libreng Token Grant</translation>
 <translation id="13853865024308201">Kunin</translation>
-<translation id="3692362746128814480">Nagtalaga ka ng <ph name="BAT_VALUE"><ex>50</ex></ph> BAT para sa mga creator na hindi
+<translation id="3692362746128814480">Nagtalaga ka ng <ph name="BAT_VALUE" /> BAT para sa mga creator na hindi
 pa nag-sign upa para makatanggap ng mga kontribusyon. Patuloy na susubukan ng iyong browser na mag-ambag
 hanggang sa mag-verify sila, o hanggang lumipas ang 90 araw.</translation>
 <translation id="7997676409547731821">Ang iyong na-iskedyul na buwanang pagbabayad para sa Auto-Contribute at mga buwanang tip ay hindi nakumpleto dahil sa hindi sapat na pondo. Susubukan naming muli makalipas ang 30 araw.</translation>
@@ -1279,7 +1279,7 @@ hanggang sa mag-verify sila, o hanggang lumipas ang 90 araw.</translation>
 <translation id="2323069945529668668">Hala!</translation>
 <translation id="7510166204621526816">Hindi nagre-respond ang Brave Rewards server. Susubukan namin itong ayusin sa lalong madaling panahon.</translation>
 <translation id="2104073734684466851">Mga Grant</translation>
-<translation id="3068742524072211213">mag-e-expire sa <ph name="DATE"><ex>4/14/2019</ex></ph></translation>
+<translation id="3068742524072211213">mag-e-expire sa <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Hindi Sapat ang Pondo</translation>
 <translation id="2775064702681588061">Naghihintay ng deposito ang iyong Brave Rewards account.</translation>
 <translation id="765834632354589737">Backup Wallet</translation>

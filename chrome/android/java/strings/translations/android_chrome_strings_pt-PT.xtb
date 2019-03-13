@@ -1231,7 +1231,7 @@ ver anúncios que respeitam a privacidade.</translation>
 <translation id="7530570094705720669">Criar carteira</translation>
 <translation id="3780605330121608425">A sua carteira</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Adicionar fundos</translation>
 <translation id="2730771409541953249">RESUMO DE RECOMPENSAS</translation>
 <translation id="8596647978585397359">Obrigado pela visita!</translation>
@@ -1260,7 +1260,7 @@ ver anúncios que respeitam a privacidade.</translation>
 <translation id="8220228041552340594">OUTUBRO</translation>
 <translation id="8280223431922155812">NOVEMBRO</translation>
 <translation id="4254029385847607686">DEZEMBRO</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DEZEMBRO</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atenção</translation>
 <translation id="7335371657242627509">Incluir na contribuição automática</translation>
 <translation id="8918760045046434238">Enviar uma gratificação...</translation>
@@ -1269,7 +1269,7 @@ este mês...</translation>
 <translation id="4914597931214386232">Atribuições de token reclamadas</translation>
 <translation id="298067735430872465">Rendimentos dos anúncios</translation>
 <translation id="6112368337882254910">Contribuição automática</translation>
-<translation id="4781696154289395607">Contribuiu <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Contribuiu <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Gratificações únicas</translation>
 <translation id="7577100371127227294">Gratificações mensais</translation>
 <translation id="8772672608371898774">Editor Brave verificado</translation>
@@ -1281,7 +1281,7 @@ este mês...</translation>
 <translation id="606865182719489911">Está disponível uma atribuição de token gratuito.</translation>
 <translation id="3453206261112715431">Atribuição de token gratuito</translation>
 <translation id="13853865024308201">Reclamar</translation>
-<translation id="3692362746128814480">Designou <ph name="BAT_VALUE"><ex>50</ex></ph> BAT para criadores que ainda não fizeram o registo
+<translation id="3692362746128814480">Designou <ph name="BAT_VALUE" /> BAT para criadores que ainda não fizeram o registo
 para receber contribuições. O seu navegador vai continuar a tentar contribuir
 durante 90 dias ou até que o criador efetue a verificação.</translation>
 <translation id="7997676409547731821">Não foi possível efetuar o pagamento mensal agendado para a contribuição automática e gratificações mensais devido a fundos insuficientes. Voltaremos a tentar dentro de 30 dias.</translation>
@@ -1290,7 +1290,7 @@ durante 90 dias ou até que o criador efetue a verificação.</translation>
 <translation id="2323069945529668668">Oh-oh!</translation>
 <translation id="7510166204621526816">O servidor Brave Rewards não está a responder. O erro será corrigido assim que possível.</translation>
 <translation id="2104073734684466851">Atribuições</translation>
-<translation id="3068742524072211213">expira a <ph name="DATE"><ex>14/04/2019</ex></ph></translation>
+<translation id="3068742524072211213">expira a <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fundos insuficientes</translation>
 <translation id="2775064702681588061">A sua conta Brave Rewards está a aguardar um depósito.</translation>
 <translation id="765834632354589737">Criar cópia de segurança</translation>

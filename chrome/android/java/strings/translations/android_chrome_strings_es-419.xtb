@@ -1234,7 +1234,7 @@ mirar anuncios que respetan la privacidad.</translation>
 <translation id="7530570094705720669">Creando billetera</translation>
 <translation id="3780605330121608425">Su billetera</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Agregar fondos</translation>
 <translation id="2730771409541953249">RESUMEN DE RECOMPENSAS</translation>
 <translation id="8596647978585397359">¡Gracias por visitarnos!</translation>
@@ -1263,7 +1263,7 @@ mirar anuncios que respetan la privacidad.</translation>
 <translation id="8220228041552340594">OCTUBRE</translation>
 <translation id="8280223431922155812">NOVIEMBRE</translation>
 <translation id="4254029385847607686">DICIEMBRE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DICIEMBRE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atención</translation>
 <translation id="7335371657242627509">Incluir en Autocontribuir</translation>
 <translation id="8918760045046434238">Enviar una propina...</translation>
@@ -1272,7 +1272,7 @@ este mes...</translation>
 <translation id="4914597931214386232">Donaciones de tokens aceptadas</translation>
 <translation id="298067735430872465">Ganancias de anuncios</translation>
 <translation id="6112368337882254910">Autocontribuir</translation>
-<translation id="4781696154289395607">Ha contribuido <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Ha contribuido <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Propinas únicas</translation>
 <translation id="7577100371127227294">Propinas mensuales</translation>
 <translation id="8772672608371898774">Editor de Brave verificado</translation>
@@ -1284,7 +1284,7 @@ Las propinas que usted envíe quedarán en su billetera hasta que el creador ver
 <translation id="606865182719489911">Hay una donación de tokens disponible.</translation>
 <translation id="3453206261112715431">Donación de tokens disponible</translation>
 <translation id="13853865024308201">Reclamar</translation>
-<translation id="3692362746128814480">Ha designado <ph name="BAT_VALUE"><ex>50</ex></ph> BAT para creadores que aún no se han
+<translation id="3692362746128814480">Ha designado <ph name="BAT_VALUE" /> BAT para creadores que aún no se han
 registrado para recibir contribuciones. Su navegador seguirá intentando hacer la contribución
 hasta que verifiquen su identidad o hasta que hayan transcurrido 90 días.</translation>
 <translation id="7997676409547731821">Su pago mensual programado de Autocontribuir y propinas mensuales no pudieron completarse debido a fondos insuficientes. Lo intentaremos de nuevo dentro de 30 días.</translation>
@@ -1293,7 +1293,7 @@ hasta que verifiquen su identidad o hasta que hayan transcurrido 90 días.</tran
 <translation id="2323069945529668668">Oh oh...</translation>
 <translation id="7510166204621526816">El servidor de Recompensas Brave no está respondiendo. Solucionaremos esto lo antes posible.</translation>
 <translation id="2104073734684466851">Donaciones</translation>
-<translation id="3068742524072211213">vence el <ph name="DATE"><ex>14/4/2019</ex></ph></translation>
+<translation id="3068742524072211213">vence el <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fondos insuficientes</translation>
 <translation id="2775064702681588061">Su cuenta de Recompensas Brave está esperando un depósito.</translation>
 <translation id="765834632354589737">Copia de seguridad de la billetera</translation>

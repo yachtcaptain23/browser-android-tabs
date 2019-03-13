@@ -1235,7 +1235,7 @@ per mirar anuncis que respecten la privacitat.</translation>
 <translation id="7530570094705720669">S'està creant una cartera</translation>
 <translation id="3780605330121608425">La teva cartera</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Afegeix fons</translation>
 <translation id="2730771409541953249">RESUM DE REWARDS</translation>
 <translation id="8596647978585397359">Gràcies per passar per aquí!</translation>
@@ -1264,7 +1264,7 @@ per mirar anuncis que respecten la privacitat.</translation>
 <translation id="8220228041552340594">OCTUBRE</translation>
 <translation id="8280223431922155812">NOVEMBRE</translation>
 <translation id="4254029385847607686">DESEMBRE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DESEMBRE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atenció</translation>
 <translation id="7335371657242627509">Inclou a contribució automàtica</translation>
 <translation id="8918760045046434238">Envia una propina...</translation>
@@ -1273,7 +1273,7 @@ aquest mes...</translation>
 <translation id="4914597931214386232">Concessions de tokens reclamades</translation>
 <translation id="298067735430872465">Guanys per anuncis</translation>
 <translation id="6112368337882254910">Contribució automàtica</translation>
-<translation id="4781696154289395607">Has contribuït amb <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Has contribuït amb <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Propines puntuals</translation>
 <translation id="7577100371127227294">Propines mensuals</translation>
 <translation id="8772672608371898774">Editor verificat de Brave</translation>
@@ -1285,7 +1285,7 @@ aquest mes...</translation>
 <translation id="606865182719489911">Hi ha disponible una concessió de token gratuïta.</translation>
 <translation id="3453206261112715431">Concessió de token gratuïta</translation>
 <translation id="13853865024308201">Reclama</translation>
-<translation id="3692362746128814480">Has designat <ph name="BAT_VALUE"><ex>50</ex></ph> BAT per als creadors que encara
+<translation id="3692362746128814480">Has designat <ph name="BAT_VALUE" /> BAT per als creadors que encara
 no s'han registrat per rebre contribucions. El teu navegador continuarà intentant contribuir
 fins que es verifiquin o fins que passin 90 dies.</translation>
 <translation id="7997676409547731821">No s'ha pogut completar el teu pagament mensual programat per a la contribució automàtica ni les propines mensuals per falta de fons. Tornarem a provar-ho en 30 dies.</translation>
@@ -1294,7 +1294,7 @@ fins que es verifiquin o fins que passin 90 dies.</translation>
 <translation id="2323069945529668668">Vaja!</translation>
 <translation id="7510166204621526816">El servidor de Rewards Brave no respon. Ho arreglarem tan aviat com es pugui.</translation>
 <translation id="2104073734684466851">Concessions</translation>
-<translation id="3068742524072211213">caduca el <ph name="DATE"><ex>14/4/2019</ex></ph></translation>
+<translation id="3068742524072211213">caduca el <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fons insuficients</translation>
 <translation id="2775064702681588061">El teu compte de Brave Rewards està esperant un dipòsit.</translation>
 <translation id="765834632354589737">Protegeix la cartera</translation>

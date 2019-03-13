@@ -1233,7 +1233,7 @@ advertenties te bekijken waarbij de privacy wordt gerespecteerd.</translation>
 <translation id="7530570094705720669">Wallet maken</translation>
 <translation id="3780605330121608425">Je wallet</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,00</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Geld toevoegen</translation>
 <translation id="2730771409541953249">REWARDS-OVERZICHT</translation>
 <translation id="8596647978585397359">Bedankt voor je bezoek!</translation>
@@ -1262,7 +1262,7 @@ advertenties te bekijken waarbij de privacy wordt gerespecteerd.</translation>
 <translation id="8220228041552340594">OKTOBER</translation>
 <translation id="8280223431922155812">NOVEMBER</translation>
 <translation id="4254029385847607686">DECEMBER</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DECEMBER</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Let op</translation>
 <translation id="7335371657242627509">Gebruiken voor automatisch doneren</translation>
 <translation id="8918760045046434238">Doe een donatie...</translation>
@@ -1271,7 +1271,7 @@ maand...</translation>
 <translation id="4914597931214386232">Aantal geclaimde toegewezen tokens</translation>
 <translation id="298067735430872465">Inkomsten van advertenties</translation>
 <translation id="6112368337882254910">Automatisch doneren</translation>
-<translation id="4781696154289395607">Je hebt<ph name="BAT_VALUE"><ex>50</ex></ph> BAT's gedoneerd.</translation>
+<translation id="4781696154289395607">Je hebt<ph name="BAT_VALUE" /> BAT's gedoneerd.</translation>
 <translation id="9182287025588539628">Eenmalige donaties</translation>
 <translation id="7577100371127227294">Maandelijkse donaties</translation>
 <translation id="8772672608371898774">Door Brave geverifieerde uitgever</translation>
@@ -1283,7 +1283,7 @@ Alle donaties die je doet, blijven in je wallet staan tot de maker is geverifiee
 <translation id="606865182719489911">Er zijn gratis toegewezen tokens beschikbaar.</translation>
 <translation id="3453206261112715431">Gratis toegewezen tokens</translation>
 <translation id="13853865024308201">Claimen</translation>
-<translation id="3692362746128814480">Je hebt <ph name="BAT_VALUE"><ex>50</ex></ph> BAT's apart gezet voor makers die zich nog niet
+<translation id="3692362746128814480">Je hebt <ph name="BAT_VALUE" /> BAT's apart gezet voor makers die zich nog niet
 hebben geregistreerd voor het ontvangen van donaties. Je browser blijft proberen de donatie
 over te maken tot de maker zich registreert, of tot er 90 dagen zijn verstreken.</translation>
 <translation id="7997676409547731821">Je geplande maandelijkse betaling voor automatisch doneren en maandelijkse donaties kan niet worden uitgevoerd omdat er onvoldoende geld beschikbaar is. We proberen het over 30 dagen opnieuw.</translation>
@@ -1292,7 +1292,7 @@ over te maken tot de maker zich registreert, of tot er 90 dagen zijn verstreken.
 <translation id="2323069945529668668">Er is een probleem opgetreden.</translation>
 <translation id="7510166204621526816">De Brave Rewards-server reageert niet. We proberen dit zo snel mogelijk op te lossen.</translation>
 <translation id="2104073734684466851">Toewijzingen</translation>
-<translation id="3068742524072211213">verloopt op <ph name="DATE"><ex>14-04-2019</ex></ph></translation>
+<translation id="3068742524072211213">verloopt op <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Onvoldoende geld</translation>
 <translation id="2775064702681588061">Er moet geld worden gestort naar je Brave Rewards-account.</translation>
 <translation id="765834632354589737">Back-up van wallet maken</translation>

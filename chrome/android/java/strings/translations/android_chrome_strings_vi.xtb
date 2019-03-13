@@ -1233,7 +1233,7 @@ xem những quảng cáo tôn trọng quyền riêng tư.</translation>
 <translation id="7530570094705720669">Tạo ví</translation>
 <translation id="3780605330121608425">Ví của bạn</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Thêm tiền</translation>
 <translation id="2730771409541953249">TÓM TẮT PHẦN THƯỞNG</translation>
 <translation id="8596647978585397359">Cảm ơn đã ghé qua!</translation>
@@ -1262,7 +1262,7 @@ xem những quảng cáo tôn trọng quyền riêng tư.</translation>
 <translation id="8220228041552340594">THÁNG 10</translation>
 <translation id="8280223431922155812">THÁNG 11</translation>
 <translation id="4254029385847607686">THÁNG 12</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>THÁNG 12</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Chú ý</translation>
 <translation id="7335371657242627509">Bao gồm trong Tự động đóng góp</translation>
 <translation id="8918760045046434238">Gửi tiền boa...</translation>
@@ -1271,7 +1271,7 @@ trong tháng này...</translation>
 <translation id="4914597931214386232">Đã nhận tài trợ token</translation>
 <translation id="298067735430872465">Thu nhập từ quảng cáo</translation>
 <translation id="6112368337882254910">Tự động đóng góp</translation>
-<translation id="4781696154289395607">Bạn đã đóng góp <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Bạn đã đóng góp <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Boa một lần</translation>
 <translation id="7577100371127227294">Boa hàng tháng</translation>
 <translation id="8772672608371898774">Nhà phát hành đã được Brave xác thực</translation>
@@ -1283,7 +1283,7 @@ trong tháng này...</translation>
 <translation id="606865182719489911">Có một khoản tài trợ token miễn phí.</translation>
 <translation id="3453206261112715431">Tài trợ token miễn phí</translation>
 <translation id="13853865024308201">Nhận</translation>
-<translation id="3692362746128814480">Bạn đã dành <ph name="BAT_VALUE"><ex>50</ex></ph> BAT cho những nhà sáng tạo chưa
+<translation id="3692362746128814480">Bạn đã dành <ph name="BAT_VALUE" /> BAT cho những nhà sáng tạo chưa
 đăng ký nhận đóng góp. Trình duyệt của bạn sẽ tiếp tục cố gắng đóng góp
 cho đến khi họ xác thực, hoặc cho đến khi 90 ngày đã trôi qua.</translation>
 <translation id="7997676409547731821">Không thể hoàn thành khoản thanh toán hàng tháng mà bạn đã lên lịch cho Tự động đóng góp và tiền boa hàng tháng do không đủ tiền. Chúng tôi sẽ thử lại sau 30 ngày.</translation>
@@ -1292,7 +1292,7 @@ cho đến khi họ xác thực, hoặc cho đến khi 90 ngày đã trôi qua.<
 <translation id="2323069945529668668">Ôi không!</translation>
 <translation id="7510166204621526816">Máy chủ Phần thưởng Brave không phản hồi. Chúng tôi sẽ sửa sớm nhất có thể.</translation>
 <translation id="2104073734684466851">Tài trợ</translation>
-<translation id="3068742524072211213">hết hạn vào <ph name="DATE"><ex>14/04/2019</ex></ph></translation>
+<translation id="3068742524072211213">hết hạn vào <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Không đủ tiền</translation>
 <translation id="2775064702681588061">Tài khoản Phần thưởng Brave của bạn đang chờ nạp tiền.</translation>
 <translation id="765834632354589737">Sao lưu ví</translation>

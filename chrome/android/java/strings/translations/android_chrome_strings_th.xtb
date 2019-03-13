@@ -1234,7 +1234,7 @@ EST แล้ว</translation>
 <translation id="7530570094705720669">การสร้างกระเป๋าเงิน</translation>
 <translation id="3780605330121608425">กระเป๋าเงินของคุณ</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">เติมเงิน</translation>
 <translation id="2730771409541953249">สรุปรางวัล</translation>
 <translation id="8596647978585397359">ขอบคุณที่แวะมา</translation>
@@ -1263,7 +1263,7 @@ EST แล้ว</translation>
 <translation id="8220228041552340594">ตุลาคม</translation>
 <translation id="8280223431922155812">พฤศจิกายน</translation>
 <translation id="4254029385847607686">ธันวาคม</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>ธันวาคม</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">ประกาศ</translation>
 <translation id="7335371657242627509">มีระบบสนับสนุนอัตโนมัติ</translation>
 <translation id="8918760045046434238">ส่งทิป...</translation>
@@ -1272,7 +1272,7 @@ EST แล้ว</translation>
 <translation id="4914597931214386232">รับเงินสนับสนุนเป็นโทเค็นแล้ว</translation>
 <translation id="298067735430872465">สร้างรายได้จากโฆษณา</translation>
 <translation id="6112368337882254910">ระบบสนับสนุนอัตโนมัติ</translation>
-<translation id="4781696154289395607">คุณได้สนับสนุน <ph name="BAT_VALUE"><ex>50</ex></ph>BAT</translation>
+<translation id="4781696154289395607">คุณได้สนับสนุน <ph name="BAT_VALUE" />BAT</translation>
 <translation id="9182287025588539628">ทิปครั้งเดียว</translation>
 <translation id="7577100371127227294">ทิปรายเดือน</translation>
 <translation id="8772672608371898774">ผู้เผยแพร่ที่ยืนยันตัวตนกับ Brave แล้ว</translation>
@@ -1284,7 +1284,7 @@ EST แล้ว</translation>
 <translation id="606865182719489911">เงินรางวัลโทเค็นฟรีพร้อมแล้ว</translation>
 <translation id="3453206261112715431">เงินรางวัลโทเค็นฟรี</translation>
 <translation id="13853865024308201">รับ</translation>
-<translation id="3692362746128814480">คุณได้มอบ <ph name="BAT_VALUE"><ex>50</ex></ph>BAT ให้กับครีเอเตอร์ที่ยังไม่ได้
+<translation id="3692362746128814480">คุณได้มอบ <ph name="BAT_VALUE" />BAT ให้กับครีเอเตอร์ที่ยังไม่ได้
 ลงทะเบียนเพื่อรับเงินสนับสนุน เบราว์เซอร์ของคุณจะพยายามมอบเงินสนับสนุนให้
 จนกว่าพวกเขาจะยืนยันตัวตน หรือจนกว่าจะผ่านไป 90 วัน</translation>
 <translation id="7997676409547731821">ไม่สามารถดำเนินการการชำระเงินรายเดือนที่กำหนดไว้ของคุณสำหรับการสนับสนุนอัตโนมัติและทิปรายเดือนให้เสร็จสิ้นได้เนื่องจากเงินไม่เพียงพอ เราจะลองใหม่อีกครั้งใน 30 วัน</translation>
@@ -1293,7 +1293,7 @@ EST แล้ว</translation>
 <translation id="2323069945529668668">แย่แล้ว</translation>
 <translation id="7510166204621526816">เซิร์ฟเวอร์ของ Brave Rewards ไม่ตอบสนอง เราจะรีบแก้ไขให้เร็วที่สุดเท่าที่จะเป็นไปได้</translation>
 <translation id="2104073734684466851">เงินรางวัล</translation>
-<translation id="3068742524072211213">หมดอายุวันที่ <ph name="DATE"><ex>4/14/2019</ex></ph></translation>
+<translation id="3068742524072211213">หมดอายุวันที่ <ph name="DATE" /></translation>
 <translation id="7550470870580166294">เงินไม่เพียงพอ</translation>
 <translation id="2775064702681588061">บัญชี Brave Rewards ของคุณกำลังรอการฝากอยู่</translation>
 <translation id="765834632354589737">กระเป๋าเงินสำรอง</translation>

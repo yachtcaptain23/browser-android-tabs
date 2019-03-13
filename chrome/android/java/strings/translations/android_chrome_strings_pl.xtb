@@ -1236,7 +1236,7 @@ oglądając reklamy, które szanują Twoją prywatność.</translation>
 <translation id="7530570094705720669">Tworzenie portfela</translation>
 <translation id="3780605330121608425">Twój portfel</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Dodaj środki</translation>
 <translation id="2730771409541953249">PODSUMOWANIE NAGRÓD</translation>
 <translation id="8596647978585397359">Dzięki za odwiedziny!</translation>
@@ -1265,7 +1265,7 @@ oglądając reklamy, które szanują Twoją prywatność.</translation>
 <translation id="8220228041552340594">PAŹDZIERNIK</translation>
 <translation id="8280223431922155812">LISTOPAD</translation>
 <translation id="4254029385847607686">GRUDZIEŃ</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>GRUDNIA</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Uwaga</translation>
 <translation id="7335371657242627509">Uwzględnij we wsparciu automatycznym</translation>
 <translation id="8918760045046434238">Wyślij napiwek…</translation>
@@ -1274,7 +1274,7 @@ miesiącu…</translation>
 <translation id="4914597931214386232">Tokeny odebrane</translation>
 <translation id="298067735430872465">Zarobki z reklam</translation>
 <translation id="6112368337882254910">Wspieraj automatycznie</translation>
-<translation id="4781696154289395607">Twoje wsparcie wynosi <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Twoje wsparcie wynosi <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Jednorazowe napiwki</translation>
 <translation id="7577100371127227294">Miesięczne napiwki</translation>
 <translation id="8772672608371898774">Zweryfikowany wydawca Brave</translation>
@@ -1286,7 +1286,7 @@ Wszelkie przesłane mu przez Ciebie napiwki pozostaną w Twoim portfelu do czasu
 <translation id="606865182719489911">Dostępne są bezpłatne tokeny.</translation>
 <translation id="3453206261112715431">Tokeny odebrane</translation>
 <translation id="13853865024308201">Odbierz</translation>
-<translation id="3692362746128814480">Przeznaczasz <ph name="BAT_VALUE"><ex>50</ex></ph> BAT dla twórców, którzy jeszcze się nie zarejestrowali,
+<translation id="3692362746128814480">Przeznaczasz <ph name="BAT_VALUE" /> BAT dla twórców, którzy jeszcze się nie zarejestrowali,
 aby otrzymywać wsparcie. Twoja przeglądarka będzie próbowała przekazać im wsparcie do czasu, gdy zostaną zweryfikowani lub przez 90 dni.</translation>
 <translation id="7997676409547731821">Twoje zaplanowane miesięczne opłaty w celu realizacji automatycznego wsparcia i comiesięcznych napiwków nie mogły zostać przetworzone, ponieważ Twój portfel ma niewystarczające środki. Spróbujemy ponownie za 30 dni.</translation>
 <translation id="5306913077198665897">Wystąpił problem przy przetwarzaniu napiwku. Spróbuj ponownie.</translation>
@@ -1294,7 +1294,7 @@ aby otrzymywać wsparcie. Twoja przeglądarka będzie próbowała przekazać im 
 <translation id="2323069945529668668">Oho!</translation>
 <translation id="7510166204621526816">Serwer nagród Brave nie odpowiada. Naprawimy to tak szybko, jak to możliwe.</translation>
 <translation id="2104073734684466851">Przyznane środki</translation>
-<translation id="3068742524072211213">wygasa dnia <ph name="DATE"><ex>4/14/2019</ex></ph></translation>
+<translation id="3068742524072211213">wygasa dnia <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Niewystarczające środki</translation>
 <translation id="2775064702681588061">Twoje konto nagród Brave czeka na depozyt.</translation>
 <translation id="765834632354589737">Kopia zapasowa portfela</translation>

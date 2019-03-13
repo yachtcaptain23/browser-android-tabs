@@ -1236,7 +1236,7 @@ gledanjem reklama koje poštuju privatnost.</translation>
 <translation id="7530570094705720669">Kreiranje novčanika</translation>
 <translation id="3780605330121608425">Vaš novčanik</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Dodaj sredstva</translation>
 <translation id="2730771409541953249">PREGLED NAGRADA</translation>
 <translation id="8596647978585397359">Hvala vam što ste svratili!</translation>
@@ -1265,7 +1265,7 @@ gledanjem reklama koje poštuju privatnost.</translation>
 <translation id="8220228041552340594">OKTOBAR</translation>
 <translation id="8280223431922155812">NOVEMBAR</translation>
 <translation id="4254029385847607686">DECEMBAR</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DECEMBAR</ex></ph> <ph name="YEAR"><ex>2018.</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Pažnja</translation>
 <translation id="7335371657242627509">Uključi u automatske donacije</translation>
 <translation id="8918760045046434238">Pošalji napojnicu...</translation>
@@ -1274,7 +1274,7 @@ meseca...</translation>
 <translation id="4914597931214386232">Prihvaćeni dodeljeni tokeni</translation>
 <translation id="298067735430872465">Zarade od reklama</translation>
 <translation id="6112368337882254910">Automatske donacije</translation>
-<translation id="4781696154289395607">Donirali ste <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Donirali ste <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Jednokratne napojnice</translation>
 <translation id="7577100371127227294">Mesečne napojnice</translation>
 <translation id="8772672608371898774">Verifikovani Brave izdavač</translation>
@@ -1286,7 +1286,7 @@ Sve napojnice koje pošaljete ostaće u vašem novčaniku dok se kreator ne veri
 <translation id="606865182719489911">Dostupna je dodela besplatnog tokena</translation>
 <translation id="3453206261112715431">Dodela besplatnog tokena</translation>
 <translation id="13853865024308201">Prihvati</translation>
-<translation id="3692362746128814480">Namenili ste <ph name="BAT_VALUE"><ex>50</ex></ph> BAT kreatorima koji se nisu
+<translation id="3692362746128814480">Namenili ste <ph name="BAT_VALUE" /> BAT kreatorima koji se nisu
 još uvek prijavili za primanje donacija. Vaš pregledač će nastaviti da pokušava da izvrši donaciju
 dok ne budu verifikovani ili dok ne prođe 90 dana.</translation>
 <translation id="7997676409547731821">Vaša planirana mesečna uplata automatskih donacija i mesečnih napojnica nije mogla biti izvršena zbog nedostatka sredstava. Pokušaćemo ponovo za 30 dana.</translation>
@@ -1295,7 +1295,7 @@ dok ne budu verifikovani ili dok ne prođe 90 dana.</translation>
 <translation id="2323069945529668668">Uh, uh!</translation>
 <translation id="7510166204621526816">Server Brave nagrada ne reaguje. Rešićemo ovaj problem što je pre moguće.</translation>
 <translation id="2104073734684466851">Odobreni tokeni</translation>
-<translation id="3068742524072211213">ističe <ph name="DATE"><ex>4.14.2019.</ex></ph></translation>
+<translation id="3068742524072211213">ističe <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Nedovoljno sredstava</translation>
 <translation id="2775064702681588061">Vaš nalog za Brave nagrade očekuje uplatu.</translation>
 <translation id="765834632354589737">Rezervni novčanik</translation>

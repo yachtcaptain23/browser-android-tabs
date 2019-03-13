@@ -1239,7 +1239,7 @@ HTTPS</translation>
 <translation id="7530570094705720669">جار إنشاء محفظة</translation>
 <translation id="3780605330121608425">محفظتك</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">إضافة أموال</translation>
 <translation id="2730771409541953249">ملخص الجوائز</translation>
 <translation id="8596647978585397359">نشكرك على مرورك علينا!</translation>
@@ -1268,7 +1268,7 @@ HTTPS</translation>
 <translation id="8220228041552340594">أكتوبر</translation>
 <translation id="8280223431922155812">نوفمبر</translation>
 <translation id="4254029385847607686">ديسمبر</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>ديسمبر</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">تنبيه</translation>
 <translation id="7335371657242627509">تضمين مساهمة تلقائية</translation>
 <translation id="8918760045046434238">إرسال إكرامية...</translation>
@@ -1277,7 +1277,7 @@ HTTPS</translation>
 <translation id="4914597931214386232">تمت المطالبة بمِنح الرموز السرية</translation>
 <translation id="298067735430872465">الأرباح من الإعلانات</translation>
 <translation id="6112368337882254910">المساهمة التلقائية</translation>
-<translation id="4781696154289395607">لقد ساهمت بـ <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">لقد ساهمت بـ <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">إكراميات لمرة واحدة</translation>
 <translation id="7577100371127227294">إكراميات شهرية</translation>
 <translation id="8772672608371898774">ناشر مُصدّق في Brave</translation>
@@ -1289,7 +1289,7 @@ HTTPS</translation>
 <translation id="606865182719489911">تتوفر منحة رمز سري مجانية.</translation>
 <translation id="3453206261112715431">منحة رمز سري</translation>
 <translation id="13853865024308201">مطالبة</translation>
-<translation id="3692362746128814480">لقد خصصت <ph name="BAT_VALUE"><ex>50</ex></ph> BAT لمبتكرين لم
+<translation id="3692362746128814480">لقد خصصت <ph name="BAT_VALUE" /> BAT لمبتكرين لم
 يشتركوا بعد لتلقِّي مساهمات. سيستمر متصفحك في محاولة الإسهام
 حتى يتم  التصديق عليه، أو حتى يمر 90 يومًا.</translation>
 <translation id="7997676409547731821">لقد حددت موعد مبلغ شهريّ للمساهمة التلقائية وتعذّر إتمام الإكراميات الشهرية بسبب عدم كفاية الأموال. سنحاول نحن و’ مجددًا خلال 30 يومًا.</translation>
@@ -1298,7 +1298,7 @@ HTTPS</translation>
 <translation id="2323069945529668668">عذرًا!</translation>
 <translation id="7510166204621526816">لا يستجيب خادم جوائز Brave. سنُصلح هذه المشكلة بأسرع ما يمكن.</translation>
 <translation id="2104073734684466851">المِنح</translation>
-<translation id="3068742524072211213">تنتهي الصلاحية في <ph name="DATE"><ex>4/14/2019</ex></ph></translation>
+<translation id="3068742524072211213">تنتهي الصلاحية في <ph name="DATE" /></translation>
 <translation id="7550470870580166294">أموال غير كافية</translation>
 <translation id="2775064702681588061">ينتظر حساب جوائز Brave الخاص بك إيداعًا.</translation>
 <translation id="765834632354589737">المحفظة الاحتياطية</translation>

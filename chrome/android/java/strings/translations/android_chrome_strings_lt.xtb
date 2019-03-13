@@ -1234,7 +1234,7 @@ reklamas galite užsidirbti žetonų.</translation>
 <translation id="7530570094705720669">Piniginės kūrimas</translation>
 <translation id="3780605330121608425">Jūsų piniginė</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Įdėti pinigų</translation>
 <translation id="2730771409541953249">ATLYGIO SUVESTINĖ</translation>
 <translation id="8596647978585397359">Ačiū, kad susidomėjote!</translation>
@@ -1263,7 +1263,7 @@ reklamas galite užsidirbti žetonų.</translation>
 <translation id="8220228041552340594">SPALIS</translation>
 <translation id="8280223431922155812">LAPKRITIS</translation>
 <translation id="4254029385847607686">GRUODIS</translation>
-<translation id="937392350501765664"><ph name="YEAR"><ex>2018 M.</ex></ph> <ph name="MONTH"><ex>GRUODIS</ex></ph></translation>
+<translation id="937392350501765664"><ph name="YEAR" /> <ph name="MONTH" /></translation>
 <translation id="3074127054582480056">Dėmėsio</translation>
 <translation id="7335371657242627509">Įtraukti į automatinio mokėjimo programą</translation>
 <translation id="8918760045046434238">Siųsti arbatpinigių...</translation>
@@ -1272,7 +1272,7 @@ mėnesį...</translation>
 <translation id="4914597931214386232">Atsiimta dovanotų žetonų</translation>
 <translation id="298067735430872465">Uždarbis iš reklamų</translation>
 <translation id="6112368337882254910">Automatinis dotavimas</translation>
-<translation id="4781696154289395607">Jūs dotavote <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Jūs dotavote <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Vienkartiniai arbatpinigiai</translation>
 <translation id="7577100371127227294">Mėnesiniai arbatpinigiai</translation>
 <translation id="8772672608371898774">„Brave“ patvirtintas kūrėjas</translation>
@@ -1284,7 +1284,7 @@ mėnesį...</translation>
 <translation id="606865182719489911">Turime nemokamą žetoną dovanų.</translation>
 <translation id="3453206261112715431">Nemokamas žetonas dovanų</translation>
 <translation id="13853865024308201">Atsiimti</translation>
-<translation id="3692362746128814480">Jūsų skyrėte <ph name="BAT_VALUE"><ex>50</ex></ph> BAT kūrėjams, kurie
+<translation id="3692362746128814480">Jūsų skyrėte <ph name="BAT_VALUE" /> BAT kūrėjams, kurie
 dar neužsiregistravo dotacijoms gauti. Jūsų naršyklė bandys jiems dotuoti,
 kol jie patvirtins arba kol sueis 90 dienų terminas.</translation>
 <translation id="7997676409547731821">Suplanuoto mėnesinio automatinio dotavimo mokėjimo atlikti ir mėnesinių arbatpinigių išsiųsti nepavyko, nes trūksta pinigų. Po 30 dienų pabandysime dar kartą.</translation>
@@ -1293,7 +1293,7 @@ kol jie patvirtins arba kol sueis 90 dienų terminas.</translation>
 <translation id="2323069945529668668">O, ne!</translation>
 <translation id="7510166204621526816">Jūsų „Brave“ atlygio serveris neatsako. Šią problemą kuo skubiau pašalinsime.</translation>
 <translation id="2104073734684466851">Dovanos</translation>
-<translation id="3068742524072211213">galioja iki <ph name="DATE"><ex>2019-04-14</ex></ph></translation>
+<translation id="3068742524072211213">galioja iki <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Nepakanka pinigų</translation>
 <translation id="2775064702681588061">Laukiama įnašo į jūsų „Brave“ atlygio sąskaitą.</translation>
 <translation id="765834632354589737">Kurti atsarginę piniginės kopiją</translation>

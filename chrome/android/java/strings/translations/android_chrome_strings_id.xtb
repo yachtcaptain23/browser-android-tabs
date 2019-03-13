@@ -1238,7 +1238,7 @@ menonton iklan yang tidak mengganggu privasi.</translation>
 <translation id="7530570094705720669">Membuat dompet</translation>
 <translation id="3780605330121608425">Dompet Anda</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Tambahkan Dana</translation>
 <translation id="2730771409541953249">RINGKASAN BRAVE REWARDS</translation>
 <translation id="8596647978585397359">Terima kasih telah berkunjung!</translation>
@@ -1267,7 +1267,7 @@ menonton iklan yang tidak mengganggu privasi.</translation>
 <translation id="8220228041552340594">OKTOBER</translation>
 <translation id="8280223431922155812">NOVEMBER</translation>
 <translation id="4254029385847607686">DESEMBER</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DESEMBER</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Perhatian</translation>
 <translation id="7335371657242627509">Sertakan dalam Kontribusi Otomatis</translation>
 <translation id="8918760045046434238">Kirim tip...</translation>
@@ -1276,7 +1276,7 @@ bulan ini...</translation>
 <translation id="4914597931214386232">Hadiah Token Diklaim</translation>
 <translation id="298067735430872465">Pendapatan dari Iklan</translation>
 <translation id="6112368337882254910">Kontribusi Otomatis</translation>
-<translation id="4781696154289395607">Anda telah berkontribusi sebesar <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Anda telah berkontribusi sebesar <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Tip Satu Kali</translation>
 <translation id="7577100371127227294">Tip Bulanan</translation>
 <translation id="8772672608371898774">Penerbit Terverifikasi Brave</translation>
@@ -1288,7 +1288,7 @@ bulan ini...</translation>
 <translation id="606865182719489911">Tersedia hadiah token gratis.</translation>
 <translation id="3453206261112715431">Hadiah Token Gratis</translation>
 <translation id="13853865024308201">Klaim</translation>
-<translation id="3692362746128814480">Anda telah menetapkan <ph name="BAT_VALUE"><ex>50</ex></ph> BAT kepada pembuat yang belum terdaftar
+<translation id="3692362746128814480">Anda telah menetapkan <ph name="BAT_VALUE" /> BAT kepada pembuat yang belum terdaftar
 untuk menerima kontribusi. Browser Anda akan terus mencoba memberikan kontribusi
 hingga diverifikasi, atau hingga 90 hari telah lewat.</translation>
 <translation id="7997676409547731821">Pembayaran bulanan terjadwal Anda untuk Kontribusi Otomatis dan tip bulanan tidak dapat diselesaikan karena dana tidak mencukupi. Kami akan mencobanya lagi dalam 30 hari.</translation>
@@ -1297,7 +1297,7 @@ hingga diverifikasi, atau hingga 90 hari telah lewat.</translation>
 <translation id="2323069945529668668">Oh!</translation>
 <translation id="7510166204621526816">Server Brave Rewards tidak merespons. Kami akan memperbaiki masalah ini secepat mungkin.</translation>
 <translation id="2104073734684466851">Hadiah</translation>
-<translation id="3068742524072211213">berakhir pada <ph name="DATE"><ex>14/4/2019</ex></ph></translation>
+<translation id="3068742524072211213">berakhir pada <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Dana Tidak Cukup</translation>
 <translation id="2775064702681588061">Akun Brave Rewards Anda sedang menunggu setoran dari Anda.</translation>
 <translation id="765834632354589737">Dompet Cadangan</translation>

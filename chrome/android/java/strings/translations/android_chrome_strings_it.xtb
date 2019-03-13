@@ -1236,7 +1236,7 @@ guardando pubblicità che rispettano la privacy.</translation>
 <translation id="7530570094705720669">Creazione portafoglio in corso</translation>
 <translation id="3780605330121608425">Il tuo portafoglio</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Aggiungi fondi</translation>
 <translation id="2730771409541953249">RIEPILOGO REWARDS</translation>
 <translation id="8596647978585397359">Grazie per la visita!</translation>
@@ -1265,7 +1265,7 @@ guardando pubblicità che rispettano la privacy.</translation>
 <translation id="8220228041552340594">OTTOBRE</translation>
 <translation id="8280223431922155812">NOVEMBRE</translation>
 <translation id="4254029385847607686">DICEMBRE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DICEMBRE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Attenzione</translation>
 <translation id="7335371657242627509">Includi in contributo automatico</translation>
 <translation id="8918760045046434238">Invia una sovvenzione...</translation>
@@ -1274,7 +1274,7 @@ questo mese...</translation>
 <translation id="4914597931214386232">Contributi in gettoni ritirati</translation>
 <translation id="298067735430872465">Entrate da pubblicità</translation>
 <translation id="6112368337882254910">Contributo automatico</translation>
-<translation id="4781696154289395607">Hai contribuito con <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Hai contribuito con <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Sovvenzioni una tantum</translation>
 <translation id="7577100371127227294">Sovvenzioni mensili</translation>
 <translation id="8772672608371898774">Editore verificato da Brave</translation>
@@ -1286,7 +1286,7 @@ questo mese...</translation>
 <translation id="606865182719489911">È disponibile un contributo in gettoni gratuito.</translation>
 <translation id="3453206261112715431">Contributo in gettoni gratuito</translation>
 <translation id="13853865024308201">Ritira</translation>
-<translation id="3692362746128814480">Hai destinato <ph name="BAT_VALUE"><ex>50</ex></ph> BAT a creatori che non hanno ancora
+<translation id="3692362746128814480">Hai destinato <ph name="BAT_VALUE" /> BAT a creatori che non hanno ancora
 effettuato l'iscrizione per ricevere contributi. Il browser continuerà
 a provare a inviare il contributo finché non risulteranno verificati o finché non saranno trascorsi 90 giorni.</translation>
 <translation id="7997676409547731821">A causa di fondi insufficienti, non è stato possibile completare il pagamento mensile pianificato per contributi automatici e sovvenzioni mensili. Riproveremo nuovamente tra 30 giorni.</translation>
@@ -1295,7 +1295,7 @@ a provare a inviare il contributo finché non risulteranno verificati o finché 
 <translation id="2323069945529668668">Oh oh!</translation>
 <translation id="7510166204621526816">Il server Brave Rewards non risponde. Risolveremo il problema il prima possibile.</translation>
 <translation id="2104073734684466851">Contributi</translation>
-<translation id="3068742524072211213">scade il <ph name="DATE"><ex>14/04/2019</ex></ph></translation>
+<translation id="3068742524072211213">scade il <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fondi insufficienti</translation>
 <translation id="2775064702681588061">Il tuo conto Brave Rewards è in attesa di un versamento.</translation>
 <translation id="765834632354589737">Backup portafoglio</translation>

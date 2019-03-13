@@ -1234,7 +1234,7 @@ sada možete zaraditi žetone.</translation>
 <translation id="7530570094705720669">Izrada lisnice</translation>
 <translation id="3780605330121608425">Vaša lisnica</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph>USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" />USD</translation>
 <translation id="1165667598801520610">Dodaj sredstva</translation>
 <translation id="2730771409541953249">SAŽETAK NAGRADA</translation>
 <translation id="8596647978585397359">Hvala što ste navratili!</translation>
@@ -1263,7 +1263,7 @@ sada možete zaraditi žetone.</translation>
 <translation id="8220228041552340594">LISTOPAD</translation>
 <translation id="8280223431922155812">STUDENI</translation>
 <translation id="4254029385847607686">PROSINAC</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>PROSINCA</ex></ph><ph name="YEAR"><ex>2018.</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /><ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Pažnja</translation>
 <translation id="7335371657242627509">Obuhvati automatskim doprinosom</translation>
 <translation id="8918760045046434238">Pošalji napojnicu</translation>
@@ -1272,7 +1272,7 @@ mjesecu</translation>
 <translation id="4914597931214386232">Preuzeti iznos žetona</translation>
 <translation id="298067735430872465">Zarada od oglasa</translation>
 <translation id="6112368337882254910">Automatski doprinesi</translation>
-<translation id="4781696154289395607">Doprinijeli ste <ph name="BAT_VALUE"><ex>50</ex></ph>BAT.</translation>
+<translation id="4781696154289395607">Doprinijeli ste <ph name="BAT_VALUE" />BAT.</translation>
 <translation id="9182287025588539628">Jednokratne napojnice</translation>
 <translation id="7577100371127227294">Mjesečne napojnice</translation>
 <translation id="8772672608371898774">Izdavač kojeg je potvrdio Brave</translation>
@@ -1284,7 +1284,7 @@ Sve poslane napojnice ostat će u vašoj lisnici dok ih stvaratelj ne potvrdi.</
 <translation id="606865182719489911">Dostupni su besplatni žetoni.</translation>
 <translation id="3453206261112715431">Besplatni žetoni</translation>
 <translation id="13853865024308201">Preuzmi</translation>
-<translation id="3692362746128814480">Namijenili ste <ph name="BAT_VALUE"><ex>50</ex></ph>BAT stvarateljima koji se još nisu
+<translation id="3692362746128814480">Namijenili ste <ph name="BAT_VALUE" />BAT stvarateljima koji se još nisu
 prijavili za primanje doprinosa. Vaš će preglednik pokušavati proslijediti doprinose
 dok ih stvaratelj ne potvrdi ili dok ne prođe 90 dana.</translation>
 <translation id="7997676409547731821">Vaša se zakazana mjesečna uplata za automatski doprinos ne može izvršiti niti se mjesečne napojnice mogu dovršiti jer nemate dovoljno sredstava. Pokušat ćemo ponovno za 30 dana.</translation>
@@ -1293,7 +1293,7 @@ dok ih stvaratelj ne potvrdi ili dok ne prođe 90 dana.</translation>
 <translation id="2323069945529668668">Ups!</translation>
 <translation id="7510166204621526816">Polužitelj nagrada za Brave ne reagira. Popravit ćemo problem što je prije moguće.</translation>
 <translation id="2104073734684466851">Dodijeljenja sredstva</translation>
-<translation id="3068742524072211213">istječe<ph name="DATE"><ex>14. 4. 2019.</ex></ph></translation>
+<translation id="3068742524072211213">istječe<ph name="DATE" /></translation>
 <translation id="7550470870580166294">Nedovoljno sredstava</translation>
 <translation id="2775064702681588061">Vaš račun nagrada za Brave čeka depozit.</translation>
 <translation id="765834632354589737">Sigurnosna kopija lisnice</translation>

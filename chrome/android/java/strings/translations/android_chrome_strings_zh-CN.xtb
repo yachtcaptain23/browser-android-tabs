@@ -1231,7 +1231,7 @@
 <translation id="7530570094705720669">创建钱包</translation>
 <translation id="3780605330121608425">您的钱包</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">增加资金</translation>
 <translation id="2730771409541953249">奖励摘要</translation>
 <translation id="8596647978585397359">感谢您关注！</translation>
@@ -1260,7 +1260,7 @@
 <translation id="8220228041552340594">十月</translation>
 <translation id="8280223431922155812">十一月</translation>
 <translation id="4254029385847607686">十二月</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>十二月</ex></ph>（ <ph name="YEAR"><ex>2018</ex></ph> 年）</translation>
+<translation id="937392350501765664"><ph name="MONTH" />（ <ph name="YEAR" /> 年）</translation>
 <translation id="3074127054582480056">注意</translation>
 <translation id="7335371657242627509">包括于自动捐献中</translation>
 <translation id="8918760045046434238">发送小费...</translation>
@@ -1269,7 +1269,7 @@
 <translation id="4914597931214386232">代币捐款已认领</translation>
 <translation id="298067735430872465">广告收益</translation>
 <translation id="6112368337882254910">自动捐献</translation>
-<translation id="4781696154289395607">您已捐献 <ph name="BAT_VALUE"><ex>50</ex></ph> BAT。</translation>
+<translation id="4781696154289395607">您已捐献 <ph name="BAT_VALUE" /> BAT。</translation>
 <translation id="9182287025588539628">一次性小费</translation>
 <translation id="7577100371127227294">每月小费</translation>
 <translation id="8772672608371898774">Brave 验证发表者</translation>
@@ -1282,7 +1282,7 @@
 <translation id="3453206261112715431">未认领代币捐款</translation>
 <translation id="13853865024308201">认领</translation>
 <translation id="3692362746128814480">您已为尚未签收捐款的创建者指定
- <ph name="BAT_VALUE"><ex>50</ex></ph> BAT。您的浏览器
+ <ph name="BAT_VALUE" /> BAT。您的浏览器
 将不断尝试捐献，直至得到验证，或者直至 90 天后。</translation>
 <translation id="7997676409547731821">您为自动捐献和每月小费安排的每月付款因资金不足而无法完成。我们将在 30 天内再试一次。</translation>
 <translation id="5306913077198665897">处理您的小费时出现问题，请再试一次。</translation>
@@ -1290,7 +1290,7 @@
 <translation id="2323069945529668668">哎呀！</translation>
 <translation id="7510166204621526816">Brave 奖励服务器无响应。我们将尽快修复。</translation>
 <translation id="2104073734684466851">捐款</translation>
-<translation id="3068742524072211213">于 <ph name="DATE"><ex>2019 年 4 月 14 日</ex></ph> 到期</translation>
+<translation id="3068742524072211213">于 <ph name="DATE" /> 到期</translation>
 <translation id="7550470870580166294">资金不足</translation>
 <translation id="2775064702681588061">您的 Brave 奖励账户正在等待存款。</translation>
 <translation id="765834632354589737">备份钱包</translation>

@@ -1235,7 +1235,7 @@ yksityisyyttä kunnioittavia mainoksia.</translation>
 <translation id="7530570094705720669">Luodaan lompakkoa</translation>
 <translation id="3780605330121608425">Oma lompakko</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Lisää varoja</translation>
 <translation id="2730771409541953249">REWARDS-YHTEENVETO</translation>
 <translation id="8596647978585397359">Kiitos käynnistä!</translation>
@@ -1264,7 +1264,7 @@ yksityisyyttä kunnioittavia mainoksia.</translation>
 <translation id="8220228041552340594">LOKAKUU</translation>
 <translation id="8280223431922155812">MARRASKUU</translation>
 <translation id="4254029385847607686">JOULUKUU</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>JOULUKUU</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Huomio</translation>
 <translation id="7335371657242627509">Sisällytä automaattiseen avustukseen</translation>
 <translation id="8918760045046434238">Lähetä tippi...</translation>
@@ -1273,7 +1273,7 @@ kuussa...</translation>
 <translation id="4914597931214386232">Polettilahjoituksia lunastettu</translation>
 <translation id="298067735430872465">Ansiot mainoksista</translation>
 <translation id="6112368337882254910">Automaattinen avustus</translation>
-<translation id="4781696154289395607">Avustit <ph name="BAT_VALUE"><ex>50</ex></ph> BAT:illa.</translation>
+<translation id="4781696154289395607">Avustit <ph name="BAT_VALUE" /> BAT:illa.</translation>
 <translation id="9182287025588539628">Kertaluontoiset tipit</translation>
 <translation id="7577100371127227294">Kuukausittaiset tipit</translation>
 <translation id="8772672608371898774">Vahvistettu Brave-julkaisija</translation>
@@ -1285,7 +1285,7 @@ Kaikki lähettämäsi tipit pysyvät lompakossasi, kunnes hän vahvistaa itsens�
 <translation id="606865182719489911">Ilmainen poletti saatavilla.</translation>
 <translation id="3453206261112715431">Ilmainen polettilahjoitus</translation>
 <translation id="13853865024308201">Lunasta</translation>
-<translation id="3692362746128814480">Osoitit <ph name="BAT_VALUE"><ex>50</ex></ph> BAT:ia luojalle, joka ei ole vielä kirjautunut
+<translation id="3692362746128814480">Osoitit <ph name="BAT_VALUE" /> BAT:ia luojalle, joka ei ole vielä kirjautunut
 vastaanottamaan avustuksia. Selaimesi yrittää avustaa, kunnes hän vahvistaa
 itsensä tai 90 päivän aikaraja umpeutuu.</translation>
 <translation id="7997676409547731821">Ajastettua automaattisten avustusten ja kuukausittaisten tippien maksua ei voitu suorittaa, koska varat eivät riitä. Yritämme 30 päivän päästä uudestaan.</translation>
@@ -1294,7 +1294,7 @@ itsensä tai 90 päivän aikaraja umpeutuu.</translation>
 <translation id="2323069945529668668">Ohoh!</translation>
 <translation id="7510166204621526816">Brave Rewards -palvelin ei vastaa. Korjaamme tämän mahdollisimman pian.</translation>
 <translation id="2104073734684466851">Lahjoitukset</translation>
-<translation id="3068742524072211213">erääntyy <ph name="DATE"><ex>14.4.2019</ex></ph></translation>
+<translation id="3068742524072211213">erääntyy <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Varat eivät riitä</translation>
 <translation id="2775064702681588061">Brave Rewards -tilisi odottaa talletusta.</translation>
 <translation id="765834632354589737">Varmuuskopioi lompakko</translation>

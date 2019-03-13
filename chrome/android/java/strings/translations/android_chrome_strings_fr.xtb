@@ -1235,7 +1235,7 @@ visionnant des publicités qui respectent la vie privée.</translation>
 <translation id="7530570094705720669">Création d'un portefeuille</translation>
 <translation id="3780605330121608425">Votre portefeuille</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Ajouter des fonds</translation>
 <translation id="2730771409541953249">RÉSUMÉ DU PROGRAMME REWARDS</translation>
 <translation id="8596647978585397359">Nous vous remercions de l'intérêt que vous portez à notre programme.</translation>
@@ -1264,7 +1264,7 @@ visionnant des publicités qui respectent la vie privée.</translation>
 <translation id="8220228041552340594">OCTOBRE</translation>
 <translation id="8280223431922155812">NOVEMBRE</translation>
 <translation id="4254029385847607686">DÉCEMBRE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DÉCEMBRE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Attention</translation>
 <translation id="7335371657242627509">Inclure dans un don automatique</translation>
 <translation id="8918760045046434238">Envoyer un pourboire…</translation>
@@ -1273,7 +1273,7 @@ pour le moment…</translation>
 <translation id="4914597931214386232">Attributions de jeton réclamées</translation>
 <translation id="298067735430872465">Gains provenant de publicités</translation>
 <translation id="6112368337882254910">Don automatique</translation>
-<translation id="4781696154289395607">Vous avez offert un don de <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Vous avez offert un don de <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Pourboires uniques</translation>
 <translation id="7577100371127227294">Pourboires mensuels</translation>
 <translation id="8772672608371898774">Éditeur Brave vérifié</translation>
@@ -1285,7 +1285,7 @@ pour le moment…</translation>
 <translation id="606865182719489911">L'attribution d'un jeton gratuit est disponible.</translation>
 <translation id="3453206261112715431">Attribution de jeton gratuit</translation>
 <translation id="13853865024308201">Réclamer</translation>
-<translation id="3692362746128814480">Vous avez dédié <ph name="BAT_VALUE"><ex>50</ex></ph> BAT pour des créateurs qui ne se sont pas
+<translation id="3692362746128814480">Vous avez dédié <ph name="BAT_VALUE" /> BAT pour des créateurs qui ne se sont pas
 encore inscrits pour recevoir des dons. Votre navigateur continuera à essayer d'envoyer des dons
 jusqu'à ce qu'ils procèdent à une vérification ou jusqu'à ce que 90 jours se soient écoulés.</translation>
 <translation id="7997676409547731821">Votre paiement mensuel programmé pour le don automatique et les pourboires mensuels n'a pas pu être effectué en raison de fonds insuffisants. Nous réessaierons dans 30 jours.</translation>
@@ -1294,7 +1294,7 @@ jusqu'à ce qu'ils procèdent à une vérification ou jusqu'à ce que 90 jours 
 <translation id="2323069945529668668">Oups !</translation>
 <translation id="7510166204621526816">Le serveur Brave Rewards ne répond pas. Nous y remédierons dès que possible.</translation>
 <translation id="2104073734684466851">Dons</translation>
-<translation id="3068742524072211213">expire le <ph name="DATE"><ex>14/04/2019</ex></ph></translation>
+<translation id="3068742524072211213">expire le <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fonds insuffisants</translation>
 <translation id="2775064702681588061">Votre compte Brave Rewards attend un dépôt.</translation>
 <translation id="765834632354589737">Sauvegarder le portefeuille</translation>

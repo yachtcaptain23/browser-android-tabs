@@ -1237,7 +1237,7 @@ a magánszférát tiszteletben tartó hirdetések megtekintéséért.</translati
 <translation id="7530570094705720669">Pénztárca létrehozása</translation>
 <translation id="3780605330121608425">Az Ön pénztárcája</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Pénz hozzáadása</translation>
 <translation id="2730771409541953249">A REWARDS ÖSSZEFOGLALÁSA</translation>
 <translation id="8596647978585397359">Köszönjük, hogy benézett hozzánk!</translation>
@@ -1266,7 +1266,7 @@ a magánszférát tiszteletben tartó hirdetések megtekintéséért.</translati
 <translation id="8220228041552340594">OKTÓBER</translation>
 <translation id="8280223431922155812">NOVEMBER</translation>
 <translation id="4254029385847607686">DECEMBER</translation>
-<translation id="937392350501765664"><ph name="YEAR"><ex>2018.</ex></ph> <ph name="MONTH"><ex>DECEMBER</ex></ph> </translation>
+<translation id="937392350501765664"><ph name="YEAR" /> <ph name="MONTH" /> </translation>
 <translation id="3074127054582480056">Figyelem</translation>
 <translation id="7335371657242627509">Felvétel az Automatikus hozzájárulások közé</translation>
 <translation id="8918760045046434238">Borravaló küldése...</translation>
@@ -1275,7 +1275,7 @@ tevékenység...</translation>
 <translation id="4914597931214386232">Igényelt jutalompontok</translation>
 <translation id="298067735430872465">Bevételek hirdetésekből</translation>
 <translation id="6112368337882254910">Automatikus hozzájárulás</translation>
-<translation id="4781696154289395607">Az Ön hozzájárulása <ph name="BAT_VALUE"><ex>50 </ex></ph>BAT. </translation>
+<translation id="4781696154289395607">Az Ön hozzájárulása <ph name="BAT_VALUE" />BAT. </translation>
 <translation id="9182287025588539628">Egyszeri borravalók</translation>
 <translation id="7577100371127227294">Havi borravalók</translation>
 <translation id="8772672608371898774">A Brave által hitelesített szerző</translation>
@@ -1287,7 +1287,7 @@ A neki küldött borravaló az Ön pénztárcájában marad, amíg nem hitelesí
 <translation id="606865182719489911">Ingyenes jutalompont áll rendelkezésre.</translation>
 <translation id="3453206261112715431">Ingyenes jutalompont</translation>
 <translation id="13853865024308201">Igénylés</translation>
-<translation id="3692362746128814480">Ön <ph name="BAT_VALUE"><ex>50</ex></ph>BAT hozzájárulást küldött olyan szerzőknek,
+<translation id="3692362746128814480">Ön <ph name="BAT_VALUE" />BAT hozzájárulást küldött olyan szerzőknek,
 akik még nem regisztráltak, hogy hozzájárulásokat kaphassanak. Az Ön böngészője továbbra is megpróbálja elküldeni a hozzájárulást,
 amíg nem hitelesíttetik magukat vagy el nem telik 90 nap.</translation>
 <translation id="7997676409547731821">Az ön beütemezett Automatikus hozzájárulásait és havi borravalóit nem tudtuk teljesíteni, mert nincs elég hozzáadott pénze. 30 nap múlva újra próbálkozunk.</translation>
@@ -1296,7 +1296,7 @@ amíg nem hitelesíttetik magukat vagy el nem telik 90 nap.</translation>
 <translation id="2323069945529668668">Ajjaj!</translation>
 <translation id="7510166204621526816">A Brave Rewards kiszolgálója nem válaszol. A lehető leggyorsabban elhárítjuk a hibát.</translation>
 <translation id="2104073734684466851">Jutalom</translation>
-<translation id="3068742524072211213">lejárat: <ph name="DATE"><ex>2019. 04. 14.</ex></ph></translation>
+<translation id="3068742524072211213">lejárat: <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Nincs elég hozzáadott pénz</translation>
 <translation id="2775064702681588061">Az Ön Brave Rewards-fiókja pénzhozzáadásra vár.</translation>
 <translation id="765834632354589737">Pénztárca mentése</translation>

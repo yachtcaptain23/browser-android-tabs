@@ -1236,7 +1236,7 @@ assistir a anúncios que respeitam sua privacidade.</translation>
 <translation id="7530570094705720669">Criando carteira digital</translation>
 <translation id="3780605330121608425">Sua carteira digital</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,00</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Adicionar saldo</translation>
 <translation id="2730771409541953249">RESUMO DO REWARDS</translation>
 <translation id="8596647978585397359">Obrigado pela visita!</translation>
@@ -1265,7 +1265,7 @@ assistir a anúncios que respeitam sua privacidade.</translation>
 <translation id="8220228041552340594">OUTUBRO</translation>
 <translation id="8280223431922155812">NOVEMBRO</translation>
 <translation id="4254029385847607686">DEZEMBRO</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DEZEMBRO</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atenção</translation>
 <translation id="7335371657242627509">Incluir na contribuição automática</translation>
 <translation id="8918760045046434238">Enviar uma doação...</translation>
@@ -1274,7 +1274,7 @@ atividade neste mês...</translation>
 <translation id="4914597931214386232">Concessões de tokens reivindicadas</translation>
 <translation id="298067735430872465">Lucros com anúncios</translation>
 <translation id="6112368337882254910">Contribuir automaticamente</translation>
-<translation id="4781696154289395607">Você contribuiu <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Você contribuiu <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Doações individuais</translation>
 <translation id="7577100371127227294">Doações mensais</translation>
 <translation id="8772672608371898774">Editor verificado pelo Brave</translation>
@@ -1286,7 +1286,7 @@ atividade neste mês...</translation>
 <translation id="606865182719489911">Uma concessão de token gratuita está disponível.</translation>
 <translation id="3453206261112715431">Concessão de token gratuita</translation>
 <translation id="13853865024308201">Reivindicar</translation>
-<translation id="3692362746128814480">Você designou <ph name="BAT_VALUE"><ex>50</ex></ph> BAT para criadores que
+<translation id="3692362746128814480">Você designou <ph name="BAT_VALUE" /> BAT para criadores que
 ainda não se cadastraram para receber contribuições. Seu navegador continuará tentando contribuir
 até que os criadores verifiquem as contas ou por um período de 90 dias.</translation>
 <translation id="7997676409547731821">Não foi possível realizar seu pagamento mensal da Contribuição automática e das doações mensais. Seu saldo é insuficiente. Tentaremos novamente em 30 dias.</translation>
@@ -1295,7 +1295,7 @@ até que os criadores verifiquem as contas ou por um período de 90 dias.</trans
 <translation id="2323069945529668668">Oh, não!</translation>
 <translation id="7510166204621526816">O servidor do Brave Rewards não está respondendo. Corrigiremos esse problema o mais rápido possível.</translation>
 <translation id="2104073734684466851">Concessões</translation>
-<translation id="3068742524072211213">expira em <ph name="DATE"><ex>14/04/2019</ex></ph></translation>
+<translation id="3068742524072211213">expira em <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Saldo insuficiente</translation>
 <translation id="2775064702681588061">Sua conta do Brave Rewards está aguardando um depósito.</translation>
 <translation id="765834632354589737">Fazer backup da carteira digital</translation>

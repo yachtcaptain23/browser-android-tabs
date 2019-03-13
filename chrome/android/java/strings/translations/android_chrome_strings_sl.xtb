@@ -1234,7 +1234,7 @@ gledanjem oglasov, ki spoštujejo vašo zasebnost.</translation>
 <translation id="7530570094705720669">Ustvarjanje denarnice</translation>
 <translation id="3780605330121608425">Vaša denarnica</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph>USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" />USD</translation>
 <translation id="1165667598801520610">Dodaj sredstva</translation>
 <translation id="2730771409541953249">POVZETEK NAGRAD</translation>
 <translation id="8596647978585397359">Zahvaljujemo se vam za vaš obisk!</translation>
@@ -1263,7 +1263,7 @@ gledanjem oglasov, ki spoštujejo vašo zasebnost.</translation>
 <translation id="8220228041552340594">OKTOBER</translation>
 <translation id="8280223431922155812">NOVEMBER</translation>
 <translation id="4254029385847607686">DECEMBER</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DECEMBER</ex></ph><ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /><ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Pozor</translation>
 <translation id="7335371657242627509">Vključi v samodejno donacijo</translation>
 <translation id="8918760045046434238">Pošlji donacijo ...</translation>
@@ -1272,7 +1272,7 @@ dejavnosti ...</translation>
 <translation id="4914597931214386232">Zahtevana donacija za žetone</translation>
 <translation id="298067735430872465">Zaslužek od oglasov</translation>
 <translation id="6112368337882254910">Samodejna donacija</translation>
-<translation id="4781696154289395607">Donirali ste <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Donirali ste <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Enkratna donacija</translation>
 <translation id="7577100371127227294">Mesečna donacija</translation>
 <translation id="8772672608371898774">Preverjeni ustvarjalec vsebine Brave</translation>
@@ -1284,7 +1284,7 @@ Donacije, ki jih pošljete, bodo v vaši denarnici, dokler jih ustvarjalec vsebi
 <translation id="606865182719489911">Na voljo je brezplačen dostop do žetona.</translation>
 <translation id="3453206261112715431">Brezplačen dostop do žetona</translation>
 <translation id="13853865024308201">Zaprosi</translation>
-<translation id="3692362746128814480">Namenili ste <ph name="BAT_VALUE"><ex>50</ex></ph> BAT za ustvarjalce vsebine, ki se še niso
+<translation id="3692362746128814480">Namenili ste <ph name="BAT_VALUE" /> BAT za ustvarjalce vsebine, ki se še niso
 prijavili za prejemanje donacij. Vaš brskalnik bo še naprej poskušal izvesti donacijo, dokler
 je ne potrdijo oziroma do preteka 90 dni.</translation>
 <translation id="7997676409547731821">Vašega izbranega mesečnega prispevka za samodejno donacijo ali mesečne donacije ni bilo mogoče izvesti zaradi nezadostnih sredstev. Ponovno bomo poskusili čez 30 dni.</translation>
@@ -1293,7 +1293,7 @@ je ne potrdijo oziroma do preteka 90 dni.</translation>
 <translation id="2323069945529668668">Ojoj!</translation>
 <translation id="7510166204621526816">Strežnik Brave Rewards se ne odziva. Težave bomo skušali rešiti čim prej.</translation>
 <translation id="2104073734684466851">Zneski</translation>
-<translation id="3068742524072211213">poteče dne <ph name="DATE"><ex>14. 4. 2019</ex></ph></translation>
+<translation id="3068742524072211213">poteče dne <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Nezadostna sredstva</translation>
 <translation id="2775064702681588061">Vaš račun Brave Rewards čaka na nakazilo.</translation>
 <translation id="765834632354589737">Varnostna kopija denarnice</translation>

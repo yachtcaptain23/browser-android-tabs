@@ -1234,7 +1234,7 @@ HTTPS</translation>
 <translation id="7530570094705720669">درحال ایجاد کیف پول</translation>
 <translation id="3780605330121608425">کیف پول شما</translation>
 <translation id="8845154268466251503">بت</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> دلار آمریکا</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> دلار آمریکا</translation>
 <translation id="1165667598801520610">افزودن سرمایه</translation>
 <translation id="2730771409541953249">خلاصه پاداش‌ها</translation>
 <translation id="8596647978585397359">از بازدیدتان سپاسگزاریم!</translation>
@@ -1263,7 +1263,7 @@ HTTPS</translation>
 <translation id="8220228041552340594">اکتبر</translation>
 <translation id="8280223431922155812">نوامبر</translation>
 <translation id="4254029385847607686">دسامبر</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>دسامبر</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">توجه</translation>
 <translation id="7335371657242627509">لحاظ کردن در «کمک نقدی خودکار»</translation>
 <translation id="8918760045046434238">ارسال انعام...</translation>
@@ -1272,7 +1272,7 @@ HTTPS</translation>
 <translation id="4914597931214386232">اعطای توکن مطالبه شد</translation>
 <translation id="298067735430872465">کسب درآمد از آگهی‌ها</translation>
 <translation id="6112368337882254910">کمک نقدی خودکار</translation>
-<translation id="4781696154289395607"><ph name="BAT_VALUE"><ex>50</ex></ph> بت کمک نقدی داشتید.</translation>
+<translation id="4781696154289395607"><ph name="BAT_VALUE" /> بت کمک نقدی داشتید.</translation>
 <translation id="9182287025588539628">انعام یک‌باره</translation>
 <translation id="7577100371127227294">انعام ماهانه</translation>
 <translation id="8772672608371898774">ناشر تأییدشده Brave</translation>
@@ -1284,7 +1284,7 @@ HTTPS</translation>
 <translation id="606865182719489911">اعطای توکن رایگان دردسترس است.</translation>
 <translation id="3453206261112715431">اعطای توکن رایگان</translation>
 <translation id="13853865024308201">مطالبه</translation>
-<translation id="3692362746128814480"><ph name="BAT_VALUE"><ex>50</ex></ph> بت برای پدیدآورندگانی که هنوز برای دریافت کمک نقدی
+<translation id="3692362746128814480"><ph name="BAT_VALUE" /> بت برای پدیدآورندگانی که هنوز برای دریافت کمک نقدی
 ثبت‌نام نکرده‌اند، در نظر گرفته‌اید. مرورگرتان تا زمانی‌که آنها به تأیید برسند، یا
 تا 90 روز دیگر سعی می‌کند کمک شما را منتقل کند.</translation>
 <translation id="7997676409547731821">پرداخت ماهانه زمان‌بندی‌شده‌تان برای کمک نقدی خودکار و انعام‌های ماهانه به دلیل سرمایه ناکافی کامل نشد. 30 روز دیگر دوباره امتحان خواهیم کرد.</translation>
@@ -1293,7 +1293,7 @@ HTTPS</translation>
 <translation id="2323069945529668668">وای نه!</translation>
 <translation id="7510166204621526816">سرور «پاداش‌های Brave» پاسخ نمی‌دهد. در اسرع وقت مشکل را برطرف خواهیم کرد.</translation>
 <translation id="2104073734684466851">اعطاها</translation>
-<translation id="3068742524072211213">در <ph name="DATE"><ex>4/14/2019</ex> </ph> منقضی می‌شود</translation>
+<translation id="3068742524072211213">در <ph name="DATE" /> منقضی می‌شود</translation>
 <translation id="7550470870580166294">سرمایه کافی نیست</translation>
 <translation id="2775064702681588061">حساب «پاداش‌های Brave» شما در انتظار سرمایه است.</translation>
 <translation id="765834632354589737">پشتیبان‌گیری از کیف پول</translation>

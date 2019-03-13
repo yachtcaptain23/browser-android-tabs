@@ -1232,7 +1232,7 @@
 <translation id="7530570094705720669">वॉलेट बनाना</translation>
 <translation id="3780605330121608425">आपका वॉलेट</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">फ़ंड जोड़ें</translation>
 <translation id="2730771409541953249">रिवार्ड्स सारांश</translation>
 <translation id="8596647978585397359">यहां रूकने के लिए धन्यवाद!</translation>
@@ -1261,7 +1261,7 @@
 <translation id="8220228041552340594">अक्टूबर</translation>
 <translation id="8280223431922155812">नवंबर</translation>
 <translation id="4254029385847607686">दिसंबर</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>दिसंबर</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">सावधान</translation>
 <translation id="7335371657242627509">स्वतः योगदान में शामिल करें</translation>
 <translation id="8918760045046434238">कोई सुझाव भेजें...</translation>
@@ -1270,7 +1270,7 @@
 <translation id="4914597931214386232">टोकन ग्रांट्स का दावा किया गया</translation>
 <translation id="298067735430872465">विज्ञापनों से कमाई</translation>
 <translation id="6112368337882254910">स्वतः योगदान</translation>
-<translation id="4781696154289395607">आपने <ph name="BAT_VALUE"><ex>50</ex></ph> BAT का योगदान किया है.</translation>
+<translation id="4781696154289395607">आपने <ph name="BAT_VALUE" /> BAT का योगदान किया है.</translation>
 <translation id="9182287025588539628">वन-टाइम सुझाव</translation>
 <translation id="7577100371127227294">मासिक सुझाव</translation>
 <translation id="8772672608371898774">Brave का सत्यापित प्रकाशक</translation>
@@ -1282,7 +1282,7 @@
 <translation id="606865182719489911">एक फ़्री टोकन ग्रांट उपलब्ध है.</translation>
 <translation id="3453206261112715431">फ़्री टोकन ग्रांट</translation>
 <translation id="13853865024308201">दावा</translation>
-<translation id="3692362746128814480">आपने उन क्रिएटर्स के लिए <ph name="BAT_VALUE"><ex>50</ex></ph> BAT निर्धारित किए हैं,  जिन्होंने
+<translation id="3692362746128814480">आपने उन क्रिएटर्स के लिए <ph name="BAT_VALUE" /> BAT निर्धारित किए हैं,  जिन्होंने
 योगदान प्राप्त करने के लिए अभी तक साइन अप नहीं किया है.  वे सत्यापित होने या 90 दिन बीत जाने तक
 आपका ब्राउज़र योगदान करने का प्रयास जारी रखेगा.</translation>
 <translation id="7997676409547731821">स्वतः योगदान और मासिक सुझावों के लिए आपका शेड्यूल्ड मासिक भुगतान अपर्याप्त फ़ंड के कारण पूर्ण नहीं किया जा सकता है.
@@ -1292,7 +1292,7 @@
 <translation id="2323069945529668668">ऊह ओह!</translation>
 <translation id="7510166204621526816">Brave रिवार्ड्स सर्वर प्रतिक्रिया नहीं दे रहा है. हम शीघ्र ही इसे ठीक करेंगे.</translation>
 <translation id="2104073734684466851">ग्रांट्स</translation>
-<translation id="3068742524072211213"><ph name="DATE"><ex>4/14/2019</ex></ph> को समय-सीमा समाप्त</translation>
+<translation id="3068742524072211213"><ph name="DATE" /> को समय-सीमा समाप्त</translation>
 <translation id="7550470870580166294">अपर्याप्त फ़ंड</translation>
 <translation id="2775064702681588061">आपका Brave रिवार्ड्स खाता जमा की प्रतीक्षा में है.</translation>
 <translation id="765834632354589737">वॉलेट का बैकअप लें</translation>

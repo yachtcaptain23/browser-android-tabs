@@ -1236,7 +1236,7 @@ por ver anuncios que respetan tu privacidad.</translation>
 <translation id="7530570094705720669">Creando monedero</translation>
 <translation id="3780605330121608425">Tu monedero</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,00</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Añadir fondos</translation>
 <translation id="2730771409541953249">RESUMEN DE LAS RECOMPENSAS</translation>
 <translation id="8596647978585397359">¡Gracias por pasarte por aquí!</translation>
@@ -1265,7 +1265,7 @@ por ver anuncios que respetan tu privacidad.</translation>
 <translation id="8220228041552340594">OCTUBRE</translation>
 <translation id="8280223431922155812">NOVIEMBRE</translation>
 <translation id="4254029385847607686">DICIEMBRE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DICIEMBRE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atención</translation>
 <translation id="7335371657242627509">Incluir en aportación automática</translation>
 <translation id="8918760045046434238">Enviar una propina...</translation>
@@ -1274,7 +1274,7 @@ mes...</translation>
 <translation id="4914597931214386232">Donaciones de vales canjeadas</translation>
 <translation id="298067735430872465">Ganancias procedentes de anuncios</translation>
 <translation id="6112368337882254910">Contribuir automáticamente</translation>
-<translation id="4781696154289395607">Has aportado <ph name="BAT_VALUE"><ex> 50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Has aportado <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Propinas puntuales</translation>
 <translation id="7577100371127227294">Propinas mensuales</translation>
 <translation id="8772672608371898774">Editor de Brave verificado</translation>
@@ -1286,7 +1286,7 @@ mes...</translation>
 <translation id="606865182719489911">Hay disponible una donación de vale gratuito.</translation>
 <translation id="3453206261112715431">Donación de vale gratuito</translation>
 <translation id="13853865024308201">Canjear</translation>
-<translation id="3692362746128814480">Has fijado <ph name="BAT_VALUE"><ex> 50</ex></ph> BAT para los creadores de contenido que no se han registrado todavía
+<translation id="3692362746128814480">Has fijado <ph name="BAT_VALUE" /> BAT para los creadores de contenido que no se han registrado todavía
 y no pueden recibir aportaciones. El navegador seguirá intentando enviarle la aportación
 hasta que se haya verificado o hayan transcurrido 90 días.</translation>
 <translation id="7997676409547731821">Has programado un pago mensual como aportación automática y propinas mensuales que no se ha podido realizar porque no tienes suficientes fondos. Volveremos a intentarlo en 30 días.</translation>
@@ -1295,7 +1295,7 @@ hasta que se haya verificado o hayan transcurrido 90 días.</translation>
 <translation id="2323069945529668668">¡Vaya!</translation>
 <translation id="7510166204621526816">El servidor de recompensas de Brave no responde. Trataremos de solucionar este problema cuanto antes.</translation>
 <translation id="2104073734684466851">Donaciones</translation>
-<translation id="3068742524072211213">caduca el <ph name="DATE"><ex>14/4/2019</ex></ph></translation>
+<translation id="3068742524072211213">caduca el <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fondos insuficientes</translation>
 <translation id="2775064702681588061">La cuenta de recompensas de Brave está esperando a que hagas algún ingreso.</translation>
 <translation id="765834632354589737">Hacer copia de seguridad del monedero</translation>

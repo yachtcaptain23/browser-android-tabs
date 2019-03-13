@@ -1236,7 +1236,7 @@ vizualizarea de reclame, cu respectarea vieții private.</translation>
 <translation id="7530570094705720669">Creare portofel</translation>
 <translation id="3780605330121608425">Portofelul dvs.</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Adăugați fonduri</translation>
 <translation id="2730771409541953249">CUPRINS REWARDS</translation>
 <translation id="8596647978585397359">Mulțumim pentru vizită!</translation>
@@ -1265,7 +1265,7 @@ vizualizarea de reclame, cu respectarea vieții private.</translation>
 <translation id="8220228041552340594">OCTOMBRIE</translation>
 <translation id="8280223431922155812">NOIEMBRIE</translation>
 <translation id="4254029385847607686">DECEMBRIE</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>DECEMBRIE</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Atenție</translation>
 <translation id="7335371657242627509">Include în Auto-Contribute</translation>
 <translation id="8918760045046434238">Trimite un bonus...</translation>
@@ -1274,7 +1274,7 @@ luna aceasta...</translation>
 <translation id="4914597931214386232">Acordare de tokenuri solicitată</translation>
 <translation id="298067735430872465">Venituri din reclame</translation>
 <translation id="6112368337882254910">Auto-Contribute</translation>
-<translation id="4781696154289395607">Ați contribuit <ph name="BAT_VALUE"><ex>50</ex></ph>BAT.</translation>
+<translation id="4781696154289395607">Ați contribuit <ph name="BAT_VALUE" />BAT.</translation>
 <translation id="9182287025588539628">Bonusuri unice</translation>
 <translation id="7577100371127227294">Bonusuri lunare</translation>
 <translation id="8772672608371898774">Editor Brave verificat</translation>
@@ -1286,7 +1286,7 @@ Orice bonusuri trimiteți vor rămâne în portofelul dumneavoastră până cân
 <translation id="606865182719489911">Este disponibilă acordarea de tokenuri gratuite.</translation>
 <translation id="3453206261112715431">Acordare de tokenuri gratuite</translation>
 <translation id="13853865024308201">Solicită</translation>
-<translation id="3692362746128814480">Ați alocat <ph name="BAT_VALUE"><ex>50</ex></ph>BAT pentru creatori care nu
+<translation id="3692362746128814480">Ați alocat <ph name="BAT_VALUE" />BAT pentru creatori care nu
 s-au înregistrat încă pentru a primi contribuții. Browserul dvs. va încerca să transmită contribuțiile
 până când vor verifica sau până la 90 de zile. </translation>
 <translation id="7997676409547731821">Plata lunară programată pentru Auto-Contribute și bonusurile lunare nu s-au putut finaliza din cauza fondurilor insuficiente. Vom încerca din nou în 30 de zile. </translation>
@@ -1295,7 +1295,7 @@ până când vor verifica sau până la 90 de zile. </translation>
 <translation id="2323069945529668668">Oo, nu!</translation>
 <translation id="7510166204621526816">Serverul Brave Rewards nu răspunde. Vom remedia problema în cel mai scurt timp posibil. </translation>
 <translation id="2104073734684466851">Acordări</translation>
-<translation id="3068742524072211213">expiră la<ph name="DATE"><ex>14.04.2019</ex></ph></translation>
+<translation id="3068742524072211213">expiră la<ph name="DATE" /></translation>
 <translation id="7550470870580166294">Fonduri insuficiente</translation>
 <translation id="2775064702681588061">Contul dumneavoastră pe Brave Rewards este disponibil pentru depunere.</translation>
 <translation id="765834632354589737">Portofel de rezervă</translation>

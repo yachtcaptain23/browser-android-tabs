@@ -1237,7 +1237,7 @@
 <translation id="7530570094705720669">Створення гаманця</translation>
 <translation id="3780605330121608425">Ваш гаманець</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> дол. США</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> дол. США</translation>
 <translation id="1165667598801520610">Внести кошти</translation>
 <translation id="2730771409541953249">ЗАГАЛЬНА ІНФОРМАЦІЯ ПРО НАГОРОДИ</translation>
 <translation id="8596647978585397359">Дякуємо, що перейшли на цю сторінку!</translation>
@@ -1266,7 +1266,7 @@
 <translation id="8220228041552340594">ЖОВТЕНЬ</translation>
 <translation id="8280223431922155812">ЛИСТОПАД</translation>
 <translation id="4254029385847607686">ГРУДЕНЬ</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex> ГРУДНЯ</ex></ph> <ph name="YEAR"><ex>2018 р.</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Увага</translation>
 <translation id="7335371657242627509">Додати до автоматичної виплати внеску</translation>
 <translation id="8918760045046434238">Надсилання заохочення…</translation>
@@ -1275,7 +1275,7 @@
 <translation id="4914597931214386232">Отримано токени в подарунок</translation>
 <translation id="298067735430872465">Прибуток від перегляду реклами</translation>
 <translation id="6112368337882254910">Автоматичний внесок</translation>
-<translation id="4781696154289395607">Ви внесли <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="4781696154289395607">Ви внесли <ph name="BAT_VALUE" /> BAT.</translation>
 <translation id="9182287025588539628">Одноразові заохочення</translation>
 <translation id="7577100371127227294">Щомісячні заохочення</translation>
 <translation id="8772672608371898774">Підтверджений автор публікацій Brave</translation>
@@ -1287,7 +1287,7 @@
 <translation id="606865182719489911">Доступний безкоштовний подарунок із токенами.</translation>
 <translation id="3453206261112715431">Безкоштовний подарунок із токенами</translation>
 <translation id="13853865024308201">Отримати</translation>
-<translation id="3692362746128814480">Ви призначали <ph name="BAT_VALUE"><ex>50</ex></ph> BAT для авторів, які ще не зареєструвалися для отримання внесків.
+<translation id="3692362746128814480">Ви призначали <ph name="BAT_VALUE" /> BAT для авторів, які ще не зареєструвалися для отримання внесків.
 Ваш браузер робитиме спроби зробити внесок,
 доки автора не буде підтверджено або доки не мине 90 днів.</translation>
 <translation id="7997676409547731821">Неможливо здійснити заплановане щомісячне автоматичне заохочення, а також щомісячне заохочення, оскільки у вас недостатньо коштів. Спробу буде повторено за 30 днів.</translation>
@@ -1296,7 +1296,7 @@
 <translation id="2323069945529668668">Ой!</translation>
 <translation id="7510166204621526816">Сервер нагород Brave не відповідає. Проблему буде вирішено якомога скоріше.</translation>
 <translation id="2104073734684466851">Термін дії подарунків</translation>
-<translation id="3068742524072211213">минає <ph name="DATE"><ex>14 квітня 2019 р.</ex></ph></translation>
+<translation id="3068742524072211213">минає <ph name="DATE" /></translation>
 <translation id="7550470870580166294">Недостатньо коштів</translation>
 <translation id="2775064702681588061">На рахунок нагород Brave можна зробити внесок.</translation>
 <translation id="765834632354589737">Резервне копіювання гаманця</translation>

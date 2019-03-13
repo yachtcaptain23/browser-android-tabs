@@ -1236,7 +1236,7 @@ izleme karşılığında kupon kazanabilirsiniz.</translation>
 <translation id="7530570094705720669">Cüzdan oluşturuluyor</translation>
 <translation id="3780605330121608425">Cüzdanınız</translation>
 <translation id="8845154268466251503">BAT</translation>
-<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> USD</translation>
+<translation id="7760215798627399379"><ph name="VALUE" /> USD</translation>
 <translation id="1165667598801520610">Para Ekle</translation>
 <translation id="2730771409541953249">ÖDÜLLER ÖZETİ</translation>
 <translation id="8596647978585397359">Uğradığınız için teşekkür ederiz!</translation>
@@ -1265,7 +1265,7 @@ izleme karşılığında kupon kazanabilirsiniz.</translation>
 <translation id="8220228041552340594">EKİM</translation>
 <translation id="8280223431922155812">KASIM</translation>
 <translation id="4254029385847607686">ARALIK</translation>
-<translation id="937392350501765664"><ph name="MONTH"><ex>ARALIK</ex></ph> <ph name="YEAR"><ex>2018</ex></ph></translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
 <translation id="3074127054582480056">Dikkat</translation>
 <translation id="7335371657242627509">Otomatik Katkıya Dahil Et</translation>
 <translation id="8918760045046434238">Bir bahşiş gönder...</translation>
@@ -1274,7 +1274,7 @@ yok...</translation>
 <translation id="4914597931214386232">Alınan Kuponlar</translation>
 <translation id="298067735430872465">Reklam Gelirleri</translation>
 <translation id="6112368337882254910">Otomatik Katkı</translation>
-<translation id="4781696154289395607"><ph name="BAT_VALUE"><ex>50</ex></ph> BAT katkıda bulundunuz.</translation>
+<translation id="4781696154289395607"><ph name="BAT_VALUE" /> BAT katkıda bulundunuz.</translation>
 <translation id="9182287025588539628">Tek Seferlik Bahşişler</translation>
 <translation id="7577100371127227294">Aylık Bahşişler</translation>
 <translation id="8772672608371898774">Brave Onaylı Yayıncı</translation>
@@ -1286,7 +1286,7 @@ yok...</translation>
 <translation id="606865182719489911">Ücretsiz bir kupon mevcut.</translation>
 <translation id="3453206261112715431">Ücretsiz Kupon Verme</translation>
 <translation id="13853865024308201">Al</translation>
-<translation id="3692362746128814480">Henüz katkı almak amacıyla kaydolmamış oluşturucular için <ph name="BAT_VALUE"><ex>50</ex></ph> BAT
+<translation id="3692362746128814480">Henüz katkı almak amacıyla kaydolmamış oluşturucular için <ph name="BAT_VALUE" /> BAT
 ayırdınız. Tarayıcınız onlar onaylayana veya
 90 gün geçene kadar katkı yapmayı deneyecek.</translation>
 <translation id="7997676409547731821">Otomatik Katkı ve aylık bahşişler için planlı aylık ödemeniz yetersiz tutar sebebiyle tamamlanamadı. 30 gün içinde tekrar deneyeceğiz.</translation>
@@ -1295,7 +1295,7 @@ ayırdınız. Tarayıcınız onlar onaylayana veya
 <translation id="2323069945529668668">Tüh!</translation>
 <translation id="7510166204621526816">Brave Ödülleri sunucusu yanıt vermiyor. Bunu en kısa zamanda düzelteceğiz.</translation>
 <translation id="2104073734684466851">Verilenler</translation>
-<translation id="3068742524072211213"><ph name="DATE"><ex>14/4/2019</ex></ph> tarihinde süresi doluyor</translation>
+<translation id="3068742524072211213"><ph name="DATE" /> tarihinde süresi doluyor</translation>
 <translation id="7550470870580166294">Yetersiz Tutar</translation>
 <translation id="2775064702681588061">Brave Ödülleri hesabınız para yatırılmasını bekliyor.</translation>
 <translation id="765834632354589737">Cüzdanı Yedekle</translation>
