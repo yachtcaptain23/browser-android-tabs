@@ -1214,7 +1214,97 @@ Brave Sync, без создания учетной записи.
 <translation id="8624315169751085215">Копировать в буфер обмена</translation>
 <translation id="5241263629636958324">Скопировано в буфер обмена</translation>
 <translation id="222883304157347087">(это устройство)</translation>
-<translation id="7820683005702098135">Синхронизация Brave (бета-версия)</translation>
+<translation id="7820683005702098135">Brave Sync (beta)</translation>
 <translation id="1178128181015923849">Вы действительно хотите удалить устройство <ph name="DEVICE_NAME" />?</translation>
 <translation id="2569646144216067185">Количество слов: <ph name="WORD_COUNT" /></translation>
+<translation id="4073974176898677841">Включить/отключить Brave Rewards</translation>
+<translation id="4745013713714502219">Brave уже установлен
+в качестве браузера по умолчанию.</translation>
+<translation id="6874141297197991294">Вы уже установили браузер по умолчанию.
+Выбрать другой можно в настройках приложения.</translation>
+<translation id="5708254139873333042">Экономьте заряд батареи и загружайте страницы быстрее. Сделать Brave браузером по умолчанию. Из меню Brave выберите "Сделать браузером по умолчанию..."</translation>
+<translation id="3570367516044491911">Сделать браузером по умолчанию</translation>
+<translation id="5827583267117939716">Выберите Brave из списка и нажмите "Всегда"</translation>
+<translation id="2262526166668973593">Сделать Brave браузером по умолчанию
+Экономьте заряд батареи и загружайте страницы быстрее</translation>
+<translation id="1916285746997567466">Новые способы
+получать токены.</translation>
+<translation id="1071131306814166204">Теперь вы можете получать токены за просмотр рекламы,
+в которой соблюдается конфиденциальность данных.</translation>
+<translation id="1327938628925645979">ВСТУПИТЬ В ПРОГРАММУ BRAVE REWARDS</translation>
+<translation id="5567439033041178034">ПОДРОБНЕЕ</translation>
+<translation id="7530570094705720669">Создание кошелька</translation>
+<translation id="3780605330121608425">Ваш кошелек</translation>
+<translation id="8845154268466251503">BAT</translation>
+<translation id="7760215798627399379"><ph name="VALUE"><ex>0,0</ex></ph> долл. США</translation>
+<translation id="1165667598801520610">Добавить средства</translation>
+<translation id="2730771409541953249">О BRAVE REWARDS</translation>
+<translation id="8596647978585397359">Спасибо, что заглянули!</translation>
+<translation id="3165726837666415756">Вы можете поддержать авторов этого сайта и поблагодарить их за труд, сделав пожертвование. Создатели контента, которые прошли проверку, получают вознаграждение в течение первой недели каждого календарного месяца.</translation>
+<translation id="1704859330137112950">При желании вы можете настроить ежемесячные взносы.</translation>
+<translation id="245015745140252435">Сумма пожертвования</translation>
+<translation id="3370968821559864204">баланс кошелька:</translation>
+<translation id="3250511771491660127">Перечислять ежемесячно</translation>
+<translation id="2573313946367623146">отправить пожертвование</translation>
+<translation id="3492491948683276944">настроить ежемесячные пожертвования</translation>
+<translation id="853714875140407133">недостаточно токенов</translation>
+<translation id="298349922412901215">ПРИМЕЧАНИЕ. Этот создатель контента еще не зарегистрировался в нашей программе. Повторные попытки отправить ему пожертвование будут совершаться до тех пор, пока он не пройдет проверку или пока не истечет 90 дней.</translation>
+<translation id="6940273954212603510">пожалуйста</translation>
+<translation id="1036277985068412734">добавить средства</translation>
+<translation id="5299848999918506028">Спасибо!</translation>
+<translation id="2626799779920242286">Попробуйте позже.</translation>
+<translation id="6639570430554986719">ЯНВАРЬ</translation>
+<translation id="1807352595146144483">ФЕВРАЛЬ</translation>
+<translation id="2021828608097804771">МАРТ</translation>
+<translation id="1112527417301376065">АПРЕЛЬ</translation>
+<translation id="8737090912129856089">МАЙ</translation>
+<translation id="6832612641867423485">ИЮНЬ</translation>
+<translation id="8442574087856349697">ИЮЛЬ</translation>
+<translation id="1202041222842415454">АВГУСТ</translation>
+<translation id="7317265217038113435">СЕНТЯБРЬ</translation>
+<translation id="8220228041552340594">ОКТЯБРЬ</translation>
+<translation id="8280223431922155812">НОЯБРЬ</translation>
+<translation id="4254029385847607686">ДЕКАБРЬ</translation>
+<translation id="937392350501765664"><ph name="MONTH"><ex>ДЕКАБРЬ</ex></ph> <ph name="YEAR"><ex>2018 г.</ex></ph></translation>
+<translation id="3074127054582480056">Внимание!</translation>
+<translation id="7335371657242627509">Добавить в автоплатежи</translation>
+<translation id="8918760045046434238">Отправить пожертвование…</translation>
+<translation id="1978261665418056203">Нет информации
+о действиях в этом месяце.</translation>
+<translation id="4914597931214386232">Полученные в подарок токены</translation>
+<translation id="298067735430872465">Доходы от рекламы</translation>
+<translation id="6112368337882254910">Автоплатеж</translation>
+<translation id="4781696154289395607">Вы сделали пожертвование: <ph name="BAT_VALUE"><ex>50</ex></ph> BAT.</translation>
+<translation id="9182287025588539628">Разовые пожертвования</translation>
+<translation id="7577100371127227294">Ежемесячные пожертвования</translation>
+<translation id="8772672608371898774">Издатель, проверенный Brave</translation>
+<translation id="1397683270551078781">Еще не проверен</translation>
+<translation id="5727208111992260840">Этот создатель контента еще не зарегистрировался в нашей программе.
+        Отправленные пожертвования останутся в вашем кошельке до тех пор, пока автор не пройдет проверку.</translation>
+<translation id="683765328936486920">на YouTube</translation>
+<translation id="8969049974285901797">в Twitch</translation>
+<translation id="606865182719489911">Доступен бесплатный токен.</translation>
+<translation id="3453206261112715431">Токен в подарок</translation>
+<translation id="13853865024308201">Получить</translation>
+<translation id="3692362746128814480">Вы хотите отправить <ph name="BAT_VALUE"><ex>50</ex></ph> BAT создателям контента, которые еще не зарегистрировались в нашей программе.
+Повторные попытки отправить им пожертвование будут совершаться в браузере до тех пор,
+пока эти лица не пройдут проверку или пока не истечет 90 дней.</translation>
+<translation id="7997676409547731821">Вы запланировали ежемесячный автоплатеж, но отправить пожертвование не удалось, поскольку у вас недостаточно средств. Мы повторим попытку через 30 дней.</translation>
+<translation id="5306913077198665897">При обработке платежа произошла ошибка. Повторите попытку.</translation>
+<translation id="2429828319207652823">При обработке платежа произошла ошибка.</translation>
+<translation id="2323069945529668668">Ошибка!</translation>
+<translation id="7510166204621526816">Сервер Brave Rewards не отвечает. Мы постараемся исправить это как можно скорее.</translation>
+<translation id="2104073734684466851">Подарки</translation>
+<translation id="3068742524072211213">(срок действия истекает <ph name="DATE"><ex>14/4/2019</ex></ph>)</translation>
+<translation id="7550470870580166294">Недостаточно средств</translation>
+<translation id="2775064702681588061">Необходимо пополнить баланс аккаунта Brave Rewards.</translation>
+<translation id="765834632354589737">Резервное копирование кошелька</translation>
+<translation id="1713542052890184975">Создайте резервную копию своего кошелька Brave.</translation>
+<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="2012723204723845092">С возвращением!</translation>
+<translation id="7669994301500276741">Получайте токены, пока пользуетесь браузером.</translation>
+<translation id="8203529727745387785">Получайте токены за просмотр рекламы,
+в которой соблюдается конфиденциальность данных,
+и поддерживайте создателей интересного вам контента.</translation>
+<translation id="5148719990624240755">ВКЛЮЧИТЬ BRAVE REWARDS</translation>
 </translationbundle>
