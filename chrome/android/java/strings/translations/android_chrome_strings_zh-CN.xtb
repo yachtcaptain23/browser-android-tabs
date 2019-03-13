@@ -1170,7 +1170,7 @@
 <translation id="1468415711258933398">普通标签页</translation>
 <translation id="6199596294742117349">这是个隐私标签页</translation>
 <translation id="5858455511731621847">即使您通过隐私标签访问的网站未保存在本地，但这对于您的 ISP ，您的雇主或您访问的网站仍然不是匿名或者隐身的。</translation>
-<translation id="7820683005702098135">Brave（beta）同步</translation>
+<translation id="7820683005702098135">Brave 同步 （测试）</translation>
 <translation id="2339273275658335597">更新 Brave</translation>
 <translation id="8395234238259738935">新版Brave浏览器快了22%</translation>
 <translation id="391177677159359824">同步（beta）</translation>
@@ -1212,4 +1212,94 @@
 <translation id="222883304157347087">（此设备）</translation>
 <translation id="1178128181015923849">您确定要删除设备“<ph name="DEVICE_NAME" />”？</translation>
 <translation id="2569646144216067185">字数：<ph name="WORD_COUNT" /></translation>
+<translation id="4073974176898677841">启用/禁用 Brave 奖励</translation>
+<translation id="4745013713714502219">Brave 已经设为
+您的默认浏览器。</translation>
+<translation id="6874141297197991294">您已经设置了默认浏览器。
+您可以在应用设置中更改默认浏览器。</translation>
+<translation id="5708254139873333042">节约电量并能更快的加载网页。设置 Brave 为默认浏览器。在 Brave 菜单中点击“设为默认浏览器”</translation>
+<translation id="3570367516044491911">设为默认浏览器</translation>
+<translation id="5827583267117939716">在列表中选择 Brave 并点击“总是”</translation>
+<translation id="2262526166668973593">设置 Brave 为默认浏览器
+节约电量并能更快的加载网页</translation>
+<translation id="1916285746997567466">做好准备，体验
+下一代因特网。</translation>
+<translation id="1071131306814166204">您现在可以通过
+观看尊重隐私的广告赚取代币。</translation>
+<translation id="1327938628925645979">加入奖励</translation>
+<translation id="5567439033041178034">详细了解</translation>
+<translation id="7530570094705720669">创建钱包</translation>
+<translation id="3780605330121608425">您的钱包</translation>
+<translation id="8845154268466251503">BAT</translation>
+<translation id="7760215798627399379"><ph name="VALUE"><ex>0.0</ex></ph> USD</translation>
+<translation id="1165667598801520610">增加资金</translation>
+<translation id="2730771409541953249">奖励摘要</translation>
+<translation id="8596647978585397359">感谢您关注！</translation>
+<translation id="3165726837666415756">您可以发送小费支持此网站。这是对他们提供极好内容的一种感谢方式。请在每个日历月份的第一个星期期间验证内容创建者收到了他们的小费。</translation>
+<translation id="1704859330137112950">如果您喜欢，您可以每月安排提供小费以持续支持此网站。</translation>
+<translation id="245015745140252435">小费金额</translation>
+<translation id="3370968821559864204">钱包余额：</translation>
+<translation id="3250511771491660127">每月进行此操作</translation>
+<translation id="2573313946367623146">发送我的小费</translation>
+<translation id="3492491948683276944">设置每月小费</translation>
+<translation id="853714875140407133">代币不足</translation>
+<translation id="298349922412901215">注意：此创建者尚未签收 Brave 用户的捐款。我们将不断尝试捐献，直至得到验证，或者直至 90 天后。</translation>
+<translation id="6940273954212603510">请</translation>
+<translation id="1036277985068412734">增加资金</translation>
+<translation id="5299848999918506028">谢谢您！</translation>
+<translation id="2626799779920242286">请稍后再试一次。</translation>
+<translation id="6639570430554986719">一月</translation>
+<translation id="1807352595146144483">二月</translation>
+<translation id="2021828608097804771">三月</translation>
+<translation id="1112527417301376065">四月</translation>
+<translation id="8737090912129856089">五月</translation>
+<translation id="6832612641867423485">六月</translation>
+<translation id="8442574087856349697">七月</translation>
+<translation id="1202041222842415454">八月</translation>
+<translation id="7317265217038113435">九月</translation>
+<translation id="8220228041552340594">十月</translation>
+<translation id="8280223431922155812">十一月</translation>
+<translation id="4254029385847607686">十二月</translation>
+<translation id="937392350501765664"><ph name="MONTH"><ex>十二月</ex></ph>（ <ph name="YEAR"><ex>2018</ex></ph> 年）</translation>
+<translation id="3074127054582480056">注意</translation>
+<translation id="7335371657242627509">包括于自动捐献中</translation>
+<translation id="8918760045046434238">发送小费...</translation>
+<translation id="1978261665418056203">此月尚无
+任何活动...</translation>
+<translation id="4914597931214386232">代币捐款已认领</translation>
+<translation id="298067735430872465">广告收益</translation>
+<translation id="6112368337882254910">自动捐献</translation>
+<translation id="4781696154289395607">您已捐献 <ph name="BAT_VALUE"><ex>50</ex></ph> BAT。</translation>
+<translation id="9182287025588539628">一次性小费</translation>
+<translation id="7577100371127227294">每月小费</translation>
+<translation id="8772672608371898774">Brave 验证发表者</translation>
+<translation id="1397683270551078781">尚未验证</translation>
+<translation id="5727208111992260840">此创建者尚未签收 Brave 用户的捐款。
+    您发送的任何小费将仍然在您的钱包中，直至得到验证。</translation>
+<translation id="683765328936486920">在 YouTube 上</translation>
+<translation id="8969049974285901797">在 Twitch 上</translation>
+<translation id="606865182719489911">有未认领代币捐款。</translation>
+<translation id="3453206261112715431">未认领代币捐款</translation>
+<translation id="13853865024308201">认领</translation>
+<translation id="3692362746128814480">您已为尚未签收捐款的创建者指定
+ <ph name="BAT_VALUE"><ex>50</ex></ph> BAT。您的浏览器
+将不断尝试捐献，直至得到验证，或者直至 90 天后。</translation>
+<translation id="7997676409547731821">您为自动捐献和每月小费安排的每月付款因资金不足而无法完成。我们将在 30 天内再试一次。</translation>
+<translation id="5306913077198665897">处理您的小费时出现问题，请再试一次。</translation>
+<translation id="2429828319207652823">处理您的捐款时出现问题。</translation>
+<translation id="2323069945529668668">哎呀！</translation>
+<translation id="7510166204621526816">Brave 奖励服务器无响应。我们将尽快修复。</translation>
+<translation id="2104073734684466851">捐款</translation>
+<translation id="3068742524072211213">于 <ph name="DATE"><ex>2019 年 4 月 14 日</ex></ph> 到期</translation>
+<translation id="7550470870580166294">资金不足</translation>
+<translation id="2775064702681588061">您的 Brave 奖励账户正在等待存款。</translation>
+<translation id="765834632354589737">备份钱包</translation>
+<translation id="1713542052890184975">请备份您的 Brave 钱包。</translation>
+<translation id="3333887201479867589">Brave 奖励</translation>
+<translation id="2012723204723845092">欢迎回来！</translation>
+<translation id="7669994301500276741">获取浏览奖励。</translation>
+<translation id="8203529727745387785">通过观看隐私尊重广告
+赚钱，然后将其用于支持
+您喜欢的内容创建者。</translation>
+<translation id="5148719990624240755">启用 BRAVE 奖励</translation>
 </translationbundle>
