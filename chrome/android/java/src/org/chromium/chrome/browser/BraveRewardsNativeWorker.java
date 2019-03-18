@@ -14,12 +14,24 @@ import java.util.List;
 
 @JNINamespace("chrome::android")
 public class BraveRewardsNativeWorker {
+    // Rewards notifications
+    // Taken from components/brave_rewards/browser/rewards_notification_service.h
+    public static final int REWARDS_NOTIFICATION_INVALID = 0;
+    public static final int REWARDS_NOTIFICATION_AUTO_CONTRIBUTE = 1;
+    public static final int REWARDS_NOTIFICATION_GRANT = 2;
+    public static final int REWARDS_NOTIFICATION_GRANT_ADS = 3;
+    public static final int REWARDS_NOTIFICATION_FAILED_CONTRIBUTION = 4;
+    public static final int REWARDS_NOTIFICATION_IMPENDING_CONTRIBUTION = 5;
+    public static final int REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS = 6;
+    public static final int REWARDS_NOTIFICATION_BACKUP_WALLET = 7;
+    
     private List<BraveRewardsObserver> observers_;
     private long mNativeBraveRewardsNativeWorker;
 
     private static BraveRewardsNativeWorker instance;
     private static final Object lock = new Object();
-    private boolean createWalletInProcess;  //flag: wallet is being created
+    private boolean createWalletInProcess;  // flag: wallet is being created
+    private boolean grantClaimInProcess;  // flag: wallet is being created
 
     public static  BraveRewardsNativeWorker getInstance(){
         synchronized(lock) {
@@ -76,7 +88,15 @@ public class BraveRewardsNativeWorker {
     }
 
     public boolean IsCreateWalletInProcess() {
-        return createWalletInProcess;
+        synchronized(lock) {
+          return createWalletInProcess;
+        }
+    }
+
+    public boolean IsGrantClaimInProcess() {
+        synchronized(lock) {
+          return grantClaimInProcess;
+        }
     }
 
     public void WalletExist() {
@@ -189,6 +209,10 @@ public class BraveRewardsNativeWorker {
 
     public void GetGrant() {
         synchronized(lock) {
+            if (grantClaimInProcess) {
+                return;
+            }
+            grantClaimInProcess = true;
             nativeGetGrant(mNativeBraveRewardsNativeWorker);
         }
     }
@@ -352,6 +376,11 @@ public class BraveRewardsNativeWorker {
         for(BraveRewardsObserver observer : observers_) {
             observer.OnGetReconcileStamp(timestamp);
         }
+    }
+
+    @CalledByNative
+    public void OnGrantFinish(int result) {
+        grantClaimInProcess = false;
     }
 
     private native void nativeInit();

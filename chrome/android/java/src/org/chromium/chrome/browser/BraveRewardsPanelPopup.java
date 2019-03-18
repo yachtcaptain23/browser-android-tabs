@@ -76,16 +76,6 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     private static final String PREF_WAS_BRAVE_REWARDS_TURNED_ON = "brave_rewards_turned_on";
 
-    // Rewards notifications
-    // Taken from components/brave_rewards/browser/rewards_notification_service.h
-    private static final int REWARDS_NOTIFICATION_INVALID = 0;
-    private static final int REWARDS_NOTIFICATION_AUTO_CONTRIBUTE = 1;
-    private static final int REWARDS_NOTIFICATION_GRANT = 2;
-    private static final int REWARDS_NOTIFICATION_GRANT_ADS = 3;
-    private static final int REWARDS_NOTIFICATION_FAILED_CONTRIBUTION = 4;
-    private static final int REWARDS_NOTIFICATION_IMPENDING_CONTRIBUTION = 5;
-    private static final int REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS = 6;
-    private static final int REWARDS_NOTIFICATION_BACKUP_WALLET = 7;
     // Custom Android notification
     private static final int REWARDS_NOTIFICATION_NO_INTERNET = 1000;
     private static final String REWARDS_NOTIFICATION_NO_INTERNET_ID = "29d835c2-5752-4152-93c3-8a1ded9dd4ec";
@@ -236,19 +226,23 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
             }
         });
 
-        if (mBraveRewardsNativeWorker != null) {
 
+        btJoinRewards = (Button)root.findViewById(R.id.join_rewards_id);
+        if (mBraveRewardsNativeWorker != null) {
             //check if 'CreateWallet' request has been sent
             mWalletCreateInProcess = mBraveRewardsNativeWorker.IsCreateWalletInProcess();
             if (mWalletCreateInProcess){
                 startJoinRewardsAnimation();
             }
+            else{
+                btJoinRewards.setEnabled(true);
+            }
 
             mBraveRewardsNativeWorker.GetRewardsMainEnabled();
         }
+
         String braveRewardsTitle = root.getResources().getString(R.string.brave_ui_brave_rewards) + "\u2122";
         ((TextView)root.findViewById(R.id.brave_rewards_id)).setText(braveRewardsTitle);
-        btJoinRewards = (Button)root.findViewById(R.id.join_rewards_id);
         if (btJoinRewards != null) {
           btJoinRewards.setOnClickListener((new View.OnClickListener() {
             @Override
@@ -437,7 +431,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     private void startJoinRewardsAnimation(){
         Button btJoinRewards = (Button)root.findViewById(R.id.join_rewards_id);
-        btJoinRewards.setClickable(false); //set not clickable
+        btJoinRewards.setEnabled(false); 
         btJoinRewards.setText(root.getResources().getString(R.string.brave_ui_rewards_creating_text));
         btJoinRewards.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.brave_rewards_loader, 0);
         wallet_init_animation = (AnimationDrawable)btJoinRewards.getCompoundDrawables()[2];
@@ -494,7 +488,6 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                   BraveRewardsHelper.crossfade(claimOk, fadein, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
 
                   mBraveRewardsNativeWorker.GetGrant();
-
                   walletDetailsReceived = false; //re-read wallet status
                   EnableWalletDetails(false);
 
@@ -670,7 +663,20 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         String title = "";
         String description = "";
         Button btClaimOk = (Button)root.findViewById(R.id.br_claim_button);
-        btClaimOk.setVisibility(View.VISIBLE);
+        View claim_progress = root.findViewById(R.id.progress_br_claim_button);
+
+        //hide 'Claim' button if Grant claim is in process
+        mClaimInProcess = mBraveRewardsNativeWorker.IsGrantClaimInProcess();
+        if (mClaimInProcess){
+            btClaimOk.setVisibility(View.GONE);
+            claim_progress.setVisibility(View.VISIBLE);
+        }
+        else {
+            claim_progress.setVisibility(View.GONE);
+            btClaimOk.setVisibility(View.VISIBLE);
+        }
+
+
         TextView notificationClose = (TextView)root.findViewById(R.id.br_notification_close);
         notificationClose.setVisibility(View.VISIBLE);
         ImageView notification_icon = (ImageView)root.findViewById(R.id.br_notification_icon);
@@ -682,8 +688,9 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         TextView tv = (TextView)root.findViewById(R.id.br_notification_description);
         tv.setGravity(Gravity.CENTER);
         // TODO other types of notifications
+        Log.i("TAG", "!!!here10 type == " + type);
         switch (type) {
-            case REWARDS_NOTIFICATION_AUTO_CONTRIBUTE:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_AUTO_CONTRIBUTE:
                 if (args.length >= 4) {
                     // TODO find the case where it is used
                     notification_icon.setImageResource(R.drawable.icon_validated_notification);
@@ -733,23 +740,24 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                     assert false;
                 }
                 break;
-            case REWARDS_NOTIFICATION_GRANT:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT:
                 btClaimOk.setText(root.getResources().getString(R.string.brave_ui_claim));
                 notification_icon.setImageResource(R.drawable.grant_icon);
                 title = root.getResources().getString(R.string.brave_ui_new_token_grant);
                 description = root.getResources().getString(R.string.brave_ui_new_grant);
                 break;
-            case REWARDS_NOTIFICATION_GRANT_ADS:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT_ADS:
                 Log.e(TAG, "REWARDS_NOTIFICATION_GRANT_ADS is not handled yet");
                 assert false;
                 break;
-            case REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS:
                 btClaimOk.setText(root.getResources().getString(R.string.ok));
                 notification_icon.setImageResource(R.drawable.notification_icon);
                 title = root.getResources().getString(R.string.brave_ui_insufficient_funds_msg);
                 description = root.getResources().getString(R.string.brave_ui_insufficient_funds_desc);
                 break;
-            case REWARDS_NOTIFICATION_BACKUP_WALLET:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_BACKUP_WALLET:
+                Log.i("TAG", "!!!here3");
                 btClaimOk.setText(root.getResources().getString(R.string.ok));
                 notification_icon.setImageResource(R.drawable.notification_icon);
                 title = root.getResources().getString(R.string.brave_ui_backup_wallet_msg);
@@ -1114,13 +1122,8 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     @Override
     public void OnNotificationAdded(String id, int type, long timestamp,
           String[] args) {
-        // samartnik: we temporarily ignore this notification
-        if (type == REWARDS_NOTIFICATION_BACKUP_WALLET) {
-            if (mBraveRewardsNativeWorker != null) {
-                mBraveRewardsNativeWorker.DeleteNotification(id);
-                mBraveRewardsNativeWorker.GetAllNotifications();
-            }
-        }
+        // Do nothing here as we will receive the most recent notification
+        // in OnGetLatestNotification
     }
 
     @Override
