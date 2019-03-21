@@ -2454,11 +2454,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
       Boolean originalStatus = prefs.getBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, false);
       Boolean statusLocked = prefs.edit().putBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, !originalStatus).commit();
 
-      Intent mStartActivity = new Intent(context, ChromeTabbedActivity.class);
-      int mPendingIntentId = 123456;
-      PendingIntent mPendingIntent = PendingIntent.getActivity(context, mPendingIntentId,    mStartActivity, PendingIntent.FLAG_CANCEL_CURRENT);
+      PendingIntent mPendingIntent = PendingIntent.getActivity(context, 1010, new Intent(context, ChromeTabbedActivity.class), PendingIntent.FLAG_CANCEL_CURRENT);
       AlarmManager mgr = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
-      mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 1000, mPendingIntent);
+      mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, mPendingIntent);
       System.exit(0);
     }
 
