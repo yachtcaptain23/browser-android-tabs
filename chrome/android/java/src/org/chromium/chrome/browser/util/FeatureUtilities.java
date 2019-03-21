@@ -185,7 +185,6 @@ public class FeatureUtilities {
         cacheHomePageButtonForceEnabled();
         cacheHomepageTileEnabled();
         cacheNewTabPageButtonEnabled();
-        cacheBottomToolbarEnabled();
         cacheInflateToolbarOnBackgroundThread();
 
         // Propagate DONT_PREFETCH_LIBRARIES feature value to LibraryLoader. This can't
@@ -345,16 +344,7 @@ public class FeatureUtilities {
      * @return Whether or not the bottom toolbar is enabled.
      */
     public static boolean isBottomToolbarEnabled() {
-        if (sIsBottomToolbarEnabled == null) {
-            ChromePreferenceManager prefManager = ChromePreferenceManager.getInstance();
-
-            try (StrictModeContext unused = StrictModeContext.allowDiskReads()) {
-                sIsBottomToolbarEnabled = true;
-            }
-        }
-        return sIsBottomToolbarEnabled
-                && !DeviceFormFactor.isNonMultiDisplayContextOnTablet(
-                           ContextUtils.getApplicationContext());
+        return ChromePreferenceManager.getInstance().isBottomToolbarEnabled();
     }
 
     /**

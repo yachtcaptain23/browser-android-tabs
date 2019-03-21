@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.support.annotation.Nullable;
 
 import org.chromium.base.ContextUtils;
+import org.chromium.base.Log;
 import org.chromium.chrome.browser.crash.MinidumpUploadService.ProcessType;
 
 import java.util.Collections;
@@ -459,8 +460,7 @@ public class ChromePreferenceManager {
      * @return True if the bottom toolbar is enabled.
      */
     public boolean isBottomToolbarEnabled() {
-      return true;
-      // return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, false);
+      return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, false);
     }
 
     /** Get whether or not use custom tabs.

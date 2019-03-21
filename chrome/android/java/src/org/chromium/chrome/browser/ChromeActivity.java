@@ -7,8 +7,10 @@ package org.chromium.chrome.browser;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.AlarmManager;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.SearchManager;
 import android.app.assist.AssistContent;
 import android.content.ActivityNotFoundException;
@@ -2435,6 +2437,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             DomDistillerUIUtils.openSettings(currentTab.getWebContents());
         } else if (id == R.id.brave_set_default_browser) {
           handleBraveSetDefaultBrowserDialog();
+        } else if (id == R.id.bottom_toolbar_enable) {
+
+          showOrHideBottomToolbar();
         } else if (id == R.id.exit_id) {
             ApplicationLifetime.terminate(false);
         } else {
@@ -2443,21 +2448,23 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         return true;
     }
 
+    private void showOrHideBottomToolbar() {
+      SharedPreferences prefs = ContextUtils.getAppSharedPreferences();
+      Context context = ContextUtils.getApplicationContext();
+      Boolean originalStatus = prefs.getBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, false);
+      Boolean statusLocked = prefs.edit().putBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, !originalStatus).commit();
+
+      Intent mStartActivity = new Intent(context, ChromeTabbedActivity.class);
+      int mPendingIntentId = 123456;
+      PendingIntent mPendingIntent = PendingIntent.getActivity(context, mPendingIntentId,    mStartActivity, PendingIntent.FLAG_CANCEL_CURRENT);
+      AlarmManager mgr = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+      mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 1000, mPendingIntent);
+      System.exit(0);
+    }
+
     public boolean isBraveSetAsDefaultBrowser() {
         return BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(this);
     }
-
-    /*
-    private void handleBraveSetDefaultBrowserDeepLink(Intent intent) {
-        Bundle bundle = intent.getExtras();
-        if (bundle.getString(BraveSetDefaultBrowserNotificationService.DEEP_LINK).equals(BraveSetDefaultBrowserNotificationService.SHOW_DEFAULT_APP_SETTINGS)) {
-            Context context = ContextUtils.getApplicationContext();
-            Intent settingsIntent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
-            settingsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            context.startActivity(settingsIntent);
-        }
-    }
-    */
 
     private void handleBraveSetDefaultBrowserDialog() {
         /* (Albert Wang): Default app settings didn't get added until API 24
