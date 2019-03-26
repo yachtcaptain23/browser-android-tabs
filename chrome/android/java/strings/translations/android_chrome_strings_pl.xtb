@@ -1241,9 +1241,9 @@ zaoszczędzony czas</translation>
 Twoją domyślną przeglądarką.</translation>
 <translation id="6874141297197991294">Twoja domyślna przeglądarka jest już ustawiona.
 Możesz zmienić domyślną przeglądarkę w ustawieniach aplikacji.</translation>
-<translation id="5708254139873333042">Oszczędzaj baterię dzięki szybszemu ładowaniu stron. Ustaw Brave jako domyślną przeglądarkę. W menu Brave wybierz "Ustaw jako domyślną przeglądarkę..."</translation>
+<translation id="5708254139873333042">Oszczędzaj baterię i wczytuj strony internetowe szybciej. Ustaw Brave jako domyślną przeglądarkę internetową. W menu przeglądarki Brave stuknij opcję Ustaw jako domyślną przeglądarkę internetową.</translation>
 <translation id="3570367516044491911">Ustaw jako domyślną przeglądarkę</translation>
-<translation id="5827583267117939716">Wybierz Brave z listy i wciśnij "Zawsze"</translation>
+<translation id="5827583267117939716">Wybierz przeglądarkę internetową Brave z listy i kliknij przycisk Zawsze</translation>
 <translation id="2262526166668973593">Ustaw Brave jako domyślną przeglądarkę
 Oszczędzaj baterię dzięki szybszemu ładowaniu stron</translation>
 <translation id="1916285746997567466">Przygotuj się na
@@ -1307,7 +1307,7 @@ Wszelkie przesłane mu przez Ciebie napiwki pozostaną w Twoim portfelu do czasu
 <translation id="13853865024308201">Odbierz</translation>
 <translation id="3692362746128814480">Przeznaczasz <ph name="BAT_VALUE" /> BAT dla twórców, którzy jeszcze się nie zarejestrowali,
 aby otrzymywać wsparcie. Twoja przeglądarka będzie próbowała przekazać im wsparcie do czasu, gdy zostaną zweryfikowani lub przez 90 dni.</translation>
-<translation id="7997676409547731821">Twoje zaplanowane miesięczne opłaty w celu realizacji automatycznego wsparcia i comiesięcznych napiwków nie mogły zostać przetworzone, ponieważ Twój portfel ma niewystarczające środki. Spróbujemy ponownie za 30 dni.</translation>
+<translation id="7997676409547731821">Twoje zaplanowane miesięczne płatności, w celu realizacji automatycznego wsparcia i comiesięcznych napiwków nie mogły zostać przetworzone, ponieważ w Twoim portfelu brakuje środków. Spróbujemy ponownie za 30 dni.</translation>
 <translation id="5306913077198665897">Wystąpił problem przy przetwarzaniu napiwku. Spróbuj ponownie.</translation>
 <translation id="2429828319207652823">Wystąpił problem przy przetwarzaniu Twojego wsparcia.</translation>
 <translation id="2323069945529668668">Oho!</translation>
@@ -1325,4 +1325,11 @@ aby otrzymywać wsparcie. Twoja przeglądarka będzie próbowała przekazać im 
 reklamy i przekazuj to, co zarobisz
 twórcom treści, które lubisz.</translation>
 <translation id="5148719990624240755">WŁĄCZ NAGRODY BRAVE</translation>
+<translation id="1628742278973105368">Twój pierwszy miesięczny napiwek zostanie wysłany:</translation>
+<translation id="6665366815203065060">Właśnie wysłałeś(aś) napiwek do:</translation>
+<translation id="5441565662498481293">Automatycznie wysyłasz napiwek do:</translation>
+<translation id="1166682575529520472">Miesięcznie</translation>
+<translation id="8495235435594442882">Włącz dolny pasek narzędzi</translation>
+<translation id="7239121106815507493">Wyłącz dolny pasek narzędzi</translation>
+<translation id="145068164597056296">Szukaj adresu URL</translation>
 </translationbundle>

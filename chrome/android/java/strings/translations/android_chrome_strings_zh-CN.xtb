@@ -1241,9 +1241,9 @@
 您的默认浏览器。</translation>
 <translation id="6874141297197991294">您已经设置了默认浏览器。
 您可以在应用设置中更改默认浏览器。</translation>
-<translation id="5708254139873333042">节约电量并能更快的加载网页。设置 Brave 为默认浏览器。在 Brave 菜单中点击“设为默认浏览器”</translation>
+<translation id="5708254139873333042">节约电量并能更快的加载网页。设置 Brave 为默认浏览器。在 Brave 菜单中点击“设为默认浏览器” </translation>
 <translation id="3570367516044491911">设为默认浏览器</translation>
-<translation id="5827583267117939716">在列表中选择 Brave 并点击“总是”</translation>
+<translation id="5827583267117939716">在列表中选择 Brave 并点击“总是” </translation>
 <translation id="2262526166668973593">设置 Brave 为默认浏览器
 节约电量并能更快的加载网页</translation>
 <translation id="1916285746997567466">做好准备，体验
@@ -1308,7 +1308,7 @@
 <translation id="3692362746128814480">您已为尚未签收捐款的创建者指定
  <ph name="BAT_VALUE" /> BAT。您的浏览器
 将不断尝试捐献，直至得到验证，或者直至 90 天后。</translation>
-<translation id="7997676409547731821">您为自动捐献和每月小费安排的每月付款因资金不足而无法完成。我们将在 30 天内再试一次。</translation>
+<translation id="7997676409547731821">由于资金不足，您无法完成预定的每月自动付款和提示付款。我们会在30天后再试一次。</translation>
 <translation id="5306913077198665897">处理您的小费时出现问题，请再试一次。</translation>
 <translation id="2429828319207652823">处理您的捐款时出现问题。</translation>
 <translation id="2323069945529668668">哎呀！</translation>
@@ -1326,4 +1326,11 @@
 赚钱，然后将其用于支持
 您喜欢的内容创建者。</translation>
 <translation id="5148719990624240755">启用 BRAVE 奖励</translation>
+<translation id="1628742278973105368">您的第一个月度提示将发送到：</translation>
+<translation id="6665366815203065060">您刚刚发送了一个提示到：</translation>
+<translation id="5441565662498481293">您正在自动发送提示到：</translation>
+<translation id="1166682575529520472">每月一次</translation>
+<translation id="8495235435594442882">启用底部工具栏</translation>
+<translation id="7239121106815507493">禁用底部工具栏</translation>
+<translation id="145068164597056296">搜索或输入网址</translation>
 </translationbundle>

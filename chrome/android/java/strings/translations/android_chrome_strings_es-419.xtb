@@ -1134,7 +1134,7 @@ Por ejemplo, algunos sitios web pueden responder a la solicitud mediante anuncio
 <translation id="7461425058443653485">Secuencias de comandos bloqueadas</translation>
 <translation id="7835726359440951858">Bloquear anuncios y rastreadores</translation>
 <translation id="520895744850022668">HTTPS Everywhere</translation>
-<translation id="94154759592465111">Bloquear secuencias de comandos</translation>
+<translation id="94154759592465111">Bloquear scripts</translation>
 <translation id="7307834434086582547">Habilitar/Deshabilitar protecciones de Brave</translation>
 <translation id="4073974176898677841">Activar/Desactivar Recompensas Brave</translation>
 <translation id="6132506775968708399">Bloquear cookies de terceros</translation>
@@ -1191,7 +1191,7 @@ estimado</translation>
 <translation id="3544772668823934222">Ofrecer abrir las pestañas en Pestañas Personalizadas</translation>
 <translation id="4501702055016678577">¿Deseas la búsqueda privada con DuckDuckGo?</translation>
 <translation id="910419239800579753">Con la búsqueda privada, Brave usará DuckDuckGo para respoender a tus búsquedas cuando usas una pestaña privada. DuckDuckGo es un motor de búsqueda que no realiza un seguimiento de tu historial de búsquedas, permitiéndote navegar privadamente.</translation>
-<translation id="1426410128494586442">Si</translation>
+<translation id="1426410128494586442">Sí</translation>
 <translation id="4250680216510889253">No</translation>
 <translation id="5628466560184522265">Conoce más acerca de la búsqueda privada con DuckDuckGo</translation>
 <translation id="1468415711258933398">Pestaña Estándard</translation>
@@ -1325,4 +1325,5 @@ hasta que verifiquen su identidad o hasta que hayan transcurrido 90 días.</tran
 respetan su privacidad y haga contribuciones para
 apoyar a los creadores de contenido que más le gustan.</translation>
 <translation id="5148719990624240755">ACTIVAR RECOMPENSAS BRAVE</translation>
+<translation id="7820683005702098135">Brave Sync (beta)</translation>
 </translationbundle>

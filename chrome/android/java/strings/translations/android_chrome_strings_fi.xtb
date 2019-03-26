@@ -1240,9 +1240,9 @@ Tallennettu</translation>
 oletusselaimeksesi.</translation>
 <translation id="6874141297197991294">Olet jo asettanut oletusselaimen.
 Voit vaihtaa oletusselainta sovelluksen asetuksissa.</translation>
-<translation id="5708254139873333042">Säästä akkua ja lataa verkkosivut nopeammin. Aseta Brave oletusselaimeksesi. Valitse Braven valikosta "Aseta oletusselaimeksi..."</translation>
+<translation id="5708254139873333042">Säästä akkua ja lataa verkkosivut nopeammin. Tee Bravesta oletusselaimesi. Napauta Brave-valikosta kohtaa "Aseta oletusselaimeksi"</translation>
 <translation id="3570367516044491911">Aseta oletusselaimeksi</translation>
-<translation id="5827583267117939716">Valitse listalta Brave ja napauta "Aina"</translation>
+<translation id="5827583267117939716">Valitse Brave listasta ja napauta kohdasta "Aina"</translation>
 <translation id="2262526166668973593">Aseta Brave oletusverkkoselaimeksesi
 Säästä akkua ja lataa verkkosivut nopeammin</translation>
 <translation id="1916285746997567466">Valmistaudu kokemaan
@@ -1304,7 +1304,7 @@ Kaikki lähettämäsi tipit pysyvät lompakossasi, kunnes hän vahvistaa itsens�
 <translation id="606865182719489911">Ilmainen poletti saatavilla.</translation>
 <translation id="3453206261112715431">Ilmainen polettilahjoitus</translation>
 <translation id="13853865024308201">Lunasta</translation>
-<translation id="3692362746128814480">Osoitit <ph name="BAT_VALUE" /> BAT:ia luojalle, joka ei ole vielä kirjautunut
+<translation id="3692362746128814480"><ph name="BAT_VALUE" /> BAT:ia luojalle, joka ei ole vielä kirjautunut
 vastaanottamaan avustuksia. Selaimesi yrittää avustaa, kunnes hän vahvistaa
 itsensä tai 90 päivän aikaraja umpeutuu.</translation>
 <translation id="7997676409547731821">Ajastettua automaattisten avustusten ja kuukausittaisten tippien maksua ei voitu suorittaa, koska varat eivät riitä. Yritämme 30 päivän päästä uudestaan.</translation>
@@ -1325,4 +1325,11 @@ itsensä tai 90 päivän aikaraja umpeutuu.</translation>
 kunnioittavia mainoksia ja maksa
 rakastamillesi sisällöntuottajille.</translation>
 <translation id="5148719990624240755">OTA BRAVE REWARDSIT KÄYTTÖÖN</translation>
+<translation id="1628742278973105368">Ensimmäinen kuukausittainen vinkkisi lähetetään:</translation>
+<translation id="6665366815203065060">Olet juuri lähettänyt vinkin kohteelle:</translation>
+<translation id="5441565662498481293">Olet automaattisesti lähettämässä vinkkiä kohteelle:</translation>
+<translation id="1166682575529520472">Kuukausittainen</translation>
+<translation id="8495235435594442882">Salli alaosan työkalupalkki</translation>
+<translation id="7239121106815507493">Poista alapuolen työkalupalkki käytöstä</translation>
+<translation id="145068164597056296">Haku tai URL</translation>
 </translationbundle>

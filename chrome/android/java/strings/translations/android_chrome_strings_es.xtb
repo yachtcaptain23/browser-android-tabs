@@ -1129,39 +1129,39 @@ Por ejemplo, algunos sitios web pueden responder a la solicitud mostrándote anu
 <translation id="3209146299287804856">Configuración de escudos web de Brave para</translation>
 <translation id="622484624075952240">Abajo</translation>
 <translation id="2706462751667573066">Arriba</translation>
-<translation id="4339730410920731698">Anuncios y seguimiento bloqueados</translation>
-<translation id="2313532038420432247">Actualizaciones de HTTPS</translation>
-<translation id="7461425058443653485">Scripts Bloqueados</translation>
-<translation id="7835726359440951858">Bloquear anuncios y seguimiento</translation>
-<translation id="520895744850022668">HTTPS En todos los lugares</translation>
+<translation id="4339730410920731698">Anuncios y rastreadores bloqueados</translation>
+<translation id="2313532038420432247">Actualizaciones HTTPS</translation>
+<translation id="7461425058443653485">Scripts bloqueados</translation>
+<translation id="7835726359440951858">Bloquear anuncios y rastreadores</translation>
+<translation id="520895744850022668">HTTPS Everywhere</translation>
 <translation id="94154759592465111">Bloquear scripts</translation>
 <translation id="7307834434086582547">Activar/desactivar escudos Brave</translation>
 <translation id="4073974176898677841">Activar/desactivar las recompensas de Brave</translation>
 <translation id="6132506775968708399">Bloquear cookies de terceros</translation>
-<translation id="8710614491157212477">Siempre que sea posible, abre sitios compatibles usando HTTPS en lugar de HTTP</translation>
+<translation id="8710614491157212477">Siempre que sea posible, abrir los sitios compatibles usando HTTPS en lugar de HTTP</translation>
 <translation id="5758129336814690876">Modo de protección contra rastreo</translation>
-<translation id="4609637183310787528">Bloquea recursos que pueden rastrearle durante la carga</translation>
-<translation id="8387201461264842096">Bloqueo de Publicidad</translation>
-<translation id="1934885595886623674">Impide que se cargue publicidad</translation>
+<translation id="4609637183310787528">Impedir que se carguen los recursos de rastreo</translation>
+<translation id="8387201461264842096">Bloqueo de anuncios</translation>
+<translation id="1934885595886623674">Impedir que se carguen anuncios</translation>
 <translation id="7458422973722236530">Protección de huella dactilar</translation>
-<translation id="5787084571334399599">Impide al explorador la huella dactilar</translation>
+<translation id="5787084571334399599">Impedir que el navegador tome huellas digitales</translation>
 <translation id="3758669798635576061">Métodos de huella dactilar bloqueados</translation>
 <translation id="3276318574457057212">Bloqueo de anuncios regionales</translation>
-<translation id="2300239903491866759">Impide que se carguen anuncios regionales</translation>
+<translation id="2300239903491866759">Impedir que se carguen anuncios regionales</translation>
 <translation id="8142327400852603066">No hay listas disponibles para su categoría regional</translation>
 <translation id="9148058034647219655">Salir</translation>
-<translation id="3082265116777145081">Añade el nombre del dispositivo</translation>
+<translation id="3082265116777145081">Añadir nombre del dispositivo</translation>
 <translation id="9024091168371687561">Ingresa un nombre opcional para este dispositivo</translation>
 <translation id="3998827900918661986">Dispositivo Android</translation>
 <translation id="7539985410310934287">Ingresa las palabras clave</translation>
 <translation id="326454632686131209">Sincronizar dispositivo</translation>
 <translation id="8985635554450124959">No se ha podido configurar la sincronización</translation>
-<translation id="6244065453125065109">Seguimiento
+<translation id="6244065453125065109">Rastreadores
 bloqueados</translation>
 <translation id="2547939855139473800">Anuncios
 bloqueados</translation>
 <translation id="8880969045613157151">Actualizaciones
-de HTTPS</translation>
+HTTPS</translation>
 <translation id="204407992549693965">Tiempo estimado
 Guardado</translation>
 <translation id="991605024067283917">Enviar indicadores</translation>
@@ -1191,7 +1191,7 @@ Guardado</translation>
 <translation id="3544772668823934222">Oferta para abrir pestañas en Pestañas Personalizadas</translation>
 <translation id="4501702055016678577">¿Quiere hacer una búsqueda privada con DuckDuckGo?</translation>
 <translation id="910419239800579753">Con la búsqueda privada, Brave usará DuckDuckGo para responder a sus búsquedas mientras esté en esta pestaña privada. DuckDuckGo es un motor de búsqueda que no graba su historial de búsquedas, posibilitando que pueda navegar de manera privada.</translation>
-<translation id="1426410128494586442">Si</translation>
+<translation id="1426410128494586442">Sí</translation>
 <translation id="4250680216510889253">No</translation>
 <translation id="5628466560184522265">Saber más sobre la búsqueda privada con DuckDuckGo</translation>
 <translation id="1468415711258933398">Pestaña estándar</translation>
@@ -1240,9 +1240,9 @@ Guardado</translation>
 como navegador predeterminado.</translation>
 <translation id="6874141297197991294">Ya has configurado un navegador predeterminado.
 Sin embargo, puedes cambiarlo en los ajustes de la aplicación.</translation>
-<translation id="5708254139873333042">Ahorre batería y cargue las páginas más rápido. Haga que Brave sea su navegador predeterminado. En el menú Brave toque "configurar como navegador predeterminado..."</translation>
+<translation id="5708254139873333042">Ahorre batería y cargue páginas web más rápidamente. Haga que Brave sea su buscador predeterminado. Desde el menú de Brave, pulse "Establecer como buscador predeterminado".</translation>
 <translation id="3570367516044491911">Configurar como navegador predeterminado</translation>
-<translation id="5827583267117939716">Seleccione Brave en la lista y toque "Siempre"</translation>
+<translation id="5827583267117939716">Seleccione Brave en la lista y pulse "Siempre"</translation>
 <translation id="2262526166668973593">Haga que Brave sea su navegador predeterminado
 Ahorre batería y cargue las páginas más rápido</translation>
 <translation id="1916285746997567466">Prepárate para disfrutar
@@ -1325,4 +1325,12 @@ hasta que se haya verificado o hayan transcurrido 90 días.</translation>
 que respetan tu privacidad y haz aportaciones para
 apoyar a los creadores de contenido que más te gustan.</translation>
 <translation id="5148719990624240755">ACTIVAR LAS RECOMPENSAS DE BRAVE</translation>
+<translation id="7820683005702098135">Brave Sync (beta)</translation>
+<translation id="1628742278973105368">Su primer consejo mensual se enviará el:</translation>
+<translation id="6665366815203065060">Acaba de enviar un consejo a:</translation>
+<translation id="5441565662498481293">Está enviando un consejo automáticamente a: </translation>
+<translation id="1166682575529520472">Mensualmente</translation>
+<translation id="8495235435594442882">Activar la barra de herramientas inferior</translation>
+<translation id="7239121106815507493">Desactivar la barra de herramientas inferior</translation>
+<translation id="145068164597056296">Búsqueda o URL</translation>
 </translationbundle>
