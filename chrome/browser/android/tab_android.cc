@@ -395,6 +395,7 @@ void TabAndroid::InitWebContents(
   web_contents_.reset(content::WebContents::FromJavaWebContents(jweb_contents));
   DCHECK(web_contents_.get());
 
+  LOG(WARNING) << "Hi Albert initwebcontents!";
   AttachTabHelpers(web_contents_.get());
   WebContentsObserver::Observe(web_contents_.get());
 
