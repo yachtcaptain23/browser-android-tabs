@@ -105,6 +105,7 @@ Still reading?
     <ignore regexp="chromecast/internal"/>
     <ignore regexp="remoting/android/host/res/layout/main.xml"/>
     <ignore regexp="chrome/android/java/res/layout/brave_rewards_site_banner.xml"/>
+    <ignore regexp="chrome/android/java/res/menu/main_menu.xml"/>
   </issue>
   <issue id="IconColors" severity="Error">
     <ignore regexp="tools/android/audio_focus_grabber/java/res/drawable-hdpi/notification_icon.png"/>
@@ -395,6 +396,7 @@ Still reading?
     <!-- 2 resource sets used by clank widgets for each channel -->
     <ignore regexp="The resource `R.string.bookmark_widget_title.*` appears to be unused"/>
     <ignore regexp="The resource `R.string.search_widget_title.*` appears to be unused"/>
+    <ignore regexp="The resource `R.drawable.btn_toolbar.*` appears to be unused"/>
     <!-- Endnote: Please specify number of suppressions when adding more -->
   </issue>
   <issue id="UseCompoundDrawables">
