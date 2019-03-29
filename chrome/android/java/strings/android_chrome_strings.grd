@@ -4071,7 +4071,7 @@ However, you aren’t invisible. Going private doesn’t hide your browsing from
         Enable/Disable Brave Shields
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_REWARDS" desc="Content description for the button that is enable, disable Brave Rewards.">
-        Enable/Disable Brave Rewards
+        Manage Brave Rewards
       </message>
       <message name="IDS_HTTPSE_TITLE" desc="Title for HTTPS Everywhere.">
         HTTPS Everywhere
@@ -4693,6 +4693,9 @@ content creators you love.
       </message>
       <message name="IDS_SEARCH_OR_URL" desc="Prompt to enter text into the text field that will either perform web searches or navigate to a website. [CHAR-LIMIT=38]" formatter_data="android_java">
         Search or URL
+      </message>
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BOOKMARK" desc="Content description for the bookmark button.">
+        Create a bookmark
       </message>
     </messages>
   </release>
