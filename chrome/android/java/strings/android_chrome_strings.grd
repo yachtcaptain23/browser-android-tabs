@@ -4712,6 +4712,9 @@ content creators you love.
       <message name="IDS_BRAVE_REWARDS_GET_STARTED" desc="Rewards intro action message">
         Get started
       </message>
+      <message name="IDS_BRAVE_REWARDS_NOT_AVAILABLE" desc="The message for the dialog when Brave Rewards is not available on the device.">
+        We’re sorry it appears Brave Rewards is not available on your device
+      </message>
     </messages>
   </release>
 </grit>
