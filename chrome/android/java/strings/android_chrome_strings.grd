@@ -4176,6 +4176,9 @@ However, you aren’t invisible. Going private doesn’t hide your browsing from
       <message name="IDS_SYNC_DEVICE_FAILURE" desc="The message for the dialog where the user notified about sync setup failure.">
         Sync could not be setup
       </message>
+      <message name="IDS_SYNC_REQUIRES_CORRECT_TIME" desc="The message for the dialog where the user notified about sync setup failure.">
+        You might be having wrong system time or timezone setup on your device. Please setup the correct time and timezone
+      </message>
 
       <!-- Brave stats -->
       <message name="IDS_BRAVE_STATS_TEXT_TRACKERS" desc="Text for blocked trackers stats on new tab page.">
@@ -4464,7 +4467,7 @@ Save battery and load web pages faster
       <message name="IDS_BRAVE_SET_DEFAULT_BROWSER_DIALOG_TEXT" desc="Dialog for setting default browser">
         Select Brave from the list and tap "Always"
       </message>
-      
+
       <!--It's just temporary. We will need to pull rewards strings from brave-core-->
       <message name="IDS_BRAVE_UI_WELCOME_HEADER_TWO" desc="Get ready to experience the next Internet.">
         Get ready to experience
