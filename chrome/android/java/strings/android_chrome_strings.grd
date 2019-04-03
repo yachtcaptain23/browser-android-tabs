@@ -4727,6 +4727,9 @@ content creators you love.
       <message name="IDS_HIDE_BRAVE_REWARDS_ICON_DESCRIPTION" desc="Description for preference that hides or shows Brave Rewards icon.">
         Hides the Brave Rewards Icon when Brave Rewards is not enabled
       </message>
+      <message name="IDS_BRAVE_UI_PRE_GRANT_MESSAGE" desc="A message that appears before grant notification is received">
+        Check back soon for a free token grant
+      </message>
     </messages>
   </release>
 </grit>
