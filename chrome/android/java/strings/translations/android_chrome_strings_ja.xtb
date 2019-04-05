@@ -198,7 +198,7 @@
 <translation id="2414886740292270097">暗</translation>
 <translation id="8285489906452138776">このサイトを利用するには、Brave でカメラの使用を許可する必要があります。</translation>
 <translation id="2426805022920575512">別のアカウントを選択</translation>
-<translation id="2433507940547922241">デザイン</translation>
+<translation id="2433507940547922241">見た目</translation>
 <translation id="2434158240863470628">ダウンロードが完了しました<ph name="SEPARATOR" /> <ph name="BYTES_DOWNLOADED" /></translation>
 <translation id="2440823041667407902">現在地情報へのアクセス</translation>
 <translation id="2450083983707403292"><ph name="FILE_NAME" /> のダウンロードをやり直してもよろしいですか？</translation>
@@ -1329,4 +1329,20 @@
 <translation id="8495235435594442882">画面下のツールバーを有効にする</translation>
 <translation id="7239121106815507493">画面下のツールバーを無効にする</translation>
 <translation id="145068164597056296">検索またはURLを入力します</translation>
+<translation id="8092959674294171327">デバイスのシステム時刻もしくはタイムゾーンが間違っている可能性があります。正確な時刻やタイムゾーを設定してください</translation>
+<translation id="6810078320346589989">ブックマークを作成</translation>
+<translation id="5463954686005964104">このサイトに毎月チップを支払う</translation>
+<translation id="1923568441186788334">Braveリワードはここにあります</translation>
+<translation id="7722441371828049691">お気に入りのサイトをサポート</translation>
+<translation id="5234764350956374838">解除</translation>
+<translation id="4472575034687746823">始める</translation>
+<translation id="4162066325465825185">申し訳ありませんが、お使いのデバイスではBraveリワードがご利用いただけないようです。</translation>
+<translation id="4150201353443180367">表示</translation>
+<translation id="2804710924397009224">Braveリワードアイコンを隠す</translation>
+<translation id="7358991116457217836">Braveリワードが有効でない場合にBraveリワードアイコンを隠す</translation>
+<translation id="7618184561660805696">またすぐにチェックして無料のトークンを受け取りましょう</translation>
+<translation id="3349204812119681938">Braveリワードをリセット</translation>
+<translation id="8782039523249932839">Braveウォレットが削除され、すべてのBraveリワードデータがリセットされます</translation>
+<translation id="5321518976657560663">エラーをリセット</translation>
+<translation id="7071576788062714665">Braveリワードのリセット中にエラーが発生しました。Braveを再開して、再度お試しください。</translation>
 </translationbundle>

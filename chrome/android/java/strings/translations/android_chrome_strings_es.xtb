@@ -198,7 +198,7 @@ No obstante, tus acciones no serán totalmente invisibles. El uso del modo priva
 <translation id="2414886740292270097">Oscuro</translation>
 <translation id="8285489906452138776">Brave necesita permiso para acceder a la cámara en este sitio web.</translation>
 <translation id="2426805022920575512">Elegir otra cuenta</translation>
-<translation id="2433507940547922241">Aspecto</translation>
+<translation id="2433507940547922241">Apariencia</translation>
 <translation id="2434158240863470628">Descarga completa <ph name="SEPARATOR" /> <ph name="BYTES_DOWNLOADED" /></translation>
 <translation id="2440823041667407902">Acceso a la ubicación</translation>
 <translation id="2450083983707403292">¿Quieres empezar a descargar <ph name="FILE_NAME" /> de nuevo?</translation>
@@ -1163,7 +1163,7 @@ bloqueados</translation>
 <translation id="8880969045613157151">Actualizaciones
 HTTPS</translation>
 <translation id="204407992549693965">Tiempo estimado
-Guardado</translation>
+ahorrado</translation>
 <translation id="991605024067283917">Enviar indicadores</translation>
 <translation id="6572660632052512096">Modo de escritorio</translation>
 <translation id="4479934682648362332">Preferir la versión de escritorio de los sitios</translation>
@@ -1195,7 +1195,7 @@ Guardado</translation>
 <translation id="4250680216510889253">No</translation>
 <translation id="5628466560184522265">Saber más sobre la búsqueda privada con DuckDuckGo</translation>
 <translation id="1468415711258933398">Pestaña estándar</translation>
-<translation id="6199596294742117349">Esto es una Pestaña Privada</translation>
+<translation id="6199596294742117349">Esto es una pestaña privada</translation>
 <translation id="5858455511731621847">Aunque los sitios que visite desde pestañas privadas no se guarden a nivel local, no serán anónimos o invisibles para sus ISP, su empleador o para las páginas que esté visitando.</translation>
 <translation id="2339273275658335597">Actualización del navegador Brave</translation>
 <translation id="8395234238259738935">El navegador nuevo Brave es 22% más rápido</translation>
@@ -1307,7 +1307,7 @@ mes...</translation>
 <translation id="3692362746128814480">Has fijado <ph name="BAT_VALUE" /> BAT para los creadores de contenido que no se han registrado todavía
 y no pueden recibir aportaciones. El navegador seguirá intentando enviarle la aportación
 hasta que se haya verificado o hayan transcurrido 90 días.</translation>
-<translation id="7997676409547731821">Has programado un pago mensual como aportación automática y propinas mensuales que no se ha podido realizar porque no tienes suficientes fondos. Volveremos a intentarlo en 30 días.</translation>
+<translation id="7997676409547731821">Su pago mensual programado por contribución automática y propinas mensuales no se pudo completar debido a la insuficiencia de fondos. Lo intentaremos de nuevo en 30 días.</translation>
 <translation id="5306913077198665897">Ha surgido un problema al procesar tu propina. Vuelve a intentarlo.</translation>
 <translation id="2429828319207652823">Ha surgido un problema al procesar tu aportación.</translation>
 <translation id="2323069945529668668">¡Vaya!</translation>
@@ -1333,4 +1333,20 @@ apoyar a los creadores de contenido que más te gustan.</translation>
 <translation id="8495235435594442882">Activar la barra de herramientas inferior</translation>
 <translation id="7239121106815507493">Desactivar la barra de herramientas inferior</translation>
 <translation id="145068164597056296">Búsqueda o URL</translation>
+<translation id="8092959674294171327">Puede que tengas un sistema horario equivocado o la zona horaria de tu dispositivo mal establecida. Por favor establece las hora y zona horaria correctas.</translation>
+<translation id="6810078320346589989">Crea un marcapáginas</translation>
+<translation id="5463954686005964104">Dar propina a este sitio web mensualmente</translation>
+<translation id="1923568441186788334">Brave Rewards ya están aquí</translation>
+<translation id="7722441371828049691">Compatible con tus sitios web favoritos.</translation>
+<translation id="5234764350956374838">Descartar</translation>
+<translation id="4472575034687746823">Comienza</translation>
+<translation id="4162066325465825185">Lo sentimos. Parece que Brave Rewards no están disponibles en tu dispositivo</translation>
+<translation id="4150201353443180367">Pantalla</translation>
+<translation id="2804710924397009224">Ocultar el icono de Brave Rewards</translation>
+<translation id="7358991116457217836">Oculta el icono de Brave Rewards cuando Brave Rewards no están disponibles</translation>
+<translation id="7618184561660805696">Vuelve pronto para conseguir un token gratis</translation>
+<translation id="3349204812119681938">Restablecer Brave Rewards</translation>
+<translation id="8782039523249932839">Esto borrará tu cartera de Brave y restablecerá los datos de tus Brave Rewards</translation>
+<translation id="5321518976657560663">Error al restablecer</translation>
+<translation id="7071576788062714665">Ha habido un error al restablecer Brave Rewards. Por favor, abre de nuevo Brave e inténtalo otra vez</translation>
 </translationbundle>

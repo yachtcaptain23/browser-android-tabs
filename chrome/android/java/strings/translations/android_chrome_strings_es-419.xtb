@@ -319,7 +319,7 @@ Sin embargo, no vas a pasar completamente desapercibido. El modo de navegación 
 <translation id="3350687908700087792">Cerrar todas las pestañas de incógnito</translation>
 <translation id="3353615205017136254">Google proporcionó la página básica. Para cargar la original, presiona el botón.</translation>
 <translation id="3367813778245106622">Volver a acceder para iniciar la sincronización</translation>
-<translation id="3377025655491224618">Pestaña Privada</translation>
+<translation id="3377025655491224618">Pestaña privada</translation>
 <translation id="3384347053049321195">Compartir imagen</translation>
 <translation id="3386292677130313581">Preguntar antes de permitir que los sitios conozcan tu ubicación (recomendado)</translation>
 <translation id="3387650086002190359"><ph name="FILE_NAME" /> no se pudo descargar debido a errores del sistema de archivos.</translation>
@@ -1187,15 +1187,15 @@ estimado</translation>
 <translation id="5368992950177874750">Si habilitado, los videos se reproducirán en Brave en lugar de la aplicación correspondiente</translation>
 <translation id="7459000603787995422">Cerrar pestañas al salir</translation>
 <translation id="1680858055899097121">No persistir las pestañas entre sesiones de navegación</translation>
-<translation id="213787746370741250">Abrir pestañas en Pestañas Personalizadas</translation>
-<translation id="3544772668823934222">Ofrecer abrir las pestañas en Pestañas Personalizadas</translation>
+<translation id="213787746370741250">Abrir pestañas en pestañas personalizadas</translation>
+<translation id="3544772668823934222">Ofrecer abrir las pestañas en pestañas personalizadas</translation>
 <translation id="4501702055016678577">¿Deseas la búsqueda privada con DuckDuckGo?</translation>
 <translation id="910419239800579753">Con la búsqueda privada, Brave usará DuckDuckGo para respoender a tus búsquedas cuando usas una pestaña privada. DuckDuckGo es un motor de búsqueda que no realiza un seguimiento de tu historial de búsquedas, permitiéndote navegar privadamente.</translation>
 <translation id="1426410128494586442">Sí</translation>
 <translation id="4250680216510889253">No</translation>
 <translation id="5628466560184522265">Conoce más acerca de la búsqueda privada con DuckDuckGo</translation>
-<translation id="1468415711258933398">Pestaña Estándard</translation>
-<translation id="6199596294742117349">Esta es una Pestaña Privada</translation>
+<translation id="1468415711258933398">Pestaña estándar</translation>
+<translation id="6199596294742117349">Esta es una pestaña privada</translation>
 <translation id="5858455511731621847">A pesar de que los sitios que visitas utilizando pestañas privadas no son guardados localmente, estos no te hacen anónimo o invicible a tu Proveedor de Internet, tu empleador, o a los sitios que visitas.</translation>
 <translation id="2339273275658335597">Actualización del navegador Brave</translation>
 <translation id="8395234238259738935">El navegador nuevo Brave es 22% más rápido</translation>
@@ -1240,9 +1240,9 @@ estimado</translation>
 su navegador predeterminado.</translation>
 <translation id="6874141297197991294">Ya ha establecido un navegador predeterminado.
 Puede cambiarlo en la configuración de su aplicación.</translation>
-<translation id="5708254139873333042">Ahorre batería y cargue páginas web más rápido configurando Brave como navegador predeterminado. En el menú Brave, seleccione "Establecer como navegador predeterminado...".</translation>
+<translation id="5708254139873333042">Ahorra batería y carga páginas web más rápido. Haz de Brave tu navegador predeterminado. En el menú Brave, pulse "Establecer como navegador predeterminado".</translation>
 <translation id="3570367516044491911">Establecer como navegador predeterminado</translation>
-<translation id="5827583267117939716">Seleccione Brave de la lista y toque "Siempre"</translation>
+<translation id="5827583267117939716">Seleccione Brave de la lista y toque en "Siempre"</translation>
 <translation id="2262526166668973593">Configure Brave como navegador web predeterminado
 Ahorre batería y cargue páginas web más rápido</translation>
 <translation id="1916285746997567466">Prepárase para disfrutar
@@ -1307,7 +1307,7 @@ Las propinas que usted envíe quedarán en su billetera hasta que el creador ver
 <translation id="3692362746128814480">Ha designado <ph name="BAT_VALUE" /> BAT para creadores que aún no se han
 registrado para recibir contribuciones. Su navegador seguirá intentando hacer la contribución
 hasta que verifiquen su identidad o hasta que hayan transcurrido 90 días.</translation>
-<translation id="7997676409547731821">Su pago mensual programado de Autocontribuir y propinas mensuales no pudieron completarse debido a fondos insuficientes. Lo intentaremos de nuevo dentro de 30 días.</translation>
+<translation id="7997676409547731821">Su pago mensual programado por contribución automática y propinas mensuales no se pudo completar debido a la insuficiencia de fondos. Lo intentaremos de nuevo en 30 días.</translation>
 <translation id="5306913077198665897">No pudimos procesar su propina. Inténtelo de nuevo.</translation>
 <translation id="2429828319207652823">No pudimos procesar su contribución.</translation>
 <translation id="2323069945529668668">Oh oh...</translation>
@@ -1326,4 +1326,11 @@ respetan su privacidad y haga contribuciones para
 apoyar a los creadores de contenido que más le gustan.</translation>
 <translation id="5148719990624240755">ACTIVAR RECOMPENSAS BRAVE</translation>
 <translation id="7820683005702098135">Brave Sync (beta)</translation>
+<translation id="1628742278973105368">Su primer consejo mensual será enviado el:</translation>
+<translation id="6665366815203065060">Acabas de enviar una consejo a:</translation>
+<translation id="5441565662498481293">Usted está enviando automáticamente un consejo a:</translation>
+<translation id="1166682575529520472">Mensualmente</translation>
+<translation id="8495235435594442882">Habilitar barra de herramientas inferior</translation>
+<translation id="7239121106815507493">Deshabilitar barra de herramientas inferior</translation>
+<translation id="145068164597056296">Búsqueda o URL</translation>
 </translationbundle>

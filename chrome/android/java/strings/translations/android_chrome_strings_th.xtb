@@ -198,7 +198,7 @@
 <translation id="2414886740292270097">มืด</translation>
 <translation id="8285489906452138776">Brave ต้องการสิทธิ์เข้าถึงกล้องถ่ายรูปของคุณสำหรับไซต์นี้</translation>
 <translation id="2426805022920575512">เลือกบัญชีอื่น</translation>
-<translation id="2433507940547922241">ลักษณะที่ปรากฏ</translation>
+<translation id="2433507940547922241">ลักษณะ</translation>
 <translation id="2434158240863470628">ดาวน์โหลดเสร็จสมบูรณ์ <ph name="SEPARATOR" /> <ph name="BYTES_DOWNLOADED" /></translation>
 <translation id="2440823041667407902">การเข้าถึงตำแหน่ง</translation>
 <translation id="2450083983707403292">คุณต้องการเริ่มดาวน์โหลด <ph name="FILE_NAME" /> อีกครั้งไหม</translation>
@@ -1332,4 +1332,20 @@ EST แล้ว</translation>
 <translation id="8495235435594442882">เปิดแถบเครื่องมือด้านล่าง</translation>
 <translation id="7239121106815507493">ปิดแถบเครื่องมือด้านล่าง</translation>
 <translation id="145068164597056296">ค้นหาหรือ URL</translation>
+<translation id="8092959674294171327">คุณอาจตั้งเวลาระบบหรือโซนเวลาในอุปกรณ์ผิดพลาด โปรดตั้งเวลาและโซนเวลาให้ถูกต้อง</translation>
+<translation id="6810078320346589989">สร้างบุ๊กมาร์ก</translation>
+<translation id="5463954686005964104">ให้ทิปเว็บไซต์นี้เป็นรายเดือน</translation>
+<translation id="1923568441186788334">Brave Rewards อยู่นี่แล้ว</translation>
+<translation id="7722441371828049691">สนับสนุนเว็บไซต์ที่คุณชื่นชอบ</translation>
+<translation id="5234764350956374838">เพิกเฉย</translation>
+<translation id="4472575034687746823">เริ่มต้นใช้งาน</translation>
+<translation id="4162066325465825185">ขออภัย ดูเหมือนว่า Brave Rewards จะไม่พร้อมให้บริการในอุปกรณ์ของคุณ</translation>
+<translation id="4150201353443180367">แสดง</translation>
+<translation id="2804710924397009224">ซ่อนไอคอน Brave Rewards</translation>
+<translation id="7358991116457217836">ซ่อนไอคอน Brave Rewards เมื่อไม่ได้เปิดใช้งาน Brave Rewards</translation>
+<translation id="7618184561660805696">กลับมาใหม่เร็ว ๆ นี้เพื่อรับโทเค็นฟรี</translation>
+<translation id="3349204812119681938">รีเซ็ต Brave Rewards</translation>
+<translation id="8782039523249932839">คำสั่งนี้จะลบกระเป๋าเงิน Brave ของคุณและรีเซ็ตข้อมูล Brave Rewards ของคุณทั้งหมด</translation>
+<translation id="5321518976657560663">ข้อผิดพลาดในการรีเซ็ต</translation>
+<translation id="7071576788062714665">เกิดข้อผิดพลาดขณะรีเซ็ต Brave Rewards กรุณาปิดแล้วเปิด Brave ใหม่และลองอีกครั้ง</translation>
 </translationbundle>
