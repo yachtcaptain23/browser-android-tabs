@@ -4177,7 +4177,7 @@ However, you aren’t invisible. Going private doesn’t hide your browsing from
         Sync could not be setup
       </message>
       <message name="IDS_SYNC_REQUIRES_CORRECT_TIME" desc="The message for the dialog where the user notified about sync setup failure.">
-        You might be having wrong system time or timezone setup on your device. Please setup the correct time and timezone
+        Your computer's clock may be set to the wrong time, or to the wrong time-zone. Check your clock settings
       </message>
 
       <!-- Brave stats -->
