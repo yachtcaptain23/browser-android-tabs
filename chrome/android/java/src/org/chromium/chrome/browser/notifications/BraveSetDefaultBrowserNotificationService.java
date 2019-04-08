@@ -23,6 +23,7 @@ import android.support.v4.app.NotificationManagerCompat;
 import android.util.Log;
 import org.chromium.chrome.R;
 import org.chromium.base.ContextUtils;
+import org.chromium.chrome.browser.BraveRewardsPanelPopup;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeActivitySessionTracker;
 import org.chromium.chrome.browser.ChromeFeatureList;
@@ -125,10 +126,12 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         if (supportsDefault()) {
             b.setContentText(mContext.getString(R.string.brave_default_browser_existing_notification_body));
             b.setStyle(new NotificationCompat.BigTextStyle().bigText(mContext.getString(R.string.brave_default_browser_existing_notification_body)));
-            NotificationCompat.Action actionYes = new NotificationCompat.Action.Builder(0, mContext.getString(R.string.ddg_offer_positive), getDefaultAppSettingsIntent(mContext)).build();
+            PendingIntent intentYes = getDefaultAppSettingsIntent(mContext);
+            NotificationCompat.Action actionYes = new NotificationCompat.Action.Builder(0, mContext.getString(R.string.ddg_offer_positive), intentYes).build();
             NotificationCompat.Action actionNo = new NotificationCompat.Action.Builder(0, mContext.getString(R.string.ddg_offer_negative), getDismissIntent(mContext, NOTIFICATION_ID)).build();
             b.addAction(actionYes);
             b.addAction(actionNo);
+            b.setContentIntent(intentYes);
         }
 
         NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
@@ -244,7 +247,11 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
     }
 
     public static void NotifyRewardsLive(){
-        if ( ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)){
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+        boolean rewardsIsOn = sharedPreferences.getBoolean(
+            BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON, false);
+        if (ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
+            !rewardsIsOn){
             SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
             boolean first_time_run = sharedPref.getBoolean(FIRST_TIME_RUN, true);
             if (first_time_run) {
@@ -263,6 +270,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(REWARDS_LEARN_MORE_URL));
                 intent.setPackage(context.getPackageName());
                 intent.putExtra(BRAVE_REWARDS_SUBSTITUTE_URL, BRAVE_REWARDS_INTERNAL_URL);
+                intent.putExtra(NOTIFICATION_ID_EXTRA, rewards_live_notification_id);
                 PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
                 NotificationCompat.Action learnAction =
                          new NotificationCompat.Action.Builder(0, context.getString(R.string.brave_rewards_get_started),
@@ -283,6 +291,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
                 builder.setSmallIcon(smallIconId);
                 builder.setContentTitle(context.getString(R.string.brave_rewards_intro_title));
                 builder.setContentText(context.getString(R.string.brave_rewards_intro_text));
+                builder.setContentIntent(pendingIntent);
                 builder.setLargeIcon(BitmapFactory.decodeResource(
                                 context.getResources(),
                                 largeIconId));
