@@ -399,15 +399,12 @@ Still reading?
     <!-- 2 resource sets used by clank widgets for each channel -->
     <ignore regexp="The resource `R.string.bookmark_widget_title.*` appears to be unused"/>
     <ignore regexp="The resource `R.string.search_widget_title.*` appears to be unused"/>
-<<<<<<< HEAD
     <!-- 1 resource used by android tv to generate resources.zip file -->
     <ignore regexp="chromecast/internal/shell/browser/android/java/res/drawable-hdpi/ic_settings_cast.png"/>
     <!-- TODO(crbug.com/909915): Remove this after full Lite mode launch. -->
     <!-- 12 resources used by Data Saver during rebranding to Lite mode -->
     <ignore regexp="The resource `R.string..*lite_mode` appears to be unused"/>
-=======
     <ignore regexp="The resource `R.drawable.btn_toolbar.*` appears to be unused"/>
->>>>>>> 59175ad930a... Test to show heads up and deep link to app store
     <!-- Endnote: Please specify number of suppressions when adding more -->
   </issue>
   <issue id="UseCompoundDrawables">
