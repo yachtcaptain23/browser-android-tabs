@@ -132,7 +132,7 @@ import org.chromium.chrome.browser.metrics.UmaSessionStats;
 import org.chromium.chrome.browser.modaldialog.AppModalPresenter;
 import org.chromium.chrome.browser.multiwindow.MultiWindowUtils;
 import org.chromium.chrome.browser.net.spdyproxy.DataReductionProxySettings;
-import org.chromium.chrome.browser.notifications.BraveAdsNotificationService;
+import org.chromium.chrome.browser.notifications.BraveAds;
 import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
 import org.chromium.chrome.browser.nfc.BeamController;
 import org.chromium.chrome.browser.ntp.NewTabPage;
@@ -2519,10 +2519,10 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 
     private void enqueueHeadsUpNotifications() {
         Context context = ContextUtils.getApplicationContext();
-        Intent intent = new Intent(context, BraveAdsNotificationService.class);
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_TITLE, "Hello World");
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_BODY, "Lorem ipsum");
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_URL, "https://play.google.com/store/apps/details?id=com.brave.browser");
+        Intent intent = new Intent(context, BraveAds.class);
+        intent.putExtra(BraveAds.NOTIFICATION_TITLE, "Hello World");
+        intent.putExtra(BraveAds.NOTIFICATION_BODY, "Lorem ipsum");
+        intent.putExtra(BraveAds.NOTIFICATION_URL, "https://play.google.com/store/apps/details?id=com.brave.browser");
         context.sendBroadcast(intent);
     }
 

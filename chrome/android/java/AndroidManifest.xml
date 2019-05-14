@@ -159,7 +159,7 @@ by a child template that "extends" this file.
             </intent-filter>
         </receiver>
 
-        <receiver android:name="org.chromium.chrome.browser.notifications.BraveAdsNotificationService"
+        <receiver android:name="org.chromium.chrome.browser.notifications.BraveAds"
             android:exported="false">
             <intent-filter>
                 <action android:name="DEEP_LINK"/>

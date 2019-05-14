@@ -4941,6 +4941,7 @@ if (is_android) {
       "../android/java/src/org/chromium/chrome/browser/mojo/ChromeInterfaceRegistrar.java",
       "../android/java/src/org/chromium/chrome/browser/net/spdyproxy/DataReductionProxySettings.java",
       "../android/java/src/org/chromium/chrome/browser/notifications/ActionInfo.java",
+      "../android/java/src/org/chromium/chrome/browser/notifications/BraveAds.java",
       "../android/java/src/org/chromium/chrome/browser/notifications/NotificationPlatformBridge.java",
       "../android/java/src/org/chromium/chrome/browser/notifications/NotificationSettingsBridge.java",
       "../android/java/src/org/chromium/chrome/browser/notifications/NotificationSystemStatusUtil.java",

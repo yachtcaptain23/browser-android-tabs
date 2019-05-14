@@ -20,11 +20,14 @@ import android.provider.Settings;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import org.chromium.chrome.R;
+import org.chromium.base.annotations.CalledByNative;
+import org.chromium.base.annotations.JNINamespace;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeActivitySessionTracker;
 
-public class BraveAdsNotificationService extends BroadcastReceiver {
+@JNINamespace("brave_ads")
+public class BraveAds extends BroadcastReceiver {
     public Context mContext;
     private Intent mIntent;
 
@@ -47,6 +50,42 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
     // ["https://play.google.com/store/apps/details?id=com.brave.browser",
     //  "market://details?id=com.brave.browser"]
     public static final String NOTIFICATION_URL = "notification_url";
+    public static final String NOTIFICATION_NATIVE_UUID = "notification_native_uuid";
+
+    private long mNativeBraveAds;
+
+    private BraveAds(long staticBraveAds) {
+        mNativeBraveAds = staticBraveAds;
+    }
+
+    @CalledByNative
+    private static BraveAds create(long staticBraveAds) {
+        return new BraveAds(staticBraveAds);
+    }
+
+    @CalledByNative
+    public void showNotificationFromNative(String advertiser, String text, String url, String uuid) {
+      if (mContext == null)
+          mContext = ContextUtils.getApplicationContext();
+      NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, "com.brave.browser.ads");
+      b.setDefaults(Notification.DEFAULT_ALL)
+       .setSmallIcon(R.drawable.ic_chrome)
+       .setContentTitle((String) advertiser)
+       .setContentText((String) text)
+       .setCategory(Notification.CATEGORY_MESSAGE)
+       .setPriority(Notification.PRIORITY_MAX);
+
+      Intent deepLinkIntent = new Intent(mContext, BraveAds.class);
+      deepLinkIntent.putExtra(DEEP_LINK, DEEP_LINK_TYPE_PAGE);
+      deepLinkIntent.putExtra(NOTIFICATION_URL, url);
+      deepLinkIntent.putExtra(NOTIFICATION_NATIVE_UUID, uuid);
+      b.setContentIntent(PendingIntent.getBroadcast(mContext, 0, deepLinkIntent, PendingIntent.FLAG_UPDATE_CURRENT));
+
+      if (Build.VERSION.SDK_INT >= 21) b.setVibrate(new long[0]);
+
+      NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
+      notificationManager.notify(NOTIFICATION_ID, b.build());
+    }
 
     private void showNotification(Intent intent) {
         NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, "com.brave.browser.ads");
@@ -66,14 +105,14 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
     }
 
     private PendingIntent getAdsDeepLinkIntent(Context context, Intent intent) {
-        Intent deepLinkIntent = new Intent(context, BraveAdsNotificationService.class);
+        Intent deepLinkIntent = new Intent(context, BraveAds.class);
         deepLinkIntent.putExtra(DEEP_LINK, DEEP_LINK_TYPE_PAGE);
         deepLinkIntent.putExtra(NOTIFICATION_URL, intent.getStringExtra(NOTIFICATION_URL));
         return PendingIntent.getBroadcast(context, 0, deepLinkIntent, PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
     private void handleAdsDeepLink(Intent intent) {
-        if (intent.getStringExtra(BraveAdsNotificationService.DEEP_LINK).equals(BraveAdsNotificationService.DEEP_LINK_TYPE_PAGE)) {
+        if (intent.getStringExtra(BraveAds.DEEP_LINK).equals(BraveAds.DEEP_LINK_TYPE_PAGE)) {
            Intent deepLinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(intent.getStringExtra(NOTIFICATION_URL)));
            deepLinkIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
            mContext.startActivity(deepLinkIntent);
@@ -82,6 +121,7 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        Log.d("albert", "got an intent" + intent.toString());
         mContext = context;
         mIntent = intent;
         if (intent != null && intent.hasExtra(DEEP_LINK)) {
