@@ -25,6 +25,7 @@ import org.chromium.base.annotations.JNINamespace;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeActivitySessionTracker;
+import org.chromium.chrome.browser.profiles.Profile;
 
 public class BraveAdsNotificationService extends BroadcastReceiver {
     public Context mContext;
@@ -67,6 +68,9 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
 
         NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(NOTIFICATION_ID, b.build());
+
+        // TODO: (Albert Wang): Make sure there's permissions to show notification
+        BraveAds.nativeOnShowHelper(Profile.getLastUsedProfile(), intent.getStringExtra(NOTIFICATION_NATIVE_UUID));
     }
 
     private PendingIntent getAdsDeepLinkIntent(Context context, Intent intent) {

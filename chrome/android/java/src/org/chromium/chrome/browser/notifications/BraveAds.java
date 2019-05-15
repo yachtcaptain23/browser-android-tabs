@@ -25,6 +25,7 @@ import org.chromium.base.annotations.JNINamespace;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeActivitySessionTracker;
+import org.chromium.chrome.browser.profiles.Profile;
 
 @JNINamespace("brave_ads")
 public class BraveAds {
@@ -58,4 +59,6 @@ public class BraveAds {
         intent.putExtra(BraveAdsNotificationService.NOTIFICATION_NATIVE_UUID, uuid);
         context.sendBroadcast(intent);
     }
+
+    public static native void nativeOnShowHelper(Profile profile, String uuid);
 }
