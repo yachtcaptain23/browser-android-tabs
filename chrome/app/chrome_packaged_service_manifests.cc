@@ -11,6 +11,7 @@
 #include "chrome/services/file_util/manifest.h"
 #include "chrome/services/noop/manifest.h"
 #include "brave/components/services/bat_ledger/manifest.h"
+#include "brave/components/services/bat_ads/manifest.h"
 #include "components/services/patch/manifest.h"
 #include "components/services/unzip/manifest.h"
 #include "components/spellcheck/common/spellcheck.mojom.h"
@@ -134,6 +135,7 @@ const std::vector<service_manager::Manifest>&
 GetChromePackagedServiceManifests() {
   static base::NoDestructor<std::vector<service_manager::Manifest>> manifests{{
       GetChromeManifest(),
+      bat_ads::GetManifest(),
       bat_ledger::GetManifest(),
       patch_service::GetManifest(),
       unzip_service::GetManifest(),
