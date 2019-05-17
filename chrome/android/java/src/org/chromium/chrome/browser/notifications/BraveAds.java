@@ -61,4 +61,6 @@ public class BraveAds {
     }
 
     public static native void nativeOnShowHelper(Profile profile, String uuid);
+    public static native void nativeOnClickHelper(Profile profile, String url, boolean should_close);
+    public static native void nativeOnDismissHelper(Profile profile, String url, String uuid, boolean dismissed_by_user);
 }

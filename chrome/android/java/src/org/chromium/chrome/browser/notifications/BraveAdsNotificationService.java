@@ -41,6 +41,7 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
 
     // Intent types
     public static final String INTENT_TYPE = "intent_type";
+    public static final String DISMISS_INTENT = "dismiss_intent";
 
     // Payload keys for displaying the information
     public static final String NOTIFICATION_TITLE = "notification_title";
@@ -63,6 +64,7 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
          .setPriority(Notification.PRIORITY_MAX);
 
         b.setContentIntent(getAdsDeepLinkIntent(mContext, intent));
+        b.setDeleteIntent(getAdsDismissIntent(mContext, intent));
 
         if (Build.VERSION.SDK_INT >= 21) b.setVibrate(new long[0]);
 
@@ -75,6 +77,7 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
 
     private PendingIntent getAdsDeepLinkIntent(Context context, Intent intent) {
         Intent deepLinkIntent = new Intent(context, BraveAdsNotificationService.class);
+        deepLinkIntent.putExtra(INTENT_TYPE, DEEP_LINK);
         deepLinkIntent.putExtra(DEEP_LINK, DEEP_LINK_TYPE_PAGE);
         deepLinkIntent.putExtra(NOTIFICATION_URL, intent.getStringExtra(NOTIFICATION_URL));
         deepLinkIntent.putExtra(NOTIFICATION_NATIVE_UUID, intent.getStringExtra(NOTIFICATION_NATIVE_UUID));
@@ -87,8 +90,27 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
             if (!url.startsWith("http://") && !url.startsWith("https://")) url = "http://" + url;
             Intent deepLinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             deepLinkIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            BraveAds.nativeOnClickHelper(Profile.getLastUsedProfile(), url, true);
             mContext.startActivity(deepLinkIntent);
         }
+     }
+
+    private PendingIntent getAdsDismissIntent(Context context, Intent intent) {
+        Intent deepLinkIntent = new Intent(context, BraveAdsNotificationService.class);
+        deepLinkIntent.putExtra(INTENT_TYPE, DISMISS_INTENT);
+        deepLinkIntent.putExtra(NOTIFICATION_URL, intent.getStringExtra(NOTIFICATION_URL));
+        deepLinkIntent.putExtra(NOTIFICATION_NATIVE_UUID, intent.getStringExtra(NOTIFICATION_NATIVE_UUID));
+        return PendingIntent.getBroadcast(context, 0, deepLinkIntent, 0);
+    }
+    
+    // (Albert Wang): Need to figure out if there's a way to distinguish dismissed by user vs system.
+    private void handleDismiss(Intent intent) {
+        BraveAds.nativeOnDismissHelper(
+            Profile.getLastUsedProfile(), 
+            intent.getStringExtra(NOTIFICATION_URL),
+            intent.getStringExtra(NOTIFICATION_NATIVE_UUID),
+            true
+        );
      }
 
     @Override
@@ -96,8 +118,11 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
         Log.d("albert", "got an intent" + intent.toString());
         mContext = context;
         mIntent = intent;
-        if (intent != null && intent.hasExtra(DEEP_LINK)) {
-            handleAdsDeepLink(intent);
+        if (intent != null && intent.hasExtra(INTENT_TYPE)) {
+            if (intent.getStringExtra(INTENT_TYPE).equals(DEEP_LINK))
+                handleAdsDeepLink(intent);
+            else if (intent.getStringExtra(INTENT_TYPE).equals(DISMISS_INTENT))
+                handleDismiss(intent);
         } else {
             showNotification(intent);
         }
