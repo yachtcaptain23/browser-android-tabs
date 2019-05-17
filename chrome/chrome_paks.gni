@@ -91,6 +91,7 @@ template("chrome_extra_paks") {
                            ])
     output = "${invoker.output_dir}/resources.pak"
     sources = [
+      "$root_gen_dir/brave/components/brave_ads/resources/brave_ads_resources.pak",
       "$root_gen_dir/chrome/browser_resources.pak",
       "$root_gen_dir/chrome/chrome_unscaled_resources.pak",
       "$root_gen_dir/chrome/common_resources.pak",
@@ -108,6 +109,7 @@ template("chrome_extra_paks") {
       "$root_gen_dir/components/brave_resources.pak"
     ]
     deps = [
+      "//brave/components/brave_ads/resources",
       "//chrome/app/theme:chrome_unscaled_resources",
       "//chrome/browser:resources",
       "//chrome/browser/resources:invalidations_resources",
