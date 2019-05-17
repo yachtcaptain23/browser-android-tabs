@@ -2,6 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
+import("//brave/components/brave_ads/browser/buildflags/buildflags.gni")
 import("//build/config/ui.gni")
 import("//chrome/common/features.gni")
 import("//chromeos/assistant/assistant.gni")
@@ -556,6 +557,10 @@ source_set("chrome_packaged_service_manifests") {
     "//services/proxy_resolver:proxy_resolver_manifest",
     "//services/service_manager/public/cpp",
   ]
+
+  if (brave_ads_enabled) {
+    deps += [ "//brave/components/services/bat_ads:manifest" ]
+  }
 
   if (enable_extensions) {
     deps += [ "//chrome/services/removable_storage_writer:manifest" ]
