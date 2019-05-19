@@ -145,6 +145,7 @@ void NotificationPlatformBridgeAndroid::OnNotificationClicked(
     const JavaParamRef<jstring>& java_webapk_package,
     jint java_action_index,
     const JavaParamRef<jstring>& java_reply) {
+  LOG(WARNING) << "albert NPBA OnNotificationClicked!";
   std::string notification_id =
       ConvertJavaStringToUTF8(env, java_notification_id);
   std::string profile_id = ConvertJavaStringToUTF8(env, java_profile_id);
@@ -171,7 +172,7 @@ void NotificationPlatformBridgeAndroid::OnNotificationClicked(
       profile_id, incognito,
       base::Bind(&NotificationDisplayServiceImpl::ProfileLoadedCallback,
                  NotificationCommon::OPERATION_CLICK,
-                 NotificationHandler::Type::WEB_PERSISTENT, origin,
+                 NotificationHandler::Type::BRAVE_ADS, origin,
                  notification_id, std::move(action_index), std::move(reply),
                  base::nullopt /* by_user */));
 }
@@ -203,6 +204,7 @@ void NotificationPlatformBridgeAndroid::OnNotificationClosed(
     const JavaParamRef<jstring>& java_profile_id,
     jboolean incognito,
     jboolean by_user) {
+  LOG(WARNING) << "albert NPBA OnNotificationClosed!";
   std::string profile_id = ConvertJavaStringToUTF8(env, java_profile_id);
   std::string notification_id =
       ConvertJavaStringToUTF8(env, java_notification_id);
@@ -217,7 +219,7 @@ void NotificationPlatformBridgeAndroid::OnNotificationClosed(
       profile_id, incognito,
       base::Bind(&NotificationDisplayServiceImpl::ProfileLoadedCallback,
                  NotificationCommon::OPERATION_CLOSE,
-                 NotificationHandler::Type::WEB_PERSISTENT,
+                 NotificationHandler::Type::BRAVE_ADS,
                  GURL(ConvertJavaStringToUTF8(env, java_origin)),
                  notification_id, base::nullopt /* action index */,
                  base::nullopt /* reply */, by_user));
@@ -232,17 +234,21 @@ void NotificationPlatformBridgeAndroid::Display(
 
   GURL origin_url(notification.origin_url().GetOrigin());
 
+  LOG(WARNING) << "albert origin_url: " << origin_url;
   // TODO(miguelg): Store the notification type in java instead of assuming it's
   // persistent once/if non persistent notifications are ever implemented on
   // Android.
-  DCHECK_EQ(notification_type, NotificationHandler::Type::WEB_PERSISTENT);
+  /*
+  DCHECK_EQ(notification_type, NotificationHandler::Type::BRAVE_ADS);
   GURL scope_url(PersistentNotificationMetadata::From(metadata.get())
                      ->service_worker_scope);
   if (!scope_url.is_valid())
     scope_url = origin_url;
+    */
 
-  ScopedJavaLocalRef<jstring> j_scope_url =
-        ConvertUTF8ToJavaString(env, scope_url.spec());
+  ScopedJavaLocalRef<jstring> j_scope_url = ConvertUTF8ToJavaString(env, origin_url.spec());
+
+//        ConvertUTF8ToJavaString(env, scope_url.spec());
 
   ScopedJavaLocalRef<jstring> j_notification_id =
       ConvertUTF8ToJavaString(env, notification.id());
@@ -283,8 +289,10 @@ void NotificationPlatformBridgeAndroid::Display(
       vibration_pattern, notification.timestamp().ToJavaTime(),
       notification.renotify(), notification.silent(), actions);
 
+  // GURL("chrome://brave_ads/?" + *notification_id) this is what origin_url is
   regenerated_notification_infos_[notification.id()] =
-      RegeneratedNotificationInfo(scope_url, base::nullopt);
+//      RegeneratedNotificationInfo(scope_url, base::nullopt);
+      RegeneratedNotificationInfo(origin_url, base::nullopt);
 }
 
 void NotificationPlatformBridgeAndroid::Close(

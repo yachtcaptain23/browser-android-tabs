@@ -54,6 +54,8 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
     public static final String NOTIFICATION_NATIVE_UUID = "notification_native_uuid";
 
     private void showNotification(Intent intent) {
+        return; // Don't show notifications from here
+        /*
         NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, "com.brave.browser.ads");
         int smallIconId =  (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) ? R.drawable.brave_logo_19 : R.drawable.ic_chrome;
         b.setDefaults(Notification.DEFAULT_ALL)
@@ -73,6 +75,7 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
 
         // TODO: (Albert Wang): Make sure there's permissions to show notification
         BraveAds.nativeOnShowHelper(Profile.getLastUsedProfile(), intent.getStringExtra(NOTIFICATION_NATIVE_UUID));
+        */
     }
 
     private PendingIntent getAdsDeepLinkIntent(Context context, Intent intent) {
@@ -90,7 +93,7 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
             if (!url.startsWith("http://") && !url.startsWith("https://")) url = "http://" + url;
             Intent deepLinkIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             deepLinkIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            BraveAds.nativeOnClickHelper(Profile.getLastUsedProfile(), url, true);
+//            BraveAds.nativeOnClickHelper(Profile.getLastUsedProfile(), url, true);
             mContext.startActivity(deepLinkIntent);
         }
      }
@@ -105,12 +108,14 @@ public class BraveAdsNotificationService extends BroadcastReceiver {
     
     // (Albert Wang): Need to figure out if there's a way to distinguish dismissed by user vs system.
     private void handleDismiss(Intent intent) {
+      /*
         BraveAds.nativeOnDismissHelper(
             Profile.getLastUsedProfile(), 
             intent.getStringExtra(NOTIFICATION_URL),
             intent.getStringExtra(NOTIFICATION_NATIVE_UUID),
             true
         );
+        */
      }
 
     @Override
