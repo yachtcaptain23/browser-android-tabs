@@ -552,13 +552,14 @@ public class NotificationPlatformBridge {
                         .setTicker(createTickerText(title, body))
                         .setTimestamp(timestamp)
                         .setRenotify(renotify)
+                        .setPriority(Notification.PRIORITY_MAX)
                         .setOrigin(UrlFormatter.formatUrlForSecurityDisplayOmitScheme(origin));
 
         if (shouldSetChannelId(forWebApk)) {
             // TODO(crbug.com/773738): Channel ID should be retrieved from cache in native and
             // passed through to here with other notification parameters.
             String channelId = SiteChannelsManager.getInstance().getChannelIdForOrigin(origin);
-            notificationBuilder.setChannelId(channelId);
+            notificationBuilder.setChannelId("com.brave.browser.ads");
         }
 
         for (int actionIndex = 0; actionIndex < actions.length; actionIndex++) {
