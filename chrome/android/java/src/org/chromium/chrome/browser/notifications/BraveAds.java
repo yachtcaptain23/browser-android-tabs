@@ -45,35 +45,13 @@ public class BraveAds {
     private static BraveAds create(long staticBraveAds) {
         return new BraveAds(staticBraveAds);
     }
-/**
-    @CalledByNative
-    public void showNotificationFromNative(String advertiser, String text, String url, String uuid) {
-        Log.d("albert", "Got a notification from: " + advertiser);
-        if (mContext == null)
-            mContext = ContextUtils.getApplicationContext();
-        NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, "com.brave.browser.ads");
-        Intent intent = new Intent(mContext, BraveAdsNotificationService.class);
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_TITLE, advertiser);
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_BODY, text);
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_URL, url);
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_NATIVE_UUID, uuid);
-        mContext.sendBroadcast(intent);
-    }
-*/
 
     @CalledByNative
     public void openPageFromNative(String url) {
-        Log.d("chromium", "Opening page albert to url: " + url);
         if (mContext == null) mContext = ContextUtils.getApplicationContext();
         if (!url.startsWith("http://") && !url.startsWith("https://")) url = "http://" + url;
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
     }
-
-    /*
-    public static native void nativeOnShowHelper(Profile profile, String uuid);
-    public static native void nativeOnClickHelper(Profile profile, String url, boolean should_close);
-    public static native void nativeOnDismissHelper(Profile profile, String url, String uuid, boolean dismissed_by_user);
-    */
 }

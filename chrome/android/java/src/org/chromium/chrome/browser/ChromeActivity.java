@@ -7,7 +7,6 @@ package org.chromium.chrome.browser;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
-import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -133,7 +132,6 @@ import org.chromium.chrome.browser.metrics.UmaSessionStats;
 import org.chromium.chrome.browser.modaldialog.AppModalPresenter;
 import org.chromium.chrome.browser.multiwindow.MultiWindowUtils;
 import org.chromium.chrome.browser.net.spdyproxy.DataReductionProxySettings;
-import org.chromium.chrome.browser.notifications.BraveAdsNotificationService;
 import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
 import org.chromium.chrome.browser.nfc.BeamController;
 import org.chromium.chrome.browser.ntp.NewTabPage;
@@ -2521,38 +2519,12 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             DomDistillerUIUtils.openSettings(currentTab.getWebContents());
         } else if (id == R.id.brave_set_default_browser) {
             handleBraveSetDefaultBrowserDialog();
-        } else if (id == R.id.bottom_toolbar_enable) {
-            showOrHideBottomToolbar();
-        } else if (id == R.id.enqueue_heads_up_notifications) {
-            enqueueHeadsUpNotifications();
         } else if (id == R.id.exit_id) {
             ApplicationLifetime.terminate(false);
         } else {
             return false;
         }
         return true;
-    }
-
-
-    private void enqueueHeadsUpNotifications() {
-        Context context = ContextUtils.getApplicationContext();
-        Intent intent = new Intent(context, BraveAdsNotificationService.class);
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_TITLE, "Hello World");
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_BODY, "Lorem ipsum");
-        intent.putExtra(BraveAdsNotificationService.NOTIFICATION_URL, "https://play.google.com/store/apps/details?id=com.brave.browser");
-        context.sendBroadcast(intent);
-    }
-
-    private void showOrHideBottomToolbar() {
-      SharedPreferences prefs = ContextUtils.getAppSharedPreferences();
-      Context context = ContextUtils.getApplicationContext();
-      Boolean originalStatus = prefs.getBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, false);
-      Boolean statusLocked = prefs.edit().putBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, !originalStatus).commit();
-
-      PendingIntent mPendingIntent = PendingIntent.getActivity(context, 1010, new Intent(context, ChromeTabbedActivity.class), PendingIntent.FLAG_CANCEL_CURRENT);
-      AlarmManager mgr = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
-      mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, mPendingIntent);
-      System.exit(0);
     }
 
     public boolean isBraveSetAsDefaultBrowser() {

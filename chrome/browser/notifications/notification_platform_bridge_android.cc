@@ -145,7 +145,6 @@ void NotificationPlatformBridgeAndroid::OnNotificationClicked(
     const JavaParamRef<jstring>& java_webapk_package,
     jint java_action_index,
     const JavaParamRef<jstring>& java_reply) {
-  LOG(WARNING) << "albert NPBA OnNotificationClicked!";
   std::string notification_id =
       ConvertJavaStringToUTF8(env, java_notification_id);
   std::string profile_id = ConvertJavaStringToUTF8(env, java_profile_id);
@@ -204,7 +203,6 @@ void NotificationPlatformBridgeAndroid::OnNotificationClosed(
     const JavaParamRef<jstring>& java_profile_id,
     jboolean incognito,
     jboolean by_user) {
-  LOG(WARNING) << "albert NPBA OnNotificationClosed!";
   std::string profile_id = ConvertJavaStringToUTF8(env, java_profile_id);
   std::string notification_id =
       ConvertJavaStringToUTF8(env, java_notification_id);
@@ -234,7 +232,6 @@ void NotificationPlatformBridgeAndroid::Display(
 
   GURL origin_url(notification.origin_url().GetOrigin());
 
-  LOG(WARNING) << "albert origin_url: " << origin_url;
   // TODO(miguelg): Store the notification type in java instead of assuming it's
   // persistent once/if non persistent notifications are ever implemented on
   // Android.
