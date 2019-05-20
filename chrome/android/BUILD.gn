@@ -2357,6 +2357,7 @@ generate_jni("jni_headers") {
     "java/src/org/chromium/chrome/browser/mojo/ChromeInterfaceRegistrar.java",
     "java/src/org/chromium/chrome/browser/net/spdyproxy/DataReductionProxySettings.java",
     "java/src/org/chromium/chrome/browser/notifications/ActionInfo.java",
+    "java/src/org/chromium/chrome/browser/notifications/BraveAds.java",
     "java/src/org/chromium/chrome/browser/notifications/NotificationPlatformBridge.java",
     "java/src/org/chromium/chrome/browser/notifications/NotificationSettingsBridge.java",
     "java/src/org/chromium/chrome/browser/notifications/NotificationSystemStatusUtil.java",
