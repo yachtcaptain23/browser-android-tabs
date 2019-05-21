@@ -35,6 +35,10 @@
 #include "chrome/browser/send_tab_to_self/desktop_notification_handler.h"
 #endif
 
+#if defined(OS_ANDROID) || defined(OS_ANDROID)
+#include "brave/components/brave_ads/browser/ads_service_factory.h"
+#endif
+
 #if defined(OS_WIN)
 #include "base/strings/utf_string_conversions.h"
 #include "chrome/browser/notifications/notification_platform_bridge_win.h"
@@ -302,6 +306,10 @@ void NotificationDisplayServiceImpl::ProfileLoadedCallback(
 
   NotificationDisplayServiceImpl* display_service =
       NotificationDisplayServiceImpl::GetForProfile(profile);
+#if defined(OS_ANDROID)
+  // Possibly need to restart Brave Ads service if it got killed and the user clicks on the notification
+  brave_ads::AdsServiceFactory::GetForProfile(profile);
+#endif
   display_service->ProcessNotificationOperation(operation, notification_type,
                                                 origin, notification_id,
                                                 action_index, reply, by_user);
