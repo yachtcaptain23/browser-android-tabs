@@ -1,5 +1,6 @@
 package org.chromium.chrome.browser.notifications;
 
+import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -22,6 +23,7 @@ import android.util.Log;
 import org.chromium.chrome.R;
 import org.chromium.base.annotations.CalledByNative;
 import org.chromium.base.annotations.JNINamespace;
+import org.chromium.base.ApplicationStatus;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeActivitySessionTracker;
@@ -49,8 +51,8 @@ public class BraveAds {
     @CalledByNative
     public void openPageFromNative(String url) {
         if (mContext == null) mContext = ContextUtils.getApplicationContext();
-        if (!url.startsWith("http://") && !url.startsWith("https://")) url = "http://" + url;
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        intent.setPackage(mContext.getPackageName());
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mContext.startActivity(intent);
     }
