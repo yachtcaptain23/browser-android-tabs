@@ -15,6 +15,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.support.annotation.Nullable;
 import android.support.customtabs.trusted.TrustedWebActivityServiceConnectionManager;
 import android.text.Spannable;
@@ -538,6 +539,8 @@ public class NotificationPlatformBridge {
 
         boolean hasImage = image != null;
         boolean forWebApk = !webApkPackage.isEmpty();
+        PowerManager powerManager = (PowerManager)context.getSystemService(Context.POWER_SERVICE);
+        boolean isScreenAwake = (Build.VERSION.SDK_INT < 20? powerManager.isScreenOn():powerManager.isInteractive());
         NotificationBuilderBase notificationBuilder =
                 createNotificationBuilder(context, hasImage)
                         .setTitle(title)
@@ -582,7 +585,7 @@ public class NotificationPlatformBridge {
         // The Android framework applies a fallback vibration pattern for the sound when the device
         // is in vibrate mode, there is no custom pattern, and the vibration default has been
         // disabled. To truly prevent vibration, provide a custom empty pattern.
-        boolean vibrateEnabled = PrefServiceBridge.getInstance().isNotificationsVibrateEnabled();
+        boolean vibrateEnabled = isScreenAwake;
         if (!vibrateEnabled) {
             vibrationPattern = EMPTY_VIBRATION_PATTERN;
         }
