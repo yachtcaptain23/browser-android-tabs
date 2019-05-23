@@ -8,11 +8,17 @@ import { connect } from 'react-redux'
 
 // Components
 import { BoxMobile } from 'brave-ui/src/features/rewards/mobile'
+import { List, NextContribution, Tokens } from 'brave-ui/src/features/rewards'
 import { Column, Grid, Select, ControlWrapper } from 'brave-ui/src/components'
+import {
+  StyledListContent,
+  StyledTotalContent
+} from './style'
 
 // Utils
 import { getLocale } from '../../../common/locale'
 import * as rewardsActions from '../actions/rewards_actions'
+import * as utils from '../utils'
 
 interface Props extends Rewards.ComponentProps {
 }
@@ -71,13 +77,24 @@ class AdsBox extends React.Component<Props, {}> {
   }
 
   render () {
+    // Default values from storage.ts
     let adsEnabled = false
     let adsUIEnabled = false
-    const { adsData, enabledMain } = this.props.rewardsData
+    let notificationsReceived = 0
+    let estimatedEarnings = '0'
+    // let adsIsSupported = false
+    const {
+      adsData,
+      enabledMain,
+      walletInfo
+    } = this.props.rewardsData
 
     if (adsData) {
       adsEnabled = adsData.adsEnabled
       adsUIEnabled = adsData.adsUIEnabled
+      notificationsReceived = adsData.adsNotificationsReceived || 0
+      estimatedEarnings = (adsData.adsEstimatedEarnings || 0).toFixed(2)
+      // adsIsSupported = adsData.adsIsSupported
     }
 
     const toggle = !(!enabledMain || !adsUIEnabled)
@@ -91,7 +108,31 @@ class AdsBox extends React.Component<Props, {}> {
         toggle={toggle}
         checked={enabledMain && adsEnabled}
         toggleAction={this.onAdsSettingChange.bind(this, 'adsEnabled', '')}
-      />
+      >
+        <List title={<StyledListContent>{getLocale('adsCurrentEarnings')}</StyledListContent>}>
+          <StyledTotalContent>
+            <Tokens
+              value={estimatedEarnings}
+              converted={utils.convertBalance(estimatedEarnings, walletInfo.rates)}
+            />
+          </StyledTotalContent>
+        </List>
+        <List title={<StyledListContent>{getLocale('adsPaymentDate')}</StyledListContent>}>
+          <StyledListContent>
+            <NextContribution>
+              {'Monthly, 5th'}
+            </NextContribution>
+          </StyledListContent>
+        </List>
+        <List title={<StyledListContent>{getLocale('adsNotificationsReceived')}</StyledListContent>}>
+          <StyledListContent>
+            <Tokens
+              value={notificationsReceived.toString()}
+              hideText={true}
+            />
+          </StyledListContent>
+        </List>
+      </BoxMobile>
     )
   }
 }
