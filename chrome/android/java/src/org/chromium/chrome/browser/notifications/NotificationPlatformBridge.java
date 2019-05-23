@@ -545,7 +545,7 @@ public class NotificationPlatformBridge {
                 createNotificationBuilder(context, hasImage)
                         .setTitle(title)
                         .setBody(body)
-//                        .setImage(image)
+                        .setImage(image)
                         .setLargeIcon(icon)
                         .setSmallIconId(R.drawable.ic_chrome)
                         .setStatusBarIcon(badge)
