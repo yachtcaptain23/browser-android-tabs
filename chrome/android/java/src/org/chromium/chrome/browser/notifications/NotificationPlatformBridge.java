@@ -538,7 +538,6 @@ public class NotificationPlatformBridge {
                 profileId, incognito, webApkPackage, -1 /* actionIndex */);
 
         boolean hasImage = image != null;
-        Log.d("chromium", "has image: " + hasImage);
         boolean forWebApk = !webApkPackage.isEmpty();
         PowerManager powerManager = (PowerManager)context.getSystemService(Context.POWER_SERVICE);
         boolean isScreenAwake = (Build.VERSION.SDK_INT < 20? powerManager.isScreenOn():powerManager.isInteractive());
@@ -575,11 +574,9 @@ public class NotificationPlatformBridge {
             // the same row as the Site Settings button, so icons wouldn't leave room for text.
             Bitmap actionIcon = hasImage ? null : action.icon;
             if (action.type == NotificationActionType.TEXT) {
-                Log.d("chromium", "albert calling addTextAction");
                 notificationBuilder.addTextAction(
                         actionIcon, action.title, intent.getPendingIntent(), action.placeholder);
             } else {
-                Log.d("chromium", "albert calling addTextAction");
                 notificationBuilder.addButtonAction(
                         actionIcon, action.title, intent.getPendingIntent());
             }

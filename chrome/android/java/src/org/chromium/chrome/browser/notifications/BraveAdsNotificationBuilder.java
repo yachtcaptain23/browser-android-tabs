@@ -96,7 +96,6 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         // care must be taken for additive actions. Especially in the case of
         // {@link RemoteViews#addView} the result could be to append new views below stale ones. In
         // that case {@link RemoteViews#removeAllViews} must be called before adding new ones.
-        Log.d("chromium", "albert: CustomNotificationBuilder");
         RemoteViews compactView =
                 new RemoteViews(mContext.getPackageName(), R.layout.web_notification);
         RemoteViews bigView =
@@ -120,11 +119,9 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         }
 
         for (RemoteViews view : new RemoteViews[] {compactView, bigView}) {
-            Log.d("chromium", "albert: whoa I guess we're adding origin?" + mOrigin);
             view.setTextViewText(R.id.time, formattedTime);
             view.setTextViewText(R.id.title, mTitle);
             view.setTextViewText(R.id.body, mBody);
-//            view.setTextViewText(R.id.origin, mOrigin);
             view.setImageViewBitmap(R.id.icon, getNormalizedLargeIcon());
             view.setViewPadding(R.id.title, 0, scaledPadding, 0, 0);
             view.setViewPadding(R.id.body_container, 0, scaledPadding, 0, scaledPadding);
@@ -160,7 +157,6 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         // Wear devices and custom lock screens.
         builder.setContentTitle(mTitle);
         builder.setContentText(mBody);
-        Log.d("chromium", "albert BANB body: " + mBody);
 //        builder.setLargeIcon(getNormalizedLargeIcon());
         setStatusBarIcon(builder, mSmallIconId, mSmallIconBitmapForStatusBar);
         setGroupOnBuilder(builder, mOrigin);
@@ -175,7 +171,6 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
     @Override
     public NotificationBuilderBase addButtonAction(@Nullable Bitmap iconBitmap,
             @Nullable CharSequence title, @Nullable PendingIntent intent) {
-        Log.d("chromium", "albert not addButtonAction");
         return this;
     }
 
@@ -187,7 +182,6 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
     @Override
     public NotificationBuilderBase addTextAction(@Nullable Bitmap iconBitmap,
             @Nullable CharSequence title, @Nullable PendingIntent intent, String placeholder) {
-        Log.d("chromium", "albert not addTextAction");
         return this;
     }
 
