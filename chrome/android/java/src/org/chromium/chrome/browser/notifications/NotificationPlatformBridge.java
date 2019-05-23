@@ -538,6 +538,7 @@ public class NotificationPlatformBridge {
                 profileId, incognito, webApkPackage, -1 /* actionIndex */);
 
         boolean hasImage = image != null;
+        Log.d("chromium", "has image: " + hasImage);
         boolean forWebApk = !webApkPackage.isEmpty();
         PowerManager powerManager = (PowerManager)context.getSystemService(Context.POWER_SERVICE);
         boolean isScreenAwake = (Build.VERSION.SDK_INT < 20? powerManager.isScreenOn():powerManager.isInteractive());
@@ -545,8 +546,8 @@ public class NotificationPlatformBridge {
                 createNotificationBuilder(context, hasImage)
                         .setTitle(title)
                         .setBody(body)
-                        .setImage(image)
-                        .setLargeIcon(icon)
+//                        .setImage(image)
+//                        .setLargeIcon(icon)
                         .setSmallIconId(R.drawable.ic_chrome)
                         .setStatusBarIcon(badge)
                         .setSmallIconForContent(badge)
@@ -574,9 +575,11 @@ public class NotificationPlatformBridge {
             // the same row as the Site Settings button, so icons wouldn't leave room for text.
             Bitmap actionIcon = hasImage ? null : action.icon;
             if (action.type == NotificationActionType.TEXT) {
+                Log.d("chromium", "albert calling addTextAction");
                 notificationBuilder.addTextAction(
                         actionIcon, action.title, intent.getPendingIntent(), action.placeholder);
             } else {
+                Log.d("chromium", "albert calling addTextAction");
                 notificationBuilder.addButtonAction(
                         actionIcon, action.title, intent.getPendingIntent());
             }
@@ -634,8 +637,7 @@ public class NotificationPlatformBridge {
     }
 
     private NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
-        return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context)
-                                          : new StandardNotificationBuilder(context);
+        return new BraveAdsNotificationBuilder(context);
     }
 
     /** Returns whether to set a channel id when building a notification. */
