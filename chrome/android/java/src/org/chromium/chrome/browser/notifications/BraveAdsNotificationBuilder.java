@@ -122,7 +122,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
             view.setTextViewText(R.id.time, formattedTime);
             view.setTextViewText(R.id.title, mTitle);
             view.setTextViewText(R.id.body, mBody);
-            view.setImageViewBitmap(R.id.icon, getNormalizedLargeIcon());
+            view.setImageViewBitmap(R.id.icon, getBraveRewardsIcon());
             view.setViewPadding(R.id.title, 0, scaledPadding, 0, 0);
             view.setViewPadding(R.id.body_container, 0, scaledPadding, 0, scaledPadding);
 //            addWorkProfileBadge(view);
@@ -157,7 +157,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         // Wear devices and custom lock screens.
         builder.setContentTitle(mTitle);
         builder.setContentText(mBody);
-//        builder.setLargeIcon(getNormalizedLargeIcon());
+        builder.setLargeIcon(getBraveRewardsIcon());
         setStatusBarIcon(builder, mSmallIconId, mSmallIconBitmapForStatusBar);
         setGroupOnBuilder(builder, mOrigin);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -166,6 +166,11 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         }
 
         return builder.buildWithBigContentView(bigView);
+    }
+
+    private Bitmap getBraveRewardsIcon() {
+        int largeIconId =  (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) ? R.drawable.bat_logo : R.drawable.bat_icon;
+        return BitmapFactory.decodeResource(mContext.getResources(), largeIconId);
     }
 
     @Override
