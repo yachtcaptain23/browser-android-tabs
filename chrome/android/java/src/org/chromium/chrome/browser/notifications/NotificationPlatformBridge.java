@@ -546,7 +546,7 @@ public class NotificationPlatformBridge {
                         .setTitle(title)
                         .setBody(body)
 //                        .setImage(image)
-//                        .setLargeIcon(icon)
+                        .setLargeIcon(icon)
                         .setSmallIconId(R.drawable.ic_chrome)
                         .setStatusBarIcon(badge)
                         .setSmallIconForContent(badge)
