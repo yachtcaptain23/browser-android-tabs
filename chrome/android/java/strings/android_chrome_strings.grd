@@ -286,6 +286,12 @@ CHAR-LIMIT guidelines:
       <message name="IDS_NOTIFICATION_CATEGORY_GROUP_GENERAL" desc='Subheading for "General" section of a list of notification categories. [CHAR-LIMIT=32]'>
         General
       </message>
+      <message name="IDS_NOTIFICATION_CATEGORY_GROUP_BRAVE_ADS" desc="Subheading for 'Brave Ads' section of a list of notification categories. [CHAR-LIMIT=32]">
+        Brave Ads
+      </message>
+      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS" desc="Label for Brave Ads. [CHAR-LIMIT=32]">
+        Brave Ads
+      </message>
       <message name="IDS_NOTIFICATION_CATEGORY_INCOGNITO" desc="Label for notification that indicates incognito mode is active, within a list of notification categories. [CHAR-LIMIT=32]">
         Incognito
       </message>
