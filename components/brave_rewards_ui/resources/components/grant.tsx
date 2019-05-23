@@ -12,6 +12,7 @@ import {
   GrantComplete,
   GrantWrapper
 } from 'brave-ui/src/features/rewards'
+import { Type as GrantType } from 'brave-ui/src/features/rewards/grantClaim'
 
 // Utils
 import * as rewardsActions from '../actions/rewards_actions'
@@ -81,8 +82,10 @@ class Grant extends React.Component<Props, State> {
       return null
     }
 
+    let type = grant.type === 'ads' ? 'ads' : 'ugp'
     let promoId
     let tokens = '0.0'
+    let date = ''
 
     if (grant.promotionId) {
       promoId = grant.promotionId
@@ -91,15 +94,19 @@ class Grant extends React.Component<Props, State> {
       tokens = convertProbiToFixed(grant.probi)
     }
 
+    if (grant.type !== 'ads') {
+      date = new Date(grant.expiryTime).toLocaleDateString()
+    }
+
     // Guard against null grant statuses
     const validGrant = this.validateGrant(tokens)
 
     return (
       <React.Fragment>
         {
-          this.state.grantShown
+          (this.state.grantShown && type)
           ? <GrantClaim
-            type={'ugp'}
+            type={type as GrantType}
             isMobile={true}
             onClaim={this.onClaim.bind(this, promoId)}
             loading={this.state.loading}
@@ -118,7 +125,7 @@ class Grant extends React.Component<Props, State> {
                 isMobile={true}
                 onClose={this.onSuccess}
                 amount={tokens}
-                date={new Date(grant.expiryTime).toLocaleDateString()}
+                date={date}
               />
             </GrantWrapper>
             : null
