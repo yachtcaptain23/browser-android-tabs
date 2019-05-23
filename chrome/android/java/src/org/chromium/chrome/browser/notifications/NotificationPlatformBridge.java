@@ -545,8 +545,8 @@ public class NotificationPlatformBridge {
                 createNotificationBuilder(context, hasImage)
                         .setTitle(title)
                         .setBody(body)
-                        .setImage(image)
-                        .setLargeIcon(icon)
+//                        .setImage(image)
+//                        .setLargeIcon(icon)
                         .setSmallIconId(R.drawable.ic_chrome)
                         .setStatusBarIcon(badge)
                         .setSmallIconForContent(badge)
@@ -634,8 +634,7 @@ public class NotificationPlatformBridge {
     }
 
     private NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
-        return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context)
-                                          : new StandardNotificationBuilder(context);
+        return new BraveAdsNotificationBuilder(context);
     }
 
     /** Returns whether to set a channel id when building a notification. */
