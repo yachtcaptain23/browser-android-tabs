@@ -105,6 +105,7 @@ import org.chromium.chrome.browser.dependency_injection.ChromeActivityCommonsMod
 import org.chromium.chrome.browser.dependency_injection.ChromeActivityComponent;
 import org.chromium.chrome.browser.dependency_injection.ModuleFactoryOverrides;
 import org.chromium.chrome.browser.device.DeviceClassManager;
+import org.chromium.chrome.browser.dialogs.BraveAdsSignupDialog;
 import org.chromium.chrome.browser.dom_distiller.DomDistillerUIUtils;
 import org.chromium.chrome.browser.DisableVideoPauseOnBackground;
 import org.chromium.chrome.browser.dom_distiller.ReaderModeManager;
@@ -544,6 +545,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         createNotificationChannel();
         createAdsNotificationChannel();
         setupBraveSetDefaultBrowserNotification();
+        if (BraveAdsSignupDialog.shouldShowDialog()) {
+            BraveAdsSignupDialog.showDialog(ContextUtils.getApplicationContext());
+        }
     }
 
     private void createNotificationChannel() {
