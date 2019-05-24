@@ -97,7 +97,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         // {@link RemoteViews#addView} the result could be to append new views below stale ones. In
         // that case {@link RemoteViews#removeAllViews} must be called before adding new ones.
         RemoteViews compactView =
-                new RemoteViews(mContext.getPackageName(), R.layout.web_notification);
+                new RemoteViews(mContext.getPackageName(), R.layout.web_notification_brave_ads);
         RemoteViews bigView =
                 new RemoteViews(mContext.getPackageName(), R.layout.web_notification_big_brave_ads);
 
@@ -123,7 +123,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
             view.setTextViewText(R.id.time, formattedTime);
             view.setTextViewText(R.id.title, mTitle);
             view.setTextViewText(R.id.body, mBody);
-            view.setImageViewBitmap(R.id.icon, getBraveRewardsIcon());
+            view.setImageViewBitmap(R.id.icon, getBraveIcon());
             view.setViewPadding(R.id.title, 0, scaledPadding, 0, 0);
             view.setViewPadding(R.id.body_container, 0, scaledPadding, 0, scaledPadding);
 //            addWorkProfileBadge(view);
@@ -158,7 +158,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         // Wear devices and custom lock screens.
         builder.setContentTitle(mTitle);
         builder.setContentText(mBody);
-        builder.setLargeIcon(getBraveRewardsIcon());
+        builder.setLargeIcon(getBraveIcon());
         setStatusBarIcon(builder, mSmallIconId, mSmallIconBitmapForStatusBar);
         setGroupOnBuilder(builder, mOrigin);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -169,8 +169,8 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         return builder.buildWithBigContentView(bigView);
     }
 
-    private Bitmap getBraveRewardsIcon() {
-        int largeIconId =  (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) ? R.drawable.bat_logo : R.drawable.bat_icon;
+    private Bitmap getBraveIcon() {
+        int largeIconId = R.drawable.btn_brave;
         return BitmapFactory.decodeResource(mContext.getResources(), largeIconId);
     }
 

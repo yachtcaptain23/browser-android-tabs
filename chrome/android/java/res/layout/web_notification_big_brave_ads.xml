@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <include layout="@layout/web_notification_icon_frame"
+    <include layout="@layout/web_notification_icon_frame_brave"
         android:id="@+id/icon_frame"/>
 
     <!--
