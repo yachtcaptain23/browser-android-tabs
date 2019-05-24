@@ -71,6 +71,10 @@ class SettingsPage extends React.Component<Props, State> {
       this.actions.onSettingSave('firstLoad', false)
     }
 
+    if (this.props.rewardsData.adsData.adsEnabled) {
+      this.actions.getTransactionHistoryForThisCycle()
+    }
+
     this.isWalletUrl()
 
     window.addEventListener('popstate', (e) => {
@@ -88,6 +92,13 @@ class SettingsPage extends React.Component<Props, State> {
     ) {
       this.actions.getContributeList()
       this.actions.getWalletProperties()
+    }
+
+    if (
+      !prevProps.rewardsData.adsData.adsEnabled &&
+      this.props.rewardsData.adsData.adsEnabled
+    ) {
+      this.actions.getTransactionHistoryForThisCycle()
     }
 
     if (

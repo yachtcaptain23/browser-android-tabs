@@ -6,6 +6,7 @@ import { Reducer } from 'redux'
 
 // Constant
 import { types } from '../constants/rewards_types'
+import { defaultState } from '../storage'
 
 const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State, action) => {
   switch (action.type) {
@@ -86,6 +87,27 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
         }
         break
       }
+    case types.GET_TRANSACTION_HISTORY_FOR_THIS_CYCLE:
+    case types.ON_TRANSACTION_HISTORY_FOR_THIS_CYCLE_CHANGED: {
+      chrome.send('brave_rewards.getTransactionHistoryForThisCycle', [])
+      break
+    }
+    case types.ON_TRANSACTION_HISTORY_FOR_THIS_CYCLE: {
+      if (!action.payload.data) {
+        break
+      }
+
+      state = { ...state }
+
+      if (!state.adsData) {
+        state.adsData = defaultState.adsData
+      }
+
+      const data = action.payload.data
+      state.adsData.adsNotificationsReceived = data.adsNotificationsReceived
+      state.adsData.adsEstimatedEarnings = data.adsEstimatedEarnings
+      break
+    }
     case types.INIT_AUTOCONTRIBUTE_SETTINGS:
       {
         state = { ...state }
