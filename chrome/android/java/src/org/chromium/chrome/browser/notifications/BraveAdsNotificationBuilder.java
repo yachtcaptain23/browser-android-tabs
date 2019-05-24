@@ -106,6 +106,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         int scaledPadding =
                 calculateScaledPadding(fontScale, mContext.getResources().getDisplayMetrics());
         String formattedTime = "";
+        setChannelId("com.brave.browser.ads");
 
         // Temporarily allowing disk access. TODO: Fix. See http://crbug.com/577185
         StrictMode.ThreadPolicy oldPolicy = StrictMode.allowThreadDiskWrites();
@@ -145,7 +146,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         builder.setTicker(mTickerText);
         builder.setContentIntent(mContentIntent);
         builder.setDeleteIntent(mDeleteIntent);
-        builder.setPriorityBeforeO(mPriority);
+        builder.setPriorityBeforeO(Notification.PRIORITY_HIGH);
         builder.setDefaults(mDefaults);
         if (mVibratePattern != null) builder.setVibrate(mVibratePattern);
         builder.setWhen(mTimestamp);
