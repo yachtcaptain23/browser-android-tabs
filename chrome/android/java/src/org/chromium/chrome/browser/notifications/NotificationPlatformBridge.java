@@ -82,6 +82,8 @@ public class NotificationPlatformBridge {
 
     private TrustedWebActivityClient mTwaClient;
 
+    private String mOrigin;
+
     /**
      * Creates a new instance of the NotificationPlatformBridge.
      *
@@ -523,6 +525,7 @@ public class NotificationPlatformBridge {
             boolean silent, ActionInfo[] actions, String webApkPackage) {
         nativeStoreCachedWebApkPackageForNotificationId(
                 mNativeNotificationPlatformBridge, notificationId, webApkPackage);
+        mOrigin = origin;
 
         // Record whether it's known whether notifications can be shown to the user at all.
         NotificationSystemStatusUtil.recordAppNotificationStatusHistogram();
@@ -562,7 +565,7 @@ public class NotificationPlatformBridge {
             // TODO(crbug.com/773738): Channel ID should be retrieved from cache in native and
             // passed through to here with other notification parameters.
             String channelId = SiteChannelsManager.getInstance().getChannelIdForOrigin(origin);
-            notificationBuilder.setChannelId("com.brave.browser.ads");
+            notificationBuilder.setChannelId(channelId);
         }
 
         for (int actionIndex = 0; actionIndex < actions.length; actionIndex++) {
@@ -634,7 +637,15 @@ public class NotificationPlatformBridge {
     }
 
     private NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
-        return new BraveAdsNotificationBuilder(context);
+      if (isBraveAdNotification()) {
+          return new BraveAdsNotificationBuilder(context);
+      }
+      return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context) 
+                                        : new StandardNotificationBuilder(context);
+    }
+
+    private boolean isBraveAdNotification() {
+      return mOrigin != null && mOrigin.startsWith("chrome://brave_ads");
     }
 
     /** Returns whether to set a channel id when building a notification. */
