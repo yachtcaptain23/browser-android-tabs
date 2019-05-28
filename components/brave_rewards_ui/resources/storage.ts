@@ -39,14 +39,14 @@ export const defaultState: Rewards.State = {
   adsData: {
     adsEnabled: false,
     adsPerHour: 0,
-    adsUIEnabled: false,
+    adsUIEnabled: false, // build flag supports ads
     adsNotificationsReceived: 0,
     adsEstimatedEarnings: 0,
-    adsIsSupported: false
+    adsIsSupported: false // region supports ads
   },
   autoContributeList: [],
   reports: {},
-  safetyNetFailed: false,
+  safetyNetFailed: false, // security status supports ads
   recurringList: [],
   tipsList: [],
   tipsLoad: false,
