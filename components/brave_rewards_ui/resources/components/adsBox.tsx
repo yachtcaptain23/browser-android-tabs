@@ -7,7 +7,7 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Components
-import { BoxMobile } from 'brave-ui/src/features/rewards/mobile'
+import BoxMobile, { Props as BoxMobileProps } from 'brave-ui/src/features/rewards/mobile/boxMobile'
 import { List, NextContribution, Tokens } from 'brave-ui/src/features/rewards'
 import { Column, Grid, Select, ControlWrapper } from 'brave-ui/src/components'
 import {
@@ -68,25 +68,18 @@ class AdsBox extends React.Component<Props, {}> {
     )
   }
 
-  getBoxMessage = (enabled?: boolean) => {
-    if (enabled) {
-      return getLocale('adsDesc')
-    }
-
-    return getLocale('adsDisabledText')
-  }
-
   render () {
     // Default values from storage.ts
     let adsEnabled = false
     let adsUIEnabled = false
     let notificationsReceived = 0
     let estimatedEarnings = '0'
-    // let adsIsSupported = false
+    let adsIsSupported = false
     const {
       adsData,
       enabledMain,
-      walletInfo
+      walletInfo,
+      safetyNetFailed
     } = this.props.rewardsData
 
     if (adsData) {
@@ -94,20 +87,37 @@ class AdsBox extends React.Component<Props, {}> {
       adsUIEnabled = adsData.adsUIEnabled
       notificationsReceived = adsData.adsNotificationsReceived || 0
       estimatedEarnings = (adsData.adsEstimatedEarnings || 0).toFixed(2)
-      // adsIsSupported = adsData.adsIsSupported
+      adsIsSupported = adsData.adsIsSupported
     }
 
-    const toggle = !(!enabledMain || !adsUIEnabled)
+    // disabled / alert state
+    const isDisabled = safetyNetFailed || !adsIsSupported || !adsUIEnabled
+    const toggle = !isDisabled && enabledMain
+    // Sanity-check: ensure no action can be performed if the box isn't allowed
+    // to be enabled
+    const toggleAction = toggle
+      ? this.onAdsSettingChange.bind(this, 'adsEnabled', '')
+      : () => {}
+    const boxPropsExtra: Partial<BoxMobileProps> = {
+      toggle,
+      toggleAction,
+      checked: toggle && adsEnabled
+    }
+    if (isDisabled) {
+      boxPropsExtra.alertContent = safetyNetFailed
+        ? <>{getLocale('adsNotSupportedDevice')}</>
+        : !adsIsSupported
+          ? <>{getLocale('adsNotSupportedRegion')}</>
+          : <>This version of Brave does not support Ads.</>
+    }
 
     return (
       <BoxMobile
         title={getLocale('adsTitle')}
         type={'ads'}
-        description={this.getBoxMessage(toggle)}
+        description={getLocale('adsDesc')}
         settingsChild={this.adsSettings(adsEnabled && enabledMain)}
-        toggle={toggle}
-        checked={enabledMain && adsEnabled}
-        toggleAction={this.onAdsSettingChange.bind(this, 'adsEnabled', '')}
+        {...boxPropsExtra}
       >
         <List title={<StyledListContent>{getLocale('adsCurrentEarnings')}</StyledListContent>}>
           <StyledTotalContent>
