@@ -545,9 +545,6 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         createNotificationChannel();
         createAdsNotificationChannel();
         setupBraveSetDefaultBrowserNotification();
-        if (BraveAdsSignupDialog.shouldShowDialog()) {
-            BraveAdsSignupDialog.showDialog(ContextUtils.getApplicationContext());
-        }
     }
 
     private void createNotificationChannel() {
@@ -1466,6 +1463,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         mScreenWidthDp = config.screenWidthDp;
         mScreenHeightDp = config.screenHeightDp;
         mStarted = true;
+        if (BraveAdsSignupDialog.shouldShowDialog()) {
+            BraveAdsSignupDialog.showDialog(this);
+        }
     }
 
     @Override

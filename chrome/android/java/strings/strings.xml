@@ -90,7 +90,9 @@ Saved</string>
     <string name="ddg_offer_link">Learn about private search with DuckDuckGo</string>
     <string name="prefs_standard_search_engine">Standard Tab</string>
     <string name="prefs_private_search_engine">Private Tab</string>
-
+    <string name="brave_ads_offer_title">Brave Ads are here!</string>
+    <string name="brave_ads_offer_text">Get paid for viewing ads. Update your settings to get started.</string>
+    <string name="brave_ads_offer_positive">Yes</string>
     <string name="brave_open_in_private_tab">Open in private tab</string>
     <string name="brave_close_all_private_tabs">Close private tabs</string>
     <string name="brave_new_private_tab">New private tab</string>

@@ -16,12 +16,11 @@ public class BraveAdsSignupDialog {
 //      ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_DDG_OFFER_SHOWN, true).apply();
       new AlertDialog.Builder(context, R.style.BraveDialogTheme)
       .setView(R.layout.brave_ads_join_dialog_layout)
-      .setPositiveButton("Pog", new DialogInterface.OnClickListener() {
+      .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
           @Override
           public void onClick(DialogInterface dialog, int which) {
           }
       })
-      .setNegativeButton(R.string.ddg_offer_negative, null)
       .show();
   }
 }
