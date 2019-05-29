@@ -4773,6 +4773,9 @@ content creators you love.
       <message name="IDS_RESET_BRAVE_REWARDS_ERROR_DESCRIPTION" desc="Description for Brave Rewards reset error dialog.">
         There was an error resetting Brave Rewards.  Please relaunch Brave and try again
       </message>
+      <message name="IDS_BRAVE_ADS_YOU_EARNED" desc='Brave Ads "You earned" text'>
+        You've earned
+      </message>
     </messages>
   </release>
 </grit>
