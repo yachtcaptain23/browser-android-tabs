@@ -10,6 +10,7 @@ import { connect } from 'react-redux'
 import BoxMobile, { Props as BoxMobileProps } from 'brave-ui/src/features/rewards/mobile/boxMobile'
 import { List, NextContribution, Tokens } from 'brave-ui/src/features/rewards'
 import { Column, Grid, Select, ControlWrapper } from 'brave-ui/src/components'
+import AdsOnboarding from './adsOnboarding'
 import {
   StyledListContent,
   StyledTotalContent
@@ -109,6 +110,9 @@ class AdsBox extends React.Component<Props, {}> {
         : !adsIsSupported
           ? <>{getLocale('adsNotSupportedRegion')}</>
           : <>This version of Brave does not support Ads.</>
+    }
+    if (!isDisabled && !boxPropsExtra.checked) {
+      boxPropsExtra.extraDescriptionChild = <AdsOnboarding />
     }
 
     return (
