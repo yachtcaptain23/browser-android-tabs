@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 
+import org.chromium.base.Log;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
@@ -12,6 +13,7 @@ import org.chromium.chrome.browser.profiles.Profile;
 public class BraveAdsSignupDialog {
 
   public static boolean shouldShowDialog() {
+      Log.d("chromium", "albert calling shouldShowDialog!");
       return BraveRewardsPanelPopup.isBraveRewardsEnabled()
         && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
         && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());

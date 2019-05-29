@@ -78,6 +78,7 @@ import org.chromium.chrome.browser.compositor.layouts.phone.StackLayout;
 import org.chromium.chrome.browser.contextual_suggestions.PageViewTimer;
 import org.chromium.chrome.browser.cookies.CookiesFetcher;
 import org.chromium.chrome.browser.crypto.CipherFactory;
+import org.chromium.chrome.browser.dialogs.BraveAdsSignupDialog;
 import org.chromium.chrome.browser.device.DeviceClassManager;
 import org.chromium.chrome.browser.document.ChromeLauncherActivity;
 import org.chromium.chrome.browser.document.DocumentUtils;
@@ -813,6 +814,9 @@ public class ChromeTabbedActivity
         } else {
             CookiesFetcher.restoreCookies();
         }
+            if (BraveAdsSignupDialog.shouldShowDialog()) {
+                BraveAdsSignupDialog.showDialog(this);
+            }
 
         if (FeatureUtilities.isTabModelMergingEnabled()) {
             boolean inMultiWindowMode = MultiWindowUtils.getInstance().isInMultiWindowMode(this)
