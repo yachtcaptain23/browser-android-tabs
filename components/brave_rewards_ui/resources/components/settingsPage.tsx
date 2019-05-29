@@ -157,7 +157,7 @@ class SettingsPage extends React.Component<Props, State> {
   render () {
     const { enabledMain } = this.props.rewardsData
     const { balance, rates } = this.props.rewardsData.walletInfo
-    const convertedBalance = utils.convertBalance(balance.toString(), rates)
+    const convertedBalance = utils.convertBalance((balance || 0).toString(), rates)
 
     return (
       <SettingsPageMobile>
