@@ -16,6 +16,7 @@ transpile_web_ui("transpile_settings") {
     "resources/components/grant.tsx",
     "resources/components/pageWallet.tsx",
     "resources/components/settingsPage.tsx",
+    "resources/components/style.ts",
     "resources/constants/rewards_types.ts",
     "resources/reducers/index.ts",
     "resources/reducers/grant_reducer.ts",
