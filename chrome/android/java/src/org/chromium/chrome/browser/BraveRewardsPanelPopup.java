@@ -153,6 +153,11 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     private boolean mAutoContributeEnabled;
     private boolean mPubInReccuredDonation;
 
+    public static boolean isBraveRewardsEnabled() {
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+        return sharedPreferences.getBoolean(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, false);
+    }
+
     public BraveRewardsPanelPopup(View anchor) {
         currentNotificationId = "";
         publisherExist = false;
