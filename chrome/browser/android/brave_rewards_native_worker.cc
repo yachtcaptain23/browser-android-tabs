@@ -315,9 +315,10 @@ void BraveRewardsNativeWorker::DeleteNotification(JNIEnv* env,
   }
 }
 
-void BraveRewardsNativeWorker::GetGrant(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj) {
+void BraveRewardsNativeWorker::GetGrant(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj,
+        const base::android::JavaParamRef<jstring>& promotionId) {
   if (brave_rewards_service_) {
-    brave_rewards_service_->GetGrantViaSafetynetCheck();
+    brave_rewards_service_->GetGrantViaSafetynetCheck(base::android::ConvertJavaStringToUTF8(env, promotionId));
   }
 }
 
