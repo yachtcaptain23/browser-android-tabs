@@ -83,7 +83,7 @@ const grantReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State, 
       }
 
       state.currentGrant = currentGrant
-      chrome.send('brave_rewards.getGrantCaptcha', [])
+      chrome.send('brave_rewards.getGrantCaptcha', [currentGrant.promotionId, currentGrant.type])
       break
     case types.ON_GRANT_CAPTCHA: {
       if (state.currentGrant && state.grants) {

@@ -15,6 +15,7 @@ import {
 import { Type as GrantType } from 'brave-ui/src/features/rewards/grantClaim'
 
 // Utils
+import { getLocale } from '../../../common/locale'
 import * as rewardsActions from '../actions/rewards_actions'
 import { convertProbiToFixed } from '../utils'
 
@@ -28,6 +29,42 @@ interface State {
 
 interface Props extends Rewards.ComponentProps {
   grant: Rewards.Grant
+}
+
+type GrantWrapperContentProps = {
+  title: string
+  text: string
+}
+
+type GrantCompleteContentProps = {
+  amountTitleText: string
+  dateTitleText: string
+}
+
+function getGrantWrapperContentProps(grantType: GrantType): GrantWrapperContentProps {
+  if (grantType === 'ads') {
+    return {
+      title: getLocale('grantTitleAds'),
+      text: getLocale('grantSubtitleAds')
+    }
+  }
+  return {
+    title: getLocale('grantTitleUGP'),
+    text: getLocale('grantSubtitleUGP')
+  }
+}
+
+function getGrantCompleteContentProps(grantType: GrantType): GrantCompleteContentProps {
+  if (grantType === 'ads') {
+    return {
+      amountTitleText: getLocale('grantAmountTitleAds'),
+      dateTitleText: getLocale('grantDateTitleAds')
+    }
+  }
+  return {
+    amountTitleText: getLocale('grantAmountTitleUGP'),
+    dateTitleText: getLocale('grantDateTitleUGP')
+  }
 }
 
 // TODO add local when we know what we will get from the server
@@ -82,7 +119,8 @@ class Grant extends React.Component<Props, State> {
       return null
     }
 
-    let type = grant.type === 'ads' ? 'ads' : 'ugp'
+    // Handle that ugp type string can actually be 'android' on android
+    let type: GrantType = grant.type === 'ads' ? 'ads' : 'ugp'
     let promoId
     let tokens = '0.0'
     let date = ''
@@ -118,14 +156,14 @@ class Grant extends React.Component<Props, State> {
             ? <GrantWrapper
               fullScreen={true}
               onClose={this.onSuccess}
-              title={'It’s your lucky day!'}
-              text={'Your token grant is on its way.'}
+              {...getGrantWrapperContentProps(type)}
             >
               <GrantComplete
                 isMobile={true}
                 onClose={this.onSuccess}
                 amount={tokens}
                 date={date}
+                {...getGrantCompleteContentProps(type)}
               />
             </GrantWrapper>
             : null
