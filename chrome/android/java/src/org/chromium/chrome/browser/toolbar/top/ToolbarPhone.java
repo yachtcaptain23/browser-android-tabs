@@ -68,6 +68,7 @@ import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.compositor.Invalidator;
 import org.chromium.chrome.browser.compositor.layouts.LayoutUpdateHost;
 import org.chromium.chrome.browser.device.DeviceClassManager;
+import org.chromium.chrome.browser.dialogs.BraveAdsSignupDialog;
 import org.chromium.chrome.browser.feature_engagement.TrackerFactory;
 import org.chromium.chrome.browser.ntp.NewTabPage;
 import org.chromium.chrome.browser.omaha.UpdateMenuItemHelper;
@@ -607,8 +608,9 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             }
         } else if (mBraveRewardsPanelButton == v) {
             if (null == mRewardsPopup) {
-              mRewardsPopup = new BraveRewardsPanelPopup(v);
-              mRewardsPopup.showLikePopDownMenu();
+                mRewardsPopup = new BraveRewardsPanelPopup(v);
+                mRewardsPopup.showLikePopDownMenu();
+                if (BraveAdsSignupDialog.shouldShowDialog()) BraveAdsSignupDialog.showDialog(getContext());
             }
         }
     }
@@ -2042,7 +2044,8 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         boolean rewardsEnabled = sharedPreferences.getBoolean(
             BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
-        if (mBraveRewardsNotificationsCount != null && rewardsEnabled) {
+        if (mBraveRewardsNotificationsCount != null && (rewardsEnabled || BraveAdsSignupDialog.shouldShowDialog())) {
+            if (BraveAdsSignupDialog.shouldShowDialog()) count = count + 1;
             if (count != 0) {
                 String value = Integer.toString(count);
                 if (count > 99) {

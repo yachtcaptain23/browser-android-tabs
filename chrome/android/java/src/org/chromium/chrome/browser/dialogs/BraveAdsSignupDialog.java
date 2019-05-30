@@ -20,14 +20,15 @@ public class BraveAdsSignupDialog {
     private static String SHOULD_SHOW_DIALOG_COUNTER = "should_show_dialog_counter";
 
     public static boolean shouldShowDialog() {
+        // TODO: Second condition which checks locality seems to have a different answer later
         boolean shouldShow = !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile())
           && shouldViewCountDisplay();
-        updateViewCount();
         return shouldShow;
     }
 
     public static void showDialog(Context context) {
+        updateViewCount();
         new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_join_dialog_layout)
         .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
@@ -48,7 +49,7 @@ public class BraveAdsSignupDialog {
     private static boolean shouldViewCountDisplay() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         int viewCount = sharedPref.getInt(SHOULD_SHOW_DIALOG_COUNTER, 0);
-        return 0 == viewCount || 1 == viewCount || 20 == viewCount || 40 == viewCount;
+        return 0 == viewCount || 20 == viewCount || 40 == viewCount;
     }
 
     private static void updateViewCount() {
