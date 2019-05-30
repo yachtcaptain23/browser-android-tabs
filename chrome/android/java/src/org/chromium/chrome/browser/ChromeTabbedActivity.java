@@ -815,9 +815,6 @@ public class ChromeTabbedActivity
         } else {
             CookiesFetcher.restoreCookies();
         }
-            if (BraveAdsSignupDialog.shouldShowDialog()) {
-                BraveAdsSignupDialog.showDialog(this);
-            }
 
         if (FeatureUtilities.isTabModelMergingEnabled()) {
             boolean inMultiWindowMode = MultiWindowUtils.getInstance().isInMultiWindowMode(this)
