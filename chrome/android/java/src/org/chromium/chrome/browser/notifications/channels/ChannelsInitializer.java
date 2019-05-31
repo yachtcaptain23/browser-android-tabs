@@ -13,6 +13,7 @@ import android.os.Build;
 import android.text.TextUtils;
 
 import org.chromium.base.CollectionUtil;
+import org.chromium.base.Log;
 import org.chromium.chrome.browser.notifications.NotificationManagerProxy;
 import org.chromium.chrome.browser.webapps.WebApkServiceClient;
 
@@ -141,6 +142,7 @@ public class ChannelsInitializer {
         HashMap<String, NotificationChannel> channels = new HashMap<>();
 
         for (String groupId : groupIds) {
+            Log.d("chromium", "albert groupId ensureInitWith: " + groupId);
             ChannelDefinitions.PredefinedChannelGroup predefinedChannelGroup =
                     ChannelDefinitions.getChannelGroup(groupId);
             if (predefinedChannelGroup == null) continue;

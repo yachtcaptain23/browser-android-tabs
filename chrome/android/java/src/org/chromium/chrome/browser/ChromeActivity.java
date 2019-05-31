@@ -581,6 +581,16 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     }
 
     private void setupBraveSetDefaultBrowserNotification() {
+        NotificationCompat.Builder b = new NotificationCompat.Builder(this, ChromeActivity.CHANNEL_ID);
+
+        b.setSmallIcon(R.drawable.ic_chrome)
+         .setContentTitle("Brave Ads Group Test")
+         .setGroupSummary(true)
+         .setGroup("com.brave.browser.ads")
+         .setContentText("This is a brave ads group test");
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(1, b.build());
+
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         Context context = ContextUtils.getApplicationContext();
         if (isBraveSetAsDefaultBrowser() || sharedPref.getBoolean(BraveSetDefaultBrowserNotificationService.HAS_ASKED_AT_FIFTEEN_MINUTES, false)) {
@@ -2517,6 +2527,8 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             RecordUserAction.record("MobileMenuRequestDesktopSite");
         } else if (id == R.id.reader_mode_prefs_id) {
             DomDistillerUIUtils.openSettings(currentTab.getWebContents());
+        } else if (id == R.id.show_group_notification) {
+            BraveSetDefaultBrowserNotificationService.showGroupNotification(this);
         } else if (id == R.id.brave_set_default_browser) {
             handleBraveSetDefaultBrowserDialog();
         } else if (id == R.id.exit_id) {

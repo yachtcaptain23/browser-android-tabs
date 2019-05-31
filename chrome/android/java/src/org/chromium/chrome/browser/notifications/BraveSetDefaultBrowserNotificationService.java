@@ -109,6 +109,27 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         return sharedPref.getLong(ChromeActivitySessionTracker.TOTAL_LIFETIME_USAGE, 0) + SystemClock.uptimeMillis() - sharedPref.getLong(ChromeActivitySessionTracker.SESSION_START_TIME, SystemClock.uptimeMillis()) >= FIFTEEN_MINUTES;
     }
 
+    public static void showGroupNotification(Context context) {
+        NotificationCompat.Builder b = new NotificationCompat.Builder(context, ChromeActivity.CHANNEL_ID);
+
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 18) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        b.setSmallIcon(R.drawable.ic_chrome)
+         .setContentText(salt.toString())
+         .setStyle(new NotificationCompat.BigTextStyle().bigText(salt.toString()))
+         .setGroup("com.brave.browser.ads");
+
+        Random ran = new Random();
+        int x = ran.nextInt(2_000_000) + 1;
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(x, b.build());
+    }
+
     private void showNotification() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         SharedPreferences.Editor editor = sharedPref.edit();

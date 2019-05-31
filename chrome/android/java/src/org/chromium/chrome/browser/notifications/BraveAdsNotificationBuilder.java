@@ -28,6 +28,7 @@ import org.chromium.base.Log;
 import org.chromium.base.VisibleForTesting;
 import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.notifications.channels.ChannelDefinitions;
 import org.chromium.ui.base.LocalizationUtils;
 
 import java.util.Date;
@@ -147,7 +148,9 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         builder.setContentIntent(mContentIntent);
         builder.setDeleteIntent(mDeleteIntent);
         builder.setPriorityBeforeO(Notification.PRIORITY_HIGH);
-        builder.setDefaults(mDefaults);
+        //builder.setDefaults(mDefaults);
+        builder.setGroup(ChannelDefinitions.ChannelGroupId.BRAVE_ADS);
+        builder.setGroupSummary(true);
         if (mVibratePattern != null) builder.setVibrate(mVibratePattern);
         builder.setWhen(mTimestamp);
         builder.setShowWhen(true);
@@ -160,8 +163,6 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         builder.setContentText(mBody);
         builder.setLargeIcon(getBraveIcon());
         setStatusBarIcon(builder, mSmallIconId, mSmallIconBitmapForStatusBar);
-        // TODO: Check to see if this is what we want
-        setGroupOnBuilder(builder, mOrigin);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             // Public versions only supported since L, and createPublicNotification requires L+.
             builder.setPublicVersion(createPublicNotification(mContext));

@@ -15,6 +15,7 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.widget.RemoteViews;
 
+import org.chromium.base.Log;
 import org.chromium.chrome.browser.notifications.channels.ChannelsInitializer;
 
 /**
