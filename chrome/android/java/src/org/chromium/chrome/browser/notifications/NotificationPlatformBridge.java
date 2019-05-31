@@ -588,7 +588,7 @@ public class NotificationPlatformBridge {
         // The Android framework applies a fallback vibration pattern for the sound when the device
         // is in vibrate mode, there is no custom pattern, and the vibration default has been
         // disabled. To truly prevent vibration, provide a custom empty pattern.
-        boolean vibrateEnabled = isScreenAwake;
+        boolean vibrateEnabled = isBraveAdNotification() ? isScreenAwake : PrefServiceBridge.getInstance().isNotificationsVibrateEnabled();
         if (!vibrateEnabled) {
             vibrationPattern = EMPTY_VIBRATION_PATTERN;
         }
@@ -739,6 +739,8 @@ public class NotificationPlatformBridge {
     /** Called after querying whether the browser backs the given WebAPK. */
     private void closeNotificationInternal(String notificationId, String webApkPackage,
             String scopeUrl) {
+        // (yachtcaptain23): There might be a bug in this function where TAG and id are switched
+        // when canceling.
         if (notificationId.startsWith("service.ads_service")) {
             return;
         }
