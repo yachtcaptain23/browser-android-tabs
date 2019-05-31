@@ -739,6 +739,9 @@ public class NotificationPlatformBridge {
     /** Called after querying whether the browser backs the given WebAPK. */
     private void closeNotificationInternal(String notificationId, String webApkPackage,
             String scopeUrl) {
+        if (notificationId.startsWith("service.ads_service")) {
+            return;
+        }
         if (!TextUtils.isEmpty(webApkPackage)) {
             WebApkServiceClient.getInstance().cancelNotification(
                     webApkPackage, notificationId, PLATFORM_ID);

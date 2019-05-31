@@ -160,6 +160,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         builder.setContentText(mBody);
         builder.setLargeIcon(getBraveIcon());
         setStatusBarIcon(builder, mSmallIconId, mSmallIconBitmapForStatusBar);
+        // TODO: Check to see if this is what we want
         setGroupOnBuilder(builder, mOrigin);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             // Public versions only supported since L, and createPublicNotification requires L+.
