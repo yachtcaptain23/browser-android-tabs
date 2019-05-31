@@ -153,6 +153,7 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         builder.setShowWhen(true);
         builder.setOnlyAlertOnce(!mRenotify);
         builder.setContent(compactView);
+        builder.setAutoCancel(true);
 
         // Some things are duplicated in the builder to ensure the notification shows correctly on
         // Wear devices and custom lock screens.
