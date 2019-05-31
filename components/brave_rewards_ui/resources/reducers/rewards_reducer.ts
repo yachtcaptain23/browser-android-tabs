@@ -72,8 +72,13 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
           break
         }
 
-        state = { ...state }
-        state.adsData = action.payload.adsData
+        state = {
+          ...state,
+          adsData: {
+            ...state.adsData,
+            ...action.payload.adsData
+          }
+        }
         break
       }
     case types.ON_ADS_SETTING_SAVE:
