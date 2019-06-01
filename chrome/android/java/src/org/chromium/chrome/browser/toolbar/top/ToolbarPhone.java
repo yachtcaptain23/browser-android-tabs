@@ -608,11 +608,23 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             }
         } else if (mBraveRewardsPanelButton == v) {
             if (null == mRewardsPopup) {
-                mRewardsPopup = new BraveRewardsPanelPopup(v);
-                mRewardsPopup.showLikePopDownMenu();
-                if (BraveAdsSignupDialog.shouldShowDialog()) BraveAdsSignupDialog.showDialog(getContext());
+                if (!mayShowBraveAdsOobeDialog()) {
+                    mRewardsPopup = new BraveRewardsPanelPopup(v);
+                    mRewardsPopup.showLikePopDownMenu();
+                }
             }
         }
+    }
+
+    private boolean mayShowBraveAdsOobeDialog() {
+        if (BraveAdsSignupDialog.shouldShowNewUserDialog(getContext())) {
+            BraveAdsSignupDialog.showNewUserDialog(getContext());
+            return true;
+        } else if (BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext())) {
+            BraveAdsSignupDialog.showExistingUserDialog(getContext());
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -2044,8 +2056,12 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         boolean rewardsEnabled = sharedPreferences.getBoolean(
             BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
-        if (mBraveRewardsNotificationsCount != null && (rewardsEnabled || BraveAdsSignupDialog.shouldShowDialog())) {
-            if (BraveAdsSignupDialog.shouldShowDialog()) count = count + 1;
+        boolean shouldUpdateRewardsCountForAdsOobe = 
+            BraveAdsSignupDialog.shouldShowNewUserDialog(getContext()) ||
+            BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext());
+        if (mBraveRewardsNotificationsCount != null && 
+            (rewardsEnabled || shouldUpdateRewardsCountForAdsOobe)) {
+            if (shouldUpdateRewardsCountForAdsOobe) count = count + 1;
             if (count != 0) {
                 String value = Integer.toString(count);
                 if (count > 99) {

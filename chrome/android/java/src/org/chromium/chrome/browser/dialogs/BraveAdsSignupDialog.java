@@ -14,24 +14,37 @@ import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
 import org.chromium.chrome.browser.profiles.Profile;
+import org.chromium.chrome.browser.util.PackageUtils;
 
 public class BraveAdsSignupDialog {
 
     private static String SHOULD_SHOW_DIALOG_COUNTER = "should_show_dialog_counter";
 
-    public static boolean shouldShowDialog() {
+    public static boolean shouldShowNewUserDialog(Context context) {
         // TODO: Second condition which checks locality seems to have a different answer later
-        boolean shouldShow = !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
-          && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile())
-          && shouldViewCountDisplay();
+        boolean shouldShow =
+          PackageUtils.isFirstInstall(context)
+          && shouldViewCountDisplay()
+          && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
+          && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
         return shouldShow;
     }
 
-    public static void showDialog(Context context) {
+    public static boolean shouldShowExistingUserDialog(Context context) {
+        // TODO: Second condition which checks locality seems to have a different answer later
+        boolean shouldShow =
+          !PackageUtils.isFirstInstall(context)
+          && shouldViewCountDisplay()
+          && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
+          && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
+        return shouldShow;
+    }
+
+    public static void showNewUserDialog(Context context) {
         updateViewCount();
         new AlertDialog.Builder(context, R.style.BraveDialogTheme)
-        .setView(R.layout.brave_ads_join_dialog_layout)
-        .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
+        .setView(R.layout.brave_ads_new_user_dialog_layout)
+        .setPositiveButton(R.string.brave_ads_new_user_offer_positive, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Enable rewards
@@ -39,6 +52,20 @@ public class BraveAdsSignupDialog {
                 BraveRewardsNativeWorker braveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
                 braveRewardsNativeWorker.CreateWallet();
 
+                // Enable ads
+                BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+            }
+        })
+        .show();
+    }
+
+    public static void showExistingUserDialog(Context context) {
+        updateViewCount();
+        new AlertDialog.Builder(context, R.style.BraveDialogTheme)
+        .setView(R.layout.brave_ads_existing_user_dialog_layout)
+        .setPositiveButton(R.string.brave_ads_existing_user_offer_positive, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
             }
