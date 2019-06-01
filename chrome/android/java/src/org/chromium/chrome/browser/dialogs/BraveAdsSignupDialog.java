@@ -6,6 +6,8 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;
+import android.widget.ImageView;
+import android.view.View;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
@@ -42,7 +44,7 @@ public class BraveAdsSignupDialog {
 
     public static void showNewUserDialog(Context context) {
         updateViewCount();
-        new AlertDialog.Builder(context, R.style.BraveDialogTheme)
+        AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_new_user_dialog_layout)
         .setPositiveButton(R.string.brave_ads_new_user_offer_positive, new DialogInterface.OnClickListener() {
             @Override
@@ -55,13 +57,21 @@ public class BraveAdsSignupDialog {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
             }
-        })
-        .show();
+        }).create();
+        alertDialog.show();
+
+        ImageView closeButton = alertDialog.findViewById(R.id.close_button);
+        closeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                alertDialog.cancel();
+            }
+        });
     }
 
     public static void showExistingUserDialog(Context context) {
         updateViewCount();
-        new AlertDialog.Builder(context, R.style.BraveDialogTheme)
+        AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_existing_user_dialog_layout)
         .setPositiveButton(R.string.brave_ads_existing_user_offer_positive, new DialogInterface.OnClickListener() {
             @Override
@@ -69,8 +79,16 @@ public class BraveAdsSignupDialog {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
             }
-        })
-        .show();
+        }).create();
+        alertDialog.show();
+
+        ImageView closeButton = alertDialog.findViewById(R.id.close_button);
+        closeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                alertDialog.cancel();
+            }
+        });
     }
 
     private static boolean shouldViewCountDisplay() {
