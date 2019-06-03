@@ -11,6 +11,7 @@ using base::android::ScopedJavaLocalRef;
 
 namespace chrome {
 namespace android {
+
 // static
 
 jboolean JNI_BraveAdsNativeHelper_IsBraveAdsEnabled(JNIEnv* env, const base::android::JavaParamRef<jobject>& j_profile_android) {
@@ -19,7 +20,6 @@ jboolean JNI_BraveAdsNativeHelper_IsBraveAdsEnabled(JNIEnv* env, const base::and
     return ads_service_->IsAdsEnabled();
 }
 
-// bool JNI_BraveAds_IsLocaleValid(JNIEnv* env, const base::android::JavaParamRef<jobject>& j_profile_android) {
 jboolean JNI_BraveAdsNativeHelper_IsLocaleValid(JNIEnv* env, const base::android::JavaParamRef<jobject>& j_profile_android) {
     Profile* profile = ProfileAndroid::FromProfileAndroid(j_profile_android);
     auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);

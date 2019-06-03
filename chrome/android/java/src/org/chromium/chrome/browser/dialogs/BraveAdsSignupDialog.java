@@ -37,7 +37,7 @@ public class BraveAdsSignupDialog {
         boolean shouldShow =
           !PackageUtils.isFirstInstall(context)
           && shouldViewCountDisplay()
-          && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
+          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) || !wasBraveRewardsExplicitlyTurnedOn())
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
         return shouldShow;
     }
@@ -102,5 +102,10 @@ public class BraveAdsSignupDialog {
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putInt(SHOULD_SHOW_DIALOG_COUNTER, sharedPref.getInt(SHOULD_SHOW_DIALOG_COUNTER, 0) + 1);
         editor.apply();
+    }
+
+    private static boolean wasBraveRewardsExplicitlyTurnedOn() {
+        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+        return sharedPref.contains(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON);
     }
 }
