@@ -2056,10 +2056,10 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         boolean rewardsEnabled = sharedPreferences.getBoolean(
             BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
-        boolean shouldUpdateRewardsCountForAdsOobe = 
+        boolean shouldUpdateRewardsCountForAdsOobe =
             BraveAdsSignupDialog.shouldShowNewUserDialog(getContext()) ||
             BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext());
-        if (mBraveRewardsNotificationsCount != null && 
+        if (mBraveRewardsNotificationsCount != null &&
             (rewardsEnabled || shouldUpdateRewardsCountForAdsOobe)) {
             if (shouldUpdateRewardsCountForAdsOobe) count = count + 1;
             if (count != 0) {

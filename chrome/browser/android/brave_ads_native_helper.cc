@@ -17,18 +17,21 @@ namespace android {
 jboolean JNI_BraveAdsNativeHelper_IsBraveAdsEnabled(JNIEnv* env, const base::android::JavaParamRef<jobject>& j_profile_android) {
     Profile* profile = ProfileAndroid::FromProfileAndroid(j_profile_android);
     auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
+    if (!ads_service_) return false;
     return ads_service_->IsAdsEnabled();
 }
 
 jboolean JNI_BraveAdsNativeHelper_IsLocaleValid(JNIEnv* env, const base::android::JavaParamRef<jobject>& j_profile_android) {
     Profile* profile = ProfileAndroid::FromProfileAndroid(j_profile_android);
     auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
+    if (!ads_service_) return false;
     return ads_service_->IsSupportedRegion();
 }
 
 void JNI_BraveAdsNativeHelper_SetAdsEnabled(JNIEnv* env, const base::android::JavaParamRef<jobject>& j_profile_android) {
     Profile* profile = ProfileAndroid::FromProfileAndroid(j_profile_android);
     auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
+    if (!ads_service_) return;
     ads_service_->SetAdsEnabled(true);
 }
 }
