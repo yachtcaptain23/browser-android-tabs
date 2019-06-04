@@ -40,6 +40,7 @@ import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.NavigationPopup;
+import org.chromium.chrome.browser.dialogs.BraveAdsSignupDialog;
 import org.chromium.chrome.browser.download.DownloadUtils;
 import org.chromium.chrome.browser.ntp.NewTabPage;
 import org.chromium.chrome.browser.omnibox.LocationBar;
@@ -378,8 +379,10 @@ public class ToolbarTablet extends ToolbarLayout
             }
         } else if (mBraveRewardsPanelButton == v) {
             if (null == mRewardsPopup) {
-                mRewardsPopup = new BraveRewardsPanelPopup(v);
-                mRewardsPopup.showLikePopDownMenu();
+                if (!mayShowBraveAdsOobeDialog()) {
+                    mRewardsPopup = new BraveRewardsPanelPopup(v);
+                    mRewardsPopup.showLikePopDownMenu();
+                }
             }
         }
     }
@@ -395,6 +398,17 @@ public class ToolbarTablet extends ToolbarLayout
             mRewardsPopup.dismiss();
             mRewardsPopup = null;
         }
+    }
+
+    private boolean mayShowBraveAdsOobeDialog() {
+        if (BraveAdsSignupDialog.shouldShowNewUserDialog(getContext())) {
+            BraveAdsSignupDialog.showNewUserDialog(getContext());
+            return true;
+        } else if (BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext())) {
+            BraveAdsSignupDialog.showExistingUserDialog(getContext());
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -544,7 +558,12 @@ public class ToolbarTablet extends ToolbarLayout
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         boolean rewardsEnabled = sharedPreferences.getBoolean(
             BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
-        if (mBraveRewardsNotificationsCount != null && rewardsEnabled) {
+        boolean shouldUpdateRewardsCountForAdsOobe =
+            BraveAdsSignupDialog.shouldShowNewUserDialog(getContext()) ||
+            BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext());
+        if (mBraveRewardsNotificationsCount != null &&
+            (rewardsEnabled || shouldUpdateRewardsCountForAdsOobe)) {
+            if (shouldUpdateRewardsCountForAdsOobe) count = count + 1;
             if (count != 0) {
                 String value = Integer.toString(count);
                 if (count > 99) {
