@@ -562,5 +562,29 @@ static void JNI_BraveRewardsNativeWorker_Init(JNIEnv* env, const
   new BraveRewardsNativeWorker(env, jcaller);
 }
 
+void BraveRewardsNativeWorker::OnGetAddresses(
+      const std::map<std::string, std::string>& addresses) {
+  addresses_ = addresses;
+}
+
+void BraveRewardsNativeWorker::GetAddresses(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj) {
+  if (brave_rewards_service_) {
+    brave_rewards_service_->GetAddresses(base::Bind(
+          &BraveRewardsNativeWorker::OnGetAddresses,
+          weak_factory_.GetWeakPtr()));
+  }
+}
+
+base::android::ScopedJavaLocalRef<jstring> BraveRewardsNativeWorker::GetAddress(JNIEnv* env,
+        const base::android::JavaParamRef<jobject>& obj,
+        const base::android::JavaParamRef<jstring>& jaddress_name) {
+  base::android::ScopedJavaLocalRef<jstring> res = base::android::ConvertUTF8ToJavaString(env, "");
+  std::string address_name = base::android::ConvertJavaStringToUTF8(env, jaddress_name);
+  if (addresses_.find(address_name) != addresses_.end()) {
+    res = base::android::ConvertUTF8ToJavaString(env, addresses_.at(address_name));
+  }
+  return res;
+}
+
 }
 }
