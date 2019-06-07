@@ -76,10 +76,10 @@ declare namespace Rewards {
     altcurrency?: string
     probi: string
     expiryTime: number
+    type: string
     captcha?: string
     hint?: string
     status?: GrantStatus
-    type?: string
   }
 
   export interface WalletProperties {
@@ -144,5 +144,8 @@ declare namespace Rewards {
     adsEnabled: boolean
     adsPerHour: number
     adsUIEnabled: boolean
+    adsNotificationsReceived: number
+    adsEstimatedEarnings: number
+    adsIsSupported: boolean
   }
 }

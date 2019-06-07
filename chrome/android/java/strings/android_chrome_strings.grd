@@ -289,6 +289,12 @@ CHAR-LIMIT guidelines:
       <message name="IDS_NOTIFICATION_CATEGORY_GROUP_GENERAL" desc='Subheading for "General" section of a list of notification categories. [CHAR-LIMIT=32]'>
         General
       </message>
+      <message name="IDS_NOTIFICATION_CATEGORY_GROUP_BRAVE_ADS" desc="Subheading for 'Brave Ads' section of a list of notification categories. [CHAR-LIMIT=32]">
+        Brave Ads
+      </message>
+      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS" desc="Label for Brave Ads. [CHAR-LIMIT=32]">
+        Brave Ads
+      </message>
       <message name="IDS_NOTIFICATION_CATEGORY_INCOGNITO" desc="Label for notification that indicates incognito mode is active, within a list of notification categories. [CHAR-LIMIT=32]">
         Incognito
       </message>
@@ -4393,6 +4399,24 @@ Saved
       <message name="IDS_DDG_OFFER_LINK" desc="Text for DDG offer link.">
         Learn about private search with DuckDuckGo
       </message>
+      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TITLE" desc="Title for Brave Ads offer.">
+        Brave Ads are here!
+      </message>
+      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TEXT" desc="Text for Brave Ads offer.">
+        Earn Basic Attention Token for viewing privacy preserving ads in Brave Rewards.
+      </message>
+      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_POSITIVE" desc="Positive button text for Brave Ads offer.">
+        I'm in!
+      </message>
+      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_TITLE" desc="Title for Brave Ads offer.">
+        Enable Brave Rewards
+      </message>
+      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_TEXT" desc="Text for Brave Ads offer.">
+        Earn Basic Attention Token for viewing privacy preserving ads in Brave Rewards.
+      </message>
+      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_POSITIVE" desc="Positive button text for Brave Ads offer.">
+        I'm in!
+      </message>
       <message name="IDS_PREFS_STANDARD_SEARCH_ENGINE" desc="Text for 'Standard Tab' search engine preference.">
         Standard Tab
       </message>
@@ -4854,6 +4878,9 @@ content creators you love.
       </message>
       <message name="IDS_RESET_BRAVE_REWARDS_ERROR_DESCRIPTION" desc="Description for Brave Rewards reset error dialog.">
         There was an error resetting Brave Rewards.  Please relaunch Brave and try again
+      </message>
+      <message name="IDS_BRAVE_ADS_YOU_EARNED" desc='Brave Ads "You earned" text'>
+        You've earned
       </message>
     </messages>
   </release>

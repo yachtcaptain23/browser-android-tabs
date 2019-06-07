@@ -80,6 +80,8 @@ public class NotificationPlatformBridge {
 
     private TrustedWebActivityClient mTwaClient;
 
+    private String mOrigin;
+
     /**
      * Creates a new instance of the NotificationPlatformBridge.
      *
@@ -517,6 +519,7 @@ public class NotificationPlatformBridge {
             boolean silent, ActionInfo[] actions, String webApkPackage) {
         nativeStoreCachedWebApkPackageForNotificationId(
                 mNativeNotificationPlatformBridge, notificationId, webApkPackage);
+        mOrigin = origin;
 
         // Record whether it's known whether notifications can be shown to the user at all.
         NotificationSystemStatusUtil.recordAppNotificationStatusHistogram();
@@ -547,6 +550,7 @@ public class NotificationPlatformBridge {
                         .setTicker(createTickerText(title, body))
                         .setTimestamp(timestamp)
                         .setRenotify(renotify)
+                        .setPriority(Notification.PRIORITY_MAX)
                         .setOrigin(UrlFormatter.formatUrlForSecurityDisplayOmitScheme(origin));
 
         if (shouldSetChannelId(forWebApk)) {
@@ -625,8 +629,15 @@ public class NotificationPlatformBridge {
     }
 
     private NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
-        return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context)
-                                          : new StandardNotificationBuilder(context);
+      if (isBraveAdNotification()) {
+          return new BraveAdsNotificationBuilder(context);
+      }
+      return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context) 
+                                        : new StandardNotificationBuilder(context);
+    }
+
+    private boolean isBraveAdNotification() {
+      return mOrigin != null && mOrigin.startsWith("chrome://brave_ads");
     }
 
     /** Returns whether to set a channel id when building a notification. */
@@ -720,6 +731,11 @@ public class NotificationPlatformBridge {
     /** Called after querying whether the browser backs the given WebAPK. */
     private void closeNotificationInternal(String notificationId, String webApkPackage,
             String scopeUrl) {
+        // (yachtcaptain23): There might be a bug in this function where TAG and id are switched
+        // when canceling.
+        if (notificationId.startsWith("service.ads_service")) {
+            return;
+        }
         if (!TextUtils.isEmpty(webApkPackage)) {
             WebApkServiceClient.getInstance().cancelNotification(
                     webApkPackage, notificationId, PLATFORM_ID);
