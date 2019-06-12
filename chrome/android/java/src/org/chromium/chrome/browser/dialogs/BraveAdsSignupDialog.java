@@ -52,7 +52,7 @@ public class BraveAdsSignupDialog {
         updateViewCount();
         AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_new_user_dialog_layout)
-        .setPositiveButton(R.string.brave_ads_new_user_offer_positive, new DialogInterface.OnClickListener() {
+        .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Enable rewards
@@ -79,7 +79,7 @@ public class BraveAdsSignupDialog {
         updateViewCount();
         AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_existing_user_dialog_layout)
-        .setPositiveButton(R.string.brave_ads_existing_user_offer_positive, new DialogInterface.OnClickListener() {
+        .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Enable ads

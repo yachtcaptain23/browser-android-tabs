@@ -68,6 +68,10 @@ public class NotificationPlatformBridge {
 
     private static final int[] EMPTY_VIBRATION_PATTERN = new int[0];
 
+    private static final String BRAVE_ADS_ORIGIN = "chrome://brave_ads";
+
+    private static final String BRAVE_ADS_SERVICE_NATIVE_NOTIFICATION_ID = "service.ads_service";
+
     private static NotificationPlatformBridge sInstance;
 
     private static NotificationManagerProxy sNotificationManagerOverride;
@@ -550,7 +554,7 @@ public class NotificationPlatformBridge {
                         .setTicker(createTickerText(title, body))
                         .setTimestamp(timestamp)
                         .setRenotify(renotify)
-                        .setPriority(Notification.PRIORITY_MAX)
+                        .setPriority(Notification.PRIORITY_HIGH)
                         .setOrigin(UrlFormatter.formatUrlForSecurityDisplayOmitScheme(origin));
 
         if (shouldSetChannelId(forWebApk)) {
@@ -637,7 +641,7 @@ public class NotificationPlatformBridge {
     }
 
     private boolean isBraveAdNotification() {
-      return mOrigin != null && mOrigin.startsWith("chrome://brave_ads");
+      return mOrigin != null && mOrigin.startsWith(BRAVE_ADS_ORIGIN);
     }
 
     /** Returns whether to set a channel id when building a notification. */
@@ -733,7 +737,7 @@ public class NotificationPlatformBridge {
             String scopeUrl) {
         // (yachtcaptain23): There might be a bug in this function where TAG and id are switched
         // when canceling.
-        if (notificationId.startsWith("service.ads_service")) {
+        if (notificationId.startsWith(BRAVE_ADS_SERVICE_NATIVE_NOTIFICATION_ID)) {
             return;
         }
         if (!TextUtils.isEmpty(webApkPackage)) {

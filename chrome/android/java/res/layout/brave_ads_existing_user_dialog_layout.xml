@@ -51,7 +51,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/brave_ads_existing_user_offer_text"
+            android:text="@string/brave_ads_offer_text"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
             android:paddingTop="15dip"
