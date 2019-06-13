@@ -9,11 +9,14 @@ package org.chromium.chrome.browser.dialogs;
 import android.content.Context;
 import android.content.Intent;
 import android.content.DialogInterface;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;
 import android.widget.ImageView;
 import android.view.View;
+import java.lang.System;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
@@ -27,6 +30,7 @@ import org.chromium.chrome.browser.util.PackageUtils;
 public class BraveAdsSignupDialog {
 
     private static String SHOULD_SHOW_DIALOG_COUNTER = "should_show_dialog_counter";
+    private static final long TWENTY_FOUR_HOURS = 86_400_000;
 
     public static boolean shouldShowNewUserDialog(Context context) {
         // TODO: Second condition which checks locality seems to have a different answer later
@@ -34,6 +38,7 @@ public class BraveAdsSignupDialog {
           PackageUtils.isFirstInstall(context)
           && shouldViewCountDisplay()
           && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
+          && hasElapsed24Hours(context)
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
         return shouldShow;
     }
@@ -95,6 +100,14 @@ public class BraveAdsSignupDialog {
                 alertDialog.cancel();
             }
         });
+    }
+
+    private static boolean hasElapsed24Hours(Context context) {
+        boolean result = false;
+        try {
+            result = System.currentTimeMillis() >= context.getPackageManager().getPackageInfo(context.getPackageName(), 0).firstInstallTime + TWENTY_FOUR_HOURS;
+        } catch (NameNotFoundException e) {}
+        return result;
     }
 
     private static boolean shouldViewCountDisplay() {

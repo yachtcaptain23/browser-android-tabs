@@ -616,10 +616,8 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             }
         } else if (mBraveRewardsPanelButton == v) {
             if (null == mRewardsPopup) {
-                if (!mayShowBraveAdsOobeDialog()) {
-                    mRewardsPopup = new BraveRewardsPanelPopup(v);
-                    mRewardsPopup.showLikePopDownMenu();
-                }
+                mRewardsPopup = new BraveRewardsPanelPopup(v);
+                mRewardsPopup.showLikePopDownMenu();
             }
         }
     }
@@ -2102,6 +2100,8 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
                 mBraveRewardsNotificationsCount.setVisibility(View.GONE);
             }
         }
+
+        mayShowBraveAdsOobeDialog();
     }
 
     @Override
