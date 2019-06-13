@@ -33,7 +33,6 @@ public class BraveAdsSignupDialog {
     private static final long TWENTY_FOUR_HOURS = 86_400_000;
 
     public static boolean shouldShowNewUserDialog(Context context) {
-        // TODO: Second condition which checks locality seems to have a different answer later
         boolean shouldShow =
           PackageUtils.isFirstInstall(context)
           && shouldViewCountDisplay()
@@ -44,7 +43,6 @@ public class BraveAdsSignupDialog {
     }
 
     public static boolean shouldShowExistingUserDialog(Context context) {
-        // TODO: Second condition which checks locality seems to have a different answer later
         boolean shouldShow =
           !PackageUtils.isFirstInstall(context)
           && shouldViewCountDisplay()

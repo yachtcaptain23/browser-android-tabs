@@ -563,12 +563,7 @@ public class ToolbarTablet extends ToolbarLayout
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         boolean rewardsEnabled = sharedPreferences.getBoolean(
             BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
-        boolean shouldUpdateRewardsCountForAdsOobe =
-            BraveAdsSignupDialog.shouldShowNewUserDialog(getContext()) ||
-            BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext());
-        if (mBraveRewardsNotificationsCount != null &&
-            (rewardsEnabled || shouldUpdateRewardsCountForAdsOobe)) {
-            if (shouldUpdateRewardsCountForAdsOobe) count = count + 1;
+        if (mBraveRewardsNotificationsCount != null && rewardsEnabled) {
             if (count != 0) {
                 String value = Integer.toString(count);
                 if (count > 99) {
