@@ -13,10 +13,10 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.SharedPreferences;
 import android.net.Uri;
-import android.os.SystemClock;
 import android.support.v7.app.AlertDialog;
 import android.widget.ImageView;
 import android.view.View;
+import java.lang.System;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
@@ -106,7 +106,7 @@ public class BraveAdsSignupDialog {
     private static boolean hasElapsed24Hours(Context context) {
         boolean result = false;
         try {
-            result = SystemClock.uptimeMillis() >= context.getPackageManager().getPackageInfo(context.getPackageName(), 0).firstInstallTime + TWENTY_FOUR_HOURS;
+            result = System.currentTimeMillis() >= context.getPackageManager().getPackageInfo(context.getPackageName(), 0).firstInstallTime + TWENTY_FOUR_HOURS;
         } catch (NameNotFoundException e) {}
         return result;
     }
