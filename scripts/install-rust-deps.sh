@@ -40,16 +40,15 @@ fi
 # download rust/cargo package and place it into brave build directory
 if [ ! -d $RUSTUP_ROOT ]
 then
+  rm -f $TMP_RUST
   wget -P $TMP $RUST_PKG_BRAVE_CORE
   if [ $? != 0 ]
   then
     echo Failed to download $RUST_PKG_BRAVE_CORE
-    rm -f $TMP_RUST
     exit 1
   else
     mkdir $RUSTUP_ROOT
     tar -zxvf $TMP_RUST -C $RUSTUP_ROOT
-    rm -rf $TMP_RUST
     touch $RUST_CONFIG
 
     #edit rust config file
@@ -58,7 +57,6 @@ then
       TRIPLE=${TRIPLES[$i]}
       echo -e "[target.$TRIPLE]\nlinker = \"$TRIPLE-$CLANG\"\n" >> $RUST_CONFIG
     done
-    rm -f $TMP_RUST
   fi
 fi
 
@@ -79,6 +77,7 @@ do
       rm -fr $STANDALONE_TOOLCHAIN_DIR
       exit 1
     fi
-    ${RUSTUP_BIN} target add $TRIPLE
   fi
 done
+
+exit 0
