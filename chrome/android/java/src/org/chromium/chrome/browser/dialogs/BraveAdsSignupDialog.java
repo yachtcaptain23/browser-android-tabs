@@ -49,7 +49,6 @@ public class BraveAdsSignupDialog {
           !PackageUtils.isFirstInstall(context)
           && shouldViewCountDisplay()
           && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) || !wasBraveRewardsExplicitlyTurnedOn())
-          && hasElapsed24Hours(context)
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
         return shouldShow;
     }
