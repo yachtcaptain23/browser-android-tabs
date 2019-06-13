@@ -13,6 +13,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.SystemClock;
 import android.support.v7.app.AlertDialog;
 import android.widget.ImageView;
 import android.view.View;
@@ -49,6 +50,7 @@ public class BraveAdsSignupDialog {
           !PackageUtils.isFirstInstall(context)
           && shouldViewCountDisplay()
           && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) || !wasBraveRewardsExplicitlyTurnedOn())
+          && hasElapsed24Hours(context)
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
         return shouldShow;
     }
