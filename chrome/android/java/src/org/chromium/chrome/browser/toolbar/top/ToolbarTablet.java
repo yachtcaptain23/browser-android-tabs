@@ -387,10 +387,8 @@ public class ToolbarTablet extends ToolbarLayout
             }
         } else if (mBraveRewardsPanelButton == v) {
             if (null == mRewardsPopup) {
-                if (!mayShowBraveAdsOobeDialog()) {
-                    mRewardsPopup = new BraveRewardsPanelPopup(v);
-                    mRewardsPopup.showLikePopDownMenu();
-                }
+                mRewardsPopup = new BraveRewardsPanelPopup(v);
+                mRewardsPopup.showLikePopDownMenu();
             }
         }
     }
@@ -588,6 +586,8 @@ public class ToolbarTablet extends ToolbarLayout
                 mBraveRewardsNotificationsCount.setVisibility(View.GONE);
             }
         }
+
+        mayShowBraveAdsOobeDialog();
     }
 
     @Override
