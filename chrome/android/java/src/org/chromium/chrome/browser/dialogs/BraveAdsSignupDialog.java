@@ -40,22 +40,31 @@ public class BraveAdsSignupDialog {
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
 
         boolean shouldShowForViewCount = shouldShowForViewCount();
-        if (shouldShow) {
-            updateViewCount();
-        }
+        if (shouldShow) updateViewCount();
+        return shouldShow && shouldShowForViewCount;
+    }
+
+    public static boolean shouldShowForUserWhoNeverTurnedOnRewards(Context context) {
+        boolean shouldShow =
+          !PackageUtils.isFirstInstall(context)
+          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) && !wasBraveRewardsExplicitlyTurnedOnAndOff())
+          && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
+
+        boolean shouldShowForViewCount = shouldShowForViewCount();
+        if (shouldShow) updateViewCount();
+
         return shouldShow && shouldShowForViewCount;
     }
 
     public static boolean shouldShowExistingUserDialog(Context context) {
         boolean shouldShow =
           !PackageUtils.isFirstInstall(context)
-          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) || !wasBraveRewardsExplicitlyTurnedOn())
+          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) && isBraveRewardsEnabled())
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
 
         boolean shouldShowForViewCount = shouldShowForViewCount();
-          if (shouldShow) {
-              updateViewCount();
-          }
+        if (shouldShow) updateViewCount();
+
         return shouldShow && shouldShowForViewCount;
     }
 
@@ -128,8 +137,15 @@ public class BraveAdsSignupDialog {
         editor.apply();
     }
 
-    private static boolean wasBraveRewardsExplicitlyTurnedOn() {
+    /**
+     * This is by default true unless the user explicitly turned it on.
+     */
+    private static boolean isBraveRewardsEnabled() {
+        return BraveRewardsPanelPopup.isBraveRewardsEnabled();
+    }
+
+    private static boolean wasBraveRewardsExplicitlyTurnedOnAndOff() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
-        return sharedPref.contains(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON);
+        return sharedPref.contains(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON) && !isBraveRewardsEnabled();
     }
 }

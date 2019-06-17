@@ -87,7 +87,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     public static final String PREF_WAS_BRAVE_REWARDS_TURNED_ON = "brave_rewards_turned_on";
     public static final String PREF_GRANTS_NOTIFICATION_RECEIVED = "grants_notification_received";
-    public static final String PREF_WAS_BRAVE_REWARDS_ENABLED = "brave_rewards_enabled";
+    public static final String PREF_IS_BRAVE_REWARDS_ENABLED = "brave_rewards_enabled";
 
     // Custom Android notification
     private static final int REWARDS_NOTIFICATION_NO_INTERNET = 1000;
@@ -157,7 +157,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     public static boolean isBraveRewardsEnabled() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        return sharedPreferences.getBoolean(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, false);
+        return sharedPreferences.getBoolean(BraveRewardsPanelPopup.PREF_IS_BRAVE_REWARDS_ENABLED, true);
     }
 
     public BraveRewardsPanelPopup(View anchor) {
