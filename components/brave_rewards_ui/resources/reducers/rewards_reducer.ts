@@ -92,13 +92,13 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
         }
         break
       }
-    case types.GET_TRANSACTION_HISTORY_FOR_THIS_CYCLE:
-    case types.ON_TRANSACTION_HISTORY_FOR_THIS_CYCLE_CHANGED:
+    case types.GET_TRANSACTION_HISTORY:
+    case types.ON_TRANSACTION_HISTORY_CHANGED:
       {
-        chrome.send('brave_rewards.getTransactionHistoryForThisCycle', [])
+        chrome.send('brave_rewards.getTransactionHistory', [])
         break
       }
-    case types.ON_TRANSACTION_HISTORY_FOR_THIS_CYCLE:
+    case types.ON_TRANSACTION_HISTORY:
       {
         if (!action.payload.data) {
           break
@@ -111,8 +111,9 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
         }
 
         const data = action.payload.data
-        state.adsData.adsNotificationsReceived = data.adsNotificationsReceived
-        state.adsData.adsEstimatedEarnings = data.adsEstimatedEarnings
+        state.adsData.adsEstimatedPendingRewards = data.adsEstimatedPendingRewards
+        state.adsData.adsNextPaymentDate = data.adsNextPaymentDate
+        state.adsData.adsAdNotificationsReceivedThisMonth = data.adsAdNotificationsReceivedThisMonth
         break
       }
     case types.INIT_AUTOCONTRIBUTE_SETTINGS:

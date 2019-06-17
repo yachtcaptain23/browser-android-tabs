@@ -72,7 +72,7 @@ class SettingsPage extends React.Component<Props, State> {
     }
 
     if (this.props.rewardsData.adsData.adsEnabled) {
-      this.actions.getTransactionHistoryForThisCycle()
+      this.actions.getTransactionHistory()
     }
 
     this.isWalletUrl()
@@ -98,7 +98,7 @@ class SettingsPage extends React.Component<Props, State> {
       !prevProps.rewardsData.adsData.adsEnabled &&
       this.props.rewardsData.adsData.adsEnabled
     ) {
-      this.actions.getTransactionHistoryForThisCycle()
+      this.actions.getTransactionHistory()
     }
 
     if (

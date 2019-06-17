@@ -145,12 +145,12 @@ window.cr.define('brave_rewards', function () {
     getActions().onRecurringTipRemoved(success)
   }
 
-  function transactionHistoryForThisCycle (totalPages: number, estimatedEarnings: number) {
-    getActions().onTransactionHistoryForThisCycle(totalPages, estimatedEarnings)
+  function transactionHistory (data: {adsEstimatedPendingRewards: number, adsNextPaymentDate: string, adsNotificationsReceivedThisMonth: number}) {
+    getActions().onTransactionHistory(data)
   }
 
-  function transactionHistoryForThisCycleChanged () {
-    getActions().onTransactionHistoryForThisCycleChanged()
+  function transactionHistoryChanged () {
+    getActions().onTransactionHistoryChanged()
   }
 
   return {
@@ -179,8 +179,8 @@ window.cr.define('brave_rewards', function () {
     pendingContributionTotal,
     recurringTipRemoved,
     onPendingContributionSaved,
-    transactionHistoryForThisCycle,
-    transactionHistoryForThisCycleChanged
+    transactionHistory,
+    transactionHistoryChanged
   }
 })
 if (document.readyState === "complete"
