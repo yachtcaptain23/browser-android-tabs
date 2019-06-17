@@ -35,20 +35,28 @@ public class BraveAdsSignupDialog {
     public static boolean shouldShowNewUserDialog(Context context) {
         boolean shouldShow =
           PackageUtils.isFirstInstall(context)
-          && shouldViewCountDisplay()
           && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
           && hasElapsed24Hours(context)
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
-        return shouldShow;
+
+        boolean shouldShowForViewCount = shouldShowForViewCount();
+        if (shouldShow) {
+            updateViewCount();
+        }
+        return shouldShow && shouldShowForViewCount;
     }
 
     public static boolean shouldShowExistingUserDialog(Context context) {
         boolean shouldShow =
           !PackageUtils.isFirstInstall(context)
-          && shouldViewCountDisplay()
           && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) || !wasBraveRewardsExplicitlyTurnedOn())
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
-        return shouldShow;
+
+        boolean shouldShowForViewCount = shouldShowForViewCount();
+          if (shouldShow) {
+              updateViewCount();
+          }
+        return shouldShow && shouldShowForViewCount;
     }
 
     public static void showNewUserDialog(Context context) {
@@ -79,7 +87,6 @@ public class BraveAdsSignupDialog {
     }
 
     public static void showExistingUserDialog(Context context) {
-        updateViewCount();
         AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_existing_user_dialog_layout)
         .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
@@ -108,7 +115,7 @@ public class BraveAdsSignupDialog {
         return result;
     }
 
-    private static boolean shouldViewCountDisplay() {
+    private static boolean shouldShowForViewCount() {
         SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
         int viewCount = sharedPref.getInt(SHOULD_SHOW_DIALOG_COUNTER, 0);
         return 0 == viewCount || 20 == viewCount || 40 == viewCount;
