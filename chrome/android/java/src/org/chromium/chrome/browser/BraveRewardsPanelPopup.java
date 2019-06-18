@@ -157,7 +157,12 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     public static boolean isBraveRewardsEnabled() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        return sharedPreferences.getBoolean(BraveRewardsPanelPopup.PREF_IS_BRAVE_REWARDS_ENABLED, true);
+        return sharedPreferences.getBoolean(BraveRewardsPanelPopup.PREF_IS_BRAVE_REWARDS_ENABLED, false);
+    }
+
+    public static boolean wasBraveRewardsExplicitlyTurnedOff() {
+        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+        return sharedPref.contains(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON) && !isBraveRewardsEnabled();
     }
 
     public BraveRewardsPanelPopup(View anchor) {

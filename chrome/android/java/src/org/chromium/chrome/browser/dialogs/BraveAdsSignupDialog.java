@@ -47,9 +47,9 @@ public class BraveAdsSignupDialog {
     public static boolean shouldShowForUserWhoNeverTurnedOnRewards(Context context) {
         boolean shouldShow =
           !PackageUtils.isFirstInstall(context)
-          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) && !wasBraveRewardsExplicitlyTurnedOnAndOff())
+          && !BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
+          && !BraveRewardsPanelPopup.wasBraveRewardsExplicitlyTurnedOff()
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
-
         boolean shouldShowForViewCount = shouldShowForViewCount();
         if (shouldShow) updateViewCount();
 
@@ -59,7 +59,8 @@ public class BraveAdsSignupDialog {
     public static boolean shouldShowExistingUserDialog(Context context) {
         boolean shouldShow =
           !PackageUtils.isFirstInstall(context)
-          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile()) && isBraveRewardsEnabled())
+          && (!BraveAdsNativeHelper.nativeIsBraveAdsEnabled(Profile.getLastUsedProfile())
+          && BraveRewardsPanelPopup.isBraveRewardsEnabled())
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
 
         boolean shouldShowForViewCount = shouldShowForViewCount();
@@ -135,17 +136,5 @@ public class BraveAdsSignupDialog {
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putInt(SHOULD_SHOW_DIALOG_COUNTER, sharedPref.getInt(SHOULD_SHOW_DIALOG_COUNTER, 0) + 1);
         editor.apply();
-    }
-
-    /**
-     * This is by default true unless the user explicitly turned it on.
-     */
-    private static boolean isBraveRewardsEnabled() {
-        return BraveRewardsPanelPopup.isBraveRewardsEnabled();
-    }
-
-    private static boolean wasBraveRewardsExplicitlyTurnedOnAndOff() {
-        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
-        return sharedPref.contains(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON) && !isBraveRewardsEnabled();
     }
 }
