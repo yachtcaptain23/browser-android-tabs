@@ -407,11 +407,15 @@ public class ToolbarTablet extends ToolbarLayout
     }
 
     private boolean mayShowBraveAdsOobeDialog() {
-        if (BraveAdsSignupDialog.shouldShowNewUserDialog(getContext())) {
+        Context context = getContext();
+        if (BraveAdsSignupDialog.shouldShowNewUserDialog(context)) {
             BraveAdsSignupDialog.showNewUserDialog(getContext());
             return true;
-        } else if (BraveAdsSignupDialog.shouldShowExistingUserDialog(getContext())) {
+        } else if (BraveAdsSignupDialog.shouldShowExistingUserDialog(context)) {
             BraveAdsSignupDialog.showExistingUserDialog(getContext());
+            return true;
+        } else if (BraveAdsSignupDialog.shouldShowForUserWhoNeverTurnedOnRewards(context)) {
+            BraveAdsSignupDialog.showNewUserDialog(getContext());
             return true;
         }
         return false;
@@ -560,9 +564,7 @@ public class ToolbarTablet extends ToolbarLayout
 
     @Override
     public void OnNotificationsCount(int count) {
-        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        boolean rewardsEnabled = sharedPreferences.getBoolean(
-            BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
+        boolean rewardsEnabled = BraveRewardsPanelPopup.isBraveRewardsEnabled();
         if (mBraveRewardsNotificationsCount != null && rewardsEnabled) {
             if (count != 0) {
                 String value = Integer.toString(count);
@@ -617,7 +619,7 @@ public class ToolbarTablet extends ToolbarLayout
     public void OnRewardsMainEnabled(boolean enabled) {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
-        sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, enabled);
+        sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_IS_BRAVE_REWARDS_ENABLED, enabled);
         sharedPreferencesEditor.apply();
         if (mBraveRewardsNotificationsCount != null) {
             String count = mBraveRewardsNotificationsCount.getText().toString();
