@@ -24,6 +24,12 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
+import org.chromium.chrome.browser.notifications.BraveAdsNotificationBuilder;
+import org.chromium.chrome.browser.notifications.ChromeNotification;
+import org.chromium.chrome.browser.notifications.NotificationBuilderBase;
+import org.chromium.chrome.browser.notifications.NotificationManagerProxyImpl;
+import org.chromium.chrome.browser.notifications.NotificationMetadata;
+import org.chromium.chrome.browser.notifications.NotificationUmaTracker;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.PackageUtils;
 
@@ -31,6 +37,8 @@ public class BraveAdsSignupDialog {
 
     private static String SHOULD_SHOW_DIALOG_COUNTER = "should_show_dialog_counter";
     private static final long TWENTY_FOUR_HOURS = 86_400_000;
+    private static final int BRAVE_ADS_OOBE_NOTIFICATION_ID = -2;
+    private static String BRAVE_ADS_OOBE_NOTIFICATION_TAG = "brave_ads_oobe_notification_tag";
 
     public static boolean shouldShowNewUserDialog(Context context) {
         boolean shouldShow =
@@ -69,6 +77,20 @@ public class BraveAdsSignupDialog {
         return shouldShow && shouldShowForViewCount;
     }
 
+    private static void showOobeNotification(Context context) {
+        NotificationManagerProxyImpl notificationManager = new NotificationManagerProxyImpl(context);
+        NotificationBuilderBase notificationBuilder =
+          new BraveAdsNotificationBuilder(context)
+              .setTitle("This is a sample ad from Brave")
+              .setBody("This is what an ad will look like")
+              .setOrigin("https://brave.com/brave-rewards");
+
+        ChromeNotification notification = notificationBuilder.build(new NotificationMetadata(
+                NotificationUmaTracker.SystemNotificationType.SITES,
+                BRAVE_ADS_OOBE_NOTIFICATION_TAG /* notificationTag */, BRAVE_ADS_OOBE_NOTIFICATION_ID /* notificationId */));
+        notificationManager.notify(notification);
+    }
+
     public static void showNewUserDialog(Context context) {
         AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_new_user_dialog_layout)
@@ -81,6 +103,7 @@ public class BraveAdsSignupDialog {
 
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+                showOobeNotification(context);
             }
         }).create();
         alertDialog.show();
@@ -102,6 +125,7 @@ public class BraveAdsSignupDialog {
             public void onClick(DialogInterface dialog, int which) {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+                showOobeNotification(context);
             }
         }).create();
         alertDialog.show();
