@@ -70,14 +70,11 @@ public class BraveAdsSignupDialog {
     }
 
     public static void showNewUserDialog(Context context) {
-        updateViewCount();
         AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_new_user_dialog_layout)
         .setPositiveButton(R.string.brave_ads_offer_positive, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // Enable rewards
-                // TODO: Make sure this is a synchronized process and doesn't create 2 wallets for the user
                 BraveRewardsNativeWorker braveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
                 braveRewardsNativeWorker.CreateWallet();
 
