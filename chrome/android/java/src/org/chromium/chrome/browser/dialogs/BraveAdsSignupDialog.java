@@ -76,6 +76,7 @@ public class BraveAdsSignupDialog {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 BraveRewardsNativeWorker braveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+                braveRewardsNativeWorker.GetRewardsMainEnabled();
                 braveRewardsNativeWorker.CreateWallet();
 
                 // Enable ads
