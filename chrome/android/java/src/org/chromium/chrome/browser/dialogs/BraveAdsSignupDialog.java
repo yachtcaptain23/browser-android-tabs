@@ -6,7 +6,8 @@
 
 package org.chromium.chrome.browser.dialogs;
 
-import android.app.Notification;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.DialogInterface;
@@ -25,12 +26,7 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
-import org.chromium.chrome.browser.notifications.BraveAdsNotificationBuilder;
-import org.chromium.chrome.browser.notifications.ChromeNotification;
-import org.chromium.chrome.browser.notifications.NotificationBuilderBase;
-import org.chromium.chrome.browser.notifications.NotificationManagerProxyImpl;
-import org.chromium.chrome.browser.notifications.NotificationMetadata;
-import org.chromium.chrome.browser.notifications.NotificationUmaTracker;
+import org.chromium.chrome.browser.notifications.BraveAdsOobeExampleNotification;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.PackageUtils;
 
@@ -38,8 +34,7 @@ public class BraveAdsSignupDialog {
 
     private static String SHOULD_SHOW_DIALOG_COUNTER = "should_show_dialog_counter";
     private static final long TWENTY_FOUR_HOURS = 86_400_000;
-    private static final int BRAVE_ADS_OOBE_NOTIFICATION_ID = -2;
-    private static String BRAVE_ADS_OOBE_NOTIFICATION_TAG = "brave_ads_oobe_notification_tag";
+    private static final long MOMENT_LATER = 2_500;
 
     public static boolean shouldShowNewUserDialog(Context context) {
         boolean shouldShow =
@@ -78,20 +73,14 @@ public class BraveAdsSignupDialog {
         return shouldShow && shouldShowForViewCount;
     }
 
-    private static void showOobeNotification(Context context) {
-        NotificationManagerProxyImpl notificationManager = new NotificationManagerProxyImpl(context);
-        NotificationBuilderBase notificationBuilder =
-          new BraveAdsNotificationBuilder(context)
-              .setTitle("This is a sample ad from Brave")
-              .setBody("This is what an ad will look like")
-              .setSmallIconId(R.drawable.ic_chrome)
-              .setPriority(Notification.PRIORITY_HIGH)
-              .setOrigin("https://brave.com/brave-rewards");
-
-        ChromeNotification notification = notificationBuilder.build(new NotificationMetadata(
-                NotificationUmaTracker.SystemNotificationType.SITES,
-                BRAVE_ADS_OOBE_NOTIFICATION_TAG /* notificationTag */, BRAVE_ADS_OOBE_NOTIFICATION_ID /* notificationId */));
-        notificationManager.notify(notification);
+    private static void enqueueOobeNotification(Context context) {
+        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+        Intent intent = new Intent(context, BraveAdsOobeExampleNotification.class);
+        am.set(
+            AlarmManager.RTC_WAKEUP,
+            System.currentTimeMillis() + MOMENT_LATER,
+            PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT)
+        );
     }
 
     public static void showNewUserDialog(Context context) {
@@ -106,7 +95,7 @@ public class BraveAdsSignupDialog {
 
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
-                showOobeNotification(context);
+                enqueueOobeNotification(context);
             }
         }).create();
         alertDialog.show();
@@ -128,7 +117,7 @@ public class BraveAdsSignupDialog {
             public void onClick(DialogInterface dialog, int which) {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
-                showOobeNotification(context);
+                enqueueOobeNotification(context);
             }
         }).create();
         alertDialog.show();
