@@ -19,6 +19,7 @@ public class BraveAdsOobeEducationNotification extends BroadcastReceiver {
 
     private static final int BRAVE_ADS_OOBE_NOTIFICATION_ID = -2;
     private static String BRAVE_ADS_OOBE_NOTIFICATION_TAG = "brave_ads_oobe_notification_tag";
+    private static String BRAVE_ADS_OOBE_ORIGIN = "https://brave.com/brave-rewards";
 
     private void showOobeNotification(Context context) {
         NotificationManagerProxyImpl notificationManager = new NotificationManagerProxyImpl(context);
@@ -28,11 +29,15 @@ public class BraveAdsOobeEducationNotification extends BroadcastReceiver {
               .setBody(context.getString(R.string.brave_ads_oobe_education_notification_body))
               .setSmallIconId(R.drawable.ic_chrome)
               .setPriority(Notification.PRIORITY_HIGH)
-              .setOrigin("https://brave.com/brave-rewards");
+              .setOrigin(BRAVE_ADS_OOBE_ORIGIN);
 
-        ChromeNotification notification = notificationBuilder.build(new NotificationMetadata(
-                NotificationUmaTracker.SystemNotificationType.SITES,
-                BRAVE_ADS_OOBE_NOTIFICATION_TAG /* notificationTag */, BRAVE_ADS_OOBE_NOTIFICATION_ID /* notificationId */));
+        ChromeNotification notification = notificationBuilder.build(
+            new NotificationMetadata(
+                NotificationUmaTracker.SystemNotificationType.UNKNOWN /* Underlying code doesn't track UNKNOWN */,
+                BRAVE_ADS_OOBE_NOTIFICATION_TAG /* notificationTag */,
+                BRAVE_ADS_OOBE_NOTIFICATION_ID /* notificationId */
+            )
+        );
         notificationManager.notify(notification);
     }
 

@@ -623,11 +623,11 @@ public class NotificationPlatformBridge {
                     settingsIconId, settingsTitle, pendingSettingsIntent);
 
             ChromeNotification notification = notificationBuilder.build(new NotificationMetadata(
-                    NotificationUmaTracker.SystemNotificationType.SITES,
+                    NotificationUmaTracker.SystemNotificationType.UNKNOWN,
                     notificationId /* notificationTag */, PLATFORM_ID /* notificationId */));
             mNotificationManager.notify(notification);
             NotificationUmaTracker.getInstance().onNotificationShown(
-                    NotificationUmaTracker.SystemNotificationType.SITES,
+                    NotificationUmaTracker.SystemNotificationType.UNKNOWN,
                     notification.getNotification());
         }
     }
