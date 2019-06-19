@@ -137,6 +137,8 @@ public:
         const base::android::JavaParamRef<jobject>& obj,
         const base::android::JavaParamRef<jstring>& jaddress_name);
 
+    void OnAdsResetTheWholeState(bool sucess);
+
     void OnResetTheWholeState(bool sucess);
 
     void OnGetGetReconcileStamp( uint64_t timestamp);
