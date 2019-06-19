@@ -6,6 +6,7 @@
 
 package org.chromium.chrome.browser.dialogs;
 
+import android.app.Notification;
 import android.content.Context;
 import android.content.Intent;
 import android.content.DialogInterface;
@@ -83,6 +84,8 @@ public class BraveAdsSignupDialog {
           new BraveAdsNotificationBuilder(context)
               .setTitle("This is a sample ad from Brave")
               .setBody("This is what an ad will look like")
+              .setSmallIconId(R.drawable.ic_chrome)
+              .setPriority(Notification.PRIORITY_HIGH)
               .setOrigin("https://brave.com/brave-rewards");
 
         ChromeNotification notification = notificationBuilder.build(new NotificationMetadata(
