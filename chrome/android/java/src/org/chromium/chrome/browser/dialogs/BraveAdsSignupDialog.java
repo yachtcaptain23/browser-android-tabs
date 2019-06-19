@@ -6,6 +6,8 @@
 
 package org.chromium.chrome.browser.dialogs;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.DialogInterface;
@@ -24,6 +26,7 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
+import org.chromium.chrome.browser.notifications.BraveAdsOobeEducationNotification;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.PackageUtils;
 
@@ -31,6 +34,7 @@ public class BraveAdsSignupDialog {
 
     private static String SHOULD_SHOW_DIALOG_COUNTER = "should_show_dialog_counter";
     private static final long TWENTY_FOUR_HOURS = 86_400_000;
+    private static final long MOMENT_LATER = 2_500;
 
     public static boolean shouldShowNewUserDialog(Context context) {
         boolean shouldShow =
@@ -69,6 +73,16 @@ public class BraveAdsSignupDialog {
         return shouldShow && shouldShowForViewCount;
     }
 
+    private static void enqueueOobeNotification(Context context) {
+        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+        Intent intent = new Intent(context, BraveAdsOobeEducationNotification.class);
+        am.set(
+            AlarmManager.RTC_WAKEUP,
+            System.currentTimeMillis() + MOMENT_LATER,
+            PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT)
+        );
+    }
+
     public static void showNewUserDialog(Context context) {
         AlertDialog alertDialog = new AlertDialog.Builder(context, R.style.BraveDialogTheme)
         .setView(R.layout.brave_ads_new_user_dialog_layout)
@@ -81,6 +95,7 @@ public class BraveAdsSignupDialog {
 
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+                enqueueOobeNotification(context);
             }
         }).create();
         alertDialog.show();
@@ -102,6 +117,7 @@ public class BraveAdsSignupDialog {
             public void onClick(DialogInterface dialog, int which) {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+                enqueueOobeNotification(context);
             }
         }).create();
         alertDialog.show();
