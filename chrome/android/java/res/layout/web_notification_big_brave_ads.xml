@@ -80,7 +80,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_toStartOf="@+id/work_profile_badge"
                 android:ellipsize="end"
-                style="@style/WebNotificationBodyBig"/>
+                style="@style/WebNotificationBodyBraveAd"/>
 
             <ImageView
                 android:id="@id/work_profile_badge"
