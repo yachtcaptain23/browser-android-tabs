@@ -26,7 +26,7 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
-import org.chromium.chrome.browser.notifications.BraveAdsOobeExampleNotification;
+import org.chromium.chrome.browser.notifications.BraveAdsOobeEducationNotification;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.PackageUtils;
 
@@ -75,7 +75,7 @@ public class BraveAdsSignupDialog {
 
     private static void enqueueOobeNotification(Context context) {
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-        Intent intent = new Intent(context, BraveAdsOobeExampleNotification.class);
+        Intent intent = new Intent(context, BraveAdsOobeEducationNotification.class);
         am.set(
             AlarmManager.RTC_WAKEUP,
             System.currentTimeMillis() + MOMENT_LATER,

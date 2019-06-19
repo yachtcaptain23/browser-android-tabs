@@ -13,7 +13,7 @@ import org.chromium.chrome.browser.notifications.NotificationManagerProxyImpl;
 import org.chromium.chrome.browser.notifications.NotificationMetadata;
 import org.chromium.chrome.browser.notifications.NotificationUmaTracker;
 
-public class BraveAdsOobeExampleNotification extends BroadcastReceiver {
+public class BraveAdsOobeEducationNotification extends BroadcastReceiver {
     public Context mContext;
     private Intent mIntent;
 
@@ -24,8 +24,8 @@ public class BraveAdsOobeExampleNotification extends BroadcastReceiver {
         NotificationManagerProxyImpl notificationManager = new NotificationManagerProxyImpl(context);
         NotificationBuilderBase notificationBuilder =
           new BraveAdsNotificationBuilder(context)
-              .setTitle("This is a sample ad from Brave")
-              .setBody("This is what an ad will look like")
+              .setTitle(context.getString(R.string.brave_ads_oobe_education_notification_title))
+              .setBody(context.getString(R.string.brave_ads_oobe_education_notification_body))
               .setSmallIconId(R.drawable.ic_chrome)
               .setPriority(Notification.PRIORITY_HIGH)
               .setOrigin("https://brave.com/brave-rewards");
