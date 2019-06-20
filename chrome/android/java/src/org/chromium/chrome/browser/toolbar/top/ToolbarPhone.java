@@ -91,6 +91,7 @@ import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.chrome.browser.util.ColorUtils;
 import org.chromium.chrome.browser.util.FeatureUtilities;
 import org.chromium.chrome.browser.util.MathUtils;
+import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.browser.util.ViewUtils;
 import org.chromium.chrome.browser.widget.animation.CancelAwareAnimatorListener;
 import org.chromium.components.feature_engagement.EventConstants;
@@ -2098,7 +2099,26 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             }
         }
 
+        updateNotificationBadgeForNewInstall(rewardsEnabled);
         mayShowBraveAdsOobeDialog();
+    }
+
+    private void updateNotificationBadgeForNewInstall(boolean rewardsEnabled) {
+        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+        boolean shownBefore = sharedPref.getBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, false);
+        boolean shouldShow =
+          PackageUtils.isFirstInstall(getContext())
+          && !shownBefore
+          && !rewardsEnabled
+          && !BraveRewardsPanelPopup.wasBraveRewardsExplicitlyTurnedOff();
+
+        if (!shouldShow) return;
+
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, true);
+        editor.apply();
+        mBraveRewardsNotificationsCount.setText("");
+        mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
     }
 
     @Override
