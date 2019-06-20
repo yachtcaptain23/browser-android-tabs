@@ -4870,11 +4870,8 @@ content creators you love.
       <message name="IDS_BRAVE_ADS_YOU_EARNED" desc='Brave Ads "You earned" text'>
         You've earned
       </message>
-      <message name="IDS_BRAVE_IM_IN_TEXT" desc="I'm in! text for positive buttons.">
-        I'm in!
-      </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_TITLE" desc="Title for default browser notification.">
-        Brave is Lightning Fast
+        Brave is lightning fast
       </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_BODY" desc="Body for default browser notification.">
         Make Brave your default browser!
