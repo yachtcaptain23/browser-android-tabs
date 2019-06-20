@@ -52,13 +52,16 @@ import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
 import org.chromium.base.SysUtils;
 import org.chromium.base.task.AsyncTask;
+import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabModelImpl;
 import org.chromium.chrome.browser.tabmodel.TabLaunchType;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorImpl;
+import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.R;
 import org.chromium.content_public.browser.LoadUrlParams;
 import org.chromium.base.ContextUtils;
@@ -280,14 +283,18 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
         String braveRewardsTitle = root.getResources().getString(R.string.brave_ui_brave_rewards) + COPYRIGHT_SPECIAL;
         ((TextView)root.findViewById(R.id.brave_rewards_id)).setText(braveRewardsTitle);
+        Context context = ContextUtils.getApplicationContext();
         if (btJoinRewards != null) {
           btJoinRewards.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mBraveRewardsNativeWorker != null && false == mWalletCreateInProcess) {
-                  mBraveRewardsNativeWorker.CreateWallet();
-                  mWalletCreateInProcess = true;
-                  startJoinRewardsAnimation();
+                    mBraveRewardsNativeWorker.CreateWallet();
+                    mWalletCreateInProcess = true;
+                    startJoinRewardsAnimation();
+                    if (PackageUtils.isFirstInstall(context)) {
+                        BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+                    }
                 }
             }
           }));
