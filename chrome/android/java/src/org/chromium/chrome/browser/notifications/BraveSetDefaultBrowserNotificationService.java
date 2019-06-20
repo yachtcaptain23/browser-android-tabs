@@ -130,7 +130,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
 
         if (supportsDefault()) {
             PendingIntent intentYes = getDefaultAppSettingsIntent(mContext);
-            NotificationCompat.Action actionYes = new NotificationCompat.Action.Builder(0, mContext.getString(R.string.ddg_offer_positive), intentYes).build();
+            NotificationCompat.Action actionYes = new NotificationCompat.Action.Builder(0, mContext.getString(R.string.brave_make_default_text), intentYes).build();
             NotificationCompat.Action actionNo = new NotificationCompat.Action.Builder(0, mContext.getString(R.string.ddg_offer_negative), getDismissIntent(mContext, NOTIFICATION_ID)).build();
             b.addAction(actionNo);
             b.addAction(actionYes);

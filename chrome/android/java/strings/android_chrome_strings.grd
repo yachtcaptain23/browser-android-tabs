@@ -4876,6 +4876,9 @@ content creators you love.
       <message name="IDS_BRAVE_DEFAULT_BROWSER_BODY" desc="Body for default browser notification.">
         Make Brave your default browser!
       </message>
+      <message name="IDS_BRAVE_MAKE_DEFAULT_TEXT" desc="Text for positive default browser notification button.">
+        Make default
+      </message>
     </messages>
   </release>
 </grit>
