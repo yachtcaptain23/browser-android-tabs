@@ -619,6 +619,13 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             if (null == mRewardsPopup) {
                 mRewardsPopup = new BraveRewardsPanelPopup(v);
                 mRewardsPopup.showLikePopDownMenu();
+                if (mBraveRewardsNotificationsCount.isShown()) {
+                    SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, true);
+                    editor.apply();
+                    mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+                }
             }
         }
     }
@@ -2114,9 +2121,6 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
 
         if (!shouldShow) return;
 
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, true);
-        editor.apply();
         mBraveRewardsNotificationsCount.setText("");
         mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
     }
