@@ -607,7 +607,7 @@ public class ToolbarTablet extends ToolbarLayout
 
         if (!shouldShow) return;
 
-        mBraveRewardsNotificationsCount.setText("1");
+        mBraveRewardsNotificationsCount.setText("");
         mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
     }
 
