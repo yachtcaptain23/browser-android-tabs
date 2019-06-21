@@ -56,6 +56,7 @@ import org.chromium.chrome.browser.toolbar.TabCountProvider;
 import org.chromium.chrome.browser.toolbar.TabCountProvider.TabCountObserver;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.chrome.browser.util.ColorUtils;
+import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.browser.util.FeatureUtilities;
 import org.chromium.ui.UiUtils;
 import org.chromium.ui.base.DeviceFormFactor;
@@ -389,6 +390,13 @@ public class ToolbarTablet extends ToolbarLayout
             if (null == mRewardsPopup) {
                 mRewardsPopup = new BraveRewardsPanelPopup(v);
                 mRewardsPopup.showLikePopDownMenu();
+                if (mBraveRewardsNotificationsCount.isShown()) {
+                    SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, true);
+                    editor.apply();
+                    mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+                }
             }
         }
     }
@@ -584,7 +592,23 @@ public class ToolbarTablet extends ToolbarLayout
             }
         }
 
+        updateNotificationBadgeForNewInstall(rewardsEnabled);
         mayShowBraveAdsOobeDialog();
+    }
+
+    private void updateNotificationBadgeForNewInstall(boolean rewardsEnabled) {
+        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+        boolean shownBefore = sharedPref.getBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, false);
+        boolean shouldShow =
+          PackageUtils.isFirstInstall(getContext())
+          && !shownBefore
+          && !rewardsEnabled
+          && !BraveRewardsPanelPopup.wasBraveRewardsExplicitlyTurnedOff();
+
+        if (!shouldShow) return;
+
+        mBraveRewardsNotificationsCount.setText("");
+        mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
     }
 
     @Override
