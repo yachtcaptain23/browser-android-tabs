@@ -56,6 +56,7 @@ import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.chrome.browser.dialogs.BraveAdsSignupDialog;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabModelImpl;
@@ -295,6 +296,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                     startJoinRewardsAnimation();
                     if (PackageUtils.isFirstInstall(context)) {
                         BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
+                        BraveAdsSignupDialog.enqueueOobeNotification(context);
                     }
                 }
             }
