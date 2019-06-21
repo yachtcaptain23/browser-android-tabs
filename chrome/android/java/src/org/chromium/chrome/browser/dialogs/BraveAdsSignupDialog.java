@@ -73,7 +73,7 @@ public class BraveAdsSignupDialog {
         return shouldShow && shouldShowForViewCount;
     }
 
-    private static void enqueueOobeNotification(Context context) {
+    public static void enqueueOobeNotification(Context context) {
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context, BraveAdsOobeEducationNotification.class);
         am.set(
