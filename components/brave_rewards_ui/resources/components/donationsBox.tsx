@@ -132,7 +132,7 @@ class DonationBox extends React.Component<Props, {}> {
           ? <List title={<StyledListContent>{getLocale('contributionNextDate')}</StyledListContent>}>
             <StyledListContent>
               <NextContribution>
-                {new Intl.DateTimeFormat('default', {month: 'short', day: 'numeric'}).format(reconcileStamp * 1000)}
+                {new Intl.DateTimeFormat('default', { month: 'short', day: 'numeric' }).format(reconcileStamp * 1000)}
               </NextContribution>
             </StyledListContent>
           </List>
