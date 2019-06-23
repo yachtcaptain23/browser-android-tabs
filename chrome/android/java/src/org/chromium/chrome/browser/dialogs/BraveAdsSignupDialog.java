@@ -46,7 +46,7 @@ public class BraveAdsSignupDialog {
 
         boolean shouldShowForViewCount = shouldShowForViewCount();
         if (shouldShow) updateViewCount();
-     
+
         return shouldShow && shouldShowForViewCount;
     }
 
@@ -58,7 +58,7 @@ public class BraveAdsSignupDialog {
           && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile());
         boolean shouldShowForViewCount = shouldShowForViewCount();
         if (shouldShow) updateViewCount();
-     
+
         return shouldShow && shouldShowForViewCount;
     }
 
@@ -71,7 +71,7 @@ public class BraveAdsSignupDialog {
 
         boolean shouldShowForViewCount = shouldShowForViewCount();
         if (shouldShow) updateViewCount();
-     
+
         return shouldShow && shouldShowForViewCount;
     }
 
