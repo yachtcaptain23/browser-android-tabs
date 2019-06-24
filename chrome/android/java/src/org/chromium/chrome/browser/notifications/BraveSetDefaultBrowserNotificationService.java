@@ -145,6 +145,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         Intent intent = new Intent(context, BraveSetDefaultBrowserNotificationService.class);
         intent.setAction(DEEP_LINK);
         intent.putExtra(DEEP_LINK, SHOW_DEFAULT_APP_SETTINGS);
+        intent.putExtra(NOTIFICATION_ID_EXTRA, NOTIFICATION_ID);
         return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
