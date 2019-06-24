@@ -97,6 +97,12 @@ EST แล้ว</string>
     <string name="update_notification_title">อัปเดตของ Brave</string>
     <string name="update_notification_text">เบราว์เซอร์ Brave รุ่นใหม่เร็วขึ้น 22%</string>
     <string name="prefs_sync">Sync (เบต้า)</string>
+    <string name="brave_ads_oobe_education_notification_title">นี่คือตัวอย่างโฆษณาจาก Brave</string>
+    <string name="brave_ads_oobe_education_notification_body">โฆษณาจะมีลักษณะแบบนี้</string>
+    <string name="brave_ads_existing_user_offer_title">Brave Ads อยู่ที่นี่!</string>
+    <string name="brave_ads_new_user_offer_title">เปิดใช้งาน Brave Rewards</string>
+    <string name="brave_ads_offer_text">รับ Basic Attention Token สำหรับการชม โฆษณาที่รักษาความเป็นส่วนตัวใน Brave Rewards</string>
+    <string name="brave_ads_offer_positive">ฉันเข้าร่วมด้วย!</string>
     <string name="brave_sync_description_page_1_part_1">Brave Sync ให้คุณซิงค์ข้อมูลบุ๊กมาร์กระหว่าง Brave Browser บนอุปกรณ์ต่างๆ ของคุณได้อย่างเป็นส่วนตัว</string>
     <string name="brave_sync_description_page_1_part_2">เพียงสแกนรหัสจากกลุ่มการซิงค์ที่คุณสร้างไว้บนอีกอุปกรณ์หนึ่ง หรือเริ่มกลุ่มการซิงค์ใหม่</string>
     <string name="brave_sync_scan_chain_code">สแกนหรือป้อนรหัสการซิงค์</string>
@@ -255,4 +261,10 @@ EST แล้ว</string>
 
     <string name="brave_sync_official">ซิงก์ Brave</string>
     <string name="prefs_sync_official">ซิงก์</string>
+    <string name="notification_category_group_brave_ads">Brave Ads</string>
+    <string name="brave_ads_you_earned">คุณได้รับ</string>
+
+    <string name="brave_default_browser_title">Brave รวดเร็วสุด ๆ </string>
+    <string name="brave_default_browser_body">ทำให้ Brave เป็นเบราว์เซอร์ตั้งต้นของคุณ!</string>
+    <string name="brave_make_default_text">ทำให้เป็นค่าเริ่มต้น</string>
 </resources>

@@ -97,6 +97,12 @@ Lagret</string>
     <string name="update_notification_title">Brave-oppdatering</string>
     <string name="update_notification_text">Den nye nettleseren til Brave er 22 % raskere</string>
     <string name="prefs_sync">Synkronisering (beta)</string>
+    <string name="brave_ads_oobe_education_notification_title">Dette er eksempel på en annonse fra Brave</string>
+    <string name="brave_ads_oobe_education_notification_body">Slik vil en annonse se ut</string>
+    <string name="brave_ads_existing_user_offer_title">Brave Ads er her!</string>
+    <string name="brave_ads_new_user_offer_title">Aktiver Brave Rewards</string>
+    <string name="brave_ads_offer_text">Opptjen Basic Attention Token for å se på personvernbeskyttende annonser i Brave Rewards.</string>
+    <string name="brave_ads_offer_positive">Jeg er inne!</string>
     <string name="brave_sync_description_page_1_part_1">Med Brave-synkronisering kan du synkronisere Brave-nettlesere på ulike enheter slik at du får de samme private bokmerkene på alle.</string>
     <string name="brave_sync_description_page_1_part_2">Skann helt enkelt koden fra synkkjeden du laget på en annen enhet, eller start en ny synkkjede.</string>
     <string name="brave_sync_scan_chain_code">Skann eller angi synkkode</string>
@@ -255,4 +261,10 @@ til å støtte innholdsskapere du liker.</string>
 
     <string name="brave_sync_official">Brave Sync</string>
     <string name="prefs_sync_official">Synkroniser</string>
+    <string name="notification_category_group_brave_ads">Brave Ads</string>
+    <string name="brave_ads_you_earned">Du har opptjent</string>
+
+    <string name="brave_default_browser_title">Brave er lynrask</string>
+    <string name="brave_default_browser_body">Gjør Brave til din standardnettleser!</string>
+    <string name="brave_make_default_text">Sett som standard</string>
 </resources>
