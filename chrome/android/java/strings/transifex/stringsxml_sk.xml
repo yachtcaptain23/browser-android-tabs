@@ -97,6 +97,12 @@ ušetrený čas</string>
     <string name="update_notification_title">Aktualizácia prehliadača Brave</string>
     <string name="update_notification_text">Nový prehliadač Brave je o 22 % rýchlejší</string>
     <string name="prefs_sync">Sync (beta verzia)</string>
+    <string name="brave_ads_oobe_education_notification_title">Toto je ukážka reklamy Brave</string>
+    <string name="brave_ads_oobe_education_notification_body">Takto bude vyzerať reklama</string>
+    <string name="brave_ads_existing_user_offer_title">Reklamy Brave sú tu!</string>
+    <string name="brave_ads_new_user_offer_title">Aktivovať odmeny Brave</string>
+    <string name="brave_ads_offer_text">Získajte v odmenách Brave token základnej pozornosti na prezeranie reklám zameraných na ochranu súkromia.</string>
+    <string name="brave_ads_offer_positive">Som tam!</string>
     <string name="brave_sync_description_page_1_part_1">Aplikácia Brave Sync vám umožňuje súkromne synchronizovať údaje záložiek medzi prehliadačmi Brave na rôznych zariadeniach.</string>
     <string name="brave_sync_description_page_1_part_2">Jednoducho naskenujte kód zo synchronizačného reťazca, ktorý ste vytvorili na inom zariadení. Alebo začnite nový synchronizačný reťazec.</string>
     <string name="brave_sync_scan_chain_code">Naskenujte alebo zadajte synchronizačný kód</string>
@@ -256,4 +262,10 @@ tvorcov obsahu, ktorých máte radi.</string>
 
     <string name="brave_sync_official">Brave synchronizácia</string>
     <string name="prefs_sync_official">Synchronizovať</string>
+    <string name="notification_category_group_brave_ads">Reklamy Brave</string>
+    <string name="brave_ads_you_earned">Zarobili ste</string>
+
+    <string name="brave_default_browser_title">Brave je bleskurýchly</string>
+    <string name="brave_default_browser_body">Premeňte Brave na svoj predvolený prehliadač</string>
+    <string name="brave_make_default_text">Predvolené</string>
 </resources>
