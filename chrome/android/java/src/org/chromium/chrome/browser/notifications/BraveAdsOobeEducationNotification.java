@@ -64,7 +64,7 @@ public class BraveAdsOobeEducationNotification extends BroadcastReceiver {
         String action = intent.getAction();
         if (action != null && action.equals(DEEP_LINK)) {
             ChromeTabbedActivity activity = BraveRewardsHelper.GetChromeTabbedActivity();
-            activity.openNewOrSelectExistingTab(ChromeTabbedActivity.REWARDS_LEARN_MORE_URL);
+            activity.openNewOrSelectExistingTab(BRAVE_ADS_OOBE_ORIGIN);
         } else {
             showOobeNotification(context);
         }
