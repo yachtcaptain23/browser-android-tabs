@@ -99,8 +99,8 @@ Saved</string>
     <string name="update_notification_title">Brave update</string>
     <string name="update_notification_text">The new Brave browser is 22% faster</string>
     <string name="prefs_sync">Sync (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">This is a sample ad from Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">This is what an ad will look like</string>
+    <string name="brave_ads_oobe_education_notification_title">This is your first Brave Ad</string>
+    <string name="brave_ads_oobe_education_notification_body">Tap here to learn more</string>
     <string name="brave_ads_existing_user_offer_title">Brave Ads are here!</string>
     <string name="brave_ads_new_user_offer_title">Enable Brave Rewards</string>
     <string name="brave_ads_offer_text">Earn Basic Attention Token for viewing privacy preserving ads in Brave Rewards.</string>
