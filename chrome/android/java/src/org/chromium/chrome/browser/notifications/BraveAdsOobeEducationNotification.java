@@ -28,7 +28,7 @@ public class BraveAdsOobeEducationNotification extends BroadcastReceiver {
 
     private static final int BRAVE_ADS_OOBE_NOTIFICATION_ID = -2;
     private static String BRAVE_ADS_OOBE_NOTIFICATION_TAG = "brave_ads_oobe_notification_tag";
-    private static String BRAVE_ADS_OOBE_ORIGIN = "https://brave.com/brave-rewards";
+    private static String BRAVE_ADS_OOBE_ORIGIN = "https://www.brave.com/my-first-ad";
     private static final String DEEP_LINK = "deep_link";
 
     private void showOobeNotification(Context context) {
@@ -64,7 +64,7 @@ public class BraveAdsOobeEducationNotification extends BroadcastReceiver {
         String action = intent.getAction();
         if (action != null && action.equals(DEEP_LINK)) {
             ChromeTabbedActivity activity = BraveRewardsHelper.GetChromeTabbedActivity();
-            activity.openNewOrSelectExistingTab(ChromeTabbedActivity.REWARDS_LEARN_MORE_URL);
+            activity.openNewOrSelectExistingTab(BRAVE_ADS_OOBE_ORIGIN);
         } else {
             showOobeNotification(context);
         }
