@@ -99,8 +99,8 @@ gespart</string>
     <string name="update_notification_title">Brave-Update</string>
     <string name="update_notification_text">Der neue Brave-Browser ist 22 % schneller</string>
     <string name="prefs_sync">Synchronisierung (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Dies ist eine Beispielanzeige von Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">So wird eine Anzeige aussehen</string>
+    <string name="brave_ads_oobe_education_notification_title">Dies ist Ihre erste Brave-Werbung</string>
+    <string name="brave_ads_oobe_education_notification_body">Tippen Sie hier, um mehr zu erfahre</string>
     <string name="brave_ads_existing_user_offer_title">Brave Anzeigen sind hier!</string>
     <string name="brave_ads_new_user_offer_title">Brave Rewards aktivieren</string>
     <string name="brave_ads_offer_text">Verdienen Sie Basic Attention Token für das Ansehen datenschutzwahrender Anzeigen in Brave Rewards.</string>

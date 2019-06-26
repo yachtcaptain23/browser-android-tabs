@@ -102,8 +102,6 @@ HTTPS</string>
     <string name="update_notification_title">تحديث Brave</string>
     <string name="update_notification_text">متصفح Brave الجديد أسرع بنسبة 22% </string>
     <string name="prefs_sync">مزامنة (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">هذا هو نموذج إعلاني من Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">هذا هو الشكل الذي سيبدو عليه الإعلان</string>
     <string name="brave_ads_existing_user_offer_title">أصبحت \"إعلانات Brave\" متاحة هنا!</string>
     <string name="brave_ads_new_user_offer_title">قم بتمكين \"مكافآت Brave\"</string>
     <string name="brave_ads_offer_text">اربح \"رمز الانتباه الأساسي\" Basic Attention Token مقابل عرض إعلانات تخص الحفاظ على الخصوصية في \"مكافآت Brave\".</string>
