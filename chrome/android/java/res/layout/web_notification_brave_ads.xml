@@ -24,23 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/icon_frame"
-        android:layout_toStartOf="@id/time"
         android:layout_alignParentTop="true"
         android:singleLine="true"
         android:ellipsize="end"
         style="@style/WebNotificationTitle"/>
-
-    <TextView
-        android:id="@+id/time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@id/title"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:singleLine="true"
-        style="@style/WebNotificationTime"/>
 
     <RelativeLayout
         android:id="@+id/body_container"

@@ -107,22 +107,9 @@ public class BraveAdsNotificationBuilder extends NotificationBuilderBase {
         bigView.setInt(R.id.body, "setMaxLines", calculateMaxBodyLines(fontScale));
         int scaledPadding =
                 calculateScaledPadding(fontScale, mContext.getResources().getDisplayMetrics());
-        String formattedTime = "";
         setChannelId("com.brave.browser.ads");
 
-        // Temporarily allowing disk access. TODO: Fix. See http://crbug.com/577185
-        StrictMode.ThreadPolicy oldPolicy = StrictMode.allowThreadDiskWrites();
-        try {
-            long time = SystemClock.elapsedRealtime();
-            formattedTime = DateFormat.getTimeFormat(mContext).format(new Date());
-            RecordHistogram.recordTimesHistogram("Android.StrictMode.NotificationUIBuildTime",
-                    SystemClock.elapsedRealtime() - time);
-        } finally {
-            StrictMode.setThreadPolicy(oldPolicy);
-        }
-
         for (RemoteViews view : new RemoteViews[] {compactView, bigView}) {
-            view.setTextViewText(R.id.time, formattedTime);
             view.setTextViewText(R.id.title, mTitle);
             view.setTextViewText(R.id.body, mBody);
             view.setImageViewBitmap(R.id.icon, getBraveIcon());
