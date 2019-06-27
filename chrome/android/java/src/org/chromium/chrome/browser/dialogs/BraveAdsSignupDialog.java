@@ -20,6 +20,7 @@ import android.widget.ImageView;
 import android.view.View;
 import java.lang.System;
 
+import org.chromium.base.annotations.CalledByNative;
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
 import org.chromium.chrome.R;
@@ -45,6 +46,7 @@ public class BraveAdsSignupDialog {
 
         boolean shouldShowForViewCount = shouldShowForViewCount();
         if (shouldShow) updateViewCount();
+
         return shouldShow && shouldShowForViewCount;
     }
 
@@ -73,7 +75,12 @@ public class BraveAdsSignupDialog {
         return shouldShow && shouldShowForViewCount;
     }
 
-    public static void enqueueOobeNotification(Context context) {
+    @CalledByNative
+    public static void enqueueOobeNotificationNative() {
+        enqueueOobeNotification(ContextUtils.getApplicationContext());
+    }
+
+    private static void enqueueOobeNotification(Context context) {
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context, BraveAdsOobeEducationNotification.class);
         am.set(
@@ -95,7 +102,6 @@ public class BraveAdsSignupDialog {
 
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
-                enqueueOobeNotification(context);
             }
         }).create();
         alertDialog.show();
@@ -117,7 +123,6 @@ public class BraveAdsSignupDialog {
             public void onClick(DialogInterface dialog, int which) {
                 // Enable ads
                 BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
-                enqueueOobeNotification(context);
             }
         }).create();
         alertDialog.show();
