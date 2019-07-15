@@ -278,7 +278,6 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
      */
     public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.brave.browser";
     public static final String BRAVE_DEVELOPMENT_PACKAGE_NAME = "com.brave.browser_default";
-    public static final String CHANNEL_ID = "com.brave.browser";
 
     private static AppMenuHandlerFactory sAppMenuHandlerFactory =
             (activity, delegate, menuResourceId) -> new AppMenuHandler(activity, delegate,
@@ -575,25 +574,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             app.mBraveSyncWorker = new BraveSyncWorker(this);
         }*/
 
-        createNotificationChannel();
         setupBraveSetDefaultBrowserNotification();
-    }
-
-    private void createNotificationChannel() {
-        Context context = ContextUtils.getApplicationContext();
-        // Create the NotificationChannel, but only on API 26+ because
-        // the NotificationChannel class is new and not in the support library
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            CharSequence name = "Brave Browser";
-            String description = "Notification channel for Brave Browser";
-            int importance = NotificationManager.IMPORTANCE_DEFAULT;
-            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
-            channel.setDescription(description);
-            // Register the channel with the system; you can't change the importance
-            // or other notification behaviors after this
-            NotificationManager notificationManager = getSystemService(NotificationManager.class);
-            notificationManager.createNotificationChannel(channel);
-        }
     }
 
     private void setupBraveSetDefaultBrowserNotification() {

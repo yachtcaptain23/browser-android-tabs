@@ -30,6 +30,7 @@ import org.chromium.chrome.browser.ChromeFeatureList;
 
 import java.util.Calendar;
 import java.util.Random;
+import org.chromium.chrome.browser.notifications.channels.ChannelDefinitions;
 
 public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver {
     public Context mContext;
@@ -118,7 +119,7 @@ public class BraveSetDefaultBrowserNotificationService extends BroadcastReceiver
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putBoolean(HAS_ASKED_AT_FIFTEEN_MINUTES, true);
         editor.apply();
-        NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, ChromeActivity.CHANNEL_ID);
+        NotificationCompat.Builder b = new NotificationCompat.Builder(mContext, ChannelDefinitions.ChannelId.BRAVE);
 
         b.setSmallIcon(R.drawable.ic_chrome)
          .setAutoCancel(false)
